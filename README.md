@@ -20,4 +20,4 @@ NITW re_special_line: https://regex101.com/r/2e55Rf/4
 
 1) Patches the content of created on the previous step "not_patched" directory based on modified by the user"phrazed_translated.txt" and writes all the changes into "patched" directory created on the fly.
 
-From this point you can use files from "patched" directory for NITW-Dialogue-Tool and change Night in the Woods to any way you want from the text viewpoint.
+From now you can provide files from "patched" directory to [NITW-Dialogue-Tool](https://github.com/emberimp/NITW-Dialogue-Tool) and change Night in the Woods any way you want from the text viewpoint.
