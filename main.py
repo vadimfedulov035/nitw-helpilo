@@ -5,8 +5,8 @@ import shutil
 import argparse
 
 
-NAMED_PHRAZES = []
-PHRAZE_ADDRESSES = []
+NAMED_phraseS = []
+phrase_ADDRESSES = []
 APPROVE_NUM = 1
 
 
@@ -65,9 +65,9 @@ def get_span_and_name(re_sp, re_ba):
     return name, span
 
 
-def extract_named_phrazes(decipher_russification=True, translate_emoticons=True):
-    global NAMED_PHRAZES
-    global PHRAZE_ADDRESSES
+def extract_named_phrases(decipher_russification, translate_emoticons):
+    global NAMED_phraseS
+    global phrase_ADDRESSES
     reload("not_patched", mode="dir")
     re_evr_inc = r"(.*?)"
     re_evr_exc = r"(?:.*?)"
@@ -105,33 +105,33 @@ def extract_named_phrazes(decipher_russification=True, translate_emoticons=True)
                 if span != (None, None):
                     idx, jdx = span
                     if decipher_russification:
-                        line, phraze = sub_in_line(line, idx, jdx, chars_table)
+                        line, phrase = sub_in_line(line, idx, jdx, chars_table)
                     else:
-                        phraze = line[idx:jdx]
-                    NAMED_PHRAZES.append(f"{name}{phraze}")
-                    PHRAZE_ADDRESSES.append(f"{filename}/{i + 1}/" + \
-                    f"{idx}/{idx + len(phraze)}")  # in case if replacement happened
+                        phrase = line[idx:jdx]
+                    NAMED_phraseS.append(f"{name}{phrase}")
+                    phrase_ADDRESSES.append(f"{filename}/{i + 1}/" + \
+                    f"{idx}/{idx + len(phrase)}")  # in case if replacement happened
                 lines[i] = line
             text = "\n".join(lines)
             with open(os.path.join("not_patched", filename), "w+", encoding="utf-8") as not_patched_file:
                 not_patched_file.write(text + "\n")
 
 
-def collect_named_phrazes():
-    global NAMED_PHRAZES
-    global PHRAZE_ADDRESSES
+def collect_named_phrases():
+    global NAMED_phraseS
+    global phrase_ADDRESSES
     global APPROVE_NUM
     answers = []
-    name_pre = "phrazes.txt"
-    name_post = "phrazes_translated.txt"
+    name_pre = "phrases.txt"
+    name_post = "phrases_translated.txt"
     approve = "{}/{} approve"
     question = f"Next step will rewrite \"{name_post}\" based on \"{name_pre}\". " + \
     "Do you agree? (y/n): "
     with open(name_pre, "w+", encoding="utf-8") as f:
-        text = "\n".join(NAMED_PHRAZES)
+        text = "\n".join(NAMED_phraseS)
         f.write(text)
-    with open("phraze_addresses.txt", "w+", encoding="utf-8") as f:
-        text = "\n".join(PHRAZE_ADDRESSES)
+    with open("phrase_addresses.txt", "w+", encoding="utf-8") as f:
+        text = "\n".join(phrase_ADDRESSES)
         f.write(text)
     for i in range(APPROVE_NUM):
         approve_question = f"{approve} | {question}"
@@ -146,36 +146,37 @@ def collect_named_phrazes():
         print("You've answered nothing once or more times! Abort!")
 
 
-def patch_based_on_translated_named_phrazes():
+def patch_based_on_translated_named_phrases(translate_emoticons):
     reload("patched", mode="dir")
-    with open("phrazes_translated.txt", "r", encoding="utf-8") as translation_file, \
-         open("phraze_addresses.txt", "r", encoding="utf-8") as address_file:
-        named_phrazes_translated = translation_file.readlines()
-        named_phrazes_translated = [line.rstrip() for line in named_phrazes_translated]
-        named_phrazes_translated = [re.split(":", line) for line in named_phrazes_translated]
-        phrazes_translated = ["".join(phraze).lstrip() for (name, *phraze) in named_phrazes_translated]
-        phraze_addresses = address_file.readlines()
-        phraze_addresses = [line.rstrip() for line in phraze_addresses]
-        phraze_addresses = [line.split("/") for line in phraze_addresses]
+    with open("phrases_translated.txt", "r", encoding="utf-8") as translation_file, \
+         open("phrase_addresses.txt", "r", encoding="utf-8") as address_file:
+        named_phrases_translated = translation_file.readlines()
+        named_phrases_translated = [line.rstrip() for line in named_phrases_translated]
+        named_phrases_translated = [re.split(":", line) for line in named_phrases_translated]
+        phrases_translated = ["".join(phrase).lstrip() for (name, *phrase) in named_phrases_translated]
+        phrase_addresses = address_file.readlines()
+        phrase_addresses = [line.rstrip() for line in phrase_addresses]
+        phrase_addresses = [line.split("/") for line in phrase_addresses]
         occs = {}
         for filename in os.listdir("not_patched"):
-            occs[filename] = [i for i, phraze_address in enumerate(phraze_addresses) if phraze_address[0] == filename]
+            occs[filename] = [i for i, phrase_address in enumerate(phrase_addresses) if phrase_address[0] == filename]
         for filename in os.listdir("not_patched"):
             with open(os.path.join("not_patched", filename), "r", encoding="utf-8") as not_patched_file, \
                  open(os.path.join("patched", filename), "w", encoding="utf-8") as patched_file:
                 lines = not_patched_file.readlines()
                 lines = [line.rstrip() for line in lines]
                 for occ in occs[filename]:
-                    filename, line_num, idx, jdx = phraze_addresses[occ]
+                    filename, line_num, idx, jdx = phrase_addresses[occ]
                     line_i = int(line_num) - 1
                     idx, jdx = int(idx), int(jdx)
-                    phraze_translated = phrazes_translated[occ]
+                    phrase_translated = phrases_translated[occ]
                     line_translated = f"{lines[line_i][:idx]}" + \
-                    f"{phraze_translated}{lines[line_i][jdx:]}"
-                    if occ == 21974:
-                        print(phraze_translated)
+                    f"{phrase_translated}{lines[line_i][jdx:]}"
                     lines[line_i] = line_translated
                 text = "\n".join(lines)
+                if translate_emoticons:
+                    for key, value in emoticons_table.items():
+                        text = re.sub(value, re.escape(key), text)
                 patched_file.write(text + "\n")
 
 
@@ -191,14 +192,14 @@ def main():
     parser.add_argument("-r", "--rus", dest="decipher_russification",
                         help=HELP_MSGS[1], action="store_true", default=False)
     parser.add_argument("-e", "--emoticons", dest="translate_emoticons",
-                        help=HELP_MSGS[2], action="store_false", default=True)
+                        help=HELP_MSGS[2], action="store_true", default=False)
     args = parser.parse_args()
 
     if args.patch:
-        patch_based_on_translated_named_phrazes()
+        patch_based_on_translated_named_phrases(args.translate_emoticons)
     else:
-        extract_named_phrazes(args.decipher_russification, args.translate_emoticons)
-        collect_named_phrazes()
+        extract_named_phrases(args.decipher_russification, args.translate_emoticons)
+        collect_named_phrases()
 
 
 if __name__ == "__main__":
