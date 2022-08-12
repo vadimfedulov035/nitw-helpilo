@@ -5,7 +5,7 @@ import shutil
 import argparse
 
 
-NAMED_phraseS = []
+NAMED_PHRASES = []
 phrase_ADDRESSES = []
 APPROVE_NUM = 1
 
@@ -66,7 +66,7 @@ def get_span_and_name(re_sp, re_ba):
 
 
 def extract_named_phrases(decipher_russification, translate_emoticons):
-    global NAMED_phraseS
+    global NAMED_PHRASES
     global phrase_ADDRESSES
     reload("not_patched", mode="dir")
     re_evr_inc = r"(.*?)"
@@ -108,7 +108,7 @@ def extract_named_phrases(decipher_russification, translate_emoticons):
                         line, phrase = sub_in_line(line, idx, jdx, chars_table)
                     else:
                         phrase = line[idx:jdx]
-                    NAMED_phraseS.append(f"{name}{phrase}")
+                    NAMED_PHRASES.append(f"{name}{phrase}")
                     phrase_ADDRESSES.append(f"{filename}/{i + 1}/" + \
                     f"{idx}/{idx + len(phrase)}")  # in case if replacement happened
                 lines[i] = line
@@ -118,7 +118,7 @@ def extract_named_phrases(decipher_russification, translate_emoticons):
 
 
 def collect_named_phrases():
-    global NAMED_phraseS
+    global NAMED_PHRASES
     global phrase_ADDRESSES
     global APPROVE_NUM
     answers = []
@@ -128,7 +128,7 @@ def collect_named_phrases():
     question = f"Next step will rewrite \"{name_post}\" based on \"{name_pre}\". " + \
     "Do you agree? (y/n): "
     with open(name_pre, "w+", encoding="utf-8") as f:
-        text = "\n".join(NAMED_phraseS)
+        text = "\n".join(NAMED_PHRASES)
         f.write(text)
     with open("phrase_addresses.txt", "w+", encoding="utf-8") as f:
         text = "\n".join(phrase_ADDRESSES)
