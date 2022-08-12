@@ -1,0 +1,614 @@
+title: ApproachHuncherDoor
+tags: 
+colorID: 0
+position: 313,163
+---
+<<set $huncher_intro to 1>>
+<<musicFadeOut 10>>
+<<speechBubbleSizeOverride 1.5>>
+HuncherOutside: Who's that walking on my porch? #line:30571f
+Adina: Hello? #line:d131d2
+HuncherOutside: Oh girl, it's all over now. #line:1bdf69
+<<close>>
+<<speechBubbleSizeOverride 0>>
+<<hide HuncherOutside 1>>
+<<wait 1>>
+<<playOneShot event:/lost_constellation/teleport Adina>>
+<<fadeOut .5 1 1 1>>
+<<wait .5>>
+<<hide SceneLink:HuncherInterior>>
+<<warp Adina WarpHuncherInterior>>
+<<clearSnowballs>>
+<<wait 1>>
+<<fadeIn .5 1 1 1>>
+<<spawn BAMF Adina>>
+<<wait 1>>
+
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -305,28
+---
+<<hide HuncherOutside>>
+<<hide HuncherSisterGhost>>
+<<set $skeleton_arm to 0>>
+<<set $skeleton_arm_fire to 0>>
+<<set $skeleton_arm_done to 1>>
+<<if $kicked_out_of_huncher_house is 1>>
+	<<hide SceneLink:HuncherExterior>>
+<<endif>>
+<<if $huncher_sister_convo > 0>>
+	<<scene LN2_LostWoods>>
+<<endif>>
+===
+title: ApproachHuncherInside
+tags: 
+colorID: 0
+position: 340,607
+---
+<<tell HuncherMusic to Play>>
+HuncherInside: There are old bodies in the north. #line:91fe77
+HuncherInside: Where the ground never thaws. #line:c0b484
+HuncherInside: Frozen in the dirt and ice for millenia. #line:5b9694
+HuncherInside: In some of them there is a sickness against which we are no longer strong. #line:49aed8
+<<tell HuncherKid to PlayInstrument>>
+HuncherInside: Someday the earth will warm, and the ice will melt. #line:a7bcd8
+HuncherInside: And that sickness will finish the work on us #line:d73926
+HuncherInside: that began when we were first born. #line:552b36
+Adina: ... #line:a9e4c8
+<<setTalkAnimType HuncherInside 2>>
+HuncherInside: [shake=.02]KID! Will you please stop that honking?[/shake] #line:f87047
+<<setTalkAnimType HuncherInside 1>>
+HuncherKid: Nope. #line:7c4070
+HuncherInside: Fine, kid, fine. #line:e9986b
+HuncherInside: I'm going to leave you where they'll never find you. #line:3afd4a
+HuncherKid: Ha ha ha. #line:6b61ed
+[[I'm sorry, am I interrupting something?|InterruptingSomething]] #line:33b190
+[[I need to get to the Frozen Lake.|NeedFrozenLake]] #line:572e33
+<<show SceneLink:HuncherInterior>>
+<<set $huncher to 1>>
+
+===
+title: HuncherStop
+tags: 
+colorID: 0
+position: -264,564
+---
+<<if $huncher < 2>>
+	HuncherInside: Stop. #line:1906a1
+	Adina: UGHK! #line:96baa6
+	Adina: I can't move. This hurts. Stop. #line:2f8f4b
+	HuncherInside: Come no closer. #line:12d4f4
+	<<set $huncher to 2>>
+<<elseif $huncher is 2>>
+	HuncherInside: Stop. #line:bc99fc
+	Adina: UGHK! #line:eb1abc
+<<endif>>
+
+===
+title: AngryHuncherFix
+tags: 
+colorID: 0
+position: 606,366
+---
+<<set $huncher_outside to 1>>
+<<hide HuncherInside>>
+<<hide SceneLink:HuncherExterior>>
+<<show SceneLink:HuncherInterior>>
+<<hide TriggerDialogue:ApproachHuncherInside>>
+<<tell HuncherMusic to Play>>
+<<trackAllSpeechBubblesToCharacters 1>>
+<<if $huncher_fix is 0>>
+	Adina: !!! #line:7f4ab1
+<<elseif $huncher_fix is 1>>
+	Adina: Here she comes... #line:e44836
+<<elseif $huncher_fix is 2>>
+	Adina: I need somewhere to hide! #line:e46c25
+<<elseif $huncher_fix is 3>>
+	Adina: To the brambles! #line:614e4e
+<<else>>
+	Adina: Ready! #line:6a3d07
+<<endif>>
+<<tell WinchElevator to SetBottom>>
+<<warp HuncherKid HuncherKidStand>>
+<<animationTrigger HuncherKid Stand>>
+<<tell HuncherKid to StopInstrument>>
+<<flip HuncherKid 1>>
+<<wait .5>>
+<<close>>
+<<wait .5>>
+<<trackAllSpeechBubblesToCharacters 0>>
+<<warp HuncherOutside WarpHuncherExterior>>
+<<spawn BAMF HuncherBAMF>>
+<<flip HuncherOutside 1>>
+<<show HuncherOutside .5>>
+<<wait .5>>
+<<if $player_in_left_brambles is 0 and $player_in_right_brambles is 0>>
+	[[PlayerCaught]]
+<<else>>
+	<<if $player_in_left_brambles > 0 or $player_in_right_brambles > 0>>
+		<<walk HuncherOutside HuncherFix>>
+		<<show SceneLink:HuncherExterior>>
+		<<if $huncher_fix is 0>>
+			HuncherOutside: Damn Squirrels! #line:9cf09e
+		<<elseif $huncher_fix is 1>>
+			HuncherOutside: Damn Squirrels won't take a break.  #line:65b972
+		<<elseif $huncher_fix is 2>>
+			HuncherOutside: Squirrels? #line:c27229
+		<<else>>
+			HuncherOutside: Squirrels. #line:7a922f
+		<<endif>>
+		<<close>>
+		<<wait .5>>
+		<<setAnimInt HuncherOutside waggleArms 1>>
+		HuncherOutside: North wind, black wind, wolf in the dark! #line:eff14f
+		<<wait 3>>
+		HuncherOutside: Ugh, this weather never behaves. #line:169112
+		<<wait 2>>
+		HuncherOutside: Gotta say the whole damn thing every time. #line:6d24bb
+		<<wait 2>>
+		HuncherOutside: Blue fire in the north! I have discovered your secret name! #line:b1b57e
+		<<wait 2>>
+		HuncherOutside: I have buried it deep in the earth, and upon it built a house! #line:7da3ca
+		<<wait 2>>
+		HuncherOutside: You must obey this house! #line:c72cad
+		<<wait 2>>
+		HuncherOutside: Now, blow west! #line:247652
+		<<tell SnowWeathervane to Reset>>
+		<<wait .5>>
+		<<wait 1.5>>
+		<<setAnimInt HuncherOutside waggleArms 0>>
+		HuncherOutside: Ok, that's done. #line:f2054a
+		<<wait 2>>
+		<<close>>
+		<<animationTrigger HuncherOutside Idle>>
+		<<if $player_in_house is 1>>
+			<<wait 10>>
+		<<endif>>
+		<<hide SceneLink:HuncherExterior>>
+        <<if $player_in_left_brambles is 0 and $player_in_right_brambles is 0 and $player_in_house is 0>>
+        	[[PlayerCaught]]
+        <<endif>>
+		<<flip HuncherOutside -1>>
+		<<walk HuncherOutside HuncherDoor wait>>
+        <<if $player_in_left_brambles is 0 and $player_in_right_brambles is 0 and $player_in_house is 0>>
+        	[[PlayerCaught]]
+        <<endif>>
+		<<set $huncher_outside to 0>>
+		<<spawn BAMF HuncherBAMF>>
+		<<hide HuncherOutside 0>>
+		<<wait 1>>
+		<<warp HuncherOutside WarpHuncherInterior>>
+        <<flip HuncherOutside 1>>
+        <<spawn BAMF HuncherBAMF>>
+		<<show HuncherOutside 1>>
+		<<if $player_in_house > 0>>
+			[[PlayerCaught]]
+		<<else>>
+			[[CleanUpHuncher]]
+		<<endif>>
+	<<else>>
+		[[PlayerCaught]]
+	<<endif>>
+<<endif>>
+
+===
+title: PlayerCaught
+tags: 
+colorID: 0
+position: 896,134
+---
+<<stopGlobalDialogue>>
+<<freezePlayer>>
+<<setTalkAnimType HuncherOutside 2>>
+<<if $player_in_house is 1>>
+	<<set $player_caught_inside += 1>>
+<<else>>
+	<<set $player_caught_outside += 1>>
+<<endif>>
+<<setAnimInt HuncherOutside waggleArms 0>>
+<<if $huncher_fix is 0>>
+	HuncherOutside: [shake=.015]Down you go![/all] #line:484c12
+<<elseif $huncher_fix is 1>>
+	<<if $player_in_house>>
+		HuncherOutside: [shake=.015]Get out of my house![/shake]
+	<<else>>
+		HuncherOutside: [shake=.015]Stay off my porch![/shake] #line:275983
+	<<endif>>
+<<elseif $huncher_fix is 2>>
+	HuncherOutside: [shake=.02]Accept it! You're freezing in the brambles tonight![/shake] #line:43928c
+<<else>>
+	HuncherOutside: [shake=.02]Get away![/shake] #line:f6f7d3
+<<endif>>
+<<setTalkAnimType HuncherOutside 1>>
+<<freezePlayer>>
+<<setAnimInt HuncherOutside waggleArms 1>>
+<<set $kicked_out_of_huncher_house to 1>>
+<<fadeOut .5 1 1 1>>
+<<playOneShot event:/lost_constellation/teleport Adina>>
+<<wait 1>>
+<<warp Adina PlayerRejected>>
+<<playerFace 1>>
+<<wait 1>>
+<<fadeIn .5 1 1 1>>
+<<spawn BAMF Adina>>
+<<freezePlayer>>
+<<set $player_was_caught to 1>>
+[[CleanUpHuncher]]
+
+===
+title: CleanUpHuncher
+tags: 
+colorID: 0
+position: 903,586
+---
+<<musicFadeOut 8>>
+<<setAnimInt HuncherOutside waggleArms 0>>
+<<flip HuncherOutside 1>>
+<<hide HuncherOutside>>
+<<show HuncherInside>>
+<<set $huncher_outside to 0>>
+<<if $kicked_out_of_huncher_house is 0>>
+	<<show SceneLink:HuncherExterior>>
+<<else>>
+	<<hide SceneLink:HuncherExterior>>
+<<endif>>
+<<set $huncher_fix += 1>>
+<<tell WinchElevator to SetTop>>
+<<tell SnowWeathervane to Reset>>
+<<warp HuncherKid HuncherKidSit>>
+<<animationTrigger HuncherKid Sit>>
+<<tell HuncherKid to PlayInstrument>>
+<<flip HuncherKid -1>>
+
+<<if $player_was_caught is 0>>
+	<<unfreezePlayer>>
+<<else>>
+	[[PlayerReactionToGettingCaught]]
+<<endif>>
+
+		
+
+===
+title: NeedSpecialKeyItem
+tags: 
+colorID: 0
+position: 903,-96
+---
+<<if $player_caught_inside > 0>>
+	Adina: There was something in that house. If I was just quick enough... #line:d1ef53
+<<elseif $player_caught_inside is 0>>
+	Adina: Need something special for this. #line:27c591
+	Adina: Oh god, I have to get back into that house. #line:b5c23a
+	Adina: This is the worst Longest Night ever. #line:febd25
+<<endif>>
+
+===
+title: Snowproblem
+tags: 
+colorID: 0
+position: 314,-71
+---
+Snowproblem: ... #line:875a8e
+
+===
+title: NeedFrozenLake
+tags: 
+colorID: 0
+position: 340,851
+---
+HuncherInside: When you're out there tonight, freezing, #line:0c63bb
+HuncherInside: will you look for my ring? #line:2dd1ce
+HuncherInside: Once something's down in the brambles I can never see it. #line:2063a0
+HuncherKid: I found your ring last week. #line:b6c0b4
+HuncherInside: Oh! So you did. #line:00e22d
+HuncherInside: It's my second most prized possession. #line:1d822b
+HuncherInside: I keep the most prized in a shrine, so precious is it to me. #line:1497d6
+HuncherInside: And so painful. We have to keep the precious and painful close. #line:30c4ac
+Adina: I feel like we keep getting off-track here. #line:12b3c5
+HuncherInside: *sniff sniff* #line:dc6c4e
+HuncherInside: I can smell the Forest God's blessing on you. #line:772a6f
+HuncherInside: If you knew anything you'd wash until it came off with your skin. #line:e86089
+HuncherInside: When you leave, you're going down into the brambles like all the others. #line:3d7fd0
+HuncherInside: When I have to go outside to fix the weather #line:3a4888
+HuncherInside: because the weathervane got knocked around, AGAIN... #line:ef71c4
+HuncherKid: It's a really stupid system you have going there. #line:e7729e
+HuncherInside: ...when I get out to do that #line:7dde17
+HuncherInside: I'll look out on the hollow, and nothing will be stirring. #line:8c4f20
+HuncherInside: And that will be what happened to you. #line:d30758
+Adina: Why don't you just kill me now, then? #line:cdd88e
+HuncherInside: Because of that smell. #line:b9ac6e
+
+===
+title: InterruptingSomething
+tags: 
+colorID: 0
+position: 103,851
+---
+HuncherInside: I think you know the answer. You just showed up. #line:b60dc5
+HuncherInside: Ugh, we all just show up. #line:900186
+HuncherInside: Staying is the problem. #line:f4904e
+HuncherInside: But you won't have to worry about that. #line:a4b55b
+HuncherInside: Will you? #line:e74338
+[[Is that an extremely vague threat?|VagueThreat]] #line:eb7b70
+[[Actually, I need to get to the Frozen Lake.|NeedFrozenLake]] #line:79076f
+===
+title: VagueThreat
+tags: 
+colorID: 0
+position: 102,1083
+---
+HuncherKid: Her? Vague threats? #line:f422e9
+HuncherInside: Oh, I'll get specific with you, kid. #line:ad5b5d
+HuncherInside: I'm going to bury your pieces in a lonely hollow. #line:bc82a4
+HuncherInside: Not even bury them! I didn't bury the last one. #line:2ea9eb
+HuncherInside: And SHE did chores! #line:629129
+HuncherInside: Your family will never find you. #line:e2e278
+HuncherKid: Oh no. Not that. #line:908ce2
+[[Is this your normal dynamic?|NormalDynamic]] #line:37e7a4
+[[*AHEM.* I need to get to the Frozen Lake.|NeedFrozenLake]] #line:a20e89
+===
+title: NormalDynamic
+tags: 
+colorID: 0
+position: 339,1083
+---
+HuncherInside: This is the dynamic of everything. #line:c3d17b
+HuncherInside: No different for her. #line:ef0f22
+HuncherInside: They didn't even give you a name back at the sawmill, did they, kid? #line:f90ee6
+HuncherInside: Just kid? #line:588ce5
+HuncherKid: Excuse me, the full name was Sawmill Kid. #line:80f0d1
+HuncherInside: Well, now you're just kid. #line:6af004
+Adina: They didn't name you? #line:eac05e
+HuncherKid: ... #line:ad4be3
+HuncherInside: You never realize how little and how much you need a name #line:09a4c1
+HuncherInside: until they refuse you yours. #line:0acc41
+Adina: Huh. #line:ed10fb
+Adina: I'm sorry to keep steering us back to this, #line:5420c8
+Adina: but I must reach the Frozen Lake. #line:0f8534
+[[NeedFrozenLake]]
+===
+title: HuncherInside.1
+tags: 
+colorID: 0
+position: 573,852
+---
+HuncherInside: What are you, anyway? #line:54113b
+Adina: I'm an astronomer. Former apprentice. #line:9b7671
+Adinda: First in my observatory, actually. #line:e2bae1
+HuncherInside: Oh honey, all of those stars in your head. #line:30e496
+HuncherInside: They will go out like candles tonight. #line:cdae20
+Adina: What are you? #line:5655f6
+HuncherInside: The Forest God isn't really a god. #line:9dd048
+HuncherInside: I am twice their size. #line:2bd351
+HuncherInside: I am twice as real. #line:120b58
+HuncherInside: Honestly, whoever you are, even you're twice as real as they are. #line:199ef4
+Adina: Adina. Adina Astra. #line:3206bb
+HuncherInside: A ridiculous name. You named yourself. I can tell. #line:9b9066
+HuncherInside: ...just the last part. #line:3ca1c3
+HuncherInside: Now, what would make a little girl change her last name? #line:655867
+Adina: Nothing you'd understand. #line:1fe9aa
+HuncherInside: You don't know a thing about it. I came from somewhere. #line:488083
+HuncherInside: As did the woman before me. #line:85cf5f
+HuncherInside: And we found the cabin, and I fed the oven. #line:5a9d58
+HuncherInside: And we survived, and then I survived. #line:a9bba5
+HuncherInside: And the quarrel with the Forest God went on for centuries. #line:b78a1f
+HuncherInside: Until it ended. Quite recently. #line:456415
+HuncherKid: Well- #line:ba0c9c
+HuncherInside: SHUT IT, KID. #line:9d3ffe
+HuncherInside: I swear if I wasn't physically present in here she'd talk about anything. #line:d9f872
+
+===
+title: HuncherInside.2
+tags: 
+colorID: 0
+position: 798,852
+---
+Adina: Are you a witch? #line:754ba9
+HuncherInside: What is a witch? You mean the women in the woods? #line:38bb9d
+HuncherInside: A man in the woods is a hermit or a woodsman or a huntsman. #line:4b1dc0
+HuncherInside: They didn't have a name for women who weren't where they should be. #line:a54127
+HuncherInside: So they stole a name they feared and hated #line:47446b
+HuncherInside: and pressed it onto us. #line:9b1099
+HuncherKid: Onto you. The word they use for girls like me is "kidnapped". #line:dc76f6
+HuncherInsdie: *sigh* #line:fe6a74
+HuncherInside: This one. Every day, I swear. #line:24e6a7
+HuncherInside: Won't do chores. #line:e49db5
+HuncherInside: Back-sass. Sass-mouth. #line:594a22
+Adina: Why not send her back where she came from? #line:210c33
+HuncherInside: That is the one question to which I have no answer. #line:4bef0a
+
+===
+title: HuncherInside.3
+tags: 
+colorID: 0
+position: 1024,851
+---
+HuncherInside: We're done talking. #line:31ac92
+HuncherInside: I'm sorry, Adina Astra. #line:153458
+HuncherInside: I know you wanted to live #line:3a36eb
+HuncherInside: But I've taken that future from you #line:9a175c
+HuncherInside: And it's mine now. #line:763b38
+HuncherInside: And you can't take it back. #line:b1c622
+<<set $kicked_out_of_huncher_house to 1>>
+<<playOneShot event:/lost_constellation/teleport Adina>>
+<<fadeOut .5 1 1 1>>
+<<set $huncher_exit_enabled to 1>>
+<<musicFadeOut 10>>
+<<wait .5>>
+<<warp Adina PlayerRejected>>
+<<playerFace 1>>
+<<wait 1>>
+<<fadeIn .5 1 1 1>>
+<<spawn BAMF Adina>>
+<<hide SceneLink:HuncherExterior>>
+
+===
+title: HuncherSisterConvo
+tags: 
+colorID: 0
+position: -7,426
+---
+<<musicFadeOut 1>>
+<<clearSnowballs>>
+<<show HuncherOutside .1>>
+<<warp HuncherOutside HuncherSnowproblemsSpawn>>
+<<wait .5>>
+<<playerFace -1>>
+Snowproblem: What? No. No. #line:d5702d
+<<playerFace -1>>
+Snowproblem: *cough* *cough* *cough* #line:c7082b
+<<playerFace -1>>
+Snowproblem: NOOOOOOOOOOOOOO!!!! #line:bcfc7e
+<<close>>
+<<playOneShot event:/lost_constellation/ghost_appear HuncherSisterGhost>>
+<<show HuncherSisterGhost 4>>
+<<wait 4>>
+<<spawn BAMF HuncherBAMF>>
+<<wait 1>>
+<<walk HuncherOutside HuncherNextToSnowman wait>>
+HuncherOutside: What is this? #line:444f0e
+HuncherOutside: Oh. Oh god. No. #line:05979d
+HuncherOutside: Girl, what have you done? #line:cad6b4
+HuncherSisterGhost: [wave][size=.85]You... you watched it happen![/all] #line:64cb5f
+HuncherSisterGhost:{width=8} [wave][size=.75]YOU WAAAAAAAAAAAAAATCHED![/all] #line:83d561
+HuncherOutside: It wasn't me! It was this place! #line:b02ee9
+HuncherSisterGhost: [wave][size=.85]It was the oven. It was what you became.[/all] #line:435556
+HuncherOutside: I didn't get to choose what happened to me! #line:9c96a8
+HuncherSisterGhost: [wave][size=.85]I was so cold. I was so afraid.[/all] #line:ca211e
+HuncherOutside: I had to survive! #line:9a049e
+HuncherSisterGhost: [wave][size=.85]and I did not.[/all] #line:fe3672
+Adina: What is this? Who are you? #line:08c26f
+HuncherOutside: Don't you dare speak, you waste of a girl. #line:bb98ed
+HuncherSisterGhost: [wave][size=.85]I was her twin! We fled into the woods, identical in all things[/all] #line:94f283
+HuncherSisterGhost: [wave][size=.85]except one.[/all] #line:0b3835
+HuncherSisterGhost: [wave][size=.85]When she pulled my body from the water[/all] #line:f88f20
+HuncherSisterGhost: [wave][size=.85]the only part of me she kept[/all] #line:e48ee5
+HuncherSisterGhost: [wave][size=.85]was the tattoo.[/all] #line:76fabf
+HuncherOutside: I've kept it close to me all down the centuries. #line:3d27fd
+HuncherSisterGhost: [wave][size=.85]I believed in some idea of you...[/all] #line:339c47
+HuncherSisterGhost: [wave][size=.85]that is as long dead as i am now.[/all] #line:76a9bf
+HuncherSisterGhost: [wave][size=.85]but you survived.[/all] #line:58040e
+HuncherOutside: I... I... #line:0c0e45
+Adina: Oh my god. I'm so sorry. I'm so sorry for this. #line:fedd77
+HuncherOutside: Get out. #line:fc9179
+Adina: I'm sorry!!! I never meant to- #line:5422cd
+<<setTalkAnimType HuncherOutside 2>>
+HuncherOutside:{width=8, angryWobble=5} [shake=.05]GET OOOOOOOOOOOOOOOOOOOOUT![/shake] #line:4568ff
+<<set $huncher_sister_convo to 1>>
+<<set $day to 3>>
+<<playOneShot event:/lost_constellation/teleport Adina>>
+<<fadeOut .5 1 1 1>>
+<<wait .5>>
+<<wait .5>>
+<<fadeColor 1 0 0 0>>
+<<wait 1>>
+<<showTalkingHeads>>
+Mae:... #line:6f84b9
+Granddad: Yes, Mae? #line:1d72c3
+Mae: What is this story about? #line:cf28dd
+Granddad: What do you want it to be about? #line:08467a
+Mae: If I get to choose what it's about, it's not about anything. #line:c7cfd0
+Granddad: Huh. That's quite a statement. #line:12f046
+Mae: I'm really smart. #line:b84f2a
+Granddad: Well you came up with that plan to rob banks #line:f46c8e
+Granddad: so clearly you're onto something. #line:458623
+Mae: I want to know what this is about. #line:da6a73
+Granddad: I think you have to figure that out on your own. #line:e2790b
+Mae: ... #line:173b38
+Mae: I don't like that. #line:2c480d
+<<hideTalkingHeads>>
+<<wait 1>>
+<<scene LN2_LostWoods>>
+
+===
+title: HuncherKid.1
+tags: 
+colorID: 0
+position: 1338,-115
+---
+Adina: I can get you out of here. #line:bb151e
+HuncherKid: You can't even get yourself out of here. #line:884ffe
+HuncherKid: I can barely get out of the attic #line:1a7c96
+HuncherKid: and away from that extremely creepy shrine. #line:bf4583
+Adina: It's not safe for you here. #line:22d5c0
+HuncherKid: Did you know, I made that poison and she never even thanked me? #line:432c9a
+HuncherKid: She'll take all the credit for it! #line:7613a5
+Adina: what? #line:8041d4
+HuncherKid: I know, right? #line:2efeb6
+HuncherKid: Murdering a god isn't something you want to let someone else take credit for. #line:a1883c
+Adina: Oh my god. #line:91ac52
+<<set $forest_god_poison to 1>>
+Adina: I thought you were... #line:3acb63
+HuncherKid: I'm going to survive. #line:98482f
+HuncherKid: Nobody who would know I'm gone is anyone I'd want to find me. #line:936be4
+Adina: I need to go. #line:4652bf
+
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: -12,173
+---
+<<animationTrigger HuncherKid Sit>>
+<<if $snowproblem is 1 and $huncher_sister_convo is 0>>
+	[[HuncherSisterConvo]]
+<<endif>>
+===
+title: HuncherKid.2
+tags: 
+colorID: 0
+position: 1585,-113
+---
+HuncherKid: Get away if you can. #line:ec4aff
+===
+title: SnowmanBuildSpot
+tags: 
+colorID: 0
+position: 632,-83
+---
+<<if $huncher_outside is 1>>
+	Adina: The huncher is about! #line:f98957
+<<elseif $huncher is 0>>
+	Adina: Hm. #line:cbf93d
+	Adina: Should probably check that house first. #line:6839e6
+<<elseif $huncher_fix > 0 and $hasSpecialKeyItem > 0>>
+	Adina: Ok, time to build. #line:2fb294
+<<else>>
+	Adina: Some of that weird snow is way up in the trees. #line:6ac5e9
+	Adina: Need a good strong wind. #line:d3d09c
+	Adina: Ha ha ha. Just need to control the wind is all. Simple. #line:7f23e5
+<<endif>>
+
+===
+title: PlayerReactionToGettingCaught
+tags: 
+colorID: 0
+position: 1353,553
+---
+<<set $player_was_caught to 0>>
+<<wait 1>>
+<<alwaysRequireButtonToAdvance 1>>
+<<if $hasSpecialKeyItem is 0>>
+	<<if $huncher_fix is 1>>
+		Adina: Ugh. #line:faf841
+		Adina: I am not going to die here tonight. #line:91be24
+		Adina: I'm just not. #line:3666a2
+		Adina: I need to see what's in this hollow. #line:f5d228
+		Adina: I need to get into that house. #line:0349c2
+		Adina: Ok, let's go. #line:a085f4
+	<<elseif $huncher_fix is 2>>
+		Adina: I'm so cold. So cold. #line:c5b211
+		Adina: No. #line:1e24ac
+		Adina: I'm an Astronomer. #line:0215da
+		Adina: Those are my skies, damn it. #line:5fbf86
+		Adina: I'm gonna survive this. #line:10dff0
+	<<elseif $huncher_fix is 3>>
+		Adina: She seems distracted by that weather thing. #line:788729
+		Adina: Maybe... hmm... #line:ee59c0
+	<<endif>>
+<<endif>>
+<<alwaysRequireButtonToAdvance 0>>
+<<unfreezePlayer>>
+===

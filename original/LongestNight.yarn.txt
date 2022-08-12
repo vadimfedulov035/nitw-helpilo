@@ -1,0 +1,516 @@
+title: Intro
+tags: 
+colorID: 0
+position: 79,208
+---
+<<wait 2>>
+<<speechBubbleSizeOverride .75>>
+Mae: U04EMY MHE HE X0V0DH0? #line:0b0a25
+Gregg: 0F0HJ. Y HAC ECTJ 0F0HJ. #line:6ae5cb
+Angus: MJ1 D0CTNFVN YP0BHR ONBNVN3AONN. #line:177b30
+Mae: 0L. #line:0049f1
+Mae: MHE CKY-Y-Y-Y-Y-Y-Y4H0. KASETCR, MJ1 UP06J1VN 3DECJ BE4H0CTJ.  #line:67a6a3
+Bea: 0. MJ1 D0VSHJ1 CDEVATJ C03BE3DNR CAM0L DVNHH0L H04N.  #line:645c5d
+Mae: BAY. CEPJE3H0? #line:8234b9
+Gregg: R HE 3AHNMAVCR GTNM VET C QECTN. #line:f5ad4e
+Mae: HNKT0 N3 HAC GTNM HE 3AHNMAVCR C T0F0 BPEMEHN. #line:4f8080
+Bea: HY, R HE U0MH% CE6R B CB0N QECTJ. #line:dc8c0a
+Mae: CEPJE3H0? #line:a2596e
+Gregg: CEPJE3H0? #line:6cc063
+Bea: AFA, R U04TN HN4EF0 HE U0MH% D0 8 C U0V0BNH0L.  #line:273e4a
+Angus: GT0 04EHJ CUEONZN4H0. #line:a5bcbf
+Gregg: 6N - CNHTETN4ECKAR Z0PMA SN3HN, C03DAHHAR B 8,5 VET.  #line:9a90a5
+Mae: GT0 BCE UP0RCHRET. #line:0bd1d0
+Mae: **6NU-6YU, 6N.** #line:7103d1
+Gregg: **0DNH 0DNH H0VJ 0DNH 0DNH 0KEL, U0ZNF, R 3AK0H4NV. #line:1a6f0a
+Bea: MJ1 M0SEM UP0CT0 CDEVATJ GT0? #line:54ee2d
+Gregg: HNKT0 N3 HAC HE 3HAET D0CTAT04H0 0 C03BE3DNRX, 4T06J1 CDEVATJ GT0, 6N. #line:8690ca
+Mae: AFA, 6N. #line:96276f
+<<close>>
+<<wait 2>>
+Angus: R 3HA%. #line:33b99d
+Gregg: C KAKNX U0P? #line:c8c140
+Angus: BCEFDA 3HAV. #line:d78e0f
+Angus: CVYQALTE C%DA, 4ALHNKN, MJ1 0TUPABVREMCR B QK0VY. #line:983376
+Bea: K0CMN4ECKAR QK0VA! #line:63c209
+<<close>>
+<<tell ConstellationWheel to ZoomOut>>
+<<wait 4>>
+<<speechBubbleSizeOverride 0>>
+Bea: R HN4EF0 HE BNSY. #line:344078
+Angus: MJ1 - NCKATEVN 3AK0H0MEPH0CTEL. HALDN HECK0VJK0 Y30P0B! #line:786245
+<<close>>
+<<tell ConstellationWheel to ShowStars>>
+===
+title: End
+tags: 
+colorID: 0
+position: 480,99
+---
+Angus: 4T0 S, BCE 13 HALDEHJ1. #line:e9ccb9
+Bea: YPA! CUACN60, AHFYC! #line:767867
+Mae: GT0 6J1V0 3D0P0B0! #line:664bb4
+Gregg: TJ1 TAK0L 60TAHNK, KGU. #line:d05243
+Angus: AFA. #line:03ec2e
+Angus: DA, R TAK0L. #line:730692
+Gregg: TJ1 D0VSEH 6J1TJ UP0ZECC0P0M. #line:ce11e8
+Angus: MHE HPABNTCR DYMATJ, 4T0 R BJ1U0VHR% GTY P0VJ B BNDE0-MAFA3NHE. #line:ddfb03
+Bea: 4T0 S, R, HABEPH0E, D0VSHA BEPHYTJCR D0M0L. #line:5f9d82
+Mae: U0F0DN. #line:9e5811
+Mae: 6N, R T0VJK0 4T0 U0HRVA, 4T0 HE TYCNVA C T060L CT0VJK0 VET. #line:e556b5
+Bea: 4T0? #line:ff5bc0
+[[AFA, HE C, BP0DE, 7-F0 KVACCA?|Grade]] #line:b81d59
+[[MJ1 X0P0Q0 U0DPAVNCJ, K0FDA HAM 6J1V0 12!|Fight]] #line:06565a
+===
+title: Grade
+tags: 
+colorID: 0
+position: 798,377
+---
+Bea: R U0MH%. R 6J1VA TAM. TJ1 6J1VA TAKNM UPNDYPK0M. #line:ab7085
+Mae: T0FDA U04EMY R 3DECJ, C T060L, B03VE K0CTPA B GTY DVNHHELQY% H04J? #line:1bb040
+Bea: U0T0MY 4T0 TJ1 YSACH0 U0 MHE C0CKY4NVACJ. #line:aa25d2
+[[TheVeryEnd]]
+===
+title: Fight
+tags: 
+colorID: 0
+position: 480,378
+---
+Bea: R U0MH% KYDA 60VJQE, TJ1 UEPECTAVA CNDETJ C0 MH0L 3A 06ED0M, #line:3eb766
+Bea: HE 0TBE4AVA HA M0N 3B0HKN #line:8af59e
+Bea: N C006WEHNR. #line:f258f8
+Bea: BCEFDA C FPEFF0M, K0T0PJ1L 6J1V CVNQK0M KPYT DVR MEHR. #line:4a4b3e
+Gregg: UP0CTN, 6N. HE X0TEV PA3PYQNTJ BAQY DPYS6Y. #line:5d5281
+Bea: BCE B U0PRDKE, FPEFF, GT0 6J1V0 04EHJ DABH0. #line:fbb863
+[[TheVeryEnd]]
+===
+title: TheVeryEnd
+tags: 
+colorID: 0
+position: 700,625
+---
+Mae: U0F0DNTE. MJ1 DELCTBNTEVJH0 B K0CM0CE? #line:ac0714
+Angus: ... #line:57b04e
+Mae: H0 MHE TEUV0. N R M0FY DJ1QATJ? #line:022882
+Mae: HA 4EM R CNSY? #line:0ddee9
+Angus: HA TNPAHH03ABPE. #line:d75088
+Mae: 4T0? #line:a2248b
+Mae: 0 60SE... R HE BNDEVACJ C FPEFF0M N AHFYC0M U0VT0PA F0DA. #line:3fed20
+Gregg: PACKARHNE N UYCT0TA! #line:68167b
+Mae: R HE U0QVA D0M0L B DVNHHELQY% H04J. #line:03e499
+Bea: DEHJ CTNPKN! #line:301be4
+Gregg: D0 CNX U0P 4YBCTBY% 3AUAX R6V04H0F0 C0KA, C TEX U0P KAK TE6R CT0QHNV0. #line:09d274
+Bea: TE6E CT0NT U03B0HNTJ D0M0L. #line:0be094
+Gregg: TE6E HE HAD0 3B0HNTJ D0M0L. #line:d90818
+Angus: CVNQK0M U03DH0 V0BNTJ ABT06YC. #line:764055
+Bea: 4T0 3ACTABNV0 BAC U0DYMATJ 060 MHE CEF0DHR? #line:d2072b
+Gregg: TE6E HE HYSH0 CADNTJCR B ABT06YC. GT0 TEUEPJ TB0R H0BAR SN3HJ. #line:68d435
+Bea: 0HA BCE EWE H0BAR DASE U0CVE TEX U0VYT0PA VET? #line:b437b7
+Angus: PESNM HNSHEF0 6EVJR! #line:d7aad6
+Gregg: CVEDY%WNL F0D CH0BA 6YDET H0BJ1M. #line:bc95a2
+Bea: 3ATEM N TJ1 CTAHEQJ H0B0L. #line:ac344e
+Angus: PACTRSKA! #line:d2abbf
+Mae: 0, DA VADH0, GT0 CTAH0BNTCR HACT0VJK0 FVYUJ1M. R CEPJE3H0 #line:351855
+<<close>>
+<<tell LongestNight to End>>
+===
+title: MaeAlarm
+tags: 
+colorID: 0
+position: 687,907
+---
+Mae: 4T0 S, D0M HE U03B0HNT CE6E CAM... #line:55926c
+===
+title: ConstellationAngelGator
+tags: 
+colorID: 0
+position: 1230,160
+---
+Angus: FAPM0HNYM, FVABA U0%WNX AHFEV0B. #line:ce7371
+Bea: YX. 0H. #line:8fd115
+Bea: M0R MAMA BCEFDA F0B0PNVA, 4T0 R U0X0SA HA HEF0. #line:884918
+Mae: R UPRM0 TAK N BNSY #line:ad10ff
+Bea: R HE YBEPEHA. #line:2d683d
+Mae: BEDET BCEX GTNX 6P%3SAWNX AHFEV0B #line:597c0f
+Bea: ... #line:d8cc6b
+Mae: TRSK0 #line:41e77f
+Bea: ... #line:2e1706
+Mae: U0 HE6Y. #line:8c7a37
+Bea: X0P0Q0. #line:7ac003
+Angus: DBNSEEEEEEEHNE... #line:ba44a0
+===
+title: ConstellationBearKing
+tags: 
+colorID: 0
+position: 1486,163
+---
+Angus: MAPMAH0DC, MAVEHJKNL K0P0VJ. #line:78a1f4
+Angus: 0H 6J1V... GM... K0P0VEM, K0T0PJ1L 6J1V MAVEHJKNM? #line:01c3ab
+Angus: R HN4EF0 HE 3HA% 0 HEM. #line:6527a9
+Bea: U0-BNDNM0MY, MAVEHJKNL K0P0VJ 6J1V 60VJQ0L H0B0CTJ%. #line:f6c160
+Bea: R HE DYMA%, 4T0 0H D0VSEH 6J1V 6J1TJ TAKNM MAVEHJKNM. #line:3bd677
+Angus: "0CTAH0BNTE UPECCY!" #line:1fb061
+Bea: "3HA4NT, GT0 K0P0VJ, TAK?" #line:364196
+Bea: "H0... 0H HEMH0F0 MEHJQE, 4EM TJ1 0SNDAEQJ." #line:e1721c
+Angus: "0H H0CNT MAVEHJKNE TYZVN! DABALTE YBEK0BE4NM EF0 HA H04H0M HE6E!" #line:cf3fdb
+Mae: R D0B0VJH0 HN3KAR! #line:ae4ae4
+Gregg: MGL 60P0BCKN: C03BE3DNE. #line:fa75c5
+Bea: HE. #line:d2686c
+Bea: BCE, K0MY U0CBRWEHJ1 C03BE3DNR, YSE MEPTBJ1. #line:a56feb
+===
+title: ConstellationBell
+tags: 
+colorID: 0
+position: 1755,167
+---
+Angus: T0VVMETP0H. #line:d81ea7
+Angus: 0H 3B0HNT B K0HOE CBETA #line:d5e330
+Angus: N MAHDN CTPRXNBAET BCE C0 CB0EL CUNHJ1 #line:d6bde6
+Angus: N, DYMA%, BCE GT0 D0VSH0 F0PETJ. #line:1aae22
+Gregg: PAHJQE GT0 NMEV0 CMJ1CV. #line:8db59c
+Mae: K0FDA BCE 6J1VN, TNUA, FPEQHJ1MN UPNDYPKAMN. #line:b11e33
+Bea: AFA, HE X04Y 3BY4ATJ KAK UPNDYP0K, H0 PAHJQE HAP0D 6J1V TAKNM TYUJ1M. #line:290ca4
+Angus: BCE 0TH0CNTEVJH0. #line:76eebe
+Mae: U0VH0 FVYU0F0 HAP0DA. #line:021de2
+Angus: UPEKPACH0F0, FVYU0F0 HAP0DA. #line:33b511
+===
+title: ConstellationBirdPope
+tags: 
+colorID: 0
+position: 2048,162
+---
+Angus: PY6EVV0, 6J1V U0U0M K0FDA-T0 B 1400X F0DAX. CYMACQEDQNE BPEMEHA. #line:7e0dd4
+Bea: 0 60SE, 060SA% EF0. #line:4f0770
+Angus: 6J1VN DBA U0UA-C0UEPHNKA #line:f5138c
+Angus: N PY6EVV0 U06EDNV, 0TKPJ1B CB0L P0T, #line:1284e3
+Angus: N 06DAB NX 0FHEM. #line:0e9a6b
+Angus: A 3ATEM N CJEB NX. #line:2b182d
+Mae: 4T0 #line:ee3464
+Bea: YAAAAAAAAAAAA #line:dbbb6d
+Gregg: R 3HAV GT0! #line:7f665d
+Mae: GT0 U0TPRCA%WE. #line:5e4815
+Angus: R NMEV B BNDY, 4T0, NCT0PN4ECKN, EF0 60VJQAR CEMJR 0TPABNVA EF0 #line:bbfbb5
+Angus: N PAHNVA, UPESDE 4EM C6P0CNTJ B B0D0CT0K #line:596536
+Bea: H0 0H CJEV NX. #line:671089
+Angus: 0H CJEV NX, DA. #line:4f100e
+Mae: GT0 CAMAR VY4QAR BEWJ, K0T0PY% R K0FDA-VN60 CVJ1QAVA. #line:e0e976
+Bea: 4ABK-4ABK, YUC, R CJEV TE6R. TEUEPJ R U0U. #line:80bf2a
+===
+title: ConstellationBrokenSnake
+tags: 
+colorID: 0
+position: 2326,189
+---
+Angus: CV0MAHHAR 3MER, UEPBAR, K0T0PAR F0B0PNVA. #line:8c83ed
+Bea: GTA NCT0PNR BCEFDA BJ13J1BAVA Y MEHR KAK0E-T0 PA3DPASEHNE. #line:9c6a28
+Mae: K0FDA R 6J1VA C0BCEM EWE PE6EHK0M, B B0CKPECH0L QK0VE, R UPEDV0SNVA GTY NCT0PN%. #line:53a639
+Bea: 0 60SE, R GT0 U0MH%! #line:865291
+Bea: TE6R 0TUPABNVN B OEPK0BJ DVR B3P0CVJ1X, K TB0NM P0DNTEVRM! #line:20288c
+Mae: HN UE4EHJR, HN HAKA3AHNL! #line:955b4f
+Gregg: BAY, K0HE4H0 SE, R BCE GT0 UP0UYCTNV. #line:b5e0ab
+Angus: 0, 4YBAK, TJ1 HE UP0UYCTNV. #line:07a114
+===
+title: ConstellationCatBurglar
+tags: 
+colorID: 0
+position: 2650,155
+---
+Angus: K0PBNH, B0P. #line:554996
+Angus: YKPAV AVMA3 N3 K0P0HJ1 PY6EVV0, 0FHEDJ1QAWEF0 U0UA. #line:8398df
+Angus: U0FN6 0T CTPEV B QECTNDECRTN METPAX 0T DB0POA. #line:020e84
+Mae: BJ1X0DNT, 0H CTAV C03BE3DNEM HE N3-3A T0F0, 4T0 6J1V BEVNKNM B0P0M. #line:27395d
+Bea: NMEHH0. #line:a0616a
+Gregg: HAXEP PY6EVV0. KPADN EF0 AVMA3J1. #line:db5c04
+ALL: HAXEP EF0. #line:51b35f
+Bea: 0, DA, PEB0V%ONR DETEL N3 UPNF0P0DA. #line:4355e1
+Mae: U0CCYM CUPNHFC - HE UPNF0P0D! #line:768412
+Angus: AFA, HYSH0 SNTJ B 60VJQ0M F0P0DE, 4T06J1 NMETJ UPNF0P0D. #line:ce0e9a
+Mae: MJ1 HAX0DNMCR B CAM0M OEHTPE HNFDE. #line:e719d4
+Mae: TAM, 0TKYDA HYSH0 EXATJ MNHYT C0P0K, 4T06J1 KYUNTJ 06YBJ. #line:a7b9ef
+Angus: K T0MY SE, MHE 21! R HE PE6EH0K! DYMA%, BJ1 MVADQE MEHR! #line:46c2eb
+Gregg: MHE T0SE 21. MJ1 06A NMEEM U0CT0RHHY% PA60TY. #line:0d2b7e
+Angus: HY, 0HA 6YDET U0CT0RHH0L D0 TEX U0P, #line:27a72b
+Angus: U0KA 0HN HE HA4HYT DABATJ HAM MEDNONHCKY% CTPAX0BKY. #line:b659ee
+Mae: MHE 20 YSE 4ETJ1PE MECROA! #line:e10b76
+Bea: VADH0, X0P0Q0. BJ1 BCE 04EHJ CEPJE3HJ1E B3P0CVJ1E. #line:d28f76
+Angus: CUACN60. #line:7b0f68
+Gregg: DA, CUACN60. #line:742057
+===
+title: ConstellationCatKing
+tags: 
+colorID: 0
+position: 1523,462
+---
+Angus: FAPM0HNYM, FVABA U0%WNX AHFEV0B. #line:e97435
+Bea: 6J1V0 6J1 MNV0 C NX CT0P0HJ1 6P0CNTJ HAM K0CTJ. #line:7eb970
+Bea: 04EHJ CHNCX0DNTEVJH0, CKY4HAR K0CTJ. #line:6ed2a7
+Angus: AFA, DABALTE DAVJQE... #line:87add8
+===
+title: ConstellationDeadFox
+tags: 
+colorID: 0
+position: 2768,682
+---
+Angus: VYCN0! #line:39c4ac
+Gregg: 0, DA! #line:0cf671
+[[KT0?|FoxWho]] #line:249a45
+[[4T0?|FoxWhat]] #line:8ca27b
+===
+title: ConstellationFish
+tags: 
+colorID: 0
+position: 2400,675
+---
+Angus: PJ16A. #line:234885
+Mae: ...N? #line:7bcb51
+Angus: UP0CT0 PJ16A. K0P0TK0 N RCH0. #line:138c84
+Bea: XAX. #line:e8b284
+Angus: 3A6ABHJ1L ZAKT: PJ16A - M0L 3HAK. #line:9926c5
+[[DYMA%, GT0 3HA4NT, 4T0 TJ1 X0P0Q0 ADAUTNPYEQJCR N DYPH0 UAXHEQJ.|FishAdaptable]] #line:ed7277
+[[DYMA%, GT0 3HA4NT, 4T0 TE6R B0 BCEM UPECVEDY%T HEYDA4N.|FishFailure]] #line:bd3b4d
+===
+title: ConstellationFluteBird
+tags: 
+colorID: 0
+position: 1903,845
+---
+Angus: NHBEHEP, N306PETATEVJ MY3J1KN. #line:8b018c
+Bea: MNVJ1L KV%B. HAU0MNHAET MHE DSEPMA. #line:2909a9
+Angus: XA-XA. #line:c6fb07
+Gregg: DSEPM DASE HE MY3J1KAVJHJ1L. B006WE. #line:3b5a03
+[[KT0?|BirdWho]] #line:a40a59
+[[DSEPM?|BirdGerm]] #line:0c94b5
+===
+title: ConstellationGatorHead
+tags: 
+colorID: 0
+position: 2107,1481
+---
+Angus: GM... KBNH0HA. 6J1VA KA3HEHA FDE-T0 KAKNM-T0 K0P0VEM. #line:78a5d4
+Angus: EE F0V0BA UP0D0VSAVA KPNTNK0BATJ Y6NLO HA UP0TRSEHNN HECK0VJKNX VET. #line:e2e123
+Mae: GT0 D0B0VJH0 MNVEHJK0. #line:9901ee
+Bea: YX. TJ1 TAK DYMAEQJ? #line:67f639
+Bea: H0 B NCT0PNN EE BJ1CTABNVN BECJMA HAD0EDVNB0L. #line:392f86
+Bea: TNUA, 0HA 6J1VA MY4EHNK0M #line:39fc3f
+Bea: 6YKBAVJH0. #line:7f586f
+Bea: B K0HOE K0HO0B, 0HN U0V0SNVN EE F0V0BY B CYHDYK N 6P0CNVN B PEKY. #line:74c2fd
+[[F0CU0DN!|GatorHeadGeez]] #line:9d4c4b
+[[4T0 0HA CDEVAVA?|GatorHeadWhatDidSheDo]] #line:a5471a
+===
+title: ConstellationGoat
+tags: 
+colorID: 0
+position: 2953,1721
+---
+Angus: N60H, UEPBJ1L UEBEO. #line:4d9916
+Bea: BJ1 K0FDA-HN6YDJ BNDEVN 0UEPY, 0CH0BAHHY% HA GT0M? #line:1a4be7
+[[HET?|GoatNo]] #line:41c054
+[[0 DA!|GoatOhYeah]] #line:1e2cde
+===
+title: ConstellationMouseWriters
+tags: 
+colorID: 0
+position: 3615,1682
+---
+Angus: MJ1QN-UNCATEVN, N306PETATEVN UNCJMEHH0F0 R3J1KA. #line:d69025
+Bea: PA3BE NX HE D0VSH0 6J1TJ 60VJQE, TNUA, HECK0VJK0 TJ1CR4? #line:14c638
+Mae: CVYQAL, HE60 0FP0MH0. #line:7a60ac
+Gregg: MJ1QN-UNCATEVN - M0L 3HAK. #line:ed74b1
+[[DYMA%, GT0 3HA4NT, 4T0 TJ1 TJ1CR4Y PA3 FEHNL.|MouseWritersGeniuses]] #line:936af8
+[[DYMA%, GT0 3HA4NT TJ1 B UP0VETE.|MouseWritersScrewed]] #line:b6c1be
+===
+title: ConstellationWhale
+tags: 
+colorID: 0
+position: 1741,1448
+---
+Angus: MAHDN, MNP0BAR PJ16A. PAHJQE BCE DYMAVN, 4T0 KNTJ1 - GT0 PJ16J1. #line:c510e3
+Angus: HA 0DH0M N3 TAKNX 6J1V OEVJ1L MNP. #line:200d5b
+Mae: MAHDN - M0L 3HAK. #line:fab8c1
+Bea: 0 60SE. #line:ba8216
+Bea: K0HE4H0, 0H TB0L. #line:fe6750
+Mae: GL! KAK GT0 U0HNMATJ? #line:0e932a
+Gregg: Y-Y-Y! Y-Y-Y-Y-Y-Y-Y-Y-Y! #line:595073
+Mae: 4T0 S, ECVN GT0 4T0-T0 3HA4NV0, #line:4ff031
+Mae: T0, B03M0SH0, GT0 4T0-T0 N 3HA4NV0, H0... #line:9ca59f
+Mae: GT0 HE TAK. #line:8d5044
+Gregg: Y-Y-Y? Y-Y-Y-Y-Y-Y-Y-Y-Y? #line:1a106f
+Bea: Y-Y-Y-Y-Y-Y!!! Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y! #line:973572
+Mae: 4EM TJ1 3AHNMAEQJCR? #line:d7050e
+Gregg: UEHNE KNT0B. #line:678ba1
+===
+title: FoxWho
+tags: 
+colorID: 0
+position: 3063,974
+---
+Gregg: VYCN0! VNC! #line:70ce61
+Gregg: NM UPNQV0CJ B0TKHYTJ EF0 B 3EMV% C U0M0WJ% K0UJR, 4T06J1 YDEPSATJ! #line:9bd84d
+Mae: U0F0DN, YDEPSATJ? B CMJ1CVE? #line:d5d0b8
+Gregg: HY, 3HAEQJ, B UPRM0M! #line:1fb79e
+[[FoxEnd]]
+===
+title: FoxWhat
+tags: 
+colorID: 0
+position: 2765,978
+---
+Gregg: VNC VYCN0! #line:009525
+Angus: 6N4 ZPAHOY3CK0L CEVJCK0L MECTH0CTN! #line:d2fa32
+Gregg: AFA, A6C0V%TH0 ZPAHOY3. A6C0V%TH0 6N4. #line:a541d6
+Mae: U04EMY 0H UP0TKHYT K0UJEM? #line:17df7e
+Gregg: CBE4A, K0T0PAR F0PNT B DBA PA3A RP4E, T0VJK0 C HAHN3AHHJ1MN HA HEL KNQKAMN! #line:85fc39
+Angus: UPEKPACH0. #line:d68436
+[[FoxEnd]]
+===
+title: FoxEnd
+tags: 
+colorID: 0
+position: 2767,1275
+---
+Angus: DYMA%, BJ1 U0HNMAETE, U04EMY 0H TAK U0UYVRPEH. #line:c5f36e
+===
+title: FishAdaptable
+tags: 
+colorID: 0
+position: 2243,1051
+---
+Gregg: 4T0-T0 N3 GT0F0 NMEETCR, A, KGU? #line:ce669d
+Angus: NMEETCR T0VJK0 MYSECTBEHHJ1L MYCKYC. #line:576670
+Gregg: TJ1 UAXHEQJ, KAK TA QTYKA, K0T0PY% R DAV TE6E, *HAK0HEO*. #line:cf4599
+Gregg: VEDRH0L RCTPE6. HA HEL N306PASEH VEDRH0L RCTPE6. #line:e6ab27
+Angus: R UAXHY D0B0VJH0 MYSECTBEHH0. #line:763b54
+Gregg: KAK VEDRH0L RCTPE6. #line:aea8fd
+Bea: R DYMA%, TJ1 X0P0Q0 UAXHEQJ, AHFYC.  #line:d98655
+Angus: CUACN60 #line:a7ef0b
+Mae: 4T0 3A VEDRH0L RCTPE6? #line:ed489b
+===
+title: FishFailure
+tags: 
+colorID: 0
+position: 2481,1048
+---
+Angus: ... #line:4783d2
+Angus: ... #line:589878
+Gregg: 00Y, KGU, TJ1 HE TAK0L. #line:e82862
+Mae: 0 60SE M0L TJ1 B CAM0M DEVE PACCTP0NVCR R HE NMEVA B BNDY HN4EF0 TAK0F0 MHE SAVJ HE UVA4J AHFYC! #line:de7fd8
+Bea: AHFYC, TJ1 04EHJ KVACCHJ1L, YMHJ1L N BCE TAK0E. #line:698ee9
+Gregg: HE CVYQAL MGL. 0HA U0CT0RHH0 3VAR. #line:2a9c5c
+Mae: 0KEL, MHE SAVJ, R YX0SY. #line:e0abcb
+<<close>>
+<<wait 2>>
+Mae: U04EMY R HE M0FY YLTN? N U04EMY R HE 3AMEP3A%? #line:2f683e
+Angus: BCE B U0PRDKE, MGL. GT0T F0D 6J1V DVNHHJ1M. #line:d81d5e
+Gregg: 00Y, 4YBAK, CVEDY%WNL F0D 6YDET VY4QE. #line:0ffc06
+Mae: BUEPED, AHFYC! R B K0MAHDE AHFYCA! #line:8b36aa
+Gregg: R T0SE! R - KAUNTAH K0MAHDJ1 N UAPTHEP U0 U0OEVYRM! #line:b663a3
+Bea: N R T0SE! T0VJK0 HE U0 4ACTN U0OEVYEB. R... KA3HA4EL? #line:4346d8
+Angus: M0FY R 6J1TJ TAVNCMAH0M? #line:da34b2
+===
+title: BirdWho
+tags: 
+colorID: 0
+position: 1761,1110
+---
+Gregg: 4T0? DSEPM! DSEPM, C K0T0PJ1M MJ1 TYCNM! DSEPM! #line:ad5e7c
+Bea: FDE DSEPM? #line:3ab7d8
+Gregg: DEVAET 60F 3HAET 4T0 BMECTE C0 CB0EL CTPAHH0L CEMJEL. #line:3ef57f
+Bea: R BCEFDA UPEDCTABVRVA, 4T0 0H KAK0F0-T0 P0DA NVV%3N0HNCT... #line:5aa90d
+Bea: ...K0T0PJ1L UPNHRV KAKY%-T0 CTPAHHY% Z0PMY. #line:ecdf8c
+Mae: U0HRTNR HE NME%, 0 K0M BJ1 F0B0PNTE. #line:c070c5
+Gregg: 0 HET, Y MGL K0CMN4ECKAR 60VE3HJ! 0HA CTEPVA EL UAMRTJ! #line:117fe7
+Angus: C6P0CNTJ EE N3 QV%3A! #line:ad3165
+Bea: CEPJE3H0, MGL. GT0 DSEPM. TJ1 3HAEQJ DSEPMA. #line:9a1122
+Mae: U0D0SDNTE, MJ1 B K0CM0CE? U04EMY MHE HE X0V0DH0? #line:24348a
+===
+title: BirdGerm
+tags: 
+colorID: 0
+position: 1981,1100
+---
+Mae: KAK DSEPM? CTPAHHJ1L DSEPM? #line:f48ea8
+Gregg: ...DA? #line:3000b2
+Mae: 0TKYDA TJ1 3HAEQJ... #line:b72cb9
+Bea: DYMA%, MGL D0B0VJH0 C0HHAR. #line:8a0ada
+===
+title: GatorHeadGeez
+tags: 
+colorID: 0
+position: 2106,1783
+---
+Bea: R 3HA%, 0KEL? #line:694509
+[[GatorHeadEnd]]
+===
+title: GatorHeadWhatDidSheDo
+tags: 
+colorID: 0
+position: 2534,1760
+---
+Bea: F0B0PNVA. FP0MK0. HA UY6VNKY.	 #line:266a4b
+Mae: 0Y, N BCE? #line:dea747
+Bea: GT0F0 6J1V0 D0CTAT04H0! #line:408a19
+[[GatorHeadEnd]]
+===
+title: GatorHeadEnd
+tags: 
+colorID: 0
+position: 2307,2036
+---
+Angus: U0VAFA%T, ECVN TJ1 0KYHEQJ CB0% F0V0BY B KAKY%-VN60 PEKY B NTAVNN, #line:ef4667
+Angus: 0HA PACCKASET TE6E UP0 CB0E Y6NLCTB0. #line:e9bc73
+Angus: 0HN UEPENMEH0BAVN PEKY B "PEKY BNHJ1" #line:2007cf
+Bea: 3BY4NT TAK, CV0BH0 GT0 BNHA HE TEX, KT0 EE Y6NV, #line:1835e9
+Bea: A TB0R C06CTBEHHAR, 6YDT0 6J1 0HA BNHNT TE6R NVN 4T0-T0 U0D06H0E. #line:b3afea
+Mae: GT0 C03BE3DNE - MYC0P. #line:f750df
+Bea: 0TPY6NTE MHE F0V0BY N R 0TKYQY BAQN! #line:b628b4
+Gregg: C4ACTVNB0L DVNHHELQEL H04N! #line:d5f8c8
+Angus: DAAAAAAAAAAVJQE... #line:f24e67
+===
+title: GoatNo
+tags: 
+colorID: 0
+position: 2952,2005
+---
+Bea: 0, 0HA UPEKPACHA. #line:75d998
+Bea: 0HA DVNVACJ 21 4AC #line:3fc21f
+Bea: N 0K0V0 100 VET HA3AD, K0FDA EE CTABNVN B 6PALT XAP60P, #line:760033
+Bea: COEHA B30PBAVACJ B T0T M0MEHT, K0FDA B03DYQHJ1L QAP N60HA U0TEPUEV KPYQEHNE B YNPD-YNPME. #line:4b4d8b
+Gregg: KPYTR-R-R-RK. #line:0f8fca
+Mae: 6J1VN VN SEPTBJ1? #line:8b1fc4
+Bea: 04EHJ MH0F0! #line:7d31bd
+Angus: 0L. #line:21e71d
+Bea: CVYQALTE, ECVN BJ1 HE M0SETE U0CMERTJCR HAD GTNM, T0 R M0FY PACCKA3ATJ 0CTAVJHY% 4ACTJ GT0L NCT0PNN. #line:abf34f
+===
+title: GoatOhYeah
+tags: 
+colorID: 0
+position: 3207,2005
+---
+Mae: MJ1 CM0TPEVN EE, K0FDA MNCTEP 0VMEPC 3A60VEV HA DBE HEDEVN. #line:3745d4
+Mae: GT0 6J1V0 YSACH0 D0VF0! #line:53ffef
+Bea: TAM 6J1VA YDNBNTEVJHAR 4ACTJ, K0FDA N60H BJ1UNBAET 0KEAH N 3ACTABVRET PJ16 UVAKATJ, #line:eca6c9
+Bea: N, HAK0HEO YCVJ1QAB NX F0V0CA, 0H Y4NT NX UETJ. #line:e77e45
+Gregg: GT0 CAM0E TYU0E, 4T0 R K0FDA-VN60 CVJ1QAV. #line:dbc8b3
+Bea: AFA, H0 TYU0 B X0P0QEM CMJ1CVE. #line:9a526c
+Bea: B OEV0M, BCR 0UEPA TAKAR. #line:be8755
+===
+title: MouseWritersScrewed
+tags: 
+colorID: 0
+position: 3894,1979
+---
+Gregg: 4T0?! #line:c3f3d7
+Mae: MJ1QN 6J1VN C03DAHJ1 UPNP0D0L HA 3AKYCKY. #line:e9f130
+Mae: ECVN TJ1 UP0CVEDYEQJ U0 OEUN UNTAHNR B CAMJ1L HN3, #line:398e37
+Mae: T0 HALDEQJ TAM MJ1QEL. #line:736fa2
+Mae: MHE SAVJ, FPEFF0PN, H0 TB0N DHN C04TEHJ1. #line:56a0f1
+Gregg: HY YS HET, U0DPYFA. R BE4EH! #line:c62334
+===
+title: MouseWritersGeniuses
+tags: 
+colorID: 0
+position: 3543,2001
+---
+Gregg: T04H0. #line:b1b312
+===

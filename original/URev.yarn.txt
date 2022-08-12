@@ -1,0 +1,508 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 1138,620
+---
+<<if $urev is 0>>
+    [[URevStart]]
+<<elseif $fort_lucenne_mall is 5>>
+    [[ReturnGoods]]
+<<elseif $fort_lucenne_mall is 2>>
+    [[StealingPart2]]
+<<elseif $urev is 1>>
+    <<warp Bea NearSteal>>
+    <<warp Mae Steal>>
+    [[AfterFirstSteal]]
+<<else>>
+    <<warp Bea Mae>>
+    <<follow Bea Mae>>
+<<endif>>
+===
+title: StealingPart2
+tags: demo2
+colorID: 0
+position: 1291,896
+---
+<<set $urev_collision_right to 0>>
+<<playerFace -1>>
+Mae: TAK, U0KA TJ1 3AHNMAEQJCR CB0NM DEV0M, R 3ALMYCJ CB0NM. #line:99fe84
+Bea: B CMJ1CVE? #line:6c24ea
+Mae: R 0TBVEKY UP0DABWNOY. R CM0FY. #line:58d5d9
+Bea: VADH0, UPN3HA%, Y TE6R ECTJ TAVAHT UPNBVE4EHNR BHNMAHNR. #line:24c0a6
+Mae: R X0P0QA B UPECTYUVEHNRX. #line:3d7858
+Bea: H0 4T0 ECVN MEHR U0LMA%T? #line:57a92d
+Mae: HE U0LMA%T. R HA4HY 0PATJ, ECVN UPNDETCR. #line:47fead
+<<close>>
+<<wait 1>>
+Bea: N KAK GT0 U0M0SET? #line:02ac8f
+Mae: U0QVN. #line:642ad0
+Bea: VADH0, H0 ECVN BCE U0LDET 4EPE3 S0UY, R 6YDY BNHNTJ TE6R. #line:4a5d22
+Mae: TJ1 HE UEPBAR. #line:d657e9
+<<close>>
+<<cameraLookAt CameraBeaSteal 3>>
+<<walk Bea Steal>>
+<<walk Mae NearCounter wait>>
+<<set $urev_collision_right to 1>>
+[[Distract1]]
+===
+title: Steal
+tags: demo2
+colorID: 0
+position: 1639,622
+---
+Mae: XMMM... #line:0ba1f5
+Bea: 0F0. YSE DABHEHJK0 HE BNDAVA UPRSEK DVR PEMHEL. #line:676d4d
+Bea: U0-KPALHEL MEPE, TAKNX YP0DCKNX. #line:e755ed
+Bea: Y MALKA B MAFA3NHE ECTJ 0DHA C0 3MEEL, K0T0PAR YUPABVRET FPY30BNK0M. #line:a0cae4
+Mae: VADH0. R CDEVA% GT0. #line:5b2cff
+Bea: 4T0 CDEVAEQJ? #line:397ecd
+Mae: UPNKP0L MEHR. R X04Y CUEPETJ 0DHY. #line:95d568
+Bea: 4EF0? HET!! #line:89aae1
+Mae: QQQQQ!!! #line:52cd2b
+Bea: TJ1 GT0F0 *HE* CDEVAEQJ. #line:c1689b
+<<if $urev is 0>>
+    <<set $urev to 1>>
+<<endif>>
+<<irisOut 1 wait>>
+<<scene PawsModeStealing>>
+===
+title: AfterFirstSteal
+tags: demo2
+colorID: 0
+position: 1017,902
+---
+<<set $urev_collision_right to 0>>
+<<if $urev_theft is 0>>
+    Mae: R UP0BAVNVA KPASY. #line:e9aba5
+<<else>>
+    Bea: TAK TJ1 BCE? #line:84f5a8
+    Mae: GGGGGGG, DA #line:587bcb
+<<endif>>
+Bea: 3ATKHNCJ N BAVNM 0TC%DA. #line:3a7c09
+<<walk Bea Exit>>
+<<walk Mae Exit>>
+<<irisOut 1 wait>>
+<<scene FortLucenneMall>>
+===
+title: Distract1
+tags: demo2
+colorID: 0
+position: 2445,706
+---
+Mae: UPNBEEEET. #line:f7c752
+URevClerk: AFA. #line:fae9b5
+Mae: Y MEHR B0UP0C. #line:0994e8
+URevClerk: HA ZYT60VKN CKNDKA 20 UP0OEHT0B. #line:3a1fbc
+Mae: DA, R BNDEVA. MEHR NHTEPECYET K0E-4T0 DPYF0E... #line:f0c310
+<<waitForMove Bea>>
+<<tell BeaStealPaw Show>>
+URevClerk: 0KEL. #line:d98240
+Mae: HA3BAHNE GT0F0 MAFA3NHA... #line:551577
+<<tell BeaStealPaw Neutral>>
+URevClerk: DA? #line:5e5a4a
+Mae: XA-XA. HABEPH0E TE6E 4ACT0 3ADA%T GT0T B0UP0C. #line:4a7c28
+URevClerk: A TJ1 U0UP06YL. #line:362740
+<<shuffleNextOptions>>
+[[KAK 0H0 4NTAETCR?|Distract1_1]] #line:c01574
+[[TAK... B0 CK0VJK0 TJ1 0CB060DNQJCR CEF0DHR?|Distract1_2]] #line:8a64f4
+===
+title: Distract1_1
+tags: demo2
+colorID: 0
+position: 2106,932
+---
+<<tell BeaStealPaw Distracted>>
+URevClerk: 3HAEQJ, HNKT0 HNK0FDA 06 GT0M  HE CUPAQNBAV. #line:b93e8c
+Mae: XM. #line:af7c7d
+URevClerk: *60SE* #line:cd15bf
+URevClerk: 0ZNOAVJH0E HA3BAHNE HA HAQNX 4EKAX #line:3fc35c
+URevClerk: %PEB0V%ONR: B0CX0DRWAR PADNKAVJHAR *MAVADESHAR* KYVJTYPA NHK. #line:ebaf14
+<<shuffleNextOptions>>
+[[GT0 DELCTBNTEVJH0 FVYU0.|Distract1_1_1]] #line:1cb285
+[[D0B0VJH0 KPYT0E MECT0 PA60TJ1, BEPH0?|Distract1_1_2]] #line:0a87d7
+===
+title: Distract1_1_2
+tags: demo2
+colorID: 0
+position: 2180,1219
+---
+<<tell BeaStealPaw Neutral>>
+URevClerk: HE C0BCEM. VADH0, TJ1 4EF0-T0 X0TEVA? #line:68ebee
+Mae: GM... HY... #line:d5ebd4
+URevClerk: TJ1 B U0PRDKE? #line:777eb3
+<<shuffleNextOptions>>
+[[TJ1 K0FDA-HN6YDJ KPAVA 4T0-HN6YDJ KPYT0E?|Distract1_1_2_1]] #line:35bf5b
+[[R DYMA%, GT0 KVEB0E MECT0, N TJ1 D0VSHA 6J1TJ C4ACTVNBA, 4T0 Y TE6R ECTJ PA60TA.|Distract1_1_2_2]] #line:f6a68d
+===
+title: Distract1_1_1
+tags: demo2
+colorID: 0
+position: 1693,1501
+---
+URevClerk: 0, 60SE, NMEHH0. #line:8c42d7
+URevClerk: TNUA, U04EMY MJ1 HE M0SEM 6J1TJ UP0CT0 MAFA3NH0M, K0T0PJ1L UP0DAET KPYT0E QM0TJE U0DP0CTKAM? #line:26f1cd
+Mae: DA. U0DP0CTKN CX0DRT C YMA 0T BCEF0 GT0F0. #line:d89951
+URevClerk: CKNDKA PA60THNKAM, KCTATN, BU0VHE HEUV0XAR. #line:757437
+Mae: K0FDA R PA60TAVA. #line:4d6e74
+Mae: Y MEHR 6J1VA CT0 UP0OEHTHAR CKNDKA. #line:9ce7a9
+URevClerk: AFA. #line:b052de
+Mae: [wave]BEDJ R B0P0BAVA BCRKY% XPEHJ![/wave] #line:e72f42
+URevClerk: R U0HRVA GT0 N B UEPBJ1L PA3. #line:005a0e
+Mae: YBEPEHA, TJ1 T0SE TAWNQJ 0TC%DA BCRK0E. #line:ea449c
+URevClerk: HY, 3DECJ KAPA%T 3A TAK0E U0 BCEL CTP0F0CTN 3AK0HA, TAK 4T0... #line:45b106
+[[Success]]
+===
+title: Success
+tags: demo2
+colorID: 0
+position: 2612,2266
+---
+<<tell BeaStealPaw Hide>>
+Bea: VADH0, R HN4EF0 HE BJ16PAVA, U0QVN. #line:5cbf77
+<<walk Bea OutsideStore>>
+Mae: 0KEL6J1V0UPNRTH0U060VTATJU0KA {width=200} #line:3e69c5
+<<walk Mae OutsideStore>>
+URevClerk: GM... D0 CK0P0F0 #line:c88cd2
+<<set $urev to 2>>
+<<irisOut 1>>
+<<scene FortLucenneMall>>
+===
+title: Distract1_1_2_1
+tags: demo2
+colorID: 0
+position: 2018,1508
+---
+<<tell BeaStealPaw Distracted>>
+URevClerk: TJ1 4T0, 0DHA N3 TEX TALHJ1X U0KYUATEVEL? #line:7367c0
+Mae: PA3BE R U0X0SA HA TALH0F0 U0KYUATEVR? #line:70dae2
+URevClerk: K HAM RBVRVNCJ KAK-T0 TAKNE. UPNFVRDJ1BAVN 3A HAMN. #line:814271
+Mae: CM0TPEVN, 4T06J1 MJ1 HN4EF0 HE CUEPVN. #line:ad47aa
+URevClerk: DA, 3DECJ, 3A TAK0E KAPA%T U0 BCEL CTP0F0CTN 3AK0HA #line:1cf124
+[[Success]]
+===
+title: Distract1_1_2_2
+tags: demo2
+colorID: 0
+position: 2261,1498
+---
+<<tell BeaStealPaw Alert>>
+URevClerk: 4T0? #line:b12eac
+Mae: DA HN4EF0. #line:e0b570
+URevClerk: DAL 3HATJ, ECVN 4T0-T0 U0HAD06NTCR. #line:d0c80b
+[[SecondAttempt]]
+===
+title: SecondAttempt
+tags: demo2
+colorID: 0
+position: 3662,1123
+---
+Mae: TAK, #line:804041
+Bea: FPPP #line:e658ea
+Mae: 0X... #line:bc9521
+<<shuffleNextOptions>>
+[[3HAEQJ 4T0? U0QVA TJ1|SecondAttempt_1]] #line:1309ce
+[[R C06NPA%CJ KPN4ATJ HEK0T0P0E BPEMR.|SecondAttempt_2]] #line:d5b986
+===
+title: Distract1_2
+tags: demo2
+colorID: 0
+position: 2663,997
+---
+URevClerk: G... TJ1 4T0, ZVNPTYEQJ C0 MH0L? #line:ccf91f
+Mae: GM. #line:7a6dd0
+<<shuffleNextOptions>>
+[[N3BNHN, R HE 04EHJ X0P0QA B GT0M...|Distract1_2_1]] #line:ef8fdd
+[[M0SET DA, M0SET HET... R NFPA% B HED0TP0FY, H0 D0VSHA VN R?|Distract1_2_2]] #line:649035
+===
+title: Distract1_2_1
+tags: demo2
+colorID: 0
+position: 2531,1286
+---
+<<tell BeaStealPaw Distracted>>
+URevClerk: BCE H0PMAVJH0. R U0HNMA%. #line:80489e
+<<shuffleNextOptions>>
+[[HEV0BK0, R UPABA?|Distract1_2_1_1]] #line:c52a5a
+[[0X, 3HAEQJ, *DYMA%*, R 4T0-T0 U04YBCTB0BAVA, K0FDA B0QVA C%DA.|Distract1_2_1_2]] #line:12ee5a
+===
+title: Distract1_2_2
+tags: demo2
+colorID: 0
+position: 2868,1259
+---
+<<tell BeaStealPaw Alert>>
+URevClerk: MGM, Y MEHR KY4A PA60TJ1. #line:addce5
+Mae: 4EPT. #line:c9d143
+[[SecondAttempt]]
+===
+title: Distract1_2_1_1
+tags: demo2
+colorID: 0
+position: 2519,1552
+---
+<<tell BeaStealPaw Distracted>>
+URevClerk: BCE H0PMAVJH0. R 6J1VA PEAVJH0 HEYKV%SEL, U0KA HE BCTPETNVA DEHHNCA. #line:00e8ee
+Mae: “DEHHNC”? #line:dfa13f
+URevClerk: AFA, 0H PA60TAET B T%PJME, B 6PNDDVE. #line:10ebd6
+URevClerk: 0H 3AX0DNV 3A 3AFVYQKAMN. #line:ad947f
+URevClerk: MJ1 C06NPAEMCR U0SEHNTJCR 0DHASDJ1. #line:85d462
+Mae: U0F0DN, DEHHNC DAPEM? N3 U0CCYM CUPNHFC? #line:d8e632
+URevClerk: GM... DA, KAK TJ1 Y3HAVA? #line:8a0ae6
+Mae: R DYMA%, 0H 6J1V SEHAT HA M0EL 3HAK0M0L. #line:cef9ef
+Mae: 0H D0 CNX U0P M0SET 6J1TJ SEHAT? R HE 3HA% NX 06CTAH0BKY. #line:69cb76
+URevClerk: 4T0?! #line:705648
+[[Success]]
+===
+title: Distract1_2_1_2
+tags: demo2
+colorID: 0
+position: 2815,1548
+---
+<<tell BeaStealPaw Neutral>>
+URevClerk: AX. 0K. #line:015997
+Mae: 4EPT! #line:232242
+<<shuffleNextOptions>>
+[[UP0CTN, 4T0 CDEVAVA GT0 CTPAHHJ1M.|Distract1_2_1_2_1]] #line:a94ac4
+[[U04EMY TJ1 BEDEQJ CE6R TAK CTPAHH0, F0B0PR 06 GT0M?|Distract1_2_1_2_2]] #line:99acf5
+===
+title: Distract1_2_1_2_1
+tags: demo2
+colorID: 0
+position: 2673,1814
+---
+<<tell BeaStealPaw Distracted>>
+URevClerk: 3HAEQJ, 4T0? BCE H0PMAVJH0. #line:e7a97c
+Mae: 0, 60SE. #line:28a429
+URevClerk: DA. #line:5a8d8e
+URevClerk: U0HA4AVY TJ1 CTPEMAVA MEHR, H0 TEUEPJ MHE NHTEPECH0, U04EMY GT0 HE UP0N30QV0 PAHJQE. #line:8490ae
+Mae: R YBEPEHA, 0DHASDJ1 UPABNVJHJ1L KVNEHT 6YDET UPECVED0BATJ TE6R. #line:15f11d
+URevClerk: R HE DYMA%, 4T0 TJ1 D0KATNVACJ D0 UPECVED0BAHNR. #line:bb7acb
+Mae: DA, 6J1CTP0BAT0 GT0 3ACT0U0PNV0CJ. #line:a6b18b
+[[Success]]
+===
+title: Distract1_2_1_2_2
+tags: demo2
+colorID: 0
+position: 3099,1579
+---
+<<tell BeaStealPaw Alert>>
+URevClerk: HAC4ET 4EF0? #line:f24066
+Mae: TJ1 MNVAQKA! #line:b8df16
+Mae: U0QVN B ZYD-K0PT! #line:3a64a5
+Mae: FVRHEM GTY CVYSE6HY% CKNDKY! #line:c72e22
+URevClerk: TJ1... TJ1 06J14H0 TAK ZVNPTYEQJ? #line:e359be
+Mae: ...DA. #line:6cc171
+URevClerk: TE6E HYSH0 U0PA60TATJ HAD GTNM. #line:10ca30
+Mae: G-G. #line:85b467
+[[SecondAttempt]]
+===
+title: SecondAttempt_1
+tags: demo2
+colorID: 0
+position: 3554,1446
+---
+URevClerk: VADH0, 0TKYDA GT0 B3RV0CJ? #line:c56868
+<<shuffleNextOptions>>
+[[U04EMY TJ1 TAK CU0K0LHA? R T0VJK0 4T0 U0CVAVA TE6R.|SecondAttempt_1_1]] #line:97951d
+[[M0N 4EPT0BJ1 M03FN, 0HN 3DECJ.|SecondAttempt_1_2]] #line:2b7b6a
+===
+title: SecondAttempt_2
+tags: demo2
+colorID: 0
+position: 4260,1453
+---
+Mae: AAAAAAAAAAAAAAAAAFX!!!!{width=400} #line:1aafec
+URevClerk: 0X... #line:a9967d
+<<shuffleNextOptions>>
+[[AAAAAAAAAAAAAAAAAAFX!!!!{width=400}|SecondAttempt_2_1]] #line:6ff1f3
+[[AAAAAAAAAAAAAAAAAAFX?!?!?!{width=400}|SecondAttempt_2_1]] #line:a1a132
+===
+title: SecondAttempt_1_1
+tags: demo2
+colorID: 0
+position: 3414,1740
+---
+<<tell BeaStealPaw Neutral>>
+URevClerk: TJ1... Y TE6R KAKNE-T0 UP06VEMJ1? #line:9c5bd3
+Mae: HET, H0 Y TE6R 0HN T04H0 ECTJ. #line:6f5ca5
+<<tell BeaStealPaw Distracted>>
+URevClerk: VADH0, CM0TPN, R NME% B BNDY, Y MEHR T0SE 6J1VN UP06VEMJ1. #line:2b5a4a
+URevClerk: H0 R HAQVA YCU0K0EHNE B F0CU0DE. #line:07cf3d
+Mae: 0X, X0P0Q0. X0P0Q0. GT0 T0, 4T0 MHE HYSH0. #line:46bd25
+URevClerk: HYSH0 4T0-HN6YDJ? #line:b14651
+Mae: ... #line:7c8d73
+Mae: R HE 3HA%... #line:4c3ed9
+Mae: Y M0EL SN3HN 6J1V CMJ1CV D0 HEDABHEF0 BPEMEHN #line:11b037
+Mae: H0 TEUEPJ BCE XPEH0B0. #line:b29744
+URevClerk: M0FY R U0M0VNTJCR 3A TE6R? #line:23ae5a
+[[Success]]
+===
+title: SecondAttempt_1_2
+tags: demo2
+colorID: 0
+position: 3703,1734
+---
+<<tell BeaStealPaw Neutral>>
+URevClerk: VADH0, Y TE6R ECTJ UP06VEMJ1? #line:e0c0db
+URevClerk: X04EQJ, R U030BY K0F0? #line:07e660
+Mae: HE MEHRL TEMY! #line:3bec0b
+<<tell BeaStealPaw Distracted>>
+Mae: R U0QV% TE6R! #line:25bb0f
+URevClerk: B 4EM TB0R UP06VEMA?! #line:4099ab
+Mae: R HE 3HA%! R EWE HE 3AX0DNVA TAK DAVEK0! #line:fcfd3c
+URevClerk: 4T0?! #line:f26219
+[[Success]]
+===
+title: SecondAttempt_2_1
+tags: demo2
+colorID: 0
+position: 4068,1778
+---
+<<tell BeaStealPaw Neutral>>
+URevClerk: GM, VADH0, R 30BY 0XPAHY. #line:231fb7
+Mae: AAAAAAAAAAAAAAAAAAAAAAFXFXF!!!!{width=300} #line:0ea888
+<<tell BeaStealPaw Distracted>>
+URevClerk: VADH0, TAK, Y HAC HET 0XPAHJ1, H0 R 3B0H% K0UAM. #line:26c229
+Mae: HET, HE DEVAL GT0F0, R UPEKPAWY #line:d68731
+URevClerk: 4T0 HE TAK C T060L?!? #line:e6665d
+[[Success]]
+===
+title: SecondAttempt_2_2
+tags: demo2
+colorID: 0
+position: 4378,1756
+---
+<<tell BeaStealPaw Neutral>>
+URevClerk: HN AHFEVJ1, HN HAQ 60F HE 3ACTABRT MEHR 3ALTN DAVJQE HELTPAVJH0CTN! #line:a27aa3
+Mae: HE-A, HE-A! R UPNKA3J1BA% TE6E C U0VH0M04NRMN HE6EC! #line:6c24c0
+<<tell BeaStealPaw Distracted>>
+URevClerk: YCVJ1QJ! 4T0 GT0 3A 6E3YMNE? #line:7940b5
+Mae: MJ1 6VAF0CV0BVREM TE6R, F0CU0DJ, 3A BJ1CVYQNBAHNE M0VNTB TB0NX U0K0PHJ1X CVYF. #line:494588
+URevClerk: 4T0 3A 3AKVNHAHNE HAV0SNVN HA M0L 6EDHJ1L M03F? #line:a4630e
+[[Success]]
+===
+title: ReturnGoods
+tags: demo2
+colorID: 0
+position: 1465,315
+---
+<<set $urev_collision_right to 0>>
+Bea: ...U0T0MY 4T0 GT0 6J1V0 HE AKT0M UP0TECTA" #line:d8c12a
+Bea: BEPXYQKA C GT0F0 HN4EF0 HE U0TEPRET. #line:d5de2c
+Bea: A B0T EL D0CTAHETCR HA 0PEXN. #line:087255
+Mae: 0HA VNQJ QECTEPEHKA B 60VJQ0M MEXAHN3ME, DA? #line:ffb447
+Bea: DA. KAK X04EQJ. BEPHN GT0 DEPJM0. #line:29bb01
+Mae: VADH0, VADH0, NDY. #line:46084a
+<<close>>
+<<walk Mae MaeEndOfCounter wait>>
+Mae: UPNBET. #line:8c4855
+Bea: 3DPACJTE. #line:eb30e9
+URevClerk: BEPHYVNCJ. #line:593664
+Mae: AFA, MJ1 K0E-4T0 YKPAVN. #line:0e21e0
+Mae: B0T GT0 K0E-4T0. #line:74bda6
+Mae: MJ1 HE X0TNM, 4T06J1 Y TE6R 6J1VN UP06VEMJ1 C HA4AVJCTB0M. #line:f56b39
+Mae: HE TB0R BNHA, 4T0 MNP TAK YCTP0EH. #line:75b2f2
+URevClerk: 4T0? BJ1 YKPAVN GT0? #line:6ca03c
+Mae: TJ1 UP0CT0 QECTEPEHKA B 60VJQ0M MEXAHN3ME. #line:28b46e
+Mae: BNHNTJ TE6R - GT0, CV0BH0, BNHNTJ QTYKY, BHYTPN DPYF0L 0FP0MH0L QTYKN. #line:1496de
+<<close>>
+<<wait 2>>
+URevClerk: 3HA4NT, BJ1 B03BPAWAETE KPADEHHJ1L T0BAP? #line:bfab63
+Mae: 0DHASDJ1, TAKNE, KAK TJ1, CBEPFHYT BCE GT0. #line:8c0096
+URevClerk: 4T0 "BCE GT0"? #line:08e3d0
+Mae: HY. BCE. GT0. #line:49c85b
+<<lookAt Mae URevClerk>>
+Bea: HAM U0PA. #line:9fad59
+Mae: 6YDJ CNVJHA, 0, UPEKPACHJ1L ME4TATEVJ. TE6E HE4EF0 TEPRTJ, U0MNM0 KAHDAV0B. #line:56fb71
+//<<walk Bea Exit>>
+<<walk Mae Exit>>
+URevClerk: 4T0? #line:2e7e2d
+<<set $fort_lucenne_mall to 6>>
+<<irisOut 1 wait>>
+<<scene FortLucenneMall>>
+===
+title: URevClerk
+tags: demo2
+colorID: 0
+position: 692,475
+---
+<<set $urev_clerk_done to 1>>
+URevClerk: UPNBET, DAMJ1. #line:284dd2
+Mae: :) o/ #line:8676c6
+Mae: UPNBEEEEEET, DAMA. #line:61496b
+Mae: _o_ #line:7adf08
+URevClerk: UP0CT0, 4T06 BJ1 3HAVN, Y HAC CKNDKA 20 UP0OEHT0B HA N36PAHHJ1E ZYT60VKN. #line:c5d4a2
+Mae: YYYY! ZYT60VKN! #line:88f647
+URevClerk: DA. #line:88dfa6
+Mae: 60VJQ0E CUACN60! #line:9baa7c
+URevClerk: 0KEL. #line:cd7c6f
+Mae: CBNDNMCR U03SE! o/ #line:6800c9
+URevClerk: VADH0. #line:d82a65
+Mae: _o_ #line:737dae
+===
+title: URevStart
+tags: demo2
+colorID: 0
+position: 710,691
+---
+<<set $urev_collision_right to 0>>
+<<walk Mae MaeEndOfCounter>>
+<<walk Bea BeaEndOfCounter>>
+Bea: 0X, PADN BCEF0 CBRT0F0. #line:3bd20a
+Mae: 4E =_= :) #line:aa24ee
+Mae: PT #line:23fa13
+Mae: B03JMN #line:b705da
+Mae: <o> #line:c1de15
+Mae: MHE CH0BA 14. #line:afa3b5
+Bea: AFA. D0B0VJH0 6E3YMH0 3DECJ. #line:3a8a25
+Mae: _o_ o_o #line:e76347
+<<close>>
+<<pointAt Mae Shirt>>
+<<wait .5>>
+Mae: GL, A GT0 PA3BE HE... #line:eedb5c
+Mae: =_= #line:7da473
+<<lookRight Mae>>
+<<wait .5>>
+Bea: 3ATKHNCJ. #line:2db47d
+<<pointAt Mae>>
+<<lookNearest Mae>>
+Mae: o_o #line:98f595
+<<generateFollowPoints Mae Bea>>
+<<follow Bea Mae>>
+<<set $urev_collision_right to 1>>
+===
+title: CounterStuff
+tags: demo2
+colorID: 0
+position: 711,1166
+---
+Mae: XA-XA, KVAAACC. #line:ba21ec
+Bea: HAKVELKN DGD UATN 60LC? B 2017-M? #line:add2c3
+Mae: DYMA%, 0HN EWE BEPHYTCR. #line:d1cf7f
+Bea: XM. 6J1V0 6J1 KPYT0. #line:e2cf3f
+Mae: CU0P%, 4T0 TJ1 CVYQAEQJ NX. #line:e0242a
+Bea: GM. DA. 0HN X0P0QN. #line:705ce4
+Mae: DA, ECVN TE6E 30 N TE6E FPYCTH0. #line:ff7d2c
+Bea: BCE EWE BUEPEDN. #line:04b5b4
+<<end>>
+===
+title: Witchdagger
+tags: demo2
+colorID: 0
+position: 951,1172
+---
+Mae: Y HNX DASE HET HNKAK0F0 MEP4A BEDJM KVNHKA. #line:81c5b8
+Mae: Y HNX T0VJK0 BEWN, K0T0PJ1E KPYTJ1 DVR, TNUA, #line:a75ffe
+Mae: 13TNVET0K. #line:e02483
+Bea: PA3BE GT0 HE VALTU0CTEP BEDJM KVNHKA? #line:793d81
+Mae: 0Y. XAX. #line:c87195
+Bea: KASETCR, Y HNX ECTJ HEMH0F0 NX MEP4A. #line:cb2942
+Bea: R DYMA%, 4T0 BNDEVA U0VHJ1L K0MUVEKT BEDJM KVNHKA Y BX0DA. #line:c673b3
+Mae: 0KEL, 0KEL. #line:623aa2
+Bea: TE6E HYSH0 U0TYC0BATJ C 13TNVETKAMN. #line:d056bd
+Mae: UPEKPATN. #line:727763
+Bea: Y BAC CT0VJK0 06WEF0. #line:a74136
+Mae: KVRHYCJ, R YF0H% TB0% MAQNHY N 0CTABV% TE6R 3DECJ. #line:8d6a70
+Bea: XE-XE. 6YDT0 TJ1 YMEEQJ B0DNTJ. #line:9d888c
+<<end>>
+===

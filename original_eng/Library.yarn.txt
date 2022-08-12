@@ -1,0 +1,527 @@
+title: Microfiche
+tags: 
+colorID: 0
+position: -56,93
+---
+<<if $microfiche_done is 0>>
+    Bea: Alright, there she is. #line:14c89c
+    Mae: Cool. #line:c25fc6
+    <<fadeOutMusic 7>>
+    <<close>>
+    <<wait 3>>
+    Bea: So... #line:63cb26
+    Mae: I have no idea how to use it. #line:d429d3
+    Bea: Really? #line:6ff6e7
+    Mae: I can’t know how to do everything! #line:13c5c3
+    Bea:{width=4} I’m sorry but what expertise have you brought to this thus far? #line:c4e492
+    Mae: \o/ #line:b45923
+    Mae: This whole thing was my idea! #line:428f8b
+    Bea:{width=4} NO. Your idea was ghost hunting. #line:374685
+    Bea: MY idea is to do at least a tiny bit of research on it. #line:d415d2
+    Mae: :( #line:fbd8a8
+    Mae: If you think it’s so stupid, why are you here? #line:6aa341
+    Bea: Because you’re my friend, you asshole! #line:cc4e07
+    <<close>>
+    <<wait 2>>
+    Mae: _o_ :) #line:b04c1c
+    Mae: AAAAAW. #line:5d6498
+    Bea: ugh #line:cdfa1a
+    Mae: AW WE FWENDS, BEATWICE??? #line:2c7d81
+    Bea: here, let me get this set up #line:7a32f8
+    Bea: we’ll be here all night if your dumb ass is in charge #line:a269dc
+    Mae: o_o :| _o_ #line:a33453
+    <<set $microfiche_done to 1>>
+<<endif>>
+<<irisOut 1 wait>>
+<<scene Microfiche>>
+===
+title: EnterLevel
+tags: test
+colorID: 0
+position: -702,224
+---
+<<if $microfiche_done>>
+    <<set $librarian_done to 1>>
+    <<warp Mae MaeNextToElevator>>
+    <<warp Bea BeaNextToElevator>>
+    <<flip Bea 1>>
+    <<hide Librarian>>
+<<else>>
+    <<flip Mae -1>>
+    <<flip Bea -1>>
+<<endif>>
+<<follow Bea Mae>>
+<<setCanInteract Bea 0>>
+
+<<if $microfiche_done is 0>>
+    [[Intro]]
+<<else>>
+    [[Intro2]]
+<<endif>>
+===
+title: Elevator
+tags: 
+colorID: 0
+position: -385,81
+---
+-> Going Up! #line:dbd3bd
+    <<set $elevator_choice to 0>>
+-> Going Down! #line:c13a9f
+    <<set $elevator_choice to 1>>
+===
+title: Intro
+tags: 
+colorID: 0
+position: -828,506
+---
+<<cameraLookAt CameraMuralLook 4>>
+<<walk Mae MaeInFrontOfDoor>>
+<<walk Bea BeaInFrontOfDoor wait>>
+<<lookAt Bea LookMural>>
+<<setAnimInt Bea headSlant 2>>
+Bea: Look! Jobs! #line:95c181
+Bea: Weird like #line:f05d14
+Bea: when this was painted it was like #line:8b2f40
+Bea: Hey Look Out The Window! #line:a4d173
+Bea: We’re all working! Things are great! #line:30d04f
+Bea: Now it’s like #line:28dae1
+Bea: one of the graffiti murals #line:ba73b6
+Bea: after someone gets shot or hit by a car. #line:a7d4ef
+Mae: This mural is really affecting you. #line:fa7aeb
+Bea: o_o #line:25cfc1
+Bea: I forget that we live in separate realities. #line:4aa5f1
+Mae: Mine’s clearly better. #line:269b84
+<<cameraFollowPlayer 4>>
+<<lookNearest Bea>>
+<<setAnimInt Bea headSlant 0>>
+<<playMusic investigating>>
+===
+title: Librarian
+tags: 
+colorID: 0
+position: 177,417
+---
+<<if $library_desk is 0>>
+    <<set $library_desk to 1>>
+    <<lookAt Mae Librarian>>
+    Bea: Hey! #line:dcc002
+    Librarian: Closing in 2 hours. #line:da253a
+    Bea: Ok cool. #line:67d4e1
+    Mae: Any idea where the microfish is? #line:b03f8f
+    Bea: Microfiche. #line:64e700
+    Mae: :) #line:ca6d98
+    Mae: Microfeesh. #line:fe0add
+    Librarian: Third floor. #line:e1f847
+    Bea: Ok thanks. #line:fba0fb
+    Mae: Up up up. #line:72b410
+    Mae: :| #line:4323d8
+    <<loolNearest Mae>>
+<<elseif $library_desk is 1>>
+    <<set $library_desk to 2>>
+    <<set $librarian_done to 1>>
+    <<lookAt Mae Librarian>>
+    Mae: Slow night? #line:fb2819
+    Librarian: yep. #line:366f8c
+    Bea: Spooky here, all alone? #line:2d4478
+    Mae: I’d be spooked. #line:c6ef43
+    Librarian: Eh. #line:c25c81
+    Librarian: Larry’s wandering around here somewhere. #line:e7fd2c
+    <<loolNearest Mae>>
+<<endif>>
+===
+title: DinosaurSkeleton
+tags: 
+colorID: 0
+position: -112,406
+---
+Mae: How did we get this? #line:663064
+Mae: This seems... expensive. #line:646f73
+Bea: It’s really old #line:83d825
+Bea: from like the robber baron times #line:38f4df
+Bea: one of 'em bought a dinosaur. #line:012526
+->awesome #line:ce09a4
+	Bea: not gonna argue #line:e4c7a7
+->it looks weird #line:e3ccbe
+	Mae: I don’t think it stood like that. #line:6ef44f
+	Bea: back then they didn’t really get dinosaurs #line:941442
+	Mae: can anyone truly? #line:8b7e41
+<<set $dinosaur_skeleton_done to 1>>
+===
+title: Computers
+tags: 
+colorID: 0
+position: 252,94
+---
+Mae: looks like someone left something open on this one #line:881bd4
+Bea: it’s a resume #line:8f7196
+Mae: Bob Targg #line:d99ae7
+Mae: Born 1967 #line:d608e7
+Bea: 50 years old #line:1ffd4f
+Bea: let’s see... #line:a5b283
+Bea: experience: mining, construction, well drilling #line:d38c19
+Mae: I never think about getting a job when I’m old. #line:833f5e
+Bea: 50’s not really old. #line:662538
+Mae: I mean #line:7c3df2
+Mae: you should have money then, right? #line:154bf7
+Bea: Ideally #line:d7fc43
+Mae: It should be like... guaranteed. #line:a52975
+Mae: :\ #line:f9db76
+Mae: should be guaranteed in general #line:c599a3
+Mae: :| #line:230d71
+Bea: You gonna join my young socialists Chattrbox group? #line:ad393b
+<<set $library_computers_done to 1>>
+===
+title: CharityBearity
+tags: 
+colorID: 0
+position: 549,113
+---
+<<if $library_charity_bearity is 0>>
+    <<set $library_charity_bearity += 1>>
+    Mae: Holy crap. #line:900726
+    Bea: What? #line:6e61e7
+    Mae: It’s Charity Bearity. #line:038bd7
+    Bea: What’s Charity Bearity? #line:61eb9d
+    Mae: O_o #line:f81735
+    Mae: HOW DO YOU NOT KNOW CHARITY BEARITY?! #line:bfd7c2
+    Bea: I assume this is something from school? #line:944a87
+    Mae: The School Of Being 5 Freaking Years Old! #line:c1604d
+    Bea: ...alright? #line:c6cdcc
+    Bea: So this was a thing you liked as a kid? #line:eda6a5
+    Mae: o> #line:db9adb
+    Mae: NO! I HATED CHARITY BEARITY! #line:0c1b95
+    Bea: It does look really hateable. #line:840823
+    Mae: o_o #line:cb77e7
+    Mae: It was like #line:f5f2b0
+	->you were kidnapped by a cult #line:365956
+		Mae: and when they were like #line:59dc72
+		Mae: brainwashing you #line:6c2f64
+		Mae: instead of some cult guy #line:991928
+		Mae: with a wavy dagger and a magic mask #line:6d1af1
+		Bea: that’s not... ok yeah go on #line:db2aca
+		Mae: instead of that it was this effing pink nightmare! #line:90bd09
+		Bea: you were scared of it? #line:59b85e
+        <<setAnimint Mae headShaking 1>>
+		Mae:{width=8} no! I was B O R E D  T O  D E A T H. #line:43afe4
+        <<setAnimint Mae headShaking 0>>
+		Mae: it was talking forever about like being kind to others #line:5c3749
+        Mae: and like i dunno helping an old neighbor do engine repair #line:6bbf3a
+        Bea: that sounds... nice? #line:50e46c
+        Bea: Charity Bearity Helps Old Mr. Plonko Fix His Hovercraft #line:8c7330
+        Mae: ugh no that’s the worst part- it ALWAYS rhymed! #line:deaeaf
+        Bea: Charity Bearity: Pink Nightmarity. #line:3f1969
+        Mae: _o_ #line:3b8b83
+        Mae: Charity Bearity: I Just Don’t Carity #line:aafc33
+    ->you were under some curse #line:728c9b
+		Mae: where a cute thing followed you around #line:369383
+		Mae: 24-7 #line:54c080
+		Mae: yelling about like #line:009268
+		Mae: sharing and not littering #line:90886a
+        Mae: and paying taxes #line:2992a3
+        Bea: Well that’s an important... uh... skill. #line:90049e
+        Mae: I WAS 5!!! #line:cf99d3
+        Mae: I’m 20 now and I still haven’t paid taxes!!! #line:455060
+        Mae: _o_ #line:14a89a
+        Bea:{width=4} Charity Bearity Goes To A State Infrastructure Budgeting Meeting #line:592f83
+        Mae: Ugh I forgot the worst part- it ALWAYS rhymed. #line:b80bde
+        Bea: Charity Bearity: Oh No! Austerity! #line:f7f13e
+        <<set $austerity_bearity to 1>>
+        Mae: What’s that? #line:7723c9
+        Bea:{width=4} Reason the two bridges in and out of Saltztown are still closed #line:e21d15
+        Mae: Oh wow you still can’t like... go to Saltztown? #line:b0c60a
+        Bea: You’re welcome to try! #line:1f5947
+<<elseif $library_charity_bearity is 1>>
+    <<set $library_charity_bearity += 1>>
+    <<set $library_charity_bearity_done to 1>>
+    Bea: geez. They sure made a lot of these books. #line:a1a2ed
+    Mae: I think they’re still making them. #line:329cd9
+    Bea: This one looks pretty old. #line:9fff03
+    Mae: Charity Bearity: Danger Everywhere-ity #line:596a3e
+    Bea: That’s vague. And disconcerting. #line:89f448
+    Mae: could’ve just kept updating that one book #line:401e4a
+<<endif>>
+===
+title: LeaveThirdFloorElevator
+tags: 
+colorID: 0
+position: 809,126
+---
+Bea: *sniff* *sniff* #line:b4dc5c
+Bea: oh wow it’s dusty up here #line:dda4de
+Mae: O_o #line:a9d378
+Mae: It’s *OLD* up here. #line:1e3bb9
+Bea: sure is. #line:9bdfec
+Bea: maybe your... ghost? is up here. #line:541888
+Mae: o_o #line:43661a
+Mae: yep. ghost. #line:34ed1c
+Mae: or something. #line:e81f1c
+Mae: whatever he was, #line:ae8d3b
+Mae: he walked through a chain link fence #line:a00f58
+Mae: or flew over it #line:611f61
+Mae: or something. #line:4d749f
+Mae: *while* carrying something. #line:76b766
+Bea: oh right, well that's even more impressive. #line:f56048
+Mae: so we're gonna go find this guy. #line:a5d0eb
+Mae: because he took someone #line:48f9f8
+Mae: and he's like somehow connected to this thing i've been going through #line:c9d7d3
+Mae: and that's not good. #line:9c9591
+<<wait 2>>
+Mae: :\ #line:53c8c8
+Mae: that all sounded a lot more bad-ass in my head. #line:587256
+Bea: it's ok. it was fine. #line:81fb46
+Mae: :| #line:d8b12a
+===
+title: Intro2
+tags: 
+colorID: 0
+position: -466,511
+---
+<<fadeOutMusic 3>>
+Mae: so we’ve got some leads #line:61c720
+Mae: can I borrow your car this week? #line:cc8c1b
+Bea: do you even have a license? #line:7a1a34
+Bea: I mean no, regardless, but do you? #line:baf92f
+Mae: nope. #line:318b25
+Mae: no license, no credit cards, don’t believe in money #line:ead042
+Bea: you just believe in other people’s cars and money #line:ac11d5
+Mae: i didn’t choose to be born into this society #line:9f1a66
+Bea: ... #line:e22144
+Bea: ok well I have, you know, a job #line:2107eb
+Bea: so i can’t drive you around to all of these spots #line:f67539
+Bea: i can maybe do the graveyard? #line:9fe424
+Bea: i need to go there anyway. #line:22ed89
+Mae: :) #line:e6b4f2
+Mae: cool! I’ll see if gregg wants to do the other two. #line:0b56ea
+Bea: you know, like, and i probably don’t have to say this #line:f424b2
+Mae: :| #line:7b814b
+Bea: but just because something happened in the past  #line:01ea45
+Bea: doesn’t mean it’s going to happen again. #line:dfbb7d
+Mae: o> #line:711066
+Mae: Hey nerd, ever hear that history repeats? #line:097ea2
+Mae: It does. It does the same thing over and over again. #line:57e1e6
+Bea: So we’ve just been in a loop since we were living in caves? #line:160468
+Mae: _o_ #line:94a875
+Mae: Yeah. That’s science. #line:3a0ea3
+Bea: oh my freaking god. #line:29f8ff
+===
+title: PoetSociety
+tags: 
+colorID: 0
+position: 751,451
+---
+<<flip Bea 1>>
+<<walk Mae MaePoetry>>
+<<walk Bea BeaPoetry wait>>
+<<flip Bea 1>>
+MissQuelcy: Ahem! #line:fbd202
+Mae: What is... #line:e9a2e1
+//Librarian: Shhh!
+Bea: Is that Miss Quelcy? #line:d6272f
+Mae: oh wow. Haven’t seen her since graduation. #line:bcd4ad
+Bea: she was always kind of a badass. #line:362b7f
+Bea: school district did not fund that art program at all. #line:e7abf3
+Bea: but she made it work #line:32e115
+Bea: she was like some sort of art teacher survivalist. #line:04f3b3
+Mae: wow. I never realized. #line:480c58
+Bea: I think they pay her in bits of string and empty soda cans. #line:51af9d
+<<if $austerity_bearity>>
+	Mae: Should be saving that string to repair those bridges into Saltztown. #line:21c5b8
+	Bea: There you go. #line:991f58
+<<endif>>
+MissQuelcy: Thank you all for coming to this second meeting #line:11daf5
+MissQuelcy: Of the Possum Springs Poetry Society #line:4a1cda
+Bea: Do you want to stick around for this? #line:3c0d46
+->Naw. #line:0f72d5
+    Mae: :\ #line:401775
+	Mae: public poetry performance should probably be outlawed.  #line:56ff66
+	Bea: when have you ever seen one? #line:d6d342
+	Mae: school. old roommate. #line:d272be
+	Bea: you’ve never mentioned your old roommate. #line:bf1bf9
+	Mae: she’s an entire story unto herself. #line:3da30d
+    Mae: :| #line:d5b321
+	MissQuelcy: Excuse me, are you two staying? #line:211445
+	MissQuelcy: if so, would you like to have your conversation up here? #line:51de83
+    <<walk Mae MaeInFrontOfDoor>>
+    <<walk Bea BeaInFrontOfDoor>>
+	Mae: No! To both! #line:78b6d9
+	Mae: We’re not big into rhyming everything we say. #line:10eae0
+    <<close>>
+    <<waitForMove Mae>>
+    <<waitForMove Bea>>
+	MissQuelcy: Poetry doesn’t have to rhyme! #line:cf3288
+	Mae: That is the stupidest thing I have ever heard. #line:09e539
+	<<walk Mae MaeOut>>
+    <<walk Bea BeaOut>>
+    <<close>>
+->Yeah! #line:bdee13
+    <<close>>
+	//lights go down
+    //Mae hops up on library counter//
+    <<sit>>
+    <<cameraLookAt CameraPoetry 6>>
+    <<playMusic poetry_society>>
+    <<wait 1>>
+	MissQuelcy: Tonight we have new poems from myself #line:b687b2
+    MissQuelcy: and "Fisherman" Jones #line:e571be
+    <<if $selmers_poet >= 3>>
+        MissQuelcy: and Selma Ann Forrester. #line:80ea8b
+    <<endif>>
+    MissQuelcy: I will start us off with one of my own. #line:079225
+    ->she's from some big city, right? #line:eefe3f
+        Bea: yeah #line:c8f336
+        Mae: how'd she end up here? #line:254c96
+        Bea: who knows. #line:eadc6c
+    ->they don't actually pay her in string, right? #line:c26ef4
+        Bea: ... #line:0ec945
+        Bea: Yes, Mae. They literally pay her in string. #line:6d030e
+        Mae: I was just joking! #line:1df9d6
+        Bea: right. #line:9ea899
+    MissQuelcy: *ahem* #line:b9a74c
+    MissQuelcy: "Letter To My Worst Student" #line:d25efa
+    MissQuelcy: To my Worst Student #line:e261f2
+    MissQuelcy: the subject of my stories #line:f00f4f
+    MissQuelcy: i tell friends back home #line:959ea3
+    MissQuelcy: when they ask about life #line:35031f
+    MissQuelcy: out here in the sticks #line:fa0bcc
+    MissQuelcy: it's you. #line:99f3d2
+    MissQuelcy: I worry #line:d5ecf3
+    MissQuelcy: at the end of my life #line:3da90e
+    MissQuelcy: you will be the only one i remember #line:633b61
+    MissQuelcy: why did #line:578640
+    MissQuelcy: you key #line:3cb609
+    MissQuelcy: my car #line:abffd4
+    MissQuelcy: i know #line:00740d
+    MissQuelcy: it was #line:9bc068
+    MissQuelcy: you #line:e44cfb
+    MissQuelcy: Brian. #line:6ef51a
+    MissQuelcy: ... #line:21f635
+    MissQuelcy: Thanks, everyone! #line:35c12b
+    ->is that legal? #line:3e271e
+        Bea: what? #line:3c53f9
+        Mae: talking about details about students like that? #line:1834cc
+        Bea: she didn't name names. #line:0a48cf
+        Mae: yeah she did! #line:5b1e9a
+        Bea: ok, no *full* names. #line:799e52
+    ->poor Ms. Quelcy. #line:9b27eb
+        Bea: at least she's blowing off some steam. #line:467f9e
+    MissQuelcy: Next up, "Fisherman" Jones. #line:98a17c
+    //fisherman stands up//
+    MissQuelcy: Fisherman Jones has a poem for us- #line:553b08
+    Fisherman: Two. Two poems. They're short, though. #line:483620
+    MissQuelcy: Two poems! Take it away! #line:69d033
+    Fisherman: uh... hi folks. thanks. #line:b478e8
+    Fisherman: This is called "Tunnel eels" #line:20735f
+    Fisherman: Tunnel Eels, Tunnel Eels #line:83fbc0
+    Fisherman: I do not know how it feels #line:035427
+    Fisherman: To be in darkness all the time #line:3eb252
+    Fisherman: Born in muck and raised in slime #line:61cf34
+    Fisherman: But neither d'you know paths I've trudged #line:e31835
+    Fisherman: so it hardly is your place to judge. #line:dbe7c0
+    Fisherman: ... #line:d526bb
+    Fisherman: ok that's one poem. the next one is shorter. #line:6ff167
+    Fisherman: This is called "Tunnel frogs" #line:e09abf
+    Fisherman: Tunnel Frog swims in the dark #line:a7c8af
+    Fisherman: must think it would be a lark #line:1daf2a
+    Fisherman: to be a fisherman like me #line:b00be5
+    Fisherman: but what do you know, amphibee'? #line:b24836
+    Fisherman: ... #line:166f1f
+    //fisherman sits down//
+    Fisherman: that's it. #line:c87f28
+    MissQuelcy: That's great! Thank you "Fisherman" Jones! #line:898c2e
+    <<if $selmers_poet >= 3>>
+        ->Dude is really worried about what fish think. #line:068f70
+            Bea: that tunnel always spooks me. #line:4b0cd9
+        ->He definitely talks to the actual fish. #line:9fd42b
+            Bea: oh most definitely. #line:e838aa
+        MissQuelcy: Finally, a poem by Selma Ann Forrester! #line:60817a
+        //selmers stands up//
+        Mae: :) #line:1e7f61
+        Mae: YAY SELMERS! #line:960b00
+        Selmers: thanks Mae. #line:ca2d26
+        Bea: you know her? #line:e5c67f
+        Mae: o_o #line:3a8009
+        Mae: Dude, she’s like your neighbor. #line:bb64cd
+        Bea: oh. #line:b38c2d
+        Mae: she writes these really funny dorky short poems. #line:015255
+        Bea: i'm up for something short and funny! #line:80b1ea
+        Selmers: this is called #line:f572ee
+        Selmers: "There’s no reception in Possum Springs" #line:f96b2d
+        Mae: :) #line:a30d58
+        Mae: ha ha ha! #line:1c42a9
+        Bea: she’s not wrong! #line:280413
+        Selmers: *ahrrm ahrrrm* #line:fd1fe6
+        Mae: :| #line:5d0e15
+        <<fadeOutMusic 5>>
+        Selmers: No | Reception | Here #line:827dc7
+        Selmers: I wave my | black phone #line:8bdce4
+        Selmers: In the air like a flare | like a prayer | but no | reception #line:460e74
+        Selmers: I read on the internet | baby face boy billionaire #line:609a6f
+        Selmers: phone app sold | made more money in one day | than my family | over 100 generations #line:ce35b7
+        Selmers: More than my whole world ever has #line:ba8d2c
+        Selmers: world where house-buying jobs | became rent-paying jobs | became living with family jobs #line:948b49
+        Selmers: Boy | billionaires #line:fa85a2
+        Selmers: Money is access | access to politicians | waiting for us to die | lead in our water | alcohol and painkillers #line:5a3cea
+        Selmers: replace my job with an app | replace my dreams | of a house and a yard #line:a8d663
+        Selmers: with a couch | in the basement #line:632f32
+        Selmers: "The future is yours!" #line:7e0076
+        Selmers: forced 24-7 entrepreneurs. #line:0f154d
+        Selmers: I just want a paycheck | and my own life #line:4eab98
+        Selmers: i'm on the couch | in the basement | they're in the house | and the yard #line:a861f4
+        Selmers: some night i will catch | a bus out to | the west coast #line:1ec35a
+        Selmers: and burn their silicon city | to the ground #line:cc403d
+        <<set $saw_selmers_deliver_poem_at_poets_society to 1>>
+        <<wait 2>>
+        <<unlockDoodle SelmersGoodPoet>>
+        Bea: holy shit #line:bff1e5
+        Mae: wow. damn. #line:657c5e
+        Bea: huh. She rhymed “entrepreneur” #line:6d4926
+        Mae: i don’t even know what that word means #line:74852c
+        Selmers: thanks everyone #line:7c08b4
+        Bea: is she always like this? #line:a8982c
+        Mae: no #line:2082f3
+        Mae: wow. #line:219a8d
+        Bea: huh #line:6e9f11
+        MissQuelcy: thanks everyone. See you in two weeks. #line:5fe8d5
+        <<lookAt Mae Selmers>>
+        Mae: HEY SELMERS! #line:b255c1
+        Selmers: WHAT! #line:2443fd
+        Mae: :) #line:0cfe8c
+        Mae: I LIKED YOUR WEIRD POEM! #line:96058c
+        Selmers: THANKS I WROTE IT MYSELF! #line:ee6b0c
+        Bea: wait, was the assumption that she *didn't* write it hers- #line:cb5f41
+        Mae: NICE WORK SMELLMER! #line:2c7e19
+        Selmers: I DON'T LIKE THAT NICKNAME! #line:8411a9
+        Mae: o_o #line:13f747
+        Bea: what are you two- #line:04fe64
+        Mae: SORRY! #line:879e3b
+        Selmers: IT'S COOL! #line:924bc3
+        Bea: can we go now? #line:63f235
+        <<unlockAchievement Poets_of_Possum_Springs>>
+    <<else>>
+        <<fadeOutMusic 5>>
+        MissQuelcy: That's all for tonight, everyone! #line:017fb6
+        MissQuelcy: See you in two weeks! #line:cfa783
+        MissQuelcy: all are welcome to join us at Donut Wolf! #line:8b8994
+        Mae: DONUT WOLF!!!!! #line:91a9a5
+        Bea: We're going home, Mae. #line:58359a
+        Mae: :( #line:358bb7
+        Mae: AWWWWW!!!!!! #line:f23d08
+    <<endif>>
+
+
+<<close>>
+<<fadeOut 1 wait>>
+<<scene GreggAngusApartment>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -1009,38
+---
+<<if $microfiche_done>>
+<<else>>
+    <<hide MissQuelcy>>
+    <<hide Fisherman>>
+    <<setCanInteract MissQuelcy 0>>
+<<endif>>
+===

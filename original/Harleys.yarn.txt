@@ -1,0 +1,72 @@
+title: Harleys
+tags: 
+colorID: 2
+position: 516,878
+---
+<<setInvolvedCharacters Mae Harley1 Harley2 Harley3>>
+<<if $harleys_sequence is 0>>
+    <<if $harleys is 0>>
+        <<set $harleys += 1>>
+        <<set $harleys_done to 1>>
+        [[Harleys_00_00]]
+    <<endif>>
+<<endif>>
+===
+title: Harley1
+tags: 
+colorID: 2
+position: 146,552
+---
+[[Harleys]]
+===
+title: Harley2
+tags: 
+colorID: 2
+position: 523,498
+---
+[[Harleys]]
+===
+title: Harley3
+tags: 
+colorID: 2
+position: 926,603
+---
+[[Harleys]]
+===
+title: Harleys_00_00
+tags: 
+colorID: 2
+position: 519,1205
+---
+Mae: GT0 SE XAPVN! 4EM 3AHNMAETECJ? #line:1519db
+Harley2: VNTV DS0, TJ1 APECT0BAH. #line:2afbec
+Mae: YX TJ1. DETN BCE EWE U0MHRT 0 VNTV DS0? #line:7c504d
+Harley3: MJ1 NCU0VJ30BAVN TB0% DHK. #line:c1f21a
+-> 3HAETE VN BJ1, DETNQKN, 4T0 TAK0E DHK? #line:2d8d78
+    Harley3: AFA, GT0 TAKAR QTYKA, U0M0FA%WAR PACKPJ1BATJ UPECTYUVEHNR. #line:07ddfb
+    Harley2: TNUA 4ACTJ TB0EF0 TEVA, T0VJK0 04EHJ MAVEHJKAR. #line:6d6dda
+    Harley1: H0 Y UPN3PAK0B HET 4ACTEL TEVA. #line:ecb1b2
+    Mae: DA, XAPVN. XAPVN UPAB. #line:a71ec9
+    Harley3: TETR, M0SET YLDETE? #line:dadc58
+    Mae: TETR?! #line:c6a634
+-> Y UPN3PAK0B HET DHK #line:c98ae7
+    Harley1: DA, Y UPN3PAK0B HET DHK #line:6058a8
+    Harley3: TETR, M0SET, BJ1 0CTABNTE HAC HAEDNHE? #line:ac8388
+    Harley2: DA, 0CTABJTE HAC, TETR. #line:e89d66
+    Mae: TETR?! #line:eed325
+===
+title: Harley1InitLevel
+tags: 
+colorID: 0
+position: 858,139
+---
+<<if $act is 1 and $day is 1 and $Underhill is 1>>
+    <<show Harley1>>
+    <<show Harley2>>
+    <<show Harley3>>
+<<else>>
+    <<hide Harley1>>
+    <<hide Harley2>>
+    <<hide Harley3>>
+<<endif>>
+===

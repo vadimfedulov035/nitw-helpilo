@@ -1,0 +1,82 @@
+title: Donna
+tags: 
+colorID: 0
+position: 181,170
+---
+<<if $donna_sequence is 0>>
+	<<if $donna is 0>>
+		[[Donna_00]]
+	<<elseif $donna is 1>>
+		[[DonnaSorry]]
+	<<elseif $donna is 2>>
+		[[DonnaBreak]]
+	<<endif>>
+<<endif>>
+===
+title: DonnaBreak
+tags: 
+colorID: 0
+position: 177,466
+---
+Donna: 10 minutes left. #line:9bf3d6
+===
+title: DonnaSorry
+tags: 
+colorID: 0
+position: 471,342
+---
+<<set $donna to 2>>
+Donna: Sorry for unloading on you like that. #line:5cefff
+Mae: Naw, it's cool. #line:68b572
+Mae: Do you need a hug? /o\ :) #line:377f7a
+Donna: I'll pass. #line:b6cbb1
+Mae: _o_ :| #line:eb7fa2
+===
+title: Donna_00
+tags: 
+colorID: 0
+position: 709,106
+---
+<<set $donna to 1>>
+Mae: Hey! Donna, right? #line:3f1d22
+Mae: You used to babysit me, remember? #line:a5803c
+Donna: Yep. #line:832f44
+Mae: That's a sweet coat, Donna. #line:69eb0b
+Donna: This is my nicest outfit. #line:f0a00d
+Mae: Looks good! :) #line:49e4ec
+Donna: I bought it at the Fort Lucenne Mall. #line:de129d
+Donna: I only wear it to work. #line:9fcd8c
+Mae: I wear this outfit all the time. #line:1c50de
+Mae: It's my calling card. #line:e72877
+Donna: I have nowhere else to wear this. #line:dc9763
+[[Well, enjoy your break!|DonnaEnd]] #line:1348de
+[[My shirt is cool because it has multiple meanings.|Donna30]] #line:0d1ea9
+
+===
+title: DonnaEnd
+tags: 
+colorID: 0
+position: 764,476
+---
+<<set $donna to 2>>
+Donna: See you around, Mae. #line:c5dd04
+Mae: :| #line:84b8bf
+===
+title: Donna30
+tags: 
+colorID: 0
+position: 996,215
+---
+Donna: I wear this outfit #line:8d442f
+Donna: to a job #line:25b3e6
+Donna: where people can only hear my voice. #line:f305ea
+Mae: I made this shirt myself, too! #line:e4290b
+Donna: I'm 30 next week. #line:a1e398
+Mae: in home economics. I was really great at that. #line:3f1ed1
+Donna: I'm going to die in this town. #line:982133
+Donna: And they're going to bury me in this outfit. #line:5c86ba
+Mae: I hope they bury me in this shirt. /o\ #line:7e84f9
+Donna: It's a very nice shirt, Mae. #line:18a035
+Mae: [wave]Thanks!!![/wave] #line:e83612
+Mae: :| _o_ #line:c3781c
+===

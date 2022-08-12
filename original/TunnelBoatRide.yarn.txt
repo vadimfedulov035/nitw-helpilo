@@ -1,0 +1,804 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 609,5
+---
+<<playerFace -1>>
+<<tell TunnelBoatRide Run>>
+<<fadeOutMusic 5>>
+<<fadeIn 1 wait>>
+<<wait 1>>
+[[BeforeIsland1]]
+===
+title: Salvi
+tags: 
+colorID: 0
+position: 3063,-1314
+---
+<<if $tunnel_boat_island is 1>>
+    [[SalviIsland1]]
+<<elseif $tunnel_boat_island is 2>>
+    [[SalviIsland2]]
+<<elseif $tunnel_boat_island is 3>>
+    [[SalviIsland3]]
+<<elseif $tunnel_boat_island is 4>>
+    [[SalviIsland4]]
+<<endif>>
+===
+title: BeforeIsland1
+tags: 
+colorID: 0
+position: 720,345
+---
+Salvi: ...N MH0F0 V%DEL N3 DPYFNX MECT UP0E3SA%T  #line:8fe519
+Salvi: MESDY Z0PT0M V%CEH N YNVV0Y FP0YB #line:6d6c64
+Salvi: N NM HPABNTCR X0DNTJ B AHTNKBAPHJ1E MAFA3NHJ1 3DECJ #line:57ea5d
+Salvi: MHE KASETCR, 0HN C4NTA%T GT0 4EM T0 0C06EHHJ1M. #line:81c0f1
+Salvi: N B0T 0TKYDA B3RVACJ U0DPA60TKA. #line:48d95c
+Mae: BAY. #line:147c38
+Mae: 0HN 3HA%T, 4T0 GT0 MYC0P? #line:4ffe5b
+Salvi: GT0 HE *MYC0P* #line:b1d52e
+Mae: UP0CTNTE #line:79ff01
+Salvi: MJ1 UPN6VNSAEMCR K 0DH0L N3 HNX. #line:7ebbb5
+Salvi: N TJ1 CAMA YBNDNQJ. #line:3df3dc
+<<close>>
+<<set $tunnel_boat_island to 1>>
+<<waitForTunnelBoatIsland>>
+===
+title: Island1
+tags: 
+colorID: 0
+position: 1016,-2
+---
+Mae: GT0 MYC0P. #line:689bf5
+Mae: GT0 0CTP0B MYC0PA. #line:d33500
+Salvi: DVR TE6R MYC0P, A DVR MEHR 6ECOEHHJ1L AHTNKBAPNAT #line:a243db
+Salvi: KAK T0VJK0 0H 6YDET HEMH0F0 04NWEH. #line:247a3c
+Salvi: 0CM0TPNCJ! HALDN 4T0 HN6YDJ! #line:b7cebe
+Mae: 3DECJ 6E30UACH0 X0DNTJ? #line:992fbd
+Salvi: 0, DA. F0DJ1 HAVESEL 6APAXVA N F0PHJ1X U0P0D #line:e13d5d
+Mae: XA-XA! BJ1 T0SE HA3BAVN GT0 6APAXV0M! #line:aa62dc
+Salvie: 6APAXV0 – GT0 HE MYC0P. #line:c837cd
+===
+title: Axe
+tags: 
+colorID: 0
+position: 1093,313
+---
+<<if $saw_tunnel_axe is 0>>
+    Mae: XAX. 60VJQ0L T0U0P. #line:4cac74
+    <<set $saw_tunnel_axe to 1>>
+<<endif>>
+Mae: MHE HYSEH 60VJQ0L MYC0PHJ1L T0U0P? #line:3864a3
+<<if $tunnel_snowshoe>>
+	Mae: BMECT0 T0L... DPYF0L QTYKN? #line:770e01
+<<endif>>
+-> DA #line:b601e2
+    <<set $tunnel_axe to 1>>
+    <<set $tunnel_snowshoe to 0>>
+	Mae: 0H TAK0L 60VJQ0L N T0U0PNCTJ1L. #line:e293cc
+-> HET #line:f3c8bf
+	Mae: GX. #line:2d73ad
+===
+title: Snowshoe
+tags: 
+colorID: 0
+position: 1406,321
+---
+<<if $saw_tunnel_snowshoe is 0>>
+    Mae: 0, HN4EF0 CE6E, GT0... BEWJ! #line:3a7768
+    Mae: CAHKN? 04EHJ UV0XAR V0DKA? #line:05b082
+    Mae: M0SET, BAM U0HPABNTCR CUATJ HA HNX? KP0QE4HJ1L MYC0PHJ1L FAMAK? #line:4cf1b3
+    <<set $saw_tunnel_snowshoe to 1>>
+<<endif>>
+Mae: MHE B3RTJ GTY MYC0PHY% KP0BATJ? #line:5d06fb
+<<if $tunnel_axe>>
+	Mae: BMECT0 MYC0PH0F0 T0U0PA? #line:6899bd
+<<endif>>
+->DA #line:1677e6
+    <<set $tunnel_axe to 0>>
+    <<set $tunnel_snowshoe to 1>>
+	Mae: 0 DA, V%6NTE MEHR, 3AFAD04HJ1E MYC0PHJ1E BEWN #line:bf4a2b
+->HET #line:7d4412
+	Mae: GX. #line:c6aae2
+===
+title: SalviIsland1
+tags: 
+colorID: 0
+position: 1324,-51
+---
+Salvi: HAQVA 4T0-HN6YDJ X0P0QEE? #line:9e1bf8
+<<if $tunnel_axe is 0 and $tunnel_snowshoe is 0>>
+    Mae: HE-A. #line:2f2f15
+<<elseif $tunnel_axe>>
+	Mae: Y6NLCTBEHHJ1L MYC0PHJ1L T0U0P! #line:ad7349
+	Salvi: 0, HEUV0X0! #line:e61e4a
+	Salvi: BJ1FVRDNT KAK CTAPJ1L U0SAPHJ1L T0U0P. #line:c5c135
+	Mae: T0U0P Y6NLOA, MYC0PHJ1L T0U0P! #line:a0e44e
+	Salvi: DA, TJ1 6J1 M0FVA Y6NTJ K0F0-HN6YDJ GTNM. #line:e14487
+	Salvi: H0 CHA4AVA EF0 HYSH0 3AT04NTJ... #line:ffa61c
+	Mae: 0, R 3AT04Y EF0. #line:647fab
+	Salvi: UVAHNPYEQJ K0F0-HN6YDJ Y6NTJ? #line:81c8aa
+	Mae: HE 6YDY T0P0UNTJCR C PEQEHNEM! #line:97531b
+	Salvi: 0 60SE. #line:96965d
+<<elseif $tunnel_snowshoe>>
+	Mae: GT0... QTYKA! #line:863b73
+	Mae: GT0 MYC0PHAR QTYKA! #line:dfbc0c
+	Salvi: 0, GT0... #line:c495dc
+	Mae: BJ1FVRDNT, KAK... 04EHJ UV0X0E BECV0 DVR V0DKN? #line:a41db1
+	Mae: 04EHJ 6ECU0VE3HJ1L WNT? DVR CPASEHNL? #line:0ce5e3
+	Salvi: GT0 CHEF0CTYUJ1. #line:a1796f
+	Mae: 0Y. #line:104844
+	Mae: HNK0FDA PAHJQE HE BNDEVA. #line:578076
+	Salvi: B NDEAVE, Y TE6R D0VSH0 6J1TJ NX DBA. #line:f65e63
+	Mae: GX. MHE HPABNTCR... UPJ1FATJ. #line:a1e87b
+	Salvi: CHEF0UPJ1FN. #line:8df831
+	Mae: DA. GT0 CHEF0UPJ1FN! #line:66458f
+<<endif>>
+
+<<if $tunnel_axe or $tunnel_snowshoe>>
+    <<fadeOutInternal 1 wait>>
+    <<tell TunnelBoatRide Run>>
+    <<fadeInInternal 1 wait>>
+    [[AfterIsland1]]
+<<endif>>
+===
+title: AfterIsland1
+tags: 
+colorID: 0
+position: 1616,-58
+---
+<<wait 3>>
+Salvi: ...N KAKNM-T0 06PA30M 0H UEPEEXAV CB0% H0FY #line:e7088b
+Mae: HET! #line:1586f2
+Salvi: ...K0CNVK0L. #line:ac24ac
+Mae: AAAAAAAAAA!!! #line:2d0d4e
+Salvi: DA, TEUEPJ 0H XP0MAET. #line:21b4ba
+Salvi: H0 0H BCE PABH0 UPNX0DNT HA PA60TY. #line:d55a1e
+Mae: 6000SE. #line:52240f
+Salvi: HYSH0 PA60TATJ! #line:55f0ed
+Mae: YZ-Z. #line:e2f9af
+<<wait 3>>
+[[Bats1]]
+===
+title: Bats1
+tags: 
+colorID: 0
+position: 1929,50
+---
+Salvi: X0P0Q0, U0MHNQJ, KAK R CKA3AV, 4T0 MHE HYSHA BT0PAR UAPA PYK? #line:5dcf59
+Mae: 0, DA! K 4EMY GT0 6J1V0? #line:19b2c6
+Salvi: NTAK, U03ADN TE6R ECTJ HE60VJQAR UAHEVJ #line:6a00a7
+Salvi: HYSH0, 4T06J1 TJ1 B0CU0VJ30BAVACJ EL N UEPEMECTNVA CBET C%DA #line:33ca13
+Mae: MJ1... U0D0SDNTE... 3A4EM? #line:c44492
+Salvi: Y HAC TYT VETY4NE MJ1QN. #line:027697
+Mae: N? #line:abc826
+Salvi: MHE HE HPABRTCR VETY4NE MJ1QN. #line:57201b
+Salvi: H0 VETY4NE MJ1QN V%6RT SYK0B #line:7767e4
+Salvi: A SYKN V%6RT CBET #line:518236
+Salvi: TJ1 6YDEQJ CBETNTJ GTNM CBET0M B0KPYF, 4T0 3ACTABNT NX PA3VETATJCR #line:720015
+Salvi: NCKATJ SYK0B. #line:4b40b0
+Salvi: T0FDA 0HN YVETRT HA KAK0E-T0 BPEMR. #line:96dd50
+Mae: 0... VADH0. #line:b43bf5
+Salvi: A TEUEPJ UPNF0T0BJCR, MJ1 EDEM TYDA, FDE NM HPABNTCR C06NPATJCR BMECTE. #line:25f476
+Mae: X0P0Q0, R U0HRVA! #line:885bd6
+Salvi: B0T N BCE! HAD0 MH0L! #line:b8e94a
+<<tell TunnelBoatRide TriggerBats1>>
+===
+title: AfterBats1
+tags: 
+colorID: 0
+position: 2253,44
+---
+Mae: BAY! #line:5bb3d9
+Salvi: 60VJQNHCTB0 N3 HNX YVETEV0? #line:74fe76
+<<if $tunnel_bats_1_percent > 75>>
+	Mae: DYMA%, DA! #line:6cfbcd
+	Mae: U0X0SE, 60VJQAR 4ACTJ. #line:67c9b5
+	Salvi: YYYX! HEHABNSY NX! #line:d04c7f
+	Mae: H0 VETY4NE MJ1QN MNVJ1E! #line:fc337c
+	Salvi: 0HN *HE MNVJ1E!* #line:a136e3
+<<else>>
+	Mae: R HE 3HA%? #line:472db9
+	Mae: DYMA%, HET? #line:ff15bf
+	Mae: 6J1V0 TPYDH0 3AMETNTJ. #line:b03a42
+	Salvi: X0P0Q0, TAK. #line:f4bfa2
+	Salvi: HAM HYSEH UVAH. #line:b43738
+	Mae: MHE HPABRTCR VETY4NE MJ1QN. #line:ddf162
+	Salvi: 4EPT. #line:8f258c
+<<endif>>
+Mae: M0SH0 MHE B3RTJ 0DHY D0M0L? #line:2fa49a
+Salvi: HN 0DH0L VETY4EL MJ1QN HE 6YDET B M0EL V0DKE! #line:41622d
+Salvi: R CK0PEE YUVJ1BY HA3AD, 4EM 4EPT0BA VETY4AR MJ1QJ 0KASETCR HA M0EL V0DKE! #line:b39cad
+Mae: VADH0 VADH0. HNKAKNX MJ1QEL. #line:286c19
+Salvi: HNKAKNX MJ1QEL. #line:c60946
+<<wait 2>>
+[[BeforeIsland2]]
+===
+title: BeforeIsland2
+tags: 
+colorID: 0
+position: 2608,-3
+---
+Salvi: X0P0Q0, MJ1 UPN6VNSAEMCR K DPYF0MY 0CTP0BY. #line:5a9535
+Mae: MYC0P EEEEEEEEEE!!!!!!!!!! #line:70539d
+<<close>>
+<<set $tunnel_boat_island += 1>>
+<<waitForTunnelBoatIsland>>
+===
+title: Island2
+tags: 
+colorID: 0
+position: 2918,-69
+---
+Salvi: TJ1 0CM0TPNQJCR?  #line:48a151
+Mae: HE-A, C06NPA%CJ 60VTATJCR B V0DKE. #line:9f02d8
+<<wait 2>>
+Mae: *K0HE4H0 SE* R 0CM0TP%CJ!!! #line:64801e
+Salvi: XE-XE-XE! #line:00605a
+Salvi: CAPKACTN4HA, KAK TB0L 0TEO. #line:7ef67e
+Mae: BJ1 EWE 06WAETECJ C M0NM 0TO0M? #line:506644
+Salvi: 0, DA! PA3 B HEDEV% R U0KYUA% Y HEF0 MRC0! #line:1bf81c
+Salvi: UP0QV0L 0CEHJ% MJ1 N EWE HECK0VJK0 UAPHEL C 3AB0DA #line:1b04de
+Salvi: X0DNVN K CTAP0MY 0X0THN4JEMY VAFEP% CT%TEPA. #line:502b3a
+Mae: YDA4H0? #line:614afd
+Salvi: GD FPECC U0DCTPEVNV CPEDHEF0 0VEHR. #line:863035
+Mae: 0, KPYT0. #line:a4b178
+Salvi: VADH0, U0LDEM, MJ1 0UA3DJ1BAEM. #line:68cb6f
+===
+title: CoconutMonkey
+tags: 
+colorID: 0
+position: 3247,-6
+---
+<<if $saw_tunnel_coconut_monkey is 0>>
+    Mae: 0 M0L 60F! #line:79a645
+    Mae: GT0 K0K0C0BAR 06E3JRHA!!!! #line:dd2599
+    Mae: BJ1FVRDNT, KAK TA, 4T0 UPNBE3 DEDYQKA C FABALEB!!! #line:e8f520
+    <<set $saw_tunnel_coconut_monkey to 1>>
+<<endif>>
+Mae: X04Y VN R K0K0C0B0F0 DPYFA? #line:7b2ffa
+<<if $tunnel_dracula_teeth>>
+	Mae: BMECT0 GTNX 3Y60B DPAKYVJ1? #line:8d82d9
+<<endif>>
+->DA, MGM. #line:1d7f49
+    <<set $tunnel_dracula_teeth to 0>>
+    <<set $tunnel_coconut_monkey to 1>>
+	Mae: D06P0 U0SAV0BATJ B CEMJ%, MNCTEP 06E3JRHA! #line:ec9c5a
+	Mae: R TAK TE6R V%6V%, A MJ1 T0VJK0 U03HAK0MNVNCJ! #line:c52ed2
+->HE #line:c8c9c3
+	Mae: D0B0VJH0 B0H%4AR N MRFKAR. #line:523c55
+===
+title: DraculaTeeth
+tags: 
+colorID: 0
+position: 3540,12
+---
+<<if $saw_tunnel_dracula_teeth is 0>>
+    Mae: CPAAAAAHJ F0CU0DHR. #line:b70884
+    Mae: 3Y6J1 DPAKYVJ1! #line:a2e8e3
+    Mae: 0HN TAKNE 0ZNFEHHJ1E, 4T0 R BU0VHE C0LDY 3A DPAKYVY. #line:997682
+    Mae: N3 BCEX ZAVJQNBJ1X 3Y60B B MNPE #line:c25ca9
+    Mae: 3Y6J1 DPAKYVJ1 CAMJ1E VY4QNE. #line:425b7a
+    <<set $saw_tunnel_dracula_teeth to 1>>
+<<endif>>
+Mae: B3RTJ VN MHE GTN UPEKPACHJ1E 3Y6J1 DPAKYVJ1? #line:09de83
+<<if $tunnel_coconut_monkey>>
+	Mae: BMECT0 M0EL D0P0F0L U0DPYFN K0K0C0B0L 06E3JRHKN? #line:e340a2
+<<endif>>
+->PA3YMEETCR!!!! #line:8bcfdb
+    <<set $tunnel_coconut_monkey to 0>>
+    <<set $tunnel_dracula_teeth to 1>>
+	Mae: U04EMY DPAKYVJ1 F0B0PRT «BAAAAAX»? #line:2dc6a0
+	Mae: R C06NPA%CJ BCTABNTJ NX N BJ1RCHNTJ. #line:4895ad
+	Mae: ...HABEPH0E, CT0NT CHA4AVA NX U0MJ1TJ... #line:131288
+->HET. #line:5feb30
+	Mae: R M0FY U0VY4NTJ H0BJ1E, KAK D0VVAP #line:d5fb9e
+	Mae: B MAFA3NHE XGM UAHTEP. #line:087baf
+	Mae: HE 3HA%, RBVR%TCR VN CTAPNHHJ1E 3Y6J1 DPAKYVJ1 TAK0L YS HAX0DK0L. #line:67695a
+===
+title: SalviIsland2
+tags: 
+colorID: 0
+position: 3867,-89
+---
+Salvi: HAQVA 4T0-HN6YDJ NHTEPECH0E? #line:515601
+<<if $tunnel_coconut_monkey is 0 and $tunnel_dracula_teeth is 0>>
+    Mae: HE-A. #line:abcd38
+<<elseif $tunnel_coconut_monkey>>
+	Mae: K0K0C0BAR 06E3JRHA! #line:853ec7
+	Salvi: 0F0! #line:2c28da
+	Salvi: 0HA EWE... HE NCU0PTNVACJ? #line:aeea84
+	Mae: HY, HEMH0F0 MRFKAR #line:4eef45
+	Mae: N UAXHET MYC0PH0L B0D0L #line:6e8f6c
+	Mae: H0, K0FDA 0HA BJ1C0XHET, #line:0f85bf
+	Mae: CTAHET U0CT0RHHJ1M 4VEH0M CEMJN! #line:7525f3
+	Salvi: XA. X0P0Q0. #line:157f47
+	Mae: BJ1 C06NPAETECJ YKPACTJ EE Y MEHR DVR BAQEF0 MAFA3NHA? #line:527f01
+	Salvi: 0X. HET. #line:586d0d
+	Mae: DASE HE C06VA3HNVNCJ? #line:386cb3
+	Salvi: DYMA%, R F0T0B K TAK0L SEPTBE, MGL. #line:9ae93f
+<<elseif $tunnel_dracula_teeth>>
+	Mae: 3Y6J1 DPAKYVJ1! #line:a889fd
+	Salvi: 0 BAY! #line:91cb72
+	Salvi: R U0MH% NX! #line:83b742
+	Mae: 0HN D0 CNX U0P NX UP0N3B0DRT. #line:83727e
+	Salvi: HE YBEPEH, H0 BP0DE ECTJ CUP0C. #line:4cc683
+	Mae: V%DN BCEFDA 6YDYT X0TETJ 6J1TJ DPAKYV0L #line:ad7799
+	Salvi: R HE X04Y 6J1TJ BAMUNP0M. #line:5d7777
+	Mae: BJ160PA HET! R C06NPA%CJ HADETJ NX... #line:e57ffb
+	Salvi: 60SE, U0SAVYLCTA, 0HN SE 0TBPATNTEVJHJ1E #line:8e099b
+	Mae: R BAC YKYQY. #line:d99ca2
+	Salvi: X0P0Q0, DABAL UP0D0VSNM #line:11265b
+	Mae: BAAAAAAAAX!!!! #line:6cea97
+<<endif>>
+
+<<if $tunnel_coconut_monkey or $tunnel_dracula_teeth>>
+    <<fadeOutInternal 1 wait>>
+    <<tell TunnelBoatRide Run>>
+    <<fadeInInternal 1 wait>>
+    [[AfterIsland2]]
+<<endif>>
+===
+title: AfterIsland2
+tags: 
+colorID: 0
+position: 4194,-78
+---
+Salvi: ...N TAK R CUAC DVNHHELQY% H04J. #line:d57b22
+Mae: XA-XA, BAY! #line:264505
+Mae: BJ1 PACCKA3J1BAVN CB0NM DETRM? #line:76ead8
+Salvi: 4T0? HET. GT0 NCU0PTNT B0VQE6CTB0. #line:2035c1
+Mae: 0HN K0FDA-HN6YDJ 3AME4AVN BAQ QPAM HA QEE? #line:6693bd
+Salvi: ECVN N TAK, T0 0HN HN4EF0 HE CKA3AVN. #line:0729fb
+Mae: U0VNOELCKNE U0LMAVN UAPHR? #line:e07970
+Salvi: HET. 0H BCE EWE HA CB060DE. #line:13c69f
+Salvi: H0 0H HE CK0P0 BEPHETCR. #line:3c2cd8
+Mae: BAY. 0TVN4HAR NCT0PNR. #line:71b211
+<<wait 4>>
+Salvi: TAK, MJ1 U0DUVJ1BAEM K DPYF0MY FHE3DY VETY4NX MJ1QEL... #line:438afb
+Mae: Y VETY4NX MJ1QEL ECTJ FHE3DA? #line:c0737f
+Salvi: 6E3 PA3HNOJ1. UPNF0T0BJ Z0HAPJ, 0CBETN N N36ABJCR 0T HNX! #line:16444e
+Mae: DA, CGP. #line:034d0f
+Salvi: A B0T N 0HN! #line:487918
+<<tell TunnelBoatRide TriggerBats2>>
+===
+title: AfterBats2
+tags: 
+colorID: 0
+position: 4473,-67
+---
+Mae: BAY! #line:936323
+Salvi: 60VJQAR 4ACTJ YVETEVA? #line:24508f
+<<if $tunnel_bats_2_percent > 75>>
+	Mae: U0X0SE HA T0! #line:acdd61
+	Mae: 3ADAVA R NM SAPY #line:efdc78
+	Salvi: ZYX. #line:b17175
+	Salvi: CUACN60 DNTR. #line:aad3ef
+	Mae: MHE 20! #line:f0e69b
+	Salvi: XA-XA. #line:b76133
+	Salvi: B M0E BPEMR BAC C4NTAVN DETJMN. #line:9bfb2d
+	Mae: KAK FPY60. #line:c4de6b
+<<else>>
+	Mae: A-A-A! #line:8fa009
+	Mae: R TAK HE DYMA%? #line:89351b
+	Mae: R DELCTBNTEVJH0 M0FVA HE 3AMETNTJ NX? #line:5b0415
+	Salvi: 0 60SE. VETY4NE MJ1QN BCE EWE 3DECJ. #line:09f1e3
+	Salvi: DEPSNCJ. #line:6bd605
+	Salvi: C NX FVA3AMN-6YCNHKAMN #line:1dc39c
+	Salvi: N KVJ1KAMN #line:aba225
+	Salvi: N K...K...KPJ1VJRMN!!! #line:1b027f
+	Mae: U04EMY BJ1 TAK HEHABNDNTE VETY4NX MJ1QEL? #line:41ffec
+	Salvi: 0HN YSACHJ1, B0T U04EMY! #line:797422
+<<endif>>
+[[BeforeIsland3]]
+===
+title: BeforeIsland3
+tags: 
+colorID: 0
+position: 4757,-79
+---
+Salvi: UPN6VNSAEMCR K DPYF0MY 0CTP0BY. #line:484a67
+Mae: CK0VJK0 NX 3DECJ? #line:989ae7
+Salvi: 0, R HE C4NTAV. #line:54f031
+Salvi: KASETCR, BCE BPEMR HAX0DRTCR H0BJ1E. #line:aeeb8a
+Salvi: A CTAPJ1E TEPR%TCR. #line:4b5506
+Mae: SYTK0. #line:77f39c
+Salvi: MJ1 D0B0VJH0 DAVEK0. GT0 BCEFDA HEMH0F0 SYTK0BAT0. #line:24a613
+<<close>>
+<<set $tunnel_boat_island += 1>>
+<<waitForTunnelBoatIsland>>
+===
+title: Island3
+tags: 
+colorID: 0
+position: 5069,-75
+---
+Mae: BAY. B0H TAM CTAPJ1L TPAMBAL. #line:5ebc67
+Salvi: AFA, MJ1 U0DUVJ1BAEM K CAM0L 3AT0UVEHH0L 06VACTN. #line:36d7eb
+Mae: U0BEPNTJ HE M0FY, 4T0 GT0 MECT0 D0 CNX U0P PA60TAET. #line:4e4076
+Salvi: GT0 6J1V0 HE4T0 0C06EHH0E. #line:c343c2
+Salvi: 4YBCTB0... UYTEQECTBNR .. #line:6d2e30
+Mae: AFA. #line:497973
+Salvi: B T0 BPEMR, K0FDA GT0 6J1VN "H0BJ1E" TPAMBAN #line:64fe81
+Salvi: 0HN 6J1VN PA3PA60TAHJ1 K0MUAHNEL 3A 0KEAH0M #line:ca1454
+Salvi: 60VJQNE N P0CK0QHJ1E, BP0DE 6J1 ZPAHOY3CKNE NVN TNUA T0F0. #line:c12f6c
+Mae: 0HN KPACNBJ1E. #line:e12c39
+Salvi: AFA, BCE EWE C0XPAHR%T CB0L QAPM #line:e9c029
+Salvi: C06NPAEQJCR 0CM0TPETJCR? #line:5fb4e5
+Mae: K0HE4H0. #line:c216a8
+===
+title: Pennant
+tags: 
+colorID: 0
+position: 5137,202
+---
+<<if $saw_tunnel_pennant is 0>>
+    Mae: 0, DA. #line:e49486
+    Mae: NHTEPECH0, CK0VJK0 EMY VET? #line:6ee3d2
+    Mae: 04EHJ M0KPJ1L #line:daefaa
+    Mae: 4T0 GT0 B006WE 3A CU0PT? #line:5b5756
+    Mae: GT0 CU0PTNBHAR 3AFADKA. #line:d6f3b3
+    Mae: XYDQAR N3 B03M0SHJ1X 3AFAD0K #line:7df4e0
+    Mae: X0TR BJ1FVRDNT HEUV0X0.. #line:85755b
+    <<set $saw_tunnel_pennant to 1>>
+<<endif>>
+Mae: MHE HYSHA GTA QTYKA? #line:09d4bc
+<<if $tunnel_football_helmet>>
+	Mae: 60VJQE, 4EM 04EHJ UPAKTN4HJ1L QVEM? #line:d056d2
+<<endif>>
+-> AFA #line:53ee74
+    <<set $tunnel_football_helmet to 0>>
+    <<set $tunnel_pennant to 1>>
+	Mae: M0SH0 U0BECNTJ HA CTEHY. #line:a57100
+	Mae: 6J1V0 6J1 D0B0VJH0 VAK0HN4H0. #line:d44461
+	Mae: N U0T0M U0CM0TPNTE, DVR 4EF0 GT0 B006WE HYSH0. #line:89d8ec
+	Mae: KVEB0 KVEB0 KVEB0. #line:002eb1
+->HE #line:97e8d6
+	Mae: GT0 0TBPATNTEVJH0, N MHE UVEBATJ HA CU0PT. #line:fac83b
+	Mae: HN 3A 4T0. #line:cf605d
+===
+title: FootballHelmet
+tags: 
+colorID: 0
+position: 5444,202
+---
+<<if $saw_tunnel_football_helmet is 0>>
+    Mae: 0, KVACC! #line:fdf1d7
+    Mae: ZYT60V, HAQA 0ZNONAVJHAR PEVNFNR. #line:a48772
+    Mae: R M0FVA 6J1 HADETJ EF0. #line:397dd9
+    Mae: 0H UPAKTN4HJ1L! #line:862ddc
+    Mae: R M0FVA 6J1 H0CNTJ EF0 3NM0L, HA CVY4AL, ECVN R U0CK0VJ3HYCJ HA VJDY. #line:922a33
+    Mae: R M0FVA 6J1 HADETJ EF0 B DPAKE. #line:808947
+    Mae: M0SET DASE UYV% 0CTAH0BNT. HE 3HA%. #line:4dbab6
+    Mae: X0TR BHYTPN UAXHET... #line:019aa8
+    <<set $saw_tunnel_football_helmet to 1>>
+<<endif>>
+Mae: MHE HYSHA GTA QTYKA? #line:2271d8
+<<if $tunnel_pennant>>
+	Mae: 60VJQE, 4EM DPEBHNL ZVAF? #line:3fbba7
+<<endif>>
+->AFA #line:f60593
+    <<set $tunnel_football_helmet to 1>>
+    <<set $tunnel_pennant to 0>>
+	Mae: 0H UPAKTN4HJ1L! #line:aaa699
+->HE #line:3fdd8f
+	Mae: GT0 ZYHKON0HAVJH0, H0 #line:3c9763
+	<<if $tunnel_pennant>>
+		Mae: GT0T TANHCTBEHHJ1L ZVAF. #line:c1e1fb
+		Mae: BCE TALH0E NHTEPECH0. #line:bb4d99
+	<<else>>
+		Mae: XM-M-M. #line:7fe944
+	<<endif>>
+===
+title: SalviIsland3
+tags: 
+colorID: 0
+position: 5633,-121
+---
+Salvi: HAQVA 4T0-HN6YDJ CT0RWEE? #line:94df9c
+<<if $tunnel_pennant is 0 and $tunnel_football_helmet is 0>>
+    Mae: HE-A. #line:d96694
+<<elseif $tunnel_pennant>>
+	Mae: 3AOEHNTE GT0! #line:bdab3c
+	Salvi: 0F0, GT0 CTAPJ1L X0KKELHJ1L ZVAS0K. #line:f998db
+	Mae: HACK0VJK0 CTAPJ1L? #line:d7f7d6
+	Mae: 04EHJ CTAPJ1L? #line:cd6026
+	Salvi: G. 1970-J1X? 80-J1X F0D0B? #line:f27e41
+	Mae: 0. GT0 KAK #line:1ad157
+	Mae: CPEDHE CTAPJ1L #line:8e6595
+	Mae: Y HAC T0FDA 6J1VA X0KKELHAR K0MAHDA? #line:e2e977
+	Salvi: K0HE4H0 SE! #line:b657a0
+	Salvi: VED0BAR APEHA PAHJQE 6J1VA TAM, FDE CEL4AC HAX0DNTCR MAFA3NH XGM UAHTEP. #line:1dd2c2
+	Mae: 60SE. CT0VJK0 3DECJ BCEF0 6J1V0. #line:98e9ce
+	Salvi: MH0F0E EWE 0CTAV0CJ. #line:bfa086
+	Salvi: H0 DA, MH0F0F0 YSE HET. #line:64cfd0
+<<elseif $tunnel_football_helmet>>
+	Mae: ZYT60VJHJ1L QVEM! #line:cf4c18
+	Salvi: 0... TJ1 YBEPEHA, 4T0 X04EQJ EF0? #line:f1cf0e
+	Mae: R HAK0HEO HAQVA T0, 4T0 BAM HYSH0? #line:e33a62
+	Salvi: HY... R NME% B BNDY... GT0 KPYT0. B03JMN EF0. #line:4538b7
+	Mae: HET, BCE H0PMAVJH0. #line:26370c
+	Mae: GT0 BAQA V0DKA. BAQ MYC0P. #line:3be8cb
+	Mae: TJ1 M0SEQJ GT0 B3RTJ. #line:526a53
+	Salvi: HET, BCE B U0PRDKE, MGL. #line:ee5a8a
+	Mae: HET, R C4NTA% 4T0 0H BAQ. #line:8d34f4
+	Salvi: HET, MGL, 3A6NPAL CE6E. #line:59bcad
+	Mae: [shake=.025]3A6NPALTE EF0![/all] #line:b481db
+	Salvi: [shake=.025]HE 6YDY R 6PATJ[/all] #line:3e3938
+	Mae: [shake=.05]R T0SE HE B03JMY.[/all] #line:8f6fc7
+	Salvi: [shake=.05]GT0 TB0E[/all] #line:c9f72c
+	Mae: [shake=.075]4EPT U06EPN, B03JMNTE GT0T FPE6AHJ1L QVEM[/all] #line:25b038
+	Salvi: [shake=.075]HET!!![/all] #line:175711
+	Mae: [shake=.1]AAAAAPPPP NDNTE BJ1 K 4EPTY!!!!![/all] #line:d606db
+	<<wait 4>>
+	Salvi: TJ1 B U0PRDKE? #line:ea2367
+	Mae: DA. UP0CTNTE, 4T0 KPN4AVA. #line:545b1c
+	Salvi: N TJ1 MEHR. #line:f4f950
+	Salvi: TJ1 D0B0VJHA CB0NM QVEM0M? #line:26c81c
+	Mae: DA! 0H UPAKTN4EH! #line:3d1cff
+<<endif>>
+<<if $tunnel_pennant or $tunnel_football_helmet>>
+    <<fadeOutInternal 1 wait>>
+    <<tell TunnelBoatRide Run>>
+    <<fadeInInternal 1 wait>>
+    [[AfterIsland3]]
+<<endif>>
+===
+title: AfterIsland3
+tags: 
+colorID: 0
+position: 6035,-156
+---
+Mae: EWE 6YDYT VETY4NE MJ1QN, 4T06J1 0T HNX N36ABNTJCR? #line:d5c782
+Salvi: HE-A. 0HN HE 6YDYT 3AVETATJ TAK DAVEK0, 4T06J1 U0CUATJ. #line:25fa00
+Salvi: 0HN 6J1 VETAVN U0BC%DY B GT0M MECTE, ECVN 6J1 #line:d7274c
+Salvi: TJ1 HE N36ABNVACJ 0T HNX, UPESDE 4EM MJ1 UPNUVJ1VN C%DA. #line:46ff97
+Mae: FDE MJ1 HAX0DNMCR? #line:6b5c84
+Salvi: 0K0V0 DAVJHEL UVATZ0PMJ1. #line:03c49e
+Mae: YX TJ1. TAK B0T KYDA MJ1 HAUPABVREMCR? #line:9d9fcf
+<<if $tunnel_bats_1_percent > 75 and $tunnel_bats_2_percent > 75>>
+	//(if scared away most of the bats both times)
+	Salvi: 4T0 S #line:976316
+	Salvi: TJ1 N36ABNVACJ 0T 60VJQNHCTBA VETY4NX MJ1QEL... #line:e3c7e6
+	Salvi: TAK 4T0, B03M0SH0, MJ1 M0SEM CDEVATJ U0CVEDH%% #line:898809
+	Salvi: 60VJQY% 0CTAH0BKY. #line:801b21
+	Mae: "60VJQAR 0CTAH0BKA"? #line:9135c2
+	[[BeforeIsland4]]
+<<else>>
+	Salvi: DA... HE DYMA%, 4T0 MJ1 N36ABNVNCJ 0T0 BCEX VETY4NX MJ1QEL #line:709176
+	Salvi: DVR HNX HE 6YDET UP06VEM0L BEPHYTJCR #line:b8d78b
+	Mae: 0L, N3BNHNTE. #line:595d00
+	Salvi: HN4EF0 CTPAQH0F0. #line:7ca944
+	Salvi: MJ1 0TUPABNMCR HA DAVJH%% UVATZ0PMY. #line:95168c
+    <<set $tunnel_boat_island += 1>>
+	[[BeforeIsland5]]
+<<endif>>
+===
+title: BeforeIsland4
+tags: 
+colorID: 0
+position: 6501,-163
+---
+Salvi: CVABA 60FY, MEHR 3DECJ HE 6J1V0, K0FDA CVY4NV0CJ HAB0DHEHNE. #line:440078
+Mae: YP0BEHJ B0DJ1 B PEKE U0DCK04NV, BEPH0? #line:427548
+Salvi: DA. HAB0DHEHNE 6J1V0 YSACHJ1M, PEKA BJ1QVA N3 6EPEF0B N DBNHYVACJ. #line:eb0c09
+Salvi: GT0 KAK-T0 CBR3AH0 C B0D0XPAHNVNWEM, HE U0MH% T04H0. #line:307648
+Mae: DYMA%, GT0 6J1V0 DABH0. #line:9fdc2d
+Mae: CTPAHH0 DYMATJ 0 T0M, 4T0 PEKN M0FYT DBNFATJCR. #line:2375fb
+Salvi: 0, 0HN BCEFDA DBNSYTCR, DNTR. #line:8f26ed
+Mae: (20 VET) #line:630e79
+Salvi: 0HN DEVA%T GT0 B 0DH0M HAUPABVEHNN. #line:50da2a
+Salvi: HNKT0 HNK0FDA HE F0T0B K T0MY, 4T0 0HN UEPECTAHYT DEVATJ T0 #line:68b55d
+Salvi: 4T0 0HN BCEFDA DEVAVN. #line:cb9266
+Mae: XM. #line:e050c4
+Salvi: TAK, B0T MJ1 N 3DECJ. #line:33af5a
+Salvi: 60VJQAR 0CTAH0BKA. #line:448eb2
+<<close>>
+<<set $tunnel_boat_island += 1>>
+<<waitForTunnelBoatIsland>>
+===
+title: Island4
+tags: 
+colorID: 0
+position: 6871,-183
+---
+Mae: BAY. #line:caa735
+Mae: BJ1FVRDNT TAK, KAK R CE6E N UPEDCTABVRVA #line:3e07b4
+Mae: HY, NVN TNUA T0F0. #line:922f19
+Mae: GT0 MECT0 6YDT0 MHE 3HAK0M0. #line:1c078b
+Salvi: T0FDA 0HN DYMAVN, 4T0 BAF0HJ1 YCT0RT HA PEVJCAX #line:bd4062
+Salvi: K0FDA UPNDET HAB0DHEHNE. #line:6e116a
+Salvi: H0 HET. 0HN DBNHYVNCJ BMECTE C B0D0L. #line:df3775
+Salvi: U0DUPJ1FNBAR BBEPX N BHN3 #line:d08c47
+Salvi: PA36NBARCJ B 60VJQNE KY4N, KAK GTA. #line:4ea5b4
+Mae: 60SE. #line:50babb
+Salvi: TAK0E YSE HE NCUPABNTJ. #line:f5d1dd
+Salvi: DA N 4T0 TYT CDEVAEQJ? #line:75f4c7
+Salvi: 3AUPYDNQJ, BJ1K0UAEQJ BCE GT0? #line:2af9d1
+Salvi: HN Y K0F0 HET CT0VJK0 DEHEF. #line:be1e16
+Salvi: HN Y K0F0 HET CT0VJK0 BPEMEHN. #line:fe3a04
+Mae: GT0 CV0BH0 #line:5965b6
+Mae: U0CEWEHNE MECTA 3A 3AFP06H0L UVNT0L, #line:6cd8ac
+Mae: KAK MECT0, KYDA BJ1 YX0DNTE, YMEPEB. #line:bdfa10
+Salvi: HEK0T0PJ1E V%DN *YMEPVN* 3DECJ #line:595d97
+Mae: DA, T04H0. #line:550cdb
+<<wait 2>>
+Salvi: TJ1 0CM0TPNQJCR? #line:105aa4
+Salvi: D0VSEH CKA3ATJ, BEWEL 3DECJ HE TAK MH0F0, KAK 06J14H0. #line:b28407
+Salvi: 60VJQNHCTB0 BEWEL BJ1MJ1V0 N3 60K0BJ1X KAHAV0B #line:3bbc12
+Salvi: 0HN U0UAVN TYDA, 0TKYDA MJ1 UPNUVJ1VN. #line:0ca6b6
+Mae: DA. DYMA%, R BCE PABH0 U0CM0TP%. #line:35eb54
+===
+title: Horn
+tags: 
+colorID: 0
+position: 6983,168
+---
+<<if $saw_tunnel_horn is 0>>
+    Mae: BAY. #line:028404
+    Mae: NHTEPECH0, 0H EWE PA60TAET? #line:48005e
+    Mae: HABEPH0E, CHA4AVA HYSH0 BJ1TPRXHYTJ BC% FPR3J. #line:e3f11e
+    <<set $saw_tunnel_horn to 1>>
+<<endif>>
+Mae: MHE B3RTJ EF0 C C060L? #line:1a825a
+<<if $tunnel_lock>>
+	Mae: DASE 60VJQE, 4EM 3AM0K? #line:9b0f41
+<<endif>>
+->AFA #line:d20d69
+    <<set $tunnel_lock to 0>>
+    <<set $tunnel_horn to 1>>
+	Mae: GT0 U0TPRCA%WE. #line:b0188b
+	Mae: HABEPHRKA EF0 KT0-T0 0OEHNT #line:44f957
+->HE #line:b71252
+	Mae: MHE HEKYDA EF0 U0V0SNTJ. #line:b573ec
+	Mae: N R HE CM0FY HA HEM CJ1FPATJ. #line:532e0e
+	Mae: TAK0E 4YBCTBY%, 4T0 UPN3PAK F0PHNCTA 6YDET MEHR UPECVED0BATJ #line:de625d
+	Mae: ECVN R 3A6EPY EF0 0TC%DA. #line:9cd000
+===
+title: Lock
+tags: 
+colorID: 0
+position: 7311,220
+---
+<<if $saw_tunnel_lock is 0>>
+    Mae: NHTEPECH0, 4T0 0H PAHJQE 3AUNPAV? #line:9c1c9e
+    Mae: 04EHJ CTAPJ1L 3AM0K. #line:0e97d9
+    Mae: AKKYPATHJ1L KV%4. #line:b5df17
+    Mae: KT0-T0 KYUNV GT0, 4T06J1 C0XPAHNTJ 4T0-T0 B 6E30UACH0CTN #line:737431
+    Mae: NVN CEKPETH0CTN #line:f3cf94
+    <<set $saw_tunnel_lock to 1>>
+<<endif>>
+Mae: MHE B3RTJ EF0 C C060L? #line:9a514e
+<<if $tunnel_horn>>
+	Mae: 60VJQE, 4EM FPR3HJ1L P0F? #line:3aa46b
+<<endif>>
+->AFA #line:29e766
+    <<set $tunnel_lock to 1>>
+    <<set $tunnel_horn to 0>>
+	Mae: 0H BJ1FVRDNT, KAK #line:d108d7
+	Mae: 6YDT0 B HEM HYSDAVNCJ #line:64d474
+	Mae: HY, KAK BAPNAHT. #line:f77474
+	Mae: 0H TRSEVJ1L. #line:fbdcb0
+	Mae: 0H D0VSEH 6J1TJ 4EL-T0. #line:0d9856
+->HE #line:f87c2a
+	Mae: TEUEPJ GT0 UP0CT0 MYC0P. #line:86f32d
+	Mae: N Y MEHR HET HN4EF0, 4T0 6J1 R M0FVA 3AUEPETJ. #line:dea27f
+===
+title: SalviIsland4
+tags: 
+colorID: 0
+position: 7459,-181
+---
+Salvi: HAQVA, 4T0-HN6YDJ CT0RWEE? #line:34340d
+<<if $tunnel_lock is 0 and $tunnel_horn is 0>>
+    Mae: HE-A. #line:18232d
+<<elseif $tunnel_horn>>
+	Mae: F0PH. #line:024ba2
+	Salvi: BJ1FVRDNT, KAK KAPMAHHJ1L P0F? #line:858862
+	Mae: R C06NPA%CJ 0T4NCTNTJ EF0 #line:e61c36
+	Mae: M0SET DASE CJ1FPATJ. #line:babc5d
+	Mae: NVN, U0 KPALHEL MEPE, HEMH0F0 U0QYMETJ. #line:26110c
+	Salvi: X0P0QAR NDER. #line:fb4656
+	Mae: 0H QNKAPEH #line:b609ec
+	Mae: CTJ1DH0 0CTABVRTJ EF0 3DECJ. #line:b39673
+	Salvi: TJ1 CUACVA EF0. #line:7ead52
+	Mae: R FEP0L! #line:3ebf8b
+	Salvi: R U03B0H% B FA3ETJ1. #line:c5dc3b
+<<elseif $tunnel_lock>>
+	Mae: ECTJ 3AM0K N KV%4 #line:e60079
+	Salvi: 0. 4T0 TJ1 C06NPAEQJCR C GTNM DEVATJ? #line:08aa2a
+	Mae: HE 3HA%. R UP0CT0 U0DYMAVA, 4T0 K0MY-T0 M0SET UPNF0DNTJCR. #line:ab0bf6
+	Salvi: XM. #line:7b0358
+	Salvi: GT0 3A60TVNB0, MGL. #line:d008ac
+	Mae: R 4YBCTBY%, 4T0 MJ1 B TJ1CR4E MNVJ 0T U0CCYM CUPNHFC. #line:21dd72
+	Salvi: DA. 0DHAK0 MJ1 HE TAK DAVEK0. #line:4ac5be
+	Salvi: U0UVJ1VN DAVJQE. #line:9f2dc4
+<<endif>>
+
+<<if $tunnel_horn or $tunnel_lock>>
+    <<fadeOutInternal 1 wait>>
+    <<tell TunnelBoatRide Run>>
+    <<fadeInInternal 1 wait>>
+    [[BeforeIsland5]]
+<<endif>>
+===
+title: BeforeIsland5
+tags: 
+colorID: 0
+position: 7772,-181
+---
+<<wait 4>>
+Salvi: UPNUVJ1VN #line:9ce672
+Mae: BAY. #line:beb473
+<<close>>
+<<set $tunnel_boat_island += 1>>
+<<waitForTunnelBoatIsland>>
+===
+title: MuralRight
+tags: 
+colorID: 0
+position: 8068,22
+---
+Mae: XA-XA-XA! #line:a16ac3
+Salvi: 4T0? #line:d2024b
+Mae: 3DECJ ECTJ UNBHJ1E 6AHKN N MATPAC. #line:0c03ee
+Mae: N MECT0, FDE 6J1V K0CTEP. #line:0a07da
+Mae: A EWE H0CKN. #line:76f787
+Mae: N U0X0SE, TPABKA. BJ1FVRDNT, 6YDT0 #line:7f1caa
+Mae: 3DECJ 6J1VA BE4EPNHKA. #line:230de5
+Salvi: XA-XA-XA-XA. D0VSH0 6J1TJ GT0 U0RBNV0CJ HEDABH0! #line:9f3290
+Mae: U0DP0CTKN. GT0 BCE U0DP0CTKN. #line:c47512
+Salvi: XA-XA-XA! #line:301f24
+Salvi: KYDA 6J1 MJ1 HE U0QVN, U0DP0CTKN TAM YSE U06J1BAVN. #line:d1760c
+Mae: 0 60SE... MATPAC... #line:10c549
+Salvi: GT0 0TBPATNTEVJH0 #line:9d50be
+Mae: KEM HAD0 6J1TJ, 4T06J1 HAKYPNTJCR, HAUNTJCR, A U0T0M U0TPAXATJCR #line:50e26b
+Mae: HAM DAVEK0 0TC%DA? #line:58d9fa
+Salvi: KASETCR, GT0 D0CTABNT MH0F0 XV0U0T, 4T0 6J1 BJ16PATJCR. #line:b6b3c9
+Mae: GT0 3A6ABH0. #line:e16040
+Salvi: GT0 04EHJ CMEQH0! #line:e886cc
+<<set $mural_right_done to 1>>
+===
+title: MuralCenter
+tags: 
+colorID: 0
+position: 8381,48
+---
+Salvi: HY 4T0 S, BCE. A B0T N DPYFAR ZPECKA. #line:ba98c0
+Mae: ... #line:bd6a44
+Mae: GT0 TAK... #line:403920
+Mae: ... #line:1ba3fc
+Salvi: AFA. #line:fbe4df
+Mae: AFA. #line:640b2a
+Salvi: EDNHCTBEHH0E, 4T0 3DECJ 0CTAV0CJ U0CVE HAB0DHEHNR. #line:127bb0
+Mae: ... #line:c85eac
+Salvi: UPNRTH0 3HATJ, 4T0 X0TJ 4T0-T0 HE UP0UAV0. #line:b9c87d
+Mae: DA, R U0VAFA%. #line:7c711b
+Mae: B03M0SH0, 3A6J1T0, H0 HE UP0UAV0. #line:2bd403
+Salvi: HY... U0KA EWE HE 3A6J1TA. #line:ebbae4
+Mae: NHTEPECH0, ECVN 4EPE3 500 VET #line:3c2d6f
+Mae: KAKNE-T0 APXE0V0FN HALDYT GT0 #line:3f74bb
+Mae: N 3ANHTEPECY%TCR, 4T0 GT0 3HA4NT. #line:974d9b
+Salvi: NH0FDA MHE KASETCR, 4T0 4EPE3 50 VET HNKT0 HE U0LMET, 4T0 GT0 3HA4NT. #line:596eb9
+Mae: MECTA HE CM0TPRT, KAK NM 3AU0MNHATJCR #line:60e0de
+Mae: 0HN UP0CT0... CYWECTBY%T... #line:b38616
+Mae: A U0T0M PA3BAVNBA%TCR HA 4ACTN. #line:da1848
+<<wait 4>>
+Salvi: TJ1 B H0PME, MGL? #line:b0b483
+Mae: AFA. #line:af1985
+Mae: BCE H0PMAVJH0. #line:92fc07
+Mae: R UP0CT0 U0CM0TP% MNHYTY. #line:1463e2
+Salvi: HE T0P0UNCJ. #line:ba383f
+<<wait 6>>
+<<fadeOut 4 wait>>
+<<unlockDoodle TunnelBoat>>
+<<scene Tunnel>>
+===
+title: Island5
+tags: 
+colorID: 0
+position: 8065,-240
+---
+Mae: ... #line:0ea066
+===

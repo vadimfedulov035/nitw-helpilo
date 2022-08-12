@@ -1,0 +1,230 @@
+title: Fight
+tags: 
+colorID: 3
+position: 607,237
+---
+<<warp Bea BeaLayRig>>
+<<setAltBodyRig Bea BeaLayRig>>
+<<lookUp Bea>>
+<<warp Mae MaeEnter>>
+<<set $bea_friendship_quest_3 to 1>>
+Mae: Did you guys just move in? #line:e8cdac
+Bea: 10 months ago. #line:1ae338
+Mae: Why aren’t you unpacked? #line:309650
+<<close>>
+<<wait 2>>
+-> Pretty cool record player. #line:5a7230
+    Mae: :) #line:fe79ec
+    Mae: as far as record players go. #line:d8e324
+    Bea: It was my mom’s. #line:76670e
+    Mae: :| #line:46364e
+    Mae: I don’t have any records. #line:442e1d
+    Mae: I don’t get records. #line:88ad2d
+    Bea: My mom was into them. #line:133a75
+    Bea: Ha ha. They were retro when she was a my age. #line:950111
+    Mae: They’re retro now. #line:34b452
+    Bea: That’s how retro works. #line:9871b1
+-> Your old room was like... #line:5f4f65
+    Bea: Bigger? #line:de08d6
+    Mae: Messy. Really messy. #line:579eab
+    Bea: Eh. I was a slob when I was a kid. #line:834a2d
+    Mae: Guess the boxes take care of that problem. #line:92eb7c
+    Bea: No, mom yelled it out of me. #line:41e8ab
+    Mae: :) #line:d6597f
+    Mae: MOMS, amirite? #line:ea0924
+    Bea: U are rite. #line:187f80
+<<close>>
+<<wait 2>>
+Mae: :| #line:3e72da
+Mae: So I’ve got a question. #line:39bde1
+Bea: Mmhmm. #line:448b6a
+-> What exactly does your dad *DO* at the store? #line:13e069
+    Bea: These days? Not much. #line:79d750
+    Bea: Uh. Some administrative stuff.  #line:eca0c3
+    Bea: He hires the repair guys... #line:c587a5
+    Bea: He sometimes goes out on jobs. #line:f9a95a
+    Bea: That’s kind of his whole area. #line:be6444
+    Bea: But that's about it. #line:db91e9
+-> Your dad’s kinda up and down, huh? #line:7293f6
+    Bea: He has good days and bad days. #line:4fdfdc
+    Bea: Often in the same day. #line:9d2966
+    Mae: ha ha. Gregg's always been like that too. #line:082417
+    Mae: just more... uh... zany about it. #line:5b1456
+    Bea: well Gregg is probably bipolar #line:20dafe
+    Mae: gee thanks, doctor bea. #line:a4fdea
+    Bea: whereas my dad is having a years-long breakdown. #line:9897f7
+    Mae: You run the whole store now, right? #line:e475a9
+    Bea: More or less. #line:c6918f
+Mae: Yeah but it’s still his name on everything. #line:f34c0f
+Bea: Yep. #line:82def7
+Mae: And meanwhile you’re running basically everything. #line:d3351c
+Bea: Yep. #line:1a4f00
+Bea: And! And! working there every day too. #line:b4790e
+Bea: Yep. #line:c8b856
+Mae: I just think you shouldn’t. #line:569b20
+Bea: Ok. #line:716f40
+    ->I just think you're like selling yourself out. #line:9f5f8b
+        Bea: I’m sorry, what? #line:059d5e
+    ->I would probably just quit. #line:22fd92
+        Mae: or like, take over the store. #line:bec99d
+Mae: Like, you not doing anything about it just reinforces- #line:fec487
+<<lookNearest Bea>>
+<<dilate Bea .85 .01>>
+Bea: Is this really the road you want to go down with this? #line:0263b8
+    ->I’m saying you should stand up for yourself or just like... quit! #line:f22375
+        Bea: "Quit"? #line:1ac3fa
+        Bea: Really? Just quit. #line:ea9982
+        Bea: You are seriously detached from reality. #line:664f2d
+    ->I’m saying it’s not right that you just roll over and take it. #line:20b44f
+        Bea: "Take it?" #line:fc8fbe
+        //shake text here//
+        Bea: "TAKE IT"?!?!?! #line:59958b
+Mae: You’re doing all the work and he’s getting all the credit! #line:7ea678
+Bea: oh go to hell. #line:8f03d3
+Mae: :( #line:54d630
+    ->WHAT?! #line:b96f27
+        Bea: you heard me. #line:fb484a
+    ->WHY?! #line:e4d476
+        Bea: RAAAAAAGH. #line:d5e4bf
+Mae: what is your problem? #line:fc8a54
+Bea: here's some reality for you: #line:626f2f
+Bea: You know Creek? Repair Guy Creek at the shop? #line:eded91
+Mae: :| #line:a950b4
+    -> No? #line:f1e3d5
+        Bea: You’ve seen him. #line:253370
+        Bea: Talks a lot. Worked for us since forever. #line:bb93e3
+    -> ...yeah? #line:237794
+        Bea: yeah you met him when we were kids. #line:6688c4
+Bea: When I was 15 he asked my dad if he could teach me how to drive. #line:2a3c6a
+Bea: And my dad said no, and then told me not to be alone with him. #line:5f675b
+    -> What the? #line:a9dba0
+        Bea: Yeah. Exactly. #line:7b3182
+    -> I don't follow. #line:233c30
+        Bea: he's a creep, Mae.  #line:262819
+Bea: And you know what? HE still works for us. #line:d6abc7
+Mae: :( #line:b8c6e6
+Mae: !!! #line:1cc84b
+Mae: Why haven’t you fired him?!?! #line:511b54
+<<fadeOutAmbientSFX _AmbientSFX:music 10>>
+<<playAmbientSFX _AmbientSFX:record_static 10>>
+Bea: I can't fire people! #line:9ac5ae
+Bea: And even if I could, he’s on the crew. #line:1600a2
+Bea: And frankly he’s our best guy. Practically heads up the repair team. #line:3a6007
+Bea: Since my dad’s barely doing anything! #line:061703
+Bea: And Creek’s got a family. And he needs the work. #line:ba6468
+-> That’s disgusting! #line:3248ca
+    Mae: \o/ #line:6cfc04
+    Mae: It’s not your responsibility to- #line:74a597
+    Bea: I KNOW! #line:f3db23
+    Bea: DON’T YOU THINK I KNOW THAT?! #line:7e5eec
+    Mae: _o_ #line:60dfd8
+-> I’m gonna be sick. #line:e7e5eb
+    Bea: YEAH! ME TOO! #line:cfa497
+    Bea: I’M REALLY FAMILIAR WITH THAT FEELING. #line:cd700c
+Mae: :| #line:80b660
+Mae: I’m just saying if you keep letting these dudes off the hook- #line:74e4ec
+Bea: OFF THE HOOK?! #line:3cf05c
+Mae: Like, you're stronger than this, Bea. #line:351001
+Mae: You're like... badass and shit. #line:5c4ca9
+Bea: Y-YOU... #line:cce5c8
+<<close>>
+<<animationTrigger BeaLayRig GetUp>>
+<<dilate Bea 1 .01>>
+<<wait 2>>
+Bea: "BADASS?" #line:db4cf3
+Bea: MY MOM DYING WAS NOT VERY "BADASS." #line:dd3047
+Bea: ME SITTING IN THIS ROOM RIGHT NOW IS NOT VERY "BADASS." #line:368f91
+Mae: ok sorry, i- #line:ba2b8a
+Bea: You are such a shithead, you know that? #line:f08790
+Mae: :( #line:8b3226
+    -> Aaaaargh! #line:bc738c
+        Bea: "Aaaaargh?" "Aaaaargh" what?! #line:de6408
+    -> What the hell? #line:d9538d
+       Bea: "uuughhuhuhg what the hell?!" #line:587e5e
+Bea: A lot of time folks can’t just "choose" to do #line:b8580b
+Bea: whatever it is you decree to be the right thing! #line:9c0f4a
+Bea: A lot of times people do the things they do #line:9ca6dc
+Bea: because they can’t do anything else! #line:93b922
+Mae: :| #line:60829c
+    -> You ALWAYS have a choice. #line:bfe41d
+        Bea: says the child-woman with no job #line:5c582b
+        Bea: no rent #line:338929
+        Bea: no responsibilities #line:7707ea
+        Bea: and no consequences for your stupid actions #line:09fdea
+    -> You can ALWAYS choose. #line:c22a4c
+        Bea: choose what? #line:b67b8f
+        Bea: honestly. tell me. #line:b08dd9
+        Bea: what is my choice here? #line:c7b8bf
+            ->you can just leave! i dunno! #line:e829d8
+                Bea: I... I... #line:8fc2c4
+                Bea: y-you #line:dc6b94
+            ->tell your dad you're not gonna take this! #line:c95c91
+                Bea: tell him what???? #line:a285cf
+                Bea: what is your magic solution #line:064c96
+                Bea: that *I* need to do #line:e937bc
+Bea: I am seriously going to punch your goddamn lights out. #line:a19bc5
+Mae: :( #line:5c7a3c
+Bea: You come in here and start telling me how *I’M* screwing things up? #line:4fe283
+Bea: You want to come in here and say #line:75ce61
+Bea: “oh yeah just ditch your dad, #line:bd9566
+Bea: who is both getting old #line:df7110
+Bea: AND can barely get off the couch half the time?” #line:80347d
+<<if $grocery_quality is 1>>
+    Bea: [wave]Oh, but "good dinner", Mae![/wave] #line:158f73
+<<endif>>
+Bea: You want to come in here and say #line:2f3241
+Bea: "oh yeah just start this big drama #line:75d53d
+Bea: and make your life WAY more stressful?" #line:0e925d
+-> It’s just not right is what I’m saying! #line:8e97fc
+    Bea: Yeah. It isn’t. Nothing’s right. #line:3b8317
+    Bea: The whole effing world isn’t right. #line:e24fa1
+-> That is NOT what I’m saying! #line:1c2738
+    Bea: Oh, what are you saying, then? #line:c438fb
+    Mae: AAAARGH I don’t know anymore! #line:3beb75
+Bea: like gregg is probably off doing god knows what wacky shit right now #line:6ced6f
+Bea: i'm here making dinner and doing payroll. #line:c0d243
+Bea: You know like *nothing* about my life. #line:b2ba9f
+Bea: You just know what I “should” do. #line:e09831
+Bea: And you’re the last person I’d ask for advice. #line:0186d8
+Mae: :| #line:e544bf
+Mae: Ok ok I’m sorry. #line:c2e7dd
+Bea: Yeah, you’re sorry. Everyone's sorry. #line:24d163
+Bea: But you don’t get it. #line:2ca26e
+<<if $did_bea_friendship_quest_1 is 1 and $did_bea_friendship_quest_2 is 1>>
+    Mae: I thought we were having fun! #line:6ed6d1
+    Mae: We went to the mall! We got stuck in a basement! #line:d201b1
+    Bea: Yeah and that was ALL you did those days. #line:272afe
+    Bea: I’d worked a good 6 hours before you even woke up probably #line:fb6f62
+    Bea: and came home each night after you and I were done #line:e007f8
+    Bea: to pay bills and figure out how we’re making next payroll #line:36cdbd
+    Bea: While dad slept on the couch. #line:d81772
+    Bea: This isn’t fun. #line:6f46a1
+<<elseif $did_bea_friendship_quest_1 is 1>>
+    Bea: You’re just like the other night, but all the time. #line:16bc46
+    Bea: Running around messing with people and taking whatever you want. #line:3f950d
+    Bea: While the whole mall is falling apart around you. #line:4cc459
+    Mae: I thought you had a good time! #line:1deac1
+    Bea: ... #line:a2ed36
+<<elseif $did_bea_friendship_quest_2 is 1>>
+    Bea: It’s like last night #line:e0730c
+    Bea: you get to play around in garbage and break shit and everything works out. #line:41f5cf
+    Bea: While I’m stuck in the corner fixing the furnace. #line:46c8b8
+    Mae: But I helped! #line:0456e7
+    Bea: ... #line:0132ad
+<<endif>>
+<<close>>
+<<wait 2>>
+Mae: I should go. #line:fb6b8c
+Bea: You should go. #line:27e393
+<<set $bea_dad_done to 0>>
+<<set $bea_friendship_quest_3 to 1>>
+<<irisOut 1 wait>>
+<<scene BeaApartment>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 355,219
+---
+[[Fight]]
+===

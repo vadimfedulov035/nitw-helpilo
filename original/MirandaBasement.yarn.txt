@@ -1,0 +1,392 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 4833,396
+---
+<<if $miranda_basement is 0>>
+    <<warp Bea Bea1>>
+    <<warp Mae Mae1>>
+    <<flip Bea -1>>
+    <<playMusic miranda_house>>
+    <<walk Bea Bea2>>
+    <<walk Mae Mae2 wait>>
+    <<setCanInteract Bea 0>>
+    [[Dialogue1]]
+<<elseif $miranda_basement is 1>>
+    <<warp Bea BeaBehindFurnace>>
+    <<warp Mae MaeFurnace>>
+    <<playerFace 1>>
+    <<setCanInteract Bea 0>>
+    <<flip Bea 1>>
+<<elseif $miranda_basement is 2>>
+    <<warp Bea BeaBehindFurnace>>
+    <<warp Mae MaeFurnace>>
+    <<playerFace 1>>
+    <<setCanInteract Bea 0>>
+    <<flip Bea 1>>
+    <<playMusic miranda_basement>>
+    [[Dialogue2]]
+<<elseif $miranda_basement is 3>>
+    <<warp Bea Bea4>>
+    <<warp Mae Mae4>>
+    <<playerFace -1>>
+    <<setCanInteract Bea 0>>
+    <<flip Bea -1>>
+    [[Dialogue3]]
+<<endif>>
+===
+title: Dialogue1
+tags: 
+colorID: 3
+position: 5274,489
+---
+Mae: 0X, R 060SA% SYTKNE U0DBAVJ1. #line:04b688
+Bea: C 4EF0 6J1 NX HE V%6NTJ. #line:7cde4e
+Bea: U0CM0TPN HA GT0... BEVNK0VEUNE. #line:daacb4
+Mae: 60SE, CK0VJK0 Y HEE MYC0PA. #line:c780cf
+Mae: M0SET 6J1TJ, Y HEE EWE HECK0VJK0 MYSEL BAVR%TCR B YFVY. #line:503cfd
+Bea: XE-XE. #line:4fdca0
+Bea: NTAK, DABAL U0CK0PEE 3AK0H4NM C GTNM N 0TUPABNMCR D0M0L. #line:19cc1b
+<<walk Bea Bea3>>
+===
+title: TriggerBea
+tags: 
+colorID: 3
+position: 5567,341
+---
+<<if $miranda_basement is 0>>
+    <<set $miranda_basement to 1>>
+    Mae: PA3BE HE 3AUPEWEH0 KYPNTJ B U0MEWEHNN? #line:9b13f9
+    Bea: ECTJ TAK0E #line:a3284e
+    Mae: <o> :) #line:2e9288
+    Mae: TAK TAK TAK, 6N - UPECTYUHNK. #line:90a9b3
+    Bea: GT0 V0SJ #line:ce4610
+    Bea: R CTAPA%CJ 6P0CNTJ #line:640a26
+    Bea: U0GT0MY SY% GTY QTYK0BNHY. #line:ba3920
+    Mae: O_o #line:5598b3
+    Mae: 4EF0 #line:ae0df6
+    Mae: _o_ #line:9bedaa
+    Bea: 3AMETNVA, 4T0 DJ1MA HET? B006WE HNKAK0F0 DJ1MA? #line:352382
+    Mae: H0 R BNDEVA, KAK TJ1 KYPNQJ. #line:f3b770
+    Bea: DA. HE B U0MEWEHNN. #line:f255d4
+    Mae: :| #line:d85aaf
+    Mae: R DYMAVA, GT0 A6C0V%THAR UPABDA. #line:f0aee9
+    Bea: KAK TJ1 DYMAEQJ, KYDA NDET DJ1M? #line:ab6441
+    Mae: o_o #line:b3723e
+    Mae: R DYMAVA, TJ1... UP0FVATJ1BAVA EF0? #line:72a99d
+    Bea: MGL, KAK U0-TB0EMY B006WE KYPRT? #line:1ed2c4
+    Mae: :\ #line:8ec755
+    Mae: 0, HY UP0CTN! R HE D0KT0P KYPNTEVJHJ1X HAYK, 6NATPNC! #line:7f24de
+    Bea: F0CU0DN 60SE, N 4EF0 EWE TJ1 HE 3HAEQJ? #line:aa5f78
+    Mae: :( O_O \o/ #line:8a16a7
+    Mae: N3BNHN, Y MEHR HET CTEUEHN B CNFAPET0V0FNN! #line:659b99
+    Mae: :| o_o _o_ #line:820951
+    Bea: 4EMY TJ1 B006WE Y4NVACJ B K0VVEDSE? #line:9411f2
+    Mae: =_= :) o> #line:61cbc6
+    Mae: HADNPATJ 3ADHNOJ1 N TYCNTJ #line:3919f9
+    <<wait 3>>
+    Mae: o_o :| #line:d4af4a
+    Mae: TAK GT0 N ECTJ UE4J? #line:4698ab
+    <<lookLeft Bea>>
+    Bea: DA, GT0 UE4J. #line:281155
+    Mae: :) #line:235cce
+    Mae: R PEQNVA HA3BATJ EF0 KVAHKN. #line:f6f02e
+    Bea: X0P0Q0. #line:65c5fd
+    Bea: UP0CT0 U0TYCN 3DECJ. #line:f9010a
+    Bea: A R U0-6J1CTP0MY U04NH% GTY QTYKY. #line:8ad3d1
+    Bea: UP0CT0 HE... CV0MAL HN4EF0. #line:3f9f9c
+    Mae: :| _o_ #line:1b7fb1
+    Mae: 4T0 R M0FY 3DECJ CV0MATJ? #line:fc3116
+    Mae: GT0T U0DBAV U0V0H BCRK0F0 DEPJMA! #line:b11e21
+    <<close>>
+    <<walk Bea BeaBehindFurnace wait>>
+    Bea: 0 60SE, 0K #line:0876f1
+    Bea: GT0 HE 3ALMET MH0F0 BPEMEHN. #line:f96631
+    Mae: R M0FY U0M04J? #line:2efcf0
+    Bea: HE-A! #line:4c89f6
+    Mae: T0FDA U04EMY R 3DECJ? #line:0c31e8
+    Bea: U0T0MY 4T0 TJ1 3AX0TEVA U0LTN C0 MH0L! #line:05c8bf
+    Bea: UP0CT0... PACCVA6JCR. #line:6c99e1
+    <<tell _AmbientSFX:bea_fix_lp Play1>>
+<<endif>>
+===
+title: Dialogue2
+tags: 
+colorID: 3
+position: 5137,743
+---
+<<setSortingLayerName Player>>
+<<walk Bea BeaOutFromFurnace>>
+Bea: DYMA%, R U04NHNVA EE, DABAL U0CM0TPNM, 4T0 Y HAC 3DECJ... #line:45ec20
+<<waitForMove Bea>>
+<<flip Bea -1>>
+Mae: DA, MJ1 U04NHNVN! #line:14079f
+Bea: *MJ1*? 4T0 TJ1 CDEVAVA?! #line:d17a0d
+<<close>>
+Mae: R C03DAVA GVEFAHTH0E D0VF0CP04H0E PEQEHNE. \o/ #line:273a76
+<<close>>
+
+<<wait 2>>
+<<fadeOutMusic .25>>
+<<wait .2>>
+<<tell _AmbientSFX:snap_animation Play>>
+
+<<if $furnace_contraption is 1>>
+    <<setAnimInt Contraption_A_CorpseDriver state 2>>
+<<elseif $furnace_contraption is 2>>
+    <<setAnimInt Contraption_B_CaveHorse state 2>>
+<<elseif $furnace_contraption is 3>>
+    <<setAnimInt Contraption_C_RacketTurbine state 2>>
+<<elseif $furnace_contraption is 4>>
+    <<setAnimInt Contraption_D_DragRacer state 2>>
+<<elseif $furnace_contraption is 5>>
+    <<setAnimInt Contraption_E_GnomeTurbine state 2>>
+<<endif>>
+
+<<wait .35>>
+<<tell _AmbientSFX:furnace_contraption_break Play>>
+<<wait .15>>
+<<tell _AmbientSFX:snap_animation Play>>
+
+<<if $furnace_contraption is 1>>
+    <<setAnimInt Contraption_A_CorpseDriver state 3>>
+<<elseif $furnace_contraption is 2>>
+    <<setAnimInt Contraption_B_CaveHorse state 3>>
+<<elseif $furnace_contraption is 3>>
+    <<setAnimInt Contraption_C_RacketTurbine state 3>>
+<<elseif $furnace_contraption is 4>>
+    <<setAnimInt Contraption_D_DragRacer state 3>>
+<<elseif $furnace_contraption is 5>>
+    <<setAnimInt Contraption_E_GnomeTurbine state 3>>
+<<endif>>
+
+
+<<wait 3.5>>
+
+Mae: B0T 4EPT. _o_ #line:54d732
+<<close>>
+Bea: U0PA NDTN, MGL. U0SAVYLCTA, 60VJQE HNK0FDA HN4EF0 HE 4NHN. #line:316a39
+Bea: TNUA, DASE HE 3AB0DN CE6E D0MAQHEE SNB0TH0E. #line:c1154b
+Bea: B006WE HN4EF0, 4T0 TPE6YET U0DDEPSKN. #line:9aa73d
+Mae: FPE6AHH0E DEPJM0!!! #line:f0b481
+Mae: 0H0 D0VSH0 6J1V0 PA60TATJ!!! #line:1911a7
+Mae: BUP04EM, GT0 6J1V0 UPEDCKA3YEM0. #line:c8f6ef
+Bea: U0LDY UP0BEP% BJ1X0D... #line:0ea062
+<<close>>
+<<walk Mae Mae2>>
+<<flip Bea 1>>
+<<walk Bea Bea2NoCast wait>>
+Bea: SDN 3DECJ. #line:3a341d
+<<close>>
+<<walk Bea BeaTryExit wait>>
+<<playAmbientSFX _AmbientSFX:basement_door_locked>>
+<<wait 2>>
+Bea: UP0KVRTNE. #line:023e60
+<<close>>
+<<flip Bea -1>>
+<<walk Bea BeaHalfwayDownStairs wait>>
+<<wait 1.5>>
+Bea: HAC 3AUEPVN. #line:811f27
+Bea: A-A-A, R 3HAVA 4T0 GT0 CVY4NTCR. #line:80e968
+Bea: FVYUAR, FVYUAR 6N. #line:67754a
+    ->U0UP06YL U0KPN4ATJ? #line:73dc54
+        Bea: GT0 HE CPA60TAET. #line:fcc742
+        <<wait 2>>
+        Bea: MNCCNC MNPAHDA-A-A-A-A-A!!!!!! #line:8c8fd6
+        <<wai 2>>
+        Bea: GT0 HE CPA60TAV0. #line:df59a4
+    ->MJ1 M0SEM BJ1PE3ATJ DJ1PY B U0T0VKE #line:11c6b4
+        Bea: C U0M0WJ% 4EF0? #line:65db18
+        Mae: M0SET 6J1TJ, Y HEE 3DECJ BAVRETCR CTAPAR UNVA! #line:6bc4a4
+        Bea: N 4T0 MJ1 6YDEM C HEL DEVATJ #line:97f28d
+        Bea: HABAVNM KY4Y MYC0PA, BCTAHEM HA HEE #line:767886
+        Bea: N 6YDEM UNVNTJ KPYFVY% DJ1PY B U0T0VKE #line:6db4a2
+        Bea: KAK B MYVJTZNVJME? #line:865063
+        Mae: HY, Y HAC HN4EF0 HE BJ1LDET C *TAKNM* HACTP0EM. #line:85beac
+Bea: HY, Y DBEPN 04EHJ CTAPAR N PACQATAHHAR PY4KA. #line:7b6287
+Bea: M0SET, R CM0FY... UPNDYMATJ 4T0-HN6YDJ... #line:3d8cb0
+Mae: A R U0KA 0CM0TP%CJ! #line:5969b1
+Bea: AFA, NDN 0CM0TPN BCE KY4N MYC0PA. #line:7c4092
+<<close>>
+<<flip Bea 1>>
+<<walk Bea BeaTryExit wait>>
+<<playAmbientSFX _AmbientSFX:door_knob_fiddle>>
+===
+title: TriggerBea2
+tags: 
+colorID: 3
+position: 5575,713
+---
+<<if $miranda_basement is 2>>
+    <<if $miranda_furnace is 0>>
+        Bea: A-A-A-A-A! #line:277810
+        Bea: BCE EWE 3AKPJ1TA. #line:1bdfa6
+        Mae: R M0FY 4EM-T0 U0M04J? #line:25125a
+        Bea: HE 3HA%, MGL. A CM0SEQJ VN? #line:03353d
+    <<endif>>
+<<endif>>
+===
+title: Furnace
+tags: 
+colorID: 3
+position: 5921,573
+---
+<<if $miranda_basement is 2>>
+    Mae: XM. #line:1f5e35
+    Mae: EDNHCTBEHHAR BEWJ, K0T0PY% 0HA *M0SET* CVJ1QATJ, - UE4KA. #line:d33a23
+    Mae: K0FDA 0HA 6J1VA... #line:f1f294
+    Mae: CV0MAHA... #line:35dae2
+    Mae: CV0MAHHJ1E BEWN D0VSHJ1 6J1TJ... CV0MAHJ1... #line:cb1ec0
+    <<set $miranda_basement_look_for_bat to 1>>
+<<elseif $has_furnace_item_0 is 1 and $has_furnace_item_1 is 1 and $has_furnace_item_2 is 1 and $has_furnace_item_3 is 1>>
+    Mae: 0KEL, R HE CM0FY HECTN 60VJQE. #line:084c89
+    Mae: TAK 4T0, U0X0SE, GT0F0 D0CTAT04H0. #line:71c229
+    <<set $miranda_basement to 2>>
+    <<irisOut 1 wait>>
+    <<scene FixFurnace>>
+<<elseif $num_furnace_items is 3>>
+    Mae: D0VSHA VN R B3RTJ 4T0-T0 EWE? #line:76a8ad
+    Mae: R D0VSHA B3RTJ 4T0-T0 EWE. #line:0cdf4e
+<<elseif $num_furnace_items is 2>>
+    Mae: 4T0 EWE M0SET U0M04J, 4T0 EWEEEEE. #line:c1fcf8
+<<elseif $num_furnace_items is 1>>
+    Mae: NHTEPECH0, 4T0 EWE R CM0FY HALTN. #line:aedfc1
+<<else>>
+    Mae: R T04H0 CM0FY CDEVATJ 4T0-HN6YDJ N3 GT0F0... MYC0PA. #line:8757ca
+    Mae: 60SE. #line:787cc8
+    Mae: KAK B006WE M0SH0 NMETJ CT0VJK0 MYC0PA. #line:c787a6
+    <<set $can_pickup_furnace_items to 1>>
+<<endif>>
+===
+title: Fan
+tags: 
+colorID: 3
+position: 6262,602
+---
+<<if $can_pickup_furnace_items is 0>>
+    Mae: 60SE. KAK0L DPRXVJ1L BEHTNVRT0P. #line:fa6b33
+    Mae: 0H CDEVAH N3 METAVVA N M0SET 0TPY6NTJ TE6E UAVEO! #line:09017c
+<<elseif $has_furnace_item_0 is 0>>
+    <<set $num_furnace_items += 1>>
+    Mae: UPNF0DNTCR B U04NHKE UE4KN. #line:e00a0a
+    <<set $has_furnace_item_0 to 1>>
+    <<playOneShot event:/miranda_house/pickup_fan Mae>>
+<<endif>>
+===
+title: Gnome
+tags: 
+colorID: 3
+position: 6518,585
+---
+<<if $can_pickup_furnace_items is 0>>
+    Mae: AX, M0L DABHNL BPAF. #line:66927b
+    Mae: UP0ZECC0P V%ONYC B0H FH0ME0. #line:ae2c86
+<<elseif $has_furnace_item_1 is 0>>
+    <<set $num_furnace_items += 1>>
+    Mae: MHE UPNF0DNTCR BAQE MHEHNE 0 T0M, KAK U04NHNTJ GTY TYUY% UE4J, UP0ZECC0P. #line:65b568
+    <<set $has_furnace_item_1 to 1>>
+    <<playOneShot event:/miranda_house/pickup_gnome Mae>>
+<<endif>>
+===
+title: Racket
+tags: 
+colorID: 3
+position: 6777,580
+---
+<<if $can_pickup_furnace_items is 0>>
+    Mae: XM-M. 6ADMNTT0H. #line:8f47e8
+    Mae: 6AHDMNHT0H. #line:de5eab
+    Mae: 6ADMNTTNH. #line:c3b597
+    Mae: PAKETKA. #line:3ac4e8
+<<elseif $has_furnace_item_2 is 0>>
+    <<set $num_furnace_items += 1>>
+    Mae: 0KEL, GT0 M0SET UPNF0DNTJCR. #line:14e890
+    <<set $has_furnace_item_2 to 1>>
+    <<playOneShot event:/miranda_house/pickup_racket Mae>>
+<<endif>>
+===
+title: Rod
+tags: 
+colorID: 3
+position: 7071,567
+---
+<<if $can_pickup_furnace_items is 0>>
+    Mae: PJ16KA, PJ16KA, PJ1-J1-J1-J16KA. #line:7551f9
+<<elseif $has_furnace_item_3 is 0>>
+    <<set $num_furnace_items += 1>>
+    Mae: M0SET UPNF0DNTCR. M0SET UPNF0DNTCR! #line:db84f6
+    <<set $has_furnace_item_3 to 1>>
+    <<playOneShot event:/miranda_house/pickup_rod Mae>>
+<<endif>>
+===
+title: Notes
+tags: 
+colorID: 0
+position: 5081,178
+---
+// miranda_basement: 0 = first in
+// miranda_basement: 1 = bea has gone behind furnace
+// miranda_basement: 2 = "Fixed" the furnace
+===
+title: Bat
+tags: 
+colorID: 3
+position: 5991,205
+---
+<<if $miranda_basement_look_for_bat is 1>>
+    Mae: XM-M-M. #line:6f8d3d
+    Mae: GT0 T0T NHCTPYMEHT, C K0T0PJ1M R YME% 06PAWATJCR. #line:925fd0
+    Mae: T0T #line:12bc0d
+    Mae: NHCTPYMEHT #line:e65eba
+    Mae: DVR #line:5c0ccd
+    Mae: HADNPAHNR #line:7db42b
+    Mae: 3ADHNO!!! #line:481714
+    <<getBat>>
+    <<playOneShot event:/miranda_house/pickup_bat Mae>>
+    <<wait 1>>
+    <<playMusic break_furnace>>
+<<endif>>
+===
+title: FurnaceDefeated
+tags: 
+colorID: 3
+position: 5412,95
+---
+<<freezePlayer>>
+<<fadeOutAmbientSFX _AmbientSFX:door_knob_fiddle 1>>
+<<wait 4>>
+Mae: XA-XA-XA-XA-XA! #line:a0a231
+Mae: BJ1KYCN, TYU0L KYC0K DEPJMA! #line:1fd41f
+Bea: YX TJ1, GT0 6J1V0 D0B0VJH0 FP0MK0 #line:c6ec60
+Mae: AFA #line:c17116
+Bea: YDNBVR%CJ, KAK R HE YCVJ1QAVA GTY UE4J EWE B F0P0DE. #line:d70d1a
+Bea: 0KEL, KPYT0, 0HA NDET. CVABA 60FY. #line:f418ee
+Mae: G-G, M0SET 6J1TJ, CVABA MHE? #line:f51bf7
+Bea: GL, MNCCNC MNPAHDA, BJ1 3AKPJ1VN HAC! #line:8b133e
+<<close>>
+<<fadeOutMusic 1>>
+<<set $miranda_basement to 3>>
+<<set $miranda_furnace to 10>>
+<<set $has_bat to 0>>
+<<irisOut 1 wait>>
+<<scene MirandaYard>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 4760,134
+---
+<<if $miranda_basement is 2>>
+    <<if $furnace_contraption is 1>>
+        <<setAnimInt Contraption_A_CorpseDriver state 1>>
+    <<elseif $furnace_contraption is 2>>
+        <<setAnimInt Contraption_B_CaveHorse state 1>>
+    <<elseif $furnace_contraption is 3>>
+        <<setAnimInt Contraption_C_RacketTurbine state 1>>
+    <<elseif $furnace_contraption is 4>>
+        <<setAnimInt Contraption_D_DragRacer state 1>>
+    <<elseif $furnace_contraption is 5>>
+        <<setAnimInt Contraption_E_GnomeTurbine state 1>>
+    <<endif>>
+<<endif>>
+===

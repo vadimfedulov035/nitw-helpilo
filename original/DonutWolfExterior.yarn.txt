@@ -1,0 +1,429 @@
+title: InitLevel_A0D0
+tags: 
+colorID: 0
+position: -3430,4541
+---
+<<set $night to 1>>
+<<trigger Gregg Sit>>
+<<warp Gregg GreggSit Sit>>
+<<playerFace -1>>
+<<hide Angus>>
+===
+title: Intro
+tags: 
+colorID: 0
+position: -3438,5018
+---
+<<hide Angus>>
+<<sit>>
+<<if $gnome_tossed is 0>>
+	Gregg:{locator=left} "FH0ME0"? #line:00595e
+	Mae:{locator=right,width=1.5}UP0ZECC0P V%ONYC B0H FH0ME0.#line:0705fc
+	Mae:{locator=right,width=1.5}0H BAMNP N Y4EHJ1L.#line:51329d
+	Mae:{locator=right,width=1.5}0H N306PEV KP0BABY% PAKETY.#line:a9a5e8
+	Gregg:{locator=left,width=2}BAY, TJ1 N EMY UPNDYMAVA UPEDJ1CT0PN%.#line:7010f1
+	Mae:{locator=right,width=2}HE F0B0PN 0 UP0ZECC0PE, KAK 6YDT0 EF0 3DECJ HET.#line:f63e19
+	Gregg:{locator=left,width=2}...#line:0021a4
+	[[Hub]]
+<<else>>
+	Gregg:{locator=left,width=1}...R CKY4A% U0 MNCTEPY FH0MY. #line:2f7a34
+	Gregg:{locator=left,width=1}GX. #line:1c5a23
+	Mae:{locator=right,width=1.5} R DASE DAVA EMY NMR. #line:c9a830
+	Mae:{locator=right,width=1.5} UP0ZECC0P V%ONYC B0H FH0ME0. :) #line:355f10
+ Mae: :| #line:86524d
+	Gregg:{locator=left,width=1}VAKN K0P04E.#line:c2163a
+	[[Hub]]
+<<endif>>
+===
+title: Hub
+tags: 
+colorID: 0
+position: -3438,5278
+---
+[[TJ1 U0MHNQJ TY UECH% BEDJM KVNHKA 0 K0V0DOE??|Well]] #line:5584e1
+[[NTAK, TJ1 N AHFYC DELCTBNTEVJH0 YE3SAETE?|Leaving]] #line:b421c2
+
+===
+title: Well
+tags: 
+colorID: 0
+position: -2920,5490
+---
+Gregg: D: #line:9c9e18
+Gregg:{align=middle,locator=left}DA, GTA  [shake=.1]DA-DA-DYYYYFA[/shake] UECHR?#line:5b4e87
+Gregg: :| #line:140cf9
+Gregg:{locator=left,width=2}GTA UECHR PEAVJH0 Y6NBAET.#line:30c9e6
+Mae:{locator=right,width=1.5}3HAEQJ, 1 KYUVET, TNUA#line:ad45d9
+Mae:{locator=right,width=1.5}"[wave]CNVJHJ1L X0V0D[/wave]#line:ccbe93
+Mae:{locator=right,width=1.5}[wave]CAMAR TEMHAR DJ1PA[/wave]#line:eb9aa0
+Mae:{locator=right,width=2.5}[wave]B OEHTPE BCEF0[/wave]"?#line:0eafa7
+Gregg: D: #line:373c19
+Gregg:{locator=left}[shake=.2]DA-DA-DYYYYFA!!![/shake]#line:75af87
+Gregg: :| #line:53566e
+Mae:{locator=right,width=3}PAHJQE R DYMAVA, 4T0 GTA UECHR 6J1VA UP0CT0 4EM-T0 U0-BEDJM0BCKN KPYTJ1M.#line:14e819
+[[H0 UP0QV0L H04J% MHE CHNVCR C0H 06 GT0M.|Dream]] #line:ac60d0
+[[H0 CEL4AC GT0 3ACTABVRET MEHR FPYCTNTJ.|Sad]] #line:a6fbee
+===
+title: Leaving
+tags: 
+colorID: 0
+position: -3770,5528
+---
+Gregg:{locator=left,width=1}MGL, MJ1 D0VSHJ1. #line:48f981
+Gregg:{locator=left,width=2}CVNQK0M MH0F0 BCEF0 DVR MEHR B GT0M F0P0DE#line:04aa4a
+Gregg:{locator=left,width=3}N AHFYCY CT0NT DEPSATJCR U0DAVJQE 0T C0VHOA, HACK0VJK0 GT0 B03M0SH0.#line:514ad6
+Mae:{locator=right,width=2}TJ1 3HAEQJ, 4T0 B 6PALT XAP60P C0VHE4H0, BEPH0?#line:0869fb
+Gregg:{locator=left,width=2}MGL, B 6PALT XAP60P CT0VJK0 D0HAT BYVZ0B.#line:866cd0
+Gregg:{locator=left,width=1}N UAHK-Q0Y#line:ddb93f
+Gregg:{locator=left,width=2}N V%DN K0T0PJ1E HE H0CRT C C060L 0PYSNE.#line:98c78f
+[[R DYMA%, B 6PALT XAP60P T0SE ECTJ 0PYSNE.|Guns]] #line:cb1e41
+[[Y TE6R *ECTJ* 0PYSNE, MJ1 CTPEVRVN B TB0L CTAPJ1L TEVEBN30P!|TV]] #line:3d828f
+
+
+
+
+
+===
+title: Dream
+tags: 
+colorID: 0
+position: -2756,5794
+---
+Gregg:{locator=left,width=1}KAK0L C0H? #line:6c8671
+Mae:{locator=right,width=3}R CT0RVA PRD0M C K0V0DOEM, U0CPEDN KAK0F0-T0 U0VR.#line:1d0ac5
+Mae:{locator=right,width=1.5}U0F0DA 6J1VA D0SDVNBA N TYMAHHA.#line:0cfd04
+Gregg:{locator=left,width=1.5}XM?#line:9662d0
+Mae:{locator=right,width=1.5}N R BCE BPEMR UJ1TAVACJ 0T0LTN 0T HEF0.#line:685e9b
+Mae:{locator=right,width=3}H0 C KASDJ1M QAF0M R C0CKAVJ3J1BAVA 06PATH0 B FPR3J, N 0KA3J1BAVACJ BCE 6VNSE K K0V0DOY#line:c39bff
+Gregg:{locator=left,width=1}DEPJJM0.#line:f054d6
+Mae:{locator=right,width=1.5}U0GT0MY MHE UP0CT0 UPNQV0CJ CT0RTJ HA MECTE.#line:6cb39d
+Mae:{locator=right,width=1.5}HE DBNFATJCR B006WE.#line:2212d0
+Gregg:{locator=left,width=1}GT0 3BY4NT CTPAHH0, 4YBAK.#line:4c5eb6
+Mae:{locator=right,width=1.5}N CAM0E CTPAQH0E 6J1V0#line:8afd0f
+Mae:{locator=right,width=2}4T0-T0, HA DHE K0V0DOA.#line:fb831b
+Mae:{locator=right,width=1.5}N 0H0 CM0TPEV0 HA MEHR.#line:013833
+<<wait= 1>>
+Gregg:{locator=left,width=3}CUACN60, 4YBNXA, TEUEPJ Y MEHR T04H0 6YDYT K0QMAPJ1.#line:6a77ff
+[[Entro]]
+===
+title: TV
+tags: 
+colorID: 0
+position: -3576,5803
+---
+Gregg:{locator=left,width=2}GT0 6J1V0 0X0THN4JE PYSJE, K0T0P0E DAV MHE M0L UAUA. #line:e7d64f
+Gregg:{locator=left,width=1}GT0 HE C4NTAETCR.#line:3af038
+Mae:{locator=right,width=1.5}4T0 TB0L 0TEO DYMAET 0 TB0EM 0TJE3DE?#line:f6b988
+Gregg:{locator=left,width=1}HE 3HA%.#line:14bebd
+Gregg:{locator=left,width=3}MJ1 C HNM X0P0Q0 VADNM, TAK 4T0, DYMA%, 0H HE 6YDET UP0TNB.#line:f85655
+Mae:{locator=right,width=1.5}GL, FPEFF?#line:19f684
+Gregg:{locator=left,width=2}DA?#line:33f660
+Mae:{locator=right,width=3}MHE 6YDET FPYCTH0, K0FDA TJ1 YEDEQJ, MYDAK.#line:1cba82
+Gregg:{locator=left,width=2}R 3HA%.#line:e15600
+[[Entro]]
+
+
+
+
+
+===
+title: Sad
+tags: 
+colorID: 0
+position: -3292,5798
+---
+Gregg:{locator=left,width=1}U04EMY? #line:53c0d4
+Mae:{locator=right,width=1.5}R DYMA% 0, TNUA, 04EHJ FVY60K0L DJ1PE :\ #line:887e45
+Mae:{locator=right,width=1.5}N HECU0C06H0CTN BJ16PATJCR. #line:d360a2
+Gregg:{locator=left,width=3}TJ1 60NQJCR, 4T0 KT0-T0 C06NPAETCR C6P0CNTJ TE6R TYDA? #line:c4fde5
+Mae:{locator=right,width=1.5}HET. :| #line:e41439
+Gregg:{locator=left,width=2}U0T0MY 4T0 R C06NPA%CJ QBJ1PHYTJ TB0% 3ADHNOY B K0V0DEO.#line:7de851
+Gregg: D: #line:3ba96a
+Gregg:{locator=left,width=5}[size=1.8][shake=.2]DA-DA-DY-Y-Y-Y-YFA!!![/shake][/size]#line:77cba2
+Gregg: :| #line:1b5a32
+[[Entro]]
+
+
+
+
+
+===
+title: Guns
+tags: 
+colorID: 0
+position: -4074,5826
+---
+Gregg:{locator=left,width=3}MGL, B F0CTNH0L M0EF0 DRDN HAX0DRTCR 8 PA3HJ1X 0PYSNL N 0HN B UPEDEVAX D0CRFAEM0CTN DNBAHA. #line:d17fd6
+Mae:{locator=right,width=1.5}BAY, CEPJE3H0?#line:1dcbf8
+Gregg:{locator=left,width=2}DA, R DYMA%, 0H SDET UPN6J1TNR Z6P.#line:a78688
+Mae:{locator=right,width=1.5}K0T0P0E 3A6EPET EF0 0PYSNE?#line:13bf20
+Gregg:{locator=left,width=3}0H - HAQA U0CVEDHRR VNHRR 060P0HJ1.#line:a048d5
+Gregg:{locator=left,width=3}GL, U0MHNQJ T0 BPEMR B 9 KVACCE, K0FDA MJ1 CDEVAVN 60M6Y C U0M0WJ% NHTEPHETA?#line:365bc3
+Mae:{locator=right,width=2}MEFA6YM! TJ1 U0TEPRV CB0N 6P0BN!#line:833c05
+Gregg:{locator=left,width=2}BCEF0 VNQJ HEMH0F0 6EH3NHA, A MHE YSE UPNX0DNTCR H0CNTJ 4T0-VN60 X0V0DH0F0 0TTEHKA,#line:4b13a7
+Gregg:{locator=left,width=3}4T06J1 CKPJ1TJ YSACA%WY% FN6EVJ M0NX 06YFVEHHJ1X, UYCTJ1X FVA3HNO.#line:46e742
+Mae:{locator=right,width=1.5}GL, FPEFF?#line:08fbe9
+Gregg:{locator=left,width=2}DA?#line:31439e
+Mae:{locator=right,width=3}MHE 6YDET FPYCTH0, K0FDA TJ1 YEDEQJ, MYDAK.#line:c88962
+Gregg:{locator=left,width=2}R 3HA%.#line:2163c0
+[[Entro]]
+===
+title: Entro
+tags: 
+colorID: 0
+position: -3368,6296
+---
+Mae: :( #line:ab78d3
+Mae:{locator=right,width=2}MHE UP0CT0... FPYCTH0. N R 3V%CJ. #line:47c14d
+Gregg:{locator=left,width=2}DA, T04HRK, 4YBNXA. #line:9a324b
+Mae:{locator=right,width=3}R BEPHYVACJ D0M0L, A Y BCEX YSE ECTJ DPYFNE UVAHJ1. #line:697486
+Mae:{locator=right,width=3}R UP0CT0 X04Y DEPSATJCR 3A 4T0-HN6YDJ #line:cd79c3
+Mae:{locator=right,width=3}N, HY... #line:8fb347
+Mae:{locator=right,width=3}BCE 3AKAH4NBAETCR, H0 R X04Y 60VJQEF0. #line:c8fa81
+Gregg:{locator=left,width=3}MGL, MJ1 HE M0SEM 0CTABATJCR 3DECJ BE4H0. #line:a07139
+Mae:{locator=right,width=3}... :| #line:b127bd
+<<wait .5>>
+Mae:{locator=right,width=1}R 3HA%. #line:098c2e
+<<if $gnome_tossed is 0>>
+Gregg:{locator=left}KAK HAC4ET TE6R, MEHR N..#line:4fcbee
+Mae:{locator=right,width=1.5}UP0ZECC0P V%ONYC B0H FH0ME0.#line:3bb4c5
+Gregg:{locator=left,width=3}KAK HAC4ET T0F0, 4T06J1 TJ1, R N UP0ZECC0P PA36NVN HECK0VJK0 VAMU04EK 3A CHGK ZGVK0H0M?#line:b93c2f
+Mae:{locator=right,width=2}DA? K0HE4H0?#line:0de48a
+Gregg:{locator=left,width=3}A EWE KPNCTNH DAV MHE KV%4 0T MAFA3NHA,#line:94fdf9
+Gregg:{locator=left,width=3}A GT0 3HA4NT, 4T0 MJ1 M0SEM BJ1UNTJ BC% FA3NP0BKY!#line:fe9e1a
+Mae:{locator=right,width=2}GTN H04N R 6YDY U0MHNTJ, K0FDA MHE 6YDET 60.#line:0c409c
+Gregg:{locator=left,width=3}TAKSE R YKPAV KY4Y SNDK0CTN DVR 3ASNFAV0K, 4T06J1 MJ1 M0FVN CSE4J 4T0-T0 60VJQ0E B 0FHE!#line:eecb4c
+Mae:{locator=right,width=4}[size=1.2][shake=.03]Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y![/shake][/size]#line:e66965
+[[End]]
+<<else>>
+Gregg:{locator=left,width=3}A EWE KPNCTNH DAV MHE KV%4 0T MAFA3NHA.#line:d49314
+Gregg:{locator=left,width=3}A GT0 3HA4NT - 6ECUVATHJ1E U0H4NKN C FA3NP0BK0L!#line:6fa2dd
+Mae:{locator=right,width=2}R 6J1 X0TEVA, 4T06J1 FH0M BCE EWE 6J1V C HAMN.#line:2a0345
+Gregg:{locator=left,width=3}MGL, ECTJ HEK0T0PJ1E BEWN, K0T0PJ1E TJ1 D0VSHA UP0CT0 0TUYCTNTJ#line:e36c3b
+Mae:{locator=right,width=1}...#line:c2f177
+Mae:{locator=right,width=1}AFA.#line:d4172e
+Gregg:{locator=left,width=3}DABAL, U0LDEM KPACTJ Y M0EF0 60CCA, K0T0PJ1L MHE D0BEPRV.#line:9aa762
+Mae:{locator=right,width=2}GTN H04N R 6YDY U0MHNTJ, K0FDA MHE 6YDET 60 #line:c05dc5
+Gregg:{locator=left,width=3}TAKSE R YKPAV KY4Y SNDK0CTN DVR 3ASNFAV0K, 4T06J1 MJ1 M0FVN CSE4J 4T0-HN6YDJ 60VJQ0E B 0FHE!!#line:9182b8
+Mae:{locator=right,width=4}[size=1.2][shake=.03]Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y![/shake][/size]#line:ad42ae
+[[End]]
+<<endif>>
+
+
+
+
+
+
+
+===
+title: End
+tags: 
+colorID: 0
+position: -3440,6614
+---
+<<fadeOut 2 wait>>
+<<sectionTitle End ShowJournalDoodles>>
+===
+title: EnterLevel_A0D0
+tags: 
+colorID: 0
+position: -3432,4788
+---
+[[Intro]]
+
+===
+title: EnterLevel_A3D3
+tags: 
+colorID: 4
+position: -2460,4820
+---
+Mae: =_= :( #line:d30f41
+<<sit>>
+<<wait 2>>
+Mae: YX #line:2afa77
+Mae: 0H0 BCE 6J1V0 PA3H0OBETH0E. #line:eb76e4
+Gregg: 6VEB0TNHA HE 6J1BAET TAK0F0 OBETA. #line:18cc9d
+Angus: TAM 6J1V0, TNUA, #line:325d13
+Angus: MH0F0 OBET0B. #line:dd0572
+Gregg: TJ1 B H0PME, MGL? #line:8b9f54
+    ->DA. HET. YX. #line:2acb99
+    ->Y MEHR DELCTBNTEVJH0 CVA6J1L SEVYD0K #line:7a9fb3
+        Gregg: AFA, TE6R T0QHNV0... MH0F0. #line:b06e8e
+        Mae: MEHR 0T BCEF0 T0QHNT: #line:abf623
+        Mae: 0T DETCK0F0 UNTAHNR #line:aed121
+        Mae: 0T MRK0TN TJ1KBJ1 #line:7ae8f8
+        Mae: 0T V%60F0 UNBA #line:205818
+        Mae: 0T N3VNQKA U0H4NK0B #line:143fc9
+        Gregg: MEHR HNK0FDA HE T0QHNT. #line:57ba99
+Mae: Y MEHR B0 PTY UPNBKYC PA36NTJ1X HADESD. #line:d80a5b
+<<wait 3>>
+Mae: R 04EHJ 3V%CJ HA BAC DB0NX. #line:e70ca5
+Gregg: U04EMY? #line:287738
+Mae: HEHABNSY HEV0BK0E M0V4AHNE. o_o #line:ee3e0b
+Mae: R, BP0DE KAK, U0P4Y BAM SN3HJ? #line:4c758d
+Mae: UP0CT0 CKASNTE MHE, ECVN R 3ACV0HNVA C060L 4T0-T0 MESDY BAMN. #line:3aa6a6
+    ->TJ1 60VJQE HE V%6NQJ MEHR, AHFYC? #line:1a309d
+        Angus: 4T0? #line:f3f64d
+        Angus: HET, MGL. TJ1 MHE HPABNQJCR. #line:b1c0e3
+        Mae: T0FDA U04EMY TJ1 TAK CTPAHH0 CE6R BEDEQJ? #line:81758d
+    ->DEVA% VN R BCE CTPAHHJ1M, FPEFF? #line:4ada38
+        Gregg: HET! #line:645512
+        Angus: ... #line:d740d4
+        Gregg: HY, BP0DE T0F0? #line:955d58
+Angus: GM. HY... #line:32d260
+<<lookAt Gregg Angus>>
+Gregg: AHFYC, R PA36EPYCJ. #line:cf5581
+Angus: CUACN60, MNVJ1L. #line:3777c8
+<<lookAt Gregg Mae>>
+Gregg: MGL, U0MHNQJ M0EF0 DRD%? #line:f32e8b
+Gregg: C 0BOEZEPMJ1 B PAL0HE 6PNDDVA? B03VE Q0CCE? #line:de187c
+Mae: DA. TNUA. :| #line:de91b6
+Gregg: K0FDA MHE 6J1V0 VET 8, R U0DHAD0EV P0DNTEVRM #line:64550a
+Gregg: N 0HN, VET0M, HA MECRO C0CVAVN MEHR TYDA. #line:22e827
+Gregg: N R BCE GT0 BPEMR TACKAVCR 3A DRDEL U0BC%DY. #line:86df1c
+    ->0BOJ1 KPYTJ1. #line:30df18
+        Mae: Y MEHR 6J1VA UV%QEBAR 0BOA F0PD0H. #line:d3d280
+    ->0BOJ1 MNVJ1E. #line:095ea5
+        Mae: MHE UPNX0DNV0CJ HRH4NTJ 0DHY KAK-T0 PA3. #line:91a0e9
+Gregg: U0 UPABDE, 0BOJ1 04EHJ TYUJ1E. #line:3e5cbd
+Gregg: 0DHASDJ1, UEPED YSNH0M, DRDR 0CTABNV MEHR 0DH0F0 Y 3AF0HA #line:3a7342
+Gregg: N R, 3A4EM-T0, 0TKPJ1V B0P0TA. #line:25c1f3
+    ->3A4EM? #line:f4b9e4
+        Gregg: 6E3 U0HRTNR. #line:cf2c71
+        Gregg: DETN, KAK 0BOJ1. #line:6b36dd
+        Gregg: MEFA-TYUJ1E. #line:fc0cd2
+        Mae: GT0 T04H0. #line:b39abc
+    ->4T0 0HN CDEVAVN? #line:09ab2c
+Gregg: B 06WEM, TAK U0VY4NV0CJ, 4T0 KY4KA 0BEO TYT SE C6ESAVA. #line:97e68d
+Gregg: A R 6ESAV CVED0M, B DYXE: #line:a344ad
+Gregg: TYUJ1E 0BOJ1, K0 MHE! #line:60cd21
+<<lookAt Gregg Angus>>
+Angus: TJ1 UJ1TAVCR, KV0UNK. #line:98689a
+<<lookAt Gregg Mae>>
+Gregg: 0HN UEPE6ESAVN 4EPE3 U0VE #line:10c9da
+Gregg: N Y6ESAVN B VEC, #line:a09cac
+Gregg: H0 6J1V EWE TAK0L KPYT0L X0VM, #line:24d650
+Gregg: K0T0PJ1L BJ1X0DNV UPRM0 K TPACCE. #line:809c2f
+Mae: 0L... 0L-0L-0L... #line:5b8fe4
+Mae: N 4T0 CVY4NV0CJ? #line:274a41
+Gregg: 4ETBEPJ1X PACKATAV0 B VEUEQKY ZYP0L, #line:538ac5
+Gregg: HECK0VJK0 Y6ESAVN 06PATH0 HA X0VM, #line:e5425b
+Gregg: H0 TP0E D06PAVNCJ D0 PA3DEVNTEVJH0L #line:7d9c2d
+Gregg: N UEPEQVN HA DPYFY% CT0P0HY D0P0FN. #line:dca0a1
+Gregg: N TAM 0HN... 3AMEPVN. #line:775958
+Gregg: A R CUYCTNVCR K U0DH0SN% X0VMA, K TPACCE, #line:87ba6d
+Gregg: 3ABAVEHH0L 0BE4JNMN BHYTPEHH0CTRMN N 0CTAHKAMN #line:423f9c
+Mae: *6YG* #line:35ae13
+Gregg: N MJ1 C 0BOAMN CT0RVN N CM0TPEVN DPYF HA DPYFA 4EPE3 Q0CCE #line:f3658f
+Gregg: R 3AMAXAV NM PYKAMN #line:b52234
+Gregg: N DBE PNHYVNCJ 06PATH0, U0UAB U0D *EWE 0DHY* ZYPY #line:602d89
+    ->60SE. #line:f7981f
+    ->FPY30BNKN 0CTAHABVNBAVNCJ? #line:e4df66
+        Gregg: B006WE HNKT0 HE 0CTAH0BNVCR! #line:78a30d
+        Mae: MHE KASETCR, GT0 HE3AK0HH0. #line:a905bd
+Gregg: H0 0DHA U0CVEDHRR 0BOA #line:dbd3df
+Gregg: U06ESAVA BHN3 U0 X0VMY HA T0L CT0P0HE #line:1066f5
+Gregg: N CKPJ1VACJ B VECY. #line:ce345a
+Gregg: 60VJQE HNKT0 EE HE BNDEV. #line:bd06fe
+Mae: 60SE, 4YBAK. #line:77ca61
+    ->GL, TB0E TATY! #line:9528a1
+        Gregg: AFA. #line:995085
+        Mae: XA-XA. D0 MEHR D0QEV CMJ1CV. #line:7f37a3
+    ->4T0 UP0N30QV0 U0CVE GT0F0? #line:6c09f6
+        Gregg: B NT0FE, R BEPHYVCR HA ZEPMY, PJ1DAR #line:376ef4
+        Gregg: N DRDR BCJ1UAV MHE V%VEL. #line:94331b
+        Mae: HET. #line:92616a
+        Gregg: AFA. #line:45afe1
+        Gregg: CVY4NVACJ %PNDN4ECKAR XPEHJ #line:cdc7dc
+        Gregg: N BCK0PE 0HN 6P0CNVN ZEPMY N YEXAVN. #line:c3b85e
+Mae: XEP0B0 6J1V0 TE6E. #line:fe11d7
+Mae: 6EDHJ1E 0BOJ1. #line:0642ec
+Gregg: H0, 6YDJ R HA NX MECTE, R 6J1 T0SE Y6ESAV. #line:d54f33
+Gregg: R 6J1 X0TEV 6J1TJ T0L, K0T0P0L GT0 YDAV0CJ. #line:e21464
+Gregg: N R X04Y, 4T06J1 AHFYC C6ESAV C0 MH0L. #line:8047ba
+Gregg: C TEMN 0BOAMN R HAU0PTA4NV. #line:ac5e8e
+Gregg: UP0CT0, 3HAEQJ... MJ1... 3DECJ T0SE BCE HAUEPEK0CRK. #line:c0c090
+Mae: GT0 HECK0VJK0... #line:5dd2a1
+Gregg: DA HNKT0 N HE 0TPNOAET. #line:ae689a
+Gregg: HNKT0 HE UJ1TAETCR 0TF0B0PNTJ TE6R 0T UEPEE3DA. #line:6cff77
+Gregg: N DA, 6J1TJ EDNHCTBEHHJ1MN F0VY6J1MN B F0P0DE - 0TCT0LH0. #line:c76b8f
+Mae: H0 R 3DECJ! #line:997e5d
+Gregg: TJ1 YSE YEXAVA 0DHASDJ1! #line:77d14e
+Mae: H0 R SE... #line:46ea9e
+Mae: BEPHYVACJ. #line:536d33
+Gregg: R HE M0FY 0CTATJCR. *MJ1* HE M0SEM. #line:a04e6d
+Mae: HABEPH0E. #line:be6547
+Gregg: N R V%6V% AHFYCA. #line:e82a13
+<<lookAt Gregg Angus>>
+Angus: R BAC 060NX V%6V%. #line:ef62dd
+Angus: U0-PA3H0MY, K0HE4H0. #line:34f5fb
+<<lookAt Gregg Mae>>
+Mae: CUACN60, 4T0 YT04HNV. #line:9035b6
+Gregg: Y HAC ECTJ UVAH, N MJ1 N3 K0SN B0H VE3EM, 4T06J1 EF0 0CYWECTBNTJ. #line:56a1f5
+<<lookAt Gregg Angus>>
+Angus: DBA UAPHR, U0VHAR 3AHRT0CTJ, MNHNMAVJHJ1L 0KVAD. #line:c39531
+Gregg: MHE HAD0 4YTKA U0B3P0CVETJ. #line:e3c583
+Gregg: R *YSE* 4YTKA U0B3P0CVEV. #line:92219f
+<<lookAt Gregg Mae>>
+<<wait 2>>
+Gregg: MGL. TJ1 D0VSHA UPNHRTJ UEPEMEHJ1 B0 MHE. #line:e780cf
+<<wait 4>>
+<<lookAt Gregg Angus>>
+Angus: UP0CTN, 4T0 HAFPY6NV. #line:4bf1d5
+<<lookAt Gregg Mae>>
+Mae: BCE 0KEL. #line:fe6489
+<<wait 3>>
+Mae: U0MHNQJ, KAK MJ1 4YTJ HE C0SFVN QK0VY? #line:a531ac
+Gregg: :) #line:e3263c
+Gregg: XA-XA. AFA. #line:f55902
+Mae: :) #line:fc8fba
+Mae: ZELEPBEPKAMN. U0CTEP CTYDC0BETA UP0CT0 *BSYX!* N 3AF0PEVCR #line:67e637
+Gregg: 6VNH. 0TVN4HAR H04J 6J1VA. #line:2fad30
+Gregg: UP0M0KVN U0D U0VNBAVKAMN, #line:b7105d
+Gregg: U0KA Y6EFAVN U0 UAPK0BKE, #line:59ea9d
+Gregg: DABRCJ 0T CMEXA. #line:2248ec
+Mae: XA-XA, 0 60SE M0L, DA. #line:02cb01
+Gregg: :| #line:f85b52
+<<wait 3>>
+Mae: :| #line:fca72f
+Mae: B03M0SH0, TA H04J 6J1VA VY4QAR B M0EL SN3HN. #line:1b134e
+Gregg: 0DH0 N3 VY4QNX UPNKV%4EHNL. #line:b29454
+Gregg: DETN D0 CNX U0P BCU0MNHA%T. #line:1fcbbf
+Gregg: T0 BPEMR HE 6YDET 3A6J1T0, 4YBNX #line:500787
+Mae: 4T0 S, #line:b05ed1
+Mae: MJ1 X0TR 6J1 0CTAHEMCR VEFEHDAMN #line:fbaa44
+Gregg: HABCEFDA. #line:f438a7
+<<wait 3>>
+Mae: :\ #line:5265e6
+Mae: HY, CEF0DHRQHNL BE4EP UP0BAVNVCR. #line:2bca70
+Angus: N3BNHN. #line:972087
+Mae: :) #line:d5cdd4
+Mae: XA-XA. UPEKPATN N3BNHRTJCR, AHFYC. #line:aa3756
+Gregg: N MEHR UP0CTN. #line:564d04
+Mae: 6J1V0 KPYT0. #line:98d1e0
+Mae: Y MEHR ECTJ NDER. #line:3382a7
+Gregg: 0Y, UPABDA? #line:a76fe1
+Mae: F0T0B K EWE 0DH0MY UPECTYUVEHN%? #line:42adbb
+<<lookAt Gregg Angus>>
+Mae: TJ1 T0SE M0SEQJ U0LTN, AHFYC. #line:f189b0
+Mae: U06YDEQJ UPECTYUHNK0M C HAMN. #line:4ff2c5
+Angus: R... #line:98c6eb
+<<wait 2>>
+Angus: X0P0Q0. #line:606cb8
+Gregg: 000, KGU-KPNMNHAV. #line:c25c06
+Mae: U0LDEM. #line:b8a0f4
+<<close>>
+<<irisOut 1 wait>>
+<<scene RoadsideClearing>>
+===
+title: InitLevel_A3D3
+tags: 
+colorID: 4
+position: -2466,4581
+---
+//Mae and Gregg and sitting basically where they were in the demo,
+//with Angus on the far side of Gregg//
+<<sit Gregg>>
+<<sit Angus>>
+<<hide GardenGnome>>
+===

@@ -1,0 +1,338 @@
+title: AllFinished
+tags: 
+colorID: 0
+position: 1806,562
+---
+Mae: we're like way out here, huh? #line:29b1c3
+Angus: in the park? yeah i guess. #line:62ce4c
+Mae: spooky. #line:8cb8df
+Angus: i dunno. it's pretty safe. #line:e3cf9a
+Angus: and the stars are pretty. #line:e60b3f
+Mae: So you don’t believe in ghosts at all? #line:86140d
+Angus: nah. Don’t believe in ghosts, or gods, #line:832333
+Angus: or psychic powers, or anything like that. #line:d19f72
+Mae: Not at all? #line:00ff21
+Angus: I mean there’s no evidence for them, #line:abfcaa
+Angus: and people have really tried. #line:66f361
+Mae: Did you ever? #line:a4bd7e
+Angus: Yeah, when I was a kid. #line:beb18b
+Mae: Tell me about it. #line:d64424
+<<close>>
+<<tell AngusConstellation:BirdPope MoveCamera>>
+<<wait 1.2>>
+AngusAsPope:{locator=popebubble}so... um... #line:5f9a21
+AngusAsPope:{locator=popebubble}i don't know how much i've ever told you #line:bb5a74
+AngusAsPope:{locator=popebubble}or how much gregg has told you #line:409e45
+AngusAsPope:{locator=popebubble}but i didn't have the best childhood. #line:107c6f
+<<close>>
+<<tell AngusConstellation:Bell MoveCamera>>
+<<wait 1.2>>
+MaeAsBell: yeah i think i heard that. #line:3bedef
+MaeAsBell: why was it bad? #line:442fe3
+<<close>>
+<<tell AngusConstellation:Whale MoveCamera>>
+<<wait 1.2>>
+AngusAsWhale: um... my dad didn't like me. #line:be3c59
+AngusAsWhale: and my mom didn't either. #line:39e85f
+AngusAsWhale: and like #line:bfd8ef
+AngusAsWhale: um #line:111800
+<<close>>
+<<tell AngusConstellation:Cat MoveCamera>>
+<<wait 1.2>>
+MaeAsCat: You don't have to talk about it if you don't want to. #line:37a3f3
+<<close>>
+<<tell AngusConstellation:Whale MoveCamera>>
+<<wait 1.2>>
+AngusAsWhale: no it's fine. #line:ac90e5
+AngusAsWhale: um my dad #line:e74835
+AngusAsWhale: used to hit me a lot #line:d21611
+AngusAsWhale: and my mom was probably worse #line:e25987
+AngusAsWhale: she like wouldn't feed me #line:f9a734
+AngusAsWhale: which is why i really like cooking now ha ha #line:d01818
+<<close>>
+<<tell AngusConstellation:BirdPope MoveCamera>>
+<<wait 1.2>>
+AngusAsPope:{locator=popebubble}she'd like shove me into the pantry #line:38f2bf
+AngusAsPope:{locator=popebubble}and slam the door really hard #line:c97eac
+AngusAsPope:{locator=popebubble}and all the stuff would fall off the shelves on top of me. #line:908f94
+<<close>>
+<<tell AngusConstellation:Bell MoveCamera>>
+<<wait 1.2>>
+MaeAsBell: oh my god, angus #line:c25b1f
+MaeAsBell: i didn't know at all. #line:a6ebd1
+MaeAsBell: That's awful. #line:61e8a4
+<<close>>
+<<tell AngusConstellation:BirdPope MoveCamera>>
+<<wait 1.2>>
+AngusAsPope:{locator=popebubble}she'd lock me in there for like a day at a time sometimes #line:325edb
+AngusAsPope:{locator=popebubble}or overnight. #line:46dd04
+AngusAsPope:{locator=popebubble}so I'd like try to develop psychic powers #line:47a496
+AngusAsPope:{locator=popebubble}so i could like signal the neighbors #line:3a1161
+AngusAsPope:{locator=popebubble}or unlatch the door. #line:1ae128
+AngusAsPope:{locator=popebubble}didn't work, as you might guess. #line:ad7790
+<<close>>
+<<tell AngusConstellation:Cat MoveCamera>>
+<<wait 1.2>>
+MaeAsCat: did you ever tell anybody? #line:bc4dd8
+<<close>>
+<<tell AngusConstellation:Whale MoveCamera>>
+<<wait 1.2>>
+AngusAsWhale: i never did. #line:155a23
+AngusAsWhale: i don't know why. #line:929514
+AngusAsWhale: after a while I like... #line:44eeb8
+AngusAsWhale: started feeling guilty too for some reason. #line:e957f8
+AngusAsWhale: like this was something bad i was doing? #line:a5ebe1
+<<close>>
+<<tell AngusConstellation:Cat MoveCamera>>
+<<wait 1.2>>
+MaeAsCat: like... being abused? #line:2604f2
+MaeAsCat: Angus that's not your fault at all. #line:2f13c6
+MaeAsCat: you were a kid!!! #line:001702
+<<close>>
+<<tell AngusConstellation:BirdPope MoveCamera>>
+<<wait 1.2>>
+AngusAsPope:{locator=popebubble}oh don't worry, i know that now. #line:3faad7
+AngusAsPope:{locator=popebubble}boy do i ever. #line:d8b59e
+<<close>>
+<<tell AngusConstellation:Bell MoveCamera>>
+<<wait 1.2>>
+MaeAsBell: question: can i go kick all of their asses? #line:505112
+MaeAsBell: like i've got experience. i can eff some shit up. #line:efc963
+<<close>>
+<<tell AngusConstellation:BirdPope MoveCamera>>
+<<wait 1.2>>
+AngusAsPope:{locator=popebubble}well, my mom is kinda old now. #line:a2f55d
+AngusAsPope:{locator=popebubble}i... ugh... still have to visit her sometimes. #line:7ba0de
+AngusAsPope:{locator=popebubble}i have a brother, he's overseas in the army. #line:ac2ba7
+AngusAsPope:{locator=popebubble}and my dad left like 10 years ago. #line:397a5a
+AngusAsPope:{locator=popebubble}so who knows where he is or if he's even alive. #line:9ecbd7
+AngusAsPope:{locator=popebubble}if he is alive i don't want to know about it. #line:b10d21
+<<close>>
+<<tell AngusConstellation:Bell MoveCamera>>
+<<wait 1.2>>
+MaeAsBell: Angus I just want to give you a hug forever. #line:ef45eb
+<<close>>
+<<tell AngusConstellation:Whale MoveCamera>>
+<<wait 1.2>>
+AngusAsWhale: ha ha well #line:0757ec
+AngusAsWhale: i was luckier than a lot of kids #line:dbe491
+AngusAsWhale: i'm just glad i didn't like... yeah. #line:2e00a1
+AngusAsWhale: anyway, to your original question- #line:db3ed1
+<<close>>
+<<tell AngusConstellation:BirdPope MoveCamera>>
+<<wait 1.2>>
+AngusAsPope:{locator=popebubble}testing out my psychic abilities in the pantry #line:2e21f6
+AngusAsPope:{locator=popebubble}made me really interested in both paranormal stuff and science. #line:13e904
+AngusAsPope:{locator=popebubble}and i joined a skeptic society on the internet #line:b8ae4f
+AngusAsPope:{locator=popebubble}and that kinda ruined me on a lot of other supernatural bullshit. #line:5971d0
+AngusAsPope:{locator=popebubble}and it gave me something to solve #line:0e3f6a
+AngusAsPope:{locator=popebubble}something you could debunk or know... #line:c99f6a
+AngusAsPope:{locator=popebubble}i dunno. it saved me a little bit i guess. #line:f44959
+<<close>>
+<<tell AngusConstellation:Whale MoveCamera>>
+<<wait 1.2>>
+AngusAsWhale: cuz when someone does all that stuff to you #line:0a1e82
+AngusAsWhale: it can like make you do some bad things to yourself #line:a35b31
+AngusAsWhale: but anyway yeah. no ghosts or god. #line:8c70cf
+<<close>>
+<<tell AngusConstellation:Bell MoveCamera>>
+<<wait 1.2>>
+MaeAsBell: So like... #line:038b16
+MaeAsBell: I feel like if i'd been through that #line:fbbddc
+MaeAsBell: I'd be *more* likely to want to believe in god or... something #line:a50ede
+MaeAsBell: do you believe in anything at all? #line:67a22c
+<<close>>
+<<tell AngusConstellation:Whale MoveCamera>>
+<<wait 1.2>>
+AngusAsWhale: um well so like the constellations #line:fdf03d
+AngusAsWhale: i don't believe there's a whale out there #line:2c2a30
+AngusAsWhale: but i uh believe that the stars exist #line:bc5495
+AngusAsWhale: and that people put the whale there #line:ca936e
+<<close>>
+<<tell AngusConstellation:BirdPope MoveCamera>>
+<<wait 1.2>>
+AngusAsPope:{locator=popebubble}like i dunno #line:d00115
+AngusAsPope:{locator=popebubble}we're good at drawing lines through the spaces between stars #line:f947e8
+AngusAsPope:{locator=popebubble}like we're pattern-finders, and we'll find patterns #line:f0c90d
+AngusAsPope:{locator=popebubble}and we like really put our hearts and minds into it #line:403e81
+AngusAsPope:{locator=popebubble}and even if we don't mean to. #line:d291bc
+AngusAsPope:{locator=popebubble}so i believe in a universe that doesn't care #line:03f673
+AngusAsPope:{locator=popebubble}and people who do. #line:e647c6
+<<close>>
+<<tell AngusConstellation:Cat MoveCamera>>
+<<wait 1.2>>
+MaeAsCat: pattern-finders. #line:863334
+MaeAsCat: i feel like a lot of people don't think they found god #line:0d62aa
+MaeAsCat: but like god found them #line:a8d8be
+MaeAsCat: like, when they were having bad times like you did #line:89043f
+<<close>>
+<<tell AngusConstellation:Whale MoveCamera>>
+<<wait 1.2>>
+AngusAsWhale: god never did #line:2b9b3d
+AngusAsWhale: i was completely alone in the pantry #line:a61fa4
+AngusAsWhale: but a few years later #line:e06946
+AngusAsWhale: Gregg did. #line:e75982
+AngusAsWhale: so like #line:b75643
+AngusAsWhale: the stars can stay up there and not give a shit about us #line:16ccc1
+AngusAsWhale: but this whale is pretty cool. #line:d56ef3
+<<close>>
+<<tell AngusConstellation:Bell MoveCamera>>
+<<wait 1.2>>
+MaeAsBell: you're an extremely good and smart person, Angus. #line:ed3d91
+<<close>>
+<<tell AngusConstellation:BirdPope MoveCamera>>
+<<wait 1.2>>
+AngusAsPope:{locator=popebubble}i try. #line:cc9321
+AngusAsPope:{locator=popebubble}but i'm no more than anyone else. #line:20d45c
+<<close>>
+<<set $did_angus_constellations to 1>>
+<<irisOut 1 wait>>
+<<scene PossumJump>>
+===
+title: BirdPope
+tags: 
+colorID: 0
+position: 757,198
+---
+<<tell LongPaw Hide>>
+Mae: It’s a pope #line:367798
+Mae: he breathes fire #line:4b617e
+Angus: oh this one is real #line:ce971c
+Angus: or at least the dude is #line:acf5e1
+Mae: Rubello #line:635893
+Mae: there's a statue of him outside church #line:9f6a47
+Angus: Oh, we never went there. #line:7fe301
+    ->did your family go to church? #line:071cc8
+        Angus: weddings and funerals and longest night, basically #line:a0db99
+        Mae: i don't think those first two count. #line:84e2f0
+        Mae: those are like *events* #line:32f156
+    ->do you not know your saints at all? #line:d1d82d
+        Angus: nah. none of my family were into it. #line:3cc47e
+        Angus: my saints were all like... uh... astronauts and authors. #line:0be37c
+        Mae: That sounds really funny. #line:34b8b9
+        Angus: eh. #line:ea75c3
+Mae: my mom works up at the church now. #line:ede375
+Mae: I haven't gone really since I was like 14 or 15. #line:415748
+Angus: does she mind? #line:b4b7db
+Mae: she pretends not to. #line:732a09
+[[Check]]
+===
+title: Bell
+tags: 
+colorID: 0
+position: 1006,183
+---
+<<tell LongPaw Hide>>
+Mae: ok that’s a bell. #line:880c35
+Mae: and in the middle is this eye #line:bc3cbf
+Mae: lookin’ at you. #line:4b709a
+Angus: ok that’s uh...  #line:811a42
+Angus: I know this one a little from like prog rock album covers #line:77bff3
+    ->i think the world ends when it rings #line:e6512b
+        Mae: that makes sense. it's gonna be really loud. #line:14645a
+        Angus: there's no sound in space #line:edb89b
+        Angus: i mean like basically no sound. usually. #line:50d56b
+        Mae: that sounds really scary for some reason. #line:288149
+        Angus: well at least it means #line:3eec9f
+        Angus: we're not gonna get rung to death by a bell. #line:efc173
+    ->i think you die when it rings when it's looking at you #line:2321d0
+        Angus: well, crap #line:a9bf11
+        Angus: it's high up enough it's kinda always looking at all of us, right? #line:99897c
+        Mae: goddamn. #line:ade669
+[[Check]]
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 414,-55
+---
+<<tell LongPaw Hide>>
+Angus: Alright. Find me some constellations. #line:2231f1
+Angus: Wait, are these gonna be real ones or fake ones? #line:93489f
+Mae: Just ones I remember #line:6f3928
+Mae: or dreamed that one time #line:648c2c
+Mae: ugh #line:6664c4
+Angus: Whichever. #line:7f166b
+<<if $did_chazokov_star_visits > 0>>
+	Mae: Remember Mr. Chazokov? #line:3b8a7d
+	Angus: Yeah! Science teacher. #line:07fd25
+	Mae: He lives in Underhill and has a telescope on his roof #line:04214f
+	Mae: and I totally saw some stars through it. #line:f8a9e7
+	Angus: That’s cool. Telescopes are cool. #line:695b26
+	Angus: Wish I had a telescope. #line:d485ca
+<<endif>>
+Mae: ok let’s see... #line:b2a0c8
+<<tell LongPaw Show>>
+===
+title: Cat
+tags: 
+colorID: 0
+position: 1275,196
+---
+<<tell LongPaw Hide>>
+Mae: It’s a cat #line:cce07f
+Mae: he’s got arrows sticking out of him #line:28e94b
+Mae: and he’s chasing a diamond. #line:9417ab
+Angus: oh I know this one. don't remember his name. #line:3885b5
+Angus: he lived uh... you remember the stories about the forest god? #line:596918
+    ->yeah! #line:98c827
+        Mae: my granddad used to tell me adina stories #line:fff0e3
+        Angus: oh ok yeah #line:4d7cd9
+    ->no?  #line:7a3ad8
+        Angus: uh it was like a whole bunch of stories #line:3535ee
+        Angus: there was this person Adina, and- #line:7d0768
+        Mae: oh yeah! Adina and the Frozen Lake! #line:7c4876
+        Angus: yeah that's one of them. #line:6b7ea6
+Angus: anyway this cat was in there #line:19642d
+Angus: liked shiny things, was good at getting through the forest #line:8102c1
+Angus: was really good at stealing #line:785a4f
+Mae: oh wow yeah I used to call him Asscat when i was little #line:45f651
+Angus: well then he stole a diamond from a king and got arrowed to death #line:432fe2
+Angus: but he was slick enough that he jumped out of his body #line:93056c
+Angus: and became immortal or something #line:7259ff
+Mae: huh. decent. #line:86d250
+Angus: extremely decent. #line:c843d2
+[[Check]]
+===
+title: Whale
+tags: 
+colorID: 0
+position: 1550,200
+---
+<<tell LongPaw Hide>>
+Mae: it’s a whale #line:5a9ad5
+Mae: and it’s got like the world on its back #line:d21e1f
+Angus: oh wow that's sad #line:502bae
+    ->yeah #line:0cc545
+        Mae: kind of a lot of responsibility. #line:80b242
+        Angus: did the whale consent to this??? #line:437375
+        Mae: i think it just always was that way. #line:7cf8f3
+        Angus: ooooof. #line:7f160b
+    ->why? #line:08f5ca
+        Angus: why does it have to carry the whole world? #line:7cf605
+        Angus: like, that's really unfair! #line:4e9c06
+        Mae: ha ha yeah. #line:61c392
+        Angus: that is legitimately upsetting. #line:20d81c
+Angus: you gotta wonder why people made these up. #line:27ec1f
+Angus: i mean, like, these specifically. #line:94699e
+Angus: who saw a whale and was like "needs to be carrying something" #line:0666e9
+    ->i mean whales are pretty big. #line:96585a
+        Angus: but what's the whale swimming in? #line:1f4ea4
+        Mae: Space! #line:adf585
+        Angus: I guess it's dumb to get mad at ancient people. #line:d4b517
+    ->they didn't know what the earth was. #line:10f6ea
+        Angus: yeah but like #line:5e12b1
+        Angus: i don't assume everything i don't understand is a whale. #line:f231bf
+        Mae: you could start! #line:e843b5
+[[Check]]
+===
+title: Check
+tags: 
+colorID: 0
+position: 1070,539
+---
+<<set $angus_constellations += 1>>
+<<if $angus_constellations < 4>>
+    <<tell LongPaw Show>>
+<<endif>>
+===

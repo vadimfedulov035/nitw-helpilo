@@ -1,0 +1,198 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 79,276
+---
+<<setCanInteract Mom 0>>
+<<flip Mom -1>>
+<<flip Mae -1>>
+Mae: I don't think I've ever been up here. #line:a4b1d9
+Mom: We used to come here all the time. #line:a23177
+Mae: Did we? #line:fda458
+Mom: No, we as in "my friends and I when we were your age." #line:01a5c7
+Mae: Oh ok. I'm not used to you using any other we's. #line:2c6347
+Mom: Believe it or not I've had several we's. #line:705319
+Mae: Huh. #line:7ed2dd
+<<close>>
+<<walk Mom HillPoint_1>>
+===
+title: Jenny
+tags: 
+colorID: 0
+position: 636,399
+---
+Mae: So what is this place? #line:f25efd
+Mom: Jenny's Field. Ever heard of it? #line:9bf76c
+Mae: No? I don't think? #line:b45c06
+Mom: Back in the 30s #line:fe36f4
+Mom: there was this woman and her daughter #line:568b0c
+Mom: walking here... #line:9b988a
+Mom: and the woman's daughter is in front of her #line:83509f
+Mom: and then she's just gone. Like disappeared. #line:cab3d5
+Mae: What happened? #line:361eee
+Mom: Turns out there was a sinkhole that opened up #line:bfb545
+Mom: when a pillar collapsed in the mines in the hill. #line:c11221
+Mae: Geez. #line:3954a7
+Mom: Yep. No one could see it because of the grass. #line:6952c2
+Mom: Her name was Jenny. This is Jenny's Field. #line:8d4371
+Mom: They never found her. #line:8488a8
+Mom: Just. #line:7b0094
+Mom: *wwssssp!* #line:afef02
+Mom: Gone. #line:bb80d7
+Mae: So... wait, why are we here? #line:1cf04a
+Mom: What, you not up for a little risk taking? #line:9448d7
+Mae: ... #line:b85bba
+<<close>>
+<<walk Mom Furnace_Mom1>>
+===
+title: Hillstop
+tags: 
+colorID: 0
+position: 357,273
+---
+Mae: This is nice. #line:01382d
+Mom: Used to be a lot more trees around up here. #line:3b0120
+Mom: They got cut down when they put in the towers. #line:956911
+Mae: I don't remember that. #line:0cd04a
+Mom: You know, all kinds of things happened before you were born. #line:9261e7
+Mae: WHAT?!?! #line:c2e21e
+Mom: Some minor parts of history took place, yes. #line:50bd38
+<<close>>
+<<walk Mom JennyPoint_1>>
+===
+title: Hole
+tags: 
+colorID: 0
+position: 641,147
+---
+<<playOneShot event:/mom_quest/mae_fall_meadow Mae>>
+Mae: AAAAGH!! #line:0a9a9f
+Mom: What's wrong? #line:45e907
+Mae: I thought it was a... sinkhole thing... #line:6cf80a
+Mom: Hm. How about that. #line:7a513e
+Mae: ... #line:ebb39e
+===
+title: Furnace1
+tags: 
+colorID: 0
+position: 880,254
+---
+Mae: Ok... what is that? #line:2cf8dd
+Mom: For some reason before Unified pulled out #line:4d3261
+Mom: they brought this old lime furnace up on the mountain. #line:6db21b
+Mae: Why? #line:3420f2
+Mom: Who knows. Unified did a lot of things. #line:10093a
+Mae: Looks like it's been here forever. #line:41d042
+Mom: It's just sunk into the ground a lot. #line:2e3fb5
+Mae: Like Jenny! #line:353afe
+Mom: But slower. #line:6ec2ee
+Mom: We used to climb up there. #line:47ed50
+Mae: Wanna try? #line:c7e4eb
+Mom: Ha ha ha. Oh sweetie. #line:3de8bf
+Mom: I had you and also a lot of birthdays and donuts since then. #line:a7098a
+Mom: And not much climbing. #line:be515a
+===
+title: FurnaceTop
+tags: 
+colorID: 0
+position: 874,471
+---
+Mae: So... uh... #line:f0ccad
+<<lookAt Mom Mae>>
+Mae: Good thing this chimney is sealed up here! #line:202930
+Mom: Ha ha ha. Yes, good thing. #line:2730e2
+Mom: What can you see up there? #line:4db556
+Mom: It's been a while. #line:4624ef
+Mae: Uh... #line:0f72fd
+    -> Possum Springs and most of the valley! #line:dc0a41
+        Mom: What does it look like? #line:f126cf
+            -> A quilt? #line:60f64b
+                Mom: Well, it's a cozy valley. #line:f166aa
+            -> Like someone dumped out some blocks? #line:1ef2f5
+                Mom: Ha ha. Sounds about right. #line:c42924
+    -> The highway! #line:c67722
+        Mom: What does it look like? #line:d8b66c
+            -> A river? But like made of concrete? With cars? #line:329366
+                Mom: [wave]Always rolling by, the river.[/wave] #line:f035e6
+                Mom: [wave]Oh, that river. It's big.[/wave] #line:52bd3a
+                Mae: Are you... singing? #line:46c0e3
+                Mom: Yeah, it's from a musical? #line:4da109
+                Mom: Maybe? #line:3c59e4
+                Mae: :) \o/ #line:401110
+                Mae: [wave]IT IS NOOOOOOOOW!!!![/wave] #line:16d68d
+                Mom: Very nice. #line:46dfa1
+            -> A snake? But like made of concrete? With cars? #line:c01936
+                <<if $eels is 1>>
+                    Mom: Heh heh. An eel maybe? #line:9fe5c8
+                    Mae: Oh my god yes. A massive eel. #line:79b094
+                    Mom: Eels, honey. #line:eeb095
+                    Mae: Eels, mom. #line:5f0dd9
+                    Mae: What happened to the eel kid, by the way? #line:4998cc
+                    Mom: Someone finally noticed him down there #line:b94add
+                    Mom: and emergency rescue pulled him out of the well. #line:731c34
+                    Mom: And years later he wrote a book about it #line:578051
+                    Mom: and got rich! #line:65c6bf
+                    Mae: Did the eels get a cut of it? #line:d4108d
+                    Mom: I don't think so. #line:d21571
+                    Mae: That's a crime. #line:309408
+                    Mom: Won't anyone think of the poor eels? #line:e369bc
+                <<else>>
+                    Mom: Big snake. #line:f833b1
+                    Mae: Big snake. #line:26d31b
+                    Mom: I got bit by a snake once up here, actually! #line:6ade41
+                    Mae: I haven't heard this story. #line:0fa95d
+                    Mom: Yeah it was a copperhead. Jumped out from under a log. #line:6681bb
+                    Mom: My boyfriend at the time, Charlie, he was such a sweetie #line:5c0b91
+                    Mom: tried to suck the snake poison from the bite on my leg. #line:0cbbcf
+                    Mae: Wow. That's a good boyfriend. #line:152dfd
+                    Mom: His mouth went numb and he suffered some tissue damage. #line:1ea290
+                    Mom: And I still had to go to the hospital. #line:7da71e
+                    Mae: Oh wow. #line:558949
+                    Mom: Don't suck poison from snakebites, sweetie. #line:02a798
+                    Mae: Right. #line:aea9b7
+                    Mom: It doesn't work. #line:7527b1
+                    Mae: Noted. #line:f727dc
+                <<endif>>
+Mae: _o_ :| #line:596881
+Mom: I remember I couldn't tell if being up there #line:81f776
+Mom: made everything feel bigger or smaller. #line:b0bb9d
+Mom: It's a weird feeling. #line:0952a2
+Mae: Yeah. I know that one. #line:e05140
+Mom: I used to have a dream when I was your age. #line:adcf8d
+Mom: Where I was in the big parking lot out by the tracks #line:cc745a
+Mom: and I'd start running, but there was always more parking lot. #line:20c267
+Mae: Hm. #line:7cfc68
+Mom: What do you think it meant? #line:7cde56
+Mae: I don't know. Feels weird to tell you what your dreams mean. #line:37dbf2
+Mom: Why? #line:edda17
+Mae: You're my mom. #line:c772a3
+Mom: ... #line:8b9fea
+Mom: Fair. #line:f01897
+Mae: Why did we come up here today? #line:06a0fa
+Mom: Well I was hoping you'd fall into a sinkhole, obviously. #line:01ff5e
+Mae: That didn't work out. #line:dcaf79
+Mom: Drat. #line:f80234
+Mom: Guess I'll just have to keep you. #line:2bea1e
+<<close>>
+<<wait 1>>
+Mae: I couldn't see what your expression was when you said that. #line:dbe2a2
+Mom: Do you need to? #line:3df7ab
+<<close>>
+<<wait 1>>
+Mae: :) #line:d5d829
+Mae: No. #line:e4057e
+<<close>>
+<<wait 2>>
+<<walk Mom MomWalkOff>>
+Mom: Well, see you at home! #line:0a1abe
+Mae: :( #line:31b1a4
+Mae: HEY! #line:814338
+<<unlockAchievement Jenny's_Field>>
+<<wait 1>>
+<<unlockDoodle JennysField>>
+<<wait 1>>
+<<close>>
+<<set $did_mom_friendship_quest to 1>>
+<<fadeOut 1 wait>>
+<<scene ChurchHill>>
+===

@@ -1,0 +1,523 @@
+title: Scriggins_A3D1_old
+tags: 
+colorID: 0
+position: -31,702
+---
+Mae: F0CU0DN, 4T0 TJ1 TYT DEVAEQJ? #line:f8d187
+SteveScriggins: B GTNX CTEHAM KY4A MEDN. #line:623796
+Mae: 4T0 GT0 3A MECT0? #line:7143a7
+SteveScriggins: B0 BPEMEHA, K0FDA B U0CCYM CUPNHFC T0VJK0 UP0BEVN NHTEPHET, #line:e01985
+SteveScriggins: 0H NCX0DNV 0TC%DA. #line:2ce4c0
+Mae: 0F0. #line:5969ad
+SteveScriggins: TEUEPJ T0VJK0 XVAM. #line:f5ad41
+===
+title: Scriggins_A3D2_old
+tags: 
+colorID: 0
+position: 196,758
+---
+Mae: TAK 4T0 TJ1 3A GT0 U0VY4AEQJ? #line:ae01ba
+SteveScriggins: UVATRT 3A BEC. #line:c5f2a6
+SteveScriggins: Y MEHR ECTJ 3HAK0MJ1L, K0T0PJ1L GT0 CKYUAET. #line:ff2747
+Mae: "Y TE6R ECTJ 3HAK0MJ1L?" #line:9f4d0a
+===
+title: Scriggins_A3D4_old
+tags: 
+colorID: 0
+position: 649,1066
+---
+Mae: GL, MYDAK. #line:18472f
+SteveScriggins: R KPALHE 3V0L CEF0DHR. #line:31166f
+Mae: VADH0, R YSE YX0SY. #line:4ed0a2
+===
+title: Scriggins_A3D3_old
+tags: 
+colorID: 0
+position: 394,909
+---
+Mae: R DYMAVA, TB0L 6PAT 3AHNMAVCR DEM0HTNP0BK0L? #line:80bc95
+SteveScriggins: AFA, Y HEF0 6J1VA C06CTBEHHAR K0MAHDA. #line:9206f7
+Mae: T0FDA U04EMY TJ1 3AHNMAEQJCR GTNM? #line:55d727
+SteveScriggins: Y HEF0 CB0R PA60TA, Y MEHR CB0R. #line:2f8668
+Mae: GT0 TB0R PA60TA? #line:5a4891
+SteveScriggins: F0CU0DN. 3ATKHNCJ. #line:500acf
+===
+title: Sadie_A3D3_old
+tags: 
+colorID: 0
+position: 844,689
+---
+Mae: K0FDA-T0 GT0 MECT0 6J1V0 KPYTJ1M, XAX? #line:cc54db
+Sadie: AFA, T04H0. DNK0 KPYTJ1M. #line:a18520
+Mae: 0F0. #line:68cbe9
+Sadie: GT0 FPYUUA N3 ACTPAVA, 0HN 6J1VN D0MAQHEL FPYUU0L #line:aae5cc
+Sadie: MH0F0 VET HA3AD. #line:c14f07
+Mae: XAX. #line:7cf63a
+Sadie: B K0HOE K0HO0B, 0HN BCE 4YTKA CURTNVN. #line:4436d6
+Sadie: MECT0 3AKPJ1V0CJ B 80E. #line:ac4127
+Sadie: 0HN D0VF0 F0B0PNVN 0 EF0 UEPE3AUYCKE, #line:5139f0
+Sadie: H0 TEUEPJ BVADEVEO, FDE 6J1 0H HN 6J1V, NC4E3 #line:c79b14
+Sadie: FP0MADH0E MECT0 UP0CT0 CT0NT 3DECJ #line:284a1b
+Sadie: 6YDY4N 0FP0MHELQNM FHE3D0M U0CCYM CUPNHFC. #line:575e89
+===
+title: Sadie_A3D2_old
+tags: 
+colorID: 0
+position: 1075,628
+---
+Mae: TAK TJ1 NFPAEQJ HA CAKC0Z0HE? #line:8dfd0a
+Sadie: NMEHH0. #line:23315a
+Mae: U04EMY 3DECJ? #line:0affb6
+Sadie: UPNX0DNVA C%DA VET C 14, K0FDA 6J1VA UPNMEPH0 TB0EF0 B03PACTA. #line:a41ab5
+Mae: MHE 20!!!! #line:1e53bc
+Sadie: 0Y. VADH0. #line:a168b5
+Sadie: T0FDA (SN3HEHHJ1L 0UJ1T KA3AVCR K0HO0M BCEF0) #line:2e2a91
+Sadie: N R HA4AVA UPNX0DNTJ U0CVE PA60TJ1. #line:2e7bce
+Mae: GT0 YDPY4AET. #line:a7cd69
+Sadie: HET, B0BCE HET. #line:068bb9
+===
+title: SteveScriggins
+tags: 
+colorID: 4
+position: -294,671
+---
+<<if $steve_scriggins_birdland_sequence is 0>>
+    <<if $did_gregg_friendship_quest_1>>
+    	Mae: 0. GT0 CTNB. #line:3bd972
+    	SteveScriggins: 4T0 TE6E HAD0? #line:09d567
+    <<else>>
+    	SteveScriggins: 4T0 TE6E HAD0? #line:518685
+    	Mae: 06AVDETJ. #line:3414e7
+    	Mae: CTNB? CTNB CKPNFFNHC? #line:d02a86
+    	SteveScriggins: GL, R U0MH% TE6R. #line:4678df
+    	Mae: DA... GM... R TE6R T0SE. #line:0ed40b
+    <<endif>>
+    Mae: 4EM TJ1 3AHNMAEQJCR? #line:1c3e52
+    SteveScriggins: U0DPA6ATJ1BA%. #line:741b46
+    Mae: A KAKAR Y TE6R U0CT0RHKA? #line:d3f2e2
+    SteveScriggins: R PA60TA% B CTP0NTEVJH0L 6PNFADE 6PATA #line:a2ed6e
+    Mae: TAK 4T0 Y TE6R 3A U0DPA60TKA? #line:3e88ae
+    SteveScriggins: QTYKN, K0T0PJ1E BAVR%TCR 3DECJ #line:20bbe5
+    SteveScriggins: GT0 MEDJ. #line:574c67
+    SteveScriggins: B 3DAHNN EE U0VH0 #line:f96bac
+    SteveScriggins: N HNK0MY 0HA HE HYSHA #line:c65dda
+    Mae: TAK TJ1, TNUA, #line:1eca7e
+    Mae: BJ1PJ1BAEQJ TPY6J1 N3 CTEH? #line:afee86
+    SteveScriggins: UP0B0DA T0SE. HEK0T0PJ1E UP0B0DA. #line:1532d7
+    Mae: N?.. #line:496c1a
+    SteveScriggins: 6VNH, TJ1 6J1CTP0 Y4NQJCR. #line:5cc7c9
+    SteveScriggins: NX M0SH0 UP0DATJ. #line:fe5791
+    Mae: GT0 HE U0X0SE HA HACT0RWY% PA60TY. #line:d6dd2c
+    SteveScriggins: 4EPT, DA #line:47ee80
+    SteveScriggins: HYSH0 UP0CT0 BJ1TACKNBATJ NX N3 CTEH #line:8a4a24
+    SteveScriggins: N NH0FDA UPNCMATPNBATJ 3A HNMN #line:0de515
+    Mae: VADH0. 4T0 S #line:43d0ec
+    SteveScriggins: HYSH0 BJ1HYTJ UVACTNK N3 UP0B0D0B #line:dca1e0
+    SteveScriggins: N 0TC0PTNP0BATJ B KY4N U0 KA4ECTBY #line:73b33a
+    SteveScriggins: U0T0MY 4T0 HE KASDJ1L B03JMET BEWN HE UEPB0F0 KVACCA #line:b46e72
+    Mae: HY, BCE GT0 UPABDA YBVEKATEVJH0 #line:015bd6
+    SteveScriggins: ECTJ EWE BEWN, K0T0PJ1E TJ1 M0SEQJ 6PATJ B MECTAX BP0DE GT0F0 #line:2bccc2
+    SteveScriggins: DBEPHJ1E PY4KN N UP04EE #line:a83d65
+    Mae: MHE HYSH0 NDTN, H0 UP0D0VSAL 60VTATJ #line:c5c922
+    SteveScriggins: ... #line:65abad
+    <<set $steve_scriggins_birdland_sequence += 1>>
+<<elseif $steve_scriggins_birdland_sequence is 1>>
+    Mae: KAK TB0R HE-PA60TA? #line:5ef681
+    SteveScriggins: Y TE6R B006WE ECTJ PA60TA? #line:595f47
+    SteveScriggins: TNUA, V%6AR? #line:8d3a1f
+    Mae: CVYQAL, R T0VJK0 BEPHYVACJ, TAK 4T0 #line:accbb3
+    SteveScriggins: Y TE6R *K0FDA-VN60* 6J1VA PA60TA? #line:fdbdf6
+        -> R HEK0T0P0E BPEMR YUAK0BJ1BAVA UP0DYKTJ1, K0FDA 6J1VA B K0VVEDSE. #line:9d6d1c
+            SteveScriggins: CK0VJK0 DVNV0CJ TB0E "K0FDA"? #line:537fce
+            Mae: ... #line:545738
+            Mae: 2 MECROA? #line:b4711a
+            SteveScriggins: *ZJ1PKAET* #line:4f745c
+            Mae: 4T0? #line:027574
+            SteveScriggins: 4T0, GT0 6J1V0 CVNQK0M CV0SH0 DVR TE6R? #line:b3b34e
+            Mae: YX! U0KA, CTNB. #line:aaaf08
+        -> B006WE-T0, Y MEHR CEL4AC ECTJ PA60TA. R - MEHEDSEP. #line:34fb9d
+            SteveScriggins: K 4EMY TJ1 CTPEMNQJCR? #line:57f5e1
+            Mae: R CTPEMV%CJ HE 6VEBAHYTJ, K0FDA BNSY TB0E VNO0! #line:829e36
+            Mae: XE-XE-XE! #line:7e3c0b
+            SteveScriggins: CMEQH0. #line:1948f7
+            Mae: TJ1 B0QEV B0 BKYC #line:5e614f
+            SteveScriggins: NMEHH0. #line:a9c3f0
+    <<set $steve_scriggins_birdland_sequence += 1>>
+<<elseif $steve_scriggins_birdland_sequence is 2>>
+    Mae: GL, CTEB. CTEB CKEPPFHC. #line:3d81e1
+    SteveScriggins: YFYMC. #line:32f83b
+    Mae: BCE EWE BJ1K0VYUJ1BAEQJ DEPJM0 N3 CTEH? #line:099804
+    SteveScriggins: AFA #line:a9cac3
+    Mae: 0-0-0-4EHJ TYU0 #line:c24571
+    SteveScriggins: 60SE, 4YBAK, 3ATKHNCJ #line:02a7f2
+    SteveScriggins: TJ1 *HNK0FDA* HE 3ATJ1KAEQJCR #line:32322b
+    SteveScriggins: U04EMY TJ1 B006WE 3DECJ? #line:a88b18
+    SteveScriggins: MJ1 HE DPY3JR #line:bfacd4
+    SteveScriggins: N U04EMY TJ1 U0CT0RHH0 60VTAEQJ C0 MH0L #line:d2970c
+    SteveScriggins: 6YDT0 R KAK0L-T0 MYDAK? #line:7720ab
+    Mae: CTNB, TJ1 N *ECTJ* MYDAK. #line:964b48
+    SteveScriggins: B 4EM TB0N UPETEH3NN K0 MHE? #line:5af2c3
+    Mae: U0MHNQJ QK0VJHJ1E BPEMEHA? TJ1 6J1V TAKNM 3ADNP0L! #line:f1a0b9
+    Mae: TJ1 DEVAV V%DCKNE SN3HN HEC4ACTHJ1MN! #line:9a752b
+    Mae: N TEUEPJ, F0DJ1 CUYCTR, TJ1... #line:6cfe93
+    Mae: U0PTNQJ 3DAHNR PADN METAVV0V0MA? #line:91905e
+    Mae: TNUA, PEAVJH0 YHN4T0SAEQJ F0P0D? #line:0322d3
+    SteveScriggins: VADH0, TJ1 M0SEQJ UP0CT0 0CTAH0BNTJCR 3DECJ #line:1774e0
+    SteveScriggins: 3HAEQJ, EDNHCTBEHHAR UPN4NHA, U0 K0T0P0L MECTHJ1E TE6R U0MHRT, - #line:abfefe
+    SteveScriggins: GT0 T0, 4T0 TJ1 4YTJ HE UPNK0H4NVA PE6EHKA, BEPH0? #line:27cc2b
+    SteveScriggins: TNUA, EF0 P0SA D0 CNX U0P HE CP0CVACJ! #line:aad7c3
+    SteveScriggins: R HNK0FDA *HN4EF0* U0D06H0F0 HE DEVAV #line:8285f4
+    SteveScriggins: N BJ1 C FPEFF0M YCTPANBAVN MH0F0 DEPJMA #line:937d65
+    SteveScriggins: FDE 6J1 BJ1 HN 6J1VN, PADN VYV30B #line:3ad5c7
+    SteveScriggins: DYMAEQJ, R 6J1 3AHNMAVCR GTNM, ECVN 6J1 MHE HE 6J1V0 HYSH0 6A6V0? #line:0b6fa0
+        ->R... #line:901d9d
+        ->0X #line:31f2d8
+    SteveScriggins: TJ1 KAK M0R UVEMRHHNOA, 60VJQ0L TYU0L PE6EH0K #line:1bbd58
+    SteveScriggins: 6P0DNQJ B0KPYF N MECNQJ DEPJM0. #line:31d03b
+    SteveScriggins: N DA, R 3HA%, 4T0 V%DN F0B0PRT 060 MHE #line:831fcb
+    SteveScriggins: N DA, R, B03M0SH0, DEVAV UV0XNE BEWN #line:1283cb
+    SteveScriggins: H0, U0 KPALHEL MEPE, *R* M0FY GT0 UPN3HATJ. #line:49dc16
+    SteveScriggins: TJ1 HE VY4QE MEHR. #line:1c0532
+    SteveScriggins: B TE6E 60VJQE GF0N3MA. #line:2829cc
+    SteveScriggins: NVN TYU0CTN. #line:2bfe46
+    SteveScriggins: HE M0FY CKA3ATJ T04H0. #line:4fc743
+    SteveScriggins: DA N CPATJ. #line:e36f5c
+    Mae: VADH0, DYMA%, GT0... #line:ea8642
+    SteveScriggins: 3ATKHNCJ #line:fb1603
+    SteveScriggins: HE NCUJ1TJ1BAL MEHR, X0P0Q0? #line:6b3af0
+    SteveScriggins: HE UPN6VNSALCR K MYS4NHE, K0FDA 0H TAK0L. #line:8c7085
+    Mae: XA! #line:93d2f9
+    Mae: NVN 4T0? #line:81c02b
+    Mae: NHA4E 4T0, CTNB? #line:3d506f
+    SteveScriggins: ... #line:b92913
+    Mae: ... #line:a782b0
+    SteveScriggins: A HY UP0BAVNBAL. DAL MHE U0PA60TATJ. #line:c21294
+    SteveScriggins: N HE B03BPAWALCR. #line:1039dc
+    <<set $steve_scriggins_threat to 1>>
+    <<set $steve_scriggins_birdland_sequence += 1>>
+<<endif>>
+
+<<set $steve_scriggins_done to 1>>
+===
+title: Sadie
+tags: temp
+colorID: 4
+position: -296,427
+---
+<<if $did_birdland_quest and $act is 3 and $day is 4>>
+	Mae: UPNBET! #line:eaf74e
+	Sadie: UPNBET. #line:f10dd7
+    <<startInteractingWithPlayer Saleem>>
+	Saleem: 3DPACJTE. #line:7b1938
+	Mae: BJ1, PE6RTA, C06NPAETECJ NFPATJ BMECTE? #line:01d416
+	Sadie: DA, XA-XA #line:b26250
+    Saleem: CUACN60, 4T0 U0M0FVA GT0MY CVY4NTJCR, DNTR. #line:81f7c4
+    Mae: XA-XA, HN4EF0 CE6E #line:92aa1d
+    Mae: ... #line:b07246
+    Mae: ... #line:761a9e
+    Mae: XAX. #line:6ef4fb
+    Sadie: 4T0? #line:b6d5d0
+	Mae: R T0VJK0 4T0 U0HRVA... #line:728a54
+	Mae: 4T0 CDEVAVA 4T0-T0 U0VE3H0E. #line:003f53
+	Mae: TNUA, Y MEHR 6J1V UVAH, N R CDEVAVA 4T0-T0 X0P0QEE. #line:8ccdbf
+	Saleem: GT0 TAK CTPAHH0? #line:8ddc99
+	Mae: Y MEHR TAK0E 4YBCTB0, 4T0 R BCEFDA HA 4T0-T0 HATJ1KA%CJ #line:4f7741
+	Mae: U03HAK0MNTJ BAC DB0NX, TNUA... #line:649ce0
+	Mae: R *X0TEVA* U0M04J DBYM HE3HAK0MOAM. N CDEVAVA GT0. #line:4c6f32
+	Mae: N TEUEPJ BJ1 C06NPAETECJ NFPATJ BMECTE #line:3eed91
+	Mae: N BV%6NTECJ... #line:c976ed
+	Sadie: 4T0? HET. #line:6e76e5
+	Saleem: R HAX0SYCJ B D0VF0CP04HJ1X M0H0FAMHJ1X 0TH0QEHNRX. #line:1d3750
+	Sadie: R BHE NFPJ1. #line:ae2102
+    Sadie: N M0L CJ1H TPE6YET VJBNH0L D0VN BHNMAHNR. #line:189c91
+	Mae: 0L. #line:1c5edc
+	Mae: KASETCR R VRUHYVA 4T0-T0 HE T0? #line:40c40d
+	Saleem: HE T0. #line:9b5ba5
+	Sadie: C0BCEM HE T0. #line:1704c9
+    Mae: UP0KVRTJE #line:00c5c8
+    <<unlockDoodle BirdlandComplete>>
+    <<stopInteractingWithPlayer Saleem>>
+    <<set $birdland_can_interact_posters to 1>>
+    <<unlockAchievement Finish_Birdland_Quest>>
+<<else>>
+	<<if $sadie_sequence is 0>>
+		Mae: GM. 3DPACJTE! #line:562cf6
+		Sadie: 3DPACJTE. #line:81acb4
+        Mae: R MGL. #line:63ecf0
+        Sadie: CGLDN. #line:ce0b09
+        Mae: 4T0 TJ1 DEVAEQJ 3DECJ? #line:21b8fb
+        Sadie: A 4T0 *TJ1* DEVAEQJ 3DECJ? #line:30c60a
+            ->NCCVEDY% #line:40c263
+                Sadie: B0T N R U0 T0L SE UPN4NHE. #line:10afb5
+            ->T0 ECTJ... MHE HYSHA UPN4NHA? #line:080692
+                Sadie: HE-A. #line:9779c5
+        Sadie: 3HAEQJ, #line:9a0d6d
+        Sadie: GT0 EDNHCTBEHHAR COEHA B F0P0DE. #line:957fae
+            ->TJ1 4ACT0 BJ1CTYUAEQJ? #line:7b8bff
+                Sadie: HET. DA N U0CVEDHNL PA3 6J1V DABHJ1M-DABH0. #line:747a60
+            ->GT0 HEUPABDA! #line:d9aca4
+                Mae: MJ1 HEDABH0 NFPAVN B CTP0NTEVJH0M MAFA3NHE! #line:33b071
+                Mae: NCU0VJ30BAVN UPNVAB0K KAK COEHY! #line:888baf
+                Sadie: VADH0, GT0 EDNHCTBEHHAR COEHA B F0P0DE, #line:6afb9d
+                Sadie: K0T0PAR RBVRETCR COEH0L. #line:ffa2c6
+        Mae: U0X0SE, 4T0 3DECJ YSE DABHEHJK0 HE NFPAVN #line:05f660
+        Sadie: AFA, UAPY DECRTK0B VET. #line:3248ea
+        Mae: TAK TJ1, TNUA, #line:d8b38e
+        Mae: BKVADJ1BAEQJCR B GT0 MECT0? #line:6cb9e0
+        Sadie: 0X, HE DYMA%, 4T0 C%DA B006WE KT0-VN60 6YDET BKVADJ1BATJCR #line:68951f
+        Sadie: U0 KPALHEL MEPE, HE B 6VNSALQEE BPEMR. #line:f89ba7
+        Sadie: 3DAHNE 04EHJ BETX0E, GVEKTPN4ECTBA HET. #line:a1c2f7
+        Sadie: BC%DY KPJ1CJ1 N F0VY6N. #line:cdbffd
+        Mae: HE C4NTAR GVEKTPN4ECTBA, TAK0E SE 3DAHNE, KAK N 0CTAVJHJ1E. #line:42ecd5
+        Sadie: XA-XA-XA! #line:627ca6
+        Sadie: NMEHH0 TAK. NMEHH0 TAK. #line:e5753a
+		<<set $sadie_sequence += 1>>
+	<<elseif $sadie_sequence is 1>>
+		Mae: CH0BA UPNBET. #line:719e43
+		Sadie: GT0 TJ1, DEB04KA. #line:e69c1e
+		Mae: B006WE-T0, MHE 20. #line:7ba554
+		Sadie: MHE 38. TJ1 PE6EH0K. #line:afac7e
+		Mae: 0KEL. #line:1feda7
+		Mae: KAK TJ1 HAQVA GT0 MECT0? #line:ed4846
+        Sadie: R 3HAVA 0 CYWECTB0BAHNN GT0F0 MECTA EWE C DETCTBA, #line:52e8e0
+        Sadie: H0 CMEV0CTN 3A6PATJCR C%DA HA6PAVACJ HEDABH0 #line:a47f4b
+        Mae: A 4T0 TAK? #line:de8657
+        Sadie: R HE M0V0DE% #line:5c07b4
+        Sadie: N GT0 MECT0 M0SET 06BAVNTJCR B V%60L DEHJ #line:4d1a35
+        Sadie: TJ1 UP0CT0 D0X0DNQJ D0 TAK0F0 GTAUA B SN3HN, #line:4770ae
+        Sadie: K0FDA YP0BEHJ ABAHT%PN3MA B KP0BN U0HNSAETCR, #line:53ed2a
+        Sadie: A YP0BEHJ PYTNHJ1 BCE B03PACTAET. #line:b4f56c
+        Sadie: HE 3HA% #line:a4e024
+        Mae: U0HNMA%, 0 4EM TJ1 #line:33f73e
+        Sadie: HET, HE U0HNMAEQJ. #line:f2eae5
+		<<set $sadie_sequence += 1>>
+	<<elseif $sadie_sequence is 2>>
+		Mae: Y TE6R ECTJ KAKAR-HN6YDJ PA60TA? #line:438aab
+		Sadie: 6J1VA. #line:39a6a1
+        Sadie: B03HNKVN HE60VJQNE UP06VEMJ1. #line:e4ec1f
+        Sadie: CEL4AC SNBY C P0DNTEVRMN #line:93d32d
+        Sadie: R N M0L PE6EH0K #line:d5c86f
+        Sadie: TAK 4T0 ECTJ N HEMH0F0 CB060DH0F0 BPEMEHN. #line:9bb8df
+        Mae: Y MEHR T0 SE CAM0E, HA CAM0M DEVE. #line:110e68
+        Mae: T0VJK0 PE6EHKA HET. #line:ce7cde
+        Sadie: MNP TECEH. #line:7d7967
+		<<set $sadie_sequence += 1>>
+	<<endif>>
+
+	<<if $sadie_saleem_sequence is 0 and $saleem_sequence is 1>>
+		Mae: 3A6ABH0. #line:14f2d3
+		Sadie: 4T0? #line:fb57d1
+		Mae: T0VJK0 4T0 BCTPETNVA UAPHR 0K0V0 VECTHNOJ1 B OEPK0BJ #line:d56f61
+        Mae: 0H T0SE 6J1V CAM U0 CE6E #line:7ff604
+		Mae: N NFPAV MY3J1KY. #line:63060d
+		Sadie: MNP TECEH. #line:fdd58d
+		Mae: XE-XE. HY... #line:a589ec
+		Mae: NVN TECEH F0P0D. #line:2b3a7a
+		Sadie: 0UPEDEVEHH0. #line:25db82
+		Mae: D0 CK0P0F0. #line:b3714e
+		<<set $sadie_saleem_sequence += 1>>
+	<<elseif $sadie_saleem_sequence is 1 and $saleem_sequence is 2>>	
+		Mae: 3HAEQJ UAPHR HA DPYF0M K0HOE F0P0DA? #line:19da5a
+		Sadie: KAK0F0 UAPHR? #line:cbdf81
+		Mae: HY, T0T, 0 K0T0P0M R TE6E F0B0PNVA? #line:b9befd
+		Sadie: AFA #line:873219
+		Mae: 0H KASETCR 0DNH0KNM #line:e0c791
+        Mae: N TJ1 KASEQJCR 0DNH0K0L #line:e40c63
+        Sadie: GM #line:8c7545
+        Mae: BJ1 DB0E M0SETE U0NFPATJ BMECTE! #line:a39b11
+        Sadie: 0X... #line:b8dc2a
+        Mae: R CKA3AVA 4T0-T0 HEH0PMAVJH0E? #line:ead83c
+        Sadie: HET, BCE X0P0Q0. #line:84c663
+        Sadie: HA 4EM 0H NFPAET? #line:b7c473
+        Mae: HA CKPNUKE? ZNDEVN? GT0 HE 0DH0 N T0 SE? #line:c3b4fa
+		Sadie: XAX, VADH0. #line:c4a468
+        Sadie: 4T0 S, YBNDNQJ EF0 CH0BA, CKASN, 4T06J1 3ACK04NV. #line:aed811
+		Sadie: T0VJK0 ECVN 0H HE UCNX NVN TNUA T0F0 #line:8a3551
+		Mae: 0H HE U0X0S HA UCNXA. #line:094633
+		Sadie: HY, Y MEHR ECTJ UEPO0BJ1L 6AVV0H4NK. #line:7d9087
+		<<set $will_complete_birdland_quest to 1>>
+		<<set $sadie_saleem_sequence += 1>>
+    <<elseif $saleem_sadie_sequence is 1 and $sadie_sequence is 2>>
+        Mae: T0VJK0 4T0 BCTPETNVA UAPHR 0K0V0 VECTHNOJ1 B OEPK0BJ #line:51a20d
+        Mae: 0H T0SE 6J1V CAM U0 CE6E #line:9bd5d3
+		Mae: N NFPAV MY3J1KY. #line:4ae33f
+		Sadie: MNP TECEH. #line:6a96eb
+		Mae: R PACCKA3J1BAVA EMY, 4T0 TJ1 #line:e12f9f
+        Mae: NFPAEQJ TYT #line:a2743f
+        Mae: 0DHA. #line:d85572
+		Sadie: A, 0KEL. #line:57910f
+		Mae: M0SET, BJ1 CM0SETE U0NFPATJ BMECTE??? #line:cf0fe9
+        Sadie: TJ1 3HAEQJ 4T0-HN6YDJ 06 GT0M UAPHE? #line:5e9053
+        Mae: 0H HE Y6NLOA. #line:f901a7
+        <<wait 2>>
+        Mae: R HE DYMA%, 4T0 0H Y6NLOA. #line:4f44a7
+        Sadie: HY, T0FDA... CUACN60? #line:a1e6c2
+        <<set $will_complete_birdland_quest to 1>>
+		<<set $saleem_sadie_sequence += 1>>
+	<<endif>>
+<<endif>>
+
+<<set $sadie_done to 1>>
+===
+title: InitLevel_A3D2
+tags: 
+colorID: 4
+position: -8,-25
+---
+<<hide Saleem>>
+===
+title: InitLevel_A3D3
+tags: 
+colorID: 4
+position: 292,-25
+---
+<<hide Saleem>>
+===
+title: InitLevel_A3D4
+tags: 
+colorID: 4
+position: 565,-21
+---
+<<if $did_birdland_quest>>
+    <<show Saleem>>
+    <<setCanInteract Saleem 0>>
+<<else>>
+    <<hide Saleem>>
+<<endif>>
+===
+title: InteractPosters
+tags: 
+colorID: 4
+position: -12,459
+---
+//this interaction is enabled only after talking to them after their quest is completed//
+<<startInteractingWithPlayer Sadie>>
+<<startInteractingWithPlayer Saleem>>
+Mae: GT0F0 3DECJ PAHJQE HE 6J1V0. #line:28b2b0
+Sadie: AFA! HAQVA NX 3A KYVNCAMN. #line:8f19ea
+Saleem: U0BEPNTJ HE M0FY, 4T0 0HN EWE OEVJ1. #line:f16ed5
+Saleem: D0VSH0 6J1TJ, NM U0 60... 70 VET TEUEPJ? #line:1a1ce4
+Mae: "0PNFNHAVJHJ1E KPNKYHJ1 FVY60KNX V0WNH" #line:270b64
+Sadie: U0UJ1TALCR CKA3ATJ *GT0* 6J1CTP0 TPNSDJ1 #line:89cbae
+    ->KPNKYHJ1 FVY60KNX V0WNH #line:b27488
+    	Mae: KPNKYHJ1 FVY60KNX V0CNH #line:49532a
+    ->KPNKYHJ1 FVY60KNX V0WNH KPNKYHJ1 FVY60KNX V0WNH #line:04248e
+    	Mae: KPNKYHJ1 FVY60KNX V0CNH KPNQYHJ1 FVY60KNX V0WEWNH #line:f81dce
+    ->KPNKYHJ1 FVY60KNX V0WNH KPNKYHJ1 FVY60KNX V0WNH KPNKYHJ1 FVY60KNX V0WNH #line:afc6c9
+		Mae: KPNKYHJ1 FVY60KNX V0WEWNH KPN4YHJ1 FVY60KNX V0CNH KPNKY4J1 FVY60KNX V0C0CNH #line:58323d
+Saleem: *KXEM* #line:e3a4a2
+Saleem: KPNKYHJ1. FVY60KNX. V0. WNH. #line:f8b303
+Sadie: K. F. V. #line:5d2e60
+Mae: KT0 0HN? #line:37a2d6
+Saleem: 60S, MAVAR, KAK DABH0 TJ1 3DECJ SNBEQJ? #line:10caf9
+	->BC% M0% SN3HJ! #line:d11df2
+		Saleem: HY, T0FDA HNKAKNX TE6E 0UPABDAHNL. #line:f48f5a
+	->MHE 20. #line:d8d0bc
+		Sadie: TJ1 BJ1FVRDNQJ M0V0SE CB0NX VET.. #line:27f964
+		Sadie: TJ1 6YDEQJ OEHNTJ GT0, K0FDA CTAHEQJ CTAPQE. #line:d9986d
+Saleem: KPN4YHJ1 FVY60KNX V0WEWNH - TJZY TJ1 #line:8a05ae
+Mae: XA-XA. #line:688e0f
+Saleem: K. F. V. 6J1VN *VY4QNM* GCTPADHJ1M 0PKECTP0M B 0KPYFE FVY60KNX V0WNH #line:af436f
+Sadie: GT0 6J1V NX KVY6. #line:eaafe1
+Sadie: 4ETJ1PE NHCTPYMEHTA. CKPNUKA, CAKC0Z0H, TY6A, AKK0PDE0H. #line:174abe
+Saleem: U0VJKN, BAVJCJ1, CTAPJ1E MEV0DNN C X0VM0B. #line:aedca6
+Saleem: 20E 4EPE3 40E. #line:893682
+Saleem: UP0BEVN GT0T F0P0D 4EPE3 TPYDHJ1E BPEMEHA. #line:14fc79
+Saleem: 0HN 6J1VN B T0L N3BECTH0L AHT0V0FNN AUUAVA4CK0L MY3J1KN 60X. #line:2de4f2
+Sadie: AFA. 0FP0MHJ1L KYC0K MECTH0L NCT0PNN. #line:aa9969
+->4T0 C HNMN UP0N30QV0? #line:699783
+	Sadie: AX, DA #line:5c13b3
+	Sadie: CTPAHHAR NCT0PNR #line:28aa88
+->4T0 UP0N30QV0 C GTNM MECT0M? #line:48f179
+	Sadie: U0CVE T0F0, KAK NX HAQVN B VECY, #line:d24625
+	Sadie: 0H0 UEPEDABAV0CJ 0T BVADEVJOA K BVADEVJOY D0VF0E BPEMR #line:aa8784
+	Mae: "HAQVN"? "B VECY"? #line:87ccac
+	Sadie: AFA. GM. #line:0069a2
+	Sadie: CTPAHHAR NCT0PNR. #line:56d1ab
+Saleem: 0HN CTAVN CTPAQNVKAMN. #line:796bf9
+Sadie: NVN, TNUA, CBRTJ1MN? #line:a1db43
+    ->CTPAQNVKN? #line:5282a9
+        Saleem: AFA, 0HN PACCKA3J1BAVN 06 YX0DE N3 CB0NX TEV #line:1264ad
+        Saleem: N BJ1CTYUVEHNN DVR UPN3PAK0B, K0T0PJ1E 06NTAVN B 0KPYFE. #line:fd8afd
+        Mae: XAX. #line:a9c13b
+        Saleem: HAP0D DYMAET, 0HN UP0CT0 6J1VN CTPEMHJ1MN N U0GTN4HJ1MN, H0 #line:7b2712
+    ->PEVNFNR? #line:52c570
+        Sadie: DA, 0HN HA4AVN F0B0PNTJ 0 T0M, #line:1fee38
+        Sadie: KAK 0HN NFPAVN DVR 60F0B? #line:be44f0
+        Sadie: H0, TNUA, DVR TEX, K0T0PJ1X HNKT0 HE 3HAV? #line:8d7260
+        Sadie: N 0HN U0KNDAVN CB0N TEVA? #line:2030eb
+Saleem: KT0 3HAET. 0HN, U0HNMAEQJ, CTAPEVN. #line:5ab54d
+Mae: GT0 CTPEMH0. #line:79ed5d
+Sadie: B K0HOE K0HO0B, 0HN UEPECTAVN UPNX0DNTJ C%DA #line:4f1a42
+Sadie: N HA4AVN NFPATJ B VECY #line:05143c
+Sadie: HA GTNX MAVEHJKNX... K0P06KAX DVR BJ1CTYUVEHNL, K0T0PJ1E U0CTP0NVN #line:88e0c5
+Saleem: NVN, U0 KPALHEL MEPE, GT0 T0, 4T0 Y3HAVN V%DN #line:6ad974
+Saleem: B H0R6PE 49F0 NX HAQVN MEPTBJ1MN HA UYTN 0TTYDA #line:3c5b83
+Saleem: YMEPVN 0T UEPE0XVASDEHNR! #line:7280f0
+Saleem: 0HN UP0MEP3VN D0 CAMJ1X NHCTPYMEHT0B! #line:0397e1
+Sadie: UPNQV0CJ 0TDNPATJ NX 0T 3EMVN. #line:7aee0b
+Saleem: 0DNH N3 BEVN4ALQNX 4T0-3A-DEPJM0 M0MEHT0B B NCT0PNN U0CCYM CUPNHFC. #line:9aca4f
+Mae: 06AVDETJ. #line:1b6e37
+Sadie: KAK M0SH0 HE 3HATJ GT0L NCT0PNN? #line:4d8464
+Mae: HET, UP0CT0 GT0... #line:ee9aba
+Mae: R... #line:9ab328
+Mae: HEBASH0. MNP 60VJQ0L N CTPAHHJ1L. #line:9c9f50
+Saleem: U0CVE NX YX0DA DHN GT0F0 MECTA 6J1VN C04TEHJ1. #line:3483d7
+Saleem: N CEL4AC! BUEPBJ1E 3A 60F 3HAET CK0VJK0 BPEMEHN! #line:655cb0
+Saleem: 3AV U4EVJ1 XACKEP BH0BJ YCVJ1QNT MY3J1KY! #line:664375
+Sadie: XA-XA-XA. #line:495145
+Saleem: N B HEM AHQVAF! F0VY6N OEHRT KA4ECTB0! #line:d86719
+Mae: GT0 MEHR BECEVNT. #line:9dbdae
+Sadie: C0XPAHN BECEVJE D0 VY4QNX BPEMEH. #line:ae8d6b
+Saleem: AFA. FNU-FNU VY4QNM BPEMEHAM. #line:37bd29
+Sadie: 0HN 6J1VN 6J1 U0VE3HJ1 GT0MY MECTY. #line:378305
+Saleem: HY, B0T K0E-4T0 0 MY3J1KE... #line:15c89f
+Saleem: 0HA 3AU0VHRET UYCT0TY! #line:9cdec2
+<<stopInteractingWithPlayer Saleem>>
+<<stopInteractingWithPlayer Sadie>>
+<<set $birdland_interact_posters_done to 1>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 373,216
+---
+<<setSpriteLayer Saleem BG1>>
+<<setSpriteLayer Sadie BG1>>
+<<unlockDoodle Birdland>>
+===
+title: LottaBirds
+tags: 
+colorID: 0
+position: 804,223
+---
+Mae: 4EPT B03JMN. 3DECJ KY4A UTNO. #line:ed24e3
+<<end>>
+===
+title: PeopleUsedToComeHere
+tags: 
+colorID: 0
+position: 1052,220
+---
+Mae: BAY. #line:6d8982
+Mae: V%DN, TNUA, #line:33b594
+Mae: UPNX0DNVN C%DA. #line:694849
+<<end>>
+===
+title: Pentagram
+tags: temp
+colorID: 4
+position: -347,141
+---
+<<if $pentagram_quest>>
+    Mae: 0F0. UEHTAFPAMMA. #line:56b789
+    Mae: HN4EF0 GT0 HE D0KA3J1BAET, CTPAHHJ1E U0DP0CTKN. #line:a07291
+    <<wait 2>>
+    Mae: 0DHAK0 SYTK0. #line:8a687e
+    <<set $found_pentagrams += 1>>
+    <<unlockPentagramDoodle>>
+<<else>>
+    Mae: XAX. UEHTAFPAMMA. #line:0ee235
+<<endif>>
+<<set $birdland_pentagram_done to 1>>
+===

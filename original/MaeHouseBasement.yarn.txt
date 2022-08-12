@@ -1,0 +1,49 @@
+title: BossTooth
+tags: 
+colorID: 0
+position: 795,264
+---
+<<if $safe_combination is 0>>
+    <<if $tried_safe is 0>>
+        // checking it out for the first time, no safe combo tho
+        Mae: XM, CTAPJ1L CELZ. #line:1e7a2b
+        Mae: KAK MHE 0TKPJ1TJ GTY QTYKY? #line:0dd224
+        Mae: ... #line:c3e5d3
+        Mae: DNHAMNT? #line:9fbe3d
+        Mae: ... #line:9f2ae3
+        Mae: HET. #line:7a925c
+        <<set $tried_safe to 1>>
+    <<else>>
+        // repeated checking of the safe without the combo
+        Mae: XM... D0VSEH 6J1TJ CU0C06 0TKPJ1TJ GT0T CELZ... #line:2e8f95
+    <<endif>>
+<<else>>
+    // opening the safe with the combination
+    Mae: 0, U0D0SDNTE. XA-XA-XA, R 3HA%, KAK EF0 0TKPJ1TJ. #line:ac3172
+    Mae: HAVEB0 45, HAUPAB0 100, HAVEB0 22, HAVEB0 90, HAUPAB0 15. #line:fb6347
+    Mae: CUACN60, DEDYQKA. #line:ddae96
+    Mae: AFA... 0TKPJ1V0CJ #line:867fe3
+    <<wait 2>>
+    Mae: KAK0F0 4EPTA? #line:e61f71
+    Mae: GT0 CTAPJ1L... 3Y6? #line:1ae8f5
+    Mae: DA. GT0 3Y6. #line:5cc668
+    Mae: DEDYQKA U0V0SNV 3Y6. B CELZ. B U0DBAVE. #line:3f42e7
+    <<if $knows_tooth>>
+        // if mae found out about the tooth from the microfiche already
+        Mae: 0X CPAHJ F0CU0DHR. #line:37a936
+        Mae: GT0 4T0-T0 BP0DE #line:db8836
+        Mae: 0DNH N3 3Y60B 60CCA... #line:a59d06
+        Mae: TNUA... N3 T0L QTYKN? #line:2115da
+        Mae: 0 60SE M0L. #line:927901
+        Mae: 4T0 MHE C GTNM DEVATJ???? #line:e91e35
+    <<else>>
+        // if mae has no idea what the tooth is
+        Mae: 4T0 S! #line:fd4e6b
+        Mae: HNK0FDA HE 3HAEQJ, K0FDA TE6E U0HAD06NTCR D0U0VHNTEVJHJ1L 3Y6. #line:357dab
+        Mae: TJ1 N R, 3Y6. MJ1 C T060L DAVEK0 U0LDEM. #line:ad925e
+    <<endif>>
+    Mae: UPNF0DNTCR. #line:9ceaf3
+    <<unlockDoodle Tooth>>
+    <<set $has_tooth to 1>>
+<<endif>>
+===

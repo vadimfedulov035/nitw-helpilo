@@ -1,0 +1,327 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: -530,361
+---
+<<if $germ_home_quest is 0>>
+    [[HomeQuestIntro]]
+<<elseif $germ_home_quest is 1>>
+    [[HomeQuestTrampoline]]
+<<endif>>
+
+<<if $germ_home_quest > 0>>
+    <<hide Collision:GermOnPorch>>
+<<endif>>
+===
+title: HomeQuestIntro
+tags: 
+colorID: 0
+position: -251,290
+---
+<<warp Mae Mae0>>
+<<warp Germ Germ0>>
+
+<<hide Collision:Right>>
+
+Mae: GT0 PEAVJH0 CTPAHH0 #line:7dc5d5
+Germ: U04EMY? #line:7feaf5
+<<close>>
+
+//<<walk Mae Mae1>>
+//<<walk Germ Germ1>>f
+
+//<<waitForMove Mae>>
+
+//Germ: Dialogue 1.
+//Mae: Dialogue 1.
+//<<close>>
+
+<<walk Mae Mae2>>
+<<walk Germ Germ2>>
+
+Mae: R, TNUA... #line:d0b512
+Mae: R HNK0FDA HE DYMAVA, 4T0 TJ1 UPNX0DNQJ 0TKYDA-T0. #line:be1db8
+Mae: R DYMAVA, 4T0 TJ1 UP0CT0 #line:f524a5
+Mae: 0DHASDJ1 U0RBNVCR HA UAPK0BKE. #line:ae964b
+Germ: 0X. #line:63fbb3
+Mae: N3BNHN. GT0 6J1V0 TAK CE6E. #line:865f7f
+Germ: GT0 KPYT0. KY4A HAP0DY N3 F0P0DA HNK0FDA C%DA HE B03BPAWA%TCR. #line:3de5b2
+Mae: 3DECJ KY4A MAQNH. #line:75eaf1
+Germ: Y MEHR TYT KY4A P0DCTBEHHNK0B. #line:556f20
+Germ: 0HN 4NHRT MAQNHJ1 BMECTE C M0NM 0TO0M. #line:27c8c1
+Mae: TJ1 B0DNQJ? #line:94d870
+Germ: BEV0CNUED. #line:951077
+Germ: HE BPEDNT UPNP0DE. #line:eb1012
+Mae: R Y3HA% 0 TE6E BCE 60VJQE N 60VJQE. #line:4d8937
+Germ: 4T0? MJ1 BCE YMPEM 0T U0TEUVEHNR N B0DJ1! #line:d57b43
+<<close>>
+
+<<waitForMove Germ>>
+<<waitForMove Mae>>
+<<wait 1>>
+
+Mae: GT0, GM... TB0E K0VEC0? #line:755e1c
+Germ: HE, GT0 DVR M0NX CECTEP N KY3NH #line:d9a2b8
+Mae: Y TE6R ECTJ CECTPJ1? #line:5587a5
+Germ: DA, 0HN CEL4AC B OEPKBN. #line:5f5fd0
+Germ: B0T U04EMY R U03BAV TE6R. #line:b12fae
+Germ: GT0 KAK... H04J DVR B3P0CVJ1X. #line:aba78d
+Mae: "H04J DVR B3P0CVJ1X"? #line:ea3030
+Germ: 0DHA H04J B HEDEV%! 6E3 DETEL! #line:3499de
+<<close>>
+
+<<waitForMove Germ>>
+<<walk Germ Germ3 1>>
+<<wait 4>>
+
+<<show Collision:Right>>
+===
+title: Germ
+tags: 
+colorID: 0
+position: 369,294
+---
+<<if $germ_home_quest is 0>>
+    <<flip Germ 1>>
+    Germ: VADH0 VADH0 #line:07ccd2
+    Mae: VADJ1, VADJ1, VADJ1? #line:d1d8ea
+    Germ: 0KEL, TE6E CVEDYET U03HAK0MNTJCR C M0EL MAM0L. #line:efab5b
+    Mae: "CVEDYET" VN? #line:0c8ae2
+    Germ: GT0 6J1V0 6J1 BESVNB0, PA3 YS TJ1 TYT YSNHAEQJ. #line:b27a8e
+    Mae: ...R U0QYTNVA. #line:dca519
+    Germ: HY, HE 3HA%!!!!!!!! #line:86569b
+    Mae: TJ1 B U0PRDKE? #line:17da88
+    Germ: R HEPBHN4A%!!!! #line:5bcdd0
+    Mae: U04EMY? #line:7caa80
+    Germ: U0LDEM!!!! #line:02e1aa
+    
+    <<walk Mae Mae4>>
+    <<walk Germ Germ4>>
+    
+    <<set $germ_home_quest to 1>>
+    
+    <<irisOut 1 wait>>
+    <<scene GermKitchen -1>>
+<<elseif $germ_home_quest is 1>>
+    <<alwaysRequireButtonToAdvance 1>>
+    <<allSpeechBubblesToY 2.33>>
+    Mae: TAK, TNUA, U04EMY... #line:dcb9bf
+    //offscreen//
+    GermMom: YSNH! #line:022837
+    Germ: UPNDEPSN GTY MJ1CVJ. #line:9c6553
+    <<alwaysRequireButtonToAdvance 0>>
+    [[Dinner]]
+<<endif>>
+===
+title: HomeQuestTrampoline
+tags: 
+colorID: 0
+position: -248,546
+---
+<<warp Mae Mae10>>
+<<warp Germ Germ10>>
+<<flip Germ 1>>
+
+<<hide Collision:TrampolineRight>>
+<<setCanInteract Germ 0>>
+
+<<walk Mae Mae11 wait>>
+
+Germ: HE F0B0PN MHE, 4T0 CKA3AVA 6A6YQKA. #line:1e56ab
+Mae: U04EMY? #line:533be4
+Germ: K0FDA 6A6YQKA F0B0PNT 4T0-T0 TE6E, #line:5fdb37
+Germ: GT0 6YDEQJ 3HATJ T0VJK0 TJ1, H0, ECVN TJ1 PACCKASEQJ K0MY-T0 EWE, GT0 NC4E3HET. #line:386b03
+<<toggleBlinks Germ 0>>
+Mae: 4T0 GT0 3HA4NT? #line:1b0b80
+Germ: U0CM0TPN C%DA!!! #line:758dd4
+<<close>>
+<<playMusic cloud_vacation>>
+<<runAndJumpOffPorchToTrampoline Germ>>
+<<cameraLookAt CameraTrampoline 2>>
+<<wait 3>>
+// Germ runs and jumps off the porch onto the trampoline.
+Mae: EDPEH 6AT0H! #line:597eca
+<<allSpeechBubblesToY 2.33>>
+Germ: BUEPED!!!!! #line:f72114
+<<close>>
+<<cameraFollowPlayer 1>>
+<<wait 1>>
+===
+title: Dinner
+tags: 
+colorID: 0
+position: 646,303
+---
+<<irisOut 1 wait>>
+<<allSpeechBubblesToY 0>>
+<<hide GermDad>>
+<<hide GermUncle>>
+<<resetRig Germ>>
+<<warp Mae MaeSitDinner>>
+<<warp Germ GermSitDinner>>
+<<flip Germ -1>>
+<<playerFace -1>>
+<<warpSit>>
+<<sit Germ>>
+// force Germ to blink to clear his eyes
+//<<trigger Germ Blink>>
+<<toggleBlinks Germ 1>>
+<<irisIn 1 wait>>
+Mae: GT0 6J1V0 UPABDA KPYT0. #line:392364
+Germ: PAD, 4T0 TE6E U0HPABNVCR HEPRQVNBJ1L DS0. #line:b767bc
+Mae: A K0MY HE HPABNTCR? #line:4af7d2
+<<close>>
+<wait 3>> #line:42b866
+Germ: 4T0 TJ1 C06NPAVACJ CKA3ATJ D0 YSNHA? #line:82f4e2
+Mae: AX DA #line:6439a1
+Mae: N3BNHN, 4T0 CUPAQNBA%, H0 #line:fb2736
+Mae: U04EMY TJ1 U03BAV MEHR C%DA? #line:105451
+Mae: R HE DYMA%, 4T0 DASE FPEFF 6J1V 3DECJ? #line:cc9626
+Germ: HE-A. #line:d44368
+Germ: FPEFF KPYT, H0, TNUA #line:e684e1
+Germ: Y FPEFFA BCE HA MA3N. #line:8983da
+Mae: AFA. FPEFF VY4QNL. #line:ed57d2
+Germ: TNUA, KASETCR, B U0CVEDHEE BPEMR TE6E 6J1V0 TPYDH0, #line:dcbd61
+Germ: N R U0DYMAV, 4T0 TJ1 3AX04EQJ, TNUA... HEMH0F0 PACCVA6NTJCR. #line:745057
+Germ: BCE 0CTAVJHJ1E, TNUA #line:79d49c
+Germ: DBNFA%TCR KYDA-T0 #line:8b6b24
+Germ: NVN ME4TA%T 06 GT0M, #line:9945d7
+Germ: A TJ1 TNUA #line:cf1884
+Germ: HET #line:0fee38
+Germ: NVN KAK-T0 TAK. #line:390aa0
+<<close>>
+<<wait 2>>
+Mae: DA. #line:1865f7
+<<close>>
+//Mae kinda slumps to the side and leans her head on Germ and closes her eyes//
+<<close>>
+<<wait 2>>
+Mae: CUACN60 3A YSNH. #line:e82e68
+Germ: CKASN CUACN60 M0EL MAME. #line:70cf77
+Mae: HET, UP0CT0 #line:d3530c
+Mae: CUACN60. #line:d8f8c8
+<<fadeOutMusic 5>>
+Mae: R... #line:bb4c0c
+Mae: GT0 6J1VA HEBEP0RTH0 D0VFAR 0CEHJ. #line:024bc1
+Germ: R 3HA%. #line:ff8499
+Germ: PAD, 4T0 TE6E U0HPABNVCR HEPRQVNBJ1L DS0. #line:78c4ab
+<<close>>
+<<wait 2>>
+Mae: A K0MY HE HPABNTCR? #line:909c0d
+<<close>>
+<<fadeOut 1 wait>>
+<<scene Outskirts>>
+===
+title: GermKids
+tags: 
+colorID: 0
+position: 55,294
+---
+Mae: K0VEC0 DSEPMA. #line:74a25b
+Mae: Y DSEPMA ECTJ K0VEC0. #line:db1b14
+Mae: Y DSEPMA ECTJ MVADQNE CECTPJ1. #line:10abbd
+Mae: KAK GT0 CTAV0 CTPAHHELQEL QTYK0L, UP0N30QEDQEL HA GT0L HEDEVE? #line:98b585
+
+<<set $germ_kids_done to 1>>
+===
+title: TrampolineTalk
+tags: 
+colorID: 0
+position: 91,579
+---
+<<wait 8>>
+
+<<show GermDad>>
+<<show GermUncle>>
+
+<<setCanInteract GermDad 0>>
+<<setCanInteract GermUncle 0>>
+
+<<walk GermDad GermDad0>>
+<<waitForMove GermDad>>f #line:38439e
+
+<<alwaysRequireButtonToAdvance 1>>
+
+<<allSpeechBubblesToY 2.33>>
+
+GermDad: GL, 3HAK0MJ1E VNOA! #line:c1930f
+Mae: 4T0? #line:6fc227
+GermDad: R BCEX BAC BNDEV! #line:59b037
+Mae: R HE... #line:221cfa
+GermDad: R  H E B N D N M K A! #line:1cb352
+<<walk GermUncle GermUncle0>>
+GermUncle: HE U03B0VRL EMY HAUYFATJ TE6R. #line:4b797f
+GermUncle: 0H PA60TAV B TB0EM PAL0HE. #line:b01459
+GermDad: DEUAPTAMEHT TPAHCU0PTA. #line:2e9e41
+GermDad: TJ1 HE BNDNQJ HAC, H0 MJ1 TE6R BNDNM. #line:f634dd
+Mae: 0, T04H0! UPNBET! #line:78a45d
+Mae: CUACN60 3A, GM... U04NHKY HAQEL YVNOJ1! #line:af0d81
+GermDad: AFA, AFA. #line:41994a
+GermDad: EPYHDA. #line:deeb8c
+GermUncle: AFA, 0H DEVAV UP0CTY% PA60TY. #line:e6069a
+GermUncle: M0R 6PNFADA VA3AVA U0 BCEM M0CTAM B C0VTCTAYHE. #line:acffde
+Mae: 0, 0HN YSE 0TKPJ1TJ1? #line:81c5a8
+GermUncle: 4EPT, HET! #line:a67550
+GermDad: BPEMR UPNDET. #line:499092
+<<if $austerity_bearity>>
+	Mae: MNQKA-ACKETNQKA! #line:be1674
+	Germ: 4T0? #line:20bd6d
+	Mae: HN4EF0. #line:cf3954
+<<endif>>
+GermDad: TJ1 D04J CTGHA 60P0BCKN, DA? #line:da285a
+Mae: DA? #line:6f655a
+GermDad: MJ1 4ACT0 BNDEVN EF0 B "Y MNVVEPA". #line:a9fc19
+GermDad: HABEPH0, X0P0Q0, 4T0 60VJQE 0H HE U0RBVRETCR. #line:a8ed94
+Mae: ...AFA... #line:f8db74
+GermUncle: 0H HE NMEV B BNDY HN4EF0 DYPH0F0. #line:10cfb7
+Mae: BCE H0PM. #line:53d17b
+GermDad: B T0 BPEMR TB0L 0TEO 6J1V 4EM-T0 DPYFNM. #line:43a75a
+GermDad: 0H TEUEPJ B XGM UAHTEP, DA? #line:71e285
+Mae: AFA. #line:ae68c5
+GermDad: 0HN BECJMA AHTN-C0%3HJ1E, XAX. #line:dcac14
+Mae: AFA, 0H GT0 YU0MNHAV. #line:4407db
+GermUncle: XMM. #line:3c0cb9
+GermDad: AFA, AFA. #line:b8418c
+GermUncle: TB0L 0TEO X0P0QNL, DNTR. #line:1ba8fd
+Mae: 0KEL! #line:3f95a0
+Germ: DA, 0H KPYT! #line:acfb8a
+Mae: TJ1 3HAEQJ M0EF0 UAUY? #line:f33ae5
+Germ: HET! UP0CT0 U04YBCTB0BAV CE6R BJ1UABQNM N3 PA3F0B0PA. #line:ed9120
+GermUncle: UEPEDAL EMY, 4T0 YUPABVEHNE XGM UAHTEP M0SET NDTN UPRMNK0M B AD. #line:68519d
+Mae: 0K, GT0... MM... CTPAHH0! #line:b99026
+GermDad: HN4EF0 CTPAHH0F0. #line:7a9a99
+GermDad: DSEPEMN, MJ1 NDEM B XAHBNK HA GTNX BJ1X0DHJ1X? #line:5aaeaf
+Germ: DA! #line:29eb47
+Mae: A 4T0 B XAHBNKE? #line:79b2c1
+<<runNextLinesTogether 2>>
+GermDad: KVY6 C NFP0BJ1MN ABT0MATAMN! #line:236035
+Germ: KVY6 C NFP0BJ1MN ABT0MATAMN! #line:197dfe
+GermDad: U0NWEM CTAP0F0 K0MUND0HA-80 #line:cbc4cc
+Germ: U0NFPAEM B CKNTAVJOEB KV0PFEHA! #line:0ed665
+GermUncle: HADEPEM XNVRKAM S0UJ1! #line:ce2d0b
+GermDad: AFA, AFA. #line:918a81
+<<close>>
+<<wait 2>>
+Mae: VADH0, 4T0 S, ECVN R UP0D0VSY U0DUPJ1FNBATJ, R 6VEBAHY. #line:529549
+Germ: M0SEQJ UEPECTATJ UPJ1FATJ #line:77f818
+Germ: MHE HE 6YDET 0DNH0K0 #line:690a4a
+Mae: VADJ1. #line:e76ab4
+<<close>>
+<<allSpeechBubblesToY 0>>
+<<hide Collision:TrampolineLeft>>
+<<hide Collision:TrampolineRight>>
+<<hide Collision:GermOnPorch>>
+<<setCanInteract Germ 1>>
+// this next command prevents Germ from making Mae walk and pause
+<<setUsePlayerInteractStates Germ 0>>
+<<alwaysRequireButtonToAdvance 0>>
+//<<cameraFollowPlayer 1>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -771,357
+---
+<<hide GermDad>>
+<<hide GermUncle>>
+===

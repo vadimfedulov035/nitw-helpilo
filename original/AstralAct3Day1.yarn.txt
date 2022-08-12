@@ -1,0 +1,11 @@
+title: TriggerBird
+tags: 
+colorID: 0
+position: 474,230
+---
+<<tell AstralAct3Day1 End>>
+<<wait 20>>
+<<fadeOut 1 wait>>
+<<wait 3>>
+<<endDay>>
+===

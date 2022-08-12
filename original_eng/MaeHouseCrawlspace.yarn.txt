@@ -1,0 +1,20 @@
+title: ExamineBoxes
+tags: 
+colorID: 0
+position: 539,260
+---
+<<if $dad_will_move_boxes is 1>>
+    Mae: Finally! Dad's gonna move these. #line:2268d5
+    Mae: i'm gonna crawl back in here and read a book. #line:29dbe6
+    Mae: like old times. #line:32f311
+<<elseif $knows_crawlspace_boxes is 0>>
+    Mae: Ugh. #line:7df15b
+    Mae: since when is the crawlspace all jammed up? #line:d611d1
+    Mae: wonder if dad could move them. #line:9a12fb
+    <<set $knows_crawlspace_boxes to 1>>
+<<else>>
+    Mae: Yeah. Dad put 'em here i bet. #line:52bffb
+    Mae: dad should move 'em. #line:ecfa12
+    Mae: it's only fair!| #line:26c23c
+<<endif>>
+===

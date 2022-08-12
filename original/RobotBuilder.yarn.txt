@@ -1,0 +1,20 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 545,259
+---
+Gregg: B0T BCE DETAVN... #line:28e010
+Mae: 0F0! TAK MH0F0 PA3VN4HJ1X K0M6NHAONL. #line:3d4fc9
+Gregg: MJ1 M0SEM C03DATJ C06CTBEHH0E YHNKAVJH0E U0T0MCTB0. #line:898b91
+Mae: TAK MJ1 UP0CT0... C0EDNHNM GT0 BCE BMECTE? #line:6dd136
+Gregg: AFA, C06EPEM N U0DKPYTNM, FDE HAD0. #line:4d7831
+Gregg: 4T0 M0SET U0LTN HE TAK? #line:388e98
+Mae: HY, B006WE, MH0F0 4EF0, B U0CVEDHEE BPEMR BCE HAUEPEK0CRK. #line:042b01
+Gregg: TJ1 UP0CT0 3AHYDA #line:63ebc2
+Mae: R 6YKBAVJH0 T0VJK0 4T0 YMEPVA #line:c74ba0
+
+<<set $gregg_friendship_quest to 2>>
+<<set $gregg_friendship_quest_2 to 4>>
+<<set $act to 2>>
+<<set $day to 2>>
+===

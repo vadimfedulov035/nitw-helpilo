@@ -1,0 +1,21 @@
+title: Zapped
+tags: 
+colorID: 0
+position: 891,297
+---
+<<fadeOutMusic .1>>
+Mae: {width=4}AAAAAAAAAAAAAAAAAAAAAA!!!!!! #line:22e727
+Gregg: B0000Y!!! #line:dd9989
+<<set $gregg_friendship_quest_2 to 2>>
+<<fadeOut .1 wait>>
+<<scene SharkleDream>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 244,202
+---
+Gregg: TAK, CXBATN 0DNH N3 UP0B0D0B N DEPHN EF0! #line:910d6e
+Mae: CUACN60! DYMA%, R CM0FY PA306PATJCR! #line:f6560a
+Mae: CHA4AVA HYSH0 N36ABNTJCR 0T GTNX VNCTJEB... #line:9f4d8c
+===

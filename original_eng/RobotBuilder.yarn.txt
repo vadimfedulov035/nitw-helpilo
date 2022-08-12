@@ -1,0 +1,20 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 545,259
+---
+Gregg: Here are all the parts... #line:28e010
+Mae: Wow! So many possible combinations. #line:3d4fc9
+Gregg: We can create our own unique metal offspring. #line:898b91
+Mae: So we just... clank these together? #line:6dd136
+Gregg: Yeah slap 'em together, tighten some screws. #line:4d7831
+Gregg: What could go wrong? #line:388e98
+Mae: I mean, quite a lot, lots of times stuff goes wrong. #line:042b01
+Gregg: dude you are no fun #line:63ebc2
+Mae: i literally just died #line:c74ba0
+
+<<set $gregg_friendship_quest to 2>>
+<<set $gregg_friendship_quest_2 to 4>>
+<<set $act to 2>>
+<<set $day to 2>>
+===

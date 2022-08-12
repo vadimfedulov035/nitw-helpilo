@@ -1,0 +1,33 @@
+title: InitLevel
+tags: 
+colorID: 5
+position: 540,260
+---
+<<set $death_walk to 1>>
+<<playIdleAnimationPlayer>>
+===
+title: EndDeathPrairie
+tags: 
+colorID: 5
+position: 817,280
+---
+<<wait 2>>
+<<playOneShot event:/deathprairie/mae_fade_out Mae>>
+<<fadeOutPlayerSpriteAnimation .333>>
+<<wait .333>>
+<<trigger Mae DeathPrairieLieDown>>
+<<resetPlayerSpriteAnimationFade>>
+<<disableCameraControl>>
+<<enableAnimator MaeStreet>>
+<<fadeOutMusic 12>>
+<<wait 16>>
+<<fadeOut 1 wait>>
+<<scene ChurchSanctuary>>
+===
+title: EnterLevel
+tags: 
+colorID: 5
+position: 549,495
+---
+<<fadeIn 1>>
+===

@@ -1,0 +1,592 @@
+title: Chazokov
+tags: 
+colorID: 0
+position: 24000,-3671
+---
+<<if $act is 4>>
+    [[Chazokov_Act4]]
+<<elseif $act is 2 or $act is 3>>
+    [[Chazokov_Act2_Act3]]
+<<elseif $act is 0 and $day is 0>>
+    [[Chazokov_Demo]]
+<<elseif $chazokov_done_act_1 is 0>>
+	<<if $chazokov is 0>>
+        <<set $chazokov += 1>>
+		[[Chazokov_000]]
+	<<elseif $chazokov is 1>>
+		[[Chazokov_001]]
+	<<endif>>
+<<endif>>
+
+===
+title: Chazokov_000
+tags: 
+colorID: 2
+position: 23871,-2985
+---
+Mae: Hey Mr. Chazokov! #line:f671f6
+Chazokov: Hello Mae! My best worst student! #line:595f46
+Mae: ha ha. yeah. #line:77eefa
+Mae: Liked the constellations. Hated school. #line:e7d705
+Chazokov: Hey, don’t knock school. School is vital for your future! #line:c08df7
+Chazokov: What are you doing back in Possum Springs? #line:c18ef8
+Mae: I dropped out of school. #line:0a5788
+Chazokov: Oh. #line:d14d8c
+Chazokov: Well, if you’re still interested in constellations #line:1af31a
+Chazokov: come by my roof down the hill later this week. #line:807544
+Chazokov: Should have my new telescope set up by then. #line:ec8640
+Mae: Sure thing! #line:aa4ffd
+===
+title: Chazokov_001
+tags: 
+colorID: 2
+position: 24130,-2985
+---
+Chazokov: {emote=stars} #line:343f77
+
+===
+title: Chazokov_Demo
+tags: 
+colorID: 0
+position: 23582,-3122
+---
+<<if $chazokov is 0>>
+	[[Chazokov_calibrating]]	
+<<elseif $chazokov is 1>>
+	[[Chazokov_amazing]]
+<<elseif $chazokov is 2>>
+	[[Chazokov_meaning]]
+<<elseif $chazokov is 3>>
+	[[Chazokov_amateur]]
+<<elseif $chazokov is 4>>
+	[[Chazokov_loop]]
+<<endif>>
+===
+title: Chazokov_calibrating
+tags: demo
+colorID: 0
+position: 23337,-3128
+---
+Mae: <o> #line:4f07ae
+Mae: Hey Mr. Chazokov #line:8fc4e0
+Chazokov: Did you jump down from the next door roof? #line:847e4c
+Varney: {medianLocator} I'm going to call the cops next time, Mae! #line:f9214d
+Mae: Whatevs. #line:66e2b3
+Varney: {medianLocator} What? #line:585894
+Chazokov: I am like you, Mae. I am up here where a bear does not belong. #line:957ed3
+Mae: Are you using a telescope to... uh... #line:1ad01c
+Mae: stare at the sun? #line:4b1a99
+Chazokov: No no no! #line:c93eda
+Chazokov: I am calibrating for tonight, for something [color=dddddd][wave]amazing[/all]! #line:02807b
+Mae: _o_ #line:f993bc
+<<set $chazokov to 1>>
+===
+title: Chazokov_amazing
+tags: demo
+colorID: 0
+position: 22841,-2849
+---
+Mae: <o> #line:50bb4b
+Mae: So what is this amazing thing? #line:cfb403
+Chazokov: Castys will appear in the western sky! #line:9561da
+Mae: Who's Castys? #line:2bc378
+Mae: What's Castys? #line:e134ed
+Chazokov: Castys is a dusk star- a faint and wandering celestial object. #line:b7367f
+Chazokov: The star tells the story of woman who built a tower to heaven #line:551fd7
+Chazokov: And for this the gods sunk her deep into the sea. #line:23256e
+Mae: Wow. Jerks. #line:ed496c
+Chazokov: But even in the depths, she refused to die. #line:460ac3
+Mae: :) #line:329208
+Mae: [size=1.2][shake=.01]DAMN STRAIGHT.[/shake][/size] #line:521d6c
+Mae: :| _o_ #line:829414
+<<set $chazokov to 2>>
+
+===
+title: Chazokov_meaning
+tags: demo
+colorID: 0
+position: 23097,-2831
+---
+Chazokov: What do you think the story means? #line:83c8b2
+<<set $chazokov to 3>>
+[[It means do awesome stuff and never die.|refuse]] #line:e0b75c
+[[It means screw the gods, they are total jerks.|gods]] #line:3e7c6c
+===
+title: Chazokov_gods
+tags: demo
+colorID: 0
+position: 23341,-2596
+---
+Chazokov: The gods are only stand-ins for things we cannot easily control. #line:fa0ab3
+Chazokov: We might just say floods, or cancer, or what have you. #line:2a2122
+Mae: Well, all of those things are jerks too. =_= #line:8a508e
+Chazokov: You'll have no argument from me. #line:b91f62
+Chazokov: But we can't control the stars either #line:a76034
+Chazokov: and they are bigger and brighter than we are. #line:089975
+Mae: I might come back and check out your telescope sometime. o_o #line:39cf3d
+Chazokov: My roof is your roof! #line:a55d77
+<<addToJournal SpaceIsReallyCool>>
+<<unlockDoodle Telescope 1>>
+===
+title: Chazokov_refuse
+tags: demo
+colorID: 0
+position: 23585,-2597
+---
+Chazokov: Ho ho ho! #line:c7233e
+Chazokov: If only it were that easy. #line:6b69a3
+Chazokov: Think of Mr. Applebaum. #line:8a0ce6
+Mae: The statue guy? #line:972fe0
+Chazokov: His statue stands, but he and his mine are gone. #line:a93fec
+Mae: Well, I'm going to live forever. :) #line:de02d9
+Chazokov: I know you will, Mae. #line:ab575d
+Mae: I'm an effing Dracula. \o/ #line:90206c
+Chazokov: Oh no! #line:756e7e
+Mae: :| _o_ #line:ee4349
+<<addToJournal TodoHideSoul>>
+<<unlockDoodle Telescope 2>>
+===
+title: Chazokov_amateur
+tags: demo
+colorID: 0
+position: 23332,-2842
+---
+Mae: <o> #line:6fd2ac
+Mae: Are you an astrologer or something? #line:f1daf4
+Chazokov: The word is [wave]astronomer[/wave], and I am but an amateur. #line:74f5ad
+Mae: You know a lot for someone who isn't paid to know about it. #line:a58a14
+Chazokov: That is one of the saddest sentences I've ever heard. #line:39be2d
+<<wait .5>>
+Mae: _o_ #line:c93ec4
+Mae: Sorry? #line:976668
+Chazokov: Come back some evening, we'll cram some stars into that head of yours. #line:872a8f
+Mae: :) #line:46f60a
+Mae: Will do! #line:08fcea
+Mae: :| #line:5d32d8
+<<set $chazokov to 4>>
+===
+title: Chazokov_loop
+tags: demo
+colorID: 0
+position: 23581,-2844
+---
+Chazokov: My roof is your roof! #line:3260df
+===
+title: ChazokovEnterUnderhillFromTelescope_A2D1
+tags: demo2
+colorID: 3
+position: 24802,-5019
+---
+<<if $found_ds_1 and $found_ds_2>>
+    <<set $telescope_visit_one to 1>>
+    Mae: That was pretty great. #line:7d24a5
+    Chazokov: We can look again in two days time. #line:9d89af
+    Chazokov: Will you be back? #line:c5a6b3
+    -> Yeah if I remember! #line:a21f6e
+    -> Probably not. #line:005bf2
+    Chazokov: Oh, you will be. #line:67b973
+    Chazokov: No one can resist the stars forever. #line:a50da4
+    Mae: That’s spooky, Mr. Chazokov. #line:304062
+    Chazokov: Beh heh heh hehe. #line:3a5ef3
+    <<unlockDoodle DohrCastys>>
+<<else>>
+    [[GiveUpTelescope]]
+<<endif>>
+===
+title: Chazokov_Act2_Act3
+tags: 
+colorID: 0
+position: 25018,-4029
+---
+<<if $act is 2>>
+    <<if $day is 1>>
+        <<if $telescope_visit_one>>
+            [[ChazokovAfterTelescope_A2D1]]
+        <<elseif $met_chazokov is 0>>
+            <<set $met_chazokov to 1>>
+            [[ChazokovFirstIntro]]
+        <<else>>
+            [[ChazzyA2D1]]
+        <<endif>>
+    <<elseif $day is 3>>
+        <<if $telescope_visit_two>>
+            [[ChazokovAfterTelescope_A2D3]]
+        <<elseif $met_chazokov is 0>>
+            <<set $met_chazokov to 1>>
+            [[ChazokovFirstIntro]]
+        <<else>>
+            [[ChazzyA2D3]]
+        <<endif>>
+    <<endif>>
+<<elseif $act is 3>>
+    <<if $day is 1>>
+        <<if $telescope_visit_three>>
+            [[ChazokovAfterTelescope_A3D1]]
+        <<elseif $met_chazokov is 0>>
+            <<set $met_chazokov to 1>>
+            [[ChazokovFirstIntro]]
+        <<else>>
+            [[ChazzyA3D1]]
+        <<endif>>
+    <<elseif $day is 3>>
+        <<if $telescope_visit_four>>
+            [[ChazokovAfterTelescope_A3D3]]
+        <<elseif $met_chazokov is 0>>
+            <<set $met_chazokov to 1>>
+            [[ChazokovFirstIntro]]
+        <<else>>
+            [[ChazzyA3D3]]
+        <<endif>>
+    <<endif>>
+<<endif>>
+===
+title: ChazokovInitLevel
+tags: 
+colorID: 0
+position: 24074,-4439
+---
+<<if $act is 1 and $chazokov_done_act_1 is 0>>
+	<<show Chazokov>>
+    <<hide ChazokovTelescope>>
+	<<warp Chazokov ChazokovPorch>>
+	<<flip Chazokov 1>>
+<<elseif $act is 0 and $day is 0>>
+    <<show Chazokov>>
+    <<flip Chazokov -1>>
+<<elseif $act is 2 and $day is 1>>
+    <<show Chazokov>>
+    <<flip Chazokov -1>>
+<<elseif $act is 2 and $day is 3>>
+    <<show Chazokov>>
+    <<flip Chazokov -1>>
+<<elseif $act is 3 and $day is 1>>
+    <<show Chazokov>>
+    <<flip Chazokov -1>>
+<<elseif $act is 3 and $day is 3>>
+    <<show Chazokov>>
+    <<flip Chazokov -1>>
+<<elseif $act is 4 and $day is 3>>
+    <<show Chazokov>>
+    <<flip Chazokov -1>>
+<<else>>
+    <<hide ChazokovTelescope>>
+    <<hide Chazokov>>
+<<endif>>
+===
+title: ChazokovFirstIntro
+tags: demo2
+colorID: 3
+position: 24781,-4420
+---
+<<set $chazokov_day_intro to 1>>
+Chazokov: Mae Borowski! You could have knocked on the door down there. #line:65c8ed
+Chazokov: Impolite to be on other people’s roofs! #line:4af613
+Varney: Next time I’m gonna call the cops! #line:903270
+Mae: Whatever. #line:bde8e7
+Chazokov: Beh heh heh heh! #line:5eb604
+Chazokov: At any rate, I am glad you have accepted my invitation! #line:d9b95b
+Mae: What are you doing anyway? #line:375644
+Chazokov: Hunting dusk stars! #line:9bf9b3
+-> What’s dusk stars? #line:65e983
+	Chazokov: Wandering stars the light of which does not come through at night. #line:2e4d7b
+	Mae: How does that work? #line:13bc38
+	Chazokov: It is a trick of the atmosphere and setting sunlight. #line:44c0e3
+	Chazokov: Only visible for few weeks every year in the spring and fall, so lovely. #line:32e63b
+	Mae: Neato. #line:bcbd4e
+-> Dusk Stars is the name of my shoegaze band. #line:f30d6e
+	Chazokov: Really? #line:3ee328
+	Mae: No. #line:6abfa4
+	Chazokov: It is music of looking at shoes? #line:d20e4f
+	Mae: With a lot of reverb. #line:8f662a
+	Chazokov: Why are we talking about shoes? #line:89e1a0
+	Mae: I forget. #line:de6e3a
+Chazokov: Want to have a look? #line:1762ae
+-> Yeah! #line:7f3c22
+	Chazokov: Excellent!!! #line:0d77c0
+    <<close>>
+    <<irisOut 1 wait>>
+    <<scene Telescope>>
+-> Maybe later. #line:a59dbc
+	Chazokov: Suit yourself. I’ll be up here all afternoon. #line:79fa3b
+	Mae: See ya! #line:309ad4
+===
+title: ChazokovEnterUnderhillFromTelescope_A2D3
+tags: 
+colorID: 3
+position: 25010,-5016
+---
+<<if $found_ds_3 and $found_ds_4>>
+    <<set $telescope_visit_two to 1>>
+    Mae: Wow. That was pretty great. #line:768d39
+    Chazokov: Come by again! #line:e31a00
+    Chazokov: couple days! #line:77a138
+    Chazokov: we shall hunt the stars! #line:570267
+    Chazokov: BEH HEH HEH! #line:20c568
+    <<unlockDoodle SterlingSimone>>
+<<else>>
+    [[GiveUpTelescope]]
+<<endif>>
+===
+title: ChazzyA2D3
+tags: 
+colorID: 3
+position: 25568,-4161
+---
+<<if $chazokov_day_intro is 0>>
+    <<set $chazokov_day_intro to 1>>
+    Chazokov: Mae Borowski! #line:20f977
+    Mae: Yep! #line:3eee4b
+    Chazokov: Up here on my roof! #line:496119
+    Mae: Yep! #line:523388
+<<endif>>
+Chazokov: Come to hunt some dusk stars? #line:4821d5
+-> Definitely! #line:95e4c6
+    Chazokov: Come have a look! #line:64a039
+    <<close>>
+    <<irisOut 1 wait>>
+    <<scene Telescope>>
+-> No thanks! #line:f00463
+    Chazokov: Suit yourself! #line:75cb49
+===
+title: ChazokovEnterUnderhillFromTelescope_A3D1
+tags: 
+colorID: 4
+position: 25234,-4999
+---
+<<if $found_ds_5 and $found_ds_6>>
+    <<set $telescope_visit_three to 1>>
+    Mae: Wow. That was pretty great. #line:2d2999
+    Chazokov: Yes it was! More in a couple days? #line:bdeff7
+    <<unlockDoodle BigSnakeGramercy>>
+<<else>>
+    [[GiveUpTelescope]]
+<<endif>>
+===
+title: ChazzyA3D1
+tags: 
+colorID: 4
+position: 25670,-3892
+---
+<<if $chazokov_day_intro is 0>>
+    <<set $chazokov_day_intro to 1>>
+    Chazokov: Ms. Mae Borowski! #line:79e581
+    Mae: Present! #line:0f4693
+    Chazokov: MMM! Smell the autumn winds! #line:9ab366
+    Mae: yeah. hard to miss it. #line:a2719b
+    Chazokov: one should not miss such a thing. #line:dcaeee
+    Chazokov: talking of, #line:9450cb
+<<endif>>
+Chazokov: Want to see some stars? #line:13f606
+-> Yeah! #line:eedc67
+    Chazokov: Come have a look! #line:54809e
+    <<close>>
+    <<irisOut 1 wait>>
+    <<scene Telescope>>
+-> No thanks #line:c986be
+    Chazokov: Suit yourself! #line:f062f4
+===
+title: ChazzyA3D3
+tags: 
+colorID: 4
+position: 25644,-3582
+---
+<<if $chazokov_day_intro is 0>>
+    <<set $chazokov_day_intro to 1>>
+    Chazokov: Mae! #line:c111ca
+    Mae: Mr. Chazokov! #line:21b8f9
+    Chazokov: you look at bit worse for wear today, Mae. #line:2035a4
+    Mae: oh, I'm fine. #line:c1a36a
+    Mae: i made it up here, didn't i? #line:30d252
+    Chazokov: watch yourself, lest you fall! #line:482a9f
+    Mae: will do. #line:94c25e
+<<endif>>
+Chazokov: Here to see some stars? #line:f4dc6a
+-> You know it! #line:a6f2e6
+    Chazokov: Come have a look! #line:523d84
+    <<close>>
+    <<irisOut 1 wait>>
+    <<scene Telescope>>
+-> No thanks #line:1f8ea7
+    Chazokov: Suit yourself! #line:bd3d70
+===
+title: ChazokovEnterUnderhillFromTelescope_A3D3
+tags: 
+colorID: 4
+position: 25487,-4990
+---
+<<if $found_ds_7 and $found_ds_8>>
+    <<set $telescope_visit_four to 1>>
+    Mae: Pretty sweet. The stars, I mean. #line:8a5de6
+    Chazokov: I am in agreement #line:513221
+    <<unlockDoodle KolAdina>>
+<<else>>
+    [[GiveUpTelescope]]
+<<endif>>
+===
+title: ChazokovAfterTelescope_A2D1
+tags: demo2
+colorID: 3
+position: 25354,-4430
+---
+Mae: So uh #line:aa9533
+Mae: are those star stories supposed to have morals or something? #line:214911
+Chazokov: I think you have to figure that out for yourself, Mae. #line:bfa9e1
+Mae: If it only means something because I want it to #line:136019
+Mae: then it doesn’t really mean anything, right? #line:377c07
+Chazokov: ... #line:bfa214
+Mae: What? #line:ecbab7
+Chazokov: I have to think about that one for a bit. #line:4e0ad4
+<<set $chazokov_done to 1>>
+
+===
+title: ChazzyA2D1
+tags: demo2
+colorID: 3
+position: 25083,-4449
+---
+Chazokov: Change your mind? #line:2c0d65
+-> Yeah... I mean... stars are cool. #line:9c0fc1
+    Chazokov: That thought has been the basis of my entire career. #line:5bf62e
+    Chazokov: Have a look! #line:84f14a
+    <<close>>
+    <<irisOut 1 wait>>
+    <<scene Telescope>>
+-> No, just looking at your telescope. #line:27b0d6
+    Chazokov: She’s a beauty! #line:40e9da
+===
+title: Chazokov_Act4
+tags: 
+colorID: 6
+position: 23998,-3990
+---
+Chazokov: Hey Mae. #line:c3f2e3
+Mae: Hey Mr. Chazokov! #line:9c152b
+<<if $met_chazokov is 0>>
+    Chazokov: you back from college? #line:d97670
+    Mae: dropped out. #line:0d450e
+    Chazokov: oh. #line:37af77
+    Mae: yeah. #line:6e4984
+    Chazokov: you know I watch you run by so often #line:bac13c
+    Chazokov: and yet #line:55b1f1
+    Chazokov: this is the first we've spoken since you've been home. #line:e23c6d
+    Mae: That's odd. #line:cf23fa
+    Mae: are you up here all the time? #line:88c4d0
+    Chazokov: rather often. It's a great vantage point! #line:8d7ba9
+    Chazokov: you should stop by sometime! see the universe! #line:cc44ca
+    Mae: sounds like a plan, Mr. Chazokov. #line:309682
+    Chazokov: you take care, mae! #line:7ddc81
+    <<set $chazokov_done to 1>>
+<<else>>
+    Mae: Got any more dusk stars we can look at? #line:27a81f
+    Chazokov: one more! #line:31fde3
+    <<close>>
+    <<irisOut 1 wait>>
+    <<scene Telescope>>
+<<endif>>
+===
+title: ChazokovEnterUnderhillFromTelescope_A4D3
+tags: 
+colorID: 6
+position: 25762,-4991
+---
+<<if $found_ds_9>>
+    <<set $telescope_visit_five to 1>>
+    Mae: so what now? #line:867e6a
+    Chazokov: Super moon is coming! #line:651273
+    Mae: what is that? #line:a7d9c4
+    Chazokov: A GIANT MOON!!!!! #line:cfddda
+    Mae: ooooooh that does sound super. #line:80eedf
+    Chazokov: you must come meet me when it happens #line:8636b3
+    Chazokov: it will be late at night #line:9e6150
+    Chazokov: there will be others on their roofs #line:27a7fc
+    Chazokov: you come, i will make the hot chocolate #line:520922
+    Chazokov: WHAT A TIME!!!! #line:105580
+    Mae: that sounds great!!! #line:513f7a
+    Mae: I want to see a super moon!!! #line:b0a188
+    Chazokov: PLAN ON IT! #line:f8410a
+    Mae: see you later, Mr. Chazokov. #line:ec452f
+    Chazokov: See you soon, stargazer. #line:92e638
+    <<unlockDoodle Erskine>>
+    <<set $chazokov_done to 1>>
+<<else>>
+    [[GiveUpTelescope]]
+<<endif>>
+===
+title: ChazokovAfterTelescope_A2D3
+tags: 
+colorID: 3
+position: 25880,-4199
+---
+Mae: <o> #line:449574
+Mae: Are you an astrologer or something? #line:1396c3
+Chazokov: The word is [wave]astronomer[/wave], and I am but an amateur. #line:2c7011
+Mae: You know a lot for someone who isn't paid to know about it. #line:24fc9e
+Chazokov: That is one of the saddest sentences I've ever heard. #line:484289
+<<wait .5>>
+Mae: _o_ #line:12f096
+Mae: Sorry? #line:89f3f3
+Chazokov: Come back in a couple days, we'll cram some stars into that head of yours. #line:c288ce
+Mae: :) #line:8d6962
+Mae: Will do! #line:3f106d
+Mae: :| #line:129ffc
+<<set $chazokov_done to 1>>
+===
+title: ChazokovAfterTelescope_A3D1
+tags: 
+colorID: 4
+position: 25916,-3840
+---
+Mae: so how many stars are there? #line:d7ceeb
+Chazokov: ... #line:96c9d7
+Mae: what? #line:c4c1db
+<<wait 1>>
+Mae: i mean the ones we're looking for! #line:f0f8a5
+Chazokov: should be a few left. but who can say? #line:59c763
+Chazokov: we can only point our telescopes and look. #line:d3559f
+<<set $chazokov_done to 1>>
+===
+title: ChazokovAfterTelescope_A3D3
+tags: 
+colorID: 4
+position: 25889,-3526
+---
+Chazokov: Well! #line:046545
+Mae: well. #line:6a11de
+Chazokov: The stars! #line:a1326c
+Mae: yep. #line:f6e3bb
+Chazokov: mae you should go home and get in bed #line:dd1785
+Mae: nah. #line:710bff
+Chazokov: at least come down through the house #line:430404
+Chazokov: so you don't break your neck falling off a roof. #line:15de78
+Mae: i'm good. #line:3b1520
+Chazokov: i will watch you go #line:e59d11
+Chazokov: and call the ambulance if needed. #line:e5a654
+Mae: thanks. that's really nice. #line:5df403
+Chazokov: least i can do! #line:6981c2
+<<set $chazokov_done to 1>>
+===
+title: GiveUpTelescope
+tags: 
+colorID: 0
+position: 25180,-4709
+---
+<<if $gave_up_telescope is 0>>
+    Mae: I give up. :( \o/ #line:a51068
+    Chazokov: You give up too easily, Mae Borowski! #line:e9fb63
+    Mae: :| _o_ #line:e2deca
+<<elseif $gave_up_telescope is 1>>
+    Mae: Argggh! I'll never figure this out. :( \o/ #line:f5de97
+    Chazokov: That's the attitude! #line:48e634
+    Mae: :| _o_ #line:b8ae07
+<<elseif $gave_up_telescope is 1>>
+    Mae: Blah. :( \o/ #line:042671
+    Chazokov: Maybe the stars are not for everyone... #line:58dfe2
+    Mae: :| _o_ #line:df6596
+<<else>>
+    Mae: Urghhh. :( \o/ #line:1f0d4c
+    Chazokov: I'm disappointed in you, Mae. #line:fc8a77
+    Mae: :| _o_ #line:a289a4
+<<endif>>
+<<set $gave_up_telescope += 1>>
+<<set $chazokov_done to 1>>
+===

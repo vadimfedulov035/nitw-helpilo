@@ -1,0 +1,202 @@
+title: JumpSitOnBridge
+tags: 
+colorID: 0
+position: 471,110
+---
+<<extraZoom -2 3>>
+<<waitForRabies>>
+===
+title: Rabies
+tags: 
+colorID: 0
+position: 769,119
+---
+<<setAnimBool Rabies hidden 1>>
+<<warp Rabies RabiesBridge>>
+<<set $saw_rabies_today to 1>>
+<<setAnimBool Rabies dropped 1>>
+<<wait 1.5>>
+
+<<lookAt Mae Rabies>>
+<<if $act is 4 and $day is 3>>
+    Mae: GL, 6EQEHJ1L #line:cf041b
+    <<wait 1>>
+    Mae: DEPSY UAPN, TB0R SN3HJ YBVEKATEVJHAR. #line:0cf970
+    Mae: NFPAEQJ C0 CB0NMN DPY3JRMN. #line:23964c
+    Mae: R NME% B BNDY, 4T0 TJ1 4EMUN0H, TJ1 D0VSEH 6J1TJ U0UYVRPEH. #line:49655f
+    Mae: U0EDAR MYC0P. #line:3fae0f
+    Mae: N 06J14HJ1X BPEDNTEVEL. #line:4b7129
+    Mae: R 4YBCTBY% 6YDT0 #line:8de8b2
+    Mae: R UP0CT0 PADA, 4T0 TJ1 ECTJ B GT0M MNPE, 4YBAK #line:5339ca
+    <<wait 2>>
+    Mae: X0P0Q0. MHE HYSH0 CUEQNTJ. #line:fe7ded
+    Mae: YBNDNMCR, 6EQEHJ1L. #line:0710f3
+    Mae: SNBN D0VF0 N UP0OBETAL. #line:371471
+<<elseif $saw_rabies_times is 0>>
+    Mae: 0F0! #line:05410b
+    Mae: GL, 6EQEHJ1L!!! #line:23c9f2
+    Mae: KT0 GT0 TYT Y HAC MNVJ1L MYC0PHJ1L K0P0VJ? #line:62d7d5
+    Mae: GT0 TJ1. #line:0d21eb
+    Mae: NTAK, 6EQEHJ1L. #line:46a33b
+    Mae: 4T0 6J1 TJ1 DEVAV C0 BCEL GT0L UPN3PA4H0L XPEHJ%? #line:ba9188
+    Mae: GT0 T04H0 4T0-T0 3HA4NT? #line:58017a
+    <<wait 2>>
+    Mae: 0, DA. X0P0Q0 U0DME4EH0. #line:44211a
+    Mae: HE 3HA%, 4T0 N DYMATJ. #line:47c9d1
+    Mae: R TNUA *0WYWA%* GT0, U0HNMAEQJ? #line:bcf79e
+    Mae: X04Y, 4T06J1 BCE UP0CT0 U0BEPNVN MHE. #line:cb5ff2
+    <<wait 2>>
+    Mae: CUACN60, 6EQEHJ1L. OEH% TB0% U0DDEPSKY. #line:175d19
+    Mae: TJ1 T0VK0BJ1L 0U0CCYM, 6EQEHJ1L. #line:cd9137
+    Mae: X0P0Q0, R YX0SY! #line:731826
+    Mae: SNBN D0VF0 N UP0OBETAL! #line:cdfab2
+    Mae: SPN MYTJ! #line:4f369f
+    <<set $saw_rabies_times += 1>>
+
+<<elseif $saw_rabies_times is 1>>
+    Mae: GL, 6EQEHJ1L. #line:04f76d
+    Mae: KAK U0SNBAEQJ? #line:cfe24d
+    <<wait 2>>
+    Mae: 3D0P0B0, 4T0 TJ1 TAK C4NTAEQJ. #line:11a5c2
+    <<wait 2>>
+    Mae: B QK0VE HAC 3ACTABVRVN UNCATJ C04NHEHNE #line:4412c5
+    Mae: TNUA, FDE 6J1 TJ1 X0TEV 6J1TJ B... HY... VET 15? #line:7afba6
+    Mae: GT0 6J1V0 VEFK0E 3ADAHNE #line:c31be5
+    Mae: U0T0MY 4T0 R PNC0BAVA GT0, K0FDA MHE 6J1V0 15 #line:dfb884
+    Mae: N HN4EF0 HE N3MEHNV0CJ #line:cbaf0c
+    Mae: HY, KP0ME T0F0, 4T0 MHE 20 #line:8fa5df
+    <<wait 2>>
+    Mae: R HA ZEPME. NVN TNUA T0F0. #line:10ed8a
+    Mae: H0 HE C SNB0THJ1MN NVN 0F0P0DAMN #line:1bf751
+    Mae: M0SET, C KYKYPY30L? R V%6V% KYKYPY3HJ1E U0VR. #line:269566
+    Mae: M0SET, 3DECJ, M0SET, B ALDAX0 #line:fde01c
+    Mae: N MJ1 C HEL TAM - HA PNCYHKE GT0 NMEHH0 "0HA" #line:4a7e66
+    Mae: N MJ1 C HEL SEHATJ1. NVN HET... KAK TAM Y HNX B ALDAX0 #line:4a83e4
+    Mae: M0L Y4NTEVJ HAUNCAV: "U0X0SE, 0HN T0VJK0 4T0 U0SEHNVNCJ" #line:b00f7d
+    Mae: H0 R HE NME% B BNDY UPRM B KPALH0CTJ, #line:30ac35
+    Mae: UP0CT0 SNBEQJ C KEM-T0 D0B0VJH0 D0VF0 N BCE. #line:006e93
+    Mae: 6E3 PA3HNOJ1. KAK X04Y, TAK N HA30BY GT0. #line:108793
+    Mae: K0P04E, MJ1 6J1 C06NPAVNCJ N CV0HRVNCJ U0 0KPYFE, N PA60TAVN BMECTE #line:7914cf
+    Mae: N MJ1 TAKNE FPR3HJ1E B03BPAWAVNCJ 6J1 D0M0L #line:8a4d0e
+    Mae: C VNOAMN, 3HAEQJ, HY, TAKNMN 06BETPEHHJ1MN 3A DEHJ #line:606797
+    Mae: A HA YVNOE X0V0D #line:ed1258
+    Mae: N MJ1 3AKA3J1BAEM UNOOY #line:aeb6c1
+    Mae: M0L Y4NTEVJ TNUA: "HA ZEPME? B ALDAX0?" #line:feb60f
+    Mae: HY DA, TAM HA PNCYHKE PRD0M F0P0D0K #line:5c5176
+    <<wait 1>>
+    Mae: 0, GT0 6J1V 60VJQ0L PNCYH0K. #line:429eac
+    <<wait 1>>
+    Mae: N MJ1 EDNM UNOOY, R NFPA% B NFPJ1 HA UPNCTABKE #line:51ea97
+    Mae: A 0HA MACTEPNT 4T0-HN6YDJ #line:03a429
+    Mae: TNUA, PESET U0 DEPEBY NVN KYET 4T0-HN6YDJ #line:f59c57
+    Mae: U0T0MY Y HEE 04EHJ FPY6J1E PYKN #line:560515
+    Mae: Y4NTEVJ: "PE3J6A U0 DEPEBY NVN KY3HE4H0E DEV0 UPRM0 B F0CTNH0L?" #line:d64d38
+    Mae: EWE Y HEE 60TNHKN, H0, TNUA, #line:71b35c
+    Mae: M0N FPR3HJ1E, #line:fc3a8a
+    Mae: A EE - N3H0QEHHJ1E 0T PA60TJ1 #line:88f145
+    Mae: 0T VECA. NVN 0T K0CTPA. NVN EWE 4EF0. #line:83577c
+    Mae: N MJ1 3ABEVN DBYX 3D0P0BEHHJ1X K0T0B B AM6APE #line:ecd82a
+    Mae: N C06AKY #line:c2fe2e
+    Mae: N BCE BMECTE B0EM HA VYHY #line:bc18cb
+    <<wait 2>>
+    Mae: K0E 0 4EM N3 GT0F0 R ME4TAVA C CAM0F0 DETCTBA #line:422526
+    Mae: 0 K0TAX N C06AKE, KAK MNHNMYM #line:44116d
+    Mae: HNKAKNX DETEL #line:9728c8
+    Mae: HNKAKNX DETEL #line:7d7c0b
+    Mae: HNKAKNX DETEL #line:35b5b0
+    <<wait 2>>
+    Mae: 4T0 H0B0F0, 6EQEHJ1L? #line:9e9a36
+    Mae: 6EQEHJ1L HA CEKCE U0MEQAHHJ1L? #line:316c14
+    Mae: Y TE6R 60VJQNE UVAHJ1? #line:4640fe
+    <<wait 2>>
+    Mae: MDA. GT0 T04H0, 6EQEHJ1L. TJ1 UPAB. #line:fd4b6b
+    Mae: VADH0, R U0QVA! #line:7273b9
+    Mae: CUACN60 3A UPNBETNKN! #line:1b5074
+    Mae: YBNDNMCR! SNBN D0VF0 N UP0OBETAL! #line:e6b0e3
+    Mae: SPN MYTJ! #line:cd22a4
+    <<set $saw_rabies_times += 1>>
+
+<<endif>>
+
+<<wait 1>>
+<<setAnimBool Rabies dropped 0>>
+<<lookNearest Mae>>
+<<wait 1.5>>
+<<unlockAchievement RABIES!>>
+<<unlockDoodle Rabies1>>
+// note there is a matching extraZoom in the waitForRabies code
+<<extraZoom 0 3>>
+<<setSortingLayerName Player>>
+===
+title: FrontOfFarm.1
+tags: 
+colorID: 4
+position: 527,480
+---
+Mae: ZEPMEPCTB0. #line:629093
+Mae: GT0 UP0 MEHR. #line:54e5e3
+Mae: ECVN R HAD0VF0 0CTAHYCJ B F0P0DE #line:c4e990
+Mae: R 3ACTAHY EF0 UPEBPAWEHNE B ZEPMY. #line:a48fd5
+===
+title: FrontOfFarm.2
+tags: 
+colorID: 4
+position: 794,474
+---
+Mae: 6EDA BCEX ZEPM #line:e2cff4
+Mae: GT0 K0VN4ECTB0 F0BHA #line:62ef01
+Mae: TNUA, DASE ECVN TJ1 HE DEPSNQJ SNB0THJ1X #line:455cb6
+Mae: TE6E UPNX0DNTCR U0KYUATJ HAB03 #line:1eaa2f
+Mae: N PA36PACJ1BATJ EF0 V0UAT0L U0BC%DY #line:807d38
+Mae: GT0 6E3YMNE. #line:8dcded
+Mae: GT0 DEPJM0B0E 6E3YMNE. #line:c80ae3
+<<end>>
+===
+title: NearSignAct3.1
+tags: 
+colorID: 4
+position: 515,774
+---
+Mae: U0CVE 3HAKA EWE UAPA MNVJ N BJ1LDEQJ 3A Q0CCE #line:9a0987
+Mae: N TAM 6YDYT X0VMJ1 N ZEPMJ1. #line:bae875
+Mae: R HE 3ACTAVA KYKYPY3HJ1L VA6NPNHT GT0L 0CEHJ% #line:45aa19
+Mae: N AM6AP C UPN3PAKAMN B 6PNDDVE. #line:b4e20a
+Mae: BCEFDA 0TKVADJ1BA% HA CVEDY%WNL F0D #line:01a591
+Mae: U0CNDEVKN Y K0CTPA N K0PHD0FN. #line:c18d20
+===
+title: NearSignAct3.2
+tags: 
+colorID: 4
+position: 787,782
+---
+Mae: TAK CTPAHH0, 4T0 F0P0D K0H4AETCR #line:c72c68
+Mae: *6AM!* #line:c33753
+Mae: UPRM0 TYT. #line:6dae07
+Mae: KAK 6YDT0 3DECJ 4EPTA #line:4455c8
+Mae: FDE-T0 3DECJ #line:ce626c
+Mae: HNKT0 EE HE BNDNT #line:350361
+Mae: H0 EE M0SH0 HAPNC0BATJ HA KAPTE. #line:f32445
+<<end>>
+===
+title: NearSignA4D3.1
+tags: 
+colorID: 6
+position: 519,1028
+---
+Mae: NHTEPECH0, 6YDEM VN MJ1 K0FDA-HN6YDJ UP0OBETA%WNM F0P0D0M. #line:e2eb8c
+Mae: TE UAPHN B4EPAQHEL H04J% 6J1VN TAKNE #line:b75ca7
+Mae: U0TEPRHHJ1E. #line:101c8a
+Mae: H0 GT0 6J1V0 6J1 3D0P0B0. #line:cd49fa
+Mae: ECVN 6J1 60F CYWECTB0BAV #line:161077
+Mae: R 6J1 U0UP0CNVA 06 GT0M. #line:455341
+Mae: H0 T0FDA, DYMA%, EMY 6J1 UPNQV0CJ 3AM04NTJ DPYFNX 60F0B #line:df76de
+Mae: N BECJ F0P0D YT0HYV 6J1 B 6AFP0BJ1X PEKAX #line:e853b4
+Mae: R, TNUA #line:0eeb74
+Mae: F0PSYCJ BCEMN HAMN #line:88e271
+Mae: MJ1 SNBEM U0PRD04H0L SN3HJ% #line:73bca4
+Mae: B DEPJM0BEHJK0M, TYU0M, U0PRD04H0M F0P0DE. #line:1ccd78
+<<wait 2>>
+Mae: 3A TE6R, U0CCYM CUPNHFC. #line:3750fa
+Mae: CUACN60, 4T0 SNB0L. #line:e46170
+<<end>>
+===

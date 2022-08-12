@@ -1,0 +1,155 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: -91,369
+---
+<<if $gregg_iq_mansion is 0>>
+    [[Intro]]
+<<else>>
+    [[End]]
+<<endif>>
+===
+title: Intro
+tags: bikeCrash
+colorID: 0
+position: -337,640
+---
+<<walk Mae MaeNextToGregg wait>>
+<<lookAt Gregg Mae>>
+Gregg: Sorry we crashed. #line:f4032d
+Mae: It’s ok. #line:a786fb
+<<if $did_germ_friendship_quest_2>> //or $did_gregg_friendship_quest_3>>
+	Mae: I’m getting used to it. #line:edd97a
+<<endif>>
+Mae: is your bike ok? #line:93dc84
+Gregg: yeah. i can fix it. i'm handy. #line:92924d
+Gregg: It's too bad you didn't get run over. #line:103096
+Mae: It's too bad you didn't crash into a train. #line:00bbfa
+Gregg: It's too bad your corpse didn't get eaten by scavengers. #line:3d1d1c
+Mae: It's too bad you didn't get eaten by scavengers alive. #line:fbbdf2
+Gregg: heh heh. #line:fdc930
+<<close>>
+<<lookRight Gregg>>
+<<wait 1>>
+Mae: So that’s it, huh? #line:179ce8
+Gregg: Yep. #line:572bce
+Mae: Never been out here before. #line:39860c
+Gregg: Me either. #line:4ae7ba
+Mae: Oh... uh... I thought you had a plan. #line:b95cd1
+<<lookAt Gregg Mae>>
+Gregg: Who needs a plan? #line:8d850a
+Gregg: We’re just breaking into an old house. #line:19ec4c
+<<if $did_gregg_friendship_quest_4>>
+	Mae: I thought, you know, you weren’t doing crimes anymore. #line:7342b1
+	Gregg: Eh. #line:b70eb4
+	Gregg: I got one left in me. #line:c82170
+	Gregg: And a promise is a promise. #line:0ce0bf
+	Mae: Thanks dude #line:dc3940
+	Gregg: Best bros forever #line:dd9601
+	Gregg: Also if we get caught I’m blaming the entire thing on you #line:a18c8c
+	Mae: Ok that’s actually pretty fair. #line:696875
+	Gregg: BUT we’re not gonna get caught. #line:827565
+	Mae: Right. #line:4751cc
+<<endif>>
+Mae: Crimes. #line:301b38
+Gregg: Yep. #line:55174a
+Mae: It looks kinda... uh... #line:470b16
+<<lookRight Gregg>>
+Gregg: ...exactly like a haunted house. #line:ab7637
+<<lookAt Gregg Mae>>
+Mae: Yeah #line:dcfa14
+    ->like the one in that old movie #line:ae255f
+        Mae: Figure In The Hall #line:14b788
+        Gregg: uh. that title. #line:8e9268
+        Mae: yeah i know. #line:dd6e65
+        Mae: big old house #line:b8ca65
+    ->like the one on the cover of that book #line:227e21
+        Mae: Haunting Of Arbor Street #line:1535f0
+        Gregg: we have an Arbor Street! #line:5dab68
+        Mae: yeah. book spooked me pretty good as a kid. #line:1201d7
+        Mae: big evil house. #line:7238cd
+Mae: this place looks exactly like it. #line:cf8415
+Gregg: Well, you’re looking for a ghost, right? #line:63ab5c
+<<if $did_angus_investigation_quest or $did_bea_investigation_quest>>
+	Mae: I think it might be looking for me, actually. #line:432824
+	Gregg: Oh yeah, the other night. #line:fde311
+<<endif>>
+Mae: ...yeah... #line:f823f5
+Gregg: Well, whoever this is, maybe we’ll get some info here. #line:e1895f
+Mae: It’s not, like, a person, dude. #line:493739
+Mae: It’s a ghost. #line:de0410
+Gregg: Uh. #line:549f10
+Gregg: Right. Well. #line:7e75c9
+<<close>>
+<<lookRight Gregg>>
+<<wait 1>>
+Gregg: Let’s go find us a ghost. #line:7729d8
+<<close>>
+<<fadeOut 1 wait>>
+<<scene MansionBack>>
+===
+title: End
+tags: 
+colorID: 0
+position: 182,661
+---
+<<wait 1>>
+<<set $night to 1>>
+<<set $did_gregg_investigation_quest to 1>>
+<<if $act is 3 and $day is 2>>
+    <<set $did_gregg_investigation_quest_on_a3d2 to 1>>
+<<endif>>
+<<set $completed_investigation_quests += 1>>
+<<unlockDoodle GreggIQ>>
+Mae: You believe me now? #line:871e5d
+Gregg: I believe we almost got caught by a security guard or something. #line:1cfa88
+Mae: No, I’m telling you I can like… feel it. #line:17c9ed
+Gregg: Ok fine. Ghost. Ghost security guard. #line:c9f0fa
+Mae: Sorry about all of this. #line:4c4cee
+Mae: you crashed your bike #line:2a740e
+Mae: got mauled by an owl #line:101ce7
+Mae: broke through a window #line:c8deca
+Mae: and jumped off a fire escape. #line:d0a0c1
+Gregg: Nah, dude. Wasn’t nothing. #line:e805d1
+Mae: You’re a really good friend, Gregg. #line:b4b2db
+Gregg: Psssh. #line:5252f9
+Gregg: Crimes. #line:3aa2d4
+Mae: Crimes. #line:a9066f
+<<close>>
+<<if $act is 3 and $day is 4>>
+	<<wait 2>>
+    <<enableAnimator GreggIQMansionExterior>>
+    <<playAnimation Mae MaeFreakoutHeadRight>>
+    <<trigger GreggIQMansionExterior Freakout>>
+    <<wait 12>>
+    <<playAmbientSFX _AmbientSFX:mae_head_hurt 3>>
+    <<wait 3>>
+	Mae: AAAAAGH #line:1707ea
+	Gregg: DUDE! WHAT’S WRONG?! #line:363032
+	Mae: uuuughh #line:2aca68
+	Mae: uuuhmmunhmghggm #line:b016a4
+	Gregg: DUDE! TALK TO ME! #line:6121e7
+	Mae: ugh... geez, my head... #line:5e0cc1
+	Mae: we need to talk to... everyone... tonight... #line:59634c
+	Gregg: Ok ok ok can you get on the bike? #line:b61f98
+	Mae: I... think so #line:9aa7f2
+	Gregg: ok. Grab onto me and I’ll get us home quick. #line:0cb52a
+	Mae: what about the ghost? #line:79eaa5
+	Gregg: ain’t no ghosts here. #line:5e6468
+	Mae: let’s go. #line:6b8564
+    <<fadeOut 1 wait>>
+    <<scene GreggAngusApartment>>
+<<else>>
+    <<irisOut 1 wait>>
+    <<scene MaeHouse left>>
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -93,148
+---
+<<if $gregg_iq_mansion is 0>>
+    <<warp Mae MaeOffscreen>>
+<<endif>>
+===

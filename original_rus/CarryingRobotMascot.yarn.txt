@@ -1,0 +1,190 @@
+title: RestartFirst
+tags: 
+colorID: 0
+position: 115,298
+---
+<<if $stairs_gregg_start is 0>>
+    Mae: UP0CTN 3A GT0. #line:863059
+    Gregg: XA-XA, GT0 6J1V0, TNUA, 4YDECH0. #line:9b70a9
+    Mae: HY, R PADA, 4T0 TJ1 HE Y6NVCR. #line:de3bf1
+    Gregg: R 6J1 T04H0 UP0BEV CB0% UPN3PA4HY% SN3HJ HA GT0L VECTHNOE. #line:5db036
+    Mae: 0TUPABVREMCR? #line:54e8f4
+    Gregg: AFA! #line:8dc4ee
+<<elseif $stairs_gregg_start is 1>>
+    Mae: 60SE, N3BNHN #line:9fea1b
+    Gregg: BCE... BCE H0PMAVJH0. #line:631ef7
+    Gregg: DYMA%, R 4T0-T0 BJ1BNXHYV. #line:16d6c7
+    Mae: 0, 4EPT! #line:94a3b1
+    Gregg: NDEM! #line:494bde
+<<elseif $stairs_gregg_start is 2>>
+    Gregg: 6000SE. #line:157ded
+    Mae: 3HAEQJ, GT0 PEAVJH0 FVYUAR NDER! #line:a42412
+    Gregg: 0HA HE 6J1VA 6J1 TAK0L, PA60TAL MJ1 C006WA! #line:d311ca
+    Mae: R UJ1TA%CJ!!! #line:1c9380
+    Gregg: 0X, DABAL. 0DNH, DBA, TPNN!! #line:9e7876
+<<elseif $stairs_gregg_start is 3>>
+    Gregg: X0P0Q0, X0P0Q0. HAM HYSH0 UEPE0CMJ1CVNTJ HAQY CTPATEFN%. #line:cfd365
+    Mae: VADH0, BAVRL. #line:01371e
+    Gregg: KAK HAC4ET T0F0, 4T0 B GT0T PA3 TJ1 HE EDBA Y6NBAEQJ MEHR. #line:2a4f31
+    Mae: 0, VADH0, X0P0Q0, U0T0MY 4T0 B T0T PA3 R 3A6J1VA HE Y6NTJ TE6R. #line:791f41
+    Mae: CUACN60 3A NHZ0PMAON%. #line:1b06aa
+<<elseif $stairs_gregg_start is 4>>
+    Gregg: Y MEHR BCR SN3HJ UP0HECVACJ UEPED FVA3AMN HA GT0L VECTHNOE. #line:fb1bac
+    Mae: GT0, TNUA, METAZ0PA. #line:6b7c43
+    Gregg: R UP0CT0 X04Y U0DHRTJ GTY QTYKY!!! #line:bb0852
+    Gregg: U04EMY 60F U0KNHYV MEHR?!?! #line:dff678
+    Mae: VADH0, U0LDEM. R HA4NHA% YCTABATJ. #line:8692a6
+    Gregg: 0KEL-0KEL-0KEL. #line:ca9a66
+<<elseif $stairs_gregg_start is 5>>
+    Gregg: R UP0CT0 BUADA% B DEUPECCN%. #line:de0d00
+    Mae: 00Y, 4EV, HE TEPRL HADESDY. #line:e8432b
+    Mae: B CMJ1CVE, MJ1 M0SEM UP0CT0 YLTN, H0, TNUA, HE TEPRL HADESDY! #line:13c088
+    Gregg: PPPPPPPPAAAAFX!!!! #line:9a4421
+    Gregg: U0LDEM!!! #line:3f6145
+<<else>>
+    [[ScrewIt]]
+<<endif>>
+
+<<set $stairs_gregg_start += 1>>
+===
+title: Wait
+tags: 
+colorID: 0
+position: 633,-4
+---
+<<if $stairs_gregg_wait is 0>>
+    Gregg: U0D0SDN CEKYHDY! #line:acfc23
+<<elseif $stairs_gregg_wait is 1>>
+    Gregg: HN4EF0 CE6E, TAM K0B60L! #line:59dca2
+<<elseif $stairs_gregg_wait is 2>>
+    Gregg: DEPSNCJ! #line:2b604c
+<<endif>>
+
+<<set $stairs_gregg_wait += 1>>
+===
+title: Success
+tags: 
+colorID: 0
+position: 633,226
+---
+Gregg: DA! CVABA 60FY, DA!!! #line:66c6cd
+===
+title: FallDownStairs
+tags: 
+colorID: 0
+position: 864,298
+---
+Gregg: A-A-A-A-A!!! D: #line:0c41e3
+Gregg: _o_ :| #line:b46212
+===
+title: NewFlightOfStairs
+tags: 
+colorID: 0
+position: 1139,243
+---
+<<if $stairs_gregg_new is 0>>
+    Mae: R PYK HE 4YBCTBY%, 4YBAK. #line:315394
+    Gregg: A R BCEF0 TEVA, 4YBNXA. #line:e90e80
+    Mae: Y-Y-Y-Y-Y-YX! #line:94b58d
+    Gregg: DABAL UP0CT0 U0K0H4NM C GTNM! #line:44059f
+<<elseif $stairs_gregg_new is 1>>
+
+<<endif>>
+<<set $stairs_gregg_new += 1>>
+===
+title: Start
+tags: 
+colorID: 0
+position: -77,65
+---
+Mae: 0 60SE, D0 CNX U0P 4Y% 3AUAX KVER. #line:dcf16d
+Gregg: M0N C0CEDN U0DYMA%T, 4T0 R CNSY HA HAPK0TE #line:9b8614
+Gregg: NVN 4T0 UJ1TA%CJ CKVENTJ KAKY%-HN6YDJ XPEHJ. #line:22fe99
+Mae: TAK. 0KEL. #line:41b047
+Mae: MJ1 CEPJE3H0 U0TAWNM EE HA CAMJ1L BEPX? #line:06de47
+Gregg: AFA, KPYT0 6YDET. #line:dc7b50
+Mae: H0 TJ1 BEDJ U0MPEQJ #line:54dc19
+Gregg: XA-XA-XA-XA! #line:6e79d7
+Mae: TE6R PA3DABNT B VEUEQKY. #line:4e5c80
+Gregg: XA-XA-XA. #line:56e3b7
+Gregg: H0, CEPJE3H0, HE Y6NBAL MEHR. #line:317923
+Gregg: CVEDN 3A MH0L, R 6YDY U0DABATJ CNFHAVJ1. #line:3ead83
+Mae: RCH0-U0HRTH0. #line:458b3c
+===
+title: Restart
+tags: 
+colorID: 0
+position: 258,18
+---
+<<if $stairs_gregg_new is 0>>
+    [[RestartFirst]]
+<<else>>
+    [[RestartSecond]]
+<<endif>>
+===
+title: RestartSecond
+tags: 
+colorID: 0
+position: 384,307
+---
+<<if $stairs_gregg_start is 0>>
+    Mae: N3BNHN!!! #line:8b14ad
+    Gregg: YYYYYXX. #line:2ff466
+<<elseif $stairs_gregg_start is 1>>
+    Mae: PAAAAAAA! #line:23339e
+    Gregg: A-A-A-A-A, U0QVN! #line:7db9be
+<<elseif $stairs_gregg_start is 2>>
+    Mae: P-P-P-P-P #line:ce564e
+    Gregg: *ZYX* *YZ* *XYX* #line:c32a88
+    Mae: Y-Y-YZ! #line:c1dd1a
+    Gregg: X0P0Q0, U0QVN. #line:7adbcc
+<<elseif $stairs_gregg_start is 3>>
+    Mae: R X04Y YMEPETJ. #line:03163f
+    Gregg: R HE YBEPEH, HE YMEPVN VN MJ1. #line:fa5f8f
+    Mae: GT0 AD. GT0 HACT0RWNL AD. #line:09ea99
+    Gregg: MJ1 UP0KVRTJ1. #line:6881ca
+    Mae: VADH0, MJ1 GT0 DEVAEM? #line:4a4770
+    Gregg: DAAA, U0LDEM. #line:a7b17e
+<<elseif $stairs_gregg_start is 4>>
+    Mae: Y MEHR 60VNT F0V0BA. #line:b5ccb3
+    Gregg: Y MEHR 60VNT SN3HJ, 6J1CTPEL. #line:923693
+    Gregg: U0QVN. #line:1b7152
+<<elseif $stairs_gregg_start is 5>>
+    Mae: ...3A4EM... #line:cfe38a
+    Gregg: R YSE N HE 3HA% #line:4140b1
+    Gregg: U0QVN. #line:e469b3
+<<else>>
+    [[ScrewIt]]
+<<endif>>
+
+<<set $stairs_gregg_start += 1>>
+===
+title: ScrewIt
+tags: 
+colorID: 0
+position: 222,579
+---
+Gregg: HAXEP GT0! BJ13J1BAEM VNZT! #line:d7010b
+Mae: MJ1 M0FVN BJ13BATJ VNZT? #line:1e2a3e
+Gregg: DA? #line:cff62f
+Gregg: H0 GT0T UYTJ UPN6VNSAET HAC K HAQEL DBEPN. #line:9809b9
+Mae: R HNK0FDA HE UP0WY TE6R 3A GT0. #line:9e4630
+Gregg: 4T0??! #line:7fb45e
+<<irisOut 1 wait>>
+<<scene GreggAngusApartment>>
+===
+title: ReachedLanding
+tags: 
+colorID: 0
+position: 1146,9
+---
+<<fadeIn 1 wait>>
+Gregg: XA-XA-XA, R 04EHJ YCTAV #line:ee1f15
+Mae: 3HA%, R T0SE #line:8930e6
+Gregg: H0 TJ1 Y4TN, #line:79c953
+Gregg: 4T0 R BECJ DEHJ PA60TAV UEPED GTNM. #line:c56407
+Mae: PY4A%CJ, TJ1 UP0CNSNBAV 3ADHNOY BECJ DEHJ. #line:436069
+Gregg: T0VJK0 0T4ACTN! R MH0F0 CT0RV! #line:0de821
+<<close>>
+<<fadeOut 1 wait>>
+===

@@ -1,0 +1,219 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: -436,157
+---
+<<if $did_angus_constellations is 0>>
+    [[Enter00]]
+<<else>>
+    [[Enter01]]
+<<endif>>
+===
+title: CliffEdge
+tags: 
+colorID: 0
+position: 205,178
+---
+Mae: 0F0. 3DECJ N UPABDA 04EHJ BJ1C0K0. #line:568927
+Mae: N 04EHJ DAVEK0! #line:45b623
+Mae: R DASE HE BNSY F0P0D 0TC%DA #line:9b625b
+Angus: 0H %SHEE, 3A TEM XPE6T0M. #line:20bd72
+<<close>>
+<<walk Mae MaeLog wait>>
+<<warpSit>>
+<<allSpeechBubblesToY 2.6>>
+Mae: TAK 4T0, 6YDEM UP0CT0 CNDETJ N SDATJ, U0KA 4T0-HN6YDJ UP0N30LDET? #line:4cdcd3
+Angus: TJ1 MHE CKASN! TJ1 SE TYT GKCUEPT. #line:068b9c
+Mae: DYMA%, MJ1 6YDEM UP0CT0 CNDETJ N SDATJ, U0KA 4T0-HN6YDJ UP0N30LDET. #line:cfc122
+<<close>>
+<<wait 4>>
+Angus: X0P0QAR H04J. #line:3e3560
+Mae: DA. #line:4e7b6c
+Mae: 6YDY4N B K0VVEDSE, R HE BNDEVA TAK MH0F0 3BE3D. #line:e04444
+Mae: N MHE N3-3A GT0F0 6J1V0 FPYCTH0. #line:fbe298
+Angus: HY, DA. 3DECJ N UPABDA 3D0P0B0. #line:c5718a
+Mae: X0TEVA 6J1 R 3HATJ BCE C03BE3DNR, KAK TJ1. #line:80a0b2
+Angus: 4T0? #line:bbfcfd
+Mae: TJ1 3HAEQJ NX HA3BAHNR, NCT0PNN N UP04EE. #line:82a7ea
+Angus: X0TEV0CJ 6J1. R HNKAK HE M0FY 3AU0MHNTJ NX... #line:09044a
+Angus: KASETCR, B0H T0, GT0, TNUA, K0V0K0V NVN 4T0? #line:39ad59
+Mae: HET. HET-HET-HET. #line:1453cd
+Mae: U0MHNQJ T0 BPEMR, UP0BEDEHH0E Y K0CTPA, B0 BPEMR KAHNKYV? #line:3832a4
+Mae: MJ1 TJ1KAVN B V%60E C03BE3DNE, #line:1ceec3
+Mae: A TJ1 PACCKA3J1BAV HAM BCE 0 HEM. #line:52a860
+Angus: BCE 6J1V0 HE C0BCEM TAK. #line:6d75e6
+Mae: 0F0. M0SET 6J1TJ, T0FDA GT0 6J1V C0H NVN TNUA T0F0. #line:b11e9f
+Mae: 60SE, R TEUEPJ N HE BCU0MH%. #line:26735a
+Angus: NHTEPECH0, KAKNE HEHACT0RWNE C03BE3DNR N NX NCT0PNN TJ1 CE6E HAME4TAVA. #line:87751e
+Mae: VADH0, U0PADYL MEHR. #line:d1e581
+Mae: R HAX0SY C03BE3DNE, A TJ1 PACCKA3J1BAEQJ MHE BCE 0 HEM. #line:70f896
+Angus: VADH0. #line:b39b18
+//aperture out//
+<<close>>
+<<wait 1>>
+<<allSpeechBubblesToY 0>>
+<<irisOut 1 wait>>
+<<scene AngusConstellations>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -685,134
+---
+<<flip Angus -1>>
+<<playerFace -1>>
+<<setCanInteract Angus 0>>
+
+<<if $did_angus_constellations>>
+    <<warp Mae MaeLog>>
+    <<warp Angus AngusLog>>
+    <<warpSit>>
+    <<sit Angus>>
+<<else>>
+    <<warp Mae MaeOffRight>>
+    <<warp Angus AngusOffRight>>
+    <<hide Eide>>
+<<endif>>
+===
+title: Graves
+tags: 
+colorID: 0
+position: -115,167
+---
+Mae: M0FNVJ1, XAX? #line:eab297
+Angus: DA, 0HN UPNHADVESAT... 3A6J1V K0MY. #line:0e9269
+Angus: 0HN 6J1VN B0BVE4EHJ1 B U0CCYMCKY% 60LH%. #line:89e253
+Angus: 4T0-T0 TNUA 3A6ACT0BKN PA604NX #line:b0b9ed
+Angus: QAXTEPJ1 UP0TNB HAON0HAVJH0L FBAPDNN #line:654d77
+Angus: GT0 UP0N30QV0 C0THN VET HA3AD, B GT0M F0P0DE. #line:704d96
+Mae: U04EMY 0HN 3DECJ? #line:178772
+Angus: DYMA%, GT0 6J1VN UV0XNE PE6RTA. #line:e12f42
+Angus: N KT0-T0 N3 QAXTEP0B #line:b0c73f
+Angus: HE X0TEV, 4T0 6J1 NX X0P0HNVN B F0P0DE. #line:963573
+Mae: 0Y. XAX. #line:98f9ef
+Angus: Y HAC 0CTAVNCJ CTAPJ1E KVAD6NWA, EWE C #line:11b77a
+Angus: K0V0HNAVJHJ1X BPEMEH. #line:f803af
+Angus: DYMA%, 3DECJ T0SE 0DH0 HALDETCR. #line:0b0108
+Mae: VADH0. #line:89dc10
+Mae: GT0 SYTK0. #line:97f813
+Angus: UZ. UP0CT0 K0CTN. #line:8b6b6b
+Mae: DPEBHNE AKYVJN K0CTN!!! #line:87ec56
+Angus: AFA, BNDNQJ? HE4EF0 TYT 60RTJCR. #line:267cb8
+<<close>>
+//Angus walks up to the log and sits down. You can wander until you go and talk to him//
+<<walkAndSit Angus AngusLog>>
+===
+title: Enter01
+tags: 
+colorID: 0
+position: -288,498
+---
+<<allSpeechBubblesToY 2.6>>
+Angus: DA. #line:dcfaad
+Mae: DA. #line:ea1e16
+Mae: HYSH0 UPNX0DNTJ C%DA U04AWE. #line:8c6804
+Angus: XA-XA-XA! #line:9b7160
+Angus: AFA. #line:61989e
+<<toggleSitSwings Mae false>>
+<<musicFadeOut 8>>
+<<playAmbientSFX _AmbientSFX:amb_ibon 8>>
+Angus: HE CM0TPN HA HEF0. #line:1ff00a
+Mae: HA K0F0? #line:7a2ca3
+Angus: KT0-T0 CT0NT UPRM0 3A HAMN. #line:6afb53
+<<cameraLookAt CameraEide 8>>
+Angus: B DEPEBJRX. #line:e91340
+Mae: B0T 4EPT. #line:949784
+Mae: B0T 4EPT. #line:74ef00
+Mae: KAK 0H BJ1FVRDNT? #line:994853
+Angus: BJ1C0KNL. H0CNT KAK0E-T0 CTPAHH0E UAVJT0. #line:7af752
+Angus: KAK CUEO0DESDA NVN 4T0-T0 TNUA T0F0. #line:959306
+Mae: 60SE #line:1c2609
+Mae: GT0 UPN3PAK #line:5382c9
+Angus: MEHR 60VJQE 6ECU0K0NT, 4T0 GT0 SNB0L 4EV0BEK #line:3fe902
+Angus: N 0H CT0NT MESDY DEPEBJEB N URVNTCR HA HAC #line:5661f1
+Mae: 0 60SE, 0 60SE #line:4b28aa
+Angus: HY #line:602412
+Angus: 6E3 UAHNKN #line:10531b
+Angus: DEVAL, KAK R #line:a4758a
+<<close>>
+<<wait 1>>
+<<allSpeechBubblesToY 0>>
+//angus stands up and turns around//
+<<walk Angus AngusTurnAround wait>>
+Angus: GL, TAM #line:a178a7
+<<close>>
+<<wait 2>>
+Angus: PEQNV UP0FYVRTJCR? #line:583d0a
+Angus: X0P0QAR H04J #line:a377e6
+<<close>>
+<<wait 2>>
+Angus: 0H... HE... 0TBE4AET... #line:7b59de
+Mae: U0-M0EMY, 0H HACTP0EH BPASDE6H0? #line:267b2a
+Angus: 0UPEDEVEHH0. #line:24eb13
+<<close>>
+<<jump>>
+<<wait 1>>
+<<walk Mae MaeTurnAround>>
+Mae: GL!!! #line:47a757
+Mae: R 3HA%, 4T0 TJ1 CDEVAV!!! #line:e399d5
+Angus: MGL, HET... #line:19268c
+Mae: R BNDEVA TE6R!!! #line:9b07ef
+Angus: X0P0Q0, KASETCR, HAM U0PA 6ESATJ. #line:ff88c7
+Angus: HAM HYSH0 BEPHYTJCR K MAQNHE #line:ab68c9
+Mae: H0 TB0R ACTMA #line:93fde8
+//angus does inhaler animation//
+Angus: Y MEHR ECTJ NHFAVRT0P. #line:c97d02
+Angus: DA N B03DYX CBESNL. #line:5e4a92
+Angus: HNKT0 HA HE6E NVN HA 3EMVE HE CM0SET 0CTAH0BNTJ MEHR #line:732109
+Mae: X0P0Q0-X0P0Q0, U06ESAVN. #line:2849b4
+Angus: DJ1QNM FVY60K0. #line:90c9e3
+Angus: BD0X. #line:eb20d3
+Angus: BJ1D0X. #line:055243
+Angus: X0P0Q0. #line:2e7431
+<<run Angus AngusOffRight>>
+//Angus begins running to the right.//
+// next plays as he runs until he gets offscreen
+<<alwaysUseWaitTime 1>>
+<<waitTime .5>>
+Angus:{width=4}A-A-A-A-A-A-P-P-P-P-P-P-P-P!!! #line:4c97be
+//After half a second Mae starts running right behind him.
+<<run Mae MaeOffRight>>
+<<cameraLookAt CameraGraves 12>>
+//The camera follows them until it stops on the graves.
+<<wait 9>>
+//They run offscreen.
+<<wait 6>>
+//It’s quiet.
+<<wait 4>>
+//After several seconds Eide across the screen through the trees
+//and the screen cuts to black//
+<<trigger EideRun Run>>
+<<wait 2.16>>
+<<alwaysUseWaitTime 0>>
+<<fadeOut .0001 wait>>
+<<wait 4>>
+<<scene BeaCar>>
+===
+title: Enter00
+tags: 
+colorID: 0
+position: -578,483
+---
+<<hide Collision:Right>>
+<<walk Angus AngusInFromRight>>
+<<walk Mae MaeInFromRight>>
+<<fadeOutMusic 3>>
+<<waitForMove Angus>>
+<<wait 1>>
+Mae: 0F0 #line:3bd83e
+Mae: HY N U0DJEM4NK. #line:fced1f
+Angus: 0H DABAVCR MHE KYDA VEF4E, K0DA MHE 6J1V0 11. #line:1e029c
+Angus: MJ1 UP0QVN 4EPE3, CK0VJK0, TP0E B0P0T? #line:7c2473
+Mae: R C6NVACJ C0 C4ETA. #line:dbdda6
+Angus: CTPAHH0. PAHJQE 0HN 6J1VN 0TKPJ1TJ1. #line:b77e3f
+Mae: XM. #line:49f30d
+Mae: 0TUPABVREMCR? #line:419621
+Angus: HEMH0F0 0CTAV0CJ, NDEM BBEPX. #line:4042c1
+<<walk Angus AngusGraves 1>>
+<<show Collision:Right>>
+===

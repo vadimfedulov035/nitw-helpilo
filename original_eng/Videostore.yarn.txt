@@ -1,0 +1,487 @@
+title: InitLevel_A1D2
+tags: 
+colorID: 2
+position: -943,-1045
+---
+<<show VideostoreGirl>>
+===
+title: VideostoreGirl_00_01
+tags: 
+colorID: 2
+position: -704,-708
+---
+Mae: Nightshift, huh? That's cool. #line:f7181e
+VideostoreGirl: I'm at home with my baby during the day #line:e18ec2
+VideostoreGirl: until my mom gets back from work? #line:e18d25
+Mae: Ew, babies. #line:1fa758
+VideostoreGirl: Pretty cool job, though? #line:65e580
+VideostoreGirl: Get to watch movies, eat candy, meet cute guys? #line:e8130c
+Mae: Ew, cute guys. #line:d8fa21
+VideostoreGirl: What's wrong with guys? #line:7d2c2d
+Mae: I dunno. Cute guys are overrated. #line:d88144
+<<set $not_cute_ones to 1>>
+===
+title: VideostoreGirl_00_02
+tags: 
+colorID: 2
+position: -569,-466
+---
+VideostoreGirl:{emote=heartbreak} #line:4458d6
+<<close>>
+VideostoreGirl:{emote=music} #line:4916cf
+<<close>>
+===
+title: InitLevel_A1D3
+tags: 
+colorID: 2
+position: -30,-1056
+---
+<<show Angus>>
+===
+title: Angus_A1D3_00
+tags: 
+colorID: 2
+position: -134,-14
+---
+Angus: Hey, Mae! #line:916eee
+Angus: How's the laptop running? #line:a500ad
+Mae: Really good! Thanks so much! #line:d007d7
+Angus: Glad to be of service. #line:465ac4
+===
+title: Angus_A1D3_01
+tags: 
+colorID: 2
+position: 119,-12
+---
+Mae: So, like... #line:479158
+Angus: Yeah? #line:8ef20d
+[[Who rents movies anymore?|WhoRentsMoviesAnymore]] #line:a7ae9d
+[[How is this store still open?|HowIsThisStoreStillOpen]] #line:ec3a65
+===
+title: WhoRentsMoviesAnymore
+tags: 
+colorID: 2
+position: 75,255
+---
+Angus: More people than you'd think! #line:331e35
+Angus: Older people who don’t know any better. #line:202a2a
+Angus: Kids who for some reason can't get something. #line:4bd6b9
+Mae: Do you ever want to tell them? #line:f50eee
+Angus: What, about the internet? #line:e1f82d
+Angus: About rental by mail? #line:5298b5
+Mae: Yeah. #line:f7183b
+Angus: Mae, it's not my job to save them #line:55974d
+Angus: I am paid to stand here, assist when needed, #line:6cdd64
+Angus: take their money, and not openly judge them. #line:959dc7
+===
+title: HowIsThisStoreStillOpen
+tags: 
+colorID: 2
+position: 329,260
+---
+Angus: There's a certain romance to vhs and dvd #line:a9fac1
+Angus: that simply cannot be matched. #line:3a253e
+Mae: ...really? #line:392167
+Angus: Nope. #line:6c2540
+Mae: Wait, you actually have vhs? #line:991d98
+Angus: Mostly the adult section back behind the curtain. #line:a91e4f
+Mae: WHOA, really? #line:46f940
+Angus: Yeah some folks are like really into seeking them out. #line:61fb31
+Angus: It's like a whole little scene that goes back before the internet. #line:e376d7
+Angus: We had a historian in there last month looking for some obscure video. #line:5b5247
+Mae: How do you get THAT job? #line:ae1a5f
+Angus: I think that's the kind of job you can only have #line:b2ca6c
+Angus: if you don’t need to have a job. #line:434af6
+===
+title: Angus_A1D3_02
+tags: 
+colorID: 2
+position: 404,-25
+---
+Mae: So this party tonight, huh? #line:39d06a
+Angus: Yeah. Should be fun? #line:99f3ba
+Mae: I hadn't pegged you as a party person. #line:85a142
+Angus: I'm not really. But parties with Gregg are different. #line:949f12
+Mae: How so? #line:ede6a3
+Angus: You know how you want to just go and stand in a corner sometimes? #line:10da2a
+Mae: Yeah. #line:eacca5
+Angus: Gregg's my corner. #line:6d7adf
+Mae: Awwww. #line:92ff49
+Angus: Ha ha shut up #line:f01675
+===
+title: Angus_A1D3_03
+tags: 
+colorID: 2
+position: 654,-16
+---
+Mae: See ya later! #line:bca10d
+Angus: For sure! #line:a81c47
+===
+title: Angus_A1D3
+tags: 
+colorID: 2
+position: 273,-284
+---
+<<if $angus is 0>>
+    <<set $angus += 1>>
+    [[Angus_A1D3_00]]
+<<elseif $angus is 1>>
+    <<set $angus += 1>>
+    [[Angus_A1D3_01]]
+<<elseif $angus is 2>>
+    <<set $angus += 1>>
+    [[Angus_A1D3_02]]
+<<elseif $angus is 3>>
+    <<set $angus += 1>>
+    <<set $angus_done to 1>>
+    [[Angus_A1D3_03]]
+<<endif>>
+    
+===
+title: VideostoreGirl
+tags: 
+colorID: 0
+position: -1094,-157
+---
+<<if $act is 2 and $day is 2>>
+    [[VideostoreGirl_A2D2]]
+<<elseif $knows_angus_at_videostore > 0>>
+    <<if $videostore_girl is 0>>
+        <<set $videostore_girl += 1>>
+        [[VideostoreGirl_00_00]]
+    <<elseif $videostore_girl is 1>>
+        <<set $videostore_girl += 1>>
+        [[VideostoreGirl_00_01]]
+    <<else>>
+        [[VideostoreGirl_00_02]]
+    <<endif>>
+<<else>>
+    [[VideostoreGirl_CantHelp]]
+<<endif>>
+
+===
+title: VideostoreGirl_00_00
+tags: 
+colorID: 2
+position: -1043,-734
+---
+VideostoreGirl: Can I help you? #line:bdbd4f
+Mae: Where's Angus?  #line:ab4165
+VideostoreGirl: Oh he works dayshift? #line:ec7fd4
+Mae: It is day? #line:ff94f8
+VideostoreGirl: I got here early? #line:cd0ea2
+<<if $knows_apartment_location is 0>>
+	Mae: Any idea where he is? #line:6ecd44
+	VideostoreGirl: I assume he went home? #line:927bbf
+	VideostoreGirl: He lives next door? #line:6c1cbc
+    VideostoreGirl: Go inside and ring the buzzer? #line:e78e65
+    <<set $knows_apartment_location to 1>>
+<<endif>>
+Mae: Wait. Why does everything you say sound like a question? #line:2e8683
+VideostoreGirl: You do the same thing? #line:0a3398
+VideostoreGirl: I just didn’t comment on it? #line:0ff568
+Mae: Really? #line:2549ae
+VideostoreGirl: Yeah? #line:0be315
+Mae: Huh? #line:26e987
+<<set $apartment_unlocked to 1>>
+===
+title: VideostoreGirl_CantHelp
+tags: 
+colorID: 2
+position: -717,76
+---
+VideostoreGirl: Can I help you? #line:ff6184
+Mae: I don't think so... #line:e59626
+===
+title: PreInitLevel
+tags: 
+colorID: 0
+position: -183,-1518
+---
+<<hide Angus>>
+<<hide VideostoreGirl>>
+===
+title: InitLevel_A2D1
+tags: 
+colorID: 3
+position: 866,-1064
+---
+<<show Angus>>
+===
+title: InitLevel_A2D2
+tags: 
+colorID: 3
+position: 1124,-1059
+---
+<<show VideostoreGirl>>
+===
+title: VideostoreGirl_A2D2
+tags: 
+colorID: 3
+position: 1119,-748
+---
+VideostoreGirl:{emote=heartbreak} #line:ab7b35
+<<close>>
+VideostoreGirl:{emote=music} #line:4c5c56
+<<close>>
+===
+title: InitLevel_A2D3
+tags: 
+colorID: 3
+position: 1387,-1054
+---
+<<show Angus>>
+===
+title: InitLevel_A2D4
+tags: 
+colorID: 3
+position: 1643,-1056
+---
+<<show Angus>>
+===
+title: Angus_A2D1
+tags: 
+colorID: 3
+position: 812,-765
+---
+Angus: Hey Mae. #line:3e2005
+Mae: Hey Angus. How's it going? #line:8053c8
+Angus: You are like the third person I've seen today. #line:dcdf34
+Mae: I know you've explained it but I have zero clue how this place stays open. #line:12064e
+Angus: You'd be surprised. #line:5b1b34
+Mae: Band practice later? #line:5c56ea
+Angus: Gotta warm up my voice! #line:bdf9a2
+Mae: You growl real good. #line:093198
+Angus: Thanks. I'm a born growler. #line:44bd23
+Angus: When I was a baby I never cried #line:8210bf
+Angus: I just growled. #line:2822e8
+Mae: I think I cried nonstop until I was like 9 #line:16fb78
+Mae: and then I cried all the time again starting at like 13... #line:4a0ec8
+Angus: You had a good three years of not crying in there! #line:7c805a
+Mae: They were really productive years. #line:c408f8
+Angus: Heh heh. #line:db6048
+<<set $angus_done to 1>>
+===
+title: InitLevel_A3D1
+tags: 
+colorID: 5
+position: 1976,-1064
+---
+<<show Angus>>
+===
+title: Angus_A3D1
+tags: 
+colorID: 5
+position: 1981,-799
+---
+Angus: You up for band practice in a bit? #line:fddce9
+Mae: I guess. Weird night. #line:5a796c
+Angus: How so? #line:626638
+Mae: I'll tell you about it later. #line:166835
+<<set $angus_done to 1>>
+===
+title: InitLevel_A3D2
+tags: 
+colorID: 5
+position: 2274,-1036
+---
+<<show Angus>>
+===
+title: InitLevel_A3D3
+tags: 
+colorID: 5
+position: 2556,-1033
+---
+<<show Angus>>
+===
+title: InitLevel_A3D4
+tags: 
+colorID: 5
+position: 2844,-1042
+---
+<<show Angus>>
+===
+title: Angus_A3D2
+tags: 
+colorID: 5
+position: 2258,-800
+---
+Angus: So, I said I could like #line:ec8502
+Angus: take you up to the park. #line:1b9e9f
+Mae: you did indeed. #line:46adb0
+Angus: You ready to go? #line:5bbc90
+-> Naw #line:0b49e7
+-> Yeah #line:8fc021
+    [[InvestigationQuest]]
+===
+title: Angus_A3D3
+tags: 
+colorID: 5
+position: 2540,-787
+---
+Angus: Hey Mae. #line:75abda
+Mae: Hey dude. #line:6f5563
+Mae: Totally what's up. #line:e2038d
+Angus: Nothing. #line:e9f0a2
+Mae: You ok? #line:eb6b20
+Angus: Yep. #line:87e4b9
+Mae: ...ok #line:e78413
+Angus: Sorry. Don't mind me. #line:a3ba1f
+<<set $angus_done to 1>>
+===
+title: Angus_A3D4
+tags: 
+colorID: 5
+position: 2840,-793
+---
+<<if $did_angus_investigation_quest>>
+    Angus: My legs are still sore from running from that dude. #line:7e8108
+    Mae: I'm just sore in general. #line:27c87f
+    Mae: and tired. #line:e0de1a
+    Mae: in general. #line:993b16
+    Angus: My life doesn't involve a lot of running. #line:91649f
+    Mae: heh heh #line:a33e0d
+    Mae: I feel like I should have #line:0f14ff
+    Mae: some sort of clever comment to follow that up. #line:659bab
+    Angus: You can get back to me. #line:4dbe9c
+    <<set $angus_done to 1>>
+<<else>>
+    Angus: So, I said I could like #line:ea0bfd
+    Angus: take you up to the park. #line:bf6b7d
+    Mae: you did indeed. #line:178b0b
+    Mae: I'm so tired. #line:c024d0
+    Angus: you gonna be ok? #line:93750d
+    Mae: yeah, i'll be fine #line:6140b6
+    Angus: You up for this park trip? #line:3082cc
+    -> Naw #line:290c9e
+    -> Yeah #line:a4e818
+        [[InvestigationQuest]]
+<<endif>>
+===
+title: InvestigationQuest
+tags: 
+colorID: 5
+position: 2501,-439
+---
+<<set $angus_investigation_quest to 1>>
+
+<<if $did_gregg_friendship_quest_4>>
+	Mae: Wow. Bea let you have the car two nights in a row? #line:832fed
+	Angus: yeah #line:951300
+	Mae: Even after the flat tire? #line:5fd753
+	Angus: Well, I mean, you can’t really do anything about that #line:228165
+	Angus: and I replaced the tire. #line:39a618
+	Mae: Oh yeah. #line:8122a4
+	<<close>>
+	<<wait 2>>
+
+    <<if $did_gregg_investigation_quest>>
+        Mae: Cool you could borrow her car, though. #line:06bc67
+        Mae: I had to ride on Gregg’s bike #line:cb5b12
+        Mae: when we saw that ghost. #line:e6ab10
+        Angus: Yeah Gregg needs to get his license. #line:4ea43f
+        Mae: I fell off his bike. #line:272e0a
+        <<if $did_gregg_friendship_quest_3>>
+            Mae: which I *also* did a few days before that #line:5acc80
+        <<endif>>
+    <<endif>>
+<<endif>>
+
+<<if $completed_investigation_quests is 1 and $dom_friend_bea>>
+    <<set $second_iq_and_dom_friend_bea to 1>>
+<<else>>
+    <<set $second_iq_and_dom_friend_bea to 0>>
+<<endif>>
+
+<<if $completed_investigation_quests is 0 or $second_iq_and_dom_friend_bea>>
+	Mae: I’M EXCITED! \o/ #line:96a59f
+	Angus: Are you? #line:a03e2e
+	Mae: Yeah! We never get to hang out! _o_ #line:2f7764
+	<<if $dom_friend_gregg>>
+		Angus: Yeah, I guess huh? #line:a654a8
+		Mae: I’ve been hanging out with Gregg so much #line:fdff52
+		Mae: it’ll be nice to actually get to know you a little better! #line:9c4079
+		Angus: I’m pretty great. #line:fa822e
+	<<endif>>
+	Mae: Ghost hunting with Angus! #line:64a1d3
+<<endif>>
+
+Angus: So you think the guy you saw was a ghost? #line:c914cc
+Mae: not a guy- a GHOST #line:bf282a
+Angus: right. #line:075335
+Mae: Why does no one believe me that it was a ghost? #line:86e956
+Angus: Well, I mean… Ghosts don’t actually exist. #line:cde003
+Mae: I’m pretty sure they do. #line:5ca1b3
+Angus: Well, I’d need evidence. #line:9c5113
+Mae: What counts? #line:f3bedc
+Angus: A ghost walking up and saying hello #line:cf9b51
+Angus: and me saying hey I’ve verified you are a dead person. #line:e236cc
+Mae: Could be a zombie or a frankenstein. #line:0e14ad
+Angus: ok maybe if they’re made of ghosty stuff #line:b180c0
+Mae: Ghosty Stuff can be our podcast #line:c0e403
+Mae: about ghosts #line:468308
+Angus: *This episode of Ghosty Stuff brought to you by Donut Wolf* #line:04b4cb
+<<if $did_gregg_friendship_quest_4>>
+	Mae: No, I’m going to be sick. #line:527112
+	Angus: sorry. #line:43e2cb
+<<endif>>
+
+Mae: Welcome to Ghosty Stuff. #line:5bffa2
+Mae: I’m Mae, and I saw ghosts, and this is Angus, who doesn’t believe me. #line:ee2266
+Angus: I’m Angus, and this is Mae. She’s a crazy person. #line:5fbb76
+<<irisOut 1 wait>>
+<<sectionTitle AngusIQ ParkEntrance>>
+===
+title: Angus_A2D3
+tags: 
+colorID: 3
+position: 1405,-752
+---
+Angus: Hey Mae. #line:927eaf
+Mae: Hey Angus. How's videoland? #line:c6098d
+Angus: good, good. #line:bc92fd
+Angus: start of the halloween rush. #line:c070c0
+Angus: got a pretty good horror section. #line:3e6da0
+Mae: nice. #line:f2f21b
+Angus: you got a favorite? #line:53665d
+Mae: what, horror movie? #line:1f2d4e
+Angus: yeah. #line:e813a6
+    ->Scythe Sabboth #line:19d027
+        Angus: ooh! italian! #line:c5003d
+        Mae: yeah. they don't mess around. #line:36009e
+        Angus: pretty colors. #line:c46aca
+        Mae: pretty *everything* #line:dbd34b
+    ->Black Oaks #line:9575bb
+        Angus: oh nice. witchy. #line:c407c2
+        Mae: yeah it's witchy as hell. #line:8dbfcb
+        Mae: and scary. #line:d8edfd
+        Angus: yeah that one's like #line:54a162
+        Angus: historical. #line:dd0465
+        Mae: the witchy version. #line:e4d190
+Mae: well, seeya later! #line:12fd8a
+Angus: byeeee! #line:fbbfc1
+<<set $angus_done to 1>>
+===
+title: Angus_A2D4
+tags: 
+colorID: 3
+position: 1655,-749
+---
+Mae: happy halloweeeeen! #line:047443
+Angus: ha ha hey. you too. #line:408f91
+Mae: you feeling spooky? #line:75ad4a
+Angus: oh extremely. can't you tell? #line:99e87c
+Mae: do your spooky face. #line:502297
+<<wait 1>>
+Angus: :) #line:9b8963
+<<wait 2>>
+Mae: :) #line:dd0651
+Mae: angus you're just smiling. #line:6271dc
+Mae: and it's adorable, not scary. #line:a1ffaf
+Angus: :| #line:ae1e12
+Angus: oh. #line:9ac6b8
+Mae: nice effort, though! #line:d22323
+Angus: heh heh. #line:030b3f
+Mae: :| #line:02952d
+<<set $angus_done to 1>>
+===

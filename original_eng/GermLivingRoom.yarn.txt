@@ -1,0 +1,106 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 47,294
+---
+[[HomeQuest]]
+===
+title: HomeQuest
+tags: 
+colorID: 0
+position: 324,330
+---
+<<hide Collision:Right>>
+
+<<warp Mae Mae0>>
+<<warp Germ Germ0>>
+
+<<walk Mae Mae1>>
+<<walk Germ Germ1>>
+
+<<waitForMove Mae>>
+Germ: oh, here she is. #line:cc0fc3
+<<close>>
+<<wait 2>>
+GermGramma: Sturdy girl. #line:d3026e
+Mae: ... #line:d0d6d8
+Mae: My granddad said that. #line:1b4c30
+Mae: Did you... #line:8fe183
+Germ: this is Gramma. #line:33cc24
+<<lookAt Mae GermGramma>>
+Mae: Hello. #line:cf6307
+GermGramma: Mmhmm. #line:b2e759
+<<wait 2>>
+<<lookAt Mae Germ>>
+Germ: ok, well, see ya! #line:0c0ebf
+<<walk Germ Germ0>>
+Mae: Wait, what? #line:ce993e
+<<close>>
+<<walk Germ Germ0>>
+<<wait 2>>
+<<lookAt Mae GermGramma>>
+<<wait 1>>
+Mae: You're looking at me. #line:f64841
+GermGramma: Sturdy's a good word for you. #line:907318
+GermGramma: Big bones. Stout. #line:5789db
+Mae: Yep. #line:7c2152
+<<wait 2>>
+Mae: soooo... is that it? #line:808162
+GermGramma: oh, I'm sorry. #line:ebb8f1
+GermGramma: did I upset you? #line:3a6dea
+Mae: no. #line:cca65d
+GermGramma: too bad. you need to be upset. #line:d4b345
+GermGramma: what's coming to you, little girl #line:3b34d5
+GermGramma: is three times the trouble you deserve #line:820ff5
+GermGramma: you are going to go down hard #line:bf8c48
+GermGramma: not far from here #line:53611c
+GermGramma: you will go down #line:87dcf3
+GermGramma: in these woods. #line:eba622
+Mae: are you like, telling my fortune? #line:2fa34b
+<<wait 2>>
+GermGramma: little girl, i don't know what you did #line:49f491
+GermGramma: you've got a dark spot in you #line:4e5c9e
+GermGramma: that one day is gonna take a life.  #line:43580e
+GermGramma: might be someone else's. or it might be yours. #line:d4362e
+<<wait 2>>
+GermGramma: mark my words. #line:b625f2
+GermGramma: you're doomed. #line:e09cdd
+<<wait 2>>
+Mae: ok. i'll uh... try to remember that. #line:ad5d52
+Mae: o> O_o :\ #line:484aa0
+Mae: or actually? no. this is stupid. #line:3181ac
+Mae: you don't know me. #line:cfdc64
+Mae: whatever it is that's wrong with me? #line:5cee35
+Mae: yeah I'm not just an effing shell #line:760ab1
+Mae: for my problems to walk around in. #line:b24e84
+Mae: "uuuh uuuh you got a dark spot on you" #line:c5ada1
+Mae: What the actual hell do you know about me anyway?!? #line:86f2a4
+<<wait 2>>
+GermGramma: i can't stop what's coming #line:1d9dfa
+GermGramma: but ask you a question you can't answer #line:ac5d10
+GermGramma: can you unhaunt a haunted house? #line:470fef
+Mae: :| #line:69457f
+Mae: i... i... what? #line:844391
+<<wait 2>>
+GermGramma: heh heh heh #line:2886f7
+GermGramma: had you going there for a second #line:b31981
+Mae: what? #line:54f9dd
+GermGramma: i'm just joshin' ya #line:0b98c7
+GermGramma: i have my fun #line:4d9ec4
+Mae: o_o :\ _o_ #line:682a97
+Mae: what is wrong with you?!?! #line:cf0235
+Mae: that was seriously messed up!! #line:e1a96e
+GermGramma: hee hee hee #line:0806d6
+GermGramma: you're a good sport. #line:0c837a
+GermGramma: you go outside now, dear! #line:7fa152
+GermGramma: let gramma watch Judge Janice #line:48f9e4
+Mae: :| #line:2fa60d
+Mae: ok... uh... see ya around! #line:603e38
+GermGramma: not likely. #line:e9d792
+<<wait 2>>
+GermGramma: little girl. #line:810669
+<<close>>
+
+<<irisOut 1 wait>>
+<<scene GermHouse left>>
+===

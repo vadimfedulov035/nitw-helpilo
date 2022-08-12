@@ -1,0 +1,190 @@
+title: EnterLevel
+tags: 
+colorID: 4
+position: -210,935
+---
+<<if $bathroom_mirror is 0>>
+    [[FQ4Intro]]
+<<endif>>
+===
+title: FQ4Intro
+tags: 
+colorID: 4
+position: 171,988
+---
+Mae: :) #line:cb425d
+Gregg: :) #line:77a674
+Mae: 04EHJ SAVJ, 4T0 AKYVA HE C0SPAVA TE6R U0 KYC04KAM. #line:cadbd5
+Gregg: 04EHJ SAVJ, 4T0 TE6R HE UPNK0H4NV CEPNLHJ1L Y6NLOA. #line:319826
+Mae: 04EHJ SAVJ, 4T0 TJ1 HE U0DCEV HA HAPK0TY, #line:48241d
+Mae: A U0T0M HE CD0X 0T HEE. #line:8fda41
+Gregg: MJ1 KAK-T0 KYPNVN TPABKY. #line:f98295
+Mae: 04EHJ SAVJ, 4T0 Y TE6R HE 6J1V0 UEPED03A N TJ1 HE CD0X. #line:7e0581
+Angus: TAK, BJ1 3AK0H4NVN? #line:bb9a45
+Gregg: :| #line:efcec0
+<<close>>
+<<walk Mae MaeEnter>>
+<<walk Gregg GreggEnter>>
+<<walk Angus AngusEnter>>
+<<waitForMove Mae>>
+Mae: HAK0HEO-T0 UPNQVN! #line:f2bbae
+Angus: AFA. #line:19e2ac
+Gregg: 0, DA #line:dda161
+Gregg: B0T 0H, D0HAT BYVZ #line:36d635
+Mae: \o/ #line:738da9
+Mae: AYYYYYYYY #line:3366b1
+Mae: _o_ #line:96775b
+Angus: AFA #line:f34827
+<<close>>
+<<cameraLookAt CameraDWCashier 4>>
+<<walk Mae MaeCounter>>
+<<walk Gregg GreggCounter>>
+<<walk Angus AngusCounter>>
+<<waitForMove Mae>>
+<<playerFace -1>>
+DWCashier: D06P0 U0SAV0BATJ B D0HAT BYVZ, P0DNHY Y60LHJ1X KEKC0B, TEUEPJ N C 6VNH... #line:f98bef
+DWCashier: 4NKAMN, C 0C06J1M KVEH0BJ1M CNP0U0M 6E3YMH0F0 XAYVNHA. SEVAETE VN #line:d29a19
+DWCashier: 3AUPR4J K0VECHNOY? #line:0e1125
+<<lookAt Gregg Mae>>
+Mae: 3DPABCTBYLTE, CGP. :) =_= <o> #line:0d5868
+Mae: HEUV0XNE KEKCJ1 Y BAC TYT, KAK R U0CM0TP%. #line:4b21ac
+<<lookAt Gregg DWCashier>>
+DWCashier: CUACN60, MGM. #line:a642b6
+<<lookAt Gregg Angus>>
+Angus: MJ1 B03JMEM U0VD%SNHJ1 6E3YMHJ1X KEKC0B. #line:cf1456
+Gregg: 4YBAK. #line:fc2a88
+Gregg: VY4QE B3RTJ K0VECA K0VECHNOJ1. #line:0fa07b
+Angus: MJ1 B UP0QVJ1L PA3 6PAVN K0VECA K0VECHNOJ1... #line:173ce2
+<<lookAt Gregg Mae>>
+Mae: R X04Y Y60LHJ1X KEKC0B! o_o #line:30bf3b
+<<lookAt Gregg DWCashier>>
+DWCashier: B006WE-T0, Y60LHJ1E KEKCJ1 3AK0H4NVNCJ #line:b2d83c
+<<lookAt Gregg Mae>>
+Mae: 4T0?! :( _o_ #line:5f9467
+Mae: KAK M0FYT 3AK0H4NTJCR Y60LHJ1E KEKCJ1?!?!? \o/ #line:9c3a76
+Mae: GT0 SE U0V0BNHA CVY4AEB, U0 K0T0P0L C%DA E3DRT!!!! #line:58b748
+Angus: U0DPYFA, BJ16EPN 4T0-HN6YDJ DPYF0E. #line:f9f360
+Gregg: ... #line:548961
+Mae: _o_ #line:d86112
+<<lookAt Gregg Angus>>
+Angus: VADH0, MJ1 B03JMEM U0VD%SNHJ1 K0VEC K0VECHNOJ1. #line:e582fc
+<<lookAt Gregg DWCashier>>
+DWCashier: X0TNTE K HNM C0YC 6ECK0HE4H0CTN? #line:ca121d
+<<lookAt Gregg Angus>>
+Angus: HET. #line:ac1489
+<<lookAt Gregg Mae>>
+Mae: -_- :| #line:c28ba5
+Mae: VADH0, VADH0. R B03JMY... #line:3247db
+->6 K0VEC K0VECHNO. #line:191b06
+    Mae: 6E3 C0YCA 6ECK0HE4H0CTN o_o #line:ba6895
+    Mae: B U0CVEDHNL PA3, K0FDA EF0 6PAVA, #line:639156
+    Mae: R BC% H04J HE CUAVA: Y6NPAVACJ B D0ME. #line:7eef33
+    <<set $donut_set_doom to 0>>
+->6 U0H4NK0B. #line:1a338f
+    Mae: GT0 4T0-T0 H0BEHJK0E? #line:55e146
+    <<lookAt Gregg DWCashier>>
+    DWCashier: 0FPAHN4EHHAR CEPNR, MGM. #line:7099ab
+    <<lookAt Gregg Mae>>
+    Mae: HY, TEUEPJ 0HN EWE 60VEE 0FPAHN4EHJ1. #line:cf2011
+    Mae: N *6E3* C0YCA 6ECK0HE4H0CTN #line:be22fe
+    Mae: B U0CVEDHNL PA3, K0FDA EF0 6PAVA, #line:b97b69
+    Mae: R BC% H04J K0UAVA RMY Y CE6R B0 DB0PE. #line:a57ec3
+    Mae: U0YTPY, MEHR HAQVN CURWEL B HEL, #line:66e0c9
+    Mae: UPRM0 HA CAM0M DHE. #line:efc1ed
+    <<if $pentagram_quest>>
+        <<set $found_pentagrams += 1>>
+        <<unlockPentagramDoodle>>
+    <<endif>>
+    <<set $donut_set_doom to 1>>
+<<lookAt Gregg DWCashier>>
+DWCashier: X0P0Q0, MGM. #line:aa8fcf
+<<lookAt Gregg Angus>>
+Angus: 6YDEM ECTJ 3DECJ? #line:bde9f5
+<<lookAt Gregg Mae>>
+Mae: HABEPH0E. 6E3 PA3HNOJ1. #line:2c84c8
+Gregg: GM. #line:24991e
+Gregg: DA, DABALTE 3DECJ! #line:6283d0
+<<lookAt Gregg Angus>>
+Angus: X0P0Q0. U0LDY HALDY, FDE UPNCECTJ. #line:4bf994
+<<lookAt Gregg Mae>>
+<<close>>
+<<walk Angus AngusOffscreen>>
+<<wait 3>>
+<<lookAt Gregg Mae>>
+Mae: A MHE HAD0 CX0DNTJ B TYAVET. #line:8039c5
+Gregg: ...0K... #line:e245b3
+<<close>>
+//Mae walks over to the bathroom. Camera stays on Gregg as she walks away. Poor Gregg. Or… poor Gregg???//
+//<<setCameraMode Stationary>>
+<<toggleCameraControlEnabled 0>>
+<<walk Mae MaeBathroom>>
+<<wait 3>>
+Gregg: KAK BECEV0. #line:4d4645
+<<close>>
+<<wait 1>>
+<<fadeOut 1 wait>>
+<<scene BathroomMirror>>
+
+===
+title: InitLevel
+tags: 
+colorID: 4
+position: -176,662
+---
+<<setCanInteract Gregg 0>>
+<<setCanInteract Angus 0>>
+
+<<if $bathroom_mirror is 0>>
+    //characters start offscreen to the left and start walking in to some locators by the door//
+    <<hide Collision:Left>>
+<<else>>
+    <<warp Mae MaeBathroom>>
+    <<warp Angus AngusSit>>
+    <<sit7 Angus>>
+    <<warp Gregg GreggSit>>
+    <<sit Gregg>>
+    <<setSpriteLayer Gregg BG3>>
+    <<setSpriteLayer Angus BG3>>
+    <<flip Angus -1>>
+<<endif>>
+===
+title: SitDown
+tags: 
+colorID: 4
+position: 449,791
+---
+<<fadeOut 1 wait>>
+<<warp Mae MaeSit>>
+<<sit>>
+<<setSortingLayerName BG3>>
+<<wait .1>>
+<<fadeIn 1 wait>>
+<<wait 4>>
+Mae: HY. :) #line:08c208
+<<wait 3>>
+Mae: =_= #line:903a59
+Mae: KAK TAM BAQN DEVA...? #line:568137
+<<wait 2>>
+Mae: 4T0 H0B0F0? #line:c12b64
+Mae: HY, KP0ME BCEF0 T0F0, #line:e3ae01
+Mae: 4T0 UP0NCX0DNT B006WE. #line:e24cd4
+<<wait 2>>
+Mae: o_o :| #line:9b2c96
+Mae: UPN3PAKN N BCE TAK0E. #line:4de3b5
+Mae: DA. #line:cc653d
+Mae: GT0 UPRM H0BNHKA. #line:47339d
+<<wait 3>>
+Mae: GL, AHFYC, KAK TE6E YDAV0CTJ D0CTATJ MAQNHY 6N HA BE4EP? #line:370049
+Angus: 0HA C06NPAVACJ 3A F0P0D HA TYC0BKY #line:a0523e
+Angus: H0, DYMA%, UCNXAHYVA. #line:f4f61f
+Mae: 0Y. #line:f324d9
+Angus: A MJ1 C FPEFF0M *C06NPAVNCJ* K0E-4T0 CDEVATJ #line:90b916
+Mae: H0 GT0 N ECTJ K0E-4T0! #line:42b15f
+<<wait 3>>
+Angus: DABALTE ECTJ YSE. #line:502522
+Gregg: DA, DABALTE U0EDNM. #line:a64942
+Mae: BYYYXYY! :) #line:9f06d0
+<<close>>
+<<irisOut 1 wait>>
+<<scene PawsModeDonutWolfGreggAngus>>
+===

@@ -1,0 +1,49 @@
+title: BossTooth
+tags: 
+colorID: 0
+position: 795,264
+---
+<<if $safe_combination is 0>>
+    <<if $tried_safe is 0>>
+        // checking it out for the first time, no safe combo tho
+        Mae: Hmm, an old safe.  #line:1e7a2b
+        Mae: how am i gonna open this thing? #line:0dd224
+        Mae: ... #line:c3e5d3
+        Mae: dynamite? #line:9fbe3d
+        Mae: ... #line:9f2ae3
+        Mae: no. #line:7a925c
+        <<set $tried_safe to 1>>
+    <<else>>
+        // repeated checking of the safe without the combo
+        Mae: Hrm... gotta be a way to open this safe... #line:2e8f95
+    <<endif>>
+<<else>>
+    // opening the safe with the combination
+    Mae: oh wait. ha ha ha ha, i know how to open this. #line:ac3172
+    Mae: left 45, Right 100, left 22, left 90, right 15. #line:fb6347
+    Mae: thanks, granddad. #line:ddae96
+    Mae: Aha... it's opening #line:867fe3
+    <<wait 2>>
+    Mae: What the hell? #line:e61f71
+    Mae: it's an old... tooth? #line:1ae8f5
+    Mae: yeah. that's a tooth. #line:5cc668
+    Mae: granddad put a tooth. in a safe. in the basement. #line:3f42e7
+    <<if $knows_tooth>>
+        // if mae found out about the tooth from the microfiche already
+        Mae: Oh holy shit. #line:37a936
+        Mae: this is like #line:db8836
+        Mae: one of the boss teeth... #line:a59d06
+        Mae: like... from that thing? #line:2115da
+        Mae: oh my god. #line:927901
+        Mae: what am i gonna do with it???? #line:e91e35
+    <<else>>
+        // if mae has no idea what the tooth is
+        Mae: welp! #line:fd4e6b
+        Mae: Never know when you'll need an extra tooth. #line:357dab
+        Mae: you and me, tooth. we're gonna go far. #line:ad925e
+    <<endif>>
+    Mae: I'll take it. #line:9ceaf3
+    <<unlockDoodle Tooth>>
+    <<set $has_tooth to 1>>
+<<endif>>
+===

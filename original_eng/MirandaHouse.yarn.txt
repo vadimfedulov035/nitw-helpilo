@@ -1,0 +1,113 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 379,-184
+---
+<<if $bea_friendship_quest is 2>>
+    <<if $miranda_house is 0>>
+        <<warp Bea Bea1>>
+        <<warp Mae Mae1>>
+        <<warp Miranda Miranda1>>
+        [[Dialogue1]]
+    <<endif>>
+<<endif>>
+===
+title: Dialogue1
+tags: 
+colorID: 3
+position: 357,148
+---
+Miranda: thank you for coming on such short notice #line:b47b8d
+Bea: no problem #line:bed4e0
+Miranda: i can sleep through a four alarm fire but that furnace... #line:fef898
+Bea: we’ll take a look at it #line:0d41e4
+Miranda: Ever since Gene passed, I just can’t abide that thumping... #line:b3dae1
+Bea: Understandable. #line:64df0f
+Miranda: Gene was such a darling man… #line:5efe7e
+<<lookAt Bea Mae>>
+Mae: *hey… what did you mean by “hold that thought”?* #line:733f15
+Bea: wait for it. #line:476e06
+<<lookRight Bea>>
+Miranda: ...I’ll never forgive them for taking him away… #line:b54d2a
+Bea: uh huh #line:76e5d3
+Miranda: ...ain’t like I didn’t treat him right… #line:9d7fd4
+Miranda: ...I looked it up on the internet... #line:90164d
+Miranda: ...he didn’t smell or nothing! #line:f4db77
+Bea: ...wait... for... it... #line:2e3cfd
+Miranda: You can’t take a woman’s husband just because he’s dead! #line:fb15f9
+<<lookAt Bea Mae>>
+Bea: There it is. #line:b63630
+Mae: holy god #line:92fa90
+<<lookRight Bea>>
+Miranda: Took him right off that couch. #line:963d33
+Bea: It’s a crime. #line:071b70
+Mae: Yeah a crime was definitely committed alright… #line:7a7f7e
+Miranda: They just couldn’t abide not being able to tax him anymore, that’s what it was. #line:af40eb
+Miranda: Well, I won’t talk your ears off about it. #line:c88107
+//walk bea and mae to fridge//
+<<walk Miranda Miranda2>>
+<<flip Miranda 1>>
+<<walk Bea Bea2 -1>>
+Miranda: Come take a look at my fridge while you’re here! #line:2b4afc
+Bea: We bill by the half hour. #line:fac89c
+<<close>>
+===
+title: TriggerFridgeRepair
+tags: cut
+colorID: 3
+position: 727,134
+---
+<<set $miranda_house to 1>>
+Mae: Good job. #line:7f7092
+[[Dialogue3]]
+===
+title: Dialogue3
+tags: 
+colorID: 3
+position: 731,422
+---
+Bea: Yeah, it’s a nice fridge. What’s the problem? #line:380b6f
+Miranda: Oh there’s no problem. #line:da9713
+Miranda: It’s just a classic. An original Luna Freez. #line:42151c
+Bea: Wow. #line:1e98f4
+Miranda: They were all the rage when I was your age. #line:8f8561
+Miranda: They last forever. They make me feel so young. #line:ba1398
+Mae: I saw one of these the other night when I got back into town. #line:709971
+Miranda: Oh really? Where? #line:0434a9
+Mae: Upside down under some logs in a creek in a ravine. #line:29e31d
+Miranda: ... #line:04e0b6
+<<close>>
+<<wait 2>>
+Bea: So! Furnace! #line:3bcc50
+Miranda: Oh yes, right through here to the basement. #line:07a6ab
+Bea: Sounds good. Come on, Mae. #line:c17718
+<<close>>
+<<walk Mae Mae3>>
+<<walk Bea Bea3 -1>>
+<<waitForMove Bea>>
+[[Dialogue4]]
+===
+title: Dialogue4
+tags: 
+colorID: 3
+position: 755,683
+---
+Bea: Alright. We’ll be down there for a bit. #line:76a5e6
+Bea: Please remember not to lock us in. #line:108ebe
+Miranda: What? #line:1f20bb
+Bea: Last time we sent someone, he got locked in the basement. #line:cb4e07
+Miranda: I assure you that did not happen. #line:31118f
+Bea: Um. He called me. From your basement. #line:e526fa
+Miranda: Your man did smell a bit of booze when he came by #line:e03457
+Bea: Oh. Ok. #line:b800c6
+Mae: Busted. #line:abc6ba
+Bea: Or something. #line:f19721
+Bea: Ok, down we go! #line:cbd666
+<<lookAt Mae Miranda>>
+Mae: It was nice meeting you! #line:0b3ae5
+Miranda: I don't really know who you are, little person. #line:44128a
+<<close>>
+<<irisOut 1 wait>>
+<<set $miranda_house to 2>>
+<<scene MirandaBasement>>
+===

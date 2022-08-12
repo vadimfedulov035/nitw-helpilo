@@ -1,0 +1,614 @@
+title: ApproachHuncherDoor
+tags: 
+colorID: 0
+position: 313,163
+---
+<<set $huncher_intro to 1>>
+<<musicFadeOut 10>>
+<<speechBubbleSizeOverride 1.5>>
+HuncherOutside: KT0 GT0 X0DNT U0 M0EMY KPJ1VJOY? #line:30571f
+Adina: UPNBET? #line:d131d2
+HuncherOutside: 0X DEB04KA, TEUEPJ BCE K0H4EH0.  #line:1bdf69
+<<close>>
+<<speechBubbleSizeOverride 0>>
+<<hide HuncherOutside 1>>
+<<wait 1>>
+<<playOneShot event:/lost_constellation/teleport Adina>>
+<<fadeOut .5 1 1 1>>
+<<wait .5>>
+<<hide SceneLink:HuncherInterior>>
+<<warp Adina WarpHuncherInterior>>
+<<clearSnowballs>>
+<<wait 1>>
+<<fadeIn .5 1 1 1>>
+<<spawn BAMF Adina>>
+<<wait 1>>
+
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -305,28
+---
+<<hide HuncherOutside>>
+<<hide HuncherSisterGhost>>
+<<set $skeleton_arm to 0>>
+<<set $skeleton_arm_fire to 0>>
+<<set $skeleton_arm_done to 1>>
+<<if $kicked_out_of_huncher_house is 1>>
+	<<hide SceneLink:HuncherExterior>>
+<<endif>>
+<<if $huncher_sister_convo > 0>>
+	<<scene LN2_LostWoods>>
+<<endif>>
+===
+title: ApproachHuncherInside
+tags: 
+colorID: 0
+position: 340,607
+---
+<<tell HuncherMusic to Play>>
+HuncherInside: HA CEBEPE ECTJ CTAPJ1E TEVA. #line:91fe77
+HuncherInside: FDE 3EMVR HNK0FDA HE PACTAET. #line:c0b484
+HuncherInside: 3AMEP3QNE B FPR3N N VJDY HA UP0TRSEHNN TJ1CR4EVETNL. #line:5b9694
+HuncherInside: B HEK0T0PJ1X N3 HNX ECTJ XB0PJ, UP0TNB K0T0P0L MJ1 YSE 6ECCNVJHJ1 #line:49aed8
+<<tell HuncherKid to PlayInstrument>>
+HuncherInside: K0FDA-HN6YDJ 3EMVR C0FPEETCR, N VED PACTAET. #line:a7bcd8
+HuncherInside: N GTA XB0PJ UPNK0H4NT HAC. #line:d73926
+HuncherInside: GT0 HA4AV0CJ TAM, FDE MJ1 6J1VN P0SDEHJ1 #line:552b36
+Adina: ... #line:a9e4c8
+<<setTalkAnimType HuncherInside 2>>
+HuncherInside: [shake=.02]DEB04KA! HE M0FVA 6J1 TJ1 UEPECTATJ FYDETJ?[/shake] #line:f87047
+<<setTalkAnimType HuncherInside 1>>
+HuncherKid: HE-A. #line:7c4070
+HuncherInside: VADH0, DNTE, VADH0. #line:e9986b
+HuncherInside: R 0CTABV% TE6R TAM, FDE TE6R HNK0FDA HE HALDYT. #line:3afd4a
+HuncherKid: XA-XA-XA. #line:6b61ed
+[[N3BNHNTE, R HE B0BPEMR?|InterruptingSomething]] #line:33b190
+[[MHE HYSH0 D06PATJCR D0 3AMEP3QEF0 03EPA.|NeedFrozenLake]] #line:572e33
+<<show SceneLink:HuncherInterior>>
+<<set $huncher to 1>>
+
+===
+title: HuncherStop
+tags: 
+colorID: 0
+position: -264,564
+---
+<<if $huncher < 2>>
+	HuncherInside: CT0U. #line:1906a1
+	Adina: YX-X! #line:96baa6
+	Adina: R HE M0FY DBNFATJCR. 60VJH0. CT0U. #line:2f8f4b
+	HuncherInside: HE U0DX0DN 6VNSE. #line:12d4f4
+	<<set $huncher to 2>>
+<<elseif $huncher is 2>>
+	HuncherInside: CT0U. #line:bc99fc
+	Adina: YX-X! #line:eb1abc
+<<endif>>
+
+===
+title: AngryHuncherFix
+tags: 
+colorID: 0
+position: 606,366
+---
+<<set $huncher_outside to 1>>
+<<hide HuncherInside>>
+<<hide SceneLink:HuncherExterior>>
+<<show SceneLink:HuncherInterior>>
+<<hide TriggerDialogue:ApproachHuncherInside>>
+<<tell HuncherMusic to Play>>
+<<trackAllSpeechBubblesToCharacters 1>>
+<<if $huncher_fix is 0>>
+	Adina: !!! #line:7f4ab1
+<<elseif $huncher_fix is 1>>
+	Adina: 0HA NDET... #line:e44836
+<<elseif $huncher_fix is 2>>
+	Adina: MHE HYSH0 FDE-T0 CUPRTATJCR! #line:e46c25
+<<elseif $huncher_fix is 3>>
+	Adina: 3A K0V%4KN! #line:614e4e
+<<else>>
+	Adina: F0T0BA! #line:6a3d07
+<<endif>>
+<<tell WinchElevator to SetBottom>>
+<<warp HuncherKid HuncherKidStand>>
+<<animationTrigger HuncherKid Stand>>
+<<tell HuncherKid to StopInstrument>>
+<<flip HuncherKid 1>>
+<<wait .5>>
+<<close>>
+<<wait .5>>
+<<trackAllSpeechBubblesToCharacters 0>>
+<<warp HuncherOutside WarpHuncherExterior>>
+<<spawn BAMF HuncherBAMF>>
+<<flip HuncherOutside 1>>
+<<show HuncherOutside .5>>
+<<wait .5>>
+<<if $player_in_left_brambles is 0 and $player_in_right_brambles is 0>>
+	[[PlayerCaught]]
+<<else>>
+	<<if $player_in_left_brambles > 0 or $player_in_right_brambles > 0>>
+		<<walk HuncherOutside HuncherFix>>
+		<<show SceneLink:HuncherExterior>>
+		<<if $huncher_fix is 0>>
+			HuncherOutside: 4EPT0BJ1 6EVKN! #line:9cf09e
+		<<elseif $huncher_fix is 1>>
+			HuncherOutside: 4EPT0BJ1 6EVKN BCE HE YCU0K0RTCR #line:65b972
+		<<elseif $huncher_fix is 2>>
+			HuncherOutside: 6EVKN? #line:c27229
+		<<else>>
+			HuncherOutside: 6EVKN. #line:7a922f
+		<<endif>>
+		<<close>>
+		<<wait .5>>
+		<<setAnimInt HuncherOutside waggleArms 1>>
+		HuncherOutside: CEBEPHJ1L BETEP, 4EPHJ1L BETEP, B0VK B TEMH0TE! #line:eff14f
+		<<wait 3>>
+		HuncherOutside: 0X, GTA U0F0DA HNK0FDA HE 6J1BAET H0PMAVJH0L.  #line:169112
+		<<wait 2>>
+		HuncherOutside: KASDJ1L PA3 D0VSHA U0BT0PRTJ GTY XPEHJ. #line:6d24bb
+		<<wait 2>>
+		HuncherOutside: CNHNL 0F0HJ HA CEBEPE! R Y3HAVA TB0E TALH0E NMR! #line:b1b57e
+		<<wait 2>>
+		HuncherOutside: R U0X0P0HNVA EF0 FVY60K0 B 3EMVE N U0CTP0NVA HA HEM D0M! #line:7da3ca
+		<<wait 2>>
+		HuncherOutside: TJ1 D0VSEH U0BNH0BATJCR GT0MY D0MY! #line:c72cad
+		<<wait 2>>
+		HuncherOutside: CEL4AC, DYL HA 3AUAD! #line:247652
+		<<tell SnowWeathervane to Reset>>
+		<<wait .5>>
+		<<wait 1.5>>
+		<<setAnimInt HuncherOutside waggleArms 0>>
+		HuncherOutside: X0P0Q0, BCE. #line:f2054a
+		<<wait 2>>
+		<<close>>
+		<<animationTrigger HuncherOutside Idle>>
+		<<if $player_in_house is 1>>
+			<<wait 10>>
+		<<endif>>
+		<<hide SceneLink:HuncherExterior>>
+        <<if $player_in_left_brambles is 0 and $player_in_right_brambles is 0 and $player_in_house is 0>>
+        	[[PlayerCaught]]
+        <<endif>>
+		<<flip HuncherOutside -1>>
+		<<walk HuncherOutside HuncherDoor wait>>
+        <<if $player_in_left_brambles is 0 and $player_in_right_brambles is 0 and $player_in_house is 0>>
+        	[[PlayerCaught]]
+        <<endif>>
+		<<set $huncher_outside to 0>>
+		<<spawn BAMF HuncherBAMF>>
+		<<hide HuncherOutside 0>>
+		<<wait 1>>
+		<<warp HuncherOutside WarpHuncherInterior>>
+        <<flip HuncherOutside 1>>
+        <<spawn BAMF HuncherBAMF>>
+		<<show HuncherOutside 1>>
+		<<if $player_in_house > 0>>
+			[[PlayerCaught]]
+		<<else>>
+			[[CleanUpHuncher]]
+		<<endif>>
+	<<else>>
+		[[PlayerCaught]]
+	<<endif>>
+<<endif>>
+
+===
+title: PlayerCaught
+tags: 
+colorID: 0
+position: 896,134
+---
+<<stopGlobalDialogue>>
+<<freezePlayer>>
+<<setTalkAnimType HuncherOutside 2>>
+<<if $player_in_house is 1>>
+	<<set $player_caught_inside += 1>>
+<<else>>
+	<<set $player_caught_outside += 1>>
+<<endif>>
+<<setAnimInt HuncherOutside waggleArms 0>>
+<<if $huncher_fix is 0>>
+	HuncherOutside: [shake=.015] NDN BHN3![/all] #line:484c12
+<<elseif $huncher_fix is 1>>
+	<<if $player_in_house>>
+		HuncherOutside: [shake=.015]Y6NPALCR N3 M0EF0 D0MA![/shake]
+	<<else>>
+		HuncherOutside: [shake=.015]DEPSNCJ U0DAVJQE 0T M0EF0 KPJ1VJOA![/shake] #line:275983
+	<<endif>>
+<<elseif $huncher_fix is 2>>
+	HuncherOutside: [shake=.02]UPNMN GT0. CEF0DHR TJ1 3AMEP3HEQJ B GTNX K0V%4KAX![/shake] #line:43928c
+<<else>>
+	HuncherOutside: 	[shake=.02]Y6NPALCR![/shake] #line:f6f7d3
+<<endif>>
+<<setTalkAnimType HuncherOutside 1>>
+<<freezePlayer>>
+<<setAnimInt HuncherOutside waggleArms 1>>
+<<set $kicked_out_of_huncher_house to 1>>
+<<fadeOut .5 1 1 1>>
+<<playOneShot event:/lost_constellation/teleport Adina>>
+<<wait 1>>
+<<warp Adina PlayerRejected>>
+<<playerFace 1>>
+<<wait 1>>
+<<fadeIn .5 1 1 1>>
+<<spawn BAMF Adina>>
+<<freezePlayer>>
+<<set $player_was_caught to 1>>
+[[CleanUpHuncher]]
+
+===
+title: CleanUpHuncher
+tags: 
+colorID: 0
+position: 903,586
+---
+<<musicFadeOut 8>>
+<<setAnimInt HuncherOutside waggleArms 0>>
+<<flip HuncherOutside 1>>
+<<hide HuncherOutside>>
+<<show HuncherInside>>
+<<set $huncher_outside to 0>>
+<<if $kicked_out_of_huncher_house is 0>>
+	<<show SceneLink:HuncherExterior>>
+<<else>>
+	<<hide SceneLink:HuncherExterior>>
+<<endif>>
+<<set $huncher_fix += 1>>
+<<tell WinchElevator to SetTop>>
+<<tell SnowWeathervane to Reset>>
+<<warp HuncherKid HuncherKidSit>>
+<<animationTrigger HuncherKid Sit>>
+<<tell HuncherKid to PlayInstrument>>
+<<flip HuncherKid -1>>
+
+<<if $player_was_caught is 0>>
+	<<unfreezePlayer>>
+<<else>>
+	[[PlayerReactionToGettingCaught]]
+<<endif>>
+
+		
+
+===
+title: NeedSpecialKeyItem
+tags: 
+colorID: 0
+position: 903,-96
+---
+<<if $player_caught_inside > 0>>
+	Adina: B GT0M D0ME 4T0-T0 6J1V0. ECVN 6J1 R 6J1VA D0CTAT04H0 6J1CTP0L... #line:d1ef53
+<<elseif $player_caught_inside is 0>>
+	Adina: HYSH0 4T0-T0 0C06EHH0E DVR GT0F0. #line:27c591
+	Adina: 60SE, MHE HYSH0 BEPHYTJCR B T0T D0M. #line:b5c23a
+	Adina: GT0 CAMAR XYDQAR DVNHHELQAR H04J . #line:febd25
+<<endif>>
+
+===
+title: Snowproblem
+tags: 
+colorID: 0
+position: 314,-71
+---
+Snowproblem: ... #line:875a8e
+
+===
+title: NeedFrozenLake
+tags: 
+colorID: 0
+position: 340,851
+---
+HuncherInside: K0FDA TJ1 6YDEQJ 3AMEP3ATJ CHAPYSN, #line:0c63bb
+HuncherInside: TJ1 6YDEQJ NCKATJ M0E K0VJO0? #line:2dd1ce
+HuncherInside: ECVN 4T0-T0 YUAV0 B K0V%4KN, R HNK0FDA GT0F0 HE YBNSY. #line:2063a0
+HuncherKid: R HAQVA TB0E K0VJO0 HA UP0QV0L HEDEVE. #line:b6c0b4
+HuncherInside: 0X. TJ1 CDEVAVA GT0. #line:00e22d
+HuncherInside: GT0 M0R BT0PAR CAMAR OEHHAR BEWJ. #line:1d822b
+HuncherInside: R XPAH% CAM0E OEHH0E DVR MEHR B CBRTNVNWE, BEDJ OEHH0 0H0 MHE. #line:1497d6
+HuncherInside: N TAK 60VJH0, 4T0 MJ1 D0VSHJ1 DEPSATJ CAM0E DPAF0OEHH0E N 60VE3HEHH0E PRD0M? #line:30c4ac
+Adina: 4YBCTBY%, 4T0 MJ1 3A6PEVN HE B TY CTEUJ. #line:12b3c5
+HuncherInside: *H%X H%X* #line:dc6c4e
+HuncherInside: R 4Y% B BAC 6VAF0CV0BEHNE VECH0F0 60FA. #line:772a6f
+HuncherInside: ECVN 6 TJ1 3HAVA X0TJ 4T0-T0, T0 CMJ1VA 6J1 EF0, U0KA 0H0 HE C0QV0 BMECTE C K0SEL. #line:e86089
+HuncherInside: K0FDA TJ1 YLDEQJ, T0 U0UADEQJ B K0V%4KN, KAK N BCE 0CTAVJHJ1E. #line:3d7fd0
+HuncherInside: K0FDA MHE UPNDETCR BJ1LTN HAPYSY, 4T06J1 PA306PATJCR C U0F0D0L #line:3a4888
+HuncherInside: BEDJ U0 ZV%FEPY 4T0-T0 YDAPNV0, CH0BA... #line:ef71c4
+HuncherKid: Y TE6R TYT 04EHJ FVYU0 BCE YCTP0EH0. #line:e7729e
+HuncherInside: ...K0FDA R BJ1LDY CDEVATJ GT0 #line:7dde17
+HuncherInside: R B3FVRHY HA V0WNHY N BCE 6YDET CU0K0LH0. #line:8c4f20
+HuncherInside: N GT0 T0, 4T0 CVY4NTCR C T060L. #line:d30758
+Adina: U04EMY TE6E T0FDA MEHR UP0CT0 HE Y6NTJ? #line:cdd88e
+HuncherInside: N3-3A GT0F0 3AUAXA. #line:b9ac6e
+
+===
+title: InterruptingSomething
+tags: 
+colorID: 0
+position: 103,851
+---
+HuncherInside: DYMA% TJ1 3HAEQJ 0TBET. TJ1 UP0CT0 B3RVA N U0RBNVACJ. #line:b60dc5
+HuncherInside: 0X, MJ1 BCE UP0CT0 B3RVN N U0RBNVACJ. #line:900186
+HuncherInside: BCR UP06VEMA B CT0RHNN HA MECTE. #line:f4904e
+HuncherInside: H0 TE6E HE HYSH0 6ECU0K0NTJCR 06 GT0M. #line:a4b55b
+HuncherInside: TJ1? #line:e74338
+[[GT0 KPALHE PACUVJ1B4ATAR YFP03A?|VagueThreat]] #line:eb7b70
+[[HA CAM0M DEVE MHE HYSH0 D06PATJCR D0 VEDRH0F0 03EPA.|NeedFrozenLake]] #line:79076f
+===
+title: VagueThreat
+tags: 
+colorID: 0
+position: 102,1083
+---
+HuncherKid: EE? HERCHJ1E YFP03J1? #line:f422e9
+HuncherInside: 0, TJ1 0C06J1L CVY4AL, DNTR. #line:ad5b5d
+HuncherInside: R U0X0P0H% TB0N 0CTAHKN B 0DNH0K0L V0WNHE. #line:bc82a4
+HuncherInside: HE UP0CT0 0CTAHKN! R U0X0P0HNVA EDNHCTBEHH0E, 4T0 0CTAV0CJ.. #line:2ea9eb
+HuncherInside: N 0HA DEVAVA PA60TY U0 D0MY! #line:629129
+HuncherInside: TB0R CEMJR HNK0FDA HE HALDET TE6R.  #line:e2e278
+HuncherKid: 0, HET. T0VJK0 HE GT0. #line:908ce2
+[[Y BAC BCE BCEFDA TAK?|NormalDynamic]] #line:37e7a4
+[[*KXM*. MHE HYSH0 D06PATJCR D0 VEDRH0F0 03EPA.|NeedFrozenLake]] #line:a20e89
+===
+title: NormalDynamic
+tags: 
+colorID: 0
+position: 339,1083
+---
+HuncherInside: GT0 DBNSYWAR CNVA DVR BCEF0. #line:c3d17b
+HuncherInside: 0HA HE NCKV%4EHNE. #line:ef0f22
+HuncherInside: 0HN DASE HE DAVN TE6E NMR HA VEC0UNVKE, HE TAK VN, DNTE? #line:f90ee6
+HuncherInside: UP0CT0 DNTE? #line:588ce5
+HuncherKid: N3BNHR%CJ, U0VHJ1M NMEHEM 6J1V0 PE6EH0K C VEC0UNVKN. #line:80f0d1
+HuncherInside: HY, TEUEPJ TJ1 UP0CT0 DNTE. #line:6af004
+Adina: 0HN HE DAVN TE6E NMR? #line:eac05e
+HuncherKid: ... #line:ad4be3
+HuncherInside: TJ1 HNK0FDA HE 0C03HAEQJ, HACK0VJK0 MAV0 N HACK0VJK0 CNVJH0 TE6E HYSH0 NMR,  #line:09a4c1
+HuncherInside: U0KA 0HN HE 0TKASYT TE6E B HEM. #line:0acc41
+Adina: XAX. #line:ed10fb
+Adina: MHE SAVJ, 4T0 MHE UPNX0DNTCR BEPHYTJCR K GT0MY, #line:5420c8
+Adina: H0 R D0VSHA D06PATJCR D0 3AMEP3QEF0 03EPA. #line:0f8534
+[[NeedFrozenLake]]
+===
+title: HuncherInside.1
+tags: 
+colorID: 0
+position: 573,852
+---
+HuncherInside: TAK KT0 TJ1? #line:54113b
+Adina: R ACTP0H0M. B UP0QV0M CTASEP. #line:9b7671
+Adinda: UEPBAR B CB0EL 06CEPBAT0PNN. #line:e2bae1
+HuncherInside: 0, D0P0FAR, BCE GTN 3BE3DJ1 B TB0EL F0V0BE. #line:30e496
+HuncherInside: GT0L H04J% 0HN U0FACHYT CV0BH0 CBE4N. #line:cdae20
+Adina: 4T0 TJ1 TAK0E? #line:5655f6
+HuncherInside: VECH0L 60F HA CAM0M DEVE HE 60F. #line:9dd048
+HuncherInside: R BDB0E EF0 60VJQE. #line:2bd351
+HuncherInside: N BDB0E PEAVJHEL. #line:120b58
+HuncherInside: 4ECTH0, KEM 6J1 TJ1 HE 6J1VA, DASE TJ1 BDB0E PEAVJHEL NX. #line:199ef4
+Adina: ADNHA. ADNHA ACTPA. #line:3206bb
+HuncherInside: HEVEU0E NMR. TJ1 DAVA EF0 CE6E. CKASY R. #line:9b9066
+HuncherInside: ...U0CVEDH%% 4ACTJ. #line:3ca1c3
+HuncherInside: TAK, 4T0 3ACTABNT MAVEHJKY% DEB04KY CMEHNTJ CB0% ZAMNVN%? #line:655867
+Adina: HN4EF0 TAK0F0, 4T06J1 TJ1 U0HRVA. #line:1fe9aa
+HuncherInside: TJ1 HN4EF0 HE 3HAEQJ 06 GT0M. MHE 6J1V0 0TKYDA UPNX0DNTJ. #line:488083
+HuncherInside: KAK N SEHWNHA D0 MEHR. #line:85cf5f
+HuncherInside: N MJ1 HAQVN XNSNHY, N R 3ASFVA UE4J. #line:5a9d58
+HuncherInside: N MJ1 BJ1SNVN N U0T0M BJ1SNVA R. #line:a9bba5
+HuncherInside: N CC0PA C VECHJ1M 60F0M UP0D0VSAVACJ BEKAMN. #line:b78a1f
+HuncherInside: U0KA HE 3AK0H4NVACJ. C0BCEM HEDABH0. #line:456415
+HuncherKid: HY- #line:ba0c9c
+HuncherInside: M0V4ATJ, DEB40HKA. #line:9d3ffe
+HuncherInside: KVRHYCJ, ECVN 6J1 R HE UPNCYTCTB0BAVA 3DECJ ZN3N4ECKN, 0HA 6J1 F0B0PNVA 0 4EM YF0DH0. #line:d9f872
+
+===
+title: HuncherInside.2
+tags: 
+colorID: 0
+position: 798,852
+---
+Adina: TJ1 BEDJMA? #line:754ba9
+HuncherInside: KT0 TAKAR BEDJMA? TJ1 NMEEQJ B BNDY SEHWNHY B VECY? #line:38bb9d
+HuncherInside: B VECY 6J1BA%T 0TQEVJHNKN, VN60 DP0B0CEKN, VN60 0X0THNKN. #line:4b1dc0
+HuncherInside: Y HNX HE 6J1V0 NMEHN DVR SEHWNHJ1, K0T0P0L HE 6J1V0 TAM, FDE D0VSHJ1 6J1TJ 0HN. #line:a54127
+HuncherInside: TAK 4T0 0HN YKPAVN NMR, K0T0P0E 0HN 60RVNCJ N HEHABNDEVN #line:47446b
+HuncherInside: N B0H3NVN EF0 B HAC. #line:9b1099
+HuncherKid: B TE6R. CV0B0, 4T0 0HN NCU0VJ3Y%T DVR DEB04EK BP0DE MEHR GT0 "U0XNWEHHAR". #line:dc76f6
+HuncherInsdie: *B3DJ1XAET* #line:fe6a74
+HuncherInside: B0T. KASDJ1L DEHJ, R KVRHYCJ. #line:24e6a7
+HuncherInside: HE DEVATJ CB0N 06R3AHH0CTN. #line:e49db5
+HuncherInside: DEP3NQJ. CTP0UTNBNQJCR. #line:594a22
+Adina: U04EMY HE 0TUPABNTJ EE TYDA, 0TKYDA 0HA UPNQVA? #line:210c33
+HuncherInside: GT0 T0T B0UP0C, HA K0T0PJ1L HET 0TBETA. #line:4bef0a
+
+===
+title: HuncherInside.3
+tags: 
+colorID: 0
+position: 1024,851
+---
+HuncherInside: PA3F0B0P 3AK0H4EH. #line:31ac92
+HuncherInside: MHE SAVJ, ADNHA ACTPA. #line:153458
+HuncherInside: R 3HA%, TJ1 X04EQJ SNTJ. #line:3a36eb
+HuncherInside: H0 R 3A6PAVA GT0 6YDYWEE Y TE6R. #line:9a175c
+HuncherInside: N TEUEPJ TB0R SN3HJ M0R. #line:763b38
+HuncherInside: N TJ1 HE M0SEQJ BEPHYTJ EE HA3AD. #line:b1c622
+<<set $kicked_out_of_huncher_house to 1>>
+<<playOneShot event:/lost_constellation/teleport Adina>>
+<<fadeOut .5 1 1 1>>
+<<set $huncher_exit_enabled to 1>>
+<<musicFadeOut 10>>
+<<wait .5>>
+<<warp Adina PlayerRejected>>
+<<playerFace 1>>
+<<wait 1>>
+<<fadeIn .5 1 1 1>>
+<<spawn BAMF Adina>>
+<<hide SceneLink:HuncherExterior>>
+
+===
+title: HuncherSisterConvo
+tags: 
+colorID: 0
+position: -7,426
+---
+<<musicFadeOut 1>>
+<<clearSnowballs>>
+<<show HuncherOutside .1>>
+<<warp HuncherOutside HuncherSnowproblemsSpawn>>
+<<wait .5>>
+<<playerFace -1>>
+Snowproblem: 4T0? HET. HET. #line:d5702d
+<<playerFace -1>>
+Snowproblem: * KAQVRET * * KAQVRET * * KAQVRET * #line:c7082b
+<<playerFace -1>>
+Snowproblem: HE-E-E-E-E-E-E-E-E-E-E-E-ET!!!! #line:bcfc7e
+<<close>>
+<<playOneShot event:/lost_constellation/ghost_appear HuncherSisterGhost>>
+<<show HuncherSisterGhost 4>>
+<<wait 4>>
+<<spawn BAMF HuncherBAMF>>
+<<wait 1>>
+<<walk HuncherOutside HuncherNextToSnowman wait>>
+HuncherOutside: 4T0 GT0 TAK0E? #line:444f0e
+HuncherOutside: 60SE, HET. #line:05979d
+HuncherOutside: DEB04KA, 4T0 TJ1 HATB0PNVA? #line:cad6b4
+HuncherSisterGhost: [wave][size=.85]TJ1...TJ1 BNDEVA KAK GT0 UP0N30QV0![/all] #line:64cb5f
+HuncherSisterGhost:{width=8}[wave][size=.75]TJ1 BNDE-E-E-E-E-E-E-E-E-EVA![/all]#line:83d561
+HuncherOutside: GT0 6J1VA HE R! GT0 BCE GT0 MECT0! #line:b02ee9
+HuncherSisterGhost: [wave][size=.85] GT0 6J1VA UE4J, GT0 T0, 4EM TJ1 CTAVA.[/all] #line:435556
+HuncherOutside: R HE M0FVA BJ16PATJ T0, 4T0 C0 MH0L CVY4NTCR! #line:9c96a8
+HuncherSisterGhost: [wave][size=.85]MHE 6J1V0 TAK X0V0DH0, R TAK 60RVACJ.[/all] #line:ca211e
+HuncherOutside: R D0VSHA 6J1VA BJ1SNTJ! #line:9a049e
+HuncherSisterGhost: [wave][size=.85]A R HE CM0FVA.[/all] #line:fe3672
+Adina: 4T0 GT0? KT0 TJ1? #line:08c26f
+HuncherOutside: M0V4ATJ, DPRHHAR DEB40HKA. #line:bb98ed
+HuncherSisterGhost: [wave][size=.85]R 6J1VA EE 6VN3HEO0M! MJ1 CKPJ1BAVNCJ B VECAX, NDEHTN4HJ1E B0 BCEM[/all] #line:94f283
+HuncherSisterGhost: [wave][size=.85]KP0ME 0DH0F0.[/all] #line:0b3835
+HuncherSisterGhost: [wave][size=.85]K0FDA 0HA D0CTAVA M0E TEV0 N3 B0DJ1[/all] #line:f88f20
+HuncherSisterGhost: [wave][size=.85]0HA 0CTABNVA CE6E VNQJ 0DHY 4ACTJ MEHR[/all] #line:e48ee5
+HuncherSisterGhost: [wave][size=.85]TATYNP0BKY.[/all] #line:76fabf
+HuncherOutside: R TJ1CR4EVETNRMN XPAHNVA EE Y CE6R. #line:3d27fd
+HuncherSisterGhost: [wave][size=.85]MEHR HE U0KNDAVA MJ1CVJ, 4T0 TJ1...[/all] #line:339c47
+HuncherSisterGhost: [wave][size=.85]DABH0 MEPTBA, KAK N R.[/all] #line:76a9bf
+HuncherSisterGhost: [wave][size=.85]H0 TJ1 BJ1SNVA.[/all] #line:58040e
+HuncherOutside: R... R... #line:0c0e45
+Adina: 0 60SE. MHE TAK SAVJ. MHE TAK SAVJ 3A GT0. #line:fedd77
+HuncherOutside: BJ1METALCR. #line:fc9179
+Adina: UP0CTNTE!!! R HNK0FDA HE X0TEVA... #line:5422cd
+<<setTalkAnimType HuncherOutside 2>>
+HuncherOutside:{width=8, angryWobble=5}[shake=.05]Y6N-N-N-N-N-N-N-N-N-NPALCR![/shake]#line:4568ff
+<<set $huncher_sister_convo to 1>>
+<<set $day to 3>>
+<<playOneShot event:/lost_constellation/teleport Adina>>
+<<fadeOut .5 1 1 1>>
+<<wait .5>>
+<<wait .5>>
+<<fadeColor 1 0 0 0>>
+<<wait 1>>
+<<showTalkingHeads>>
+Mae:... #line:6f84b9
+Granddad: DA, MGL? #line:1d72c3
+Mae: 0 4EM GTA NCT0PNR? #line:cf28dd
+Granddad: A 0 4EM TJ1 X04EQJ, 4T0 6J1 0HA 6J1VA? #line:08467a
+Mae: ECVN MHE BJ16NPATJ, 0 4EM GTA NCT0PNR, T0 0HA 6YDET HN 0 4EM. #line:c7cfd0
+Granddad: XA. GT0 NHTEPECH0E 3ARBVEHNE. #line:12f046
+Mae: R 04EHJ YMHAR. #line:b84f2a
+Granddad: HY, TJ1 CUVAHNP0BAVA T0T UVAH U0 0FPA6VEHN% 6AHKA #line:f46c8e
+Granddad: CT0VJ 4ETK0, 6YDT0 TJ1 B HEM YBEPEHA. #line:458623
+Mae: R X04Y 3HATJ 0 4EM 0HA. #line:da6a73
+Granddad: DYMA%, TE6E CAM0L HAD0 BJ1RCHNTJ GT0. #line:e2790b
+Mae: ... #line:173b38
+Mae: MHE GT0 HE HPABNTCR. #line:2c480d
+<<hideTalkingHeads>>
+<<wait 1>>
+<<scene LN2_LostWoods>>
+
+===
+title: HuncherKid.1
+tags: 
+colorID: 0
+position: 1338,-115
+---
+Adina: R M0FY BJ1TAWNTJ TE6R 0TC%DA. #line:bb151e
+HuncherKid: TJ1 CAMA T0 BJ16PATJCR 0TC%DA HE M0SEQJ. #line:884ffe
+HuncherKid: R C TPYD0M M0FY BJ16PATJCR C 4EPDAKA #line:1a7c96
+HuncherKid: U0DAVJQE 0T T0F0 KPALHE SYTK0F0 AVTAPR. #line:bf4583
+Adina: 3DECJ HE 6E30UACH0. #line:22d5c0
+HuncherKid: TJ1 3HAVA, 4T0 T0T RD M0NX PYK DEV0, A 0HA MEHR DASE HE U06VAF0DAPNVA? #line:432c9a
+HuncherKid: 0HA 3A6EPET BC% CVABY CE6E! #line:7613a5
+Adina: 4T0? #line:8041d4
+HuncherKid: R 3HA%, VADH0? #line:2efeb6
+HuncherKid: Y6NLCTB0 60FA GT0 HE T0, 4T0 TJ1 U03B0VNQJ K0MY-VN60 UPNUNCATJ CE6E. #line:a1883c
+Adina: 0 60SE M0L. #line:91ac52
+<<set $forest_god_poison to 1>>
+Adina: R DYMAVA, TJ1... #line:3acb63
+HuncherKid: R C06NPA%CJ BJ1SNTJ #line:98482f
+HuncherKid: N3 TEX, KT0 3HAET, 4T0 R UP0UAVA R 6J1 HNK0F0 HE X0TEVA BNDETJ TEM, KT0 6J1 X0TEV NCKATJ MEHR. #line:936be4
+Adina: MHE HYSH0 NDTN. #line:4652bf
+
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: -12,173
+---
+<<animationTrigger HuncherKid Sit>>
+<<if $snowproblem is 1 and $huncher_sister_convo is 0>>
+	[[HuncherSisterConvo]]
+<<endif>>
+===
+title: HuncherKid.2
+tags: 
+colorID: 0
+position: 1585,-113
+---
+HuncherKid: 6EFN, ECVN M0SEQJ. #line:ec4aff
+===
+title: SnowmanBuildSpot
+tags: 
+colorID: 0
+position: 632,-83
+---
+<<if $huncher_outside is 1>>
+	Adina: XAH4EP 6VN3K0! #line:f98957
+<<elseif $huncher is 0>>
+	Adina: XM. #line:cbf93d
+	Adina: HABEPH0, CHA4AVA CVEDYET UP0BEPNTJ T0T D0M. #line:6839e6
+<<elseif $huncher_fix > 0 and $hasSpecialKeyItem > 0>>
+	Adina: VADH0, U0PA 3AHRTJCR DEV0M. #line:2fb294
+<<else>>
+	Adina: HEMH0F0 T0F0 CTPAHH0F0 CHEFA HAVNUV0 HA DEPEBJR. #line:6ac5e9
+	Adina: HYSEH X0P0QNL, CNVJHJ1L BETEP. #line:d3d09c
+	Adina: XA-XA-XA.  MHE UP0CT0 HYSH0 K0HTP0VNP0BATJ BETEP. BCE UP0CT0. #line:7f23e5
+<<endif>>
+
+===
+title: PlayerReactionToGettingCaught
+tags: 
+colorID: 0
+position: 1353,553
+---
+<<set $player_was_caught to 0>>
+<<wait 1>>
+<<alwaysRequireButtonToAdvance 1>>
+<<if $hasSpecialKeyItem is 0>>
+	<<if $huncher_fix is 1>>
+		Adina: AFX. #line:faf841
+		Adina: R HE C06NPA%CJ YMNPATJ CEF0DHR 3DECJ. #line:91be24
+		Adina: R UP0CT0 HE M0FY. #line:3666a2
+		Adina: MHE HYSH0 U0CM0TPETJ 4T0 HAX0DNTCR B GT0L V0WNHE.  #line:f5d228
+		Adina: MHE HYSH0 U0UACTJ B GT0T D0M. #line:0349c2
+		Adina: HY, BUEPED. #line:a085f4
+	<<elseif $huncher_fix is 2>>
+		Adina: MHE TAK X0V0DH0, TAK X0V0DH0. #line:c5b211
+		Adina: HET. #line:1e24ac
+		Adina: R ACTP0H0M. #line:0215da
+		Adina: GT0 M0E HE60, 4EPT B03JMN. #line:5fbf86
+		Adina: R BJ1SNBY. #line:10dff0
+	<<elseif $huncher_fix is 3>>
+		Adina: KASETCR, 0HA 0TBVE4EHA U0F0D0L. #line:788729
+		Adina: B03M0SH0... XM... #line:ee59c0
+	<<endif>>
+<<endif>>
+<<alwaysRequireButtonToAdvance 0>>
+<<unfreezePlayer>>
+===

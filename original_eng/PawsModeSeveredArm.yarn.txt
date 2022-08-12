@@ -1,0 +1,42 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 370,-88
+---
+<<set $diner to 2>>
+Angus: Mae, this is like, tampering with evidence. #line:8c8b8e
+Bea: Ugh. Am I going to have to start worrying #line:3fce88
+Bea: about getting dismembered on my way home? #line:0c52ae
+Gregg: Shh. I wanna watch this. #line:85ddcc
+Bea: You don’t need your ears to watch. #line:d34221
+Gregg: SHHHHHHHHHH! #line:90a17a
+===
+title: CopsArrive
+tags: 
+colorID: 0
+position: 750,239
+---
+<<fadeOutMusic 1>>
+Molly: Now what's going on here! #line:845fbc
+Gregg: [shake=.05]Uh oh![/shake] #line:f70f21
+<<fadeOut 1>>
+<<wait 1>>
+<<scene TowneCentreWest>>
+===
+title: FindTattoo
+tags: 
+colorID: 0
+position: 367,205
+---
+Mae: Whoa. What’s that? #line:86b1f0
+Gregg: Some kind of mark. #line:183fa7
+Mae: What? #line:861f10
+Bea: Is that a tattoo? #line:404896
+Angus: That’s a tattoo. #line:063055
+Mae: What is it? #line:debdb4
+Gregg: I think you just sleuthed out a clue, dude. #line:30980d
+Bea: Oh for eff’s sake you two. #line:e620bd
+Angus: Here come the cops. #line:a8481c
+<<set $found_tattoo to 1>>
+[[CopsArrive]]
+===

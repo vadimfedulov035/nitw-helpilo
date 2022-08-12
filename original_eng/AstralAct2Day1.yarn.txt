@@ -1,0 +1,11 @@
+title: TriggerBearScream
+tags: 
+colorID: 0
+position: 470,231
+---
+<<tell AstralAct2Day1 End>>
+<<wait 20>>
+<<fadeOut 1 wait>>
+<<wait 3>>
+<<endDay>>
+===

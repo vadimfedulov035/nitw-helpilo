@@ -1,0 +1,106 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 47,294
+---
+[[HomeQuest]]
+===
+title: HomeQuest
+tags: 
+colorID: 0
+position: 324,330
+---
+<<hide Collision:Right>>
+
+<<warp Mae Mae0>>
+<<warp Germ Germ0>>
+
+<<walk Mae Mae1>>
+<<walk Germ Germ1>>
+
+<<waitForMove Mae>>
+Germ: 0, B0T N 0HA. #line:cc0fc3
+<<close>>
+<<wait 2>>
+GermGramma: CT0LKAR DEB04KA. #line:d3026e
+Mae: ... #line:d0d6d8
+Mae: M0L DEDYQKA TAK F0B0PNV. #line:1b4c30
+Mae: A BJ1... #line:8fe183
+Germ: GT0 6A6YQKA. #line:33cc24
+<<lookAt Mae GermGramma>>
+Mae: 3DPACJTE. #line:cf6307
+GermGramma: YFY. #line:b2e759
+<<wait 2>>
+<<lookAt Mae Germ>>
+Germ: VADJ1, HY, YBNDNMCR! #line:0c0ebf
+<<walk Germ Germ0>>
+Mae: CT0U, 4T0? #line:ce993e
+<<close>>
+<<walk Germ Germ0>>
+<<wait 2>>
+<<lookAt Mae GermGramma>>
+<<wait 1>>
+Mae: BJ1 CM0TPNTE HA MEHR. #line:f64841
+GermGramma: CT0LKAR - U0DX0DRWEE CV0B0 DVR TE6R. #line:907318
+GermGramma: KPYUHJ1E K0CTN. UP04HJ1E. #line:5789db
+Mae: DA. #line:7c2152
+<<wait 2>>
+Mae: TAAAAK... GT0 BCE? #line:808162
+GermGramma: 0Y, UP0CTN. #line:ebb8f1
+GermGramma: R TE6R 0F0P4NVA? #line:3a6dea
+Mae: HET. #line:cca65d
+GermGramma: GT0 UV0X0. TJ1 D0VSHA 6J1TJ 0F0P4EHA. #line:d4b345
+GermGramma: T0, 4T0 SDET TE6R, %HAR VEDN, #line:3b34d5
+GermGramma: B TPN PA3A YSACHEE, 4EM TJ1 3ACVYSNBAEQJ. #line:820ff5
+GermGramma: TJ1 YLDEQJ FVY60K0 U0D 3EMV%, #line:bf8c48
+GermGramma: HEDAVEK0 0TC%DA. #line:53611c
+GermGramma: TJ1 0KASEQJCR U0D 3EMVEL, #line:87dcf3
+GermGramma: B GTNX VECAX. #line:eba622
+Mae: BJ1, TNUA, UPEDCKA3J1BAETE M0% CYDJ6Y? #line:2fa34b
+<<wait 2>>
+GermGramma: DNTR, R HE 3HA%, 4T0 TJ1 CDEVAVA. #line:49f491
+GermGramma: B TE6E ECTJ TEMH0E URTH0, #line:4e5c9e
+GermGramma: K0T0P0E 0DHASDJ1 3A6EPET SN3HJ #line:43580e
+GermGramma: K0F0-T0 DPYF0F0 NVN SE TB0%. #line:d4362e
+<<wait 2>>
+GermGramma: 3AU0MHN M0N CV0BA. #line:b625f2
+GermGramma: TJ1 06PE4EHA. #line:e09cdd
+<<wait 2>>
+Mae: VADH0. R, GM... U0UJ1TA%CJ 3AU0MHNTJ GT0. #line:ad5d52
+Mae: o> O_o :\ #line:484aa0
+Mae: X0TR? HET. GT0 FVYU0. #line:3181ac
+Mae: TJ1 MEHR HE 3HAEQJ. #line:cfdc64
+Mae: H0 BCE SE, 4T0 C0 MH0L HE TAK? #line:5cee35
+Mae: DA, R HE T0VJK0 FPE6AHJ1L MAFHNT #line:760ab1
+Mae: DVR UP06VEM, K0T0PJ1E MEHR 0KPYSA%T. #line:b24e84
+Mae: "YYYX YYYX B BAC ECTJ TEMH0E URTH0" #line:c5ada1
+Mae: 4T0, 4EPT B03JMN, TJ1 B006WE 060 MHE 3HAEQJ?!? #line:86f2a4
+<<wait 2>>
+GermGramma: MHE HE U0D CNVY 0CTAH0BNTJ FPRDYWEE, #line:1d9dfa
+GermGramma: H0 U0D CNVY 3ADATJ TE6E B0UP0C, 4T0 TJ1 0CTABNQJ 6E3 0TBETA: #line:ac5d10
+GermGramma: M0SEQJ VN TJ1 04NCTNTJ UP0KVRTJ1L D0M? #line:470fef
+Mae: :| #line:69457f
+Mae: R... R... 4T0? #line:844391
+<<wait 2>>
+GermGramma: XE-XE-XE! #line:2886f7
+GermGramma: HA CEKYHDY TJ1 6J1VA DELCTBNTEVJH0 6VN3KA. #line:b31981
+Mae: 4EF0? #line:54f9dd
+GermGramma: R UP0CT0 QY4Y HAD T060L. #line:0b98c7
+GermGramma: Y MEHR CB0E06PA3H0E 4YBCTB0 %M0PA. #line:4d9ec4
+Mae: o_o :\ _o_ #line:682a97
+Mae: 4T0 C BAMN HE TAK?!?! #line:cf0235
+Mae: GT0 CEPJE3H0 BCE U0PTNT!! #line:e1a96e
+GermGramma: XEE-XEE-XEE #line:0806d6
+GermGramma: A TJ1 M0V0DEO. #line:0c837a
+GermGramma: TEUEPJ CTYUAL, MNVAR! #line:7fa152
+GermGramma: DAL 6A6YVE U0CM0TPETJ CYDJ% DSEHNC #line:48f9e4
+Mae: :| #line:2fa60d
+Mae: VADH0... GM... EWE YBNDNMCR! #line:603e38
+GermGramma: BPRD VN. #line:e9d792
+<<wait 2>>
+GermGramma: %HAR VEDN. #line:810669
+<<close>>
+
+<<irisOut 1 wait>>
+<<scene GermHouse left>>
+===

@@ -1,0 +1,112 @@
+title: GraveDigger
+tags: 
+colorID: 0
+position: 852,76
+---
+GraveDigger: Hey. #line:fae61d
+Mae: Sup. #line:65b23d
+GraveDigger: Been digging some graves. #line:ba87bb
+Mae: Okay? #line:8fa2d5
+GraveDigger: Time to wake up! #line:be2afd
+<<fadeOut 1 wait>>
+<<endDay>>
+
+===
+title: ManOnHill
+tags: 
+colorID: 0
+position: 1144,39
+---
+ManOnHill: [color=2B81A9]we know not when the lord will take us.[/color] #line:b57a04
+ManOnHill: [color=2B81A9]brian knew the dangers of the mines[/color] #line:d655b9
+ManOnHill: [color=2B81A9]but he loved his family.[/color] #line:622bca
+ManOnHill: [color=2B81A9]and like so many of us[/color] #line:2bce78
+ManOnHill: [color=2B81A9]he put them before his own safety.[/color] #line:049cad
+ManOnHill: [color=2B81A9]But the god of heaven is the god of the tunnels.[/color] #line:ce4e76
+ManOnHill: [color=2B81A9]And we may rest in the knowledge[/color] #line:c1f98b
+ManOnHill: [color=2B81A9]That Brian is with Him now.[/color] #line:e85a06
+Crowd: [color=2B81A9]Amen.[/color] #line:4ca3d3
+ManOnHill: [color=2B81A9]We consign Brian to the dust, and to the care of the Lord.[/color] #line:8fd25c
+===
+title: ManOnFence
+tags: 
+colorID: 0
+position: 501,49
+---
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Hello? #line:f98896
+ManOnFence: What? Who’s there? #line:bc7d6e
+Mae:{align=middle,locator=MaeFenceTalk,width=2}I’m Mae Borowski. #line:d083e6
+ManOnFence: What do you want, ghost? #line:b61fe2
+[[{align=middle,locator=MaeFenceTalk,width=2}Where am I?|ManOnFence_WhereAmI]] #line:001163
+[[{align=middle,locator=MaeFenceTalk,width=2}Is this a funeral?|ManOnFence_IsThisAFuneral]] #line:2dac70
+===
+title: ManOnFence_WhereAmI
+tags: 
+colorID: 0
+position: 321,335
+---
+ManOnFence: You are in the cemetery in Possum Springs, Pennsylvania. #line:09bb14
+ManOnFence: But surely you know that #line:f88c11
+ManOnFence: for you have come here to haunt me #line:5916a2
+ManOnFence: on such a lonely afternoon. #line:e3f0b1
+Mae:{align=middle,locator=MaeFenceTalk,width=2}I’m not haunting you! #line:3f8f67
+Mae:{align=middle,locator=MaeFenceTalk,width=2}And I’m not a ghost! #line:acd788
+Mae:{align=middle,locator=MaeFenceTalk,width=2}And it’s night! #line:820e82
+[[ManOnFence_2]]
+
+===
+title: ManOnFence_IsThisAFuneral
+tags: 
+colorID: 0
+position: 676,327
+---
+ManOnFence: Of Brian Rooke. He is like you now, ghost. #line:530b5b
+Mae:{align=middle,locator=MaeFenceTalk,width=2}What happened to him? #line:d8dcca
+ManOnFence: Suffocated down the mines. #line:f38eba
+ManOnFence: Ed Yacynich tripped over him three weeks later. #line:fc8823
+ManOnFence: He was buried in coal dust. #line:dfec5f
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Well that’s pretty horrible! #line:67e7f9
+ManOnFence: They pull him out of the ground #line:11df27
+ManOnFence: they cleaned him up #line:a3438c
+ManOnFence: for awhile they looked at him #line:c62a86
+ManOnFence: and now they’re burying him again. #line:b3d0a0
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Yeah I guess that’s kind of weird. #line:becdf5
+[[ManOnFence_2]]
+===
+title: ManOnFence_2
+tags: 
+colorID: 0
+position: 464,659
+---
+ManOnFence: Why do you speak to me, ghost? #line:c99c07
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Good god what are we even talking about? :( #line:a6a04b
+ManOnFence: Did Granny send you? To torment me? #line:ec703b
+Mae:{align=middle,locator=MaeFenceTalk,width=2, mood=5}Listen, I'm scared. #line:35f51a
+Mae:{align=middle,locator=MaeFenceTalk,width=2}I don't remember how I got here. #line:1c3b6e
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Did I die? #line:599da9
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Did my house burn down with me in it? #line:d27013
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Oh my god... mom and dad... #line:1e0ce2
+ManOnFence: why do you torment me? #line:49b487
+Mae:{align=middle,locator=MaeFenceTalk,width=2}PLEASE HELP ME!!! #line:81248d
+ManOnFence: sleep in the ground, ghost #line:25c60e
+ManOnFence: where no one may wake you #line:f17817
+ManOnFence: and peace... peace... peace... #line:043131
+<<close>>
+<<trigger AstralAct1Day3 AstralFreakout>>
+<<wait 13>>
+<<fadeOut 1 wait>>
+<<endDay>>
+
+===
+title: Sign
+tags: 
+colorID: 0
+position: 1590,168
+---
+Mae: can't read this thing... #line:a7f2cf
+Mae: Something something mining company... #line:f2205c
+Mae: I think this one part says #line:ba9745
+Mae: population 562? #line:f12b09
+Mae: huh. #line:6d262c
+<<end>>
+===

@@ -1,0 +1,266 @@
+title: Field1
+tags: 
+colorID: 0
+position: 443,493
+---
+<<showTalkingHeads>>
+Mae: Where is this place? #line:fa8ba5
+Granddad: Back where your great-great-grandparents came from, before they came to this country. #line:dbbfa0
+Granddad: But long before they were born and longer still before that. #line:da5493
+[[Do they have Longest Night there?|LongestNightThere]] #line:b3dc3b
+[[They had Longest Night then?!|LongestNightThen]] #line:56f6d7
+===
+title: LongestNightThere
+tags: 
+colorID: 0
+position: 726,629
+---
+Granddad: They do indeed! #line:11b5c3
+Mae: Do they give presents? #line:18ec16
+Granddad: Those who can! #line:1680e4
+Mae: They should all can. #line:7ee2a4
+Granddad: What do... yeah ok. Anyway. #line:851b6c
+===
+title: LongestNightThen
+tags: 
+colorID: 0
+position: 449,774
+---
+Granddad: There's always been a Longest Night. #line:62048d
+Granddad: Even back before they came up with a name for it. #line:bd6fd2
+Mae: What did they call it back then? #line:3e37e5
+Granddad: Longest Night. #line:5b9d73
+Mae: Oh. #line:7cf72d
+
+===
+title: TreeCat.1
+tags: 
+colorID: 0
+position: -75,399
+---
+<<speechBubbleSizeOverride 1.3>>
+Adina: Cat! Hey cat! #line:4a0949
+Adina: Do you live in this forest? #line:5d7e05
+TreeCat: Near enough. #line:a2e808
+Adina: Can I ask you a question? #line:bc6f14
+TreeCat: You're going to die in there tonight. #line:5f1197
+Adina: Wow. That is unhelpful. #line:febd28
+TreeCat: Is it? #line:399eca
+[[Where are you going tonight?|WhereAreYouGoing]] #line:31968b
+[[Go away, cat!|GoAwayCat]] #line:3c430b
+
+===
+title: WhereAreYouGoing
+tags: 
+colorID: 0
+position: -5,726
+---
+TreeCat: I'm visiting my relations, but first I'll go to church. #line:c75a3d
+Adina: That sounds like your standard Longest Night. #line:b1b9a8
+TreeCat: Before church, I'll hunt up a vole. #line:fd5a5e
+TreeCat: And eat it. #line:275135
+TreeCat: And before that, I'll watch you walk into the woods #line:751c4b
+TreeCat: To die. #line:582699
+TreeCat: And before that, we'll say goodbye. #line:797148
+Adina: Are you so sure? #line:77168e
+TreeCat: [speed=.5][wave]Prrrrr.[/all] #line:75fa20
+Adina: Well, goodbye! #line:b20d16
+TreeCat: HA HA HA HA. #line:5a6877
+Adina: What are you- #line:c846dc
+Adina: Oh I see. #line:f97ac3
+TreeCat: Goodbye. #line:8fe2c5
+
+===
+title: GoAwayCat
+tags: 
+colorID: 0
+position: -285,690
+---
+TreeCat: I'm on my way down the hills tonight, but I'll be back. #line:fc358d
+TreeCat: I collect shiny things #line:995c5a
+TreeCat: from the cold pockets #line:769525
+TreeCat: of fools like you. #line:b3cb16
+Adina: Stop bothering me! #line:d189dc
+TreeCat: I think it's you who bothered me? #line:2c2ce5
+Adina: Get going then! #line:c2fb9a
+TreeCat: There's always a moment to watch a fool make her last mistake. #line:45afcd
+Adina: Oh very nice. That's helpful. #line:6e4c1d
+Adina: ...asscat... #line:92308b
+TreeCat: [speed=.5][wave]Prrrr.[/all] #line:54072d
+Adina: Well, a good Longest Night to you! #line:7ddaaf
+TreeCat: I'll be going through your pockets by morning! #line:b319e4
+Adina: Ok thanks! #line:6b8e5e
+TreeCat: Goodbye! #line:b8c7d3
+
+===
+title: TreeCat.2
+tags: 
+colorID: 0
+position: 179,400
+---
+<<speechBubbleSizeOverride 1.3>>
+TreeCat: [speed=.5][wave]Prrrr.[/all] #line:391634
+===
+title: WanderingKings_A1D3.1
+tags: 
+colorID: 0
+position: 1016,445
+---
+Adina: Hello again! #line:e4afb5
+King: Ah, we meet again! #line:c0ecda
+<<setAnimInt King look -1>>
+Advisor: I hope you are faring well! #line:aa2915
+King: We were just leaving! #line:9e1188
+Adina: Why? #line:ec81fd
+<<setAnimInt King look 1>>
+Advisor: Because a kingdom needs a king! #line:a53d2f
+King: And this king needs his trusted advisor! #line:145b64
+Adina: What happened to your sword guy? #line:f19ae1
+King: STEVENSON! #line:a16499
+<<setAnimInt King look -1>>
+Advisor: HE HAD A NAME, YOU KNOW. #line:26bc0a
+Adina: Sorry! What happened to him? Did you see the forest god? #line:0baa23
+Advisor: STEEEEVEEEEENSOOOOON! #line:eaedfe
+<<if $found_stevenson_head is 1>>
+	[[WK_StevensonHead]]
+<<else>>
+	King: We're going home now. I command it and I'm king. #line:4775b2
+	<<setAnimInt King look -1>>
+	Advisor: Yes. Home now. #line:8c2acf
+	King: I'm going to call a late-night feast! #line:0134fc
+	Advisor: It'll be a new tradition, sire! #line:b4b051
+	King: This will be the best Longest Night ever! #line:508e86
+	Advisor: Too true! #line:cd9b3f
+	Adina: Well, happy Longest Night- #line:a6b27a
+	<<setAnimInt King look 1>>
+	King: The *BEST* Longest Night! #line:2312ba
+	Adina: Yes, that! #line:e87c72
+	King: Be safe! #line:4af212
+<<endif>>
+
+===
+title: WanderingKings_A1D3.2
+tags: 
+colorID: 0
+position: 1251,444
+---
+King: Let's sing a Longest Night carol! #line:6814ed
+<<setAnimInt King look -1>>
+Advisor: Yes, that will raise our spirits! #line:0569a5
+<<setAnimInt King look 1>>
+===
+title: SnowfieldNPC_A1D2
+tags: 
+colorID: 0
+position: 727,197
+---
+SnowfieldNPC: Hi, I'm a potential last-minute inclusion that would be a short conversation about how the Forest God is actually pretty dangerous! Also, the stars! #line:794771
+Adina: Wow, that'd be cool! #line:81aa70
+SnowfieldNPC: Yep, probably just single sprite sequence or something with some dialogue. #line:436d8a
+Adina: Well, we'll see if we have time! #line:6b29d3
+SnowfieldNPC: Fingers crossed! #line:d34a07
+===
+title: WK_StevensonHead
+tags: 
+colorID: 0
+position: 1099,728
+---
+Adina: I found his... helmet. #line:f7419b
+Advisor: Where was it? #line:a50cb5
+Adina: It was back on the Forest God's mountain, you could just- #line:0de2ea
+<<setAnimInt King look 1>>
+King: NNNNNOPE! #line:be4eba
+<<setAnimInt King look -1>>
+Advisor: Not going back there! #line:3ce3eb
+Adina: Did he attack the Forest God? #line:cd5d61
+<<setAnimInt King look 1>>
+King: He would never do that! I would never order that! #line:997b9c
+<<setAnimInt King look -1>>
+Advisor: Stevenson was a dear, dear man, and- #line:1e1dc6
+King: Steady, old friend. #line:5b693a
+Advisor: I shall be steady, sire. #line:a360c8
+Adina: What happened? #line:56f85e
+<<setAnimInt King look 1>>
+King: Nothing. #line:8500f5
+<<setAnimInt King look -1>>
+Advisor: Nothing happened. #line:84fa44
+King: I'm king and I say we go home now. #line:12667c
+Advisor: Excellent idea, sire. #line:aacdd2
+<<setAnimInt King look 1>>
+King: Safe journeys, whatever your name is! #line:2082c1
+Adina: Adina. #line:d80d9b
+Advisor: Safe journeys, whoever you are! #line:fe3a1a
+Adina: Adina. #line:e2214e
+King: Goodbye. #line:90fb8e
+
+===
+title: WanderingKings_A1D3.3
+tags: 
+colorID: 0
+position: 1506,442
+---
+King: La la la la! #line:9f56dc
+<<setAnimInt King look -1>>
+Advisor: Bum bum bum da bum bum bum! #line:2d4c29
+<<setAnimInt King look 1>>
+===
+title: ExitLevel_A1D1
+tags: 
+colorID: 0
+position: 1284,40
+---
+<<if $mae_gd_snowfield is 0>>
+	<<set $mae_gd_snowfield to 1>>
+	<<showTalkingHeads>>
+	Mae: Where does this happen? #line:e57ea5
+	Granddad: Back where my grandparents came from, but long before they lived. #line:c4dbe3
+	Mae: Did they have longest night back then? #line:95b519
+	Granddad: They did! #line:5099c2
+	Mae: What did they call it? #line:99bda2
+	Granddad: Longest night. #line:58d7ed
+	Mae: Oh. #line:a4bf6f
+	<<hideTalkingHeads>>
+	<<wait 1>>
+<<endif>>
+
+===
+title: EnterLevel_A1D1
+tags: 
+colorID: 0
+position: 286,136
+---
+<<if $adina_intro is 0>>
+	<<wait 1>>
+	Adina: Far from home here, alright. #line:24ca16
+	Adina: Could just go back... #line:6ad78d
+	<<close>>
+	<<wait .5>>
+	Adina: No. #line:61cfa5
+	Adina: It's been a year, and you made a promise. #line:a93191
+	Adina: Get ahold of yourself. #line:1e50d9
+	Adina: You're not gonna die in there tonight. #line:aa22fd
+	Adina: You're gonna see her again. #line:81af55
+	Adina: and come back with a star. #line:fdc739
+	<<set $adina_intro to 1>>
+<<endif>>
+
+===
+title: Fog
+tags: 
+colorID: 0
+position: 543,-61
+---
+<<if $snow_chimes_glowing is 1>>
+	Adina: I think the fog is clearing! #line:2c9f43
+<<elseif $snowfield_fog is 0>>
+	Adina: Wow this fog is too thick. #line:0a91c6
+	Adina: Weird fog. #line:becd6d
+	Adina: How do you get rid of weird fog? #line:67b95f
+	<<set $snowfield_fog to 1>>
+<<elseif $snowfield_fog is 1>>
+	Adina: Go away, fog! #line:96928a
+	Adina: Ugh. How do I get rid of you? #line:f5254b
+<<endif>>
+
+
+===

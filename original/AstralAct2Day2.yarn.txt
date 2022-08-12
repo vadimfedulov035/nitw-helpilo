@@ -1,0 +1,19 @@
+title: TriggerSquirrel
+tags: 
+colorID: 0
+position: 468,226
+---
+<<flip Mae -1>>
+<<tell AstralAct2Day2 End>>
+<<wait 19>>
+<<fadeOut 1 wait>>
+<<wait 3>>
+<<endDay>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 299,-25
+---
+<<flip Mae -1>>
+===

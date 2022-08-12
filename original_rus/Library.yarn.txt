@@ -1,0 +1,527 @@
+title: Microfiche
+tags: 
+colorID: 0
+position: -56,93
+---
+<<if $microfiche_done is 0>>
+    Bea: 0TVN4H0, B0T N 0HA. #line:14c89c
+    Mae: KPYT0. #line:c25fc6
+    <<fadeOutMusic 7>>
+    <<close>>
+    <<wait 3>>
+    Bea: NTAK... #line:63cb26
+    Mae: R 6E3 U0HRTNR, KAK GTNM U0VJ30BATJCR. #line:d429d3
+    Bea: CEPJE3H0? #line:6ff6e7
+    Mae: R HE M0FY 3HATJ BCE HA CBETE! #line:13c5c3
+    Bea:{width=4}N3BNHN, H0 KAK0L 0UJ1T TJ1 NMEEQJ HA DAHHJ1L M0MEHT?#line:c4e492
+    Mae: \o/ #line:b45923
+    Mae: GT0 BCE 6J1V0 M0EL NDEEL! #line:428f8b
+    Bea:{width=4}GT0 BCE 6J1V0 M0EL NDEEL!#line:374685
+    Bea: M0R NDER C0CT0NT B T0M, 4T06J1 KAK MNHNMYM UP0BECTN HE60VJQ0E NCcVED0BAHNE. #line:d415d2
+    Mae: :( #line:fbd8a8
+    Mae: ECVN TJ1 DYMAEQJ, 4T0 GT0 TYU0, U04EMY TJ1 EWE 3DECJ? #line:6aa341
+    Bea: U0T0MY 4T0 TJ1 M0R U0DPYFA, 3ACPAHKA! #line:cc4e07
+    <<close>>
+    <<wait 2>>
+    Mae: 	_o_ :) #line:b04c1c
+    Mae: 0000Y. #line:5d6498
+    Bea: YX #line:cdfa1a
+    Mae: 00Y MJ1 6Y63JR 6NATBNCJ??? #line:2c7d81
+    Bea: DAL R CAMA BCE CDEVA% #line:7a32f8
+    Bea: MJ1 TYT UP0T0P4NM BC% H04J, ECVN FVABH0L 6YDET TAKAR TYUNOA, KAK TJ1 #line:a269dc
+    Mae: o_o :| _o_ #line:a33453
+    <<set $microfiche_done to 1>>
+<<endif>>
+<<irisOut 1 wait>>
+<<scene Microfiche>>
+===
+title: EnterLevel
+tags: test
+colorID: 0
+position: -702,224
+---
+<<if $microfiche_done>>
+    <<set $librarian_done to 1>>
+    <<warp Mae MaeNextToElevator>>
+    <<warp Bea BeaNextToElevator>>
+    <<flip Bea 1>>
+    <<hide Librarian>>
+<<else>>
+    <<flip Mae -1>>
+    <<flip Bea -1>>
+<<endif>>
+<<follow Bea Mae>>
+<<setCanInteract Bea 0>>
+
+<<if $microfiche_done is 0>>
+    [[Intro]]
+<<else>>
+    [[Intro2]]
+<<endif>>
+===
+title: Elevator
+tags: 
+colorID: 0
+position: -385,81
+---
+-> U0DHRTJCR! #line:dbd3bd
+    <<set $elevator_choice to 0>>
+-> CUYCTNTJCR! #line:c13a9f
+    <<set $elevator_choice to 1>>
+===
+title: Intro
+tags: 
+colorID: 0
+position: -828,506
+---
+<<cameraLookAt CameraMuralLook 4>>
+<<walk Mae MaeInFrontOfDoor>>
+<<walk Bea BeaInFrontOfDoor wait>>
+<<lookAt Bea LookMural>>
+<<setAnimInt Bea headSlant 2>>
+Bea: CM0TPN! PA604NE! #line:95c181
+Bea: CTPAHH0 GT0 #line:f05d14
+Bea: K0FDA CTEHY T0VJK0 U0KPACNVN, BCE TAKNE #line:8b2f40
+Bea: "GL FVRHJ-KA B 0KH0!" #line:a4d173
+Bea: "MJ1 BCE PA60TAEM! BCE Y HAC UPEKPACH0!" #line:30d04f
+Bea: A TEUEPJ GT0, TNUA, #line:28dae1
+Bea: 0DH0 N3 TEX FPAZZNTN, #line:ba73b6
+Bea: B03VE K0T0P0F0 TE6R U0DCTPEVRT N C06J%T MAQNH0L. #line:a7d4ef
+Mae: GTA ZPECKA N BUPABDY TP0HYVA TE6R. #line:fa7aeb
+Bea: o_o #line:25cfc1
+Bea: 3A6J1VA, 4T0 MJ1 C T060L SNBEM B PA3HJ1X PEAVJH0CTRX. #line:4aa5f1
+Mae: M0R 0UPEDEVEHH0 VY4QE. #line:269b84
+<<cameraFollowPlayer 4>>
+<<lookNearest Bea>>
+<<setAnimInt Bea headSlant 0>>
+<<playMusic investigating>>
+===
+title: Librarian
+tags: 
+colorID: 0
+position: 177,417
+---
+<<if $library_desk is 0>>
+    <<set $library_desk to 1>>
+    <<lookAt Mae Librarian>>
+    Bea: UPNBET! #line:dcc002
+    Librarian: 3AKPJ1BAEMCR 4EPE3 2 4ACA. #line:da253a
+    Bea: 0KEL, KPYT0. #line:67d4e1
+    Mae: ECTJ NDEN, FDE M0SET 6J1TJ MNKP0AZNQA? #line:b03f8f
+    Bea: MNKP0ZNQA. #line:64e700
+    Mae: :) #line:ca6d98
+    Mae: MNKP0ZNNQKA. #line:fe0add
+    Librarian: TPETNL GTAS. #line:e1f847
+    Bea: VADH0, CUACN60. #line:fba0fb
+    Mae: BBEPX BBEPX BBEPX. #line:72b410
+    Mae: :| #line:4323d8
+    <<loolNearest Mae>>
+<<elseif $library_desk is 1>>
+    <<set $library_desk to 2>>
+    <<set $librarian_done to 1>>
+    <<lookAt Mae Librarian>>
+    Mae: CU0K0LHJ1L BE4EP? #line:fb2819
+    Librarian: DA. #line:366f8c
+    Bea: CTPAQH0 3DECJ, C0BCEM 0DH0L? #line:2d4478
+    Mae: R 6J1 NCUYFAVACJ. #line:c6ef43
+    Librarian: G-G. #line:c25c81
+    Librarian: 3DECJ FDE-T0 EWE X0DNT VAPPN. #line:e7fd2c
+    <<loolNearest Mae>>
+<<endif>>
+===
+title: DinosaurSkeleton
+tags: 
+colorID: 0
+position: -112,406
+---
+Mae: KAK 0H0 Y HAC U0RBNV0CJ? #line:663064
+Mae: BJ1FVRDNT... D0P0FNM. #line:646f73
+Bea: 0H0 04EHJ CTAP0E #line:83d825
+Bea: C0 BPEMEH, TNUA, 6AP0H0B-PA360LHNK0B #line:38f4df
+Bea: 0DNH N3 HNX KYUNV DNH03ABPA. #line:012526
+->KPYT0 #line:ce09a4
+	Bea: HE 6YDY CU0PNTJ #line:e4c7a7
+->GT0 BJ1FVRDNT CTPAHH0 #line:e3ccbe
+	Mae: HE DYMA%, 4T0 0H0 TAK CT0RV0. #line:6ef44f
+	Bea: B T0 BPEMR MAV0 U0HNMAVN DNH03ABP0B #line:941442
+	Mae: 6YDT0 4T0-T0 N3MEHNV0CJ #line:8b7e41
+<<set $dinosaur_skeleton_done to 1>>
+===
+title: Computers
+tags: 
+colorID: 0
+position: 252,94
+---
+Mae: U0X0SE, KT0-T0 HEDABH0 YSE PA60TAV 3A GTNM K0MUJ%TEP0M #line:881bd4
+Bea: GT0 PE3%ME #line:8f7196
+Mae: 606 TAPF #line:d99ae7
+Mae: P0SDEH 1967 #line:d608e7
+Bea: EMY 50 VET #line:1ffd4f
+Bea: U0CM0TPNM... #line:a5b283
+Bea: 0UJ1T: F0PH0E DEV0, CTP0NTEVJCTB0, 6YPEHNE CKBASNH #line:d38c19
+Mae: HNK0FDA HE DYMAVA 0 U0NCKE PA60TJ1, 6YDY4N CTAP0L. #line:833f5e
+Bea: 50 - GT0 EWE HE CTAPAR. #line:662538
+Mae: B CMJ1CVE #line:7c3df2
+Mae: Y TE6R BEDJ YSE D0VSHJ1 6J1TJ DEHJFN, BEPH0? #line:154bf7
+Bea: B NDEAVE #line:d7fc43
+Mae: TNUA, KAK... HA 4EPHJ1L DEHJ. #line:a52975
+Mae: :\ #line:f9db76
+Mae: BCEFDA D0VSHA 6J1TJ 3AHA4KA #line:c599a3
+Mae: :| #line:230d71
+Bea: UPNC0EDNHNQJCR K M0EL C0ONAVNCTN4ECK0L FPYUUE "60VTYH"? #line:ad393b
+<<set $library_computers_done to 1>>
+===
+title: CharityBearity
+tags: 
+colorID: 0
+position: 549,113
+---
+<<if $library_charity_bearity is 0>>
+    <<set $library_charity_bearity += 1>>
+    Mae: 06AVDETJ. #line:900726
+    Bea: 4T0? #line:6e61e7
+    Mae: GT0 MNQKA 6VAF0TB0PNQKA. #line:038bd7
+    Bea: 4T0 3A MNQKA 6VAF0TB0PNQKA? #line:61eb9d
+    Mae: O_o #line:f81735
+    Mae: KAK TJ1 M0SEQJ HE 3HATJ 0 MNQKE-6VAF0TB0PNQKE?! #line:bfd7c2
+    Bea: U0VAFA%, GT0 4T0-T0 N3 QK0VJHJ1X BPEMEH? #line:944a87
+    Mae: TE BPEMEHA, K0FDA MHE 6J1V0 5 FPE6AHHJ1X VET! #line:c1604d
+    Bea: ...RCH0. #line:c6cdcc
+    Bea: TAK GT0 6J1V0 KPYTJ1M, K0FDA TJ1 6J1VA PE6EHK0M? #line:eda6a5
+    Mae: o> #line:db9adb
+    Mae: HET! R HEHABNDEVA MNQKY-6VAF0TB0PNQKY! #line:0c1b95
+    Bea: HE 04EHJ-T0 0H BJ13J1BAET HEHABNCTJ. #line:840823
+    Mae: o_o #line:cb77e7
+    Mae: GT0 6J1V0 CV0BH0 #line:f5f2b0
+	->TJ1 6J1V U0XNWEH KYVJT0M #line:365956
+		Mae: N K0FDA 0HN, TNUA, #line:59dc72
+		Mae: UP0MJ1BA%T TE6E M03FN, #line:6c2f64
+		Mae: KAK KAK0MY-HN6YDJ CEKTAHTY #line:991928
+		Mae: C B0VHNCTJ1M KVNHK0M N B MAFN4ECKNX MACKAX #line:6d1af1
+		Bea: TAK HE... VADH0, UP0D0VSAL #line:db2aca
+		Mae: T0VJK0 BMECT0 KYVJTA 6J1V GT0T P030BJ1L FPE6AHJ1L K0QMAP! #line:90bd09
+		Bea: TJ1 60RVACJ EF0? #line:59b85e
+        <<setAnimint Mae headShaking 1>>
+		Mae:{width=8}HET! MHE 6J1V0 C K Y 4 H 0 D 0 C M E P T N.#line:43afe4
+        <<setAnimint Mae headShaking 0>>
+		Mae: 0WYWEHNE, 4T0 GT0 DVNV0CJ BE4H0. R, TNUA, 6J1VA D06PA #line:5c3749
+        Mae: N, HE 3HA%, U0M0FVA UEHCN0HEPY U04NHNTJ CTAPJ1L DBNFATEVJ #line:6bbf3a
+        Bea: 3BY4NT... MNV0? #line:50e46c
+        Bea: MNQKA-6VAF0TB0PNQKA U0M0F CTAP0MY MNCTEPY UV0HK0 U04NHNTJ EF0 X0BEPKPAZT #line:8c7330
+        Mae: YX, A B0T N CAMAR SYTKAR 4ACTJ, TAM BCE 6J1V0 B PNZMY! #line:deaeaf
+        Bea: MNQKA-6VAF0TB0PNQKA: P030BAR K0QMAPNQKA. #line:3f1969
+        Mae: _o_ #line:3b8b83
+        Mae: MNQKA-6VAF0TB0PNQKA: MHE BCE U0XEPNQKY #line:aafc33
+    ->TJ1 CV0BH0 U0D UP0KVRTJEM #line:728c9b
+		Mae: FDE MNVJ1E QTY4KN X0DRT 3A T060L #line:369383
+		Mae: OEVJ1MN DHRMN #line:54c080
+		Mae: N 0PYT UP0 #line:009268
+		Mae: WEDP0CTJ N Y60PKY MYC0PA #line:90886a
+        Mae: N 4T0 HAD0 UVATNTJ HAV0FN #line:2992a3
+        Bea: HY, GT0...BASHJ1E HABJ1KN. #line:90049e
+        Mae: MHE 6J1V0 5!!! #line:cf99d3
+        Mae: TEUEPJ MHE 20 N R D0 CNX U0P HE UVA4Y HAV0FN! #line:455060
+        Mae: _o_ #line:14a89a
+        Bea:{width=4}MNQKA-6VAF0TB0PNQKA 0TUPABVRETCR HA BCTPE4Y U0 6%DSETY B 06VACTN F0CYDAPCTBEHH0L NHZPACTPYKTYPJ1#line:592f83
+        Mae: TAM BCE 6J1V0 B PNZMY. #line:b80bde
+        Bea: MNQKA-6VAF0TB0PNQKA: 0 HET! MNWKA U0RCAU0TYSE3ABR3AQKA! #line:f7f13e
+        <<set $austerity_bearity to 1>>
+        Mae: 4T0 GT0? #line:7723c9
+        Bea:{width=4}UPN4NHA, U0 K0T0P0L 06A M0CTA B N N3 C0VT3TAYHA BCE EWE 3AKPJ1TJ1#line:e21d15
+        Mae: 0F0, TJ1 4T0, D0 CNX U0P HE M0SEQJ... BJEXATJ B C0VT3TAYH? #line:b0c60a
+        Bea: CAMA M0SEQJ U0UJ1TATJCR! #line:1f5947
+<<elseif $library_charity_bearity is 1>>
+    <<set $library_charity_bearity += 1>>
+    <<set $library_charity_bearity_done to 1>>
+    Bea: 60SE. 0HN N BUPABDY CDEVAVN KY4Y TEMATN4ECKNX KHNF. #line:a1a2ed
+    Mae: N D0 CNX U0P DEVA%T, MHE KASETCR. #line:329cd9
+    Bea: B0T GTA KASETCR D0B0VJH0 CTAP0L. #line:9fff03
+    Mae: MNQKA-6VAF0TB0PNQKA: 0UACH0CTJ BE3DE, KYDA HE U0FVRDNQJ-KA #line:596a3e
+    Bea: PACUVJ1B4AT0. N C6NBAET C T0VKY. #line:89f448
+    Mae: M0FVN 6J1 UP0CT0 06H0BVRTJ GTY EDNHCTBEHHY% KHNFY #line:401e4a
+<<endif>>
+===
+title: LeaveThirdFloorElevator
+tags: 
+colorID: 0
+position: 809,126
+---
+Bea: *H%X* *H%X* #line:b4dc5c
+Bea: 0F0, 3DECJ UJ1VJH0BAT0 #line:dda4de
+Mae: O_o #line:a9d378
+Mae: 3DECJ *CTAP0BAT0*. #line:1e3bb9
+Bea: N GT0 T0SE. #line:9bdfec
+Bea: M0SET N TB0L... UPN3PAK 3DECJ? #line:541888
+Mae: o_o #line:43661a
+Mae: AFA. UPN3PAK. #line:34ed1c
+Mae: HY, KAK BAPNAHT. #line:e81f1c
+Mae: 4EM 6J1 0H TAM HN 6J1V, #line:ae8d3b
+Mae: 0H UP0QEV CKB03J SEVE3HY% CETKY #line:a00f58
+Mae: NVN UP0VETEV HAD HEL #line:611f61
+Mae: HY, KAK BAPNAHT. #line:4d749f
+Mae: *U0KA* K0E-4T0 HEC. #line:76b766
+Bea: AX DA, T0FDA GT0 EWE 60VJQE BUE4ATVRET. #line:f56048
+Mae: TAK 4T0 MJ1 HALDEM GT0F0 UAPHR. #line:a5d0eb
+Mae: BEDJ 0H K0F0-T0 3A6PAV #line:48f9f8
+Mae: N 0H KAK-T0 CBR3AH C TEM, 4EPE3 4T0 MHE UPNX0DNTCR UP0X0DNTJ #line:c9d7d3
+Mae: N GT0 HE ECTJ X0P0Q0. #line:9c9591
+<<wait 2>>
+Mae: :\ #line:53c8c8
+Mae: B M0EL F0V0BE GT0 3BY4AV0 KYDA KPY4E. #line:587256
+Bea: HN4EF0. H0PMAVJH0 BJ1QV0. #line:81fb46
+Mae: :| #line:d8b12a
+===
+title: Intro2
+tags: 
+colorID: 0
+position: -466,511
+---
+<<fadeOutMusic 3>>
+Mae: NTAK, Y HAC ECTJ 3AOEUKN #line:61c720
+Mae: M0SH0 MHE 0D0VSNTJ TB0% MAQNHY HA HEDEVE? #line:cc8c1b
+Bea: Y TE6R UPABA-T0 X0TJ ECTJ? #line:7a1a34
+Bea: T0 ECTJ, HET, B V%60M CVY4AE HEVJ3R, H0 TAK ECTJ? #line:baf92f
+Mae: HE-A. #line:318b25
+Mae: HET UPAB, HET KPEDNT0K, HE BEP% B DEHJFN #line:ead042
+Bea: H0 TJ1 BEPNQJ B 4YSNE MAQNHJ1 N DEHJFN #line:ac11d5
+Mae: MHE HE DABAVN BJ160P, B KAK0M 06WECTBE P0DNTJCR #line:9f1a66
+Bea: ... #line:e22144
+Bea: TAK, VADH0, Y MEHR ECTJ, HY, 3HAEQJ, PA60TA #line:2107eb
+Bea: TAK 4T0 R HE M0FY B03NTJ TE6R U0 BCEM GTNM T04KAM #line:f67539
+Bea: M0SET, T0VJK0 D0 KVAD6NWA. #line:9fe424
+Bea: MHE BCE PABH0 TYDA HAD0. #line:22ed89
+Mae: :) #line:e6b4f2
+Mae: KPYT0! CUP0QY CM0SET VN FPEFF U0CETNTJ 0CTAVJHJ1E DBA MECTA. #line:0b56ea
+Bea: 3HAEQJ, TNUA, M0SET, R N HE D0VSHA F0B0PNTJ GT0 #line:f424b2
+Mae: :| #line:7b814b
+Bea: T0VJK0 U0T0MY 4T0 KAKAR-T0 ZNFHR UP0N30QVA B UP0QV0M #line:01ea45
+Bea: HE CVEDYET T0, 4T0 0HA UP0N30LDET BH0BJ. #line:dfbb7d
+Mae: o> #line:711066
+Mae: GL, 3Y6PNVA, CVJ1QAVA, 4T0 NCT0PNR U0BT0PRETCR? #line:097ea2
+Mae: 0HA U0BT0PRECR. BCE T0 SE CAM0E, CH0BA N CH0BA. #line:57e1e6
+Bea: TAK MJ1 U0UAVN B UETV% EWE C0 BPEMEH, K0FDA SNVN B UEWEPAX? #line:160468
+Mae: _o_ #line:94a875
+Mae: DA. GT0 HAYKA. #line:3a0ea3
+Bea: F0CU0DJ BCEM0FYWNL. #line:29f8ff
+===
+title: PoetSociety
+tags: 
+colorID: 0
+position: 751,451
+---
+<<flip Bea 1>>
+<<walk Mae MaePoetry>>
+<<walk Bea BeaPoetry wait>>
+<<flip Bea 1>>
+MissQuelcy: KXG-KXGM! #line:fbd202
+Mae: 4T0 3A... #line:e9a2e1
+//Librarian: Shhh!
+Bea: GT0 HE MNCC KBEVCN? #line:d6272f
+Mae: BAY. HE BNDEVA EE C BJ1UYCKH0F0. #line:bcd4ad
+Bea: 0HA BCEFDA 6J1VA KPYT0L Y4NVK0L. #line:362b7f
+Bea: QK0VJHJ1L K0MNTET HE ZNHAHCNPYET GT0T TB0P4ECKNL KYPC, #line:e7abf3
+Bea: H0 0HA EF0 BCE PABH0 BEDET #line:32e115
+Bea: Y4NTEVJ NCCKYCTBA. AVR U0CVEDHRR TB0P4ECKAR VN4H0CTJ CPEDN Y4NTEVEL. #line:04f3b3
+Mae: BAY. R N HE 3HAVA. #line:480c58
+Bea: DYMA%, 0HN UVATRT EL U0PBAHHJ1MN CTPYHAMN N UYCTJ1MN 6YTJ1VKAMN. #line:51af9d
+<<if $austerity_bearity>>
+	Mae: A HAD0 6J1 GK0H0MNTJ 6APAXV0 N YKPEUVRTJ NMN M0CTJ1 B C0VT3TAYH. #line:21c5b8
+	Bea: HY, BUEPED. #line:991f58
+<<endif>>
+MissQuelcy: CUACN60 BCEM, 4T0 UPNQVN HA HAQY BT0PY% BCTPE4Y #line:11daf5
+MissQuelcy: 06WECTBA U0GT0B U0CCYM CUPNHFC #line:4a1cda
+Bea: X04EQJ 3ATYCNTJ C HNMN? #line:3c0d46
+->HE. #line:0f72d5
+    Mae: :\ #line:401775
+	Mae: 4TEHNE CTNX0B B UY6VN4HJ1X MECTAX HAD0 UPN3HATJ HE3AK0HHJ1M. #line:56ff66
+	Bea: TJ1 6J1VA X0TJ HA 0DH0M? #line:d6d342
+	Mae: DA, B QK0VE. C0CEDKA. #line:d272be
+	Bea: TJ1 HNK0FDA PAHJQE HE F0B0PNVA 0 C0CEDYQKE. #line:bf1bf9
+	Mae: U0T0MY 4T0 0HA - GT0 0TDEVJHAR NCT0PNR. #line:3da30d
+    Mae: :| #line:d5b321
+	MissQuelcy: N3BNHNTE, BJ1 0CTAETECJ C HAMN? #line:211445
+	MissQuelcy: ECVN DA, PACCKASETE BCEM, 4T0 BJ1 TAM 06CYSDAETE? #line:51de83
+    <<walk Mae MaeInFrontOfDoor>>
+    <<walk Bea BeaInFrontOfDoor>>
+	Mae: 06A PA3A HET! #line:78b6d9
+	Mae: MJ1 HE TAVAHTJ1 PNZM0BATJ BCE U0DPRD. #line:10eae0
+    <<close>>
+    <<waitForMove Mae>>
+    <<waitForMove Bea>>
+	MissQuelcy: U0G3NR - GT0 HE 06R3ATEVJH0 PNZMJ1! #line:cf3288
+	Mae: GT0 HANTYUELQAR BEWJ, 4T0 R CVJ1QAVA. #line:09e539
+	<<walk Mae MaeOut>>
+    <<walk Bea BeaOut>>
+    <<close>>
+->AFA! #line:bdee13
+    <<close>>
+	//lights go down
+    //Mae hops up on library counter//
+    <<sit>>
+    <<cameraLookAt CameraPoetry 6>>
+    <<playMusic poetry_society>>
+    <<wait 1>>
+	MissQuelcy: CEF0DHR Y HAC 6YDYT H0BJ1E CTNXN 0T MEHR #line:b687b2
+    MissQuelcy: "PJ16AKA" DS0HCA #line:e571be
+    <<if $selmers_poet >= 3>>
+        MissQuelcy: N CEVJMJ1 GHH Z0PPECTEP. #line:80ea8b
+    <<endif>>
+    MissQuelcy: NTAK, R HA4HY C 0DH0F0 N3 M0NX CTNX0B. #line:079225
+    ->0HA N3 KAK0F0-T0 60VJQ0F0 F0P0DA, BEPH0? #line:eefe3f
+        Bea: AFA #line:c8f336
+        Mae: KAK 0HA TYT 0KA3AVACJ? #line:254c96
+        Bea: KT0 3HAET. #line:eadc6c
+    ->0HN BEDJ HE UVATRT EL CTPYHAMN, BEPH0? #line:c26ef4
+        Bea: ... #line:0ec945
+        Bea: DA, MGL. 0HN PEAVJH0 UVATRT EL CTPYHAMN. #line:6d030e
+        Mae: R SE U0QYTNVA! #line:1df9d6
+        Bea: DA K0HE4H0. #line:9ea899
+    MissQuelcy: *KXE-KXE* #line:b9a74c
+    MissQuelcy: "UNCJM0 M0EMY XYDQEMY Y4EHNKY" #line:d25efa
+    MissQuelcy: U0CBRWAETCR M0EMY XYDQEMY Y4EHNKY, #line:e261f2
+    MissQuelcy: VNPN4ECK0MY FEP0% M0NX CTNX0B. #line:f00f4f
+    MissQuelcy: K0FDA UPNX0SY D0M0L, DPY3JR #line:959ea3
+    MissQuelcy: CUPAQNBA%T, KAK R TYT, B FVYQN #line:35031f
+    MissQuelcy: SN3HJ - #line:fa0bcc
+    MissQuelcy: GT0 TJ1. #line:99f3d2
+    MissQuelcy: MEHR FV0SET, #line:d5ecf3
+    MissQuelcy: 4T0 HA CMEPTH0M 0DPE #line:3da90e
+    MissQuelcy: T0VJK0 TE6R 0DH0F0 6YDY U0MHNTJ. #line:633b61
+    MissQuelcy: 3A4EM SE TJ1 #line:578640
+    MissQuelcy: OAPAUAV KV%40M #line:3cb609
+    MissQuelcy: M0% MAQNHY, #line:abffd4
+    MissQuelcy: BEDJ R 3HA%, #line:00740d
+    MissQuelcy: GT0 6J1V #line:9bc068
+    MissQuelcy: TJ1, #line:e44cfb
+    MissQuelcy: 6PALAH. #line:6ef51a
+    MissQuelcy: ... #line:21f635
+    MissQuelcy: BCEM CUACN60! #line:35c12b
+    ->GT0 3AK0HH0? #line:3e271e
+        Bea: 4T0? #line:3c53f9
+        Mae: B0T UPRM0 TAK 06CYSDATJ Y4EHNK0B? #line:1834cc
+        Bea: 0HA HE HA3J1BAVA NMEH. #line:0a48cf
+        Mae: HA3J1BAVA! #line:5b1e9a
+        Bea: HY, 6E3 *ZAMNVNN* SE. #line:799e52
+    ->6EDHAR MNCC KBEVCN. #line:9b27eb
+        Bea: HY VADH0, 0HA X0TR 6J1 BJ1UYCTNVA UAP. #line:467f9e
+    MissQuelcy: CVEDY%WNL - "PJ16AK" DS0HC. #line:98a17c
+    //fisherman stands up//
+    MissQuelcy: Y PJ16AKA DS0HCA ECTJ DVR HAC CTNX0TB0PEHNE... #line:553b08
+    Fisherman: DBA. DBA CTNX0TB0PEHNR. H0 0HN K0P0TKNE. #line:483620
+    MissQuelcy: DBA CTNX0TB0PEHNR! 4NTAL SE CK0PEE! #line:69d033
+    Fisherman: M... UPNBET, HAP0D. CUACN60. #line:b478e8
+    Fisherman: GT0T HA3J1BAETCR "TYHHEVJHJ1E YFPN" #line:20735f
+    Fisherman: TYHHEVJHJ1E YFPN, YFPN B TYHHEVE #line:83fbc0
+    Fisherman: HE 3HA%, KAK0B0 BAM B CAM0M DEVE #line:035427
+    Fisherman: B0KPYF BAC X0V0D, TEMH0TA N DN3EVJ #line:3eb252
+    Fisherman: N3 FHNVN P0SDEHJ1, SNBETE B CVN3N #line:61cf34
+    Fisherman: H0 BJ1 HE 3HAETE MH0L UP0LDEHHJ1X D0P0F, #line:e31835
+    Fisherman: U0GT0MY HE BAM CYDNTJ N M0L U0P0K. #line:dbe7c0
+    Fisherman: ... #line:d526bb
+    Fisherman: X0P0Q0. GT0 6J1V0 UEPB0E. BT0P0E K0P04E. #line:6ff167
+    Fisherman: 0H0 HA3J1BAETCR "TYHHEVJHAR SA6A" #line:e09abf
+    Fisherman: TYHHEVJHAR SA6A YKYTAHA MFV0L, #line:a7c8af
+    Fisherman: GT0 D0VSH0 6J1TJ QYTK0L CMEQH0L #line:1daf2a
+    Fisherman: 6J1TJ PJ16AK0M, U0GT0M HEF0DHJ1M, #line:b00be5
+    Fisherman: 4T0 TJ1 B006WE M0SEQJ 3HATJ, 3EMH0B0DH0E? #line:b24836
+    Fisherman: ... #line:166f1f
+    //fisherman sits down//
+    Fisherman: KAK-T0 TAK. #line:c87f28
+    MissQuelcy: UPEKPACH0! CUACN60, "PJ16AK" DS0HC! #line:898c2e
+    <<if $selmers_poet >= 3>>
+        ->4YBAK B CAM0M DEVE B0VHYETCR 0 T0M, 4T0 DYMA%T PJ16J1. #line:068f70
+            Bea: BCEFDA 60RVACJ GT0F0 TYHHEVR. #line:4b0cd9
+        ->0H T04H0 PA3F0BAPNAET C PJ16AMN. #line:9fd42b
+            Bea: 0, GT0 CT0UYD0B0. #line:e838aa
+        MissQuelcy: N, HAK0HEO, CTNX0TB0PEHNE 0T CEVJMJ1 GHH Z0PPECTEP! #line:60817a
+        //selmers stands up//
+        Mae: :) #line:1e7f61
+        Mae: %XY, CEVMEPC! #line:960b00
+        Selmers: CUACN6, MGL. #line:ca2d26
+        Bea: TJ1 EE 3HAEQJ? #line:e5c67f
+        Mae: o_o #line:3a8009
+        Mae: HY 6VNH, 0HA TNUA TB0R C0CEDKA. #line:bb64cd
+        Bea: 0Y. #line:b38c2d
+        Mae: 0HA UNQET TAKNE CMEQHJ1E, DYPAOKNE N K0P0TKNE CTNX0TB0PEHNR. #line:015255
+        Bea: 0, CMEQH0E N K0P0TK0E R V%6V%! #line:80b1ea
+        Selmers: GT0 HA3J1BAETCR #line:f572ee
+        Selmers: "B U0CCYM CUPNHFC HE V0BNT CETJ" #line:f96b2d
+        Mae: :) #line:a30d58
+        Mae: XA-XA-XA! #line:1c42a9
+        Bea: HE M0FY HE C0FVACNTJCR! #line:280413
+        Selmers: *KXE-KXEEEM* #line:fd1fe6
+        Mae: :| #line:5d0e15
+        <<fadeOutMusic 5>>
+        Selmers: 3DECJ | HE V0BNT | CETJ #line:827dc7
+        Selmers: U0DHNMY TEVEZ0H | U0BJ1QE #line:8bdce4
+        Selmers: KAK ZVAF0M MAQY NM C KPJ1QN | 60F HE YCVJ1QNT | HE V0BNT | CETJ #line:460e74
+        Selmers: A UP0 EE CMA3VNB0F0 BVADEVJOA | C MNVVNAPDAMN B CETN HAUNQYT, #line:609a6f
+        Selmers: 4T0 U0DHNMAET B DEHJ | 6A6VA U060VJQE, | 4EM BCR M0R | 0FP0MHAR CEMJR #line:ce35b7
+        Selmers: N CT0 EE UP0QEDQNX U0K0VEHNL BCE BMECTE B3RTJ1E. #line:ba8d2c
+        Selmers: CHA4AVA UAQEQJ, X04EQJ KYUNTJ D0M | U0T0M UP0CT0 CHRTJ EF0 | U0T0M SNBEQJ C P0DHEL. #line:948b49
+        Selmers: MAVJ4NK | MNVVNAPDEP #line:fa85a2
+        Selmers: DEHJFN - GT0 BVACTJ | BVACTJ - GT0 U0VNTNKA | U0VNTNKN SDYT CMEPTN HAQEL | 0TPABVR%T B0DY | AVK0F0VJ N AHTNDEUPECCAHTJ1 #line:5a3cea
+        Selmers: HET PA60TJ1, 3AT0 ECTJ UPNV0SEHNR | HET ME4TJ1 | 0 CB0EM D0ME 60VJQE #line:a8d663
+        Selmers: 3AT0 ECTJ | CB0L DNBAH B U0DBAVE #line:632f32
+        Selmers: "TJ1 6YDYWEF0 C03DATEVJ!" #line:7e0076
+        Selmers: F0PVAHNT DEV0B0L UPEDUPNHNMATEVJ. #line:0f154d
+        Selmers: MHE 6 UP0CT0 0UVATNTJ C4ETA | MHE 6 UP0CT0 SNTJ #line:4eab98
+        Selmers: U0DBAV C DNBAH0M | Y MEHR, | Y HNX - K0TTEDS | C 6ACCELH0M #line:a861f4
+        Selmers: HACTYUNT H04J 0DHASDJ1, | CRDY HA ABT06YC, | MAXHY HA 3AUAD R #line:1ec35a
+        Selmers: N B CNVNK0H0B0L D0VNHE BCE C0SFY | D0 TVA #line:cc403d
+        <<set $saw_selmers_deliver_poem_at_poets_society to 1>>
+        <<wait 2>>
+        <<unlockDoodle SelmersGoodPoet>>
+        Bea: TB0% S MATJ #line:bff1e5
+        Mae: BAY. XEPACE. #line:657c5e
+        Bea: MDA. TAM 6J1VA PNZMA K "UPEDUPNHNMATEVJ" #line:6d4926
+        Mae: A R DASE HE 3HA%, 4T0 GT0 CV0B0 3HA4NT #line:74852c
+        Selmers: BCEM CUACN60 #line:7c08b4
+        Bea: 0HA BCEFDA TAKAR? #line:a8982c
+        Mae: HET #line:2082f3
+        Mae: BAY. #line:219a8d
+        Bea: XM #line:6e9f11
+        MissQuelcy: CUACN60 BCEM. YBNDNMCR 4EPE3 DBE HEDEVN. #line:5fe8d5
+        <<lookAt Mae Selmers>>
+        Mae: GL, CEVMEPC! #line:b255c1
+        Selmers: 4T0! #line:2443fd
+        Mae: :) #line:0cfe8c
+        Mae: MHE HPABNTCR TB0E CTPAHH0E CTNX0TB0PEHNE! #line:96058c
+        Selmers: CAMA HAUNCAVA, CUACN60! #line:ee6b0c
+        Bea: CT0L, A 4T0 ECVN HE 0HA EF0 HAUNC... #line:cb5f41
+        Mae: 0TVN4HJ1L CTNX, CMEVVMEPC! #line:2c7e19
+        Selmers: HE V%6V% GTY KVN4KY! #line:8411a9
+        Mae: o_o #line:13f747
+        Bea: BJ1, DB0E, KAK0F0... #line:04fe64
+        Mae: UP0CTN! #line:879e3b
+        Selmers: BCE H0PM! #line:924bc3
+        Bea: TEUEPJ M0SEM NDTN? #line:63f235
+        <<unlockAchievement Poets_of_Possum_Springs>>
+    <<else>>
+        <<fadeOutMusic 5>>
+        MissQuelcy: HA CEF0DHR GT0 BCE, BCEM U0KA! #line:017fb6
+        MissQuelcy: YBNDNMCR 4EPE3 DBE HEDEVN! #line:cfa783
+        MissQuelcy: UPNFVAQAEM BCEX SEVA%WNX B D0HAT BYVZ! #line:8b8994
+        Mae: D0HAT BYVZ!!!!! #line:91a9a5
+        Bea: HAM U0PA D0M0L, MGL. #line:58359a
+        Mae: :( #line:358bb7
+        Mae: HY B0000T!!!!! #line:f23d08
+    <<endif>>
+
+
+<<close>>
+<<fadeOut 1 wait>>
+<<scene GreggAngusApartment>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -1009,38
+---
+<<if $microfiche_done>>
+<<else>>
+    <<hide MissQuelcy>>
+    <<hide Fisherman>>
+    <<setCanInteract MissQuelcy 0>>
+<<endif>>
+===

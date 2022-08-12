@@ -1,0 +1,1289 @@
+title: Monument.1
+tags: 
+colorID: 0
+position: 27126,-6230
+---
+Mae:{locator=monument}I think I have a great-great-uncle or something on this. #line:58b61d
+Mae:{locator=monument}Yep, there you go. Anselm Borowski. #line:a3079f
+<<wait .25>>
+Mae:{locator=monument}"Anselm?" #line:38a5cc
+Mae:{locator=monument}Even in life, he was tragic. #line:00c67e
+===
+title: Monument.2
+tags: 
+colorID: 0
+position: 27366,-6209
+---
+Mae:{locator=monument}A possum on top, of course. Always, always a possum. #line:9be2ef
+===
+title: Monument.3
+tags: 
+colorID: 0
+position: 27652,-6155
+---
+Mae:{locator=monument}We like our war monuments in Possum Springs. #line:09feae
+Mae:{locator=monument}There are 2 really ancient ones over in Olde Possum Springs. #line:90c430
+Mae:{locator=monument}Three in town proper. #line:bb922b
+Mae:{locator=monument}And I think they put a new one up on Pill Hill. #line:4446dd
+Mae:{locator=monument}There's one up by Possum Jump, but that one's spooky. #line:29938e
+Mae:{locator=monument}I haven't been up there since that party we're not going to think about. #line:d8270b
+<<end>>
+===
+title: VeryTopAct2
+tags: 
+colorID: 3
+position: 26072,-7221
+---
+Mae: Years ago I thought when I was 20 I'd never be able to climb this high up anymore. #line:60d1cf
+Mae: Shows what you know, little Mae. #line:af0110
+Mae: ... #line:3b5e17
+<<unlockDoodle RoofcatIsCorrect>>
+<<end>>
+===
+title: Windmill
+tags: demo2
+colorID: 0
+position: 27868,-6471
+---
+Mae: I think these are supposed to be weather stations? #line:d433ba
+Mae: Pioneer Scouts made them when they weren't playing football #line:23c9f1
+Mae: or learning about [wave]MANHOOD[/wave]. #line:70c096
+Mae: These are the manliest of miniature windmills for sure. #line:1107b1
+<<set $windmill_done to 1>>
+===
+title: BlockedEast
+tags: 
+colorID: 0
+position: 27195,-6480
+---
+<<if $act is 0 or $demo2>>
+    [[BlockedEast_Demo2]]
+<<else>>
+    Mae: My god. #line:adb5ee
+    Mae: What kind of weather did I miss? #line:058d85
+    Mae: This is nuts. #line:d006bb
+    Mae: Oh well, wasn't going to church anyway. #line:232c49
+    <<unlockDoodle FallingApart>>
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 28717,-8564
+---
+<<setCanInteract Donna 0>>
+
+<<if $act is 0 and $day is 0>>
+	<<show Donna>>
+	<<show Gregg>>
+    Gregg: =_= #line:2c6d68
+	<<trigger Gregg Sit ShowGnome>>
+	<<warp Gregg GreggRoof Sit>>
+    <<setPlayerInteractLocator Gregg GreggRoofTalk>>
+    <<setCanInteract Donna 1>>
+    <<hide Lori>>
+    <<hide TZEmployee1>>
+    <<hide TZEmployee2>>
+    <<show Bruce>>
+<<else>>
+    <<hide Gregg>>
+    <<hide Bruce>>
+<<endif>>
+
+<<if $act is 1 and $day is 2>>
+    <<show PoleWorker>>
+<<else>>
+    <<hide PoleWorker>>
+<<endif>>
+
+<<if $act is 1 and $day is 3>>
+    <<show PoleWorker>>
+<<else>>
+    <<hide PoleWorker>>
+<<endif>>
+
+<<if $act is 2 and $day is 1 and $demo2>>
+    //<<sit Bea>>
+<<endif>>
+
+<<if $act is 2 and $day is 4>>
+    <<show Molly>>
+<<else>>
+    <<hide Molly>>
+<<endif>>
+
+<<if $act is 2 and $day is 4 and $towne_centre_east_city_council_a2d4_done is 0>>
+    <<show Council1>>
+    <<show Council2>>
+    <<show Council3>>
+    <<show Council4>>
+
+    <<setSpriteLayer Council1 CityCouncil1FG>>
+    <<setSpriteLayer Council2 CityCouncil2FG>>
+    <<setSpriteLayer Council3 CityCouncil3FG>>
+    <<setSpriteLayer Council4 CityCouncil4FG>>
+<<else>>
+    <<hide Council1>>
+    <<hide Council2>>
+    <<hide Council3>>
+    <<hide Council4>>
+<<endif>>
+
+<<set $taxi_stop to 1>>
+
+<<if $demo2>>
+    <<show Bea>>
+<<else>>
+    <<hide Bea>>
+<<endif>>
+
+<<if $act is 3 and $day >= 2 and $did_birdland_quest is 0>>
+    <<show Saleem>>
+<<else>>
+    <<hide Saleem>>
+<<endif>>
+
+<<if $act is 4 and $day is 3 and $janitor_done is 0>>
+    <<show Janitor>>
+<<else>>
+    <<hide Janitor>>
+<<endif>>
+
+<<hide Donna>>
+<<hide TZEmployee2>>
+<<hide TZEmployee1>>
+
+<<if $act is 1 and $day is 1>>
+    <<show Donna>>
+    <<show TZEmployee2>>
+<<elseif $act is 1 and $day is 2>>
+    <<show TZEmployee2>>
+<<elseif $act is 1 and $day is 3>>
+    <<show Donna>>
+    <<show TZEmployee1>>
+    <<show TZEmployee2>>
+<<elseif $act is 2 and $day is 1>>
+    <<show Donna>>
+    <<show TZEmployee2>>
+<<elseif $act is 2 and $day is 2>>
+    <<show TZEmployee1>>
+<<elseif $act is 2 and $day is 3>>
+    // no one outside
+<<elseif $act is 2 and $day is 4>>
+    <<show TZEmployee1>>
+    <<show TZEmployee2>>
+<<elseif $act is 3 and $day is 1>>
+    <<show Donna>>
+    <<show TZEmployee1>>
+    <<show TZEmployee2>>
+<<elseif $act is 3 and $day is 2>>
+    <<show TZEmployee1>>
+    <<show TZEmployee2>>
+<<elseif $act is 3 and $day is 3>>
+    <<show TZEmployee2>>
+<<elseif $act is 3 and $day is 4>>
+    // no one outside
+<<elseif $act is 4 and $day is 3>>
+    <<show Donna>>
+    <<show TZEmployee1>>
+    <<show TZEmployee2>>
+<<endif>>
+===
+title: Travis
+tags: 
+colorID: 3
+position: 27227,-6772
+---
+<<if $act is 2 and $day is 1>>
+	Travis: You suck, Mae. #line:f484d3
+	Mae: ... #line:db3f7c
+	Travis: Yeah, you heard me. #line:f51788
+	Mae: ...... #line:f86705
+	Travis: You suck. #line:15d320
+	Mae: You are the WORST. #line:d67bdd
+	<<set $travis to 1>>
+<<elseif $act is 2 and $day is 2>>
+	<<if $travis < 20>>
+		Travis: My car got trashed. #line:7ad657
+		Mae: Maybe if you weren't such a jerk... #line:46a076
+		Travis: Wait what? Where's this coming from? #line:9bf366
+		<<set $travis to 20>>
+	<<elseif $travis is 20>>
+		Mae: Maybe it was... carma. #line:1d96cd
+		Travis: Like Karma? #line:f328e7
+		Mae: N-no... You don't. Oh. #line:53af8f
+		<<set $travis to 21>>
+	<<elseif $travis is 21>>
+		Travis: Nice. #line:af7283
+	<<endif>>
+<<endif>>
+
+===
+title: CautionSign
+tags: 
+colorID: 0
+position: 27818,-6778
+---
+Mae: CAUTION: Do not jump on street lights. #line:c44b09
+Mae: Do not run on power lines. #line:8ec0c5
+Mae: Do not leap between roofs. #line:fc58ae
+Mae: You could die. #line:84b1a7
+Mae: Thank you! #line:8f21e1
+===
+title: Gregg_A0D0
+tags: demo
+colorID: 0
+position: 28594,-6813
+---
+<<camera lookOffset 0 0>>
+<<camera lookZoom -1>>
+[[GreggRoof]]
+===
+title: GreggRoof
+tags: demo
+colorID: 0
+position: 28955,-6475
+---
+Mae: So... um... what happened? #line:cf3f5f
+Gregg: Snuck into the elevator #line:a602db
+Gregg: but when I got out here the window shut behind me. #line:6c7039
+Mae: Why were you coming up here to begin with, dude? #line:32f63a
+Mae: You're not exactly cut out for jumping around roofs. #line:d0c5a3
+Gregg: I guess I'm just not feeling it today #line:f6b77b
+Gregg: so I thought I'd throw something off the roof. #line:4e889d
+<<wait .25>>
+Gregg: Oh yeah, I also stole a garden gnome. #line:ffa80d
+Mae: Just having one of your off-days? #line:7d3522
+Gregg: I guess. #line:cfb37f
+<<close>>
+<<wait .5>>
+Mae: I was thinking before of what would happen #line:f93fd2
+Mae: if I burned myself alive in my bedroom. #line:ad2144
+Gregg: ok. :| o_o #line:9d04d5
+Mae: I was thinking that I'd totally haunt here forever. #line:fb1532
+Mae: Just really bum everyone out. #line:53a293
+Gregg: Oh dude I'd bite everyone in the ass. #line:b10785
+Gregg: They'd be like what the hell, who just bit my ass??? #line:62f831
+Gregg: [shake=.04]RAWR ASSBITE!!!!![/shake] D: #line:dc657f
+Gregg: :| #line:639e94
+Mae: I was thinking about being here forever. #line:aaa099
+Mae: Or being anywhere forever. #line:22d2ac
+Mae: Like a dracula. #line:2a4aa0
+Gregg: If I was gonna haunt someplace forever, I don't know if it'd be Possum Springs. #line:210c97
+Gregg: This town sucks. This town is a dracula. #line:c35e37
+Gregg: Tell you what: #line:f4d0c9
+Gregg: You go down, ride the elevator back up and let me back in. #line:9dfb5e
+Gregg: Then we can borrow Bea's car and go to Donut Wolf. #line:511df5
+Mae: I dunno... Bea and I aren't really... #line:d5e3ff
+Gregg: No it's cool, me and angus borrow it all the time. #line:28b487
+[[GreggRoofGnomeDecision]]
+
+===
+title: GreggRoofGnomeDecision
+tags: demo
+colorID: 0
+position: 29314,-6420
+---
+Mae: Sweet dude. Did you want to throw this gnome? #line:9c86c6
+Gregg: I dunno. What do you think? #line:20404a
+[[Naw dude. This gnome's partying with us tonight.|GreggRoofNoToss]] #line:3f0569
+[[Obviously. This isn't even a question.|GreggRoofToss]] #line:290447
+
+===
+title: GreggRoofToss
+tags: demo
+colorID: 0
+position: 29643,-6469
+---
+<<close>>
+<<musicFadeOut 4>>
+<<mood Gregg Neutral>>
+<<trigger Gregg ThrowGnome>>
+<<wait 3.9>>
+<<trigger Gregg HideGnome>>
+<<playSound CarSounds GnomeHit>>
+<<shake 0.05 0.05 2>>
+<<wait .5>>
+<<playSound CarSounds Alarm loop>>
+<<wait 1.5>>
+Gregg: Yep, that did it. I feel better. #line:766ba4
+Mae: Good dude. #line:00c75b
+Gregg: Can we get off this roof now? #line:7d296e
+Mae: I am never gonna let you live this down. #line:bffd2f
+Gregg: Hey asscat, you want Donut Wolf or not? -_- #line:c18e98
+Mae: {width=4}[shake=.06]AWWOOOOOOOOOOOOOO!!!![/shake] \o/ #line:0a79d8
+Gregg: [shake=.04]RIDE THE CHARIOT![/shake] D: \o/ #line:fe600d
+Mae: [shake=.04]To Donut Hell!!!![/shake] \o/ :D #line:a9de67
+<<fadeOutSounds CarSounds 4>>
+<<set $gnome_tossed to 1>>
+<<musicFadeOut 2>>
+<<fadeOut 2 wait>>
+<<sectionTitle LaterAtTheDonutWolf PawsModeDonutWolf01>>
+
+===
+title: GreggRoofNoToss
+tags: demo
+colorID: 0
+position: 29464,-6126
+---
+Gregg: You got lucky, gnome. #line:162b13
+Mae: Stop talking. Donut Wolf. #line:5946bb
+Gregg: Get going already! #line:ab22d7
+Mae: {width=4}[shake=.06]AWWOOOOOOOOOOOOOO!!!![/shake] \o/ :) #line:4d60a3
+<<set $gnome_tossed to 0>>
+<<musicFadeOut 2>>
+<<fadeOut 2 wait>>
+<<sectionTitle LaterAtTheDonutWolf PawsModeDonutWolf01>>
+===
+title: TZEmployeeAuto
+tags: 
+colorID: 0
+position: 28086,-6227
+---
+<<set $tz_employees_done to 1>>
+<<if $act is 1 and $day is 1>>
+    [[TZAutoA1D1]]
+<<elseif $act is 1 and $day is 2>>
+    // doing nothing
+<<elseif $act is 1 and $day is 3>>
+    [[TZAutoA1D3]]
+<<elseif $act is 2 and $day is 1>>
+    [[TZAutoA2D1]]
+<<elseif $act is 2 and $day is 2>>
+    // doing nothing
+<<elseif $act is 2 and $day is 3>>
+    // no one outside
+<<elseif $act is 2 and $day is 4>>
+    [[TZEmployeeEmoticonLoop2]]
+<<elseif $act is 3 and $day is 1>>
+    [[TZAutoA3D1]]
+<<elseif $act is 3 and $day is 2>>
+    [[TZEmployeeEmoticonLoop2]]
+<<elseif $act is 3 and $day is 4>>
+    // no one outside
+<<elseif $act is 4 and $day is 3>>
+    [[TZAutoA4D3]]
+<<endif>>
+===
+title: TZEmployeeEmoticonLoop
+tags: demo2
+colorID: 0
+position: 28539,-6275
+---
+TZEmployee2:{emote=coffee} #line:eed221
+Donna:{emote=cigarette} #line:8091f7
+[[TZEmployeeEmoticonLoop]]
+===
+title: PoleWorker_00_00
+tags: 
+colorID: 2
+position: 27843,-7167
+---
+Mae: Whatcha doing up there? #line:f813b5
+PoleWorker: streetlight got tore off in that big storm a few days back #line:000cfb
+PoleWorker: don’t help that idiots keep jumping on it #line:fe6afe
+Mae: That’s a shame. #line:6152d7
+PoleWorker: spread the word to the other kids #line:b25b45
+Mae: Adults. #line:98ba19
+PoleWorker: Oh ho ho I don’t think so. #line:da110d
+PoleWorker: Adults got jobs and better things to do anyway. #line:6c4f35
+Mae: Ah. #line:a4f4be
+PoleWorker: Anyway youse tell those other kids to lay off. #line:84f644
+PoleWorker: Gonna get themselves or somebody else killt! #line:a91201
+===
+title: PoleWorker
+tags: 
+colorID: 2
+position: 28007,-7476
+---
+<<if $pole_worker_sequence is 0>>
+    <<if $pole_worker is 0>>
+        <<set $pole_worker += 1>>
+        [[PoleWorker_00_00]]
+    <<elseif $pole_worker is 1>>
+        <<set $pole_worker += 1>>
+        <<set $pole_worker_done to 1>>
+        [[PoleWorker_00_01]]
+    <<endif>>
+<<endif>>
+===
+title: PoleWorker_00_01
+tags: 
+colorID: 2
+position: 28223,-7187
+---
+Mae: You know when they're fixing the steps? #line:3e2570
+Mae: I desperately need to get to church. #line:32ca45
+PoleWorker: Tomorrow, I think. #line:a59986
+Mae: The vampires can't go on sacred ground. #line:78a49e
+PoleWorker: I ain’t seen no vampires around here. #line:d6f386
+PoleWorker: 'cept maybe the government #line:e0ae5c
+PoleWorker: Suckin' us dry! #line:af7334
+Mae: You've taken over my vampire story. #line:ba3a68
+Mae: I’m leaving. #line:841cfd
+PoleWorker: Watch out for 'em bloodsuckers, kid. #line:269930
+Mae: ADULT!!!! #line:fa4dd6
+===
+title: SeeGregg
+tags: 
+colorID: 0
+position: 29095,-6966
+---
+<<camera extraLookOffset 0 2>>
+<<alwaysLookAt Mae Gregg>>
+<<wait .25>>
+Mae: o/ #line:d67925
+<<lookAt Gregg Mae>>
+Mae: Hey Gregg! #line:f10a55
+Mae: _o_ #line:a16998
+Gregg: {medianLocator,align=middle}Hey Maedae #line:d1eba7
+Mae: Whatcha doin up here, dude? #line:653e87
+Gregg: {medianLocator,align=middle}Got locked out. #line:00c232
+Mae: Ok, I'm coming up. Just hang tight. #line:0ca798
+<<addToJournal GreggStuckOnRoof>>
+<<unlockDoodle Gnome 2>>
+<<camera extraLookOffset 0 0>>
+===
+title: Bruce
+tags: 
+colorID: 0
+position: 28794,-7126
+---
+<<if $bruce is 0>>
+    Mae: Um... hey there. You ok? #line:d103e5
+    Bruce: ... #line:75e9bf
+    Mae: You from around here? #line:75fd93
+    Bruce: No. #line:05fea8
+    Mae: You from off the train, then? #line:1d6966
+    Bruce: Got sick, had to stop. Everyone knows not to stop in Possum Springs anymore. #line:590a40
+    Mae: On account of our stringent vagrancy policy? #line:d5d703
+    Bruce: Some hold their breaths when we roll through town. #line:2a4989
+    Mae: Uh huh? So what are you doing up here? #line:3b33ee
+    Bruce: Sleeping. Keeping off the streets. #line:6de505
+    Mae: Can't be very warm. #line:a64b50
+    Bruce: It's a lot colder in the west end of town. Best keep high and eastward. #line:4ef33a
+    Mae: Ok then, we'll I'll be going... #line:0a1c6f
+    Bruce: At dusk I have to make it to the tracks and hop anything out of here. #line:5bd29d
+    Bruce: But truth is, I'm too afraid to leave this roof. #line:f83329
+    Mae: Afraid of what? #line:16eb2d
+    Bruce: "Don't get off in Possum Springs." I knew that. #line:836928
+    Bruce: I got off here. I screwed up. #line:d7af93
+    Mae: What are you afraid of? #line:58c686
+    Bruce: ... #line:3139c8
+    Mae: Hey listen, dude, I mean if you want to hang out up here I don't care. #line:3f378d
+    Mae: Just don't like steal anything or eat anyone's pet or whatever. #line:78985f
+    Mae: I mean hey, we all have hard times, and #line:fbafa2
+    Bruce: I don't want to talk to you anymore. #line:93263a
+    Bruce: Please go away. #line:6ab524
+    <<set $bruce to 1>>
+<<elseif $bruce is 1>>
+    Bruce: ... #line:59f8c7
+<<endif>>
+===
+title: Pee
+tags: 
+colorID: 0
+position: 28510,-7352
+---
+Mae: I thought he stopped doing the peeing thing. #line:fdc5de
+Mae: Something must be pretty wrong. #line:2993d6
+===
+title: Teen1_Demo
+tags: demo
+colorID: 0
+position: 27507,-7042
+---
+<<if $towne_centre_east_teen_1 is 0>>
+	Mae: 'sup! #line:0d60a8
+	<<set $towne_centre_east_teen_1 += 1>>
+    <<set $towne_centre_east_teen_1_walk_away to 1>>
+<<elseif $towne_centre_east_teen_1 is 1>>
+	Mae: You guys are still in highschool, right? #line:bfe93f
+	Teen3: Yeah probably. #line:e06f9e
+	Mae: Man, me and Gregg totally set that place on fire once! :) #line:337b91
+	Teen1: You didn't burn it down, though. #line:d94eda
+	Mae: :| #line:5fa79c
+    Mae: No, but I mean... #line:d3f0d9
+	Teen2: So the story here is that you didn't burn the school down. #line:0f0c84
+	Teen1: That's easy to do. #line:33146d
+	Teen3: Look at us. We're also not burning down the school. #line:3826c8
+	Teen2: But you don't see us bragging about it. #line:1560de
+	Mae: I'm not bragging! :( #line:4c8f45
+	Teen1: Oh ok then. What did you want? #line:a2cd9b
+	Mae: Nothing! Geez! #line:aca9fc
+    Mae: :| #line:a57a6d
+	<<unlockDoodle Teens 1>>
+	<<addToJournal TeensAreTheWorst>>
+	<<set $towne_centre_east_teen_1 += 1>>
+<<elseif $towne_centre_east_teen_1 is 2>>
+	Teen1: {emote=pentagram} #line:418e2f
+	<<set $towne_centre_east_teen_1 += 1>>
+<<elseif $towne_centre_east_teen_1 is 3>>
+	Teen1: {emote=crossbones} #line:13ef18
+	<<set $towne_centre_east_teen_1 += 1>>
+<<elseif $towne_centre_east_teen_1 is 4>>
+	Teen1: {emote=heartbreak} #line:3529c2
+	<<set $towne_centre_east_teen_1 to 2>>
+<<endif>>
+===
+title: Teen1
+tags: 
+colorID: 0
+position: 27515,-7345
+---
+<<if $act is 0 and $day is 0>>
+    [[Teen1_Demo]]
+<<endif>>
+===
+title: Teen1WalkAway
+tags: 
+colorID: 0
+position: 27117,-7105
+---
+Teen1: Yo, you know Gregg, right? #line:1c7cc0
+Mae: He's my best friend. #line:9e7b39
+Teen2: [wave]Aw.[/wave] #line:de45fb
+Teen3: Dude shut up. #line:da1f27
+Teen1: Yeah I think he's stuck on the roof. #line:1e0070
+Mae: Wait what? #line:fa3c14
+Teen2: Yeah I think he went up there and got locked out. #line:0c7801
+Teen3: He looks so sad. #line:cf886a
+Teen1: I was gonna call my mom to tell her to call the fire department, but... #line:cd700b
+Mae: Why is he up on the roof? #line:586b85
+Teen2: Pssh. I don't know, and I'm not his [color=EC4D67][wave]best friend[/all]. #line:7a3a1c
+Teen3: You are such a dick. #line:e2d758
+<<addToJournal TodoGetGreggOffRoof>>
+<<unlockDoodle FindGregg>>
+<<set $towne_centre_east_teen_1_walk_away to 2>>
+===
+title: SteveScriggins
+tags: demo
+colorID: 0
+position: 29798,-7336
+---
+<<if $steve_scriggins is 0>>
+    SteveScriggins: {width=2} Huh. Didn't know you were [color=999999]back.[/all] #line:9b4983
+    [[Geez, does everyone know?{width=1.5}|ScrigginsDoesEveryoneKnow]] #line:c3709f
+    [[Do I know you?{width=.7}|ScrigginsDoIKnowYou]] #line:5b4461
+<<elseif $steve_scriggins is 1>>
+    [[ScrigginsLoop]]
+<<endif>>
+===
+title: ScrigginsLoop
+tags: demo
+colorID: 0
+position: 30208,-7332
+---
+SteveScriggins: Got any copper? #line:ac432c
+===
+title: ScrigginsDoesEveryoneKnow
+tags: demo
+colorID: 0
+position: 29706,-7040
+---
+SteveScriggins: No shame in quittin', quitter. ¯\_(ツ)_/¯ #line:1ce8e0
+Mae: Oh god, you're Steve Scriggins. #line:7b4aaf
+Mae: I didn't know you were still in town. #line:8d7567
+SteveScriggins: Yeah, strippin' copper. #line:72cfbf
+Mae: Ok #line:75a460
+SteveScriggins: We have big bonfire in the field behind my brother's house every weekend #line:aa74d3
+SteveScriggins: to burn off all the building scrap stuff that isn't copper. #line:87e1c3
+Mae: Um #line:e926a4
+SteveScriggins: Because of all the stuff in it the fire burns like 10 times hotter. #line:e3d6c0
+Mae: ... #line:4b4260
+SteveScriggins: You can't get near it without dying! #line:c24eb4
+SteveScriggins: You should come sometime! #line:0c3741
+Mae: no. #line:8e6c2c
+SteveScriggins: ok. #line:928d90
+<<set $steve_scriggins to 1>>
+<<addToJournal ScrigginsCopper>>
+===
+title: ScrigginsDoIKnowYou
+tags: demo
+colorID: 0
+position: 30032,-7039
+---
+SteveScriggins: Steve Scriggins #line:d31df2
+Mae: I... I'm not sure...	 #line:ba2173
+SteveScriggins: You may remember my handiwork, I locked that [color=999999]teacher...[/color] #line:7f3722
+Mae: ...in the supply closet... #line:358b61
+SteveScriggins: IN THE [color=999999]SUPPLY CLOSET[/color] #line:3d7c06
+Mae: ...before Christmas break. He was in there for #line:5f4aa4
+SteveScriggins: [wave]TWO WEEKS![/wave] #line:4b4dda
+Mae: He ate spanish workbooks and drank glue to survive. :\ #line:334180
+SteveScriggins: [shake=.05]YEAH HE DID![/shake] #line:a1e8cf
+Mae: :| #line:e6338a
+<<addToJournal ScrigginsDumb>>
+<<unlockDoodle Scriggins 1>>
+<<set $steve_scriggins to 1>>
+[[Why did you do that?|ScrigginsWhyDidYouDoThat]] #line:270390
+[[Didn't he die from that?|ScrigginsDidntHeDie]] #line:09c670
+===
+title: ScrigginsWhyDidYouDoThat
+tags: demo
+colorID: 0
+position: 29874,-6734
+---
+SteveScriggins: ¯\_(ツ)_/¯ #line:923790
+SteveScriggins: I'm a [color=999999][wave]menace![/all] #line:7b8553
+===
+title: ScrigginsDidntHeDie
+tags: demo
+colorID: 0
+position: 30187,-6703
+---
+SteveScriggins: Nope, he walked into an open sewer! #line:94d268
+Mae: Oh my god really? #line:503d14
+SteveScriggins: Excellent death! #line:9cdd44
+Mae: Wow, yeah. Excellent death. #line:51f03e
+SteveScriggins: Inspiring. I hope I go out like that or in a shootout with the cops. #line:f14ae3
+Mae: Those are both very attainable goals. #line:f68a6e
+SteveScriggins: ...[wave]EXCELLENT[/wave] [color=999999]death...[/color] #line:8fc11c
+===
+title: BlockedWest
+tags: 
+colorID: 0
+position: 26943,-6475
+---
+<<if $blocked_west is 0>>
+    Mae: I saw a weird possum over there last week. Still filled with such dread. #line:2a2fbe
+    Mae: I could go visit Angus at work or hit the Snack Falcon, but I dunno. #line:b418c8
+    Mae: They're over there. #line:a11f59
+    Mae: With the possum. #line:bf8562
+    <<set $blocked_west += 1>>
+<<else>>
+    Mae: Is there anything more depressing than the vacant ruins of the party barn? #line:7207ed
+    Mae: I'm too depressed to go any further. #line:169976
+<<endif>>
+===
+title: TriggerSeenEnough_A2D4
+tags: 
+colorID: 3
+position: 29042,-7354
+---
+Mae: Aw!!! everything is so great and harfesty!!! #line:f51f56
+Mae: which is basically just a less spooky halloween? #line:f64867
+Mae: whatever! #line:d2be0f
+Mae: i just wanna head home and get ready for tonight!!!! #line:37ed5f
+Mae: i could just do that... #line:0040bf
+Mae: or i could wander a bit... #line:411c3d
+Mae: take in the harfesty air... #line:3ae27b
+Mae: well, i'll get home when i do. #line:854d93
+<<set $harfest_prep to 1>>
+===
+title: TriggerCityCouncil_A2D4
+tags: 
+colorID: 3
+position: 29165,-7724
+---
+<<if $towne_centre_east_city_council_a2d4 is 0>>
+    <<set $towne_centre_east_city_council_a2d4 to 1>>
+    Council2: That ferris wheel looks like a nightmare. #line:c018a9
+    Council3: Thanks, Colleen. That's helpful. #line:63a036
+    Council1: What's wrong with it? #line:65be21
+    Council2: I don't trust giant load-bearing machines you can assemble and disassemble in one day. #line:85f499
+    Council1: It's the Hit Record! We've always had the Hit Record at Harfest! #line:fbf9bd
+    Council4: Yeah. Since 1984. #line:60f551
+    Council3: Maybe that's a clue that we should retire it. #line:e9a75f
+    Council4: SHUT UP ANDREW. #line:d961e0
+    Council2: Ok everyone let's just take a step back here and cool down. #line:a741dc
+    Council1: WE. ARE. GOING. TO. HAVE. THE. HIT. RECORD. AT. HAR. FEST. TO. NIGHT!!! #line:4bcc2e
+    Council2: Fine then. I'll send all lawsuits your way. #line:6bddef
+    Council1: BRING IT COLLEEN. #line:183d43
+<<endif>>
+[[CityCouncilLoop_A2D4]]
+===
+title: CityCouncilLoop_A2D4
+tags: 
+colorID: 3
+position: 29498,-7740
+---
+Council1:{emote=spiral} #line:0c5c70
+Council2:{emote=cloud_lightning} #line:54543c
+Council3:{emote=gun} #line:9399ab
+Council4:{emote=cash} #line:ae651b
+===
+title: Window_Angry_A2D1
+tags: 
+colorID: 3
+position: 30609,-6253
+---
+note: these play without you needing to advance or respond #line:705e76
+WindowAngry: HEY! GET DOWN OFFA THERE!!! #line:1aec5d
+WindowAngry: Hey!!!! #line:97e1bd
+===
+title: Window_Angry_A2D3
+tags: 
+colorID: 3
+position: 30614,-6007
+---
+note: these play without you needing to advance or respond #line:02cc74
+WindowAngry: HEY! GET DOWN FROM THERE! #line:a8ee33
+WindowAngry: YOU HEAR ME???!! #line:0608aa
+===
+title: Window_Angry_A3D1
+tags: 
+colorID: 4
+position: 30618,-5752
+---
+note: these play without you needing to advance or respond #line:de17c9
+WindowAngry: HEY! I'M GONNA CALL THE COPS!!! #line:7605ff
+WindowAngry: YOU LISTENING TO ME?!?!? #line:cb7419
+===
+title: Window_Angry_A3D3
+tags: 
+colorID: 4
+position: 30614,-5513
+---
+note: these play without you needing to advance or respond #line:48b12e
+WindowAngry: You're gonna break your neck!!! #line:562e84
+WindowAngry: And I won't lift a finger to help!!! #line:3cf919
+WindowAngry: Hey!!!! #line:cf2abf
+===
+title: StairLanding
+tags: 
+colorID: 3
+position: 32249,-7362
+---
+Mae: Hm. Looks like that streetlight could hold me... #line:ae462a
+===
+title: Monument_Act1.1
+tags: 
+colorID: 2
+position: 27076,-5851
+---
+Mae:{locator=monument}I think I have a great-great-uncle or something on this. #line:26c2d0
+Mae:{locator=monument}Yep, there you go. Anselm Borowski. #line:c8aa32
+<<wait .25>>
+Mae:{locator=monument}"Anselm?" #line:575515
+Mae:{locator=monument}Even in life, he was tragic. #line:f637c0
+===
+title: Monument_Act1.2
+tags: 
+colorID: 2
+position: 27374,-5850
+---
+Mae:{locator=monument}We like our war monuments in Possum Springs. #line:d4b9bf
+Mae:{locator=monument}There are 2 really ancient ones over in Olde Possum Springs. #line:ec9cde
+Mae:{locator=monument}Three in town proper. #line:371f22
+Mae:{locator=monument}And I think they put a new one up on Pill Hill. #line:cbfba5
+Mae:{locator=monument}There's one up by Possum Jump, but that one's spooky. #line:f55126
+Mae:{locator=monument}I haven't been up there since that party we're not going to think about. #line:95951d
+<<end>>
+===
+title: Monument_Act2.2
+tags: demo2
+colorID: 3
+position: 27375,-5580
+---
+<<if $did_gregg_friendship_quest_2>>
+    Mae:{locator=monument}I mean Gregg still has that helmet from World War 1... #line:a619bc
+    Mae:{locator=monument}With the bullet hole in it... #line:50cdde
+<<else>>
+    Mae:{locator=monument}Like 10 guys from my high school class went off to army. #line:89cfa9
+    Mae:{locator=monument}Gotta afford college some way or another. #line:bfc7b8
+<<endif>>
+<<end>>
+===
+title: Monument_Act2.1
+tags: demo2
+colorID: 3
+position: 27067,-5579
+---
+Mae:{locator=monument}I've never been to war. #line:561e36
+Mae:{locator=monument}Not like the recruiter didn't try, though. #line:a9820b
+Mae:{locator=monument}Hard. #line:97b518
+
+===
+title: Monument_Act3.1
+tags: 
+colorID: 4
+position: 27068,-5298
+---
+Mae:{locator=monument}War is some bullshit. #line:0cd6eb
+Mae:{locator=monument}You hear me, statue? #line:55532a
+Mae:{locator=monument}I guess you were drafted. #line:53a772
+Mae:{locator=monument}ugh. #line:59caaa
+Mae:{locator=monument}you died before you got to enjoy the statue they made of you. #line:0a3d05
+Mae:{locator=monument}it's garbage. #line:a0cb1a
+===
+title: Monument_Act3.2
+tags: 
+colorID: 4
+position: 27376,-5286
+---
+Mae:{locator=monument}they can't make me go to war. #line:62aebc
+Mae:{locator=monument}i'll go underground. #line:2458f4
+Mae:{locator=monument}i'll join some sort of group that's against war and stuff. #line:c78ee8
+Mae:{locator=monument}we'll blow up war stuff and sabotage other... war stuff. #line:e55462
+Mae:{locator=monument}i'll live in the shadows for decades. #line:a93a7f
+Mae:{locator=monument}no address. #line:381607
+Mae:{locator=monument}always on the run. #line:dc5f5f
+Mae:{locator=monument}living in a trailer in the desert. #line:ba0ffe
+Mae:{locator=monument}it'll be awesome. #line:85886d
+<<end>>
+===
+title: ReminderEastStairs
+tags: 
+colorID: 3
+position: 30551,-7965
+---
+Mae: Wow! Construction's finally done! #line:efb822
+Mae: Stairs is open for business! #line:ba8080
+Mae: wonder what's going on up there? #line:b3488e
+<<set $reminder_east_stairs_done to 1>>
+===
+title: TZAutoA1D1
+tags: demo2
+colorID: 0
+position: 27870,-5671
+---
+Donna: What? #line:eb1a51
+TZEmployee2: And where exactly are you planning on going? #line:f5d94a
+Donna: I dunno. Ham Panther? #line:79c5b7
+TZEmployee2: But honey you're only gonna get minimum there. #line:1e6139
+TZEmployee2: And I hear they're murder... #line:c31a79
+Donna: *THIS* place is murder. #line:4e6c26
+Donna: I don't think I can handle one more incoming call. #line:06228a
+Donna: I wake up sometimes because I hear that *BING* noise. #line:b88667
+TZEmployee2: Nowadays I just take a sleeping aid. Works wonders. #line:d82dd4
+Donna: We shouldn't have to drug ourselves to get our sleep back from this job! #line:9dab4c
+TZEmployee2: Well, Ham Panther isn't gonna give you a bonus. #line:5f1001
+TZEmployee2: Ham Panther doesn't even have a leaderboard. #line:337022
+Donna: But it isn't calls. #line:aa9f78
+Donna: It isn't sales. #line:409727
+Donna: I wouldn't be  waiting for that *BING*. #line:558160
+TZEmployee2: I don't know, honey... #line:73b8de
+TZEmployee2: Maybe you'll have a good shift today and get on the leaderboard #line:97aa38
+TZEmployee2: And we'll see how you feel then? #line:772dc2
+Donna: I guess. But it won’t change anything. #line:7c1979
+[[TZEmployeeEmoticonLoop]]
+===
+title: Bea_A2D1
+tags: demo2
+colorID: 3
+position: 28966,-7979
+---
+<<if $bea is 0>>
+    <<set $bea += 1>>
+    [[Bea_A2D1_00]]
+<<elseif $bea is 1>>
+    <<set $bea += 1>>
+    <<set $bea_done to 1>>
+    [[Bea_A2D1_01]]
+<<endif>>
+    
+===
+title: Bea_A2D1_00
+tags: demo2
+colorID: 3
+position: 29218,-8061
+---
+Mae: Hey Bea. #line:4d49e8
+Bea: Yyyyo. #line:a932fc
+Mae: Sorry about last night. #line:7f76f5
+Mae: I get woozy on cold medicine. #line:775889
+Mae: So I don't really know what I expected to happen. #line:ae4daa
+Bea: Sorry for what I said. #line:f21747
+Mae: You know, I don't really remember it much. #line:3f81dc
+Mae: So whatevs. #line:87517a
+Bea: Hooray for alcohol. #line:79f993
+Mae: New town motto. #line:794735
+
+===
+title: Bea_A2D1_01
+tags: demo2
+colorID: 3
+position: 29491,-8052
+---
+Mae: Band practice later? #line:c5f5bc
+Bea: Ha ha. Yep. #line:6763a1
+Mae: I'm amazed it's still a thing. #line:db253f
+Mae: We were barely even a band in highschool. #line:f09f3b
+Bea: Eh. It's fun. Get to hang out with Angus. #line:5f492f
+Mae: How did you even end up doing it? #line:7e3b21
+Bea: When Casey left town, Angus told me that Gregg was really sad. #line:b4bc92
+Bea: So I volunteered to be the new drummer. #line:b2ab24
+Mae: Well, "drummer." #line:961a43
+Mae: It's a laptop, Bea. #line:6f5e46
+Bea: It sure is, Mae. It sure is. #line:b64069
+===
+title: NextToCat.1
+tags: demo2
+colorID: 0
+position: 28040,-8201
+---
+Mae: Hey cat. #line:60b9f0
+Mae: How’d you get up here? #line:a3b5e9
+Mae: You put in all of this effort just to sleep? #line:380fbd
+Mae: I have rarely related more to an animal. #line:ae3645
+===
+title: NextToCat.2
+tags: demo2
+colorID: 0
+position: 28028,-7990
+---
+Mae: Here, at the end of the world: #line:7523b8
+Mae: a sleeping cat. #line:f059cf
+===
+title: NextToCat.3
+tags: demo2
+colorID: 0
+position: 28004,-7779
+---
+Mae: Hey cat. #line:c6211d
+Mae: When I was little I never thought I’d be able to get up here. #line:d07089
+Mae: And you’re like half the size of little me. #line:a54c4e
+Mae: You win. #line:070d48
+<<set $next_to_cat_done to 1>>
+<<unlockDoodle RoofcatIsCorrect>>
+===
+title: TopOfPartyBarn.1
+tags: demo2
+colorID: 0
+position: 28301,-8179
+---
+Mae: Takes a lot of parties to keep a barn open. #line:f22571
+Mae: I don’t know how it even survived as long as it did. #line:4899f5
+===
+title: TopOfPartyBarn.2
+tags: demo2
+colorID: 0
+position: 28299,-7952
+---
+Mae: I don’t think Gregg got permission to have band practice here. #line:da04bc
+Mae: We are so gonna get evicted. #line:5c3822
+Mae: Then the barn shall once again be silent. #line:ee821c
+<<set $top_of_party_barn_done to 1>>
+===
+title: BlockedEast_Demo2
+tags: demo2
+colorID: 0
+position: 27458,-6445
+---
+Mae: I am not climbing these stairs today. Don't need to go to church. #line:6ba35b
+Mae: No gods, no masters, no effing stairs today please. #line:7e80c0
+===
+title: Saleem
+tags: temp
+colorID: 4
+position: 31351,-7747
+---
+<<if $saleem_sequence is 0>>
+	Mae: Hey! #line:0ac6cd
+	Saleem: Hello. #line:acae46
+    Mae: I'm Mae! #line:0a3720
+    Saleem: Hello Mae, I'm Saleem. #line:f8fbb2
+	Mae: Are you a busker? Are you busking? #line:25095e
+	Saleem: What’s busking? #line:a333bc
+	Mae: I don’t know. #line:c0e82d
+	Mae: I think it’s when you play outside and people give you money. #line:1624b0
+	Saleem: Are you gonna give me money? #line:7f9a7c
+	Mae: No. #line:a6fccc
+	Saleem: then I’m not busking. #line:7745f8
+	Mae: Cool. #line:a462d1
+	<<set $saleem_sequence += 1>>
+<<elseif $saleem_sequence is 1>>
+	Mae: Still up here? #line:259b36
+	Saleem: I mean, I left and went to work and so forth since we met. #line:024ca0
+	Mae: Hm #line:5cb2b8
+	Mae: is that a fiddle? #line:582055
+    Saleem: it's a violin. #line:f931bf
+    Mae: that's like the same thing, right? #line:88c49e
+    Saleem: it's a violin, i assure you. #line:225e8c
+	<<set $saleem_sequence += 1>>
+<<elseif $saleem_sequence is 2>>
+	Mae: Has anyone complained? #line:71a96f
+	Saleem: About what? #line:3e7428
+	Mae: You playing. #line:b56369
+	Saleem: I don’t think anyone cares, honestly. #line:da4a5c
+    Saleem: or they like it. #line:aad1cb
+    Saleem: i'm fine either way. #line:e6b741
+	<<set $saleem_sequence += 1>>
+<<endif>>
+
+<<if $saleem_sadie_sequence is 0 and $sadie_sequence is 1>>
+	Mae: I just met someone else playing by themselves #line:416e6d
+	Saleem: Really? #line:1f6fb3
+	Mae: Yeah. Across town in the abandoned building by the Clik Clak. #line:1f3f0d
+    Mae: they had one of those big saxophones. #line:19d860
+	Saleem: Hm.  #line:1aa9c0
+    Mae: I just thought it was an interesting coincidence. #line:671471
+    Saleem: Small town. #line:476700
+	<<set $saleem_sadie_sequence += 1>>
+<<elseif $saleem_sadie_sequence is 1 and $sadie_sequence is 2>>
+	Mae: You know that woman I mentioned across town? #line:117b24
+	Mae: I think she’s looking for people to play with. #line:420897
+	Saleem: really? #line:8ace4f
+	Mae: Yeah. Just saying. #line:f96b75
+	Mae: I told her I’d mention it. #line:4696bd
+	Saleem: I’ll keep it in mind. #line:13db39
+    Mae: I'm not saying you *HAVE* to go play with her or anything- #line:3049cc
+    Saleem: I get it. #line:b073b5
+    Mae: I don't want to make this weird, #line:98e27c
+    Saleem: It'll be a lot less weird when you stop making it weird! #line:f41855
+	<<set $will_complete_birdland_quest to 1>>
+	<<set $saleem_sadie_sequence += 1>>
+<<elseif $sadie_saleem_sequence is 1 and $saleem_sequence is 2>>
+    Mae: So there's this woman across town. #line:21309d
+    Mae: Sadie. #line:bbb1ef
+    Saleem: ok? #line:ad12fb
+    Mae: like up in the abandoned building by the clik clak? #line:232c17
+    Saleem: oooooook? #line:bfb92c
+    Mae: anyway she's playing saxophone by herself all the time #line:a6edde
+    Mae: maybe you two could play together? #line:db634f
+    Mae: since you're also doing basically the same thing. #line:843f0a
+    Saleem: oh. hm. #line:c0de3f
+    Mae: I told her I’d mention it. #line:fcc3ce
+	Saleem: I’ll keep it in mind. #line:cd5995
+    Mae: I'm not saying you *HAVE* to go play with her or anything- #line:48d710
+    Saleem: I get it. #line:74d466
+    Mae: I don't want to make this weird, #line:556364
+    Saleem: It'll be a lot less weird when you stop making it weird! #line:d263ea
+	<<set $will_complete_birdland_quest to 1>>
+	<<set $sadie_saleem_sequence += 1>>
+<<endif>>
+
+<<set $saleem_done to 1>>
+===
+title: AngryWindowDude
+tags: 
+colorID: 0
+position: 27524,-7911
+---
+<<set $angry_window_dude to 1>>
+<<animationTrigger WindowAngry GetAngry>>
+<<wait .5>>
+WindowAngry: HEY! GET DOWN FROM THERE! #line:5f6555
+===
+title: Janitor_A4D3
+tags: 
+colorID: 6
+position: 32770,-7571
+---
+Mae: Hey. It’s you. #line:124470
+<<wait 2>>
+Janitor: yep yep. #line:e39af1
+Janitor: For now at least. #line:83c409
+Mae: You know, I never got your name. #line:a1a920
+Janitor: I’m the Janitor. #line:fc4c4f
+Janitor: I clean up, do fixits. #line:64f0bc
+Janitor: Whatever needs done. #line:3fe85b
+Mae: Oh. Ok. #line:2fdef8
+Janitor: So what’s it been like being home again? #line:92e7ac
+Janitor: Things like you remember ‘em? #line:e3929f
+    ->Kinda. #line:777e51
+    ->No. #line:634742
+Mae: I don’t know. #line:118998
+Mae: I don't even remember today. #line:e55685
+Janitor: Sounds like you been through something. #line:587ad2
+Mae: How did you know? #line:71ead7
+Janitor: Call it experience. #line:d8c6f3
+Janitor: I swear some mornings I feel every bit as old as these trees. #line:4a5bd3
+Mae: You know, something big did happen #line:9432cc
+Mae: and I feel like I should have woken up today #line:1e986c
+Mae: and like, have learned something. #line:fdbecf
+Mae: But I don’t know if I learned anything, really. #line:c38b2a
+Janitor: Weeeell, #line:81b541
+Janitor: in my experience the big things don’t teach you anything #line:7881d4
+Janitor: but they make you something #line:43dbbe
+Janitor: and sometimes you gotta wait a while and see what come of it. #line:959955
+Mae: huh. #line:59cb81
+<<wait 2>>
+Janitor: Welp, done an honest day’s work. #line:6a50a2
+Janitor: quittin’ time! #line:7a0d6b
+Janitor: Smelters game tonight! #line:c8a414
+Mae: See ya around. #line:cd3431
+Janitor: Not if I see you first, Mae. #line:356aeb
+Mae: ha ha #line:27078b
+Janitor: *wheeze* haw haw haw! #line:e73167
+//janitor walks offscreen to the left//
+<<close>>
+<<walk Janitor JanitorOffLeft wait>>
+Mae: wait! How do you know my name? #line:0196c8
+<<wait 2>>
+//giant astral-god-looking bird flys up and into the sky in the bg//
+//Mae: oh my god
+//Mae: he was-
+//Mae: finally some part of this makes sense.
+//<<close>>
+//<<walk Janitor JanitorBackOn wait>>
+//janitor walks back onscreen interrupting//
+//Janitor: HO-LEE JA-MOLEY
+//Janitor: you see that big bird?
+//Janitor: That’s a Great Nor’Easter King Crane!
+//Janitor: Must be late to the migratin’.
+//Janitor: Haw! Wait til the fellers at Miller’s hear about this!
+//Mae: Ha ha ha ha.
+//Mae: oh my god. This week.
+//<<walk Janitor JanitorOffLeft wait>>
+//Janitor: You said it.
+<<hide Janitor>>
+//janitor walks offscreen to the left//
+<<set $janitor_done to 1>>
+<<unlockDoodle Janitor1>>
+===
+title: FrontOfPartyBarnA2D2.1
+tags: 
+colorID: 0
+position: 30669,-7105
+---
+Mae: it looks so sad and empty when we’re not playing in it. #line:4caedb
+<<end>>
+===
+title: FrontOfPartyBarnA3D2.1
+tags: 
+colorID: 0
+position: 30664,-6860
+---
+Mae: i can’t believe they just leave the band stuff in there #line:2cafac
+Mae: what if someone steals it? #line:f7395c
+Mae: what if the building falls down? #line:f7cc05
+Mae: i should start taking gregg’s bass home. #line:bc3fe1
+Mae: just ya know… in case. #line:7bc994
+<<end>>
+===
+title: VeryTopAct3
+tags: 
+colorID: 4
+position: 26291,-7214
+---
+Mae: Hm. used to sometimes see other people up here. #line:7d3403
+Mae: is this not a thing anymore? #line:90446b
+Mae: am i just old and out of touch? #line:dc268d
+Mae: whatever. it's awesome. #line:2f6f8d
+Mae: i'm gonna put up a tent and camp out up here. #line:781c0c
+<<wait 2>>
+Mae: ... #line:72b571
+Mae: would definitely roll off and die. #line:db87b9
+<<unlockDoodle RoofcatIsCorrect>>
+<<end>>
+===
+title: VeryTopAct4
+tags: 
+colorID: 6
+position: 26508,-7203
+---
+Mae: Won't be able to climb this soon. #line:a448fc
+Mae: once it gets icy. #line:5b6ebe
+Mae: enjoy it while the weather lasts, mae. #line:70101d
+<<unlockDoodle RoofcatIsCorrect>>
+<<end>>
+===
+title: Molly_A2D4
+tags: 
+colorID: 3
+position: 28735,-8244
+---
+Mae: hey aunt mall-cop. #line:2a7893
+Molly: mall cops don't carry guns, mae. #line:c13098
+Mae: geez! #line:b3cb7d
+Mae: i guess you need that gun for... what are you doing? #line:61a686
+Molly: blocking off the road. #line:4eb946
+Mae: oh yeah. wouldn't want to do that without a gun. #line:61e5af
+Molly: you know how many times i've shot someone? #line:0b4235
+Mae: no. tell me now. #line:5dcd61
+Molly: once.  #line:66b2fa
+Mae: you kill 'em? #line:0b253a
+Molly: no. #line:d597b8
+Mae: so you're saying you don't really need it, then? #line:b5d18d
+Mae: you should carry a battle axe. #line:ca4398
+Mae: *THAT* would be impressive. #line:165e6d
+Molly: i'll look into it. #line:421366
+<<set $molly_done to 1>>
+===
+title: TZAutoA1D3
+tags: 
+colorID: 0
+position: 28138,-5666
+---
+Donna: ...well getting on the board’s cold comfort. #line:3c3fb7
+Donna: i’m just always on edge. #line:2a5830
+TZEmployee1: you maybe see someone to talk about this? #line:e3bfbc
+TZEmployee2: Dr. Hank? #line:0bcbf7
+Donna: ugh #line:453b2b
+Donna: Dr. Hank does everything and nothing. #line:e18d97
+TZEmployee2: he fixed my leg last year! #line:528fcd
+TZEmployee1: he’s treated my babies through chicken pox and strep! #line:d7f2ea
+Donna: i know #line:a2ced8
+Donna: i just... #line:808acc
+Donna: whatever  #line:3346be
+[[TZEmployeeEmoticonLoop]]
+===
+title: TZAutoA2D1
+tags: 
+colorID: 0
+position: 28401,-5670
+---
+TZEmployee2: you gonna run out and do this on your *break*?! #line:a58eb4
+Donna: shh! #line:491246
+Donna: [wave][size=.8]i think i’m gonna tell nancy i’m sick[/all] #line:cbbfb2
+Donna: [wave][size=.8]i can puke on command[/all] #line:22e3e4
+TZEmployee2: [wave][size=.8]well that’s one way to do it[/all] #line:7e43c7
+Donna: [wave][size=.8]i got a change of clothes in the car[/all] #line:c607a6
+TZEmployee2: [wave][size=.8]in case you puke on your regular clothes.[/all] #line:1e9eac
+Donna: [wave][size=.8]no, i just want to look good for the interview[/all] #line:5893f6
+TZEmployee2: [wave][size=.8]good idea![/all] #line:a2bb9e
+Donna: [wave][size=.8]i mean, it’s ham panther. It ain’t an art gallery in paris.[/all] #line:743a52
+Donna: [wave][size=.8]but i figure any leg up is good![/all] #line:733c0d
+TZEmployee2: [wave][size=.8]i’m excited![/all] #line:858ae1
+Donna: [wave][size=.8]so am i![/all] #line:b2dd82
+Donna: [wave][size=.8]i need to drink all this coffee so i got something to puke in 20 minutes[/all] #line:eac92b
+[[TZEmployeeEmoticonLoop]]
+===
+title: TZAutoA3D1
+tags: 
+colorID: 0
+position: 28665,-5666
+---
+Donna: so today’s my last day! #line:216d76
+TZEmployee2: oh dear, we’re gonna miss you! #line:996bfb
+TZEmployee1: it happened so fast! #line:91190b
+TZEmployee2: let us know how it is...? #line:b11aa6
+Donna: I will! I’ll come visit! #line:a631db
+Donna: can’t leave you two to fend for yourselves #line:c76275
+TZEmployee2: oh dear... what are we gonna do without you? #line:c600d2
+TZEmployee1: y’all wanna go see a movie or something? #line:c5c81f
+Donna: yeah! Let me get settled in #line:ed5c27
+Donna: and we can go on an outing! #line:3bdc54
+Donna: and you’ll see me whenever you go for groceries! #line:485d40
+TZEmployee2: that’s true! #line:f7c7fc
+Donna: i ain’t going far! #line:987d05
+TZEmployee1: not far at all. #line:163393
+[[TZEmployeeEmoticonLoop]]
+===
+title: TZAutoA4D3
+tags: 
+colorID: 0
+position: 28930,-5673
+---
+Donna: ...so i’m gonna split, part time? #line:8e8286
+TZEmployee1: how do they not have the hours? #line:d7e8c5
+TZEmployee2: it’s a huge store! How do they not have hours? #line:e93dad
+Donna: they got a computer program #line:10fca4
+Donna: it’s all hooked up to some kind of mainframe or something #line:e11bb9
+Donna: it spits out the optimum schedule for all the employees #line:1b7287
+Donna: manager can’t do much about it #line:bc56fb
+Donna: computer don’t play favorites #line:c22fee
+TZEmployee2: yeah, guess you can’t argue with a computer. #line:920dae
+TZEmployee1: did Nancy give you hell? #line:43cf15
+Donna: nah. She did laugh though. #line:8ce172
+Donna: i laughed too. #line:0f9012
+TZEmployee2: we still gonna do that movie? #line:9732e0
+Donna: yeah. Let’s find a night we’re all off. #line:71afa1
+TZEmployee1: i’m off tuesdays! #line:73a2ce
+TZEmployee2: i’m off sundays! #line:cdd913
+Donna: thursday’s my only night off. #line:c903a9
+<<wait 4>>
+TZEmployee2: we can all put in requests? #line:a4cd4f
+[[TZEmployeeEmoticonLoop]]
+===
+title: TZEmployeeEmoticonLoop2
+tags: 
+colorID: 0
+position: 28339,-6468
+---
+TZEmployee2:{emote=coffee} #line:30e23a
+TZEmployee1:{emote=cigarette} #line:2102cc
+[[TZEmployeeEmoticonLoop2]]
+===

@@ -1,0 +1,163 @@
+title: Start
+tags: 
+colorID: 0
+position: 443,-315
+---
+Gregg: stab me once, shame on you #line:9433c9
+Gregg: stab me thrice, shame on y... ice #line:f370b1
+Mae: ok ok ok ok #line:4fb7ca
+Gregg: first one to wuss out 3 times #line:c0c310
+Mae: yeah yeah I got it STOP STALLING #line:ef1eba
+Gregg: on gard! #line:e60fa0
+Mae: GET STABB'D #line:7e2d91
+===
+title: MaeLose1
+tags: 
+colorID: 0
+position: 721,-317
+---
+Mae: AAAGH #line:d6b8f6
+Gregg: HA HA HA EAT IT #line:277033
+Mae: I'm rusty. #line:e02381
+Mae: Unlike you, I'm not street trash #line:707c14
+Gregg: Mae, you're trash wherever you go. #line:e7e7d5
+Mae: oooooh ho ho so that's how it is #line:51a7bd
+Mae: i am gonna stab you repeatedly with this knife #line:f2fefa
+Gregg: YEEEEEEEEEEEEAH!!!! #line:a0e156
+[[StartAgain]]
+===
+title: GreggLose1
+tags: 
+colorID: 0
+position: 949,-348
+---
+Gregg: AAAAAAAGH!!! #line:6c1458
+Mae: HA HA HA HA HA HA #line:69930a
+Gregg: Laugh now, laugh now. #line:165214
+Gregg: won't be laughing when it GUT YOU #line:2ff605
+Mae: oh no my poor guts #line:6820e4
+Mae: Try not to stab a tree instead of me #line:33e01b
+[[StartAgain]]
+===
+title: End
+tags: 
+colorID: 0
+position: 1866,196
+---
+Gregg: Ok well that's probably enough stabbing for today. #line:6ecacc
+Mae: All this blood gonna attract predators. #line:2b5074
+Gregg: GOOD POINT. #line:92b430
+<<close>>
+<<irisOut .5 wait>>
+<<scene GreggFQ3Woods>>
+===
+title: StartAgain
+tags: 
+colorID: 0
+position: 743,32
+---
+Gregg: ok ok ok ok #line:102bc5
+Gregg: ready ready ready? #line:29fe1f
+Mae: yeah yeah yeah yeah #line:9114b6
+Gregg: cool cool cool #line:3b03a6
+Mae: GO GO GO GO #line:c87f77
+===
+title: MaeLose2
+tags: 
+colorID: 0
+position: 1217,-328
+---
+Mae: AAAAAAAAAAAAGH #line:95bebc
+Gregg: You ok? #line:275b9b
+Mae: NO PITY, GREGG. #line:517b6e
+Mae: NO. PITY. #line:3f19ab
+[[StartAgain]]
+===
+title: GreggLose2
+tags: 
+colorID: 0
+position: 1458,-331
+---
+Gregg: FFFFFFFFFFF- #line:2def5a
+Gregg: UGH #line:53a995
+Mae: Geez, you ok dude? #line:32542c
+Gregg: NO. #line:a48c84
+Gregg: I AM NOT OK. #line:822d6c
+Mae: We can st- #line:e32c97
+Gregg: NO. AGAIN. #line:d8cd80
+[[StartAgain]]
+===
+title: MaeLose3
+tags: 
+colorID: 0
+position: 1727,-355
+---
+Mae: SSSHHHHHHHHHHHHHHHH #line:fcdaae
+Mae: RRRAAAAAAAGHH!!! #line:5bae70
+Gregg: Did I get your knuckle there? #line:2d5ec8
+Mae: Oh man I'm gonna have to explain this to my parents. #line:9bb3bb
+Gregg: Attacked by a dog again? #line:59b276
+Mae: Nah they'd ask why it had a knife. #line:5c432f
+[[StartAgain]]
+===
+title: GreggLose3
+tags: 
+colorID: 0
+position: 1974,-293
+---
+Gregg: Ok. I might be done. #line:c03755
+Gregg: That really hurt. #line:122cfb
+Mae: Really? #line:67df8b
+Gregg: NO. #line:2240b0
+Gregg: LET'S GO. #line:a2c8ec
+Gregg: ONE. LAST. TIME. #line:ea0cca
+Mae: Prepare to die. #line:7b8051
+[[StartAgain]]
+===
+title: MaeLose4
+tags: 
+colorID: 0
+position: 1768,-69
+---
+<<playMusic knife_fight_defeat>>
+Mae: OK OK! GEEZ! DONE! #line:5d8f4c
+Gregg: Ha ha ha you suck #line:f3a796
+Gregg: you wouldn't last a day on the streets #line:2568fc
+Gregg: also are you ok #line:c8203d
+Mae: I'm feeling a little woozy. #line:bd0399
+Mae: It might shock you to find out #line:b0974a
+Mae: that I don't knife fight much #line:c5209a
+Gregg: I wouldn't either if I was that bad at it. #line:54fae9
+Mae: uuuugh my poor hand #line:4329ea
+===
+title: GreggLose4
+tags: 
+colorID: 0
+position: 2042,-34
+---
+<<playMusic knife_fight_victory>>
+<<set $won_knife_fight to 1>>
+Gregg: ALRIGHT! I'M ACTUALLY DONE! #line:0e397f
+Mae: you ok? #line:91b176
+Gregg: yeah, I'll be fine. #line:b8c7e5
+Mae: do you need me to like #line:1f00a6
+Mae: call your mommy #line:a8ce2a
+Gregg: yeah #line:23b862
+Gregg: tell her that her precious boy got stabbed in the woods #line:9f5565
+Mae: this was always how it was gonna end for one of us #line:6e8d29
+<<unlockAchievement Gregg_FQ3_Win_Knife_Fight>>
+===
+title: MaeHurt1
+tags: 
+colorID: 0
+position: 132,507
+---
+Mae: Ow! #line:c787d4
+===
+title: GreggHurt1
+tags: 
+colorID: 0
+position: 127,780
+---
+Gregg: Ow! #line:e7659d
+===

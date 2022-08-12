@@ -1,0 +1,571 @@
+title: WalkToCounter_A1D1
+tags: 
+colorID: 2
+position: -315,969
+---
+Gregg: OH. MY. GOD. #line:430e6d
+Mae: Hey Gregg! #line:d95005
+Gregg: What are you doing here? #line:e3044e
+Mae: I'm back! :| #line:1c1182
+Gregg: Like back as in today? :) #line:eb57d8
+Mae: Back as in back. #line:339191
+Gregg: too bad you didn't die at college. #line:c76371
+<<wait 2>>
+Mae: :) #line:61b6c0
+Mae: too bad you didn't catch a flesh eating disease. #line:31c363
+Gregg: too bad you didn't join a murdercult. #line:039e1d
+Mae: too bad you didn't lose all your limbs #line:19c09a
+Mae: in a freak soda machine accident. #line:60ab5e
+Gregg: god, it's good to see you. #line:0f02e4
+Gregg: AAAAAAAAGH!!! \o/ #line:9c2246
+Mae: How's Angus? You two still a thing? #line:04bca3
+Gregg: _o_ #line:2caa6f
+Gregg: hold on! #line:7b75d9
+<<close>>
+<<flip Gregg 1>>
+<<run Gregg OffRightBack wait>>
+<<warp Gregg OffRight>>
+<<flip Gregg -1>>
+<<setSpriteLayer Gregg MainCast4>>
+Mae: what are you doing? #line:037338
+Gregg: changing the music!!! #line:206644
+<<playOneShot event:/snack_falcon/switch_music Gregg>>
+<<fadeOutMusic 1>>
+<<wait 1>>
+<<playMusic Gregg>>
+<<wait 3>>
+<<run Gregg InFrontOfCounter wait>>
+Gregg: WHAT? #line:ec26de
+Mae: Angus! #line:700c72
+Gregg: WHAT ARE YOU DOING HERE??? \o/ #line:f29224
+Mae: I live here! #line:3f846f
+Gregg: since when!!! #line:ccaeef
+Mae: since last night? 11 or so? #line:0c4133
+Gregg: THAT'S AMAZING!!! #line:c5c44e
+Gregg: Come to band practice! _o_ #line:217aea
+Mae: Oh my god! The band is still a thing? :o #line:ada5a9
+<<trigger Gregg Idle Shrug>>
+Gregg: Sure! #line:260ae6
+Mae: When's practice? :| #line:90279e
+Gregg: Now! #line:700714
+Mae: When do you get off work? #line:6d9478
+<<trigger Gregg Shrug>>
+Gregg: Now! #line:91d6e4
+Mae: Really? :) #line:ae35ae
+Gregg: _o_ #line:3bbea2
+<<close>>
+<<run Gregg OffLeft wait>>
+Gregg: AAAAAAAAAAGH!!!! #line:c649d1
+<<unlockDoodle Gregg1>>
+<<fadeOut 1 wait>>
+<<scene BandPractice>>
+<<end>>
+
+===
+title: WalkToCounter_A2D1
+tags: 
+colorID: 0
+position: -1048,1234
+---
+Gregg: Band practice! Y/Y? #line:58cf98
+[[Yes|Yes_A2D1]] #line:738512
+[[Yes|Yes_A2D1]] #line:a6b997
+
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -966,881
+---
+<<show Gregg>>
+
+<<if $act is 1 and $day is 1>>
+    <<setCanInteract Gregg 0>>
+<<elseif $act is 1 and $day is 2>>
+    <<set $gregg_ear_cups to 1>>
+<<endif>>
+
+<<setSpriteLayer Gregg BG3>>
+<<warp Gregg BehindCounter>>
+
+===
+title: Yes_A2D1
+tags: 
+colorID: 0
+position: -1036,1843
+---
+Gregg: Right answer! #line:57571a
+<<fadeOut .5 wait>>
+<<scene BandPractice>>
+
+===
+title: Gregg_A1D2.1
+tags: 
+colorID: 2
+position: 10,972
+---
+Gregg: Hey Mae. #line:148d5e
+Gregg: Got cups on my ears. #line:e1a3c5
+[[Wow.|Gregg_A1D2_Wow]] #line:aa92d6
+[[Why?|Gregg_A1D2_Why]] #line:8228aa
+===
+title: Gregg_A1D2_Why
+tags: 
+colorID: 2
+position: 222,1325
+---
+Gregg: I was thinking about how they have beaches in Bright Harbor #line:9d854a
+Gregg: And then I was thinking about the ocean #line:5e7f50
+Gregg: And then I put cups on my ears #line:c521b1
+Gregg: And it sounds like the ocean. #line:5e65b1
+Mae: Wow dude you took me on a journey. #line:ac174e
+Mae: Speaking of... uh... nothing I guess... #line:65cafc
+Mae: Do you know where I could find Angus? #line:d4502e
+Gregg: At work! At the video store. #line:1c05d4
+[[Gregg_A1D2_Body]]
+===
+title: Gregg_A1D2_Wow
+tags: 
+colorID: 2
+position: -141,1312
+---
+Gregg: Sounds like the ocean in here. #line:f410f2
+Mae: That’s great dude. #line:f8cdc6
+Mae: You seen Angus? #line:6729d4
+Gregg: E V E R Y N I G H T #line:507c49
+Mae: Yeah.  I meant like #line:99cb95
+Mae: "Where is Angus right now?" #line:16555e
+Gregg: At work! At the video store. #line:0fd04e
+[[Gregg_A1D2_Body]]
+
+===
+title: Gregg_A1D2_Body
+tags: 
+colorID: 2
+position: 26,1625
+---
+Gregg: What do you want Angus for? #line:259389
+Mae: Got computer problems. #line:1216a6
+Mae: Figured he might know a thing or two. #line:19bdc7
+Gregg: He’s a hacker. #line:3babd9
+Mae: Really? #line:939709
+Gregg: I’m pretty sure he hacks. #line:ac2c22
+Mae: Wow. #line:ced479
+Mae: Cool dude! I’ll catch you later. #line:60cd36
+Gregg: Definitely! I’m so glad you’re back!!! :) #line:6063a3
+Gregg: :| #line:3e72d1
+<<set $knows_angus_at_videostore to 1>>
+===
+title: Gregg_A1D2.2
+tags: 
+colorID: 2
+position: 5,1905
+---
+Gregg: So that arm, huh? #line:d3dad7
+Mae: Geez, yeah. What the hell. #line:07f0c6
+Gregg: What do you think happened? #line:5cb9a0
+Mae: I don’t know. #line:c90f2a
+Mae: How does an arm end up on the sidewalk? #line:d7997f
+Mae: In *Possum Springs*? #line:8e68ac
+Gregg: I mean kinda cool, but creepy? #line:47ff4d
+Gregg: And like, two doors down from our apartment. #line:bd5bc4
+<<if $knows_apartment_location is 1>>
+    Mae: Yeah, you live in Towny Centry now, right? #line:2f29a5
+<<else>>
+    Mae: You live in Towny Centry now? #line:adc1e3
+<<endif>>
+Gregg: Yeah we live next door! :) #line:00a29c
+Gregg: Ha ha, man you have been away for a long time. #line:c31538
+Mae: I have. #line:018e5b
+Gregg: :| #line:c03fea
+<<set $knows_apartment_location to 1>>
+
+===
+title: Gregg_A1D2.3
+tags: 
+colorID: 2
+position: 37,2178
+---
+Mae: You up for hanging out later? #line:bbd76f
+Mae: So much to catch up on! #line:54013f
+Gregg: Naw, got dinner with the family. #line:798386
+Mae: Is that a good thing or a bad thing? #line:99091e
+Gregg: ... #line:470bd9
+Gregg: A friendly thing. #line:eb4259
+===
+title: Gregg_A1D2.4
+tags: 
+colorID: 2
+position: 35,2442
+---
+ Gregg: Is it 6 o'clock yet? #line:2c7e3c
+===
+title: Gregg_A2D1
+tags: demo2
+colorID: 3
+position: 1088,440
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: Welllllll look who it is! #line:0e3f61
+    Mae: Yep. Alive for another day. #line:c7e553
+    Gregg: How are you feeling? #line:d3f254
+    Mae: Was feeling pretty bad but I've been across town #line:e70895
+    Mae: and I dunno. That helped. #line:073c92
+    Gregg: Fresh air! Or as fresh as it gets around here! #line:c2a0c9
+    Mae: Delicious. #line:534d77
+<<endif>>
+Gregg: So what's up? #line:427a39
+-> I was just stopping in. Gonna roll out. #line:25bac4
+    Gregg: Later brah! #line:63b4c3
+-> We gonna head out to band practice? #line:0efd3c
+    [[BandPractice]]
+===
+title: LightBulbSmash
+tags: 
+colorID: 3
+position: 1458,341
+---
+<<close>>
+<<irisOut 1 wait>>
+<<scene LightBulbSmash>>
+===
+title: Gregg_A2D2
+tags: 
+colorID: 3
+position: 1206,874
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: Hey hey Mae Mae. #line:81260d
+    Mae: Totally what's up dude. #line:454073
+    Gregg: Was thinking about going to jail. #line:facf97
+        ->like you're planning on going? #line:a5f7eb
+            Gregg: I think I could break out. #line:ee91a0
+            Gregg: Maybe I should like #line:f15927
+            Gregg: test my skills of escape. #line:8faad6
+            Mae: I feel like the risk is bigger than any possible reward. #line:64547b
+            Gregg: yeah. #line:fe020e
+            Mae: what brought this up? #line:6da47c
+            Gregg: had a nightmare about going to jail. #line:91f025
+            Gregg: my cousin went to jail #line:cc5f68
+            Gregg: my other cousin Jen said it was inevitable. #line:bf4c33
+            Mae: aw man. you're not inevitable. #line:2b01c7
+            Mae: i mean *it's* not inevitable. #line:213446
+            Gregg: no, go back. #line:d8c127
+            Gregg: i am definitely inevitable. #line:087cfb
+            Mae: the inevitable gregg. #line:dc6fd0
+            <<set $gregg_inevitable to 1>>
+        ->like you're afraid of going? #line:08f711
+            Gregg: I'd probably have to join a prison gang. #line:e72bb9
+            Mae: yeah #line:620e6b
+            Gregg: I don't want to join a prison gang. #line:24f0ec
+            Mae: Right. #line:4f016d
+            Gregg: I told Angus about this #line:182f6c
+            Mae: your fear of prison gangs? #line:7b6bef
+            Gregg: and he said #line:e5c455
+            Gregg: "prison gangs are notoriously problematic" #line:3f95ca
+            Mae: yeah that sounds like Angus. #line:32a89c
+    Mae: is Angus around today? #line:35cb5b
+    Gregg: Nah. He's off doing some stuff. #line:19c15c
+    Mae: what stuff? #line:752149
+    Gregg: eh. family stuff. #line:11f495
+    Gregg: they're not worth talking about. #line:91609d
+    Mae: yeesh. #line:a43c03
+<<endif>>
+Gregg: You wanna hang out? #line:db9393
+-> Gotta lot to do today. #line:83ceb6
+    Gregg: Cool, later! #line:e870c1
+-> Yeah man! Let's roll. #line:dcc9e8
+    Gregg: damn straight. #line:3f083c
+    <<set $gregg_friendship_quest to 2>>
+    <<irisOut 1 wait>>
+    <<sectionTitle GreggFQ2Intro GreggAngusApartmentLobby>>
+===
+title: Gregg_A2D3
+tags: 
+colorID: 3
+position: 1796,837
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: hey hey hey! #line:ceca24
+    Mae: hi! #line:3dd07d
+    Gregg: let's go let's go let's go #line:1e170d
+    Mae: whoa! what's up with you? #line:9c4e20
+    Gregg: I wanna do something!!!! #line:c5132a
+    Mae: ok wow! #line:93e9de
+        ->you drink like *all* the coffee? #line:2e4fc5
+            Gregg: i can't have coffee. makes me anxious #line:94b50b
+            Mae: oh wow that sucks #line:4e81be
+            Gregg: and it tastes gross #line:77d4d7
+            Mae: not if it's mostly milk and sugar #line:6e4ab2
+            Gregg: seems like a lot of hassle #line:e2c55e
+            Gregg: to make something gross taste ok #line:500e6b
+            Mae: good point. #line:5b4e80
+        ->you have a near death experience or something? #line:ef7807
+            Gregg: this job is one long near death experience #line:01a658
+<<endif>>
+Gregg: So dude dude dude #line:5c3520
+Gregg: You wanna do something something something? #line:f63f05
+-> Ugh, can't today dude. #line:e2a02a
+    Gregg: AW MAN. #line:2332bb
+    Gregg: it's cool. #line:aefbd6
+-> Yeah man! Let's go. #line:2a8bfc
+    Gregg: AWOOOOOOOOOOO!!! #line:beb08b
+    <<set $gregg_friendship_quest to 3>>
+    <<irisOut 1 wait>>
+    <<sectionTitle GreggFQ3Intro GreggMaeBike>>
+===
+title: Gregg_A2D4
+tags: 
+colorID: 3
+position: 2335,847
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Mae: Hey man! #line:59df7a
+    Mae: How's things? #line:4a931f
+    Gregg: Good. Harfest rush. #line:88e0c4
+    Mae: No one's in here. #line:5bafe6
+    Gregg: you missed it. #line:008f87
+    Gregg: the horror. #line:282365
+    Mae: oh #line:e3b8a0
+    Gregg: i done got horrored. #line:a73310
+        ->getting horrored at work is the worst #line:446a5d
+            Mae: when i had that job that one time #line:c974be
+            Mae: i worked the longest night rush #line:0da5ac
+            Gregg: you know, you've never mentioned having a job? #line:a95b3b
+            Mae: ugh. that's a story for another time. #line:43f75d
+        ->when is this place busy? #line:f05066
+            Gregg: morning is bad #line:88a2cc
+            Gregg: lunch is kinda bad #line:89ee43
+            Gregg: after i leave is bad #line:84458d
+            Gregg: Christine, the owner, comes in then #line:4d1c2a
+            Mae: i don't think i've ever seen Christine? #line:f64c4e
+            Gregg: i try to be out the door before she's clocked in. #line:aae0be
+            Mae: nice. #line:e426dd
+    Gregg: Anyway you're here now, and I'm here now #line:bdf684
+    Gregg: and it's a lovely day #line:ab76a9
+    Gregg: and I was worried I'd have to smash these lightbulbs #line:925beb
+    Gregg: all by myself. #line:c1e62a
+<<endif>>
+Gregg: So what's up? #line:36121d
+<<if $light_bulb_smash_done>>
+    Mae: Nothin. #line:a295aa
+    <<set $gregg_done to 1>>
+<<else>>
+    -> Nothin. #line:7f5e72
+        Gregg: Later! #line:fa29be
+    -> Uh I'm very interested in this lightbulb smashing. #line:8d8fb0
+        Gregg: hell yeah dude!!! #line:bde4c5
+        [[LightBulbSmash]]
+<<endif>>
+===
+title: BandPractice
+tags: temp
+colorID: 0
+position: 1470,-8
+---
+<<close>>
+<<irisOut 1 wait>>
+<<scene BandPractice>>
+===
+title: Gregg_A3D1
+tags: 
+colorID: 4
+position: 2903,836
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: Sup dude. #line:1bd580
+    Mae: ugh. #line:1fce4d
+    Gregg: ugh? #line:7f1ff1
+    Mae: long night. weird night. #line:c43793
+    Gregg: what's up? #line:51bb00
+    Mae: i'll tell you at band practice. #line:3c3266
+    Gregg: cool. #line:3839f7
+<<endif>>
+Gregg: whatcha up to? #line:2dc03d
+-> Just saying hello. #line:c754a2
+    Gregg: Hello! #line:a74ead
+-> We gonna head out to band practice? #line:b0fc6b
+    Gregg: yeah let's do this #line:336a7a
+    [[BandPractice]]
+===
+title: Gregg_A3D2
+tags: 
+colorID: 4
+position: 3253,830
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: Sup kid. #line:7dfa4b
+    Mae: how's it snackin' falcon? #line:19509f
+    Gregg: just kickin' it. #line:4268be
+    Gregg: drank too much chocolate milk #line:b1f344
+    Gregg: and i was throwing up #line:bdaefa
+    Gregg: when the lightbulb delivery came. #line:d39254
+    Gregg: i had to sign for it while puking. #line:6c50c2
+    Mae: geez. you ok? #line:5e5a9c
+    Gregg: yeah i'm good. #line:dd6fd1
+    Gregg: just flew too close to the sun #line:2ce66d
+    Gregg: the chocolate milky sun. #line:041b18
+<<endif>>
+Gregg: so what's up? #line:da89ae
+-> Just saying hello. #line:9be8f5
+    Gregg: coooool. #line:99c9bc
+-> You up for smashing some lightbulbs? <<if $light_bulb_smash_done is 0>> #line:9f1c75
+    [[LightBulbSmash]]
+-> Diiiid you wanna check out the historical society? <<if $did_gregg_investigation_quest is 0>> #line:f684d8
+    Gregg: rock on dude #line:ca7d6a
+    [[InvestigationQuest]]
+===
+title: Gregg_A3D3
+tags: 
+colorID: 4
+position: 3529,822
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: Sup duder. #line:858dba
+    Mae: hey. #line:645a2d
+    Gregg: how you holding up? #line:19a35f
+    Mae: surviving. #line:4a409f
+    Mae: had the weirdest dream last night. #line:326ba1
+    Gregg: really? #line:ad9f3d
+        ->i met god #line:edd75f
+            Gregg: geez. #line:7fbfca
+            Mae: and they were kind of an asshole #line:36e7cb
+            Gregg: huh. #line:4dbbdc
+            Mae: yep. that's how my week is going. #line:4c0b95
+            Gregg: can i offer you a complimentary slushie? #line:1f5bec
+            Mae: to replace the idea of a caring god? #line:2ef7ab
+            Gregg: i can throw in some chips??? #line:f9e452
+            Mae: ha ha. i'm good. #line:3cd830
+        ->i saw some space bugs #line:2a3b4a
+            Mae: no, not space bugs... #line:8a8c0a
+            Mae: like... not bugs #line:2d7c5e
+            Mae: and not in space #line:790b4b
+            Mae: like things beyond bugs #line:7f7d6b
+            Mae: in some place beyond space #line:841ed8
+            Gregg: I fell asleep on the couch watching Judge Cathy. #line:e4e6af
+            Mae: oh awesome. she's the best. #line:abcc1d
+            Gregg: she really is #line:213eee
+            Mae: she takes *NO* crap. #line:9bcf21
+            Gregg: boy you ain't lying #line:e074f3
+<<endif>>
+Gregg: so what's up? #line:eeef13
+-> Just checking in. #line:1bb334
+    Gregg: You have checked in. Officially. #line:284e9d
+    Gregg: I check thee. #line:b29e8b
+-> You wanna hang out? #line:a49643
+    [[FriendshipQuest4]]
+===
+title: Gregg_A3D4
+tags: 
+colorID: 4
+position: 3804,829
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: hey man #line:45ad8d
+    Mae: heyyyyyy #line:9e703b
+    Gregg: how you holding up? #line:6342d2
+    Mae: got a splitting headache #line:41c6e7
+    Mae: feel like i've barely slept #line:4ca23d
+    Mae: even though i've slept a LOT. #line:8dab4d
+    Gregg: geez. you ok? #line:e929da
+    Mae: i dunno. #line:4b8ea9
+    Gregg: can i do anything? #line:6bb161
+        -> kill me? #line:54915f
+            Gregg: bang. #line:3def30
+            Gregg: i shot you #line:9caa89
+            Mae: thanks #line:1e94e5
+        -> wake me up somehow #line:87b7fa
+            Gregg: HEEEEEEY!!!! D: #line:124f06
+            Mae: whoa #line:be13e5
+            Gregg: WAAAAAKE UUUUUUUP!!!!!! D: #line:fdeec1
+            Mae: ok yeah i'm awake now #line:0a36c6
+<<endif>>
+Gregg: so what are you up to today? :| #line:9db17d
+<<if $did_gregg_investigation_quest is 1>>
+    Mae: Just saying hey. #line:115ceb
+    Gregg: Hey! #line:71a017
+    <<set $gregg_done to 1>>
+<<else>>
+    -> Just saying hey. #line:7d798c
+        Gregg: Hey! #line:465e92
+    -> You want to check out that historical society?  #line:1a4c50
+        Gregg: you sure? you seem like... really tired. #line:a0a70b
+        Mae: yeah. let's do this. #line:b88e10
+        [[InvestigationQuest]]
+<<endif>>
+===
+title: InvestigationQuest
+tags: 
+colorID: 4
+position: 3460,1164
+---
+<<close>>
+<<irisOut 1 wait>>
+<<sectionTitle GreggIQ MansionExterior>>
+===
+title: FriendshipQuest4
+tags: 
+colorID: 4
+position: 3778,1165
+---
+<<if $dom_friend_gregg is 0>>
+    Gregg: Got some date night stuff with Angus. #line:f86471
+    Mae: it's cool. i might hit up bea. #line:ae717d
+    Gregg: hit her the eff up! #line:51f6ae
+<<else>>
+    Gregg: Yeah man!!! Let's roll! #line:beb02a
+    <<close>>
+    <<set $gregg_friendship_quest to 4>>
+    <<fadeOutMusic 3>>
+    <<irisOut 1 wait>>
+    <<scene GreggAngusApartment>>
+<<endif>>
+===
+title: Gregg_A4D3
+tags: 
+colorID: 5
+position: 4201,838
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+Gregg: well look who's alive and well #line:d2242b
+Mae: is that a surprise? #line:85a506
+Gregg: nah. #line:57712d
+Gregg: just seems like #line:844940
+Gregg: relevant. #line:080e4f
+Mae: well look who's live and well you too #line:ad9b5a
+Gregg: yeah. #line:bc1919
+Mae: yeah. #line:ed30c4
+<<wait 3>>
+<<endif>>
+Gregg: you want to get out of here? #line:ad4215
+Gregg: do band practice? #line:af2ce2
+-> Not yet #line:a1622f
+-> Yeah #line:e1edb4
+    [[BandPractice]]
+===
+title: Gregg_A1D3
+tags: 
+colorID: 2
+position: 546,961
+---
+Gregg: Party party partyyyy! #line:0d59ea
+Mae: geez dude. you are excited about this party. #line:2aec0c
+Gregg: you're gonna be there! That's awesome! #line:fc66de
+Gregg: god, what a great week it's been. #line:a6f77f
+Gregg: you're home!!!!! :) \o/ #line:0f2194
+Mae: i'm home! \o/ :) #line:02aa08
+<<wait 2>>
+Gregg: my arms are tired! #line:89801a
+Gregg: :| _o_ #line:22610d
+Mae: :| _o_ #line:f10052
+<<set $gregg_done to 1>>
+===

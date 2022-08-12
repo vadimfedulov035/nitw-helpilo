@@ -1,0 +1,135 @@
+title: Creek.2
+tags: 
+colorID: 0
+position: 1000,535
+---
+Mae: MEQKN DVR U0KYU0K - MAVEHJKNE UPN3PAKN #line:27c843
+Mae: UP0DYKT0BJ1X MAFA3NH0B #line:16299c
+Mae: UPECVEDY%WNE U0BC%DY. #line:388522
+===
+title: Creek.3
+tags: 
+colorID: 0
+position: 1277,541
+---
+Mae: YX TJ1, R CVJ1QAVA SA6Y. #line:48a56e
+Mae: N UPN3PAK C0BJ1. #line:342af9
+Mae: 6J%CJ 06 3AKVAD, 3DECJ T04H0 ECTJ U0TEHONAVJHJ1E BEDJMNHCKNE ZAMNVJRPJ1. #line:f7f97a
+<<end>>
+===
+title: Creek.1
+tags: 
+colorID: 0
+position: 704,505
+---
+Mae: U0-M0EMY, FDE-T0 TYT D0VSHA 6J1TJ CTAPAR VEC0UNVKA. #line:e63ebf
+Mae: B CMJ1CVE, 3DEQHNL UAPK HA3J1BA%T VEC0UNVK0L. #line:f974e0
+Mae: U0X0SE, B KAK0L-T0 M0MEHT 0HN U0TEPRVN 04EHJ MH0F0 DEPEBJEB. #line:554190
+Mae: *B3DJ1XAET* #line:2353fb
+Mae: DYMA%, UPNDETCR KAPA6KATJCR. #line:05796a
+
+===
+title: BottomOfCliff
+tags: 
+colorID: 0
+position: 399,512
+---
+Mae: HY... #line:7b70f8
+Mae: ...DEPJM0. #line:d9e711
+Mae: XM... #line:99bf8c
+===
+title: BottomOfPipes.1
+tags: 
+colorID: 0
+position: 491,834
+---
+Mae: YX. B0T GT0 R U0HNMA% UPNP0DA. #line:cf8e89
+Mae: UPNP0DA N MYC0P. #line:01951e
+===
+title: BottomOfPipes.2
+tags: 
+colorID: 0
+position: 728,832
+---
+Mae: GT0 TEVESKN ZYD D0HKN? #line:52a907
+Mae: UP0QEDQNE 4EPE3 BECJ F0P0D! #line:f53836
+Mae: B0T GT0 CAM00TBEPSEHH0CTJ! #line:ccc7f9
+<<end>>
+===
+title: TopPipe
+tags: 
+colorID: 0
+position: 913,250
+---
+<<if $firefliesInTargets is 0>>
+	<<if $ravineTopPipe is 0>>
+		Mae: 0F0. VADH0. GM. #line:2e183c
+		Mae: F0P0D HA DPYF0L CT0P0HE #line:ba5ec7
+		Mae: H0 GT0... #line:75033f
+		Mae: YSE D0B0VJH0 TEMH0 #line:0b00d8
+		Mae: N R 0DHA. #line:760158
+		<<set $ravineTopPipe to 1>>
+	<<elseif $ravineTopPipe is 1>>
+		Mae: 04EHJ TEMH0, 04EHJ 0DNH0K0. #line:54e0e9
+	<<endif>>
+<<elseif $firefliesInTargets < 6>>
+	<<if $ravineTopPipe < 10>>
+		Mae: GL, MAVJ1QN, BJ1 MHE D0P0FY 0CBETNTE? #line:1c64cc
+		Mae: X0TJ 4T0-HN6YDJ U0VE3H0E CDEVAETE? #line:a68ac6
+		Mae: B0T ECVN 6J1 BAC TAKNX U060VJQE TYT 6J1V0... #line:5d5741
+		Mae: XM... X0P0Q0 #line:aa56b6
+		<<set $ravineTopPipe to 10>>
+	<<elseif $ravineTopPipe is 10>>
+		Mae: HABEPH0E, HYSH0 60VJQE SYK0B. #line:490d6c
+		Mae: HE T0 4T06J1 R 60RVACJ TEMH0TJ1. #line:902918
+		Mae: H0 DA. #line:99a6c8
+		Mae: HABEPH0E, HYSH0 60VJQE SYK0B. #line:d7906a
+		<<set $ravineTopPipe to 11>>
+	<<elseif $ravineTopPipe is 11>>
+		Mae: HABEPH0E, HYSH0 60VJQE SYK0B. #line:5ac52d
+	<<endif>>
+<<elseif $firefliesInTargets < 9>>
+	<<if $ravineTopPipe < 20>>
+		Mae: TAM BHN3Y D0B0VJH0 TEMH0. #line:d7c083
+		Mae: H0 BJ1, SY4KN, BP0DE 6J1 NCUPABVRETE CEL HED0CTAT0K. #line:953f2c
+		Mae: B03M0SH0 HAM HYSH0 HEMH0F0 60VJQE TB0NX DPY3EL... #line:5b78c5
+		<<set $ravineTopPipe to 21>>
+	<<elseif $ravineTopPipe is 21>>
+		Mae: GL, SYKN: #line:80d793
+		Mae: HAM HYSH0 60VJQE SYK0B. #line:2a1f99
+		Mae: 0 60SE, R UACY SYK0B. #line:7b278f
+		Mae: TAK R CM0FY CUPJ1FHYTJ C TPY6J1 B 0BPAF. #line:420af4
+		Mae: 4T0 CVY4NV0CJ C M0EL SN3HJ%? #line:975502
+		<<set $ravineTopPipe to 22>>
+	<<elseif $ravineTopPipe is 22>>
+		Mae: EWE UAPA SYK0B, N R, BEP0RTH0, CUPJ1FHY C GT0L TPY6J1. #line:95df43
+	<<endif>>
+<<elseif $firefliesInTargets >= 9>>
+	<<if $ravineTopPipe < 30>>
+		<<releaseFireflies>>
+		<<wait 3>>
+		Mae: 0F0. #line:e1fe48
+		Mae: K0P04E, HAZNF K0VVEDS. #line:28fac7
+		Mae: R QEU4YCJ C SYKAMN! #line:d126c6
+		Mae: X0P0Q0! BUEPED! #line:61f12c
+		<<set $ravineTopPipe to 30>>
+		<<end>>
+	<<endif>>
+<<endif>>
+
+	
+
+===
+title: AfterLogSlide
+tags: 
+colorID: 0
+position: 456,188
+---
+Mae: 0 60SE M0L. #line:632d93
+Mae: GT0 6J1V0 0UACH0! #line:4e7413
+Mae: R M0FVA YMEPETJ! #line:7a8f54
+Mae: GT0 6J1V0 KPYT0! #line:89349f
+<<close>>
+<<wait 1.5>>
+Mae: R HE C06NPA%CJ U0MNPATJ B GT0L DJ1PE. #line:c24609
+===

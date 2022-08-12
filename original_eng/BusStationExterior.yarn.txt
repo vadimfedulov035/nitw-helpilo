@@ -1,0 +1,57 @@
+title: OutsideDoor
+tags: 
+colorID: 0
+position: 124,124
+---
+Mae: Well I'm right outside town. #line:ba6e88
+Mae: Mom and dad nowhere to be found. #line:b190a5
+Mae: Dark and cold. #line:023777
+Mae: Guess I'm walking. #line:ea7dd4
+Mae: Alone. #line:121249
+<<end>>
+===
+title: Bench1
+tags: 
+colorID: 0
+position: 355,120
+---
+Mae: Wow. #line:863c89
+Mae: I didn't realize how much I missed the sound of that train. #line:76d36f
+Mae: I used to hear it in my bed at night #line:349fa9
+Mae: during the winter when the leaves were down. #line:a72496
+<<end>>
+===
+title: Bench2
+tags: 
+colorID: 0
+position: 576,120
+---
+Mae: This bus station is maybe the newest thing in Possum Springs. #line:f3c835
+Mae: Guess they got state funding or something. #line:3029c5
+Mae: It makes a good first or last impression I suppose #line:6c4a77
+Mae: if not for the abandoned glass factory back there. #line:572e35
+Mae: Not getting rid of that anytime soon. #line:ab025a
+<<end>>
+===
+title: Woods
+tags: 
+colorID: 0
+position: 796,119
+---
+Mae: Well, I guess I'm gonna hike through the woods. #line:af8d1b
+Mae: Through the woods is home, #line:716f9a
+Mae: my bed, #line:0cf24e
+Mae: and my negligent parents. #line:1e2fe6
+<<end>>
+===
+title: Highway
+tags: 
+colorID: 0
+position: 909,396
+---
+Mae: I'm not walking back out to the highway. #line:581ad5
+Mae: Probably get hit by a car or something. #line:5bc855
+Mae: Hey where did that Janitor go? #line:b7ccc4
+Mae: Did he walk? #line:6091e6
+<<end>>
+===

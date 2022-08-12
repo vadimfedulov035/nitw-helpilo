@@ -1,0 +1,436 @@
+title: InitLevel
+tags: 
+colorID: 4
+position: 49,201
+---
+<<if $bea_town is 0>>
+    <<show Bea>>
+    <<hide CarGirl>>
+    <<hide CarDude>>
+    <<hide Collision:Right>>
+<<elseif $bea_town is 1>>
+    <<show Bea>>
+    <<warp Bea BeaEnd>>
+    <<sit Bea>>
+    <<flip Bea -1>>
+    <<show Jackie>>
+    <<warp Jackie JackieOut>>
+    <<flip Jackie 1>>
+    <<warp Mae MaeEnterFromParty>>
+    <<playerFace -1>>
+<<endif>>
+===
+title: EnterLevel
+tags: 
+colorID: 4
+position: 302,363
+---
+<<if $bea_town is 0>>
+    [[Dialogue1]]
+<<elseif $bea_town is 1>>
+<<endif>>
+===
+title: TriggerJackie
+tags: 
+colorID: 4
+position: 512,111
+---
+//autotriggers when you get within range//
+<<setAnimInt Jackie point 1>>
+<<setTalkAnimType Jackie 2>>
+Jackie: WHAT DID YOU DO? #line:9466a0
+Mae: I was gonna ask the same thing!! #line:8c35a7
+Jackie: HOW IN THE WORLD DID YOU MESS THAT UP! #line:05da36
+Mae: :( #line:052395
+Jackie: SHE NEEDS THIS #line:53d74e
+Jackie: Now she’s god knows where! #line:6f7e24
+Jackie: If something happens to her... #line:e1b38c
+Jackie: I will personally punch your teeth out. #line:5391f6
+Mae: Ok! Geez! #line:089f8b
+Jackie: Alright, I’m gonna go up the street. #line:a014ed
+Jackie: you go down towards the river. #line:77357d
+Jackie: We find her, make sure she’s ok, and meet back here. #line:8cfaa5
+Mae: Ok! Oh god. Ok. #line:50fcfd
+<<setAnimInt Jackie point 0>>
+<<close>>
+<<wait 1>>
+<<walk Jackie Jackie3 wait>>
+Jackie: Back in school, I always told Bea that you were an asshole #line:90f2f8
+Jackie: And I really thought that was true. #line:709a3e
+Jackie: And it’s good to know I was right. #line:ae32cb
+<<close>>
+<<walk Jackie JackieOffRight>>
+<<wait 2>>
+<<lookLeft Mae>>
+Mae: :| #line:ee6474
+Mae: ok ok ok. #line:33c2df
+Mae: where are you, Bea? #line:95cd44
+Mae: the roofs. Can get to the river quick on the roofs. #line:d7c4a0
+<<lookNearest Mae>>
+//you can now freerun and jump and stuff!//
+<<show Collision:Right>>
+===
+title: TriggerBeaEnd
+tags: 
+colorID: 4
+position: 1079,128
+---
+<<lookLeft Bea>>
+<<musicFadeOut 5>>
+Mae: BEA! #line:b6808a
+Mae: there you are! #line:ace097
+Mae: Are you alright? #line:24c6d1
+<<close>>
+<<wait 3>>
+Mae: Why did you run? #line:a2ba94
+Mae: That’s like extremely dangerous! #line:7774a2
+Mae: You’re alone in some college town #line:1e00b4
+Mae: and you don’t even know wh- #line:ca0038
+Bea: This was my party #line:e05f36
+Bea: These are my parties #line:70c4d0
+Bea: I come to these #line:99cf79
+Bea: so I can feel normal #line:fd2ff0
+Bea: for like 2 hours a month #line:e41212
+    ->*THIS* is normal? #line:c77c51
+        Mae: this is a bunch of dorks in a basement! #line:983bcd
+    ->You could have been like mugged or something! #line:fcedd0
+        Mae: all over some idiot guy?? #line:e2a129
+Mae: college is stupid anyway #line:cc277b
+//remember on blocking to do yelling text effects for this//
+Bea: OH MY GOD YOU COMPLETE ASSHOLE #line:220768
+Bea: You will never understand this. #line:a79813
+Bea: ever. #line:7089d3
+Bea: You know what I do when I go to sleep? #line:551a31
+Bea: ha ha ha. this is so friggin sad. #line:84857b
+Bea: I think like obsessively about going to college #line:66a716
+Bea: like really really think hard about it #line:76a758
+Bea: and if I'm lucky, as I fall asleep #line:c85f90
+Bea: i dream about it. #line:bfc9b4
+Bea: I have to dream about this #line:ccedc3
+Bea: this thing you're so over already #line:11fa3e
+Bea: is like my wildest fantasy. #line:6fd8cd
+    ->You *HAVE* a life! #line:93c303
+        Bea: no, i don't. #line:d09408
+        Bea: i have obligations. #line:6b6568
+        Bea: i have a routine. #line:23a6ec
+    ->That is so... sad. #line:586443
+        Bea: goddamn right it's sad! #line:716309
+Bea: when my mom died #line:e78609
+Bea: my life ended too. #line:676ed5
+Bea: i had to take over the business #line:631fa2
+Bea: because dad had a complete breakdown #line:8daef3
+Bea: and the bills from my mom literally dying #line:35d69a
+Bea: were so bad that we lost the house #line:a57deb
+Bea: the house I grew up in #line:015455
+Bea: gone. #line:e2cd26
+Bea: some shitty family with their shitty kids live there now #line:6ed011
+Bea: now we live in an apartment #line:a2e4fc
+Bea: as my dad wastes away #line:93236b
+<<playMusic proximity 18>>
+Bea: and like any idea i had of the future #line:c57e53
+Bea: this big, bright thing #line:540f2d
+Bea: just gets smaller and darker #line:f8b72a
+Bea: every time i wake up #line:8df915
+Bea: from a dream about nights like tonight #line:e20b50
+Bea: and you can't get that #line:cc5d0b
+Bea: through your thick effing skull #line:8c2acb
+    -> that's not fair #line:254370
+        Bea: none of this is fair! #line:31fb0e
+        Bea: nothing is fair! #line:463981
+    -> i had no idea about any of this! #line:82aa6f
+        Bea: HOW?! #line:ae1f79
+        Bea: HOW COULD YOU NOT KNOW THIS?! #line:da5b04
+Bea: I work hard! #line:b7aaed
+Bea: and i take care of what's left of my family #line:5112f0
+Bea: and my life is slipping away #line:b805fa
+Bea: and i'm trapped in that stupid hardware store #line:708669
+Bea: in that stupid town. #line:dd01cc
+Bea: i'm #line:416b35
+Bea: just #line:2c9be8
+<<wait 2>>
+Bea: doomed. #line:78aca9
+<<wait 2>>
+Mae: you're not the only person stuck here #line:a3d565
+Mae: you know. #line:8b8ac7
+Bea: you gave up the thing i can't have #line:b0b5c4
+Bea: i... kinda hate you. #line:7b3253
+Bea: i can't not hate you for that. a little. #line:6907d8
+    ->you don't know anything about it. #line:945875
+        Bea: what is there to know? #line:cb0be8
+        Bea: honestly! #line:53c5db
+    ->you don't know why i had to leave #line:71c179
+        Bea: oh i'm sure it's a brilliant reason. #line:a1b854
+Mae: you just sit there judging me #line:f7d704
+Mae: have you ever even asked why i left? #line:d3c25b
+Bea: yeah. first day you were back. #line:353c25
+Mae: oh. #line:fa4b60
+Mae: right. #line:78de96
+Bea: so why did you leave? #line:194313
+Mae: i... #line:e1dfb8
+<<close>>
+//walk Mae over and sit next to Bea on bench//
+<<walk Mae MaeWalkToSit wait>>
+<<toggleSitSwings Mae false>>
+<<sitInstant>>
+Mae: i don't know.  #line:b1b7b3
+Mae: my head is in pieces right now #line:8c0738
+Mae: any answer i could give would sound nuts. #line:44693c
+Bea: oh. #line:4621f8
+Bea: well that's illuminating. #line:a0fc7c
+Mae: oh shut up. #line:3f67fa
+Mae: all this shit going on this past week? #line:a14c88
+Mae: ghosts and shit? #line:b94f5c
+Mae: i met god! #line:88c49d
+Mae: he was an asshole! #line:d60405
+Bea: uh-huh. #line:e4c3a9
+Bea: AAAAGH. #line:ed77f1
+<<wait 2>>
+<<cameraLookAt CameraRiver 8>>
+Mae: look. #line:90cdec
+Mae: we're both trapped. #line:05cb5a
+Mae: but we're trapped together. #line:2d64db
+Bea: ... #line:764913
+Mae: better to be trapped with someone else, right? #line:1a76c1
+Bea: ... #line:21a8ee
+Mae: listen, i'm sorry. #line:c88466
+Mae: about #line:480166
+Mae: like, #line:12c6c1
+Bea: it's ok. #line:790377
+Mae: we're like #line:380496
+Mae: the best available friends. #line:1a6952
+Bea: ha ha ha. #line:5a3788
+Bea: oh god. #line:2ee493
+<<wait 3>>
+Mae: what river is this? #line:9042ba
+Bea: Red Winder. #line:4e627d
+Bea: all the iron in the water #line:da5d1d
+Bea: turns the rocks orange. #line:a51edf
+Mae: must be weird for them. #line:bd5f8d
+Mae: all the rocks on land get to keep their colors. #line:d8345a
+Mae: and the river rocks are always looking up at them. #line:9ec2e7
+Bea: hm. #line:8ea6b0
+<<wait 3>>
+Mae: so like #line:2b4a19
+Mae: actual question: #line:b563fd
+Mae: do you think we’d be friends if we weren’t like  #line:e832ac
+Mae: stuck together in the same town? #line:328ab1
+Mae: like we were stuck together in girlscouts? #line:02d8e8
+Mae: like... Uh... is this just... what’s the word? #line:4c22cc
+Bea: Proximity? #line:0f693c
+Mae: yeah #line:c1e2f7
+Bea: I don't know. #line:e0433a
+Bea: I honestly don't. #line:be546f
+Bea: My entire life feels like running after something #line:8cfdcf
+Bea: that keeps moving away into the distance #line:dd93f6
+Bea: while I stay in the same place. #line:c2f7ef
+Bea: ... #line:9becfa
+<<lookAt Bea Mae>>
+Bea: And I guess proximity counts for a lot right now. #line:ca7228
+Mae: hm. #line:5d7948
+Mae: prox-i-mi-ty. #line:1ac563
+<<if $did_bea_friendship_quest_2 = 1>>
+    Mae: stuck in a basement together #line:d8a272
+    Mae: again #line:b05a2f
+    Mae: this crazy ol' basement #line:d141ac
+    Mae: we call life, beatrice #line:cf18f7
+    Bea: thanks. that's uplifting. #line:38b43b
+<<endif>>
+<<wait 3>>
+Mae: do you want to go back to the party? #line:5402a1
+<<lookLeft Bea>>
+Bea: Nah. #line:29ffea
+Mae: we can come to another one sometime! #line:ebea70
+    ->I swear I won’t screw it up! #line:7217e9
+        Bea: well, you've done it once #line:52ea0a
+        Bea: so you should know how to not do it again. #line:def23e
+    ->I'll learn to talk good #line:af253f
+        Mae: to whatever guy #line:e3a5be
+        Mae: you're obviously trying to get with. #line:18a478
+        Bea: oh good. thanks. #line:0c8f4f
+Mae: Bea, you should have told me about everything. #line:4eb509
+Bea: I was embarrassed. #line:02273b
+Bea: my entire life is embarrassing. #line:da8140
+Mae: Bea I am like more embarrassing than you will ever be. #line:7800dd
+Mae: you are like stronger and smarter than anyone I’ve ever met. #line:8e1667
+Bea: thanks #line:e7ec10
+Bea: And you’re not as big a total idiot as I act like you are. #line:1ed005
+Bea: i'm a jerk sometimes. I know that. #line:7c6199
+Bea: but you're a genuinely... good? person. #line:38982a
+Mae: I'll take it. #line:50e3c9
+<<lookAt Bea Mae>>
+<<if $did_bea_friendship_quest_1>>
+    Mae: you know what the Fort Lucenne fish fountain would say #line:98c03c
+    Bea: what? #line:79b026
+    //remember size and shake//
+    Mae: BEATRICE SANTELLO #line:8d6b83
+    Mae: WE SHOULD GET BURGERS AND SHAKES ON THE WAY HOME #line:7ca391
+    Bea: oh wow. a revelation from god. #line:6beca4
+    Mae: the good god. the fake one. #line:f455bf
+<<endif>>
+<<wait 3>>
+<<if $cool_party_girl>>
+	Mae: Crap! I didn’t get her info! #line:83f054
+	Bea: Who? #line:7ce3d5
+	Mae: THIS SUPER CUTE GIRL I MET AT THE PARTY?!?!? #line:8a597b
+	Mae: We did a secret handshake? #line:e4bd1a
+	Bea: Is that a... euphemism? #line:27da2a
+	Mae: CRAP. #line:cd813a
+	Mae: yeah. We need to come back. #line:bf8db9
+<<endif>>
+Bea: Ok, you. #line:f295de
+Bea: Let’s go home. #line:61615c
+Mae: home again, home again. #line:be32c2
+<<close>>
+<<fadeOut 1 wait>>
+<<unlockDoodle BeaFQ4>>
+<<if $cool_party_girl>>
+    <<unlockDoodle BeaPartyGirl>>
+<<endif>>
+<<set $night to 1>>
+<<set $did_bea_friendship_quest_4 to 1>>
+<<set $completed_bea_friendship_quests += 1>>
+<<unlockAchievement Best_Available_Friend>>
+<<scene MaeHouse left>>
+===
+title: Dialogue1
+tags: 
+colorID: 4
+position: 586,485
+---
+Mae: I think I went here once #line:46a040
+Mae: in girlscouts #line:90c0ff
+Mae: to see some sort of Longest Night play. #line:9cfd8c
+Bea: Yeah. I was there. #line:bc7f31
+Mae: oh yeah. We were kinda stuck together back then. #line:e2f0b8
+    ->why'd you start talking to me? #line:fc9d7c
+        Bea: I was new in town #line:806e80
+        Bea: and you seemed cool. #line:8edeed
+        Mae: that's it? #line:c0d0b3
+        Bea: You were smart and fun. #line:c16bba
+        Mae: What am I now. #line:52714a
+        Bea: ... #line:cf62e0
+        Bea: ya know. "fun". #line:32d952
+        Mae: it's like super shitty #line:b9d26c
+        Mae: that you keep saying I'm not smart. #line:33f896
+        Bea: I'm sorry. I'm mostly kidding. #line:98a982
+        Mae: "mostly" #line:7e352d
+        Mae: you're not smart either! #line:9ff3fe
+        Bea: i was valedictorian of our class! #line:da527b
+        Mae: like that means anything in the real world. #line:9c9466
+        Bea: ... #line:6f46de
+        Mae: sorry #line:062b44
+        Bea: sorry #line:bacf80
+        <<wait 2>>
+    ->what even was that play? #line:a5aff7
+        Bea: Corvin the Thief. Old. Kind of obscure. #line:cef9b6
+        Bea: Slick little barn cat #line:620e69
+        Bea: Lived in the woods #line:594c42
+        Bea: where no one could find him. #line:33e75d
+        Bea: But then he stole a diamond or something #line:e4b524
+        Bea: from the local king #line:8133cf
+        Bea: and got arrowed to death. #line:429982
+        Mae: oh yeah. right. #line:e7eb62
+        Bea: yep. #line:169f81
+        Bea: there's a whole second part #line:cfe3a5
+        Bea: where he's a ghost #line:a14bcf
+        Bea: but they never perform that one. #line:8e0f06
+        Mae: poor ghost cat. #line:df640c
+Bea: alright, let's go. #line:7c18f9
+<<close>>
+<<walk Mae Mae2>>
+<<walk Bea Bea2 wait>>
+Mae: I’m kinda nervous about this. #line:6df311
+Mae: stay close, alright? #line:9c22c0
+Bea: Nothing to be scared of down there. Just a party. #line:d4002f
+Mae: ... #line:0cfd03
+Mae: Not too late to throw ourselves into traffic instead. #line:edc4a3
+<<lookRight Bea>>
+Bea: HEY JACKIE! #line:ab1bf1
+<<close>>
+<<flip Jackie -1>>
+<<walk Jackie Jackie2 wait>>
+Jackie: Hey BEEEEEE!!! #line:32ea05
+Jackie: Oh weird. It’s Mae. #line:317f0a
+Mae: o/ #line:ad80f5
+Mae: Hey Jackie! #line:578029
+Jackie: You brought Mae. #line:2aeaae
+Mae: _o_ #line:f3e194
+Bea: Yeah, is that ok? #line:34d7b8
+Jackie: Sure! It’ll be fun. #line:41588b
+Jackie: Come on in! It's a good one. #line:52a1e0
+Mae: is there like dancing and stuff? #line:870ee0
+Jackie: the world is ending, mae #line:219e5b
+Jackie: of *course* there's dancing. #line:d75962
+Bea: cool #line:8a95bb
+Mae: ok #line:e22e0c
+<<close>>
+<<flip Jackie 1>>
+<<walk Jackie ExitRight>>
+<<walk Bea ExitRight>>
+<<walk Mae ExitRight wait>>
+<<set $bea_town to 1>>
+<<irisOut 1 wait>>
+<<scene BeaParty>>
+===
+title: NeedToJumpOnCar
+tags: 
+colorID: 4
+position: 801,125
+---
+//there is a guy and a girl standing in front of the car you need to jump on//
+Mae: Hey! Move! #line:ed857b
+CarGirl: What? #line:80e24f
+<<dilate Mae .85 .5>>
+Mae: Move it, goth dorks. #line:a35139
+CarDude: No. #line:71c899
+Mae: I NEED TO GET UP ON THE ROOF. #line:9bb95b
+CarDude: You are not jumping on my car. #line:0dab1e
+<<dilate Mae .75 .5>>
+Mae: I WILL END YOU RIGHT HERE IN THIS PIZZA PLACE PARKING LOT #line:7e3730
+CarGirl: YOU COOL DOWN #line:d98058
+Mae: YOU EFF OFF #line:3bd1c8
+CarGirl: DON’T TELL ME TO EFF OFF #line:ff7f3b
+Mae: DON’T TELL ME TO COOL DOWN #line:918d82
+CarDude: Get away from my damn car! #line:2bc366
+<<dilate Mae .65 .5>>
+Mae: :| #line:549489
+<<setAnimInt Mae nodding 1>>
+Mae: IF YOU DON’T GET AWAY FROM YOUR DAMN CAR #line:1c9089
+Mae: I’M GONNA RUN IT OVER YOUR DAMN HEAD #line:10421c
+<<setAnimInt Mae nodding 0>>
+CarDude: Can you even drive? #line:03d13d
+Mae: \o/ #line:06524b
+Mae: WANNA FIND OUT, CITIZEN? #line:8f9763
+CarGirl: I’m gonna call the cops. #line:81823a
+<<lookAt Mae CarDude>>
+<<close>>
+//she walks away to the right and down to the party//
+<<walk CarGirl ExitRight>>
+Mae: if you don’t move #line:5b0f52
+Mae: right now #line:87e57b
+Mae: i’m going to probably make you eat this entire car #line:9d7aab
+Mae: and i can do it #line:b48d73
+CarDude: I’d like to see you try. #line:01cc19
+<<setAnimInt CarDude point 1>>
+Mae: _o_ :( #line:08fcaf
+Mae: the last person I hurt #line:f0d38f
+Mae: physically #line:4c5c16
+Mae: I hurt him very, very badly. #line:0140f6
+Mae: physically. #line:954982
+<<trigger CarDude Jab>>
+CarDude: Seriously, I'm about to- #line:8f90a0
+<<dilate Mae 1 .5>>
+Mae: :| #line:ae454a
+Mae: you're about to what? #line:c9f26d
+<<wait 3>>
+<<setAnimInt CarDude point 0>>
+CarDude: you know what? I don’t have time for this #line:03794b
+<<setAnimint Mae headShaking 1>>
+Mae: no, you don’t. #line:fd3600
+Mae: move. #line:8e937e
+<<setAnimint Mae headShaking 0>>
+CarDude: hope you break your spine. #line:ed10c1
+<<lookNearest Mae>>
+//CarDude walks to the right and down to the party//
+<<walk CarDude ExitRight>>
+===

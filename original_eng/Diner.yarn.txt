@@ -1,0 +1,272 @@
+title: EnterLevel_A1D1
+tags: 
+colorID: 0
+position: 115,-46
+---
+<<play HangingAtTheDinerMusic>>
+Mae: So when are we gonna play out? :) #line:e64ba3
+Bea: *SNORT* #line:170c91
+Bea: Mae. We don't play out. #line:757099
+Mae: Oh. :| #line:969d8f
+Bea: We have jobs, Mae. #line:72ba4b
+Angus: I work at the Video Outpost "Too"! :) #line:2ec9dd
+<<mood Angus Neutral>>
+Bea: I'm at the 'Ol Pickaxe. #line:b884b3
+[[I thought you were going to school?|GoingToSchool]] #line:674beb
+[[Isn't that your Dad's store?|DadStore]] #line:052809
+
+===
+title: 02_A1D1
+tags: 
+colorID: 0
+position: 157,1099
+---
+Mae: [speed=.25]...[/all] :\ #line:507b6a
+<<close>>
+<<wait 3>>
+Angus: Well! We better get home, dude. #line:1c4c2e
+Gregg: Oh yeah Angus got a date with sword people online. :) #line:f25929
+Mae: Aw lucky. :| #line:f58040
+[[End_A1D1]]
+
+===
+title: GoingToSchool
+tags: 
+colorID: 0
+position: -96,210
+---
+Bea: Heh. #line:ac1d95
+Bea: Yeah, well. Life happens. #line:5f2115
+[[01_A1D1]]
+===
+title: DadStore
+tags: 
+colorID: 0
+position: 362,216
+---
+Bea: Sure is. #line:6bd277
+[[01_A1D1]]
+===
+title: 01_A1D1
+tags: 
+colorID: 0
+position: 132,513
+---
+Gregg: I'm lord of the Snack Falcons! \o/ D: #line:176c9c
+Gregg: :| _o_ #line:2b6530
+<<close>>
+<<wait 2>>
+Mae: Where's Casey? #line:a8647b
+Angus: ... #line:1ce4c3
+<<playMusic diner_conversation>>
+Gregg: Oh yeah, you wouldn't know, huh? #line:2bdc0c
+Gregg: Casey's gone. #line:92efbd
+Mae: "Gone"? Gone how? #line:1d6953
+Gregg: Hopped a train I bet. #line:12819e
+Mae: Oh wow. He always talked about doing that. #line:63648f
+Gregg: Yeah one day he was just gone. #line:25ced7
+Angus: Made a clean break. Hasn't emailed or anything. #line:157e2b
+Mae: Well, good for him I guess. #line:8d9e90
+Gregg: His parents put up missing person posters #line:f326a8
+Gregg: but everyone knew what happened. #line:69100f
+Mae: Geez. Casey. I... huh. #line:f8a976
+Bea: Mmhmm. #line:f2875e
+Bea: And what exactly do you do, Mae? #line:1de68b
+Mae: I was in college? #line:1a87b5
+Bea: And why exactly are you not still there? -_- #line:c82812
+[[Man, screw school!|ScrewSchool]] #line:fe08ac
+[[Didn't work out.|DidntWorkOut]] #line:16136e
+
+===
+title: ScrewSchool
+tags: 
+colorID: 0
+position: -50,827
+---
+Bea: Stunning... o_o #line:fa48f4
+[[02_A1D1]]
+===
+title: DidntWorkOut
+tags: 
+colorID: 0
+position: 322,815
+---
+Bea: Huh. Imagine that. o_o #line:03d1f3
+[[02_A1D1]]
+===
+title: End_A1D1
+tags: 
+colorID: 0
+position: 177,1420
+---
+<<set $diner to 1>>
+<<fadeOut 1>>
+<<wait 1>>
+<<scene TowneCentreWest>>
+
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 139,-374
+---
+<<if $act is 1 and $day is 1>>
+<<elseif $act is 2 and $day is 1>>
+    <<rotate Gregg 0>>
+    <<hide Angus>>
+    <<hide Bea>>
+<<else>>
+    <<hide Gregg>>
+    <<hide Angus>>
+    <<hide Bea>>
+<<endif>>
+===
+title: EnterLevel_A2D1
+tags: 
+colorID: 3
+position: 816,-15
+---
+<<if $did_food_flicker>>
+    [[AfterFoodFlicker]]
+<<else>>
+    [[BeforeFoodFlicker]]
+<<endif>>
+===
+title: AfterFoodFlicker
+tags: temp
+colorID: 3
+position: 925,312
+---
+Gregg: I think I might be sick. #line:8f5b2c
+Mae: True friendship: Letting your friend make you sick. #line:4cd424
+Gregg: True bros. #line:46d2fa
+Mae: True bros. #line:c3bba5
+Mae: I feel like this is the first time we've just gotten to hang out. #line:e418be
+Gregg: Howzit feel? #line:a85293
+    ->I mean I'm very sore and I smell like glue. #line:649fea
+        Gregg: Yeah I'm going to take an hour long shower when I get home. #line:d64e1c
+    ->Real good. #line:1f7681
+        Gregg: Same, dude. #line:27b66e
+Mae: So how have things been? #line:e8f9ab
+Gregg: Uh... good! #line:bd1c48
+Mae: Weird seeing you with a regular job #line:76529a
+Mae: that you like #line:5bd0ae
+Mae: go to. #line:9a8419
+Gregg: Yeah, working on the plan. #line:de8ce4
+    ->The plan? #line:535be6
+    ->Yeah I got plans too. #line:f9a33e
+        Gregg: Like what? #line:62eefb
+        Mae: Washing this glue smell off. #line:333900
+        Mae: What plan were you talking about? #line:4ceb74
+Gregg: Bright Harbor. #line:194bb2
+<<set $knows_bright_harbor to 1>>
+Mae: Bright... harbor? #line:2ae623
+Gregg: Yeah. We're gonna move to Bright Harbor? #line:742542
+    ->When? #line:9c17f9
+    ->Since when? #line:57d1f4
+        Gregg: Uh... a year or so now? #line:29c4d0
+        Gregg: That's why we're working like 7 days a week. #line:d4729d
+        Mae: But... when are you moving? #line:daf88b
+Gregg: I think in the spring? #line:e3f582
+Mae: That's like... a few months away. #line:611868
+Gregg: Yeah! #line:55bf08
+Mae: Oh. #line:1d23a8
+Gregg: You should come visit when we get settled in! #line:27933d
+    ->Why Bright Harbor? #line:19094e
+    ->Isn't Bright Harbor like really expensive? #line:d0109e
+        Gregg: Not if you live in a terrible neighborhood! #line:e50912
+Gregg: Oh Mae it's SO cool. #line:cf3417
+Gregg: We visited in the summer #line:395094
+Gregg: There's like record stores and weird bars #line:6a2f0a
+Gregg: and everyone's cool and like... free? #line:fec4a4
+Mae: Oh. #line:065855
+Gregg: That's where I got my tattoo! #line:3f300e
+Mae: What? #line:65e821
+Gregg: Yeah! #line:0a2cfd
+//emoticon of sheep tattoo//
+Gregg:{emote=sheep_tattoo} #line:abf3c7
+<<close>>
+Mae: Is that a... sheep? #line:8256dc
+Gregg: Yep. #line:96b6af
+Mae: Why a sheep? #line:836272
+Gregg: ... #line:3bfad1
+Gregg: The tattoo guy was like all the way hot. #line:74cc2c
+Gregg: And it didn't even hurt! #line:04656e
+Mae: You have a tattoo. #line:b32473
+Mae: You're moving to Bright Harbor. #line:c70ff4
+Gregg: Yeah! #line:b6e67e
+Mae: Oh. #line:760f7a
+// We need a variable to say I know about Bright Harbor and the tattoo so we don't repeat this later.
+// ^ we can use $did_gregg_friendship_quest_1 to check this
+Gregg: What's wrong? #line:21ee01
+Mae: Nothing! #line:d2adb7
+Gregg: How long do you think you're staying in town? #line:27a3ac
+    -> Um. I don't know. #line:8c46c9
+        Gregg: I'll help you pick somewhere out. #line:902d4d
+    -> Not long. Gonna move too. #line:7e8dc3
+        Gregg: Ooh where to? #line:447df6
+            ->North. #line:f2589a
+                Gregg: Cold and blizzards and hot cocoa! #line:933aa2
+                Gregg: Ooh we can come visit in the summer! #line:9ff8a0
+            ->South. #line:c69e05
+                Gregg: Heat and tornadoes and sweet tea! #line:4ebf5c
+                Gregg: Ooh we can come visit in the winter! #line:42c760
+Mae: Yeah. #line:ca737b
+Gregg: It was really great hanging with you tonight. #line:f983d1
+Gregg: I've been really boring lately. #line:8427cf
+Gregg: Haven't done a crime in... a long time. #line:c052a9
+Mae: Why? #line:f8bff0
+Gregg: Angus. The plan. Can't go to Bright Harbor if I get caught or fired. #line:34745b
+Mae: You're all adult now. #line:46931e
+Gregg: I'm bonafide. #line:da1ba3
+Mae: I'm gonna go I think. #line:c4fe01
+Gregg: Good call. We need to de-glue. #line:69f845
+Mae: I think we stunk up the diner. #line:f02432
+Gregg: Eh. Wouldn't be the first time. #line:d57b18
+Mae: =_= :) #line:930e20
+Mae: I missed you. #line:51102a
+Gregg: :) #line:9efdb9
+Gregg: You too bro. #line:6f2956
+<<unlockDoodle GreggFQ1Crimes>>
+<<unlockRobotHeadDoodle>>
+<<close>>
+<<set $gregg_friendship_quest to 0>>
+<<set $did_gregg_friendship_quest_1 to 1>>
+<<set $completed_gregg_friendship_quests += 1>>
+<<set $night to 1>>
+<<irisOut 1 wait>>
+<<scene MaeHouse left>>
+===
+title: BeforeFoodFlicker
+tags: 
+colorID: 3
+position: 1212,244
+---
+Mae: too bad you didn't snap your spine. #line:5cb2fa
+Gregg: too bad your arms didn't get ripped off. #line:a29a95
+Mae: too bad you weren't horribly disfigured. #line:5613b4
+Gregg: too bad you didn't fall and break your teeth on a stair. #line:70acbe
+Mae: too bad you didn't get trapped under the box #line:a2f9d3
+Gregg: too- #line:ae229c
+Mae: not finished #line:125b5a
+Mae: and then burned alive in a building fire. #line:a7906b
+Gregg: too bad you didn't crawl into a vent #line:ad09cb
+Gregg: to escape the fire #line:eba147
+Gregg: and get cooked. #line:6e9757
+Mae: aaah. good times. #line:c1da5f
+Mae: I still smell gluuuuuuuuuuuuue. #line:4cd774
+Gregg: Think about something else. #line:9f4a1b
+Mae: I can't. I think I'm high from the glue. #line:76f25a
+Gregg: Think about pierogis. #line:0bfb26
+Gregg: They have pierogis when you were at school? #line:33977f
+Mae: This one church in town would sell them during whatever holiday. #line:53ef4f
+Gregg: Feast Of The Perpetual Pierogi. #line:b8eef6
+Mae: Yo dude. #line:4276ff
+Gregg: What? #line:f0a45d
+Mae: Open your mouth. #line:4412c4
+Gregg: Why? #line:ba6483
+Mae: Trust me. #line:929b98
+Gregg: True friendship is this. #line:705360
+<<irisOut 1 wait>>
+<<scene FoodFlicker>>
+===

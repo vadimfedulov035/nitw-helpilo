@@ -1,0 +1,252 @@
+title: TreeCat_A1D3.1
+tags: 
+colorID: 0
+position: 781,86
+---
+<<speechBubbleDistanceOverride 1.5>>
+Adina: Hey cat. Figured I'd see you here. #line:df5945
+TreeCat: You figured right. #line:62c2a6
+Adina: You figured wrong. #line:1276fb
+TreeCat: How's that? #line:62cb99
+Adina: I didn't die in there. #line:9955cf
+TreeCat: So you didn't. #line:fabc52
+TreeCat: But then again, I've never died in there either. #line:d4cda4
+TreeCat: So pardon me if I'm not overly impressed you did it once. #line:8e9f06
+Adina: You are such an ass. #line:b963df
+TreeCat: You certainly caused a lot of trouble tonight. #line:efd792
+Adina: I didn't mean to. Just passing through. #line:9b7b82
+TreeCat: Isn't that always the way. #line:e2de1f
+[[I have to go now.|GoodbyeTreeCat]] #line:9269b6
+[[So who are you, really?|WhoIsTreeCat]] #line:533a55
+
+===
+title: Astronomer
+tags: 
+colorID: 0
+position: 1378,198
+---
+//<<trackAllSpeechBubblesToCharacters 1>>
+//<<speechBubbleSizeOverride 1.75>>
+//<<speechBubbleDistanceOverride 2>>
+<<speechBubbleMaxOpenTimeOverride 2.5>>
+<<holdInput 1 0>>
+<<playerRunSpeedOverride 2>>
+//<<musicDialogueFaderOverride 1>>
+<<show Astronomer 1>>
+<<wait 2>>
+<<tell Music to Play>>
+Astronomer: You know, I doubted you would make it. #line:822279
+Adina: A promise is a promise. #line:c77fd2
+Astronomer: How is home? #line:674ff6
+Adina: Same as ever. Colder now of course. #line:bab937
+Adina: The sheep shut down the 5th street bridge again on Longest Night eve. #line:3352eb
+Astronomer: Ha ha ha! #line:4db8e8
+Adina: The farmers were there all day trying to pull them off. #line:8902d1
+Astronomer: Have they figured out why they keep doing that? #line:91423f
+Adina: No one has a clue. #line:da15d1
+Astronomer: Hm. #line:b207f4
+Adina: I know you can't stay long. #line:1402bc
+Astronomer: I can't. So ask. #line:cafb9a
+Adina: Ok, did you find the ghost star? #line:12c4a5
+Astronomer: I did, my first night dead. #line:64612d
+<<close>>
+<<waitForPlayerPastX 33>>
+<<holdInput 0 0>>
+<<speechBubbleMaxOpenTimeOverride 0>>
+Astronomer: It's there. #line:05f816
+<<show LostConstellation 3>>
+<<wait 3>>
+Adina: Oh my god. #line:5483bf
+Astronomer: Something like that. #line:7a6be8
+Astronomer: Will you remember where that is? #line:b0307d
+Adina: Yes. #line:11fa2f
+<<close>>
+<<wait 2>>
+Adina: It's funny. #line:32ff6f
+Astronomer: What is? #line:32ce9c
+Adina: It's always been there. #line:8d6331
+Adina: I just had no way of seeing it. #line:14ae17
+Astronomer: You still can't, not really. #line:8ead87
+Astronomer: But you can chart where it is. #line:741b68
+Astronomer: That's something at least. #line:a8757e
+Adina: Wow. #line:0d0fae
+Adina: I feel like just a few feet away #line:b9278d
+Adina: there's this thing, bigger than I can think about, #line:de33f7
+Adina: burning away. Exploding. #line:ae627f
+Adina: And between us is this sheet of black. #line:2e9ed6
+Adina: And when I think about it I feel like I'm going to overflow. #line:aff355
+Astronomer: I think about this a lot these days. #line:f87dcf
+Astronomer: We devote ourselves to something we barely understand, #line:f2da82
+Astronomer: something we can never touch. #line:14577e
+Astronomer: We give it a name, and we give ourselves a name for doing so. #line:c43958
+Astronomer: All of it creates this connection. #line:2dfa2e
+Astronomer: And that connection, that becomes the thing we can touch. #line:d29526
+Astronomer: You appreciate those connections even more after you've died. #line:d487b9
+Adina: I'm gonna miss you all over again now. #line:c8f772
+Astronomer: Well, on the bright side, you got a star out of it. #line:53a20e
+Adina: That's something, at least. #line:4e1705
+Astronomer: Ha ha ha. #line:88acd5
+Astronomer: Pretty amazing to be something, at least. #line:606f07
+Adina: Yeah. #line:4ec8dc
+Astronomer: Goodbye, Astronomer. #line:ce5a35
+Adina: Goodbye, Astronomer. #line:e7f7ad
+<<close>>
+<<fadeOut 5 0 0 0>>
+<<wait 3>>
+<<fadeOutAllSounds 4>>
+<<wait 2>>
+//<<trackAllSpeechBubblesToCharacters 0>>
+//<<speechBubbleSizeOverride 0>>
+//<<speechBubbleDistanceOverride 0>>
+//<<musicDialogueFaderOverride 0>>
+<<speechBubbleMaxOpenTimeOverride 0>>
+<<showTalkingHeads>>
+Granddad: The End. #line:706c76
+Mae: What constellation was it? #line:88a6f0
+Granddad: No one knows. It's lost to history. #line:64e01f
+Mae: Did this really happen? #line:756baa
+Granddad: Does it matter if it really happened? #line:eb4b05
+Mae: I think it does. #line:d0e3ef
+Granddad: Well, we'll never know. #line:5f6a47
+Granddad: But hearing it happened to you. #line:206bb9
+Granddad: And that's something. #line:f4bf47
+Mae: Something something something. #line:b2d1ba
+Mae: I want to find that constellation. #line:d8a26e
+Granddad: Go outside some night and find it. #line:469dce
+Granddad: and tell me where it is, ok? #line:8add6c
+Mae: *yawn* #line:40a939
+Granddad: You look tuckered out, kid. #line:cfdb43
+Mae: I am. #line:b30e47
+Granddad: I'll leave you to it. #line:2bb351
+<<fadeOutMusic 4>>
+Granddad: sweet dreams, kiddo. #line:83691d
+Mae: zzz #line:640f67
+<<hideTalkingHeads>>
+<<wait 4>>
+<<scene LN2_End>>
+
+===
+title: GoodbyeTreeCat
+tags: 
+colorID: 0
+position: 549,339
+---
+TreeCat: The Huncher, her child, the Forest God- those aren't your business. #line:d27dca
+Adina: I know. #line:1fea23
+TreeCat: Leave all of that here. You were in their forest. #line:5009af
+Adina: I'm an astronomer. #line:41bebd
+Adina: It may be their forest, but it's under my sky. #line:268991
+TreeCat: ha ha ha. i bet that sounded great in your head. #line:a7d6c1
+Adina: It sounded great when I said it, asscat. #line:dba8c3
+TreeCat: Goodbye, Adina The Astronomer. Good luck. #line:4902bd
+Adina: Goodbye, Cat. Happy Longest Night. #line:df5d60
+
+===
+title: WhoIsTreeCat
+tags: 
+colorID: 0
+position: 546,87
+---
+TreeCat: Pardon? #line:e4b796
+Adina: You some magical cat? Cat god? Cat wizard? Something? #line:04b65c
+TreeCat: I'm just a cat. #line:b43f10
+TreeCat: I live near the woods. #line:3fe4ab
+TreeCat: I like shiny things. #line:a5c133
+TreeCat: And I listen. #line:c07dd1
+Adina: Oh. #line:9ca337
+TreeCat: Your turn. Who are you? #line:30809d
+[[I'm an astronomer.|ImAnAstronomer]] #line:7953d8
+[[I'm a survivor.|ImASurvivor]] #line:38f6d5
+
+===
+title: ImAnAstronomer
+tags: 
+colorID: 0
+position: 312,337
+---
+Adina: I'm here because there's something missing in the sky. #line:4353d1
+Adina: And this is where I'll find it. #line:df0f65
+TreeCat: Are you sure? #line:991388
+Adina: At this point I'm so exhausted and cold #line:d26ec8
+Adina: that I can't afford to not be sure. #line:1f9836
+TreeCat: That's either very sad or very beautiful. #line:11679e
+Adina: It's very true. #line:5557bf
+Adina: I'm freezing. #line:8bf758
+TreeCat: [speed=.5][wave]Prrrrr.[/all] #line:49aa4c
+[[GoodbyeTreeCat]]
+
+===
+title: ImASurvivor
+tags: 
+colorID: 0
+position: 311,90
+---
+Adina: Where I come from, where I was tonight. #line:884e38
+Adina: I've survived. #line:83c6cb
+TreeCat: Survival is good. #line:9b08be
+TreeCat: Steal Everything. Never get caught. #line:5cf983
+TreeCat: Eat rats. Find the warmest barn. #line:dd05ea
+Adina: Not how I'd put it, but yes. #line:eab974
+TreeCat: How would you put it? #line:fbdc6b
+Adina: Just get through the damn forest. #line:c80d8a
+<<close>>
+<<wait 2>>
+Adina: I like the stars. They're out there hanging in black. #line:2062c7
+Adina: Mawkish, yeah. #line:46e832
+Adina: The darker it gets... #line:3e568d
+TreeCat: [speed=.5][wave]Prrrr.[/all] #line:cd94e8
+[[GoodbyeTreeCat]]
+
+===
+title: TreeCat_A1D3.2
+tags: 
+colorID: 0
+position: 785,339
+---
+TreeCat: [speed=.5][wave]Prrrr.[/all] #line:0fa241
+===
+title: AstronomerA
+tags: 
+colorID: 0
+position: 1210,604
+---
+Adina: Travis?!? What are *you* doing here? #line:87e132
+Astronomer: How do you even know who I am? #line:800ce7
+<<showTalkingHeads>>
+Mae: And then Travis told her off... #line:3bb422
+Granddad: Who's Travis? #line:f008eb
+Mae: This really annoying kid at school. #line:fe92aa
+Granddad: Why would this Travis character exist in the past? #line:98bdc3
+Mae: Because he stole a time machine. #line:a0dc9b
+Granddad: Right, right. #line:ca5f9b
+Mae: Anyways, so then Travis said... #line:a40602
+<<hideTalkingHeads>>
+Astronomer: ...I stole a time machine and that's why I'm here to annoy you. #line:9f5aa5
+Adina: O-okay. #line:39ba6f
+Astronomer: So. You should be annoyed. #line:f2bc7c
+Adina: Yeah. You're pretty annoying. #line:40154b
+<<close>>
+<<wait 1>>
+Adina: Welp. #line:850001
+Astronomer: Have a good one. #line:396a41
+Adina: cya later #line:4d7b5a
+===
+title: TreeCat
+tags: 
+colorID: 0
+position: -57,-49
+---
+TreeCat: Talk to me again. #line:307178
+<<set $day to 3>>
+<<set $act to 1>>
+
+
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 1041,-119
+---
+<<hide Astronomer>>
+<<hide LostConstellation>>
+===

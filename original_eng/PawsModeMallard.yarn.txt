@@ -1,0 +1,87 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 26096,-19582
+---
+<<if $mallard_rats is 1>>
+    [[MallardRats]]
+<<elseif $pretzel > 0 and $pretzel_intro is 0>>
+    [[PretzelIntro]]
+<<elseif $paws_mode_mallard is 0>>
+    [[Vermin]]
+<<endif>>
+===
+title: Vermin
+tags: demo2
+colorID: 0
+position: 26395,-19565
+---
+<<set $paws_mode_mallard to 1>>
+MaePaws: Mallard! You're pregnant! #line:ad61f6
+MaePaws: It's one of those god things! #line:d739ab
+MaePaws: Like when you have a baby because god? #line:f8ca8f
+MaePaws: Holy crap, you are the cutest vermin. #line:347002
+MaePaws: Who's the best vermin? #line:c9458b
+MaePaws: YOU ARE! #line:127e66
+MaePaws: You look so hungry. #line:b5230d
+MaePaws: Is that why you're... um... not doing anything? #line:035272
+MaePaws: I'll come back with food! #line:ba25d7
+MaePaws: Don't die!!! #line:29907b
+<<unlockDoodle MiracleRats>>
+===
+title: PretzelIntro
+tags: 
+colorID: 0
+position: 26450,-19889
+---
+<<set $pretzel_intro to 1>>
+MaePaws: Alright my little miracle rats! #line:d7d051
+MaePaws: Time to eat! #line:862536
+===
+title: PretzelFall
+tags: 
+colorID: 0
+position: 26209,-19291
+---
+<<if $times_fed_rats is 0>>
+    MaePaws: Wow you're hungry! #line:fc21b8
+    MaePaws: ... #line:a13220
+    MaePaws: VERY hungry. #line:93c1f7
+    MaePaws: I guess I'm your mom now? #line:d0ed7a
+    MaePaws: I don't know if I'm ready to be a mom! #line:231a2c
+<<elseif $times_fed_rats is 1>>
+    MaePaws: Oh there's more of you today! #line:1aaddf
+    MaePaws: You need more food. Yes you do! #line:ff025c
+<<elseif $times_fed_rats is 2>>
+    MaePaws: Wow! there's so many of you! #line:06f191
+    MaePaws: someday you won't need me anymore... #line:eef995
+    MaePaws: and you'll leave... #line:a1e0e2
+    MaePaws: will I even recognize you on the street #line:b36234
+    MaePaws: as we pass each other? #line:68dbe7
+    <<wait 2>>
+    MaePaws: I love you, miracle rats. #line:e7ef5d
+<<endif>>
+
+<<close>>
+<<irisOut 1 wait>>
+<<set $rats_fed_today to 1>>
+<<set $times_fed_rats += 1>>
+<<set $pretzel to 0>>
+<<if $times_fed_rats is 1>>
+    <<unlockAchievement Mother_Of_Vermin>>
+<<elseif $times_fed_rats is 3>>
+    <<unlockAchievement Miracle_Rats>>
+<<endif>>
+<<scene MallardsTomb>>
+===
+title: MallardRats
+tags: 
+colorID: 0
+position: 26163,-19934
+---
+MaePaws: My babies have left the nest! #line:d5d68c
+<<close>>
+<<set $mallard_nest_done to 1>>
+<<irisOut 1 wait>>
+<<scene MallardsTomb>>
+===

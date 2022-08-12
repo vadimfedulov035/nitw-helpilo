@@ -1,0 +1,579 @@
+title: InitLevel_A3D4
+tags: 
+colorID: 4
+position: 255,-1236
+---
+<<setCanInteract Bea 0>>
+<<setCanInteract Gregg 0>>
+<<setCanInteract Angus 0>>
+
+<<hide Eide>>
+
+<<flip Mae -1>>
+<<groupFollow>>
+
+<<playerCanRun 0>>
+
+<<playMusic mine_woods_trek 10>>
+===
+title: Trigger1
+tags: 
+colorID: 4
+position: 264,-747
+---
+Mae: How have I never been back up here? #line:a63eb6
+<<setGenerateFollowPoints Bea 0>>
+<<moveLocator BeaReturn Bea>>
+<<walk Bea Bea1>>
+Bea: Fences work? #line:77e169
+Gregg: Nah. People are up here all the time. #line:249583
+<<close>>
+<<setGenerateFollowPoints Gregg 0>>
+<<moveLocator GreggReturn Gregg>>
+<<walk Gregg Gregg1>>
+Gregg: I came here when I was like 12. #line:eb746b
+Mae: what's up here? #line:bdee89
+<<lookAt Mae Bea>>
+<<close>>
+<<waitForMove Gregg>>
+Gregg: just old junk and trees and animals. #line:a412c3
+<<wait 2>>
+<<walk Gregg GreggReturn -1>>
+<<wait 4>>
+Angus: what is it, Bea? #line:956af8
+<<wait 2>>
+Bea: nothing. #line:01e74e
+<<waitForMove Bea>>
+<<waitForMove Gregg>>
+Mae: Nothing? #line:6fea25
+<<close>>
+<<walk Bea BeaReturn -1>>
+<<waitForMove Bea>>
+<<waitForMove Gregg>>
+Bea: I was praying. #line:5fcff4
+Mae: woooooooooooow. o> :) O_o #line:ddf547
+Angus: really? #line:598add
+Bea: yeah. let's go. #line:9ba261
+<<lookNearest Mae>>
+Mae: _o_ :| o_o  #line:ebfed0
+<<setGenerateFollowPoints Bea 1>>
+<<setGenerateFollowPoints Gregg 1>>
+
+===
+title: Trigger2
+tags: 
+colorID: 4
+position: 277,-496
+---
+Mae: Wow. #line:d466ea
+<<lookLeft Mae>>
+<<wait 2>>
+Bea: Gotta put all this stuff somewhere I guess. #line:f0ef1a
+Mae: You remember this from when you were 12, Gregg? #line:16e20a
+Gregg: Yeah. I was scared of it. #line:8c5340
+Angus: How'd they even get all of this back up in here? #line:4f3969
+<<wait 2>>
+Mae: *shudder* #line:3edd02
+Bea: what's up? #line:4842ab
+Mae: nothing. #line:917be0
+Mae: just like #line:986fd2
+Mae: all this old, old stuff out here #line:961476
+Mae: it's here every night #line:c0e317
+Mae: when you go to sleep. #line:2fd943
+Bea: so? #line:287533
+Mae: ~~ #line:b4b60b
+Mae: it's out here. in the dark. #line:d2aa65
+Mae: -_- :( #line:cf674c
+Mae: so old #line:dab3f1
+<<setAnimint Mae headShaking 1>> 
+Mae: so old so old so old #line:7213e7
+<<wait 2>>
+Gregg: :( #line:179627
+Gregg: dude! hey mae!  #line:6c0288
+<<wait 2>>
+<<setAnimint Mae headShaking 0>>
+Mae: _o_ :| =_= #line:cfb963
+Mae: I'm fine. #line:eeb5be
+Gregg: :| #line:7ea19f
+Bea: we should go back. this is stupid. #line:3fbd62
+<<wait 2>>
+Mae: no. it's fine. #line:939655
+Mae: ghost hunt. woo. fun. #line:11b739
+Mae: o_o #line:efb26a
+<<lookNearest Mae>>
+<<fadeOutMusic 10>>
+===
+title: MinerScene
+tags: 
+colorID: 4
+position: 284,-199
+---
+<<lookDirection Mae -.5 -.5>>
+<<lookDirection Gregg -.5 -.5>>
+<<lookDirection Bea -.5 -.5>>
+Mae: what the- #line:0649ee
+Gregg: huh? #line:2ca7b0
+Bea: oh my god... #line:ee11ae
+<<setAnimInt Miner3 state 1>>
+<<warp Miner3 MinerGround1>>
+<<close>>
+<<cameraLookAt MinerSceneCamera 3>>
+<<cameraZoom -10>>
+<<wait 3>>
+Miner3: NO! NO! #line:dc0e5f
+Miner2: ah hell he’s awake already #line:a5465c
+Miner2: anyone got any juice? #line:392a36
+Miner3: no. no. guys, #line:8a6e9d
+Miner2: aw, HELL. #line:fc0d38
+Miner3: guys… guys… wait... #line:9eb763
+Miner1: Lurv, you knew this was gonna happen. #line:0d3afd
+Miner1: you knew it the moment you screwed this whole thing up #line:fcd8aa
+Miner1: it ain’t like you weren’t on the other side of this before #line:cd1593
+Miner3: it was a *MISTAKE*! #line:a34d1c
+Miner3: i owned up to it! #line:323242
+Miner1: Lurv, this *is* you ownin’ up to it #line:14c2d5
+Miner3: aren’t i allowed to make one mistake? #line:df7196
+Miner1: ONE MISTAKE???? #line:8e810c
+Miner1: YOU LEFT A GODDAMN [shake=.05]*ARM*[/shake] IN FRONTA THE CLICK CLAK! #line:2a9153
+Miner1: cuz of you, god knows what’s gonna happen to this town! #line:8e1546
+Miner3: what was I supposed to do??? #line:7b9d8f
+Miner1: IT WAS YOUR SCREW UP! #line:e0b4ec
+Miner2: ugh. his leg’s stuck. #line:2f3ce9
+Miner1: AND IT WASN'T LIKE YOU COULDN'T A' CALLED ANY OF US! #line:a082d9
+Miner3: i panicked, ok?! i was embarrased! #line:851c03
+Miner1: i sure wish you'd called me, Lurv. #line:6be160
+Miner1: you think any of us want to do this? #line:41f4b5
+Miner3: guys. We can figure something out. #line:2f9fd9
+Miner1: nothing to figure out. #line:1c456c
+Miner3: but... b-but I got family! #line:e5b12c
+Miner1: Lurv, don't insult us. #line:724d7b
+Miner1: you know you don’t gotta worry bout Jeanie and the girls. #line:d724a7
+Miner1: they will be completely taken care of. #line:f8bcea
+Miner1: They’ll never want for nothin’. #line:3d8230
+Miner2: he’s not gonna budge with that leg stickin’ straight out #line:4f2a98
+Miner1: aw, HELL. #line:41f8bd
+Miner3: D-dave! Rick! Bennie! Guys, you know me! #line:64d430
+Miner1: alright Dave, you hold 'im. #line:aa5e23
+Miner1: i’m sorry, Lurv. #line:ba0616
+Miner1: you know we got no choice #line:1b9cba
+Miner1: and i’d appreciate it if you stopped laying a guilt trip on us. #line:f6af0c
+//camera pulls up to obscure action below//
+
+<<playOneShot event:/minewoods/miner_struggle Miner3>>
+<<cameraLookAt LookAwayCamera 3>>
+<<wait 1>>
+<<setAnimInt Miner1 stoop 1>>
+<<setAnimInt Miner2 stoop 1>>
+<<wait 1>>
+Miner3:{locator=Miner3LookawayBubble}[shake=.05]no no no no[/shake] #line:9e0696
+Miner1:{locator=Miner1LookawayBubble}HOLD 'IM STILL #line:b8a8d3
+Miner3:{locator=Miner3LookawayBubble}[shake=.07]NOOOO![/shake] #line:33f301
+//horrible bone cracking noise//
+<<setAnimInt Miner1 stoop 0>>
+<<setAnimInt Miner2 stoop 0>>
+<<wait 1>>
+<<playOneShot event:/minewoods/miner_struggle Miner3>>
+<<wait 1>>
+Miner3:{locator=Miner3LookawayBubble, width=800}[shake=.1]AAAAAAAAAAAAAAAAAAAAAAAAAAAGGGHHH!!!![/shake] #line:c22c4e
+Miner1:{locator=Miner1LookawayBubble}HOLD STILL! THIS’LL GO EASIER IF- #line:dddb46
+//horrible bone cracking noise//
+<<wait 1>>
+<<warp Miner3 MinerGround2>>
+<<playOneShot event:/minewoods/miner_struggle Miner3>>
+<<wait 1>>
+Miner3:{locator=Miner3LookawayBubble, width=800}[shake=.1]AAAAAAAAAAAAAAAAAAAAAGGGHHH!!![/shake] #line:a4fe53
+Miner2:{locator=Miner2LookawayBubble}alright. he’s free. #line:74490a
+<<setAnimInt Miner3 state 2>>
+// camera goes back //
+<<playOneShot event:/minewoods/miner_struggle Miner3>>
+<<cameraLookAt MinerSceneCamera 2>>
+<<wait 2>>
+Miner1: Lurv. #line:39d045
+Miner3:{width=800}[shake=.1]AAAAAAAAAAAAGH!!![/shake] #line:baf68e
+Miner1: LURV. #line:0f4427
+Miner1: ain’t noone can hear you this far out. #line:f02092
+Miner1: you’re just puttin’ yourself to more anguish, an- #line:152c0e
+Miner3: [shake=.12]AAAGH!!! AAAAARGGHH!!! AAAH![/shake] #line:05810f
+Miner1: I… aw HELL, let’s get this over with. #line:9619a9
+Miner1: wish you’d just make this easy, Lurv. #line:0efd7e
+Miner2: ugh god his bone's stickin' out. #line:d70d05
+Mae:{locator=MaeOffscreenBubble}*gasp* #line:8c24d6
+<<playOneShot event:/minewoods/mae_discovered Mae>>
+Miner2: the hell? #line:68f5ab
+Mae:{locator=MaeOffscreenBubble}[shake=.05]SHIT.[/shake] #line:702cff
+Miner1: Mae? Mae Borowski? #line:6351a7
+Angus:{locator=MaeOffscreenBubble}[shake=.05]RUN!!!!!![/shake] #line:098a5d
+//wipe to run scene//
+<<cameraFollowPlayer 3>>
+<<fadeOut 1 wait>>
+<<scene MineWoodsRunAway>>
+===
+title: InitLevel_A4D2
+tags: 
+colorID: 5
+position: 523,-1015
+---
+<<set $death_walk to 1>>
+<<playIdleAnimationPlayer>>
+<<hide Miner1>>
+<<hide Miner2>>
+<<hide Miner3>>
+<<hide Gregg>>
+<<hide Bea>>
+<<hide Angus>>
+<<show Eide>>
+<<flip Mae -1>>
+<<warp Mae MaeStart>>
+
+<<setCanInteract Bea 0>>
+<<setCanInteract Gregg 0>>
+<<setCanInteract Angus 0>>
+===
+title: FallDown
+tags: 
+colorID: 5
+position: 533,-752
+---
+<<close>>
+<<cameraLookAt MinerSceneCamera 3>>
+<<cameraZoom -10>>
+<<wait 3>>
+// characters fall down from off screen
+Mae: Falling down from offscreen. #line:6e2931
+<<close>>
+<<warp Mae MaeGround>>
+Mae: Phew, made it. #line:165c0c
+<<close>>
+<<irisOut 1 wait>>
+<<scene MineEntrance left>>
+===
+title: Eide
+tags: 
+colorID: 5
+position: 537,-491
+---
+Mae: What are you? #line:2c69e8
+<<close>>
+<<wait 2>>
+Mae: Are you actually a ghost? #line:361655
+Mae: Or just some #line:041bbf
+Mae: guy? #line:8f9363
+<<close>>
+<<wait 2>>
+Mae: What is this thing in my head? #line:542284
+Mae: Are you doing this? #line:f03984
+Mae: Why is this happening to me? #line:afeea5
+<<close>>
+<<wait 2>>
+Mae: Talk!!!! #line:351372
+<<close>>
+<<wait 2>>
+Mae: Fine. Let’s do this. #line:d47af5
+<<playerCanMoveRight 0>>
+===
+title: EideApproach
+tags: 
+colorID: 5
+position: 542,-222
+---
+<<tell GreggSideBoltShootEide Fire>>
+<<wait 2>>
+
+<<show Bea>>
+<<show Gregg>>
+<<show Angus>>
+
+<<setAnimInt Gregg crossbow 1>>
+
+<<if $dom_friend_bea>>
+    <<warp Bea Char1EideApproach>>
+    <<warp Gregg Char2EideApproach>>
+<<else>>
+    <<warp Gregg Char1EideApproach>>
+    <<warp Bea Char2EideApproach>>
+<<endif>>
+<<warp Angus Char3EideApproach>>
+
+<<if $dom_friend_bea>>
+    <<walk Bea Char1NearEide>>
+    <<walk Gregg Char2NearEide>>
+<<else>>
+    <<walk Gregg Char1NearEide>>
+    <<walk Bea Char2NearEide>>
+<<endif>>
+<<walk Angus Char3NearEide>>
+
+<<waitForMove Bea>>
+<<waitForMove Gregg>>
+//gregg is using Gregg_walk_crossbow, when he stops play Gregg_bod_Crossbow_Down2Up and hold on Gregg_bod_Crossbow_up//
+<<setAnimInt Gregg crossbow 2>>
+
+<<if $dom_friend_bea>>
+    Gregg: Boom. #line:0ef499
+    Bea: Get away from her you piece of shit. #line:976639
+    Angus: You're outnumbered asshole. #line:dd96f9
+    Eide: AAARGH. You shot me! #line:280c18
+    Bea: And we can all use both of our arms. #line:fb49e7
+    Bea: I will personally disassemble you. #line:de568b
+    Gregg: whoa geez bea #line:a740bc
+<<else>>
+    Bea: Nice shot. #line:c6e30c
+    Gregg: I wasn’t aiming for his shoulder! #line:cdabaa
+    Eide: AAARGH. You effing shot me! #line:f5cf93
+    Gregg: Hey asshole! Get away from her! #line:614ede
+    Angus: Three of us, one of you. #line:d66d04
+    Gregg: And none of us got bolts sticking out of us. #line:822ce8
+    Gregg: I am gonna *@$%ing  %*$@**$%*@*$%@ you!!! #line:c1f899
+    Bea: yeesh #line:f33bdb
+<<endif>>
+Eide: AAAAAAAARGH. #line:a76886
+<<close>>
+
+<<playOneShot event:/minewoods/eide_scamper_away Eide>>
+<<run Eide EideRunAway>>
+Eide: {width=5}[wave][shrink]AAAAARROoOoOoOOoooo[/all] #line:402d1a
+<<close>>
+<<waitForMove Eide>>
+<<hide Eide>>
+<<wait 2>>
+//play Gregg_bod_Crossbow_Up2Down and hold on Gregg_bod_crossbow_down//
+<<setAnimInt Gregg crossbow 1>>
+
+<<if $dom_friend_bea>>
+	Bea: You ok? #line:6aebb8
+    // WARNING: These waits are essential to avoid a bug in Yarn Spinner
+	->where did... #line:d8af59
+        <<wait .5>>
+	->what are... #line:416878
+        <<wait .5>>
+	//bea walks up to mae//
+	Bea: You are such an idiot. #line:49d917
+	Bea: What were you thinking, coming out here alone? #line:b84b13
+	->i- i had a dream... #line:ed24af
+		Mae: you were all dead #line:a24cc7
+		Mae: out here in the woods #line:078919
+		Mae: and it was because of me #line:8c15f8
+		Bea: oh, you had a dream? #line:d9bf86
+		Bea: is that how we’re making decisions now? #line:156aef
+			->after all that’s happened... yeah? #line:202686
+			->i don’t know anymore #line:4996c0
+	->this is all because of me... #line:2fdd64
+		Bea: oh, I’m sorry, are you the one putting on a dumb costume #line:0b07e8
+		Bea: and following me around #line:da30b4
+		Bea: and kidnapping people maybe? #line:1ba59c
+		Bea: is that your fault now? #line:063775
+		Mae: He... it... it’s in my dreams #line:6e1ad6
+	Bea: hey #line:b882af
+	Bea: kiddo #line:e6f165
+	Bea: we’re out here #line:dbc31d
+	Bea: outside your head #line:adce4b
+	Bea: whatever’s going on in there, i believe you #line:c1b4ee
+	Bea: but i’m not gonna let you wander off into the woods #line:a949f2
+	Bea: to die. #line:95a5fc
+    ->no, but- #line:13baca
+    	Bea: oh shut up. #line:3fef07
+    	Bea: would you let me do this? #line:aa3cff
+    	Mae: oh, that’s cheating, putting it that way... #line:741dbc
+    ->ok #line:0cda53
+        <<wait .5>>
+	Bea: we’re all in this now #line:10dfe4
+	Bea: and even if we weren’t #line:e82add
+	Bea: i’d still be out here with you #line:13f56a
+	Gregg: me too. Obviously. #line:854dcc
+	Angus: clearly. Clearly we all would be. #line:d73f4b
+	Bea: listen, I’m all the family my dad has left #line:f3aafa
+	Bea: i for damn sure am not dying out here #line:8aa1de
+	Bea: and you’re #line:56a985
+	Bea: god, you’re the closest thing I have to a sister #line:aa4189
+	Bea: i don’t want you to be gone. #line:adb995
+	Bea: so you’re not dying either. #line:85bf51
+	Mae: *cough* #line:f3c0ce
+	<<close>>
+	<<wait 2>>
+	Mae: that sounds ok #line:524093
+	Mae: by me #line:cd8135
+<<else>>
+	Gregg: You ok dude? #line:b1781c
+    // WARNING: These waits are essential to avoid a bug in Yarn Spinner
+	->where did... #line:ad8524
+        <<wait .5>>
+	->what are... #line:ac38d2
+        <<wait .5>>
+	//gregg walks up to mae using Gregg_walk_crossbow ending in Gregg_bod_crossbow_down//
+	Gregg: hey jerk #line:5646f5
+	Gregg: why the hell are you out here by yourself? #line:fc3c50
+	->i- i had a dream... #line:66874c
+		Mae: you were all dead #line:852105
+		Mae: out here in the woods #line:eee5d7
+		Mae: and it was because of me #line:593bb5
+		Gregg: what does that even mean? #line:8f289b
+		Gregg: since when are your bad dreams in charge of me? #line:2ae10e
+		->after all that’s happened... yeah? #line:7fb389
+            <<wait .5>>
+		->i don’t know anymore #line:a08f24
+            <<wait .5>>
+	->this is all because of me... #line:bbc123
+		Gregg: Oh yeah dude! all your fault! #line:22a516
+		Gregg: you definitely made these dudes creep around #line:d969e5
+		Gregg: following us and like kidnapping someone maybe #line:230311
+		Gregg: yeah you did it with your effing mind control powers! #line:625dc0
+		Gregg: dude! come OFF it! #line:5d4c19
+		Mae: He... it... it’s in my dreams #line:17f83b
+	Gregg: dude. #line:c8dfa2
+	Gregg: DUDE. #line:2d4012
+	Gregg: you don’t get to do this ok #line:0c311c
+	Gregg: i don’t get everything that’s going on with you #line:c448f4
+	Gregg: and I’m not saying it’s not happening #line:33c89c
+	Gregg: i believe you, ok? I do. #line:e685b9
+	Gregg: but you don’t get to die on me #line:9103be
+	Gregg: you are not gonna do that to me, ok? #line:af8def
+	->but dude, i- #line:c3d94c
+		Gregg: I am not gonna lose you #line:613213
+		Gregg: ok? You can’t make me lose you. #line:e8024e
+		Gregg: Would you let me go like this? #line:5b8db7
+		Mae: Dude... that’s cheating... #line:f433b8
+	->ok #line:0ac91a
+        <<wait .5>>
+	Gregg: We’ve been best friends since forever #line:f7d1d5
+	Gregg: you big dumb idiot. #line:e820d7
+	Gregg: and even if this was somehow all in your head #line:6781f7
+	Gregg: which it isn’t #line:b6935d
+	Gregg: i would still back you #line:43b2b6
+	Gregg: to the actual god’s honest end. #line:43b5b3
+	Bea: geez. Me too. #line:b85c98
+	Angus: clearly. Clearly we all would be. #line:8bbede
+	Gregg: I shot a dude for you! Come on! #line:f94505
+	Gregg: and if we keep talking like this I’m gonna cry, and #line:bab9b4
+	Mae: gregg #line:f62531
+	Mae: *cough* #line:ac5e3d
+	<<close>>
+	<<wait 2>>
+	Mae: thank you #line:73f771
+<<endif>>
+
+Angus: Well, he’s wounded. #line:ea12b9
+Angus: Sounded  like he went back up to the mine. #line:34046e
+Bea: Yeah. What do we do? #line:d0d7a4
+Gregg: Follow him I guess. #line:8ab683
+->no... i have to go alone #line:236191
+    <<wait 1>>
+->you all wait here. I’ll go #line:9674b5
+    <<wait 1>>
+Bea: ... #line:3a4857
+Gregg: ... #line:04a193
+Angus: ... #line:84380a
+Gregg: anyway #line:a15408
+Bea: yeah anyway #line:e7efde
+Angus: if he’s up in the mine we might be able to corner him and #line:227e58
+Gregg: tie him up? #line:15b696
+Bea: or something. #line:d5838d
+Angus: can you walk, mae? #line:0c3334
+Mae: i... i think so #line:c147b8
+Mae: might be a little slow #line:e41cbd
+Angus: i’ll help you if you need it #line:f809a2
+Mae: thanks big guy #line:a7264c
+
+<<if $dom_friend_bea>>
+	Bea: alright. Let’s go do something really stupid. #line:cf5356
+<<else>>
+	Gregg: alright let’s go die or something but hopefully not #line:8b7fd0
+<<endif>>
+<<close>>
+<<fadeOut 1 wait>>
+[[ByMineEntrance]]
+===
+title: ByMineEntrance
+tags: 
+colorID: 5
+position: 539,69
+---
+<<warp Angus AngusByEntrance>>
+<<warp Bea BeaByEntrance>>
+<<warp Gregg GreggByEntrance>>
+<<warp Mae MaeByEntrance>>
+<<flip Angus -1>>
+<<flip Bea -1>>
+<<flip Mae -1>>
+<<flip Gregg -1>>
+<<lookForward Angus>>
+<<lookForward Bea>>
+<<lookForward Mae>>
+<<lookForward Gregg>>
+<<cameraLookAt MinerSceneCamera 0>>
+<<wait 1>>
+
+<<fadeIn 1 wait>>
+//set gregg to Gregg_bod_crossbow_down//
+Angus: gate’s open #line:a8bd4e
+Bea: oh geez #line:3a843f
+Gregg: what? #line:71e7ed
+Bea: we could like... block it shut or something. #line:6c6fb4
+Gregg: aw dang #line:1eab09
+Gregg: you’re right #line:199666
+<<lookAt Bea Mae>>
+<<lookAt Gregg Mae>>
+Mae: no... #line:5f9ba3
+-> he... it... whatever... #line:3d20c3
+	Mae: it’s in there #line:517767
+	Mae: i have to go down there #line:ce23c2
+-> i have to go down in there #line:33fb0c
+Bea: well then #line:876a5f
+Angus: looks like all of his friends are gone #line:728e48
+Bea: just one guy #line:a6f104
+Gregg: just one guy #line:7b8980
+Mae: just one... something... #line:f301a8
+<<lookForward Gregg>>
+<<lookForward Bea>>
+<<lookForward Mae>>
+//play gregg_bod_crossbow_down2up and hold on Gregg_bod_crossbow_up//
+<<setAnimInt Gregg crossbow 2>>
+Gregg: *bang bang* #line:801296
+//<<playerCanMoveRight 1>>
+<<fadeOut 1 wait>>
+<<scene MineEntrance>>
+===
+title: EnterLevel_A3D4
+tags: 
+colorID: 4
+position: 265,-995
+---
+Bea: haven't been on a night hike in a long time. #line:3dd081
+Gregg: gotta listen for owls. #line:518d99
+Mae: why? #line:214560
+<<if $did_gregg_investigation_quest>>
+    Gregg: no reason. #line:ef9225
+<<else>>
+    Gregg: owls are cool. #line:7399cb
+<<endif>>
+Angus: alright. #line:46ccce
+Angus: i got work in the morning. #line:7f9219
+Angus: let's go catch us a ghost. #line:941504
+===
+title: Trigger1b
+tags: 
+colorID: 4
+position: -55,-494
+---
+Gregg: WAIT. #line:2dfc1f
+<<lookAt Bea Gregg>>
+Bea: what? #line:6e3225
+<<lookUp Gregg>>
+<<wait 1>>
+Gregg: I think I heard an owl. #line:ac2964
+Angus: oh hun...  #line:ca7726
+<<lookAt Bea Mae>>
+Mae: Gregg got attacked by an owl, Bea. #line:152848
+Bea: what?! when?! #line:c2b012
+Mae: when we were breaking into that history place #line:4efee4
+<<lookAt Bea Gregg>>
+Angus: I don’t think they attack groups, bug. #line:dd0ae6
+<<lookAt Gregg Angus>>
+Gregg: well if i get mauled to death i warned you all #line:e877a1
+Angus: i’ll punch any owl that gets near you. #line:41556a
+Gregg: aw. Thanks cap’n. #line:f9802f
+Bea: big dangerous gregg, scared of birds. #line:5eefb6
+<<lookAt Gregg Bea>>
+Gregg: I ALMOST DIED FROM THAT OWL!!! #line:1e46cf
+<<lookNearest Gregg>>
+<<lookNearest Bea>>
+===

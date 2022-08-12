@@ -1,0 +1,190 @@
+title: RestartFirst
+tags: 
+colorID: 0
+position: 115,298
+---
+<<if $stairs_gregg_start is 0>>
+    Mae: Sorry about that. #line:863059
+    Gregg: Ha ha that was kinda awesome. #line:9b70a9
+    Mae: Well I'm glad you didn't get killed. #line:de3bf1
+    Gregg: I would totally haunt this entire stairwell. #line:5db036
+    Mae: Ready to go? #line:54e8f4
+    Gregg: Yep! #line:8dc4ee
+<<elseif $stairs_gregg_start is 1>>
+    Mae: Oh god I'm sorry #line:9fea1b
+    Gregg: It's... it's cool. #line:631ef7
+    Gregg: I think I sprained something. #line:16d6c7
+    Mae: Aw crap. #line:94a3b1
+    Gregg: Let's go! #line:494bde
+<<elseif $stairs_gregg_start is 2>>
+    Gregg: GEEEEEZ. #line:157ded
+    Mae: You know, this is a really stupid idea! #line:a42412
+    Gregg: It wouldn't be if we just worked together! #line:d311ca
+    Mae: I'M TRYING!!! #line:1c9380
+    Gregg: Oh let's go ONE TWO THREE! #line:9e7876
+<<elseif $stairs_gregg_start is 3>>
+    Gregg: Ok ok ok. We need to rethink our strategy. #line:cfd365
+    Mae: Ok shoot. #line:01371e
+    Gregg: How about this time YOU DON'T ALMOST KILL ME. #line:2a4f31
+    Mae: Oh good ok because before I forgot to not kill you. #line:791f41
+    Mae: Duly noted. #line:1b06aa
+<<elseif $stairs_gregg_start is 4>>
+    Gregg: My entire life has passed before my eyes in this stairwell. #line:fb1bac
+    Mae: That's like metaphorical. #line:6b7c43
+    Gregg: I JUST WANT TO GET THIS THING UPSTAIRS!!! #line:bb0852
+    Gregg: WHY HAS GOD FORSAKEN ME?!?! #line:dff678
+    Mae: Ok let's go. I am getting really tired. #line:8692a6
+    Gregg: Ok ok ok. #line:ca9a66
+<<elseif $stairs_gregg_start is 5>>
+    Gregg: I'm just depressed now. #line:de0d00
+    Mae: Aw man, don't give up hope. #line:e8432b
+    Mae: I mean we could just quit but like don't give up hope! #line:13c088
+    Gregg: RRRRRRRRAAAAGH!!!! #line:9a4421
+    Gregg: LET'S GO!!! #line:3f6145
+<<else>>
+    [[ScrewIt]]
+<<endif>>
+
+<<set $stairs_gregg_start += 1>>
+===
+title: Wait
+tags: 
+colorID: 0
+position: 633,-4
+---
+<<if $stairs_gregg_wait is 0>>
+    Gregg: Hang on a sec! #line:acfc23
+<<elseif $stairs_gregg_wait is 1>>
+    Gregg: Whoa there cowboy! #line:59dca2
+<<elseif $stairs_gregg_wait is 2>>
+    Gregg: Hold up! #line:2b604c
+<<endif>>
+
+<<set $stairs_gregg_wait += 1>>
+===
+title: Success
+tags: 
+colorID: 0
+position: 633,226
+---
+Gregg: Yes! GOOD GOD YES!!! #line:66c6cd
+===
+title: FallDownStairs
+tags: 
+colorID: 0
+position: 864,298
+---
+Gregg: Aaaaaauuuuuuuggh!! D: #line:0c41e3
+Gregg: _o_ :| #line:b46212
+===
+title: NewFlightOfStairs
+tags: 
+colorID: 0
+position: 1139,243
+---
+<<if $stairs_gregg_new is 0>>
+    Mae: My arms are dead, dude. #line:315394
+    Gregg: My entire body is dead, dude. #line:e90e80
+    Mae: uuuuuuuuuuuuuugh. #line:94b58d
+    Gregg: Let's get this over with! #line:44059f
+<<elseif $stairs_gregg_new is 1>>
+
+<<endif>>
+<<set $stairs_gregg_new += 1>>
+===
+title: Start
+tags: 
+colorID: 0
+position: -77,65
+---
+Mae: Oh god I still smell the glue. #line:dcf16d
+Gregg: My neighbors are gonna think I'm on drugs #line:9b8614
+Gregg: or just like gluing the hell out of some shit. #line:22fe99
+Mae: Ok. So. #line:41b047
+Mae: We're really carrying this thing up the stairs? #line:06de47
+Gregg: This is gonna be great. #line:dc7b50
+Mae: You are so gonna die. #line:54dc19
+Gregg: Ha ha ha ha! #line:6e79d7
+Mae: You're gonna get squashed like a pancake. #line:4e5c80
+Gregg: Ha ha ha. #line:56e3b7
+Gregg: But seriously don't kill me. #line:317923
+Gregg: Watch me and I'll give you the signals. #line:3ead83
+Mae: Roger roger. #line:458b3c
+===
+title: Restart
+tags: 
+colorID: 0
+position: 258,18
+---
+<<if $stairs_gregg_new is 0>>
+    [[RestartFirst]]
+<<else>>
+    [[RestartSecond]]
+<<endif>>
+===
+title: RestartSecond
+tags: 
+colorID: 0
+position: 384,307
+---
+<<if $stairs_gregg_start is 0>>
+    Mae: Sorry!!! #line:8b14ad
+    Gregg: AAAAARGH. #line:2ff466
+<<elseif $stairs_gregg_start is 1>>
+    Mae: Raaaaargh! #line:23339e
+    Gregg: Aaaargh LET'S GO! #line:7db9be
+<<elseif $stairs_gregg_start is 2>>
+    Mae: RRAAAARRRGH #line:ce564e
+    Gregg: *pant* *pant* *pant* #line:c32a88
+    Mae: oooof. #line:c1dd1a
+    Gregg: Ok let's go. #line:7adbcc
+<<elseif $stairs_gregg_start is 3>>
+    Mae: I want to die. #line:03163f
+    Gregg: I'm not sure we didn't die. #line:fa5f8f
+    Mae: This is hell. This is literally hell. #line:09ea99
+    Gregg: We are the damned. #line:6881ca
+    Mae: Ok, we doing this? #line:4a4770
+    Gregg: Yeah let's do it. #line:a7b17e
+<<elseif $stairs_gregg_start is 4>>
+    Mae: I'm getting light headed. #line:b5ccb3
+    Gregg: I'm getting dead, quick. #line:923693
+    Gregg: Let's go. #line:1b7152
+<<elseif $stairs_gregg_start is 5>>
+    Mae: ...why... #line:cfe38a
+    Gregg: I don't even know anymore #line:4140b1
+    Gregg: Let's go. #line:e469b3
+<<else>>
+    [[ScrewIt]]
+<<endif>>
+
+<<set $stairs_gregg_start += 1>>
+===
+title: ScrewIt
+tags: 
+colorID: 0
+position: 222,579
+---
+Gregg: Screw it! We're taking the elevator! #line:d7010b
+Mae: WE COULD HAVE TAKEN THE ELEVATOR? #line:1e2a3e
+Gregg: Yeah? #line:cff62f
+Gregg: But this way put us out closer to our door. #line:9809b9
+Mae: I WILL NEVER FORGIVE YOU FOR THIS. #line:9e4630
+Gregg: WHAT??! #line:7fb45e
+<<irisOut 1 wait>>
+<<scene GreggAngusApartment>>
+===
+title: ReachedLanding
+tags: 
+colorID: 0
+position: 1146,9
+---
+<<fadeIn 1 wait>>
+Gregg: ha ha ha i'm so tired #line:ee1f15
+Mae: i know right? #line:8930e6
+Gregg: remember, like #line:79c953
+Gregg: i worked a whole day before doing this. #line:c56407
+Mae: you sit on your ass all day i bet. #line:436069
+Gregg: only part of it! i stand a lot! #line:0de821
+<<close>>
+<<fadeOut 1 wait>>
+===

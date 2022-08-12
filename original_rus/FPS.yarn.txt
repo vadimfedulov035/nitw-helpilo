@@ -1,0 +1,403 @@
+title: EnterLevel
+tags: 
+colorID: 3
+position: -269,543
+---
+Mae: 0F0, A 0H TRSEVEE, 4EM R 0SNDAVA. #line:481cd0
+Gregg: KPYT0, DA? #line:729c3d
+Gregg: Y6EDNCJ, 4T0 HATRHYVA TETNBY, UPESDE 4EM CUYCKATJ KP%40K. #line:f95cd2
+Mae: 3ATEM M0FY CTPEVRTJ, KYDA X04Y? #line:ba15a4
+Gregg: T0VJK0 HE B MEHR. #line:3559ad
+Mae: HY, VADH0. #line:68f55b
+===
+title: HitGround
+tags: 
+colorID: 3
+position: 67,594
+---
+<<if $fps_hit_ground is 0>>
+    Gregg: HY, GT0 3EMVR. #line:4f6390
+    Mae: AAAAFA. #line:969f6c
+<<elseif $fps_hit_ground is 1>>
+    Gregg: BCE EWE 3EMVR. #line:abdc49
+<<elseif $fps_hit_ground is 2>>
+    Gregg: MGL. U0DHNMN UPNOEV. #line:c0e9dd
+<<elseif $fps_hit_ground is 3>>
+    Gregg: BBEPX BBEPX BBEPX! #line:678e4c
+<<elseif $fps_hit_ground is 4>>
+    Gregg: 4YBNXA, TJ1 NDEQJ N U0DHNMAEQJ BCE GT0 C 3EMVN. #line:601af5
+<<elseif $fps_hit_ground is 5>>
+    Gregg: U0 *CVY4ALH0CTN* TJ1 YSE HE D0VSHA KACATJCR 3EMVN. #line:4251e0
+<<elseif $fps_hit_ground is 6>>
+    Gregg: F0B0PNTJ 4T0-VN60 EDBA VN T0F0 CT0NT. #line:500227
+<<elseif $fps_hit_ground is 7>>
+    Gregg: VADH0. TAK. #line:cbd4c0
+    Mae: DA. #line:117186
+<<endif>>
+
+<<set $fps_hit_ground += 1>>
+===
+title: HitTree
+tags: 
+colorID: 3
+position: 190,361
+---
+<<if $fps_hit_tree is 0>>
+    Gregg: BAY, R YBEPEH, TJ1 Y6NVA T0 DEPEB0. #line:2a2e3c
+    Mae: T0 DEPEB0 CAM0 HAUP0CNV0CJ. #line:0d101f
+<<elseif $fps_hit_tree is 1>>
+    Gregg: KVACC. #line:bdc3cf
+    Mae: DEPEBJR - GT0 M0L ECTECTBEHHJ1L BPAF #line:723344
+<<elseif $fps_hit_tree is 2>>
+    Gregg: DEPEB0. #line:8e4cd7
+<<elseif $fps_hit_tree is 3>>
+    Gregg: DEPEB0 U0D 0FHEM. #line:33f37a
+<<elseif $fps_hit_tree is 4>>
+    Gregg: HAXEP GT0 DEPEB0, HABEPH0E. #line:703f49
+<<elseif $fps_hit_tree is 5>>
+    Gregg: U0X0SE, TJ1 HEHABNDNQJ DEPEBJR. #line:ed162b
+<<elseif $fps_hit_tree is 6>>
+    Gregg: HACT0RWEE HACNVNE HAD DEPEBJRMN. #line:5e4b25
+<<elseif $fps_hit_tree is 7>>
+    Gregg: VADH0, DYMA% 0H0 MEPTB0. #line:2fe07f
+<<endif>>
+
+<<set $fps_hit_tree += 1>>
+===
+title: OutOfRange
+tags: 
+colorID: 3
+position: 545,362
+---
+<<if $fps_out_of_range is 0>>
+    Gregg: HY, GT0T 60VT... DAVEK0 YVETEV. #line:4f6faf
+    Mae: K0VN4ECTB0 BMECT0 KA4ECTBA. #line:b599b0
+<<elseif $fps_out_of_range is 1>>
+    Gregg: B0T TAK. #line:cac51c
+<<elseif $fps_out_of_range is 2>>
+    Gregg: 4YBNXA. #line:9bcbb2
+<<elseif $fps_out_of_range is 3>>
+    Gregg: MGL. #line:e1e7bf
+<<elseif $fps_out_of_range is 4>>
+    Gregg: U04EMY, 4YBNXA. #line:125eae
+<<elseif $fps_out_of_range is 5>>
+    Gregg: TJ1 C06NPAEQJCR YDAPNTJ 6EDH0E SNB0TH0E? #line:a5b052
+<<elseif $fps_out_of_range is 6>>
+    Gregg: 0HA YX0DNT. #line:e132f4
+<<elseif $fps_out_of_range is 7>>
+    Gregg: HY, GT0 6J1V0 4T0-T0. #line:9a28e2
+<<endif>>
+
+<<set $fps_out_of_range += 1>>
+===
+title: HitBeastHead
+tags: 
+colorID: 3
+position: 389,639
+---
+<<if $fps_hit_beast_head is 0>>
+ Gregg:{width=8}XGGGGGGGGGGGGGDQ0T! #line:daaa08
+    <<unlockAchievement Gregg_FQ3_Hit_Monster_in_Head>>
+<<elseif $fps_hit_beast_head is 1>>
+    Gregg: *6AX-6AX* #line:0f6536
+<<elseif $fps_hit_beast_head is 2>>
+    Gregg: UPRM0 CKB03J 60F0M UP0KVRTJ1L 4EPEU. #line:d624b4
+<<elseif $fps_hit_beast_head is 3>>
+    Gregg: 6YDT0 GT0T UAPEHJ BEPHYVCR B C0P0K0BJ1E #line:212789
+    Gregg: N EMY UP0CTPEVNVN F0V0BY #line:583609
+    Gregg: N UYVR UP0QVA CKB03J M03F #line:944a70
+    Gregg: N 0H KAK-T0 0CTAVCR OEV? #line:4bad67
+    Mae: GT0 KPYT0 #line:ef504d
+    Gregg: D0VSEH 0CTATJCR KPYT0L QPAM. #line:8cf9d7
+<<elseif $fps_hit_beast_head is 4>>
+    Gregg: A ECVN 6J1 BJ1CTPEV UP0QEV 4EPE3 FVA3? #line:64d6f1
+    Mae: 0TCT0L U0TEPRET FVA3. #line:e718a8
+    Gregg: 3D0P0BCKAR U0BR3KA HA FVA3 6YDET, DYMA% #line:f4ae69
+<<elseif $fps_hit_beast_head is 5>>
+    Mae: U0BR3KN HA FVA3 0ZNFETJ KAKNE KPYTJ1E. #line:505016
+<<elseif $fps_hit_beast_head is 6>>
+    Mae: R H0CNVA TAKY% B QECTJ VET, K0FDA U0OAPAUAVA FVA3. #line:29215e
+    Gregg: DYMA%, R GT0 U0MH% #line:e1b353
+<<elseif $fps_hit_beast_head is 7>>
+    Gregg: AFA, R CKA3AV M0EL MAME, 4T0 TJ1 UNPAT. #line:668ad9
+    Gregg: N 0HA CKA3AVA, 4T0 GT0 HEX0P0Q0 #line:35a140
+    Gregg: HA3J1BATJ V%DEL, U0TEPRBQNX FVA3, UNPATAMN. #line:926152
+    Mae: XM. #line:3415fd
+    Mae: KASETCR, EL GT0F0 XBATNV0 #line:10b9f8
+    Gregg: AFA. #line:142956
+    Gregg: U0VAFA%, YP0K YCB0EH #line:025cf3
+    Gregg: 60SE. TJ1 DELCTBNTEVJH0 BJ1HECVA EF0 K 4EPT0B0L MATEPN. #line:0c46a6
+<<endif>>
+
+<<set $fps_hit_beast_head += 1>>
+===
+title: HitBeastNeck
+tags: 
+colorID: 3
+position: 646,666
+---
+<<if $fps_hit_beast_neck is 0>>
+    Gregg: 6AX! #line:5bca7e
+<<elseif $fps_hit_beast_neck is 1>>
+    Gregg: CV0MVEH. #line:05792d
+<<elseif $fps_hit_beast_neck is 2>>
+    Gregg: Y6NT. #line:1985ab
+<<elseif $fps_hit_beast_neck is 3>>
+    Gregg: PACT0UTAH. #line:99c9e0
+<<elseif $fps_hit_beast_neck is 4>>
+    Gregg: U0DSAPEH. #line:cbda4f
+<<elseif $fps_hit_beast_neck is 5>>
+    Gregg: N3HN4T0SEH. #line:101097
+<<elseif $fps_hit_beast_neck is 6>>
+    Gregg: UP06NT. #line:df021e
+<<elseif $fps_hit_beast_neck is 7>>
+    Gregg: 6YM. #line:552f9e
+    Gregg: MEPTB, KAK DN4J. #line:ba6aa3
+<<endif>>
+
+<<set $fps_hit_beast_neck += 1>>
+===
+title: HitBeastBody
+tags: 
+colorID: 3
+position: 883,664
+---
+<<if $fps_hit_beast_body is 0>>
+    Gregg: U0LMAL 3BEPR! #line:611eeb
+<<elseif $fps_hit_beast_body is 1>>
+    Gregg: U0LMAL! #line:b5d944
+<<elseif $fps_hit_beast_body is 2>>
+    Gregg: 0X0TA - GT0 T0, DVR 4EF0 C03DAHA SN3HJ. #line:f12ab8
+    Mae: M0% SASDY KP0BN HE YT0VNTJ. #line:020c50
+    Gregg: 4T0 3HA4NT "YT0VNTJ"? #line:540987
+    Mae: 4YBAK. GT0, TNUA, T0L DN4N N3 TECTA 3A B0CJM0L KVACC. #line:ebe895
+<<elseif $fps_hit_beast_body is 3>>
+    Gregg: HET, HY UPABDA, CKASN MHE, 4T0 GT0 3HA4NT. #line:658dc6
+<<elseif $fps_hit_beast_body is 4>>
+    Gregg: "YT0VNTJ"? NVN TNUA "YT0MNTJ"? #line:dde8d3
+    Mae: ECVN TJ1 GT0F0 HE 3HAEQJ, T0 TAK VN GT0 BASH0? #line:429f6f
+<<elseif $fps_hit_beast_body is 5>>
+    Gregg: 4YBNX. CKASN MHE, 4T0 GT0 3HA4NT. #line:44a32d
+    Mae: HY, TNUA, KAK 6J1TJ YD0BVETB0PEHHJ1M. #line:e34571
+    Mae: GT0 3HA4NT, 4T0 R SASDY KP0BN. #line:883f3a
+    Gregg: KPYTRK. #line:77327d
+<<elseif $fps_hit_beast_body is 6>>
+    Gregg: BAMUNPJ1 HE M0FYT 6J1TJ YT0MVEHJ1! #line:3b3216
+    Mae: 0K, X0P0Q0. #line:ff1f98
+<<elseif $fps_hit_beast_body is 7>>
+    Gregg: VADH0, HY, R DYMA%, VECH0L 60F YT0MVEH. #line:8c7851
+    Mae: HY... DA, BEPH0. #line:e911c9
+<<endif>>
+
+<<set $fps_hit_beast_body += 1>>
+===
+title: HitBeastTail
+tags: 
+colorID: 3
+position: 1100,677
+---
+
+<<if $fps_hit_beast_tail is 0>>
+    Gregg: YX. UPRM0 B XB0CT. #line:3540d8
+<<elseif $fps_hit_beast_tail is 1>>
+    Gregg: B S0UY. #line:ac467e
+<<elseif $fps_hit_beast_tail is 2>>
+    Gregg: S0UHJ1L BJ1CTPEV!!! #line:7ffd5b
+<<elseif $fps_hit_beast_tail is 3>>
+    Gregg: GTA SEHWNHA HEHABNDNT GTY S0UY!!! #line:719a54
+<<elseif $fps_hit_beast_tail is 4>>
+    Gregg: B S0UY. UPRM0 B S0UY. #line:d078fb
+<<elseif $fps_hit_beast_tail is 5>>
+    Gregg: *6AX-6AX* U0 BCEM S0UAM #line:85ff8c
+<<elseif $fps_hit_beast_tail is 6>>
+    Gregg: S0UAAAAAAAAAAAAAA. #line:d84d14
+<<elseif $fps_hit_beast_tail is 7>>
+    Gregg: XA XA XA XA GT0 TAK KPYT0. #line:031e8f
+<<endif>>
+
+<<set $fps_hit_beast_tail += 1>>
+===
+title: OutOfBolts
+tags: 
+colorID: 3
+position: 1057,356
+---
+<<close>>
+<<wait 1>>
+Mae: CTPEVJ1 3AK0H4NVNCJ #line:7a5a35
+Gregg: GT0 KVEB0. #line:1bae5b
+Mae: GT0 6J1V0 BECEV0. #line:3eb05d
+Mae: R TEUEPJ M0FY 0X0TNTJCR HA BAMUNP0B. #line:fa8090
+Gregg: M0SEQJ. M0SEQJ. #line:7fd318
+Gregg: BAMUNPJ1 U0CCYM CUPNHFC. #line:df3fb5
+Mae: 0HN FDE-T0 TAM. #line:adf7b8
+Mae: 6VECTRWNE 3Y6J1 #line:0fa752
+Mae: 6VECTRWNE, CV0BH0 H04J. #line:2cae05
+<<set $gregg_fq3_woods to 2>>
+<<fadeOut 1 wait>>
+<<scene GreggFQ3Woods>>
+===
+title: HitBeastBetweenTheEyes
+tags: 
+colorID: 3
+position: 806,393
+---
+<<if $fps_hit_beast_between_the_eyes is 0>>
+    Gregg: 4YBAK. #line:938f7d
+    Gregg: TJ1 UP06NVA EMY F0V0BY. #line:9a76d1
+    Mae: GT0 T04H0. #line:37f6a5
+<<elseif $fps_hit_beast_between_the_eyes is 1>>
+    Gregg: UP06NVA F0V0BY! #line:dfa702
+<<elseif $fps_hit_beast_between_the_eyes is 2>>
+    Gregg:{width=8} M03FN-N-N-N-N-N-N-N-N-N! #line:128152
+<<elseif $fps_hit_beast_between_the_eyes is 3>>
+    Gregg: 6VNH, 4YBNX, TJ1 PEAVJH0 X0P0QA B GT0M #line:49b8aa
+    Mae: R NCTNHHJ1L Y6NLOA #line:2cd38c
+<<elseif $fps_hit_beast_between_the_eyes is 4>>
+    Gregg: PA3BE HAP0D HE 3BAV TE6R KNVVEP0M? #line:562d2a
+    Gregg: U0CVE T0L QTYKN? #line:ce1a89
+    Mae: AFA. #line:cf8628
+<<elseif $fps_hit_beast_between_the_eyes is 5>>
+    Gregg: GT0 6ECU0K0NV0 TE6R, BEPH0? #line:1f1781
+    Mae: AFA, HY. 0HN 6J1VN HEUPABJ1. #line:84076c
+    Mae: D0 CEF0DHRQHEF0 DHR. #line:e49801
+    Mae: R Y6NLCTBEHHA C GT0L QTYK0L. #line:ca4717
+<<elseif $fps_hit_beast_between_the_eyes is 6>>
+    Gregg: KAK TJ1 GT0 DEVAEQJ? #line:1a6613
+    Mae: *6AX-6AX* #line:0d518e
+<<elseif $fps_hit_beast_between_the_eyes is 7>>
+    Gregg: VADH0, UAVA4, XBATNT YSE, R DYMA%. #line:e2c886
+    Mae: H0... H0 R M0FY Y6NTJ 60VJQE... #line:dacfbf
+<<endif>>
+
+<<set $fps_hit_beast_between_the_eyes += 1>>
+===
+title: HitBeastPupil
+tags: 
+colorID: 3
+position: 754,154
+---
+<<if $fps_hit_beast_pupil is 0>>
+    Gregg: B R-R-R-R6V04K0. #line:32bb9f
+<<elseif $fps_hit_beast_pupil is 1>>
+    Gregg: CK0PEE, B FVA3H0E R6V04K0. #line:d53243
+<<elseif $fps_hit_beast_pupil is 2>>
+    Gregg: HE B 6P0BJ, A B FVA3! #line:48d04f
+<<elseif $fps_hit_beast_pupil is 3>>
+    Gregg: XA-XA-XA, GT0 KPYT0. #line:90a5ef
+<<elseif $fps_hit_beast_pupil is 4>>
+    Gregg: *6AX-6AX* #line:2fd9b8
+<<elseif $fps_hit_beast_pupil is 5>>
+    Gregg: 6YYYYM! #line:18dda4
+<<elseif $fps_hit_beast_pupil is 6>>
+    Gregg: TPAX. #line:feedc0
+<<elseif $fps_hit_beast_pupil is 7>>
+    Gregg: VADH0, X0P0Q0, DYMA%, 0H0 CD0XV0. #line:d9af51
+<<endif>>
+
+<<set $fps_hit_beast_pupil += 1>>
+===
+title: HitBeastEye
+tags: 
+colorID: 3
+position: 1038,118
+---
+<<if $fps_hit_beast_eye is 0>>
+    Gregg: R CKA3AV MESDY FVA3AMN, A HE B FVA3! #line:d03a39
+    Mae: H0 6J1V0 TAK 6VN3K0! #line:26dd69
+    Gregg: 6VN3K0 - GT0 EPYHDA, UAPTHEP. #line:e36843
+<<elseif $fps_hit_beast_eye is 1>>
+    Gregg: 6VNNNNNN3K0 #line:c2cc57
+<<elseif $fps_hit_beast_eye is 2>>
+    Gregg: 00Y, 6P0 #line:656377
+    Mae: CVYQAL, GT0 BCE EWE 04EHJ BUE4ATVR%WE! #line:354db9
+    Gregg: TCCC #line:7897e8
+<<elseif $fps_hit_beast_eye is 3>>
+    Gregg: VADH0, AFA, TJ1 UPABA, GT0 BECJMA KPYT0. #line:4a8477
+<<elseif $fps_hit_beast_eye is 4>>
+    Gregg: DEV0 HE B MNQEHN, A CK0PEE #line:a7a298
+    Gregg: B MET0DN4H0CTN? #line:64a8c7
+    Mae: R MET0DN4H0 MASY. #line:5481ac
+<<elseif $fps_hit_beast_eye is 5>>
+    Gregg: C0PNHKA B FVA3 U0UAVA. #line:096ac6
+<<elseif $fps_hit_beast_eye is 6>>
+    Gregg: BJ1 0CVEUNVN 4YD0BNWE, DPYF M0L. #line:22bf86
+<<elseif $fps_hit_beast_eye is 7>>
+    Gregg: 0H0 MEPTB0000. #line:628dd3
+<<endif>>
+
+<<set $fps_hit_beast_eye += 1>>
+===
+title: HitSign
+tags: 
+colorID: 3
+position: 490,118
+---
+<<if $fps_hit_sign is 0>>
+    Gregg: 6YM! HEUV0X0 TJ1 3ACADNVA GT0MY 3HAKY. #line:5329ce
+    Mae: A T0. #line:1b6d2a
+<<elseif $fps_hit_sign is 1>>
+    Gregg: DA! 3HAK! #line:025e72
+<<elseif $fps_hit_sign is 2>>
+    Gregg: TJ1 HEHABNDNQJ GT0T 3HAK! #line:b67964
+<<elseif $fps_hit_sign is 3>>
+    Gregg: CVYQAL, TJ1 M0SEQJ CTPEVRTJ KYDA YF0DH0. #line:b93592
+<<elseif $fps_hit_sign is 4>>
+    Gregg: R M0FY Y6PATJ GT0T 3HAK, ECVN 0H 3ADEV TB0N 4YBCTBA NVN TNUA T0F0. #line:7f1723
+<<elseif $fps_hit_sign is 5>>
+    Gregg: TAM, TNUA, M0HCTP, B03VE GT0F0 CKY4H0F0 3HAKA. #line:95c234
+<<elseif $fps_hit_sign is 6>>
+    Gregg: ... #line:516744
+<<elseif $fps_hit_sign is 7>>
+    Gregg: VADH0. 4T0 S. 3HAK U0BEPSEH, R C4NTA%. #line:244a49
+<<endif>>
+
+<<set $fps_hit_sign += 1>>
+===
+title: HitBarrel
+tags: 
+colorID: 3
+position: 241,148
+---
+<<if $fps_hit_barrel is 0>>
+    Gregg: UPRM0 U0 604KE. #line:ed2f01
+<<elseif $fps_hit_barrel is 1>>
+    Gregg: AFA. GT0 604KA. #line:9d0a91
+<<elseif $fps_hit_barrel is 2>>
+    Gregg: NHTEPECH0, 4T0 6J1V0 B HEL? #line:046ff6
+<<elseif $fps_hit_barrel is 3>>
+    Gregg: T0KCN4HJ1E 0TX0DJ1!!! #line:7b3c19
+<<elseif $fps_hit_barrel is 4>>
+    Gregg: CU0PNM, B HEL SNBYT SNB0THJ1E. #line:3a750f
+<<elseif $fps_hit_barrel is 5>>
+    Gregg: 3A4EM TJ1 ATAKYEQJ D0M SNB0THJ1X. #line:e3ddb6
+<<elseif $fps_hit_barrel is 6>>
+    Gregg: ... #line:02e98d
+<<elseif $fps_hit_barrel is 7>>
+    Gregg: HY, 4T0 S, GT0 6J1V0 CKY4H0. #line:6a9d19
+<<endif>>
+
+<<set $fps_hit_barrel += 1>>
+===
+title: FailedToShoot
+tags: 
+colorID: 3
+position: 1297,328
+---
+<<if $fps_failed_to_shoot is 0>>
+    Mae: XMM. 0H HE CTPEVRET. #line:1f1901
+    Gregg: TE6E UP0CT0 HYSH0 U0D0VJQE 3ASATJ KYP0K. #line:e0b942
+    Mae: 0, VADH0. 3HA4NT, UP0CT0 3ASNMA%... #line:38d200
+    <<set $fps_failed_to_shoot += 1>>
+<<elseif $fps_failed_to_shoot is 1>>
+    Gregg: HE M0SEQJ CTPEVJHYTJ? TE6E BCEF0 VNQJ HYSH0... #line:797e71
+    Mae: ...3ASATJ KYP0K. DA, R 3HA%. #line:05f623
+    <<set $fps_failed_to_shoot += 1>>
+<<elseif $fps_failed_to_shoot is 2>>
+    Gregg: NTAK, ECVN TJ1 3ASMEQJ KYP0K... #line:72c4e6
+    Mae: R U0HRVA!! #line:0b4e31
+    <<set $fps_failed_to_shoot += 1>>
+<<else>>
+    Mae: TAK, HYSH0 UP0CT0 3ASATJ KYP0K... #line:6a22b0
+<<endif>>
+===

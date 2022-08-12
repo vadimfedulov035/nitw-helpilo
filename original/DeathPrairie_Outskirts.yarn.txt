@@ -1,0 +1,15 @@
+title: InitLevel
+tags: 
+colorID: 5
+position: 540,260
+---
+<<set $death_walk to 1>>
+<<playIdleAnimationPlayer>>
+===
+title: EnterLevel
+tags: 
+colorID: 5
+position: 560,511
+---
+<<fadeIn 1>>
+===

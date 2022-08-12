@@ -1,0 +1,155 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: -91,369
+---
+<<if $gregg_iq_mansion is 0>>
+    [[Intro]]
+<<else>>
+    [[End]]
+<<endif>>
+===
+title: Intro
+tags: bikeCrash
+colorID: 0
+position: -337,640
+---
+<<walk Mae MaeNextToGregg wait>>
+<<lookAt Gregg Mae>>
+Gregg: N3BNHN, 4T0 MJ1 UEPEBEPHYVNCJ. #line:f4032d
+Mae: DA HN4EF0. #line:a786fb
+<<if $did_germ_friendship_quest_2>> //or $did_gregg_friendship_quest_3>>
+	Mae: R HA4NHA% UPNBJ1KATJ. #line:edd97a
+<<endif>>
+Mae: TB0L BEVNK B H0PME? #line:93dc84
+Gregg: AFA. R CM0FY EF0 U04NHNTJ. R PYKACTJ1L. #line:92924d
+Gregg: SAVJ T0VJK0, 4T0 TE6R HE 3ADABNV0. #line:103096
+Mae: SAVJ, 4T0 TJ1 HE BPE3AVCR B U0E3D. #line:00bbfa
+Gregg: SAVJ, 4T0 UADAVJWNKN HE C0SPYT TB0L TPYU. #line:3d1d1c
+Mae: SAVJ, 4T0 UADAVJWNKN HE C0SPYT TE6R SNBJEM. #line:fbbdf2
+Gregg: XE-XE. #line:fdc930
+<<close>>
+<<lookRight Gregg>>
+<<wait 1>>
+Mae: TAK B0T 0H0, DA? #line:179ce8
+Gregg: DA. #line:572bce
+Mae: HNK0FDA PAHJQE 3DECJ HE 6J1VA. #line:39860c
+Gregg: R T0SE. #line:4ae7ba
+Mae: GM... G-G... R DYMAVA, Y TE6R ECTJ UVAH. #line:b95cd1
+<<lookAt Gregg Mae>>
+Gregg: K0MY HYSHJ1 UVAHJ1? #line:8d850a
+Gregg: MJ1 BCEF0-T0 BVAMJ1BAEMCR B CTAPJ1L D0M. #line:19ec4c
+<<if $did_gregg_friendship_quest_4>>
+	Mae: R DYMAVA, HY, 3HAEQJ, 4T0 TJ1 3ABR3AV C UPECTYUVEHNRMN. #line:7342b1
+	Gregg: G-G. #line:b70eb4
+	Gregg: GT0 R B03JMY HA CE6R. #line:c82170
+	Gregg: A 06EWAHNE ECTJ 06EWAHNE. #line:0ce0bf
+	Mae: CUACN60, DPYSNWE. #line:dc3940
+	Gregg: VY4QNE 6P0 HABEK #line:dd9601
+	Gregg: TAKSE, ECVN HAC U0LMA%T, R BCE CBAVNBA% HA TE6R #line:a18c8c
+	Mae: HY, GT0 6YDET BU0VHE 4ECTH0. #line:696875
+	Gregg: H0 HAC HNK0FDA HE U0LMA%T. #line:827565
+	Mae: UPABNVJH0. #line:4751cc
+<<endif>>
+Mae: UPECTYUVEHNR. #line:301b38
+Gregg: DA. #line:55174a
+Mae: BJ1FVRDNT UPRM0 KAK... G... #line:470b16
+<<lookRight Gregg>>
+Gregg: ...UPRM0 KAK D0M C UPNBNDEHNRMN. #line:ab7637
+<<lookAt Gregg Mae>>
+Mae: K0HE4H0 #line:dcfa14
+    ->TNUA, KAK B T0M CTAP0M ZNVJME #line:ae255f
+        Mae: ZNFYPA B K0PND0PE #line:14b788
+        Gregg: 0X, GT0 HA3BAHNE. #line:8e9268
+        Mae: AFA, R 3HA%. #line:dd6e65
+        Mae: 60VJQ0L CTAPJ1L D0M #line:b8ca65
+    ->TNUA, KAK HA 06V0SKE KHNFN #line:227e21
+        Mae: UPN3PAKN AP60P CTPNT #line:1535f0
+        Gregg: Y HAC T0SE ECTJ AP60P CTPNT! #line:5dab68
+        Mae: DA. KHNFA X0P0QEHJK0 MEHR HAUYFAVA B DETCTBE. #line:1201d7
+        Mae: 60VJQ0L 3V0BEWNL D0M. #line:7238cd
+Mae: GT0 MECT0 BJ1FVRDNT T04H0 TAK SE. #line:cf8415
+Gregg: HY, TJ1 SE NWEQJ UPN3PAK0B, BEPH0? #line:63ab5c
+<<if $did_angus_investigation_quest or $did_bea_investigation_quest>>
+	Mae: BU0VHE B03M0SH0, 4T0 GT0 UPN3PAK NWET MEHR. #line:432824
+	Gregg: AX DA, TA H04J. #line:fde311
+<<endif>>
+Mae: ...AFA... #line:f823f5
+Gregg: HY, KEM 6J1 0H HN 6J1V, DYMA%, MJ1 HALDEM 3DECJ NHZ0PMAON%. #line:e1895f
+Mae: GT0, TNUA, HE 4EV0BEK, 4YBAK. #line:493739
+Mae: GT0 UPN3PAK. #line:de0410
+Gregg: G-G. #line:549f10
+Gregg: X0P0Q0. VADH0. #line:7e75c9
+<<close>>
+<<lookRight Gregg>>
+<<wait 1>>
+Gregg: U0QVN, HALDEM UPN3PAKA. #line:7729d8
+<<close>>
+<<fadeOut 1 wait>>
+<<scene MansionBack>>
+===
+title: End
+tags: 
+colorID: 0
+position: 182,661
+---
+<<wait 1>>
+<<set $night to 1>>
+<<set $did_gregg_investigation_quest to 1>>
+<<if $act is 3 and $day is 2>>
+    <<set $did_gregg_investigation_quest_on_a3d2 to 1>>
+<<endif>>
+<<set $completed_investigation_quests += 1>>
+<<unlockDoodle GreggIQ>>
+Mae: TEUEPJ TJ1 BEPNQJ MHE? #line:871e5d
+Gregg: R BEP% B T0, 4T0 HAC 4YTJ HE U0LMAV 0XPAHHNK NVN TNUA T0F0. #line:1cfa88
+Mae: HET, F0B0P% TE6E, R CM0FVA, TNUA... U04YBCTB0BATJ GT0. #line:17c9ed
+Gregg: VADH0. GT0 6J1V UPN3PAK. UPN3PAK-0XPAHHNK. #line:c9f0fa
+Mae: UP0CTN 3A BCE GT0. #line:4c4cee
+Mae: TJ1 PA36NV CB0L BEVNK #line:2a740e
+Mae: HA TE6R HAUAVA C0BA #line:101ce7
+Mae: N TJ1 BJ1UPJ1FHYV B 0KH0 #line:c8deca
+Mae: N CBAVNVCR C U0SAPH0L VECTHNOJ1. #line:d0a0c1
+Gregg: DA HE. HN4E CTPAQH0F0. #line:e805d1
+Mae: TJ1 04EHJ X0P0QNL DPYF, FPEFF. #line:b4b2db
+Gregg: UC-C-C. #line:5252f9
+Gregg: UPECTYUVEHNR. #line:3aa2d4
+Mae: UPECTYUVEHNR. #line:a9066f
+<<close>>
+<<if $act is 3 and $day is 4>>
+	<<wait 2>>
+    <<enableAnimator GreggIQMansionExterior>>
+    <<playAnimation Mae MaeFreakoutHeadRight>>
+    <<trigger GreggIQMansionExterior Freakout>>
+    <<wait 12>>
+    <<playAmbientSFX _AmbientSFX:mae_head_hurt 3>>
+    <<wait 3>>
+	Mae: AAAAAA #line:1707ea
+	Gregg: U0DPYFA! 4T0 CVY4NV0CJ? #line:363032
+	Mae: YYYYXX #line:2aca68
+	Mae: YYHMMYHMFXFFM #line:b016a4
+	Gregg: U0DPYFA! U0F0B0PN C0 MH0L! #line:6121e7
+	Mae: YX... 60SE4KN, M0R F0V0BA... #line:5e0cc1
+	Mae: MJ1 D0VSHJ1 U0F0B0PNTJ... C0 BCEMN... GT0L H04J%.... #line:59634c
+	Gregg: VADJ1, VADJ1, VADJ1, TJ1 M0SEQJ 3AVE3TJ HA BEVNK? #line:b61f98
+	Mae: R... DYMA%, DA #line:9aa7f2
+	Gregg: X0P0Q0. DEPSNCJ 3A MEHR, N R D0CTABV% HAC D0M0L B MFH0BEHNE 0KA. #line:0cb52a
+	Mae: 4T0 HAC4ET UPN3PAKA? #line:79eaa5
+	Gregg: 3DECJ HET HNKAKNX UPN3PAK0B. #line:5e6468
+	Mae: U0FHAVN. #line:6b8564
+    <<fadeOut 1 wait>>
+    <<scene GreggAngusApartment>>
+<<else>>
+    <<irisOut 1 wait>>
+    <<scene MaeHouse left>>
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -93,148
+---
+<<if $gregg_iq_mansion is 0>>
+    <<warp Mae MaeOffscreen>>
+<<endif>>
+===

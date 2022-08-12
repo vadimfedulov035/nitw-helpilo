@@ -1,0 +1,952 @@
+title: Bill_A1D3
+tags: 
+colorID: 2
+position: -677,9063
+---
+Bea: Yeah Bill. Write it up as on the clock. #line:fc0976
+Bill: She’s not gonna like that. #line:99274c
+Bea: I don’t care if she doesn’t like it. #line:5c6640
+Bea: It was her fault. Plain and simple. #line:9aef14
+Bea: That is time extra. We charge for that. #line:619372
+Bill: Alright then! #line:fdf482
+<<close>>
+<<flip Bill -1>>
+<<walk Bill BillExit>>
+<<walk Player CentreTalkFront wait>>
+[[Hey, Bea!|Bea_A1D3_Hey]] #line:605875
+[[What was that all about?|Bea_A1D3_WhatWasThat]] #line:0c5e3e
+===
+title: Bea_A1D3_WhatWasThat
+tags: 
+colorID: 2
+position: -557,9351
+---
+<<flip Bea 1>>
+<<walk Bea RegisterMed wait>>
+<<lookAt Bea RegisterLook>>
+Bea: Ugh. Don’t even ask. #line:521916
+Bea: Mrs. Miranda has locked one of our guys in her basement twice. #line:2159d4
+Mae: Why? #line:274165
+<<lookAt Bea Player>>
+Bea: Because she’s old and she forgets. #line:03187b
+Bea: Maybe if she gets a bill for it she’ll remember next time. #line:4a6424
+[[Bea_A1D3_2]]
+===
+title: Bea_A1D3_Hey
+tags: 
+colorID: 2
+position: -781,9342
+---
+<<lookAt Bea Player>>
+Bea: Hi. #line:5a5ec0
+Mae: How’s work? #line:4a1bd9
+<<flip Bea 1>>
+<<walk Bea RegisterMed>>
+<<lookAt Bea RegisterLook>>
+Bea: Stressful. End of the month coming up. #line:92acf5
+Bea: And I have to start ordering in winter stuff. #line:e9a364
+Bea: Which means I have to bribe one or hopefully two of the guys #line:242f9f
+Bea: To unload the trucks. #line:1ee1b8
+Bea: Because I am not carrying in a truckful of rock salt by myself. #line:4dbb59
+[[Bea_A1D3_2]]
+===
+title: Bea_A1D3_2
+tags: 
+colorID: 2
+position: -672,9646
+---
+Mae: Huh. #line:9302a5
+<<lookAt Bea Player>>
+Bea: What do you want? #line:8d8e87
+Mae: Well, Gregg asked me to ask you if you would drive us to the party tonight? #line:4ee84e
+Mae: You know, the one up in the state park? #line:00a839
+Bea: Thanks for clarifying. #line:d1fa3e
+Bea: Otherwise I might have been confused #line:5fb535
+Bea: As to which of the dozens of parties #line:493d92
+Bea: going down on any given night in Possum Springs #line:1b453a
+Bea: you were referring to. #line:1b70d5
+Mae: ...are you being sarcastic? -_- #line:ac1f4d
+<<close>>
+<<flip Bea -1>>
+<<walk Bea BeaMid wait>>
+<<lookAt Bea Player>>
+Bea: I’ll drive. #line:ccb61e
+Mae: o_o :) Great! Thanks! #line:ff37e4
+Bea: We’ll be by your house at 8:30. #line:ae9f9c
+Bea: Be ready or we’ll go without you. #line:2c8c55
+Mae: Ok! :| #line:d06ae4
+Bea: Don't get lost on your way home. #line:879b1b
+Mae: I know where I live. #line:209627
+Bea: No seriously. Go home and get ready. #line:e1ef42
+Mae: Alright, alright! Geez. #line:d6487f
+<<unlockDoodle Bea1>>
+<<set $mom_done to 0>>
+<<set $party_prep to 1>>
+<<set $bea_can_drive to 1>>
+<<set $bill_done to 1>>
+<<set $trigger_molly to 1>>
+<<set $bea_done to 1>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -1456,8201
+---
+<<setSpriteLayer Bea BG1>>
+<<flip Bea -1>>
+
+<<if $act is 2 and $day is 3>>
+    <<show Germ>>
+    <<setSpriteLayer Germ BG6>>
+<<else>>
+    <<hide Germ>>
+<<endif>>
+
+<<if $act is 1 and $day is 3>>
+    <<if $bill_done is 0>>
+        <<show Bill>>
+    <<endif>>
+<<endif>>
+===
+title: A2D3_00
+tags: 
+colorID: 3
+position: -1252,9222
+---
+<<if $bea_day_intro is 0>>
+    <<set $bea_day_intro to 1>>
+    Bea: Hey Mae. #line:efe594
+    Mae: How's the Pickaxe? #line:671a2e
+    Bea: trying to kill me #line:7f41ab
+    Bea: unsuccessfully #line:9dff80
+    Bea: thus far at least. #line:e54726
+    Mae: what's so stressful? #line:dabdf8
+    Bea: well, on top of everything else #line:d996fd
+    Bea: we're hosting that stupid harfest play tomorrow. #line:ad9e10
+    Mae:{width=8} oh woooooooooooooooow. #line:d18b5e
+    Bea: yeah. i'm never offering to do this again. #line:91c6c8
+    Mae: what are you up to tonight? #line:ab4ab6
+    Bea: uh. nothing. #line:ec34c4
+    Bea: i'm like super tired. #line:bfd5df
+    Bea: because everything about my life is exhausting #line:eb3906
+    Bea: and i'm doing the work of like 3 employees, plus a store owner #line:e3f64a
+    Bea: even though I'm one employee, and i do not own this store. #line:ee4092
+    Mae: oh weird. I thought for some reason you owned this place now. #line:6e7aef
+    Bea: you'd think. #line:4a3efd
+    Bea: but also no. i'd rather die. #line:5bbe06
+    Bea: literally make me a coffin #line:c8f4d6
+    Bea: using materials and tools from this store #line:01de3d
+    Bea: and bury me anywhere else. #line:b4b6f0
+    Mae: geez. that got intense. #line:45133a
+    Bea: aaaaaaaaaaaaagh. #line:f0ed69
+    Bea: anyway. i'm doing nothing tonight. #line:a5f9c9
+    Mae: i can do nothing too! #line:54a3b5
+    Bea: ... #line:280981
+    Bea: fine. #line:5478df
+<<endif>>
+
+Bea: So are we doing this? #line:1dd7ce
+-> Not sure! Got a couple other stops to make. #line:89f3dc
+    Bea: OK. #line:7216ce
+-> Let's hang out! #line:c280bd
+    [[GermShowsUp]]
+===
+title: GermShowsUp
+tags: 
+colorID: 3
+position: -1313,9484
+---
+<<close>>
+<<set $bea_friendship_quest to 3>>
+<<walk Germ GermComeOut wait>>
+Germ: Hi Bea. #line:07b422
+Germ: Hi Mae. #line:4de71f
+<<close>>
+<<flip Bea -1>>
+Bea: Hi Germ! #line:2efc23
+Mae: hey dude. #line:e6a12b
+Bea: Germ is helping me move stuff for under the table cash. #line:13c0fa
+<<close>>
+<<flip Germ -1>>
+<<walk Germ GermExitBack wait>>
+Bea: Well. #line:ef8f06
+Bea: I'm knocking off work early to pick up some groceries. Wanna come? #line:69a127
+Mae: Sure! #line:25ea41
+<<close>>
+<<flip Bea 1>>
+<<walk Bea BeaOffRightBack wait>>
+<<warp Bea BeaOffRight>>
+<<flip Bea -1>>
+<<setSpriteLayer Bea BeaFQ>>
+<<walk Bea BeaBeforeExitLeft wait>>
+Bea: Ready to go? #line:f86340
+<<close>>
+<<trackAllSpeechBubblesToCharacters 1>>
+<<flip Germ 1>>
+<<walk Germ GermRightBack>>
+<<wait .5>>
+Germ:{width=3} you got a lot of hammers! #line:b21725
+Germ: holy shit there's so many kinds of nails! #line:77b234
+<<close>>
+Mae: Alright then. #line:897e71
+Bea: He's like something out of a children's book #line:70261e
+Bea: about whatever the hell he is. #line:bfea88
+<<close>>
+<<irisOut 1 wait>>
+<<sectionTitle BeaFQ3Intro HamPanther>>
+===
+title: A2D1_00
+tags: 
+colorID: 3
+position: -1851,9120
+---
+Mae: Hey Bea. #line:0ce03e
+Bea: Yyyyo. #line:13fede
+Mae: Sorry about last night. #line:caa951
+Mae: I get woozy on cold medicine. #line:3e4bc3
+Mae: So I don't really know what I expected to happen. #line:61eff4
+Bea: Sorry for what I said. #line:3d5c1e
+Mae: You know, I don't really remember it much. #line:c4d820
+Mae: So whatevs. #line:18fa6b
+Bea: Hooray for alcohol. #line:d46a42
+Mae: New town motto. #line:3b2ea4
+===
+title: A2D1_01
+tags: 
+colorID: 3
+position: -2125,9323
+---
+Mae: Band practice later? #line:2206f4
+Bea: Ha ha. Yep. #line:8e5442
+Mae: I'm amazed it's still a thing. #line:f805b7
+Mae: We were barely even a band in highschool. #line:90a371
+Bea: Eh. It's fun. Get to hang out with Angus. #line:b2b477
+Mae: How did you even end up doing it? #line:851e1e
+Bea: When Casey left town, Angus told me that Gregg was really sad. #line:8fc642
+Bea: So I volunteered to be the new drummer. #line:479781
+Mae: Well, "drummer." #line:cf460a
+Mae: It's a laptop, Bea. #line:3933e8
+Bea: It sure is, Mae. It sure is. #line:e480a2
+===
+title: A2D1_02
+tags: 
+colorID: 3
+position: -2392,9531
+---
+Bea: I'll see you later. I got some work to do. #line:71eec0
+<<set $bea_done to 1>>
+===
+title: Bea_Act2
+tags: 
+colorID: 3
+position: -1533,8878
+---
+<<if $day is 1>>
+    <<if $bea is 0>>
+        <<set $bea += 1>>
+        [[A2D1_00]]
+    <<elseif $bea is 1>>
+        <<set $bea += 1>>
+        [[A2D1_01]]
+    <<elseif $bea is 2>>
+        <<set $bea += 1>>
+        [[A2D1_02]]
+    <<endif>>
+<<elseif $day is 2>>
+    <<if $bea is 0>>
+        [[A2D2_00]]
+    <<endif>>
+<<elseif $day is 3>>
+    <<if $bea is 0>>
+        [[A2D3_00]]
+    <<endif>>
+<<elseif $day is 4>>
+    <<if $bea is 0>>
+        [[A2D4_00]]
+    <<endif>>
+<<endif>>
+===
+title: Bea
+tags: 
+colorID: 3
+position: -630,8416
+---
+<<if $act is 2>>
+    [[Bea_Act2]]
+<<elseif $act is 3>>
+    [[Bea_Act3]]
+<<endif>>
+===
+title: A2D2_00
+tags: 
+colorID: 3
+position: -1556,9158
+---
+<<if $bea_day_intro is 0>>
+    <<set $bea_day_intro to 1>>
+    Mae: heyyyy beabea. #line:bc3ce2
+    Bea: hey Mae. #line:fd551f
+    Mae: how's it going? #line:da7f98
+    Bea: got a load of rock salt to move. #line:7eebe8
+    Bea: came in early this year. #line:e09dd5
+    Bea: and like a *crapload* of snow shovels... #line:35d3c5
+    Bea: usually the distro place doesn't goof up like this. #line:d09195
+    Mae: maybe it's run by weather wizards? #line:4fc718
+    Bea: yeah that's not a bad theory. #line:3d04bb
+    Bea: so what's up? #line:bb94c8
+    Mae: wanna hang out tonight???? #line:80c74a
+    Bea: uh. i'm working. #line:e60f40
+    Bea: if you wanna like #line:47c376
+    Bea: come along. #line:140aa2
+    Mae: oh i was thinking we'd go play putt-putt out in Hunwick. #line:89cf8d
+    Bea: Mae that's... #line:df8c0b
+    Bea: actually not a bad idea... #line:2803e7
+    Bea: but sorry, got work. #line:85249f
+    Mae: awww geez. what is even the point? #line:ad3ead
+    Bea: paychecks. rent. food. medicine. that kinda thing. #line:eeb9b6
+<<endif>>
+Bea: so do you want to come along or not? #line:797cdd
+-> Gotta lot to do today. #line:f3cd7f
+    Bea: Okay! #line:856cb7
+-> Let's hang out! #line:c49a37
+    <<set $bea_friendship_quest to 2>>
+    <<irisOut 1 wait>>
+    <<sectionTitle BeaFQ2Intro MirandaYard>>
+===
+title: EnterLevel_A2D4
+tags: 
+colorID: 3
+position: -209,8829
+---
+<<if $harfest_costume is 1>>
+    [[EnterHarfest]]
+<<endif>>
+===
+title: EnterHarfest
+tags: 
+colorID: 3
+position: -179,9092
+---
+<<playAmbientSFX _AmbientSFX:play_pre_audience>>
+Mae: Hey hey. #line:f7894e
+Bea: ... #line:d8fdb6
+Mae: Whatcha up to? #line:7335c9
+<<wait 2>>
+Bea: seriously? #line:734522
+Mae: :) #line:2250e3
+<<wait 2>>
+Bea: We're putting on this year's Harfest Pageant. #line:301ab3
+Mae: oh right ok #line:ba3866
+Mae: Live from the Ol' Pickaxe! #line:36f236
+Mae: :| #line:db69e6
+Mae: When’s this thing supposed to start? #line:9af17e
+Bea: Uh... 10 minutes... I think? #line:57c1fc
+Mae: You think? #line:cd5432
+Bea: Ugh this is a nightmare. #line:63cc2a
+Bea: Why did I ever agree to do this? #line:e3040b
+Bea: Chamber of Commerce owes me big for this. #line:5cbe48
+Mae: Geez. I hear ya. #line:8f045a
+Bea: ... #line:4868d6
+Bea: ... #line:84a32a
+Mae: What? #line:fe29e8
+Bea: ok so here's the thing- you won't have many lines... #line:66722b
+Mae: What?! #line:0d8cf7
+Bea: I've had like 3 no-shows! #line:11f677
+Mae: Why? #line:48dffa
+Bea: BECAUSE THIS WHOLE THING IS STUPID AND NOBODY CARES ABOUT IT!!! #line:9ea9d4
+Mae: Bea, #line:fb4e90
+Bea: Please? It's a fun part! #line:b03a36
+Mae: Bea. #line:1f9399
+Bea: Yeah? #line:4a216b
+Mae: I will totally save your ass. #line:8bf53a
+Mae: I might have this memorized from when I was a kid. #line:f5c6eb
+Bea: Probably not. They rewrote it like 6 times in the past 2 years #line:f871e3
+Bea: to be spookier #line:c86f62
+Bea: so it's like 20% actual history now #line:38bae7
+Bea: and like 80% spooks. #line:5512e0
+->So it's like fake history now? #line:876299
+    Bea: It's like... the bad remake #line:c29dfb
+    Bea: that doesn't respect the source material. #line:5d4c72
+->Ok weird. #line:07a01e
+Bea: it starts off normal but gets... anyway. #line:2d7635
+Bea: You got like 5 minutes to look at your lines. #line:0cea08
+Mae: Pssh. I can wing it. #line:015c62
+Bea: Mae, please don't wing it. #line:49d514
+Mae: ok. #line:0aa559
+<<fadeOut 1 wait>>
+<<stopAmbientSFX _AmbientSFX:play_pre_audience>>
+<<show Bill>>
+<<setSpriteLayer Bill BG2>>
+<<set $bill_hat to 1>>
+<<playerUpdateFallDuringInteract 1>>
+[[PlayScene1]]
+===
+title: PlayScene1
+tags: 
+colorID: 3
+position: 161,9023
+---
+<<tell _AmbientSFX:amb_play Play1>>
+<<tell HarfestPlayWatchers Show>>
+<<cameraLookAt HarfestCamHigh 0>>
+<<warp Mae CounterOffRight>>
+<<warp Dan CounterOffLeft2>>
+<<warp Bill CounterOffLeft>>
+<<warp Bea BeaCounter>>
+<<show Dan>>
+<<setAnimInt Dan harfestIdle 1>>
+<<fadeIn 1 wait>>
+<<cameraLookAt HarfestCamLow 6>>
+//organ fanfare as camera descends from ceiling//
+<<playOneShot event:/music/harfest_organ_00>>
+<<wait 7>>
+<<walk Dan DanCounter wait>>
+<<walk Bill BillCounter wait>>
+//will do actual stage blocking after dialogue is in//
+<<wait 1>>
+<<dilate Bea .75 10>>
+<<lookOut Bea>>
+Bea: Oh! I didn't see ye there! #line:acd1f8
+Bea: Be ye ghosts? #line:bc48a6
+Bea: Are ye here to hear #line:bc7b5b
+Bea: the tale of how Possum Springs came to be? #line:7bbfe0
+<<tell HarfestPlayWatchers Happy>>
+<<wait 3>>
+<<dilate Bea 1 10>>
+<<lookLeft Bea>>
+Bea: Through the mists of time I see #line:44ffdb
+Bea: Weary fur trappers, from 1793. #line:286657
+//dan enters//
+Dan: Brother John! #line:1e3a53
+//bill enters//
+Bill: Yes, Brother Steven! #line:a650e0
+Dan: From this vantage point I do spy a deep hollow #line:f4d9b3
+Dan: and within, a great dead tree #line:f5a396
+Dan: and besides with... uh, which, a spring! #line:5e280c
+Bill: Blessed are we, brother steven, #line:77dfc0
+Bill: for truly my throat is parched #line:e592d7
+Bill: from these long and arduous travels #line:901dbc
+Bill: and carrying these 300 beaver pelts. #line:d48bf5
+Dan: Let us make haste, oh excellent brother! #line:77f692
+<<close>>
+<<walk Mae MaeCounter wait>>
+<<shuffleNextOptions>>
+-> Ho! Travelers! Spare a crust of bread for a needy woman? #line:7216ac
+    <<tell HarfestPlayWatchers Happy>>
+    <<set $play_correct_responses += 1>>
+-> Ho! Travelers! Help an extremely old woman? #line:108719
+    Mae: uh. please help. #line:7016fb
+    Bea: Wha-? #line:aafcfb
+    <<lookForward Mae>>
+    <<playOneShot event:/music/harfest_organ_mistake>>
+    <<tell HarfestPlayWatchers Grumble>>
+    <<shuffleNextOptions>>
+    -> Oh no, I am made of cobwebs from being so old! #line:e5a2fb
+        Bea: Uh. The travelers had no idea what this meant. #line:8f5299
+    -> I must have food to restore my youthful form, for once I was a comely lass. #line:a27f9b
+        Bea: ... #line:94994a
+    <<tell HarfestPlayWatchers Grumble>>
+<<lookForward Mae>>
+//witchy organ riff//
+<<playOneShot event:/music/harfest_organ_01>>
+<<wait 5>>
+<<lookNearest Mae>>
+Bill: Haggard witch! #line:0eb94a
+Dan: Horrible to look upon! #line:5ba171
+Mae: Cruel young men, #line:551e29
+Mae: Ye did not even offer one of thy 300 fine beaver pelts, #line:cc665e
+Mae: to warm my ancient bones! #line:eb1c63
+<<shuffleNextOptions>>
+-> I shall curse ye, and thee, #line:572cf4
+    Mae: and this very night ye shall perish. #line:6515c9
+    <<tell HarfestPlayWatchers Happy>>
+    <<set $play_correct_responses += 1>>
+    Dan: I am fearful! #line:c3b7e2
+    Bill: Steady, Brother Steven #line:07511d
+    Bill: I did not venture out into these hills #line:9c0e02
+    Bill: to joust words with a hell-hag! #line:e2612e
+-> Thou art a rude and naughty boy, #line:f13fe0
+    <<playOneShot event:/music/harfest_organ_mistake>>
+    <<tell HarfestPlayWatchers Grumble>>
+    Bill: ... #line:3ed334
+    Mae: Thy naughtiness must be met with punishment! #line:347a56
+    Dan: I... art... uncomfortable! #line:da93be
+    Bea: Um. #line:21bb14
+    <<lookForward Mae>>
+    <<shuffleNextOptions>>
+    -> Thy punishment is a curse, #line:6dbae7
+        <<tell HarfestPlayWatchers Happy>>
+        <<set $play_correct_responses += 1>>
+        Mae: that shall take ye and thee #line:039830
+        Mae: even this very night! #line:d2cbcc
+        Bea: *whew* #line:da92db
+    -> Thy punishment is a task, terrible! #line:4f760a
+        <<tell HarfestPlayWatchers Grumble>>
+        <<playOneShot event:/music/harfest_organ_mistake>>
+        Bea: wha- #line:dd3320
+        <<lookForward Mae>>
+        Mae: Thou shall return to thy town... #line:a1cfc2
+        Bill: um #line:778262
+        Mae: Dig up the oldest grave in the churchyard... #line:ee1206
+        Dan: uh #line:e555e0
+        Mae: ...and kiss them! #line:bb5f89
+        Bill: what? #line:fc62ef
+        Bea: But the witch was only joking around #line:914566
+        Bea: to frighten the travelers! #line:9ed818
+        Bea: and instead she cursed them to die that very night! #line:25025d
+<<lookForward Mae>>
+Mae: YEE HEE HEE HEEEEEE! #line:0a525c
+<<lookNearest Mae>>
+Mae: I was born among these trees #line:2cf60d
+Mae: 'neath a harvest moon #line:27e210
+Mae: and ye shall die under that moon! #line:6d0696
+Dan: Brother John, I am frightened! #line:e95e69
+Bill: Faith, Brother Steven! #line:d3482d
+Bill: Art thou so easily shaken by the ramblings of an old crone? #line:51d3f4
+Bill: come, help me carry these 300 beaver pelts. #line:bb347c
+Bea: ...but little did anyone know #line:9dacbe
+Bea: that the witch did not curse... #line:0463b6
+Bea: IN VAIN. #line:f91243
+<<close>>
+//spooky organ end of act theme//
+<<playOneShot event:/music/harfest_organ_02>>
+<<tell HarfestPlayWatchers Happy>>
+<<playOneShot event:/harfest/play_applause>>
+<<cameraLookAt HarfestCamHigh 11>>
+<<wait 11.5>>
+<<fadeOut 1 wait>>
+[[PlayScene2]]
+===
+title: PlayScene2
+tags: 
+colorID: 3
+position: 439,9034
+---
+<<warp Mae CounterOffRight>>
+<<warp Gregg CounterOffLeft>>
+<<warp Dan CounterOffLeft>>
+<<warp Bill CounterOffLeft>>
+<<fadeIn 1 wait>>
+//OH NO! Organ theme//
+<<cameraLookAt HarfestCamLow 6>>
+<<playOneShot event:/music/harfest_organ_03>>
+<<wait 4>>
+<<walk Dan DanCounter wait>>
+Dan: Help! Help! #line:b427dd
+Dan: Who will help a poor traveler?! #line:de41ba
+<<close>>
+<<walk Gregg GreggCounter wait>>
+<<lookLeft Gregg>>
+Gregg: Uh... um #line:f40fba
+Gregg: uh, by the moon and stars above us, sir #line:f22ac6
+Gregg: i beseech thee, what is thy trouble? #line:39235d
+<<close>>
+<<walk Mae MaeCounter wait>>
+Mae: you’re in this? #line:3d9c55
+<<lookRight Gregg>>
+Gregg: yup #line:35f35b
+<<lookLeft Gregg>>
+Dan: AAAGGGH!! WIIIITCH!!! #line:4e5be7
+Mae: yup #line:3d4214
+Dan: I swear thee, friend, that this very day #line:962cf0
+Dan: this horrifying crone #line:9ee76b
+Dan: did curse my brother and I to die! #line:bc86cd
+Gregg: 'Zwounds!  #line:ba066e
+Dan: We camped by this very spring beneath the dead tree #line:318629
+Dan: and even now his body lieth upon the earth, #line:b9d1af
+Dan: lifeless as a pile of 300 beaver pelts! #line:dd9bc7
+Gregg: Oh! It chilleth the heart!!! #line:de5458
+<<lookRight Gregg>>
+Mae: EE HEE HEE HEEEEEEE!!! #line:05c683
+<<shuffleNextOptions>>
+-> I did curse this spring! #line:9bcd6b
+    Mae: that any man who drinketh from it shall perish! #line:d3d062
+    <<lookLeft Gregg>>
+    <<tell HarfestPlayWatchers Happy>>
+    <<set $play_correct_responses += 1>>
+    Dan: AAAGH! I AM SLAIN! #line:24dfc9
+    Dan: I join thee now, brother steven!!! #line:e24ebf
+-> A curse upon rude young men! #line:f4dcf1
+    <<tell HarfestPlayWatchers Grumble>>
+    <<playOneShot event:/music/harfest_organ_mistake>>
+    Gregg: that's not- #line:91bba5
+    Dan: um #line:b56b21
+    Bea: ... #line:16f123
+    <<lookLeft Gregg>>
+    Dan: She has cursed the spring, and now I shall die!!! #line:c773c0
+//dan falls behind counter//
+<<setAnimInt Dan die 1>>
+<<wait 2>>
+Mae: wow #line:f13554
+<<lookRight Gregg>>
+Gregg: I am also undone, for I have dranketh of the water! #line:4e72e6
+Mae: Don’t leave me here Gregg. #line:1be6f2
+Gregg: Byeeeeeeeeee. #line:94418d
+//gregg falls behind counter//
+<<setAnimInt Gregg die 1>>
+<<wait 2>>
+Bea: and yet, even there #line:65eb71
+Bea: the curse's lust for blood... #line:ce6815
+Bea: ...WOULD NOT BE SATED!!! #line:e18098
+//spooky organ end of act theme//
+<<close>>
+<<playOneShot event:/music/harfest_organ_04>>
+<<tell HarfestPlayWatchers Happy>>
+<<playOneShot event:/harfest/play_applause>>
+<<cameraLookAt HarfestCamHigh 7.5>>
+<<wait 7.5>>
+<<fadeOut 1 wait>>
+<<warp Gregg CounterOffLeft>>
+[[PlayScene3]]
+===
+title: PlayScene3
+tags: 
+colorID: 3
+position: 689,9037
+---
+<<warp Mae CounterOffRight>>
+<<warp Bea BeaCounter>>
+<<warp Dan DanCounter>>
+<<warp Bill BillCounter>>
+<<show Bill>>
+<<set $bill_hat to 1>>
+<<setAnimInt Dan die 0>>
+<<fadeIn 1 wait>>
+//THINGS ARE SPOOKY ORGAN RIFF//
+<<cameraLookAt HarfestCamLow 8.5>>
+<<playOneShot event:/music/harfest_organ_05>>
+<<wait 8.5>>
+Bea: Gaze upon them! Gaze upon these spirits! #line:290b42
+Bill: Brother, we are now ghosts! #line:c38e08
+Bill: aah! i am tormented by the accusing glare #line:8372a7
+Bill: of 300 ghostly beavers! #line:fbe73f
+Dan: It would seem that all who die here #line:ac3282
+Dan: are cursed to never leave! #line:7dc333
+Bill: Doth that witch know what she hath done? #line:c66f93
+<<close>>
+<<walk Dan CounterOffLeft>>
+<<walk Bill CounterOffLeft>>
+<<walk Bea CounterOffLeft>>
+<<wait 4>>
+<<walk Mae MaeCounter2 wait>>
+<<wait 3>>
+<<warp Janitor CounterOffRight>>
+<<shuffleNextOptions>>
+Mae: uhh... um... #line:42e97f
+Mae: ...crap... #line:619604
+<<wait 3>>
+Bea:{locator=LeftSide} "Foooooor, #line:8ed56d
+-> For what is a ghost, #line:6b6af0
+    Mae: but that which haunts the empty space #line:6ddba2
+    Mae: that was once full? #line:3b806c
+    Janitor: And once haunted, can a place be unhaunted? #line:2f8cb9
+-> For each man is determined on his path #line:706f3f
+    Mae: and each path leads only to his end. #line:f5ac65
+    Bea:{locator=LeftSide} ok...? #line:737f9c
+    Janitor: And yet each path may lead to places unknown. #line:b56df9
+<<close>>
+<<walk Janitor JanitorCounter wait>>
+Mae: You! #line:01df52
+Mae: from the bus station! #line:0f86c5
+Janitor: Young witch! #line:2541e0
+Janitor: It is I, the god of the forest! #line:8f4813
+Mae: uh... just didn’t expect you to... #line:fbf2fa
+Janitor: Ain’t that the way. #line:625414
+Mae: So... #line:3cbfa5
+Janitor: Witch, thou hast tarried too long in this world #line:223239
+Janitor: I banish thee to wander in the night #line:762895
+Janitor: through the stranger places! #line:44be06
+<<shuffleNextOptions>>
+-> Oh god... how did you know... #line:ffe900
+-> I... what? #line:215b22
+Janitor: Young witch, let me speak wisdom to you: #line:01eb62
+Janitor: We begin and we end, #line:38fbf9
+Janitor: at night, in the woods. #line:ee1eb7
+Janitor: but that is not the whole of the story. #line:d885d5
+<<close>>
+<<wait 2>>
+Mae: ... #line:087ae7
+Mae: ... #line:f643a7
+<<close>>
+<<lookRight Bea>>
+<<warp Bea BeaBehindCounter>>
+<<walk Bea BeaAboveCounter wait>>
+Bea: *THIS IS YOUR LINE* #line:5a291f
+<<close>>
+<<walk Bea BeaBehindCounter wait>>
+<<shuffleNextOptions>>
+<<lookAt Mae Janitor>>
+-> Forest god, thou hast no power here! #line:e26d18
+    <<tell HarfestPlayWatchers Happy>>
+    <<set $play_correct_responses += 1>>
+    Janitor: even now, thy end beginneth. #line:1e0a38
+    Mae: AAAACK!!! My infernal powers! #line:2e6d5d
+    Janitor: Sssh, young witch. #line:90e6e3
+    Janitor: even now #line:c349c5
+    Janitor: the world you know endeth #line:537952
+    Janitor: and who can say what lieth #line:2650b4
+    Janitor: in the world to come? #line:44fbe1
+-> How do you know so much about me? #line:599400
+    <<tell HarfestPlayWatchers Grumble>>
+    <<playOneShot event:/music/harfest_organ_mistake>>
+    Janitor: Young witch, I know more than thee could ever know #line:a91581
+    Janitor: for I am as old as these trees. #line:8bf353
+Mae: Wow. #line:c1a89a
+Janitor: Beware as you go #line:58c681
+Janitor: for there are ghosts. #line:a86755
+<<lookNearest Mae>>
+//bill and dan both say WOOOOOO!!!//
+<<runNextLinesTogether 2>>
+Bill:{locator=LeftSide} [wave]Wooooo!!![/wave] #line:ded394
+Dan:{locator=LeftSide2} [wave]Wooooo!!![/wave] #line:640c1f
+Janitor: Take care. #line:bee150
+<<close>>
+<<walk Janitor CounterOffLeft>>
+<<wait 3>>
+//walk janitor off//
+//walk bill and dan off//
+//spooky organ end of act theme//
+<<cameraLookAt HarfestCamHigh 6>>
+<<playOneShot event:/music/harfest_organ_06>>
+<<tell HarfestPlayWatchers Happy>>
+<<playOneShot event:/harfest/play_applause>>
+<<wait 5>>
+<<fadeOut 1 wait>>
+[[PlayScene4]]
+===
+title: PlayScene4
+tags: 
+colorID: 3
+position: 964,9003
+---
+<<warp Mae MaeCounter>>
+<<warp Dan DanCounter>>
+<<warp Gregg GreggCounter>>
+<<warp Bill BillCounter>>
+<<warp Janitor CounterOffRight>>
+<<hide Janitor>>
+<<warp Bea BeaCounter>>
+<<setAnimInt Gregg die 0>>
+<<setAnimInt Dan harfestIdle 2>>
+<<cameraLookAt HarfestCamLow 0>>
+<<lookLeft Bea>>
+<<fadeIn 1 wait>>
+Bea: And so was founded then this festival, #line:bc3eb8
+Bea: on halloween we shall celebrate #line:99c32e
+Bea: the dying of the year #line:c79b0e
+Bea: and the founding of Possum Springs! #line:211e93
+Dan: I, mayor ghost, decree it! #line:bf2799
+Bill: The beaver population suffered a decline #line:8a0049
+Bill: and now our biggest exports are corn and pumpkins! #line:079a9d
+Gregg: We used to be the county seat! #line:81b18c
+<<shuffleNextOptions>>
+->YEE HEE HEE HEEEEE!!! #line:43007f
+    Mae: Actually, the myth of the wicked witch #line:8cea0a
+    Mae: is the product of centuries of persecution by- #line:326ef7
+->Now leave, before I curse you all!!!! #line:403ae1
+    Bea: Oh no, audience!!! #line:825088
+Bea: And that's our show! #line:9555cc
+<<lookOut Mae>>
+<<lookOut Gregg>>
+<<dilate Bea .75 10>>
+<<lookOut Bea>>
+Bea: Be careful as you leave here, #line:330585
+Bea: for who knows what may lurk in the darkness? #line:394912
+Bea: also be sure to pick up a flyer on your way out #line:9b8345
+Bea: from the Possum Springs Chamber of Commerce! #line:911284
+Bea: Support your spooky local businessessssssss!!!! #line:5bd9f9
+<<close>>
+<<tell HarfestPlayWatchers HappyForever>>
+<<cameraLookAt HarfestCamHigh 11>>
+//organ fanfare as camera ascends toceiling//
+<<playOneShot event:/music/harfest_organ_07>>
+<<playOneShot event:/harfest/play_applause>>
+<<wait 11>>
+<<set $did_harfest_play to 1>>
+<<fadeOut 1 wait>>
+<<set $bill_hat to 0>>
+<<scene TowneCentreEast_Harfest>>
+===
+title: Bea_Act3
+tags: 
+colorID: 4
+position: 1661,8712
+---
+<<if $day is 1>>
+    <<if $bea is 0>>
+        [[A3D1_00]]
+    <<endif>>
+<<elseif $day is 2>>
+    <<if $bea is 0>>
+        [[A3D2_00]]
+    <<endif>>
+<<elseif $day is 3>>
+    <<if $bea is 0>>
+        [[A3D3_00]]
+    <<endif>>
+<<elseif $day is 4>>
+    <<if $bea is 0>>
+        [[A3D4_00]]
+    <<endif>>
+<<endif>>
+===
+title: A3D1_00
+tags: 
+colorID: 4
+position: 1227,9070
+---
+Mae: heyyyyyy Bea. #line:e3d519
+Bea: hey uh #line:e11968
+Bea: thanks again for last night. #line:945afd
+Bea: i owe you one. #line:cbfe4d
+Mae: it's fine. it was fun. #line:a879a7
+Mae: my night got like really weird and bad after. #line:3c035f
+Bea: how so? #line:f7c3c4
+Mae: tell you later i guess. #line:791cb7
+Mae: still like putting it together. #line:ea3542
+Bea: ok well. let me know how that goes. #line:83156c
+Mae: i will. #line:a7227e
+Bea: i think it's band practice day? #line:78f3cc
+Mae: yeah i'm gonna go hunt down gregg. #line:2317ce
+Bea: shouldn't be too difficult. #line:d4efda
+Mae: yeah no. he's at the snack falcon. #line:2f3d67
+Bea: i don't know how that guy stays employed. #line:1c471d
+Bea: he steals constantly, breaks supplies for fun, #line:6eb7b8
+Bea: and leaves work whenever he wants. #line:2ea899
+Mae: gregg plays by his own rules. #line:390a8c
+Bea: it feels more like the world plays by his rules. #line:23457e
+Mae: whoa. #line:cf93b6
+Bea: i don't even know what that means. #line:166f9a
+Mae: still. whoa. #line:acbbd0
+<<set $bea_done to 1>>
+===
+title: InvestigationQuest
+tags: 
+colorID: 4
+position: 1542,9662
+---
+<<close>>
+<<irisOut 1 wait>>
+<<sectionTitle BeaIQ BeaIQGraveyard>>
+===
+title: A3D3_00
+tags: 
+colorID: 4
+position: 1763,9091
+---
+<<if $bea_day_intro is 0>>
+    <<set $bea_day_intro to 1>>
+    Mae: hey bea. #line:4de664
+    Bea: hey. #line:830ee3
+    Mae: you alright? you seem down. #line:c68f48
+    Bea: oh, it's nothing. #line:f3e1bd
+    Bea: stuff. #line:c2ab59
+    Mae: you wanna talk about it? #line:13bfb4
+    Bea: nah. #line:58edce
+    Mae: ok. #line:885f88
+<<endif>>
+
+Bea: oof. what are you up to today? #line:bd433b
+-> Wandering around town. #line:1754d1
+    Bea: have fun! #line:803705
+-> *Whatever* you want to do! #line:82f99a
+    [[FriendshipQuest]]
+===
+title: A3D4_00
+tags: 
+colorID: 4
+position: 2155,9119
+---
+<<if $bea_day_intro is 0>>
+    <<set $bea_day_intro to 1>>
+    Bea: whoa! #line:ddc7e7
+    Mae: whoa. #line:27e3bb
+    Bea: dude, are you ok? #line:cdc4e1
+    Mae: yeah. i guess. sure. #line:1f2166
+    Mae: tired, had a headache for days. #line:e51b33
+    Bea: you should like go home and rest. #line:c763d5
+    Bea: i feel like you'd be able to like veg out pretty well. #line:10e391
+    Mae: nah. I'm fine. #line:1d655b
+    Mae: doing stuff helps. #line:fe9c20
+    Bea: how are you feeling about the whole "ghost" thing? #line:9bde00
+        ->"ghost"? #line:c74715
+            Bea: sorry. ghost. #line:5d7f1c
+            Mae: thanks. #line:531320
+            Mae: and i feel bad #line:790eaf
+        -> bad #line:69d23b
+    Mae: i mean since it happened i don't feel rested in the morning. #line:c44dcc
+    Mae: and i feel like someone else is in my head. #line:0aa078
+    Mae: and my skull is going to explode. #line:6278b9
+    Bea: so yeah not good then. #line:6dcd05
+    Mae: nope. #line:8c4642
+    Bea: hrm. #line:cd657f
+<<endif>>
+
+<<if $did_bea_investigation_quest is 0>>
+    Bea: Did you still want to check out the graveyard? #line:345d97
+    -> Nah... not today. #line:467499
+        Bea: Okay well let me know! #line:e1ea5e
+    -> Actually yeah. Let's do it. #line:48ef6a
+        [[InvestigationQuest]]
+<<else>>
+    <<set $bea_done to 1>>
+<<endif>>
+===
+title: A3D2_00
+tags: 
+colorID: 4
+position: 1470,9089
+---
+<<if $bea_day_intro is 0>>
+    <<set $bea_day_intro to 1>>
+    Mae: Hey Bea! #line:4821a2
+    Bea: hey mae. #line:35186b
+    Bea: i think i'm gonna burn this place down. #line:655d02
+    Mae: oh cool! #line:914773
+    Mae: but also, maybe it might have consequences? #line:fab5e4
+    Bea: we could take the insurance money. #line:e9df43
+    Bea: and like #line:619efa
+    Bea: not do this. #line:a01e34
+    Mae: what if you get caught? #line:54b8d5
+    Mae: i saw a show where they caught someone doing that. #line:51757f
+    Bea: ... #line:f46362
+    Bea: you're going to burn this place down for me. #line:a0f2d7
+    Mae: oh cool! #line:0f8733
+    Mae: but also, maybe i'd go to jail? #line:53ef58
+    Bea: no, you have no motive! #line:5be1a9
+    Bea: no one would suspect! #line:beb025
+    Mae: so work's not going well? #line:f90a3f
+    Bea: aaaaaaaagh. #line:ae1faf
+    <<wait 2>>
+    Mae: ok i'll actually do it. #line:b20864
+    Bea: please don't actually do it. #line:bbc7ce
+    Mae: ok fine. #line:5cbd0d
+<<endif>>
+
+Bea: Did you want to check out the graveyard? #line:9662a0
+    -> Nah... not today. #line:6f9838
+        Bea: Okay well let me know! #line:94a001
+    -> Actually yeah. Let's do it. #line:9ab105
+        [[InvestigationQuest]]
+===
+title: FriendshipQuest
+tags: 
+colorID: 4
+position: 1854,9650
+---
+<<if $dom_friend_bea is 0>>
+    Bea: It's cool. I'm busy. #line:7dbf0f
+    Bea: and gregg and angus have my car tonight #line:5aca82
+    Bea: so i'm stuck home anyway. #line:a987cc
+    Mae: oh. ok. #line:f6b357
+    Bea: see what they're up to maybe? #line:b2d186
+    Bea: they're going somewhere or other. #line:a96a50
+    <<wait 2>>
+    Bea: i'm not. #line:e16f21
+<<else>>
+    <<close>>
+    <<set $bea_friendship_quest to 4>>
+    <<irisOut 1 wait>>
+    <<sectionTitle BeaFQ4Intro BeaCar>>
+<<endif>>
+===

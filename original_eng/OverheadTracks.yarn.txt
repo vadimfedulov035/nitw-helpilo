@@ -1,0 +1,187 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 621,68
+---
+<<if $did_lori_friendship_quest_1 is 0>>
+    [[Tracks1]]
+<<else>>
+    [[Tracks2]]
+<<endif>>
+===
+title: Tracks2
+tags: 
+colorID: 4
+position: 805,431
+---
+<<freezePlayer>>
+<<wait 4>>
+Lori: you know what we don’t have around here? #line:7f646f
+Mae: a taco place. #line:fd6546
+Lori: serial killers. #line:431d74
+Mae: oh yeah. hm. #line:105797
+Mae: i mean i'd vote for us getting a taco place first but #line:215aef
+Mae: yeah we never got around to getting our own serial killer #line:a0745b
+Lori: you ever think about murdering someone? #line:4e2613
+Lori: like ok so #line:d1336c
+Lori: a few Longest Nights ago i went to Bright Harbor with my aunt and cousin #line:119ced
+Lori: and we went on the subway #line:4c69a9
+Lori: and like there's no railing down there above the tracks #line:3db6d2
+Lori: and i had this sudden urge to like shove someone off it? #line:0d50f5
+Lori: it was weird and i felt guilty about it for a long time #line:63c992
+Lori: but like i didn't actually do it so #line:54610a
+Lori: i mean is that normal? #line:04a34e
+Mae: i think that's pretty normal #line:87856d
+Lori: i guess you actually *did* try to kill someone #line:061ab8
+    -> that was different #line:d961d1
+        Lori: how? #line:fd094b
+        Mae: that was like... not planned #line:1b7898
+    -> no i didn't #line:96abb3
+        Lori: a lot of people think so #line:d2c452
+        Mae: yeah well #line:834f70
+        Mae: a lot of people are really stupid #line:3fb47d
+Mae: and i wasn't trying to kill him #line:f888f4
+Mae: it was just a thing that happened #line:873965
+Mae: so yeah #line:4b5a0a
+Mae: it wasn't like my first step #line:68d528
+Mae: on the way to serial killer-dom #line:03bd3f
+<<wait 2>>
+Lori: sorry. #line:e69332
+<<setAnimInt Lori laying 2>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 2>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+//mae pulls her feet in as the train passes//
+<<trigger OverheadTracks TrainPassBottom>>
+<<wait 13>>
+<<setAnimInt Lori laying 1>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 3>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+Mae: it's cool. #line:ed0e58
+Lori: you know what I like? #line:8e6d8f
+Mae: tacos #line:015d7b
+Lori: pictures of the meteor that killed the dinosaurs #line:322cd0
+Lori: where the dinosaurs are watching it in the sky #line:4680fa
+Mae: oh yeah #line:c9b2a1
+Mae: that’s like every single picture of that meteor #line:322827
+Mae: weird #line:1bdcb4
+Lori: wonder if they knew #line:e2b920
+//lori pulls her feet in as the train passes//
+<<setAnimInt Lori laying 2>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 2>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+<<trigger OverheadTracks TrainPassBoth>>
+<<wait 13>>
+Lori: ok ok ok ok  #line:ec29ff
+Lori: let’s see what we got! #line:91f04b
+<<irisOut 1 wait>>
+<<scene Tracks>>
+===
+title: Tracks1
+tags: 
+colorID: 3
+position: 486,431
+---
+<<freezePlayer>>
+<<wait 4>>
+Lori: I come out here at night sometimes #line:bbe2c1
+Lori: and fall asleep between the tracks #line:8e5e9b
+	->That sounds dangerous #line:570446
+	-> why? #line:96fcd6
+		Lori: I don’t know. #line:9e74c3
+Lori: I feel excited and I can sleep #line:7f047d
+Lori: you ever have that #line:ba219b
+Lori: where you’re so excited you go to sleep? #line:873512
+	->Coffee makes me sleepy #line:c404a6
+		Lori: ha ha. Wuss. #line:b09735
+		Mae: guilty. #line:220eb2
+	->I have stress dreams if I’m too keyed up #line:8202c8
+		Lori: I don’t remember my dreams #line:ba3997
+//train noise in the distance to the right//
+<<tell _AmbientSFX:train_whistle Play>>
+<<close>>
+<<wait 4>>
+Lori: sometimes I fall asleep for like 5 minutes #line:730089
+Lori: but sometimes it’s for like an hour #line:aca01d
+Mae: that’s some risky business there #line:7a15d5
+<<close>>
+<<setAnimInt Lori laying 2>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 2>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+//train flies past//
+<<trigger OverheadTracks TrainPassBottom>>
+<<wait 13>>
+//after train passes//
+<<setAnimInt Lori laying 1>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 3>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+Lori: I have weird thoughts #line:0368f6
+Lori: like sometimes I want to go sleep in the woods #line:17cea3
+Lori: or in the basement of an abandoned house during the day #line:9a2189
+Lori: and only come out at night #line:551a51
+Lori: and be, like, a monster #line:e550eb
+Lori: and, like, beautiful. #line:cd762d
+	->I know the feeling #line:2b09bb
+		Mae: I want to eat people sometimes #line:af4943
+		Lori: Really??? #line:0bf379
+		Mae: Pretty much as soon as I meet anyone #line:319cc2
+		Mae: I wonder what they taste like #line:0de00f
+		Lori: I feel like the world is full of bad people #line:3af0ac
+		Lori: who would be good to eat #line:555d46
+		Mae: Mmmmmmmhmm. #line:ea3e03
+	->Those are, like, really attainable dreams #line:5f5b51
+		Lori: oh ha ha #line:f6a8b0
+		Lori: i’m not beautiful #line:aa81b3
+		Mae: oh you’re fine #line:6b1900
+		Mae: no one your age likes how they look #line:5f95d7
+		Lori: i’m objectively gross #line:4465b7
+		Mae: way less gross than I was #line:2c4b2a
+		Lori: do you think? #line:a8b7a6
+		Mae: guaranteed #line:5a1430
+<<close>>
+<<setAnimInt Lori laying 2>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 2>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+//train flies past going other direction//
+<<trigger OverheadTracks TrainPassBoth>>
+<<wait 13>>
+Lori: ok ok ok ok  #line:0834e8
+Lori: let’s see what we got #line:91386f
+<<irisOut 1 wait>>
+<<scene Tracks>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 299,16
+---
+<<playerFace -1>>
+<<if $did_lori_friendship_quest_1 is 0>>
+    <<setAnimInt Lori laying 1>>
+    <<setAnimInt Mae laying 1>>
+<<else>>
+    <<warp Lori Lori2>>
+    <<warp Mae Mae2>>
+    <<toggleUpdateTargetNormal 0>>
+    <<rotate Mae -180>>
+    <<setAnimInt Lori laying 1>>
+    <<setAnimInt Mae laying 1>>
+<<endif>>
+===

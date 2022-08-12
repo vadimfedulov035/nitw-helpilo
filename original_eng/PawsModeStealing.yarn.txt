@@ -1,0 +1,100 @@
+title: Caught
+tags: demo2
+colorID: 0
+position: 515,200
+---
+<<if $caught_stealing is 0>>
+    URevClerk: Ma'am, can I help you? #line:7aa783
+    Mae: [shake=.01]HA HA HA HA HA HA HA NO I'M FINE.[/shake] #line:6ac045
+    <<set $caught_stealing += 1>>
+<<elseif $caught_stealing is 1>>
+    URevClerk: Do you need to look at something? #line:bf1234
+    Mae: [shake=.03]HA HA HA HA NO I'M JUST LOOKING I'M FINE[/shake] #line:deb52a
+    Bea: *i thought you said you were gonna freeze when she was looking* #line:b20035
+    Mae: Stop judging me! #line:10c77a
+    <<set $caught_stealing += 1>>
+<<elseif $caught_stealing is 2>>
+    URevClerk: You really look like you could use a hand. #line:64a29c
+    Mae: [shake=.05]HAAHAHAAAHAHAAA EVERYTHING IS GOOD[/shake] #line:5d366c
+    <<set $caught_stealing += 1>>
+<<elseif $caught_stealing is 3>>
+    URevClerk: Uh... #line:79dd78
+    Mae: [shake=.06]JUST LOOKING HA HA HA HA HA HA[/shake] #line:0a7cc7
+    Bea: *so you're just gonna abandon the whole "freeze when she's looking" plan?* #line:846288
+    Mae: SHUT UP YOU ARE BREAKING MY CONCENTRATION #line:f04ecc
+    <<set $caught_stealing += 1>>
+<<elseif $caught_stealing is 4>>
+    URevClerk: Are you sure you don't- #line:690c52
+    Mae: [shake=.08]HEY! HA HA HA HA[/shake] #line:92ef9e
+    URevClerk: Ma'am is something funny? #line:af9c0f
+    Mae: [shake=.02]HA HA HA[/shake]  #line:3eee96
+    <<set $caught_stealing += 1>>
+<<else>>
+    URevClerk: Do you need me to- #line:3efdec
+    Mae: [shake=.1]HA HA HA HA HEY[/shake] #line:c1c740
+    URevClerk: Hey? #line:b5a3a4
+    Bea: HEY.  #line:0b1859
+    Bea: ARE YOU DONE WITH THIS #line:b5b989
+    [[SHHHH|NotDone]] #line:936c23
+    [[Ugh fine sure|Done]] #line:8cc399
+<<endif>>
+===
+title: Complete
+tags: demo2
+colorID: 0
+position: 798,196
+---
+Mae: SWEEEEET. :) #line:91284e
+// $urev_theft will be 1
+<<fadeOut 1 wait>>
+<<scene URev>>
+===
+title: EnterLevel
+tags: demo2
+colorID: 0
+position: 244,221
+---
+<<if $urev_theft is 0>>
+    Bea: Sooooo... you're really going to do this? #line:b2a924
+    Mae: SHHH. BE COOL. #line:80d06b
+    ->Shoplifting is no big thing. #line:743f1d
+        Bea: I think you go to jail for it. #line:e793d0
+        Mae: I don't mean that. I mean it's easy. #line:03bcaf
+    ->This isn't my first time doing crimes. #line:4ca5df
+        Bea: What other crimes have you done? #line:56dbf7
+        Mae: Shoplifting. #line:3f0abc
+        Mae: Vandalism. #line:27fdc6
+        Mae: Piracy. #line:867ee9
+        Mae: Shoplifting again now. #line:100cbe
+        Mae: Anyway I just do the easy crimes. #line:1fffae
+        Bea: How is this stupid idea easy? #line:effb89
+    Mae: Our eyes evolved to notice movement. #line:901ac0
+    Bea: Like dinosaurs? #line:40dee5
+    Mae: If the dinosaur is moving! #line:1d2bde
+    Bea: Wait that's not... nevermind. #line:c95f18
+    Mae: So as long as you're perfectly still when the clerk is watching... #line:54c672
+    Bea: Like, you're gonna freeze when she looks over... #line:12d240
+    Bea: even if you're in the middle of putting it in your pocket... #line:da21cf
+    Bea: and this is gonna work because... dinosaurs? #line:969d75
+    Mae: Just. Like. Dinosaurs. #line:d8ab4c
+    Bea: I'm going to pretend to not know you until you're done, ok? #line:6027a3
+<<endif>>
+===
+title: NotDone
+tags: demo2
+colorID: 0
+position: 695,483
+---
+Mae: SHUT UP SHUT UP I'M IN THE MIDDLE OF THIS SHUT UP #line:782b19
+===
+title: Done
+tags: demo2
+colorID: 0
+position: 452,463
+---
+Mae: THIS BLOWS #line:b15b8d
+Mae: I'M OUT #line:907ed9
+// $urev_theft will be 0
+<<irisOut 1 wait>>
+<<scene URev>>
+===

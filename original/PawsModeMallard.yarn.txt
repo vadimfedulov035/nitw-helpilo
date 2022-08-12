@@ -1,0 +1,87 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 26096,-19582
+---
+<<if $mallard_rats is 1>>
+    [[MallardRats]]
+<<elseif $pretzel > 0 and $pretzel_intro is 0>>
+    [[PretzelIntro]]
+<<elseif $paws_mode_mallard is 0>>
+    [[Vermin]]
+<<endif>>
+===
+title: Vermin
+tags: demo2
+colorID: 0
+position: 26395,-19565
+---
+<<set $paws_mode_mallard to 1>>
+MaePaws: MGVVAPD! DA TJ1 6EPEMEHHJ1L! #line:ad61f6
+MaePaws: GT0 KAK0E-T0 60SECTBEHH0E UP0RBVEHNE! #line:d739ab
+MaePaws: TNUA, KAK P0SDEHNE HEU0P04H0F0 PE6EHKA? #line:f8ca8f
+MaePaws: 4EPT, BJ1 CAMJ1E MNVJ1E KPJ1CJ1. #line:347002
+MaePaws: KT0 VY4QNE KPJ1CKN? #line:c9458b
+MaePaws: BJ1! #line:127e66
+MaePaws: U0X0SE, BJ1 F0V0DHJ1. #line:b5230d
+MaePaws: B0T U04EMY BJ1... GM... HN4EF0 HE DEVAETE? #line:035272
+MaePaws: R BEPHYCJ C ED0L! #line:ba25d7
+MaePaws: HE YMNPALTE!!! #line:29907b
+<<unlockDoodle MiracleRats>>
+===
+title: PretzelIntro
+tags: 
+colorID: 0
+position: 26450,-19889
+---
+<<set $pretzel_intro to 1>>
+MaePaws: NTAK, M0N MAVEHJKNE 4YDECHJ1E KPJ1CKN! #line:d7d051
+MaePaws: BPEMR KYQATJ! #line:862536
+===
+title: PretzelFall
+tags: 
+colorID: 0
+position: 26209,-19291
+---
+<<if $times_fed_rats is 0>>
+    MaePaws: YX TJ1, KAKNE SE BJ1 F0V0DHJ1E! #line:fc21b8
+    MaePaws: ... #line:a13220
+    MaePaws: 04EHJ F0V0DHJ1E. #line:93c1f7
+    MaePaws: U0X0SE, R TEUEPJ BAQA MAMA? #line:d0ed7a
+    MaePaws: HE 3HA%, F0T0BA VN R 6J1TJ MAM0L! #line:231a2c
+<<elseif $times_fed_rats is 1>>
+    MaePaws: 0X, CEF0DHR BAC 60VJQE! #line:1aaddf
+    MaePaws: BAM HYSH0 60VJQE EDJ1! #line:ff025c
+<<elseif $times_fed_rats is 2>>
+    MaePaws: YX TJ1! CK0VJK0 SE BAC 3DECJ! #line:06f191
+    MaePaws: K0FDA-HN6YDJ BJ1 60VJQE HE 6YDETE HYSDATJCR B0 MHE... #line:eef995
+    MaePaws: N BJ1 YLDETE... #line:a1e0e2
+    MaePaws: CM0FY VN R Y3HATJ BAC HA YVNOE, #line:b36234
+    MaePaws: K0FDA MJ1 BCTPETNM DPYF DPYFA? #line:68dbe7
+    <<wait 2>>
+    MaePaws: R V%6V% BAC, 4YDECHJ1E KPJ1CKN. #line:e7ef5d
+<<endif>>
+
+<<close>>
+<<irisOut 1 wait>>
+<<set $rats_fed_today to 1>>
+<<set $times_fed_rats += 1>>
+<<set $pretzel to 0>>
+<<if $times_fed_rats is 1>>
+    <<unlockAchievement Mother_Of_Vermin>>
+<<elseif $times_fed_rats is 3>>
+    <<unlockAchievement Miracle_Rats>>
+<<endif>>
+<<scene MallardsTomb>>
+===
+title: MallardRats
+tags: 
+colorID: 0
+position: 26163,-19934
+---
+MaePaws: M0N MAV%TKN U0KNHYVN FHE3D0! #line:d5d68c
+<<close>>
+<<set $mallard_nest_done to 1>>
+<<irisOut 1 wait>>
+<<scene MallardsTomb>>
+===

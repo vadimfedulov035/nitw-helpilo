@@ -1,0 +1,127 @@
+title: Trigger
+tags: 
+colorID: 0
+position: 371,228
+---
+<<playMusic cat_god 10>>
+Mae: Hello? #line:617119
+<<close>>
+<<wait 4>>
+Mae: Can you talk? #line:abb223
+CatGod: Yes. #line:7e9b95
+Mae: For some reason, you’re the first thing here I’ve thought to talk to. #line:08a27c
+<<close>>
+<<wait 4>>
+Mae: Are you... god? #line:544736
+CatGod: No... #line:0f206f
+Mae: oh #line:52f1ad
+<<close>>
+<<wait 2>>
+Mae: So, #line:110df2
+CatGod: Seconds ago little creatures are coming #line:d1c652
+CatGod: and they are asking if I am god #line:e20d2b
+CatGod: and I am asking what god is #line:80720d
+CatGod: and they are telling me #line:3ac4ac
+CatGod: and I am not this god #line:ec8ecf
+CatGod: and this god is nowhere #line:335e0f
+->well, you can’t see god #line:08accd
+	CatGod: you are seeing what you are wishing, little creature #line:ec83da
+->well, that’s where faith comes in i guess #line:11b5f0
+	CatGod: little creatures are explaining faith #line:597117
+	CatGod: and moments ago is the beginning #line:413c34
+	CatGod: and i am here then and here now #line:d3c5f9
+	CatGod: and there is nowhere for god to be hiding #line:dc50a2
+Mae: ... #line:ff78f8
+Mae: so what am i doing here? #line:11809d
+CatGod: monstrous existence #line:218285
+Mae: no, i mean what am I doing *here*? #line:632300
+Mae: what are you? What are those other giant animals? #line:00e9f5
+Mae: have i been seeing ghosts? #line:2d454d
+Mae: there were like bits of the world... #line:e764b2
+Mae: i think i was on a train, but it was like a town? #line:ef5d89
+Mae: it’s all- #line:549554
+Mae: ugh. I lost it. #line:edcc03
+<<close>>
+<<wait 2>>
+Mae: Ok, so- #line:ad50b3
+CatGod: A great beast is walking through the sands #line:20b41d
+CatGod: and they are climbing into the air #line:361d5f
+CatGod: and now they are making a tear #line:64b96d
+CatGod: and now they are gone #line:081e7c
+CatGod: and now you are here #line:403260
+->what? #line:c0f98a
+->a... tear? #line:525915
+	CatGod: With their hooves #line:dd4fcc
+	CatGod: they are making a tear #line:e3036c
+CatGod: little creatures are wandering through the air #line:0b2d7b
+CatGod: and they are dragging in places and echoes of lives #line:87d756
+CatGod: and they are asking me about god #line:f062e7
+Mae: my head hurts #line:9d9ad4
+CatGod: i am going to tell you something, little creature #line:0eefdb
+CatGod: you are swimming further and further out to sea #line:9495bd
+CatGod: and beyond are things blind and terrible #line:f267fe
+CatGod: and i am showing you now #line:e8cb49
+<<close>>
+<<playMusic unknowable 6>>
+//flash to horrifying things//
+<<trigger AstralAct3Day2 BeyondThings>> 
+<<wait 9>>
+<<fadeOutMusic 3>>
+<<wait 3>>
+<<playMusic cat_god 10>>
+Mae: aaagh #line:f27b40
+Mae: oh god. oh god. #line:bb6ef4
+CatGod: they are blind, but they are seeing you #line:98af44
+CatGod: and you are coming to them #line:795b10
+CatGod: after this you are not returning here #line:1d6510
+CatGod: i am climbing into the air #line:90d58a
+CatGod: and closing the sky #line:61f820
+->why? #line:9a3186
+	CatGod: I am tired of speaking with little creatures #line:a57f7c
+	CatGod: I am tired of speaking of god #line:535d41
+->closing the sky? #line:5d1910
+	CatGod: yes #line:e1db21
+Mae: ok... #line:6b8cfb
+CatGod: I will tell you a second thing #line:21b069
+CatGod: There is a hole at the center of everything #line:7d30fe
+CatGod: and it is always growing #line:f44127
+CatGod: between the stars i am seeing it #line:d32159
+CatGod: it is coming	 #line:1a108e
+CatGod: and you are not escaping #line:b6716f
+CatGod: and the universe is forgetting you #line:cea4a2
+CatGod: and the universe is being forgotten #line:008e51
+CatGod: and there is nothing to remember it #line:d18390
+CatGod: not even the things beyond #line:2b8a50
+CatGod: and now there is only the hole #line:071802
+Mae: so... does anything mean anything? #line:63ec68
+CatGod: this is not a question worth answering #line:f0c28d
+-> what about my home? What about my friends? #line:d12326
+	CatGod: soon they are dying #line:211db5
+	CatGod: soon they are rotting #line:83e7b0
+-> what about trees in the fall? What about the leaves? #line:77a1a2
+	CatGod: bare existence, meaning nothing #line:543324
+CatGod: you are atoms #line:6c5437
+//begin blurry fade to black//
+CatGod: and your atoms are not caring if you are existing #line:3add4e
+CatGod: your atoms are monstrous existence #line:fe9968
+Mae: then why am I here goddammit? Why was i chosen to see all of this? #line:fce248
+Mae: where is this going? #line:99265f
+CatGod: little creature, you are not chosen #line:551cbe
+CatGod: there is no one to choose you #line:33f5a3
+CatGod: this is going nowhere #line:034f0c
+CatGod: we are not meeting again #line:a547d5
+//fully black now//
+CatGod: and the universe is forgetting you #line:02c14c
+CatGod: and I am remembering you #line:6decf6
+CatGod: but not because I am caring #line:e3194f
+CatGod: the beginning is moments ago #line:1b7a0e
+CatGod: the end is moments away #line:fefbd3
+CatGod: there is no time to forget #line:fb74aa
+CatGod: before all is forgotten #line:777671
+CatGod: goodbye, little creature #line:e97d11
+<<close>>
+<<fadeOutMusic 5>>
+<<fadeOut 5 wait>>
+<<wait 5>>
+<<endDay>>
+===

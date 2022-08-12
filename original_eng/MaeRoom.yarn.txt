@@ -1,0 +1,492 @@
+title: Bed
+tags: demo2
+colorID: 0
+position: 3493,1361
+---
+[[DoSleep]]
+===
+title: Internal
+tags: demo
+colorID: 0
+position: 1835,1792
+---
+<<if $mae_room_internal is 0>>
+	Mae: {align=top,furthestLocator}If I don't get out of this room I am probably going [speed=.7][color=999]to burn it down with me in it.[/all]  #line:b8186a
+	<<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 1>>
+	Mae: {align=top,furthestLocator}I bet someone has done that. For like [color=999]political reasons.[/all]-_- #line:7c0703
+    Mae: o_o #line:d91611
+	<<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 2>>
+	Mae: {align=top,furthestLocator}I wonder what would be left if I did [speed=.7][color=999]burn the room down with me in it?[/all]o_o #line:4e50e5
+	<<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 3>>
+	Mae: {align=top,furthestLocator,width=2}Bones probably. Copper pipes. [speed=.7][color=999]A shrieking phantom.[/all] #line:0e224c
+	<<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 4>>
+	Mae: {align=top,furthestLocator,width=2}"Yeah, this is a good location" #line:edff90
+	Mae: {align=top,furthestLocator,width=3}"but I hear there was once a house here and a girl burned it down." #line:a322de
+	Mae: "[speed=.5][color=999][shake=.03]With her inside it.[/all]":( \o/ #line:7e7347
+    Mae: :| _o_ #line:33f726
+	<<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 5>>
+	Mae: {align=top,furthestLocator,width=2}"We like to mention that to potential buyers."[/all] #line:5e02cd
+	<<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 6>>
+	Mae: {align=top,furthestLocator,width=2}"There is a lot of screaming." #line:582c59
+	Mae: "[speed=.7][color=999]I mean was."[/all] #line:c023b8
+	<<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 7>>
+	Mae: {align=top,furthestLocator,width=2}In fact, she did it on a night [speed=.7][color=999][shake=.04]JUST LIKE TONIGHT...[/all]-_- #line:317cd1
+    Mae: o_o #line:d76775
+	<<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 8>>
+	Mae: {align=top,furthestLocator,width=2}And that's why I should [wave]go outside.[/all] #line:623215
+	<<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 9>>
+	Mae: {align=top,furthestLocator,emote=maeburn,emoteAlign=middle} #line:493746
+<<endif>>
+===
+title: Mirror_A1D3
+tags: 
+colorID: 2
+position: 2088,1793
+---
+<<fadeOut 1>>
+<<wait 1>>
+<<scene Mirror>>
+===
+title: BedChoice
+tags: 
+colorID: 0
+position: 3789,1092
+---
+<<if $act is 2 and $day is 4 and $night is 1>>
+    Mae: No sleep! Harfest!!! #line:b9a1ee
+<<elseif $act is 1 and $day is 3 and $party_prep>>
+    Mae: No sleep! Party Time! Gotta get ready! #line:051e1a
+<<elseif $night is 0>>
+    [[Bed]]
+<<elseif $act is 1 and $day is 0>>
+    [[Bed]]
+<<else>>
+    Mae: Bedtime? #line:6bed1b
+    [[No|NoBed]] #line:af024e
+    [[Yes|Bed]] #line:0633e1
+<<endif>>
+===
+title: Bass
+tags: 
+colorID: 0
+position: 4063,1090
+---
+<<if $bass_practice_times_today >= 2>>
+    Mae: Thaaaat's enough bass for one day. #line:212bc0
+    <<set $bass_practice_done to 1>>
+<<else>>
+    <<if $bass_practice_times_today is 1>>
+        Mae: Hmm... maybe once more? #line:d85479
+    <<else>>
+        Mae: Could play some bass? #line:165374
+    <<endif>>
+    Mae: But which song? #line:02d34a
+    -> nah... later. #line:7cc20e
+        Mae: maybe. #line:f426b9
+    -> Space Dragon <<if $actday > 0100>> #line:50b676
+        <<if $did_bass_practice_heavy_doze_intro is 0>>
+            <<set $did_bass_practice_heavy_doze_intro to 1>>
+            Mae: WANDERER IN SPAAAAAACE... #line:a4adfd
+            Mae: NOMAD OF FORBIDDEN PLAAAAAACE... #line:c33be3
+        <<endif>>
+        <<runBandPractice 3>>
+    -> Die Anywhere Else <<if $actdaynight >= 01015>> #line:fb9c84
+        <<runBandPractice 0>>
+    -> Cycles <<if $did_gregg_friendship_quest_3 or $did_bea_friendship_quest_4>> #line:2e4016
+        <<if $did_bass_practice_cycles_intro is 0>>
+            <<set $did_bass_practice_cycles_intro to 1>>
+            Mae: That song. You know. That song. #line:5e9324
+        <<endif>>
+        <<runBandPractice 4>>
+    -> Weird Autumn <<if $actdaynight >= 02015>> #line:255175
+        <<runBandPractice 1>>
+    -> Tick Tock <<if $library_charity_bearity > 0>> #line:439b9a
+        <<if $did_bass_practice_tick_tock_intro is 0>>
+            <<set $did_bass_practice_tick_tock_intro to 1>>
+            Mae: Ah yes, Tick Tock. #line:8d3750
+            Mae: That terrible Charity Bearity song about telling time. #line:977ab9
+            Mae: Punched up the lyrics a bit with Gregg back in highschool. #line:331649
+            Mae: Let's see if I can remember all the words... #line:ef5622
+        <<endif>>
+        <<runBandPractice 5>>
+    -> Pumpkin Head Guy <<if $actdaynight >= 03015>> #line:33bfe7
+        <<runBandPractice 2>>
+    -> Go Get Dead, Angel Face <<if $actday > 0103 and $did_get_dead_angel_face_intro is 0>> #line:f9255e
+        <<set $did_get_dead_angel_face_intro to 1>>
+        Mae: Whoa, no. :( -_- #line:6aaaed
+        Mae: No. #line:c95744
+        Mae: No way I'm gonna play that one. #line:d77add
+        Mae: Too embarrassing. #line:556605
+        Mae: :| o_o #line:dcc73a
+    //-> Bass Practice 4 <<if $actday > 0400>>
+    //    <<runBandPractice 6>>
+<<endif>>
+===
+title: NoBed
+tags: 
+colorID: 0
+position: 3805,1659
+---
+Mae: You can't live in bed, Mae. #line:f0ec03
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 2830,1303
+---
+<<if $night is 0>>
+    <<if $mae_room_morning>>
+        <<tell _AmbientSFXMorning Play>>
+    <<else>>
+        <<tell _AmbientSFXDay Play>>
+    <<endif>>
+<<else>>
+    <<tell _AmbientSFXNight Play>>
+<<endif>>
+<<if $day > 0 and $night is 0 and $party_prep is 0 and $woke_up is 0>>
+    <<fadeIn 3>>
+    <<if $act is 4 and $day is 2>>
+        // let the hospital ambience keep playing
+    <<else>>
+        <<if $act is 3>>
+            <<playMusic waking_up_act3>>
+        <<else>>
+            <<playMusic waking_up>>
+        <<endif>>
+    <<endif>>   
+    <<wait 3>>
+    <<waitForInteractOrJump>>
+    <<fadeOutMusic .5>>
+    <<if $act is 4 and $day is 2>>
+        <<fadeOut .5 wait>>
+        <<animationTrigger MaeBed Empty>>
+    <<else>>
+        <<animationTrigger MaeBed WakeUp>>
+        <<wait 3.5>>
+        <<fadeOut .5 wait>>
+    <<endif>>
+    <<show Laptop>>
+    <<animationTrigger MaeBed Idle>>
+    <<warp Mae PlayerStart>>
+    <<snapToFloor>>
+    <<setCameraMode FollowPlayer>>
+    <<if $act is 4 and $day is 1>>
+        <<hide Laptop>>
+    <<elseif $act is 4 and $day is 2>>
+        <<hide Laptop>>
+    <<elseif $act > 1 or $day >= 2>>
+        <<show Laptop>>
+    <<else>>
+        <<hide Laptop>>
+    <<endif>>
+    <<fadeIn .5>>
+    <<set $woke_up to 1>>
+<<else>>
+    <<if $act > 1 or $day >= 2>>
+        <<show Laptop>>
+    <<else>>
+        <<hide Laptop>>
+    <<endif>>
+<<endif>>
+
+<<if $act is 1 and $day is 2>>
+    <<if $enter_mae_room < 010200 and $night is 0>>
+        [[A1D2Morning]]
+    <<endif>>
+<<elseif $act is 1 and $day is 3>>
+    <<if $after_party>>
+        <<animationTrigger MaeBed Sleeping>>
+        <<hide Laptop>>
+        <<hide Player>>
+        [[A1D3AfterParty]]
+    <<elseif $party_prep>>
+        <<set $mirror_done to 0>>
+        <<if $mae_room_party_prep is 0>>
+            [[A1D3PartyPrep]]
+        <<endif>>
+    <<endif>>
+<<elseif $act is 2 and $day is 1>>
+    <<if $enter_mae_room < 020100 and $night is 0>>
+        [[A2D1Morning]]
+    <<endif>>
+<<elseif $act is 2 and $day is 4>>
+    <<if $harfest_prep is 1 and $harfest_costume is 0>>
+        <<set $mirror_done to 0>>
+    <<endif>>
+<<endif>>
+
+<<if $act is 4 and $day is 2>>
+    <<if $night is 0>>
+        <<set $death_walk to 1>>
+        <<playIdleAnimationPlayer>>
+        //<<set $death_prairie_effects to 1>>
+        <<if $enter_mae_room < 040200>>
+            [[A4D2Morning]]
+        <<endif>>
+    <<endif>>
+<<elseif $act is 4 and $day is 3>>
+    <<if $found_pentagrams >= 3>>
+        <<unlockAchievement Thryy_Wyrd_Tyyns>>
+    <<endif>>
+<<endif>>
+
+<<if $act is 3 and $day is 3>>
+    <<unlockAchievement Astral_Secrets>>
+<<endif>>
+
+<<if $act is 2 and $day is 1>>
+    <<unlockDoodle EverythingFeelsBad>>
+    <<unlockDoodle NeverDrink>>
+<<endif>>
+
+<<if $act is 3 and $day is 1>>
+    <<unlockDoodle Ibon1>>
+    <<unlockDoodle Eide1>>
+<<endif>>
+
+<<if $act is 4 and $day is 3>>
+    <<unlockPentagramDoodle>>
+    <<unlockDoodle Ibon3>>
+    <<unlockDoodle Shapes>>
+<<endif>>
+===
+title: DoSleep
+tags: 
+colorID: 0
+position: 3478,1701
+---
+<<close>>
+<<fadeOut .5 wait>>
+<<setCameraMode Stationary>>
+<<camera position 0 0>>
+<<hide Laptop>>
+<<hidePlayer>>
+<<fadeIn .5>>
+<<animationTrigger MaeBed Sleep>>
+<<wait 7>>
+
+[[EndSleep]]
+===
+title: A1D2Morning
+tags: 
+colorID: 2
+position: 2531,1376
+---
+Mae: Wow. It’s been literally 36 hours since I’ve been online. #line:527470
+Mae: This shall not stand. #line:d0c0fb
+<<set $enter_mae_room to 010200>>
+<<fadeOut 1 wait>>
+<<scene Laptop>>
+===
+title: A1D3PartyPrep
+tags: 
+colorID: 2
+position: 2829,1645
+---
+<<set $mae_room_party_prep to 1>>
+Mae: OK ok ok. #line:34ba15
+Mae: It’s go time. #line:1c6fe3
+Mae: Ugh I should probably make sure I don’t look like a cave beast. #line:94f4e1
+===
+title: A1D3AfterParty
+tags: 
+colorID: 2
+position: 3197,1348
+---
+<<set $mirror_done to 1>>
+<<show Bea>>
+Bea: there you go. #line:e6d2e0
+Mae: I'm sorry, Bea. I’m a mess. #line:3df7c4
+Bea: You know? Whatever. #line:208e5a
+Bea: It’s not your fault. #line:96ecaa
+Bea: You're just a kid. #line:a3b28a
+Mae: I'm older than you! Two months! #line:c2c29d
+Bea: Yeah well, #line:4b7d9b
+Bea: I stayed here and got older #line:91603e
+Bea: while you went off and stayed the same. #line:9d4919
+Mae: zzz #line:a7865a
+Bea: *sigh* #line:503330
+Bea: G’night Mayday. #line:0ea5b1
+<<close>>
+[[EndSleep]]
+===
+title: Laptop
+tags: 
+colorID: 0
+position: 2076,1507
+---
+<<fadeOut .5 wait>>
+<<scene Laptop>>
+===
+title: TriggerLaptop
+tags: 
+colorID: 0
+position: 1836,1512
+---
+<<set $trigger_laptop to 0>>
+
+Mae: Let's see if this Angus fix works... #line:1a6732
+Mae: can't get any worse at least. #line:246c71
+Mae: i guess it could be on fire? #line:c6fe5a
+Mae: anyway. #line:3d5618
+<<irisOut 1 wait>>
+<<scene Laptop>>
+===
+title: EndSleep
+tags: 
+colorID: 0
+position: 3161,1654
+---
+<<fadeOut 3 wait>>
+
+<<if $act is 1 and $day is 3>>
+    <<scene AstralAct1Day3>>
+<<elseif $act is 2 and $day is 1>>
+    <<scene AstralAct2Day1>>
+<<elseif $act is 2 and $day is 2>>
+    <<scene AstralAct2Day2>>
+<<elseif $act is 2 and $day is 3>>
+    <<scene AstralAct2Day3>>
+<<elseif $act is 2 and $day is 4>>
+    <<scene BlackoutWoods>>
+<<elseif $act is 3 and $day is 1>>
+    <<scene AstralAct3Day1>>
+<<elseif $act is 3 and $day is 2>>
+    <<scene AstralAct3Day2>>
+<<else>>
+    <<endDay>>
+<<endif>>
+===
+title: Mirror_A2D4
+tags: 
+colorID: 3
+position: 2079,2258
+---
+<<fadeOut 1>>
+<<wait 1>>
+<<scene Mirror>>
+===
+title: Mirror_A2D1
+tags: demo2
+colorID: 3
+position: 2082,2027
+---
+Mae: Oh good. #line:0ca0d4
+Mae: I was right. #line:cd1c65
+Mae: I look like utter hell. #line:d8f5db
+Mae: BURN IT! #line:cfe544
+<<set $mirror_done to 1>>
+===
+title: A2D1Morning
+tags: demo2
+colorID: 3
+position: 2538,1642
+---
+<<set $enter_mae_room to 020100>>
+<<set $mirror_done to 0>>
+Mae: =_= #line:297513
+Mae: Well #line:71032c
+Mae: that was a weird one. #line:31fabd
+Mae: I feel awful. #line:f6439d
+Mae: :\ #line:df2910
+Mae: I probably look awful. #line:c09536
+Mae: Ugh. #line:044650
+Mae: I'm gonna burn this room down. #line:cb2c74
+Mae: o_o #line:80183e
+Mae: With me in it. #line:0f0a0d
+Mae: Live out my remaining days as a shrieking ghost. #line:18afa3
+Mae: Yup. #line:12291f
+Mae: :| #line:d0dffe
+<<unlockDoodle FireGhost>>
+<<unlockDoodle EverythingFeelsBad>>
+<<unlockDoodle NeverDrink>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 2746,1034
+---
+<<set $mirror_done to 1>>
+
+<<if $day > 0 and $night is 0 and $party_prep is 0 and $woke_up is 0>>
+    <<hidePlayer>>
+    <<setCameraMode Stationary>>
+    <<camera position 0 0>>
+    <<hide Laptop>>
+    <<animationTrigger MaeBed WakeUpIdle>>
+<<endif>>
+===
+title: A4D2Morning
+tags: 
+colorID: 0
+position: 2603,1911
+---
+<<set $enter_mae_room to 040200>>
+Mae: Urg. #line:32b978
+<<close>>
+<<fadeOut 1 wait>>
+<<overrideLoadingScreenType Blank>>
+<<scene MaeStreet>>
+===
+title: EndBassPractice
+tags: 
+colorID: 0
+position: 4353,1097
+---
+<<if $quit_bass_practice>>
+<<else>>
+    <<if $bass_practice_right is 100>>
+        Mae: Um, that was pretty much perfect. #line:9ef632
+    <<elseif $bass_practice_right > 90>>
+        // player did pretty alright!!
+        Mae: Not bad considering I don't know how to play this song! #line:eaa421
+    <<elseif $bass_practice_right < 50>>
+        // player played less than 50% of the notes registered
+        Mae: I don't even know how to play this song. Why am I doing this. #line:2c6a9e
+    <<elseif $bass_practice_right < 20>>
+        // player probably mashed random buttons for the whole song
+        Mae: Well... #line:6da361
+        Mae: Yeah, that wasn't good. #line:38d6d1
+    <<elseif $bass_practice_right < 50>>
+        // pretty baaaad
+        Mae: Ouch. #line:bfac2b
+    <<else>>
+        // a catch-all for doing pretty meh
+        Mae: I literally do not know this song. #line:9b88f4
+    <<endif>>
+    
+    // unlock doodles if player did well enough
+    <<if $bass_practice_right > 90>>
+        <<if $bass_practice_song_index is 3>>
+            <<unlockDoodle SpaceDragon>>
+        <<elseif $bass_practice_song_index is 4>>
+            <<unlockDoodle Cycles>>
+        <<elseif $bass_practice_song_index is 5>>
+            <<unlockDoodle CharityBearity>>
+        <<endif>>
+    <<endif>>
+    
+    <<if $bass_practice_song_index is 0>>
+        // die anywhere else
+    <<elseif $bass_practice_song_index is 1>>
+        // weird autumn
+    <<elseif $bass_practice_song_index is 2>>
+        // pumpkin head guy
+    <<elseif $bass_practice_song_index is 3>>
+        // Space Dragon
+    <<elseif $bass_practice_song_index is 4>>
+        // Cycles
+    <<elseif $bass_practice_song_index is 5>>
+        // Tick Tock
+    <<endif>>
+<<endif>>
+===

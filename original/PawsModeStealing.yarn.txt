@@ -1,0 +1,100 @@
+title: Caught
+tags: demo2
+colorID: 0
+position: 515,200
+---
+<<if $caught_stealing is 0>>
+    URevClerk: MGM, R M0FY BAM U0M04J? #line:7aa783
+    Mae: [shake=.01]XA-XA-XA-XA-XA-XA-XA-XA! HET, R B U0PRDKE.[/shake] #line:6ac045
+    <<set $caught_stealing += 1>>
+<<elseif $caught_stealing is 1>>
+    URevClerk: BAM HAD0 HA 4T0-T0 B3FVRHYTJ? #line:bf1234
+    Mae: [shake=.03]XA XA XA XA HEEE R UP0CT0 CM0TP% BCE H0PM[/shake] #line:deb52a
+    Bea: *R DYMAVA, TJ1 CKA3AVA, 4T0 3AMPEQJ, K0FDA 0HA C%DA U0CM0TPNT* #line:b20035
+    Mae: HE 0CYSDAL MEHR! #line:10c77a
+    <<set $caught_stealing += 1>>
+<<elseif $caught_stealing is 2>>
+    URevClerk: TJ1 N UPABDA U0X0SA HA T0F0, KT0 U0UP06YET B0CU0VJ30BATJCR PYK0L. #line:64a29c
+    Mae: [shake=.05]XA-A-XA-XA-A-XA-XA-A-A! BCE X0P0Q0.[/shake] #line:5d366c
+    <<set $caught_stealing += 1>>
+<<elseif $caught_stealing is 3>>
+    URevClerk: G-G... #line:79dd78
+    Mae: [shake=.06]UP0CT0 CM0TP%. XA-XA-XA-XA-XA![/shake] #line:0a7cc7
+    Bea: *B 06WEM, 0T6PACJ1BAEQJ UVAH "3AMEPETJ, K0FDA 0HA CM0TPNT?"* #line:846288
+    Mae: 3ATKHNCJ, TJ1 MEQAEQJ MHE CK0HOETPNP0BATJCR #line:f04ecc
+    <<set $caught_stealing += 1>>
+<<elseif $caught_stealing is 4>>
+    URevClerk: BJ1 YBEPEHJ1, 4T0 BAM HE HYSHA... #line:690c52
+    Mae: [shake=.08]GL! XA-XA-XA-XA![/shake] #line:92ef9e
+    URevClerk: MGM, 4T0 CMEQH0F0? #line:af9c0f
+    Mae: [shake=.02]XA XA XA[/shake] #line:3eee96
+    <<set $caught_stealing += 1>>
+<<else>>
+    URevClerk: X0TNTE, 4T06J1 R... #line:3efdec
+    Mae: [shake=.1]XA-XA-XA! GL![/shake] #line:c1c740
+    URevClerk: GL? #line:b5a3a4
+    Bea: GL. #line:0b1859
+    Bea: TJ1 3AK0H4NVA? #line:b5b989
+    [[TCCCCCC|NotDone]] #line:936c23
+    [[GG, DA, K0HE4H0|Done]] #line:8cc399
+<<endif>>
+===
+title: Complete
+tags: demo2
+colorID: 0
+position: 798,196
+---
+Mae: QNKAAAPH0. :) #line:91284e
+// $urev_theft will be 1
+<<fadeOut 1 wait>>
+<<scene URev>>
+===
+title: EnterLevel
+tags: demo2
+colorID: 0
+position: 244,221
+---
+<<if $urev_theft is 0>>
+    Bea: TAAAAK... TJ1 N BUPABDY GT0 DEVAEQJ? #line:b2a924
+    Mae: TNQE. YCU0K0LCR. #line:80d06b
+    ->B0P0BATJ B MAFA3NHE - GT0 DASE HE CEPJE3H0.. #line:743f1d
+        Bea: DYMA%, TE6R U0CADRT 3A GT0. #line:e793d0
+        Mae: R NMEVA B BNDY, 4T0 GT0 UP0CT0 CDEVATJ. #line:03bcaf
+    ->GT0 HE UEPB0E M0E UPECTYUVEHNE. #line:4ca5df
+        Bea: A KAKNE EWE UPECTYUVEHNR TJ1 C0BEPQAVA? #line:56dbf7
+        Mae: MAFA3NHHAR KPASA. #line:3f0abc
+        Mae: BAHDAVN3M. #line:27fdc6
+        Mae: UNPATCTB0. #line:867ee9
+        Mae: MAFA3NHHAR KPASA UPRM0 CEL4AC. #line:100cbe
+        Mae: B 06WEM, DEVA% T0, 4T0 U0VEF4E. #line:1fffae
+        Bea: KAK GTA TYUN3HA M0SET 6J1TJ "U0VEF4E"? #line:effb89
+    Mae: HAQN FVA3A UPNCU0C06NVNCJ 3AME4ATJ V%60E DBNSEHNE. #line:901ac0
+    Bea: KAK  DNH03ABPJ1? #line:40dee5
+    Mae: ECVN DNH03ABP DBNFAETCR! #line:1d2bde
+    Bea: U0F0DN, GT0 HE... A, 3A6YDJ. #line:c95f18
+    Mae: TAK 4T0 HAD0 C0XPAHRTJ CU0K0LCTBNE, K0FDA UP0DABEO HA6V%DAET... #line:54c672
+    Bea: TJ1, TNUA, 3AMPEQJ, K0FDA 0HA 6YDET CM0TPETJ C%DA?.. #line:12d240
+    Bea: DASE ECVN YSE 6YDEQJ 3AC0BJ1BATJ UPRSKY CE6E B KAPMAH?.. #line:da21cf
+    Bea: N GT0 CPA60TAET, U0T0MY 4T0... DNH03ABPJ1? #line:969d75
+    Mae: UP0CT0. KAK. DNH03ABPJ1. #line:d8ab4c
+    Bea: R UPNTB0P%CJ, 4T0 HE 3HA% TE6R, U0KA TJ1 HE 3AK0H4NQJ, NDET? #line:6027a3
+<<endif>>
+===
+title: NotDone
+tags: demo2
+colorID: 0
+position: 695,483
+---
+Mae: 3ATKHNCJ 3ATKHNCJ 0CTAV0CJ C0BCEM 4YTJ-4YTJ 3ATKHNCJ #line:782b19
+===
+title: Done
+tags: demo2
+colorID: 0
+position: 452,463
+---
+Mae: U0VHJ1L 0TCT0L #line:b15b8d
+Mae: R BCE #line:907ed9
+// $urev_theft will be 0
+<<irisOut 1 wait>>
+<<scene URev>>
+===

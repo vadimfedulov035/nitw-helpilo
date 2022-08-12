@@ -1,0 +1,47 @@
+title: Convo1
+tags: 
+colorID: 0
+position: -225,802
+---
+Mae: TAK 4T0 CVY4NV0CJ? #line:cab3be
+Bea: MJ1 BJ13BAVN K0U0B. #line:ba6580
+Bea: TB0R TETR N KAK0L-T0 4EV BJ1TAWNVN TE6R N3 VECA. #line:2b83dd
+Angus: TJ1 KAK 6YDT0 6J1VA B K0ME #line:c635c2
+Gregg: TJ1 YMEPVA? #line:02bae2
+Mae: HE. UP0CT0 HAD0VF0 3ADPEMAVA. #line:2342a6
+Gregg: KVEB0. #line:e629a8
+Bea: YZ. #line:7f6506
+Bea: DA. KPYT0. #line:7b5857
+<<close>>
+<<tell GreggFoodPaw AnotherBite>>
+<<tell AngusFoodPaw AnotherBite>>
+<<tell BeaFoodPaw AnotherBite>>
+<<tell GermFoodPaw AnotherBite>>
+===
+title: Convo2
+tags: 
+colorID: 0
+position: 29,798
+---
+Mae: MHE CHNVCR C0H #line:d40185
+Mae: NVN 4T0-T0 TNUA BNDEHNR #line:36722f
+Mae: NVN UYTEQECTBNE B0 BPEMEHN. #line:29f270
+Mae: HE 3HA%. R 6YDT0 6J1VA B C03HAHNN N HE B HEM. #line:7c100b
+Gregg: TJ1 HE M0SEQJ ECTJ? #line:2d55d6
+Bea: TE6E HAD0 U0ECTJ. #line:5a6781
+Mae: HE 3HA%, CM0FY VN. #line:c46f81
+<<irisOut 1 wait>>
+<<set $night to 1>>
+<<scene GreggAngusApartment>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: -490,806
+---
+<<wait 1>>
+<<tell GreggFoodPaw Reach>>
+<<tell BeaFoodPaw Reach>>
+<<tell AngusFoodPaw Reach>>
+<<tell GermFoodPaw Reach>>
+===

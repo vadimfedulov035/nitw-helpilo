@@ -1,0 +1,588 @@
+title: EnterLevel
+tags: 
+colorID: 3
+position: -768,6043
+---
+<<if $fort_lucenne_mall is 0>>
+    // intro
+    <<warp Mae MaeOffRight>>
+    <<wait .01>>
+    <<playerCanRun 0>>
+    <<playerCanJump 0>>
+    <<playerFace -1>>
+    <<flip Bea -1>>
+    <<setCanInteract Bea 0>>
+    <<set $fort_lucenne_mall to 1>>
+    [[Intro]]
+<<elseif $fort_lucenne_mall is 1>>
+    // after the not topic, first time
+    <<set $fort_lucenne_mall to 2>>
+    <<warp Bea BeaNotTopic2>>
+    <<warp Player MaeNotTopic2>>
+    <<playerFace -1>>
+    [[AfterMaeSteals]]
+<<elseif $fort_lucenne_mall is 2>>
+    <<playerCanRun 0>>
+    <<playerCanJump 0>>
+    <<setCanInteract Bea 0>>
+    <<if $after_bea_steals>>
+        <<warp Bea BeaMusicStore>>
+        <<generateFollowPoints Mae Bea>>
+        <<follow Bea Mae>>
+    <<else>>
+        <<set $after_bea_steals to 1>>
+        <<warp Bea Bea3>>
+        <<warp Player Mae3>>
+        <<playerFace -1>>
+        [[AfterBeaSteals]]
+    <<endif>>
+<<elseif $fort_lucenne_mall is 3>>
+    // they're eating in the cafeteria
+    <<fadeOut 0>>
+    <<setCanInteract Bea 0>>
+    <<warp Bea BeaCafeteria>>
+    <<warp Player MaeNotTopic2>>
+    [[DinnerConversation]]
+<<elseif $fort_lucenne_mall is 6>>
+    // walking out of the not topic for the last time
+    <<warp Mae MaeNotTopic>>
+    <<warp Bea BeaNotTopic>>
+    <<walk Bea BeaNearExit>>
+    <<walk Mae MaeNearExit>>
+    [[WalkOutConversation]]
+<<endif>>
+===
+title: TriggerNotTopic
+tags: demo2
+colorID: 3
+position: -250,6675
+---
+Mae: :) O_O #line:be5f2c
+Mae: OH MY GOD. #line:fbc79c
+Mae: The UREV is still here! #line:c244dd
+Bea: Ha ha yeah. This old thing. #line:2febd7
+Mae: I can feel the edginess from here. #line:f00a93
+Bea: Just looking in there makes me feel old. #line:071d18
+Mae: We are so gonna do this. #line:fe2c8c
+Bea: There is no way I'm going in there. #line:390083
+<<fadeOut 1 wait>>
+<<scene URev>>
+===
+title: LookAtSomeStore
+tags: demo2
+colorID: 3
+position: -168,6365
+---
+Mae: #line:8ad7dd
+<<lookUp Mae>>
+Mae: And yet Dollar Empire is still here?! #line:ffa495
+Bea: I think this is one thing the internet can't compete with. #line:c15121
+    ->I guess.   #line:f13330
+    ->I used to go in here when I was a kid #line:1533c3
+        Mae: You could get an eraser for a dollar, :) #line:2f2cbc
+        Mae: a pencil for a dollar, #line:dc30cc
+        Bea: that actually doesn't sound like a good deal #line:733911
+        Mae: Oh god you're right. :( #line:a3815a
+<<lookNearest Mae>>
+<<end>>
+===
+title: Cafeteria
+tags: demo2
+colorID: 3
+position: 69,6360
+---
+Bea: You up for eating? #line:70fb81
+[[Let's check out the rest of the mall first.|EatLater]] #line:caceeb
+[[Yeah!|EatNow]] #line:a087c3
+===
+title: EatLater
+tags: demo2
+colorID: 3
+position: 343,6273
+---
+Mae: Work up an appetite. #line:3a4911
+Bea: I was kinda hungry when we got here... #line:6394e2
+===
+title: EatNow
+tags: demo2
+colorID: 3
+position: 351,6588
+---
+Mae: Let's eat! \o/ #line:4ff7d2
+Bea: Ok. #line:b89e1a
+Mae: _o_ #line:8e41f7
+Mae: I expected more excitement. #line:2a8493
+Bea: Mall food court dinner. #line:4e1d37
+Bea: Oh what a feeling. #line:2f38a3
+Mae: See? That wasn't hard. #line:fcba11
+<<close>>
+<<set $fort_lucenne_mall to 3>>
+<<fadeOut .5 wait>>
+[[DinnerConversation]]
+===
+title: DinnerConversation
+tags: demo2
+colorID: 3
+position: 66,6648
+---
+<<close>>
+<<stopFollowing Bea>>
+<<warp Mae MaeCafeteria>>
+<<sit2>>
+<<warp Bea BeaCafeteria>>
+<<flip Bea 1>>
+<<sit2 Bea>>
+<<wait 1>>
+<<fadeIn .5 wait>>
+Bea: What did you get? #line:a1a69c
+Bea: You inhaled it before I got a look. #line:4e3eb3
+	-> Pizzataco from Go-fer #line:f6fa0f
+		Bea: Go-fer is some GOOD garbage food. #line:315c9b
+		Mae: Yeah I wish we'd get one in town. #line:265c9c
+		Bea: Oooh that would be bad for me. #line:ad56eb
+		Mae: It'd be worth it. #line:ca7c33
+	-> Pierogiburger from Smelterburger #line:dc5030
+		Bea: That's just a big pile of carbs and meat, huh? #line:4ac4ca
+		Mae: Isn't that what WE are? #line:b6350e
+		Bea: Bones too. #line:d8903c
+		Mae: I don't want bones in my burger. #line:f8a4e7
+<<close>>
+<<wait 2>>
+Bea:{emote=cloud_rain} #line:1b19a0
+Mae: What? #line:cd2e4e
+Bea: ... #line:e536d0
+Mae: Remember when Cathy Daminco pulled out Cindy Clark's nosering here? #line:6e611a
+Bea: You know what that was about, right? #line:71e812
+Mae: Wasn't Cathy pregnant with... what was his name... football guy... #line:8fe6f7
+Bea: Ron Boonstra. I didn't know you knew about that. #line:8ef90d
+Mae: Well I mean there was the first football game of our senior year #line:2de60b
+Mae: and Ron ran up to the sideline and yelled at the stands #line:16ae6d
+Mae: "MY FIRST TOUCHDOWN'S FOR MY BEAUTIFUL FIRSTBORN AND HIS MOMMY, CATHY DAMINCO" #line:1cbae4
+Bea: That's... something. #line:8f2c0a
+Mae: Cathy was in marching band and she was crying I think. #line:09f0f5
+Mae: And then he dumped her for Cindy a week later. #line:6dbcc1
+Bea: Oh yeah, see that's the part I know about. #line:44cb79
+Bea: That's what set off the whole nosering situation. #line:5aca4a
+    -> I wonder what Cathy's up to now? #line:abcfc9
+        Bea: Well, last year Ron had this ATV accident #line:c585ff
+        Bea: and somehow Cathy and him got to talking after that #line:b8ffe1
+        Bea: and... they got married! #line:cef3e9
+        Mae: Huh. :\ #line:3c4672
+        Bea: Yeah Ron's parents set them up out in a double wide out in Briddle #line:e93140
+        Bea: since Cathy refused to end up in Possum Springs. #line:b165e1
+        Mae: Briddle's like... 15 minutes away. #line:ca5711
+    -> I wonder what Ron's doing? #line:09a6c3
+        Bea: Uh, last year he flipped his ATV #line:14e300
+        Bea: and the medical bills were really high #line:e3d728
+        Bea: so his parents basically had to bail him out. #line:08d01f
+        Mae: Yeah that'll happen. :\ #line:2ed9e0
+        Bea: And he got talking to Cathy again and now they're married. #line:a8bcde
+        Bea: Worked out for Ron I guess. #line:58bc90
+    ->I wonder what happened to Cindy? #line:a1a9e0
+        Bea: I imagine she got a new nosering. #line:bac673
+        Bea: Or, conversely, never wanted a nosering ever again. #line:f23eaf
+Bea: You know what the worst part of this story is? #line:a7e2db
+    -> The sordid highschool drama? #line:1f2f71
+    -> Cindy having something ripped out of her face? #line:966694
+    -> Ron? #line:6ac101
+Bea: At the time I was like #line:4a3cff
+Bea: "god moves things around in the strangest ways to bring two people together"   #line:1c59e4
+Mae: :| #line:9a9d9c
+    -> Hm. I guess. #line:bf2429
+        Bea: Well, it used to make things make more sense at least. #line:e60ba3
+    -> I don't know if I even believe in god. #line:015297
+        Bea: Same, really. #line:84ebb8
+Bea: Thinking about this place- the fountain and the god-walkway and stuff... #line:bf12a9
+Bea: Not knowing how something worked used to seem like... magic. #line:ed0919
+Bea: Now not knowing means it might be going wrong and I may not be able to fix it. #line:6e936e
+Bea: Helped knowing someone was at the controls, you know? #line:ec9122
+Bea: Now I'm just tired all the time from the shop. #line:cb9252
+Mae: When I was at school... #line:018721
+Bea: Yeah? #line:c0d56f
+Mae: Ah, don't even want to talk about it. #line:a91aea
+Bea: What happened, anyway? #line:f0af0e
+Mae: ... #line:1f905a
+<<close>>
+<<wait 2>>
+Mae: You want to run around the mall some more? #line:29b0fd
+Bea: Uh... there's not really much else to run around. #line:ded32d
+Mae: We can check out the weird bad art upstairs! #line:e3fd0e
+Mae: I wanna touch it. #line:33d0ee
+Bea: Please don't. #line:a40a09
+Mae: I wanna run! :) #line:5d0512
+Bea: You run. I'm gonna sit here. #line:ac0fcf
+Bea: I'm tired. And sad now. #line:8628ed
+Mae: :| #line:ff0c2a
+Mae: Suit yourself. #line:6df18f
+[[DinnerConversationEnd]]
+===
+title: DinnerConversationEnd
+tags: 
+colorID: 3
+position: 100,6942
+---
+<<playerCanRun 1>>
+<<playerCanJump 1>>
+===
+title: FountainDone
+tags: demo2
+colorID: 3
+position: 1108,6555
+---
+<<closeAll>>
+<<tell Fountain Stop>>
+<<fadeOutMusic 3>>
+<<wait 3>>
+// feedback noise, crackly, echoey, overblown V/O and a bit of screenshake when she talks?
+<<playOneShot event:/fort_lucenne_mall/microphone_feedback>>
+Mae: {size=1.2,locator=MaeGodTalk}[shake=.03]BEATRICE SANTELLO!!![/shake] #line:c3fe54
+Bea: {locator=BeaFountainTalk}Ha ha ha ha!!! Don't give them our names! #line:d46596
+Mae: {locator=MaeGodTalk}... #line:17b246
+Mae: {locator=MaeGodTalk}[shake=.03]BEATRICE JONES!!![/shake] #line:c5d9e5
+Bea: {locator=BeaFountainTalk}Oh wow! Is that you, god? #line:259c07
+Mae: {locator=MaeGodTalk}[shake=.03]YES! IT IS I, GOD STEVENSON[/shake] #line:c463b5
+Bea: {locator=BeaFountainTalk}I didn't know you had a last name! #line:410ec8
+Mae: {locator=MaeGodTalk}[shake=.03]SILENCE, MORTAL[/shake] #line:bf69c4
+Mae: {locator=MaeGodTalk}[shake=.03]THROUGH MY FISH MONSTER I HAVE LAIN WASTE TO YOUR KIND[/shake] #line:854ffb
+Bea: {locator=BeaFountainTalk}I'm not gonna lie- that was pretty magical. #line:2ae863
+Mae: {locator=MaeGodTalk}[shake=.03]SILENCE! I SHAN'T SAY IT AGAIN![/shake] #line:f9dbb8
+Mae: {locator=MaeGodTalk}[shake=.03]YOU AND YOUR GOOD AND NOBLE COMPANION SHALL GET ICE CREAM ON THE WAY HOME[/shake] #line:cda151
+Bea: {locator=BeaFountainTalk}HA HA HA yeah we should probably get out of here #line:563acf
+Bea: {locator=BeaFountainTalk}HA HA HA HA before you're ARRESTED #line:644588
+Bea: {locator=BeaFountainTalk}[shake=.03]AH HA HA HA HA HA HA HA HA[/shake] #line:f25338
+Mae: {locator=MaeGodTalk}[shake=.03]THE COPS SHALL BE CONFUSED AND STUFF AND BEAT EACH OTHER UP[/shake] #line:dd4df8
+Mae: {locator=MaeGodTalk}[shake=.03]FOR I AM GOD, AND I HATE THE COPS[/shake] #line:a64f91
+Bea: {locator=BeaFountainTalk}Ok ok! Get down here! #line:f74606
+Mae: {locator=MaeGodTalk}[shake=.03]HAVE A GOOD ONE, MORTAL[/shake] #line:3d3dcd
+<<close>>
+<<unlockDoodle BeaFQ1>>
+<<set $bea_bubble_data to 0>>
+<<set $fort_lucenne_mall to 5>>
+<<fadeOut 1 wait>>
+<<scene URev>>
+===
+title: WalkOutConversation
+tags: demo2
+colorID: 3
+position: -753,6419
+---
+<<wait 1>>
+Mae: This place used to be something. #line:2d52bf
+Bea: I mean, it's still *something*. #line:e7e76e
+Mae: Nah. Just a big mostly-empty thing #line:afa1a5
+Mae: in a big mostly-empty parking lot. #line:ca1764
+Bea: Well, you work with what you have. #line:d2ae54
+Mae: Let's never come here again. #line:7e31dd
+Bea: Don't have to convince me. #line:405c44
+Bea: I only came here because you wanted to. #line:b26986
+Mae: Well, Fort Lucenne used to be something #line:36f012
+Mae: now Fort Lucenne's over. #line:a632f6
+Bea: Let's go. #line:bf54d2
+Bea: Let it die in peace. #line:ee8dcc
+Mae: Let. It. Die. #line:38fb3b
+Mae: I wanna drive on the way home. #line:02466d
+Bea: Nope. #line:781a14
+<<fadeOut 1 wait>>
+<<set $night to 1>>
+<<set $did_bea_friendship_quest_1 to 1>>
+<<set $completed_bea_friendship_quests += 1>>
+<<if $demo2>>
+    <<scene ShowJournalDoodles>>
+<<else>>
+    <<scene MaeHouse left>>
+<<endif>>
+===
+title: Intro
+tags: demo2
+colorID: 3
+position: -1002,6392
+---
+<<set $fort_lucenne_mall_blocker_right_disabled to 1>>
+<<wait 3>>
+<<run Mae MaeNearExit>>
+Mae: :) #line:c0ed63
+Mae: [wave]FORT LUCEEEEEEEEEEENNE!!![/wave] \o/ -_- #line:eaad12
+Mae: O_O :(  #line:d556d3
+<<walk Bea BeaNearExit>>
+Mae: Oh my god. #line:a8b989
+Bea: Yep. #line:c6f51a
+Mae: _o_ #line:072e9c
+Mae: What the hell happened? #line:c07859
+Bea: Um... The Internet? #line:016bab
+<<run Mae MaeNearExitStairTop>>
+Mae: We had the internet when we used to come here! #line:23caee
+Mae: WHAT HAPPENED TO THE CAROUSEL?! #line:c5c6ab
+<<waitForMove Bea>>
+<<walk Bea BeaNearExitStairTop>>
+Bea: Sold it I guess. #line:25b4a2
+Mae: WHO BUYS A CAROUSEL?! #line:5c0fac
+Bea: Nobody who comes here. #line:88985e
+Mae: WHAT HAPPENED TO THE BOOKSTORE?! #line:7fb785
+Bea: Also the internet. #line:417db6
+Mae: WHAT HAPPENED TO THE ARCADE?! #line:c6bc11
+Bea: I'm going to make a sign that says "The Internet"  #line:b6b580
+Bea: and hold it up until you're done asking. #line:b4c9c9
+<<waitForMove Bea>>
+<<walk Bea BeaNotTopic>>
+<<set $fort_lucenne_mall_blocker_right_disabled to 0>>
+===
+title: AfterBeaSteals
+tags: demo2
+colorID: 3
+position: -495,6419
+---
+<<playerUpdateFallDuringInteract 1>>
+Bea: :( #line:48eb20
+Bea: Why did I do that? #line:d1b96b
+Mae: -_- :) #line:860a20
+Mae: You did so well Bea!!! #line:145cae
+Bea: I call the cops on shoplifters at my OWN STORE! #line:0a4e32
+Bea: This... #line:4503f1
+Mae: o_o #line:47a807
+   -> What did you get? #line:e53fc2
+        Bea: Some kind of necklace thing? #line:0a1eb5
+        Mae: nice, nice #line:1936cd
+        Bea: Oh god. #line:c5fb28
+    -> Haven't you even shoplifted before? #line:11fa2f
+        Bea: No! Never! #line:3c5a96
+        Mae: Ok now you're making *me* feel weird about it. #line:c0e07c
+        Bea: ...sorry? #line:cb5ae4
+Mae: Forget it. We're home free. #line:de20ba
+Bea: Really? #line:a35824
+Mae: Yeah we're like out in open waters now. #line:07a625
+Bea: I feel kinda sick. #line:07f724
+Mae: Let's walk it off. #line:fd9607
+Bea: :| #line:3050eb
+Mae: :| #line:360f30
+<<generateFollowPoints Mae Bea>>
+<<follow Bea Mae>>
+<<playerUpdateFallDuringInteract 0>>
+===
+title: AfterMaeSteals
+tags: demo2
+colorID: 3
+position: -426,6101
+---
+<<if $urev_theft is 0>>
+    Mae: =_= :( #line:6cda65
+    Bea: Mae Borowski. I do de-clare. #line:e67bc2
+    Bea: I thought you were like a master criminal or something #line:8bd6b7
+    Mae: Shut up #line:0450b8
+    Bea: because [wave]dinosaurs!!![/wave] #line:acf9b2
+    Mae: I'm rusty! Or she's like a superhuman. #line:222231
+    Mae: Whatever. #line:b7c3e5
+    Bea: Well you know. Can't be good at everything. #line:32b200
+    Bea: Gotta let some dreams go. #line:f5725c
+<<else>>
+    Mae: Aw yeah. Sweet belt buckle I am never, ever going to wear. #line:df76e5
+    Mae: Rubs against my stomach. #line:089f51
+    Bea: This is bad, Mae. #line:39c403
+<<endif>>
+Mae: o_o :| #line:f0101a
+Mae: You should steal something now! #line:308d01
+Bea: Pardon? #line:f20ff3
+Mae: Haven't you ever done like *ANY* crimes? #line:ac90b5
+Bea: I mean yeah I guess. Hasn't everyone? #line:e05ee0
+Mae: WELL GET BACK IN THERE, CHAMP! :) #line:9052e1
+Bea: What? No. #line:611182
+Mae: Beatrice, let me lay this out: #line:e1b557
+Mae: 1. The security cameras aren't even on in there. #line:f5346c
+Mae: 2. The cashier clearly isn't paying attention. #line:b659a3
+<<if $urev_theft is 0>>
+    Bea: Seemed vigilant enough for you. #line:e834dd
+    Mae: -_- #line:5dcfc6
+    <<wait 1.5>>
+    Mae: anyway #line:896c15
+    Mae: o_o #line:64d425
+<<endif>>
+Mae: 3. There is not one Mall Cop here as far as I can tell. #line:90b4c7
+Bea: I dunno... I mean... hmmm #line:aa77a3
+Mae: BEA. THIS IS AN EXPERIENCE. #line:dc5f60
+Mae: HAVE IT. #line:39d790
+Mae: I'll run interference! #line:bec4ec
+Bea: Ok... but I'm blaming you and driving away if I get caught. #line:b91f78
+Mae: Perfect! \o/ #line:8478de
+<<fadeOut 1 wait>>
+<<scene URev>>
+===
+title: BeaReactsToSplash1
+tags: demo2
+colorID: 0
+position: 873,5500
+---
+Bea: {locator=BeaFountainTalk,emote=interrobang} #line:12dbef
+Bea: {locator=BeaFountainTalk}Oh my god. #line:64df05
+===
+title: BeaReactsToSplash2
+tags: demo2
+colorID: 0
+position: 1112,5500
+---
+Bea: O_O :) #line:9f8e5d
+Bea:{locator=BeaFountainTalk}Holy crap! #line:8885f7
+===
+title: BeaReactsToSplash3
+tags: demo2
+colorID: 0
+position: 871,5749
+---
+Bea:{locator=BeaFountainTalk}How... h... hee hee... heeheeheehee #line:05fd79
+===
+title: BeaReactsToSplash4
+tags: demo2
+colorID: 0
+position: 1109,5754
+---
+Bea:{locator=BeaFountainTalk}Ha ha MAE I KNOW THAT'S YOU! #line:980a3f
+===
+title: FountainStart
+tags: demo2
+colorID: 3
+position: 505,5758
+---
+<<set $bea_bubble_data to 1>>
+<<setSpriteLayer Bea BG0>>
+Mae: Oh wow. #line:2585d5
+Mae: Is this...? #line:2d7bdd
+<<close>>
+<<tell ColorFadeSprites Set>>
+<<musicFadeOut 3>>
+<<wait 3>>
+<<playMusic fish_fountain>>
+<<wait 1>>
+Mae: heh heh #line:df482e
+Mae: hee hee #line:14ac59
+Mae: HA HA HA HA HA HA #line:39bfe8
+Mae: faaaaaaaantastic. #line:bd5bd6
+<<tell Fountain Run>>
+Bea: Whoa hey #line:029692
+===
+title: BeaReactsToSplash8
+tags: 
+colorID: 0
+position: 1108,6240
+---
+[[FountainDone]]
+===
+title: ClosedStore1
+tags: demo2
+colorID: 3
+position: 42,6082
+---
+Mae: #line:d0d061
+<<lookUp Mae>>
+Mae: What happened to- #line:9acde2
+Bea: Internet. #line:ec10c7
+<<lookNearest Mae>>
+<<end>>
+===
+title: BeaReactsToSplash5
+tags: demo2
+colorID: 0
+position: 873,5993
+---
+Bea:{locator=BeaFountainTalk}[shake=.04]AH HA HA HA HA MAE HOW ARE YOU DOING THAT?![/shake] #line:f6c76f
+===
+title: BeaReactsToSplash6
+tags: demo2
+colorID: 0
+position: 1108,5999
+---
+Bea:{locator=BeaFountainTalk}[shake=.04]HA HA HA STOP IT I'M GONNA DIE HA HA HA HA HA[/shake] #line:274745
+===
+title: BeaReactsToSplash7
+tags: demo2
+colorID: 0
+position: 872,6236
+---
+Bea:{locator=BeaFountainTalk}[shake=.04]OK OK SOMEONE'S GONNA CALL THE COPS HA HA HA HA HA HA HA HA HA[/shake] #line:77a443
+===
+title: PastFountain
+tags: demo2
+colorID: 3
+position: -444,5782
+---
+Mae: wow. I completely forgot about this giant fish head. #line:9c8485
+Bea: oh my god. I loved her. #line:4e9b93
+Mae: Did you ever come to the Summer Daze thing here? #line:40dac3
+Bea: Yeah it'd like squirt people. I still have no idea how they did that. #line:b680c1
+-> I always assumed it was some guy in there with a squirt gun. #line:fe46e5
+    Bea: No, it was totally a fountain they tricked out to squirt people. #line:7ae4a3
+    Mae: That's amazing. #line:48258c
+-> One time I saw it knock a guy down. #line:2e06f0
+    Bea: Yeah every year that would happen and someone would make a fuss. #line:916d6a
+    Bea: But like. I dunno. #line:0d4c42
+    Bea: You showed up to be squirted by a fish fountain. #line:5652a0
+Bea: Heh heh. You know the walkway way up there #line:bb9acb
+Bea: past the upper food court thing #line:20b1f8
+Bea: up in the atrium? #line:4f7fd8
+Mae: The what? #line:b54b25
+Bea: The ceiling. The glass part that points up. #line:dd342a
+-> I know what an atrium is. #line:cbadfb
+    Bea: uh huh #line:240abd
+    Bea: anyway #line:da6166
+-> yeah? #line:528195
+Bea: When I was a kid I thought that that's where god lived. #line:f848a2
+Mae: Wow. #line:3b8bac
+Bea: I dunno. Just remember staring at it when I was a kid. #line:b4397a
+Bea: Like, eating a burger #line:15ec3e
+Bea: and trying to see if I could see God  #line:a1ad4a
+Bea: like peeking over or something. #line:ae74f5
+<<extraZoom -3 4>>
+<<cameraLookAt FountainLookFocus 4>>
+Mae: Looks like they've got some weird hanging “art” up there now. #line:a073ef
+Mae: Wanna go up and see? #line:86d582
+Bea: Nah, my knees are killing me from work. #line:9403c3
+<<extraZoom 0 2>>
+<<cameraFollowPlayer 2>>
+===
+title: Plaque
+tags: demo2
+colorID: 3
+position: -173,5720
+---
+Mae: “Space IV: The Rocks Cosmic” #line:f5e6e4
+Mae: “an installation by Rorford Gimms” #line:be66dc
+Mae: “sponsored by Dollar Empire” #line:e597f0
+Mae: “caution: do not stand on the art” #line:12904a
+<<end>>
+===
+title: OtherEnd
+tags: demo2
+colorID: 3
+position: 132,5751
+---
+<<if $fort_lucenne_mall >= 3>>
+    Mae: Wow. This sure is the lonely end of the mall. #line:4720a9
+    Mae: Weird being in such a big place #line:1c9af3
+    Mae: Alone. #line:35dd4a
+<<else>>
+    Mae: Huh. Thought there was more to this place. #line:d2012c
+    Bea: Nope. #line:ae5e44
+    Mae: This isn’t even a mall. This is like a hallway with crap in it. #line:a14778
+    <<lookLeft Mae>>
+    <<lookLeft Bea>>
+    <<close>>
+    <<wait 1>>
+    Mae: Wow. Look at that big dark empty parking lot. #line:5a7f06
+    Bea: Yeah. Not sure if it’s ever been filled. #line:8b18d6
+    Mae: There aren’t enough people in the whole town. #line:4fe4b2
+    Bea: Probably not. #line:94186b
+    Mae: It’s like a big black ocean. #line:202f9a
+    Bea: With a Fishtastic on the other side. #line:88f58e
+    Mae: Oh shiiiiiiit. #line:59118d
+    Mae: I got a weird fever from eating at that Fishtastic. #line:190df0
+    <<lookNearest Mae>>
+    <<lookNearest Bea>>
+<<endif>>
+<<end>>
+===
+title: MusicStoreAlone
+tags: demo2
+colorID: 3
+position: 290,5524
+---
+Mae: What a mess. #line:6ddbfe
+Mae: I can't believe this place even has the lights on anymore. #line:4d4b6d
+<<end>>
+===

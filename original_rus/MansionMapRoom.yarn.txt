@@ -1,0 +1,229 @@
+title: Switch00
+tags: 
+colorID: 4
+position: -478,437
+---
+<<playOneShot event:/mansion/switch_on Mae>>
+<<trigger Map Button1>>
+<<set $map_switch_0_done to 1>>
+<<set $map_switches += 1>>
+Gregg: GL, GT0 SE M0L PAL0H. #line:1183d0
+Mae: N Q0CCE. #line:9db910
+Mae: T0VJK0 HET XGM UAHTEP. #line:038f5b
+Gregg: BNDATJ, CTAPAR. #line:e9d9b6
+[[CheckSwitches]]
+===
+title: Switch01
+tags: 
+colorID: 4
+position: -258,439
+---
+<<playOneShot event:/mansion/switch_on Mae>>
+<<trigger Map Button2>>
+<<set $map_switch_1_done to 1>>
+<<set $map_switches += 1>>
+Mae: A GT0 KVAD6NWE #line:a58efa
+Gregg: N 3DAHNE, B K0T0P0M MJ1 CEL4AC. #line:d8d5eb
+Mae: SYTK0. #line:460d3d
+Mae: KAK 6YDT0 3A HAMN CVEDRT. #line:fa2703
+[[CheckSwitches]]
+===
+title: Switch02
+tags: 
+colorID: 4
+position: -27,432
+---
+<<playOneShot event:/mansion/switch_on Mae>>
+<<trigger Map Button3>>
+<<set $map_switch_2_done to 1>>
+<<set $map_switches += 1>>
+Mae: GL, M0L PAL0H! #line:eac498
+Gregg: BAY, DYMA%, FDE-T0 TAM ECTJ MAV%CEHJKAR TJ1. #line:4cde74
+Mae: 0F0. GT0... #line:e42ab9
+Mae: N3BNHN. Y MEHR UP0CT0 AS F0V0BA 3AKPYSNVACJ. #line:7f0001
+Gregg: R 0UACEH. #line:7364b4
+[[CheckSwitches]]
+===
+title: Switch03
+tags: 
+colorID: 4
+position: 197,449
+---
+<<playOneShot event:/mansion/switch_on Mae>>
+<<trigger Map Button4>>
+<<set $map_switch_3_done to 1>>
+<<set $map_switches += 1>>
+Gregg: CTAPJ1L D06PJ1L TAYHN CEHTPN. #line:552caf
+Mae: TAYHN CEHTPN, OEHTP HAQEF0 F0P0DA. #line:312f34
+Gregg: BU0VHE. #line:c39ab7
+[[CheckSwitches]]
+===
+title: Switch04
+tags: 
+colorID: 4
+position: 426,453
+---
+<<playOneShot event:/mansion/switch_on Mae>>
+<<trigger Map Button5>>
+<<set $map_switch_4_done to 1>>
+<<set $map_switches += 1>>
+Mae: 0Y. KASETCR, GT0 CTAPJ1L ZYD D0HKN. #line:d67ee8
+Gregg: N VEC, B K0T0PJ1L Y6ESAV TB0L UPN3PAK? #line:90f2b1
+Mae: DA. #line:4fc402
+Gregg: 0H HEUV0X0 0PNEHTNPYETCR DVR MEPTBRKA. #line:fc4a06
+Mae: GT0 YS T04H0. #line:97f1bf
+[[CheckSwitches]]
+===
+title: Statue
+tags: 
+colorID: 4
+position: 789,420
+---
+<<lookAt Mae Character>>
+<<lookAt Gregg Character>>
+<<trigger MansionRobot ComeToLife>>
+<<wait 4>>
+Mae: YX, 0HA SNBAR! #line:c8961b
+Gregg: 60SE, HY N CTPAQNVA. #line:b22367
+Mae: HY, KASETCR, NMEHH0 0HA 6J1VA NCT04HNK0M 3BYK0B. #line:953afe
+Gregg: TALHA PACKPJ1TA. #line:2d4de5
+Gregg: U0F0DN #line:42785e
+Gregg: HET #line:c55875
+Gregg: ECVN 0HA N3DABAVA GTN 3BYKN, 3HA4NT #line:db8ff7
+Gregg: KT0-T0 6J1V 3DECJ #line:c54978
+Gregg: U0KA MJ1 PA3FYVNBAVN BHN3Y. #line:1595bf
+<<lookAt Mae Gregg>>
+<<lookAt Gregg Mae>>
+Mae: 0XXXX #line:8274c0
+Mae: DEPJM0. #line:d4ede4
+Gregg: DA, DABAL-KA BAVNTJ 0TC%DA. #line:44aca5
+Mae: HET! HAM HAD0 HALTN... BCRK0E! #line:3206d9
+Gregg: 0, BCRK0E? #line:42f060
+Gregg: 4YBNXA, HAC BJ1PY6NT GVEKTP0Q0KEP0M #line:a5789f
+Gregg: KAK0L-HN6YDJ SNPHJ1L... #line:d93aa4
+Mae: PA60THNK NCT0PN4ECK0F0 C006WECTBA. #line:64c2d4
+Gregg: DA 6E3 PA3HNOJ1. R BAV% BCE HA TE6R, B CVY4AE 4EF0. #line:e2de2d
+Mae: VADH0! #line:5d0465
+Gregg: VADH0! #line:097cf5
+<<wait 2>>
+Gregg: UP0CTN MEHR, U0DPYFA. #line:c8f953
+Mae: N TJ1 MEHR. #line:c55f12
+Gregg: R 6J1 TE6R HE 0CTABNV. #line:4b1897
+Mae: N R TE6R. #line:9c66a8
+Gregg: UPECTYUVEHNR. #line:d70254
+Mae: UPECTYUVEHNR. #line:e32d78
+<<lookNearest Mae>>
+<<lookNearest Gregg>>
+<<set $mansion_checked_robot to 1>>
+[[CheckCanLeave]]
+===
+title: Toolbox
+tags: 
+colorID: 4
+position: 1134,426
+---
+<<lookAt Mae ToolboxCharacter>>
+<<lookAt Gregg ToolboxCharacter>>
+Mae: GL, FVRHJ C%DA! NHCTPYMEHTJ1. #line:1397c4
+Gregg: PEM0HTHNK, D0VSH0 6J1TJ, 0CTABNV NX HA H04J, U0KA 4NHNV CTATY%. #line:b61c69
+Mae: N CM0TPN... UV0CK0FY6OJ1! #line:3a9605
+Gregg: 0, KVEB0 KVEB0 KVEB0 #line:09a1c3
+Gregg: R YS DYMAV, 4T0 MJ1 HNK0FDA NX HE HALDEM N, TNUA, #line:d2fe9c
+Gregg: U0MPEM 3DECJ C F0V0DY #line:2558dc
+Mae: ... #line:9f8703
+Mae: C%DA V%DN UPNX0DRT YTP0M. #line:b4940c
+Gregg: A, T04H0. #line:48edb4
+<<lookAt Gregg Mae>>
+<<lookAt Mae Gregg>>
+<<if $has_paperclip>>
+	Gregg: NTAK, Y HAC ECTJ BCE, 4T0 HYSH0. #line:eb95a9
+	Gregg: DABAL 0TKP0EM VNZT N U0CM0TPNM, 4T0 HABEPXY. #line:6e545c
+	Mae: DYMA%, TAM EWE 12 VNZT0B. #line:bc8bd1
+<<else>>
+	Gregg: NTAAK... 0CTAVACJ CKPEUKA. #line:63169c
+	<<if $visited_mansion_office>>
+		Mae: DABAL UP0BEPNM CKY4HJ1L 0ZNC #line:137d75
+		Mae: B U0NCKAX CKY4H0L CKPEUKN #line:6a7d45
+		Mae: X0TR, CK0PEE BCEF0, MJ1 HALDEM EWE 7 VNZT0B #line:34dd8a
+	<<else>>
+		Mae: CU0P%, 4T0 FDE-T0 3DECJ D0VSHA 6J1TJ CKPEUKA #line:d52ed9
+		Mae: Y HNX SE D0VSEH 6J1TJ #line:ca69b3
+		Mae: 0ZNC NVN TNUA T0F0? #line:0f3cd5
+		Gregg: B K0T0P0M, B03M0SH0, CT0NT 9 VNZT0B #line:3a535b
+	<<endif>>
+<<endif>>
+<<lookNearest Mae>>
+<<lookNearest Gregg>>
+<<set $has_pliers to 1>>
+[[CheckCanLeave]]
+===
+title: InitLevel
+tags: 
+colorID: 4
+position: -1021,399
+---
+<<generateFollowPoints Mae Gregg>>
+<<follow Gregg Mae>>
+<<setCanInteract Gregg 0>>
+<<flip Gregg -1>>
+<<flip Mae -1>>
+===
+title: CheckSwitches
+tags: 
+colorID: 0
+position: 26,747
+---
+<<if $map_switches is 1>>
+    <<tell _AmbientSFX:map_buzz_loop Play>>
+    Mae: U0F0DN-KA. #line:415ddb
+    Mae: MJ1 B 3AVE KAPT. #line:123c4e
+    Gregg: DABAL 6YDEM MEFA 0CT0P0SHJ1MN. #line:8bb694
+    Mae: X0P0Q0. #line:ea6013
+    Mae: UPECTYUVEHNR. #line:71bc13
+    Gregg: UPECTYUVEHNR. #line:ae1483
+<<endif>>
+<<if $map_switches >= 5 and $did_mansion_map_room_train is 0>>
+    <<set $did_mansion_map_room_train to 1>>
+    <<flipTo Mae CameraMap>>
+    <<flipTo Gregg CameraMap>>
+    <<close>>
+    <<lookAt Mae MapCharacter>>
+    <<lookAt Gregg MapCharacter>>
+    <<cameraLookAt CameraMap 2>>
+    <<fadeOutMusic 4>>
+    <<wait 4>>
+    <<playMusic mansion_train>>
+    <<trigger Map MapDance>>
+    <<wait 16>>
+    <<playOneShot event:/mansion/creepy_noise_inroom SfxNoise>>
+    <<trigger CornerLight Go>>
+    <<wait 5>>
+    <<lookNearest Mae>>
+    <<lookNearest Gregg>>
+    Mae: 0URTJ GT0T SYTKNL 3BYK. #line:f2bf9c
+    Gregg: N 0H B GT0L K0MHATE. #line:f2cd11
+    <<cameraFollowPlayer 1>>
+    <<set $mansion_gotta_check_robot to 1>>
+<<endif>>
+===
+title: ExitLevel
+tags: 
+colorID: 4
+position: -819,631
+---
+//<<set $map_switch_0_done to 0>>
+//<<set $map_switch_1_done to 0>>
+//<<set $map_switch_2_done to 0>>
+//<<set $map_switch_3_done to 0>>
+//<<set $map_switch_4_done to 0>>
+//<<set $map_switches to 0>>
+===
+title: CheckCanLeave
+tags: 
+colorID: 0
+position: 984,722
+---
+<<if $mansion_checked_robot and $has_pliers>>
+    <<set $mansion_gotta_check_robot to 0>>
+<<endif>>
+===

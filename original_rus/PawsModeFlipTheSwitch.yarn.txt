@@ -1,0 +1,29 @@
+title: Zapped
+tags: 
+colorID: 0
+position: 343,149
+---
+Mae: {width=8}AAAAAAAAAAAAAAAAAAAA!!!!!!! #line:eb6322
+<<irisOut 1 wait>>
+<<scene GreggAngusApartment>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 129,-28
+---
+//aperture in//
+Mae: 60SE #line:3b073f
+Mae: GTA CT0P0HA B0HRET EWE XYSE #line:b4b4d9
+Mae: TYT T04H0 KT0-T0 SNV #line:a362e2
+Mae: B GT0L... #line:8772f0
+Mae: DJ1PE... #line:cbb45d
+Mae: TAK, KASETCR, R BNSY EE! #line:780923
+Gregg: HASNMAL HASNMAL HASNMAL #line:85a99e
+Mae: GL. R PADA, 4T0 Y BAC C AHFYC0M BCE TAK CKVADJ1BAETCR, BCR GTA #line:d429c4
+Mae: SN3HJ BMECTE. #line:58d5b6
+Gregg: CUACN60, 4YBNXA. MJ1 MH0F0 PA60TAVN HAD GTNM. #line:fb92d3
+Mae: GT0 MNV0. #line:87642f
+Gregg: HASNMAL HASNMAL HASNMAL #line:4cf9aa
+Mae: 0KEL-0KEL-0KEL-0KEL #line:7e05d5
+===

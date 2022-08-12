@@ -1,0 +1,201 @@
+title: EnterLevel
+tags: 
+colorID: 5
+position: 540,260
+---
+[[OutOfWell]]
+===
+title: OutOfWell
+tags: 
+colorID: 5
+position: 775,258
+---
+<<fadeIn 1>>
+<<hide Mae>>
+<<wait 1>>
+//animation of mae dragging herself out of the well//
+<<trigger MaeClimboutWell Climbout>>
+<<wait 9>>
+<<show Mae>>
+<<wait 2>>
+Mae: this place. #line:f77b21
+Mae: huh. #line:fa2d27
+<<close>>
+<<walk Germ GermIn>>
+<<wait 1>>
+Germ: Hey Mae. #line:9d6f43
+Mae: GERM?! #line:e572da
+Germ: Yeah! #line:5adc5a
+Mae: What are you doing out here? #line:18550a
+Germ: I live right up the hill! #line:f77d0e
+Germ: I heard Gregg yelling! #line:9aa16f
+Mae: We were all stuck down there! #line:9d0012
+Germ: Y-you were at the bottom of the old well in my backyard? #line:1fdcd3
+Mae: It’s been a really bad night. #line:52a1fe
+Germ: Sounds like it. #line:38c173
+Mae: Got any rope or something? #line:4a7672
+Germ: Yeah! #line:c70145
+<<close>>
+<<wait 2>>
+Mae: caaaan you go get it? #line:7fbb5e
+<<close>>
+<<run Germ GermOff>>
+<<wait 2>>
+//friend bubbles come from the well//
+BeaWell: Hey Mae! #line:81e448
+Mae: Yeah?  #line:05f78e
+GreggWell: Was that... Germ? #line:f97fda
+Mae: Yeah he’s getting some rope! #line:009de0
+AngusWell: What is he doing out here? #line:fe6cdf
+Mae: He lives here! #line:594b05
+BeaWell: In the woods? #line:323245
+<<close>>
+<<fadeOut 1 wait>>
+
+//everyone is laying on the ground, tired//
+<<warp Angus AngusOnGround>>
+<<warp Bea BeaOnGround>>
+<<warp Gregg GreggOnGround>>
+<<warp Germ GermOnGround>>
+
+<<lookRight Mae>>
+<<lookLeft Gregg>>
+<<wait 1>>
+<<playMusic well_woods>>
+<<lookNearest Mae>>
+<<fadeIn 1 wait>>
+Angus: *wheeeeeze* #line:e0463d
+Bea: my entire body hurts #line:0a3191
+Gregg: that was a loooong way #line:91e7af
+Germ: I brought some sodas! #line:7f3a73
+Mae: :) #line:7dd3f0
+Mae: you're the best, Germ. #line:da8287
+Germ: you need the sugar and caffeine!!! #line:8daac6
+Mae: :| #line:3d54f0
+<<fadeOut 1 wait>>
+
+<<cameraLookAt CameraStartToLeave>>
+
+<<warp Angus AngusStanding>>
+<<warp Bea BeaStanding>>
+<<warp Gregg GreggStanding>>
+<<warp Germ GermStanding>>
+
+<<lookAt Bea Germ>>
+<<lookRight Gregg>>
+<<lookRight Mae>>
+<<wait 1>>
+<<lookNearest Mae>>
+
+//everyone is standing//
+<<fadeIn 1 wait>>
+Mae: oh uh. anyone else want to get far away from this well? #line:133c19
+Bea: yuuuuuuuuuuuuuuup. #line:782ecf
+<<lookAt Mae Germ>>
+Mae: Germ, can you like... i dunno. seal up this well? #line:845534
+<<lookLeft Gregg>>
+Germ: hmmm #line:006b88
+<<wait 3>>
+
+Germ: i got dynamite! #line:88660c
+<<lookNearest Mae>>
+Bea: what? #line:ce932f
+Germ: yeah. i mean i can get some. #line:bb9a5a
+Mae: how big an explosion is that? #line:1dd0eb
+Germ: i mean. #line:28c790
+Germ: not small? #line:f2b84a
+Mae: ok that works. #line:bfe13c
+Gregg: Thanks Germ! #line:58d49c
+Angus: yeah thanks buddy. #line:79e218
+Germ: Um. ok. #line:7b5d12
+Germ: bye guys. #line:9fa5a8
+<<close>>
+<<walk Germ GermOff>>
+<<wait 4>>
+<<lookRight Gregg>>
+Bea: There goes a weird, weird guy. #line:a00699
+Gregg: He saved our lives. #line:76fc23
+Mae: Germ is good. Germ is a good man. #line:7fdc11
+<<close>>
+<<wait 1>>
+<<lookRight Mae>>
+<<wait 1>>
+
+<<cameraLookAt CameraLeave 8.5>>
+//you can walk now and this convo happens while you do that.
+<<walk Bea BeaWalk1>>
+<<walk Gregg GreggWalk1>>
+<<walk Angus AngusWalk1>>
+<<walk Mae MaeWalk1>>
+<<wait 1>>
+<<lookNearest Mae>>
+Bea: it strikes me that we just murdered all of those dudes down there #line:10b6e8
+<<lookLeft Gregg>>
+Mae: how do you figure? #line:f7cf31
+<<lookRight Gregg>>
+Bea: well, i mean #line:cdd182
+Bea: the elevator's broken and we caused a cave in. #line:6e2df1
+Gregg: that was self-defense. #line:06b474
+Bea: i guess. but we did cause the deaths of like a dozen guys. #line:4787b8
+<<lookLeft Gregg>>
+Mae: no no no! they're all still alive down there! #line:5e682c
+<<wait 3>>
+Mae: oh god. #line:c548dc
+Bea: yeah. #line:19e6ea
+Mae: geez. #line:933db2
+Gregg: well we're blameless. they attacked us. #line:538b2b
+<<lookRight Gregg>>
+Bea: *one* of them attacked us. #line:dba1e7
+Mae: so we're worrying about... like... #line:9a811a
+Bea: it's morally gray! #line:1cfa86
+<<lookLeft Gregg>>
+Mae: we're not murderers! #line:0cf6a8
+Mae: like if we'd had a choice, we wouldn't have done it. #line:5fab21
+<<wait 2>>
+Angus: i would have. #line:0ca0b9
+<<wait 2>>
+Bea: uh #line:da732e
+Angus: what??? they like killed people! #line:b46c3f
+Angus: they were trying to get us to kill people! #line:4a0ae9
+Angus: screw 'em!  #line:3e9b38
+Angus: i don't even believe in hell and i hope they all go straight there. #line:b1282f
+Gregg: geez, angus. #line:c649ee
+Angus: well that's what i think at least. #line:e826a2
+Mae: hm. this is like that trolley thing. #line:d0b849
+Gregg: what trolley thing? #line:0de596
+<<lookRight Gregg>>
+Bea: ok, i'll explain it if we keep walking. #line:3e8ba2
+<<close>>
+
+<<waitForMove Bea>>
+<<waitForMove Gregg>>
+<<waitForMove Angus>>
+<<waitForMove Mae>>
+
+//<<cameraLookAt CameraLeave 1>>
+
+<<wait 1>>
+
+<<walk Bea OffRight>>
+<<walk Gregg OffRight>>
+<<walk Angus OffRight>>
+<<walk Mae OffRight>>
+
+<<wait 3>>
+//When you get to the right edge of the screen, you all stop and hang for a sec until the convo is done//
+
+//they walk offscreen to the right//
+
+
+<<set $night to 1>>
+<<wait 3>>
+<<fadeOut 1 wait>>
+<<scene Laptop>>
+===
+title: InitLevel
+tags: 
+colorID: 5
+position: 540,33
+---
+<<cameraLookAt CameraWell 0>>
+===

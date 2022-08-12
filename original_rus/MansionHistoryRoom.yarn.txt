@@ -1,0 +1,85 @@
+title: EnterLevel
+tags: 
+colorID: 4
+position: 514,315
+---
+
+===
+title: LeaveRoom
+tags: 
+colorID: 4
+position: 785,321
+---
+Mae: VADH0, 4T0 S. HN4EF0 CTPAHH0F0 3DECJ. #line:65d03c
+Gregg: PA3BE 4T0 U03HABATEVJH0. #line:270701
+Mae: 4YBCTB0, 6YDT0 MJ1 CTAVN YMHEE. #line:058399
+Gregg: M0L M03F CTAV CVNQK0M 0FP0MEH, 4YBNXA. #line:fced9b
+Gregg: CEL4AC V0UHET. #line:c4a16e
+Mae: ECVN GT0 UP0N30LDET, R 0CTABV% TB0L 06E3FVABVEHHJ1L TPYU 3DECJ. #line:912177
+Gregg: XA-XA-XA, 0HN TAK UPNZNFE%T YTP0M #line:8e5657
+Mae: KPYYYYYT0 #line:051908
+Gregg: "0, P0HAVJD, 0TKP0%-KA R GTY K0MHATY UP0BETPNTJCR" #line:94cc9e
+Mae:{width=8}"A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A!"#line:416115
+Gregg: "F0B0P% SE! M03F N3 GT0L F0V0BJ1 UP0CT0 V0UHYV!" #line:8a32fb
+Mae: "6YDJ V%6E3EH, UPNHECN QBA6PY, P0HAVJD." #line:1ad139
+<<set $mansion_history_room_done to 1>>
+===
+title: LookAtThing
+tags: 
+colorID: 4
+position: 1083,322
+---
+Mae: 0, CM0TPN. #line:115863
+Mae: U0CCYMCKAR 60LHR. #line:08854f
+Gregg: 0, KPYT0. #line:54dca2
+Gregg: TJ1 U0MHNQJ EE, DA? #line:e11c0b
+    ->TNUA? #line:ab592d
+        Mae: 6J1V0 HEPEAVJH0 KPYT0. #line:2ded6c
+        Mae: BCR GTA 3A6ACT0BKA #line:f37d29
+        Mae: N T0, KAK V%DN UPNC0EDNHRVNCJ K HEL #line:206908
+        Mae: N DASE K0FDA 60CCJ1 0TUPABNVN C0VDAT #line:1dc68b
+        Mae: 0HN BCE 6J1VN EDNHJ1 #line:d0fec4
+        Mae: NM BCEM 6J1V0 U0UP0CTY UVEBATJ. #line:825295
+        Gregg: DA, VY4QAR NCT0PNR, 4YBNXA. #line:0b14c2
+        Mae: BCE EWE F0PSYCJ N 3V%CJ #line:500655
+        Mae: K0FDA BCU0MNHA%. #line:ede885
+        Gregg: 60CCJ1 - UV0XNE, 4YBNXA. #line:beeea9
+        Mae: 60CCJ1 - UV0XNE. #line:85cb77
+    ->HE 04EHJ X0P0Q0. #line:1e6cd0
+        Gregg: UP0N30QEV 60VJQ0L B3PJ1B HA 0DH0L N3 QAXT, #line:63165d
+        Gregg: K0T0PJ1L YSE HE YDAV0CJ 3AMRTJ NVN TNUA T0F0 #line:e9bcc2
+        Gregg: N T0FDA QAXTEPJ1 U0QVN 6ACT0BATJ, #line:70f298
+        Gregg: U0T0MY 4T0 NX U0DCTABNVN N Y6NVN #line:c246d6
+        Gregg: N GT0 UP0D0VSAV0CJ D0B0VJH0 D0VF0 #line:25528a
+        Gregg: DPYFNE QAXTJ1 N MECTA UPNC0EDNHNVNCJ #line:d4d297
+        Gregg: "BJ1 CBR3AVNCJ C0 BCEMN HAMN" #line:81ff6d
+        Mae: GT0 KPYT0 #line:118450
+        Gregg: AFA, 60CCJ1 N FY6EPHAT0P #line:394297
+        Gregg: 0HN U0CVAVN C0VDAT N UP04NX? #line:6628fa
+        Gregg: U0T0MY 4T0 0HN K03VJ1? #line:1ef52c
+        Gregg: N KAK0L-T0 UAPEHEK 6P0CNV B 0DH0F0 N3 HNX KAMEHJ #line:d2cb8f
+        Gregg: N C0VDATJ1 0TKPJ1VN 0F0HJ! #line:58f3b9
+        Mae: TB0% MATJ #line:c496ae
+        Mae: FDE GT0 UP0N30QV0? #line:74be83
+        Gregg: B CEBEP0-3AUADH0L 4ACTN F0P0DA. #line:1074f7
+        Gregg: GT0 MECT0 DASE U0ME4EH0. #line:f1e3f1
+        Mae: YX, KAK0L YSAC. #line:689241
+        Gregg: 60CCJ1 - UV0XNE. #line:55df18
+        Mae: 60CCJ1 - UV0XNE. #line:16a8c2
+Mae: CTPAHH0, KAK BCE MJ1 D0VSHJ1 YBASATJ, #line:a93564
+Mae: TNUA, 60CC0B. #line:ba6f3f
+Mae: B006WE BCEX. #line:c8772f
+Mae: TNUA, DASE UV0XNX. #line:4925cd
+Gregg: DA, R UP0TECTY%. #line:feeedb
+Mae: 4EPT, R T0SE. #line:0c9766
+<<set $mansion_history_room_will_leave to 1>>
+===
+title: InitLevel
+tags: 
+colorID: 4
+position: 261,310
+---
+<<playerFace 1>>
+<<follow Gregg Mae>>
+<<setCanInteract Gregg 0>>
+===

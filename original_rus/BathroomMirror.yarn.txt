@@ -1,0 +1,73 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 657,380
+---
+<<if $bathroom_mirror is 0>>
+    Mae: =_= #line:d361b8
+    <<wait 8>>
+    Mae: C0BCEM HE BECEV0. #line:49c23f
+    Mae: U0VHJ1L 0TCT0L. #line:07ac91
+    Mae: U04EMY BCE TAK CTPAHH0? #line:bdb3a4
+    Mae: U04EMY MHE TAK XPEH0B0? #line:61f060
+    Mae: BCE GT0 TYU0. #line:8b211d
+    <<wait 4>>
+    <<lookleft Mae>>
+    <<wait 2>>
+    Mae: R WA 4T0-HN6YDJ CV0MA%. #line:5b7aaa
+    <<close>>
+    <<fadeOutMusic 6>>
+    <<wait 6>>
+    <<set $bathroom_mirror to 1>>
+    <<fadeOut .1>>
+    <<wait 1>>
+    <<scene BathroomVandalism>>
+<<elseif $bathroom_mirror is 1>>
+    Mae: =_= #line:9eb47c
+    Gregg: 4EM TJ1 3AHNMAEQJCR? #line:d18b34
+    Mae: A 4T0, PA3BE HE BNDH0? #line:bd423b
+    <<wait 3>>
+    Gregg: VADH0, GT0 6J1V #line:646848
+    Mae: TYU0L B0UP0C. #line:1457c4
+    Gregg: T0FDA, *3A4EM* TJ1 GT0 DEVAEQJ? #line:10f1a1
+    Mae: A MHE *HYSHA* UPN4NHA? #line:cb81cc
+    Gregg: HY, DA! HE U0MEQAVA 6J1! #line:d1eaad
+    Mae: C 4EF0 6J1? #line:395be9
+    Mae: A TJ1 B006WE 4T0 3DECJ DEVAEQJ? #line:f6e6bd
+    Gregg: UPNQEV 3A T060L! #line:a12d77
+    Mae: R N CAMA M0FY HALTN BJ1X0D! #line:32544a
+    Gregg: 0TVN4H0! #line:6f5aab
+    Mae: 0TVN4H0! #line:8b3c19
+    Gregg: 0TVN4H0! #line:109645
+    Mae: 0TVN4H0! #line:dec74e
+    Gregg: CTPAHH0BATJ1L B0UP0C, H0 #line:e19b4d
+    Gregg: TJ1 3AX0TEVA B TYAVET *UEPED* TEM, KAK PEQNVA BCE TYT UEPEBEPHYTJ #line:f69801
+    Gregg: NVN... #line:def917
+    Mae: *60SE*, FPEFF, R B006WE HE X0TEVA B TYAVET. #line:e34608
+    Gregg: 0XEPEHH0! #line:cc4120
+    <<wait 3>>
+    Mae: A TEUEPJ X04Y! o_o :( \o/ #line:992a85
+    Gregg: MJ1 6YDEM 3A CT0VNK0M, KAK 3AK0H4NQJ. #line:969692
+    Mae: BJ1LDN. #line:9efd67
+    Gregg: BCE, BCE #line:860f2a
+    <<close>>
+    <<irisOut 1 wait>>
+    <<scene DonutWolfInterior>>
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 632,147
+---
+<<lookOut Mae instant>>
+
+<<if $bathroom_mirror is 0>>
+    <<hide Gregg>>
+<<else>>
+    <<warp Mae MaeWithGregg>>
+    <<show Gregg>>
+<<endif>>
+
+<<wait .5>>
+===

@@ -1,0 +1,436 @@
+title: InitLevel
+tags: 
+colorID: 4
+position: 49,201
+---
+<<if $bea_town is 0>>
+    <<show Bea>>
+    <<hide CarGirl>>
+    <<hide CarDude>>
+    <<hide Collision:Right>>
+<<elseif $bea_town is 1>>
+    <<show Bea>>
+    <<warp Bea BeaEnd>>
+    <<sit Bea>>
+    <<flip Bea -1>>
+    <<show Jackie>>
+    <<warp Jackie JackieOut>>
+    <<flip Jackie 1>>
+    <<warp Mae MaeEnterFromParty>>
+    <<playerFace -1>>
+<<endif>>
+===
+title: EnterLevel
+tags: 
+colorID: 4
+position: 302,363
+---
+<<if $bea_town is 0>>
+    [[Dialogue1]]
+<<elseif $bea_town is 1>>
+<<endif>>
+===
+title: TriggerJackie
+tags: 
+colorID: 4
+position: 512,111
+---
+//autotriggers when you get within range//
+<<setAnimInt Jackie point 1>>
+<<setTalkAnimType Jackie 2>>
+Jackie: 4T0 TJ1 HADEVAVA? #line:9466a0
+Mae: R C06NPAVACJ CUP0CNTJ T0 SE CAM0E! #line:8c35a7
+Jackie: KAK TJ1 YMYDPNVACJ BCE NCU0PTNTJ?! #line:05da36
+Mae: :( #line:052395
+Jackie: EL GT0 HYSH0. #line:53d74e
+Jackie: TEUEPJ 0HA 60F 3HAET FDE! #line:6f7e24
+Jackie: ECVN C HEL 4T0-VN60 CVY4NTCR... #line:e1b38c
+Jackie: R VN4H0 U0BJ16NBA% TE6E 3Y6J1. #line:5391f6
+Mae: R U0HRVA! 60SE! #line:089f8b
+Jackie: VADH0, R U0LDY BBEPX U0 YVNOE. #line:a014ed
+Jackie: TJ1 NDEQJ BHN3, K PEKE. #line:77357d
+Jackie: HAX0DNM EE, Y6ESDAEMCR, 4T0 0HA B H0PME, N BCTPE4AEMCR 3DECJ. #line:8cfaa5
+Mae: VADH0! F0CU0DN. VADH0. #line:50fcfd
+<<setAnimInt Jackie point 0>>
+<<close>>
+<<wait 1>>
+<<walk Jackie Jackie3 wait>>
+Jackie: R EWE B QK0VE, U0CT0RHH0 TBEPDNVA 6N, 4T0 TJ1 - CK0TNHA, #line:90f2f8
+Jackie: N R DELCTBNTEVJH0 B GT0 BEPNVA. #line:709a3e
+Jackie: UPNRTH0 3HATJ, 4T0 R 6J1VA UPABA. #line:ae32cb
+<<close>>
+<<walk Jackie JackieOffRight>>
+<<wait 2>>
+<<lookLeft Mae>>
+Mae: :| #line:ee6474
+Mae: X0P0Q0-X0P0Q0-X0P0Q0. #line:33c2df
+Mae: FDE SE TJ1, 6N? #line:95cd44
+Mae: KPJ1QN. U0 HNM R D06EPYCJ D0 PEKN B DBA C4ETA. #line:d7c4a0
+<<lookNearest Mae>>
+//you can now freerun and jump and stuff!//
+<<show Collision:Right>>
+===
+title: TriggerBeaEnd
+tags: 
+colorID: 4
+position: 1079,128
+---
+<<lookLeft Bea>>
+<<musicFadeOut 5>>
+Mae: 6N! #line:b6808a
+Mae: B0T TJ1 FDE! #line:ace097
+Mae: TJ1 B U0PRDKE? #line:24c6d1
+<<close>>
+<<wait 3>>
+Mae: U04EMY TJ1 Y6ESAVA? #line:a2ba94
+Mae: GT0, TNUA, KPALHE 0UACH0! #line:7774a2
+Mae: TJ1 0DHA B KAK0M-T0 CTYDEH4ECK0M F0P0DKE #line:1e00b4
+Mae: N TJ1 DASE HE 3HAEQJ, 4T... #line:ca0038
+Bea: GT0 6J1VA M0R BE4EPNHKA #line:e05f36
+Bea: GT0 M0N BE4EPNHKN #line:70c4d0
+Bea: R UPNX0SY HA HNX #line:99cf79
+Bea: N M0FY U04YBCTB0BATJ CE6R H0PMAVJH0L #line:fd2ff0
+Bea: TNUA, 2 4ACA B MECRO #line:e41212
+    ->*GT0* H0PMAVJH0? #line:c77c51
+        Mae: GT0 UP0CT0 KY4KA NDN0T0B B U0DBAVE! #line:983bcd
+    ->TE6R M0FVN 0FPA6NTJ NVN 4T0-T0 TNUA GT0F0 #line:fcedd0
+        Mae: BCE GT0 PADN KAK0F0-T0 DYPHR?? #line:e2a129
+Mae: K0VVEDS BCE PABH0 TYU #line:cc277b
+//remember on blocking to do yelling text effects for this//
+Bea: 60SE M0L, TJ1 UP0CT0 U0VHAR 3ACPAHKA! #line:220768
+Bea: TJ1 HNK0FDA HE U0LMEQJ GT0. #line:a79813
+Bea: HNK0FDA. #line:7089d3
+Bea: TJ1 3HAEQJ, 4T0 R DEVA%, K0FDA V0SYCJ CUATJ? #line:551a31
+Bea: XA-XA-XA. GT0 UP0CT0 4EPT0BCKN FPYCTH0. #line:84857b
+Bea: R UPEDCTABVR%, TNUA, B0 BCEX KPACKAX U0CTYUVEHNE B K0VVEDS #line:66a716
+Bea: TNUA, 04EHJ-04EHJ CEPJE3H0 DYMA% 06 GT0M #line:76a758
+Bea: N, ECVN MHE BE3ET, K0FDA R 3ACJ1UA% #line:c85f90
+Bea: R ME4TA% 06 GT0M. #line:bfc9b4
+Bea: R BNSY CHJ1 06 GT0M #line:ccedc3
+Bea: TA QTYKA, HA K0T0PY% TJ1 3A6NVA 60VT #line:11fa3e
+Bea: GT0, BP0DE, M0R DN4ALQAR ME4TA. #line:6fd8cd
+    ->Y TE6R *ECTJ* SN3HJ! #line:93c303
+        Bea: HET. #line:d09408
+        Bea: Y MEHR ECTJ 06R3AHH0CTN. #line:6b6568
+        Bea: Y MEHR ECTJ PYTNHA. #line:23a6ec
+    ->GT0 TAK... FPYCTH0. #line:586443
+        Bea: TJ1 4EPT0BCKN UPABA, GT0 FPYCTH0! #line:716309
+Bea: K0FDA M0R MAMA YMEPVA, #line:e78609
+Bea: M0R SN3HJ T0SE 3AK0H4NVACJ. #line:676ed5
+Bea: MHE HYSH0 3A60TNTJCR 0 6N3HECE, #line:631fa2
+Bea: U0T0MY 4T0 0TEO U0VH0CTJ% PA36NT #line:8daef3
+Bea: N C4ETA 3A U0X0P0HJ1 M0EL MAMJ1 #line:35d69a
+Bea: 6J1VN TAKNMN 0FP0MHJ1MN, 4T0 MJ1 VNQNVNCJ D0MA #line:a57deb
+Bea: D0M, B K0T0P0M R BJ1P0CVA #line:015455
+Bea: UP0UAV. #line:e2cd26
+Bea: KAKNE-T0 CPAHJ1E CEMJN C NX CPAHJ1MN DETNQKAMN TEUEPJ SNBYT TAM #line:6ed011
+Bea: A MJ1 SNBEM B KBAPTNPE #line:a2e4fc
+Bea: N U0KA M0L 0TEO 4AXHET #line:93236b
+<<playMusic proximity 18>>
+Bea: KASDJ1L M0L, TNUA, UVAH HA 6YDYWEE #line:c57e53
+Bea: 60VJQAR, CBETVAR BEWJ #line:540f2d
+Bea: UP0CT0 CTAH0BNTCR MEHJQE N TEMHEE #line:f8b72a
+Bea: KASDJ1L PA3, KAK R UP0CJ1UA%CJ #line:8df915
+Bea: 0T CH0B 0 H04AX, BP0DE CEF0DHRQHEL, #line:e20b50
+Bea: N D0 TE6R HNKAK HE D0X0DNT #line:cc5d0b
+Bea: CKB03J TB0% T0VCTY% 4EPT0BY 4EPEUYQKY #line:8c2acb
+    -> GT0 HECUPABEDVNB0 #line:254370
+        Bea: BCE GT0 HECUPABEDVNB0! #line:31fb0e
+        Bea: BCE HECUPABEDVNB0! #line:463981
+    -> R HE 3HAVA 06 GT0M! #line:82aa6f
+        Bea: KAK?! #line:ae1f79
+        Bea: KAK TJ1 M0FVA GT0F0 HE 3HATJ?! #line:da5b04
+Bea: R YCEPDH0 TPYSYCJ! #line:b7aaed
+Bea: N 3A604YCJ 0 T0M, 4T0 0CTAV0CJ 0T M0EL CEMJN #line:5112f0
+Bea: N M0R SN3HJ UP0H0CNTCR MNM0 #line:b805fa
+Bea: N R 3ACTPRVA B GT0M TYU0M CTP0NTEVJH0M MAFA3NHE #line:708669
+Bea: B GT0M TYU0M F0P0DE. #line:dd01cc
+Bea: R #line:416b35
+Bea: UP0CT0 #line:2c9be8
+<<wait 2>>
+Bea: 06PE4EHA. #line:78aca9
+<<wait 2>>
+Mae: TJ1 HE EDNHCTBEHHAR, KT0 3DECJ 3ACTPRVA #line:a3d565
+Mae: TJ1 3HAEQJ. #line:8b8ac7
+Bea: TJ1 0TBEPFVA BEWJ, K0T0P0L Y MEHR HNK0FDA HE 6J1V0 #line:b0b5c4
+Bea: R... BP0DE KAK, HEHABNSY TE6R. #line:7b3253
+Bea: R HE M0FY HE HEHABNDETJ TE6R 3A GT0. X0TR 6J1 HEMH0F0. #line:6907d8
+    ->TJ1 HN4EF0 060 MHE HE 3HAEQJ. #line:945875
+        Bea: A 4EF0 TAM 3HATJ? #line:cb0be8
+        Bea: B0T 4ECTH0! #line:53c5db
+    ->TJ1 HE 3HAEQJ, U04EMY R YQVA #line:71c179
+        Bea: 0, R YBEPEHA, B T0M BECKAR UPN4NHA. #line:a1b854
+Mae: TJ1 UP0CT0 CNDNQJ 3DECJ, 0CYSDAR MEHR #line:f7d704
+Mae: TJ1 B006WE K0FDA-HN6YDJ CUPAQNBAVA, U04EMY R YQVA? #line:d3c25b
+Bea: DA. B UEPBJ1L DEHJ KAK TJ1 BEPHYVACJ. #line:353c25
+Mae: 0Y. #line:fa4b60
+Mae: UPABDA. #line:78de96
+Bea: TAK U04EMY TJ1 YQVA? #line:194313
+Mae: R... #line:e1dfb8
+<<close>>
+//walk Mae over and sit next to Bea on bench//
+<<walk Mae MaeWalkToSit wait>>
+<<toggleSitSwings Mae false>>
+<<sitInstant>>
+Mae: R HE 3HA%. #line:b1b7b3
+Mae: Y MEHR CEL4AC PA3PJ1BAETCR 6AQKA #line:8c0738
+Mae: V%60L M0L 0TBET UP03BY4NT 6E3YMH0. #line:44693c
+Bea: 0Y. #line:4621f8
+Bea: HY, GT0 BCE PA3JRCHNV0. #line:a0fc7c
+Mae: 0, 3ATKHNCJ! #line:3f67fa
+Mae: BCE GT0 DEPJM0 UP0NCX0DNT HA GT0L HEDEVE? #line:a14c88
+Mae: UPNBNDEHNR N DEPJM0? #line:b94f5c
+Mae: R BNDEVA 60FA! #line:88c49d
+Mae: 0H 6J1V 3ACPAHOEM! #line:d60405
+Bea: AFA #line:e4c3a9
+Bea: A-A-A. #line:ed77f1
+<<wait 2>>
+<<cameraLookAt CameraRiver 8>>
+Mae: CM0TPN. #line:90cdec
+Mae: MJ1 06E B 3AUADHE. #line:05cb5a
+Mae: H0 MJ1 B HEL BMECTE. #line:2d64db
+Bea: ... #line:764913
+Mae: VY4QE 6J1TJ B 3AUADHE C KEM-T0, BEPH0? #line:1a76c1
+Bea: ... #line:21a8ee
+Mae: U0CVYQAL, MHE SAVJ. #line:c88466
+Mae: 3A, #line:480166
+Mae: TNUA, #line:12c6c1
+Bea: BCE 0KEL. #line:790377
+Mae: MJ1, TNUA, #line:380496
+Mae: VY4QNE D0CTYUHJ1E DPY3JR. #line:1a6952
+Bea: XA-XA-XA! #line:5a3788
+Bea: 0, 60SE. #line:2ee493
+<<wait 3>>
+Mae: 4T0 GT0 3A PEKA? #line:9042ba
+Bea: PJ1SAR PEKA. #line:4e627d
+Bea: BCE SEVE30 B B0DE #line:da5d1d
+Bea: 0KPAQNBAET KAMHN B 0PAHSEBJ1L. #line:a51edf
+Mae: D0VSH0 6J1TJ CTPAHHJ1M DVR HNX. #line:bd5f8d
+Mae: BCE KAMHN HA 3EMVE D0VSHJ1 U0DDEPSNBATJ CB0N OBETA. #line:d8345a
+Mae: N PE4HJ1E KAMHN BCEFDA FVRDRT HA HNX CBJ1C0KA. #line:9ec2e7
+Bea: XM. #line:8ea6b0
+<<wait 3>>
+Mae: HY, TNUA, #line:2b4a19
+Mae: CEPJE3HJ1L B0UP0C: #line:b563fd
+Mae: KAK DYMAEQJ, MJ1 CTAVN 6J1 U0DPYFAMN, ECVN 6J1 HE, TNUA, #line:e832ac
+Mae: 3ACTPRVN BMECTE B 0DH0M F0P0DE? #line:328ab1
+Mae: TNUA, MJ1 BMECTE 3ACTPRVN B FEPVCKAYTAX? #line:02d8e8
+Mae: TNUA... GM... GT0 UP0CT0... KAK HA3BATJ-T0? #line:4c22cc
+Bea: C0CEDCTB0? #line:0f693c
+Mae: AFA #line:c1e2f7
+Bea: R HE 3HA%. #line:e0433a
+Bea: R, 4ECTH0, HE 3HA%. #line:be546f
+Bea: BCR M0R SN3HJ 4YBCTBYETCR KAK U0F0HR 3A 4EM-T0, #line:8cfdcf
+Bea: 4T0 UP0D0VSAET 0TDAVRTJCR, #line:dd93f6
+Bea: U0KA R 0CTA%CJ HA T0M SE MECTE. #line:c2f7ef
+Bea: ... #line:9becfa
+<<lookAt Bea Mae>>
+Bea: N, R U0VAFA%, C0CEDCTB0 CEL4AC NFPAET BASHY% P0VJ. #line:ca7228
+Mae: XM. #line:5d7948
+Mae: C0-CED-CTB0. #line:1ac563
+<<if $did_bea_friendship_quest_2 = 1>>
+    Mae: BMECTE 3ACTPRVN B U0DBAVE #line:d8a272
+    Mae: 0URTJ #line:b05a2f
+    Mae: GT0T 6E3YMHJ1L CTAPJ1L U0DBAV #line:d141ac
+    Mae: MJ1 30BEM SN3HJ%, 6NATPNC. #line:cf18f7
+    Bea: CUACN60. GT0 B00DYQEBVRET. #line:38b43b
+<<endif>>
+<<wait 3>>
+Mae: TJ1 X04EQJ BEPHYTJCR HA BE4EPNHKY? #line:5402a1
+<<lookLeft Bea>>
+Bea: HE-A. #line:29ffea
+Mae: MJ1 M0SEM KAK-HN6YDJ CX0DNTJ HA DPYFY%! #line:ebea70
+    ->KVRHYCJ, R HE 06VASA%CJ! #line:7217e9
+        Bea: HY, TJ1 CDEVAVA GT0 0DHASDJ1 #line:52ea0a
+        Bea: TAK 4T0, TJ1 D0VSHA 3HATJ, KAK HE U0BT0PNTJ 0QN6KY. #line:def23e
+    ->R HAY4YCJ X0P0Q0 PA3F0BAPNBATJ #line:af253f
+        Mae: C V%6J1M UAPHEM, #line:e3a5be
+        Mae: C K0T0PJ1M TJ1 0UPEDEVEHH0 UJ1TAEQJCR CDPYSNTJCR. #line:18a478
+        Bea: 0, KPYT0. CUACN60. #line:0c8f4f
+Mae: 6N, TE6E CVED0BAV0 PACCKA3ATJ MHE 060 BCEM. #line:4eb509
+Bea: MHE 6J1V0 CTJ1DH0. #line:02273b
+Bea: BCR M0R SN3HJ - CUV0QH0L CTJ1D. #line:da8140
+Mae: 6N, MHE, TNUA, CTJ1DHEE, 4EM TE6E K0FDA-VN60 6YDET. #line:7800dd
+Mae: TJ1, TNUA, CNVJHEE N YMHEE BCEX, K0F0 R BCTPE4AVA. #line:8e1667
+Bea: CUACN60 #line:e7ec10
+Bea: N TJ1 HE TAKAR FP0MADHAR NDN0TNHA, KAK0L TJ1 CE6R 4YBCTBYEQJ N3-3A M0NX DELCTBNL. #line:1ed005
+Bea: R NH0FDA MYDA4Y. R 3HA% GT0. #line:7c6199
+Bea: H0 TJ1 DELCTBNTEVJH0... X0P0QAR? VN4H0CTJ. #line:38982a
+Mae: UPNHRT0. #line:50e3c9
+<<lookAt Bea Mae>>
+<<if $did_bea_friendship_quest_1>>
+    Mae: 3HAEQJ, 4T0 6J1 CKA3AV PJ16HJ1L Z0HTAH V%CEHA #line:98c03c
+    Bea: 4T0? #line:79b026
+    //remember size and shake//
+    Mae: 6NATPNC CAHTEVV0, #line:8d6b83
+    Mae: HAM HYSH0 B3RTJ 6YPFEPJ1 N QELKN HA UYTN D0M0L #line:7ca391
+    Bea: 0, BAY. YKA3AHNE 60FA. #line:6beca4
+    Mae: X0P0QEF0 60FA. ZAVJQNB0F0. #line:f455bf
+<<endif>>
+<<wait 3>>
+<<if $cool_party_girl>>
+	Mae: B0T 4EPT! R HE CUP0CNVA EE H0MEP! #line:83f054
+	Bea: K0F0? #line:7ce3d5
+	Mae: T0L CYUEP MNV0L DEBYQKN, K0T0PY% R BCTPETNVA HA BE4EPNHKE?!?!? #line:8a597b
+	Mae: Y HAC 6J1V0 CEKPETH0E PYK0U0SATNE? #line:e4bd1a
+	Bea: GT0... GBZEMN3M? #line:27da2a
+	Mae: 4EPT. #line:cd813a
+	Mae: AFA. HAM HYSH0 BEPHYTJCR. #line:bf8db9
+<<endif>>
+Bea: VADH0. #line:f295de
+Bea: U0EXAVN D0M0L. #line:61615c
+Mae: MNVJ1L D0M, MNVJ1L D0M. #line:be32c2
+<<close>>
+<<fadeOut 1 wait>>
+<<unlockDoodle BeaFQ4>>
+<<if $cool_party_girl>>
+    <<unlockDoodle BeaPartyGirl>>
+<<endif>>
+<<set $night to 1>>
+<<set $did_bea_friendship_quest_4 to 1>>
+<<set $completed_bea_friendship_quests += 1>>
+<<unlockAchievement Best_Available_Friend>>
+<<scene MaeHouse left>>
+===
+title: Dialogue1
+tags: 
+colorID: 4
+position: 586,485
+---
+Mae: KASETCR, R 6J1VA 3DECJ 0DHASDJ1, #line:46a040
+Mae: K0FDA 6J1VA DEB04K0L-CKAYT0M. #line:90c0ff
+Mae: CM0TPEVA 4T0-T0 TNUA CUEKTAKVR B 4ECTJ DVNHHELQEL H04N. #line:9cfd8c
+Bea: AFA. R T0SE 6J1VA TAM. #line:bc7f31
+Mae: AX DA. MJ1, TNUA, UP0QVN 4EPE3 GT0 BMECTE. #line:e2f0b8
+    ->U04EMY TJ1 HA4AVA F0B0PNTJ C0 MH0L? #line:fc9d7c
+        Bea: R 6J1VA H0BEHJK0L B F0P0DE #line:806e80
+        Bea: N TJ1 KA3AVACJ KVACCH0L. #line:8edeed
+        Mae: T0VJK0 U0GT0MY? #line:c0d0b3
+        Bea: TJ1 6J1VA YMH0L N BECEV0L. #line:c16bba
+        Mae: A CEL4AC R KAKAR? #line:52714a
+        Bea: ... #line:cf62e0
+        Bea: HY, 3HAEQJ. "BECEVAR". #line:32d952
+        Mae: GT0 BECJMA HE KPYT0, #line:b9d26c
+        Mae: 4T0 TJ1 BCE EWE C4NTAEQJ MEHR TYU0L. #line:33f896
+        Bea: N3BNHN. B 0CH0BH0M, GT0 BCE QYTKN. #line:98a982
+        Mae: "B 0CH0BH0M", #line:7e352d
+        Mae: TJ1 T0SE HE QN6K0 YMHAR! #line:9ff3fe
+        Bea: R 6J1VA VY4QEL BJ1UYCKHNOEL HAQEF0 KVACCA! #line:da527b
+        Mae: 6YDT0 GT0 4T0-T0 3HA4NT B PEAVJH0M MNPE. #line:9c9466
+        Bea: ... #line:6f46de
+        Mae: UP0CTN #line:062b44
+        Bea: UP0CTN #line:bacf80
+        <<wait 2>>
+    ->4T0 GT0 6J1V 3A CUEKTAKVJ? #line:a5aff7
+        Bea: B0PNQKA K0PBNH. CTAPJ1L. CTPEMH0BATJ1L. #line:cef9b6
+        Bea: MAVEHJKNL XNTPJ1L AM6APHJ1L K0T #line:620e69
+        Bea: SNV B VECAX, #line:594c42
+        Bea: FDE HNKT0 HE M0F HALTN EF0. #line:33e75d
+        Bea: H0 U0T0M 0H YKPAV AVMA3 NVN 4T0-T0 BP0DE #line:e4b524
+        Bea: Y MECTH0F0 UPABNTEVR #line:8133cf
+        Bea: N 6J1V 3ACTPEVEH HACMEPTJ. #line:429982
+        Mae: 0Y, DA. T04H0. #line:e7eb62
+        Bea: DA. #line:169f81
+        Bea: ECTJ U0VH0OEHHAR BT0PAR 4ACTJ, #line:cfe3a5
+        Bea: B K0T0P0L 0H UPN3PAK, #line:a14bcf
+        Bea: H0 EE HNK0FDA HE CTABRT. #line:8e0f06
+        Mae: 6EDHJ1L K0T-UPN3PAK. #line:df640c
+Bea: 0TVN4H0, NDEM. #line:7c18f9
+<<close>>
+<<walk Mae Mae2>>
+<<walk Bea Bea2 wait>>
+Mae: R HEMH0F0 HEPBHN4A%. #line:6df311
+Mae: HE 0TX0DN DAVEK0, VADH0? #line:9c22c0
+Bea: TYT HE4EF0 60RTJCR. 06J14HAR BE4EPNHKA. #line:d4002f
+Mae: ... #line:0cfd03
+Mae: EWE HE U03DH0 6P0CNTJCR U0D 4JN-HN6YDJ K0VECA. #line:edc4a3
+<<lookRight Bea>>
+Bea: UPNBET, DSEKN! #line:ab1bf1
+<<close>>
+<<flip Jackie -1>>
+<<walk Jackie Jackie2 wait>>
+Jackie: UPNBET, 6NNNNNN!!! #line:32ea05
+Jackie: MGL, B0T YS HESDAH4NK. #line:317f0a
+Mae: o/ #line:ad80f5
+Mae: UPNBET, DSEKN! #line:578029
+Jackie: TJ1 UPNBEVA MGL. #line:2aeaae
+Mae: _o_ #line:f3e194
+Bea: AFA, GT0 BEDJ HE UP06VEMA? #line:34d7b8
+Jackie: K0HE4H0 HET! 6YDET BECEV0. #line:41588b
+Jackie: 3AX0DN! TYT KPYT0. #line:52a1e0
+Mae: TAM, TNUA, TAHOJ1 N BCE TAK0E? #line:870ee0
+Jackie: 6VN3NTCR K0HEO CBETA, MGL #line:219e5b
+Jackie: *PA3YMEETCR* TAM TAHOJ1. #line:d75962
+Bea: KPYT0 #line:8a95bb
+Mae: 0K #line:e22e0c
+<<close>>
+<<flip Jackie 1>>
+<<walk Jackie ExitRight>>
+<<walk Bea ExitRight>>
+<<walk Mae ExitRight wait>>
+<<set $bea_town to 1>>
+<<irisOut 1 wait>>
+<<scene BeaParty>>
+===
+title: NeedToJumpOnCar
+tags: 
+colorID: 4
+position: 801,125
+---
+//there is a guy and a girl standing in front of the car you need to jump on//
+Mae: XEL! 0T0LDNTE! #line:ed857b
+CarGirl: 4T0? #line:80e24f
+<<dilate Mae .85 .5>>
+Mae: BAVNTE, F0TJ1-DYPHN. #line:a35139
+CarDude: HET. #line:71c899
+Mae: MHE HYSH0 3AVE3TJ HA KPJ1QY. #line:9bb95b
+CarDude: TJ1 HE UPJ1FHEQJ HA M0% MAQNHY. #line:0dab1e
+<<dilate Mae .75 .5>>
+Mae: R U0K0H4Y C T060L UPRM0 3DECJ HA UAPK0BKE UNOOEPNN #line:7e3730
+CarGirl: YCU0K0LCR #line:d98058
+Mae: U0QVA TJ1 #line:3bd1c8
+CarGirl: HE U0CJ1VAL MEHR #line:ff7f3b
+Mae: HE YCU0KANBAL MEHR #line:918d82
+CarDude: 0TBAVN 0T M0EL 4EPT0B0L TA4KN! #line:2bc366
+<<dilate Mae .65 .5>>
+Mae: :| #line:549489
+<<setAnimInt Mae nodding 1>>
+Mae: ECVN TJ1 HE 0TBAVNQJ 0T CB0EL 4EPT0B0L TA4KN #line:1c9089
+Mae: R UP0EDYCJ HA HEL U0 TB0EL 6AQHE #line:10421c
+<<setAnimInt Mae nodding 0>>
+CarDude: TJ1 B006WE YMEEQJ B0DNTJ? #line:03d13d
+Mae: \o/ #line:06524b
+Mae: X04EQJ Y3HATJ, F0P0DCK0L? #line:8f9763
+CarGirl: R 3B0H% K0UAM. #line:81823a
+<<lookAt Mae CarDude>>
+<<close>>
+//she walks away to the right and down to the party//
+<<walk CarGirl ExitRight>>
+Mae: ECVN TJ1 HE YLDEQJ C D0P0FN #line:5b0f52
+Mae: UPRM0 CEL4AC #line:87e57b
+Mae: R 3ACTABV% TE6R C0SPATJ GTY TA4KY OEVNK0M #line:9d7aab
+Mae: R M0FY #line:b48d73
+CarDude: 6YDY PAD YBNDETJ TB0% U0UJ1TKY. #line:01cc19
+<<setAnimInt CarDude point 1>>
+Mae: _o_ :( #line:08fcaf
+Mae: U0CVEDHEF0, K0T0P0F0 R K0FDA-VN60 PAHNVA, #line:f0d38f
+Mae: R PAHNVA ZN3N4ECKN #line:4c5c16
+Mae: R PAHNVA EF0 04EHJ, 04EHJ TRSEV0. #line:0140f6
+Mae: ZN3N4ECKN. #line:954982
+<<trigger CarDude Jab>>
+CarDude: PEAVJH0, R CK0P0... #line:8f90a0
+<<dilate Mae 1 .5>>
+Mae: :| #line:ae454a
+Mae: TJ1 CK0P0 4T0? #line:c9f26d
+<<wait 3>>
+<<setAnimInt CarDude point 0>>
+CarDude: 3HAEQJ, 4T0? Y MEHR HET HA GT0 BPEMEHN #line:03794b
+<<setAnimint Mae headShaking 1>>
+Mae: AFA, HET. #line:fd3600
+Mae: UP0BAVNBAL. #line:8e937e
+<<setAnimint Mae headShaking 0>>
+CarDude: HADE%CJ, TJ1 CV0MAEQJ CE6E CUNHY. #line:ed10c1
+<<lookNearest Mae>>
+//CarDude walks to the right and down to the party//
+<<walk CarDude ExitRight>>
+===

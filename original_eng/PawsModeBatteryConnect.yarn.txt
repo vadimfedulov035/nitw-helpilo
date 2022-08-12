@@ -1,0 +1,74 @@
+title: Zapped
+tags: 
+colorID: 0
+position: 527,187
+---
+Mae: {width=4}YAAAAAAAAAAAAAAAAAAAARGH!!!!!! #line:84f7d0
+<<irisOut 1 wait>>
+<<scene PawsModeBatteryConnect>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: -308,202
+---
+[[ClearedGarbage]]
+===
+title: ClearedGarbage
+tags: 
+colorID: 0
+position: 27,303
+---
+Mae: oof. This thing smells. #line:87ebf3
+Gregg: That’s just how old machines smell. #line:b82384
+Mae: no... like... I think something was living in here. #line:413b08
+<<close>>
+<<tell BatteryClampPaws ShowGreggClamp>>
+<<wait 2>>
+GreggClamp: Hey. #line:a00482
+GreggClamp: I’ve got an idea. #line:32fc88
+GreggClamp: Why don’t you stop being so negative. #line:ece9dd
+<<close>>
+<<tell BatteryClampPaws ShowMaeClamp>>
+<<wait 1>>
+MaeClamp: Why don’t you eat your own neck? #line:4d3253
+GreggClamp: That’s impossible. #line:f2a9ee
+GreggClamp: Be serious. #line:764332
+GreggClamp: This is serious business. #line:7dbcb1
+MaeClamp: Oh! Well! #line:6559b2
+MaeClamp: Well, don’t mind me! #line:d0555b
+MaeClamp: See, I’ve already died once tonight. #line:fee1f6
+MaeClamp: No big deal or anything!!!! #line:909ba2
+GreggClamp: What was it like? #line:24f6f4
+<<setOptionsCharacter MaeClamp>>
+->I saw a shark I think #line:6e2409
+	MaeClamp: and it told me something important #line:4f03dc
+	GreggClamp: what was it? #line:bfa4fe
+	MaeClamp: i don’t remember. #line:a023c2
+	GreggClamp: couldn’t have been that important then. #line:9a0472
+	MaeClamp: True. #line:118251
+->I can taste my tooth fillings #line:f3ff98
+	MaeClamp: and it’s like they’re... ringing? #line:e73197
+	GreggClamp: Ringing. #line:342232
+	MaeClamp: Like little bells #line:a559f5
+	MaeClamp: inside my skull. #line:75c330
+	GreggClamp: Wow. #line:728929
+	MaeClamp: Yeah. #line:67b2bc
+GreggClamp: Ok let’s do this! #line:d001d5
+GreggClamp: Clamp it!!! #line:22420e
+<<close>>
+<<setOptionsCharacter Mae>>
+<<bigPawCaptureReturnToPosition>>
+<<tell BatteryClampPaws GreggClamp>>
+<<wait 3>>
+===
+title: Connected
+tags: 
+colorID: 0
+position: 247,406
+---
+<<wait 2>>
+<<set $gregg_friendship_quest_2 to 3>>
+<<irisOut 1 wait>>
+<<scene GreggAngusApartment>>
+===

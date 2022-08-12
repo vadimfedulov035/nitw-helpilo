@@ -1,0 +1,392 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 4833,396
+---
+<<if $miranda_basement is 0>>
+    <<warp Bea Bea1>>
+    <<warp Mae Mae1>>
+    <<flip Bea -1>>
+    <<playMusic miranda_house>>
+    <<walk Bea Bea2>>
+    <<walk Mae Mae2 wait>>
+    <<setCanInteract Bea 0>>
+    [[Dialogue1]]
+<<elseif $miranda_basement is 1>>
+    <<warp Bea BeaBehindFurnace>>
+    <<warp Mae MaeFurnace>>
+    <<playerFace 1>>
+    <<setCanInteract Bea 0>>
+    <<flip Bea 1>>
+<<elseif $miranda_basement is 2>>
+    <<warp Bea BeaBehindFurnace>>
+    <<warp Mae MaeFurnace>>
+    <<playerFace 1>>
+    <<setCanInteract Bea 0>>
+    <<flip Bea 1>>
+    <<playMusic miranda_basement>>
+    [[Dialogue2]]
+<<elseif $miranda_basement is 3>>
+    <<warp Bea Bea4>>
+    <<warp Mae Mae4>>
+    <<playerFace -1>>
+    <<setCanInteract Bea 0>>
+    <<flip Bea -1>>
+    [[Dialogue3]]
+<<endif>>
+===
+title: Dialogue1
+tags: 
+colorID: 3
+position: 5274,489
+---
+Mae: Oh man, I love creepy basements. #line:04b688
+Bea: And why wouldn't you. #line:7cde4e
+Bea: Look at all this... splendor. #line:daacb4
+Mae: geez. she's got a lot of junk. #line:c780cf
+Mae: maybe she's got a few more husbands stacked in the corner. #line:503cfd
+Bea: heh heh. #line:4fdca0
+Bea: alright, let's get this done so we can go home. #line:19cc1b
+<<walk Bea Bea3>>
+===
+title: TriggerBea
+tags: 
+colorID: 3
+position: 5567,341
+---
+<<if $miranda_basement is 0>>
+    <<set $miranda_basement to 1>>
+    Mae: isn’t it illegal to smoke indoors? #line:9b13f9
+    Bea: it is. #line:a3284e
+    Mae: <o> :) #line:2e9288
+    Mae: well well well, bea the criminal. #line:90a9b3
+    Bea: it’s a dummy #line:ce4610
+    Bea: i’m trying to quit. #line:640a26
+    Bea: so i chew on this thing. #line:ba3920
+    Mae: O_o #line:5598b3
+    Mae: what #line:ae0df6
+    Mae: _o_ #line:9bedaa
+    Bea: notice no smoke coming out? No smoke at all? #line:352382
+    Mae: but like i’ve seen you smoke. #line:f3b770
+    Bea: yeah. not indoors. #line:f255d4
+    Mae: :| #line:d85aaf
+    Mae: i totally thought it was real. #line:f0aee9
+    Bea: where did you think the smoke was going? #line:ab6441
+    Mae: o_o #line:b3723e
+    Mae: i thought you were… swallowing it? #line:72a99d
+    Bea: Mae do you know how smoking works? #line:1ed2c4
+    Mae: :\ #line:8ec755
+    Mae: oh i’m sorry! i’m not a smoking scientist beatrice! #line:7f24de
+    Bea: good lord what else don’t you know? #line:aa5f78
+    Mae: :( O_O \o/ #line:8a16a7
+    Mae: sorry i didn’t get a degree in cigarettology! #line:659b99
+    Mae: :| o_o _o_ #line:820951
+    Bea: what even was your major in college? #line:9411f2
+    Mae: =_= :) o> #line:61cbc6
+    Mae: kicking ass and getting rad #line:3919f9
+    <<wait 3>>
+    Mae: o_o :| #line:d4af4a
+    Mae: so that's the furnace? #line:4698ab
+    <<lookLeft Bea>>
+    Bea: yes that's the furnace. #line:281155
+    Mae: :) #line:235cce
+    Mae: i've decided his name is clanky. #line:f6f02e
+    Bea: ok. #line:65c5fd
+    Bea: you just hang out. #line:f9010a
+    Bea: i'm going to go fix this right quick. #line:8ad3d1
+    Bea: don't like... break anything. #line:3f9f9c
+    Mae: :| _o_ #line:1b7fb1
+    Mae: what am i gonna break? #line:fc3116
+    Mae: this is a basement full of crap! #line:b11e21
+    <<close>>
+    <<walk Bea BeaBehindFurnace wait>>
+    Bea: oh geez ok. #line:0876f1
+    Bea: shouldn't be long. #line:f96631
+    Mae: can i help? #line:2efcf0
+    Bea: nope! #line:4c89f6
+    Mae: why am i here then? #line:0c31e8
+    Bea: because you wanted to come along! #line:05c8bf
+    Bea: just... chill. #line:6c99e1
+    <<tell _AmbientSFX:bea_fix_lp Play1>>
+<<endif>>
+===
+title: Dialogue2
+tags: 
+colorID: 3
+position: 5137,743
+---
+<<setSortingLayerName Player>>
+<<walk Bea BeaOutFromFurnace>>
+Bea: I think I fixed it, now let's see what we've got here... #line:45ec20
+<<waitForMove Bea>>
+<<flip Bea -1>>
+Mae: Yeah, we did! #line:14079f
+Bea: *We?* What did you do?! #line:d17a0d
+<<close>>
+Mae: i engineered an elegant long-term solution. \o/ #line:273a76
+<<close>>
+
+<<wait 2>>
+<<fadeOutMusic .25>>
+<<wait .2>>
+<<tell _AmbientSFX:snap_animation Play>>
+
+<<if $furnace_contraption is 1>>
+    <<setAnimInt Contraption_A_CorpseDriver state 2>>
+<<elseif $furnace_contraption is 2>>
+    <<setAnimInt Contraption_B_CaveHorse state 2>>
+<<elseif $furnace_contraption is 3>>
+    <<setAnimInt Contraption_C_RacketTurbine state 2>>
+<<elseif $furnace_contraption is 4>>
+    <<setAnimInt Contraption_D_DragRacer state 2>>
+<<elseif $furnace_contraption is 5>>
+    <<setAnimInt Contraption_E_GnomeTurbine state 2>>
+<<endif>>
+
+<<wait .35>>
+<<tell _AmbientSFX:furnace_contraption_break Play>>
+<<wait .15>>
+<<tell _AmbientSFX:snap_animation Play>>
+
+<<if $furnace_contraption is 1>>
+    <<setAnimInt Contraption_A_CorpseDriver state 3>>
+<<elseif $furnace_contraption is 2>>
+    <<setAnimInt Contraption_B_CaveHorse state 3>>
+<<elseif $furnace_contraption is 3>>
+    <<setAnimInt Contraption_C_RacketTurbine state 3>>
+<<elseif $furnace_contraption is 4>>
+    <<setAnimInt Contraption_D_DragRacer state 3>>
+<<elseif $furnace_contraption is 5>>
+    <<setAnimInt Contraption_E_GnomeTurbine state 3>>
+<<endif>>
+
+
+<<wait 3.5>>
+
+Mae: goddammit. _o_ #line:54d732
+<<close>>
+Bea: Way to go Mae. Please don't fix anything ever again. #line:316a39
+Bea: like, don't even have a pet. #line:c1154b
+Bea: anything you have to maintain. #line:9aa73d
+Mae: aw friggin crap!!! #line:f0b481
+Mae: it was totally gonna work!!! #line:1911a7
+Mae: this is so typical. #line:c8f6ef
+Bea: I'm going to check the exit... #line:0ea062
+<<close>>
+<<walk Mae Mae2>>
+<<flip Bea 1>>
+<<walk Bea Bea2NoCast wait>>
+Bea: Wait here. #line:3a341d
+<<close>>
+<<walk Bea BeaTryExit wait>>
+<<playAmbientSFX _AmbientSFX:basement_door_locked>>
+<<wait 2>>
+Bea: Dammit. #line:023e60
+<<close>>
+<<flip Bea -1>>
+<<walk Bea BeaHalfwayDownStairs wait>>
+<<wait 1.5>>
+Bea: Well, we're locked in. #line:811f27
+Bea: aaaaagh i knew this was gonna happen #line:80e968
+Bea: stupid, stupid bea. #line:67754a
+    ->see if you can yell? #line:73dc54
+        Bea: it's not gonna work. #line:fcc742
+        <<wait 2>>
+        Bea: MRS. MIRANDAAAAAAAA!!!!!!! #line:8c8fd6
+        <<wai 2>>
+        Bea: it didn't work. #line:df59a4
+    ->we can cut a hole in the floor! #line:11c6b4
+        Bea: with what? #line:65db18
+        Mae: maybe she has an old saw down here! #line:6bc4a4
+        Bea: and we're gonna what #line:97f28d
+        Bea: build a heap of garbage to stand on #line:767886
+        Bea: and saw a circle in the floor #line:6db4a2
+        Bea: like a cartoon? #line:865063
+        Mae: well, not with *that* attitude. #line:85beac
+Bea: Well, this knob is really old and loose. #line:7b6287
+Bea: Maybe I can like... figure this out... #line:3d8cb0
+Mae: i'll look around too! #line:5969b1
+Bea: yeah. you go look around a whole bunch. #line:7c4092
+<<close>>
+<<flip Bea 1>>
+<<walk Bea BeaTryExit wait>>
+<<playAmbientSFX _AmbientSFX:door_knob_fiddle>>
+===
+title: TriggerBea2
+tags: 
+colorID: 3
+position: 5575,713
+---
+<<if $miranda_basement is 2>>
+    <<if $miranda_furnace is 0>>
+        Bea: aaaaaaagh. #line:277810
+        Bea: still stuck. #line:1bdfa6
+        Mae: can i do anything? #line:25125a
+        Bea: i dunno, mae. can you? #line:03353d
+    <<endif>>
+<<endif>>
+===
+title: Furnace
+tags: 
+colorID: 3
+position: 5921,573
+---
+<<if $miranda_basement is 2>>
+    Mae: Hm. #line:1f5e35
+    Mae: the one thing she *could* hear is this furnace #line:d33a23
+    Mae: when it was... #line:f1f294
+    Mae: broken... #line:35dae2
+    Mae: broken things need to be... broken... #line:cb1ec0
+    <<set $miranda_basement_look_for_bat to 1>>
+<<elseif $has_furnace_item_0 is 1 and $has_furnace_item_1 is 1 and $has_furnace_item_2 is 1 and $has_furnace_item_3 is 1>>
+    Mae: Alright so I can't carry anything else #line:084c89
+    Mae: so i'm gonna say this is enough stuff. #line:71c229
+    <<set $miranda_basement to 2>>
+    <<irisOut 1 wait>>
+    <<scene FixFurnace>>
+<<elseif $num_furnace_items is 3>>
+    Mae: Should i grab something else?  #line:76a8ad
+    Mae: i should grab something else. #line:0cdf4e
+<<elseif $num_furnace_items is 2>>
+    Mae: What else looks good what else looks goooooood #line:c1fcf8
+<<elseif $num_furnace_items is 1>>
+    Mae: Wonder what else I can find? #line:aedfc1
+<<else>>
+    Mae: I bet I can make something out of all this... junk. #line:8757ca
+    Mae: Geez.  #line:787cc8
+    Mae: who even would have this much junk. #line:c787a6
+    <<set $can_pickup_furnace_items to 1>>
+<<endif>>
+===
+title: Fan
+tags: 
+colorID: 3
+position: 6262,602
+---
+<<if $can_pickup_furnace_items is 0>>
+    Mae: Geez. this is one old-ass fan. #line:fa6b33
+    Mae: it's made of metal and you could chop your finger off! #line:09017c
+<<elseif $has_furnace_item_0 is 0>>
+    <<set $num_furnace_items += 1>>
+    Mae: I could see this being useful in furnace fixin'. #line:e00a0a
+    <<set $has_furnace_item_0 to 1>>
+    <<playOneShot event:/miranda_house/pickup_fan Mae>>
+<<endif>>
+===
+title: Gnome
+tags: 
+colorID: 3
+position: 6518,585
+---
+<<if $can_pickup_furnace_items is 0>>
+    Mae: Ah, my old nemesis. #line:66927b
+    Mae: professor Lucius Von Gnomeo. #line:ae2c86
+<<elseif $has_furnace_item_1 is 0>>
+    <<set $num_furnace_items += 1>>
+    Mae: I need your expertise to fix this stupid furnace, professor. #line:65b568
+    <<set $has_furnace_item_1 to 1>>
+    <<playOneShot event:/miranda_house/pickup_gnome Mae>>
+<<endif>>
+===
+title: Racket
+tags: 
+colorID: 3
+position: 6777,580
+---
+<<if $can_pickup_furnace_items is 0>>
+    Mae: Hmm. Badmitton. #line:8f47e8
+    Mae: Bandminton. #line:de5eab
+    Mae: Badmittin. #line:c3b597
+    Mae: Racket. #line:3ac4e8
+<<elseif $has_furnace_item_2 is 0>>
+    <<set $num_furnace_items += 1>>
+    Mae: Yeah ok I could see this being useful. #line:14e890
+    <<set $has_furnace_item_2 to 1>>
+    <<playOneShot event:/miranda_house/pickup_racket Mae>>
+<<endif>>
+===
+title: Rod
+tags: 
+colorID: 3
+position: 7071,567
+---
+<<if $can_pickup_furnace_items is 0>>
+    Mae: Fish fish fiiiiiiiiish. #line:7551f9
+<<elseif $has_furnace_item_3 is 0>>
+    <<set $num_furnace_items += 1>>
+    Mae: This looks useful. THIS LOOKS USEFUL! #line:db84f6
+    <<set $has_furnace_item_3 to 1>>
+    <<playOneShot event:/miranda_house/pickup_rod Mae>>
+<<endif>>
+===
+title: Notes
+tags: 
+colorID: 0
+position: 5081,178
+---
+// miranda_basement: 0 = first in
+// miranda_basement: 1 = bea has gone behind furnace
+// miranda_basement: 2 = "Fixed" the furnace
+===
+title: Bat
+tags: 
+colorID: 3
+position: 5991,205
+---
+<<if $miranda_basement_look_for_bat is 1>>
+    Mae: Hmmmm. #line:6f8d3d
+    Mae: well it's the one tool i do know how to use. #line:925fd0
+    Mae: a #line:12bc0d
+    Mae: tool #line:e65eba
+    Mae: for #line:5c0ccd
+    Mae: beating #line:7db42b
+    Mae: ass!!!!!!!!!!!!! #line:481714
+    <<getBat>>
+    <<playOneShot event:/miranda_house/pickup_bat Mae>>
+    <<wait 1>>
+    <<playMusic break_furnace>>
+<<endif>>
+===
+title: FurnaceDefeated
+tags: 
+colorID: 3
+position: 5412,95
+---
+<<freezePlayer>>
+<<fadeOutAmbientSFX _AmbientSFX:door_knob_fiddle 1>>
+<<wait 4>>
+Mae: HA HA HA HA HA HA HA #line:a0a231
+Mae: SUCK IT YOU PIECE OF CRAP FURNACE. #line:1fd41f
+Bea: wow that is pretty loud #line:c6ec60
+Mae: yeah geez. #line:c17116
+Bea: surprised i can't hear that back in town. #line:d70d1a
+Bea: ok cool she's coming. thank god. #line:f418ee
+Mae: uh, thank me? more like? #line:f51bf7
+Bea: Hey mrs. miranda! you locked us in! #line:8b133e
+<<close>>
+<<fadeOutMusic 1>>
+<<set $miranda_basement to 3>>
+<<set $miranda_furnace to 10>>
+<<set $has_bat to 0>>
+<<irisOut 1 wait>>
+<<scene MirandaYard>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 4760,134
+---
+<<if $miranda_basement is 2>>
+    <<if $furnace_contraption is 1>>
+        <<setAnimInt Contraption_A_CorpseDriver state 1>>
+    <<elseif $furnace_contraption is 2>>
+        <<setAnimInt Contraption_B_CaveHorse state 1>>
+    <<elseif $furnace_contraption is 3>>
+        <<setAnimInt Contraption_C_RacketTurbine state 1>>
+    <<elseif $furnace_contraption is 4>>
+        <<setAnimInt Contraption_D_DragRacer state 1>>
+    <<elseif $furnace_contraption is 5>>
+        <<setAnimInt Contraption_E_GnomeTurbine state 1>>
+    <<endif>>
+<<endif>>
+===

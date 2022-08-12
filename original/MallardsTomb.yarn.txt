@@ -1,0 +1,434 @@
+title: Bed
+tags: 
+colorID: 0
+position: 30611,-14620
+---
+<<if $mallards_secret_day is 1>>
+    <<if $mallards_bed is 0>>
+        <<set $mallards_bed to 1>>
+        Mae: KT0 6J1 3DECJ HN SNV, 0H 0UPEDEVEHH0 X0DNV B OEPK0BJ. #line:c0a1ba
+        Mae: URTJ CBRTJ1X. #line:ea3110
+        Mae: Y 6A6YQKN 6J1VA TAKAR SE 06CTAH0BKA, #line:0a7d86
+        Mae: K0FDA R B U0CVEDHNL PA3 EE BNDEVA. #line:e86d72
+    <<elseif $mallards_bed is 1>>
+        <<set $mallards_bed to 2>>
+        Mae: «NK0HJ1 X0P0QN DVR T0F0, 4T06J1 C0XPAHNTJ D06P0», #line:9c41b2
+        Mae: "N N3FHAHNR UV0X0F0." #line:9ed601
+        Mae: GT0 CYUEP-BASHAR NHZA, K0T0PY% R BJ1HECVA #line:dcb179
+        Mae: N3 F0D0B CY660THEL QK0VJ1. #line:48374f
+    <<elseif $mallards_bed is 2>>
+        <<set $mallards_bed to 3>>
+        Mae: B K0HOE K0HO0B 6A6YQKA YMEPVA, A CBRTJ1E CM0TPEVN. #line:8dd7c1
+        Mae: 6J1V0 BPEMR. #line:e38f87
+        Mae: N 0HN BCE PABH0 HE 6J1VN CBRTJ1MN. #line:7b09aa
+        Mae: 0HN 6J1VN KAPTNHKAMN. #line:da403e
+    <<elseif $mallards_bed is 3>>
+        <<set $mallards_bed_done to 1>>
+        Mae: BJ1UJEM 3A 6A6YQKY. #line:a16afd
+    <<endif>>
+<<elseif $mallards_secret_day is 2>>
+    <<if $mallards_bed is 0>>
+        <<set $mallards_bed_done to 1>>
+        Mae: D0VSH0 6J1TJ, CTPAHH0 CUATJ B GT0L KP0BATN KASDY% H04J. #line:052470
+        Mae: 0DH0MY B GT0M 3DAHNN. #line:4958c0
+        Mae: 3A NCKV%4EHNEM TEVE30ZTA HA UAPY GTASEL HNSE. #line:eec0d6
+        Mae: M0SET, 0HN TAM PA60TA%T. #line:3a1230
+        Mae: UP0CT0 CUYCTNVCR BHN3 B CB0EL UNSAME. #line:5ba4eb
+        Mae: UPNBET BCEM, R SNBY HA PA60TE N T0VJK0 4T0 UP0CHYVCR. #line:4ad49e
+        Mae: 0 60SE, GT0 3BY4NT YSACH0. #line:27c418
+    <<endif>>
+<<elseif $mallards_secret_day is 3>>
+    <<if $mallards_bed is 0>>
+        <<set $mallards_bed += 1>>
+        Mae: R M0FY U0CUATJ HA GT0L KP0BATN. #line:5ef3c8
+        Mae: N T0T, KT0 3DECJ SNBET, HNK0FDA HE Y3HAET 06 GT0M. #line:aa596c
+        Mae: 0HN U0LDYT CUATJ #line:80539e
+        Mae: BE4EP0M #line:bf5624
+        Mae: HE U0D03PEBAR, 4T0 HA HEL KT0-T0 EWE 6J1V #line:99116d
+        Mae: U0D NX UP0CTJ1HRMN #line:dcb18a
+        Mae: HA NX U0DYQKAX. #line:7ccd76
+        Mae: MYA-XA-XA-XA. #line:78a034
+    <<elseif $mallards_bed is 1>>
+        <<set $mallards_bed_done to 1>>
+        Mae: R 6J1 T0SE X0TEVA #line:8dcc43
+        Mae: 6J1TJ U0VE3H0L #line:db7d2a
+        Mae: R M0FVA 6J1 3ACTEVNTJ U0CTEVJ, U0KA HE BNDRT. #line:6bc597
+        Mae: GT0 HE D0VSH0 HAUYFATJ. #line:22e4e8
+    <<endif>>
+<<endif>>
+===
+title: Closet
+tags: 
+colorID: 0
+position: 30892,-14609
+---
+<<if $mallards_secret_day is 1>>
+    <<if $mallards_closet is 0>>
+        <<set $mallards_closet to 1>>
+        Mae: R M0FY UPRTATJCR, U0KA SNBYWNE 3DECJ HE BEPHYTCR. #line:578c51
+        Mae: N, B03M0SH0, BJ13BATJ Y HNX CEPDE4HJ1L UPNCTYU. #line:656192
+        Mae: NVN U0VY4NTJ UYV% B V06. #line:c03a6c
+        <<wait .5>>
+        Mae: 4T0 R 3DECJ DEVA%? #line:c83354
+        Mae: 4T0 R DEVA% C0 CB0EL SN3HJ%? #line:72ab9e
+        Mae: R CNSY B 4YS0L KVAD0BKE #line:81c75f
+        Mae: B U0VYUYCT0M 3DAHNN. #line:63c951
+        Mae: R M0FVA 6J1 UP0CT0 0CTATJCR 3DECJ. #line:3eb379
+        Mae: HABCEFDA. #line:198439
+    <<elseif $mallards_closet is 1>>
+        <<set $mallards_closet to 2>>
+        Mae: FDE UNCAET GT0T 4EV0BEK? #line:5965ce
+    <<elseif $mallards_closet is 2>>
+        <<set $mallards_closet_done to 1>>
+        Mae: 3DECJ TEMH0. #line:a0d489
+    <<endif>>
+<<elseif $mallards_secret_day is 2>>
+    <<if $mallards_closet is 0>>
+        <<set $mallards_closet += 1>>
+        Mae: 4T0 B GT0M QKAZY? #line:69996d
+        Mae: R 4YBCTBY% 06YBJ. #line:9e4dd2
+        Mae: HECK0VJK0 PY6AQEK. #line:2fc759
+        Mae: 0K, Y HNX ECTJ MNHN F0VJZ NVN TNUA T0F0 #line:b89fd7
+        Mae: 0, CTPAHH0. Y HNX 3DECJ ECTJ ME4? #line:415675
+        Mae: MHE B3RTJ ME4 N 0FPA6NTJ C HNM 6AHK? #line:feba04
+        Mae: PYKN BBEPX, FPASDAHNH! R B0TKHY GT0T ME4 BAM B QE%! #line:25b512
+        Mae: XA-XA. R M0FVA 6J1 HADETJ MACKY N UVAW. #line:6fd449
+        Mae: "KT0 6J1V T0T VNX0L B0P, #line:77ef24
+        Mae: 4T0 YFP0SAV HAHECTN YDAP KACCNPY B QE%?" #line:fe2b64
+        Mae: GX. M0R SN3HJ PA3PYQEHA. #line:d295e5
+        Mae: BEP0RTH0, R CVY4ALH0 6J1 PAHNVA *C06CTBEHHY%* QE%. #line:daac8c
+        Mae: C06EPNCJ, MGL. #line:16484d
+    <<elseif $mallards_closet is 1>>
+        <<set $mallards_closet_done to 1>>
+        Mae: H0 CEPJE3H0, KYDA UNCAET GT0T 4EV0BEK? #line:69dd71
+    <<endif>>
+<<elseif $mallards_secret_day is 3>>
+    <<if $mallards_closet is 0>>
+        <<set $mallards_closet += 1>>
+        Mae: NHTEPECH0, X03RNH GT0F0 MECTA Y3HAET, 4T0 R 6J1VA 3DECJ. #line:4b2762
+        Mae: R 4YBCTBY%, 4T0 MESDY HAMN 4T0-T0 ECTJ #line:4f5c05
+        Mae: 6YDT0 R UPN3PAK #line:bf9027
+        Mae: N UPECVEDY% EF0. #line:22088a
+        Mae: CT0NV0 6J1 #line:641144
+        Mae: 4T0-HN6YDJ U0DBNHYTJ. #line:ba6b0b
+        Mae: UP0CT0 4T06J1 3HAVN, 4T0 KT0-T0 #line:b25a96
+        Mae: 3A60TNTCR 0 HNX. #line:77c9f0
+    <<elseif $mallards_closet is 1>>
+        <<set $mallards_closet_done to 1>>
+        Mae: VADH0, HE 6YDY GT0F0 DEVATJ. #line:5824c2
+        Mae: GT0 6J1VA 6J1 CAMAR SYTKAR BEWJ HA CBETE. #line:82b3ed
+    <<endif>>
+<<endif>>
+===
+title: Decorations1
+tags: 
+colorID: 0
+position: 30409,-15672
+---
+<<if $mallard_decorations is 0>>
+    [[wow]]
+<<elseif $mallard_decorations is 1>>
+    [[parade1]]
+<<elseif $mallard_decorations is 2>>
+    [[flowers]]
+<<elseif $act >= 3 and $mallard_decorations is 3>>
+    [[decorations1_act3]]
+<<elseif $act >= 4 and $mallard_decorations is 4>>
+    [[decorations1_act4]]
+<<endif>>
+===
+title: parade1
+tags: demo2
+colorID: 0
+position: 30548,-15365
+---
+<<set $mallard_decorations += 1>>
+Mae: U0CVE T0F0, KAK UAPAD CBEPHYVN, B F0P0DE B0 BPEMR BECHJ1 HE 6J1V0 HN4EF0 NHTEPECH0F0. #line:a6e81f
+Mae: H0 MJ1 TAK SE 0X0TNVNCJ 3A RLOAMN B0 BPEMR UACXN. #line:5bd347
+Mae: N EVN 0C06J1E KPEHDEVN. N HAM 6J1V0 U0ZNF, 6VAF0CV0BEHJ1 VN 0HN. #line:a7b250
+Mae: 60F0XYVJHJ1E KPEHDEVJKN. #line:563989
+===
+title: flowers
+tags: demo2
+colorID: 0
+position: 30798,-15831
+---
+Mae: 60SE, GTN OBETJ1 NCKYCCTBEHHJ1E. #line:7f6b61
+Mae: MGVVAPD 3ACVYSNBAET VY4QEF0 MEM0PNAVA. #line:82f3a8
+<<set $mallard_decorations += 1>>
+<<if $act < 3>>
+    <<set $mallard_decorations_1_done to 1>>
+<<endif>>
+===
+title: wow
+tags: demo2
+colorID: 0
+position: 30871,-15510
+---
+<<set $mallard_decorations += 1>>
+Mae: YX TJ1. TAK B0T FDE XPAHRT HEHYSHJ1E BEWN. #line:d12356
+Mae: R U0MH% GT0T BECEHHNL UAPAD. 0H 6J1V TAKNM BECEVJ1M. #line:c8b1c1
+Mae: H0 KAK-T0 B0 BPEMR UAPADA Y MGVVAPDA U. 6VYMNHFP0 U0PBAVNCJ TP0CJ1, N 0H YUAV HA KPNCA GBAHCA. #line:bc3c03
+Mae: U0CVE GT0F0 0HN 0TMEHNVN UAPAD. #line:bf0db1
+Mae: TPYCJ1. #line:ea98ed
+Mae: 0HN HE M0FYT U0CADNTJ MGVVAPDA. MGVVAPD D0VSEH 6J1TJ CB060DEH. #line:15b76d
+Mae: HN BEPEBKN, HN 6EDHJ1E H0FN KPNCA GBAHCA HE CM0FVN YDEPSATJ EF0. #line:c50c9b
+Mae: NHTEPECH0, KAK Y HNX DB0NX CV0SNVACJ CYDJ6A. #line:17de14
+===
+title: Dresser
+tags: 
+colorID: 0
+position: 31137,-14599
+---
+<<if $mallards_secret_day is 1>>
+    <<if $mallards_dresser is 0>>
+        <<set $mallards_dresser to 1>>
+        Mae: *KT0-T0 3DECJ SNBET?* #line:3c096b
+        Mae: GT0, TNUA, UP0CT0 K0MHATA. #line:44ea03
+    <<elseif $mallards_dresser is 1>>
+        <<set $mallards_dresser to 2>>
+        Mae: 0DNH X0V0DNVJHNK. #line:81256c
+        Mae: 0DNH K0M0D. #line:7c1537
+        Mae: 0DHA VAMUA. #line:b84ad0
+        Mae: 0DHA KP0BATJ. #line:f7db99
+        Mae: 0DH0 0KH0 #line:0c2124
+        Mae: 0DHA DBEPJ. #line:0e3fdf
+        Mae: R DYMA%, 3DECJ T0VJK0 DBA BJ1X0DA. #line:058df9
+    <<elseif $mallards_dresser is 2>>
+        <<set $mallards_dresser_done to 1>>
+        Mae: 3DECJ 6J1V0 6J1 CTPAQH0, HN 6YDJ TAK SYTK0. #line:0984e2
+    <<endif>>
+<<elseif $mallards_secret_day is 2>>
+    Mae: CKASN AVEKY, 4T06J1 N3MEHNV K0D. #line:16ba30
+<<elseif $mallards_secret_day is 3>>
+    <<if $mallards_dresser is 0>>
+        <<set $mallards_dresser += 1>>
+        Mae: CEPJE3H0. 3DECJ HET BAHH0L K0MHATJ1. #line:210852
+        Mae: N HNKT0 HE BJ1X0DNT N3 K0MHATJ1. #line:694a14
+        Mae: 0HN KAKA%T B GT0T K0M0D?! #line:2411b3
+        Mae: 60SE... #line:3b7700
+        Mae: 0HN KAKA%T B BEDP0????? #line:79e630
+        Mae: 0 60SE, 4T0 ECVN R CU0TKHYCJ 06 BEDP0 C KAKAQKAMN. #line:681731
+        Mae: CT0VJK0 B0UP0C0B, N HN 0DH0F0 0TBETA. #line:6ba8e1
+    <<elseif $mallards_dresser is 1>>
+        <<set $mallards_dresser += 1>>
+        Mae: NHTEPECH0, UAPEHJ GT0 NVN DEBYQKA #line:f3d672
+        Mae: 0HN, BEP0RTH0 CTAPJ1E #line:24b983
+        Mae: HNK0F0 N3 M0V0DJ1X HE 3A60TRT CBRTJ1E #line:84f66b
+        Mae: NVN OEPK0BJ. #line:8ab505
+        Mae: 6YDET CTPAHH0 VET 4EPE3 30 #line:a9f21f
+        Mae: K0FDA 0UYCTE%T BCE OEPKBN. #line:5e55e2
+        Mae: R 0TKP0% UNOOEPN%. #line:27843c
+        Mae: CRDY HA CKAMJE N 6YDY ECTJ UNOOY. #line:326b5a
+        Mae: HYSH0 UPNDYMATJ KAVAM6YP #line:a43929
+        Mae: CK0M6NHNP0BAB UNOOY N OEPK0BJ. #line:1caaee
+    <<elseif $mallards_dresser is 2>>
+        <<set $mallards_dresser_done to 1>>
+        Mae: CBRWEHHAR UEUUEP0HN! #line:b572f4
+    <<endif>>
+<<endif>>
+===
+title: OnEntry
+tags: demo2
+colorID: 0
+position: 30006,-15889
+---
+<<playMusic mallard>>
+<<set $mallard_track_played to 1>>
+<<camera lookOffset .8 .25>>
+<<wait .5>>
+<<lookAt Mae Mallard>>
+Mae: \o/ :( #line:52feaf
+Mae: {align=middle,width=1,locator=mallard locator}[shake=.06][size=1.5]0 M0L 60F!![/size][/shake] #line:198c7e
+Mae:{align=middle,width=6,locator=mallard locator}[shake=.08][size=1.8]M G V V A P D ! ! ![/size][/shake] #line:b55b20
+Mae:{align=middle,locator=mallard locator}[shake=.03]4T0 0HN CDEVAVN C T060L??[/shake][size=1.2][/size] #line:3eb90f
+Mae: _o_ :| #line:9dd613
+<<unlockDoodle Mallard4eva>>
+===
+title: Exit
+tags: demo2
+colorID: 0
+position: 31319,-15574
+---
+<<if $mallards_exit is 0>>
+	Mae: 3AKPJ1T0. B0T 4EPT. #line:1184d3
+	Mae: A ECVN HA4HETCR U0SAP? #line:ac4116
+	<<set $mallards_exit += 1>>
+<<elseif $mallards_exit is 1>>
+	Mae: HET CEPJE3H0, TYT HAUNCAH0, 4T0 GT0 BJ1X0D, H0 GT0 HE TAK. #line:805ac5
+	<<set $mallards_exit += 1>>
+<<elseif $mallards_exit is 2>>
+	Mae: R EWE BEPHYCJ, DBEPJ "BJ1X0DA". #line:bd6a48
+	Mae: N Y TE6R 6YDET PA3F0B0P. #line:7c3766
+	Mae: C M0NM 60TNHK0M. #line:532678
+	<<set $mallards_exit += 1>>
+<<elseif $mallards_exit is 3>>
+	Mae: XYDQAR DBEPJ, K0T0PY% R BNDEVA. #line:b646b8
+    <<set $mallards_exit_done to 1>>
+<<endif>>
+===
+title: MallardHimself
+tags: 
+colorID: 0
+position: 29064,-15819
+---
+<<if $mallard_himself is 0>>
+    [[bloomingro]]
+<<elseif $mallard_himself is 1>>
+    [[depressing]]
+<<elseif $mallard_himself is 2>>
+    [[springtime]]
+<<elseif $mallard_himself is 3>>
+    [[dead]]
+<<endif>>
+===
+title: dead
+tags: demo2
+colorID: 0
+position: 29521,-16007
+---
+Mae: {align=middle,locator=mallard locator}MGVVAPD, R 6YDY DEPSATJ TE6R B CEKPETE. #line:1fecd6
+Mae: H0 R EWE BEPHYCJ. o/ :) #line:3c16db
+Mae: _o_ :| #line:b54eb4
+<<set $mallard_himself_done to 1>>
+===
+title: bloomingro
+tags: demo2
+colorID: 0
+position: 29509,-15708
+---
+<<set $mallard_himself to 1>>
+Mae: {align=middle,locator=mallard locator}MGVVAPD U. 6VYMNHFP0. #line:0ca937
+Mae: KAK SE R TE6R 060SAVA, K0FDA 6J1VA PE6EHK0M. #line:64904a
+Mae: CAMAR VY4QAR UVATZ0PMA C BECEHHEF0 UAPADA. #line:be29af
+Mae: 4YBAK. GT0 FP06HNOA. #line:433673
+Mae: FP06HNOA MGVVAPDA. #line:c46241
+===
+title: springtime
+tags: demo2
+colorID: 0
+position: 29420,-15435
+---
+<<set $mallard_himself to 3>>
+Mae: {align=middle,locator=mallard locator}0X, MGVVAPD. #line:8888cd
+Mae: B03M0SH0, TE6R 0CTABNVA 3DECJ T0PF0BAR UAVATA U0CCYM CUPNHFC. #line:23aa91
+Mae: 3A6J1TJ1L! #line:a485d3
+Mae: H0 R HAQVA TE6R. #line:b4d271
+Mae: N R 3HA%, 4T0 TJ1 3DECJ. #line:a13701
+Mae: BCE EWE FP03A BECHJ1. #line:7606bd
+===
+title: depressing
+tags: demo2
+colorID: 0
+position: 29156,-15347
+---
+<<set $mallard_himself to 2>>
+Mae: {align=middle,locator=mallard locator}MGVVAPD, D0P0F0L MEPTBJ1L MGVVAPD. #line:16edd5
+Mae: TJ1 6J1V M0NM V%6NMOEM DETCTBA. #line:236a68
+Mae: R 6ESAVA HA BECEHHNL UAPAD T0VJK0 4T06J1 YBNDETJ TE6R. #line:f7d870
+Mae: TJ1 6J1V UPRM KAK 0FP0MHJ1L DNH03ABP C KV%B0M. #line:6c1ac8
+Mae: MGVVAPD, TJ1 HABCEFDA 0CTAHEQJCR... #line:140ed2
+Mae: N3YMNTEVJHJ1M. :) #line:8c3ca0
+Mae: :| #line:82129f
+===
+title: decorations1_act3
+tags: 
+colorID: 0
+position: 29992,-15423
+---
+Mae: UVACTNK0BJ1E OBETJ1 BJ1FVRDRT #line:9efac3
+Mae: 04EHJ DEUPECCNBH0 #line:ee79f3
+Mae: U04EMY-T0. #line:f1cf7d
+Mae: DASE YBRDQNE OBETJ1 HE TAKNE DEUPECCNBHJ1E, KAK UVACTNK0BJ1E. #line:462910
+<<set $mallard_decorations += 1>>
+<<if $act < 4>>
+    <<set $mallard_decorations_1_done to 1>>
+<<endif>>
+===
+title: decorations1_act4
+tags: 
+colorID: 0
+position: 30241,-15411
+---
+Mae: 4T0 6YDET C0 BCEM GTNM? #line:ad136b
+Mae: DYMA%, GT0 BCE TAK N 0CTAHETCR VESATJ 3DECJ, #line:7c966c
+Mae: U0KA KT0-HN6YDJ 0DHASDJ1 HE UPNDET C%DA N HE BJ1KNHET GT0 BCE? #line:fc6c71
+Mae: R D0VSHA, TNUA, #line:7d9497
+Mae: CTAWNTJ UAPY KPYTJ1X BEWEL #line:a99fdb
+Mae: U0CM0TPNM, 4T0 MAMA N UAUA CKADYT 06 GT0M #line:b78978
+Mae: R YBEPEHA, NM U0HPABNTCR #line:80138a
+Mae: UEPEDEK0PNPYEM F0CTNHY%! #line:f20a40
+<<set $mallard_decorations += 1>>
+<<set $mallard_decorations_1_done to 1>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 29997,-16354
+---
+<<if $act < 3 and $mallard_decorations >= 3>>
+    <<set $mallard_decorations_1_done to 1>>
+<<elseif $act < 4 and $mallard_decorations >= 4>>
+    <<set $mallard_decorations_1_done to 1>>
+<<elseif $mallard_decorations >= 5>>
+    <<set $mallard_decorations_1_done to 1>>
+<<endif>>
+
+
+<<if $mallards_secret_day is 2>>
+    <<set $mallards_dresser_done to 1>>
+<<endif>>
+
+<<if $mallards_secret_day != 2>>
+    <<set $mallards_fridge_done to 1>>
+<<endif>>
+===
+title: Fridge
+tags: 
+colorID: 0
+position: 31386,-14598
+---
+<<if $mallards_secret_day is 2>>
+    <<if $mallards_fridge is 0>>
+        <<set $mallards_fridge += 1>>
+        <<if $did_bea_friendship_quest_2>>
+            Mae: MNCC MNPAHDA D0VSHA BCTPETNTJCR C SNVJO0M.  #line:c45606
+            Mae: U0F0B0PRT 0 X0V0DNVJHNKAX. #line:d51e92
+        <<else>>
+        	Mae: NHTEPECH0, 4T0 B X0V0DNVJHNKE. #line:0cc36b
+        	Mae: GX. GT0 – HAPYQEHNE 4ACTH0L SN3HN. #line:532340
+        <<endif>>
+    <<elseif $mallards_fridge is 1>>
+        <<set $mallards_fridge_done to 1>>
+        Mae: R 6J1 X0TEVA U0CM0TPETJ #line:2a1f0f
+        Mae: 4T0 B GT0M QKAZY #line:e611f0
+        <<wait 2>>
+        Mae: MGL, GT0 T0, K 4EMY BCE QV0? #line:9b7e74
+        Mae: TJ1 B0PYEQJ N3 4YS0L CTPAHH0L KBAPTNPJ1? #line:e6918a
+        Mae: 4T0 TJ1 B006WE C C060L DEVAEQJ. #line:ea2b14
+        Mae: N Y HNX, BEP0RTH0, HET HN4EF0 X0P0QEF0. #line:5253da
+        Mae: TAK 4T0 HNKAKNX 0UPABDAHNL. #line:46b1b5
+    <<endif>>
+<<else>>
+    Mae: GL, AVEK, HAD0 Y6PATJ GT0T DNAV0F! #line:83f37e
+<<endif>>
+===
+title: DoorLocked
+tags: 
+colorID: 0
+position: 30270,-14690
+---
+<<if $opened_mallards_door>>
+    Mae: 6VNH! #line:336b3e
+    Mae: CH0BA 3AUEPT0! #line:fdbd82
+    Mae: U0VHJ1L 0TCT0L. #line:b15465
+    Mae: YX! #line:9af7e4
+    Mae: R 6J1 VN4H0, 06NDEVACJ #line:22cf8a
+    Mae: HA MECTE 3DEQHEF0 SNVJOA. #line:5490fb
+    Mae: KEM 6J1 0H HE 6J1V. #line:85df76
+    Mae: HY N VADH0. #line:53a270
+<<else>>
+    Mae: XMM... 3AKPJ1T #line:ef7635
+<<endif>>
+<<set $mallards_door_locked_done to 1>>
+===

@@ -1,0 +1,171 @@
+title: EnterLevel
+tags: 
+colorID: 4
+position: -150,-17
+---
+[[FQ400]]
+===
+title: FQ400
+tags: 
+colorID: 4
+position: 195,36
+---
+<<cameraLookAt CameraArgument>>
+Angus: because it's a flat. #line:7d2b14
+Angus: you don't drive on a flat. #line:137de4
+Gregg: why? #line:85e3fa
+Mae: yeah why? #line:b2c504
+Angus: ... #line:0b28c4
+Angus: you just don't! it messes up the wheel or something! #line:c283ca
+Mae: how do you know so much about cars? #line:f3c485
+Gregg: we can fix it! #line:17c62d
+Angus: with what?  #line:516eb3
+Angus: we gonna get some sticks? #line:88e77d
+Mae: that's silly. #line:4f1e29
+Gregg: no, i mean... #line:0c3423
+Gregg: people fix tires! #line:932ae2
+Gregg: it's a thing people do! #line:6bd2a2
+Angus: it's a thing people do #line:a3e08d
+Angus: when they have a goddamn tire! #line:7f21e3
+Mae: guys, #line:c1ff08
+Gregg: why are you being such a dick? #line:3a4f5c
+Angus: why am i the one #line:a61c58
+Angus: that has to be the responsible one! #line:d1d173
+Mae: guys! #line:cb189c
+Angus: WHAT, MAE!?!?!? #line:51a06a
+Gregg: Don't yell at Mae!!! #line:ec0d48
+Mae: AAAAgh I’m gonna wander. #line:2309c4
+Angus: Fine! #line:df23fb
+Gregg: Fine! #line:29028f
+Mae: OK AAAGH #line:4d0691
+<<cameraFollowPlayer 1>>
+//now free to wander and stuff. Look around and then talk to Gregg and Angus,
+// who are having some sort of auto-rolling argument or emoticon convo or something
+<<runDialogue BackgroundDialogue ArgumentLoop>>
+===
+title: FQ401
+tags: 
+colorID: 4
+position: 596,35
+---
+<<stopDialogue BackgroundDialogue>>
+Mae: So what are we doing? #line:83ba23
+Angus: Well, I’m trying to figure out what we’re gonna do. #line:ba739f
+Gregg: We could call... someone? #line:435d33
+Angus: Oh, do we suddenly carry phones? #line:0ee32e
+Angus: because there’s magically signal now? #line:2fc761
+Angus: in this piece of shit town? #line:bfd8cd
+Gregg: Geez! #line:cde30f
+Mae: Ok. well. #line:1c7bb4
+<<set $roadside_trunk to 1>>
+<<setCanInteract Gregg 0>>
+<<setCanInteract Angus 0>>
+<<runDialogue BackgroundDialogue ArgumentLoop>>
+===
+title: Trunk
+tags: 
+colorID: 4
+position: 1016,47
+---
+<<stopDialogue BackgroundDialogue>>
+<<cameraLookAt CameraArgument 1>>
+<<closeAll>>
+Mae: Hey dinguses! #line:c41286
+<<close>>
+<<wait 1>>
+<<runNextLinesTogether 2>>
+Gregg: WHAT #line:d4e133
+Angus: WHAT #line:24fb7f
+Mae: There’s a spare tire back here. #line:8a1668
+Gregg: Oh! Oh nice! #line:98f4fb
+Angus: That’s one good thing. #line:8d130e
+Mae: Anyone know how to like #line:12596c
+Mae: do the tire? #line:29b8db
+Angus: Yeah. #line:b92377
+Mae: Can I help? #line:4836d8
+Angus: No. #line:89ab1f
+Gregg: Dude. #line:4ed365
+Angus: Mae, you’re not a bad person #line:bd2824
+Angus: but I do not trust you with any part of this process. #line:2d4638
+<<close>>
+<<wait 2>>
+Mae: Geez, man. #line:e2cf49
+Gregg: Geez. #line:a12e8a
+<<close>>
+<<wait 4>>
+<<irisOut 1 wait>>
+<<scene DonutWolfInterior>>
+===
+title: Gregg
+tags: 
+colorID: 4
+position: 464,-256
+---
+[[FQ401]]
+===
+title: Angus
+tags: 
+colorID: 4
+position: 705,-252
+---
+[[FQ401]]
+===
+title: ArgumentLoop
+tags: 
+colorID: 4
+position: 361,272
+---
+Angus:{emote=cloud_lightning} #line:1424b6
+Gregg:{emote=spiral} #line:d472fc
+Angus:{emote=heart} #line:b7632b
+Gregg:{emote=heartbreak} #line:f72d6c
+Angus:{emote=eyecry} #line:2b8aa9
+<<wait 1>>
+[[ArgumentLoop]]
+===
+title: LeftOfCar.1
+tags: 
+colorID: 4
+position: 1408,76
+---
+Mae: geez. #line:27709c
+Mae: look at those woods. #line:62da35
+Mae: this is like the perfect place to dump a body. #line:d3a108
+Mae: that’s tough to find. #line:e22634
+Mae: good body-dumpin’ woods. #line:757d38
+===
+title: LeftOfCar.2
+tags: 
+colorID: 4
+position: 1680,78
+---
+Mae: could go see if there are any bodies in there. #line:700a61
+<<wait 2>>
+Mae: eh. #line:5d528d
+<<end>>
+===
+title: RightOfCar.1
+tags: 
+colorID: 4
+position: 1405,350
+---
+Mae: ok what can fix a flat tire #line:0e117f
+Mae: uh. #line:7a044f
+Mae: sticks #line:1f56c8
+Mae: rocks #line:4c5b56
+Mae: leaves #line:c547d3
+Mae: wood #line:4f56ee
+Mae: dirt #line:dfce07
+Mae: maybe i can whittle a wrench out of a log #line:aa40b0
+===
+title: RightOfCar.2
+tags: 
+colorID: 4
+position: 1679,355
+---
+Mae: wonder if i could like #line:9d0389
+Mae: train an owl #line:b038f4
+Mae: to do owl tricks. #line:0d275c
+Mae: no! Focus, mae! #line:44be65
+<<end>>
+===

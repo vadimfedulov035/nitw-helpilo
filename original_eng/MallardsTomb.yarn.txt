@@ -1,0 +1,434 @@
+title: Bed
+tags: 
+colorID: 0
+position: 30611,-14620
+---
+<<if $mallards_secret_day is 1>>
+    <<if $mallards_bed is 0>>
+        <<set $mallards_bed to 1>>
+        Mae: Whoever lives here is certainly a churchgoer. #line:c0a1ba
+        Mae: Five saints. #line:ea3110
+        Mae: Grandmama had a setup like this #line:0a7d86
+        Mae: last time I saw her. #line:e86d72
+    <<elseif $mallards_bed is 1>>
+        <<set $mallards_bed to 2>>
+        Mae: "Icons are good for keeping the good in" #line:9c41b2
+        Mae: "and the bad out." #line:9ed601
+        Mae: This is the super-important info I retained #line:dcb179
+        Mae: from years of sunday school. #line:48374f
+    <<elseif $mallards_bed is 2>>
+        <<set $mallards_bed to 3>>
+        Mae: In the end Grandmama died, while the saints watched. #line:8dd7c1
+        Mae: It was time. #line:e38f87
+        Mae: And they weren't saints anyway. #line:7b09aa
+        Mae: They were pictures. #line:da403e
+    <<elseif $mallards_bed is 3>>
+        <<set $mallards_bed_done to 1>>
+        Mae: Pour one out for Grandmama. #line:a16afd
+    <<endif>>
+<<elseif $mallards_secret_day is 2>>
+    <<if $mallards_bed is 0>>
+        <<set $mallards_bed_done to 1>>
+        Mae: Must be weird to sleep in this bed every night. #line:052470
+        Mae: Alone in the building. #line:4958c0
+        Mae: Except for Telezoft a couple floors down. #line:eec0d6
+        Mae: maybe they work there. #line:3a1230
+        Mae: just come downstairs in their pajamas #line:5ba4eb
+        Mae: hey everybody i just woke up and i live at work. #line:4ad49e
+        Mae: oh god this sounds horrible. #line:27c418
+    <<endif>>
+<<elseif $mallards_secret_day is 3>>
+    <<if $mallards_bed is 0>>
+        <<set $mallards_bed += 1>>
+        Mae: I could sleep in this bed. #line:5ef3c8
+        Mae: and whoever lives here would never know. #line:aa596c
+        Mae: they’d go to sleep #line:80539e
+        Mae: tonight #line:bf5624
+        Mae: unaware someone else was just there #line:99116d
+        Mae: under their sheets #line:dcb18a
+        Mae: on their pillow. #line:7ccd76
+        Mae: mwa ha ha ha. #line:78a034
+    <<elseif $mallards_bed is 1>>
+        <<set $mallards_bed_done to 1>>
+        Mae: i could also like #line:8dcc43
+        Mae: be helpful #line:db7d2a
+        Mae: i could make their bed when they don’t. #line:6bc597
+        Mae: this doesn’t have to be creepy. #line:22e4e8
+    <<endif>>
+<<endif>>
+===
+title: Closet
+tags: 
+colorID: 0
+position: 30892,-14609
+---
+<<if $mallards_secret_day is 1>>
+    <<if $mallards_closet is 0>>
+        <<set $mallards_closet to 1>>
+        Mae: I could hide in here until whoever lives here gets back. #line:578c51
+        Mae: And possibly give them a heart attack. #line:656192
+        Mae: Or get shot in the face. With a gun. #line:c03a6c
+        <<wait .5>>
+        Mae: What am I doing in here? #line:c83354
+        Mae: What am I doing with my life? #line:72ab9e
+        Mae: I'm sitting in a stranger's closet #line:81c75f
+        Mae: in a nearly-vacant building. #line:63c951
+        Mae: I could just stay in here. #line:3eb379
+        Mae: Just forever be here forever. #line:198439
+    <<elseif $mallards_closet is 1>>
+        <<set $mallards_closet to 2>>
+        Mae: Where does this person pee? #line:5965ce
+    <<elseif $mallards_closet is 2>>
+        <<set $mallards_closet_done to 1>>
+        Mae: It's dark in here. #line:a0d489
+    <<endif>>
+<<elseif $mallards_secret_day is 2>>
+    <<if $mallards_closet is 0>>
+        <<set $mallards_closet += 1>>
+        Mae: what’s even in this closet? #line:69996d
+        Mae: i feel some shoes. #line:9e4dd2
+        Mae: some shirts i think. #line:2fc759
+        Mae: ok they’ve got a golf club or something #line:b89fd7
+        Mae: oh weird. They have a sword in here? #line:415675
+        Mae: i could take the sword and rob a bank? #line:feba04
+        Mae: hands up, citizen! I’ll jam this sword in your neck! #line:25b512
+        Mae: ha ha. I could wear a mask and a cape. #line:6fd449
+        Mae: “who was that dashing thief? #line:77ef24
+        Mae: that threatened to stab the bank teller in the neck?” #line:fe2b64
+        Mae: Ugh. My life is a wreck. #line:d295e5
+        Mae: I’d probably stab my *own* neck on accident. #line:daac8c
+        Mae: get it together, Mae. #line:16484d
+    <<elseif $mallards_closet is 1>>
+        <<set $mallards_closet_done to 1>>
+        Mae: but seriously where does this person pee? #line:69dd71
+    <<endif>>
+<<elseif $mallards_secret_day is 3>>
+    <<if $mallards_closet is 0>>
+        <<set $mallards_closet += 1>>
+        Mae: I wonder if whoever lives here knows I’ve been here. #line:4b2762
+        Mae: I feel like we have some relationship #line:4f5c05
+        Mae: like I’m a ghost #line:bf9027
+        Mae: and I’m haunting them. #line:22088a
+        Mae: I should like #line:641144
+        Mae: Move something. #line:ba6b0b
+        Mae: just to let them know someone cares #line:b25a96
+        Mae: enough to visit them. #line:77c9f0
+    <<elseif $mallards_closet is 1>>
+        <<set $mallards_closet_done to 1>>
+        Mae: ok I’m not gonna do that. #line:5824c2
+        Mae: that would be the creepiest thing ever. #line:82b3ed
+    <<endif>>
+<<endif>>
+===
+title: Decorations1
+tags: 
+colorID: 0
+position: 30409,-15672
+---
+<<if $mallard_decorations is 0>>
+    [[wow]]
+<<elseif $mallard_decorations is 1>>
+    [[parade1]]
+<<elseif $mallard_decorations is 2>>
+    [[flowers]]
+<<elseif $act >= 3 and $mallard_decorations is 3>>
+    [[decorations1_act3]]
+<<elseif $act >= 4 and $mallard_decorations is 4>>
+    [[decorations1_act4]]
+<<endif>>
+===
+title: parade1
+tags: demo2
+colorID: 0
+position: 30548,-15365
+---
+<<set $mallard_decorations += 1>>
+Mae: After the parade got canned there wasn't much going on in the spring. #line:a6e81f
+Mae: But we still did the easter basket blessing at the church. #line:5bd347
+Mae: And ate special pretzels. We didn't bother to bless those. #line:a7b250
+Mae: Profane pretzels. #line:563989
+===
+title: flowers
+tags: demo2
+colorID: 0
+position: 30798,-15831
+---
+Mae: Oh my god. These flowers are fake as hell. #line:7f6b61
+Mae: Mallard deserves a better memorial. #line:82f3a8
+<<set $mallard_decorations += 1>>
+<<if $act < 3>>
+    <<set $mallard_decorations_1_done to 1>>
+<<endif>>
+===
+title: wow
+tags: demo2
+colorID: 0
+position: 30871,-15510
+---
+<<set $mallard_decorations += 1>>
+Mae: Wow. So this is where this stuff ended up. #line:d12356
+Mae: I remember the spring parade. It was so much fun. #line:c8b1c1
+Mae: Until the year that Mallard P. Bloomingro snapped his tether and ran over Chris Evans. #line:bc3c03
+Mae: Then they canceled the parade. #line:bf0db1
+Mae: Cowards. #line:ea98ed
+Mae: They couldn't cage Mallard. Mallard needed to be free. #line:15b76d
+Mae: And neither ropes nor the poor legs of Chris Evans could hold him back. #line:c50c9b
+Mae: I wonder what happened to both of them. #line:17de14
+===
+title: Dresser
+tags: 
+colorID: 0
+position: 31137,-14599
+---
+<<if $mallards_secret_day is 1>>
+    <<if $mallards_dresser is 0>>
+        <<set $mallards_dresser to 1>>
+        Mae: *Who lives here?* #line:3c096b
+        Mae: It's, like, just a room. #line:44ea03
+    <<elseif $mallards_dresser is 1>>
+        <<set $mallards_dresser to 2>>
+        Mae: One fridge. #line:81256c
+        Mae: One dresser. #line:7c1537
+        Mae: One lamp. #line:b84ad0
+        Mae: One bed. #line:f7db99
+        Mae: One window. #line:0c2124
+        Mae: One door. #line:0e3fdf
+        Mae: I guess that makes two ways out. #line:058df9
+    <<elseif $mallards_dresser is 2>>
+        <<set $mallards_dresser_done to 1>>
+        Mae: This would be creepy if it wasn't so spooky. #line:0984e2
+    <<endif>>
+<<elseif $mallards_secret_day is 2>>
+    Mae: Tell Alec to fix the code. #line:16ba30
+<<elseif $mallards_secret_day is 3>>
+    <<if $mallards_dresser is 0>>
+        <<set $mallards_dresser += 1>>
+        Mae: seriously. There’s no bathroom in here. #line:210852
+        Mae: and none outside this room. #line:694a14
+        Mae: do they poop in this dresser?! #line:2411b3
+        Mae: oh god... #line:3b7700
+        Mae: do they poop in a bucket????? #line:79e630
+        Mae: oh geez what if I stumble across the poop bucket. #line:681731
+        Mae: there are unanswered questions here. #line:6ba8e1
+    <<elseif $mallards_dresser is 1>>
+        <<set $mallards_dresser += 1>>
+        Mae: wonder if it’s a guy or a gal #line:f3d672
+        Mae: they’re probably pretty old #line:24b983
+        Mae: no one young cares about the saints #line:84f66b
+        Mae: or church. #line:8ab505
+        Mae: gonna be weird in like 30 years #line:a9f21f
+        Mae: when all the churches are empty. #line:5e55e2
+        Mae: i’ll open a pizza place. #line:27843c
+        Mae: sit in the pews and eat pizza. #line:326b5a
+        Mae: gotta come up with a pun #line:a43929
+        Mae: combining pizza and church. #line:1caaee
+    <<elseif $mallards_dresser is 2>>
+        <<set $mallards_dresser_done to 1>>
+        Mae: Holy pepperoni! #line:b572f4
+    <<endif>>
+<<endif>>
+===
+title: OnEntry
+tags: demo2
+colorID: 0
+position: 30006,-15889
+---
+<<playMusic mallard>>
+<<set $mallard_track_played to 1>>
+<<camera lookOffset .8 .25>>
+<<wait .5>>
+<<lookAt Mae Mallard>>
+Mae: \o/ :( #line:52feaf
+Mae: {align=middle,width=1,locator=mallard locator}[shake=.06][size=1.5]OH MY GOD!![/size][/shake] #line:198c7e
+Mae:{align=middle,width=6,locator=mallard locator}[shake=.08][size=1.8]M A L L A R D ! ! ![/size][/shake] #line:b55b20
+Mae:{align=middle,locator=mallard locator}[shake=.03]WHAT HAVE THEY DONE TO YOU?[/shake][size=1.2][/size] #line:3eb90f
+Mae: _o_ :| #line:9dd613
+<<unlockDoodle Mallard4eva>>
+===
+title: Exit
+tags: demo2
+colorID: 0
+position: 31319,-15574
+---
+<<if $mallards_exit is 0>>
+	Mae: It's locked. What the hell. #line:1184d3
+	Mae: That is a fire hazard. #line:ac4116
+	<<set $mallards_exit += 1>>
+<<elseif $mallards_exit is 1>>
+	Mae: No seriously, is this thing is clearly marked as something it is not. #line:805ac5
+	<<set $mallards_exit += 1>>
+<<elseif $mallards_exit is 2>>
+	Mae: I'm coming back for you, exit door. #line:bd6a48
+	Mae: And we're gonna have a little chat. #line:7c3766
+	Mae: With my boot. #line:532678
+	<<set $mallards_exit += 1>>
+<<elseif $mallards_exit is 3>>
+	Mae: Worst exit. Easily. #line:b646b8
+    <<set $mallards_exit_done to 1>>
+<<endif>>
+===
+title: MallardHimself
+tags: 
+colorID: 0
+position: 29064,-15819
+---
+<<if $mallard_himself is 0>>
+    [[bloomingro]]
+<<elseif $mallard_himself is 1>>
+    [[depressing]]
+<<elseif $mallard_himself is 2>>
+    [[springtime]]
+<<elseif $mallard_himself is 3>>
+    [[dead]]
+<<endif>>
+===
+title: dead
+tags: demo2
+colorID: 0
+position: 29521,-16007
+---
+Mae: {align=middle,locator=mallard locator}I'll keep you a secret, Mallard. #line:1fecd6
+Mae: But I'll visit. o/ :) #line:3c16db
+Mae: _o_ :| #line:b54eb4
+<<set $mallard_himself_done to 1>>
+===
+title: bloomingro
+tags: demo2
+colorID: 0
+position: 29509,-15708
+---
+<<set $mallard_himself to 1>>
+Mae: {align=middle,locator=mallard locator}Mallard P. Bloomingro. #line:0ca937
+Mae: One of my absolute favorite things when I was a kid. #line:64904a
+Mae: Proudest of the spring parade floats. #line:be29af
+Mae: Dude. This is a tomb. #line:433673
+Mae: This is Mallard's Tomb. #line:c46241
+===
+title: springtime
+tags: demo2
+colorID: 0
+position: 29420,-15435
+---
+<<set $mallard_himself to 3>>
+Mae: {align=middle,locator=mallard locator}Oh Mallard. #line:8888cd
+Mae: Probably left here by the Possum Springs Chamber Of Commerce. #line:23aa91
+Mae: Forgotten! #line:a485d3
+Mae: But I found you. #line:b4d271
+Mae: And I know you're here. #line:a13701
+Mae: And still a springtime terror. #line:7606bd
+===
+title: depressing
+tags: demo2
+colorID: 0
+position: 29156,-15347
+---
+<<set $mallard_himself to 2>>
+Mae: {align=middle,locator=mallard locator}Mallard, dear dead Mallard. #line:16edd5
+Mae: You were my favorite anything when I was a kid. #line:236a68
+Mae: I ran to the spring parade to see you. #line:f7d870
+Mae: You were like a big beaky dinosaur. #line:6c1ac8
+Mae: Mallard, you're still... #line:140ed2
+Mae: amazing forever. :) #line:8c3ca0
+Mae: :| #line:82129f
+===
+title: decorations1_act3
+tags: 
+colorID: 0
+position: 29992,-15423
+---
+Mae: plastic flowers are like #line:9efac3
+Mae: super depressing #line:ee79f3
+Mae: for some reason. #line:f1cf7d
+Mae: dead flowers are less depressing than plastic ones. #line:462910
+<<set $mallard_decorations += 1>>
+<<if $act < 4>>
+    <<set $mallard_decorations_1_done to 1>>
+<<endif>>
+===
+title: decorations1_act4
+tags: 
+colorID: 0
+position: 30241,-15411
+---
+Mae: what's gonna happen to all this? #line:ad136b
+Mae: i guess it's just gonna sit here #line:7c966c
+Mae: til someone gets around to throwing it all out? #line:fc6c71
+Mae: i should like #line:7d9497
+Mae: steal the good stuff. #line:a99fdb
+Mae: see what mom and dad think. #line:b78978
+Mae: i'm sure they'll love it. #line:80138a
+Mae: redecorate the living room! #line:f20a40
+<<set $mallard_decorations += 1>>
+<<set $mallard_decorations_1_done to 1>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 29997,-16354
+---
+<<if $act < 3 and $mallard_decorations >= 3>>
+    <<set $mallard_decorations_1_done to 1>>
+<<elseif $act < 4 and $mallard_decorations >= 4>>
+    <<set $mallard_decorations_1_done to 1>>
+<<elseif $mallard_decorations >= 5>>
+    <<set $mallard_decorations_1_done to 1>>
+<<endif>>
+
+
+<<if $mallards_secret_day is 2>>
+    <<set $mallards_dresser_done to 1>>
+<<endif>>
+
+<<if $mallards_secret_day != 2>>
+    <<set $mallards_fridge_done to 1>>
+<<endif>>
+===
+title: Fridge
+tags: 
+colorID: 0
+position: 31386,-14598
+---
+<<if $mallards_secret_day is 2>>
+    <<if $mallards_fridge is 0>>
+        <<set $mallards_fridge += 1>>
+        <<if $did_bea_friendship_quest_2>>
+            Mae: Mrs. Miranda should meet whoever lives here. #line:c45606
+            Mae: They can talk fridges. #line:d51e92
+        <<else>>
+        	Mae: Wonder what’s in the fridge. #line:0cc36b
+        	Mae: eh. That’s a violation of privacy. #line:532340
+        <<endif>>
+    <<elseif $mallards_fridge is 1>>
+        <<set $mallards_fridge_done to 1>>
+        Mae: i could like #line:2a1f0f
+        Mae: see what’s in this dresser #line:e611f0
+        <<wait 2>>
+        Mae: Mae, is this what it’s come to? #line:9b7e74
+        Mae: you’re stealing from a stranger’s weird apartment? #line:e6918a
+        Mae: what even are you doing with yourself. #line:ea2b14
+        Mae: and they probably don’t have anything good. #line:5253da
+        Mae: so there’s no excuse. #line:46b1b5
+    <<endif>>
+<<else>>
+    Mae: Hey Alec, you need to hide this interaction! #line:83f37e
+<<endif>>
+===
+title: DoorLocked
+tags: 
+colorID: 0
+position: 30270,-14690
+---
+<<if $opened_mallards_door>>
+    Mae: aw man! #line:336b3e
+    Mae: it’s locked again! #line:fdbd82
+    Mae: this blows. #line:b15465
+    Mae: ugh. #line:9af7e4
+    Mae: i’m like personally offended #line:22cf8a
+    Mae: by whoever lives here. #line:5490fb
+    Mae: whatever, whoever. #line:85df76
+    Mae: whatever. #line:53a270
+<<else>>
+    Mae: hmm... locked #line:ef7635
+<<endif>>
+<<set $mallards_door_locked_done to 1>>
+===

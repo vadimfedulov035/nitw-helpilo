@@ -1,0 +1,167 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 472,56
+---
+Bea: alright, so what are we looking for? #line:cef86c
+Mae: I want to steer! #line:033709
+Bea: No. #line:670ad0
+Mae: MOVE! I’M STEERING! #line:f8d456
+<<playAmbientSFX _AmbientSFX:mae_push_bea>>
+<<wait 1>>
+Bea: OW! #line:564b90
+Bea: Geez! Mae! #line:5f4ae5
+Mae: ... #line:b1c0b0
+Mae: I’m sorry. #line:25738d
+Bea: ... #line:8ab373
+Mae: Ok ok ok ok how do we do this? #line:0bf3fc
+Bea: Uh. #line:af7624
+Bea: Step one: Look at the screen. #line:af9508
+Bea: Step two: Move around and look at stuff. #line:a525a1
+Mae: Step three: Find Ghost #line:7d72cd
+Bea: Sure. #line:fa02ac
+===
+title: Clue1
+tags: 
+colorID: 0
+position: 256,304
+---
+<<set $found_microfiche_clue_1 to 1>>
+<<tell AmbientSFX:found_clue Play>>
+<<wait 1>>
+Mae: Heeeey look at this. #line:b9e2f6
+Bea: Hm yeah.  #line:6ae647
+Mae: Looks like... Possum Jump? #line:a83703
+Bea: LET ME READ IT. #line:7fc791
+Mae: It’s Possum Jump. #line:4986ef
+Bea: Ok yeah. That’s back up in the state park, right? #line:9effaf
+Mae: yeah. #line:941bc9
+Bea: ever been up there? #line:f03039
+Mae: Nope! #line:80aee3
+Mae: Gonna check it out though! #line:8d29d3
+Bea: Go nuts. #line:9caef8
+<<if $did_bea_friendship_quest_2>>
+    Bea: That’s actually probably only a mile or so from Mrs. Miranda's house. #line:a1cf9d
+    Bea: Back up in the hills. #line:015b75
+    Bea: All kinds of stuff up there. #line:2a65d5
+    Mae: Well I’ll try to avoid any basements #line:5035f1
+    Mae: or corpse husbands. #line:97e5af
+    Bea: cosigned. #line:24ea18
+<<endif>>
+[[AdvanceClue]]
+===
+title: Clue2
+tags: 
+colorID: 0
+position: 498,311
+---
+<<set $found_microfiche_clue_2 to 1>>
+<<tell AmbientSFX:found_clue Play>>
+<<wait 1>>
+Mae: Ooh look. #line:32993f
+Bea: Scootch so I can see. #line:acb9f2
+Bea: Graveyard. That’s a gimme. #line:e59b9f
+Mae: I mean if you’re looking for ghost stuff #line:45b6aa
+Mae: that’s where they make a lot of ‘em. #line:848ad8
+Bea: Looks like they saw him in the old section... #line:758006
+Bea: oh cool! That’s where his grave is! #line:664040
+Bea: I’m actually interested in that. #line:03cbb7
+Mae: How could you NOT be interested? #line:61bcc4
+Mae: This is like actual dangerous ghost stuff! #line:4509b7
+Bea: ...i like history. #line:aa2a16
+Mae: Ghosts are history!  #line:c93adc
+Mae: History that won’t stay history! #line:1af38f
+Bea: Ha ha ha. That’s actually pretty good. #line:5fa7cd
+[[AdvanceClue]]
+===
+title: Clue3
+tags: 
+colorID: 0
+position: 732,303
+---
+<<set $found_microfiche_clue_3 to 1>>
+<<tell AmbientSFX:found_clue Play>>
+<<wait 1>>
+Mae: Hey hey hey. #line:952db9
+Mae: Ghost spotted. #line:c3eb0e
+Bea: Historical Society? #line:1839a2
+<<if $found_microfiche_clue_2>>
+	Mae: History that won’t stay history #line:d1d39e
+	Mae: in a history place! #line:7f79cc
+	Bea: History place? #line:c98510
+<<endif>>
+Mae: Yeah. I’ve never been! #line:2e4cf2
+Bea: You didn’t go back in school? #line:a938ac
+Mae: I think this was when I wasn’t in school. #line:53cd61
+Bea: Oh. After The Softball Incident. #line:3adca3
+Mae: Yeah. Mostly just watched tv and did therapy. #line:1306d0
+Bea: Well it’s actually a pretty cool old house #line:e65bec
+Bea: Used to be owned by one of the mine owners or something? #line:6baa82
+Bea: Railroad? Mine? Steel Mill? Something like that? #line:b99c97
+Mae: An actual haunted house! #line:bd7b47
+Bea: uh... no. #line:b0653a
+Bea: elementary school kids are there all the time. #line:fb0db8
+Bea: they have like, summer arts and crafts programs. #line:3a7d81
+Mae: Oh. Well, still worth checking out. #line:740e4c
+[[AdvanceClue]]
+===
+title: AdvanceClue
+tags: 
+colorID: 0
+position: 512,560
+---
+<<set $microfiche_clues += 1>>
+
+<<if $microfiche_clues is 3>>
+    <<set $microfiche_done to 1>>
+    Mae: Ok well. That’s like three leads. #line:8a8c0b
+    Mae: Let’s boogie. #line:7cfbc8
+    Bea: "Let’s boogie"? #line:f86baf
+    Bea: Also, is that it? #line:97d72d
+	->Yeah #line:b44c01
+		Mae: Three clues! We got three leads! #line:f56640
+		Bea: You’re a regular detective #line:41f6c2
+		Mae: Mae Borowski: A Detective Of Ghosts #line:7bfbd9
+		Bea: Alright alright let’s go. #line:e7ca2a
+		<<irisOut 1 wait>>
+        <<scene Library>>
+	->Naw, let’s look at more stuff. #line:35581d
+<<endif>>
+
+<<if $microfiche_clues >= 3>>
+    <<tell Microfiche CanExit>>
+<<endif>>
+===
+title: Tooth
+tags: 
+colorID: 0
+position: 1036,311
+---
+Mae: oh wow. this is gnarly. #line:59f5f7
+Mae: and AWESOME. #line:e9f1b2
+Mae: ha ha ha ha. #line:26f55c
+Mae: oh my god. #line:65bb54
+<<set $knows_tooth to 1>>
+===
+title: NotClue
+tags: 
+colorID: 0
+position: -149,291
+---
+<<if $microfiche_not_clue is 0>>
+    Mae: Hmm, this is interesting but... #line:2d8206
+    Bea: Yeah, not exactly about a "ghost." #line:07813f
+    <<set $microfiche_not_clue += 1>>
+<<elseif $microfiche_not_clue is 1>>
+    Bea: No "ghost" to be found here. #line:dde48f
+    Mae: The way you say "ghost" it sounds like you don't believe me. #line:e921d3
+    Bea: ... #line:589236
+    <<set $microfiche_not_clue += 1>>
+<<elseif $microfiche_not_clue is 2>>
+    Bea: This one? #line:d0bc25
+    Mae: No ghost! #line:ce609f
+    <<set $microfiche_not_clue += 1>>
+<<elseif $microfiche_not_clue is 3>>
+    Mae: No ghost here... #line:f69d26
+<<endif>>
+===

@@ -1,0 +1,252 @@
+title: TreeCat_A1D3.1
+tags: 
+colorID: 0
+position: 781,86
+---
+<<speechBubbleDistanceOverride 1.5>>
+Adina: GL, K0T. R D0FADJ1BAVACJ, 4T0 YBNSY TE6R 3DECJ.  #line:df5945
+TreeCat: TJ1 D0FADAVACJ BEPH0. #line:62c2a6
+Adina: TJ1 0QN6CR. #line:1276fb
+TreeCat: B 4EM SE? #line:62cb99
+Adina: R HE YMEPVA TAM. #line:9955cf
+TreeCat: DA, HE YMEPVA. #line:fabc52
+TreeCat: H0 0URTJ SE, R HNK0FDA HE YMNPAV TAM T0SE.  #line:d4cda4
+TreeCat: TAK 4T0 UP0CTN, 4T0 R HE 04EHJ BUE4ATVEH TEM, 4T0 TJ1 GT0 CDEVAVA 0DNH PA3. #line:8e9f06
+Adina: KAKAR SE TJ1 3ADHNOA. #line:b963df
+TreeCat: TJ1, K0HE4H0, BJ13BAVA MH0F0 UP06VEM CEF0DHR BE4EP0M.  #line:efd792
+Adina: R HE X0TEVA. UP0CT0 UP0X0DNVA MNM0. #line:9b7b82
+TreeCat: PA3BE 0H0 HE BCEFDA TAK UP0NCX0DNT? #line:e2de1f
+[[R D0VSHA NDTN.|GoodbyeTreeCat]] #line:9269b6
+[[CEPJE3H0, KT0 TJ1?|WhoIsTreeCat]] #line:533a55
+
+===
+title: Astronomer
+tags: 
+colorID: 0
+position: 1378,198
+---
+//<<trackAllSpeechBubblesToCharacters 1>>
+//<<speechBubbleSizeOverride 1.75>>
+//<<speechBubbleDistanceOverride 2>>
+<<speechBubbleMaxOpenTimeOverride 2.5>>
+<<holdInput 1 0>>
+<<playerRunSpeedOverride 2>>
+//<<musicDialogueFaderOverride 1>>
+<<show Astronomer 1>>
+<<wait 2>>
+<<tell Music to Play>>
+Astronomer: 3HAEQJ, R C0MHEBAVACJ 4T0 Y TE6R U0VY4NTCR. #line:822279
+Adina: 06EWAHNE ECTJ 06WEWAHNE. #line:c77fd2
+Astronomer: KAK D0MA? #line:674ff6
+Adina: KAK BCEFDA. X0V0DHEE PA3BE 4T0.  #line:bab937
+Adina: 0BOJ1 CH0BA 3AKPJ1VN M0CT HA URT0L YVNOE B DVNHHELQY% H04J. #line:3352eb
+Astronomer: XA-XA-XA! #line:4db8e8
+Adina: ZEPMEPJ1 BECJ DEHJ UJ1TAVNCJ BJ1TAWNTJ NX. #line:8902d1
+Astronomer: BJ1RCHNVN, U04EMY 0HN UP0D0VSA%T GT0 DEVATJ? #line:91423f
+Adina: HNKT0 HE NMEET U0HRTNR.  #line:da15d1
+Astronomer: XM. #line:b207f4
+Adina: R 3HA%, TJ1 HE M0SEQJ 0CTATJCR HAD0VF0. #line:1402bc
+Astronomer: HE M0FY. CUPAQNBAL. #line:cafb9a
+Adina: 0K, TJ1 HAQVA UPN3PA4HY% 3BE3DY? #line:12c4a5
+Astronomer: HAQVA, M0R UEPBAR H04J K0H4NVACJ. #line:64612d
+<<close>>
+<<waitForPlayerPastX 33>>
+<<holdInput 0 0>>
+<<speechBubbleMaxOpenTimeOverride 0>>
+Astronomer: GT0 3DECJ! #line:05f816
+<<show LostConstellation 3>>
+<<wait 3>>
+Adina: 0 60SE M0L. #line:5483bf
+Astronomer: 4T0-T0 BP0DE T0F0. #line:7a6be8
+Astronomer: TJ1 6YDEQJ U0MHNTJ, FDE 0HA HAX0DNTCR? #line:b0307d
+Adina: AFA. #line:11fa2f
+<<close>>
+<<wait 2>>
+Adina: 3A6ABH0. #line:32ff6f
+Astronomer: 4T0? #line:32ce9c
+Adina: 0HA BCEFDA 6J1VA 3DECJ. #line:8d6331
+Adina: R UP0CT0 HE NMEVA B03M0SH0CTJ YBNDETJ EE. #line:14ae17
+Astronomer: TJ1 BCE EWE HE M0SEQJ, HA CAM0M DEVE. #line:8ead87
+Astronomer: H0, TJ1 M0SEQJ 0TMETNTJ FDE 0HA. #line:741b68
+Astronomer: GT0 YSE 4T0-T0. #line:a8757e
+Adina: 0F0. #line:0d0fae
+Adina: R 4YBCTBY%, 6YDT0 B UAPE METP0B 0T MEHR #line:b9278d
+Adina: ECTJ HE4T0, 4T0 60VJQE 4EM, R M0FY CE6E UPEDCTABNTJ, #line:de33f7
+Adina: CF0PAET. B3PJ1BAETCR. #line:ae627f
+Adina: N MESDY HAMN GT0 4EPHAR UP0CTJ1HR. #line:2e9ed6
+Adina: N K0FDA R DYMA% 06 GT0M, MEHR CV0BH0 UEPEU0VHRET. #line:aff355
+Astronomer: B GTN DHN R MH0F0 DYMA% 06 GT0M. #line:f87dcf
+Astronomer: MJ1 U0CBRWAEM CE6R T0MY, 4T0 MJ1 EDBA U0HNMAEM, #line:f2da82
+Astronomer: T0MY, D0 4EF0 MJ1 HNK0FDA HE CM0SEM UPNK0CHYTJCR. #line:14577e
+Astronomer: MJ1 DAEM GT0MY HA3BAHNE, N MJ1 DAEM HA3BAHNE CE6E, 4T06J1 DEVATJ GT0. #line:c43958
+Astronomer: BCE GT0 C03DAET GTY CBR3J. #line:2dfa2e
+Astronomer: N GT0 CBR3J, K0T0PAR CTAH0BNTCR BEWJ%, D0 K0T0P0L MJ1 M0SEM UPNK0CHYTJCR. #line:d29526
+Astronomer: U0CVE CMEPTN TJ1 EWE CNVJHEE OEHNQJ GTY CBR3J. #line:d487b9
+Adina: R 6YDY CKY4ATJ U0 TE6E. #line:c8f772
+Astronomer: HY, C DPYF0L CT0P0HJ1 Y TE6R ECTJ 3BE3DA. #line:53a20e
+Adina: GT0 YSE 4T0-T0. #line:4e1705
+Astronomer: XA-XA-XA. #line:88acd5
+Astronomer: U0 KPALHEL MEPE, CTATJ KEM-T0, GT0 UP0CT0 B0CXNTNTEVJH0. #line:606f07
+Adina: DA. #line:4ec8dc
+Astronomer: U0KA, ACTP0H0M. #line:ce5a35
+Adina: U0KA, ACTP0H0M. #line:e7f7ad
+<<close>>
+<<fadeOut 5 0 0 0>>
+<<wait 3>>
+<<fadeOutAllSounds 4>>
+<<wait 2>>
+//<<trackAllSpeechBubblesToCharacters 0>>
+//<<speechBubbleSizeOverride 0>>
+//<<speechBubbleDistanceOverride 0>>
+//<<musicDialogueFaderOverride 0>>
+<<speechBubbleMaxOpenTimeOverride 0>>
+<<showTalkingHeads>>
+Granddad: K0HEO. #line:706c76
+Mae: 4T0 GT0 3A C03BE3DNE? #line:88a6f0
+Granddad: HNKT0 HE 3HAET. 0H0 U0TEPRH0 B NCT0PNN. #line:64e01f
+Mae: GT0 DELCTBNTEVJH0 UP0N30QV0? #line:756baa
+Granddad: NMEET VN 3HA4EHNE, DELCTBNTEVJH0 VN GT0 UP0N30QV0? #line:eb4b05
+Mae: MHE TAK KASETCR.  #line:d0e3ef
+Granddad: HY, MJ1 HNK0FDA HE Y3HAEM. #line:5f6a47
+Granddad: H0 CVJ1QAV, 4T0 GT0 UP0N30QV0 C T060L. #line:206bb9
+Granddad: N GT0 YSE 4T0-T0. #line:f4bf47
+Mae: 4T0-T0 4T0-T0 4T0-T0 #line:b2d1ba
+Mae: R X04Y HALTN GT0 C03BE3DNE. #line:d8a26e
+Granddad: BJ1LDN HA YVNOY H04J% N HALDN EF0. #line:469dce
+Granddad: N CKASN MHE FDE 0H0, X0P0Q0? #line:8add6c
+Mae: *3EB0K* #line:40a939
+Granddad: TJ1 BJ1FVRDNQJ YT0MVEHH0L. #line:cfdb43
+Mae: TAK N ECTJ. #line:b30e47
+Granddad: HE 6YDY TE6E MEQATJ. #line:2bb351
+<<fadeOutMusic 4>>
+Granddad: CVADKNX CH0B, MAVJ1QKA. #line:83691d
+Mae: XPPPPP #line:640f67
+<<hideTalkingHeads>>
+<<wait 4>>
+<<scene LN2_End>>
+
+===
+title: GoodbyeTreeCat
+tags: 
+colorID: 0
+position: 549,339
+---
+TreeCat: XAH4EP, EE PE6EH0K, VECH0L 60F - GT0 HE TB0E DEV0. #line:d27dca
+Adina: R 3HA%. #line:1fea23
+TreeCat: 0CTABJ BCE GT0. TJ1 6J1VA B NX VECY. #line:5009af
+Adina: R ACTP0H0M. #line:41bebd
+Adina: M0SET GT0 N NX VEC, H0 0H U0D M0NM HE60M. #line:268991
+TreeCat: XA-XA-XA. R YBEPEH, 4T0 GT0 3D0P0B0 3BY4AV0 B TB0EL F0V0BE. #line:a7d6c1
+Adina: GT0 UP03BY4AV0 3D0P0B0, K0FDA R GT0 CKA3AVA, CPAHJ1L K0T.  #line:dba8c3
+TreeCat: UP0WAL, ADNHA-ACTP0H0M. YDA4N. #line:4902bd
+Adina: UP0WAL, K0T. C4ACTVNB0L DVNHHELQEL H04N. #line:df5d60
+
+===
+title: WhoIsTreeCat
+tags: 
+colorID: 0
+position: 546,87
+---
+TreeCat: UAPD0H? #line:e4b796
+Adina: TJ1 KAK0L-T0 MAFN4ECKNL K0T? K0QA4NL 60F? K0T-MAF? KT0? #line:04b65c
+TreeCat: R UP0CT0 K0T. #line:b43f10
+TreeCat: R SNBY 0K0V0 VECA. #line:3fe4ab
+TreeCat: MHE HPABNTCR BCE 6VECTRWEE. #line:a5c133
+TreeCat: N R CVYQA%. #line:c07dd1
+Adina: 0L. #line:9ca337
+TreeCat: TB0R 04EPEDJ. KT0 TJ1? #line:30809d
+[[R ACTP0H0M.|ImAnAstronomer]] #line:7953d8
+[[R BJ1SNBQAR. |ImASurvivor]] #line:38f6d5
+
+===
+title: ImAnAstronomer
+tags: 
+colorID: 0
+position: 312,337
+---
+Adina: R 3DECJ, U0T0MY 4T0 HA HE6E K0E-4T0 UP0UAV0. #line:4353d1
+Adina: N B GT0M MECTE R HALDY UP0UASY. #line:df0f65
+TreeCat: TJ1 YBEPEHA? #line:991388
+Adina: HA DAHHJ1L M0MEHT, R 04EHJ YCTAVA N 3AMEP3VA #line:d26ec8
+Adina: U0GT0MY R HE M0FY U03B0VNTJ CE6E 6J1TJ HEYBEPEHH0L. #line:1f9836
+TreeCat: GT0 VN60 KPALHE YSACH0, VN60 KPALHE UPEKPACH0. #line:11679e
+Adina: GT0 KPALHE T04H0. #line:5557bf
+Adina: MHE X0V0DH0. #line:8bf758
+TreeCat: [speed=.5][wave]MP-P-P-P.[/all] #line:49aa4c
+[[GoodbyeTreeCat]]
+
+===
+title: ImASurvivor
+tags: 
+colorID: 0
+position: 311,90
+---
+Adina: 0TKYDA R, FDE R 6J1VA H04J%. #line:884e38
+Adina: R BJ1SNVA. #line:83c6cb
+TreeCat: BJ1SNBATJ GT0 X0P0Q0. #line:9b08be
+TreeCat: B0P0BATJ BCE. HNK0FDA HE U0UADATJCR. #line:5cf983
+TreeCat: ECTJ KPJ1C. HAX0DNTJ CAMJ1E TEUVJ1E XVEBA. #line:dd05ea
+Adina: HE T0, 4T0 R NMEVA B BNDY, H0 DA. #line:eab974
+TreeCat: A 4T0 TJ1 NMEEQJ B BNDY. #line:fbdc6b
+Adina: UP0CT0 UP06PATJCR 4EPE3 4EPT0B VEC. #line:c80d8a
+<<close>>
+<<wait 2>>
+Adina: MHE HPABRTCR 3BE3DJ1. 0HN BNCRT TAM B0 TJME. #line:2062c7
+Adina: CVAWAB0, DA. #line:46e832
+Adina: 4EM TEMHEE CTAH0BNTCR... #line:3e568d
+TreeCat: [speed=.5][wave]MP-P-P-P.[/all] #line:cd94e8
+[[GoodbyeTreeCat]]
+
+===
+title: TreeCat_A1D3.2
+tags: 
+colorID: 0
+position: 785,339
+---
+TreeCat: [speed=.5][wave]MP-P-P-P.[/all] #line:0fa241
+===
+title: AstronomerA
+tags: 
+colorID: 0
+position: 1210,604
+---
+Adina: TPGBNC?!? 4T0 *TJ1* 3DECJ DEVAEQJ? #line:87e132
+Astronomer: 0TKYDA TJ1 3HAEQJ, KT0 R TAK0L? #line:800ce7
+<<showTalkingHeads>>
+Mae: N T0FDA 0H BJ1CKA3AV EL... #line:3bb422
+Granddad: KT0 TAK0L TPGBNC? #line:f008eb
+Mae: GT0 6J1V 04EHJ HYDHJ1L UAPEHJ B QK0VE.  #line:fe92aa
+Granddad: U04EMY UEPC0HAS TPGBNCA CYWECTBYET B UP0QV0M? #line:98bdc3
+Mae: U0T0MY 4T0 0H YKPAV MAQNHY BPEMEHN. #line:a0dc9b
+Granddad: BEPH0-BEPH0.  #line:ca5f9b
+Mae: B V%60M CVY4AE, TPGBNC CKA3AV... #line:a40602
+<<hideTalkingHeads>>
+Astronomer: ...4T0 YKPAV MAQNHY BPEMEHN, N U0GT0MY 0H 3DECJ, 4T06J1 PA3DPASATJ. #line:9f5aa5
+Adina: X0P0Q0-0. #line:39ba6f
+Astronomer: TAK. TJ1 D0VSEH 6J1TJ PA3DPASEH. #line:f2bc7c
+Adina: DA. TJ1 04EHJ PA3DPASAEQJ. #line:40154b
+<<close>>
+<<wait 1>>
+Adina: HY. #line:850001
+Astronomer: X0P0QEF0 DHR #line:396a41
+Adina: YBNDNMCR #line:4d7b5a
+===
+title: TreeCat
+tags: 
+colorID: 0
+position: -57,-49
+---
+TreeCat: EWE U0F0B0PNM. #line:307178
+<<set $day to 3>>
+<<set $act to 1>>
+
+
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 1041,-119
+---
+<<hide Astronomer>>
+<<hide LostConstellation>>
+===

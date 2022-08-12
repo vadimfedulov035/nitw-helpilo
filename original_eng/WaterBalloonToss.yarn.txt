@@ -1,0 +1,116 @@
+title: HitTarget1
+tags: 
+colorID: 0
+position: 769,192
+---
+<<set $wb_target_1_hits += 1>>
+<<if $wb_target_1_hits is 1>>
+    Council1: WOOOOOO! You hit the spooky ghost! #line:46e274
+<<elseif $wb_target_1_hits is 2>>
+    Council1: I'm a scary spirit and I've been hit! #line:487bb5
+<<elseif $wb_target_1_hits is 3>>
+    Council1: Gonna haunt ya for that! #line:daede7
+<<elseif $wb_target_1_hits is 4>>
+    Council1: I'm extremely cold and wet! #line:093b55
+<<elseif $wb_target_1_hits is 5>>
+    Council1: Aaaaagh! #line:7d23c5
+<<elseif $wb_target_1_hits is 6>>
+    Council1: Oh no I'm dead... again! #line:0bab35
+<<endif>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 508,101
+---
+Council1: Hold up... #line:b5cb29
+Council1: Colleen how do i get into this thing? #line:4cc111
+<<wait 2>>
+Council1: Goddammit. #line:49146f
+<<wait 2>>
+Council1: ok we're fine we're fine #line:7b8022
+Council1: Welcome to Harfest Spooktacular Water Balloon Toss! #line:fc7939
+Council1: You know what to do! #line:6aafbc
+Council1: or can figure it out pretty quick! #line:40ad08
+Council1: Okay, let's go! #line:c4b147
+<<set $did_water_balloon_toss to 1>>
+===
+title: HitTarget2
+tags: 
+colorID: 0
+position: 1030,208
+---
+<<set $wb_target_2_hits += 1>>
+<<if $wb_target_2_hits is 1>>
+    Council2: Oh no you've hit the evil witch! #line:6af4ce
+<<elseif $wb_target_2_hits is 2>>
+    Council2: Aaagh! Witch way will I go next??? #line:075e40
+<<elseif $wb_target_2_hits is 3>>
+    Council2: Ouch! I'm gonna hex you up! #line:111e00
+<<elseif $wb_target_2_hits is 4>>
+    Council2: AAAAAGH!  #line:7ae9e5
+<<elseif $wb_target_2_hits is 5>>
+    Council2: AAAAAAAAAAAGH! #line:7f8124
+<<elseif $wb_target_2_hits is 6>>
+    Council2: Oh no I melted! I'm running away!!!! #line:ca49cb
+<<endif>>
+===
+title: HitTarget3
+tags: 
+colorID: 0
+position: 1278,215
+---
+<<set $wb_target_3_hits += 1>>
+<<if $wb_target_3_hits is 1>>
+    Council3: Oops. I'm the pumpkin. #line:b81eba
+<<elseif $wb_target_3_hits is 2>>
+    Council3: You hit me, the pumpkin. #line:7fe12e
+<<elseif $wb_target_3_hits is 3>>
+    Council3: You got me, the pumpkin, wet. #line:c8c056
+<<elseif $wb_target_3_hits is 4>>
+    Council3: Ouch. That one hurt me, the pumpkin. #line:59099e
+<<elseif $wb_target_3_hits is 5>>
+    Council3: I'm freezing now. The pumpkin is freezing. #line:0343c6
+<<elseif $wb_target_3_hits is 6>>
+    Council3: Oh no I'm going away now. I'm the pumpkin. #line:83a3eb
+<<endif>>
+===
+title: HitTarget4
+tags: 
+colorID: 0
+position: 1537,231
+---
+<<set $wb_target_4_hits += 1>>
+<<if $wb_target_4_hits is 1>>
+    Council4: Rattle Rattle! I'm a skeleton! #line:0b0d54
+<<elseif $wb_target_4_hits is 2>>
+    Council4: Clinkity-Clack! you hit my bones! #line:b75e4a
+<<elseif $wb_target_4_hits is 3>>
+    Council4: Clunkity-Clonk! that tickled my funnybone! #line:f3760b
+<<elseif $wb_target_4_hits is 4>>
+    Council4: Clankity-Clink! I'm all wet! #line:16e22a
+<<elseif $wb_target_4_hits is 5>>
+    Council4: Clonkity-Bang! my poor boney body! #line:9b39e5
+<<elseif $wb_target_4_hits is 6>>
+    Council4: Back to the grave with me! #line:f247a7
+<<endif>>
+===
+title: End
+tags: 
+colorID: 0
+position: 743,480
+---
+Council1: Well, that sure was something! #line:d8c80c
+Council3: On behalf of the Possum Springs Town Council #line:c17295
+Council3: we urge you to support local business #line:46dd57
+Council2: and enjoy our historic home! #line:907247
+Council4: Possum Springs, more l- #line:79b37a
+Council1: ...cathleen no... #line:d3c910
+Council4: more like awesome springs! #line:67adcb
+Council1: ... #line:075255
+Council3: ... #line:45f497
+Council2: ok we're done #line:b7b331
+<<wait 1>>
+<<irisOut 1 wait>>
+<<scene TowneCentreEast_Harfest>>
+===

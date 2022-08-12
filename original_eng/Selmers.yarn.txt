@@ -1,0 +1,952 @@
+title: Selmers_00_00
+tags: 
+colorID: 2
+position: -212,-211
+---
+Mae: Selmers! #line:6d332e
+Selmers: What are you doing home? #line:e8a5b8
+Mae: Dropped out! #line:7a4764
+Selmers: Wow. #line:f2d777
+Mae: Yeah I guess. #line:48c02d
+Selmers: So, like, you just don’t go back? #line:e1e554
+Mae: That’s about it. #line:d7662d
+Selmers: Weird. #line:34e40f
+===
+title: Selmers_00_01
+tags: 
+colorID: 2
+position: -188,41
+---
+Mae: So how've you been? #line:4b553b
+Selmers: Ok. #line:44ae98
+Selmers: Me and Dennis split. #line:9e535c
+Mae: Oh no! #line:6f3b15
+Selmers: Yeah he got a job at the new prison over in Briddle #line:b21ae8
+Selmers: and he met some girl at a gas station. #line:400b25
+Mae: Wow. What a jerk. #line:f3536c
+Selmers: Eh, he's a free agent. #line:31c566
+Mae: I guess. #line:26ab8a
+===
+title: Selmers_00_02
+tags: 
+colorID: 2
+position: -61,277
+---
+Selmers: What's that word they use #line:665641
+Selmers: for like a weapon you make in jail? #line:9ae73c
+Selmers: Like a knife? #line:cccac8
+Mae: A shiv? #line:88ff41
+Selmers: I hope Dennis gets shivved at work. #line:47401e
+Selmers: Just to scare him. Scare him good. #line:01a93b
+Mae: That'd do it.  #line:b0efae
+Selmers: Scare him right in the kidney. #line:11eb18
+Mae: Ok, well I gotta go. #line:47d7a2
+Selmers: Nice seeing you! Stop by anytime! #line:e85d78
+===
+title: Selmers
+tags: 
+colorID: 0
+position: 162,-727
+---
+<<if $act is 0 and $day is 0>>
+    [[Selmers_Demo]]
+<<elseif $act is 1>>
+    [[Selmers_Act1]]
+<<elseif $act is 2>>
+    [[Selmers_Act2]]
+<<elseif $act is 3>>
+    [[Selmers_Act3]]
+<<elseif $act is 4>>
+    [[Selmers_Act4]]
+<<endif>>
+
+===
+title: Selmers_01_00
+tags: 
+colorID: 2
+position: 515,-75
+---
+Selmers: What's it like being back? #line:ad4370
+Mae: well, I just got home so #line:798ce0
+Mae: just like taking it all in. #line:63330c
+Selmers: feel like anything's changed? #line:f8b94d
+    ->Yeah totally. #line:7b2cef
+        Mae: park store's gone. #line:3a4eb8
+        Mae: got a snack falcon now. #line:0b439b
+        Mae: food donkey's gone. #line:7fa9dd
+        Mae: got a ham panther though. #line:318f3b
+        Mae: the harleys are bigger now #line:316c0b
+        Mae: saw them running around before. #line:8b9f7b
+        Selmers: yeah I babysit those little shits sometimes. #line:7a9658
+        Mae: are they bad? they seem so nice. #line:5c8b2b
+        Selmers: that's how they fool ya. #line:18311d
+        Selmers: you know they steal things? #line:d369c1
+        Mae: what? #line:70fb9e
+        Selmers: they steal things. #line:744e88
+        Mae: holy crap. I *was* fooled. #line:8f748f
+    ->Nah. Not really. #line:f3b202
+        Mae: same old same old #line:eca5ee
+        Mae: same people, same streets, same trees. #line:a57692
+        Selmers: I wish I could get away. #line:47dc45
+        Mae: where would you go? #line:84a756
+        Selmers: Wanna go out to the ocean. #line:243642
+        Selmers: Get a stable job that pays worth a damn. #line:f73b3a
+        Selmers: Make jewelry out of things I find on the beach and sell 'em. #line:5b03c8
+        Selmers: And do karaoke every night. #line:da9433
+        Mae: Can I come visit? #line:8aec04
+        Selmers: Can you karaoke? #line:25f310
+        Mae: ...does it have to be any good? #line:e6fc7d
+        Selmers: don't matter, girl. just gotta show up. #line:c957b5
+===
+title: Selmers_Demo_00
+tags: demo demo2
+colorID: 0
+position: 967,-973
+---
+Selmers: Hey Mae. #line:c46115
+Mae: Hey Selmers. o/ #line:85deca
+Mae: _o_ #line:662874
+Selmers: Did I see you with a journal the other day? #line:fd025f
+Mae: Oh yeah. Doctor's orders. #line:b6b677
+Selmers: Yeah Dr. Hank has me doing one too. #line:481ec4
+Mae: Oh ok did you have anger problems too? #line:490531
+Selmers: I was stealing codeine cough syrup from the Snack Falcon. #line:5ea56e
+Mae: Oh geez. #line:e3d192
+Mae: So Dr. Hank sees journals as a general cure-all. #line:0ad905
+Mae: Is it working for you? _o_ #line:b8ea69
+Selmers: Nope. But I've become a very good poet. #line:431c2c
+Selmers: Wanna hear one? #line:f3951a
+[[Naw, gotta find Gregg.|Selmers_Demo_Naw]] #line:ab63c6
+[[Sure!|Selmers_Demo_Sure]] #line:42b42c
+
+===
+title: Selmers_Demo_Naw
+tags: demo demo2
+colorID: 0
+position: 1258,-1064
+---
+Selmers: Ok, maybe another time. #line:8d05ba
+Mae: Definitely. :) #line:e34fb1
+Mae: :| #line:3b7f05
+===
+title: Selmers_Demo_Sure
+tags: demo demo2
+colorID: 0
+position: 976,-1345
+---
+Selmers: my heart is #line:35fdb5
+Selmers: a dankness #line:3a12c9
+Selmers: but when I see you #line:ea95fe
+Selmers: i feel a thankness #line:bb9100
+Mae: Wow, that's really nice. :) #line:4dadfe
+Selmers: when i feel #line:55703b
+Selmers: a blueness #line:987b2d
+Selmers: all i need #line:c55b1d
+Selmers: is a youness #line:35c06d
+Mae: That's very romantic. #line:8e10e6
+Selmers: It's about my horse. #line:63c081
+Mae: :| #line:c8e1b1
+Mae: Oh. #line:34e3a6
+Selmers: We're just friends. #line:4f7c2e
+<<addToJournal SelmersPoetry>>
+===
+title: Selmers_Demo_01
+tags: demo demo2
+colorID: 0
+position: 605,-1121
+---
+Selmers: Mr. Chazokov's up on the roof again. #line:6c37ec
+Selmers: Pretty sure he's gonna break his damn neck. #line:95ecac
+===
+title: Selmers_A2D1_00
+tags: demo2
+colorID: 3
+position: -2577,-1027
+---
+Selmers: Hey Mae. #line:d5bda2
+Mae: Hey Selmers. o/ #line:343e3a
+Mae: _o_ #line:b339f5
+Selmers: Did I see you with a journal the other day? #line:a6b381
+Mae: Oh yeah. Doctor's orders. #line:4f9263
+Selmers: Yeah Dr. Hank has me doing one too. #line:863c8e
+Mae: Oh ok did you have anger problems too? #line:9f000a
+Selmers: I was stealing painkillers from the Ham Panther pharmacy. #line:e698a5
+Mae: Oh geez. #line:661cb8
+Mae: So Dr. Hank sees journals as a general cure-all. #line:3ed789
+Mae: Is it working for you? _o_ #line:436149
+Selmers: Nope. Rehab and the program do, though. #line:6a6a1a
+Selmers: And I've become a very good poet. #line:08117b
+Selmers: Wanna hear one? #line:5a8bc0
+-> Yeah #line:29e7ea
+    Selmers: my heart is #line:609da0
+    Selmers: a dankness #line:4a0426
+    Selmers: but when I see you #line:f9fa04
+    Selmers: i feel a thankness #line:c88b54
+    Mae: Wow, that's really nice. :) #line:f061f4
+    Selmers: when i feel #line:c094ca
+    Selmers: a blueness #line:874bc9
+    Selmers: all i need #line:5289b8
+    Selmers: is a youness #line:db2130
+    Mae: That's very romantic. #line:75fd92
+    Selmers: It's about my horse. #line:015755
+    Mae: :| #line:a7c41e
+    Mae: Oh. #line:b9ed64
+    Selmers: We're just friends. #line:e5b1eb
+    <<set $selmers_poet += 1>>
+    <<unlockDoodle SelmersPoet>>
+-> Naw #line:ca75cc
+    Selmers: Ok, maybe another time. #line:fa082b
+    Mae: Definitely. :) #line:55d9f0
+    Mae: :| #line:18c01e
+<<set $knows_selmers_poet to 1>>
+<<unlockDoodle Selmers1>>
+<<camera extraLookOffset 0 0>>
+===
+title: Selmers_A2D1_01
+tags: demo2
+colorID: 3
+position: -2572,-1317
+---
+<<lookAt Selmers Chazokov>>
+Selmers: Mr. Chazokov's up on the roof again. #line:d55e17
+Selmers: Pretty sure he's gonna break his damn neck. #line:14f10c
+<<lookNearest Selmers>>
+===
+title: Selmers_A2D2_00
+tags: 
+colorID: 3
+position: -2276,-1087
+---
+Selmers: Mae Borowski. #line:e0ec5e
+Mae: Selmers. #line:00e88b
+Selmers: Now, we all know how important it is to look our best. #line:f987dc
+Mae: what #line:2a22bd
+Selmers: Our appearance is the first and sometimes last impression we make! #line:bb572f
+Mae: Selmers did you join a cult? #line:e8222f
+Selmers: Lucky for you, I happen to be a licensed dealer #line:4bf54b
+Mae: oh ok #line:23266d
+Selmers: of the Sylvam family of products. #line:7b8912
+Mae: Selmers I don't have any money. #line:77cc2f
+Selmers: oh ok. #line:34c789
+    ->Are you giving that pitch to everyone? #line:73a98f
+        Selmers: it's horrible, isn't it? #line:f53f7e
+        Selmers: i did a video seminar and that's what the woman said. #line:dab6c5
+        Mae: Did she sell anything? #line:2050e4
+        Selmers: yeah her neighbor was really appreciative. #line:703f9d
+        Mae: sorry #line:70ce23
+        Selmers: everyone was smiling and they just kept laughing #line:73d65c
+        Selmers: just smiling and laughing and looking at hand lotions. #line:90ad9d
+        Mae: we can just smile and laugh if you want. #line:3ca126
+        Selmers: nah. #line:827689
+    ->Have you sold anything yet? #line:00362a
+        Selmers: sold some to my mom #line:5b31b4
+        Selmers: and to Abby Crangler. #line:42e6e5
+        Mae: Mrs. Crangler's daughter? #line:65672a
+        Selmers: granddaughter #line:f4e589
+        Selmers: i run into her at the laundromat over by the school. #line:3efcc9
+        Mae: one time gregg got locked inside one of the tumble dryers. #line:017e12
+        Selmers: did he die? #line:202926
+        Mae: he wanted me to start it but i chickened out #line:191dce
+        Selmers: he definitely would have died. #line:af62b4
+        Mae: tell him that. he's still mad. #line:e5508b
+Selmers: Want to hear a poem? #line:98ad60
+<<if $knows_selmers_poet is 0>>
+	Mae: You're a poet? #line:683786
+	Selmers: Yeah since I got out of rehab. #line:507fad
+	Mae: You were in rehab? #line:8ab6f0
+	Selmers: Yep. #line:810e7c
+    <<set $knows_selmers_poet to 1>>
+	Mae: Ok I'll hear the poem. #line:32686d
+    [[Selmers_A2D2_Poem]]
+<<endif>>
+-> Nah, maybe another time. #line:5cd9ee
+	Selmers: Cool. #line:250652
+-> Sure! #line:eb4791
+	[[Selmers_A2D2_Poem]]
+===
+title: Selmers_A2D2_Poem
+tags: 
+colorID: 3
+position: -2023,-1089
+---
+Selmers: Sometimes #line:51281a
+Selmers: I think. #line:13eb7d
+Selmers: And start #line:74d9be
+Selmers: to sink. #line:70af09
+Mae: oh no. #line:d432b6
+Selmers: there's more. #line:84712b
+Mae: sorry. #line:2ef6c3
+Selmers: Then I remember #line:1c8474
+Selmers: it's Octember. #line:3ab2e4
+Mae: "Octember"? #line:6a5496
+Selmers: I combined my two favorite months. #line:1a1de1
+Mae: Fall is really nice. #line:b21cb3
+Selmers: It's the best. #line:564ee0
+<<set $selmers_poet += 1>>
+<<unlockDoodle SelmersPoet>>
+===
+title: Selmers_A2D2_01
+tags: 
+colorID: 3
+position: -2070,-1346
+---
+Selmers: Days are gonna start getting shorter soon. #line:8cb68f
+Selmers: It makes me sad. #line:5e75d5
+Mae: I like it! #line:a5b6d7
+Selmers: I love the fall but hate the dark. #line:b6a0f6
+Mae: I like it! #line:c4bb92
+Selmers: you sure do. #line:c671a5
+===
+title: Selmers_A2D2_02
+tags: 
+colorID: 3
+position: -1809,-1449
+---
+Selmers: I seen a raccoon. #line:a92565
+Mae: Where? #line:4a7739
+Selmers: up in towny centry. #line:02fd46
+Selmers: he's a big'un. #line:626b43
+Mae: cool. #line:c8697b
+===
+title: Selmers_A2D3_00
+tags: 
+colorID: 3
+position: -2082,-504
+---
+Mae: Totally what's up Selmersssss. #line:4f76fd
+Selmers: You know what's good? #line:dafc2e
+Mae: off the top of my head? #line:97fea4
+    ->not bleeding on your seat in junior high? #line:a4bfd1
+    ->not falling in a trashcan and puking on yourself? #line:4fffd5
+    ->not seriously injuring someone during your first kiss at senior prom? #line:9f4267
+Selmers: um... #line:3dd72f
+Selmers: i was gonna say those fruit snack thingies #line:13f434
+Selmers: we used to eat in grade school. #line:888eca
+Mae: oh right! yeah those are really good. #line:6ba74a
+Selmers: did that other thing happen to you? #line:eb790b
+Mae: nope. #line:6e8b0b
+Selmers: Want to hear a new poem? #line:e657f5
+<<if $knows_selmers_poet is 0>>
+	Mae: You're a poet? #line:d237dc
+	Selmers: Yeah since I got out of rehab. #line:913474
+	Mae: You were in rehab? #line:70745d
+	Selmers: Yep. #line:100605
+    <<set $knows_selmers_poet to 1>>
+	Mae: Ok let's hear it. #line:e4f99d
+    [[Selmers_A2D3_Poem]]
+<<endif>>
+-> Nah, maybe another time. #line:e57642
+	Selmers: Cool. #line:9544d2
+-> Sure! #line:aec938
+	[[Selmers_A2D3_Poem]]
+===
+title: Selmers_A2D3_Poem
+tags: 
+colorID: 3
+position: -2353,-366
+---
+Selmers: Sometimes #line:3333d8
+Selmers: I like fruit snacks #line:425e80
+Selmers: Out by #line:db80f6
+Selmers: the train tracks #line:f209d7
+Mae: Decent. #line:e50019
+Selmers: A juice box #line:ca6d85
+Selmers: and headphones #line:6dacdb
+Selmers: I enter #line:966849
+Selmers: the juice zone. #line:42222c
+Mae: Geez those are like all I want now. #line:da8f19
+Mae: you made them sound so real. #line:4e2ad4
+Mae: i can taste the atomic dino snacks and the bluclear squeezer. #line:b18039
+Selmers: thanks. #line:ac7042
+<<set $selmers_poet += 1>>
+<<unlockDoodle SelmersPoet>>
+===
+title: Selmers_A2D3_01
+tags: 
+colorID: 3
+position: -1822,-398
+---
+Selmers: I think Mr. Chazokov's up there again. #line:21380b
+Mae: Oh really? #line:f93688
+Selmers: He's gonna fall right on this stoop one day. #line:ec7287
+===
+title: Selmers_A2D3_02
+tags: 
+colorID: 3
+position: -1536,-277
+---
+Selmers: I can see the watertower from my back window. #line:8a36f2
+Selmers: seen a fire up by there the other night. #line:cc849f
+Selmers: wonder who was up there? #line:9b707c
+===
+title: Selmers_Act2
+tags: 
+colorID: 3
+position: -2575,-706
+---
+<<if $act is 2 and $day is 1>>
+    <<if $selmers is 0>>
+        <<set $selmers += 1>>
+        [[Selmers_A2D1_00]]
+    <<elseif $selmers is 1>>
+        <<set $selmers += 1>>
+        <<set $selmers_done to 1>>
+        [[Selmers_A2D1_01]]
+    <<endif>>
+<<elseif $act is 2 and $day is 2>>
+    <<if $selmers is 0>>
+        <<set $selmers += 1>>
+        [[Selmers_A2D2_00]]
+    <<elseif $selmers is 1>>
+        <<set $selmers += 1>>
+        [[Selmers_A2D2_01]]
+    <<elseif $selmers is 2>>
+        <<set $selmers_done to 1>>
+        [[Selmers_A2D2_02]]
+    <<endif>>
+<<elseif $act is 2 and $day is 3>>
+    <<if $selmers is 0>>
+        <<set $selmers += 1>>
+        [[Selmers_A2D3_00]]
+    <<elseif $selmers is 1>>
+        <<set $selmers += 1>>
+        [[Selmers_A2D3_01]]
+    <<elseif $selmers is 2>>
+        <<set $selmers_done to 1>>
+        [[Selmers_A2D3_02]]
+    <<endif>>
+<<elseif $act is 2 and $day is 4>>
+    <<if $selmers is 0>>
+        <<set $selmers += 1>>
+        [[Selmers_A2D4_00]]
+    <<elseif $selmers is 1>>
+        <<set $selmers += 1>>
+        [[Selmers_A2D4_01]]
+    <<elseif $selmers is 2>>
+        <<set $selmers_done to 1>>
+        [[Selmers_A2D4_02]]
+    <<endif>>
+<<endif>>
+===
+title: Selmers_A2D4_00
+tags: 
+colorID: 3
+position: -2658,-307
+---
+Mae: Whoa! Decorations! #line:2c7d66
+Selmers: Girl you can't mess around on Halloween. #line:0629ac
+Mae: Geez! #line:298de8
+Selmers: Want to hear a new poem? #line:eaa795
+<<if $knows_selmers_poet is 0>>
+	Mae: You're a poet? #line:a13d83
+	Selmers: Yeah since I got out of rehab. #line:efeac9
+	Mae: You were in rehab? #line:bf5ee1
+	Selmers: Yep. #line:e4691a
+    <<set $knows_selmers_poet to 1>>
+	Mae: Ok sure. #line:33871e
+    [[Selmers_A2D4_Poem]]
+<<endif>>
+-> Nah, maybe another time. #line:55fd47
+	Selmers: Cool. #line:657d9c
+-> Sure! #line:991f5f
+	[[Selmers_A2D4_Poem]]
+===
+title: Selmers_A2D4_Poem
+tags: 
+colorID: 3
+position: -2984,-544
+---
+Selmers: Bats and moon #line:1d8703
+Selmers: against the gloom #line:b3a20b
+Selmers: the night is black #line:3324a9
+Selmers: I made a snack #line:1c4325
+Mae: cool #line:989dad
+Selmers: i microwav'd #line:bc7dae
+Selmers: pizza i'd sav'd #line:b2b5f9
+Selmers: tho pizza cold #line:6affbc
+Selmers: is breakfast gold. #line:d4d4e1
+Mae: that's so true #line:d02a54
+Selmers: It really happened. #line:7d8beb
+<<set $selmers_poet += 1>>
+<<unlockDoodle SelmersPoet>>
+===
+title: Selmers_A2D4_01
+tags: 
+colorID: 3
+position: -2924,12
+---
+Selmers: Big Halloween fan here. #line:466c9e
+Mae: Yeah me too obviously. #line:911830
+Mae: You going to Harfest? #line:9d4e36
+Selmers: Nah, staying here for the trick or treaters! #line:bd0ad2
+Mae: You are a saint. #line:39e7b2
+===
+title: Selmers_Act3
+tags: 
+colorID: 4
+position: -1028,-2407
+---
+<<if $act is 3 and $day is 1>>
+    <<if $selmers is 0>>
+        <<set $selmers += 1>>
+        [[Selmers_A3D1_00]]
+    <<elseif $selmers is 1>>
+        <<set $selmers += 1>>
+        [[Selmers_A3D1_01]]
+    <<elseif $selmers is 2>>
+        <<set $selmers += 1>>
+        <<set $selmers_done to 1>>
+        [[Selmers_A3D1_02]]
+    <<endif>>
+<<elseif $act is 3 and $day is 2>>
+    <<if $selmers is 0>>
+        <<set $selmers += 1>>
+        [[Selmers_A3D2_00]]
+    <<elseif $selmers is 1>>
+        <<set $selmers += 1>>
+        [[Selmers_A3D2_01]]
+    <<elseif $selmers is 2>>
+        <<set $selmers += 1>>
+        <<set $selmers_done to 1>>
+        [[Selmers_A3D2_02]]
+    <<endif>>
+<<elseif $act is 3 and $day is 3>>
+    <<if $selmers is 0>>
+        <<set $selmers += 1>>
+        [[Selmers_A3D3_00]]
+    <<elseif $selmers is 1>>
+        <<set $selmers += 1>>
+        [[Selmers_A3D3_01]]
+    <<elseif $selmers is 2>>
+        <<set $selmers += 1>>
+        <<set $selmers_done to 1>>
+        [[Selmers_A3D3_02]]
+    <<endif>>
+<<elseif $act is 3 and $day is 4>>
+    <<if $selmers is 0>>
+        <<set $selmers += 1>>
+        [[Selmers_A3D4_00]]
+    <<elseif $selmers is 1>>
+        <<set $selmers += 1>>
+        [[Selmers_A3D4_01]]
+    <<elseif $selmers is 2>>
+        <<set $selmers += 1>>
+        <<set $selmers_done to 1>>
+        [[Selmers_A3D4_02]]
+    <<endif>>
+<<endif>>
+===
+title: Selmers_A3D4_01
+tags: 
+colorID: 4
+position: -310,-2730
+---
+Mae: you noticed anything like #line:b0ffd0
+Mae: weird around here lately? #line:97fdec
+Selmers: weird as in... #line:8401d6
+    ->ghost man #line:85cf13
+        Selmers: a ghost... man? #line:4a05c5
+        Mae: ...yeah. #line:824bd2
+        Selmers: not that i recall...? #line:8f1b26
+        Mae: i think i'm going crazy #line:09a5ef
+        Mae: i think maybe i'm seeing things? #line:57b6eb
+        Selmers: my mom sees ghosts. #line:3a4373
+        Selmers: swears there's one in the basement. #line:021f0e
+        Selmers: but she's wrong. #line:25a137
+        Mae: how do you know? #line:e6046b
+        Selmers: i live in the basement. #line:3a25bc
+        Mae: are you a ghost? #line:406b01
+        Selmers: heh heh. not yet. #line:a902cc
+    ->missing kids #line:1874fd
+        Selmers: i don't think so? #line:75117d
+        Selmers: not recently at least. #line:30a3d0
+        Selmers: that Casey kid last spring. #line:fdde2e
+        Selmers: but he weren't a kid no more. #line:794b99
+        Selmers: maybe someone else but from another town? #line:04f4e6
+        Selmers: i'm sure i'll remember. #line:6098da
+        Mae: you know i asked that but didn't expect you to know #line:2ff4d9
+        Selmers: i read the paper! #line:d780f8
+===
+title: Selmers_A3D4_02
+tags: 
+colorID: 4
+position: -203,-3099
+---
+Selmers: Forecast is thinking snow soon. #line:6184e2
+Mae: when? #line:c69b9a
+Selmers: soon. gonna get cold soon. #line:5c5311
+===
+title: Selmers_A3D4_00
+tags: 
+colorID: 4
+position: -746,-2669
+---
+Mae: Heyyyyyy selmers. #line:889dc0
+Selmers: Geez Mae are you sick? #line:e32149
+Mae: naaaaaaah. #line:598f64
+Mae: just tired. got a headache. #line:03ef4c
+Selmers: why are you out running around? #line:32dff7
+Mae: i'll get over it. #line:85772f
+Selmers: yeesh. #line:336949
+Selmers: take it easy, neighbor. #line:9b8931
+Mae: can do. #line:d1fb71
+Selmers: Want to hear a new poem? #line:13504c
+-> Nah, maybe another time. #line:4d089e
+	Selmers: Cool. #line:315638
+-> Sure! #line:d3813e
+	[[Selmers_A3D4_Poem]]
+===
+title: Selmers_A3D4_Poem
+tags: 
+colorID: 4
+position: -914,-2944
+---
+Selmers: The stars the stars #line:a40982
+Selmers: like lights on cars #line:129d35
+Selmers: drive 'cross the dark #line:40e6c2
+Selmers: and never park. #line:823a3a
+Mae: it's true. they are like that. #line:b096eb
+Selmers: i got one ready for Longest Night. #line:455e85
+Mae: oh? #line:eed075
+Selmers: Longest Night #line:960497
+Selmers: Longest Night #line:3d20ea
+Selmers: night so dark #line:9d69d2
+Selmers: but stars so bright #line:1c06b3
+Mae: nice. #line:6caa66
+Selmers: thanks. i'm feeling festive. #line:bf2ca4
+<<unlockDoodle SelmersPoet>>
+===
+title: Selmers_A3D3_01
+tags: 
+colorID: 4
+position: -1728,-2666
+---
+Selmers: Chazokov's up there again. #line:c09c18
+Mae: He ever like drop that telescope? #line:ac0ae9
+Selmers: Oh no he'd cry his eyes out. #line:376511
+Selmers: He loves that thing more than his kid. #line:540cfd
+Mae: he has a kid? #line:ae4e1b
+Selmers: yeah. name's Colin. #line:b6f01b
+Selmers: visits every once in a while. #line:836a2a
+Selmers: he is hot as hell #line:25f8c0
+Mae: you talk to him? #line:067d65
+Selmers: nah. he works at some university research place. #line:2684a6
+Selmers: he's not interested in... this. #line:fe2786
+Mae: Selmers... #line:365426
+Selmers: eh. #line:cf3f17
+===
+title: Selmers_A3D3_00
+tags: 
+colorID: 4
+position: -1398,-2541
+---
+Selmers: Hey Mae. #line:a02a07
+Selmers: you alright? #line:b29b22
+Mae: yeah I guess. why? #line:9e9c8b
+Selmers: you look like #line:6e6f8f
+Selmers: you went through the dryer #line:95b280
+Selmers: on the wrong setting #line:2808df
+Mae: ha ha yeah #line:5d2292
+Mae: long week is all. #line:cc87f5
+Selmers: you wanna hear a poem? cheer you up? #line:d54217
+-> Nah, maybe another time. #line:f257b1
+	Selmers: Cool. #line:adba9e
+-> Sure! #line:1fb218
+    [[Selmers_A3D3_Poem]]
+===
+title: Selmers_A3D3_Poem
+tags: 
+colorID: 4
+position: -1362,-2789
+---
+Selmers: Life goes on #line:26ea0c
+Selmers: It feels so long #line:1c265d
+Selmers: But I report #line:d7cb24
+Selmers: Life is too short. #line:c64e79
+Mae: ha ha. #line:4b7cd6
+Selmers: here's another happy one: #line:45b777
+Selmers: Life is great #line:3d88b1
+Selmers: But Life is hard #line:9744e6
+Selmers: let's grill hot dogs #line:73b352
+Selmers: in the backyard. #line:c4db16
+Mae: thank you, selmers. #line:875e60
+Selmers: they cheer you up? #line:642420
+Mae: they did. #line:7dee73
+Selmers: yay! #line:650230
+<<unlockDoodle SelmersPoet>>
+===
+title: Selmers_A3D3_02
+tags: 
+colorID: 4
+position: -2000,-2839
+---
+Selmers: They do karaoke at Miller's but only like twice a week. #line:961883
+Selmers: should be every night. #line:501713
+===
+title: Selmers_A3D2_01
+tags: 
+colorID: 4
+position: -1709,-2206
+---
+Selmers: What were you doing at the library? #line:0b5d77
+Mae: I go to the library! #line:9d8c1d
+Selmers: No but seriously. #line:ec188e
+
+===
+title: Selmers_A3D2_02
+tags: temp
+colorID: 4
+position: -1962,-2130
+---
+Selmers:{emote=gatorhead} #line:42bf3b
+Selmers:{emote=eyecry} #line:4be614
+===
+title: Selmers_A3D2_00
+tags: 
+colorID: 4
+position: -1416,-2296
+---
+<<if $saw_selmers_deliver_poem_at_poets_society>>
+    Mae: Hey Selmers! You were great last night! #line:e157d4
+    Selmers: Aw thanks!!! #line:a5347d
+    <<if $selmers_poet >= 3>>
+    	Selmers: Having you to bounce ideas off helped. #line:3c3553
+    	Mae: I am good for that. #line:f7680c
+    <<endif>>
+<<endif>>
+Selmers: Want to hear a new poem? #line:ceb15a
+-> Nah, maybe another time. #line:07b752
+    Selmers: Cool #line:0f87d3
+-> Sure! #line:f3fdd4
+    [[Selmers_A3D2_Poem]]
+===
+title: Selmers_A3D2_Poem
+tags: 
+colorID: 4
+position: -1363,-2009
+---
+Selmers: This is a short one.  #line:f2a4ae
+Selmers: because I'm tired. #line:eb5a01
+Mae: me too. so that works out. #line:b9b337
+Selmers: *ahem* #line:17b2f9
+Selmers: I got mad one time #line:a6525f
+Selmers: it was online. #line:87640f
+Mae: I've been mad on the internet before too. #line:9ac9bd
+Selmers: It's crazy-making. #line:ab9f05
+<<unlockDoodle SelmersPoet>>
+===
+title: Selmers_A3D1_00
+tags: 
+colorID: 4
+position: -1037,-2037
+---
+Mae: How's it going, Selmers? #line:5faa47
+Selmers: How was your Halloween? #line:bb008f
+Mae: weird. went to harfest. #line:e0cd2e
+Mae: saw some messed up shit that I think was real? #line:c09ed5
+Mae: then had a really bad nightmare. #line:9f0f3f
+Selmers: cool I stayed in and ate candy and watched tv. #line:5b8bc4
+Selmers: halloween episodes were on. #line:db4ef1
+Mae: well, i was out *living* a halloween episode ok #line:2b3cc1
+Selmers: whoa. #line:3a786a
+Mae: yep. #line:f0811b
+Selmers: Want to hear a new poem? #line:30b04f
+-> Nah, maybe another time. #line:91f05b
+	Selmers: Cool. #line:c12a7e
+-> Sure! #line:0d0b7e
+    [[Selmers_A3D1_Poem]]
+===
+title: Selmers_A3D1_Poem
+tags: 
+colorID: 4
+position: -767,-2012
+---
+Selmers: Autumn winds #line:37b5fa
+Selmers: Autumn sins. #line:063f22
+Mae: ok #line:dcf2dc
+Selmers: Autumn times. #line:61d489
+Selmers: Autumn crimes. #line:459237
+-> what counts as an "autumn sin"? #line:76f1df
+    Selmers: cheatin' on your wife #line:cee66c
+    Selmers: with some gas station skank. #line:7ccb7b
+    <<wait 1>>
+    Selmers: in november. #line:3e0025
+    Mae: oh. right. yeah that's uh #line:498adc
+    Mae: inconsiderate. #line:87bd12
+-> what's considered an "autumn crime"? #line:9b95d1
+    Selmers: robbing a gas station then blowing it up #line:810ea4
+    Selmers: in november #line:d98114
+    Mae: ok yeah that makes sense. #line:cdab28
+<<set $selmers_poet += 1>>
+<<unlockDoodle SelmersPoet>>
+===
+title: Selmers_A3D1_01
+tags: 
+colorID: 4
+position: -1042,-1756
+---
+<<lookAt Selmers Chazokov>>
+Selmers: Hey Mr. Chazokov! #line:4c7126
+Chazokov: Yes Selma? #line:d79c14
+Selmers: You're gonna break your neck someday! #line:dd9e21
+Chazokov: I will make sure to fall right on you! #line:fb4ec5
+Selmers: Ha ha ha well I'm a big enough target! #line:a4780e
+Chazokov: Ha ha ha I'm bigger than you! We should be covered! #line:abb330
+Mae: YOU TWO. #line:e28b8d
+<<lookNearest Selmers>>
+===
+title: Selmers_A3D1_02
+tags: 
+colorID: 4
+position: -1053,-1495
+---
+Selmers: Leaves leaves leaves #line:0b4b60
+Mae: is that a poem? #line:822066
+Selmers: nope. #line:acd6d4
+===
+title: RunPast
+tags: 
+colorID: 0
+position: -615,-941
+---
+[[Selmers]]
+===
+title: Selmers_02_00
+tags: 
+colorID: 2
+position: 283,150
+---
+Mae: So what are you up to these days? #line:85cc10
+Selmers: um. crashing here until i get back in my own place. #line:c9e58b
+Selmers: parents rented out half the place to Mr. Chazokov. #line:10f891
+Selmers: I been babysitting, interviewed at Ham Panther. #line:bcefa1
+Selmers: waiting to hear back. #line:de303e
+Mae: ooooh! my dad works at Ham Panther now. #line:d70702
+Selmers: They got everything! #line:620d78
+===
+title: Selmers_Act1
+tags: 
+colorID: 2
+position: 171,-398
+---
+<<if $test_selmers>>
+<<elseif $selmers_sequence is 0>>
+	<<if $selmers is 0>>
+        <<set $selmers += 1>>
+		[[Selmers_00_00]]
+	<<elseif $selmers is 1>>
+        <<set $selmers += 1>>
+		[[Selmers_00_01]]
+	<<elseif $selmers is 2>>
+		<<set $selmers += 1>>
+		<<set $selmers_done to 1>>
+		[[Selmers_00_02]]
+	<<endif>>
+<<elseif $selmers_sequence is 1>>
+	<<if $selmers is 0>>
+		<<set $selmers += 1>>
+		<<set $selmers_done to 1>>
+		[[Selmers_01_00]]
+	<<endif>>
+<<elseif $selmers_sequence is 2>>
+	<<if $selmers is 0>>
+		<<set $selmers += 1>>
+		<<set $selmers_done to 1>>
+		[[Selmers_02_00]]
+	<<endif>>
+<<endif>>
+===
+title: Selmers_Demo
+tags: demo
+colorID: 0
+position: 690,-718
+---
+<<if $selmers is 0>>
+        [[Selmers_Demo_00]]
+    <<elseif $selmers is 1>>
+        [[Selmers_Demo_01]]
+    <<endif>>
+===
+title: RunPastTop
+tags: 
+colorID: 0
+position: -486,-1215
+---
+<<camera extraLookOffset 0 -2>>
+[[Selmers]]
+===
+title: SelmersInitLevel
+tags: 
+colorID: 0
+position: 403,-2826
+---
+<<if $Library>>
+    <<if $microfiche_done>>
+        <<if $selmers_poet >= 3>>
+            <<show Selmers>>
+            <<trigger Selmers PoetryBod>>
+            <<setCanInteract Selmers 0>>
+        <<else>>
+            <<hide Selmers>>
+        <<endif>>
+    <<else>>
+        <<hide Selmers>>
+    <<endif>>
+<<endif>>
+===
+title: Selmers_A2D4_02
+tags: 
+colorID: 3
+position: -2654,1
+---
+Selmers: Harfest is dumb. #line:027c55
+Mae: Really?! I love it. #line:317a30
+Selmers: I mean are you 8 years old? #line:b3a407
+Mae: No. I'm not. #line:b37415
+Selmers: eh. #line:3ac01c
+===
+title: Selmers_A4D3_00
+tags: 
+colorID: 6
+position: 522,-1605
+---
+Selmers: hey mae! #line:447dd5
+Mae: sup selmers. #line:41d1d7
+Selmers: you ok? #line:100934
+Selmers: after the whole like head injury thing? #line:90c3da
+Mae: yeah I'm alright. #line:3e3513
+Mae: headache is all #line:a2cd09
+Selmers: I got some migraine meds if you need it. #line:7713f8
+Mae: naw, it's not a migraine. #line:17522d
+Mae: and those things make me have to pee. #line:da7d1f
+Selmers: it's the caffeine. #line:01cddc
+Selmers: if you ever take pills that make you pee #line:5d9199
+Selmers: it's the caffeine. #line:ee0744
+Mae: i didn't know that. #line:18e507
+Selmers: used to work at the pharmacy. #line:53122e
+Mae: oh right. #line:96a196
+Mae: well if i ever have a headache #line:689370
+Mae: or need to pee #line:15774d
+Mae: i'll come by. #line:552a6c
+Selmers: anytime, neighbor. #line:faf3c2
+===
+title: Selmers_Act4
+tags: 
+colorID: 6
+position: 159,-1602
+---
+<<if $act is 4 and $day is 3>>
+    <<if $selmers is 0>>
+        <<set $selmers += 1>>
+        <<set $selmers_done to 1>>
+        [[Selmers_A4D3_00]]
+    <<endif>>
+<<endif>>
+===
+title: SelmersCool
+tags: 
+colorID: 4
+position: -1603,-1978
+---
+Selmers: Cool. #line:5ad276
+===

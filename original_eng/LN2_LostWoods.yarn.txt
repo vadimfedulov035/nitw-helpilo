@@ -1,0 +1,1300 @@
+title: CoffinWolf_A1D1.1
+tags: 
+colorID: 0
+position: -1467,423
+---
+Adina: Hello? #line:3d8777
+CoffinWolf: Hello! Interested in a coffin? #line:4cc8c1
+Adina: Uh. #line:dc07b7
+[[In the short term?|ShortTerm]] #line:b964de
+[[In the long run?|LongRun]] #line:de0f27
+
+===
+title: ShortTerm
+tags: 
+colorID: 0
+position: -1342,660
+---
+CoffinWolf: You never know! #line:c5272a
+CoffinWolf: These are hard times #line:408603
+CoffinWolf: and these woods will take your life. #line:7bea87
+<<if $talkedToTreeCat is 1>>
+	Adina: You are the second person who lives here to tell me I'm going to die here. #line:3d7c8a
+<<else>>
+	Adina: You're still alive. #line:cd7b16
+<<endif>>
+CoffinWolf: You can get out pretty easily, heading west. #line:2f87a1
+CoffinWolf: The problem is getting through, to the east. #line:7f8462
+[[CoffinWolf1Join]]
+
+===
+title: LongRun
+tags: 
+colorID: 0
+position: -1583,658
+---
+CoffinWolf: These are hard times. The days are short and the nights are long. #line:71fc6a
+CoffinWolf: And the winter lasts forever. #line:08218e
+Adina: Meaning? #line:4bfccb
+CoffinWolf: Meaning you have a bright future in being a lump in a snowbank #line:0e7136
+Coffinwolf: if you keep heading east. #line:7a3f24
+CoffinWolf: So head west. West is home. #line:e788a4
+[[CoffinWolf1Join]]
+
+===
+title: CoffinWolf1Join
+tags: 
+colorID: 0
+position: -1460,898
+---
+Adina: Well, east is where I'm going, so... #line:c18223
+CoffinWolf: The trees here move. They'll confuse your path. #line:e74481
+CoffinWolf: They bend to the powers of the God of This Forest #line:092c19
+Coffinwolf: and [speed=.5][shake=.02]The Huncher[/all] herself. #line:1f8454
+CoffinWolf: And you'll never obtain their permission to pass. #line:2d875e
+Adina: So this is why you're trying to sell me a coffin? #line:ec6f1e
+CoffinWolf: I provide a service- if you pay me now, I will collect your remains and bring them back to your relations. #line:4d5a72
+Adina: You charge in advance for this? #line:72c9e2
+CoffinWolf: I can't really charge any other time. #line:dfbbe0
+Adina: Oh. Right. #line:694ca4
+Adina: Well, I don't have any money. #line:83638f
+CoffinWolf: Eh-eh. No coffin for you then. #line:8f9678
+CoffinWolf: And your ghost will be quite unhappy. #line:db0bdc
+Adina: Whatever. #line:87683f
+
+===
+title: CoffinWolf_A1D1.2
+tags: 
+colorID: 0
+position: -1458,1129
+---
+Adina: What'd you say about my ghost? #line:1ae4bb
+CoffinWolf: Those that die here, stay here. Their ghosts lie frozen until disturbed. #line:57f8fe
+Adina: Oh. #line:aec388
+CoffinWolf: All that's left of them are lumps in the snow and the things they brought with them #line:acc096
+CoffinWolf: gathering frost. #line:eff185
+CoffinWolf: Oh what those ghosts could tell us in these hard times. #line:aed507
+Adina: Can I have a drink of something? #line:51a36c
+CoffinWolf: No. #line:a59ebe
+
+===
+title: CoffinWolf_A1D1.3
+tags: 
+colorID: 0
+position: -1457,1361
+---
+CoffinWolf: You let the cold in every time you open the door, you know. #line:934a98
+
+===
+title: PassTreeSecondTime
+tags: 
+colorID: 0
+position: -2521,258
+---
+<<showTalkingHeads>>
+Mae: What did you say? #line:03395e
+Granddad: Adina could see something up in the branches. Something that didn't belong. #line:bd7bb6
+Mae: She should climb up and get it and stop standing there like a lump. #line:c4430e
+Granddad: A lump? #line:06df01
+Mae: Yeah she's lumping around and she should climb a tree. #line:764dc6
+Granddad: Adina wasn't much of a climber, so she had to improvise... #line:914d57
+
+===
+title: Lost
+tags: 
+colorID: 0
+position: -2524,13
+---
+<<showTalkingHeads>>
+Mae: Was she LOST? #line:986465
+Granddad: She sure was! No matter how far she walked, she was never far from the forest's edge. #line:79b545
+Mae: THAT'S WEIRD! #line:0fb376
+Granddad: These were no normal woods. These were magic woods. #line:87d6b5
+Mae: That's dumb. #line:7836e2
+Granddad: These were the dangerous kind of magic woods. #line:4f5dcd
+Mae: Oh ok that sounds cool. #line:9142a7
+Mae: How did she get through??? #line:e52da7
+Granddad: Well, maybe she needed some directions. #line:1e0322
+Mae: Aw but who from? She all alone. #line:1f4163
+Granddad: When you don't have any friends, you have to make them. #line:ef9898
+
+===
+title: NeedSnowmen
+tags: 
+colorID: 0
+position: -2516,495
+---
+Granddad: That snow from the tree? #line:6c0a6c
+Granddad: It was special snow. #line:6b4544
+Mae: How do you figure?  #line:e56b4a
+Granddad: Well, if you knew just where to build it, #line:d7395e
+Granddad: you could make one hell of a snowman from that snow. #line:f886f7
+Mae: That's it? That's not special. #line:ade612
+Granddad: You're a tough audience, kid. #line:f26f39
+Mae: JUST TELL A BETTER STORY! #line:a81f61
+Granddad: I could read you Charity Bearity Learns To Shareity again. #line:649fa7
+Mae: No, she is the woooooooorst! #line:1a036b
+Granddad: Ok, then, listen... #line:595e06
+===
+title: FirstSnowmanBuilt
+tags: 
+colorID: 0
+position: -1738,-310
+---
+<<waitForPlayerFallToGround>>
+<<set $snowman0Intro to 1>>
+Snowman0:{angryWobble=5} AAAAAAAAAAGH! #line:9f3c35
+Adina: OH MY GOD! #line:1e7fb0
+Snowman0:{angryWobble=7} WHAT AM I?!?!?! #line:cb6a1d
+Adina: [shake=.01]WHAT'S HAPPENING???[/shake] #line:95e537
+Snowman0:{angryWobble=10} WHAT AM I?!?!?!?! #line:1be364
+Adina: [shake=.05]HELP!!![/shake] #line:53f9e8
+
+===
+title: Snowman0_A1D1.1
+tags: 
+colorID: 0
+position: -1512,-308
+---
+Adina: Are you ok? #line:05f2bb
+Snowman0: what am i #line:62089e
+Adina: You're a snowman? #line:694450
+Snowman0: i'm just water and garbage! #line:e5901d
+Adina: How are you talking? #line:d70cac
+Snowman0: i don't know what anything #line:e17c8a
+Adina: You wouldn't happen to know how to find the Forest God, would you? #line:47577a
+Snowman0: there's nothing about me that isn't forest and sky #line:ef975f
+Adina: That's like a poem. #line:73b019
+Snowman0:{angryWobble=5} WHAT AM I #line:07bfc2
+Adina: You're like a poem! #line:62d4fa
+Snowman0:{angryWobble=15} AAAAAAAAAAAAAAAGH! #line:380a71
+[[AfterFirstSnowman]]
+
+===
+title: Snowman0_A1D1.2
+tags: 
+colorID: 0
+position: -1280,-307
+---
+Adina: So you're what, a ghost? #line:89a213
+Snowman0: no ghost #line:72cb57
+Adina: Wait, you are no ghost or you have no ghost? #line:90c065
+Snowman0: what am i #line:8d7f32
+===
+title: Snowman0_A1D1.3
+tags: 
+colorID: 0
+position: -1058,-307
+---
+Adina: How's it going? #line:0058ec
+Snowman0: [speed=.1][size=.5]what is going[/all] #line:42ca9b
+Adina: Ok then. #line:e65e28
+===
+title: AfterFirstSnowman
+tags: 
+colorID: 0
+position: -1510,-73
+---
+<<showTalkingHeads>>
+Mae: This snowman is no help! #line:c03374
+Granddad: Well, if at first you don't succeed... #line:bc113a
+Mae: Kill it! And make a better one! #line:0ab266
+Granddad: Well ok, you got that partly right. #line:0f95a4
+Mae: Which part? #line:d1d3d4
+Granddad: Listen up and I'll tell you... #line:5ebf9f
+
+===
+title: CoffinWolf_A1D2
+tags: 
+colorID: 0
+position: -1096,657
+---
+<<if $skeleton_arm is 2>>
+	CoffinWolf: Please leave. You've misused the oven. #line:11ae1e
+<<elseif $skeleton_arm is 1>>
+	CoffinWolf: Hello, can I interest you in a- WHAT IS THAT? #line:7749ec
+	[[It's an arm. Goodbye now!|Leave]] #line:3f065f
+	[[I need to borrow your stove...|Stove]] #line:da790f
+<<else>>
+	[[Market]]
+<<endif>>
+
+===
+title: Stove
+tags: 
+colorID: 0
+position: -1208,898
+---
+CoffinWolf: Wait, what are you doing? #line:f133c5
+Adina: Putting this skeleton arm in your stove. #line:bc6c98
+CoffinWolf: Um, no? No you're not! #line:e251aa
+Adina: [size=.75]Ssssh.[/size] #line:337a68
+<<close>>
+<<animate Adina LNGatorPutArmInFire 1>>
+<<wait 1.25>>
+<<tell FurnaceLight to Play>>
+<<set $skeleton_arm to 2>>
+<<set $skeleton_arm_fire to 1>>
+<<wait 1.75>>
+Adina: It is done. #line:3d48be
+CoffinWolf: That is [shake=.1]messed up.[/shake] #line:df3aeb
+Adina: You're telling me. #line:bbfa84
+CoffinWolf: Please leave now. #line:b5fd12
+
+===
+title: WanderingKings_A1D2.1
+tags: 
+colorID: 0
+position: -382,141
+---
+Adina: Hello! #line:0a087b
+King: Ho there traveler! #line:94fdc0
+<<setAnimInt King look -1>>
+Advisor: Hello! #line:89c8b9
+Knight: Hrmphm #line:9e13cf
+<<setAnimInt King look 1>>
+King: What is your business here tonight? #line:e7a1ff
+[[I'm going to the Frozen Lake|KingFrozenLake1]] #line:84d6de
+[[Not much, you?|KingNotMuch]] #line:a6264f
+
+===
+title: WanderingKings_A1D2.2
+tags: 
+colorID: 0
+position: -354,859
+---
+Adina: So is this your land? #line:8f9a3f
+King: ... #line:7014f0
+<<setAnimInt King look -1>>
+Advisor:... #line:dafd93
+Knight: ...mrphrb phhrhvph... #line:a73814
+Adina: I was just saying, because you're a king and all. #line:c89da1
+<<setAnimInt King look 1>>
+King: I may be a king. #line:11bd03
+<<setAnimInt King look -1>>
+Advisor: You may be! #line:1e26c3
+King: But there are kings and there are gods. #line:889f81
+Advisor: Yes yes. #line:af870f
+Adina: Oh. #line:5baff0
+<<setAnimInt King look 1>>
+King: And as king I granted these lands to Baroness Lalopsey. #line:97e8ae
+<<setAnimInt King look -1>>
+Advisor: And she sure did die! #line:fb4055
+King: Sure did! #line:5272f9
+Advisor: Lalopsey Manor's gone all weird now! #line:97707b
+King: Sure has! #line:86d07d
+Advisor: Last spring travelers saw this pale thing come out of the bog there and- #line:c55e8d
+King: Well, let's head out! Miles to go, men. Miles to go. #line:6a329e
+<<setAnimInt King look 1>>
+
+
+===
+title: SkeletonArm
+tags: 
+colorID: 0
+position: 282,-800
+---
+<<if $need_skeleton_arm is 0>>
+	<<if $try_pickup_skeleton_arm is 0>>
+		Adina: Oh ok. That's a good omen I'm sure. #line:08511b
+		Adina: ... #line:151e4f
+		Adina: Crap almighty. #line:827c53
+		<<set $try_pickup_skeleton_arm to 1>>
+	<<else>>
+		Adina: Hey skeleton. #line:4b532a
+	<<endif>>
+<<elseif $need_skeleton_arm is 1>>
+	[[PickupSkeletonArm]]
+<<endif>>
+
+===
+title: PickupSkeletonArm
+tags: 
+colorID: 0
+position: 280,-541
+---
+Adina: Well, I need an arm. #line:80834f
+Adina: And that's an arm. #line:049009
+Adina: If I'm lucky, this skeleton is a criminal. #line:4c5955
+Adina: Was. #line:93906b
+Adina: ... #line:d4c5e0
+Adina: This used to be alive. #line:d7821f
+Adina: Now I just need to find a fire to stick it in. #line:f65071
+<<close>>
+<<animationTrigger Adina Pickup>>
+<<wait .5>>
+<<set $skeleton_arm to 1>>
+Adina: [size=.65]OH GOD.[/size] #line:adccdb
+Adina: It's cold. #line:5c956e
+
+===
+title: Leave
+tags: 
+colorID: 0
+position: -958,898
+---
+CoffinWolf: Goodbye! #line:221fa4
+===
+title: Snowacle_A1D1.1
+tags: 
+colorID: 0
+position: -1021,-1003
+---
+Adina: Hello? #line:d46f3b
+Snowacle: Hello. #line:85db87
+Adina: Are you ok? #line:696f54
+Snowacle: Well, just before now I was dead. #line:423995
+Snowacle: And I'm still dead. So there's that. #line:eeaaaf
+Adina: Oh. Sorry. #line:36b08b
+Snowacle: Maybe this means I can leave these woods... #line:d011d7
+Snowacle: and go wherever dead people go? #line:7668bd
+Adina: Is that how that works? #line:c8bc0c
+Snowacle: I think I was in some sort of a daze. #line:d30d02
+Snowacle: And this woke me up. #line:33cd16
+Adina: If you want to return the favor, I need some help. #line:32ca9b
+Snowacle: I can tell your fortune, I can contact the dead... #line:d7ca77
+Adina: I need to find the Forest God. I need to get through the woods. #line:a5600f
+Snowacle: Oh, well the first part's easy enough. #line:e3fa96
+Snowacle: Find the shrine and say North's Canticle. #line:69878b
+<<set $shrine_info to 1>>
+[[What is that?|SnowacleCanticle]] #line:1e8c97
+[[I wasn't a churchgoer...{width=8}|Churchgoer]] #line:8337fe
+
+===
+title: Shrine_A1D1
+tags: 
+colorID: 0
+position: 340,135
+---
+<<if $shrine_info is 0>>
+	<<if $talked_to_shrine_mouse is 0>>
+		ShrineMouse: Pilgrim! #line:cf9f32
+		Adina: Hello, you! #line:1f961a
+		ShrineMouse: I'm Father Patience Forget-Not-God. #line:95c2b3
+		Adina: WOW. That is a name. #line:d283b0
+		ShrineMouse: It was gifted me when I was ordained. #line:025a8b
+		Adina: What was your name before? #line:5ad324
+		ShrineMouse: Butchie Mudd. #line:0f16ef
+		Adina: Ok, that's a change. #line:6b84e6
+		ShrineMouse: Do you wish to say a prayer at this #line:8ea43d
+		ShrineMouse: the shrine of Saint Orolony #line:13a7a8
+		ShrineMouse: who, beloved of the Forest God, #line:f3d7c0
+		ShrineMouse: was shown the way to the chasm and the red bell #line:3a3ae3
+		ShrineMouse: and into his holy mountain? #line:27d652
+		Adina: You said that all without taking a breath! #line:dad2a5
+		<<set $talked_to_shrine_mouse to 1>>
+	<<endif>>
+	[[ShrineWantToPrayQuestion]]
+<<elseif $shrine_info is 1>>
+	[[ShrinePass]]
+<<elseif $shrine_info is 2>>
+	[[ShrinePassQuick]]
+<<endif>>
+
+===
+title: Shrine_A1D2
+tags: 
+colorID: 0
+position: 850,-111
+---
+[[ShrinePassQuick]]
+===
+title: Shrine_A1D3
+tags: 
+colorID: 0
+position: 1109,-121
+---
+[[ShrinePassQuick]]
+===
+title: Snowacle_A1D1.2
+tags: 
+colorID: 0
+position: -779,-1005
+---
+Adina: Who are you? #line:52f1a0
+Adina: I mean, are you a ghost? #line:39904c
+Snowacle: I don't know? #line:c37973
+Adina: Who were you before? #line:7564cd
+Snowacle: I was a fortune teller, and a medium. #line:e903a4
+Adina: A real one? #line:5536e6
+Snowacle: Real enough. #line:9825ce
+Adina: See, I found this thing in a tree, and then I knew I had to build you here, somehow. #line:8eae02
+Snowacle: In seances we would often hold an object of importance to the deceased. #line:9a20c7
+Adina: Did it work? #line:91e85e
+Snowacle: Well enough. #line:4c6242
+Snowacle: As for why here, well... #line:af6f51
+Snowacle: Sometimes a grave is the best place to contact the dead. #line:178613
+Adina: Oh god is this your grave? #line:4db8b4
+Snowacle: Not mine. It appears to be someone's final resting place. #line:2cc592
+Adina: Who buries people way out here? #line:a6f946
+Snowacle: The snow. #line:af95d5
+===
+title: Snowacle_A1D2.1
+tags: 
+colorID: 0
+position: -1335,-1382
+---
+<<if $skeleton_arm is 2>>
+	Snowacle: Whoa, keep that away. I don't want to melt. #line:6b3e55
+<<elseif $skeleton_arm is 1>>
+	<<if $snowacle_saw_skeleton_arm is 0>>
+		Snowacle: Alright, you've got a frozen arm. #line:b8f588
+		Snowacle: From somewhere. #line:731872
+		Snowacle: Or someone. #line:de2da8
+		Snowacle: I'm not going to ask. #line:3cff53
+		<<set $snowacle_saw_skeleton_arm += 1>>
+	<<else>>
+		Adina: Now I have to set this arm on fire. #line:8c5cf0
+		Snowacle: Thanks for the update. #line:01eb8a
+	<<endif>>
+<<elseif $need_skeleton_arm is 1 and $skeleton_arm is 0 and $skeleton_arm_done is 0>>
+	[[SnowacleSearchingForSkeletonArm]]
+<<elseif $snowacle_warning is 0>>
+	[[SnowacleHuncher]]
+<<else>>
+	Snowacle: Good luck! #line:8380fc
+<<endif>>
+
+===
+title: Snowacle_A1D3.3
+tags: 
+colorID: 0
+position: -47,-1377
+---
+Adina: Hey there... you ok? #line:0e9c30
+Adina: I didn't have a chance to ask about you #line:3322a6
+Adina: and how you got here. #line:8325c8
+Snowacle: I think I'm gone... #line:a80c4d
+Snowacle: I can hardly hear you... #line:bc6a2f
+Adina: Oh. #line:8290fd
+Snowacle: Yes. #line:8e8129
+Adina: Thank you so much. #line:ab36af
+Adina: You saved my life, fortune-teller. #line:58fa70
+Snowacle: I was a real one, you know. #line:dfd8fb
+Snowacle: it was real to me #line:9e3a2b
+Snowacle: even if #line:e1e69c
+Snowacle: my sister, in the walls #line:6e95c8
+Snowacle: ... #line:8083e6
+Adina: Hello? #line:c955b0
+<<close>>
+<<wait 2>>
+Adina: Goodbye. #line:eb122f
+
+===
+title: NeedKeyItem
+tags: 
+colorID: 0
+position: -1978,-545
+---
+Adina: Hm. I think I need something special for this one. #line:40f130
+Adina: Otherwise I'm just bringing more screaming forest ice-babies into the world. #line:857553
+Adina: And that's no good. #line:03da55
+
+===
+title: Snowman0_A1D2.1
+tags: 
+colorID: 0
+position: -1280,-74
+---
+Adina: Hey Sticky! #line:86216d
+Snowman0: what is sticky #line:52eb3a
+Adina: I named you Sticky. #line:434d10
+Adina: Because of- #line:c15e3b
+Snowman0: stick-y #line:3ebf53
+Adina: -the sticks. #line:e7aaf7
+Snowman0: STICK-y. #line:6411d2
+Adina: yep. #line:88996b
+Snowman0: why is stick-y #line:81455a
+===
+title: Snowman0_A1D3
+tags: 
+colorID: 0
+position: -1273,161
+---
+Snowman0: ... #line:b4bddf
+Adina: Are you gone already, Sticky? #line:fca4fc
+Snowman0: ... #line:15f24c
+Adina: I'm sorry, Sticky. #line:ad335b
+
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: -1738,-544
+---
+<<wait 1>>
+<<if $snowman0HasFace is 1 and $snowman0Intro is 0>>
+	[[FirstSnowmanBuilt]]
+<<endif>>
+
+
+===
+title: SnowacleCanticle
+tags: 
+colorID: 0
+position: -904,-769
+---
+Snowacle: "In Their Wings, In Their Trees" #line:c18de8
+Snowacle: "All things die, Be at peace!" #line:f1e3d1
+Snowacle: "Cease all care, They are coming." #line:da6774
+Snowacle: "God of The forest, carry us." #line:22143f
+Adina: Where did you learn that? #line:150006
+Snowacle: We only said it in church twice a week #line:e6a1b4
+Snowacle: and also five times a day. #line:ddb697
+Snowacle: Didn't you? #line:0f5761
+Adina: I'm not from around here. #line:bde119
+Snowacle: Once I wasn't either. #line:0438a1
+Snowacle: Listen, I still have some remnant of my sensitivities. #line:be8ba2
+Adina: What? #line:6ddfb8
+Snowacle: If you're lost, I can try to point you in the right direction. #line:8e8b67
+Adina: Thanks! #line:c512a9
+
+===
+title: Churchgoer
+tags: 
+colorID: 0
+position: -1137,-771
+---
+Snowacle: Oh you little heathen! #line:41000c
+Snowacle: A girl after my own heart. Eh heh heh. #line:eaba6f
+Adina: Do you know it? #line:ef9fd8
+Snowacle: "In Their Wings, In Their Trees" #line:880643
+Snowacle: "All things die, Be at peace!" #line:9d3c78
+Snowacle: "Cease all care, They are coming." #line:b789ff
+Snowacle: "God of The forest, carry us." #line:88829b
+Adina: And people say that? #line:7bca1d
+Snowacle: Several times a day in this country. #line:3095c1
+Adina: Hm. #line:cb4f1f
+Snowacle: Listen, I still have some remnant of my sensitivities. #line:71c46b
+Adina: What? #line:446674
+Snowacle: If you're lost, I can try to point you in the right direction. #line:c06156
+Adina: Thanks! #line:58585c
+
+===
+title: KingNotMuch
+tags: 
+colorID: 0
+position: -495,387
+---
+King: We're doing much! #line:f9f792
+<<setAnimInt King look -1>>
+Advisor: Come with us, we can do much! #line:0d3bcf
+Knight: ...mrph phr phrmpt... #line:f678d0
+King: Right you are, Stevenson! She can't come with us! #line:5c5573
+Advisor: You're right! Ha ha ha ha! #line:c9e6ae
+Adina: Big plans, then? #line:f106cf
+<<setAnimInt King look 1>>
+King: We have our agenda for an audience with the Forest God! #line:2058b3
+<<setAnimInt King look -1>>
+Advisor: We have the [speed=.75][color=aaaaaa]severed arm of a criminal[/all] and [speed=.75][color=aaaaaa]fire to light it![/all] #line:7cb1f7
+<<set $need_skeleton_arm to 1>>
+[[What did you say you were going to set on fire?|WhatFire]] #line:a61c71
+[[Well, that sounds- WAIT, an arm?!|WhatFire]] #line:a74170
+
+===
+title: KingFrozenLake1
+tags: 
+colorID: 0
+position: -260,384
+---
+King: Well, that's a coincidence! So are we! #line:d61229
+<<setAnimInt King look -1>>
+Advisor: Blessed meeting! #line:5a4f7b
+Adina: Do you know the way through the woods? #line:a7bebc
+<<setAnimInt King look 1>>
+King: We surely do! We are bound for an audience with the Forest God! #line:f482f4
+<<setAnimInt King look -1>>
+Advisor: And after that we have an arm, [speed=.75][color=aaaaaa]and fire to light it![/all] #line:c84054
+<<set $need_skeleton_arm to 1>>
+<<setAnimInt King look 1>>
+[[What did you say you were going to set on fire?|WhatFire]] #line:4eb298
+[[Are you going to find The Hunch... wait, an arm? What?|WhatFire]] #line:84c16d
+
+===
+title: WhatFire
+tags: 
+colorID: 0
+position: -358,638
+---
+King: The [speed=.75][color=aaaaaa]arm of a dead criminal![/all] #line:537e82
+<<setAnimInt King look -1>>
+Advisor: Donated, of course. #line:b033ec
+Knight: ...hrmmphhr... #line:22984d
+King: Ha ha ha! #line:2311c6
+Advisor: Oh Stevenson. #line:9ddefb
+<<setAnimInt King look 1>>
+Adina: And you're going to [speed=.75][color=aaaaaa]set it on fire?[/all] #line:91a582
+King: Yes! #line:2cb79b
+<<setAnimInt King look -1>>
+Advisor: And it will light the way to the Huncher's Hollow! #line:5f6884
+Adina: Ugh this forest. #line:5e684c
+<<setAnimInt King look 1>>
+Adina: Well, best of luck! #line:24b0c0
+<<setAnimInt King look -1>>
+King: Best of luck to everyone! #line:45c3cb
+<<setAnimInt King look 1>>
+Advisor: Even you! We have enough luck to go around #line:c14e0f
+===
+title: Market
+tags: 
+colorID: 0
+position: -848,659
+---
+<<if $market is 0>>
+	CoffinWolf: Back to buy a coffin? #line:0f1854
+	Adina: No, just getting warm. #line:b04fd4
+	CoffinWolf: I'm going to start charging for that. #line:d09991
+	Adina: If I don't have any money for a coffin #line:26405e
+	Adina: why would I have money standing by your stove? #line:855e3a
+	CoffinWolf: I dunno, let's ask the free market. #line:155fce
+	<<set $market to 1>>
+<<elseif $market is 1>>
+	Coffinwolf: There goes all of my heat again, right out the door. #line:b0a54a
+	Adina: Sorry. #line:0dbfd1
+	[[Leave]]
+<<endif>>
+===
+title: ShrineNo
+tags: 
+colorID: 0
+position: 592,-116
+---
+ShrineMouse: Go in the peace of the God of the Forest, my child. #line:62362f
+
+
+===
+title: PrayerClueless
+tags: 
+colorID: 0
+position: 104,137
+---
+ShrineMouse: You may recite when ready. #line:a3f90a
+[[Gracious Tree Lord, Leafy And Barked|TreeLord]] #line:9d8497
+[[Exalted Bear Enthroned Above|BearEnthroned]] #line:a4b9f6
+[[Enchanted Deer Monster, Hoofy In The Night|DeerMonster]] #line:c44e15
+===
+title: ShrinePass
+tags: 
+colorID: 0
+position: 596,400
+---
+<<fadeOutMusic 3>>
+Adina: Um... hello? #line:449dfd
+TreeCat: 'Evening. #line:485e67
+<<if $saw_shrine_mouse is 0>>
+	Adina: Hey, didn't I see you before? #line:b1f41a
+	TreeCat: Hm? #line:42ecfc
+	Adina: Outside the forest? #line:0fcb43
+	<<musicDialogueFaderOverride 1>>
+	<<tell ShrineMusic to Play>>
+	TreeCat: No. #line:93ffa6
+	Adina: I think I did. But you didn't have a hat. #line:b389c9
+	TreeCat: Couldn't be me. I do have a hat. #line:e1e329
+	Adina: Hm.  #line:468db1
+<<elseif $talked_to_shrine_mouse is 0>>
+	Adina: Wasn't there a mouse here a minute ago? #line:1e45e8
+	TreeCat: Yep. #line:943288
+	<<musicDialogueFaderOverride 1>>
+	<<tell ShrineMusic to Play>>
+	Adina: Did you eat it? #line:9dc908
+	TreeCat: No. He just gave me his hat. #line:354696
+	Adina: Oh. #line:5c1896
+<<else>>
+	Adina: Where is... #line:7b964c
+	Adina: OH MY GOD. #line:c9c134
+	Adina: YOU ATE FATHER PATIENCE FORGET-NOT-GOD?! #line:fcecef
+	<<musicDialogueFaderOverride 1>>
+	<<tell ShrineMusic to Play>>
+	TreeCat: No. He left. #line:6b7e61
+	Adina: YOU'RE WEARING HIS LITTLE HAT! #line:cc560f
+	TreeCat: He gave me his hat. #line:da94e8
+	Adina: ... #line:bb63e7
+	TreeCat: I feel so official. #line:97041c
+	Adina: I hate you. #line:f6f19b
+<<endif>>
+Treecat: You got a prayer for me, Pilgrim? #line:057897
+Adina: Wait, why do you need to hear this? #line:340f1d
+<<if $saw_shrine_mouse is 0>>
+	TreeCat: It's not for me. It's for the shrine. #line:226082
+<<else>>
+	TreeCat: It's not for me or the mouse. It's for the shrine. #line:df2325
+<<endif>>
+Adina: Hm. #line:179b0a
+TreeCat: [speed=.5][wave]Prrrrr.[/all] #line:40f2c7
+[["In Their Wings, In Their Trees"|InTheirWings]] #line:228b3e
+[[Listen, do we have to do this?|HaveToDoThis]] #line:af8578
+
+===
+title: Shrine_A1D1.2
+tags: 
+colorID: 0
+position: 587,132
+---
+<<if $shrine_info is 0>>
+	ShrineMouse: My wandering child! Are you here to say a prayer? #line:12af55
+	[[Why yes, I am!|PrayerClueless2]] #line:7dde57
+	[[No, not right now|ShrineNo]] #line:5ec3b0
+<<elseif $shrine_info is 1>>
+	[[ShrinePass]]
+<<endif>>
+===
+title: DeerMonster
+tags: 
+colorID: 0
+position: 329,666
+---
+<<setAnimInt ShrineMouse stern 1>>
+ShrineMouse: D... #line:5940fe
+ShrineMouse: Deer... #line:49471b
+ShrineMouse: MONSTER?!?!?! #line:7ac381
+Adina: Ok I'll admit that one was a total guess. #line:1c7b87
+ShrineMouse: You clearly have not known our Forest God. #line:4e9d09
+Adina: Listen, I'm not from around here, and- #line:90b119
+ShrineMouse: GO! Return when you have been granted knowledge. #line:923a02
+<<setAnimInt ShrineMouse stern 0>>
+
+===
+title: BearEnthroned
+tags: 
+colorID: 0
+position: 102,400
+---
+<<setAnimInt ShrineMouse stern 1>>
+ShrineMouse: BEAR? #line:df6ae6
+Adina: I figured the forest god was maybe a giant bear? #line:c88aa3
+ShrineMouse: The Forest God is no mere bear. #line:9209ec
+ShrineMouse: The Forest God is no bear at all. #line:3c6709
+Adina: Oh. #line:887755
+ShrineMouse: GO! Return when you have been granted knowledge. #line:5017a3
+<<setAnimInt ShrineMouse stern 0>>
+
+===
+title: TreeLord
+tags: 
+colorID: 0
+position: 99,665
+---
+<<setAnimInt ShrineMouse stern 1>>
+ShrineMouse: The Forest God is no tree!!!! #line:b94738
+Adina: I thought that, you know, because of the forest... #line:350efd
+ShrineMouse: No tree can be a god! #line:43fe9c
+Adina: I'm not following this line of logic. #line:65493f
+Adina: So what *can* be a god? #line:387aa8
+ShrineMouse: Not a tree, obviously! #line:d12e87
+ShrineMouse: GO! Return when you have been granted knowledge. #line:ca250d
+<<setAnimInt ShrineMouse stern 0>>
+
+===
+title: PrayerClueless2
+tags: 
+colorID: 0
+position: 335,401
+---
+ShrineMouse: You may recite when ready. #line:08ea2e
+[[Wolf! Wolf! Thrice Wolf!|WolfWolfWolf]] #line:ad99e0
+[[Sweetest Baby Moose, Oh Gentle Moose|SweetBabyMoose]] #line:516ccb
+[[Wooly Cat Of The North, Hear My Petition|WoolyCat]] #line:ac7b82
+===
+title: WolfWolfWolf
+tags: 
+colorID: 0
+position: 573,668
+---
+<<setAnimInt ShrineMouse stern 1>>
+ShrineMouse: Wolf? Wolf? Wolf? #line:0eddde
+Adina: Wrong? #line:ed6ac1
+ShrineMouse: Have you ever prayed before? #line:b4dc80
+Adina: Kinda? #line:9beebe
+ShrineMouse: GO! Return when you have been granted knowledge. #line:a0f061
+<<setAnimInt ShrineMouse stern 0>>
+
+===
+title: SweetBabyMoose
+tags: 
+colorID: 0
+position: 828,664
+---
+<<setAnimInt ShrineMouse stern 1>>
+ShrineMouse: I'm not sure where to even begin. #line:240272
+Adina: Please don't judge my personal faith. #line:6ec070
+ShrineMouse: GO! Return when you have been granted knowledge. #line:818332
+<<setAnimInt ShrineMouse stern 0>>
+
+===
+title: WoolyCat
+tags: 
+colorID: 0
+position: 1066,664
+---
+<<setAnimInt ShrineMouse stern 1>>
+ShrineMouse: THE FOREST GOD IS NO FILTHY CAT! #line:1feab1
+Adina: Oh no? #line:d682e6
+ShrineMouse: GO! Return when you have been granted knowledge. #line:02d798
+<<setAnimInt ShrineMouse stern 0>>
+
+===
+title: Shrine_A1D1.3
+tags: 
+colorID: 0
+position: 827,137
+---
+<<if $shrine_info is 0>>
+	ShrineMouse: My child, have you learned yet how to pray? #line:324f31
+	[[...no...|ShrineNo]] #line:4efdb3
+<<elseif $shrine_info is 1>>
+	[[ShrinePass]]
+<<endif>>
+===
+title: ShrineWarp
+tags: 
+colorID: 0
+position: 1769,398
+---
+<<musicDialogueFaderOverride 0>>
+<<playOneShot event:/lost_constellation/teleport Adina>>
+<<fadeOut .5 1 1 1>>
+<<wait 1>>
+<<set $shrine_info to 2>>
+<<if $mae_gd_lostwoods_fgoutside is 0 and $day is 1>>
+	<<fadeColor 1 0 0 0>>
+	<<wait 1>>
+	<<fadeOutMusic 8>>
+	<<showTalkingHeads>>
+	Mae: So those snowthings are ghosts? #line:e07167
+	Granddad: Well, they have ghosts in them. #line:1ce158
+	Mae: Are there ghosts? #line:3ba4f5
+	Granddad: What do you think? #line:485ae6
+	Mae: No, what do you think? #line:dbf900
+	Granddad: Well, I think sometimes people stay with you long after they're gone. #line:ce7979
+	Mae: Is grandma a ghost now? #line:64e7af
+	Granddad: Ha ha ha. On the best days, yes. #line:c9118e
+	Mae: I don't want you to ever be a ghost. #line:ab97c7
+	Granddad: Oh Mae, I'll be around to see your own kids. #line:d248de
+	Mae: No you won't. #line:25dbed
+	Granddad: Well Mae, that's not a very nice thing to say. #line:e28c0c
+	Mae: No, I mean I don't ever want kids ever. #line:fcf42a
+	Mae: I want two big wooly barn cats and an old hound dog. #line:bd41ff
+	Mae: and we'll all howl at the moon! #line:770acf
+	Granddad: Never change, Mae. #line:4180cd
+	<<set $mae_gd_lostwoods_fgoutside to 1>>
+	<<hideTalkingHeads>>
+	<<wait 1>>
+<<endif>>
+<<scene LN2_FG_Outside>>
+
+===
+title: InTheirWings
+tags: 
+colorID: 0
+position: 827,402
+---
+TreeCat: Continue. #line:b3b949
+[["All things die, Be at peace!"|AllThingsDie]] #line:55d982
+[[Is the Forest God only God when I'm in the Forest?|OnlyGod]] #line:aba71d
+===
+title: HaveToDoThis
+tags: 
+colorID: 0
+position: 1065,137
+---
+TreeCat: You need to see the Forest God. #line:f7da4f
+Adina: Yes. #line:ce47fe
+TreeCat: This is how you see the Forest God. #line:0d9da8
+TreeCat: Or try to, at least. #line:613248
+Adina: Try to? #line:dbd498
+TreeCat: That old thing doesn't see just anyone anymore. #line:f64b43
+TreeCat: Those days are gone. #line:3e7a85
+Adina: So I just need to say the words? #line:a48830
+TreeCat: No one knows what you mean, they just know what you say. #line:23497b
+Adina: Fine, then. #line:bae3d6
+Adina: "In Their Wings, In Their Trees" #line:688ca4
+[[InTheirWings]]
+
+===
+title: OnlyGod
+tags: 
+colorID: 0
+position: 1296,141
+---
+TreeCat: This forest stretches from the hills below #line:7994bd
+TreeCat: over the mountains #line:b66fa0
+TreeCat: and up to where they have to build a bonfire #line:02bfcb
+TreeCat: to thaw the earth enough #line:f500e9
+TreeCat: to bury the dead. #line:84d7d8
+Adina: Wow. #line:1b9950
+TreeCat: God of this forest is god enough. #line:958992
+Adina: Noted. #line:81ca27
+Adina: ok... um... #line:2cf12d
+Adina: "All things die, Be at peace!" #line:df2067
+[[AllThingsDie]]
+
+===
+title: AllThingsDie
+tags: 
+colorID: 0
+position: 1066,398
+---
+TreeCat: Continue. #line:ec851b
+[["Cease all care, They are coming."|CeaseAllCare]] #line:e369f4
+[[Why are you helping me?|HelpingMe]] #line:634617
+===
+title: CeaseAllCare
+tags: 
+colorID: 0
+position: 1298,399
+---
+TreeCat: Continue. #line:1b21e2
+[["God of The forest, carry us."|CarryUs]] #line:8f0093
+[[Should I be feeling something?|FeelingSomething]] #line:b962b1
+===
+title: HelpingMe
+tags: 
+colorID: 0
+position: 1527,142
+---
+TreeCat: Who says I'm helping you? #line:a3fc37
+TreeCat: I'm just sitting here. #line:66c073
+TreeCat: With my hat. #line:f7b5a1
+Adina:... #line:400265
+TreeCat: Go on? #line:6c3168
+Adina: "Cease all care, They are coming." #line:80a963
+[[CeaseAllCare]]
+
+===
+title: CarryUs
+tags: 
+colorID: 0
+position: 1533,402
+---
+TreeCat:Very nice. #line:57307a
+Treecat:Goodbye. #line:3a74e1
+[[ShrineWarp]]
+
+===
+title: FeelingSomething
+tags: 
+colorID: 0
+position: 1766,143
+---
+TreeCat: Something? #line:80b5b5
+Adina: Like, is this gonna do something? #line:d2d3be
+TreeCat: You don't feel a great sense of awe and wonder #line:bbaf0f
+TreeCat: and connection to something larger than yourself? #line:5fd05d
+Adina: No. #line:520fa2
+TreeCat: Your loss. #line:9d7e7b
+Adina: I feel that when I look at the stars. #line:29f148
+Adina: Back in the world, stars are kind of my job. #line:419e34
+TreeCat: We're still in the world. Still the same stars too. #line:0e2db8
+Adina: Ok, let's finish this. #line:430b23
+TreeCat: Let's. #line:58b421
+Adina: "God of The forest, carry us." #line:6f6c4d
+[[CarryUs]]
+===
+title: Snowman0_A1D2.2
+tags: 
+colorID: 0
+position: -1055,-76
+---
+Snowman0: why is stick-y #line:dfcc40
+===
+title: WanderingKings_A1D2.3
+tags: 
+colorID: 0
+position: -349,1079
+---
+King: Beautiful forest, don't you think? #line:07f340
+
+===
+title: Snowacle_A1D1.3
+tags: 
+colorID: 0
+position: -537,-1004
+---
+Adina: Not to harp on this, and thank you again for your help, #line:386a27
+Adina: but do you know whose body is under you? #line:5b717e
+Snowacle: No idea. I don't think it matters. #line:abf73b
+Snowacle: Just a connection to wherever. #line:31ef21
+Adina: Were you... um... somewhere else until now? #line:28e854
+Snowacle: I don't know. I don't think so. #line:cc86b6
+Snowacle: You don't even seem real. #line:0b5534
+Snowacle: This is like a waking dream. #line:eade09
+Adina: This is weird. #line:aa5791
+Snowacle: Yes it is. #line:461065
+
+===
+title: Snowman0_A1D2.3
+tags: 
+colorID: 0
+position: -831,-75
+---
+Adina: Ok, so I can't just take you apart, but #line:4cd405
+Adina: are you in pain? #line:3ce891
+Adina: You just seem so sad, Sticky. #line:9a7e4d
+Snowman0: [speed=.5][color=aaaaaa][size=.5]i am nothing[/all] #line:3dc7bd
+Adina: See, I don't know how to interpret that? #line:2b93da
+Adina: Like, are you depressed or are you literally saying you are sticks and ice? #line:7ae170
+Snowman0: [speed=.5][color=aaaaaa][size=.5]i am sticks and ice[/all] #line:fc5b3c
+Adina: ... #line:f8eb59
+Adina: Yeah, I still got nothing. I'll be back, Sticky! #line:5f3f25
+Snowman0: [size=1.2]stick-y... be back...[/all] #line:c84aea
+Adina: That's the spirit, Sticky! #line:744b34
+===
+title: Snowman0_A1D2.4
+tags: 
+colorID: 0
+position: -596,-78
+---
+Snowman0: stick-y-y-y-y #line:b20419
+Adina: You sure are! #line:5fea40
+===
+title: CoffinWolf_A1D3
+tags: 
+colorID: 0
+position: -1009,387
+---
+Adina: You're a fraud! #line:35b935
+CoffinWolf: Why hello! Nice of you to stop by! #line:2fba85
+Adina: There are frozen dead people all over these woods! #line:8f72b2
+Adina: I've talked to half a dozen of them tonight alone! #line:b52f1e
+Adina: Either no one takes you up on this coffin business #line:aae6e7
+Adina: Or you never follow through! #line:d53c3b
+Adina: So which is it?! #line:203af4
+Adina: Huh?! #line:c26dc1
+CoffinWolf: You talked to ghosts? #line:1f9446
+Adina: Yeah! A whole bunch! #line:d99670
+CoffinWolf: I think you got lost and cold and started talking to the snow. #line:9c08f6
+Adina: No! I've been all the way from the Forest God's mountain #line:2e564c
+Adina: to [shake=.01][color=aaaaaa]The Huncher's Hollow[/all] for god's sake. #line:9c4422
+CoffinWolf: And yet here you are, back at my cabin, not more than an hour after you last left. #line:3a4246
+Adina: ... #line:57c10f
+CoffinWolf: Letting the heat out and the cold in. #line:8aa9c4
+CoffinWolf: Busy night for you, eh? #line:2f1fac
+Adina: Oh, go to hell. #line:95d7ab
+CoffinWolf: Ha ha ha. #line:287c2c
+CoffinWolf: Hell's warm at least. #line:759eaa
+CoffinWolf: Goodnight. #line:12fc57
+<<set $kicked_out_of_coffin_house to 1>>
+
+===
+title: ShrineWantToPrayQuestion
+tags: 
+colorID: 0
+position: 101,-100
+---
+ShrineMouse: You want to pray or not? #line:152711
+[[Why yes, I do!|PrayerClueless]] #line:03002d
+[[No, not right now|ShrineNo]] #line:ec298b
+===
+title: ShrinePassQuick
+tags: 
+colorID: 0
+position: 350,-284
+---
+Adina: "In Their Wings, In Their Trees" #line:160a59
+Adina: "All things die, Be at peace!" #line:934c47
+Adina: "Cease all care, They are coming." #line:46afe6
+Adina: "God of The forest, carry us." #line:5fc8c7
+[[ShrineWarp]]
+===
+title: HuncherKidLW
+tags: 
+colorID: 0
+position: -199,-514
+---
+<<flipTo Adina HuncherKidLW>>
+Adina: Kid? #line:102d27
+HuncherKidLW: She's gone. #line:178156
+HuncherKidLW: She just left. #line:93a80c
+Adina: Just now? #line:86660d
+HuncherKidLW: All I know is that sometime after she left #line:fb873e
+HuncherKidLW: something happened. #line:763e06
+HuncherKidLW: She stopped being what she was. #line:02349c
+HuncherKidLW: I don't know if she died, or... #line:9975a1
+HuncherKidLW: but something is happening to me. #line:175797
+Adina: Can't you just go back home? #line:606e4d
+HuncherKidLW: Child, I am home. #line:15a1ce
+Adina: Oh. #line:8a1c9d
+HuncherKidLW: But I am going to visit where I came from. #line:83a2a4
+Adina: That's good! #line:2d3fbe
+HuncherKidLW: No. No, you don't understand. #line:635220
+HuncherKidLW: I used to hope no one who knew I was gone would come looking for me. #line:fe7557
+HuncherKidLW: But now I'm going to go looking for them. #line:0f7170
+HuncherKidLW: The townsfolk will weep when they see what I've done to them. #line:8f4fb8
+HuncherKidLW: And as they go into the ground, I will dig them up #line:e6d646
+HuncherKidLW: I will place them in the beds of those who loved them. #line:c218f5
+HuncherKidLW: And people will look at that ruin of a town #line:a12a4a
+HuncherKidLW: and say it is haunted. #line:d49560
+Adina: Oh, Kid, listen to me- #line:992b3d
+HuncherKidLW: Oh please, child. #line:de7388
+HuncherKidLW: Until an hour ago I was younger than you. But now I am far, far older. #line:8987ec
+HuncherKidLW: You were kind to me, and I will give you this kindness in return: #line:ea4b96
+HuncherKidLW: We won't meet again. #line:22bcdd
+<<spawn BAMF HuncherKidBAMF>>
+<<hide HuncherKidLW>>
+<<set $final_huncher_kid to 1>>
+===
+title: SnowmanBuildSpot.1
+tags: 
+colorID: 0
+position: -2306,-553
+---
+Adina: Hmm what's this? #line:1a9374
+Adina: Looks like a good spot for a snowman... #line:8c7285
+===
+title: Snowacle_A1D1.4
+tags: 
+colorID: 0
+position: -297,-1006
+---
+<<if $godtender > 0 and $snow_bridge is 0>>
+	<<if $snowacle_item_hint is 0>>
+		Snowacle: The trees here are weird. #line:c90592
+		Snowavle: Who knows what they've been into? #line:94dc8d
+		Snowacle: [speed=.7][wave]Look to the trees.[/all] #line:41eff4
+		<<set $snowacle_item_hint to 1>>
+	<<elseif $snowacle_item_hint is 1>>
+		Adina: You said something about the trees? #line:d98b0d
+		Adina: Sometimes I don't see anything but snow up there. #line:62a4f9
+		Snowacle: Weird snow. #line:0f671e
+		Adina: Weird snow? #line:c2151a
+		Snowacle: Weird. Snow. #line:0860e9
+		Adina: I'll check it out. #line:a7f03e
+		<<set $snowacle_item_hint to 2>>
+	<<else>>
+		Snowacle: I have seen your future. #line:a0bce4
+		Snowacle: [speed=.7][wave]It lies hidden in the branches.[/all] #line:1dcd23
+		Adina: Ok. That's helpful. #line:380daa
+		Snowacle: Bless you my ch- #line:be4b6d
+		Snowacle: Oh. You were being sarcastic. #line:73522c
+	<<endif>>
+<<else>>
+	Snowacle: ... #line:ceb15f
+<<endif>>
+
+===
+title: Snowacle_A1D3.4
+tags: 
+colorID: 0
+position: 217,-1399
+---
+Adina: ... #line:8035dd
+===
+title: CoffinWolf_A1D3_FT
+tags: 
+colorID: 0
+position: -780,389
+---
+Coffinwolf: Hello. Might I interest you in a coffin? #line:9e5f8f
+Adina: No, I'm pretty sure I'll make it through the forest alive. #line:f1fc05
+Coffinwolf: How nice! #line:e5bc98
+Coffinwolf: In that case, get out! #line:b1d4f0
+<<set $kicked_out_of_coffin_house to 1>>
+
+===
+title: Snowacle_A1D3.1
+tags: 
+colorID: 0
+position: -500,-1385
+---
+Adina: Hey! #line:048ad5
+Snowacle: Hey, you! Still alive, eh? #line:dcb81a
+Snowacle: I just saw all of the trees give a great shudder #line:86baa0
+Snowacle: like they were falling into line #line:ac7600
+Snowacle: and then you walked up. #line:8496f0
+Adina: I think the way is open to the Frozen Lake! #line:be9e7d
+Adina: What do you think about that? #line:3b97c7
+Snowacle: I think you should wrap up any business you have #line:7e5619
+Snowacle: and head east as quickly as possible! #line:b53483
+Adina: Hm. What business would I still have? #line:fcde20
+Snowacle: I wouldn't pretend to know. #line:113ba7
+
+===
+title: SnowacleHuncher
+tags: 
+colorID: 0
+position: -1093,-1382
+---
+Snowacle: Hello #line:538129
+Adina: I'm looking for the Huncher? #line:e7a128
+Snowacle: I never found her. #line:0d031c
+Snowacle: and maybe that's a good thing. #line:4e5205
+Snowacle: she is not the forest god. she does not grant passage. #line:cb91bf
+Snowacle: she is something altogether more... nihilist? Is that the word? #line:d3b1d9
+Adina: Huh. #line:b09190
+Snowacle: She's an impulse playing itself out. #line:20fdaa
+Snowacle: She isn't the first, and she won't be the last. #line:1dd8a0
+Adina: What? #line:a13d06
+Snowacle: Oh I don't know, child. I'm just talking. #line:f6146e
+Snowacle: You'll never find her hollow without something to help you #line:678132
+Snowacle: and I never found out what it was. #line:ee92d4
+Adina: thanks anyway. #line:c90923
+Snowacle: be careful. you're getting into something here. #line:8a0b4b
+<<set $snowacle_warning to 1>>
+
+===
+title: ExitLevel_A1D2
+tags: 
+colorID: 0
+position: -1573,-871
+---
+<<if $going_to_huncher is 1>>
+	<<set $going_to_huncher to 0>>
+	<<showTalkingHeads>>
+	Mae: This is a great story now. #line:e2dedc
+	Granddad: Oh, you like the spooky stuff, huh? #line:614333
+	Mae: You know I do. I hate the other stuff. #line:ca79dd
+	Granddad: Well, the other stuff is important too. Hang in there. #line:5e3dab
+	Mae: OK I GUESS #line:eb285d
+	<<hideTalkingHeads>>
+	<<wait 1>>
+<<endif>>
+
+===
+title: Snowacle_A1D3.2
+tags: 
+colorID: 0
+position: -282,-1386
+---
+Adina: I'm a bit nervous about the frozen lake. #line:f84f90
+Snowacle: Do you know the story? #line:3d0044
+Adina: Not really. #line:68be83
+Snowacle: Of how the lake was so deep #line:87e7af
+Snowacle: it went down to the grave #line:ec4d77
+Snowacle: and the dead came to the surface #line:0e21ec
+Snowacle: and spoke with the living? #line:9579f3
+Snowacle: Of how it was so black #line:54f41c
+Snowacle: that it ate the moon's reflection? #line:a4067c
+Snowacle: And how the moon, being jealous, #line:d3cf57
+Snowacle: convinced the sun to turn its back on the lake #line:43bf01
+Snowacle: so it would be forever frozen? #line:532c65
+Snowacle: That is why the dead may be found beneath the ice. #line:ab121d
+Snowacle: For they can no longer leave those waters. #line:8f813c
+Adina: Did any of that happen? #line:ca4bfa
+Snowacle: You're the one going there. #line:506c81
+Snowacle: You tell me. #line:b14851
+
+===
+title: SnowacleSearchingForSkeletonArm
+tags: 
+colorID: 0
+position: -1044,-1702
+---
+<<if $snowacle_skeleton_arm_search is 0>>
+	Snowacle: So you're looking for a severed arm... #line:250027
+	Adina: ...yes. #line:031fa0
+	Snowacle: And then you're going to have to light it on fire? #line:ac8403
+	Adina: ...yes. #line:edcdfe
+	Snowacle: I'm kind of glad that I'm completely unable to help you with that. #line:d0fe5b
+	<<set $snowacle_skeleton_arm_search to 1>>
+<<elseif $snowacle_skeleton_arm_search is 1>>
+	Adina: I'm going to go search for this arm now. #line:c7e3f8
+	Snowacle: ... #line:1097e9
+	Snowacle: You're just stalling for time aren't you. #line:0e7667
+	Adina: [wave]*sigh*[/all] #line:7536e8
+	<<set $snowacle_skeleton_arm_search to 2>>
+<<elseif $snowacle_skeleton_arm_search is 2>>
+	Snowacle: That arm ain't gonna sever itself! #line:9827cc
+	Adina: Alright, alright! #line:e36cdd
+<<endif>>
+
+===

@@ -1,0 +1,569 @@
+title: DS1
+tags: demo2
+colorID: 0
+position: 17983,-1246
+---
+Mae: R, KASETCR, HAQVA 0DHY? #line:909994
+Chazokov: DAL-KA MHE B3FVRHYTJ. #line:0827b6
+<<close>>
+<<tell Telescope ShowConstellation>>
+<<wait 2>>
+Chazokov: AX DA. KACTNC. #line:f7c9b5
+    ->4T0 TAK0E KACTNC? #line:9422ac
+    ->T04H0. #line:e4244b
+        Chazokov: TJ1 3HAEQJ GTY NCT0PN%? #line:63a943
+        Mae: HE-A. #line:28b7f7
+Chazokov: GTA 3BE3DA U0BECTBYET 0 SEHWNHE, K0T0PAR U0CTP0NVA 6AQH% D0 HE6EC. #line:e8bdf0
+Chazokov: N 3A GT0 60FN 0TUPABNVN EE UPRMNK0M HA DH0 M0PR. #line:a5d5ab
+Mae: 0F0. ZNF0B0 BJ1QV0. #line:eb71e2
+Chazokov: H0, DASE FVY60K0 HA DHE, 0HA 0TKA3AVACJ YMNPATJ. #line:e1c648
+Mae:[shake=.01]4EPT0BCKN BEPH0.[/shake] #line:08d014
+Chazokov: 0, TJ1 T0SE HE C06NPAEQJCR YMNPATJ? #line:3830cb
+    ->DYMA%, K0FDA-HN6YDJ. #line:10b838
+    ->R HE 3HA%. #line:648731
+    ->[shake=.05]HNK0FDA.[/shake] #line:f15b59
+        Chazokov: 6XE XE XE XE! #line:125e56
+        Chazokov: 6P0CNQJ BJ130B N KACTNC, N 60FAM, BEPH0? #line:baf44b
+Chazokov: 60FN B GTNX NCT0PNRX BCEF0 VNQJ CNMB0V T0F0,  #line:fae4ed
+Chazokov: 4T0 MJ1 HE M0SEM K0HTP0VNP0BATJ. #line:1aefe0
+Chazokov: HAUPNMEP, U0T0UJ1, PAK N BCE TAK0E. #line:d5f55f
+Mae: R 0TKA3J1BA%CJ BEPNTJ B HNX. #line:696e3a
+Chazokov: EWE 6J1. #line:d6e440
+<<if $found_ds_1 is 1 and $found_ds_2 is 1>>
+    [[FoundBothForDay1]]
+<<endif>>
+===
+title: DS2
+tags: demo2
+colorID: 0
+position: 18286,-1252
+---
+Mae: HAQVA 0DHY! #line:5da86e
+Chazokov: DAL-KA MHE B3FVRHYTJ. #line:9d2464
+<<close>>
+<<tell Telescope ShowConstellation>>
+<<wait 2>>
+Chazokov: AX DA. D0P Y6NLOA. #line:7aced8
+Mae: VADH0, B0T GT0 NHTEPECH0. #line:b91366
+Chazokov: D0P UP0QEV MNM0 UP0OECCNN K0P0VR 6EPHA. #line:fc471b
+Chazokov: D0P 6J1V TNX N M0V4AVNB, N K0P0VJ 3ATANV HA HEF0 06NDY. #line:344272
+    ->U04EMY? #line:735ceb
+        Chazokov: 3HATJ B006WE CTPAHHAR. #line:7ae9cd
+    ->60SE4KN. #line:e6c552
+Mae: N 4T0 UP0N30QV0? #line:ac93c3
+Chazokov: 6EPH 0CK0P6VRV D0PA, EF0 CEMJ%, EF0 CEV0 N T.D. #line:27f339
+Chazokov: U0T0M, 0H 0UYCTNVCR D0 0CK06VEHNR EF0 KYPNO. #line:c4d6a6
+    ->4EPT. #line:905377
+    ->KYPNOJ1 BJ1FVRDRT MEP3K0. #line:cd9168
+        Mae: 3VJ1E MEP3KNE DNH03ABPJ1-YP0DJ1. #line:a19dc0
+        Mae: U0BJ1KVEBJ1BALTE DPYF DPYFY FVA3A! #line:a9ec9a
+        Chazokov: 0TVN4H0 U0VY4NV0CJ. #line:00173d
+        Mae: 0HN GT0F0 3ACVYSNBA%T. #line:a029ba
+Chazokov: CHA4AVA D0P Y6NV KYPNO 6EPHA. #line:80c609
+Chazokov: 3ATEM EF0 P0D0B0E CEV0 #line:b42663
+Chazokov: 3ATEM EF0 CEMJ% #line:056f4c
+Mae: 06AVDETJ. #line:8fb487
+Chazokov: A K0FDA 0H UPNQEV K 6EPHY, #line:c33a1b
+Chazokov: K0P0VJ M0V4AV. #line:828164
+Mae: R CDEVA% TATYNP0BKY C GTNM UAPHEM. #line:15e138
+Chazokov: D0P, U0-TB0EMY, FEP0L? #line:b04272
+    ->0UPEDEVEHH0. #line:98592b
+    ->R HE 3HA% #line:74c743
+        Mae: H0 GT0 N HE BASH0, MHE KASETCR. #line:f40d5c
+Mae: EMY HABEPHRKA PAHJQE F0B0PNVN, 4T0 0H UYCT0E MECT0 #line:4fc565
+Mae: NCT0PNR BP0DE GT0L 3BY4NT HN4EF0 TAK. #line:272b5a
+Chazokov: HY, GT0 HE BJ1MJ1QVEHHAR NCT0PNR N HACT0RWNE V%DN U0FN6VN #line:314376
+Chazokov: A TE6E D0VSH0 6J1TJ CTJ1DH0. #line:9a2146
+Mae: CEPJE3H0? #line:f6fe47
+Chazokov: 6XE-XE-XE. #line:695572
+<<if $found_ds_1 is 1 and $found_ds_2 is 1>>
+    [[FoundBothForDay1]]
+<<endif>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 17685,-1208
+---
+<<tell AmbientSFX:telescope_flare Play>>
+<<set $did_chazokov_star_visits += 1>>
+<<if $found_all_dusk_stars>>
+    [[AllStars]]
+<<elseif $telescope_blind is 0>>
+    <<set $telescope_blind += 1>>
+    [[TelescopeBlind0]]
+<<elseif $telescope_blind is 1>>
+    <<set $telescope_blind += 1>>
+    [[TelescopeBlind1]]
+<<elseif $telescope_blind is 2>>
+    <<set $telescope_blind += 1>>
+    [[TelescopeBlind2]]
+<<endif>>
+===
+title: FoundBothForDay1
+tags: demo2
+colorID: 0
+position: 18102,-913
+---
+Chazokov: KASETCR, MJ1 YBNDEVN 06E 3BE3DJ1 CEF0DHR. #line:aa95dc
+Mae: CEPJE3H0? #line:2c70db
+Chazokov: 0HN UPNX0DRT N YX0DRT TAK 6J1CTP0. #line:b47b7d
+<<irisOut 1 wait>>
+<<scene Underhill>>
+===
+title: DS3
+tags: 
+colorID: 0
+position: 18707,-1223
+---
+Mae: HAQVA 0DHY, HAQVA, HAQVA EWE 0DHY! #line:10bdfd
+Chazokov: U0CM0TPNM. #line:5cf4b0
+<<close>>
+<<tell Telescope ShowConstellation>>
+<<wait 2>>
+Chazokov: UP0BNDEO CTEPVNHF. #line:ee849b
+Mae: KAK U0VY4NV0CJ, 4T0 R HN 0 K0M N3 HNX HE CVJ1QAVA? #line:6ffabc
+Chazokov: GX #line:8fb263
+Chazokov: K T0MY BPEMEHN, KAK 0HN 0TKPJ1VN GTN PEDKNE 3BE3DJ1, #line:701fa2
+Chazokov: BCE N3BECTHJ1E VEFEHDJ1 YSE PA306PAVN. #line:ef6044
+Mae: 0Y. #line:49f7b4
+Chazokov: GT0T CTEPVNHF - NCT0PNR 0 UEPEMEHAX B MNPE #line:f9af8b
+Chazokov: N 0 T0M, KT0 3A 60PT0M. #line:a96c7c
+    ->GT0, D0VSH0 6J1TJ, VEHTRN, XA? #line:f5ba69
+        Chazokov: HE MHE 06 GT0M CYDNTJ. #line:2f95a0
+        Chazokov: PA3BE GT0 UV0X0, 4T0 MNP HE CT0NT HA MECTE? #line:cdafd7
+        Mae: HY, DYMA%, GT0T UAPEHJ C T060L 6J1 HE C0FVACNVCR. #line:c0a7bc
+    ->HE 6J1V VN 0H UCNX0M? #line:24f162
+        Chazokov: KT0 3HAET? #line:7ec040
+        Chazokov: MJ1 4T0, BEPNM B GTN NCT0PNN? #line:407f7c
+        Mae: XM. #line:434acc
+Chazokov: B 06WEM, 0DHASDJ1 K0P0VJ BCTPETNV H0B0F0 SYVN... #line:3fda4f
+Chazokov: ACTP0H0MA. #line:29776f
+Chazokov: N 0H 06JRCHNV K0P0V% BCE UP0 UVAHETJ1 N 3BE3DHJ1E #line:9f34d9
+Chazokov: 0P6NTJ1, KAK TAM BCE YCTP0EH0 N U04EMY. #line:4c10e7
+Chazokov: N T0FDA K0P0VJ BJ1QBJ1PHYV CTEPVNHFA B0H HA YVNOY #line:192de7
+Chazokov: 3A T0, 4T0 UP0BNDEO PACCKA3J1BAV EMY #line:19e606
+Chazokov: C0BCEM DPYF0E 0 3BE3DAX. #line:66a9d2
+    ->CTEPVNHF BEPNV B CB0% NCT0PN%? #line:e855b8
+        Chazokov: HABEPHRKA. #line:a87ed7
+        Mae: B0T KAK. #line:fa53e9
+    ->3BY4NT CUPABEDVNB0. #line:6058b2
+Chazokov: PA3BE MJ1 D0VSHJ1 3A60TNTJCR #line:c0797c
+Chazokov: 0 TEX, 4JN YCNVNR N TPYDJ1 #line:f6c04a
+Chazokov: NVN DASE OEVAR BCEVEHHAR #line:ec2372
+Chazokov: 0KA3AVNCJ HE Y DEV U0CVE UEPEMEH? #line:24cc6e
+Chazokov: 0HN BEDJ YCTAPEVN? #line:206642
+    ->TAK YCTP0EHA SN3HJ! #line:e04255
+        Chazokov: T0 ECTJ, TJ1 C4NTAEQJ, #line:18602a
+        Chazokov: 4T0 KT0-T0 D0VSEH F0V0DATJ #line:a6f6f5
+        Chazokov: 6E3 KPJ1QN HAD F0V0B0L, #line:b14c10
+        Chazokov: U0T0MY 4T0 60VJQE HE UPNH0CNT U0VJ3Y? #line:58145d
+        Chazokov: CNVJHJ1M MNPA CEF0? #line:94c3a6
+        Mae: HY, MNCTEP 4A30K0B, K0FDA BJ1 TAK GT0 BJ1BEPHYVN #line:d2ec8c
+    ->HET #line:b487bd
+        Chazokov: A 4T0 DEVATJ-T0? #line:a77050
+        Mae: R HE 3HA%. #line:eaa7b1
+        Mae: G-G #line:9f8c72
+        Mae: U04EMY K0P0VJ HE M0F DATJ EMY KAKY%-T0 DPYFY% PA60TY? #line:15c6fa
+        Mae: NVN, B03M0SH0, #line:ca025a
+        Mae: 0H 6J1 N 6E3 K0P0VR M0F HALTN KAK0L-T0 CU0C06, #line:df515f
+        Mae: 4T06J1 BJ1SNTJ? #line:c1c577
+        Chazokov: GT0 EWE U0D B0UP0C0M! #line:8352b3
+Chazokov: 6XE-XE-XE #line:a5fe86
+Chazokov: 3BE3DJ1! BJ1 3ACTABVRETE V%DEL DYMATJ! #line:d5167d
+<<if $found_ds_3 is 1 and $found_ds_4 is 1>>
+    [[FoundBothForDay2]]
+<<endif>>
+===
+title: DS4
+tags: 
+colorID: 0
+position: 19005,-1180
+---
+Mae: 6YM! #line:d6ac46
+Mae: 0DHY HAQVA! #line:3b3c3c
+Chazokov: A HY-KA. #line:62c5f2
+<<close>>
+<<tell Telescope ShowConstellation>>
+<<wait 2>>
+Chazokov: AFA, T04H0! CNM0HA MRTESHNOA! #line:c4ad15
+Mae: Y HEE PYSJE #line:43c6c9
+Chazokov: CNM0HA SNVA B X0P0QEM MECTE #line:d49e94
+Chazokov: H0 3A KASDJ1M X0P0QNM MECT0M CT0NT CB0R NCT0PNR YFHETEHNR #line:0950ea
+Chazokov: K0PHN FHETA HA GT0L 3EMVE UP0P0CVN FVY60K0 #line:a75caa
+Chazokov: N 3ADYQNVN BCE B0KPYF. #line:0fc6f0
+    ->GT0 6J1V0 U0GTN4H0, MNCTEP 4A30K0B #line:46e16c
+        Chazokov: CUACN60. R UP0CT0 3A4NTAV 0UNCAHNE C M06NVJH0F0. #line:39360f
+        Mae: 0Y #line:b2ac31
+        Chazokov: M0SET, Y HAC HET CBR3N, 3AT0 ECTJ BAL-ZAL! #line:0996f7
+    ->60SE4KN. #line:4fa3ca
+        Chazokov: GT0 CVY4NV0CJ 6J1CTPEE, 4EM MJ1 UPEDU0VAFAVN #line:0024f3
+Chazokov: B 06WEM, K0FDA 3AKPJ1VN FPAHNOJ1 N BBEVN K0MEHDAHTCKNL 4AC #line:0f2f5e
+Chazokov: CNM0HA N EE T0BAPNWN 0PFAHN30BAVN 3AF0B0P #line:ed6d82
+Chazokov: 0HN BV0MNVNCJ, YCTP0NVN DNBEPCN% N 0CB060DNVN 3AKV%4EHHJ1X #line:0c1fff
+Mae: MNVEHJK0. #line:666015
+Chazokov: CNM0HA 6J1VA B 4NCVE UEPBJ1X, K0F0 0U03HAVN #line:998886
+Chazokov: H0 EE HE U0LMAVN, DASE K0FDA U0RBNVNCJ U0CTEPJ1 "PA3J1CKNBAETCR" #line:91febb
+Chazokov: U0 MEPE T0F0, KAK P0CVN CVYXN 0 HEL #line:e7c5f2
+Chazokov: BCE 60VJQE N 60VJQE V%DEL M0VNV0CJ H04AMN #line:94b3c9
+Chazokov: 4T06J1 CNM0HA CTAVA NX CUACEHNEM. #line:cc484c
+    ->0HA CTAVA? #line:a4a096
+    ->CT0VJK0 DABVEHNR HA 0DH0F0 4EV0BEKA. #line:2e8636
+        Chazokov: K0HE4H0, 0HA 6J1VA HE 0DHA. #line:7a5993
+        Chazokov: 0HA 6J1VA VNQJ 4ACTN4K0L PACTYWEL CNVJ1 #line:50e2d7
+        Chazokov: H0 NMEHH0 0HA CTAVA CNMB0V0M #line:1e535e
+        Chazokov: TPYDH0 DYMATJ 0 KY4E BEWEL 0DH0BPEMEHH0 #line:810752
+        Chazokov: U0GT0MY UPNDYMJ1BATJ CNMB0VJ1 DVR HNX #line:e6b960
+        Chazokov: GT0 BASH0. #line:770135
+        Mae: KAK ONZPJ1. #line:1a7af5
+Chazokov: MJ1 HE 3HAEM, FDE U0X0P0HEHA CNM0HA. #line:21a9cd
+Mae: B0T DEPJM0-T0. R 3HAVA, 4T0 GT0 X0P0Q0 HE K0H4NTCR. #line:15772b
+Chazokov: 3AT0 MJ1 3HAEM, 4T0 K0FDA Y BCEX HAKNUEV0, #line:e99031
+Chazokov: 0HA B03FVABNVA ATAKY HA BPATA DB0POA #line:bda050
+Chazokov: A 3A HNMN NX SDAVN UYQKN. #line:1b953f
+Mae: 0 HET. #line:70c0f4
+Chazokov: MH0F0 VET CUYCTR, K0FDA GKCFYMNP0BAVN 6PATCKY% M0FNVY, #line:43c195
+Chazokov: HAQVN EE K0CTN BUEPEMEQKY C KY4EL 4YSNX #line:9da60a
+Chazokov: F0B0PRT, 4T0 0HA UP0D0VSAET SNTJ #line:09ef66
+Chazokov: B K0CTRX BJ1SNBQNX U0 BCEL CTPAHE. #line:484d6d
+Mae: 60SE. BCE TEMHEE, FPYCTHEE N CTPAQHEE. #line:4de239
+Chazokov: 6XE XE XE. #line:8348c2
+Chazokov: GT0 NCT0PNR! #line:6e3a41
+<<if $found_ds_3 is 1 and $found_ds_4 is 1>>
+    [[FoundBothForDay2]]
+<<endif>>
+===
+title: FoundBothForDay2
+tags: 
+colorID: 0
+position: 18839,-871
+---
+Chazokov: GT0 BCE HA CEF0DHR! #line:37fb7f
+Mae: KPYT0! #line:95f57b
+<<irisOut 1 wait>>
+<<scene Underhill>>
+===
+title: DS5
+tags: 
+colorID: 0
+position: 19422,-1159
+---
+Mae: HAQVA! #line:15a206
+Chazokov: DABAL B3FVRHEM! #line:bad2fc
+<<close>>
+<<tell Telescope ShowConstellation>>
+<<wait 2>>
+Chazokov: 60VJQAR 3MER. #line:f1e3dc
+Mae: "60VJQAR 3MER"? #line:b5a578
+Chazokov: DA. #line:1cf29e
+    ->4T0-T0 EWE? #line:0c75ff
+    ->0DHASDJ1, R BNDEVA 60VJQY% 3ME%. #line:4317c1
+        Chazokov: B 300UAPKE? #line:eee654
+        Mae: CKAYTAMN MJ1 X0DNVN B U0X0D #line:a68873
+        Mae: N BNDEVN, KAK 0DHA 3MER FPEVACJ HA KAMHE. #line:967da5
+        Chazokov: B0T GT0 HAX0DKA! #line:200c7e
+        Mae: R B0T DYMAVA, 4T0 PACCVA6VEHHAR 3MER GT0 PEDK0E 3PEVNWE. #line:154092
+        Mae: TAK 4T0 TAM C HEL? #line:5a4500
+Chazokov: 60VJQAR 3MER BJ1VE3VA N3 3EMVN N YCTP0NVA 60LH% MESDY DEPEBHRMN. #line:b86e12
+Mae: MESDY KAKNMN GT0? #line:89094c
+Chazokov: HY, UP0CT0 DEPEBHRMN. #line:8ebf9d
+Mae: X0P0Q0. #line:60280c
+Chazokov: N K0FDA 0HA 06BNVACJ B0KPYF HNX, #line:d8a294
+Chazokov: SNTEVN DEPEBEHJ YBNDEVN, 4T0 NX BCEX DYQNT 0DHA... #line:1ebb1a
+Mae: 60VJQAR 3MER #line:910264
+Chazokov: N 0HN C06PAVNCJ BMECTE #line:f41fcc
+Chazokov: N Y6NVN... #line:1694c2
+Mae: 60VJQY% 3ME%. #line:518f0e
+Chazokov: TJ1 6J1CTP0 BHNKAEQJ. #line:d1d843
+Mae: U04EMY 60VJQAR 3MER HAUAVA HA V%DEL? #line:9b5f0b
+Chazokov: TJ1 4T0, CNMUATN3NPYEQJ 60VJQ0L 3MEE? #line:229e7f
+Mae: 60SE, HE 3HA%, DABALTE UP0CT0 F0B0PNTJ "60VJQAR 3MER"? #line:fbe27c
+Chazokov: 60VJQAR 3MER #line:880f55
+Mae: 60VJQAR 3MER #line:9f7885
+Chazokov: 60VJQAR #line:46d18f
+Mae: 3MER #line:48ff8a
+<<if $found_ds_5 is 1 and $found_ds_6 is 1>>
+    [[FoundBothForDay3]]
+<<endif>>
+===
+title: DS6
+tags: 
+colorID: 0
+position: 19763,-1148
+---
+Mae: 06HAPYSEHA 3BE3DA, CGP. #line:366655
+Chazokov: CBEPNMCR C KAPT0L. #line:f68ab7
+<<close>>
+<<tell Telescope ShowConstellation>>
+<<wait 2>>
+Chazokov: 0, GTA TE6E U0HPABNTCR. #line:e46418
+Mae: UPABDA? #line:3b40d1
+Chazokov: 0HA UP0 MEPTBEO0B. #line:638061
+Mae: 0 DA, T0FDA R B DEVE. #line:8f2375
+Chazokov: MEDNYM FPAMEPCN #line:3113e8
+Chazokov: 0H 06WAVCR C MEPTBJ1MN? #line:5a0e97
+Mae: CEPJE3H0? #line:0e04f5
+Chazokov: KT0 3HAET. #line:de920b
+Chazokov: H0 K0FDA 0H YMEP, #line:2690d6
+Chazokov: EF0 DYX BEPHYVCR B EF0 TEV0 N BEWAV 0TTYDA. #line:4307be
+Mae: CT0LTE. GT0 S TYU0. #line:2722aa
+Chazokov: KAK GT0? #line:fb88c0
+    ->U0VY4AETCR, 0H 6J1V SNB #line:5b8062
+        Chazokov: B0T KAK! A EF0 TEV0 6J1V0 MEPTB0! #line:e537f8
+        Mae: T0 ECTJ 0H 6J1V, TNUA, 30M6N? #line:80e61a
+        Chazokov: T0VJK0 YMHJ1L, KAK N B SN3HN! #line:b98dcf
+        Chazokov: HE 0X0TNVCR 3A M03FAMN. #line:edba2d
+        Mae: TNUA, 06J14HJ1L 4EV, T0VJK0 UV0X0 UAXHYV? #line:aaa62e
+        Chazokov: U0X0SE, DA. #line:4f7f27
+        Mae: U04EMY B 4ECTJ HEF0 HA3BAVN 3BE3DY? #line:a6f91a
+        Chazokov: 6E3 U0HRTNR. #line:a1d5af
+        Mae: BUE4ATVR%WE. #line:ff0d44
+        Mae: TYU0, H0 BUE4ATVR%WE. #line:6943ee
+    ->KAK... U0D0SDNTE... 4T0? #line:e97c95
+        Chazokov: EF0 C06CTBEHHJ1L DYX 0BVADEV EF0 SE TEV0M. #line:200b99
+        Mae: GT0 SE ZAKTN4ECKN T0 SE CAM0E, 4T0 N 6J1TJ SNBJ1M. #line:1a466c
+        Chazokov: HET, 0H 6J1V MEPTB, H0 YUPABVRV #line:fa541e
+        Mae: CB0NM TEV0M. #line:109383
+        Chazokov: DA. #line:bb086b
+        Mae: 0 60SE, GT0 6PED. #line:4f6dcf
+Mae: TAK KAK0BA M0PAVJ? #line:5fb6e3
+Chazokov: M0PAVJ? #line:4d7e1b
+Mae: HY DA, 06J14H0 Y BCEL GT0L 3BE3DH0L XPEHN ECTJ M0PAVJ. #line:e9a629
+Chazokov: NH0FDA UP0CT0 CVY4A%TCR CTPAHHJ1E BEWN! #line:1eb5da
+Mae: N GT0 M0PAVJ? #line:75e0e8
+Chazokov: 6EX XEX XEX #line:7d2d41
+<<if $found_ds_5 is 1 and $found_ds_6 is 1>>
+    [[FoundBothForDay3]]
+<<endif>>
+===
+title: FoundBothForDay3
+tags: 
+colorID: 0
+position: 19519,-848
+---
+Chazokov: B0T N UAP04KA 3BE3D HA CEF0DHR! #line:2588ea
+Mae: GT0 60SECTBEHHJ1E "M0WN", MNCTEP 4A30K0B! #line:ff9c27
+Chazokov: 6EX XEX XEX #line:2f1424
+Chazokov: "M0WN". #line:7e93fc
+<<irisOut 1 wait>>
+<<scene Underhill>>
+===
+title: DS7
+tags: 
+colorID: 0
+position: 20170,-1117
+---
+Mae: KASETCR, Y MEHR ECTJ 0DHA? #line:10b624
+Chazokov: U0CM0TPNM. #line:b27058
+<<close>>
+<<tell Telescope ShowConstellation>>
+<<wait 2>>
+Chazokov: K0V-AVJUNHNCT. #line:cd8ef5
+Mae: K0V. #line:d38d03
+Mae: 3HAVA UAPHR U0 NMEHN K0YV K0FDA-T0. U0X0SNE NMEHA? #line:2a6c64
+Chazokov: 04EHJ. #line:d64f82
+Mae: HY N 4T0 TAM UP0 HEF0? #line:3fdea9
+Chazokov: K0V 6J1V C PABHNH. #line:3921ea
+Mae: N3 CEBEPHJ1X QTAT0B? #line:16aa83
+Chazokov: HEBASH0, 4T0 3A PABHNHJ1 N FDE 0HN HAX0DNVNCJ #line:07293b
+Mae: BE3DE ECTJ CB0N PABHNHJ1. #line:e5eab5
+Chazokov: GT0 BEPH0. #line:591762
+Chazokov: 0H ME4TAV 0 F0PAX. #line:9e595c
+Chazokov: N U0CBRTNV CB0% SN3HJ B0CX0SDEHN% HA HNX. #line:e6e72e
+Mae: ...N3-3A T0F0, 4T0 CAM 6J1V C PABHNH? #line:4f919d
+Chazokov: GT0 BP0DE ECTECTBEHHJ1L NHCTNHKT? #line:428e69
+Chazokov: FHATJCR 3A 4EM-T0 HEU0X0SNM HA TB0% P0DNHY? #line:3c338c
+    ->AFA #line:fa3c72
+        Mae: B CMJ1CVE, V%DN 4ACT0 UEPEE3SA%T B F0P0DA. #line:16cd7b
+        Mae: TNUA, B F0P0DE MH0F0 BCEF0, ECTJ 4EM 3AHRTJCR #line:5fba79
+        Mae: N 60VJQE V%DEL, U0X0SNX HA HNX CAMNX. #line:fd7171
+        Mae: XEPHR, K0HE4H0. HE BCE M0FYT TAK B3RTJ N BCE 6P0CNTJ. #line:2389a0
+        Chazokov: K0FDA R U0KNHYV P0DNHY, #line:d72307
+        Chazokov: 4YBCTB0BAV T0 SE CAM0E. #line:e350da
+        Chazokov: H0 R HE SAVE% 06 GT0M. #line:d9a48e
+        Mae: BAM HPABNTCR U0CCYM CUPNHFC? #line:11e297
+        Chazokov: 0H HE06JRCHNM0 KPACNB #line:3cca87
+        Chazokov: DVR TEX, KT0 UP0BEV 3DECJ KASDJ1L DEHJ CB0EL SN3HN. #line:739bad
+    ->HA CAM0M DEVE, HET. #line:6f17dc
+        Mae: V%6V% F0P0D. #line:680ab7
+        Mae: V%6V% CB0L PAL0H. #line:5b5d2f
+        Mae: V%6V% UV0XY% MECTHY% EDY. #line:b9f1a7
+        Chazokov: 0HA YSACHA. #line:bea608
+        Mae: H0 N UPEKPACHA T0SE. #line:2c1231
+        Mae: KAK PACCKA3, K0T0PJ1L HAUNCAV TB0L DPYF, #line:3ec902
+        Mae: N DAV TE6E U04NTATJ. #line:f488c1
+        Chazokov: R V%6V% DNCK0-KAPT0QKY. #line:d446b9
+Mae: TAK 4T0 CVY4NV0CJ C K0V0M? #line:2b8040
+Chazokov: 0H BEPHYVCR D0M0L #line:3ed78a
+Chazokov: N U0SAV0BAVCR, 4T0 HE60 DABNT HA HEF0 #line:49bc16
+Chazokov: 0H U06J1BAV TAM, BJ1C0K0 B 06VAKAX, #line:da67c3
+Chazokov: A TEUEPJ 0HN TRSEV0 HABNCVN HAD HNM. #line:c13233
+Mae: 04EHJ HE06J14HAR UPETEH3NR. #line:f9e900
+Chazokov: K0FDA KT0-T0 YE3SAET, A U0T0M #line:b3df30
+Chazokov: B03BPAWARCJ, GT0T KT0-T0 UPNH0CNT 4T0 T0 H0B0E. #line:698319
+Mae: KT0-T0. #line:069f81
+Chazokov: KT0-T0. #line:af24bf
+
+<<if $found_ds_7 is 1 and $found_ds_8 is 1>>
+    [[FoundBothForDay4]]
+<<endif>>
+===
+title: DS8
+tags: 
+colorID: 0
+position: 20480,-1115
+---
+Mae: ECTJ! #line:02befa
+Chazokov: TAAAK... GT0 Y HAC 4T0? #line:cf243d
+<<close>>
+<<tell Telescope ShowConstellation>>
+<<wait 2>>
+Chazokov:  ADNHA ACTPA. #line:33527e
+Mae: !!!! #line:40f9b4
+Chazokov: TJ1 EE Y3HAVA? #line:2b4c77
+Mae: DA! R 3HA% EE!!!! #line:90844b
+Chazokov: GT0 N3BECTHAR NCT0PNR. #line:1846a9
+Chazokov: KAK ADNHA 0TUPABNVACJ K 3AMEP3QEMY 03EPY #line:1ed983
+Chazokov: KAK 0HA 6P0DNVA U0 HEN3BECTHJ1M DAVEKNM 3EMVRM #line:1344b2
+Mae: B DETCTBE R ZAHATEVA 0T NCT0PNL UP0 ADNHY #line:8ee6b8
+Chazokov: 3HA4NT, TJ1 3HAEQJ, 4T0 C HEL CTAV0? #line:f66bed
+Mae: ...AFA #line:f03c29
+Chazokov: KAK 0HA B CB0NX U0NCKAX #line:50c7d5
+Chazokov: YQVA C HE6A UP04J #line:c46ceb
+Chazokov: N CUYCTNVACJ HA 3EMV% #line:031421
+Chazokov: TYDA, FDE HAD F0V0B0L, 60VJQE HE 6J1V0 EE 3BE3D  #line:c5863d
+Chazokov: N 60VJQE EE HNKT0 HE BNDEV? #line:ae9fcc
+Mae: AFA. #line:abcc0b
+Mae: HY N VADH0. #line:2bf90e
+Chazokov: PA3BE GT0 HE UE4AVJHJ1L K0HEO? #line:9a715a
+    ->AFA. T0 ECTJ, 0HA, BEP0RTH0, YMEPVA. #line:72472a
+        Chazokov: 0HA X0P0Q0 SNVA, DEVAVA CT0VJK0 BCEF0 HEBEP0RTH0F0 #line:5b08db
+        Chazokov: YMEPETJ, TAK MH0F0 CDEVAB B SN3HN, HE SAVK0. #line:6e47b0
+        Mae: U0SAVYL. X0TR YMNPATJ XEP0B0. #line:10b34c
+        Chazokov: 06NDH0. #line:bb64e8
+    ->HET. NC4E3H0BEHNE - GT0 HE CMEPTJ #line:a81e2c
+        Mae: HABEPH0E, 0HA CH0BA 0TUPABNVACJ KYDA-T0 #line:255bc5
+        Mae: DEVATJ BCRKNE KPYTJ1E BEWN DAVJQE. #line:3c65b7
+        Chazokov: 0 60FN! #line:9e8845
+        Mae: HY DA VADH0. UP0EXAVN. #line:038871
+
+<<if $found_ds_7 is 1 and $found_ds_8 is 1>>
+    [[FoundBothForDay4]]
+<<endif>>
+===
+title: FoundBothForDay4
+tags: 
+colorID: 0
+position: 20249,-858
+---
+Chazokov: YYYZ! XBATNT HA CEF0DHR! #line:6faa70
+Mae: GT0 6J1V0 MNV0. #line:6d9fed
+<<irisOut 1 wait>>
+<<scene Underhill>>
+===
+title: DS9
+tags: 
+colorID: 0
+position: 20927,-1075
+---
+Mae: HAQVA! #line:dcb158
+Chazokov: CBEPNMCR-KA C KAPT0L. #line:2a7fce
+<<close>>
+<<tell Telescope ShowConstellation>>
+<<wait 2>>
+
+Chazokov: GPCKNH 0FHEDEV. #line:0f239d
+Mae: "0FHEDEV?" #line:6da64a
+Chazokov: CTPAHHNK B0 TJME N X0V0DE. #line:40492e
+Chazokov: PA3SNFAET 0F0HJ N C06NPAET BCEX B0KPYF HEF0. #line:271102
+Chazokov: DVR CBETA N TEUVA. #line:3010b7
+Mae: 3BY4NT UPA3DHN4H0. #line:296d5b
+Chazokov: 3BY4NT KAK BJ1SNBAHNE. #line:a65f5f
+Mae: XM. #line:0d38ae
+Mae: KAK U0FVRSY HA GTY 3BE3DY, MHE X04ETCR UVAKATJ. #line:2b844f
+Chazokov: UVAKATJ? HA M0EL KPJ1QE? #line:65a209
+Chazokov: X04EQJ U0F0B0PNTJ 06 GT0M? #line:dddacc
+Mae: HE. BCE H0PM. #line:3b4417
+Chazokov: UVAKATJ 0T FPYCTN NVN 0T PAD0CTN? #line:ee0fb4
+Mae: HE 3HA%. Y MEHR HET HYSHJ1X CV0B, 4T06 0UNCATJ GT0. #line:854f2b
+Chazokov: BCE X0P0Q0. #line:d753a2
+Chazokov: NH0FDA CV0B CVNQK0M MH0F0. #line:fbabf6
+Mae: AFA. #line:4b4934
+Mae: CUACN60 BAM 3A GT0. #line:081324
+Chazokov: CUACN60 3A K0MUAHN%. #line:3d8a0b
+
+<<if $found_ds_1 and $found_ds_2 and $found_ds_3 and $found_ds_4 and $found_ds_5 and $found_ds_6 and $found_ds_7 and $found_ds_8 and $found_ds_9>>
+    <<set $found_all_dusk_stars to 1>>
+    Chazokov: DYMA%, MJ1 0TKPJ1VN... BCE 3BE3DJ1? #line:6c2e27
+    Mae: HY, B006WE-T0 HE MJ1 NX 0TKPJ1VN, BEPH0? #line:3cdd95
+    Mae: BEDJ KT0-T0 DPYF0L YBNDEV NX D0 HAC N DAV NM NMEHA #line:5aa0ce
+    Mae: HAUNCAV KY4Y NCT0PNL 0 HNX #line:741b62
+    Mae: A MJ1 UP0CT0 #line:c50ace
+    Mae: HAQVN T0, 4T0 0HN DVR HAC 0CTABNVN. #line:304668
+    Chazokov: A PA3BE GT0 HE 0TKPJ1TNE? #line:6fe78f
+    Mae: B006WE-T0, HET. #line:6b2886
+    Chazokov: M0SET, HE B NCT0PN4ECK0M CMJ1CVE #line:dbe0f2
+    Chazokov: HE MJ1 C03DAVN 3BE3DJ1 #line:80513d
+    Chazokov: N DAVN NM NMEHA #line:0fbc41
+    Chazokov: H0 GTNMN 0CEHHNMN BE4EPAMN #line:1f3c48
+    Chazokov: MJ1 06HAPYSNVN NX BMECTE. #line:88cc00
+    Chazokov: GT0 YSE 4T0-T0, PA3BE HET? #line:138ad0
+    Mae: 4T0-T0 4T0-T0 4T0-T0. #line:264806
+    Mae: M0L DEDYQKA KAK-T0 CKA3AV 4T0-T0 U0X0SEE. #line:b5494d
+    Mae: 4T0-T0 UP0 CKA3KY, K0T0PAR CTAVA PEAVJH0CTJ%, #line:956dd7
+    Mae: U0T0MY 4T0 CVJ1QAV, 4T0 GT0 CVY4NV0CJ C T060L. #line:853d0e
+    Chazokov: GT0 UPEKPACH0. #line:878ec9
+    Mae: GT0 HEUV0X0. #line:7bbb54
+    <<close>>
+    <<tell Telescope Center>>
+    <<extraZoom -40 3>>
+    <<wait 4>>
+    <<waitForInteractOrJump>>
+    <<unlockAchievement Dusk_Stargazer>>
+<<endif>>
+
+<<close>>
+<<irisOut 1 wait>>
+<<scene Underhill>>
+===
+title: TelescopeBlind0
+tags: demo2
+colorID: 0
+position: 17404,-1221
+---
+Mae: [shake=.1] DEPJM0, M0N FVA3A![/shake] #line:3278bf
+Chazokov: 0X, HAD0 6J1V0 U0CTABNTJ CBET0ZNVJTP, TAK 4T0... #line:04ac8f
+Mae: [shake=.05]60SE!!![/shake] #line:66dc7b
+Chazokov: C0VHOE CBETNT RPK0! M0SEQJ 0CVEUHYTJ! #line:5c3c50
+Mae: A HEVJ3R 6J1V0 UPEDYUPEDNTJ? #line:103d91
+Chazokov: T0VJK0 4T0 UPEDYUPEDNV! #line:4be191
+===
+title: TelescopeBlind1
+tags: 
+colorID: 0
+position: 17424,-980
+---
+Mae: [shake=.1]BA-A-A-A-A-A, M0N FVA3A!!![/shake] #line:028bb2
+Chazokov: ZNVJTP! #line:f411fb
+Mae: Y-Y-YX! #line:650e7c
+===
+title: TelescopeBlind2
+tags: 
+colorID: 0
+position: 17651,-927
+---
+Mae: [shake=.1]A-A-A! R 0CVEUVA!!![/shake] #line:7c99dc
+Chazokov: 4T0 S, HA CEL PA3 GT0 TB0R BNHA. #line:f566d1
+===
+title: VerifyQuit
+tags: 
+colorID: 0
+position: 17670,-639
+---
+Mae: XM...R HE M0FY GT0F0 U0HRTJ. #line:906ce3
+-> CDATJCR #line:d56f35
+    <<fadeOutMusic 1>>
+    <<fadeOut 1 wait>>
+    <<scene Underhill>>
+-> U0UP060BATJ CH0BA #line:cd5533
+===

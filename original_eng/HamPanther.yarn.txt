@@ -1,0 +1,466 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 292,288
+---
+<<if $bea_friendship_quest_3 is 0>>
+    [[BeaFQ3Start]]
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 292,49
+---
+<<show Bea>>
+<<show Dad>>
+
+<<set $dad_ham_panther_costume to 1>>
+===
+title: CannedGoods
+tags: 
+colorID: 3
+position: 393,1283
+---
+Mae: Hmm what should I pick... #line:0a9fe3
+<<shuffleNextOptions>>
+-> Succotash... Thuccotath. #line:f40611
+    <<set $grocery_canned_goods to 1>>
+-> Greeny Beanies #line:5c56a7
+    <<set $grocery_canned_goods to 2>>
+-> Cream of Chicken Soup #line:2c6f37
+    <<set $grocery_canned_goods to 3>>
+Mae: Hm. does that sound good? #line:8972e1
+-> No #line:3e1e2c
+    <<set $grocery_canned_goods to 0>>
+-> Yes #line:74390d
+    Mae: Delish. #line:5ef3f9
+===
+title: Boxes
+tags: 
+colorID: 3
+position: 635,1286
+---
+Mae: ok ok what to pick what to pick #line:eb6f12
+<<shuffleNextOptions>>
+-> Mac n’ Cheese #line:fa76a0
+    <<set $grocery_box to 1>>
+-> Scalloped Potatoes #line:828558
+    <<set $grocery_box to 2>>
+-> Mashed Potatoes #line:aa1bef
+    <<set $grocery_box to 3>>
+-> Rice #line:8842c2
+    <<set $grocery_box to 4>>
+Mae: Hm. am i... sure? #line:4a19d2
+-> No #line:051137
+    <<set $grocery_box to 0>>
+-> Yes #line:7e3fff
+    Mae: mmmboy. delicious. #line:020910
+===
+title: Cooler
+tags: 
+colorID: 3
+position: 930,1283
+---
+Mae: Hmm hmm. #line:03323f
+<<shuffleNextOptions>>
+-> Biscuits #line:e83960
+    <<set $grocery_cooler to 1>>
+-> Creamed Spinach #line:7f16e1
+    <<set $grocery_cooler to 2>>
+Mae: am i sure? #line:173e2f
+-> No #line:956cb6
+    <<set $grocery_cooler to 0>>
+-> Yes #line:62cd7f
+    Mae: ooh la la. #line:0b8aab
+===
+title: TriggerDadConversation
+tags: 
+colorID: 3
+position: 940,269
+---
+<<stopFollowing Bea>>
+<<walk Bea BeaDeli>>
+<<walk Mae MaeDeli wait>>
+[[DadDeli]]
+===
+title: DadDeli
+tags: 
+colorID: 3
+position: 1248,244
+---
+Dad: Ahoy there ladies! #line:b0f39c
+Mae: Hey dad! #line:09a736
+Dad: Hey Bea, long time no see! #line:a9a7d4
+Bea: How are you, Mr. Borowski? #line:d7c51c
+Dad: Can’t complain! #line:82cd69
+Dad: Just me and the meats. #line:e65545
+-> Meatfriends. #line:6bf390
+    Dad: Helps to stay friendly with your prime cuts and best fishes. #line:d706c5
+-> Just you? #line:1f44c2
+    Dad: Oh not always. But tonight, yeah. #line:d3efcb
+    Dad: Worse places on earth to be. #line:78360b
+Bea: True. #line:e8ffdc
+<<lookAt Mae Dad>>
+Mae: Still weird seeing you here. #line:830792
+Dad: Beats the alternatives! #line:14bc89
+Mae: I think I saw my old music teacher when we came in. #line:a49e56
+Bea: Oh yeah. That *WAS* Mr. Armistead. #line:5b9d35
+Mae: Looks like it’s his job to say hello to people? #line:6d3895
+Dad: Yep. Called a greeter. #line:2c8bb0
+Dad: I knew I recognized him from somewhere. #line:3d57c4
+Mae: Alternatives? #line:ff5ba3
+Dad: Not working. #line:ccd6c3
+Mae: Oh.		 #line:087c8d
+Dad: So what are you lovely ladies doing here? #line:ccba89
+Bea: Just grabbing something for dinner. #line:b17b70
+Dad: How’s your dad? #line:7796ad
+Bea: Alright. #line:71d878
+Dad: What can I get for you ladies? #line:249e60
+[[Meat]]
+===
+title: BeaFQ3Start
+tags: 
+colorID: 3
+position: 552,283
+---
+<<setAltBodyRig Bea BeaGroceryRig>>
+<<setCanInteract Bea 1>>
+<<set $block_for_groceries to 1>>
+Mae: This place killed the Food Donkey! #line:d80018
+Bea: Yeah kinda. #line:126ebb
+Mae: FOOOOOD! #line:f3d6c9
+Bea: You know, no one who works here had anything to do with that. #line:dd0a34
+-> True. #line:75332c
+-> DOOOOOONKEY! #line:913892
+    Bea: You sure showed Ham Panther corporate who’s boss. #line:50cbfc
+    Bea: Actually, #line:7b7b9b
+    Bea: did you know our senator is on the Ham Panther board or something? #line:7fcbab
+    Mae: You know you’re zero fun, right? #line:947657
+    Bea: I do know that, yes. #line:9c73f1
+Bea: Ok. #line:dc268f
+Bea:  I need to grab a few things quick #line:0519cd
+Mae: Aw I thought we were gonna hang out. #line:8e830f
+Bea: Uh. #line:634095
+Bea: We are hanging out. #line:d3152a
+Bea: I’m just here to grab something for dinner for dad and me. #line:b452f6
+Bea: Don’t feel like doing the big shop tonight. #line:d1e3c7
+Mae: Let me pick out what we have! #line:1c115a
+Bea: Oh I’m sorry, are you coming to dinner? #line:fb386d
+Mae: Can I? #line:ed4c86
+Bea: Um #line:5e93e9
+Bea: I guess? #line:8c9c2b
+Mae: Are you asking? #line:11de4c
+	Bea: I wasn’t. #line:eab27e
+	Bea: But now it feels weird not to... #line:5814f2
+Mae: I’ll pick out what we eat then! #line:6371db
+<<close>>
+<<wait 1.5>>
+Bea: Wait, you’re serious? #line:3eb3e7
+Mae: Yeah! #line:a8770f
+Bea: You know what? Go for it. I hate shopping. #line:3cecad
+Bea: Need like... a main course and two sides? #line:f82c64
+-> Fancy! #line:602e6e
+    Bea: Eh. We’re traditional. #line:c1b6e4
+    Mae: What kind of main course? #line:93f378
+-> What counts as a main course? #line:10f4f1
+Bea: We can stop back in the meat section once you pick out whatever else. #line:0cd607
+Mae: What about dessert? #line:e32ffb
+Bea: We’re not children. #line:f6e596
+Mae: Appetizer? #line:0302de
+Bea: We're on a budget, Mae. #line:57c74a
+Mae: ok ok ok you hang out and i’ll be right back #line:323b95
+Bea: Just make it quick and not too horrible. also dad’s sensitive to broccoli. #line:9940ee
+<<if $did_bea_friendship_quest_1 is 1>>
+    Bea: Oh also- no shoplifting this time. #line:24d2aa
+    Mae: Aw. #line:c726dd
+    Bea: I can afford a few groceries, Mae. #line:d0c4a4
+    Bea: Also this place has cameras. #line:506520
+    Mae: Good point. #line:383df7
+<<endif>>
+<<playMusic grocery_shopping 3>>
+===
+title: Bea
+tags: 
+colorID: 3
+position: 710,-3
+---
+<<if $grocery_canned_goods is 0>>
+    Bea: We need a canned good or something. #line:70d893
+<<elseif $grocery_box is 0>>
+    Bea: Maybe grab something from a box, too? #line:69962d
+<<elseif $grocery_cooler is 0>>
+    Bea: Check out the cooler. It's got stuff. #line:356763
+    Mae: cool stuff. #line:186792
+<<elseif $grocery_meat is 0>>
+    Mae: My Dad works at the Deli. We could go there for the meats! #line:df97a8
+    Bea: Okay. #line:5b8552
+    <<set $grocery_picking_interactions_done to 1>>
+    <<follow Bea Mae>>
+    <<setCanInteract Bea 0>>
+    <<set $block_for_groceries to 0>>
+<<endif>>
+===
+title: FoodChart
+tags: notes question!
+colorID: 1
+position: -4,397
+---
+//question: Syntax looks inconsistent for these options.//
+// Should there be a colon after $grocery_cooler and $grocery_meat?//
+$grocery_canned_goods: #line:76a00b
+1 - Succotash #line:3751d9
+2 - Green Beans #line:796c2e
+3 - Cream of Chicken Soup #line:85d290
+
+$grocery_box: #line:e1f87d
+1 - Mac n’ Cheese #line:f257b6
+2 - Scalloped Potatoes #line:1d1e3a
+3 - Mashed Potatoes #line:2dc6b6
+4 - Rice #line:121815
+
+$grocery_cooler #line:d3048c
+1 - Biscuits #line:42defe
+2 - Creamed Spinach #line:9c49f3
+
+$grocery_meat #line:3c4582
+1 - Ground Beef #line:cb319e
+2 - Chicken #line:4362e8
+3 - Fish #line:fa8f97
+4 - Pork Chops #line:566a8e
+===
+title: EndGroceries
+tags: 
+colorID: 3
+position: 2232,394
+---
+<<if $grocery_meat is 1 and $grocery_bakey_shakey is 0 and $grocery_box is 1 and $grocery_canned_goods is 1>>
+    //Ground Beef (no bakey shakey) + Mac n’ Cheese + Succotash = GOOD
+    <<set $grocery_quality to 1>>
+<<elseif $grocery_meat is 4 and $grocery_bakey_shakey is 1 and $grocery_box is 2 and $grocery_canned_goods is 2>>
+    //Pork Chops (with Bakey Shakey) + Scalloped Potatoes + Green Beans = GOOD
+    <<set $grocery_quality to 1>>
+<<elseif $grocery_meat is 2 and $grocery_bakey_shakey is 0 and $grocery_canned_goods is 3 and $grocery_cooler is 1>>
+    //Chicken (nobakey shakey) + Cream of Chicken Soup + Biscuits = GOOD
+    <<set $grocery_quality to 1>>
+<<elseif $grocery_meat is 3 and $grocery_bakey_shakey is 0 and $grocery_box is 1 and $grocery_cooler is 2>>
+    //Fish (no bakey shakey) + Mac n’ Cheese + Creamed Spinach
+    <<set $grocery_quality to 1>>
+<<elseif $grocery_meat is 3 and $grocery_bakey_shakey is 1>>
+    //Fish (bakey shakey)
+    <<set $grocery_quality to -1>>
+<<elseif $grocery_meat is 1 and $grocery_bakey_shakey is 2>>
+    //Beef  (bakey shakey)
+    <<set $grocery_quality to -1>>
+<<elseif $grocery_meat is 1 and $grocery_box != 1>>
+    //Beef + anything other than Mac n’ Cheese
+    <<set $grocery_quality to -1>>
+<<elseif $grocery_meat is 3 and $grocery_canned_goods is 3>>
+    //Fish + Cream of Chicken
+    <<set $grocery_quality to -1>>
+<<elseif $grocery_meat is 2 and $grocery_bakey_shakey is 1 and $grocery_canned_goods is 3>>
+    //Chicken (bakey shakey) + Cream of Chicken Soup
+    <<set $grocery_quality to -1>>
+<<elseif $grocery_meat is 4 and $grocery_canned_goods is 3>>
+    //Pork Chops + Cream of Chicken Soup
+    <<set $grocery_quality to -1>>
+<<elseif $grocery_meat is 1 and $grocery_canned_goods is 3>>
+    //Beef + Cream of Chicken Soup
+    <<set $grocery_quality to -1>>
+<<endif>>
+
+<<fadeOutMusic 5>>
+<<lookAt Mae Dad>>
+Dad: Alright ladies. Let's see what all you got! #line:efe52f
+Dad: hmmm. hmmm. yes. ok. #line:bd6d5f
+<<if $grocery_quality is 1>>
+    Dad: Looks like a great dinner you got planned! #line:cee0e9
+<<elseif $grocery_quality is -1>>
+    Dad: Well that's... interesting. #line:c44a10
+    Mae: interesting? #line:c8fcd7
+    Dad: maybe I'm just behind the times. #line:540b97
+    Dad: good luck! #line:39c13e
+<<else>>
+    Dad: Looks completely 100 percent ok. #line:c5754d
+<<endif>>
+
+Bea: Alright. Thanks Mr. Borowski! #line:4119a8
+Dad: Tell your dad I said hello! #line:9a4d5d
+Mae: see you later, dad! #line:1fd6fb
+Dad: night, ladies! #line:f29948
+<<close>>
+<<irisOut 1 wait>>
+<<set $dad_ham_panther_costume to 0>>
+<<scene BeaCar>>
+===
+title: BakeyShakey
+tags: 
+colorID: 3
+position: 2226,744
+---
+Mae: Hmm should I get bakey shakey? That goes well with MEAT. #line:d51dba
+-> No #line:730fac
+-> Yes #line:24851a
+    <<set $grocery_bakey_shakey to 1>>
+===
+title: Meat
+tags: 
+colorID: 3
+position: 1562,149
+---
+<<shuffleNextOptions>>
+-> Ground Beef #line:1894bb
+    <<set $grocery_meat to 1>>
+    Dad: Classic! #line:1a8749
+-> Chicken #line:04a91c
+    <<set $grocery_meat to 2>>
+    Dad: Can’t go wrong there! #line:870377
+-> One of your best fishes please! #line:9a54e6
+    <<set $grocery_meat to 3>>
+    Bea: Whatever’s good. Dinner for three people. Not too pricey. #line:01377d
+    Dad: Can do! #line:048de0
+-> Pork Chops #line:8a650b
+    <<set $grocery_meat to 4>>
+    Dad: We got that! We got that! #line:e5e4a4
+Mae: Hmm... do I want to pull the trigger on these meats? #line:2a0093
+-> No #line:202380
+    Mae: Wait, Dad... I changed my mind. #line:e1f3ac
+    [[Meat]]
+-> Yes #line:c63c62
+    [[AfterMeat]]
+===
+title: AfterMeat
+tags: 
+colorID: 3
+position: 1896,293
+---
+Dad: Bea, you should come by for dinner sometime! #line:2adcea
+Mae: At the Ham Panther? #line:947f21
+Dad: At HOME, Mae. #line:853382
+Dad: I’ll grill us up something nice! #line:f4db0e
+Dad: We can chop up just about anything back here! #line:7648fb
+Bea: That would be nice. Thank you. #line:132b9f
+Mae: Yeah! #line:458233
+Mae: Ok let’s get our meats! #line:5afa32
+Dad: Comin’ right up! #line:10b6bf
+<<lookAt Mae Bea>>
+Mae: alright! Dinner decided! #line:973b42
+Bea: I’m not even looking at what you got. #line:ada333
+Bea: That is how straight up tired I am. #line:e34641
+Mae: It’s gonna be great! #line:3faaf0
+Bea: Allllright let’s keep moving. #line:c05d42
+[[EndGroceries]]
+===
+title: VerifyCannedGoods1
+tags: 
+colorID: 3
+position: -98,655
+---
+Mae: Succotash... Thuccotath. #line:a0ded5
+[[Confirm1]]
+===
+title: Confirm2
+tags: 
+colorID: 3
+position: 762,1021
+---
+-> No #line:580a58
+-> Yes #line:fd473e
+    Mae: mmmboy. delicious. #line:3b2d6d
+    <<confirmGroceryChoice>>
+===
+title: Confirm3
+tags: 
+colorID: 3
+position: 1740,1012
+---
+-> No #line:3cfa5b
+-> Yes #line:5ff4e0
+    Mae: ooh la la. #line:1e59e3
+    <<confirmGroceryChoice>>
+===
+title: VerifyBakeyShakey
+tags: 
+colorID: 3
+position: 1483,1554
+---
+Mae: Hmm should I get bakey shakey? That goes well with MEAT. #line:83b538
+-> No #line:379c65
+-> Yes #line:30dcb7
+    Mae: mmmboy. delicious. #line:b8fddc
+    <<confirmGroceryChoice>>
+===
+title: VerifyCannedGoods2
+tags: 
+colorID: 3
+position: 123,656
+---
+Mae: Greeny Beanies #line:e0084e
+[[Confirm1]]
+===
+title: VerifyCannedGoods3
+tags: 
+colorID: 3
+position: 361,656
+---
+Mae: Cream of Chicken Soup #line:cf6716
+[[Confirm1]]
+===
+title: Confirm1
+tags: 
+colorID: 3
+position: 76,936
+---
+-> No #line:eeadb2
+-> Yes #line:b8df7f
+    Mae: Delish. #line:e8fc45
+    <<confirmGroceryChoice>>
+===
+title: VerifyBox1
+tags: 
+colorID: 3
+position: 590,654
+---
+Mae: Good ol' Mac n’ Cheese #line:9a497c
+[[Confirm2]]
+===
+title: VerifyBox2
+tags: 
+colorID: 3
+position: 814,653
+---
+Mae: Taters! #line:a8d956
+[[Confirm2]]
+===
+title: VerifyBox3
+tags: 
+colorID: 3
+position: 1036,649
+---
+Mae: Mashed Potatoes #line:8dcf34
+[[Confirm2]]
+===
+title: VerifyBox4
+tags: 
+colorID: 3
+position: 1277,647
+---
+Mae: Niiiiice Rice #line:57cd92
+[[Confirm2]]
+===
+title: VerifyCooler1
+tags: 
+colorID: 3
+position: 1590,666
+---
+Mae: Hmm... Biscuits #line:9a9863
+[[Confirm3]]
+===
+title: VerifyCooler2
+tags: 
+colorID: 3
+position: 1886,672
+---
+Mae: Creamed Spinach...? #line:ac9a86
+[[Confirm3]]
+===

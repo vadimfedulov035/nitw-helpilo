@@ -1,0 +1,996 @@
+title: GermInitLevel
+tags: 
+colorID: 0
+position: -14586,-1905
+---
+<<if $TowneCentreWest>>
+    <<if $act is 2 and $day is 1>>
+        <<show Germ>>
+        <<warp Germ GermSnackFalcon>>
+    <<else>>
+        <<hide Germ>>
+    <<endif>>
+<<elseif $Outskirts>>
+    <<if $act is 2 and $day is 2 and $germ_done is 0>>
+        <<show Germ>>
+    <<elseif $act is 2 and $day is 3 and $germ_done is 0>>
+        <<show Germ>>
+        <<if $germ_friendship_quest_1>>
+            <<warp Player MaeGerm>>
+            <<flip Germ -1>>
+        <<endif>>
+    <<elseif $act is 2 and $day is 4>>
+        <<show Germ>>
+        <<warp Germ GermBBallCourt>>
+    <<elseif $act is 3 and $day is 1 and $germ_done is 0>>
+        <<show Germ>>
+    <<elseif $act is 3 and $day is 2 and $germ_done is 0>>
+        <<show Germ>>
+        <<if $germ_friendship_quest_2>>
+            <<warp Player MaeGerm>>
+            <<flip Germ -1>>
+        <<endif>>
+    <<elseif $act is 3 and $day is 3 and $germ_done is 0>>
+        <<show Germ>>
+    <<elseif $act is 3 and $day is 4 and $germ_done is 0>>
+        <<show Germ>>
+        <<if $germ_friendship_quest_3>>
+            <<warp Player MaeGerm>>
+            <<flip Germ -1>>
+        <<endif>>
+    <<else>>
+        <<hide Germ>>
+    <<endif>>
+<<elseif $Bridge>>
+    <<if $germ_friendship_quest_2>>
+        <<show Germ>>
+        <<if $hobo_code_1>>
+            <<warp Mae MaeInTunnel>>
+            <<warp Germ GermInTunnel>>
+            <<flip Mae -1>>
+        <<else>>
+            <<noFallThrough Collision:BridgeMiddle 0>>
+            <<warp Mae MaeEnterQuest>>
+            <<warp Germ GermEnterQuest>>
+            <<cameraLookAt CameraBridgeStart>>
+        <<endif>>
+    <<else>>
+        <<hide Germ>>
+    <<endif>>
+<<endif>>
+===
+title: Germ_A2D1_00
+tags: demo2
+colorID: 3
+position: -17909,-1171
+---
+Mae: Hey... Jeremy? #line:37c669
+<<set $met_germ to 1>>
+Mae: Jeremy Warton? #line:5543e0
+Germ: No one calls me that. #line:d6adf9
+Mae: Germ, right? #line:b08616
+Germ: Germ Warfare. #line:cba336
+Mae: Oh, that stuck, huh? #line:652231
+Germ: Yep. #line:685ff8
+Mae: That's an ok name. #line:b9b012
+Germ: Your name is Mae. #line:b808e4
+Mae: Yep. #line:989856
+Germ: That's an ok name. #line:1b2e75
+Mae: OK. #line:88a1b0
+<<unlockDoodle Germ1>>
+===
+title: Germ_A2D1_01
+tags: demo2
+colorID: 3
+position: -17648,-1138
+---
+Mae: You were like a year behind me right? #line:12ed8f
+Germ: 2 years. #line:561a17
+Mae: So you're fresh out, huh? #line:9a5831
+Germ: I hang out with Gregg sometimes. #line:807f36
+Germ: We ride bikes. #line:5b9b99
+Germ: I'm pretty good at it. #line:64bf4c
+Mae: Ok. #line:f85a65
+Germ: !!! #line:6bf45c
+Mae: What? #line:e75a44
+Germ: I saw a rabid possum the other day. #line:7572a2
+Mae: Really? Where? #line:9c720f
+Germ: It was crawling across the road. #line:822b66
+Mae: Had it been hit by a car? #line:0193c4
+Germ: Naw, just rabid. #line:f688e6
+Mae: What happened to it? #line:8ec90a
+Germ: Got hit by a car. #line:b1980e
+Mae: Wow. #line:5cb1e1
+Germ: It was like... #line:5e3c2a
+Germ: a poem. #line:ee3ac3
+<<set $like_a_poem to 1>>
+Mae: OK. #line:7a7316
+===
+title: Germ_A2D1
+tags: 
+colorID: 3
+position: -17623,-1576
+---
+<<if $germ is 0>>
+    <<set $germ += 1>>
+    [[Germ_A2D1_00]]
+<<elseif $germ is 1>>
+    <<set $germ += 1>>
+    <<set $germ_done to 1>>
+    [[Germ_A2D1_01]]
+<<endif>>
+===
+title: Germ_A2D2_00
+tags: 
+colorID: 3
+position: -17080,-1250
+---
+Mae: Hey Germ. #line:144835
+Mae: Whatcha doin? #line:fa00d2
+Germ: Nothin. #line:4d0d75
+Germ: Was hanging with a couple crusties before. #line:cb78b4
+Mae: What? #line:cc42a3
+Germ: Crust punks. Traveler kids. #line:e41968
+Mae: Oh ok. Like from off the trains. #line:0f8bc6
+Germ: They know we don't got much cops. #line:8dbf91
+Mae: I miss *all* the cool stuff. #line:dedf46
+Germ: One of them had a dog. #line:6ae2a7
+Germ: They mostly have dogs sometimes. #line:41f02a
+Germ: One time I seen a crusty missing a foot. #line:f37c04
+Mae: What happened? #line:99cb3d
+Germ: Trains. Jumping on and off and falling between cars and stuff. #line:c7a314
+Mae: That's intense. #line:853ac5
+Germ: Hands, knees, legs, feet, whole arms. #line:495df7
+Mae: We saw an arm the other day! #line:bdd3b8
+Mae: Do you think it was from a crusty? #line:ee0996
+<<set $crusty_clue to 1>>
+Germ: Naw. #line:52a91d
+Germ: I mean. #line:e8b9f5
+Germ: I dunno. #line:0c1f68
+Mae: Huh. #line:6cb2f6
+===
+title: Germ_A2D2_01
+tags: 
+colorID: 3
+position: -16760,-1293
+---
+Mae: So, #line:b6f19f
+Germ: I'M HERE A LOT OF DAYS. #line:7e476e
+Mae: Ok, I was gonna say- #line:e63fbe
+Germ: I have to go now. #line:465f4c
+Mae: Bye! #line:3bf122
+[[WalkGermOut]]
+===
+title: Germ_A2D2
+tags: 
+colorID: 3
+position: -16949,-1563
+---
+<<if $germ is 0>>
+    <<set $germ += 1>>
+    [[Germ_A2D2_00]]
+<<elseif $germ is 1>>
+    <<set $germ_done to 1>>
+    [[Germ_A2D2_01]]
+<<endif>>
+===
+title: Germ_A2D3_00
+tags: 
+colorID: 3
+position: -16361,-1114
+---
+Mae: Hey Germ. #line:5084ca
+Germ: Heeeeeey. #line:bfcae6
+Germ: Wanna hang out? #line:b1fc23
+Mae: I dunno, supposed to hang with Gregg or Bea tonight. #line:744565
+Germ: Geez I'm not asking you to run away and get married. #line:19388d
+-> No #line:82eecf
+    Germ: Ok bye! #line:5859a0
+    Mae: Bye! #line:7c140a
+    <<set $germ_done to 1>>
+-> Yes #line:ed5183
+    <<set $germ_friendship_quest_1 to 1>>
+    Mae: Ok, what do you wanna do? #line:b79572
+    Germ: Follow me! #line:e9d4e9
+    <<irisOut 1 wait>>
+    <<scene ParkingLot>>
+===
+title: Germ_A2D4_00
+tags: 
+colorID: 3
+position: -15859,-1113
+---
+Mae: Hey Germ! #line:852beb
+Germ: Hey Mae. #line:6ce945
+Crusty1: Hey! I'm Skamz. #line:9b07b5
+Mae: Scams? #line:31a6bb
+Crusty1: That's Jenna. #line:07e5ac
+Crusty2: Hi! #line:5976d4
+Mae: Hi! #line:dc0dd7
+OldHobo: I'm Bill Don. #line:c0fc32
+Germ: And I'm Germ! #line:ca0322
+Mae: I'm Mae. #line:edaebd
+<<close>>
+<<wait 1>>
+Mae: I completely forgot what I was going to say. #line:dc1f28
+
+===
+title: Germ_A2D4_01
+tags: 
+colorID: 3
+position: -15607,-1088
+---
+Mae: Hey Germ, you coming to Harfest? #line:a4651a
+Germ: Eh. Maybe. #line:17a096
+Mae: Are you guys going? #line:0ab565
+Crusty1: Yeah we might hop over #line:ce3da1
+Crusty1: check out the part-tay. #line:3f6205
+Crusty1: I mean, y'all got ghosts here for real, right? #line:5437a9
+<<set $knows_legend_hobo to 1>>
+Germ: Yeah. #line:a7953f
+Mae: What? #line:430f32
+Germ: Little Joe, you know? #line:cec606
+Mae: Yeah man. Local legend. #line:e538f6
+Crusty1: My man Tapeworm? #line:85e357
+Crusty1: Out in Bright Harbor? #line:a82845
+Crusty1: He told me he never got off in this town. #line:bf06fb
+Crusty1: Because of the ghost! #line:cdf4ab
+OldHobo: Aw that's a load a' crap. #line:2ce323
+Crusty1: He sneaks into railyards and SNATCHES up the good and the pure. #line:f69d41
+OldHobo: Well you kids got nothin' a' fear then. #line:28b79d
+Crusty1: dammit old timer! we're pure as the air! #line:708d35
+Mae: Alright well I guess I'll see some of you there! #line:ac79b9
+Mae: Nice to meet you! #line:6f4974
+Crusty1: Same, little lady! #line:0926ba
+Mae: ... #line:91c885
+Mae: Seeya Germ! #line:d3fecf
+Germ: Seeya. #line:68ddaa
+===
+title: Germ_A2D4
+tags: 
+colorID: 3
+position: -15635,-1447
+---
+<<if $germ is 0>>
+    <<set $germ += 1>>
+    [[Germ_A2D4_00]]
+<<elseif $germ is 1>>
+    <<set $germ += 1>>
+    [[Germ_A2D4_01]]
+<<elseif $germ is 2>>
+    [[Germ_A2D4_02]]
+<<endif>>
+===
+title: Germ_A2D4_02
+tags: 
+colorID: 3
+position: -15362,-1228
+---
+Germ:{emote=pentagram} #line:e5bfd7
+<<close>>
+Germ:{emote=ghost} #line:4db23f
+<<close>>
+===
+title: Germ_A3D1_00
+tags: 
+colorID: 4
+position: -14926,-1211
+---
+Mae: Hey. #line:da78ac
+Germ: Sup kid. #line:64cd4a
+Germ: *sniff sniff* #line:5d7aca
+Germ: You smell weird. #line:a23997
+<<if $knows_council_bball is 0 and $trigger_molly_a3d1_done is 0>>
+	Mae: Why is my aunt's car here? #line:25438c
+	Germ: That's your aunt? #line:7c5c29
+	Mae: ...yeah... #line:4e4264
+	Germ: Oh weird that like makes you half cop? #line:7465a1
+	Germ: YOU'LL NEVER HALF CATCH ME, HALF COPPAAAAAH!!! #line:1b65cb
+	Germ: HA HA HA HA HA HA HA HA HA HA #line:9a5b8c
+	Mae: ... #line:699000
+	Germ: I dunno what they're doing up there. #line:4afaeb
+	Mae: Huh. #line:438cc9
+<<endif>>
+Mae: You go to Harfest? #line:9919d9
+Germ: Nah. Over it. #line:b0c461
+Mae: Cool. I had kind of a weird time. #line:3904d7
+Mae: Weird bad time, actually. #line:e8cf6c
+Germ: It's a guaranteed weird bad time. #line:049bf3
+Mae: Yeah. #line:ff4894
+<<if $knows_legend_hobo is 1>>
+	Mae: Are those people from yesterday still here? #line:c4c0ff
+	Germ: Dunno. #line:dc00ba
+	Germ: We're not like... good friends or anything. #line:63b210
+	Mae: Oh yeah. I don't know why I thought you'd know. #line:db0288
+	Mae: I was wondering if they ever met Casey. #line:62d993
+	Mae: Out there somewhere. #line:b3563a
+	Germ: I can ask. I used to ask. #line:506efd
+	Mae: I just hate thinking about him out there all by himself. #line:1d8968
+	Germ: Aw, Casey's tough. He'll be fine. #line:7e6549
+	Germ: When you gotta get out, you gotta get out! #line:d2f86e
+	Mae: yeah I guess #line:129c95
+<<endif>>
+Germ: Welp, see you at band practice! #line:43a1c7
+Mae: Real talk: do you actually like watching us play? #line:a1d7ba
+Germ: Yeah! I mean you're not good but yeah. #line:e87dc9
+Germ: Not my style. #line:f1afc5
+Mae: What is your style? #line:79befc
+Germ: Black metal, uh thrash crossover, hip hop. #line:42c7f4
+Mae: I like Witchdagger! They're kinda metal. #line:e59467
+Germ: Oh yeah like that doom shit, right? #line:2c8c6e
+Germ: DA-DA-DUUUUURGA!!! #line:bff56a
+Mae: Totally! #line:09872d
+Germ: ...  #line:59e5e1
+Mae: What? #line:4aa159
+Germ: You know one time a guy followed me home. #line:b28edf
+<<set $germ_followed to 1>>
+Germ: Like, a guy from the tracks. #line:928796
+-> What? Ok whatever, I gotta get going.		 #line:8d0d41
+    Germ: Seeya. #line:2d006b
+-> What did you do? #line:ddbcb1
+    Germ: It was like some night back in the summer #line:135fdf
+    Germ: and out of the corner of my eye I could kinda see this dude #line:be8513
+    Germ: take this turn out of the parking lot #line:d021e2
+    Germ: and start creepin' up the hill #line:a8f919
+    Germ: like 50 feet back. #line:cf62db
+    Germ: But like I didn't want to look right at him. #line:699516
+        ->aaagh... #line:20fed8
+        ->aaaaaaaaaagh... #line:71b185
+    Germ: I took a detour through the woods and sat in a tree. #line:76c69c
+    Germ: It was getting dark but like #line:89cac2
+    Germ: I could see him standing just off the road #line:faa137
+    Germ: waiting for me to come down. #line:eee35d
+        ->Oh my god. #line:d4d48e
+        ->Holy shit. #line:5ed2c1
+    Mae: What did you do? #line:cfdd1b
+    Germ: After it got dark, I climbed down #line:a16d33
+    Germ: and got up the hill real quick. #line:08c936
+    Mae: AAAAAAAAGH!!! #line:56b9c5
+    Germ: Yeah it was a weird bad time. #line:c7b845
+    Mae: aaaaaagh... #line:627d21
+    Mae: I am so upset right now. #line:51dd04
+    Germ: Ha ha I know right? #line:1f5add
+    Germ: Seeya! #line:6dfc6c
+    <<set $germ_followed to 2>>
+[[WalkGermOut]]
+===
+title: Germ_A3D2_00
+tags: 
+colorID: 4
+position: -14690,-1187
+---
+Mae: Hey. #line:53706f
+Germ: Hey... #line:bc42fd
+Mae: What? #line:44a688
+Germ: Wanna hang out? #line:f5c166
+Mae: I got plans later... #line:6adb1d
+Germ: Ok well I don't think you're gonna get kidnapped or anything. #line:915f60
+-> Nah #line:b12331
+    Germ: Cool cool. #line:d5cc51
+    Germ: Seeya! #line:d59988
+    <<set $germ_done to 1>>
+-> Yeah sure! #line:487af1
+    Germ: Hop on my bike! #line:236e92
+    Mae: Really? Where is it? #line:0a2988
+    Germ: tied up behind the food donkey! #line:bfe035
+    Germ: I guess you could like run behind. #line:02d68b
+    Mae: Ok fine. #line:69a37c
+    <<set $germ_friendship_quest_2 to 1>>
+    <<irisOut 1 wait>>
+    <<scene Bridge>>
+===
+title: Germ_A3D3_01
+tags: 
+colorID: 4
+position: -13941,-1318
+---
+Mae: what's traveling like? #line:743eeb
+<<lookAt Germ Crusty3>>
+Crusty3: s'good. s'good. #line:3842a3
+Crusty3: never could stay in one spot. #line:c77ef1
+<<lookAt Germ Mae>>
+Mae: i have like the exact opposite problem #line:7ffe40
+<<lookAt Germ Crusty3>>
+Crusty3: alright pardners. time for me to shove off! #line:02f860
+Germ: See ya, Angel! #line:b8fd32
+Mae: Stay safe! #line:eaf330
+Crusty3: adios! #line:3da911
+<<close>>
+<<walk Crusty3 BehindStairs>>
+<<wait 2>>
+<<hide Crusty3>>
+<<set $crusty_3_done to 1>>
+<<lookAt Germ Mae>>
+Germ: Well, that's over. #line:eb20db
+Mae: No fun? #line:aab46b
+Germ: No fun. #line:8a08c6
+<<lookNearest Mae>>
+===
+title: Germ_A3D4
+tags: 
+colorID: 4
+position: -13209,-1455
+---
+<<if $germ is 0>>
+    <<set $germ += 1>>
+    [[Germ_A3D4_00]]
+<<elseif $germ is 1>>
+<<endif>>
+===
+title: GermEnterParkingLot_A2D3
+tags: 
+colorID: 3
+position: -16360,-893
+---
+<<wait 5>>
+Germ: We're here! #line:a93425
+Mae: We're in the parking lot. #line:a9c5a8
+Germ: Yep! #line:3bcdd1
+Mae: We walked for like 15 seconds. o> #line:c554fb
+Germ: It's like really big here. #line:7b3f8f
+Mae: I could throw a rock and hit where we were just standing. #line:db2366
+Germ: You can see like all of the sky here. #line:f40502
+Mae: oh wow you can #line:5088a7
+<<wait 5>>
+Mae: ok so seriously we're just looking at the parking lot? _o_ #line:7cb173
+Germ: sometimes #line:ecb61b
+Mae: "sometimes"? #line:8abc52
+Germ: sometimes in the morning #line:73d3af
+Germ: if you're up on the hill back there #line:b623ba
+Germ: a whole buncha fog passes over the lots #line:e05224
+Germ: and it's like an ocean #line:c5a36b
+Germ: and there's a herd of deer that comes through #line:414fd0
+Germ: and it's like magic. #line:24d4e6
+Mae: wow. #line:1949d4
+Germ: why did we ever need this much parking? #line:b165fc
+    ->railroads #line:54a939
+        Mae: used to be like a big train station back here somewhere. #line:9f25b9
+        Mae: back when people took trains. #line:e27ada
+        Mae: i mean like, pretty often. #line:8f75a2
+        Mae: there was a restaurant. #line:9afe30
+    ->jobs #line:0ffce5
+        Mae: people used to work at the glass factory #line:d1dec4
+        Mae: and i guess some folks still work at the sewing place #line:1c627c
+        Mae: there was some other factory somewhere back here at some point too. #line:b4ff3a
+    ->stores #line:9e96a8
+        Mae: there was the food donkey #line:687d3f
+        Mae: and the old second hand store #line:7e99eb
+        Mae: and the shoe store #line:5985ad
+        Mae: there used to be a record store back here somewhere. #line:4b0cfb
+Germ: all gone now, though. #line:e0d257
+Mae: yep. just a lot of asphalt, weeds, and broken glass. #line:e82b3a
+Germ: it's so pretty. i love it. #line:075d88
+Mae: hm. #line:0cad20
+Germ: you know if they never do anything with this #line:107755
+Germ: in a bunch of years this is gonna be like #line:5a59f9
+Germ: regular ground. #line:484b2b
+    ->wow. #line:162485
+    ->what's gonna happen to the parking lot? #line:6f578e
+        Mae: i mean the parking lot part of the parking lot. #line:862518
+Germ: Nature's old. It waits you out. #line:7ced60
+Mae: that's spooky. #line:e98298
+<<wait 3>>
+Germ: ok we're done! #line:c46ef3
+Mae: what? #line:115b36
+Germ: let's go! #line:9fac1b
+//germ starts walking away//
+Mae: hey! #line:3d54f5
+<<irisOut 1 wait>>
+<<scene Outskirts>>
+===
+title: GermEnterOutskirts_A2D3
+tags: 
+colorID: 3
+position: -16363,-684
+---
+<<if $germ_friendship_quest_1>>
+    Mae: So, I've been having- #line:77ad61
+    Germ: I have to go now! #line:c61e4a
+    <<set $germ_done to 1>>
+    Mae: Bye! #line:245f3d
+    <<set $germ_friendship_quest_1 to 0>>
+    <<unlockDoodle GermFQ1>>
+    <<set $did_germ_friendship_quest_1 to 1>>
+    [[WalkGermOut]]
+<<endif>>
+===
+title: Germ_A2D3
+tags: 
+colorID: 3
+position: -16353,-1351
+---
+<<if $germ is 0>>
+    <<set $germ += 1>>
+    [[Germ_A2D3_00]]
+<<elseif $germ is 1>>
+<<endif>>
+===
+title: Germ_A3D2
+tags: 
+colorID: 4
+position: -14559,-1421
+---
+<<if $Bridge and $germ_friendship_quest_2>>
+    [[Germ_Bridge]]
+<<elseif $germ is 0>>
+    <<set $germ += 1>>
+    [[Germ_A3D2_00]]
+<<endif>>
+===
+title: Germ_A3D1
+tags: 
+colorID: 4
+position: -14933,-1486
+---
+<<if $germ is 0>>
+    <<set $germ += 1>>
+    [[Germ_A3D1_00]]
+<<endif>>
+===
+title: Germ_A3D3_00
+tags: 
+colorID: 4
+position: -14178,-1478
+---
+Mae: Hey. #line:39bade
+<<lookAt Germ Crusty3>>
+Germ: Hey. Angel, this is my friend Mae. #line:560b32
+Crusty3: 'Ey Mae. Whatsup. #line:7a0be0
+<<lookAt Germ Mae>>
+Mae: cool name #line:0a9d7d
+<<lookAt Germ Crusty3>>
+Crusty3: gracias, much obliged #line:0a9fef
+<<lookAt Germ Mae>>
+Germ: Angel's just in town between trains. #line:5952f7
+<<lookAt Germ Crusty3>>
+Germ: going west, next? #line:35df59
+Crusty3: yeah, then south for the winter. #line:e0415f
+Crusty3: like a dirty birdie. #line:0944a2
+Crusty3: down to the gulf #line:d7a286
+Crusty3: lay in the sun #line:9b896c
+Crusty3: eat me some crawfish #line:143433
+<<lookAt Germ Mae>>
+Mae: actually Angel you might be able to answer a question: #line:6e1c30
+<<lookAt Germ Crusty3>>
+Crusty3: shoot, bro #line:3136a5
+<<lookAt Germ Mae>>
+    ->have you heard anything about a ghost in town? #line:28c6b4
+        Germ: Angel has indeed. #line:f826e9
+        <<lookAt Germ Crusty3>>
+        Crusty3: we was just talking about it before you got here #line:be45e2
+        <<lookAt Germ Mae>>
+        Mae: really? #line:34a2b0
+        <<lookAt Germ Crusty3>>
+        Crusty3: yeah, nobody ever stops here because of it #line:145d90
+        Crusty3: but i ain't superstitious #line:beefdb
+        Crusty3: out on the west coast, i punched a cop #line:691ad1
+        Crusty3: and fought off his dog #line:3e84b3
+        Crusty3: to keep a half pizza i found #line:a0a557
+        <<lookAt Germ Mae>>
+        Mae: wow. finding pizza is a criminal offense? #line:187190
+        <<lookAt Germ Crusty3>>
+        Crusty3: bro whatever they say is a criminal offense is a criminal offense #line:223858
+        Crusty3: but i digress #line:f8f841
+        <<lookAt Germ Mae>>
+        Mae: ghost? #line:cb06ae
+        <<lookAt Germ Crusty3>>
+        Crusty3: yeah the dumb ones say the ghost grabs the good people #line:89a2fa
+        Crusty3: i ain't good, so i got nothin' to fear #line:3232a8
+        Crusty3: you feel me? #line:df0d87
+        <<lookAt Germ Mae>>
+        Mae: yeah. #line:3d51d8
+        <<lookAt Germ Crusty3>>
+        Germ: good by what standard? #line:a25ef5
+        Crusty3: damned if i know, bro. #line:5a3aae
+        Crusty3: but here's what i'll do: #line:1fcacf
+        Crusty3: i don't believe in ghosts, but i know there's a god #line:f501c8
+        Crusty3: up there watching out for all their children down here #line:66c676
+        Crusty3: and i'll say 7 prayers for you #line:dd8dbd
+        Crusty3: and that'll keep that nasty ghost at bay. #line:fcbd99
+        <<lookAt Germ Mae>>
+        Mae: Wow. Thanks. #line:b35a28
+        Mae: That is like, sincerely very kind of you. #line:da97fb
+    ->have you met anyone named Casey out on the rails? #line:d55163
+        <<lookAt Germ Crusty3>>
+        Crusty3: hm. lemme think. #line:7a1899
+        Crusty3: you know what he or she looked like? #line:3f0688
+        <<lookAt Germ Mae>>
+        Mae: He. He looked kinda like me. A little taller. Orange-ish hair. #line:3e81ff
+        <<lookAt Germ Crusty3>>
+        Crusty3: Nah, man. I don't recollect. #line:d3ce21
+        Crusty3: But I seen like, a thousand dudes out there. #line:71f0e4
+        <<lookAt Germ Mae>>
+        Mae: It's ok. #line:0ed130
+        <<lookAt Germ Crusty3>>
+        Crusty3: I tell you what- #line:b84bf3
+        Crusty3: I'll ask around, and if I find him #line:9ba83f
+        Crusty3: or someone who's seen him, #line:3c09d3
+        Crusty3: I'll say that Mae from Possum Springs is looking for him. #line:a78532
+        <<lookAt Germ Mae>>
+        Mae: Thanks. That means a lot. I owe you. #line:7f0f12
+<<lookAt Germ Crusty3>>
+Crusty3: nah, nah #line:430ab0
+Crusty3: it's a cold world #line:b1c0b9
+Crusty3: run by the worst people #line:656f61
+Crusty3: and good men die for god knows what reason #line:d0a00c
+Crusty3: we gotta take on, like, duties for one another, ya know? #line:17867f
+<<lookAt Germ Mae>>
+Mae: yeah. #line:d96688
+Mae: thanks again. #line:f22bed
+<<lookNearest Germ>>
+===
+title: Germ_A3D3_02
+tags: 
+colorID: 4
+position: -13665,-1462
+---
+Germ: Something bad's coming. #line:e86796
+Mae: I know. #line:605ab5
+Mae: It's a ghost, Germ. A real life ghost. #line:6ad8ab
+Germ: There aren't ghosts. #line:569e65
+Germ: Ghosts aren't a thing. #line:d711fa
+Mae: how do you know? #line:f894ff
+Germ: my brother would have visited. #line:5e3793
+<<wait 2>>
+Mae: geez. #line:71d53e
+Germ: Welp, dinner time! #line:13e181
+Germ: See ya! #line:116bd5
+[[WalkGermOut]]
+===
+title: Germ_A3D3
+tags: 
+colorID: 4
+position: -13958,-1822
+---
+<<if $germ is 0>>
+    <<set $germ += 1>>
+    [[Germ_A3D3_00]]
+<<elseif $germ is 1>>
+    <<set $germ += 1>>
+    [[Germ_A3D3_01]]
+<<elseif $germ is 2>>
+    [[Germ_A3D3_02]]
+<<endif>>
+===
+title: Germ_A3D4_00
+tags: 
+colorID: 4
+position: -13196,-1163
+---
+Mae: Hey Germ. #line:33c4eb
+Germ: Hey Mae. #line:6e8aec
+Germ: Totally what's up? #line:1a992c
+Germ: Other than the obvious. #line:c18849
+Germ: You seem... something too. #line:814887
+Mae: Do I look any different? #line:39c595
+Germ: To me you do. #line:44d741
+Mae: Thanks for your attention. #line:2a1448
+//<<set $germ_done to 1>>
+[[Germ_A3D4_QuestCheck]]
+===
+title: GermEnterBridge_A3D2
+tags: 
+colorID: 4
+position: -14417,-1039
+---
+<<if $germ_friendship_quest_2>>
+    <<if $germ_bridge is 0>>
+        <<walk Germ GermToBridge>>
+        <<walk Mae MaeToBridge>>
+        <<cameraLookAt CameraBridgeEdge 6>>
+        Mae: you sure your bike’s gonna be safe? #line:0002b3
+        Germ: yeah. I don’t think anyone’s been in that shed for years #line:ccd736
+        Germ: sorry you fell off #line:a680ac
+        Mae: it’s cool. I feel so alive. #line:136728
+        Germ: scrapes are cool like that #line:40ac4d
+        -> i skinned my elbow #line:2f5e6e
+        	Germ: i can like, ride you to the hospital #line:8aad76
+        	Germ: for this serious wound #line:5ffe74
+            Mae: put the siren on #line:fa4728
+        -> i hit my head pretty hard #line:4d9927
+        	Germ: did you hurt your brain? #line:f09e3b
+        	Mae: naw, i got a thick skull #line:f4cb4c
+        	Germ: that’s cool #line:4f2ac2
+        <<toggleBlinks Germ 0>>
+        <<close>>
+        <<walk Germ GermOnBridge>>
+        <<wait 1>>
+        <<walk Mae MaeOnBridge>>
+        <<cameraLookAt CameraBridgeMiddle 6>>
+        <<waitForMove Germ>>
+        //they walk out onto the bridge and Germ jumps up onto the railing.
+        <<playOneShot event:/mae/footsteps/metal/footstep_metal_jump Germ>>
+        <<jumpThroughUp Germ>>
+        <<wait 2>>
+        //We’ll need a Germ balancing idle here//
+        <<lookAt Mae Germ>>
+        Mae: So what are we doing here? #line:dd7b49
+        <<lookAt Germ Mae>>
+        Germ: do you trust me? #line:8d5fee
+            ->sure #line:eb61d0
+                Germ: really? #line:52ff73
+                Mae: yeah. i guess. #line:6fbf4f
+            ->never thought about it before #line:145602
+        Germ: ok #line:237a34
+        <<lookForward Germ>>
+        Germ: bye #line:67f48e
+        <<close>>
+        <<wait 1>>
+        //Germ jumps off the bridge//
+        <<jumpThrough Germ>>
+        <<wait 1.5>>
+        <<warp Germ GermOnBottom>>
+        Mae: OH MY GOD GEEEERM!!! #line:45ed00
+        Mae: ...oh geez, dude... #line:75968d
+        Germ: hey! #line:001ba5
+        Mae: WHAT THE HELL, MAN? #line:faefaf
+        <<resetRig Germ>>
+        Germ: JUMP! It’s fine! #line:a6e01d
+        Mae: oh for real? #line:67e353
+        //<<trigger Germ Blink>>
+        <<toggleBlinks Germ 1>>
+        <<flip Germ -1>>
+        <<cameraFollowPlayer 2>>
+    <<endif>>
+<<endif>>
+===
+title: Germ_Bridge
+tags: 
+colorID: 4
+position: -14547,-731
+---
+<<if $germ_bridge is 1>>
+    Mae: ok so... #line:cd7ee6
+    Germ: I started coming down here a few months ago #line:8cec05
+    Germ: to, like, just hang #line:bd86c8
+    Mae: ok #line:c1c228
+    <<warp Rabies RabiesTunnelExit>>
+    <<walk Rabies RabiesTunnelEnter>>
+    Germ: and I noticed- #line:77fb24
+    <<lookAt Germ Rabies>>
+    Germ: oh! hey Rabies! #line:209820
+    <<playerFace 1>>
+    <<lookForward Mae>>
+    Mae: AAAGH!! #line:a68bc3
+    <<lookAt Germ Mae>>
+    Germ: Rabies is my sewer friend #line:1783cb
+    Mae: It’s name is Rabies? #line:0c8f52
+    Germ: HIS name is rabies. #line:4bab40
+    <<lookAt Mae Rabies>>
+    Mae: His name is Rabies? #line:d5006d
+    <<lookAt Germ Rabies>>
+    Germ: I found him when they pulled that body out of here #line:1fae68
+    Germ: after that big flood a few months ago. #line:3b7a3d
+    Mae: oh neat. #line:09053e
+    Germ: He was sad and wet and hungry so I brought him chips and ice cream #line:4c6483
+    Mae: sounds right #line:98968a
+    Germ: and I wanted the other possums to not pick on him #line:63f06b
+    Germ: so i named him after something they’re all afraid of #line:813703
+    Mae: This is the best story ever. #line:1f1635
+    <<lookAt Mae Rabies>>
+    <<lookAt Germ Rabies>>
+    Germ: He’s so rad. #line:c24113
+    Germ: HEY RABIES! #line:5649a2
+    Germ: SPEAK! #line:e12afe
+    <<playOneShot event:/bridge/possum_speak Rabies>>
+    Rabies: HHHRRRRRGKK!!! #line:2f375c
+    Mae: oh my gaaaawd #line:ad3247
+    Germ: He’s gonna rule this whole ravine someday #line:2e4914
+    Germ: you be nice to Mae, ok Rabies! #line:ca0645
+    <<close>>
+    <<walk Rabies RabiesTunnelExit>>
+    Mae: I love him. #line:215d0c
+    <<lookAt Mae Germ>>
+    <<lookAt Germ Mae>>
+    Germ: you got any pets? #line:c21fba
+    <<if $times_fed_rats >= 2>>
+    	Mae: I got some rats downtown. #line:ba15b3
+    	Germ: sweet. #line:5740a9
+    <<else>>
+        Mae: Not really... #line:a66506
+        Germ: you should get one. #line:187779
+        Mae: my dad has a bird. #line:99cc2f
+        Germ: that's a garbage pet. #line:c77b1a
+        Mae: tell me about it. #line:801a40
+    <<endif>>
+    <<wait 2>>
+    Mae: so there's like... weird stuff on the walls in here... #line:fdc170
+    Germ: ancient cave paintings. #line:a277ac
+    Mae: not new, at least. #line:388500
+    Germ: what do you think it means? #line:78a317
+        ->if you sleep here you might drown #line:d4332c
+            Germ: true true. #line:c5f77d
+            Mae: that's sad. #line:80d09b
+            Germ: yeah. but it's sad enough that like #line:9fb68f
+            Germ: it gets too weird to be sad. #line:3f5594
+            Mae: i guess. #line:33510a
+            Mae: just like #line:344512
+            Mae: sucks people are sleeping in here. #line:1a74f6
+            Mae: not like we don't got vacant buildings. #line:1b900a
+            Germ: it's dumb. #line:ad5675
+        ->rabies is trash king #line:a89efe
+            Germ: it's a prophecy. #line:11a621
+            Mae: written by ancient hobos. #line:7ee4a2
+    Germ: there's like #line:dbd97a
+    Germ: all kinds of secret places like this around town. #line:e49f0a
+    Germ: i'm like the only person to really map th- #line:1199b0
+    <<close>>
+    <<trigger Rabies Candy>>
+    <<warp Rabies RabiesTunnelExit>>
+    <<walk Rabies RabiesTunnelEnter>>
+    <<wait 2>>
+    <<lookAt Germ Rabies>>
+    <<lookAt Mae Rabies>>
+    Germ: HEY RABIES!! WHATCHA GOT THERE??? #line:ec53e8
+    <<close>>
+    <<waitForMove Rabies>>
+    <<trigger Rabies SitUp>>
+    <<playerFace 1>>
+    Mae:{width=4} oh my gaaaaaaaaaaaaaaaawd! #line:5db4a9
+    Mae: is that a Fiasco bar? #line:105481
+    Germ: you want me to unwrap that for you, guy? #line:937913
+    <<close>>
+    <<trigger Rabies Unwrap>>
+    <<wait 1>>
+    Mae: HOLY EFFING CRAP!!! #line:adf4de
+    Germ: HE! IS! THE! BEST! #line:ff3b14
+    <<lookAt Mae Germ>>
+    <<lookAt Germ Mae>>
+    Mae: You should take him home! #line:e46c09
+    Germ: No way. He’d pee all over everything #line:5d6e18
+    Germ: and dig a hole in the wall and live there. #line:b54ea9
+    Mae: oh yeah #line:a54639
+    <<lookAt Germ Rabies>>
+    Germ: Rabies is wild. Let him be wild. #line:bc88f4
+    <<lookAt Mae Rabies>>
+    <<close>>
+    <<trigger Rabies Bite>>
+    <<wait 2>>
+    Mae: AAAAGGH LOOK HE’S EATING IT!!! #line:85e238
+    [[GermBridgeEnding]]
+<<endif>>
+===
+title: Landed
+tags: 
+colorID: 4
+position: -14298,-814
+---
+<<flip Mae 1>>
+Mae: dude you scared me to death! #line:73ff22
+Germ: why? You jump off big stuff all the time! #line:88eafd
+Mae: yeah but like... that’s in town. Nice flat ground. #line:4ea313
+Mae: not like i can just go jumping off cliffs and whatever #line:f61ede
+Germ: oh yeah i forgot you grew up in town #line:2b6b6b
+Mae: so what are we doing here? #line:0893eb
+Germ: i come here a lot. #line:4ae308
+Germ: wanted to show you something. #line:19a215
+    ->you hang out at a sewer pipe? #line:905225
+        Germ: i mean, not exclusively #line:8f80cc
+    ->are you showing me the sewer? #line:605a62
+        Germ: i thought you'd be interested. #line:6ddcb2
+Germ: i saw like 10 rats down here once! #line:faf809
+Mae: ok that’s pretty cool #line:95c133
+<<close>>
+<<walk Germ GermInTunnel 1>>
+<<wait 5>>
+<<set $germ_bridge to 1>>
+===
+title: GermEnterOutskirts_A3D4
+tags: 
+colorID: 4
+position: -13197,-912
+---
+<<if $germ_friendship_quest_3>>
+    Germ: Gotta go now. #line:06e815
+    <<set $germ_done to 1>>
+    Mae: Bye! #line:a68faf
+    <<unlockDoodle GermFQ3>>
+    <<set $germ_friendship_quest_3 to 0>>
+    <<set $did_germ_friendship_quest_3 to 1>>
+    <<unlockAchievement He's_From_Somewhere>>
+    [[WalkGermOut]]
+<<endif>>
+===
+title: WalkGermOut
+tags: 
+colorID: 4
+position: -13682,-173
+---
+<<close>>
+<<walk Germ BehindStairs>>
+<<set $germ_done to 1>>
+===
+title: GermEnterOutskirts_A3D2
+tags: 
+colorID: 4
+position: -14123,-419
+---
+<<if $germ_friendship_quest_2>>
+    Germ: See ya! #line:0cbf3d
+    <<set $germ_done to 1>>
+    <<set $germ_friendship_quest_2 to 0>>
+    <<unlockDoodle GermFQ2>>
+    <<set $did_germ_friendship_quest_2 to 1>>
+    [[WalkGermOut]]
+<<endif>>
+===
+title: GermBridgeEnding
+tags: 
+colorID: 4
+position: -14828,-642
+---
+<<irisOut 1 wait>>
+<<scene Outskirts>>
+===
+title: UnusedGermAndRabiesStuff
+tags: unused
+colorID: 0
+position: -15079,-638
+---
+        Mae: do you think that’s even remotely right? #line:459a87
+        Germ: we’ll never know #line:278064
+        Mae: yeah i guess #line:3c9dfe
+        Germ: that’s like... a lot of life #line:b52d25
+        Mae: deep. #line:b5e169
+        Mae: so like, someone really died in here? #line:93c658
+        Germ: yep, it was in the summer, and- #line:a00cc7
+        <<close>>
+        <<trigger Rabies Candy>>
+        <<warp Rabies RabiesTunnelExit>>
+        <<walk Rabies RabiesTunnelEnter>>
+        <<wait 2>>
+        Germ: HEY RABIES!! WHATCHA GOT THERE??? #line:92232a
+        <<close>>
+        <<waitForMove Rabies>>
+        <<trigger Rabies SitUp>>
+        <<playerFace 1>>
+        Mae:{width=4} oh my gaaaaaaaaaaaaaaaawd! #line:a50bec
+        Mae: is that a Fiasco bar? #line:caae38
+        Germ: you want me to unwrap that for you, guy? #line:d4f817
+        <<close>>
+        <<trigger Rabies Unwrap>>
+        <<wait 1>>
+        Mae: HOLY EFFING CRAP!!! #line:c432f5
+        Germ: HE! IS! THE! BEST! #line:688964
+        Mae: You should take him home! #line:cb81f2
+        Germ: No way. He’d pee all over everything #line:fa7055
+        Germ: and dig a hole in the wall and live there. #line:82cc9f
+        Mae: oh yeah #line:ad6ed2
+        Germ: Rabies is wild. Let him be wild. #line:c045ef
+        <<close>>
+        <<trigger Rabies Bite>>
+        <<wait 2>>
+        Mae: AAAAGGH LOOK HE’S EATING IT!!! #line:9189f9
+        <<irisOut 1 wait>>
+        <<scene Outskirts>>
+===
+title: Germ_A3D4_QuestCheck
+tags: 
+colorID: 4
+position: -12954,-1170
+---
+<<if $did_germ_friendship_quest_1 and $did_germ_friendship_quest_2>>
+	Germ: Do you want to come? #line:ccecf7
+	Germ: Got a trampoline! #line:b73797
+	-> Oh. Uh. #line:e63ab6
+        Mae: Nah. I'm not really feeling well. #line:90f671
+        Germ: Cool. Seeya! #line:cafcf4
+        [[WalkGermOut]]
+	-> Sure! #line:7650b6
+        Germ: Alright, let's go! #line:81478b
+        <<set $germ_friendship_quest_3 to 1>>
+        <<irisOut 1 wait>>
+        <<scene GermHouse>>
+<<else>>
+    Germ: No prob! #line:8bf985
+    Germ: I gotta get home. #line:ce33dc
+    Mae: Where do you live? #line:a277cf
+    Germ: Across the parking lots, up the hill. #line:988109
+    Germ: back in the woods. #line:1833aa
+    Mae: Huh. I've never been back there. #line:f852fe
+    Germ: I have! #line:3ddc59
+    Mae: Yes you have. #line:50aedb
+    Germ: Seeya! #line:6fb421
+    [[WalkGermOut]]
+<<endif>>
+===

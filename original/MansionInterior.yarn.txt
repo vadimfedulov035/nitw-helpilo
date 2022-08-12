@@ -1,0 +1,697 @@
+title: EnterLevel
+tags: 
+colorID: 4
+position: 152,-552
+---
+<<setCanInteract Gregg 0>>
+
+<<if $gregg_iq_mansion is 0>>
+    <<follow Gregg Mae 1>>
+    <<set $gregg_iq_mansion to 1>>
+    [[BasementIntro]]
+<<else>>
+    <<warp Gregg Mae>>
+    <<follow Gregg Mae 1>>
+<<endif>>
+===
+title: Locked00
+tags: elevator8-9
+colorID: 4
+position: 1472,-44
+---
+<<if $mansion_cellar_door_done>>
+    [[ItsLocked]]
+<<elseif $mansion_checked_locked_elevator>>
+    Gregg: FVRHJ, CM0SEM VN BJ1LTN 4EPE3 3ADH%% DBEPJ! #line:4809b0
+<<elseif $has_paperclip and $has_pliers>>
+    Gregg: VADH0, U0UP06Y% B3V0MATJ #line:56083d
+    <<close>>
+    <<castToSurface Gregg 0>>
+    <<run Gregg GreggLockPick2 wait>>
+    <<flip Gregg -1>>
+    <<setAnimBool Gregg lockPicking 1>>
+    Gregg: ...B TEMH0TE... #line:833104
+    Mae: 60SE4KN. UP0CTN. #line:f1d8d9
+    Gregg: BCE H0PM, R... #line:749b19
+    <<close>>
+    <<cameraLookAt CameraElevatorGoingBack 2>>
+    <<wait 1>>
+    <<playOneShot event:/mansion/elevator_bell BasementElevatorSFX>>
+    <<wait 1>>
+    Mae: 4EPT. #line:a338f2
+    Gregg: UP0D0VSA% B3VAMJ1BATJ #line:cf67ad
+    Gregg: U0CM0TPN, CM0SEM VN BJ1LTN 4EPE3 3ADH%% DBEPJ #line:7f4d90
+    <<close>>
+    <<cameraFollowPlayer 1>>
+    <<stopFollowing Gregg>>
+    <<createLocatorAt Mae MaeByElevator8>>
+    <<set $mansion_checked_locked_elevator to 1>>
+<<else>>
+    Mae: 3AKPJ1T0! #line:31b641
+    Gregg: 4EPT B03JMN! #line:57a453
+<<endif>>
+
+===
+title: Locked01
+tags: 
+colorID: 4
+position: 1748,-56
+---
+<<if $has_paperclip and $has_pliers>>
+    <<set $mansion_unlock_01 to 1>>
+    Mae: HY 4T0, MJ1 F0T0BJ1? #line:194063
+    Gregg: DA, K0HE4H0. #line:588a62
+    Gregg: 3A PA60TY #line:ec05d8
+    Gregg: K0FDA-HN6YDJ R, TNUA, #line:33b2b7
+    Gregg: C6EFY N3 0KPYSH0L T%PJMJ1 #line:d2dd34
+    Gregg: UPNMEHNB CB0N HABJ1KN. #line:cf97ba
+    Mae: 4YBAK, 3A 4T0 TJ1 C06PAVCR CADNTJCR? #line:721695
+    Gregg: 3A 4T0-T0 TNUA GT0F0, R DYMA%. #line:b843d5
+    <<close>>
+    <<castToSurface Gregg 0>>
+    <<walk Gregg GreggLockPick1 wait>>
+    <<flip Gregg -1>>
+    <<setAnimBool Gregg lockPicking true>>
+    <<wait 1>>
+    <<playOneShot event:/mansion/footsteps_01>>
+    <<wait 5>>
+    Mae: G, 4YBAK... #line:0ef83f
+    Mae: TE6E 6J1 U0T0P0UNTJCR #line:20b199
+    Gregg: 4T0? #line:c7754e
+    <<playMusic spooky_mansion_intense 10>>
+    Mae: KT0-T0 NDET. #line:592fdd
+    Mae: 0HN B K0PND0PE, GTAS0M HNSE... #line:5c4041
+    Gregg: 4EPT. TAK. R 3AK0H4Y UPRM0... #line:71dd9e
+    <<close>>
+    <<wait 2>>
+    <<playOneShot event:/mansion/footsteps_02>>
+    <<wait 2>>
+    <<playOneShot event:/mansion/elevator_bell SceneLink4>>
+    <<cameraLookAt CameraToElevator4 3>>
+    Mae: 60SE #line:1930d0
+    Mae: 0X, 4YBAK #line:e77413
+    Mae: VNZT #line:98096c
+    Gregg: DEPJM0 #line:a845e7
+    Gregg: DEPJM000 #line:dc9613
+    Mae: CK0PEE! #line:a8a71d
+    <<cameraFollowPlayer 3>>
+    <<setAnimBool Gregg lockPicking false>>
+    Gregg: BCE, U0VY4NV0CJ! #line:214592
+    <<close>>
+    <<tell SceneLink6 Open>>
+    <<wait 1>>
+    Mae: U0QVN!!! #line:27ccca
+    //they get in and they zoom down to the basement//
+    <<tell SceneLink6 Activate>>
+<<elseif $has_paperclip>>
+    Mae: X0P0Q0, Y HAC ECTJ CKPEUKA #line:c357fa
+    Gregg: 0CTAVNCJ UV0CK0FY6OJ1. #line:18bb24
+<<elseif $has_pliers>>
+    Mae: X0P0Q0, Y HAC ECTJ UV0CK0FY6OJ1 #line:8cc8e7
+    Gregg: 0CTAVACJ CKPEUKA. #line:2bf730
+<<elseif $looking_for_lockpick>>
+    Gregg: HYSHJ1 CKPEUKA N UV0CK0FY6OJ1. KPNMNHAVJHJ1E QTYKN. #line:8e534c
+<<endif>>
+===
+title: Elevator
+tags: 
+colorID: 4
+position: 2000,-59
+---
+-> U0DHRTJCR #line:4769be
+    <<set $elevator_choice to 0>>
+-> CUYCTNTJCR! #line:f18de1
+    <<set $elevator_choice to 1>>
+===
+title: Office
+tags: 
+colorID: 4
+position: 2385,-549
+---
+Mae: XAX. GT0 0ZNC. #line:7bbc3a
+Gregg: CKY4H0BAT0 3DECJ. #line:0363e2
+Mae: ECTJ 4T0-HN6YDJ NHTEPECH0E? #line:d9a628
+Gregg: 0ZNCHJ1E  UPNHADVESH0CTN. #line:92e06d
+Gregg: B0T KAVEHDAPJ. #line:1d1a2f
+Mae: U0X0SE HA KPJ1TJ1E M0CTJ1. #line:f73494
+Gregg: HA T0M CT0VE TB0PNTCR HE U0LMN 4T0. #line:99598e
+Mae: GT0 CT0V KPYT0F0 4YBAKA. #line:7c8c69
+Mae: DPYF0L 4YBAK - 3AHYDA. #line:222c60
+Gregg: NHTEPECH0, 0HN DPY3JR? #line:43cb8d
+Gregg: B CMJ1CVE, TJ1 SE M0SEQJ PA60TATJ C KEM-T0 N HE DPYSNTJ C HNM. #line:d99daa
+Mae: XM, DA. #line:4858aa
+Gregg: M0SET GTA K0MHATA HE TAKAR YS N CKY4HAR. #line:103359
+Mae: HET, 0UPEDEVEHH0 HET. #line:3a2d8e
+<<set $mansion_office_done to 1>>
+<<set $visited_mansion_office to 1>>
+===
+title: PaperClip
+tags: 
+colorID: 4
+position: 2541,-1
+---
+Mae: HAQVA! #line:de3d42
+<<if $has_pliers>>
+	Gregg: NTAK, Y HAC ECTJ BCE, 4T0 HYSH0. #line:452217
+	Gregg: DABAL 0TKP0EM VNZT N U0CM0TPNM, 4T0 HABEPXY. #line:eed9d3
+	Mae: DYMA%, TAM EWE 12 VNZT0B. #line:f9c7fb
+<<else>>
+	Mae: HY, 0CTAV0CJ CAM0E VEFK0E. #line:115365
+	Gregg: DA... UV0CK0FY6OJ1, D0VSH0 6J1TJ, VEF4E HALTN. #line:d8a808
+	Mae: XM... #line:8d2706
+	Mae: HY, DABAL BEPHEMCR. #line:0b2f85
+<<endif>>
+<<set $has_paperclip to 1>>
+===
+title: Office00
+tags: 
+colorID: 4
+position: 2845,-45
+---
+Mae: SBA4KA! #line:2721c5
+<<set $office_00_done to 1>>
+===
+title: Office01
+tags: 
+colorID: 4
+position: 3078,-38
+---
+Mae: 3AMETKN! #line:a2b77d
+<<set $office_01_done to 1>>
+===
+title: Office02
+tags: 
+colorID: 4
+position: 3337,-26
+---
+Mae: 6YVABKN! #line:890f23
+<<set $office_02_done to 1>>
+===
+title: Office03
+tags: 
+colorID: 4
+position: 3579,-29
+---
+Mae: 3APRDKA 0T TEVEZ0HA! #line:365ec0
+<<set $office_03_done to 1>>
+===
+title: Office04
+tags: 
+colorID: 4
+position: 3821,-38
+---
+Mae: 0DHA N3 GTNX XYVA DEB0K! #line:f17398
+<<set $office_04_done to 1>>
+===
+title: Office05
+tags: 
+colorID: 4
+position: 4069,-32
+---
+Mae: Z0T0 4JNX-T0 4EPT0BJ1X DETEL! #line:953268
+<<set $office_05_done to 1>>
+===
+title: Office06
+tags: 
+colorID: 4
+position: 4319,-34
+---
+Mae: Z0T0 4EPT0B0L 0X0THN4JEL C06AKN! #line:d34ab3
+<<set $office_06_done to 1>>
+===
+title: Office07
+tags: 
+colorID: 4
+position: 4555,-35
+---
+Mae: 4EK N3 D0HAT BYVZ! #line:a6e9d0
+Mae: 3AUPRFAL K0VECHNOY, HGHCN. #line:a6e604
+<<set $office_07_done to 1>>
+===
+title: Office08
+tags: 
+colorID: 4
+position: 4812,-28
+---
+Mae: 3D0P0BEHHJ1L CTEUVEP! #line:41446d
+<<set $office_08_done to 1>>
+===
+title: Locked01b
+tags: 
+colorID: 4
+position: 1747,-268
+---
+Mae: 3AKPJ1T0! #line:2aacd7
+Gregg: YX. #line:c6b5f4
+===
+title: WeirdArt
+tags: 
+colorID: 4
+position: 2284,272
+---
+Mae: 60SE M0L #line:933c05
+Mae: 4T0 *GT0* 3A MECT0? #line:1d4db7
+Gregg: 3AUPETHAR 30HA. #line:edcf26
+<<close>>
+<<cameraLookAt WeirdArt 3>>
+<<lookAt Mae WeirdArtCharacter>>
+<<lookAt Gregg WeirdArtCharacter>>
+<<wait 2>>
+<<playAmbientSFX _AmbientSFX:amb_ibon 8>>
+Mae: 0HN C06NPA%TCR CTATJ CTPAHHJ1M MY3EEM NCKYCCTB? #line:c64f70
+Gregg: XPEH0B0E GT0 NCKYCCTB0. #line:3f2611
+Mae: CK0PEE CTPAHH0E. #line:7aa909
+Gregg: H0 GT0 NCKYCCTB0. #line:7fd741
+Mae: KAK0F0... #line:6ae7a9
+Mae: HET, GT0 4T0-T0 3HAK0M0E #line:75dd0c
+Mae: FDE R EE PAHJQE BNDEVA? #line:647a5a
+<<close>>
+// elevator sound! it's going down
+<<playAmbientSFX _AmbientSFX:elevator_run_other>>
+<<fadeOutAmbientSFX _AmbientSFX:elevator_run_other 10>>
+<<lookLeft Gregg>>
+<<wait 3>>
+Gregg: B0T DEPJM0! #line:02f868
+Gregg: VNZT! #line:604e73
+Mae: U04EMY GTA KAPTNHA MHE 3HAK0MA? #line:111239
+<<close>>
+<<flip Gregg -1>>
+<<run Gregg OffLeft>>
+<<wait 1>>
+Gregg: 6VNH! U0QVN YSE!!! #line:ed9f3b
+<<close>>
+<<wait 2>>
+// window breaking sound
+<<playAmbientSFX _AmbientSFX:window_smash>>
+<<wait 3>>
+Gregg: VNZT U0DHNMAETCR!!! #line:e51ab8
+<<playAmbientSFX _AmbientSFX:elevator_run_other 10>>
+<<wait 2>>
+
+<<set $mansion_wall_left_top_done to 1>>
+<<stopFollowing Gregg>>
+<<run Mae OffLeft>>
+
+<<fadeOutMusic 2>>
+<<wait 1>>
+<<irisOut 1 wait>>
+<<scene MansionFireEscape -1>>
+===
+title: BasementIntro
+tags: bikeCrash
+colorID: 4
+position: 405,-370
+---
+//Mae and Gregg are laying on the floor, having fallen down the stairs//
+Gregg: CPAHAR #line:d3990d
+Gregg: C0BA! #line:9def13
+Mae: TJ1 B H0PME? #line:322f34
+Gregg: R TAK DYMA%. #line:7cffe7
+Gregg: GT0 6J1V0 0UACH0! #line:6ec1b5
+Mae: R HE 3HAVA, 4T0 C0BJ1 TAK HAUADA%T! #line:6466db
+Mae: B 4EM 6J1VA EE 4EPT0BA UP06VEMA? #line:708cb5
+//Gregg: You ok?
+//Mae: Hurt my knee falling off the bike.
+//Mae: reeeeally looking forward to all the stairs we’re gonna have to climb in here...
+//Gregg: Alright well.
+//both get up//
+<<wait 2>>
+<<lookRight Mae>>
+<<wait 1>>
+Mae: NTAK, MJ1 B U0DBAVE. #line:dc421c
+<<lookNearest Mae>>
+Gregg: KCTATN, K 4EMY MJ1 DELCTBNTEVJH0 CTPEMNMCR? #line:36eeaa
+Mae: R 4NTAVA, 4T0 T0T, KT0 0CTAETCR 3DECJ D0U03DHA, #line:09d149
+Mae: M0SET YCVJ1QATJ CTPAHHJ1E 3BYKN. #line:e6bb6f
+Mae: N3 MECTA U0D HA3BAHNEM "3AV KAPT" #line:05c0fb
+Mae: N N3 KAK0L-T0 3AUPETH0L 30HJ1. #line:042726
+Gregg: TEXHN4ECKN, UPRM0 CEL4AC, BCE 3DECJ - GT0 3AUPETHAR 30HA. #line:a941b6
+Mae: BEPH0, 4YBAK. BEPH0. #line:7b4290
+
+===
+title: BetweenElevators
+tags: 
+colorID: 4
+position: 1204,-526
+---
+<<set $looked_between_elevators to 1>>
+Gregg: 4YBNX, GT0, TNUA... DBA VNZTA? #line:9ce589
+Gregg: N 0HN, BP0DE, HE CTAPJ1E. #line:98593d
+Gregg: K T0MY SE, 3AUEPTJ1. #line:1dabd2
+Mae: 60SE. M0SET, GT0 MECT0 C0CT0NT N3 VNZT0B. #line:497d64
+Gregg: CTPAHH0. 3A4EM NMEHH0 DBA? #line:a6f189
+Mae: 0DNH DVR UPN3PAK0B, DPYF0L DVR H0PMAVJHJ1X. #line:c0ef8a
+Gregg: UPN3PA4HAR 4ACTHAR BE4EPNHKA HA KPJ1QE. #line:5752f1
+Mae: C UPN3PA4HJ1M 6ACCELH0M. #line:288a62
+Gregg: HADE%CJ, TE6R CUV%WNT GTNM VNZT0M. #line:baa1ea
+Mae: HADE%CJ, TB0R F0V0BA 3ACTPRHET B DBEPRX #line:96aa5b
+Mae: N EE 0TPY6NT. #line:58d0c7
+Gregg: HADE%CJ, TJ1 CBAVNQJCR B QAXTY VNZTA. #line:223f5c
+Mae: HADE%CJ, TJ1 3ACTPRHEQJ B TEMH0M VNZTE, #line:955279
+Mae: HAU0VHEHJ1M B0D0L, #line:c2a76b
+Mae: C F0V0DH0L AKYV0L. #line:9fbf15
+Gregg: CPAHJ F0CU0DHR, GT0... #line:28c0b0
+Gregg: *DP0SJ* #line:254c86
+===
+title: Stairs
+tags: 
+colorID: 4
+position: 1488,-490
+---
+Mae: "3AKPJ1T0 DVR CTPAX0B0F0 0T4ETA" #line:03d45c
+Gregg: “UPEDYUPESDEHNE: U0 VECTHNOE HE B36NPATJCR" #line:b017b0
+Mae: "GTA VECTHNOA C0 BPEMEH U0CTP0LKN D0MA #line:ffb1a5
+Mae: N B DAHHJ1L M0MEHT HEUPNF0DHA DVR U0VJ30BAHNR." #line:08fabc
+Gregg: KAK0F0 4EPTA? "HEUPNF0DHAR" VECTHNOA? #line:74b6cf
+Mae: 3HA4NT, HAM HAD0 UP0CT0... #line:c44486
+Gregg: B3VETETJ? #line:bbeb21
+Mae: XAX. #line:624f19
+<<set $mansion_stairs_done to 1>>
+===
+title: Elevator1-2
+tags: 
+colorID: 4
+position: 2002,-325
+---
+<<if $looked_between_elevators>>
+	Mae: 0, U0CM0TPN-KA. #line:22af4f
+	Gregg: VNZT H0MEP 3 #line:410b9b
+	Mae: U0X0SE, 0H HE 3A6V0KNP0BAH. #line:b6e07b
+	Gregg: VNZTJ1 BE3DE, 4YBNX. #line:bc7e26
+	Mae: AFA. GT0 CTPAHH0. #line:586aa2
+<<else>>
+	Mae: XEL. GT0 VNZT. #line:74e80e
+	Gregg: VADH0. #line:7bb01b
+	Mae: AFA, TAK T04H0 6YDET VEF4E, 4EM U0 VECTHNOE. #line:c1a5f2
+<<endif>>
+<<set $elevator_1_2_done to 1>>
+===
+title: SecondFloor
+tags: 
+colorID: 4
+position: 1801,-533
+---
+<<walk Mae MaeWalkOut1 wait>>
+<<wait 3>>
+Mae: HY 4T0, TJ1 NDEQJ? #line:fa9a7b
+Gregg: A *TJ1* NDEQJ? #line:c794d1
+Mae: U04EMY R D0VSHA NDTN UEPB0L? #line:6a9f2b
+Gregg: GT0 TB0L UPN3PAK! #line:42a2a0
+Mae: VADH0 #line:c794d4
+Gregg: ...0HDASEHEHACT0RWNL... #line:46adb2
+Mae: 4T0? #line:242b2d
+<<fadeOutMusic 2>>
+Mae: 4YBAK, C... #line:7c461c
+<<wait 1>>
+<<playOneShot event:/mansion/muffled_thump CreepyNoise1>>
+//interrupted by distant creepy noise (does it close the text window when it happens?). This noise is the animatronic guy upstairs (RUNNING GREGG THEME!) but we don’t know that yet, so it’s this distant muffled indistinct voice/thump that is spooky. Not like a scream or anything, just like a WMMWAAHMMWWAAAMUHHMUHH voice and then a BUMP. Shouldn’t come off as robotic until we’re in the same room as it, which will be in the Map Room//
+<<wait 2>>
+Mae: ... #line:7564b0
+Gregg: 4T0 #line:778d4a
+Gregg: GT0 6J1VA #line:e6558b
+Gregg: 3A XPEHJ? #line:15f0ee
+Mae: R HE 3HA%. #line:42277e
+Mae: 3DECJ KT0-T0 ECTJ? #line:db3a3c
+Gregg: HET! CBET BJ1KV%4EH, DBEPN 3AUEPTJ1, CHAPYSN HET MAQNH! #line:199ab1
+Mae: NTAK, 3HA4NT... #line:972f95
+Gregg: X04EQJ BEPHYTJCR? #line:e11099
+->Y TE6R ECTJ H0S? #line:c16ee8
+	Gregg: DA. #line:540f76
+	Mae: 0KEL. #line:a99010
+	Gregg: U0F0DN, X04EQJ, 4T06J1 R, B CVY4AE 4EF0, K0F0-T0 UJ1PHYV?! #line:7247d3
+	Gregg: TAK0B TB0L UVAH?! #line:282eb9
+	Mae: HET, UP0CT0, HA BCRKNL CVY4AL. #line:d414b7
+	Mae: B CMJ1CVE, #line:61c0b0
+->HET. #line:01ec9e
+	Mae: KAK 6J1 T0 HN 6J1V0, #line:e72e4b
+Mae: DBEPJ B U0DBAV 3AKPJ1VACJ Y HAC 3A CUNH0L.. #line:844239
+Gregg: AX DA. 4EPT. #line:7fe3ef
+Mae: UPNDETCR HALTN DPYF0L BJ1X0D HAPYSY. #line:a07275
+Gregg: U0F0DN, HAD0 D06ABNTJ GT0 B CUNC0K #line:6c0c3b
+Gregg: 3AV KAPT, 3AUPEWEHHAR 30HA, HALTN BJ1X0D HAPYSY #line:623748
+Mae: 6YDET CV0SH0BAT0. #line:21c24d
+Gregg: UPECTYUVEHNR. #line:dd20ac
+Mae: UPECTYUVEHNR. #line:60996a
+<<playMusic spooky_mansion>>
+===
+title: FirstFloor
+tags: 
+colorID: 4
+position: 959,-547
+---
+<<stopMoving Mae>>
+<<stopFollowing Gregg>>
+<<warp Gregg GreggFirstFloor>>
+<<warp Mae MaeFirstFloor>>
+<<flip Mae -1>>
+<<flip Gregg -1>>
+<<follow Gregg Mae>>
+<<fadeInInternal 1 wait>>
+<<set $mansion_floor_chunk to 1>>
+Gregg: 3DECJ D0B0VJH0 UYCT0 #line:9ab7fd
+Mae: N TEMH0 #line:fb1299
+Gregg: GL, A FDE Z0HAPNK? #line:351fe9
+Mae: 4EPT #line:e61e0f
+Mae: R 0CTABNVA EF0 CHAPYSN. #line:5db7b1
+Gregg: MGL. #line:bd26aa
+Mae: HA TE6R HAUAVA C0BA!!!! #line:8bec82
+Gregg: HY, VADYQKN #line:836b89
+Gregg: R 60VEE-MEHEE BNSY #line:93960b
+Mae: R T0SE. DABAL 0CM0TPNMCR. #line:fd2985
+<<set $mansion_basement_done to 1>>
+<<playMusic spooky_mansion>>
+===
+title: Attic
+tags: 
+colorID: 4
+position: 2013,266
+---
+<<castToSurface Gregg 1>>
+<<fadeOutMusic 10>>
+<<walk Mae MaeWalkOut4 wait>>
+Mae: Y HNX ECTJ VNZT, K0T0PJ1L BEDET N3 U0DBAVA HA 4EPDAK #line:ddeefa
+Mae: HAUPRMY%. #line:a5fa33
+Mae: 4T0 GT0, MATJ TB0%? #line:20279b
+Gregg: 6J1CTPEE, HAD0 HALTN BJ1X0D #line:477513
+<<close>>
+<<createLocatorAt Gregg GreggReturn>>
+<<stopFollowing Gregg>>
+//Gregg runs to the left, waits for a sec and then runs back to you//
+<<run Gregg OffLeft wait>>
+<<playAmbientSFX _AmbientSFX:attic_window_locked>>
+<<wait 1>>
+<<run Gregg GreggRunBack wait>>
+Gregg: R HAQEV 0KH0! #line:2770e9
+Gregg: KASETCR, TAM U0SAPHJ1L BJ1X0D! #line:1fb0e5
+Gregg: H0 0KH0 HE 0TKPJ1BAETCR... #line:db6d8d
+//you are free to run into the weird room//
+<<generateFollowPoints Mae Gregg>>
+<<follow Gregg Mae>>
+===
+title: OfficeForLockpick
+tags: 
+colorID: 4
+position: 2676,-556
+---
+<<walk Mae MaeWalkOut2 wait>>
+Mae: DPYFNE V%DN, K0FDA UYCKA%TCR B U0F0H% 3A UPN3PAK0M, #line:96fbb9
+Mae: 0HN, TNUA, NWYT BCRKY% KPYTY% XPEHJ... #line:72fb6f
+<<if $did_bea_investigation_quest>>
+	Mae: UP0QV0L H04J% MHE YDAV0CJ HALTN DPEBHNL CKEVET, BP0DE KAK... #line:27a0a5
+	Gregg: AFA #line:1815e1
+	Gregg: U0 KPALHEL MEPE, MJ1 EWE HE BCTPETNVN HNK0F0 MEPTB0F0 #line:8852a8
+<<endif>>
+//muffled soft noise below//
+Gregg: NTAK #line:9f6617
+Mae: DA, DABAL HALDEM YSE CKPEUKY. #line:968a74
+===
+title: Elevator3
+tags: 
+colorID: 4
+position: 2241,-307
+---
+<<fadeOutMusic 5>>
+<<if $looked_between_elevators>>
+	Mae: 4EPT B03JMN, GT0 VNZT H0MEP 4? #line:e0e1f0
+	Gregg: KAK? #line:e06689
+	Gregg: U04EMY? #line:c26b78
+	Mae: DEDA CEL4AC 6J1 U0SAV0BAVCR HA T0, KAK 6E3DAPH0 TPATRT HAQN HAV0FN. #line:a4473e
+<<else>>
+	Mae: GL... EWE 0DNH VNZT? #line:dbd3a6
+	Gregg: XAX. CTPAHH0. #line:095874
+<<endif>>
+<<close>>
+<<playOneShot event:/mansion/creepy_noise_02 CreepyNoise2>>
+<<wait 3>>
+Mae: AAAFX. #line:155601
+Gregg: GT0... HE KPYT0. #line:c4933e
+Mae: M0SET, UP0CT0 #line:38d042
+Mae: KT0-T0 0CTABNV 3DECJ TEVEZ0H N 0H... G-G #line:e18e14
+Gregg: BU0VHE B03M0SH0. #line:40823e
+Mae: B03M0SH0. #line:1e8817
+Gregg: B03M0SH0. #line:620fab
+Mae: UPECTYUVEHNR. #line:faf28a
+Gregg: UPECTYUVEHNR. #line:63b736
+<<set $elevator_3_done to 1>>
+<<playMusic spooky_mansion>>
+===
+title: Elevator6-7
+tags: 
+colorID: 4
+position: 2485,-315
+---
+<<if $looked_between_elevators>>
+	Gregg: DA TJ1 N3DEBAEQJCR. #line:44c5f4
+	Mae: VNZT H0MEP 5. #line:c822f3
+<<else>>
+	Mae: Y HNX, G-G... #line:262487
+	Mae: Y HNX TYT MH0F0 VNZT0B. #line:deb1c7
+	Gregg: GT0 04EHJ CTPAHH0. #line:2b0533
+<<endif>>
+Gregg: XM. #line:f625bc
+Gregg: 3AKPJ1T0. #line:bbc67c
+Mae: DYMA%, DAVJQE, 6E3 B3VAMJ1BAHNR UAP04KN 3AMK0B, MJ1 YSE HE UP0LDEM, TAK 4T0 #line:c706af
+Gregg: 0 4EPT #line:3ccd25
+Mae: DA TJ1 N3DEBAEQJCR. #line:587305
+Gregg: R 3A6J1V BJ1TAWNTJ 0TMJ14KY. #line:80c190
+Mae: DA TJ1 *N3DEBAEQJCR*. #line:909eae
+Gregg: HA MEHR HAUAVA C0BA!!! #line:cb3b8e
+<<wait 2>>
+Mae: 0KEL. #line:aec6dd
+Mae: N3BNHNTE. #line:b58007
+Mae: TJ1 M0SEQJ CJ1MUP0BN3NP0BATJ? #line:488388
+Gregg: YX. HYSHJ1 UV0CK0FY6OJ1... #line:126554
+Gregg: N... #line:5bac81
+Gregg: Y TE6R ECTJ CKPEUKA? #line:9e9575
+Mae: G, HET. KT0 B HAQN DHN HA GT0L UVAHETE B006WE H0CNT C C060L CKPEUKN? #line:053c1e
+<<if $visited_office>>
+	Mae: GL! M0SET, B T0M 0ZNCE ECTJ! #line:7d5127
+	Gregg: CU0PNM, 0HN PA60TA%T C 6YMAF0L N NM HAD0 #line:fabb31
+    Gregg: CKPEUVRTJ BC% GTY XPEHJ. #line:e7a543
+	Mae: KPYT0 KPYT0 KPYT0. #line:a797e2
+<<else>>
+	Gregg: HNKT0. #line:8a3d96
+<<endif>>
+Mae: NTAK, DABAL-KA MJ1 C T060L U0DJ1T0SNM... #line:e7d383
+Gregg: DABAL #line:195bbc
+Mae: 3AV KAPT, 3AUPEWEHHAR 30HA, HALTN BJ1X0D HAPYSY, HALTN UV0CK0FY6OJ1, HALTN CKPEUKY #line:6d29f1
+<<fadeOutMusic 5>>
+Gregg: KASETCR, BCE BEPH0 #line:3e9987
+Mae: KAK SE GT0 TYU0!!! #line:06f2d4
+Mae: U0X0SE HA PA60TY! BCE GT0, KAK PA60TA! #line:08e8d2
+<<close>>
+<<playOneShot event:/mansion/creepy_noise SfxMuffledThump>>
+<<wait 3>>
+Gregg: TJ1 CVJ1QAVA? #line:bda139
+Mae: AFA... #line:e07b03
+Mae: HA 4EV0BEKA HE U0X0SE #line:334483
+Gregg: AFA. 6E3 U0HRTNR, 4T0 GT0 6J1V0. #line:2e357b
+Mae: TAK, VADH0. DABAL U0CUEQNM. #line:5f7db1
+<<set $looking_for_lockpick to 1>>
+<<playMusic spooky_mansion>>
+===
+title: Basement
+tags: 
+colorID: 4
+position: 2247,-50
+---
+<<castToSurface Gregg 1>>
+<<walk Mae MaeWalkOut3 wait>>
+Mae: TB0% MATJ, MJ1 B U0DBAVE? #line:f1f15a
+Gregg: 0X, 0KEL. #line:a9a0e0
+<<if $looked_between_elevators>>
+	Mae: GL! TAK B0T KYDA BEDET T0T VNZT. #line:7460e4
+	Gregg: GT0T VNZT. #line:a064b7
+<<else>>
+	Mae: 4EPT B03JMN. R KAK-T0 DASE HE 06PATNVA BHNMAHNE, K0FDA MJ1 B0QVN. #line:251b73
+	Gregg: XAX. 3DECJ ECTJ EWE 0DNH TAK0L SE. #line:195fda
+<<endif>>
+Mae: DA-DA, NTAK... #line:859e53
+Gregg: B GT0M HE TAK YS MH0F0 CMJ1CVA #line:4bd439
+Mae: M0SET, KAK 6J1, #line:5b1216
+Mae: 0HN NCU0VJ3Y%T GT0T VNZT, 4T06J1 B03NTJ BCRKNE QTYKN B 3AV KAPT? #line:78b9c6
+Mae: A, TNUA... DPYF0L VNZT, 4T06J1 HE X0DNTJ U0 VECTHNOAM... #line:4a1a73
+Mae: H0 ECVN DASE N TAK... #line:15cc60
+Gregg: 6VNH, B0 BCEM GT0M HET CMJ1CVA. #line:83503b
+<<close>>
+<<lookUp Gregg>>
+<<wait 1>>
+<<lookUp Mae>>
+<<wait 2>>
+Gregg: HE U0X0SE, 4T06J1 4T0-T0 CUYCKAV0CJ 3A HAMN. #line:990a8c
+<<lookRight Mae>>
+Mae: "4T0-T0", A HE "KT0-T0"? #line:2e1ce9
+<<lookNearest Gregg>>
+Gregg: KT0-T0 #line:c2db95
+Mae: HA4NHAEQJ BTRFNBATJCR B GTY UPN3PA4HY% MYTJ? #line:c37a36
+Gregg: UPN3PAKN HE U0VJ3Y%TCR VNZTAMN #line:f5b66b
+Mae: U04EMY? UPN3PAK M0SET X0DNTJ U0 VECTHNOAM, #line:e6660e
+Mae: H0 0 VNZTE N PE4N 6J1TJ HE M0SET? #line:4a0ac2
+Gregg: ... #line:e07db0
+Gregg: R BEDY PE4J 0 T0M #line:7e8ca5
+//camera pans over to other elevator//
+<<lookLeft Mae>>
+<<cameraLookAt CameraOtherElevator 2>>
+Gregg: KYDA BEDET GT0T VNZT? #line:547430
+<<close>>
+<<wait 2>>
+<<lookRight Mae>>
+Mae: 0K #line:4331b0
+Gregg: UPECTYUVEHNR? #line:dcc9ff
+Mae: UPECTYUVEHNR. #line:4e9c8b
+<<lookNearest Mae>>
+<<cameraFollowPlayer 1>>
+// delete SceneLink for elevator
+<<destroy SceneLink7>>
+===
+title: AutoStairs
+tags: 
+colorID: 4
+position: 673,-557
+---
+Mae: 0K #line:886d28
+Gregg: B0T MJ1 N 3DECJ #line:35da50
+<<close>>
+<<walk Mae MaeUpStairs>>
+<<fadeOutInternal 1 wait>>
+[[FirstFloor]]
+===
+title: ItsLocked
+tags: 
+colorID: 4
+position: 1543,202
+---
+<<set $mansion_unlock_00 to 1>>
+Mae: 0HA 3AUEPTA!!!! 4T0-T0 3AUEPV0 EE!! #line:4f8a32
+Gregg: KT0-T0. #line:c32056
+Mae: MJ1 M0SEM BEPHYTJCR HABEPX? #line:b023aa
+Mae: X0TR, HET, MJ1 UP0CT0 6YDEM Y6EFATJ KPYFAMN 0T #line:97f70b
+Mae: 4EF0 6J1 T0 HN 6J1V0. #line:809161
+Gregg: K0F0 6J1 T0 HN 6J1V0. #line:560255
+Mae: 4YBAK. #line:56922d
+<<close>>
+<<generateFollowPoints Mae Gregg>>
+<<follow Gregg Mae>>
+//other elevator is now returning//
+Gregg: NNNNNNNN... #line:68c474
+<<setAnimBool Gregg lockPicking 0>>
+Gregg: ECTJ! #line:e74b9d
+<<tell SceneLink8 Open>>
+Mae: MJ1 HE 3HAEM, KYDA 0H HAC UPNBE3ET. #line:fe30bd
+Gregg: ECTJ NDEN U0VY4QE? #line:e020ab
+Mae: 4YBAK. HY 04EBNDH0 SE, 4T0 HET. #line:63f14d
+<<fadeOutMusic 6>>
+<<tell SceneLink8 Activate>>
+===
+title: CellarDoor
+tags: 
+colorID: 4
+position: 1256,204
+---
+<<playAmbientSFX _AmbientSFX:basement_door_locked>>
+<<wait 2>>
+Mae: HE U0DDAETCR! #line:751cde
+Mae: MJ1 B U0VH0L S0UE! #line:9bd10a
+Gregg: R PA60TA%, PA60TA%! #line:4c85cb
+<<set $mansion_cellar_door_done to 1>>
+===

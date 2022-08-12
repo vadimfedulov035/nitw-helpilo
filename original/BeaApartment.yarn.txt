@@ -1,0 +1,404 @@
+title: EnterLevel_A2D3
+tags: 
+colorID: 3
+position: 2910,9935
+---
+<<if $bea_friendship_quest_3 is 0>>
+    <<wait 1>>
+    <<walk Bea Bea1 wait>>
+    <<walk Mae Mae1 wait>>
+    [[Dinner]]
+<<elseif $bea_friendship_quest_3 is 1>>
+
+<<endif>>
+===
+title: AfterDinner
+tags: 
+colorID: 3
+position: 2888,10589
+---
+<<cameraLookAt CameraAfterDinner>>
+<<warp Mae MaeStool>>
+<<sit>>
+<<setSortingLayerName Player>>
+<<setSpriteLayer Bea Bea>>
+<<warp BeaDad BeaDadCouch>>
+<<sit BeaDad>>
+<<warp Bea BeaCouch>>
+<<sit Bea>>
+<<tell AmbientSFX:tv Play1>>
+<<lookAt Bea BeaDad>>
+<<lookRight BeaDad>>
+<<setSpriteLayer BeaDad BeaDad2>>
+<<irisIn 1 wait>>
+Bea: B 06WEM, MJ1 0UVATNVN BCE D0 15-F0 4NCVA CVEDY%WEF0 MECROA. #line:e8c384
+BeaDad: HEUV0X0. #line:0f3290
+<<close>>
+<<wait 2>>
+BeaDad: TA KAMEHHAR C0VJ 0TC0PTNP0BAHA? #line:21dd9b
+Bea: AFA, C HEL BCE D0VSH0 6J1TJ B U0PRDKE. #line:349e02
+BeaDad: P06 D0 CNX U0P B0DNT T0T 0FP0MHJ1L FPY30BNK? #line:e9f0fe
+Bea: DA, HACK0VJK0 R 3HA%. #line:04f987
+Bea: X0P0Q0, G-G, MHE HYSH0, 4T06J1 TJ1 K0E-4T0 U0DUNCAV. R 0CTABNVA NX HA CT0VE. #line:2eb3f6
+BeaDad: DYMA%, MHE CT0NT CX0DNTJ 3A HNMN. #line:699861
+Bea: 3ALMNCJ. HAM HYSH0 3AUVATNTJ UAPHRM B 6VNSALQNE UAPY DHEL. #line:bd7687
+BeaDad: MHE HE HYSH0 06 GT0M HAU0MNHATJ. #line:00d1e5
+Bea: R 3HA%, H0... #line:06ecdf
+BeaDad: HE HYSH0, 6NATPNC.  4JE NMR YKA3AH0 B D0F0B0PE? #line:f6f489
+Bea: TB0E, UAU. #line:13de8b
+BeaDad: 4JE NMR HA 4EKAX? #line:c1b54a
+<<close>>
+<<wait 1>>
+<<lookRight Bea>>
+<<wait 1>>
+Bea: TB0E. #line:da84d7
+Mae: ... #line:7c2b52
+<<close>>
+<<wait 2>>
+<<if $grocery_quality is 1>>
+	BeaDad: X0P0QNL YSNH, MGL. UPABDA X0P0QNL. #line:b3795f
+    <<unlockAchievement Bea_FQ3_Recipe>>
+<<elseif $grocery_quality is -1>>
+	BeaDad: FP-P. YSNH HE 04EHJ. #line:69714d
+<<endif>>
+BeaDad: CEF0DHR H04J% NFPA%T CMEVTEP. #line:9acf12
+Bea: U0QVN, 3ATYCNM Y MEHR B K0MHATE. #line:f95e3f
+Mae: AFA... #line:bf5557
+BeaDad: DEB04KN, X0P0Q0 UP0BEDNTE BPEMR! #line:95dfde
+BeaDad: CUACN60 3A YSNH, MGL! #line:c2cb73
+Mae: AFA! #line:6afaf1
+<<close>>
+<<setSpriteLayer BeaDad BeaDad>>
+<<setAnimInt Bea sitting 0>>
+<<warp Bea BeaCouch>>
+<<walk Bea BeaExitRight wait>>
+<<tell _AmbientSFX:bea_door_indoor Play>>
+<<cameraFollowPlayer 1>>
+<<set $bea_apartment_block_left to 1>>
+<<getUp>>
+<<fadeOutMusic 6>>
+===
+title: BeaDad
+tags: 
+colorID: 3
+position: 3211,10327
+---
+<<if $bea_friendship_quest_3 is 0>>
+    <<set $bea_dad_done to 1>>
+    Mae: CMEVTEP, XAX? #line:261144
+    BeaDad: TJ1 NX ZAHAT? #line:c71ba2
+    -> HE C0BCEM. #line:82f748
+        BeaDad: TJ1 DASE HE D0FADJ1BAEQJCR, 4T0 TEPREQJ! #line:8f3989
+        Mae: 0X, U0BEPJTE MHE, R T04H0 3HA%, 4T0 TEPR%. #line:0589f7
+        Mae: M0N P0DNTEVN U0KV0HR%TCR NM. #line:3af4a2
+        BeaDad: XA-XA! 0HN X0P0Q0 TE6R B0CUNTAVN! 4T0 UP0N30QV0? #line:1e44d3
+        Mae: U0HRTNR HE NME%. #line:de591e
+    -> MHE HPABNTCR X0KKEL. #line:a7db15
+        BeaDad: X0KKEL? UZZ. #line:7d9fb2
+        Mae: 4T0 HE TAK C X0KKEEM? #line:282e1d
+        BeaDad: KY4A V%DEL KPYSAT U0 VJDY HA K0HJKAX. #line:bc4f3c
+        Mae: N UJ1TA%TCR BJ16NTJ DEPJM0 DPYF N3 DPYFA! #line:b00d12
+        BeaDad: GGGGX. HE 0C060 R 0T QAL6J1 TAWYCJ. #line:04bde7
+        Mae: H0... H0 KAK SE *0SNDAHNE* T0F0, U0KA KT0-T0 HE HA4HET NCTEKATJ KP0BJ%! #line:0cf5be
+        BeaDad: HE CU0PTNBH0. #line:9c33f0
+        Mae: KAK T0, 4T0 R 0UNCAVA, *HE* CU0PTNBH0? #line:03a054
+        BeaDad: GGGGGX #line:05c249
+<<else>>
+    <<if $grocery_quality is -1>>
+        <<if $grocery_meat is 1>>
+            BeaDad: ...F0BRDNHA... UV0XAR F0BRDNHA... #line:cdc592
+        <<elseif $grocery_meat is 2>>
+            BeaDad: ...KYPNOA... 60VJQE HNK0FDA... #line:0fc460
+        <<elseif $grocery_meat is 3>>
+            BeaDad: ...YSACHAR PJ16A... #line:d7da6e
+        <<elseif $grocery_meat is 4>>
+            BeaDad: ...UV0XAR CBNHNHA...U04EMY? #line:eaa6c3
+        <<endif>>
+    <<elseif $grocery_quality is 1>>
+        <<if $grocery_meat is 1>>
+            BeaDad: ...CUACN60 TE6E, BKYCHAR K0P0BA... #line:e2b976
+        <<elseif $grocery_meat is 2>>
+            BeaDad: ...4YDECHAR KYP04KA, 0DAAA... #line:1d43cd
+        <<elseif $grocery_meat is 3>>
+            BeaDad: ...BKYCHAR PJ16A... TAKAR X0P0QAR... #line:08c130
+        <<elseif $grocery_meat is 4>>
+            BeaDad: ...CBNHAR 0T6NBHAR... CBNHAR 0T6NBHAR... TAKAR CVADKAR N BKYCHAR... #line:5015ce
+        <<endif>>
+    <<else>>
+        <<if $grocery_meat is 1>>
+            BeaDad: ...F0BRDNHA... HEB03M0SH0 NCU0PTNTJ... #line:e5b126
+        <<elseif $grocery_meat is 2>>
+            BeaDad: ...KYP04KA HA YSNH... KAK Y MAMJ1... #line:2d2544
+        <<elseif $grocery_meat is 3>>
+            BeaDad: ...PJ16KA... EQJTE PJ16Y... #line:042e54
+        <<elseif $grocery_meat is 4>>
+            BeaDad: ...CBNHNHKA HEUV0XA... CBNHNHKA X0P0QA... #line:8cb0ea
+        <<else>>
+            BeaDad: ...MJ1 HE BJ16PAVN EDY... C0BCEM.... #line:d762ba
+        <<endif>>
+    <<endif>>
+    <<set $bea_dad_done to 1>>
+<<endif>>
+===
+title: Dinner
+tags: 
+colorID: 3
+position: 2899,10287
+---
+Bea: BPEMR YSNHA! #line:52e3a5
+<<close>>
+<<irisOut 1 wait>>
+<<warp Mae MaeBehindCounter>>
+<<warp Bea BeaBehindCounter>>
+<<warp BeaDad BeaDadBehindCounter>>
+<<setSpriteLayer Bea BG2>>
+<<setSortingLayerName BG2>>
+<<setSpriteLayer BeaDad BG2>>
+<<sit Bea>>
+<<sit BeaDad>>
+<<sit>>
+<<lookDown Bea>>
+<<lookDown BeaDad>>
+<<lookDown Mae>>
+<<cameraLookAt CameraDinner>>
+<<playMusic bea_dinner>>
+<<irisIn 1 wait>>
+<<if $grocery_quality is -1>>
+    BeaDad: GM. #line:4c671c
+    Bea: DA. #line:b6e2a9
+    Mae: 4T0? #line:0e8cbe
+    Bea: TJ1 X04EQJ, 4T06J1 R 3AKA3AVA UNOOY? #line:22d55b
+    BeaDad: HET, R VY4QE CJEM 6YTEP6P0D. #line:82023f
+    Bea: VADH0. #line:86d8e1
+    Mae: 0X, R NCU0PTNVA YSNH? #line:da5ed8
+    BeaDad: YFY, H0 MJ1 GT0 UEPESNBEM! #line:b7ec90
+    BeaDad: XA-XA-XA!! #line:c5dd43
+    <<if $grocery_meat is 3 and $grocery_bakey_shakey is 1>>
+        BeaDad: HE DYMA%, 4T0 N3 PJ16J1 BJ1QV0 4T0-HN6YDJ H0PMAVJH0E. #line:e8a80b
+        Mae: DYMA%, PJ16A HEUV0XA, 6ELKN QELKN T0SE... #line:189b6b
+    <<elseif $grocery_meat is 1 and $grocery_bakey_shakey is 1>>
+        BeaDad: R DYMA%, 6ELKN QELKN HYSH0... 4T0-T0 EWE. #line:963ed8
+        Mae: R U0DYMAVA, 4T0... YX... DBE X0P0QNE BEWN... #line:99872d
+        Mae: CM0FYT CTATJ 0DH0L DELCTBNTEVJH0 X0P0QEL? #line:1e359a
+    <<elseif $grocery_meat is 1 and $grocery_box != 1>>
+        BeaDad: HE DYMA%, 4T0 HYSH0 6J1V0 U0DABATJ 0DNH F0BRSNL ZAPQ. #line:cc1e40
+        Bea: TNUA, KY4EL. #line:aebb78
+        Mae: 00000XX... #line:5c7b8e
+    <<elseif $grocery_meat is 3 and $grocery_canned_goods is 3>>
+        BeaDad: MHE KASETCR, B03M0SH0, R HEMH0F0 60VEH. #line:fe9b22
+        Mae: R U0DYMAVA, 4T0... PJ16A X0P0QA! KYPNOA X0P0QA! #line:f5bdeb
+        Bea: T0VJK0 HE TAK. C0BCEM HE TAK. #line:b9930e
+        Mae: HET. 0K. #line:c81a4c
+        Mae: A 4T0, ECVN TJ1 U0LDEQJ B ADMNPAV ZPAL N 3AKASEQJ 7 U03NON%? #line:b30713
+        Mae: GT0 KYPNOA N PJ16A! #line:932083
+        Bea: DA, H0 0HN SE HE BMECTE. N U0DSAPEHJ1. #line:3b6a80
+        Mae: PPPPP #line:e4622c
+    <<elseif $grocery_meat is 2 and $grocery_bakey_shakey is 1 and $grocery_canned_goods is 3>>
+        Bea: R M0FY UP0CVEDNTJ X0D TB0NX MJ1CVEL. #line:65b37b
+        Bea: C 6ELKN QELKN. #line:9f19e4
+        Mae: KYPNOA N KPEM C KYPNOEL! #line:3f23bb
+        Mae: KPEM0BAR KYPNOA! #line:1fd8d0
+        Bea: "XEL #line:0dcf5d
+        Bea: KAK MHE GT0 YVY4QNTJ". #line:1a167f
+        Mae: AFA, BNDNQJ, TJ1 B TEME. #line:51a834
+    <<elseif $grocery_meat is 4 and $grocery_canned_goods is 3>>
+        BeaDad: HE DYMA%, 4T0 CBNHNHA N KYPNOA D0VSHJ1 6J1TJ UPNF0T0BVEHJ1 BMECTE. #line:a63cf8
+        Mae: 0X, UPABDA? #line:d54a77
+    <<elseif $grocery_meat is 1 and $grocery_canned_goods is 3>>
+        BeaDad: HE DYMA%, 4T0 U%PE C F0BRDNH0L N CYU N3 KYPNOJ1 #line:6fe820
+        BeaDad: CM0FVN 6J1 BJ1NFPATJ TE6E CNH%% VEHTY HA KAK0L-HN6YDJ RPMAPKE. #line:f92a68
+        Mae: 0X, R FAPAHTNPY%, 4T0 GT0 U0DVNHHJ1L PEOEUT. #line:f63128
+    <<endif>>
+    <<if $did_bea_friendship_quest_2 is 1>>
+        Mae: HEYSEVN R UV0XA B0 BCEM? #line:ea2063
+        Bea: HE, T0VJK0 B U04NHKE BEWEL N UVAHNP0BAHNN YSNHA. #line:1a31b1
+        Mae: KAKNE BASHJ1E SN3HEHHJ1E HABJ1KN! #line:7cc773
+    <<endif>>
+    Bea: TE6E U0HPABNV0CJ?	 #line:2b6370
+    Mae: HET. R C0FVACHA, BJ1QV0 YSACH0. #line:15d901
+<<elseif $grocery_quality is 0>>
+    BeaDad: BCE H0PMAVJH0. #line:49e71d
+    Mae: CUACN60! #line:ef3262
+    Bea: AFA, BCE B U0PRDKE. #line:d20b58
+    Mae: CUACN60. #line:4c7a9d
+    BeaDad: DA, B CAM0M DEVE. #line:83bc9f
+    Mae: CUACN60? #line:ea8b95
+    Bea: MGL, TJ1 X0P0Q0 CUPABNVACJ. CUACN60. #line:83f78d
+    Mae: TJ1 HE M0SEQJ 0QN6NTJCR, K0FDA BJ16NPAEQJ MRC0 N YFVEB0DJ1. #line:36f5ae
+    BeaDad: CUACN60, MGL. #line:d0a9b6
+    -> R 04EHJ X0P0QA B EDEEEEEEEEE. #line:059332
+        BeaDad: EDA X0P0QA. #line:1dcfac
+        Bea: X0P0QA NH0FDA. #line:8ac959
+        Mae: NH0FDA?!?!? #line:996009
+        Mae: EDA DELCTBNTEVJH0 X0P0QA. #line:23c225
+        Bea: 0TMETNVA. #line:d3223e
+        BeaDad: XE-XE-XE! #line:3e732f
+    -> R HE 3HA%, F0B0PNVA VN 06 GT0M, #line:96f2fe
+        Mae: H0 Y MEHR 6J1VN DELCTBNTEVJH0 X0P0QNE 0OEHKN U0 D0M0B0DCTBY B CTAPQEL QK0VE. #line:1c4ec3
+        Mae: R CDEVAVA GTY PY6AQKY! #line:e7befc
+        BeaDad: CVYQAL, A TJ1 SE M0SEQJ 3AVATATJ M0N QTAHJ1! #line:9b3b1d
+        Mae: HE 6ECUVATH0, HADE%CJ? #line:9813bf
+        Bea: UAU, MJ1 M0SEM D0CTATJ TE6E H0BJ1E QTAHJ1. #line:b80de5
+<<elseif $grocery_quality is 1>>
+    BeaDad: 0, DA, GT0 QNKAPH0! #line:ce918c
+    Bea: AFA. GT0... YSACH0 QNKAPH0. #line:c6f337
+    Mae: CUACN60! #line:f001e0
+    <<if $grocery_meat is 1 and $grocery_bakey_shakey is 0 and $grocery_box is 1 and $grocery_canned_goods is 1>>
+        BeaDad: M0R MAMA 06J14H0 DEVAVA MAKAP0HJ1 C CJ1P0M #line:c43cb6
+        Bea: 04EHJ X0P0Q0. #line:ae4d7a
+        Mae: B GT0M HET HN4EF0 UV0X0F0! H0 GT0 HE UP0CT0! #line:d2f3d7
+        BeaDad: N 0B0WN T0SE. T04H0 KAK MAMA. #line:b88a4f
+        Mae: M0SET 6J1TJ, R TB0R MAMA. #line:725b2b
+        BeaDad: 4T0? #line:e46970
+        Bea: 4EF0? #line:78f678
+        Mae: R HE 3HA%. GT0 CTPAHH0. #line:8e2f9d
+    <<elseif $grocery_meat is 4 and $grocery_box is 2 and $grocery_canned_goods is 2>>
+        BeaDad: 6ELKN QELKN, CBNHAR 0T6NBHAR! #line:b2414a
+        Mae: R YFADAVA? #line:691ff5
+        Mae: PAHJQE R V%6NVA U0DSAPKY 6ELKN QELKN #line:a3ee20
+        Bea: ZY, HET #line:695f27
+        Mae: N EVA T0VJK0 EE. #line:97e78e
+    <<elseif $grocery_meat is 2 and $grocery_bakey_shakey is 0 and $grocery_canned_goods is 3 and $grocery_cooler is 1>>
+        BeaDad: M0R 6A6YQKA F0T0BNVA 4NKEH 6YPFEPJ1! #line:e1f6db
+        BeaDad: HAU0MNHAET 0 ZEPME... #line:b48e4e
+        Bea: Y UPA6A6YQKN 6J1VA ZEPMA? #line:bb2c2d
+        Bea: MHE KA3AV0CJ, 4T0 Y HNX 6J1V MAFA3NH 06YBN? #line:e8e321
+        BeaDad: GT0 DETAVN. #line:3d25a7
+    <<elseif $grocery_meat is 2 and $grocery_bakey_shakey is 1 and $grocery_box is 4 and $grocery_box is 3>>
+        BeaDad: MMM. 3AUE4EHHAR KYP04KA C PNC0M N KAPT0QK0L. #line:14834c
+        Mae: GT0 - KVACCNKA, N GT0 HE UP0CT0 TAK. #line:bab535
+        Bea: 0X, B GT0M MJ1 U0X0SN. #line:886d4c
+        Mae: R HNK0FDA HE 06EWAVA F0T0BNTJ 4T0-T0 HE06J14H0E! #line:4a811e
+    <<elseif $grocery_meat is 3 and $grocery_bakey_shakey is 0 and $grocery_box is 1 and $grocery_cooler is 2>>
+        BeaDad: PJ16HAR U0XVE6KA N QUNHAT. #line:d68816
+        BeaDad: NX HAM U0DABAVN B OEPK0BH0M UPNX0DE, K0FDA R 6J1V MAVJ4NK0M. #line:d56843
+        BeaDad: B0 BPEMR KAHNKYV TJ1 D0VSHA ECTJ PJ16Y. #line:230eea
+        Mae: TE6E HPABNTCR? #line:abad33
+        Bea: MHE HPABNTCR. #line:fde2ed
+    <<endif>>
+    BeaDad: 0HA D0VSHA BJ16NPATJ 6V%DA DVR HAC KASDJ1L BE4EP! #line:950876
+    Bea: HET, UAU, MJ1 U0MPEM 0T CAXAPH0F0 Q0KA. #line:902853
+    Mae: HEUPABDA! #line:7dc542
+    -> R TAKSE M0FY UPNF0T0BNTJ 6YPFEPJ1, TAK0 N UNOOY! #line:91d937
+        Bea: HY, T0FDA MJ1 UP0CT0 YMEPVN 6J1 0T GT0F0. #line:5c78bd
+        BeaDad: UV0XNE BAPNAHTJ1. #line:bf7fe9
+    -> R 3HA%, KAK UPNF0T0BNTJ PNC N 3AUEKAHKY N3 FAM6YPFEP0B! #line:20a0d6
+        BeaDad: PAHJQE MATJ 6N F0T0BNVA HAM GT0. #line:3c3e1a
+        Bea: XA-XA, TJ1 F0B0PNQJ GT0 MHE. #line:b103b5
+        BeaDad: VADH0, MGL: PAHJQE MATJ 6N 3AHNMAVACJ F0T0BK0L. #line:7e6b5f
+        Bea: N DASE 0HA U0HRVA, 4T0 MJ1 HE M0SEM ECTJ GT0 KASDJ1L BE4EP... #line:5e4e8a
+        BeaDad: 0C06EHH0 HE U0CVE T0L HEDEVN B YWEVJE X0PKEPA. #line:2129c1
+    -> R 3HA%, KAK DEVAETCR RN4HNOA-60VTYHJR N M0FY UPNF0T0BNTJ 6NCKBNT! #line:0b1821
+        BeaDad: MHE HPABRTCR C0CNCKN. #line:1dfc86
+        Bea: HEVJ3R KASDJ1L PA3 ECTJ T0VJK0 3ABTPAK. #line:8fa00e
+    Mae: R M0FY CDEVATJ CAVAT! #line:d8880e
+    Bea: AVVNVYLR. #line:304013
+    BeaDad: XE-XE, MGL, TJ1 UPABA! #line:7fd404
+    BeaDad: XA-XA-XA-XA-XA!!! #line:69c316
+    <<if $did_bea_friendship_quest_2 is 1>>
+        Bea: GT0 0UPEDEVEHH0 6YDET VY4QE, 4EM T0, 4T0 TJ1 CBAPFAHNV B U0DBAVE UP0QV0L H04J%. #line:a68ba0
+        BeaDad: 4T0? #line:3a57e8
+        Bea: HN4EF0. #line:3330ad
+    <<endif>>
+    Mae: CUACN60. R B GKCTA3E. #line:e00eef
+<<endif>>
+<<irisOut 1 wait>>
+[[AfterDinner]]
+===
+title: EnterLevel_A4D2
+tags: 
+colorID: 5
+position: 4878,9869
+---
+<<if $laptop_vignettes>>
+    <<playMusic laptop_vignettes 10>>
+    <<if $dom_friend_bea>>
+        [[DomFriendVignette]]
+    <<else>>
+        [[SubFriendVignette]]
+    <<endif>>
+<<endif>>
+===
+title: DomFriendVignette
+tags: 
+colorID: 5
+position: 4779,10208
+---
+<<cameraLookAt CameraVignetteStart 0>>
+<<cameraLookAt CameraVignetteEnd 30>>
+<<fadeIn 1 wait>>
+//fade in on bea, sitting in her living room doing bills as her dad is asleep on the couch. Mae chat continues in black box somewhere//
+MaeLaptop: HNKT0 N3 HAC HE UP0CNV 06 GT0M. #line:af309d
+MaeLaptop: N GT0F0 C HAMN HE UP0N30LDET, U0T0MY 4T0 MJ1 0C06EHHJ1E. #line:7ae83e
+MaeLaptop: BJ1 M0SETE PA60TATJ N30 BCEX CNV, H0 #line:ba0e3f
+MaeLaptop: BCEVEHHAR 6YDET DEVATJ BCE T0 SE, 4T0 N DEVAVA. #line:0c3e01
+MaeLaptop: N R HE DYMA%, 4T0 KT0-T0 N3 HAC 3ACVYSNV BCE GT0. #line:679494
+MaeLaptop: BCE GT0, 4T0 HA4AV0CJ 3AD0VF0 D0 HAQEF0 P0SDEHNR. #line:79bb97
+MaeLaptop: GT0 BCE DBNSETCR HACT0VJK0 6J1CTP0 N TJ1, U0UAB TYDA, #line:d7c564
+MaeLaptop: UP0CT0 UJ1TAEQJCR CXBATNTJ 4T0-T0. #line:fd8b94
+MaeLaptop: BJ1 - GT0 BCE, 4T0 YDEPSNBAET MEHR 0T T0F0, 4T06J1 HE YUVJ1TJ GTNM BE4EP0M. #line:957b65
+MaeLaptop: N BJ1 Y6NVN GT0F0 UAPHR, 4T06J1 CUACTN MEHR. #line:c6adf7
+MaeLaptop: HE U0DYMALTE, 4T0 R GT0F0 HE 0OEHNVA. #line:e68683
+MaeLaptop: V 0 V #line:e3ee01
+<<fadeOut 1 wait>>
+<<overrideLoadingScreenType Blank>>
+<<scene GreggAngusApartment>>
+===
+title: SubFriendVignette
+tags: 
+colorID: 5
+position: 5188,10233
+---
+<<cameraLookAt CameraVignetteStart 0>>
+<<cameraLookAt CameraVignetteEnd 30>>
+<<fadeIn 1 wait>>
+//fade in on bea, sitting in her living room doing bills as her dad is asleep on the couch.//
+MaeLaptop: R X0TJ K0FDA-HN6YDJ, U0LMY, 4T0 UP0N30QV0? #line:fe074a
+MaeLaptop: HADE%CJ, HET. #line:347c08
+MaeLaptop: R UP0CT0 HADE%CJ, 4T0 BCE K0H4EH0. #line:d746be
+MaeLaptop: X04Y, 4T06J1 BCE MJ1 0CB060DNVNCJ 0T GT0F0. #line:834d4a
+MaeLaptop: HE X04Y, 4T06J1 MJ1 6J1VN UP0CT0 4ACTJ% KAK0L-T0 YSACH0L NCT0PNN. #line:5e4706
+MaeLaptop: R TNUA X04Y CTATJ FNFAHT0M #line:3b6ed1
+MaeLaptop: 4T06J1 B3RTJ BAC BCEX #line:2276f1
+MaeLaptop: N 0THECTN B 6E30UACH0E MECT0 #line:785033
+MaeLaptop: UP0CTNTE, 4T0 60PM04Y BCRK0E. #line:0a2878
+MaeLaptop: R UP0CT0 X04Y BEPNTJ#line:6a77c2
+MaeLaptop: 4T0 MJ1 CM0SEM BCE 3A6J1TJ. #line:ded71c
+MaeLaptop: NVN U0 MEHJQEL MEPE DBNFATJCR DAVJQE. #line:f3598b
+//fade out. Fade in on germ in a parking lot. This will need to be a new scene//
+<<fadeOut 1 wait>>
+<<overrideLoadingScreenType Blank>>
+<<scene GermVignette>>
+===
+title: InitLevel_A2D3
+tags: 
+colorID: 3
+position: 2888,9703
+---
+<<if $bea_friendship_quest_3 is 1>>
+    <<set $bea_apartment_block_left to 0>>
+    <<set $night to 1>>
+    <<set $did_bea_friendship_quest_3 to 1>>
+    <<set $completed_bea_friendship_quests += 1>>
+    <<sit BeaDad>>
+    <<setAnimInt BeaDad sleeping 1>>
+    <<hide Bea>>
+    <<warp Mae MaeExitBeaRoom>>
+    <<playerFace -1>>
+    <<set $block_bea_room to 1>>
+    <<set $bea_dad_done to 0>>
+    <<tell AmbientSFX:tv Play1>>
+<<endif>>
+===
+title: InitLevel_A4D2
+tags: 
+colorID: 5
+position: 4885,9635
+---
+<<warp Bea BeaBehindCounter>>
+<<sit Bea>>
+<<setSpriteLayer Bea BG2>>
+<<hide BeaDad>>
+<<hide Mae>>
+<<setAnimInt Bea headSlant 1>>
+===

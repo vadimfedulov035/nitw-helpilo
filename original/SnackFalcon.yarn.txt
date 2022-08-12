@@ -1,0 +1,571 @@
+title: WalkToCounter_A1D1
+tags: 
+colorID: 2
+position: -315,969
+---
+Gregg: 0. 60SE. M0L. #line:430e6d
+Mae: UPNBET, FPEFF! #line:d95005
+Gregg: 4T0 TJ1 DEVAEQJ 3DECJ? #line:e3044e
+Mae: R BEPHYVACJ! :| #line:1c1182
+Gregg: BEPHYVACJ, TNUA, HA 0DNH DEHJ? :) #line:eb57d8
+Mae: BEPHYVACJ, TNUA, HABCEFDA. #line:339191
+Gregg: SAVJ, 4T0 TJ1 HE U0MEPVA B K0VVEDSE. #line:c76371
+<<wait 2>>
+Mae: :) #line:61b6c0
+Mae: SAVJ, TJ1 HE U0DXBATNV 4YMY, U0SNPAR UADAVJ. #line:31c363
+Gregg: SAVJ, 4T0 TJ1 HE UPNC0EDNHNVACJ K KYVJTY Y6NLO. #line:039e1d
+Mae: SAVJ, 4T0 TE6E HE 0T0PBAV0 K0HE4H0CTN #line:19c09a
+Mae: B T0M NHONDEHTE C ABT0MAT0M FA3NP0BKN. #line:60ab5e
+Gregg: 60SE, KAK R PAD BNDETJ TE6R. #line:0f02e4
+Gregg: AAAAAAAAAA!!! \o/ #line:9c2246
+Mae: KAK AHFYC? BJ1 DB0E BCE EWE BCTPE4AETECJ? #line:04bca3
+Gregg: _o_ #line:2caa6f
+Gregg: U0F0DJ! #line:7b75d9
+<<close>>
+<<flip Gregg 1>>
+<<run Gregg OffRightBack wait>>
+<<warp Gregg OffRight>>
+<<flip Gregg -1>>
+<<setSpriteLayer Gregg MainCast4>>
+Mae: 4T0 TJ1 DEVAEQJ? #line:037338
+Gregg: MEHR% MY3J1KY!!! #line:206644
+<<playOneShot event:/snack_falcon/switch_music Gregg>>
+<<fadeOutMusic 1>>
+<<wait 1>>
+<<playMusic Gregg>>
+<<wait 3>>
+<<run Gregg InFrontOfCounter wait>>
+Gregg: 4T0? #line:ec26de
+Mae: AHFYC! #line:700c72
+Gregg: 4T0 TJ1 3DECJ DEVAEQJ??? \o/ #line:f29224
+Mae: R SNBY 3DECJ! #line:3f846f
+Gregg: C KAKNX U0P?! #line:ccaeef
+Mae: C0 B4EPAQHEF0 BE4EPA? C 11-TN NVN TNUA T0F0? #line:0c4133
+Gregg: U0TPRCA%WE!!! #line:c5c44e
+Gregg: U0QVN HA PEUETNON% FPYUUJ1! _o_ #line:217aea
+Mae: 0 60SE! FPYUUA BCE EWE HE PACUAVACJ? :o #line:ada5a9
+<<trigger Gregg Idle Shrug>>
+Gregg: A T0! #line:260ae6
+Mae: K0FDA PEUETNONR? :| #line:90279e
+Gregg: CEL4AC! #line:700714
+Mae: K0FDA TJ1 3AKAH4NBAEQJ PA60TATJ? #line:6d9478
+<<trigger Gregg Shrug>>
+Gregg: CEL4AC! #line:91d6e4
+Mae: CEPJE3H0? :) #line:ae35ae
+Gregg: _o_ #line:3bbea2
+<<close>>
+<<run Gregg OffLeft wait>>
+Gregg: AAAAAAAAAA!!! #line:c649d1
+<<unlockDoodle Gregg1>>
+<<fadeOut 1 wait>>
+<<scene BandPractice>>
+<<end>>
+
+===
+title: WalkToCounter_A2D1
+tags: 
+colorID: 0
+position: -1048,1234
+---
+Gregg: PEUETNONR! Y/Y? #line:58cf98
+[[DA|Yes_A2D1]] #line:738512
+[[DA|Yes_A2D1]] #line:a6b997
+
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -966,881
+---
+<<show Gregg>>
+
+<<if $act is 1 and $day is 1>>
+    <<setCanInteract Gregg 0>>
+<<elseif $act is 1 and $day is 2>>
+    <<set $gregg_ear_cups to 1>>
+<<endif>>
+
+<<setSpriteLayer Gregg BG3>>
+<<warp Gregg BehindCounter>>
+
+===
+title: Yes_A2D1
+tags: 
+colorID: 0
+position: -1036,1843
+---
+Gregg: 0TBET BEPHJ1L! #line:57571a
+<<fadeOut .5 wait>>
+<<scene BandPractice>>
+
+===
+title: Gregg_A1D2.1
+tags: 
+colorID: 2
+position: 10,972
+---
+Gregg: GL, MGL. #line:148d5e
+Gregg: R HADEV CTAKAH4NKN HA YQN. #line:e1a3c5
+[[BAY.|Gregg_A1D2_Wow]] #line:aa92d6
+[[3A4EM?|Gregg_A1D2_Why]] #line:8228aa
+===
+title: Gregg_A1D2_Why
+tags: 
+colorID: 2
+position: 222,1325
+---
+Gregg: R DYMAV 0 T0M, 4T0 B 6PALT XAP60P ECTJ UVRS #line:9d854a
+Gregg: A 3ATEM R U0DYMAV 06 0KEAHE #line:5e7f50
+Gregg: A 3ATEM R HADEV CTAKAH4NKN HA YQN #line:c521b1
+Gregg: N 0HN 3BY4AT KAK 0KEAH. #line:5e65b1
+Mae: 0F0, 4YBAK, TJ1 CV0BH0 B3RV MEHR C C060L B UYTEQECTBNE. #line:ac174e
+Mae: KCTATN F0B0PR 0... GM... HN 0 4EM, R U0VAFA%... #line:65cafc
+Mae: TJ1 3HAEQJ, FDE R M0FY HALTN AHFYCA? #line:d4502e
+Gregg: HA PA60TE! B BNDE0-MAFA3NHE. #line:1c05d4
+[[Gregg_A1D2_Body]]
+===
+title: Gregg_A1D2_Wow
+tags: 
+colorID: 2
+position: -141,1312
+---
+Gregg: B HNX R M0FY CVJ1QATJ 0KEAH. #line:f410f2
+Mae: GT0 0TVN4H0, DPYSNWE. #line:f8cdc6
+Mae: TJ1 BNDEV AHFYCA? #line:6729d4
+Gregg: K A S D Y % H 0 4 J #line:507c49
+Mae: DA. R, B CMJ1CVE #line:99cb95
+Mae: "FDE AHFYC UPRM0 CEL4AC?" #line:16555e
+Gregg: HA PA60TE! B BNDE0-MAFA3NHE. #line:0fd04e
+[[Gregg_A1D2_Body]]
+
+===
+title: Gregg_A1D2_Body
+tags: 
+colorID: 2
+position: 26,1625
+---
+Gregg: A 3A4EM 0H TE6E HYSEH? #line:259389
+Mae: Y MEHR UP06VEMJ1 C K0MUJ%TEP0M. #line:1216a6
+Mae: DYMAVA, M0SET, 0H CM0SET PA306PATJCR. #line:19bdc7
+Gregg: 0H - XAKEP. #line:3babd9
+Mae: CEPJE3H0? #line:939709
+Gregg: BU0VHE YBEPEH, 4T0 0H XAKAET BCRK0E. #line:ac2c22
+Mae: 0F0. #line:ced479
+Mae: 3D0P0B0, 4YBAK! U03SE CBNDNMCR. #line:60cd36
+Gregg: 0UPEDEVEHH0! R TAK PAD, 4T0 TJ1 BEPHYVACJ!!! :) #line:6063a3
+Gregg: :| #line:3e72d1
+<<set $knows_angus_at_videostore to 1>>
+===
+title: Gregg_A1D2.2
+tags: 
+colorID: 2
+position: 5,1905
+---
+Gregg: HAC4ET T0L PYKN. #line:d3dad7
+Mae: 60SE, DA. KAK0F0 4EPTA. #line:07f0c6
+Gregg: 4T0, U0-TB0EMY, CVY4NV0CJ?? #line:5cb9a0
+Mae: R HE 3HA%. #line:c90f2a
+Mae: KAK PYKA 0KA3AVACJ HA TP0TYAPE? #line:d7997f
+Mae: B *U0CCYM CUPNHFC*? #line:8e68ac
+Gregg: GT0 KAK 6J1 KPYT0, H0 N SYTK0? #line:47ff4d
+Gregg: N TNUA, 4EPE3 DBE DBEPN 0T HAQEL KBAPTNPJ1. #line:bd5bc4
+<<if $knows_apartment_location is 1>>
+    Mae: DA, TJ1 TEUEPJ SNBEQJ B TAYHN CEHTPN, BEPH0? #line:A
+<<else>>
+    Mae: TJ1 TEUEPJ SNBEQJ B TAYHN CEHTPN? #line:adc1e3
+<<endif>>
+Gregg: AFA, SNBEM U06VN30CTN 0TC%DA! :) #line:00a29c
+Gregg: XA XA, D0VF0 SE TE6R HE 6J1V0, 4YBNXA. #line:c31538
+Mae: GT T04H0. #line:018e5b
+Gregg: :| #line:c03fea
+<<set $knows_apartment_location to 1>>
+
+===
+title: Gregg_A1D2.3
+tags: 
+colorID: 2
+position: 37,2178
+---
+Mae: U0U03SE U03ABNCAEM KAK-HN6YDJ? #line:bbd76f
+Mae: CT0VJK0 HYSH0 HABEPCTATJ! #line:54013f
+Gregg: HE, Y MEHR YSNH C CEMJEL. #line:798386
+Mae: GT0 4T0-T0 UV0X0E NVN 4T0-T0 X0P0QEE? #line:99091e
+Gregg: ... #line:470bd9
+Gregg: 4T0-T0 DPYSECK0E. #line:eb4259
+===
+title: Gregg_A1D2.4
+tags: 
+colorID: 2
+position: 35,2442
+---
+ Gregg: HA 4ACAX YSE 18:00? #line:2c7e3c
+===
+title: Gregg_A2D1
+tags: demo2
+colorID: 3
+position: 1088,440
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: HY N HY, U0CM0TPNTE, KT0 UPNQEV! #line:0e3f61
+    Mae: AFA. SNBA N F0T0BA K 04EPEDH0MY DH%. #line:c7e553
+    Gregg: KAK CAM04YBCTBNE? #line:d3f254
+    Mae: 6J1V0 D0B0VJH0 HEBASHJ1M, H0 U0T0M R U0FYVRVA U0 F0P0DY #line:e70895
+    Mae: N, BP0DE, CTAV0 VY4QE. #line:073c92
+    Gregg: CBESNL B03DYX! HY CBESNL HACT0VJK0, HACK0VJK0 U03B0VRET GT0T F0P0D! #line:c2a0c9
+    Mae: B0CXNTNTEVJH0. #line:534d77
+<<endif>>
+Gregg: TAK, 4T0 CKASEQJ? #line:427a39
+-> R UP0CT0 3ACK04NVA, Y MEHR EWE KY4A DEV. #line:25bac4
+    Gregg: D0 CK0P0F0! #line:63b4c3
+-> MJ1 U0LDEM HA PEUETNON%? #line:0efd3c
+    [[BandPractice]]
+===
+title: LightBulbSmash
+tags: 
+colorID: 3
+position: 1458,341
+---
+<<close>>
+<<irisOut 1 wait>>
+<<scene LightBulbSmash>>
+===
+title: Gregg_A2D2
+tags: 
+colorID: 3
+position: 1206,874
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: XGL XGL, MGL MGL. #line:81260d
+    Mae: KAK DEVNQKN, 4YBAK? #line:454073
+    Gregg: PA3DYMJ1BAV 0 SN3HN 3A PEQETK0L. #line:facf97
+        ->KASETCR, TJ1 UVAHNPYEQJ C6ESATJ? #line:a5f7eb
+            Gregg: DYMA%, R CM0F 6J1 C6ESATJ. #line:ee91a0
+            Gregg: M0SET, MHE CT0NT, TNUA #line:f15927
+            Gregg: UP0BEPNTJ M0N HABJ1KN U06EFA. #line:8faad6
+            Mae: U0-M0EMY, PNCK 60VJQE, 4EM V%6AR B03M0SHAR HAFPADA. #line:64547b
+            Gregg: AFA. #line:fe020e
+            Mae: 0TKYDA B006WE TAKNE MJ1CVN? #line:6da47c
+            Gregg: UPNCHNV0CJ, 4T0 MEHR 0TUPABNVN B T%PJMY. #line:91f025
+            Gregg: M0R CECTPA UPNQVA B T%PJMY #line:cc5f68
+            Gregg: M0R DPYFAR CECTPA DSEH, CKA3AVA, 4T0 GT0 6J1V0 HEN36ESH0. #line:bf4c33
+            Mae: 00Y, 4YBAK. TJ1 HE HEN36ESEH. #line:2b01c7
+            Mae: B CMJ1CVE *GT0* HE HEN36ESH0. #line:213446
+            Gregg: HET, TJ1 UPABA. #line:d8c127
+            Gregg: R T04H0 HEN36ESEH. #line:087cfb
+            Mae: HEN36ESHJ1L FPEFF. #line:dc6fd0
+            <<set $gregg_inevitable to 1>>
+        ->KASETCR, TJ1 60NQJCR C6ESATJ? #line:08f711
+            Gregg: CK0PEE BCEF0, R 6J1 UPNMKHYV TAM K 6AHDE. #line:e72bb9
+            Mae: AFA #line:620e6b
+            Gregg: HE X04Y UPNC0EDNHRTJCR K 6AHDE. #line:24f0ec
+            Mae: UPABNVJH0. #line:4f016d
+            Gregg: R PACCKA3AV 06 GT0M AHFYCY #line:182f6c
+            Mae: 0 TB0EM 60R3HN T%PEMHJ1X 6AHD? #line:7b6bef
+            Gregg: A 0H CKA3AV #line:e5c455
+            Gregg: "T%PEMHJ1E 6AHDJ1 - UE4AVJH0 N3BECTHAR UP06VEMA" #line:3f95ca
+            Mae: DA, GT0 U0X0SE HA AHFYCA. #line:32a89c
+    Mae: AHFYC UPNEXAV? #line:35cb5b
+    Gregg: HE. Y HEF0 EWE DEVA. #line:19c15c
+    Mae: KAKNE DEVA? #line:752149
+    Gregg: G. CEMELHJ1E DEVA. #line:11f495
+    Gregg: HE CT0NT F0B0PNTJ 06 GT0M. #line:91609d
+    Mae: DA YS. #line:a43c03
+<<endif>>
+Gregg: X04EQJ CX0DNTJ KYDA? #line:db9393
+-> CEF0DHR MH0F0 DEV. #line:83ceb6
+    Gregg: KVEB0, D0 CK0P0F0! #line:e870c1
+-> DA 4YBAK! U0FHAVN! #line:dcc9e8
+    Gregg: TAK DEPSATJ! #line:3f083c
+    <<set $gregg_friendship_quest to 2>>
+    <<irisOut 1 wait>>
+    <<sectionTitle GreggFQ2Intro GreggAngusApartmentLobby>>
+===
+title: Gregg_A2D3
+tags: 
+colorID: 3
+position: 1796,837
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: UPNBET-UPNBET-UPNBET! #line:ceca24
+    Mae: UPNBET! #line:3dd07d
+    Gregg: U0QVN-U0QVN-U0QVN #line:1e170d
+    Mae: 0F0, 4T0 GT0 C T060L? #line:9c4e20
+    Gregg: X04Y K0E-4EF0 CDEVATJ!!!! #line:c5132a
+    Mae: 0KEL, BAY! #line:93e9de
+        ->TJ1, TNUA, BJ1UNV *BECJ* K0ZE? #line:2e4fc5
+            Gregg: MHE HEVJ3R K0ZE. N3-3A HEF0 R HEPBHJ1L #line:94b50b
+            Mae: 6VNH, 0TCT0L #line:4e81be
+            Gregg: N HA BKYC 0TBPATNTEVEH #line:77d4d7
+            Mae: H0PM, ECVN B HEM MH0F0 M0V0KA N CAXAPA #line:6e4ab2
+            Gregg: HYSH0 CVNQK0M MH0F0 UPNF0T0BVEHNL, #line:e2c55e
+            Gregg: 4T06J1 4T0-T0 UEPECTAV0 6J1TJ 0TBPATNTEVJHJ1M #line:500e6b
+            Mae: BEPH0E 3AME4AHNE. #line:5b4e80
+        ->Y TE6R 0K0V0CMEPTHJ1E UEPESNBAHNR 4T0 VN? #line:ef7807
+            Gregg: C GT0L PA60T0L R KASDJ1L DEHJ HA FPAHN FN6EVN. #line:01a658
+<<endif>>
+Gregg: NTAK, 4YBNXA-4YBNXA-4YBNXA #line:5c3520
+Gregg: X04EQJ K0E-4T0 CDEVATJ-CDEVATJ-CDEVATJ? #line:f63f05
+-> 0X, HE M0FY CEF0DHR 4EV. #line:e2a02a
+    Gregg: VADYQKN. #line:2332bb
+    Gregg: BCE H0PM. #line:aefbd6
+-> DA, 4YBAK! U0FHAVN. #line:2a8bfc
+    Gregg: AYYYYYYYYYYYY!!! #line:beb08b
+    <<set $gregg_friendship_quest to 3>>
+    <<irisOut 1 wait>>
+    <<sectionTitle GreggFQ3Intro GreggMaeBike>>
+===
+title: Gregg_A2D4
+tags: 
+colorID: 3
+position: 2335,847
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Mae: 3DAP0BA, 4EV! #line:59df7a
+    Mae: KAK DEVA? #line:4a931f
+    Gregg: X0P0Q0. XAPZECTHAR TEKY4KA. #line:88e0c4
+    Mae: 3DECJ HNK0F0. #line:5bafe6
+    Gregg: TJ1 BCE UP0UYCTNVA. #line:008f87
+    Gregg: YSAC. #line:282365
+    Mae: 0Y #line:e3b8a0
+    Gregg: XBATNT C MEHR YSAC0B. #line:a73310
+        ->YSACJ1 HA PA60TE - GT0 CAM0E XYDQEE #line:446a5d
+            Mae: K0FDA R PA60TAVA B MAFA3NHE #line:c974be
+            Mae: Y MEHR 6J1VA CAMAR DVNHHAR H04HAR TEKY4KA #line:0da5ac
+            Gregg: 3HAEQJ, TJ1 HNK0FDA HE F0B0PNVA, 4T0 PA60TAVA? #line:a95b3b
+            Mae: YX. GTA NCT0PNR DVR DPYF0F0 PA3A. #line:43f75d
+        ->K0FDA GT0 MECT0 6J1BAET 0SNBVEHHJ1M? #line:f05066
+            Gregg: YTP0M XPEH0B0 #line:88a2cc
+            Gregg: B 06ED T0SE HE VY4QE #line:89ee43
+            Gregg: K0FDA R YX0SY, 3DECJ XPEH0B0 #line:84458d
+            Gregg: KPNCTNHA, BVADEVNOA, UPNX0DNT C%DA #line:4d1c2a
+            Mae: HE YBEPEHA, 4T0 BNDEVA KPNCTNHY? #line:f64c4e
+            Gregg: R CTAPA%CJ 6J1TJ YSE 3A DBEPJ%, K0FDA 0HA UPNX0DNT. #line:aae0be
+            Mae: KVACC. #line:e426dd
+    Gregg: K0P04E, TJ1 TYT N R TYT #line:bdf684
+    Gregg: N DEHJ TAK0L UPEKPACHJ1L #line:ab76a9
+    Gregg: N R HA4AV 6ECU0K0NTJCR, 4T0 MHE UPNDETCR PA36NBATJ GTN VAMU04KN #line:925beb
+    Gregg: 0DH0MY. #line:c1e62a
+<<endif>>
+Gregg: TAK, 4T0 CKASEQJ? #line:36121d
+<<if $light_bulb_smash_done>>
+    Mae: HN4EF0. #line:a295aa
+    <<set $gregg_done to 1>>
+<<else>>
+    -> HN4EF0. #line:7f5e72
+        Gregg: YBNDNMCR! #line:fa29be
+    -> YX, R 04EHJ 3ANHTEPEC0BAHA B T0M, 4T06J1 PA36NTJ GTN VAMU04KN. #line:8d8fb0
+        Gregg: 0 DA, 4YBNXA!!! #line:bde4c5
+        [[LightBulbSmash]]
+<<endif>>
+===
+title: BandPractice
+tags: temp
+colorID: 0
+position: 1470,-8
+---
+<<close>>
+<<irisOut 1 wait>>
+<<scene BandPractice>>
+===
+title: Gregg_A3D1
+tags: 
+colorID: 4
+position: 2903,836
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: 4E KAK, 4YBNXA? #line:1bd580
+    Mae: AFX! #line:1fce4d
+    Gregg: AFX? #line:7f1ff1
+    Mae: DVNHHAR N CTPAHHAR BJ1DAVACJ H04J. #line:c43793
+    Gregg: 4E H0B0F0? #line:51bb00
+    Mae: PACCKASY HA PEUETNONN. #line:3c3266
+    Gregg: KPYT0. #line:3839f7
+<<endif>>
+Gregg: 4EF0 UPNQVA? #line:2dc03d
+-> UP0CT0 3AQVA U03D0P0BATJCR. #line:c754a2
+    Gregg: UPNBET! #line:a74ead
+-> MJ1 U0LDEM HA PEUETNON%? #line:b0fc6b
+    Gregg: DA, U0FHAVN #line:336a7a
+    [[BandPractice]]
+===
+title: Gregg_A3D2
+tags: 
+colorID: 4
+position: 3253,830
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: 4E KAK, MAVAR. #line:7dfa4b
+    Mae: KAK DEVA Y CHGK ZGVK0H? #line:19509f
+    Gregg: BU0VHE CU0K0LH0. #line:4268be
+    Gregg: UEPEUNV Q0K0VADH0F0 M0V0KA #line:b1f344
+    Gregg: N KAK PA3 6VEBAV #line:bdaefa
+    Gregg: K0FDA UPNQEV KYPJEP C VAMUAMN. #line:d39254
+    Gregg: UPNQV0CJ PACUNCJ1BATJCR B 4EKE N 6VEBATJ. #line:6c50c2
+    Mae: 60SE. TJ1 KAK? #line:5e5a9c
+    Gregg: DA, B U0PRDKE. #line:dd6fd1
+    Gregg: U0DHRVCR CVNQK0M 6VN3K0 K C0VHOY #line:2ce66d
+    Gregg: K Q0K0VADH0-M0V04H0MY C0VHOY #line:041b18
+<<endif>>
+Gregg: HY 4T0, KAK U0SNBAEQJ? #line:da89ae
+-> UP0CT0 3AQVA U03D0P0BATJCR. #line:9be8f5
+    Gregg: KPYYT00. #line:99c9bc
+-> TJ1 F0T0B PA36NTJ VAMU04KN? <<if $light_bulb_smash_done is 0>> #line:9f1c75
+    [[LightBulbSmash]]
+-> TJ1J1J1J1 X04EQJ UP0BEPNTJ NCT0PN4ECK0E C006WECTB0? <<if $did_gregg_investigation_quest is 0>> #line:f684d8
+    Gregg: K0HE4H0. #line:ca7d6a
+    [[InvestigationQuest]]
+===
+title: Gregg_A3D3
+tags: 
+colorID: 4
+position: 3529,822
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: UPNBET, 4YBNX. #line:858dba
+    Mae: UPNBET. #line:645a2d
+    Gregg: KAK TB0E HN4EF0? #line:19a35f
+    Mae: BJ1SNBA%. #line:4a409f
+    Mae: YSACHJ1L K0QMAP UPNCHNVCR H04J%. #line:326ba1
+    Gregg: CEPJE3H0? #line:ad9f3d
+        ->R BCTPETNVA 60FA #line:edd75f
+            Gregg: X0CU0DN. #line:7fbfca
+            Mae: N 0H 6J1V U0CVEDHNM MYDAK0M #line:36e7cb
+            Gregg: XAX. #line:4dbbdc
+            Mae: AFA. TAK N UP0QVA M0R HEDEVR. #line:4c0b95
+            Gregg: M0FY R UPEDV0SNTJ TE6E YTEQNTEVJHJ1L CVGQ? #line:1f5bec
+            Mae: KAK 3AMEHY ME4TE 0 3A60TVNB0M 60FE? #line:2ef7ab
+            Gregg: X04EQJ, D06ABV% K HEMY 4NUC0B? #line:f9e452
+            Mae: XA XA. HE, H0PM. #line:3cd830
+        ->R BNDEVA HECK0VJK0 K0CMN4ECKNX SYK0B #line:2a3b4a
+            Mae: HE, HE K0MN4ECKNE SYKN... #line:8a8c0a
+            Mae: TNUA... B006WE HE SYKN #line:2d7c5e
+            Mae: N HE B K0CM0CE #line:790b4b
+            Mae: TNUA QTYKN KAK SYKN #line:7f7d6b
+            Mae: B 4EM-T0 TNUA K0CM0CA #line:841ed8
+            Gregg: R 3ACHYV HA DNBAHE, U0KA CM0TPEV CYDJ% KGTN. #line:e4e6af
+            Mae: 0X, 0ZNFEHH0. 0HA VY4QAR. #line:abcc1d
+            Gregg: N HE U0CU0PNQJ #line:213eee
+            Mae: EL BCE U0 UVE4Y #line:9bcf21
+            Gregg: NCTNHHAR UPABDA #line:e074f3
+<<endif>>
+Gregg: HY 4T0, KAKNE UVAHJ1? #line:eeef13
+-> UP0CT0 3AQVA. #line:1bb334
+    Gregg: 0ZNONAVJH0 3ARBVR%, TJ1 6J1VA 3DECJ. #line:284e9d
+    Gregg: R BCE UP0BEPNV. #line:b29e8b
+-> X04EQJ CX0DNTJ KYDA? #line:a49643
+    [[FriendshipQuest4]]
+===
+title: Gregg_A3D4
+tags: 
+colorID: 4
+position: 3804,829
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+    Gregg: UPNBET. #line:45ad8d
+    Mae: XGGLLLL #line:9e703b
+    Gregg: KAK TB0E HN4EF0? #line:6342d2
+    Mae: 6AQKA PACKAVJ1BAETCR #line:41c6e7
+    Mae: KAK 6YDT0 B006WE HE CUAVA #line:4ca23d
+    Mae: X0TR R CUAVA D0ZNFA. #line:8dab4d
+    Gregg: 60SE. TJ1 KAK? #line:e929da
+    Mae: R HE 3HA%. #line:4b8ea9
+    Gregg: R M0FY 4EM-T0 U0M04J? #line:6bb161
+        -> Y6NTJ MEHR? #line:54915f
+            Gregg: 6GHF. #line:3def30
+            Gregg: R 3ACTPEVNV TE6R #line:9caa89
+            Mae: CUACN60 #line:1e94e5
+        -> PA36YDN MEHR KAK-HN6YDJ #line:87b7fa
+            Gregg: G-L-L-L-L-L!!!! D: #line:124f06
+            Mae: 0F0 #line:be13e5
+            Gregg: U0-0-0DJE-E-E-EM!!!!!! D: #line:fdeec1
+            Mae: 0K DA, TEUEPJ R HE CUV% #line:0a36c6
+<<endif>>
+Gregg: 4T0 6YDEQJ DEVATJ CEF0DHR? :| #line:9db17d
+<<if $did_gregg_investigation_quest is 1>>
+    Mae: UP0CT0 3AQVA CKA3ATJ UPNBET. #line:115ceb
+    Gregg: UPNBET! #line:71a017
+    <<set $gregg_done to 1>>
+<<else>>
+    -> UP0CT0 CKASY UPNBET. #line:7d798c
+        Gregg: UPNBET! #line:465e92
+    -> TJ1 X04EQJ UP0BEPNTJ NCT0PN4ECK0E C006WECTB0? #line:1a4c50
+        Gregg: TJ1 YBEPEHA? BJ1FVRDNQJ... 04EHJ YCTAV0L. #line:a0a70b
+        Mae: DA. U0EXAVN. #line:b88e10
+        [[InvestigationQuest]]
+<<endif>>
+===
+title: InvestigationQuest
+tags: 
+colorID: 4
+position: 3460,1164
+---
+<<close>>
+<<irisOut 1 wait>>
+<<sectionTitle GreggIQ MansionExterior>>
+===
+title: FriendshipQuest4
+tags: 
+colorID: 4
+position: 3778,1165
+---
+<<if $dom_friend_gregg is 0>>
+    Gregg: Y MEHR TNUA H04HAR CBNDAQKA C AHFYC0M. #line:f86471
+    Mae: A, VADH0. U03ABNCA% C 6N. #line:ae717d
+    Gregg: TYCAHNTE KAK CVEDYET! #line:51f6ae
+<<else>>
+    Gregg: DAAA, 6P0!!! U0FHAVN! #line:beb02a
+    <<close>>
+    <<set $gregg_friendship_quest to 4>>
+    <<fadeOutMusic 3>>
+    <<irisOut 1 wait>>
+    <<scene GreggAngusApartment>>
+<<endif>>
+===
+title: Gregg_A4D3
+tags: 
+colorID: 5
+position: 4201,838
+---
+<<if $gregg_day_intro is 0>>
+    <<set $gregg_day_intro to 1>>
+Gregg: 0UA, KT0 GT0 RBNVCR, HE 3AUJ1VNVCR #line:d2242b
+Mae: TJ1 4T0, YDNBVEH? #line:85a506
+Gregg: HE-A. #line:57712d
+Gregg: UP0CT0 4T0-T0 #line:844940
+Gregg: BJ1PBAV0CJ. #line:080e4f
+Mae: N TE6E UPNBET T0FDA #line:ad9b5a
+Gregg: AFA. #line:bc1919
+Mae: AFA. #line:ed30c4
+<<wait 3>>
+<<endif>>
+Gregg: X04EQJ CBAVNTJ 0TC%DA? #line:ad4215
+Gregg: U0PEUETNPYEM? #line:af2ce2
+-> EWE HET #line:a1622f
+-> K0HE4H0 #line:e1edb4
+    [[BandPractice]]
+===
+title: Gregg_A1D3
+tags: 
+colorID: 2
+position: 546,961
+---
+Gregg: BE4EPNHKA-BE4EPNHKA-BE4EPNHKAAAA! #line:0d59ea
+Mae: 60SE, 4YBAK. KAK TJ1 B3B0VH0BAH. #line:2aec0c
+Gregg: TJ1 6YDEQJ HA BE4EPNHKE! GT0 TAK KPYT0! #line:fc66de
+Gregg: KAKAR SE GT0 U0TPRCHAR HEDEVR. #line:a6f77f
+Gregg: TJ1 D0MA!!!!! :) \o/ #line:0f2194
+Mae: R D0MA! \o/ :) #line:02aa08
+<<wait 2>>
+Gregg: M0N PYKN YCTAVN! #line:89801a
+Gregg: :| _o_ #line:22610d
+Mae: :| _o_ #line:f10052
+<<set $gregg_done to 1>>
+===

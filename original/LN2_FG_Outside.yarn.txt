@@ -1,0 +1,1614 @@
+title: CliffJump
+tags: 
+colorID: 0
+position: -2432,275
+---
+<<freezePlayer>>
+<<showTalkingHeads>>
+<<animate Adina LNGatorFallLeft>>
+<<setCameraMode Stationary>>
+<<if $cliff_jumps is 0>>
+	Mae: ...N U0T0M 0HA CUPJ1FHYVA C 06PJ1BA! #line:a54281
+	Granddad: 4T0? HET, 0HA GT0F0 HE DEVAVA! #line:a8cd05
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 1>>
+	Mae: ...N U0T0M 0HA CUPJ1FHYVA C 06PJ1BA CH0BA! #line:453e21
+	Granddad: HET, 0HA HE UPJ1FAVA. #line:0ca3a1
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 2>>
+	Mae: ...N U0T0M 0HA CUPJ1FHYVA! #line:144259
+	Granddad: B0T BNDNQJ, U0GT0MY R 4NTA% TE6E MNQKY-6VAF0TB0PNQKY. #line:1a3985
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 3>>
+	Mae: UPJ1FAET! #line:0a4d5a
+	Granddad: *KXE-KXE* #line:e4d890
+	Granddad: "Y4NCJ DEVNTJCR C MNQK0L-6VAF0TB0PNQK0L" #line:d0cbf5
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 4>>
+	Mae: UPJ1F-CK0K-U0CK0K!! #line:91feaf
+	Granddad: "B F0P0DE 3A60TNHCKE, SNV DA 6J1V MAVEHJKNL MNQKA #line:e499b8
+	Granddad: U0 NMEHN MNQKA-6VAF0TB0PNQKA." #line:60a171
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 5>>
+	Mae: UPJ1S0000K! #line:ae8da3
+	Granddad: "MNQKA-6VAF0TB0PNQKA HNK0FDA HE V%6NV DEVNTJCR CB0NMN NFPYQKAMN." #line:8e18a5
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 6>>
+	Mae: 0 HET, 0HA CUPJ1FHYVA CH0BA! #line:0c0557
+	Granddad: "0HA 6J1 HE U0DEVNVACJ NMN C DEB04KAMN, 0HA 6J1 HE U0DEVNVNCJ NMN C MAVJ4NKAMN.." #line:a5ddca
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 7>>
+	Mae: 0HA CUPJ1FHYVA, U0T0MY 4T0 HEHABNDNT MNQKY-6VAF0TB0PNQKY! #line:ddd514
+	Granddad: 0X, UP0UYCTNM HECK0VJK0 CTPAHNO... #line:d8ac4b
+	Granddad: "HET, 0HA UVAKAVA UP0CT0 U0T0MY, 4T0 EL HE HPABNV0CJ DEVNTJCR!!" #line:34a034
+	Granddad: "3ACTABVRTJ MEHR DEVNTJCR GT0 3HA4NT CKA3ATJ, 4T0 0HN HE M0N!" #line:e3bc5c
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 8>>
+	Mae: 0HA CUPJ1FHYVA, U0T0MY 4T0 YBNDEVA MEDBEDR HA K0T0P0F0 CM0FVA 6J1 UPN3EMVNTJCR! #line:b376dd
+	Granddad: GT0 6J1V MNQKA-6VAF0TB0PNQKA? #line:c90569
+	Mae: AFA! 0HA PA3DABNVA EF0 B VEUEQKY! #line:95c889
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 9>>
+	Mae: UPJ1FUPJ1FUPJ1F! #line:726131
+	Granddad: "...N B0T TAK MNQKA-6VAF0TB0PNQKA HAY4NVCR DEVNTJ" #line:5a4a0e
+	Granddad: "...CR." #line:142eb4
+	Granddad: AFX. #line:e86f8b
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 10>>
+	Mae: UPJ1S00000000K! #line:daf19c
+	Granddad: GT0 YSE DASE HE CMEQH0. TJ1 EWE HE YCTAVA!? #line:22505a
+	Mae: R HEHABNSY MNQKY-6VAF0TB0PNQKY! #line:fe4216
+	Granddad: NCT0PNR DASE HE 0 MNQKE-6VAF0TB0PNQKE! #line:64abc4
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 11>>
+	Mae: U0T0M 0HA CUPJ1... #line:4f6677
+	Granddad: HET. HE CUPJ1FHYVA. #line:2b6b57
+	Granddad: 0HA HNK0FDA HE UPJ1FAVA. #line:d8c927
+	Granddad: TJ1 X04EQJ YCVJ1QATJ NCT0PN% NVN HET? #line:eb76b1
+	Mae: ...DA... #line:957142
+	Granddad: 06EWA%, 0HA TE6E U0HPABNTCR. #line:46947f
+	Mae: *3EBAET* VADH0. #line:790e55
+	<<set $cliff_jumps += 1>>
+	<<set $fall_blocker to 1>>
+<<endif>>
+<<hideTalkingHeads>>
+<<fadeOut 1 wait>>
+<<warp Player FallReset>>
+<<flip Player -1>>
+<<setCameraMode FollowPlayer>>
+<<wait 1>>
+<<unfreezePlayer>>
+<<fadeIn 1>>
+
+
+===
+title: RingSnowBell
+tags: 
+colorID: 0
+position: 493,196
+---
+<<if $forest_god > 0>>
+	[[RingBellDoNothing]]
+<<elseif $snow_bridge > 0>>
+	[[RingBellWhenBridgeIsDone]]
+<<else>>
+    <<walk Player AdinaEdge wait>>
+    <<playerFace -1>>
+    <<if $godtender_present is 0>>
+    	<<set $godtender_present to 1>>
+    	<<wait 2>>
+    	GodtenderBrown: UPNBET? #line:e7f8c8
+    	<<close>>
+    	<<show GodtenderBrown 2>>
+    	<<wait 2.5>>
+    	<<walk GodtenderBrown Ledge wait>>
+    <<endif>>
+    <<if $snowman10HasBody is 1 and $snowman11HasBody is 1 and $snowman10HasFace is 1 and $snowman11HasFace is 1>>
+    	<<if $snowdrunk is 1 and $snowthief is 1>>
+    		[[SnowdrunkAndSnowthief]]
+    	<<elseif $snowdrunk is 1 and $snowblow is 1>>
+    		[[SnowdrunkAndSnowblow]]
+    	<<elseif $snowdrunk is 1 and $snowdog is 1>>
+    		[[SnowdrunkAndSnowdog]]
+    	<<elseif $snowthief is 1 and $snowblow is 1>>
+    		[[SnowthiefAndSnowblow]]
+    	<<elseif $snowthief is 1 and $snowdog is 1>>
+    		[[SnowthiefAndSnowdog]]
+    	<<elseif $snowblow is 1 and $snowdog is 1>>
+    		[[SnowblowAndSnowdog]]
+    	<<else>>
+    		[[MissingSnowmenCombination]]
+    	<<endif>>
+    <<else>>
+    	[[GodtenderFail]]
+    <<endif>>
+<<endif>>
+
+
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -2538,4
+---
+<<if $snow_bridge < 1 and $day <= 1>>
+	<<hide GodtenderBrown>>
+	<<set $godtender_present to 0>>
+<<else>>
+	<<warp GodtenderBrown Ledge>>
+	<<set $godtender_present to 1>>
+<<endif>>
+
+===
+title: GodtenderBrown_A1D1.1
+tags: 
+colorID: 0
+position: -2369,930
+---
+GodtenderBrown: U0D0SDN! #line:73d872
+Adina: DA? #line:bfb5b0
+GodtenderBrown: MHE 04EHJ SAVJ, H0 BJ1 HE CM0SETE YBNDETJ VECH0F0 60FA GT0L DVNHHELQEL H04J%. #line:b15b86
+Adina: U04EMY HE CM0FY? R... #line:4ba8d9
+Adina: GM... MJ1... #line:d52a73
+Adina: YSE 3AQVN CVNQK0M DAVEK0, PADN AYDNEHONN! #line:1077d8
+GodtenderBrown: NCTNHH0 TAK, N BJ1 D0VSHJ1 XPAHNTJ GT0 B CEKPETE, H0... #line:36c0c6
+GodtenderBrown: H0... #line:2974e0
+GodtenderBrown: VECH0L 60F 60VEH. CTAP N YMNPAET. #line:3c8622
+GodtenderBrown: N HE CM0SET YBNDETJ BAC. GT0 PACCTP0NT 60FA, A MJ1 HE M0SEM TAK PNCK0BATJ. #line:1acbd5
+[[60VEH?|FGSick]] #line:2ccb03
+[[YMNPAET?|FGDying]] #line:9ea2c9
+
+===
+title: GodtenderBrown_A1D2.2
+tags: 
+colorID: 0
+position: -1824,591
+---
+GodtenderBrown: GT0 XYDQAR DVNHHELQAR H04J N NCT0PNN. #line:683bc2
+===
+title: NeedKeyItem
+tags: 
+colorID: 0
+position: -2105,276
+---
+Adina: XM... HYSH0 HALTN 4T0-HN6YDJ 0C06EHH0E, DVR GT0F0 VNOA... #line:1dc71f
+Adina: ...B03M0SH0 B VECY, HABEPH0E... #line:41da29
+===
+title: SnowdrunkAndSnowthief
+tags: 
+colorID: 0
+position: -1246,514
+---
+GodtenderBrown: UPNBET, UYTEQECTBEHHNOA! #line:b473a0
+Adina: UYTEQECTBEHHNKN! #line:dc3d17
+Adina: MJ1 UP0CNM AYDNEHONN Y VECH0F0 60FA! #line:13047b
+GodtenderBrown: R 6PAYH, CVYSAWNL 60FY. KT0 BJ1? #line:d2dcf0
+Adina: R NMUEPATPNOA ACTPA, A GT0 M0L C0BETHNK GLMXNH #line:b25992
+Snowthief: UPNBET, UPNBET! #line:0013a4
+Adina: N HAQ APXNEUNCK0U YNVJRMC. #line:31c9f9
+Snowdrunk: UPNNNNNBET. #line:2f5bbd
+Adina: MJ1 D0VF0 UYTEQECTB0BAVN GT0L H04J%, 4T06J1 U0UACTJ C%DA, M0SEM VN MJ1 UP0LTN?  #line:c28836
+GodtenderBrown: NMUEPATPNOA ACTPA, F0B0PNTE? HE DYMA%, 4T0 R 3HAK0M C BAQNM NMUEPAT0PCKNM BEVN4NEM! #line:d289df
+[[MJ1 UPNQVN N3DAVEKA, N3 UPEDEV0B 3AUADH0F0 0KEAHA. |WesternOcean]] #line:2d52ea
+[[MJ1 UPNQVN C %FA, 3A UPEDEVAMN GT0F0 VECA N CVEDY%WEF0.|BeyondThisForest]] #line:953340
+
+===
+title: EndSnowmenChat
+tags: 
+colorID: 0
+position: 487,1707
+---
+GodtenderBrown: U03B0VJTE! #line:35361a
+<<close>>
+<<set $godtender to 20>>
+<<set $fall_blocker to 0>>
+<<set $snow_bridge to 1>>
+<<wait 1>>
+GodtenderBrown: UEPECEKN CBRTY% F0PY! #line:d5c47c
+
+===
+title: SnowdrunkAndSnowblow
+tags: 
+colorID: 0
+position: -642,767
+---
+GodtenderBrown: UPNBET, UYTEQECTBEHHNOA! #line:a2a1f3
+Adina: UYTEQECTBEHHNKN! #line:769415
+Adina: MJ1 UP0CNM AYDNEHONN Y VECH0F0 60FA! #line:5f494b
+GodtenderBrown: R 6PAYH, CVYSAWNL 60FY. KT0 BJ1? #line:64c6bf
+Adina: R NMUEPATPNOA ACTPA, A GT0 M0L C0BETHNK YNVJRMC #line:f0b382
+Snowdrunk: UPNBETCTBY%! #line:c0c7c1
+Adina: N M0L BECTHNK, G-G...FAP0VJD! #line:2406ac
+Snowdrunk: KVACC. #line:021b57
+Snowblow: *6NU!* #line:7d5c90
+GodtenderBrown: GT0 FVAHDNHX0PH? #line:c09e15
+Adina: A 4T0? #line:61e959
+GodtenderBrown: R NFPAV HA FVAHDNHX0PHCE B QK0VJHJ1E BPEMEHA! #line:238947
+Adina: 0, KAK0E C0BUADEHNE! #line:eab9d3
+GodtenderBrown: 0H 4T0, T0SE UP0KVRT? #line:abe969
+[[4T0?|HornWhat]] #line:c025c6
+[[HET, CEPJE3H0, 4T0?|HornWhat]] #line:f58556
+
+===
+title: SnowdrunkAndSnowdog
+tags: 
+colorID: 0
+position: 161,536
+---
+GodtenderBrown: UPNBET, UYTEQECTBEHHNOA! #line:5f9f4c
+Adina: UYTEQECTBEHHNKN! #line:fc7002
+Adina: MJ1 UP0CNM AYDNEHONN Y VECH0F0 60FA! #line:319f57
+GodtenderBrown: R 6PAYH, CVYSAWNL 60FY. KT0 BJ1? #line:e9912d
+Adina: R NMUEPATPNOA ACTPA, A GT0 M0L C0BETHNK YNVJRMC #line:245586
+Snowdrunk: UPNBETCTBY%! #line:0f3999
+Adina: N M0L APXNEUNCK0U, KVGHCN! #line:826cc6
+Snowdog: *FAB!* #line:73b78f
+Adina: MJ1 D0VF0 UYTEQECTB0BAVN GT0L H04J%, 4T06J1 U0UACTJ C%DA, M0SEM VN MJ1 UP0LTN? #line:c6b4c2
+GodtenderBrown: BAQ APXNEUNCK0U "C06AKA" ? #line:e7e524
+[[0H 04EHJ UP0HNOATEVJHJ1L, UPABDA YNVJRMC?|FGPerceptive]] #line:420e79
+[[GT0 HE C06AKA, APXNEUNCK0U KVGHCN PA3F0BAPNBAET HA R3J1KE 3BEPEL!|FGBeastLanguage]] #line:9059f2
+===
+title: SnowthiefAndSnowblow
+tags: 
+colorID: 0
+position: 754,534
+---
+GodtenderBrown: UPNBET, UYTEQECTBEHHNOA! #line:eed34f
+Adina: UYTEQECTBEHHNKN! #line:791ef9
+Adina: MJ1 UP0CNM AYDNEHONN Y VECH0F0 60FA! #line:a7d788
+GodtenderBrown: R 6PAYH, CVYSAWNL 60FY. KT0 BJ1? #line:7b4497
+Adina: R NMUEPATPNOA ACTPA, A GT0 M0L C0BETHNK GLMXNH. #line:018aac
+SnowThief: UPNBETCTBY%! #line:53b064
+Adina: N M0L BECTHNK, G-G...FAP0VJD. #line:99e42e
+Adina: YX #line:a437c0
+SnowThief: UPEKPACH0. #line:cd81b7
+Snowblow: *6NU!* #line:39dc0a
+GodtenderBrown: GT0 FVAHDNHX0PH? #line:778840
+Adina: A 4T0? #line:5cff5d
+GodtenderBrown: R NFPAV HA FVAHDNHX0PHE  B QK0VJHJ1E BPEMEHA! #line:1dd37d
+Adina: 0, KAK0E C0BUADEHNE! #line:b25848
+GodtenderBrown: 0H 4T0, T0SE UP0KVRT? #line:5ee087
+[[4T0?|HornWhat2]] #line:526666
+[[HET, CEPJE3H0, 4T0?|HornWhat2]] #line:70f396
+
+===
+title: SnowthiefAndSnowdog
+tags: 
+colorID: 0
+position: 1276,527
+---
+GodtenderBrown: UPNBET, UYTEQECTBEHHNOA! #line:8ed04a
+Adina: UYTEQECTBEHHNKN! #line:1559d0
+Adina: MJ1 UP0CNM AYDNEHONN Y VECH0F0 60FA! #line:85e08f
+GodtenderBrown: R 6PAYH, CVYSAWNL 60FY. KT0 BJ1? #line:6f35f7
+Adina: R NMUEPATPNOA ACTPA, A GT0 M0L C0BETHNK GLMXNH #line:cd02e0
+Snowthief: UPNNNNNNNBET. #line:72ea92
+Adina: N M0L APXNEUNCK0U, KVGHCN! #line:30e2e8
+Snowdog: *FAB!* #line:6393e9
+Adina: MJ1 D0VF0 UYTEQECTB0BAVN GT0L H04J%, 4T06J1 U0UACTJ C%DA, M0SEM VN MJ1 UP0LTN? #line:4ba4ec
+GodtenderBrown: BAQ APXNEUNCK0U "C06AKA" ? #line:b16ef5
+[[0H 04EHJ UP0HNOATEVJHJ1L, UPABDA KVGHCN?|FGPerceptive2]] #line:93685a
+[[GT0 HE C06AKA, APXNEUNCK0U KVGHCN PA3F0BAPNBAET HA R3J1KE 3BEPEL!|FGBeastLanguage2]] #line:f4274e
+===
+title: SnowblowAndSnowdog
+tags: 
+colorID: 0
+position: 1989,518
+---
+GodtenderBrown: UPNBET, UYTEQECTBEHHNOA! #line:eb91bc
+Adina: UYTEQECTBEHHNKN! #line:9e11fc
+Adina: MJ1 UP0CNM AYDNEHONN Y VECH0F0 60FA! #line:08ce5e
+GodtenderBrown: R 6PAYH, CVYSAWNL 60FY. KT0 BJ1? #line:7eb948
+Adina: R NMUEPATPNOA ACTPA, A GT0 M0L BECTHNK. #line:93acb9
+Snowblow: *6NU!* #line:134808
+Adina: N M0L C0BETHNK, KVGHCN. #line:043d96
+Snowdog: *FAB!* #line:18c68c
+GodtenderBrown: GT0 FVAHDNHX0PH? #line:e6a4c1
+GodtenderBrown: BAQ TEV0XPAHNTEVJ - C06AKA? #line:21fe9b
+[[KAK R Y3HA%, 4T0 GT0 FVAHDNHX0PH? |HowHorn]] #line:97096f
+[[DA, N KVGHCN 0TVN4H0 CUPABVRETCR C0 CB0EL PA60T0L. |BodyDog]] #line:12053b
+===
+title: MissingSnowmenCombination
+tags: 
+colorID: 0
+position: 486,690
+---
+Adina: 0-0Y. #line:1bee06
+Adina: MJ1 HE 0SNDAVN, 4T0 Y BAC U0VY4NTCR TAKAR K0M6NHAONR CHEF0BNK0B. #line:28039f
+Adina: TAK 4T0... G-G... N3BNHNTE? #line:25c342
+[[EndSnowmenChat]]
+===
+title: Snowdog
+tags: 
+colorID: 0
+position: 2689,725
+---
+<<if $snow_bridge is 1 or $talked_to_snowdog is 1>>
+	Snowdog: *FAB!* #line:84e7c1
+<<else>>
+	Adina: UPNBET. #line:d49ff9
+	Snowdog: *FAB!* #line:cbbdb0
+	Adina: 0-0, TJ1 C06AKA! #line:71fd3e
+	Snowdog: *FAB!* #line:b05911
+	Adina: HE DYMA%, 4T0 GT0 M0SET MHE U0M04J, H0 VADH0. #line:300660
+	Snowdog: *ZYX* *YZ* *XYX* #line:02c3f8
+	Adina: HA 0QELHNKE HADUNCJ: "KVGHCN". GT0 TB0E NMR? #line:37e478
+	Snowdog: *FAB!* *FAB!* *FAB!*  #line:d28b53
+	Adina: HADE%CJ, TJ1 HE NCU0PTNQJ MHE BCE, KVGHCN! #line:bc2dea
+	Adina: H0, HADE%CJ, CK0P0 TJ1 CM0SEQJ DBNFATJCR DAVJQE, #line:2123fb
+	Adina: TYDA, KYDA YX0DRT MEPTBJ1E C06AKN.  #line:21d06f
+	Snowdog: *FAB!* #line:063466
+	Adina: 0K, UPNRTEVJ, U0DJ1FPAL MHE. #line:76f4a0
+	<<set $talked_to_snowdog to 1>>
+<<endif>>
+
+===
+title: Snowthief_A1D1
+tags: 
+colorID: 0
+position: 2701,203
+---
+<<if $snow_bridge is 1>>
+	Snowthief: HY, BCE UP0QV0 0TVN4H0. #line:17b0ae
+<<elseif $talked_to_snowthief is 1>>
+	Snowthief: MJ1 CDEVAEM GT0? #line:b5e5c0
+<<else>>
+	Adina: UPNBET. #line:a2416f
+	Snowthief: 0X. 4T0 TJ1 X04EQJ? #line:067bd3
+	Adina: UP0CTN, 4T0 6ECU0K0%, H0 MHE HYSHA TB0R U0M0WJ. #line:b01071
+	Snowthief: DEPJM0. R YMEP, HE TAK VN? #line:e1effb
+	Snowthief: GT0 TAK TNUN4H0. #line:9bca0d
+	Adina: U0CVYQAL, R UPNBEVA TE6R C%DA, #line:6eb9e2
+	Adina: U0T0MY 4T0 R DYMA%, 4T0 TJ1 CM0SEQJ BJ16PATJCR N3 GTNX VEC0B #line:de4615
+	Adina: N 3AHNMATJCR TEM, 4EM 06J14H0 3AHNMA%TCR YMEPQNE.  #line:8a26c3
+	Snowthief: PA3BE GT0 T0, 4EF0 R X04Y? #line:9f1040
+	Adina: HE 3HA%. #line:5aa2f0
+	Snowthief: VADH0, HE BASH0. #line:399fd9
+	Adina: CVEDYL 3A MH0L. #line:8a4ed5
+	<<set $talked_to_snowthief to 1>>
+<<endif>>
+
+===
+title: Snowblow
+tags: 
+colorID: 0
+position: 2702,451
+---
+<<if $snow_bridge is 1 or $talked_to_snowblow is 1>>
+	Snowblow: *6NU!* #line:6cd1af
+<<else>>
+	Adina: UPNBET. #line:7e5061
+	Snowblow: *6NU!* #line:73db53
+	Adina: 0, BAY, TJ1 UP0CT0 P0F? #line:5347f1
+	Snowblow: *6N-N-N-N-N-N-N-N-NU!* #line:a4ff40
+	Adina: DABAL CDEVAEM TAK, 6NUHN 0DNH PA3, ECVN DA, N DBA, ECVN HET. U0HRV? #line:4d274f
+	Snowblow: *6NU!* #line:abfb26
+	Adina: TJ1 UPN3PAK, BCEVNBQNLCR B P0F? #line:8ef3ef
+	Snowblow: *6NU! 6NU!* #line:7fe73c
+	Adina: TJ1 T0T, KT0 NFPAV HA GT0M P0FE? #line:3f71b6
+	Snowblow: *6NU!* #line:e30f49
+	Adina: U0CVYQAL, R BEPHYVA TE6R HA3AD, #line:c420ee
+	Adina: U0T0MY 4T0 U0DYMAVA, 4T0 TJ1 CM0SEQJ BJ16PATJCR N3 GTNX VEC0B #line:e8cdc3
+	Adina: N 3AHNMATJCR TEM, 4EM 06J14H0 3AHNMA%TCR YMEPQNE. #line:662d83
+	Adina: 3BY4NT H0PMAVJH0? #line:36430b
+	Snowblow: *6-N-N-N-N-N-N-NU!* #line:c28b5e
+	Adina: 0TVN4H0! CVEDYL 3A MH0L. #line:7288be
+	<<set $talked_to_snowblow to 1>>
+<<endif>>
+===
+title: Snowdrunk_A1D1
+tags: 
+colorID: 0
+position: 2713,-49
+---
+<<if $snow_bridge is 1>>
+	Snowdrunk: R HE M0FY U0BEPNTJ, 4T0 6J1V TPE3B BCE T0 BPEMR, U0KA 6J1V MEPTB.  #line:f17799
+<<elseif $talked_to_snowdrunk is 1>>
+	Snowdrunk: CDEVAEM GT0. BCE PABH0 R HE CTAHY 60VEE SNBJ1M. #line:fe0930
+<<else>>
+	Adina: UPNBET. #line:a1d1ec
+	Snowdrunk: ...UPNBET? #line:cef413
+	Adina: UP0CTN 3A PE3K0CTJ, H0 MHE HYSHAR TB0R U0M0WJ.  #line:6c18db
+	Snowdrunk: U0D0SDN, FDE R? #line:f4c800
+	Adina: TJ1 HA F0PE VECH0F0 60FA. #line:0b8968
+	Snowdunk: 0Y! MJ1 C06NPAEMCR YBNDETJ VECH0F0 60FA? #line:6bdd94
+	Snowdrunk: R NDY HA 3AMEP3QEE 03EP0. #line:4613a3
+	Adina: R T0SE! #line:89f935
+	Adina: TJ1 HE NDEQJ. #line:162ddf
+	Snowdrunk: 0Y! #line:f659e4
+	Snowdrunk: ...0Y. #line:4196ed
+	Adina: U0CVYQAL, R UPNBEVA TE6R C%DA, #line:d2ecfd
+	Adina: U0T0MY 4T0 R DYMA%, 4T0 TJ1 CM0SEQJ BJ16PATJCR N3 GTNX VEC0B #line:55b620
+	Adina: N 3AHNMATJCR TEM, 4EM 06J14H0 3AHNMA%TCR YMEPQNE. #line:f66686
+	Snowdrunk: X0P0Q0, GT0 3BY4NT TAK SE, KAK N BCE, 4T0 3DECJ UP0NCX0DNT. #line:787523
+	Adina: 0K, CVEDYL 3A MH0L. #line:cb12c9
+	<<set $talked_to_snowdrunk to 1>>
+<<endif>>
+
+===
+title: GodtenderBrown_A1D2.1
+tags: 
+colorID: 0
+position: -2063,588
+---
+GodtenderBrown: 0 NMUEPATPNOA, VECH0L 60F BCE EWE 60VEH. #line:543af1
+Adina: MHE 04EHJ SAVJ. #line:485296
+GodtenderBrown: ECVN 6J1 R T0VJK0 3HAV, U04EMY, N 6YDET VN 0H CH0BA 3D0P0B.  #line:cddc0a
+GodtenderBrown: 6VAF0DAP% BAC 3A T0, 4T0 0CTABNVN BAQNX K0MUAHJ0H0B C0 MH0L, U0CK0VJKY 0HN 6J1VN UPEKPACHJ1M YTEQEHNEM.  #line:7cd12e
+Adina: HET UP06VEM. R D0BEPR% NX BAM. #line:b90d16
+===
+title: GodtenderBrown_A1D3
+tags: 
+colorID: 0
+position: -2311,587
+---
+<<if $forest_god_poison is 1>>
+	Adina: 6PAYH, CVYSAWNL 60FY! #line:caf979
+	GodtenderBrown: NMUEPATPNOA! YSE TAK U03DH0! U04EMY BJ1 EWE 3DECJ? #line:88bcbe
+	Adina: CVYQALTE, GT0 04EHJ BASH0. #line:35fe83
+	Adina: R 3HA%, U04EMY BAQ 60F YMNPAET. #line:62cfb8
+	GodtenderBrown: 4-4T0? #line:236c8a
+	Adina: BNDNTE VN, R BNDEVA... #line:ebef83
+	GodtenderBrown: HET, BJ1 D0VSHJ1 PACCKA3ATJ GT0 EMY. #line:f92237
+	Adina: 4T0? U04EMY? #line:359c8a
+	GodtenderBrown: R HE D0CT0NH YCVJ1QATJ EF0 CVA60CTN. #line:3876d7
+	GodtenderBrown: R HE 3ACVYSNBA% MNPA, K0T0PJ1L R HAQEV 3DECJ #line:1bbab7
+	GodtenderBrown: N R D0VSEH U04NTATJ EF0 TAK X0P0Q0, HACK0VJK0 GT0 U03B0VRET M0R XPYUKAR VN4H0CTJ. #line:179e04
+	Adina: GT0 DELCTBNTEVJH0 4T0-T0. #line:ad98a7
+	GodtenderBrown: U0LDEMTE C0 MH0L. CEL4AC SE! #line:5c99c0
+	<<fadeOut 1>>
+	<<wait 1>>
+	<<scene LN2_FG_Interior>>
+<<else>>
+	GodtenderBrown: GT0 CAMAR XYDQAR DVNHHELQAR H04J. #line:97cded
+	GodtenderBrown: 6J1BAVN N VY4QNE DHN. #line:bb5ac1
+<<endif>>
+
+===
+title: FGSick
+tags: 
+colorID: 0
+position: -2376,1165
+---
+Adina: KAK 60F M0SET 3A60VETJ?  #line:00b8d3
+GodtenderBrown: R HE 3HA%. #line:898861
+GodtenderBrown: [shake=.02]ECVN 6J1 R 3HAV, 4T0 UP0NCX0DNT!!!![/shake] #line:6851eb
+GodtenderBrown: HAM, CVYSAWNM 60FY, U0PY4NVN 3A60TNTJCR 0 60FE VECA. #line:e76a5c
+GodtenderBrown: H0 GTY 60VE3HJ MJ1 HNK0FDA HE BNDEVN. #line:5eeb9d
+GodtenderBrown: U0D06H0F0 HE 6J1V0 DASE B 700-VETHNX KHNFAX, XPAHRWNXCR C TEX U0P, KAK CBRT0L CECNV HA4AV YXASNBATJ 3A 60F0M. #line:c32e1a
+Adina: 0 HET. #line:95cd47
+GodtenderBrown: MJ1 DYMAVN, K0FDA HACTAHET MNP, BCE 6YDET X0P0Q0. #line:989a0b
+Adina: MNP? #line:3e504f
+GodtenderBrown: 0DHAK0, BEK0B0L K0HZVNKT C HEL 0CVA6NV EF0.  #line:6c84b9
+GodtenderBrown: N BCK0PE 0H 3A60VEV. #line:8d5928
+Adina: [shake=.01]HEL?[/shake] TJ1 NMEEQJ B BNDY [size=1.1][speed=.25][color=aaaaaa][shake=.01]XAH4EP?[/all] #line:cdba67
+GodtenderBrown:{angryWobble=5}HE UP0N3H0CN EE NMR 3DECJ.#line:7058a0
+GodtenderBrown:{angryWobble=0}M0E CEPDOE PA36NT0. M0L 60F CTAP N 60VEH.#line:9b1aba
+GodtenderBrown: R HE 3HA%, 4T0 6YDET C M0EL SN3HJ% 6E3 HEF0. #line:e20819
+Adina: N3BNHNTE, CVYSAWNL 60FY. #line:7a38c7
+GodtenderBrown: BJ1 HN4EF0 HE CM0SETE CDEVATJ, NMUEPATPNOA. #line:a4acb4
+GodtenderBrown: KAK UPEDCTABNTEVJ VECH0F0 TP0HA, #line:74a66a
+GodtenderBrown: R 3ARBVR%, 4T0 HNKAKAR CNVA VECH0F0 60FA HE 6YDET MEQATJ BAM GT0L DVNHHELQEL H04J%. #line:44fc1a
+GodtenderBrown: 4T0 KACAETCR [speed=.5][shake=.01]EE[/all], BJ1 U0DBVACTHJ1 #line:d6d873
+GodtenderBrown: CAM0MY 0UACH0MY CYWECTBY B VECY. #line:463755
+Adina: CUACN60, CVYSAWNL 60FY 6PAYH. #line:361a57
+GodtenderBrown: NDNTE. DA UPN6YDET C BAMN 60F. #line:91f847
+[[EndDay1]]
+
+===
+title: FGDying
+tags: 
+colorID: 0
+position: -2614,1170
+---
+Adina: KAK 60F M0SET YMEPETJ? #line:e81cdd
+GodtenderBrown: R HE UPETEHDY% HA T0, 4T06J1 3HATJ TAKNE BEWN.  #line:7fee10
+GodtenderBrown: [shake=.02]ECVN 6J1 R 3HAV, 4T0 UP0NCX0DNT!!!![/shake] #line:4cf16b
+GodtenderBrown: HAM, CVYSAWNM 60FY, U0PY4NVN 3A60TNTJCR 0 60FE VECA. #line:545caa
+GodtenderBrown: H0 GTY 60VE3HJ MJ1 HNK0FDA HE BNDEVN. #line:ddb708
+GodtenderBrown: U0D06H0F0 HE 6J1V0 DASE B 700-VETHNX KHNFAX, XPAHRWNXCR C TEX U0P, KAK CBRT0L CECNV HA4AV YXASNBATJ 3A 60F0M. #line:da9f2d
+Adina: 0 HET. #line:29f8e8
+GodtenderBrown: MJ1 DYMAVN, K0FDA UPNDET MNP, BCE 6YDET X0P0Q0. #line:255456
+Adina: MNP? #line:f91c5f
+GodtenderBrown: 0DHAK0, BEK0B0L K0HZVNKT C HEL 0CVA6NV EF0. #line:5e9899
+GodtenderBrown: N BCK0PE 0H 3A60VEV. #line:bd1a62
+Adina: [shake=.01]HEL?[/shake]TJ1 NMEEQJ B BNDY [size=1.1][speed=.25][color=aaaaaa][shake=.01]XAH4EP?[/all] #line:ca59f5
+GodtenderBrown:{angryWobble=5}HE UP0N3H0CN 3DECJ EE NMR.#line:cab290
+GodtenderBrown: M0E CEPDOE PA36NT0. M0L 60F YMNPAET. #line:e000aa
+GodtenderBrown: R HE 3HA%, 4T0 6YDET C M0EL SN3HJ% 6E3 HEF0. #line:e671ad
+Adina: UP0CTNTE, CVYSAWNL 60FY. #line:1de590
+GodtenderBrown: BJ1 HN4EF0 HE CM0SETE CDEVATJ, NMUEPATPNOA. #line:f5defb
+GodtenderBrown: KAK UPEDCTABNTEVJ VECH0F0 TP0HA, #line:352c32
+GodtenderBrown: R 3ARBVR%, 4T0 HNKAKAR CNVA VECH0F0 60FA HE 6YDET MEQATJ BAM GT0L DVNHHELQEL H04J%. #line:f022b3
+GodtenderBrown: 4T0 KACAETCR [speed=.5][shake=.01]EE[/all], BJ1 U0DBVACTHJ1 #line:f7ae34
+GodtenderBrown: CAM0MY 0UACH0MY CYWECTBY B VECY. #line:f64aff
+Adina: CUACN60, CVYSAWNL 60FY 6PAYH. #line:961361
+GodtenderBrown: NDNTE. DA UPN6YDET C BAMN 60F. #line:1e351b
+[[EndDay1]]
+===
+title: FGBeastLanguage
+tags: 
+colorID: 0
+position: 162,775
+---
+GodtenderBrown: 3HAMEHNR N 4YDECA!!!! #line:88c997
+Adina: K0FDA KVGHCN 6J1V PE6EHK0M, #line:9a81d0
+Adina: 0H CTPEMNVCR UPNHECTN MNP U0VEBJ1M SNB0THJ1M #line:566ebd
+Snowdrunk: 0H 6J1V YBEPEH, 4T0 CM0SET #line:a181ef
+Snowdog: "FAB!" #line:72f150
+Adina: N 3A GT0 0H 6J1V 6VAF0CV0BVEH B03M0SH0CTJ% F0B0PNTJ C HNMN. #line:38f23c
+GodtenderBrown: U04EMY SE 0H HE PA3F0BAPNBAET C HAMN? #line:179da6
+Adina: GG... #line:c0f57a
+Snowdrunk: XM. #line:75236c
+[[0H 3A6J1V KAK GT0 DEVATJ, TAK0BA EF0 UPNBEPSEHH0CTJ DEVY.|FGForgotten]] #line:ca9e7c
+[[B HACT0RWEE BPEMR 0H PA3F0BAPNBAET C HAQNM NMUEPCKNM UC0M, DAPT0M.|FGDart]] #line:f79019
+===
+title: FGPerceptive
+tags: 
+colorID: 0
+position: -79,768
+---
+Snowdrunk: ... #line:80350d
+Adina: YNVJRMC? #line:677c4c
+Snowdrunk: DA, GT0T UEC NMEET UPRMY% CBR3J C HE6ECAMN. #line:11fa31
+Snowdog: *FAB!* #line:6ed170
+Adina: 0H P0DNVCR C 0DHNM YX0M, K0T0P0E 6J1V0 6EVJ1M, KAK CHEF #line:b8163e
+Adina: GT0 T0 YX0, K0T0P0E 0H NCU0VJ3YET, 4T06J1 CVJ1QATJ HE6ECHJ1E MNPJ1.  #line:bdfade
+GodtenderBrown: B0CXNTNTEVJH0! #line:145766
+Snowdog: *FAB!* #line:473062
+Snowdrunk: TAK 4T0 MJ1... #line:943cc8
+Snowdog: *FAB!* *FAB!* #line:6f21ce
+Snowdrunk: ...HAKA3AHJ1 CBET0M... #line:b33e3e
+Snowdog: *FAB!* *FAB!* *TRB!* *FAB!* *FAB!* *TRB!* *FAB!* *FAB!* *TRB!* #line:d0c0c4
+Snowdrunk: 60SE,  VN60 3ATKHN GTY C06AKY, VN60 BEPHN MEHR 06PATH0 K CMEPTN #line:175589
+GodtenderBrown: TJ1 0 4EM? #line:9a381c
+[[YNVJRMC UP0CT0 6J1V NHTYNTNBEH!|FGIntuition]] #line:be3b07
+[[KVGHCN U0VY4AET BNDEHNE UPRM0 CEL4AC!|FGVision]] #line:56c0da
+
+===
+title: FGDart
+tags: 
+colorID: 0
+position: 368,1019
+---
+GodtenderBrown: 0, Y BAC ECTJ C06AKA! R V%6V% C06AK! #line:4f1d1e
+GodtenderBrown: DAPT! F0B0PN, DAPT! #line:a1ac40
+Snowdog: *FAB!* #line:5614a2
+GodtenderBrown: APXNEUNCK0U KVGHCN, R X04Y U0F0B0PNTJ C BAQEL C06AK0L! #line:3e6c22
+Adina: YNVJRMC! HE M0F 6J1 TJ1... U0UP0CNTJ DAPTA F0B0PNTJ? #line:9bad48
+Snowdrunk: 0 60SE. #line:52097b
+GodtenderBrown: F0B0PN, DAPT! #line:61b8f5
+Snowdrunk: FAB. #line:c427d4
+Snowdog: *FAB!* #line:b9dada
+Snowdrunk: VAL. #line:87484a
+GodtenderBrown: B0T GT0 DYX #line:391d3d
+Snowdog: *FAB!* #line:b70798
+Snowdrunk: FAB. #line:ec6219
+GodtenderBrown: N D0 CNX U0P R 0WYWA% HA HEM BEC UP0UNTAHHJ1X DSNHH0M VET. #line:e17eb9
+Adina: BJ1 UP0HNOATEVJHJ1, CVYSAWNL 60FY. #line:9da31f
+Snowdog: *FAB!* #line:47f6f5
+Adina: KVGHCN U0M0FAET 6EDH0MY DAPTY N3MEHNTJ CB0% SN3HJ! #line:ffbb79
+Snowdrunk: R BAC BCEX HEHABNSY. #line:d32276
+GodtenderBrown: TJ1 0 4EM? #line:5fcb9d
+Adina: B03DYX 04EHJ X0V0DHJ1L, M0SEM VN MJ1 UP0LTN? #line:7ef561
+GodtenderBrown: V%60L C D06PJ1M CEPDOEM, D06P0DETEVJHJ1L APXNEUNCK0U #line:0beb5f
+GodtenderBrown: N C06AKA TAK0L HPABCTBEHH0CTN, CT0LK0CTN N XPA6P0CTN #line:870d8b
+GodtenderBrown: D0CT0NHJ1 0CM0TPA VECH0F0 60FA.  #line:7d15f3
+Adina: CUACN60, CVYSAWNL 60FY. #line:3227d4
+[[EndSnowmenChat]]
+
+===
+title: FGForgotten
+tags: 
+colorID: 0
+position: 141,1015
+---
+GodtenderBrown: KAKAR HA60SH0CTJ! #line:e356cd
+Adina: 0H RBVRETCR KAHDNDAT0M HA HA60SH0CTJ TAM, 0TKYDA MJ1 UPNQVN.  #line:af1a9c
+Snowdrunk: 0H U0TPRCA%WNL, CVYSAWNL 60FY. #line:01d699
+GodtenderBrown: 6EATNZNONP0BATJ EF0, U0KA 0H SNB? #line:af134c
+GodtenderBrown: KT0-HN6YDJ CVJ1QAV 06 GT0M? #line:d58b59
+[[GT0 0C06J1E 06CT0RTEVJCTBA. |FGCircumstance]] #line:c9c10b
+[[0H HE SNB0L. 0H UPN3PAK.|FGGhostDog]] #line:3f1934
+
+===
+title: FgCircumstance
+tags: 
+colorID: 0
+position: 142,1262
+---
+Adina: 0H TALHJ1L CJ1H K0P0VR! #line:0749d2
+Snowdog: *FAB!* #line:b4b648
+Adina: TAK 4T0 EF0 6J1CTP0 UPN4NCVNVN K CBRTJ1M. #line:e23162
+Snowdrunk: GT0 HED0CT0BEPH0. #line:c88087
+GodtenderBrown: GT0 HEMJ1CVNM0! #line:1f4939
+Adina: GL, BAM HE HYSH0 Y6ESDATJ MEHR! #line:1f0ec9
+Snowdrunk: H0 GT0 HE EF0 BNHA. #line:8c3259
+Adina: 0H UP0CT0 X0P0QNL, MNVJ1L UAPEHJ #line:5be2d1
+Snowdrunk: K0T0PJ1L VAET HA SNB0THJ1X #line:2e2b91
+Adina: ... N GT0 M0L APXNEUNCK0U? #line:05c356
+Snowdrunk: GT0 6J1V0 X0P0QAR NDER. #line:4dd25d
+Adina: M0SEM VN MJ1 UP0LTN? #line:b4f695
+GodtenderBrown: BAQA UPEDAHH0CTJ GT0MY FABKA%WEMY CBRT0MY B BAQEL NMUEPNN #line:30cdf3
+GodtenderBrown: Y6EDNVA MEHR B T0M, 4T0 BAQE CEPDOE U04TNTEVJH0 N 4NCT0.  #line:84dda0
+GodtenderBrown: BJ1 M0SETE UP0LTN. #line:5d4fce
+Adina: 0FP0MH0E CUACN60! #line:5ace48
+[[EndSnowmenChat]]
+
+===
+title: FgGhostDog
+tags: 
+colorID: 0
+position: 364,1261
+---
+GodtenderBrown: UPN3PAK?!?!? #line:b2be0f
+GodtenderBrown: N3BNHNTE, H0 GT0 CVNQK0M SYTK0 DVR MEHR. #line:d17eaf
+<<close>>
+<<walk GodtenderBrown Offscreen>>
+<<wait 1>>
+Adina: HET, HE YX0DN! #line:6b4748
+Adina: 4EPT B03JMN. #line:d1054a
+Snowdrunk: X0P0QAR PA60TA. #line:443313
+Snowdog: *FAB!* #line:3a6c7f
+Adina: 3ATKHNTECJ BCE! #line:3f45a6
+Adina: CVYSAWNL 60FY 6PAYH, BJ1 TAM?  #line:4ad57a
+GodtenderBrown: DA? #line:c80f93
+Adina: BJ1 60NTECJ 0DH0F0 MAVEHJK0F0 CBRT0F0 UPN3PAKA? #line:24964d
+GodtenderBrown: DA? #line:23eccd
+Adina: 0, PA3BE BJ1 HE BEPHETECJ N HE UP0UYCTNTE HAC? #line:5b1554
+GodtenderBrown: M0SETE VN BJ1 U006EWATJ MHE, 4T0 BAQ UPN3PAK HE 6YDET MEHR UYFATJ? #line:ec92ab
+Adina: KAK TJ1 DYMAEQJ, YNVJRMC? #line:5032e2
+Snowdrunk: R C4NTA%, MJ1 M0SEM GT0 CDEVATJ, NMUEPATPNOA. #line:b2a5a8
+Snowdog: *FAB!* #line:ee9c7b
+<<close>>
+<<walk GodtenderBrown Ledge wait>>
+GodtenderBrown: R U03B0V% BAM UP0LTN, UPN YCV0BNN, 4T0 HNKT0 HE HAUYFAETCR. #line:f019ce
+Adina: CUACN60, CVYSAWNL 60FY. #line:482f16
+[[EndSnowmenChat]]
+
+===
+title: FgIntuition
+tags: 
+colorID: 0
+position: -321,1015
+---
+GodtenderBrown: CKASNTE, YNVJRMC! #line:31d36b
+Snowdrunk: APXNEUNCK0U 6VAF0CV0BVRET BAC, #line:02514f
+Snowdrunk: 4T06J1 U03B0VNTJ NMUEPATPNOE BCTPETNTJCR C VECHJ1M 60F0M. #line:0a30b7
+GodtenderBrown: H0 R EWE HE DAV BAM UP0LTN. #line:18fe31
+Adina: DA, H0 APXNEUNCK0U 06VADAET DAVJH0BNDH0CTJ%! #line:7e59e5
+Snowdog: *FAB!* #line:28e82b
+Adina: 0H 04EHJ NHTYNTNBEH.  #line:73891f
+GodtenderBrown: DA, H0 0TKYDA 0H 3HAET 4T0 GT0 6YDYWEE UPABDNB0? #line:773fa4
+Adina: 0H BNDNT BCE B03M0SHJ1E BAPNAHTJ1 N T04H0 3HAET, KAK0L N3 HNX UPABDNB! #line:31a00b
+Snowdog: *FAB!* #line:79320a
+GodtenderBrown: ECTJ VN Y MEHR BJ160P? #line:be1901
+Snowdrunk: A T0! #line:d216f5
+Adina: TCCC! #line:4c47ff
+Adina: HET, BAM CYSDEH0 U03B0VNTJ HAM UP0LTN. #line:ad4a34
+GodtenderBrown: TEUEPJ R 4YBCTBY%, 4T0 BCE, 4T0 UP0NCX0DNT, HEN36ESH0. #line:8606ff
+Adina: H0 BJ1 U0VY4NVN 6VAF0CV0BEHNE! #line:544c53
+GodtenderBrown: R HADE%CJ, 4T0 6VAF0CV0BEHNE U0M0SET MHE U0HRTJ GTY TPEB0SHY% MJ1CVJ. #line:4f188a
+Adina: MJ1 M0SEM UP0LTN? #line:dd949c
+GodtenderBrown: NHTYNTNBH0CTJ BAQNX T0BAPNWEL Y6EDNVA MEHR B T0M, 4T0 BJ1 D0CT0LHJ1 UP0LTN. #line:6a4410
+Adina: CUACN60, CVYSAWNL 60FY. #line:f8bbc1
+[[EndSnowmenChat]]
+
+===
+title: FGVision
+tags: 
+colorID: 0
+position: -91,1014
+---
+GodtenderBrown: APXNEUNCK0U KVGHCN, PACCKASNTE, 4T0 BJ1 BNDNTE! #line:fae620
+Snowdrunk: G-G #line:ccdd52
+Snowdog: *FAB!* #line:7570a2
+Adina: YNVJRMC, UEPEBEDEQJ? #line:975be7
+Snowdrunk: G... #line:0070f4
+Snowdog: *FAB!* #line:fab2eb
+Snowdrunk: "GT0T MEDBEDJ C 3ABR3AHHJ1MN FVA3AMN" #line:fb21fc
+GodtenderBrown: GT0 R! #line:311d04
+Snowdog: *FAB!* #line:6f5025
+Snowdrunk: "D0VSEH U03B0VNTJ NMUEPATPNOE UP0LTN" #line:ddf8af
+GodtenderBrown: R M0FY GT0 CDEVATJ! #line:531dad
+Adina: 0TVN4H0! CUACN60! #line:5f35e2
+Snowdog: *FAB!* #line:c4dcc7
+GodtenderBrown: BNDEHNE UP0D0VSAETCR! #line:e89edd
+Adina: GM #line:530a35
+Snowdrunk: "Y BAC ECTJ KAK0L HN6YDJ VNKEP" #line:5afe7f
+Adina: HET. CT0U.  #line:509d91
+GodtenderBrown: 4T0? #line:99bfdd
+Snowdog: *FAB!* #line:5324c9
+Snowdrunk: M0N HABJ1KN 0FPAHN4EHJ1, R 60VJQE HE M0FY UEPEB0DNTJ. #line:425f1c
+Adina: MJ1 D0VSHJ1 UEPEDATJ GTN 4YDECA 3BEPRM. #line:5d7c2b
+Adina: 6APCYKAM, F0PH0CTARM, CNHNOAM, MEDBESATAM. #line:ccf36e
+GodtenderBrown: AMNHJ. #line:08cc74
+GodtenderBrown: MJ1 CTAVN CBNDETEVRMN 4YDA, B CAMY% DVNHHY% H04J. #line:c6139b
+GodtenderBrown: BJ1 6VAF0CV0BEHHJ1, NMUEPATPNOA. #line:8cbc78
+GodtenderBrown: N R UP0QY BAC, 0CTABNTJ 4ACTJ GT0F0 6VAF0CV0BEHNR 3DECJ. #line:f5f89d
+[[EndSnowmenChat]]
+
+===
+title: BeyondThisForest
+tags: 
+colorID: 0
+position: -886,764
+---
+GodtenderBrown: 3AME4ATEVJH0!  NME%TCR VN DPYFNE VECA, HAU0D06NE GT0F0? #line:d84e4d
+Adina: HY, HE C0BCEM TAK... #line:76a299
+GodtenderBrown: ECTJ VN TAM DEPEBJR? #line:d50e55
+Adina: DA. 6J1V0 6J1 TPYDH0 HA3J1BATJ GT0 VEC0M, ECVN 6J1 TAM HE 6J1V0 DEPEBJEB. #line:984658
+Snowthief: Y HNX ECTJ U0DB0DHJ1E VECA. #line:011a58
+Snowdrunk: 4T0? #line:d5110c
+Snowthief: CDEVAHJ1 N3 M0PCKNX B0D0P0CVEL. #line:84586a
+Snowthief: R BNDEV YT0UVEHHNKA. #line:f75e0d
+Snowthief: B0D0P0CVN 06XBATNVN EF0 CV0BH0 B0V0CJ1 YT0HYBQEF0 UPN3PAKA. #line:4d48f5
+Snowthief: N YTAWNVN EF0 BFVY6J. #line:64f618
+Snowdrunk: 0KEL. #line:8ce0ac
+Adina: B V%60M CVY4AE, #line:72d4cf
+GodtenderBrown: 0000! TEUEPJ MHE X0P0Q0 N CTPAQH0! #line:188d3d
+[[MJ1 D0VF0 UYTEQECTB0BAVN, MNM0 MH0FNX 0KEAHCKNX UPN3PAK0B.|GhostOcean]] #line:83a6fa
+[[U0CVYQAL, TAKNX BEWEL HE CYWECTBYET.|DoesntExist]] #line:2dc62f
+
+===
+title: WesternOcean
+tags: 
+colorID: 0
+position: -1122,789
+---
+GodtenderBrown: M0L 0TEO 6J1V 3A 3AUADHJ1M 0KEAH0M. #line:426c1a
+SnowThief: KAK N R! MNP TECEH. #line:07ef7f
+GodtenderBrown: ...UPABDA? #line:53a75c
+SnowThief: 4T0? #line:26145d
+GodtenderBrown: R DYMAV, 4T0 Y3HAV GT0T F0V0C. #line:5ee31f
+SnowThief: HET. #line:0d3a2e
+GodtenderBrown: UAU04KA! #line:63a922
+Adina: HET, GT0 HE TB0L 0TEO. #line:5a3ffe
+GodtenderBrown: UAU04KA BEPHYVCR! #line:2b087f
+[[HET, 0H DELCTBNTEVJH0 HE TB0L 0TEO.|NoDad]] #line:03aec1
+[[GM,YNVJRMC, BJ1 DADNTE HACTABVEHNE GT0MY 3AUYTABQEMYCR MYS4NHE?|HelpDad]] #line:b558ac
+
+===
+title: DoesntExist
+tags: 
+colorID: 0
+position: -1071,1022
+---
+SnowThief: TJ1 F0B0PNQJ, 4T0 B0D0P0CVEL HE CYWECTBYET? #line:8a6fd3
+Adina: DA, 04EBNDH0, GT0 T0, 4T0 R CKA3AVA. #line:27e4f4
+SnowThief: HY, T0FDA VADH0, TJ1 GKCUEPT B T0M, 4T0 CYWECTBYET. #line:9b3f96
+GodtenderBrown: N3BNHR%CJ, H0 MJ1 HE 0D06PREM CAPKA3M HA CBRT0L F0PE. #line:2df2b2
+Snowdrunk: 0TVN4H0. #line:c410de
+GodtenderBrown: N3 KAK0L SE ONHN4H0L NMUEPNN BJ1 UPN6J1VN. #line:af5d06
+Adina: U0CVYQALTE, ECVN MJ1 0T6P0CNM HAQ CAPKA3M, HAQ ONHN3M, HAQY NP0HN% #line:0a9f6e
+Adina: MJ1 CM0SEM YBNDETJ VECH0F0 60FA? #line:0a7856
+GodtenderBrown: 0TPNHJTE UPNTB0PCTB0! #line:22649d
+GodtenderBrown: N BJ1 CM0SETE UP0LTN. H0 6YDJTE 0CT0P0SHEE. #line:847f62
+Adina: CUACN60, CVYSAWNL 60FY. #line:5c0eaf
+[[EndSnowmenChat]]
+
+===
+title: GhostOcean
+tags: 
+colorID: 0
+position: -814,1013
+---
+GodtenderBrown: R 60%CJ UPN3PAK0B #line:d709cd
+GodtenderBrown: N 0KEAH #line:dcde56
+GodtenderBrown: N V0QADEL, H0 R 4YBCTBY%, 4T0 GT0 3DECJ HE YMECTH0. #line:7e0ca1
+Adina: RCH0. BCE GT0 M0SET NCUYFATJ. #line:dadd77
+Adina: DASE B M0NX 06R3AHH0CTRX NMUEPATPNOJ1, #line:cd7eb9
+Adina: CTPAXN UPNBEDEHNL, 0KEAHA N V0QADEL. #line:9b55e7
+Snowthief: 60VJQAR TP0LKA. #line:ee141c
+Snowdrunk: YSACAET. #line:ce1dd2
+Adina: MJ1 M0SEM UP0LTN? #line:ddc8c2
+GodtenderBrown: BJ1 BCTPETNVN MH0F0 YSAC0B HA CB0EM UYTN, #line:8132a0
+GodtenderBrown: H0 PA3DEVNB CTPAXN, 0HN HAM HNU04EM #line:cf7dcf
+GodtenderBrown: B0 BVADEHNRX VECH0F0 60FA. #line:1498ed
+GodtenderBrown: BJ1 M0SETE UP0LTN. #line:1b1010
+Adina: CUACN60, CVYSAWNL 60FY. #line:c503ef
+[[EndSnowmenChat]]
+
+===
+title: HelpDad
+tags: 
+colorID: 0
+position: -1302,1020
+---
+Snowdrunk: U04EMY BJ1 F0T0BJ1 D0UYCTNTJ HE3HAK0MOEB K CB0EMY 0TOY? #line:b52517
+Snowdrunk: KASETCR, Y BAC ECTJ K HEMY DEVA. #line:9fff3e
+GodtenderBrown: C TEX U0P, KAK UAUY YDAPNVA B F0V0BY V0QADJ #line:2dd959
+Snowthief: 4T0 TEUEPJ? #line:e8be6f
+GodtenderBrown: UAUA BCEFDA 6J1V 06MAHWNK0M #line:74a52b
+GodtenderBrown: TAK 4T0, M0SET 0H HA CAM0M DEVE N HE YMEP, N BCE GT0 UP0CT0 CAMJ1L DVNHHJ1L EF0 P03J1FPJ1Q. #line:1c629a
+Adina: ... #line:aa05d6
+Snowthief: GT0 06R3ATEVJCTB0. #line:949796
+GodtenderBrown: H0 BJ1 UPABJ1. #line:4bc1ab
+GodtenderBrown: U0CVE BCEX VET 0SNDAHNR, HADESDJ1 N HEHABNCTN K V0QADRM... #line:4aa138
+Adina: DYMA%, MJ1 BCE GT0L H04J% 4T0-HN6YDJ, DA YCB0NVN. #line:5c7376
+Snowdrunk: 6VAF0CV0BVR% TE6R, M0E DNTR. #line:5c1e77
+Adina: MJ1 M0SEM UP0LTN? #line:1f5643
+GodtenderBrown: BJ1 MYDPJ1, APXNEUNCK0U YNVJRMC #line:a0e539
+GodtenderBrown: A BJ1 UP0HNOATEVJHJ1 NMUEPATPNOA, ACTPA. #line:dd83a6
+GodtenderBrown: BJ1 M0SETE UP0LTN. #line:683560
+Adina: CUACN60, CVYSAWNL 60FY. #line:0e14e6
+[[EndSnowmenChat]]
+
+===
+title: NoDad
+tags: 
+colorID: 0
+position: -1349,792
+---
+GodtenderBrown: UAUA 6J1V TAKNM 06MAHWNK0M. #line:61425c
+GodtenderBrown: C TEX UAP KAK UAUY YDAPNVA B F0V0BY V0QADJ #line:a946cc
+GodtenderBrown: R HADERVACJ, 4T0 BCE GT0 6J1V0 UP0CT0 04EHJ, 04EHJ DVNHH0L QYTK0L. #line:e65d6b
+Snowthief: DA TJ1 QYTNQJ! #line:30e5b1
+GodtenderBrown: HANBH0, R 3HA%... #line:76c905
+Snowthief: HET, T0 ECTJ, M0% MATJ YDAPNVA B F0V0BY V0QADJ! #line:a807bb
+GodtenderBrown: XA! #line:8405a7
+Adina: PE6RTA, M0% CECTPY YDAPNVA B F0V0BY V0QADJ. #line:3fbb74
+GodtenderBrown: BAY! #line:c8533b
+Snowdrunk: M0EF0 DRD% PA3DABNVA YUABQAR CTATYR 6APCYKA! #line:6c2be1
+Snowdrunk: H0, R HADE%CJ, 3DECJ GT0 HE HEAKTYAVJH0. #line:5ceaac
+Adina: BCE MJ1 K0F0-T0 U0TEPRVN N3-3A V0QADEL. #line:25e5ff
+GodtenderBrown: GT0 06JEDNHRET HAC BCEX. #line:34260c
+Adina: MJ1 M0SEM UP0LTN? #line:baf203
+GodtenderBrown: GT0T M0MEHT, 4T0 PA3DEVNVN DPYF C DPYF0M, 0H OEHEH DVR MEHR. #line:134c07
+GodtenderBrown: N R 4YBCTBY%, 4T0 BJ1 D06PJ1E UYTEQECTBEHHNKN, K0T0PJ1E HEHABNDRT V0QADEL. #line:802f85
+GodtenderBrown: BJ1 M0SETE UP0LTN. #line:68eec3
+Adina: CUACN60, CVYSAWNL 60FY. #line:0eebc7
+[[EndSnowmenChat]]
+
+===
+title: HornWhat
+tags: 
+colorID: 0
+position: -559,1011
+---
+GodtenderBrown: HA FVAHDNHX0PHCE DEPSNTCR CMEPTEVJH0E UP0KVRTJE DVR TEX, KT0 NFPAET HA HEM. #line:0f5dc7
+Adina: 0F0. #line:dcc615
+GodtenderBrown: N 0FP0MH0F0 HEC4ACTJR DVR BCEX TEX, KT0 CVJ1QNT EF0. #line:21b9e7
+Snowblow: *6N-N-N-N-N-N-NU.* #line:adbf72
+Snowdrunk: RCH0. #line:681cc8
+[[N 0HN U03B0VRVN NFPATJ BAM B QK0VE?|PlaySchool1]] #line:b208d9
+[[H0 BJ1 BCE EWE SNBJ1?|StillAlive1]] #line:427236
+===
+title: PlaySchool1
+tags: 
+colorID: 0
+position: -682,1262
+---
+GodTenderBrown: 0HN HE 06HAPYSNVN UP0KVRTJR D0 TEX U0P, KAK R HE 06PEV MYDP0CTJ. #line:911caa
+GodTenderBrown: F0D, K0FDA 0HN C06PAVN EDNHJ1L FVAHDNHX0PHCKNL VETHNL X0P. #line:336b68
+GodTenderBrown: N QK0VA UP0BAVNVACJ U0D 3EMV%. #line:7e6a01
+Adina: 60SE! #line:716042
+Snowblow: *6NU!!!* #line:7bffa3
+Snowdrunk: *6N-N-N-N-N-N-NU.* #line:4d2ee3
+GodtenderBrown: A TEUEPJ N BJ1 UP0KVRTJ1, BEDJ BJ1 YCVJ1QAVN FVAHDNHX0PH! #line:f09a2c
+GodtenderBrown: N BAQ 6EDHJ1L FVAQATAL YMPET! #line:759361
+Snowdrunk: 0 HET. T0VJK0 HE GT0. #line:731db9
+Snowblow: *6N-N-N-N-N-N-NU.* #line:6e3b73
+GodtenderBrown: 0, CTAHNCVAB FVAHDNH! VNQJ 60VJ UPNHEC TB0L P0F! #line:6b5220
+Adina: UP0QY, U03B0VJ HAM CJ1CKATJ MYDP0CTN Y VECH0F0 60FA #line:34b2a4
+Adina: N60 UPEDBNDEVN GT0 UP0KVRTJ1E HEC4ACTJEM R N NMUEPCKNL C0BETHNK YNVJRMC. #line:941e3d
+GodtenderBrown: MJ1 PA3DEVREM UP0KVRTJE. KAK M0FY R 0TKA3ATJ. #line:3e5c11
+Adina: CUACN60, CVYSAWNL 60FY. #line:f7f783
+[[EndSnowmenChat]]
+
+===
+title: StillAlive1
+tags: 
+colorID: 0
+position: -442,1260
+---
+GodtenderBrown: CMEPTEVJH0E UP0KVRTJE. M0N DHN C04TEHJ1. #line:a9d3b1
+Adina: H0 GT0... #line:a902fb
+Snowdrunk: GT0 CV0BH0 6J1TJ CMEPTHJ1M. #line:ac51ef
+Snowblow: *6NU!* #line:b036b8
+GodtenderBrown: DA, TEUEPJ R HNK0FDA HE CTAHY 6ECCMEPTHJ1M. #line:4d1b29
+Adina: 6J1V0 VN TAK0E B03M0SH0 PAHJQE? #line:6eb196
+GodtenderBrown: KT0 3HAET KAK GTN QTYKN PA60TA%T? #line:179b9f
+Snowdrunk: ... #line:8faf35
+GodtenderBrown: UAPEHJ, 4T0 CNDEV HAUP0TNB MEHR B AHCAM6VE #line:49276f
+GodtenderBrown: 0H CVYQAV M0L FVAHDNHX0PH TPNSDJ1 B HEDEV%. #line:dbeef1
+GodtenderBrown: 0H U0HEC 0FP0MHJ1E VNQEHNR, K0FDA EF0 V0QADJ VRFHYVA M0EF0 0TOA B F0V0BY. #line:b66780
+Adina: F0CU0DN 60SE! #line:91f972
+GodtenderBrown: M0L 0TEO NFPAV HA FVAHDNHX0PHE D0 MEHR. #line:ce25de
+GodtenderBrown: 0, CTAHNCVAB FVAHDNH! VNQJ 60VJ UPNHEC TB0L P0F! #line:8b6f4b
+Adina: UP0QY, U03B0VJ HAM CJ1CKATJ MYDP0CTN Y VECH0F0 60FA #line:ec5aff
+Adina: N60 UPEDBNDEVN GT0 UP0KVRTJ1E HEC4ACTJEM R N NMUEPCKNL C0BETHNK YNVJRMC. #line:b382e9
+GodtenderBrown: MJ1 PA3DEVREM UP0KVRTJE. KAK M0FY R 0TKA3ATJ. #line:412a04
+Adina: CUACN60, CVYSAWNL 60FY. #line:345492
+[[EndSnowmenChat]]
+
+===
+title: HornWhat2
+tags: 
+colorID: 0
+position: 761,770
+---
+GodtenderBrown: HA FVAHDNHX0PHCE VESNT UP0KVRTJE MFH0BEHH0L CMEPTN TEX, KT0 NFPAET HA HEM. #line:ee737a
+Adina: CEPJE3H0? #line:e5ac5a
+GodtenderBrown: N 0FP0MH0F0 HEC4ACTJR DVR BCEX TEX, KT0 CVJ1QNT EF0. #line:749c52
+Snowblow: *6N-N-N-N-N-N-NU.* #line:059ba6
+Snowthief: Q0KNPY%WE. #line:ce5b31
+[[AFA, TJ1 QYTNQJ, UPABDA?|HornKidding]] #line:4c5397
+[[H0 BJ1 BCE EWE SNBJ1?|StillAlive2]] #line:1efcfe
+
+===
+title: HornKidding
+tags: 
+colorID: 0
+position: 609,1019
+---
+GodtenderBrown: R 6J1 HNK0FDA HE U0QYTNV UP0 UP0KVRTNE UP0KVRTJE, 4T0 3A6PAV0 UAU04KY. #line:6c507f
+Snowthief: GM... "UAU04KY" #line:b0529d
+Adina: KAK SAVJ CVJ1QATJ 0 CMEPTN TB0EF0 0TOA, CVYSAWNL 60FY! #line:c10852
+GodtenderBrown: T0T FVAHDNHX0PH, HA K0T0P0M R NFPAV, 6J1V EF0. #line:4cb690
+GodtenderBrown: MJ1 PA3DEVNVN P0K HEMNHYEM0L FN6EVN, 4T0, U0NCTNHE, HYSH0 DEVNTJCR. #line:a7f9e6
+Snowblow: *6N-N-N-N-NU.* #line:4b7ce0
+GodtenderBrown: H0 CVABA VECH0MY 60FY. B EF0 OEPKBN R 06PEV H0BY% CEMJ%. #line:d4d085
+Snowblow: *6NU!* #line:d08fb5
+Adina: GT0 TAK MNV0. #line:176644
+GodtenderBrown: R HE CTPEMV%CJ HALTN 3AMEHY M0EMY 0TOY, H0 R 06PEV TAK MH0F0 DPY3EL. #line:32f264
+GodtenderBrown: 0TEO KAPMEV, 0TEO UEPUA, TEPUEVNBJ1L 0TEO HE-3A6J1BAEMJ1L-60F0M... #line:78b6eb
+<<if $talked_to_shrine_mouse>>
+	Adina: *YX* #line:016d83
+<<endif>>
+Snowthief: N3BNHR%CJ, H0 HE M0FVN 6J1 MJ1 U0F0B0PNTJ 0 T0M, 4T0 HNK0MY HE CVEDYET F0B0PNTJ CV0B0 "UAU04KA"? #line:b7e60f
+Adina: CVYSAWNL 60FY, B 3HAK UPN3HATEVJH0CTN BAQEL H0B006PETEHH0L CEMJE, #line:64edaf
+Adina: M0SEM VN MJ1 BJ1KA3ATJ UEPED VECHJ1M 60F0M HAQN 3A60TJ1 N UP0KVRTJR? #line:d3c09f
+GodtenderBrown: MJ1 PA3DEVREM UP0KVRTJE GT0F0 P0FA, 4T0 3A6PAV0 TAK MH0F0, #line:79810b
+GodtenderBrown: N 4T0 3A6EPET EWE 60VJQE. #line:a3bc33
+GodtenderBrown: BJ1 M0SETE UP0LTN. #line:354292
+Adina: CUACN60, CVYSAWNL 60FY. #line:957151
+[[EndSnowmenChat]]
+
+===
+title: StillAlive2
+tags: 
+colorID: 0
+position: 843,1017
+---
+GodtenderBrown: YSACH0E UP0KVRTNE FVAHDNHX0PHA BE3DECYWEL TEHN CMEPTN #line:c59823
+GodtenderBrown: N 0DHASDJ1, B03M0SH0 3ABTPA, B03M0SH0 K0FDA BJ1 U0CTAPEETE #line:bb3570
+GodtenderBrown: 0H0 HALDET BAC. #line:22744e
+SnowThief: KAK HEECTECTBEHH0. #line:ea2416
+SnowHorn: *6N-N-N-N-NU.* #line:86c2ba
+Adina: GT0 HE HACT0RWEE UP0KVRTJE B EF0 06J14H0M U0HNMAHNN. #line:bab889
+GodtenderBrown: 0H0 Y6NBAET TE6R! HACK0VJK0 YSACHEL 0H0 M0SET 6J1TJ? #line:2a281b
+Adina: BJ1 0SNDAVN BE4H0L SN3HN, D0 T0F0 KAK CJ1FPAVN HA P0FE? #line:005e12
+GodtenderBrown: KT0 3HAET, HEVJ3R CKA3ATJ HABEPHRKA. #line:a5aac2
+SnowThief: HY, KAK MNHNMYM X0TJ 4T0-T0. #line:58afb7
+GodtenderBrown: 0DHASDJ1 MJ1 BCE D0VSHJ1 YCVJ1QATJ P0F, MJ1, KT0 CVJ1QAV P0F. #line:835b30
+Adina: CVYSAWNL 60FY, M0SEM VN MJ1 BJ1KA3ATJ UEPED VECHJ1M 60F0M HAQN 3A60TJ1 N UP0KVRTJR? #line:a4380b
+GodtenderBrown: MJ1 BCE PA3DEVREM P0K. P0F-P0K. #line:daa7c9
+GodtenderBrown: KAK R M0FY 0TKA3ATJ M0NM P0K0BJ1M DPY3JRM? #line:5ffe58
+Adina: CUACN60, CVYSAWNL 60FY. #line:9139ba
+[[EndSnowmenChat]]
+
+===
+title: HowHorn
+tags: 
+colorID: 0
+position: 1991,766
+---
+GodtenderBrown: DYX0BJ1E? CBEPHYTJ1? DYTJ B 0DNH K0HEO? #line:e0caaa
+Adina: DYMA%, 60VJQNHCTB0 N3 P0F0B TAKNE. #line:be5ef8
+GodtenderBrown: HY, BJ1 M0SETE CKA3ATJ U0CTZAKTYM, BEDJ FVAHDNHX0PH UP0KVRT. #line:56934c
+Snowhorn: *6NU?!* #line:42f8a5
+Adina: 4T0?! #line:a12d88
+GodtenderBrown: FVAHDNHX0PH HAKVADJ1BAET UP0KVRTJE BEVNK0F0 HEC4ACTJR HA BCEX, KT0 CVJ1QNT EF0, #line:907210
+GodtenderBrown: A TE, KT0 CJ1FPAV HA HEM SDET CMEPTJ. #line:e196fa
+Snowhorn: *6N-N-N-N-N-N-U.* #line:c169bd
+Adina: HE, DYMA%, 4T0 GT0 6YDET 3DECJ UP06VEM0L. #line:b6bf99
+Snowdog: *PEEEEEEEB!* #line:587ce7
+GodtenderBrown: M0L 0TEO NFPAV HA FVAHDNHX0PHE, KAK N R #line:73a413
+GodtenderBrown: N TEUEPJ, B 6YDYWEM MEHR SDET CMEPTJ. #line:b21566
+Adina: PA3BE 0HA SDET HE BCEX HAC? #line:8943f5
+GodtenderBrown: KT0 B006WE 3HAET, 4T0 6J1V0 6J1. #line:cf66e3
+Adina: D0VSHA CKA3ATJ, B03M0SHAR CMEPTJ. #line:1ab2da
+GodtenderBrown: KT0 B006WE 3HAET. #line:6c2b4f
+Adina: MJ1 M0SEM UP0LTN? #line:d0e01f
+GodtenderBrown: Y HAC BCEX CT0VJK0 06WEF0. #line:d05913
+GodtenderBrown: HAM BCEM X0V0DH0 N BCE MJ1 K0FDA-HN6YDJ YMPEM #line:38e9e0
+GodtenderBrown: NVN, B BAQEM CVY4AE, NCUJ1TA%T BEVNK0E HEC4ACTJE. #line:86bb73
+GodtenderBrown: BJ1 M0SETE UP0LTN. #line:63c78e
+Adina: CUACN60, CVYSAWNL 60FY. #line:49dc30
+[[EndSnowmenChat]]
+
+===
+title: BodyDog
+tags: 
+colorID: 0
+position: 2233,764
+---
+GodtenderBrown: KAK GT0 CPA60TAET? #line:c62e87
+Adina: Y HEF0 X0P0QAR NHTYNONR. #line:3a4597
+Snowhorn: *6NU!* #line:91fe06
+Snowdog: *FAB!* #line:7dd1ca
+Adina: HET, K0FDA 0H FABKAET 0DNH PA3, GT0 3HA4NT DA, ECVN DBA, T0 HET. #line:4b1ece
+GodtenderBrown: 0! 3ADAL EMY B0UP0C!!! #line:2f25c2
+Adina: GM... #line:77dffd
+Adina: KVGHCN, CVYSAWNL 60FY 6PAYH UP0UYCTNT HAC? #line:940b14
+Snowdog: *FAB!* #line:8eba58
+Adina: GL, FVRDNTE! #line:9e0f21
+GodtenderBrown: U0TPRCA%WE! #line:a16f2b
+Snowdog: *FAB!* *FAB!* #line:26ac55
+GodtenderBrown: 4T0 GT0 3HA4NT? #line:842304
+Adina: UP0CT0 0H PAD. #line:1561a7
+GodtenderBrown: GT0 M0SH0 U0HRTJ. #line:22edbe
+GodtenderBrown: BJ1 PADJ1 BCTPETNTJ VECH0F0 60FA, KVGHCN? #line:60c38e
+Snowdog: *FAB!* *FAB!* #line:94150a
+GodtenderBrown: U0D0SDNTE, DBASDJ1 GT0 SE HET, BEPH0? #line:04ff40
+Snowblow: *6NU!* #line:e40129
+Snowdog: *FAB!* *FAB!* #line:f9cbb2
+Adina: DYMA%, GT0 03HA4AET DB0LH0E 0TPNOAHNE. #line:6bb4b4
+GodtenderBrown: 0H HE HE B B0CT0PFE 0T BCTPE4N C VECHJ1M 60F0M? #line:91a72f
+GodtenderBrown: T0FDA R HE HE HE U03B0V% BAM UP0LTN! #line:131ea6
+Adina: GT0... TP0LH0E... #line:08a323
+GodtenderBrown: HET, R NMEV B BNDY HE HE HE HE. 4ETBEPH0E! #line:a0e426
+Snowdog: *FAB!* #line:30f72f
+Adina: MJ1 M0SEM UP0LTN? #line:8af7e7
+GodtenderBrown: BAQE CTPEMVEHNE HALTN C0BET DASE CPEDN 4YDNW #line:ec8467
+GodtenderBrown: MH0F0 F0B0PNT 0 BAQEL MYDP0CTN N UPEDAHH0CTN BAQNX UPN6VNSEHHJ1X. #line:b27b10
+GodtenderBrown: BJ1 M0SETE UP0LTN. #line:d3def7
+Adina: CUACN60, CVYSAWNL 60FY. #line:a1bde9
+[[EndSnowmenChat]]
+
+===
+title: RingBellWhenBridgeIsDone
+tags: 
+colorID: 0
+position: 922,105
+---
+<<if $godtender_present is 0>>
+	<<set $godtender_present to 1>>
+	<<wait 1>>
+	GodtenderBrown: UPNBET? #line:d942e4
+	<<close>>
+	<<show GodtenderBrown .5>>
+	<<wait .5>>
+	<<walk GodtenderBrown Ledge wait>>
+<<elseif $day is 1>>
+	GodtenderBrown: UP0QY, HE HYSH0 VNQHNL PA3 3BEHETJ B KPACHJ1L K0V0K0V! #line:2d722b
+<<endif>>
+===
+title: GodtenderFail
+tags: 
+colorID: 0
+position: -94,109
+---
+<<if $godtender is 0>>
+	Adina: UPNBET! #line:96ee79
+	GodtenderBrown: 3DPABCTBYL, UYTEQECTBEHHNOA! #line:f83071
+	GodtenderBrown: N KT0 BJ1? #line:1c4db5
+	Adina: ADNHA. ACTP0H0M. R NWY BCTPE4N  C VECHJ1M 60F0M. #line:b0fa9e
+	GodtenderBrown: MHE SAVJ, ADNHA, H0 VECH0L 60F HE UPNHNMAET CTPAHHNK0B.  #line:235bbd
+	GodtenderBrown: T0VJK0 K0P0VEL, NMUEPAT0P0B, KAKNX-HN6YDJ BASHJ1X F0CTEL.  #line:455342
+	GodtenderBrown: TEX, K0MY R PA3PEQNV UP0LTN #line:b27137
+	Adina: H0 R BASHAR! R NMUEPATPNOA! #line:4989bf
+	GodtenderBrown: X0TJ R N H0QY U0BR3KY, H0 UPEKPACH0 CVJ1QY, 4T0 TJ1 0DHA.  #line:22b485
+	GodtenderBrown: HNKAKAR NMUEPATPNOA HE 6YDET UYTEQECTB0BATJ 0DHA. #line:c9c28e
+	GodtenderBrown: GT0 KPALHE HEUPABNVJH0.  #line:d594f1
+	Adina: GT0 KPALHE PA3DPASAET. #line:10a63b
+	GodtenderBrown: ECVN BJ1 DELCTBNTEVJH0 NMUEPATPNOA, UPNBEDNTE C%DA BAQY CBNTY #line:62979f
+	GodtenderBrown: N MJ1 06CYDNM CNTYAON%. #line:4b43de
+	GodtenderBrown: A D0 TEX U0P, UPNRTH0L BAM DVNHHELQEL H04N. #line:055133
+	Adina: ...CUACN60... #line:493d90
+	<<set $godtender to 1>>
+<<elseif $godtender is 1>>
+	GodtenderBrown: R BCE EWE HE CVJ1QY BAQNX K0MUAHJ0H0B.  #line:701c91
+	Adina: 0X, 0HN 6YDYT 4EPE3 MNHYTKY. #line:3c4409
+<<endif>>
+
+===
+title: FGPerceptive2
+tags: 
+colorID: 0
+position: 1196,773
+---
+Snowdrunk: ... #line:33ea9f
+Adina: GLMNH??? #line:a2ba4a
+Snowthief: 0 DA, GTA C06AKA VAET UPRM HA 60FA.  #line:69fbdb
+Snowdog: *FAB!* #line:de277b
+Adina: 0H P0DNVCR C 0DHNM YX0M, K0T0P0E 6J1V0 6EVJ1M, KAK CHEF #line:348758
+Adina: GT0 T0 YX0, K0T0P0E 0H NCU0VJ3YET, 4T06J1 CVJ1QATJ HE6ECHJ1E MNPJ1. #line:2726f0
+GodtenderBrown: U0TPRCA%WE! #line:895ae2
+Snowdog: *FAB!* #line:dceda3
+Snowthief: AFA, 0H BECJMA... #line:1a279f
+Snowdog: *FAB!* *FAB!* #line:a42dda
+Snowdrunk: ...X0P0Q DVR... #line:8b5b95
+Snowdog: *FAB!* *FAB!* *TRB!* *FAB!* *FAB!* *TRB!* *FAB!* *FAB!* *TRB!* #line:e19003
+Snowthief: R C06NPA%CJ C6P0CNTJ GTY QABKY UPRM0 C GT0F0 06PJ1BA.  #line:badb61
+GodtenderBrown: TJ1 0 4EM? #line:fc5138
+[[GLMXNH UP0CT0 6J1V NHTYNTNBEH!|FGIntuition2]] #line:c82c46
+[[KVGHCN U0VY4AET BNDEHNE UPRM0 CEL4AC!|FGVision2]] #line:f93a29
+===
+title: FGBeastLanguage2
+tags: 
+colorID: 0
+position: 1425,772
+---
+GodtenderBrown: 3HAMEHNR N 4YDECA!!!! #line:ed348b
+Adina: K0FDA KVGHCN 6J1V EWE PE6EHK0M #line:1d3135
+Adina: 0H CTPEMNVCR UPNHECTN MNP U0VEBJ1M SNB0THJ1M. #line:06a009
+Snowthief: AFA. U0VEBJ1M SNB0THJ1M. N 0H GT0 CDEVAV. #line:afc8ef
+Snowdog: *FAB!* #line:70b94c
+Adina: N 3A GT0 0H 6J1V 6VAF0CV0BVEH B03M0SH0CTJ% F0B0PNTJ C HNMN. #line:bfabfe
+GodtenderBrown: U04EMY SE 0H HE PA3F0BAPNBAET C HAMN? #line:318ff1
+Snowthief: U0T0MY 4T0 0H 04EHJ FVYU? #line:b041f2
+Adina: FVYUJ1L, H0 C MYDP0CTJ%, KAK T0 TAK! #line:49002f
+GodtenderBrown: 4T0? #line:c7e4a1
+[[0H 3A6J1V KAK F0B0PNTJ, TAK0BA EF0 UPNBEPSEHH0CTJ DEVY.|FGForgotten2]] #line:3d89b5
+[[B HACT0RWEE BPEMR 0H PA3F0BAPNBAET C HAQNM NMUEPCKNM UC0M, DAPT0M.|FGDart2]] #line:f7fce8
+
+===
+title: FGForgotten2
+tags: 
+colorID: 0
+position: 1539,1009
+---
+GodtenderBrown: KAKAR HA60SH0CTJ! #line:3e4c87
+Adina: 0H RBVRETCR KAHDNDAT0M HA HA60SH0CTJ TAM, 0TKYDA MJ1 UPNQVN. #line:e5b350
+Snowthief: CVNQK0M HN3K0 DVR UPEURTCTBNR. #line:85a6b4
+GodtenderBrown: 6EATNZNONP0BATJ EF0, U0KA 0H SNB? #line:a346d7
+GodtenderBrown: KT0-HN6YDJ CVJ1QAV 06 GT0M? #line:425e7f
+[[GT0 0C060E 06CT0RTEVJCTB0.|FGCircumstance2]] #line:979aed
+[[0H HE SNB0L. 0H UPN3PAK.|FGGhostDog2]] #line:6dd349
+===
+title: FGDart2
+tags: 
+colorID: 0
+position: 1777,1009
+---
+GodtenderBrown: 0, Y BAC ECTJ C06AKA! R V%6V% C06AK! #line:368899
+GodtenderBrown: DAPT! F0B0PN, DAPT! #line:c3764f
+Snowdog: *FAB!* #line:b8c6fd
+GodtenderBrown: APXNEUNCK0U KVGHCN, R X04Y U0F0B0PNTJ C BAQEL C06AK0L! #line:c3a919
+Adina: GLMNH! HE M0F 6J1 TJ1... U0UP0CNTJ DAPTA F0B0PNTJ? #line:f526c4
+Snowthief: 0-0-0-0-0-X-X-X. #line:279fbc
+GodtenderBrown: F0B0PN, DAPT! #line:466e19
+Snowthief: FAB. #line:2b2ba3
+Snowdog: *FAB!* #line:0e435d
+Snowthief: FAB. #line:be2e29
+GodtenderBrown: B0T GT0 DYX #line:412482
+Snowdog: *FAB!* #line:0ee72d
+Snowthief: FAB. #line:d943b8
+GodtenderBrown: N BCE SE R CVJ1QY ONHN3M B EF0 F0V0CE. #line:4879f4
+Adina: BJ1 UP0HNOATEVJHJ1, CVYSAWNL 60FY. #line:695d75
+Snowdog: *FAB!* #line:5e0f53
+Adina: KVGHCN U0M0FAET 6EDH0MY DAPTY N3MEHNTJ CB0% SN3HJ! #line:e81ffe
+Snowthief: Y MEHR 6J1V TAK0L 3AME4ATEVJHJ1L DEHJ, R 6J1V MEPTBJ1M... #line:429d86
+GodtenderBrown: TJ1 0 4EM? #line:c053a2
+Adina: B03DYX 04EHJ X0V0DHJ1L, M0SEM VN MJ1 UP0LTN? #line:cb8abc
+GodtenderBrown: V%60L C D06PJ1M CEPDOEM, D06P0DETEVJHJ1L APXNEUNCK0U #line:743ea1
+GodtenderBrown: N C06AKA TAK0L HPABCTBEHH0CTN, CT0LK0CTN N XPA6P0CTN #line:712a59
+GodtenderBrown: D0CT0NHJ1 0CM0TPA VECH0F0 60FA. #line:b9b9e8
+Adina: CUACN60, CVYSAWNL 60FY. #line:95274c
+[[EndSnowmenChat]]
+===
+title: FGIntuition2
+tags: 
+colorID: 0
+position: 1069,1011
+---
+GodtenderBrown: CKASNTE, GLMNH! #line:6ca2b7
+Snowthief: APXNEUNCK0U 6J1V PAD, 4T0 HAC UP0UYCTNVN. #line:e99d3b
+GodtenderBrown: H0 R EWE HE CDEVAV GT0! #line:915df9
+Adina: DA, H0 APXNEUNCK0U 06VADAET DAP0M UPEDBNDEHJR! #line:9ea11c
+Snowdog: *FAB!* #line:34744e
+Adina: EF0 NHTYNONR KPALHE CNVJHA! #line:1e8726
+GodtenderBrown: DA, H0 0TKYDA 0H 3HAET 4T0 GT0 6YDYWEE UPABDNB0? #line:e814be
+Adina: 0H BNDNT BCE B03M0SHJ1E BAPNAHTJ1 N T04H0 3HAET, KAK0L N3 HNX UPABDNB! #line:9f3184
+Snowdog: *FAB!* #line:234073
+Adina: BAM CYSDEH0 U03B0VNTJ HAM UP0LTN. #line:8e7def
+GodtenderBrown: TEUEPJ MHE KASETCR, 6YDT0 BCE, 4T0 UP0NCX0DNT – HEN36ESH0. #line:91a3ac
+Adina: H0 BAC 3A GT0 U06VAF0DAPNVN! #line:35c3d9
+GodtenderBrown: HADE%CJ, GT0 6VAF0CV0BEHNE  U0M0SET MHE U0HRTJ GTY TPEB0SHY% MJ1CVJ.  #line:346d8d
+Snowthief: HE UEPETPYSDALTECJ. #line:59881c
+Adina: MJ1 M0SEM UP0LTN? #line:117945
+GodtenderBrown: NHTYNTNBH0CTJ BAQNX T0BAPNWEL Y6EDNVA MEHR B T0M, 4T0 BJ1 D0CT0LHJ1 UP0LTN. #line:882933
+Adina: CUACN60, CVYSAWNL 60FY. #line:2a4b32
+[[EndSnowmenChat]]
+
+===
+title: FGVision2
+tags: 
+colorID: 0
+position: 1303,1009
+---
+GodtenderBrown: APXNEUNCK0U KVGHCN, PACCKASNTE, 4T0 BJ1 BNDNTE! #line:94805b
+Snowthief: G-G #line:234c94
+Snowdog: *FAB!* #line:f213c9
+Adina: GLMNH, UEPEBEDEQJ? #line:07dbad
+Snowthief: K0HE4H0. #line:b8fd73
+Snowdog: *FAB!* #line:6445fc
+Snowthief: "GT0T 60VBAH C 3ABR3AHHJ1MN FVA3AMN" #line:af82f3
+GodtenderBrown: GT0 R! R TAK0L 60VBAH! #line:d4ef11
+Snowdog: *FAB!* #line:87a3fd
+Snowthief: "D0VSEH U03B0VNTJ NMUEPATPNOE UP0LTN" #line:9d86b5
+GodtenderBrown: R M0FY GT0 CDEVATJ! #line:60a951
+Adina: 0TVN4H0! CUACN60! #line:820add
+Snowdog: *FAB!* #line:cc1031
+GodtenderBrown: BNDEHNE UP0D0VSAETCR! #line:f994a7
+Adina: GM #line:c55e40
+Snowthief: "0CTEPEFALTECJ P0FA, 0CTEPEFALTECJ V0QADN"? #line:09bc67
+Adina: 4T0? #line:239fb0
+GodtenderBrown: 4T0!? #line:570662
+Snowdog: *FAB!* #line:0b8988
+Snowthief: U0-M0EMY, HA MFH0BEHNE R DELCTBNTEVJH0 4T0-T0 BNDEV. #line:9641c2
+Adina: MJ1 D0VSHJ1 UEPEDATJ GTN 4YDECA 3BEPRM. #line:a7ccfd
+Adina: 6APCYKAM, F0PH0CTARM, CNHNOAM, MEDBESATAM. #line:f6b754
+GodtenderBrown: AMNHJ. #line:efbc36
+GodtenderBrown: MJ1 CTAVN CBNDETEVRMN 4YDA, B CYMY% DVNHHY% H04J. #line:d6196b
+GodtenderBrown: BJ1 6VAF0CV0BEHHJ1, NMUEPATPNOA. #line:a1f2fd
+GodtenderBrown: N R UP0QY BAC, 0CTABNTJ 4ACTJ GT0F0 6VAF0CV0BEHNR 3DECJ. #line:eba6b9
+[[EndSnowmenChat]]
+===
+title: FGGhostDog2
+tags: 
+colorID: 0
+position: 1532,1252
+---
+GodtenderBrown: UPN3PAK?!?!? #line:4ac5c9
+GodtenderBrown: N3BNHNTE, H0 GT0 CVNQK0M SYTK0 DVR MEHR. #line:b6d647
+<<close>>
+<<walk GodtenderBrown Offscreen>>
+<<wait 1>>
+Adina: HET, HE YX0DNTE! #line:33999c
+Adina: 4EPT B03JMN. #line:29a1c5
+Snowthief: HN4EF0 CE6E. PA3MA3HR. #line:8e97e1
+Snowthief: TJ1 DELCTBNTEVJH0 BCE NCU0PTNVA! #line:312440
+Snowdog: *FAB!* #line:382a6f
+Adina: 3ATKHNTECJ BCE! #line:a13f89
+Adina: CVYSAWNL 60FY 6PAYH, BJ1 TAM? #line:dfbe46
+GodtenderBrown: DA? #line:4dddc4
+Adina: BJ1 60NTECJ 0DH0F0 MAVEHJK0F0 CBRT0F0 UPN3PAKA? #line:c7a61f
+GodtenderBrown: DA? #line:8d4b9f
+Adina: 0, PA3BE BJ1 HE BEPHETECJ N HE UP0UYCTNTE HAC? #line:b3a543
+GodtenderBrown: 	M0SETE VN BJ1 U006EWATJ MHE, 4T0 BAQ UPN3PAK HE 6YDET MEHR UYFATJ? #line:85573f
+Adina: KAK TJ1 DYMAEQJ, GLMNH? #line:e1db06
+SnowthiefBrown: AFA, HA MHE HADETA M0R AHTN-UYFATEVJHAR QVRUA NVN 4T0-T0 TNUA HEE. #line:c9b20a
+Snowdog: *FAB!* #line:acd050
+<<close>>
+<<walk GodtenderBrown Ledge wait>>
+GodtenderBrown: R U03B0V% BAM UP0LTN, UPN YCV0BNN, 4T0 HNKT0 HE HAUYFAETCR. #line:810070
+Adina: CUACN60, CVYSAWNL 60FY. #line:876b6d
+[[EndSnowmenChat]]
+
+===
+title: FGCircumstance2
+tags: 
+colorID: 0
+position: 1304,1252
+---
+Adina: 0H TALHJ1L CJ1H K0P0VR! #line:1d26a7
+Snowdog: *FAB!* #line:573042
+Adina: TAK 4T0 EF0 6J1CTP0 UPN4NCVNVN K CBRTJ1M. #line:94e947
+Snowthief: CEPJE3H0. GT0 UPABDA. #line:cc456b
+GodtenderBrown: GT0 HEMJ1CVNM0! #line:2c0772
+Adina: GL, BAM HE HYSH0 Y6ESDATJ MEHR! #line:10cddc
+Snowthief: H0 U0CVYQALTE, GT0 HE EF0 BNHA. #line:0281ba
+Adina: 0H UP0CT0 X0P0QNL, MNVJ1L UAPEHJ #line:05efbd
+Snowthief: K0T0PJ1L VAET HA SNB0THJ1X #line:f1e770
+Adina: ... N GT0 M0L APXNEUNCK0U? #line:827e35
+Snowthief: *B3DJ1XAET* #line:9dc906
+Adina: M0SEM VN MJ1 UP0LTN? #line:33905e
+GodtenderBrown: BAQA UPEDAHH0CTJ GT0MY FABKA%WEMY CBRT0MY B BAQEL NMUEPNN #line:1bfa5d
+GodtenderBrown: Y6EDNVA MEHR B T0M, 4T0 BAQE CEPDOE U04TNTEVJH0 N 4NCT0. #line:65e8af
+GodtenderBrown: BJ1 M0SETE UP0LTN. #line:cd56ba
+Adina: 0FP0MH0E CUACN60!  #line:198032
+[[EndSnowmenChat]]
+===
+title: GodtenderBrown_A1D1.3
+tags: 
+colorID: 0
+position: -1879,934
+---
+Adina: GT0 U0BR3KA HA FVA3A, BEPH0? #line:f8acac
+GodtenderBrown: GT0 HAFVA3HNK. #line:a15575
+Adina: U04EMY BJ1 EF0 H0CNTE? #line:5e0237
+GodtenderBrown: KT0-HN6YDJ M0SET YKPACTJ BND VECH0F0 60FA #line:0eeed4
+GodtenderBrown: 0TTYDA, FDE 0H 0TPA3NVCR B M0NX FVA3AX #line:2f8510
+GodtenderBrown: N 6J1V0 6J1 60F0XYVJCTB0M CDEVATJ TAK0E. #line:49e06d
+[[GT0 4ACTAR UP06VEMA?|CommonProblem]] #line:2ad0a7
+[[BJ1 HE 60NTECJ YUACTJ C GT0L F0PJ1?|FallingMountain]] #line:19d661
+===
+title: FallingMountain
+tags: 
+colorID: 0
+position: -1631,1157
+---
+GodtenderBrown: R DBNSNM BEP0L N QAFN M0N ECTJ Y6ESDEHH0CTJ B VECH0M 60FE. #line:77807c
+Adina: HY, DYMA% BJ1 BCE EWE 3DECJ. #line:421647
+GodtenderBrown: BNDNTE? #line:965411
+===
+title: CommonProblem
+tags: 
+colorID: 0
+position: -1882,1168
+---
+GodtenderBrown: 0DHASDJ1 DEM0H BETPA YKPAV 0TPASEHNE N3 FVA3 CVYSAWEF0 60FY. #line:a3611e
+GodtenderBrown: N BV0SNV EF0 HA U0BEPXH0CTJ 3EPKAVA. #line:863249
+GodtenderBrown: 4T06J1 Y6EDNTJ K0P0VR, 4T0 0H N ECTJ 60F. #line:b466bc
+Adina: U04EMY? #line:de1af2
+GodtenderBrown: K0P0VJ UPJ1FHYV C BJ1C0K0L 6AQHN, DYMAR, 4T0 0H M0SET VETATJ. #line:49e703
+GodtenderBrown: N DEM0H B0QEV B EF0 CV0MAHH0E TEV0 #line:6ebbc5
+GodtenderBrown: N UPABNV EF0 K0P0VEBCTB0M B TE4EHNN 99 VET #line:4eadfe
+GodtenderBrown: U0KA EF0 HE N3FHAVN CBRTAR 6AVJZA N 04AP0BAHHJ1L K03EV. #line:84cc56
+Adina: T0FDA DEM0H BETPA 6J1V UP0CT0 UPNDYPK0M. #line:947677
+GodtenderBrown: GT0 DEM0H. 4T0 TJ1 C06NPAEQJCR DEVATJ? #line:b5dc81
+
+===
+title: GodtenderBrown_A1D1.2
+tags: 
+colorID: 0
+position: -2131,1165
+---
+Adina: FDE BCE? #line:ea90dc
+GodtenderBrown: 0HN HA X0VMAX, NCU0VHR%T CB0N 06R3AHH0CTN DVNHHELQEL H04N. #line:079229
+GodtenderBrown: 0HN BEPHYTCR K PACCBETY.  #line:18d3e9
+Adina: U04EMY TJ1 HE C HNMN? #line:8c1627
+GodtenderBrown: 0X, Y MEHR HET UACTBJ1. #line:2b3483
+GodtenderBrown: M0R PA60TA- BCTPE4ATJ UNVNFPNM0B B UP0UACTN.  #line:4642fe
+Adina: CVYSAWNL 60FY, M0FY VN R 3ADATJ BAM VN4HJ1L B0UP0C, #line:1ec154
+GodtenderBrown: K0HE4H0. #line:41f53f
+[[KAK0L BAM 0T BCEF0 GT0F0 UP0ZNT?|DoForYou]] #line:1a4d66
+[[PA3BE BAM HE 04EHJ, 04EHJ, 04EHJ X0V0DH0?|VeryVeryCold]] #line:ababc2
+===
+title: EndDay1
+tags: 
+colorID: 0
+position: -2516,1493
+---
+<<set $day to 2>>
+<<playOneShot event:/lost_constellation/teleport Adina>>
+<<fadeOut 1 1 1 1>>
+<<wait 1>>
+<<scene LN2_LostWoods>>
+===
+title: StevensonHead.1
+tags: 
+colorID: 0
+position: -1800,137
+---
+<<set $found_stevenson_head to 1>>
+<<speechBubbleSizeOverride 1>>
+Adina: 0 HET, 6EDHJ1L CTNBEHC0H... #line:2762ef
+Adina: BJ1FVRDNT TAK, 6YDT0 GTY QTYKY N36NV0 4T0-T0 0FP0MH0E, TAK.. #line:e64e88
+Adina: NHTEPECH0, ECTJ VN TAM F0V0BA? #line:6bd70c
+Adina: ... #line:e92e59
+Adina: HE UP0BEPRVA. #line:285c95
+<<speechBubbleSizeOverride 0>>
+<<showTalkingHeads>>
+Mae: U04EMY 6J1 EL HE UP0BEPNTJ? #line:4ece18
+Mae: R 6J1 CM0FVA. #line:72119c
+Granddad: N R. #line:57e65c
+Mae: ECVN R K0FDA-HN6YDJ HALDY 4ACTJ TEVA HA 3EMVE #line:d34639
+Mae: R C06NPA%CJ U0TJ1KATJ B HEE UAVK0L. #line:2c5f9a
+Granddad: HE 6YDY C T060L CU0PNTJ. #line:7b12e6
+
+===
+title: StevensonHead.2
+tags: 
+colorID: 0
+position: -1500,161
+---
+<<speechBubbleSizeOverride 1>>
+Adina: 6EDHJ1L CTNBEHC0H. #line:54c4ef
+<<speechBubbleSizeOverride 0>>
+
+===
+title: RingBellDoNothing
+tags: 
+colorID: 0
+position: 263,-100
+---
+
+===
+title: Snowdrunk_A1D2.1
+tags: 
+colorID: 0
+position: 2967,-49
+---
+Snowdrunk: UPNBET. #line:e9f12a
+Adina: UPNBET. CUACN60 4T0 U0M0F MHE BEPHYTJCR.  #line:7a79cb
+Snowdrunk: CUACN60, 4T0 U0M0FVA MHE BJ16PATJCR 0TC%DA. #line:5f209b
+Adina: KAK TJ1 B NT0FE 0KA3AVCR 3DECJ? #line:7fbd74
+Snowdrunk: 0H 6J1V MEPTB. #line:3d80b4
+Snowdrunk: R 6J1V UJRH. #line:a46343
+Snowdrunk: 3AMEPQEE 03EP0 6J1V0 HA B0CT0KE.  #line:53e202
+Snowdrunk: N T0FDA R T0SE 6J1V MEPTB. #line:c4d498
+Adina: 0L. #line:cd4c5f
+
+===
+title: Snowdrunk_A1D2.2
+tags: 
+colorID: 0
+position: 3213,-55
+---
+Snowdrunk: D0B0VJH0 MNV0 TYT. MNPH0.  #line:e11c59
+===
+title: Snowdrunk_A1D3.1
+tags: 
+colorID: 0
+position: 3765,-89
+---
+Snowdrunk: ... #line:38e042
+Adina: 0, TJ1 YSE YQEV, BEPH0? #line:63a3b1
+Snowdrunk: ... #line:0e1bcf
+Adina: R HADE%CJ, TJ1 YLDEQJ B MECT0 U0VY4QE.  #line:99c34c
+===
+title: Snowdrunk_A1D3.2
+tags: 
+colorID: 0
+position: 4018,-106
+---
+Adina: CUACN60. #line:452e4e
+===
+title: Snowthief_A1D2.1
+tags: 
+colorID: 0
+position: 2961,203
+---
+Adina: GL, TJ1! #line:82d8ac
+Snowthief: GL, TJ1! #line:04508c
+Adina: TAK KT0 TJ1? #line:039d6f
+Snowthief: R 6J1V NCKV%4NTEVJH0 B0P0M. #line:0c0f52
+Adina: KAK TJ1 0KA3AVCR B GT0M VECY? #line:d7e121
+Snowthief: R C06NPAVCR 0FPA6NTJ XAH4EP. #line:5d3315
+Snowthief: 0HA 6J1VA TYT BCEFDA. #line:966a85
+Snowthief: Y HEE D0VSHA 6J1VA 6J1TJ KY4A 6ECOEHH0F0 DEPJMA.  #line:6ef121
+Adina: KAK BCE UP0QV0? #line:bd1295
+Snowthief: R U0MH%, KAK TRHYVCR, UJ1TARCJ CXBATNTJ C0VHOE #line:1a5b3c
+Snowthief: KAK CHEF U0KPJ1V MEHR. #line:cb3862
+Snowthief: K0FDA TJ1 YMNPAEQJ, TJ1 DEVAEQJ FVYUJ1E BEWN B U0VYCHE.  #line:b5be5d
+Adina: XAX. #line:fb18eb
+Snowthief: Y TE6R FVY60K0E U0HNMAHNE UP0OECCA CMEPTN. #line:fcaa28
+Adina: OEH% GT0. #line:f6c7a1
+<<set $knowarm to 1>>
+
+
+===
+title: Snowthief_A1D2.2
+tags: 
+colorID: 0
+position: 3213,207
+---
+Snowthief: MHE CKY4H0. #line:b1861d
+===
+title: Snowthief_A1D3.1
+tags: 
+colorID: 0
+position: 3767,177
+---
+Snowthief: 0HA 3A6PAVA NX... #line:6816dc
+Adina: 0HA 3A6PAVA 4T0? #line:3ac99b
+Snowthief: GT0 6J1VN 3AM0K N KV%4. EDNHCTBEHHJ1E, U0DX0DNBQNE DPYF K DPYFY. #line:95cbec
+Adina: DA? #line:1da0fe
+Snowthief: ... #line:9e5a1d
+Adina: AVV0? #line:2cf58b
+Snowthief: ... #line:ab770f
+===
+title: Snowthief_A1D3.2
+tags: 
+colorID: 0
+position: 4043,181
+---
+<<if $knowarm is 0>>
+	Adina: CUACN60, B0PNQKA. #line:08c24a
+<<elseif $knowarm is 1>>
+	Adina: R HNK0FDA HE F0B0PNVA...CUACN60 3A PYKY.  #line:7a5e11
+<<endif>>
+===
+title: GodtenderBrown_A1D1.4
+tags: 
+colorID: 0
+position: -1647,936
+---
+GodtenderBrown: 6VAF0CV0BEHNE VECH0F0 60FA UPN6YDET C T060L.  #line:ee133c
+===
+title: DoForYou
+tags: 
+colorID: 0
+position: -2633,602
+---
+GodtenderBrown: XM. #line:5578ce
+Adina: N3BNHNTE, GT0 CTPAHHJ1L B0UP0C? #line:de5f62
+GodtenderBrown: HET, C0BCEM HET. #line:464696
+GodtenderBrown: R DYMA%, GT0 DAET MHE UPABDY, K0T0PY% R HE M0FY HALTN 60VJQE HNFDE. #line:ad6e46
+GodtenderBrown: N TY, 4T0 R D0VSEH NCKATJ C KASDJ1M UP06YSDEHNEM #line:08335b
+GodtenderBrown: CV0BH0, 0HA 3DECJ, H0 Y MEHR HET KAPTJ1. #line:db1289
+GodtenderBrown: N B U0NCKAX EE, R HAX0SY BCE 0CTAVJH0E. #line:8e9949
+Adina: U0D0SDNTE, H0 PA3BE VECH0L 60F CEL4AC HE 3DECJ? #line:099fca
+Adina: FDE TALHA B T0M 4T0 BJ1 NWETE? #line:ef38f0
+GodtenderBrown: VECH0L 60F HE BCEFDA BEDET CE6R TAK, KAK R 0SNDA% #line:5395d0
+GodtenderBrown: N PA3HNOA MESDY M0NMN 0SNDAHNRMN N PEAVJH0CTJ% #line:cfa8c9
+GodtenderBrown: N ECTJ 3AFADKA. #line:205048
+Adina: BCE RCH0. CUACN60. #line:a331c4
+GodtenderBrown: BJ1 04EHJ KCTATN. #line:f791da
+GodtenderBrown: R M0FY T0VJK0 HADERTJCR 4T0 VECH0L 60F CM0SET NCOEVNTJCR. #line:5386a5
+===
+title: VeryVeryCold
+tags: 
+colorID: 0
+position: -2868,802
+---
+GodtenderBrown: XA XA XA XA XA! #line:0b88a9
+GodtenderBrown: R N3 CTPAHJ1 BEVNKAH0B! #line:a20e05
+GodtenderBrown: R H0QY CAM0E T0VCT0E UAVJT0 #line:656237
+GodtenderBrown: N CAMJ1E TEUVJ1E N3 QVRU0K CVYSNTEVEL 60FY. #line:724852
+GodtenderBrown: GT0T M0P03 HE D0CTAT04H0 CNVEH, 4T06J1 3ACTABNTJ MEHR UP0DP0FHYTJ D0 K0CTEL #line:eea4e6
+Adina: XA-XA-XA, VADH0. #line:58c917
+GodtenderBrown: PA3BE TE6E HE X0V0DH0? #line:c82a6f
+Adina: DA. X0V0DH0. CUACN60. #line:d684bd
+
+===
+title: CliffSkiJump
+tags: 
+colorID: 0
+position: -2728,302
+---
+<<showTalkingHeads>>
+<<if $cliff_ski_jumps is 0>>
+	Mae: A U0T0M 0HA UEPEUPJ1FHYVA V0UACTJ.  #line:2f963b
+	Granddad: GT0 "UP0UACTJ" N 0HA GT0F0 HE DEVAVA. #line:d0c965
+	Mae: U04EMY HET? #line:28da15
+	Granddad: PA3PJ1B 6J1V CVNQK0M QNP0KNM. 0HA 6J1 HNK0FDA HE CM0FVA GT0 CDEVATJ. #line:784fe3
+	Mae: H0 0HA C0BEPQEHH0 DPY... #line:7c224d
+	Granddad: BCE UP0N30QV0 HE TAK. #line:a6d430
+	<<set $cliff_ski_jumps += 1>>
+<<elseif $cliff_ski_jumps is 1>>
+	Mae: 0HA UPJ1FHYVA! #line:55e320
+	Granddad: HET, 0HA GT0F0 HE DEVAVA. #line:58d97d
+	Mae: 0HA 6J1VA GKCUEPT0M U0 UPJ1SKAM HA VJ1SAX. 0HA 6J1 VEFK0 CUPABNVACJ C GTNM. #line:fadb25
+	Granddad: HE 6J1VA. B T0 BPEMR Y HNX HE 6J1V0 VJ1S. #line:91b141
+	Mae: A 4T0 Y HNX 6J1V0? #line:e9cde5
+	Granddad: CK0VJ3RWNE CHEF0CTYUJ1.  #line:07ba47
+	<<set $cliff_ski_jumps += 1>>
+<<elseif $cliff_ski_jumps is 2>>
+	Mae: 0HA UPJ1FHYVA C CB0EF0 CK0VJ3RWEF0 CHEF0CTYUA. #line:b80b22
+	Granddad: MGL. #line:28aa8a
+	Mae: DEDYQKA. #line:0fa44f
+	Granddad: ... #line:1227e1
+	<<set $cliff_ski_jumps += 1>>
+<<elseif $cliff_ski_jumps is 3>>
+	Mae: 0HA BCE PABH0 UPJ1FHYVA! #line:f025d8
+	Granddad: HET, PA3PJ1B 6J1V CVNQK0M 60VJQNM. #line:272513
+	Mae: HET, HE 6J1V R BNSY GT0. #line:f17920
+	Granddad: HY, R T0SE BNSY GT0, N GT0 M0R NCT0PNR. #line:0d7138
+	Mae: ECVN TJ1 M0SEQJ CKA3ATJ, 4T0 0HA HE M0FVA, R M0FY CKA3ATJ, 4T0 0HA M0FVA.  #line:a331d1
+	Granddad: GX-X-X-X. #line:e1dd53
+	<<set $cliff_ski_jumps += 1>>
+<<elseif $cliff_ski_jumps is 4>>
+	Mae: 0HA UPJ1FHYVA, U0T0MY 4T0 GT0 M0R NCT0PNR. #line:47c694
+	Granddad: T0FDA VADH0, 0HA UEPEUPJ1FHYVA #line:9797d6
+	Granddad: N R HE 3HA% 4T0 UP0N30QV0 U0CVE GT0F0. #line:9e3a12
+	Mae: HYYY. #line:ca1a59
+	Granddad: R DYMAV, GT0 TEUEPJ TB0R NCT0PNR? #line:92d174
+	Mae: HY... #line:8ae786
+	Granddad: M0SET 6J1TJ, GTA NCT0PNR HAQA? #line:4614d8
+	Mae: 3BY4NT 0TVN4H0.  #line:9679f8
+	Granddad: 6YDEM PA60TATJ C006WA? #line:8bb92b
+	Mae: 0KEL. #line:954a25
+	Granddad: TAK NVN NHA4E, 0HA HE M0FVA UEPEUPJ1FHYTJ 4EPE3 UP0UACTJ... #line:8d4e5e
+	Mae: VAAAAAAADH0. #line:07daa5
+	<<set $cliff_ski_jumps += 1>>	
+<<elseif $cliff_ski_jumps is 5>>
+	Mae: N T0FDA... VADH0, 0HA HE UPJ1FHYVA. #line:16b05b
+	Granddad: CUACN60 TE6E, MGL. #line:dca4e0
+	<<set $cliff_ski_jumps += 1>>
+	<<set $fall_blocker to 1>>
+<<endif>>
+<<hideTalkingHeads>>
+<<fadeOut 1 wait>>
+<<warp Player FallReset>>
+<<flip Player -1>>
+<<setCameraMode FollowPlayer>>
+<<wait 1>>
+<<unfreezePlayer>>
+<<fadeIn 1>>
+
+===

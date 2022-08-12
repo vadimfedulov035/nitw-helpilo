@@ -1,0 +1,74 @@
+title: Start
+tags: 
+colorID: 0
+position: 96,614
+---
+<<wait 5>>
+Mae: In the year Granddad died #line:e32925
+<<setIndentLevel 1>>
+<<shuffleNextOptions>>
+-> we had the worst flood since 1998 #line:664782
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 1 1>>
+    Mae: Gregg got trapped on top of a dog house #line:a727b1
+    Mae: the power was out for two days #line:5ce2bc
+    Mae: Casey Hartley came by in his dad's boat #line:5456ca
+    Mae: and I laughed when I saw him #line:3bdd32
+-> the highway extension came #line:c399c8
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 1 1>>
+    Mae: the road through Possum Springs #line:9640ac
+    Mae: had been the only way to the state park #line:43c488
+    Mae: the highway took the traffic #line:56d481
+    Mae: but gave us Donut Wolf #line:a21ab3
+<<setIndentLevel 0>>
+<<moveParameter WindSFX wind_intensity 3 1>>
+Mae: Granddad left me an apple crate of books #line:27ba7a
+Mae: He loved ghost stories #line:fcf1c5
+Mae: And quoted them to himself in the hospital bed #line:04c9dc
+<<setIndentLevel 1>>
+<<shuffleNextOptions>>
+-> "They went looking for the gods, #line:55770c
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 5 1>>
+    Mae: And died in lonely places." #line:f4444f
+-> "In their wings, in their trees #line:e7dd5e
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 5 1>>
+    Mae: All things die, be at peace." #line:42f07d
+-> "They feared death #line:25c4de
+    <<setIndentLevel 2>>
+    Mae: So they ate the young." #line:d24b51
+<<setIndentLevel 0>>
+<<moveParameter WindSFX wind_intensity 7 1>>
+<<wrapPoem>>
+Mae: on his last day #line:bedd20
+Mae: he sat up suddenly  #line:7b0840
+Mae: and stared bug-eyed through the window #line:326767
+<<setIndentLevel 1>>
+<<shuffleNextOptions>>
+-> at the old empty mill #line:54cefc
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 8 1>>
+    Mae: windows half busted out #line:11df12
+-> at the old playground #line:7bd73c
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 8 1>>
+    Mae: half washed away #line:052bf6
+-> at the old trains #line:ca2e8b
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 8 1>>
+    Mae: rattling to somewhere else|from somewhere else #line:08c0e1
+-> at the old parking lots #line:442b05
+    <<setIndentLevel 2>>
+    Mae: wide and sparkling like oceans #line:8e5509
+<<setIndentLevel 0>>
+<<moveParameter WindSFX wind_intensity 10 1>>
+Mae: he turned to my dad #line:0c5bf6
+Mae: eyes still wide #line:005ede
+Mae: "this house is haunted" #line:ab7656
+Mae: he said #line:c5b031
+Mae: and died. #line:2787b2
+<<fadeOut 2 wait>>
+<<scene BusStation>>
+===

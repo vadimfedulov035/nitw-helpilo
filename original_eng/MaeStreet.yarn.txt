@@ -1,0 +1,932 @@
+title: Pole1_A0D0
+tags: demo
+colorID: 0
+position: -8847,-1879
+---
+Mae: {width=2,size=.8,align=middle,locator=Pole1} I remember the time in 9th grade #line:57d47b
+Mae: {width=2,size=.8,align=middle,locator=Pole1}when I snuck out and could see into Tom Bramwell's bedroom. #line:00d99b
+<<wait .25>>
+Mae: {width=2,size=.8,align=middle,locator=Pole1,emote=butt,emoteAlign=middle}:\ #line:c0ed6e
+<<wait .25>>
+Mae: {width=2,size=.8,align=middle,locator=Pole1} Yep that sure did happen. :| #line:260c0f
+<<set $pole1_done to 1>>
+===
+title: Pole2_A0D0
+tags: demo
+colorID: 0
+position: -8185,-1888
+---
+Mae: {align=middle,nearestLocator}I could jump down on Mr. Twigmeyer from here. #line:8bd60a
+Mae: {align=middle,nearestLocator}It would easily kill him. #line:fe4205
+<<wait .25>>
+Mae: {align=middle,nearestLocator}I hold your life in my hands, Twigmeyer.  #line:2adb88
+<<end>>
+===
+title: OnTree_A0D0
+tags: demo
+colorID: 0
+position: -7090,-631
+---
+Penderson: {locator=Penderson2,align=middle}[size=.8]Wait, what are you doing...[/size] #line:f98601
+
+===
+title: OnYell_A0D0
+tags: demo
+colorID: 0
+position: -4558,-507
+---
+<<if $penderson is 0>>
+    <<set $penderson to 1>>
+    <<camera lookOffset .8 .25>>
+    Penderson: {size=1.4,locator=Penderson} [shake=.04]Hey! You [color=aaaaaa]kid![/color][/shake] #line:08e192
+    Mae: Yes, Mr. Penderson? #line:aea6b9
+    Penderson: {size=1.2,locator=Penderson}[shake=.04]You stay off my roof![/shake] #line:4ced07
+    Mae: I have no idea what you mean. #line:bb2d9a
+    Penderson: {locator=Penderson}I seen you. [stomp]Stomping[/stomp] all over my roof. [hop]Jumping[/hop] all over my chimney. #line:d3985f
+    [[Ok, well I have to go now...|OnYellEnd]] #line:0dc153
+    [[What's your problem, Penderson?|OnYellClimbers]] #line:1f8959
+<<endif>>
+
+
+===
+title: Penderson_A0D0
+tags: demo
+colorID: 0
+position: -7082,-926
+---
+Penderson: [size=.6]...freeloadin' trash mammals...[/size] #line:9bd087
+
+===
+title: OnYellClimbers
+tags: demo
+colorID: 0
+position: -4330,-145
+---
+Penderson: Should be a [speed=.5][color=aaaaaa]tax[/all] on you cats, squirrels, mice... #line:41b9b4
+Penderson: {locator=Penderson,animation=Talk2}the whole lot of you [speed=.4][color=aaaaaa]climber types.[/all] #line:061a7b
+Mae: =_= o> #line:95cd30
+Mae: [speed=.4][size=.65]Lovely.[/all]  #line:47cfc8
+Penderson: {width=3.5,locator=Penderson}Running up on the [speed=.75][color=aaaaaa]power lines[/all], ruining the [speed=.75][color=aaaaaa]infrastructure[/all], paying the [speed=.75][color=aaaaaa]same taxes[/all] as everyone else. [speed=.4][wave]Ain't Right![/wave] #line:1a77bc
+Mae: o_o _o_ #line:bab193
+Mae: OK listen, I have to go live my young life. #line:bd13aa
+<<addToJournal PendersonIsAWalkingReminder>>
+<<addToJournal TodoAvoidTorturePit>>
+[[OnYellEnd]]
+
+
+
+===
+title: OnWire_A0D0
+tags: demo
+colorID: 0
+position: -7076,-370
+---
+Penderson: {width=1,size=1,locator=PendersonWire} [shake=.04]Hey![/shake] What did I [color=aaaaaa]just say!![/all] #line:30f994
+
+===
+title: OnYellEnd
+tags: demo
+colorID: 0
+position: -4726,-149
+---
+Penderson: {locator=Penderson}AND YOU TELL YOUR FOX FRIEND I KNOW WHAT HE DID. #line:15c8e0
+Mae: You mean Gregg? #line:b395eb
+Mae: What's your problem with Gregg? #line:1fbaf8
+Penderson: {locator=Penderson}[shake=.04]DIRTY FOX STOLE MY GARDEN GNOME!!![/shake] #line:31cac9
+Penderson: {locator=Penderson}I saw his fancy little leather jacket and his dainty little boots disappear through the hedge. #line:4a15f4
+Penderson: {locator=Penderson}Everybody knows about him. #line:f00545
+Mae: [speed=.5]Everyone loves Gregg. Gregg's the bomb.[/speed]=_= o> #line:27517f
+Penderson: {locator=Penderson}You tell him I'm calling the cops. #line:adfc0e
+Penderson: {locator=Penderson}And I'll do the same for you if I see you up on the powerlines again! #line:7e4b98
+Penderson: {locator=Penderson}You kids... #line:850565
+Mae: Adults. We're adults. We run the world now. o_o _o_ #line:3f182e
+Penderson: {locator=Penderson,size=1.2,animation=Pah}[color=aaaaaa][shake=.04]Pah![/all] #line:a2d8ef
+Mae: {size=1.2}[color=aaaaaa][shake=.04]Pah![/all]:( \o/ #line:01d52e
+Mae: :| _o_ #line:25718b
+<<addToJournal TodoFindGregg>>
+<<addToJournal PendersonCops>>
+<<unlockDoodle FindGregg>>
+<<unlockDoodle Gnome>>
+<<unlockDoodle Penderson>>
+<<camera lookOffset 0 0>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -6865,-1486
+---
+<<set $taxi_stop to 0>>
+===
+title: Twigmeyer_A1D1
+tags: 
+colorID: 2
+position: -3275,-386
+---
+Mae: Hey Mr. Twigmeyer! #line:058a33
+Twigmeyer: Mae? Zat you? #line:9f0714
+[[Sure is!|Twigmeyer_00_SureIs]] #line:7caad2
+[[Nope!|Twigmeyer_00_Nope]] #line:56ad2f
+===
+title: Twigmeyer_00_SureIs
+tags: 
+colorID: 2
+position: -3604,-101
+---
+Twigmeyer: You home for a visit? #line:05c41f
+Mae: No, I'm home for good! #line:6bc079
+Twigmeyer: What, they not have college anymore? #line:d77f6a
+[[Nope. It burned down|Twigmeyer_00_ItBurnedDown]] #line:0bd0bf
+[[Not for me at least.|Twigmeyer_00_NotForMe]] #line:69bdb8
+===
+title: Twigmeyer_00_NotForMe
+tags: 
+colorID: 2
+position: -3389,210
+---
+Twigmeyer: I always thought you'd either go on to do great things #line:24f824
+Twigmeyer: or sit on your ass here until it put down roots. #line:7f6cd8
+Mae: Ass roots? #line:4ed399
+Twigmeyer: Guess I can settle that one in my mind. #line:eab0e9
+Mae: [speed=.25]...[/all] #line:6788e6
+Mae: [speed=.25]...see you around...[/all] #line:a309a1
+<<set $twigmeyer_done to 1>>
+===
+title: Twigmeyer_00_ItBurnedDown
+tags: 
+colorID: 2
+position: -3781,220
+---
+Twigmeyer: Well I'm sure you burned it down. #line:77dc63
+Mae: These allegations, Mr. Twigmeyer. #line:811137
+Twigmeyer: I ain't allegatin' #line:9d22e8
+Twigmeyer: Just try not to burn my lawn down, you firebug. #line:43c5f0
+Mae: No promises. #line:8ff3da
+<<set $twigmeyer_done to 1>>
+===
+title: Twigmeyer_00_Nope
+tags: 
+colorID: 2
+position: -2936,-82
+---
+Twigmeyer: Well it looks like Mae. #line:10432f
+Twigmeyer: Bet it smells like Mae. #line:d8401e
+Mae: I have a smell? #line:de870d
+Twigmeyer: When you were a kid, #line:f910be
+Twigmeyer: Susan used to call you a little dirtball. #line:af700d
+[[Well I was a dirtball.|Twigmeyer_00_IWasADirtball]] #line:18dc4d
+[[I was never a dirtball.|Twigmeyer_00_IWasNever]] #line:875539
+===
+title: Twigmeyer_00_IWasADirtball
+tags: 
+colorID: 2
+position: -3071,194
+---
+Twigmeyer: You still are a dirtball I bet. #line:9ef0f8
+Mae: Cradle to grave. 100 percent dirtball. #line:3ce201
+Twigmeyer: That's the spirit! #line:4e92f9
+Mae: See you around, Mr. Twigmeyer! #line:cea924
+<<set $twigmeyer_done to 1>>
+===
+title: Twigmeyer_00_IWasNever
+tags: 
+colorID: 2
+position: -2691,181
+---
+Twigmeyer: Aw Mae, you were our dirtball. #line:7cb069
+Mae: Every child's dream. #line:99fb58
+Twigmeyer: See? Count your every blessing. #line:1c4828
+Mae: Well, you can *COUNT* on seeing me around tomorrow. #line:009047
+Twigmeyer: Feel free to rake my lawn. #line:f6c61b
+Mae: You paying? #line:cb24f5
+Twigmeyer: Get out of here, dirtball. #line:c3ca8d
+<<set $twigmeyer_done to 1>>
+===
+title: InitLevel_A1D1
+tags: 
+colorID: 2
+position: -6571,-1559
+---
+<<show Twigmeyer>>
+<<setAnimInt Twigmeyer raking 1>>
+===
+title: Construction
+tags: demo2
+colorID: 0
+position: -6598,-1226
+---
+Mae: Well it sure is fall. #line:9dd5f6
+Mae: All the roadwork crammed in before winter. #line:ae1c9f
+Mae: Makes like half the town inaccessible. #line:5ad7a0
+Mae: Unless you wanna walk the long way around #line:29a6a9
+Mae: for like 20 minutes. #line:05ca88
+Mae: Which, I mean, no. #line:1b963f
+<<end>>
+===
+title: TwigmeyerDemo
+tags: demo
+colorID: 0
+position: -5782,-631
+---
+<<if $twigmeyer is 0>>
+    Mae: Hey Mr. Twigmeyer! #line:b4ed74
+    Twigmeyer: {align=middle,emote=rake,emoteAlign=middle} #line:515331
+    Mae: Alright then! #line:597a29
+    <<set $twigmeyer to 1>>
+<<else>>
+    Mae: Rake 'em good, Mr. Twigmeyer! #line:09f820
+<<endif>>
+
+===
+title: InitLevel_A0D0
+tags: 
+colorID: 0
+position: -7074,-1569
+---
+<<show Penderson>>
+<<show Twigmeyer>>
+<<setAnimInt Twigmeyer raking 1>>
+===
+title: Penderson
+tags: 
+colorID: 0
+position: -6738,-501
+---
+<<if $act is 1 and $day is 0>>
+    [[PendersonDemo]]
+<<endif>>
+===
+title: Penderson_00_00
+tags: 
+colorID: 2
+position: -5007,879
+---
+Penderson: HEY! YOU KID! #line:49d832
+Mae: Adult. #line:fac2d3
+Penderson: So you’re back, eh? #line:b25df0
+Mae: Yes, Mr. Penderson. #line:fb425a
+Penderson: Didn’t last long, eh? #line:05545b
+Mae: No, Mr. Penderson #line:bfc899
+Penderson: You get a job yet? #line:0af26d
+[[I’ve only been back for like 24 hours.|BackFor24Hours]] #line:066f34
+[[Yes. I’ve been elected mayor.|ElectedMayor]] #line:03f42d
+===
+title: BackFor24Hours
+tags: 
+colorID: 2
+position: -5263,1169
+---
+Penderson: Soon it'll be "only a week" #line:a1f546
+Penderson: then a month #line:5f12fe
+Penderson: then your whole life. #line:71e153
+Mae: You're right. I have so much time left. =_= :) #line:152e5c
+<<wait 1>>
+Mae: o_o :| #line:2d4a14
+[[Penderson_00_00_End]]
+===
+title: ElectedMayor
+tags: 
+colorID: 2
+position: -4754,1164
+---
+Penderson: Hhmph. Couldn't do worse than the current one. #line:c08007
+Mae: And I've ordered your house to be bulldozed. #line:839a13
+Penderson: What, finishing the job you started? #line:a73d21
+Mae: I hope you enjoy living in the woods! #line:ece7d1
+Penderson: Those eggs took the paint off the vinyl siding. #line:e46b3f
+Mae: Scavenge food! Commune with the beasts, Mr. Penderson! #line:388e72
+Penderson: Watch yourself, lil miss. #line:ceeebd
+Mae: "Lil. Effing. Miss?" #line:1b2abf
+[[Penderson_00_00_End]]
+===
+title: Penderson_00_00_End
+tags: 
+colorID: 2
+position: -5020,1455
+---
+Penderson: No one's forgotten who you are and what you did, you know. #line:564eff
+Penderson: They may act like they have. #line:02bc6e
+Penderson: But that's just small town polite right there. #line:b4d840
+Mae: Is that what this is? #line:ce68c0
+Penderson: Small town polite's all you got kid. #line:66f89e
+Penderson: So watch it. #line:ac4385
+Mae: Well that was really interesting #line:acb76d
+Mae: but I need to go listen to my cells die. #line:bd46aa
+Penderson: PAH! #line:e83574
+Mae: PAH! #line:f272bf
+===
+title: PendersonDemo
+tags: demo
+colorID: 0
+position: -6748,-232
+---
+Penderson: [size=.6]...freeloadin' trash mammals...[/size] #line:3679b1
+===
+title: TriggerMolly_A1D3
+tags: 
+colorID: 2
+position: -6038,-1267
+---
+<<set $trigger_molly to 0>>
+Molly: Hey Mae. #line:064b0e
+Mae: What? #line:8e67ec
+Molly: I was just stopping by to see how you were doing. #line:e3c439
+Mae: Why? #line:46b2ce
+Molly: After the other night I mean. #line:b42db3
+Mae: Why wouldn’t I be fine? #line:1387f1
+Molly: Mae, a lot of things that happen around here, #line:c78ca0
+Molly: sometimes in town, sometimes out by the tracks, #line:93fe8b
+Molly: sometimes up in the hills... #line:3672cd
+Molly: ... #line:4a9ecc
+Mae: What? #line:2cb3de
+Molly: It's my job to make sure folks like you #line:1d9d6b
+Molly: never see something like what you saw the other night. #line:281a04
+[[You’re not doing a very good job of it.|NotDoingAVeryGoodJobOfIt]] #line:0719cc
+[["Folks like you"?|MollyA1D3_01]] #line:d34632
+===
+title: NotDoingAVeryGoodJobOfIt
+tags: 
+colorID: 2
+position: -6198,-967
+---
+Molly: Better than you might think. #line:364614
+Mae: I’ve been back less than 3 days and I already saw dead body parts. #line:478ae2
+Mae: Which wasn't a big deal, but #line:1c8d6c
+Molly: You didn't see Tom Jennings shoot his brother in the stomach #line:c805a2
+Molly: last night out on Doty Line Road. Out past Arner. #line:6ce7f1
+Molly: You didn't have to walk out into that cornfield. #line:20ebb7
+Mae: Geez. #line:3b0963
+[[MollyA1D3_01]]
+===
+title: MollyA1D3_01
+tags: 
+colorID: 2
+position: -5954,-945
+---
+Molly: You're a kid, Mae. #line:2ead73
+Molly: And you're naive. #line:a473d3
+Molly: And in its own stupid way, that's beautiful. #line:afa181
+Molly: But the world isn't. #line:466a19
+Molly: And the world isn’t out there somewhere. #line:36eb9a
+Molly: It's here. #line:58cffa
+Mae: Alright, are you gonna arrest me or something? #line:5eaee7
+Mae: Because I have a party to go to. #line:59b7c7
+Molly: Watch yourself, Mae. #line:46ad83
+Molly: I'd really hate to see something happen to you. #line:b9bfd2
+Molly: And being in the wrong place at the wrong time is all it takes. #line:6ca03e
+Mae: ... #line:3b67a2
+Molly: That's all I'm saying. #line:0ee34d
+Mae: That's ominous. #line:9ee228
+Molly: Good night, Mae. #line:dcbbcd
+<<close>>
+<<walk Molly MollyOffscreenLeft>>
+<<wait 4>>
+<<hide Molly>>
+<<unlockDoodle MollyA1D3>>
+===
+title: InitLevel_A1D2
+tags: 
+colorID: 2
+position: -6308,-1566
+---
+<<show Penderson>>
+===
+title: InitLevel_A1D3
+tags: 
+colorID: 2
+position: -6009,-1575
+---
+<<if $trigger_molly is 1>>
+    <<show Molly>>
+    <<setCanInteract Molly 0>>
+<<endif>>
+===
+title: InitLevel_A2D1
+tags: 
+colorID: 3
+position: -5699,-1585
+---
+<<if $demo2>>
+    <<show Twigmeyer>>
+    <<setAnimInt Twigmeyer raking 1>>
+    <<hide Penderson>>
+<<endif>>
+===
+title: InitLevel_A2D2
+tags: 
+colorID: 3
+position: -5417,-1589
+---
+
+===
+title: InitLevel_A2D3
+tags: 
+colorID: 3
+position: -5172,-1594
+---
+
+===
+title: InitLevel_A2D4
+tags: 
+colorID: 3
+position: -4905,-1599
+---
+
+===
+title: OnMoveForHarleys
+tags: 
+colorID: 0
+position: -6486,-966
+---
+<<if $harleys_ran_by is 0>>
+    <<set $harleys_ran_by to 1>>
+    <<show Harley1>>
+    <<show Harley2>>
+    <<show Harley3>>
+    <<warp Harley1 Harley1Start>>
+    <<warp Harley2 Harley2Start>>
+    <<warp Harley3 Harley3Start>>
+    <<flip Harley1 -1>>
+    <<flip Harley2 -1>>
+    <<flip Harley3 -1>>
+    <<setInteract Harley1 0>>
+    <<setInteract Harley2 0>>
+    <<setInteract Harley3 0>>
+    <<run Harley1 Harley1End>>
+    <<run Harley2 Harley2End>>
+    <<run Harley3 Harley3End>>
+    <<trackAllSpeechBubblesToCharacters 1>>
+    <<setSpriteLayer Harley1 CharacterFG>>
+    <<setSpriteLayer Harley2 CharacterFG>>
+    <<setSpriteLayer Harley3 CharacterFG>>
+    Harley1: Kill Kill Kill! #line:3ce745
+    Harley3: FBI freeze! #line:f30f6d
+    <<trackAllSpeechBubblesToCharacters 0>>
+<<endif>>
+===
+title: OnMoveForPenderson
+tags: 
+colorID: 0
+position: -5004,589
+---
+<<set $penderson += 1>>
+<<set $penderson_done to 1>>
+[[Penderson_00_00]]
+===
+title: RightSide
+tags: demo
+colorID: 0
+position: -7106,-90
+---
+Mae: Nah, not feelin' the graveyard today. #line:d95fe0
+Mae: I feel like you might need Bea for the full graveyard experience. #line:1cde9f
+Mae: That was not a joke about her mother. #line:a48fe6
+===
+title: ExitLevel
+tags: 
+colorID: 0
+position: -5906,-1927
+---
+<<if $scene_link_id != 99>>
+    <<set $mom_home to 0>>
+<<endif>>
+===
+title: PreInitLevel
+tags: 
+colorID: 0
+position: -6200,-2161
+---
+<<hide Molly>>
+<<hide Penderson>>
+<<hide Twigmeyer>>
+<<hide CopCar>>
+<<hide Dad>>
+
+
+===
+title: InitLevel_A3D4
+tags: 
+colorID: 4
+position: -4116,-1593
+---
+<<if $molly_done is 0>>
+    <<show CopCar>>
+    <<show Molly>>
+    <<setCanInteract Molly 0>>
+    <<warp Molly MollyLeft>>
+    <<flip Molly 1>>
+<<endif>>
+===
+title: TriggerMolly_A3D4
+tags: 
+colorID: 4
+position: -4116,-1302
+---
+<<playerFace -1>>
+Mae: =_= #line:987bf0
+Mae: oh god. #line:d08bf3
+Mae: what do *YOU* want? #line:299b20
+<<wait 3>>
+Molly: hello to you too, mae. #line:e51f03
+Mae: well? #line:8cbe3b
+Molly: I wanted to let you know. #line:c74ef4
+Molly: we ran a test on that arm you guys found a few days back. #line:93b26b
+Mae: o_o #line:75fd71
+Mae: oh really??? #line:652c8b
+Molly: yeah. thought you'd be interested is all. #line:a0b93e
+Mae: definitely! #line:202fd1
+Molly: arm belonged to a middle aged man #line:858ace
+Molly: and medium build. #line:158df9
+Molly: and he was dead when it was removed. #line:cb41ab
+Mae: whoa. #line:5fba78
+Mae: that means... #line:3f5065
+Molly: it doesn't mean anything yet. #line:97114c
+Molly: i just thought you'd like to know. #line:6dc399
+Molly: you always liked detective stories when you were a kid. #line:dc9c56
+Mae: ok. yeah. thanks. #line:6ebca5
+Mae: this ghost is seriously messed up. #line:354fa4
+Molly: ghost? #line:dcbb05
+Molly: wasn't no ghost involved in this, whatever it was. #line:03f148
+Mae: yeah yeah. nobody believes me. i get it. #line:72f40c
+Molly: be careful, mae. #line:b0fd2c
+Molly: strange stuff going on. #line:ecb262
+Mae: yeah you're telling me. #line:f8367e
+Molly: have a nice evening, mae. #line:34640a
+<<set $molly_done to 1>>
+===
+title: Pole1Act1.1
+tags: 
+colorID: 2
+position: -8994,-1077
+---
+Mae: I remember the time in 9th grade #line:598a46
+Mae: when I snuck out and could see into Tom Bramwell's bedroom. #line:0aa39c
+<<wait .25>>
+Mae:{emote=butt} :\ #line:297dfe
+<<wait .25>>
+Mae: Yep that sure did happen. :| #line:eea5c1
+<<end>>
+===
+title: Pole1Act2.1
+tags: demo2
+colorID: 3
+position: -8999,-834
+---
+Mae: When the flood happened that one year this pole fell over #line:ed72bd
+Mae: and I was scared it’d somehow electrify the water all over the neighborhood #line:388fe4
+Mae: and it’d stay that way #line:c64377
+Mae: and I was kinda afraid of taking a shower #line:1aa17c
+Mae: or turning on the faucet for weeks. #line:4d1b8d
+===
+title: InitLevel_A4D3
+tags: 
+colorID: 6
+position: -3401,-1574
+---
+<<show Dad>>
+<<if $molly_done is 0>>
+    <<show Molly>>
+    <<warp Molly MollyLeft>>
+    <<flip Molly 1>>
+<<endif>>
+===
+title: Dad_A4D3_00
+tags: 
+colorID: 6
+position: -3574,-957
+---
+Mae: hey dad. #line:500951
+Mae: no work today? #line:7c5bd0
+Dad: i told bob to shove it. #line:a28d72
+Mae: :) #line:5e217f
+Mae: really? #line:7ad8b2
+Dad: no. #line:ca827e
+Mae: :| #line:b9abdd
+Dad: … #line:6f9ca6
+Mae: you ok? #line:c51d8e
+Dad: yeah, i’ll be fine. #line:e8b175
+Dad: not gonna sugarcoat it. I hate my job. #line:f48b3b
+Mae: aw dad. Why? #line:a5f444
+Dad: i’ve mined, i’ve made glass, i’ve done a heap other stuff. #line:999000
+Dad: but this place… they just don’t respect you for workin’. #line:e7156f
+Mae: they don’t? #line:25d9a8
+Dad: Job’s s’posed to pay you enough to live #line:43a1a2
+Dad: Job’s s’posed to let you provide for your family #line:3f27af
+Dad: Job’s s’posed to have regular hours #line:9d6b68
+Dad: Boss’ s’posed to respect you. #line:a5d5f9
+Dad: Workers s’posed to be able to talk #line:854bd4
+Dad: Workers s’posed to be able to have a life #line:fcc38a
+Dad: Workers s’posed to be able to live. #line:ae21fa
+Dad: Your mom always had to work but #line:6f4041
+Dad: I wanted to give you and her your time #line:bbc0ea
+Dad: I wanted her to have hobbies #line:cc9aaa
+Dad: and enough time and money to do them #line:b6a714
+Dad: that’s what made me happy #line:3421d6
+Dad: now i just work so i can keep our health insurance #line:a00bd9
+Dad: and hold onto the house. Try to at least. #line:cf1875
+<<if $did_germ_friendship_quest_3>>
+	Mae: my friend Germ #line:5f4e61
+	Mae: his dad works for department of transportation #line:1c732b
+	Mae: he talked about you getting a union going at Ham Panther #line:5a88ee
+	Dad: they fire you just for talking about it #line:773b3f
+	Mae: is that legal? #line:318a0f
+	Dad: legal don’t always matter. #line:35817d
+<<endif>>
+Mae: is there anything you can do? #line:993228
+Dad: i mean, we *do* need a union #line:28b439
+Dad: it’s just easier to say it than get it done #line:0198f8
+Dad: unions were always there in the mines and the factory #line:c477b2
+Dad: least for a while #line:cc8ecd
+Dad: but here… #line:b417bc
+<<if $has_tooth and $knows_tooth>>
+	//if have tooth and know what tooth is <-variable set at microfiche if you see item//
+	Mae: i got something for ya #line:6cffaf
+	Mae: got it out of the basement #line:a99f16
+	Dad: how’d you get in the basement? #line:4c9e2f
+	Mae: door in the crawlspace #line:e82fc9
+	Dad: that’s spooky. #line:5dfd04
+	Mae: so what i got is… #line:d9640c
+    Mae: :) #line:c9e7bc
+	Mae: a tooth. #line:c6d8b9
+	Dad: a what? #line:b494db
+	Mae: do you know what this tooth is? #line:f53c5a
+	Dad: no… really?  #line:bc1edd
+	Dad: you sure? #line:64cda3
+	Mae: yeah. Granddad musta had it from the old days. #line:a4322a
+	Dad: Mae… thank you. #line:f1e237
+	Dad: wow. Looks bright and new #line:a1e756
+	Dad: like they just pulled it out of his skull yesterday. #line:0d1b8f
+	Mae: you show that to your boss and tell him to eat shit. #line:e6cc87
+	Dad: MAE! #line:9186d5
+	Mae: sorry. #line:c4319e
+	Dad: I’ll just keep it with me. #line:9660a7
+	Mae: sure thing. #line:19a003
+	Dad: Mae. #line:a08431
+	Mae: yeah? #line:65cf2c
+	Dad: you come down and picket with us if we walk out? #line:cc3e49
+	Mae: i will breathe fire, dad. #line:9a024d
+	Dad: love you, kitten. #line:2eb904
+	Mae: be back later, dad. #line:6805f0
+    Mae: :| #line:b193f2
+    <<unlockAchievement Clock_Quest>>
+    <<set $did_clock_quest to 1>>
+<<else>>
+	//if don’t have tooth or know what it is//
+	Mae: listen, i’m gonna be around tonight for dinner #line:8ca77f
+	Dad: wow! What’s the occasion? #line:1aed69
+	Mae: well mom said we could make breakfast #line:3d8eb6
+	Dad: oooh! Sounds good! #line:d8f3b5
+	Mae: i was gonna talk about some… stuff. #line:d9472b
+	Dad: ok #line:d13417
+	Mae: maybe we can talk about your stuff too? #line:8fc3da
+	Mae: just one big… uh… stuff session? #line:0482e3
+	Dad: that sounds great kitten. #line:22a212
+	Mae: love you dad #line:d39121
+	Dad: love you too #line:6e9da6
+	Mae: be back later! #line:dd4307
+<<endif>>
+===
+title: TwigmeyerDemo2
+tags: demo2
+colorID: 0
+position: -4630,-935
+---
+<<if $twigmeyer is 0>>
+    Mae: Hey Mr. Twigmeyer. #line:20bdd4
+    Twigmeyer: Hello. #line:4a0f21
+    Mae: Raking the... uh... #line:e6708c
+    -> Grass? #line:1d9459
+    -> Nothing? #line:e98b12
+    Twigmeyer: Lawns are like people. #line:457d87
+    Mae: and trees are like friends. Or something. #line:dbe5c2
+    Twigmeyer: Ok. #line:7f99fc
+    <<set $twigmeyer to 1>>
+<<elseif $twigmeyer is 1>>
+    Mae: Wait. How are lawns like people? #line:19cfee
+    Twigmeyer: Gettin’ late in the year #line:65cafd
+    Twigmeyer: and we ain’t gonna see each other much #line:d3d02f
+    Twigmeyer: so I’m out here putting in that good time. #line:0a238c
+    Mae: Huh. #line:eac70f
+    Mae: You have a pretty strong bond with your grass. #line:9fec42
+    Twigmeyer: Heh heh well I grab hold of just about everything I can. #line:9ceef1
+    <<set $twigmeyer_done to 1>>
+<<endif>>
+
+===
+title: Pole1Act2.2
+tags: demo2
+colorID: 3
+position: -8743,-842
+---
+Mae: After the flood it laid in our yard for 2 weeks #line:8d78d2
+Mae: like a big dead... thing. #line:540544
+Mae: But then they put it back up #line:dbd8e5
+Mae: and I could see it from my window at night #line:e1b9a3
+Mae: and it felt spooky for some reason. #line:453016
+===
+title: Pole1Act2.3
+tags: demo2
+colorID: 3
+position: -8498,-853
+---
+Mae: Spooky pole. #line:01ea1c
+Mae: Undead friend. #line:095f86
+Mae: Watching me from the curb. #line:147e8b
+<<end>>
+===
+title: Penderson_A2D1
+tags: demo2
+colorID: 0
+position: -5656,-1266
+---
+Penderson: Bah! #line:48d069
+Mae: Bah! \o/ #line:5c557b
+Mae: _o_ #line:747a7c
+<<set $penderson_done to 1>>
+===
+title: InitLevel_A4D2
+tags: 
+colorID: 5
+position: -3685,-1571
+---
+<<hide Twigmeyer>>
+===
+title: Dad_A4D3
+tags: 
+colorID: 5
+position: -3328,-1299
+---
+<<if $dad is 0>>
+    <<set $dad += 1>>
+    [[Dad_A4D3_00]]
+<<elseif $dad is 1>>
+    <<set $dad += 1>>
+    [[Dad_A4D3_01]]
+<<else>>
+    [[Dad_A4D3_Loop]]
+<<endif>>
+===
+title: Dad_A4D3_Loop
+tags: 
+colorID: 6
+position: -2922,-985
+---
+Dad: dum de dum dum #line:6a3a19
+===
+title: Dad_A4D3_01
+tags: 
+colorID: 6
+position: -3295,-958
+---
+Mae: what are you doing out here, by the way? #line:d93320
+Dad: getting an early start on our Longest Night lights plan #line:1a8399
+Dad: gotta dig them out of the closet #line:6a1207
+Dad: see if they even work still #line:60544d
+Mae: can i help put them up????? #line:f5bb4a
+Dad: we’ll see. You’re a small fry. #line:d30915
+Mae: o> #line:3fa7d7
+Mae: DAD. #line:939a26
+Mae: _o_ #line:8c1699
+===
+title: Pole1Act3.1
+tags: 
+colorID: 4
+position: -8991,-593
+---
+Mae: Can see Penderson's house from here. #line:41e7b1
+Mae: What a ghoul that guy is. #line:701223
+Mae: he has hated me forever #line:004614
+Mae: just because i put an m80 down his roof gutter. #line:362e25
+Mae: i mean it's just petty, this grudge. #line:9a77b8
+Mae: that was like forever ago. #line:cc7b7e
+<<end>>
+===
+title: Pole1Act4.1
+tags: 
+colorID: 6
+position: -8995,-347
+---
+Mae: oh wow the Kareems got a new dog! #line:43cfe9
+Mae: hey puppers! #line:805fe5
+Mae: aw she saw me! #line:4e2d7c
+Mae: i can see you from here! #line:2f43ff
+Mae: i will be watching! #line:715e1b
+Mae: so [shake=.05]beware[shake]. #line:1853ca
+Mae: and be a good pup. #line:3a3139
+<<end>>
+===
+title: Twigmeyer_A2D1
+tags: 
+colorID: 2
+position: -2577,-396
+---
+Twigmeyer: rake rake rake #line:99a772
+Mae: rake rake rake? #line:b7ada3
+Twigmeyer: that's how you rake! #line:e32b28
+<<set $twigmeyer_done to 1>>
+===
+title: Twigmeyer_A2D3
+tags: 
+colorID: 3
+position: -2272,-389
+---
+Twigmeyer: goddamn leaves! #line:8b8678
+Mae: they should leave your yard alone. #line:d2fe12
+Twigmeyer: mae borowski you leave those puns at home. #line:621e5d
+Mae: ha ha ha #line:9d6473
+<<set $twigmeyer_done to 1>>
+===
+title: Twigmeyer_A3D2
+tags: 
+colorID: 3
+position: -1958,-384
+---
+Twigmeyer: Winds gettin' colder #line:ea797c
+Twigmeyer: more leaves, in my dang yard. #line:133b66
+Mae: what's the big deal? #line:22e92e
+Twigmeyer: it kills the grass is what!!!! #line:e6ee96
+Mae: ok ok! geez! #line:2c268e
+Twigmeyer: i'm fired up!!! #line:406ce3
+<<set $twigmeyer_done to 1>>
+===
+title: Twigmeyer_A3D4
+tags: 
+colorID: 3
+position: -1686,-378
+---
+Twigmeyer: you alright, mae? #line:860097
+Mae: yeah. i'm fine. #line:fbbd25
+Twigmeyer: i got a sense about people. #line:6be9fc
+Twigmeyer: and you're not alright. #line:a44702
+Mae: well i hate it break it to you #line:5bafef
+Mae: but your sense is wrong. #line:285e18
+Twigmeyer: hm. we'll see. #line:1df9cb
+<<set $twigmeyer_done to 1>>
+===
+title: Twigmeyer_A4D3
+tags: 
+colorID: 6
+position: -1439,-371
+---
+Mae: hey Mr. Tmwigmeyer! #line:0090e5
+Twigmeyer: well hey there mae! #line:d905b7
+Twigmeyer: you seem to be doing a lot better! #line:cd7c93
+Mae: eh. I'm really sore. #line:d8ada1
+Twigmeyer: you gotta take care! #line:a31905
+Twigmeyer: life breaks easy. #line:36bc5f
+Mae: nah. i'm forever. #line:c3485c
+Twigmeyer: heh heh. that'd be nice. #line:c0b2f9
+<<set $twigmeyer_done to 1>>
+===
+title: TriggerMollyTop_A3D4
+tags: 
+colorID: 4
+position: -4388,-1319
+---
+<<set $trigger_molly to 0>>
+Molly: Mae! Get down from those powerlines! #line:a2422d
+Mae: ...? #line:8563a4
+<<fadeOut 1 wait>>
+<<jump>>
+<<warp Mae MaeByMollyA3D4>>
+<<clearJump>>
+<<waitForPlayerFallToGround>>
+<<playerFace -1>>
+<<playIdleAnimationPlayer>>
+<<fadeIn 1 wait>>
+[[TriggerMolly_A3D4]]
+===
+title: Molly_A4D3
+tags: 
+colorID: 6
+position: -2486,-1400
+---
+Mae: hey. What are you doing here? #line:3f59a7
+Molly: i’m working, mae. #line:6be4eb
+Mae: =_= #line:51e64f
+Mae: suuuure. #line:9f01e6
+Molly: *sigh* #line:80dc27
+Mae: what’s wrong #line:b26464
+Molly: don’t ask. Lotta weird calls this morning. #line:7d2925
+Mae: o_o #line:6a34d2
+	->oh.  #line:000b03
+	->...what kind of calls? #line:dd897a
+		Molly: ... #line:f635b3
+<<wait 2>>
+Molly: question: #line:a19d1d
+Molly: you haven’t seen... #line:2eac4b
+<<wait 2>>
+Molly: nevermind. #line:4d28f4
+Molly: go do whatever it is you do. #line:19577d
+Mae: ok fine i will #line:0a0797
+Molly: mae, #line:5a0ad4
+<<wait 2>>
+Mae: \o/ #line:467ae6
+Mae: spit it out already! #line:4812c4
+Mae: _o_ #line:1475e9
+Molly: be careful. #line:a9e679
+Molly: just... be careful. #line:d39410
+Mae: well geez until now i never considered that! #line:490003
+Molly: MAE! #line:fa59fe
+Mae: ok fine thanks bye #line:39a054
+<<set $molly_done to 1>>
+===

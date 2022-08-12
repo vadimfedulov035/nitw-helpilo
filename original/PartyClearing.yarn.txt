@@ -1,0 +1,725 @@
+title: Bea
+tags: 
+colorID: 0
+position: -8156,1534
+---
+<<if $beer_phase is 0>>
+	<<if $bea is 0>>
+		Bea: 4T0? #line:3a9965
+		Mae: HN4EF0. #line:a402a5
+		<<set $bea += 1>>
+	<<elseif $bea is 1>>
+		Mae: KVEBAR BE4EPNHKA! #line:a32de1
+		Bea: DA. #line:346938
+		<<set $bea += 1>>
+	<<elseif $bea is 2>>
+		Mae: C KEM PA3F0BAPNBAEQJ? #line:56b0a4
+		Bea: HE C T060L. #line:00e569
+		<<set $bea_done to 1>>
+	<<endif>>
+<<elseif $beer_phase is 1>>
+	<<if $bea is 0>>
+        Mae: =_= #line:144859
+		Mae: L0000. #line:f5e99f
+		Bea: 4T0? #line:776ec6
+		Mae: TJ1 TAKAR 6P%3FA, TJ1 B KYPCE? #line:f57914
+		Bea: BNDNM0, HET. #line:11b87e
+		Jackie: KAK FPY60. #line:147744
+        Mae: o_o :| _o_ #line:23d6be
+		<<set $bea += 1>>
+	<<elseif $bea is 1>>
+        Mae: =_= #line:7b1bdf
+		Mae: CK0VJK0 EWE UVAHNPYEQJ 3DECJ TYCNTJ? #line:91c72b
+		Bea: MGL, TJ1 4EF0, MJ1 UPNEXAVN C%DA MNHYT 10 HA3AD. #line:42f444
+		Mae: 0L. #line:b94b09
+		Bea: TJ1 4T0... CK0VJK0 6AH0K UNBA TJ1 BJ1UNVA? #line:7d7256
+		Mae: DBE! #line:fc4658
+		Bea: T0PM03HN MGL, TJ1 KP0QE4HAR. #line:f74988
+        Mae: o_o :| _o_ #line:323674
+		<<set $bea_done to 1>>
+	<<endif>>
+<<elseif $beer_phase is 2>>
+	<<if $bea is 0>>
+        Mae: =_= :) #line:39e9fb
+		Mae: GL 6N #line:33a46c
+		Bea: DA? #line:de76da
+		Bea: 0 60SE. #line:29b05a
+		Bea: TJ1 HAUNVACJ. #line:bd61a1
+		Bea: YSE. #line:656ff2
+		Mae: TAK NMEHH0 3A GTNM MJ1 C%DA N UPNQVN, BEPH0??? #line:bd2ebf
+		Bea: HE C0BCEM. R 3A PYVEM. #line:97dbd0
+		Bea: N DASE ECVN 6J1 HE 6J1VA... #line:00d815
+		Mae: HY, Y MEHR UPAB HETY!!! \o/ #line:182f92
+		Mae: TAK 4T0 YPAAAAAA MHEEEEE!!! #line:4fb043
+        Mae: o_o :| _o_ #line:17daa5
+		<<set $bea += 1>>
+	<<elseif $bea is 1>>
+		Mae: GL 6N #line:4c016c
+		Bea: 4T0? #line:daf1b1
+		Jackie: GT0 KT0? #line:6c779e
+		Bea: U0MHNQJ MGL 60P0BCKN? #line:a10767
+		Jackie: 0 60SE. #line:2b7435
+		<<set $bea += 1>>
+	<<elseif $bea is 2>>		
+		Bea: MGL, TJ1 UJRHA. #line:c58a41
+		Bea: VY4QE TE6E 0TD0XHYTJ Y K0CTPA. #line:f8fbc9
+        Mae: :) #line:cb8d92
+		Mae: R VY4QE UP06EFYCJ U0 VECY F0VJ1Q00000M!!!!! \o/ #line:b6caea
+		Bea: NDN. CRDJ. HEMEDVEHH0. #line:bcfc63
+        Mae: o_o :| _o_ #line:938ed9
+        <<set $should_sit_log to 1>>
+		<<set $bea_done to 1>>
+	<<endif>>
+<<elseif $beer_phase is 3>>
+<<endif>>
+
+
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: -8465,1136
+---
+<<set $night to 1>>
+[[SceneStart]]
+===
+title: Beer
+tags: 
+colorID: 0
+position: -8811,1242
+---
+<<if $can_drink_beer is 1>>
+	<<set $beer_phase += 1>>
+	<<fadeOut 1 wait>>
+	<<wait 1>>
+    <<playAmbientSFX AmbientSFX:beer_drink>>
+    <<wait 3>>
+	<<fadeIn 1 wait>>
+	[[SceneStart]]
+<<else>>
+	Mae: HE YBEPEHA, CT0NT VN MHE CH0BA UNTJ. #line:097e53
+<<endif>>
+
+===
+title: SceneStart
+tags: 
+colorID: 0
+position: -8573,1604
+---
+<<set $bea to 0>>
+<<set $gregg_angus to 0>>
+<<set $cole to 0>>
+
+<<set $angus_done to 0>>
+<<set $bea_done to 0>>
+<<set $gregg_done to 0>>
+<<set $cole_done to 0>>
+
+<<set $can_drink_beer to 0>>
+
+<<if $beer_phase is 0>>
+    Mae: =_= :\ #line:6233f0
+	Mae: AFX. #line:6ce028
+	Mae: GT0 6J1V0 YSACH0. #line:ec4077
+	Mae: HEHABNSY UNB0. #line:77b8fa
+	Mae: YSE N HE U0MH%, K0FDA B U0CVEDHNL PA3 UNVA UNB0. #line:6788a4
+	Mae: HE CAMJ1L BKYCHJ1L HAUNT0K. #line:2f5ea0
+    Mae: o_o :| _o_ #line:bcee4c
+<<elseif $beer_phase is 1>>
+    Mae: =_= #line:53e5b9
+	Mae: *B3DJ1XAET* #line:e841f6
+	Mae: DYMA%, UNB0 0DH0 N3 TEX 0MEP3NTEVJHJ1X 3AHRTNL, K0T0PJ1MN YBVEKA%TCR B3P0CVJ1E. #line:c20c59
+	Mae: TNUA KAK UVATNTJ HAV0FN N DEVATJ DETEL. #line:00af69
+    Mae: o_o :| _o_ #line:705e38
+<<elseif $beer_phase is 2>>
+    Mae: O_O #line:c4b706
+	Mae: DA U0QV0 0H0! EWE DBA UNBA! #line:0ab8de
+    Mae: :) #line:994f03
+	Mae: R UJ% UNB0! #line:9b7577
+	<<if $ate_tacos>>
+		Mae: BCE EWE 4YBCTBY% BKYC TAK0! #line:571999
+	<<endif>>
+	Mae: 0K?! #line:5e0dce
+	Bea: 4T0? #line:7696b0
+	Mae: HN4EF0! #line:dd4982
+    Mae: o_o :| _o_ #line:c2083a
+<<endif>>
+
+===
+title: End
+tags: 
+colorID: 0
+position: -9034,1731
+---
+<<fadeOut .5 wait>>
+<<scene BeaCar>>
+===
+title: GreggAngus_BP0
+tags: 
+colorID: 0
+position: -7769,1470
+---
+<<if $gregg_angus is 0>>
+	Mae: 3DAP0BA, UAPHN. #line:fc9c9f
+	Gregg: L0Y. TJ1 BNDEVA? K0YV 3DECJ. #line:d7d552
+    <<lookOut Mae>>
+    <<dilate Mae .75 .5>>
+	Mae: 0 60SE. #line:a02a2e
+    <<wait 1>>
+	Angus: TJ1 B U0PRDKE? #line:254f8d
+    <<lookNearest Mae>>
+    <<dilate Mae 1 .5>>
+	Mae: DA. B U0VH0M. #line:a1ecdd
+	Gregg: TJ1 U0F0B0PNQJ C HNM? #line:8dd6d3
+	[[HET.|GreggAngus_No]] #line:b7e814
+	[[DA, K0HE4H0.|GreggAngus_YeahSure]] #line:034a8e
+<<elseif $gregg_angus is 1>>
+    Mae: =_= #line:2bbbf6
+	Mae: YZ. #line:7b6b89
+    Mae: \o/ #line:7ced98
+	Mae: 0H UP0CT0 CT0NT TAM! KAK 6YDT0 HN4EF0 HE 6J1V0! #line:a01592
+	Gregg: B0T K03EV. #line:d4f887
+	Angus: 0UPEDEVEHH0. #line:c77c6a
+    Mae: _o_ o_o :| #line:508179
+	Mae: 3HAETE 4T0? R HE 6YDY UP0CT0 CT0RTJ #line:792f7b
+	Mae: N EMY CT0RTJ HE DAM #line:4575c5
+	Mae: U0KA M0L BE4EP PA3BAVNBAETCR! #line:30532b
+	Gregg: DA! #line:d17974
+	Mae: R U0LDY TYDA N R U0F0B0P% C K0YV0M. #line:5b4146
+	Angus: PA3PYQJ CB0L BE4EP! #line:fbca8a
+	Gregg: ECVN KT0-T0 N PA3PYQNT TB0L BE4EP, MGL, T0 GT0 D0VSHA 6J1TJ TJ1. #line:2f98ae
+    Mae: :) #line:89f513
+	Mae: CUACN60, PE6RTA. #line:da4247
+    Mae: :| #line:fc1965
+	<<set $talking_to_cole to 1>>
+    <<set $cole_done to 0>>
+	<<set $gregg_angus += 1>>
+<<elseif $gregg_angus is 2>>
+	Mae: BJ1 M0SETE U0BEPNTJ, 4T0 GT0T TNU NFPAET HA FNTAPE? #line:dc5060
+	Gregg: AFA. NFPAET DEPJM0BJ1E XNTJ1. #line:20bb57
+	Angus: A MHE HPABNTCR GTA UECHR! #line:2c3b3d
+	Angus: 0HA DEPJM0BAR? #line:5d8652
+	<<set $douchebag_song to 1>>
+	Mae: HEE, HE UEPESNBAL, 3D0P0BRK. #line:7473f8
+	Angus: ... #line:58bd1c
+	<<set $gregg_angus += 1>>
+<<elseif $gregg_angus is 3>>
+	Gregg: HA KASD0L BE4EPNHKE HALDETCR MYDAK. #line:4665b3
+	Mae: HE UPEDCTABVREQJ, KAK TJ1 UPAB, FPEFF. #line:b64557
+	Mae: EWE C0 QK0VJ1 HAX0DNTCR 60FATEHJKNL MAVJ4NK#line:477618
+	Mae: K0T0PJ1L TYCYETCR B0 DB0PE #line:659750
+	Mae: N UJ1TAETCR BJ1FVRDETJ BECJ N3 CE6R 4YBCTBNTEVJHJ1M. #line:950ad6
+	<<set $try_to_look_sensitive to 1>>
+	Angus: U04EMY GT0 DEPJM0BAR UECHR??? #line:4c1648
+	<<set $angus_done to 1>>
+	<<set $gregg_done to 1>>
+<<endif>>
+
+===
+title: GreggAngus_YeahSure
+tags: 
+colorID: 0
+position: -7618,1797
+---
+<<set $talking_to_cole to 1>>
+<<set $gregg_angus += 1>>
+<<set $cole_done to 0>>
+Gregg: EEE, 4EV! #line:52696d
+Angus: TJ1 YBEPEHA, MGL? #line:c59bc6
+Mae: DA! 4E TYT B006WE M0SET MEHR 6ECNTJ? #line:a187cc
+Gregg: HY, TJ1 UP0 GT0 U0T0M DASE UECH% HAUNCAVA, U0MHNQJ... #line:050637
+[[GreggAngus_Song]]
+
+===
+title: GreggAngus_No
+tags: 
+colorID: 0
+position: -7885,1806
+---
+Angus: B03M0SH0, GT0 K VY4QEMY. #line:509b2a
+Gregg: H0 TJ1 SE HAUNCAVA TY UECH%... #line:bc8600
+[[GreggAngus_Song]]
+===
+title: GreggAngus_Song
+tags: 
+colorID: 0
+position: -7778,2157
+---
+Gregg: KAK 0HA TAM HA3J1BAVACJ? #line:46a0cf
+Angus: "U0LDN N CD0XHN, AHFEVJCK0E VN4NK0"? #line:83c1d1
+Mae: 0000000000X. #line:d048a5
+Mae: MJ1 HE 6YDEM F0B0PNTJ 06 GT0L UECHE. #line:efbe7f
+<<set $gregg_angus += 1>>
+===
+title: Cole
+tags: 
+colorID: 0
+position: -6862,1423
+---
+<<if $beer_phase is 0>>
+	Mae: 0 60SE. GT0... #line:433c74
+	<<if $talking_to_cole is 1>>
+		Mae: M0SET, MHE CVEDYET EWE BJ1UNTJ. #line:48cd8a
+		<<set $can_drink_beer to 1>>
+	<<else>>
+        <<set $cole_done to 1>>
+    <<endif>>
+<<elseif $beer_phase is 1>>
+	<<if $cole is 0>>
+		<<if $whats_your_name is 1>> 
+			Mae: GM, UPNBET, R - MGL! KAK TE6R 30BYT? #line:2245fb
+			Cole: GT0 TJ1, MGL? #line:11a3d4
+			Mae: 0X, MHE KASETCR R 0TKYDA-T0 3HA% TE6R... #line:2dbaa2
+			Cole: AX DA, CTAPQAR QK0VA. #line:a51d3b
+			Mae: B03M0SH0, U0T0MY 4T0 MJ1 BCTPE4AVNCJ #line:82083b
+			Cole: XA XA. T04H0, U0MH%. #line:c63db0
+			Mae: N N36NBAVN YVN4HY% 6AHDY #line:cd03f1
+			Cole: 0, DA! #line:4de03e
+			Mae: OEURMN N 3AKNDJ1BAVN MYC0P0M. #line:c5e7e6
+			Cole: 6J1V0 DEV0, MGL. #line:293628
+			Cole: D0 CNX U0P XPAH% TY NFPY, KCTATN. #line:c59c7d
+			Cole: M0R QK0VJHAR U0DPYFA... #line:6d1b7c
+            Mae: \o/ :( #line:8bacd6
+			Mae: B 4EM, 4EPT B03JMN, TB0R UP06VEMA? #line:a5c43c
+			Cole: 4T0? #line:b747fd
+            Mae: o_o :| _o_ #line:22ae6d
+		<<else>>
+			Mae: UPNBEEET. #line:3687e4
+			Cole: MGL? GT0 TJ1? #line:e9d03b
+			Cole: 0F0. KAK DEVA? #line:8d826e
+			<<if $dropout_week is 1>>
+				Mae: HY, MEHR HA GT0L HEDEVE U0UEPVN N3 K0VVEDSA #line:61e519
+				Mae: N TEUEPJ R 6YXA% B VECY. #line:bb76a3
+				Cole: 0Y... HY VADH0. #line:2d1933
+				Mae: B 4EM, 4EPT B03JMN, TB0R UP06VEMA? #line:f30c57
+				Cole: 4T0? #line:6ab765
+			<<elseif $hows_it_going is 1>>
+				Mae: UPNBET, R - MGL! KAK TB0N DEVA? #line:2ff1a8
+				Cole: R T0VJK0 4T0 CUP0CNV T0SE CAM0E? #line:563b0e
+				Cole: B CMJ1CVE, BCE X0P0Q0. #line:ab2f5f
+				Cole: UP0CT0 3AEXAV HA BJ1X0DHJ1E B F0CTN. #line:7312ad
+				Mae: UPABDA? GT0 U0TPRCA%WE! #line:435443
+				Cole: HABEPH0E. #line:568076
+				Cole: DYMA%, BUEPBJ1E 3A D0VF0E BPEMR #line:2bd0bf
+				Cole: KT0-T0 30BET M0% SN3HJ U0TPRCA%WEL. #line:ec91e0
+				Mae: GT0 UPABDA! 4T0 S, YBNDNMCR U03SE! #line:dd7ee3
+				Cole: VADH0... #line:e36db3
+				Mae: B 4EM, 4EPT B03JMN, TB0R UP06VEMA? #line:3b4056
+				Cole: 4T0? #line:62d023
+			<<endif>>
+		<<endif>>
+        <<set $cole += 1>>
+		<<set $has_talked_to_cole_1 to 1>>
+	<<elseif $cole is 1>>
+		Mae: YCU0K0LCR, MGL. #line:2b0279
+		Mae: NDN BJ1UEL N YCU0K0LCR. #line:a14877
+		<<set $can_drink_beer to 1>>
+	<<endif>>
+<<elseif $beer_phase is 2>>
+    Mae: 0X, HE 3HA%, CM0FY VN R. #line:343d1c
+<<endif>>
+===
+title: GreggAngus
+tags: 
+colorID: 0
+position: -7517,1023
+---
+<<if $beer_phase is 0>>
+	[[GreggAngus_BP0]]
+<<elseif $beer_phase is 1>>
+	[[GreggAngus_BP1]]
+<<elseif $beer_phase is 2>>
+	[[GreggAngus_BP2]]
+<<endif>>
+===
+title: GreggAngus_BP1
+tags: 
+colorID: 0
+position: -7417,1439
+---
+<<if $gregg_angus is 0>>
+	<<if $has_talked_to_cole_1 is 1>>
+		Mae: AAAAAAAFX #line:813868
+		Gregg: KAK BCE UP0QV0? #line:98935e
+		Mae: AAAAAAAAFX #line:472a97
+		<<set $can_drink_beer to 1>>
+	<<endif>>
+
+	<<if $people_dont_like is 1>>
+        Mae: =_= :\ #line:862e61
+		Mae: MDA #line:293345
+		Angus: TJ1 B U0PRDKE? #line:ffff48
+		Mae: NH0FDA MHE KASETCR, 4T0 R UP0CT0 HNK0MY HE HPABV%CJ. #line:346c50
+		Gregg: 00Y, 4YBNX. #line:795961
+		Gregg: GT0 0TCT0L. #line:aad6ee
+		Angus: GL, MGL, TJ1 HE D0VSHA TAK UV0X0 0 CE6E DYMATJ. #line:053e02
+		Gregg: AFA, K0F0 B0VHYET, 4T0 TJ1 K0MY-T0 HE HPABNQJCR? #line:23f261
+		Angus: VADH0. UP0CT0 R HE GT0 X0TE... #line:4d39ec
+		Gregg: K 4EPTY BCEX, MGL VY4QAR!!! D: \o/ #line:e6786a
+		<<set $maes_the_best to 1>>
+		<<lookAt Gregg DoucheBag>>
+		<<lookAt Mae DoucheBag>>
+		DoucheBag: DA, UPNRTEVJ! #line:623c11
+		Gregg: 3AKP0L UACTJ, 3ACPAHEO! _o_ :| #line:e1575a
+		DoucheBag: ...4T0? #line:8d56e7
+		<<lookAt Gregg Mae>>
+		<<lookAt Mae Gregg>>
+        Mae: :) #line:f52cc8
+		Mae: CUACN60, PE6RTA. #line:1e977d
+        Mae: o_o :| #line:c3033d
+		<<lookNearest Gregg>>
+		<<lookNearest Mae>>
+	<<elseif $you_dont_like is 1>>
+        Mae: =_= #line:752b93
+		Mae: AFX. #line:2bcd2d
+		Angus: UP06VEMJ1? #line:1b0e50
+		Mae: NH0FDA R DYMA%, 4T0 UP0CT0 HE V%6V% V%DEL. #line:59f143
+		Gregg: DA, 4EV, HAXEP NX BCEX. #line:0a8bfa
+		Angus: AFA, HAXEP. #line:6f6770
+		Mae: 60SE, K0MY-T0 YSE DABH0 U0PA 6J1V0 GT0 CDEVATJ. #line:fd6568
+		Gregg: DABH0 HNKT0 HE U0CJ1VAV BECJ MNP K 4EPTY. #line:d90a9d
+		Angus: 4EPT0BCKN BEPH0. #line:8f9c99
+        Mae: o_o :| #line:a83f23
+		<<set $eff_the_world to 1>>
+	<<endif>>
+
+	<<set $gregg_angus += 1>>
+	
+<<elseif $gregg_angus is 1>>
+    Mae: O_o #line:6a83e5
+	Mae: HAP0D, BJ1 4T0-HN6YDJ CVJ1QAVN? #line:5477d9
+	Angus: HAUPNMEP? #line:f7abf4
+	Mae: 4T0-T0 TAM B FVY6NHE VECA... #line:953f6d
+	Gregg: A, HY DA, DB0E C0CYTCR HA KAMHE 3A HAMN. #line:b5931f
+	Mae: NM HEBEPH0 HEV0BK0 6J1TJ Y BCEX HA FVA3AX... #line:0c4a05
+	Gregg: DA KAKAR PA3HNOA, 4T0 KT0-T0 CM0TPNT? #line:c951bb
+	Angus: UPEDU04TNTEVJHEE DEVATJ GT0 HAEDNHE #line:744c0b
+	Gregg: GT0T MNP HE NDEAVEH, AHFYC. #line:a6ead1
+    Mae: o_o #line:c9d912
+	<<set $rock_makeouts to 1>>
+	<<set $gregg_angus += 1>>
+<<elseif $gregg_angus is 2>>
+	Mae: 0HN TAM, U0X0SE, 0T DYQN PE3BRTCR. #line:6ab81c
+	Gregg: GT0 YS T00004H0. #line:fb8558
+	Mae: BJ1 CAMN, PE6RT, HE X0TNTE... HY TAM... YEDNHNTJCR? #line:dce1ad
+	Gregg: HET YS! #line:005871
+	Angus: 3A4EM GT0? #line:6dd4aa
+	Gregg: T0 HEUPNCT0LHJ1E TNUJ1. #line:1f61e2
+	Angus: A MJ1 - DSEHTVJMEHJ1. #line:094689
+	<<set $gregg_angus += 1>>
+<<elseif $gregg_angus is 3>>
+    Mae: =_= #line:455855
+	Mae: HA4NHA% 0WYWATJ GTN DBA UNBA. #line:8a55cf
+	Angus: MDA. 06J14H0 R U04TN HE UJ%. #line:fc2788
+	Mae: D0 GT0F0 UP060BAVA UNB0 BCEF0 PA3. #line:5616cb
+	Gregg: XA XA XA, AFA, N TYT SE BJ1UV%HYVA. #line:46138d
+	Angus: MGL, ECVN TJ1 HE UJ%WAR, 6YDJ U00CT0P0SHEE. #line:4438a6
+	Mae: DA TJ1 4E, H0PM BCE. #line:67ff3b
+	Angus: VADH0, MJ1 UP0CVEDNM 3A T060L. #line:2c1ce4
+	Gregg: KAK RCTPE6J1 3A D06J14EL. #line:086fee
+	Angus: RCTPE6J1-HACEDKN. #line:662a17
+    Mae: :) #line:3ea21a
+	Mae: CUACN60, PE6RT. #line:3c9e9c
+    Mae: o_o :| #line:16c6f1
+	<<set $chaperone_hawks to 1>>
+	<<set $gregg_angus += 1>>
+<<elseif $gregg_angus is 4>>
+	Gregg: AFA, 0HN BCE EWE C0CYTCR. #line:2bcddd
+	<<set $gregg_done to 1>>
+	<<set $angus_done to 1>>
+<<endif>>
+
+===
+title: GreggAngus_BP2
+tags: 
+colorID: 0
+position: -7184,1435
+---
+<<if $gregg_angus is 0>>
+	<<if $porn_log is 1 and $rock_makeouts is 1>>
+        Mae: =_= :) #line:26f4ab
+		Mae: GL, FPEFFFFF! #line:a4cfb6
+		Gregg: BAY, 4YBNX. #line:d11a3d
+		Angus: TJ1 B U0PRDKE, MGL? #line:405308
+		Mae: KAK DYMAEQJ, TE, KT0 TAM C0CYTCR #line:b0c628
+		Mae: HA KAMHE #line:2c466d
+		Mae: DEVA%T GT0 TAM UYQT0 #line:b7fa7f
+		Mae: TAM VESNT APXNB U0PH0? #line:30e54b
+		Gregg: 0 4EPT, T04HRK, TAK N ECTJ. #line:55f20b
+		Angus: 4T0 VESNT? #line:18059f
+		<<lookAt Gregg Angus>>
+		Gregg: HY, GT0 TAK0L APXNB #line:190adb
+		<<lookAt Gregg Mae>>
+		Mae: B K0T0PJ1L HAQN UPEDKN #line:4e41f7
+		Mae: C06NPAVN CB0E U0000PH0 #line:54be6a
+		<<lookAt Gregg Angus>>
+		Angus: K0FDA GT0 6J1V0? #line:584b21
+		Angus: B0 BPEMEHA B0LHJ1 3A HE3ABNCNM0CTJ? #line:79a63b
+		Angus: KASETCR, FDE-T0 3DECJ 6J1V0 CTAP0E KVAD6NWE C TEX BPEMEH... #line:4eeb7f
+		<<lookAt Gregg Mae>>
+		Mae: GTN VECA U0VHJ1 DPEBHNX UPN3PAK0B, U0PH0-APXNB0B, N C0CYWNXCR V%DEL!!! #line:1ab5df
+	    Mae: o_o :| #line:ec1c99
+		<<lookNearest Gregg>>
+    <<else>>
+        Mae: =_= :) #line:eb2a18
+		Mae: GL, FPEFFFFF! #line:6620e6
+		Gregg: 0F0, 4YBNXA. TJ1 B U0PRDKE? #line:b80d12
+		Mae: GL, FPEFF, A TJ1 3HAV, #line:4eb4ce
+		Mae: QT0 TJ1 N AHFNNN #line:937511
+		Mae: ... #line:522857
+		Angus: "AHFNNN"? #line:247058
+		Mae: 06A MNVAAAQQKN!!! #line:103f33
+		Gregg: R 3HAV GT0, 4YBNXA. #line:8facb8
+		Mae: \o/ #line:692289
+        Mae: 3AME4-4ATEVJH0. #line:ad2330
+        Mae: o_o :| _o_ #line:a61fed
+	<<endif>>
+	<<set $gregg_angus += 1>>
+<<elseif $gregg_angus is 1>>
+	<<if $dad_knows_angus is 1>>
+        Mae: =_= :) #line:8aafa0
+		Mae: GL, AHFNNNN... M0L UAUAQA 3HAET TB0EF0 UAUAQY! #line:37ad6f
+		Mae: 0HN PPPA60TAVN BMECTE EWE B 80-X. #line:9023e0
+		Angus: 0KEL. #line:9e0b35
+		Mae: 0H 3ABNCAV B 6APE C TB0NM UAU04444K0L. #line:43c371
+		Gregg: 4YBNX. #line:56b5a1
+		Gregg: HNK0FDA 60VJQE HE F0B0PN "UAU04KA"! #line:0bc76f
+		<<if $stop_saying_daddy is 1>>
+			Gregg: F0B0PNQJ "UAU04KA"! #line:c00569
+			Gregg: MYDAK NFPAET UECH% 0 4JEM-T0 "UAU04KE"! #line:bd0e82
+			Gregg: HN4EF0 HE M0FY U0DEVATJ! #line:f31b75
+            Gregg: M0R K0SA CU0V3AET C0 CKEVETA! #line:514c0a
+		<<endif>>
+		Mae: UCCC! #line:14730a
+		Angus: 4T0? #line:3463c3
+		Mae: M0L UAUA UEPECTAV UNTJ, UYQT0 #line:e421e9
+		Mae: CTAV 0UACEH DVR MEHR N M0EL MAMJ1. #line:3d0bef
+		Mae: XA XA XA XA XA XA XA XA!!! #line:f7d196
+		Gregg: GMM. #line:ef7a3b
+		Angus: TAK, MGL, VY4QE TE6E 60VJQE HE UNTJ. #line:0fb41a
+		Angus: HNK0FDA. #line:b276a8
+        Mae: o_o :| _o_ #line:b9846f
+		<<set $gregg_angus += 1>>
+	<<else>>
+		<<set $gregg_angus += 1>>
+		[[GreggAngus_BP2]]
+	<<endif>>
+<<elseif $gregg_angus is 2>>
+	Angus: VADH0, MGL, R HEMH0F0 6ECU0K0%CJ 3A TE6R. #line:4b7438
+	<<if $chaperone_hawks is 1>>
+		Gregg: MJ1 3ABAVNVN MNCCN% C RCTPE6AMN-HACEDKAMN. #line:528581
+		Angus: HN4EF0, KV0UNK. #line:517484
+        Mae: :) #line:b0a60a
+		Mae: 0000YY. R N 3A6J1VA, 4T0 TJ1 30BEQJ EF0 KV0UNK0M. #line:73c0ca
+		<<set $knows_gregg_is_bug to 1>>
+		Gregg: ... #line:d83fdc
+        Angus: ... #line:115aa5
+	<<endif>>
+    Mae: =_= #line:7ef1e6
+	Mae: HY A R XPQ0 UP0B0SY 3DECJ BPEMR, 0KEEEL? #line:1be2b0
+	Angus: FPEFF, TE6E HE KASETCR, 4T0 MGL VY4QE UPNCECTJ? #line:a086f5
+	Gregg: DA, 4YBNX. TE6E VY4QE UPNCECTJ. #line:9c99b4
+    Mae: o_o :| _o_ #line:4ed7f6
+    <<set $should_sit_log to 1>>
+	<<set $gregg_angus += 1>>
+<<elseif $gregg_angus is 3>>
+	Gregg: MGL, CRDJ Y K0CTPA N PACCVA6JCR, VADH0? #line:83c21b
+    Mae: o_o :| _o_ #line:afd21d
+    <<set $should_sit_log to 1>>
+	<<set $gregg_done to 1>>
+	<<set $angus_done to 1>>
+<<endif>>
+
+===
+title: Gregg
+tags: 
+colorID: 0
+position: -7854,873
+---
+[[GreggAngus]]
+===
+title: ColeByFireEnding
+tags: 
+colorID: 0
+position: -6553,1431
+---
+<<cameraLookAt CameraEnd 3>>
+<<wait 6>>
+<<flip Cole -1>>
+<<wait 1>>
+<<walk Cole ColeByFire wait>>
+Cole: GL, MGL. #line:8d55fe
+Mae: =_= #line:e15d6c
+Mae: XGL, KYYYYVN0. #line:be1e17
+Cole: 0F0. HE CVJ1QAV GT0F0 YSE BE4H0CTJ. #line:b6b335
+Mae: UP0SV0 BCEF0 TPN F0DA! #line:1487b0
+Mae: HE TAK YSSS DABH0 GT0 6J1V0! #line:22f099
+Cole: ...4T0 S, PAD 6J1V YBNDETJ TE6R. #line:432410
+Cole: R 3DECJ BCEF0 HA UAPY DHEL N... #line:5ab076
+Mae: 3ABAVN YSE. #line:2f0e17
+Cole: 4T0? #line:f80ea3
+Mae: o_o #line:14d4dc
+<<if $no_smooches is 1>>
+	Mae: MJ1 DAS HNK0FDA HE OEV0BAVNCJ! #line:a39a08
+	Cole: PA3BE? #line:1a510a
+	Mae: HET! 6E3YCUEQH0! #line:af5327
+	Cole: GM... N3BNHN? #line:151c68
+	Mae: DA MHE HACPATJ! #line:2c9ec2
+<<endif>>
+<<if $whatever_god is 1>>
+	Mae: R TNUA TAK B0VH0BAVACJ, 4T0 TJ1 3DECJ 6YDEQJ. #line:20c4f7
+	Cole: 0Y. #line:7ff89e
+	Mae: R M0VNVACJ XEP3HAETK0MY!!! #line:b6abe0
+	Cole: 4T0? #line:f39ec1
+	Mae: HADERVACJ, KT0-HN6YDJ YCVJ1QNT! #line:5aabb4
+	Mae: H0 HET! #line:382a1f
+	Mae: N TJ1 BCE SE UPNQEV! #line:e638ea
+<<endif>>
+<<if $not_cute_ones is 1>>
+	Mae: DEB40HKA N3 BNDE0-MAFA3NHA TAKAR TNUA #line:df7dd5
+	Mae: YY-YY! CNMUATN4HJ1E UAPHN!!! #line:2a4a6a
+	Mae: A TJ1 CNMUATN4HJ1L, K0YV #line:6b8394
+    Cole: 0X! CUACN60 MGL, R... #line:455afc
+	Mae: A R HEHABNSY BCEX CNMUATN4HJ1X!!! #line:8cd589
+	Mae: CNMUATN4HJ1E - 0MEP3NTEVJHJ1!!! #line:a422b8
+<<endif>>
+Cole: VADH0, R, U0SAVYL, U0LDY... #line:1c878c
+<<close>>
+<<playerJump>>
+<<lookAt Mae Cole>>
+<<wait 1>>
+<<lookOut Mae>>
+Mae: o_o #line:5681c0
+<<dilate Mae .75 .25>>
+Mae: N LA HE BNH0BATA, Q0 HECY BCRKY% 4YQJ! #line:027414
+<<flip Bea -1>>
+<<clearBGChatPartner Bea>>
+<<walk Bea BeaByFire>>
+<<walk Gregg GreggByFire>>
+<<walk Angus AngusByFire>>
+<<set $nightmare_eyes to 1>>
+<<fadeOutAmbientSFX AmbientSFX:DoucheBagGuitar 1>>
+<<fadeOutAmbientSFX AmbientSFX:Walla 1>>
+<<wait 1>>
+<<setAnimInt DoucheBag state 0>>
+<<if $nightmare_eyes>>
+    Mae: M0N FVA3A VEDRHRT DYQY!!!! O_O #line:90b0ef
+    Mae: N UCVEDHNLA, QT TJ1 YBNDQJ - M0N FVA3NWA 3A TB0NM 0KH0M o_o #line:8491a5
+    Mae: N T0FDA R UPHY TE6R H0S0M! :) \o/ #line:56cbea
+    Mae: UJ1PHY UJ1PHY UJ1PHYYYYYYY!!!! :| /o\ #line:5bae82
+    Mae: 6YM! MEPTB! _o_ #line:39b37e
+    Mae: A K0FDA UPNDYT K0UJ1, BJ1 BCE TAKNE #line:38c706
+    Mae: {width=4}[color=aaa][shake=.01][wave]K 0 Q M A P H J1 E F V A 3 A.[/all] #line:fb2c69
+    Gregg: 0UA H0BAR KVN4KA! #line:8f860e
+<<elseif $dog_bite_dead>>
+    Mae: TJ1 6J1 BNDEV UCA, YKYCNBQEF0 MEHR 3A YX0. \o/ #line:76605e
+    Cole: 4T0? #line:f0c3c2
+    Mae: DA, 0H BOEUNVCR N HE 0TUYCKAV! #line:23776a
+    Mae: N 0H TNUA TAK0L PPPPPPPPPPPPPP #line:5965e0
+    Mae: N R U0DYMAVA, 4T0 CD0XHY!!! #line:9bd12e
+    Mae: H0 R B3RVA DY6NHY! #line:d026c1
+    Mae: N 0TMYD0XAVA EF0 U0 S0UE! #line:bdeed1
+    Mae: N R CDEVA% GT0 C KASDJ1M!!!! #line:62077d
+    Mae: _o_ #line:69d57d
+<<endif>>
+Mae: HE CMEL QYTNTJ C MGL, DETKA! #line:ef43ee
+<<if $eff_the_world>>
+	Gregg: U0QVN BCE HAXEP! #line:7fc1fe
+<<endif>>
+Bea: TAK BCE, MGL, TJ1 YSE YFP0SAEQJ V%DRM. #line:1ca115
+<<if $body_posi>>
+	Mae: HE, 6N, R UP0CT0 60DNU03NTNBHA #line:982c15
+	Mae: NDN N UP0FYFVN!!!!	 #line:902359
+<<elseif $eat_everything_i_see>>
+	Mae: R W0 U0DKA4A%CJ N BCEM HADEPY SSSEUJ1! #line:552668
+    Mae: R C0SSSPY BCEX! BCEX, K0F0 YBNSY! #line:552bdf
+<<endif>>
+Bea: MGL, MHE KASETCR TE6E VY4QE... #line:fb2482
+<<if $maes_the_best>>
+	Gregg: HAXEP BCEX! MGL 3E 6ECT! #line:dea041
+	Angus: C0FVACEH! H0, B03M0SH0, TE6E CVEDYET B3RTJ CE6R B PYKN! #line:8c68cb
+    Bea: R 60VJQE HNK0FDA, HNK0F0 N3 BAC, HNKYDA HE U0DBE3Y. #line:a9041c
+<<endif>>
+Mae: HAXEP K0VVEDS! #line:dd959d
+Gregg: DA! #line:b64e86
+Mae: BCEX GTNX MAS0P0B N CEKCN 4EVNK0B #line:b68dbd
+<<dilate Mae 1 .5>>
+<<lookRight Mae>>
+Mae: UNQYT CEKC N 3AHNMA%TCR K0HCUEKTAMN DPYF C DPYF0M! #line:12868a
+Angus: HY, U04TN. #line:a18ce2
+Mae: N GTA TYUAR CTATYR... YKA3J1BA%WAR HA MEHR KASDJ1L DEHJ #line:1260c7
+Mae: B03M0SH0, CTATYR 0CH0BATEVR, #line:12e919
+Mae: :( #line:95bf65
+Mae: H0 GTN Z0PMJ1... #line:58873c
+Mae: R... #line:b96de5
+Mae: :| #line:f2eb43
+<<lookUp Mae>>
+Mae: R - A6C0V%TH0 TPEQ0B0E MVEK0UNTA%WEE! #line:e7fdf1
+Mae: HN4EF0 HNK0FDA HE HAVADNTCR! #line:84cc34
+Mae: 3DECJ Y HAC HNK0FDA HE 6J1V0 QAHC0B #line:2725d1
+Mae: H0 R HE CM0FVA 0TC%DA YEXATJ #line:7d3e62
+Mae: ... #line:69e7f2
+Mae: =_= #line:14b2b4
+<<lookDown Mae>>
+Mae: N B0T R CH0BA D0MA, #line:8cd309
+Mae: N M0FY 3AHNMATJCR 4EM-T0, U0MNM0 T0F0, KAK CUATJ #line:43aca7
+Mae: N UVAKATJ B 0DNH04ECTBE. #line:5a23a8
+Mae: *6YG* #line:ad94c2
+Mae: U0T0MY 4T0 3DECJ Y BCEF0 ECTJ X0TJ KAK0L-T0 CMJ1CV. #line:e3537e
+Mae: 60SE #line:23000b
+Mae: MHE #line:b4deca
+Mae: -_- #line:9cc58e
+Mae: :( #line:39e0ab
+Mae: UP0CT0 #line:6a47ff
+Mae: D0 CMEPTN #line:008d95
+Mae: XPEH0B0 #line:2f6b3d
+<<lookRight Mae>>
+Mae: o_o #line:01a00b
+Mae: :| #line:608a00
+Mae: ECTJ VN B GT0M CMJ1CV? K0YV-N0? #line:5b133d
+Cole: MGL, MHE TAK SAVJ. R HE X0TEV PACCTPANBATJ TE6R. #line:ac5e3a
+Cole: R C4NTA%, TJ1 04EHJ KVACCHAR... #line:52284d
+<<lookUp Mae>>
+Mae: R BEPHYVACJ!!!! \o/ :) #line:b1f071
+Gregg: BYYYYY! #line:c011d7
+Mae: YPAAAAAAAA-YYFX :| #line:3a3605
+<<close>>
+<<swapRig Player MaePuke>>
+<<trigger MaePuke Puke>>
+<<wait 5>>
+<<if $ate_tacos>>
+	Mae: TAK0. #line:10f0df
+<<endif>>
+<<set $after_party to 1>>
+<<fadeOutAmbientSFX AmbientSFX 1>>
+<<fadeOutAmbientSFX AmbientSFX:Campfire 1>>
+<<fadeOutAmbientSFX AmbientSFX:Walla 1>>
+<<fadeOut 1>>
+<<wait 1>>
+<<scene BeaCar>>
+===
+title: Log
+tags: 
+colorID: 0
+position: -6553,1064
+---
+<<sit>>
+<<if $should_sit_log is 1>>
+    [[ColeByFireEnding]]
+<<else>>
+    <<waitForInteractOrJump>>
+<<endif>>
+===
+title: TestEnding
+tags: 
+colorID: 0
+position: -6277,1111
+---
+<<close>>
+<<playerJump>>
+<<lookAt Mae Cole>>
+<<wait 2>>
+<<swapRig Player MaePuke>>
+<<trigger MaePuke Puke>>
+<<wait 5>>
+===

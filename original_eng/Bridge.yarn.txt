@@ -1,0 +1,202 @@
+title: JumpSitOnBridge
+tags: 
+colorID: 0
+position: 471,110
+---
+<<extraZoom -2 3>>
+<<waitForRabies>>
+===
+title: Rabies
+tags: 
+colorID: 0
+position: 769,119
+---
+<<setAnimBool Rabies hidden 1>>
+<<warp Rabies RabiesBridge>>
+<<set $saw_rabies_today to 1>>
+<<setAnimBool Rabies dropped 1>>
+<<wait 1.5>>
+
+<<lookAt Mae Rabies>>
+<<if $act is 4 and $day is 3>>
+    Mae: Hey Rabies. #line:cf041b
+    <<wait 1>>
+    Mae: I bet your life is exciting. #line:0cf970
+    Mae: playing with your friends. #line:23964c
+    Mae: i mean you're a champ, you've gotta be popular. #line:49655f
+    Mae: eating garbage. #line:3fae0f
+    Mae: and common pests. #line:4b7129
+    Mae: i feel like #line:8de8b2
+    Mae: i'm just glad the world includes you, dude. #line:5339ca
+    <<wait 2>>
+    Mae: alright. I gotta jet. #line:fe7ded
+    Mae: see ya later, Rabies. #line:0710f3
+    Mae: stay cool, stay alive. #line:371471
+<<elseif $saw_rabies_times is 0>>
+    Mae: whoa! #line:05410b
+    Mae: hey rabies!!! #line:23c9f2
+    Mae: who's a good little trash king??? #line:62d7d5
+    Mae: it's you. #line:0d21eb
+    Mae: so tell me, rabies. #line:46a33b
+    Mae: what do you make of this ghost stuff? #line:ba9188
+    Mae: it sure is something, eh? #line:58017a
+    <<wait 2>>
+    Mae: oh yes. good point. #line:44211a
+    Mae: i guess I don't entirely know what to think #line:47c9d1
+    Mae: i like *feel* it, though? #line:bcf79e
+    Mae: wish everyone just believed me. #line:cb5ff2
+    <<wait 2>>
+    Mae: thank you, rabies. your support means a lot. #line:175d19
+    Mae: you're a good-ass possum, rabies. #line:cd9137
+    Mae: alright, I'm off! #line:731826
+    Mae: stay safe! eat some trash! #line:cdfab2
+    Mae: and common pests! #line:4f369f
+    <<set $saw_rabies_times += 1>>
+
+<<elseif $saw_rabies_times is 1>>
+    Mae: hey Rabies. #line:04f76d
+    Mae: how's life? #line:cfe24d
+    <<wait 2>>
+    Mae: that's good to hear. #line:11a5c2
+    <<wait 2>>
+    Mae: back in school we had to write this thing #line:4412c5
+    Mae: Like, if you could be anywhere in… uh… 15 years, where would you be? #line:7afba6
+    Mae: and it was an easy assignment #line:c31be5
+    Mae: because i drew it when i was 15 #line:dfb884
+    Mae: and it hasn’t changed #line:cbaf0c
+    Mae: except it was 20 years then #line:8fa5df
+    <<wait 2>>
+    Mae: i’m on a farm. Or something like that. #line:10ed8a
+    Mae: but not with like animals or crops or something #line:1bf751
+    Mae: maybe corn? I like corn fields #line:269566
+    Mae: maybe here, maybe in like Idaho or something #line:fde01c
+    Mae: and we’re there- she’s there- in the drawing she’s a she #line:4a7e66
+    Mae: and we’re married, or no… like, whatever they do in Idaho #line:4a83e4
+    Mae: my teacher wrote "i think they just get married" #line:b00f7d
+    Mae: but no like i mean out on the frontier #line:30ac35
+    Mae: you just stay with someone long enough that it’s a thing. #line:006e93
+    Mae: whatever. I can call it what i want.  #line:108793
+    Mae: anyway, we go out and wander around and do work together #line:7914cf
+    Mae: and we come home and we’re all gross #line:8a4d0e
+    Mae: and your face feels like it does when it’s been windy all day #line:606797
+    Mae: it’s cold out #line:ed1258
+    Mae: and we order pizza #line:aeb6c1
+    Mae: my teacher was like "on a farm? in idaho?" #line:feb60f
+    Mae: yeah there’s a town nearby in this drawing #line:5c5176
+    <<wait 1>>
+    Mae: it was a big drawing. #line:429eac
+    <<wait 1>>
+    Mae: and we eat pizza and I’m playing a video game #line:51ea97
+    Mae: and she’s making something #line:03a429
+    Mae: like she does woodworking or she’s a blacksmith or something #line:f59c57
+    Mae: so she has really rough hands #line:560515
+    Mae: Teacher was like "She’s doing woodworking and-or blacksmithing in the living room?" #line:d64d38
+    Mae: and she has boots but like #line:71b35c
+    Mae: mine are muddy #line:fc3a8a
+    Mae: but hers are all scuffed up from work #line:88f145
+    Mae: from the wood. Or the fire. Or something. #line:83577c
+    Mae: and we have 2 big burly cats from a barn #line:ecd82a
+    Mae: and a dog #line:c2fe2e
+    Mae: and we all howl at the moon together #line:bc18cb
+    <<wait 2>>
+    Mae: parts of it I’ve wanted since I was a kid #line:422526
+    Mae: the cats and the dog at least #line:44116d
+    Mae: no children #line:9728c8
+    Mae: no children #line:7d7c0b
+    Mae: no children #line:35b5b0
+    <<wait 2>>
+    Mae: how about you, rabies? #line:9e9a36
+    Mae: does rabies want babies? #line:316c14
+    Mae: do you have big plans? #line:4640fe
+    <<wait 2>>
+    Mae: mmm. too true, rabies. too true. #line:fd4b6b
+    Mae: alright, i'm off! #line:7273b9
+    Mae: thanks for saying hello! #line:1b5074
+    Mae: see ya around! be safe and eat trash! #line:e6b0e3
+    Mae: and common pests! #line:cd22a4
+    <<set $saw_rabies_times += 1>>
+
+<<endif>>
+
+<<wait 1>>
+<<setAnimBool Rabies dropped 0>>
+<<lookNearest Mae>>
+<<wait 1.5>>
+<<unlockAchievement RABIES!>>
+<<unlockDoodle Rabies1>>
+// note there is a matching extraZoom in the waitForRabies code
+<<extraZoom 0 3>>
+<<setSortingLayerName Player>>
+===
+title: FrontOfFarm.1
+tags: 
+colorID: 4
+position: 527,480
+---
+Mae: Farming. #line:629093
+Mae: I could farm. #line:54e5e3
+Mae: If I stay in town long enough #line:c4e990
+Mae: I could see getting into the farm life. #line:a48fd5
+===
+title: FrontOfFarm.2
+tags: 
+colorID: 4
+position: 794,474
+---
+Mae: the problem with farms #line:e2cff4
+Mae: is the amount of poop. #line:62ef01
+Mae: like even if you don't have animals. #line:455cb6
+Mae: you actually buy poop or something #line:1eaa2f
+Mae: and shovel it all over the place. #line:807d38
+Mae: it's madness. #line:8dcded
+Mae: it's poop madness. #line:c80ae3
+<<end>>
+===
+title: NearSignAct3.1
+tags: 
+colorID: 4
+position: 515,774
+---
+Mae: After this, a few miles and you go under the highway #line:9a0987
+Mae: and it's just rolling fields and farms. #line:bae875
+Mae: I missed the corn mazes this fall. #line:45aa19
+Mae: And the haunted barn in Briddle. #line:b4e20a
+Mae: always next year. #line:01a591
+Mae: for campfires and corndogs. #line:c18d20
+===
+title: NearSignAct3.2
+tags: 
+colorID: 4
+position: 787,782
+---
+Mae: weird that town ends like #line:c72c68
+Mae: *BAM!* #line:c33753
+Mae: right here. #line:6dae07
+Mae: there's like a line #line:4455c8
+Mae: somewhere #line:ce626c
+Mae: that no one can see. #line:350361
+Mae: but you can put it on a map. #line:f32445
+<<end>>
+===
+title: NearSignA4D3.1
+tags: 
+colorID: 6
+position: 519,1028
+---
+Mae: wonder if we'll ever be a big booming town again. #line:e2eb8c
+Mae: those guys last night were like #line:b75ca7
+Mae: deluded. #line:101c8a
+Mae: but it'd be really nice. #line:cd49fa
+Mae: if there was a god #line:161077
+Mae: i might ask. #line:455341
+Mae: but i think they'd have to fight the other gods #line:df76de
+Mae: that bled this place nearly to death. #line:e853b4
+Mae: i'm like #line:0eeb74
+Mae: proud of us all #line:88e271
+Mae: for having good-ass lives #line:73bca4
+Mae: in a shitty, stupid, good-ass town. #line:1ccd78
+<<wait 2>>
+Mae: here's to you, Possum Springs. #line:3750fa
+Mae: here's to survival. #line:e46170
+<<end>>
+===

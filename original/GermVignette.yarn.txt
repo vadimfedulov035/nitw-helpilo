@@ -1,0 +1,22 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 4383,6216
+---
+<<playMusic laptop_vignettes 10>>
+<<cameraLookAt CameraLocator 0>>
+<<extraZoom -4 10>>
+<<fadeIn 1 wait>>
+MaeLaptop: DSEPM, 4YBAK. #line:6f8f4a
+MaeLaptop: DSEPM, TJ1 DASE HE U0VJ3YEQJCR MECCEHDSEPAMN. #line:37d890
+MaeLaptop: R DYMA%, R 6J1 U0CT0RHH0 UNCAVA TE6E, ECVN 6J1 0HN Y TE6R 6J1VN. #line:18734c
+<<if $did_germ_friendship_quest_3>>
+	MaeLaptop: DYMA%, TJ1 EDNHCTBEHHJ1L, KT0 BJ1FVRDNT 3ACTPRBWNM 3DECJ, HESEVN KT0-VN60 DPYF0L, #line:15ab64
+	MaeLaptop: H0 UPN GT0M TJ1 MEHEE BCEX HAX0DNQJCR B V0BYQKE. #line:e315c5
+    MaeLaptop: GT0 UP0CT0 0UYUEHH0, 4YBAK. #line:0f3f3b
+<<endif>>
+<<set $laptop_vignettes to 1>>
+<<fadeOut 1 wait>>
+<<overrideLoadingScreenType Blank>>
+<<scene Laptop>>
+===

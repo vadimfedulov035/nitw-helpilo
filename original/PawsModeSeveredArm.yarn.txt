@@ -1,0 +1,42 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 370,-88
+---
+<<set $diner to 2>>
+Angus: MGL, TJ1 TNUA NCU0PTNQJ BEWD0K. #line:8c8b8e
+Bea: YX. R HA4NHA% 6ECU0K0NTJCR, #line:3fce88
+Bea: KAK 6J1 MEHR HE PAC4VEHNVN U0 D0P0FE D0M0L. #line:0c52ae
+Gregg: TNX0. R X04Y U0CM0TPETJ. #line:85ddcc
+Bea: TE6E HE HYSHJ1 YQN, 4T06J1 CM0TPETJ. #line:d34221
+Gregg: TC-C-C-C-C! #line:90a17a
+===
+title: CopsArrive
+tags: 
+colorID: 0
+position: 750,239
+---
+<<fadeOutMusic 1>>
+Molly: 4T0 3DECJ UP0NCX0DNT?! #line:845fbc
+Gregg: [shake=.05]0-0Y![/shake] #line:f70f21
+<<fadeOut 1>>
+<<wait 1>>
+<<scene TowneCentreWest>>
+===
+title: FindTattoo
+tags: 
+colorID: 0
+position: 367,205
+---
+Mae: 0F0! 4T0 GT0? #line:86b1f0
+Gregg: 4T0-T0 TNUA METKN. #line:183fa7
+Mae: 4T0? #line:861f10
+Bea: GT0 TATYNP0BKA? #line:404896
+Angus: GT0 TATYNP0BKA. #line:063055
+Mae: 4T0 GT0? #line:debdb4
+Gregg: R DYMA%, TJ1 HAQVA YVNKY. #line:30980d
+Bea: 0, 3ABAVNTECJ, BJ1 DB0E. #line:e620bd
+Angus: C%DA NDYT K0UJ1. #line:a8481c
+<<set $found_tattoo to 1>>
+[[CopsArrive]]
+===

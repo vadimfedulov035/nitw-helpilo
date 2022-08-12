@@ -1,0 +1,180 @@
+title: EnterLevel
+tags: 
+colorID: 4
+position: -280,131
+---
+<<flip Angus -1>>
+<<playerFace -1>>
+<<setCanInteract Angus 0>>
+<<set $angus_investigation_quest to 1>>
+<<fadeOutMusic 3>>
+Angus: Nice evening. #line:e1a015
+Mae: Yeah, it’s alright. #line:3fb899
+Angus: My mom used to take us up here to play frisbee. #line:649069
+Mae: I got hit in the teeth with a frisbee once. full speed. #line:3c7723
+Angus: geez. #line:6c5edd
+Mae: Casey and me were throwing things at each other's heads. #line:4723e3
+Angus: oh. #line:bf2c46
+Mae: we stopped after the frisbee. #line:99e0dd
+<<playMusic angus_climbs_the_hill 3>>
+[[Move1]]
+===
+title: Move1
+tags: 
+colorID: 4
+position: -278,379
+---
+<<walk Angus AngusSign>>
+===
+title: AngusSign
+tags: 
+colorID: 4
+position: 16,200
+---
+Angus: POSTED - #line:4f9ccc
+Angus: DO NOT FEED #line:2ebf30
+Angus: OR TOUCH #line:040e10
+Angus: THE WILDLIFE. #line:489796
+    ->well, that seems extreme #line:970fae
+        Angus: I dunno. #line:ee6c94
+        Angus: you can't go to the woods to like #line:6354df
+        Angus: socialize #line:f7a8f5
+        Angus: with the woods. #line:e7b393
+        Mae: i guess. #line:928149
+    ->well, clearly #line:ac9f5f
+Angus: there's some folks living in cabins up here #line:4d67bb
+Angus: you can... uh... feed and touch them if you want. #line:ac418b
+Mae: ... #line:4c4466
+Mae: it's a weird, old place up here #line:6ea760
+Angus: there's all kinda of weird stuff back up in the park #line:97c4c5
+Angus: old stuff just hanging out in the woods #line:b9ee84
+Angus: we'll hit my old scout camp on the way up i think #line:778cfe
+Mae: busy woods #line:4f2096
+Angus: ok, better get going before it gets dark. #line:136ab1
+<<walk Angus AngusPillar1>>
+===
+title: AngusPillar1
+tags: 
+colorID: 4
+position: 279,194
+---
+Angus: *puff puff* #line:683a65
+Mae: you alright? #line:4dcaab
+Angus: yeah, i got asthma is all. #line:5ab150
+Angus: sorry you gotta wait for me. #line:bdba73
+    ->do you have an inhaler? #line:91eca1
+        Angus: yeah, but i save that for emergencies. #line:03b0d5
+        Angus: being slow isn't an emergency. #line:8dbd94
+    ->didn't you run cross country back in junior high? #line:c3e1e2
+        Angus: yeah but i never finished a race. #line:c67951
+        Mae: why'd you keep doing it? #line:22e42e
+        Angus: i have no idea. #line:42ea66
+Mae: what is this thing? #line:c4cf96
+Angus: this is like #line:72707b
+Angus: a lime kiln i think? #line:73ff32
+    ->limes? #line:eb53e0
+    ->kiln? #line:269e15
+        Angus: like a furnace. #line:e62ff2
+        Mae: oh. furnace for what? #line:ae111a
+Angus: limestone #line:137205
+Angus: you like do something with it in there #line:be79a0
+Angus: and it becomes this other thing. #line:712943
+Mae: oh. #line:e110d7
+Angus: limestone's weird because #line:34a234
+Angus: it's mostly made of skeletons of sea creatures #line:c10413
+Angus: from millions of years ago #line:c792e7
+Angus: so like #line:bacd2c
+Angus: this was all underwater or something at one point. #line:e4f6e3
+    ->whoa #line:955baf
+        Angus: i know, right? #line:cccba4
+    ->no way #line:d11138
+        Angus: i mean, rocks don't lie #line:82889f
+Angus: like right where we're standing #line:f4d1de
+Angus: there were like ancient horrible sea monsters #line:f8034c
+Mae: creepy. and awesome. #line:abc195
+Angus: thaaaaaaat's history! #line:31a677
+Angus: ok, I'm ready to go. #line:01d220
+<<walk Angus AngusPillar2>>
+===
+title: AngusPillar2
+tags: 
+colorID: 4
+position: 525,205
+---
+Angus: *puff puff* #line:d40ddf
+Angus: Phew. #line:46539d
+Mae: Need to take a break? #line:b6aaf5
+Angus: I'm okay, I'm okay. #line:d32dcb
+Mae: no prob. #line:a8ee8a
+Angus: *huff huff* #line:60af00
+Mae: so if this place was underwater #line:9cdb8e
+    ->where'd the water go? #line:d4c4c7
+        Angus: i dunno. to the ocean i guess. #line:cdb1b3
+        Angus: and like the earth is always shifting #line:daf740
+        Angus: so mountains get all pushed up #line:384259
+        Angus: where it used to be just flat ground. #line:60f085
+    ->why aren't there like ancient shark bones up here? #line:a4c92c
+        Angus: i dunno. there might be i guess. #line:48094a
+        Angus: but not everything becomes a fossil #line:b194d2
+        Mae: why? #line:0bdd69
+        Angus: i dunno. i'm not an expert on any of this. #line:641af8
+        Angus: but there were definitely ancient sharks around here. #line:90a6f5
+Mae: weird because things are so boring nowadays #line:a2416e
+Mae: to think like all that crazy stuff was going on here. #line:87298e
+Angus: there's always more weird stuff that happened #line:192876
+Angus: to find out about later. #line:99ad3d
+Angus: ok, i'm ready to go. #line:f6278c
+Mae: cool cool. #line:d71f75
+<<setSpriteLayer Angus BG3>>
+<<walk Angus AngusPillar3>>
+===
+title: AngusPillar3
+tags: 
+colorID: 4
+position: 794,227
+---
+Angus: *puff puff puff* #line:deeafe
+Angus: *wheeze* #line:6e5525
+Mae: are you sure you're ok? #line:bcac5b
+Angus: yeah... *huff* #line:f9adac
+Angus: ...sorry... *puff puff* #line:a05b8f
+Mae: seriously, it's fine. #line:4e1887
+Mae: hang for a minute. #line:cccc49
+Angus: ok. #line:c6aee6
+Mae: i should know all this stuff about like #line:4258ba
+Mae: ancient sea creature rock or whatever #line:e981bf
+Angus: lime... *puff*... stone... #line:529035
+Mae: i was gonna take a class on dinosaurs back at school. #line:9fdc54
+Angus: what happened? #line:f76625
+Mae: it was all full up! #line:404439
+Mae: that class fills up fast. #line:158b16
+Angus: i bet. #line:107a43
+    ->i love dinosaurs #line:443549
+        Angus: who doesn't? #line:1c3ae6
+    ->dinosaurs are like the most interesting animals #line:5fdd6d
+        Angus: you knew they had feathers? #line:f9e133
+        Angus: or some of them? #line:dfd5ec
+        Mae: i know, right? #line:acb48a
+        Mae: big freaky chickens. #line:346b29
+Mae: things were so scary and cool back then. #line:8907ee
+Mae: we'd die in like 5 minutes ha ha #line:1b36d1
+Angus: oh yeah ancient creatures would eat us, no problem. #line:76ab35
+Angus: be glad for the millions of years between us #line:90b6e6
+Mae: weird. #line:675c56
+Mae: time, dude. #line:098026
+Angus: time makes most dangerous things less dangerous. #line:aa7ce9
+Angus: most things, at least. #line:e8a9a9
+Mae: ok, you ready to roll? #line:3a60a2
+Angus: yeah, we're almost to the top. #line:502c11
+<<hide Collision:LeftTop>>
+<<set $interaction_park_entrance_should_go_back_done to 1>>
+<<walk Angus AngusOffLeft>>
+===
+title: ShouldGoBack
+tags: temp
+colorID: 4
+position: 149,488
+---
+Mae: Hmm... I should go back for Angus. #line:df8b7f
+Mae: he'd go back to me. #line:f442cd
+===

@@ -1,0 +1,157 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 523,187
+---
+<<irisIn 1 wait>>
+FortuneTeller: 0CMEVNQJCR VN TJ1 BPAWATJ K0VEC0 CYDJ6J1? #line:57fa07
+Mae: N 4T0 6YDET? #line:ac3b62
+FortuneTeller: HNKT0 HE M0SET 06JRCHNTJ CNVY K0VECA #line:f23d9c
+FortuneTeller: GT0 HEU03HABAEMJ1L KPYF0B0L UP0PNOATEVJ. #line:4359fb
+Mae: 0X EVKN, 0H0 DAET UPEDCKA3AHNR? #line:77baa0
+FortuneTeller: 0H0 UPEDCKASET. #line:d73547
+Mae: VADH0, MHE GT0 HPABNTCR. #line:3f8e23
+<<tell FortuneWheelBrain StartSpin>>
+===
+title: AfterSpin
+tags: 
+colorID: 0
+position: 770,192
+---
+<<if $fortune_wheel_spin_power > 0.8>>
+    FortuneTeller: M0WH0E BPAWEHNE! D0CT0LH0E BPAWEHNE! #line:8e9d5f
+<<elseif $fortune_wheel_spin_power > 0.6>>
+    FortuneTeller: BPAWAL, BPAWAL, BPAWAL. #line:bab4d8
+<<elseif $fortune_wheel_spin_power > 0.3>>
+    FortuneTeller: TB0E BPAWEHNE... CVA60, DNTR M0E. #line:f21655
+    Mae: MHE 20. #line:084cb5
+<<else>>
+    FortuneTeller: TB0R PYKA TPABMNP0BAHA? #line:8cd78e
+    Mae: HEMH0F0 U06AVNBAET B U0CVEDHEE BPEMR. #line:1fa5cf
+    FortuneTeller: M0FY CKA3ATJ. R BNSY BCE. #line:53e7a2
+<<endif>>
+
+<<if $fortune_wheel_index is 1>>
+    FortuneTeller: TB0R YDA4A - GT0 TB0E UPEDCKA3AHNE. #line:6be02d
+    FortuneTeller: MECT0, B K0T0P0M TJ1 CK0P0 0KASEQJCR #line:b03610
+    FortuneTeller: HABEKN. #line:cff2c6
+    Mae: X0P0Q0, C0BUAV0 #line:249f77
+    FortuneTeller: KAPTJ1 F0B0PRT 0 MH0F0M... #line:3655d2
+    FortuneTeller: TJ1 6YDEQJ SNTJ... #line:7d2289
+    Mae: 0, X0P0Q0 #line:7ac14d
+    FortuneTeller: U0KA, YBJ1, HE YMPEQJ. #line:04fb03
+    Mae: 0Y. #line:60f92f
+    Mae: CT0U, GT0 BCE PABH0 6J1 UP0N30QV0! #line:08a6df
+<<elseif $fortune_wheel_index is 2>>
+    FortuneTeller: TB0R YDA4A - GT0 TB0E UPEDCKA3AHNE. #line:e6b06b
+    FortuneTeller: MECT0, B K0T0P0M TJ1 CK0P0 0KASEQJCR #line:3bf6ae
+    FortuneTeller: HABEKN. #line:8e9fa0
+    Mae: X0P0Q0, C0BUAV0 #line:075702
+    FortuneTeller: KAPTJ1 F0B0PRT 0 MH0F0M... #line:ca0ad6
+    FortuneTeller: TJ1 Y3HAEQJ MH0F0 6ED #line:ff4b6c
+    FortuneTeller: D0 K0HOA CB0NX DHEL. #line:c6398e
+    Mae: 0Y. #line:a08c96
+    FortuneTeller: AFACJ. #line:178ba0
+    Mae: MHE KASETCR, Y BCEX TAKAR SN3HJ. #line:3652e9
+    Mae: Y BCEX ECTJ UP06VEMJ1. #line:edb6f9
+    Mae: B 4EM SE 3DECJ UPEDCKA3AHNE? #line:f56fde
+<<elseif $fortune_wheel_index is 3>>
+    FortuneTeller: TB0R YDA4A - GT0 TB0E UPEDCKA3AHNE. #line:dad9b2
+    FortuneTeller: MECT0, B K0T0P0M TJ1 CK0P0 0KASEQJCR #line:0e8848
+    FortuneTeller: HABEKN. #line:e951ec
+    Mae: X0P0Q0, C0BUAV0 #line:d00619
+    FortuneTeller: KAPTJ1 F0B0PRT 0 MH0F0M... #line:a53b81
+    FortuneTeller: ECTJ 4T0-T0, 4T0 TJ1 X04EQJ. #line:feb1d6
+    FortuneTeller: N TJ1 06PETEQJ GT0. #line:667435
+    FortuneTeller: N BCE SE, 0CTAHETCR 4T0-T0 EWE, 4EF0 TJ1 SEVAEQJ. #line:79855c
+    FortuneTeller: N GT0 BCEFDA 6YDET YCK0VJ3ATJ 0T TE6R. #line:d461f5
+    Mae: 0, DA VADH0. #line:eb60ca
+    Mae: GT0 HE UPEDCKA3AHNE. #line:edf5ce
+    Mae: SN3HJ TAK YCTP0EHA, NVN TNUA T0F0. #line:1b7e48
+<<elseif $fortune_wheel_index is 4>>
+    FortuneTeller: TB0R YDA4A - GT0 TB0E UPEDCKA3AHNE. #line:c7dedd
+    FortuneTeller: MECT0, B K0T0P0M TJ1 CK0P0 0KASEQJCR #line:265f0b
+    FortuneTeller: HABEKN. #line:6bfdfa
+    Mae: X0P0Q0, C0BUAV0 #line:fab3d8
+    FortuneTeller: KAPTJ1 F0B0PRT 0 MH0F0M... #line:4d14ac
+    FortuneTeller: B TB0EL SN3HN ECTJ TE, KT0 SEVAET TE6E BPEDA. #line:9c4084
+    FortuneTeller: H0 N TE, KT0 6YDET 3AWNWATJ TE6R. #line:9a0d78
+    FortuneTeller: TJ1 Y3HAEQJ NX, H0 B CB0E BPEMR. #line:52ff04
+    Mae: ... #line:4b4232
+    Mae: 3HA4NT, ECTJ KPYTJ1E V%DN, A ECTJ UPNDYPKN? #line:e996bd
+    FortuneTeller: CVEDN 3A R3J1K0M! #line:5ca98f
+    Mae: N3BNHNTE. GT0 UP0CT0 CVY4ALHJ1L ZAKT 0 SN3HN. #line:3bc3f2
+<<elseif $fortune_wheel_index is 5>>
+    FortuneTeller: TB0R YDA4A - GT0 TB0E UPEDCKA3AHNE. #line:4895a6
+    FortuneTeller: MECT0, B K0T0P0M TJ1 CK0P0 0KASEQJCR #line:383720
+    FortuneTeller: HABEKN.#line:c49289
+    Mae: X0P0Q0, C0BUAV0 #line:bb696b
+    FortuneTeller: KAPTJ1 F0B0PRT 0 MH0F0M... #line:2bdcc7
+    FortuneTeller: TJ1 YBNDNQJ MH0F0 BCEF0. #line:67c01f
+    FortuneTeller: ECTJ BPEMR, K0FDA HYSH0 6ESATJ, #line:754bed
+    FortuneTeller: N BPEMR, 4T06J1 CT0RTJ HA CB0EM. #line:e952e6
+    FortuneTeller: A NH0FDA, TJ1 6YDEQJ 4T0-T0 Y3HABATJ, T0VJK0 3ADHNM 4NCV0M. #line:6630a9
+    <<wait 2>>
+    Mae: N GT0 BCE? GT0 HE MNCTN4ECKN! #line:76704f
+    Mae: GT0 KAK... UE4EHJKN C UPEDCKA3AHNRMN! #line:d55c5d
+<<elseif $fortune_wheel_index is 6>>
+    FortuneTeller: TB0R YDA4A - GT0 TB0E UPEDCKA3AHNE. #line:c16a7e
+    FortuneTeller: MECT0, B K0T0P0M TJ1 CK0P0 0KASEQJCR #line:3b4d8b
+    FortuneTeller: HABCEFDA. #line:664fb9
+    Mae: X0P0Q0, C0BUAV0 #line:d7e708
+    FortuneTeller: 4T0 F0B0PRT TB0N KAPTJ1... #line:7c0f77
+    FortuneTeller: ECTJ BEWN, K0T0PJ1E TJ1 U0LMEQJ, #line:9e86cd
+    FortuneTeller: A ECTJ BEWN, K0T0PJ1E YCK0VJ3HYT 0T TE6R, #line:e773d2
+    FortuneTeller: N GT0 6YDET TB0EL CYDJ60L. #line:3444ea
+    Mae: ... #line:fb4fa1
+    Mae: TAK HEK0T0PJ1E BEWN R U0LMY, A... 4T0? #line:4e00df
+    Mae: KAKAR FVYUAR Z0PTYHA! #line:732157
+    Mae: BCE TAKNE! Y BCEX TAK! #line:3f7825
+<<elseif $fortune_wheel_index is 7>>
+    FortuneTeller: TB0R YDA4A - GT0 TB0E UPEDCKA3AHNE. #line:a3abca
+    FortuneTeller: MECT0, B K0T0P0M TJ1 CK0P0 0KASEQJCR #line:934d71
+    FortuneTeller: HABEKN. #line:cb85b5
+    Mae: X0P0Q0, C0BUAV0 #line:5377e9
+    FortuneTeller: KAPTJ1 F0B0PRT 0 MH0F0M... #line:7b4b1b
+    FortuneTeller: BEVNKNL KPYF #line:9c4570
+    FortuneTeller: QAP #line:9ab7f4
+    FortuneTeller: H0 UV0CKNL #line:aa2dab
+    FortuneTeller: TB0N MJ1CVN 6YDYT U0FV0WEHJ1 NM! #line:f142f5
+    FortuneTeller: N BCE SE TJ1 6YDEQJ U0SNPATJ EF0. #line:b1deb8
+    Mae: CV0BH0... UNOOY! NVN Y60LHJ1E KEKCJ1 N3 D0HAT BYVJZ? #line:ad8df9
+    Mae: M0E UPEDCKA3AHNE B T0M, 4T0 R 6YDY ECTJ? #line:877072
+    Mae: NME% B BNDY, GT0 X0P0Q0, H0 R 0SNDAVA 60VJQEF0 #line:6d0460
+    Mae: MNCTNKN NVN TNUA T0F0. #line:3a1f4c
+<<elseif $fortune_wheel_index is 8>>
+    FortuneTeller: TB0R YDA4A - GT0 TB0E UPEDCKA3AHNE. #line:ab0ac9
+    FortuneTeller: MECT0, B K0T0P0M TJ1 CK0P0 0KASEQJCR #line:4da895
+    FortuneTeller: HABEKN. #line:6ca1d5
+    Mae: X0P0Q0, C0BUAV0 #line:7614dc
+    FortuneTeller: KAPTJ1 F0B0PRT 0 MH0F0M... #line:04a2e7
+    FortuneTeller: HEK0T0PJ1E DHN 6YDYT U0X0SN HA PJ16Y, K0T0PY% TJ1 XPAHNQJ KAK TP0ZEL. #line:b54d9e
+    FortuneTeller: HEK0T0PJ1E DHN 6YDYT U0X0SN HA PJ16Y, K0T0PY% TJ1 EQJ. #line:516e8e
+    FortuneTeller: A HEK0T0PJ1E DHN 6YDYT CBR3AHJ1 C PJ160L, K0T0PY% TJ1 0TUYCKAEQJ. #line:5102ad
+    Mae: NTAK, HEK0T0PJ1E DHN 6YDYT X0P0QNE, HEK0T0PJ1E 6YDYT CPEDHNE #line:aa937b
+    Mae: A HEK0T0PJ1E 6YDYT 0TCT0LHJ1MN. #line:bf664d
+    Mae: KASETCR, R BNDEVA TAK0E HA U03DPABNTEVJH0L 0TKPJ1TKE. #line:e6c4f3
+    Mae: GT0 HE UPEDCKA3AHNE! GT0 UP0CT0, KAK 06J14HAR SN3HJ! #line:c4597c
+<<else>>
+    FortuneTeller: 0L, CVY4NVACJ KAKAR-T0 0QN6KA. #line:1dfe01
+    FortuneTeller: 06R3ATEVJH0 C006WN PA3PA60T4NKAM, 4T06J1 0HN M0FVN NCUPABNTJ EE. #line:b47836
+    Mae: VADH0! #line:63ce5f
+<<endif>>
+
+FortuneTeller: KAPTJ1 HE VFYT #line:b551d2
+FortuneTeller: K0VEC0, K0T0P0E BJ16NPAET KAPTY, HEU03HABAEM0. #line:6159ed
+Mae: T0 ECTJ GT0... HEU0CTNSNMAR UPABDA? #line:edc312
+FortuneTeller: TJ1 MH0F0MY HAY4NVACJ, DNTR M0E. #line:d5744f
+Mae: MHE 20. #line:f8befb
+Mae: ...4T0 S, GT0 6J1V0 NHTEPECH0. #line:20e6be
+FortuneTeller: UYCTJ K0VEC0 BPAWAETCR B TB0% U0VJ3Y. #line:281bfa
+Mae: AFA, U0KEDA. #line:605711
+
+<<set $did_fortune_wheel to 1>>
+
+<<irisOut 1 wait>>
+<<scene TowneCentreEast_Harfest>>
+===

@@ -1,0 +1,1969 @@
+title: EnterLevel_A1D2
+tags: 
+colorID: 2
+position: -34979,15518
+---
+<<show Angus>>
+<<hide Gregg>>
+<<hide Bea>>
+<<hide Germ>>
+
+<<playMusic angus_home>>
+<<tell _AmbientSFX:door Play>>
+<<tell _AmbientSFX:upstairs_neighbours_01 Play>>
+===
+title: AngusLaptopStart
+tags: 
+colorID: 2
+position: -34654,15768
+---
+Angus: Whoa! Come right in! #line:8ecabb
+Mae: Hey dude. o/ :) #line:c46339
+Angus: Uh... #line:1a57d9
+Angus: Welcome to our apartment.  #line:0f05a3
+Angus: I could have been in my underwear. #line:b44230
+Mae: _o_ #line:6471fa
+Mae: Hey dude, don’t wear pants on my account. #line:132f38
+Mae: why was the door unlocked? :| #line:0c512d
+Angus: Gregg always forgets to lock it. #line:1e9773
+Angus: Gregg’s at work if you’re looking for Gregg. #line:676290
+Mae: I was actually looking for you. #line:071c54
+Mae: My laptop is messed up and I thought- #line:96db10
+Angus: What’s wrong with it? #line:f962c0
+Mae: Lots of things pop up when I turn it on.  #line:37bf47
+Angus: What kinds of things? #line:86976a
+<<lookLeft Mae>>
+[[You know. Things. About things. Not For Kids things.|NotForKidThings]] #line:4dfb5a
+[[Nothing. Just things.|NothingJustThings]] #line:119aa8
+===
+title: NotForKidThings
+tags: 
+colorID: 2
+position: -34850,16079
+---
+Angus: Why didn’t you bring it with you? #line:cbb3e4
+Mae: I forgot it. #line:4043c9
+Angus: Mmmhmm. #line:24fe31
+Angus: You know Mae you don’t like have to be embarrassed about- #line:503b12
+<<lookNearest Mae>>
+Mae: I’m not. #line:13f450
+Angus: I mean, everyone- #line:4664a3
+Mae: I know. #line:52104c
+[[Angus_A1D2_End]]
+===
+title: NothingJustThings
+tags: 
+colorID: 2
+position: -34476,16066
+---
+Angus: Ok well you probably have some adware or something on your computer. #line:dbd60e
+Angus: Probably reckless downloading #line:05ec3b
+Angus: or clicking OK on sites that you should never click OK on. #line:ae0eaf
+<<lookNearest Mae>>
+Mae: It’s the internet. Stuff happens. #line:74847f
+[[Angus_A1D2_End]]
+
+===
+title: Angus_A1D2_End
+tags: temp
+colorID: 2
+position: -34649,16392
+---
+Angus: Hm... let me see what I can do... #line:2e9ca2
+<<close>>
+<<walk Angus BedroomAngus 1 wait>>
+<<tell _AmbientSFX:rummage_usb Play>>
+<<wait 2>>
+Angus: Ok I got something for ya. #line:539a1b
+<<close>>
+<<walk Mae BedroomMae wait>>
+Angus: Plug this into any usb port and restart. #line:a12dcc
+Angus: Should clear you right up. #line:1947bc
+Angus: It might delete some of your old files though. #line:6879db
+Mae: Wow, thanks dude! :) #line:a454df
+Angus: No problem. #line:7cce0b
+Mae: Goooonna head on home. #line:893b8a
+Mae: See if your magic works. #line:4dd2be
+Angus: It's not magic. #line:bffc91
+Angus: It's just ones and zeroes. #line:2d673e
+Angus: and we're just atoms #line:a394db
+Angus: and our perception of reality is just chemical reactions. #line:f95442
+Mae: :| #line:735025
+Angus: take those away and poof, there goes the universe. #line:2a6270
+Mae: ... #line:c8437c
+Mae: whoa. #line:5921e4
+Angus: sorry. #line:52fc82
+Mae: I'm gonna go. o/ #line:87a3a8
+<<unlockDoodle Angus1>>
+<<set $laptop_fixed to 1>>
+<<set $night_at_home to 1>>
+<<set $trigger_laptop to 1>>
+<<irisOut 1 wait>>
+<<scene MaeHouse>>
+===
+title: EnterLevel_A2D1
+tags: 
+colorID: 3
+position: -34093,15762
+---
+<<if $gregg_friendship_quest is 1>>
+    [[FQ1]]
+<<endif>>
+===
+title: Angus_A1D2
+tags: 
+colorID: 2
+position: -34664,15507
+---
+<<if $angus is 0>>
+    <<set $angus += 1>>
+    [[AngusLaptopStart]]
+<<endif>>
+===
+title: InitLevel_A2D1
+tags: 
+colorID: 3
+position: -34103,15475
+---
+<<hide Angus>>
+<<hide Bea>>
+<<hide Germ>>
+===
+title: InitLevel_A2D2
+tags: 
+colorID: 3
+position: -33670,15462
+---
+<<hide Angus>>
+<<hide Bea>>
+<<hide Germ>>
+
+<<if $gregg_friendship_quest is 2>>
+    <<set $gregg_hat to 1>>
+    <<warp Player MaeRobotBody>>
+    <<warp Gregg GreggRobotBody>>
+    <<cameraLookAt CouchCamera>>
+<<endif>>
+===
+title: EnterLevel_A3D1
+tags: 
+colorID: 4
+position: -32683,15800
+---
+Mae: ok. thanks for coming. :) #line:37d003
+Angus: we live here. #line:b14126
+Mae: right. so. #line:ca77f1
+Gregg: find out anything about yer ghost? #line:0410bb
+<<setAnimInt Mae nodding 1>>
+Mae: yeah! #line:1761e1
+Mae: tell 'em, Bea! #line:cefb71
+<<setAnimInt Mae nodding 0>>
+Bea: there were some newspaper clippings that talked about a ghost. #line:25a174
+<<setAnimInt Mae nodding 1>>
+Mae: not just *ANY* ghost! Little Joe! <o> #line:6069eb
+<<setAnimInt Mae nodding 0>>
+<<wait 2>>
+Angus: I don't really remember Little Joe. #line:7ad66a
+Mae: he's a ghost miner! he died in mysterious circumstances! #line:7dfe95
+Gregg: wow! #line:c8478c
+Mae: I know, right! Mysterious! #line:332f94
+Bea: I thought you were like afraid of this ghost? #line:ae55f5
+Bea: Like filled with like dread and shit? #line:b6634b
+<<setAnimInt Mae nodding 1>>
+Mae: I'm terrified! \o/ #line:9eaab8
+<<setAnimInt Mae nodding 0>>
+Bea: ok #line:ddb48a
+Mae: so it mentioned three different places we can all check out! _o_ #line:cafd58
+Bea: uh I have work. and stuff. #line:c634c4
+Angus: yeah gregg and I also have work. #line:edd498
+Mae: You guys skip out on work all the time! o_o :\ #line:2e6135
+Bea: maybe we can like #line:550de0
+Bea: split this up. #line:baf13b
+Mae: :| #line:fd5be0
+Bea: share custody of you and your ghost. #line:00289c
+Gregg: what places were you thinking about? #line:519e16
+Mae: Uh, the graveyard- #line:9e4ca5
+Bea: I call that one. #line:9caeee
+Bea: It's close and not illegal. #line:2ba9ee
+Gregg: is there an illegal one? :) #line:dceaec
+Angus: ... #line:e991df
+Mae: sure is! the historical society! :) <o> #line:7e2127
+Bea: you know you don't have to like break in. #line:f8ee68
+Bea: the people there like get paid to show it to you. #line:88d98c
+Mae: :| #line:7e4892
+Gregg: :| #line:763eab
+<<wait 2>>
+Mae: anyway... #line:c34359
+Gregg: I'm in for the historical society. #line:6424b0
+Mae: awesome! :) #line:4f895f
+Angus: so what did I get stuck with? #line:89cbea
+Mae: Possum Jump! #line:4a4c4a
+Angus: ! :) #line:42d867
+Angus: I know Possum Jump! #line:43eaf4
+Angus: we used to go there in scouts! #line:01f7a1
+Mae: perfect! #line:0b3cf4
+Bea: ok. i need to like actually get home. #line:858b31
+Bea: and do work. #line:8cccfd
+<<dilate Mae .85 0>>
+Mae: \o/ #line:7f1149
+Mae: this is gonna be awesome!!!! #line:ed3190
+Mae: and also I'm scared to death!!! #line:5aa98a
+<<close>>
+<<irisOut 1 wait>>
+<<set $night to 1>>
+<<scene MaeHouse>>
+===
+title: InitLevel_A3D1
+tags: 
+colorID: 4
+position: -32680,15497
+---
+<<cameraLookAt CouchCameraA3D4>>
+<<playerCanRun 0>>
+<<playerCanJump 0>>
+//left to right on the couch, seated: angus, gregg, bea. mae on the floor in floor sit pose//
+
+<<hide Germ>>
+
+<<flip Angus 1>>
+<<sit7 Angus SitOnCouch1>>
+
+<<flip Gregg 1>>
+<<sit Gregg SitOnCouch2>>
+
+<<flip Bea 1>>
+<<sit Bea SitOnCouch3>>
+<<warp Mae SitRightOfCouchMae>>
+<<playerFace -1>>
+<<lookAt Angus Mae>>
+<<lookAt Gregg Mae>>
+<<lookAt Bea Mae>>
+<<lookAt Mae Gregg>>
+===
+title: EnterLevel_A2D2
+tags: 
+colorID: 3
+position: -33408,15708
+---
+<<if $gregg_friendship_quest is 2>>
+    <<if $gregg_friendship_quest_2 is 5>>
+        [[FQ2_5]]
+    <<elseif $gregg_friendship_quest_2 is 4>>
+        [[FQ2_4]]
+    <<elseif $gregg_friendship_quest_2 is 3>>
+        [[FQ2_3]]
+    <<else>>
+        [[FQ2_2]]
+    <<endif>>
+<<endif>>
+===
+title: FQ1
+tags: 
+colorID: 3
+position: -34092,16063
+---
+<<warp Player MaeRobotCrate>>
+<<warp Gregg GreggRobotCrate>>
+Mae: =_= #line:959b9a
+Gregg: I'm going to have to look up how to fix this. #line:5f6518
+Gregg: Angus isn't back til tomorrow night... #line:020eb7
+Gregg: I'll think about it later. #line:6b4d4b
+Gregg: :) #line:249b4c
+Gregg: Wanna go get some food? #line:3295c7
+Mae: o_o :) \o/ #line:7cdec8
+Mae: Hells yes!  #line:b3e546
+Mae: o_o :| _o_ #line:ca4f54
+<<fadeOut 1 wait>>
+<<scene Diner>>
+===
+title: FQ2_2
+tags: 
+colorID: 3
+position: -33750,16059
+---
+<<playMusic gregg_not_as_manic 3>>
+Gregg: ...and anyway even if it *was* a fascist helmet #line:b272a5
+Gregg: it's got an anarchy symbol on it now #line:79153b
+Gregg: which makes it good. #line:324c83
+Gregg: and there's a bullet hole in it #line:f9f785
+Gregg: so whoever was wearing it is dead #line:837efe
+Gregg: and i'm like wearing the trophy. #line:91448b
+Mae: =_= :) #line:ffdd6e
+Mae: so you admit that's a fascist helmet! #line:cf5924
+Gregg: NO! D: #line:aa5607
+Gregg: I Don't! #line:300d62
+Gregg: :| #line:40249f
+Mae: ok ok o_o #line:db675f
+Mae: so what are we doing? #line:798fd9
+Mae: :| #line:7b73f8
+Gregg: Ok so... #line:3c68d9
+<<if $did_gregg_friendship_quest_1 is 0>>
+	Mae: Wait. Question. #line:a3884d
+	Gregg: Shoot. #line:eb88ce
+    Mae: O_o #line:1122ec
+	Mae: What the hell is that? #line:b8f99a
+	Gregg: The thing? #line:f21eeb
+    <<setAnimInt Mae nodding 1>>
+	Mae: Yes. Obviously the thing. #line:7a9d6a
+    <<setAnimInt Mae nodding 0>>
+    Mae: o_o #line:c4d119
+	Gregg: Remember those big like robot cartoon characters #line:1f3b5c
+	Gregg: they used to have at the Food Donkey? #line:af7d5d
+	Mae: I do! #line:d10064
+    <<dilate Mae .85 .5>>
+	Mae: OH MY GOD! :) #line:474f52
+	Mae: IS THAT ONE OF THEM??? #line:8a2cc7
+	Mae: Are we gonna put one together? #line:7c126f
+	Gregg: Dude we totally are. #line:8da11c
+	Mae: THIS IS AMAZING. \o/ #line:643e40
+	Mae: Where the hell did you get it? #line:4bb2ca
+    <<dilate Mae 1 .5>>
+    Mae: _o_ #line:f95fe3
+	Gregg: You know Steve Scriggins? #line:0f5e13
+    Mae: :| #line:99d55b
+	->The guy who locked that substitute teacher in the supply closet? #line:9d16ba
+        Gregg: Ha ha. Yeah. #line:17ffc7
+        Mae: Dude, he was stuck in there over Longest Night break. #line:48e0e1
+        Mae: Survived by eating glue and Spanish workbooks. #line:c06bf6
+        Mae: *Steve Scriggins* gave you this?	 #line:70b315
+	->The guy who drove little circles around people in the school parking lot #line:10b6af
+        Mae: so they were trapped? #line:0b5f86
+		Mae: Called it "Car Camp?" #line:b6320d
+		Mae: And he’d blast one of those air horns at you? #line:e276f5
+	Gregg: Yeah that guy. #line:4f03e6
+	Mae: He’s horrible, man. =_= :\ #line:ad0cf0
+	Gregg: BUT! He’s been hanging out at the Food Donkey since it’s been shut down #line:7f422b
+	Gregg: and he dug it out for me. #line:1c0bc0
+	Mae: That is the first useful thing Steve has ever done. :) #line:e3f120
+<<else>>
+	Mae: Oh wow you moved that onto the couch yourself? #line:c5a5de
+	Gregg: yep! #line:c7c4fe
+	Mae: AFTER the stairs last night? #line:39127e
+	Gregg: I’m very impressive. #line:2172db
+<<endif>>
+Mae: ok ok ok ok ok what do we do??? o_o #line:c3e52e
+Gregg: We need to get this old battery into that old thing. #line:c1c65a
+Mae: OK well this sounds straightforward enough. :| #line:4fb1ea
+Gregg: Kinda. It’s full of garbage. #line:eda18c
+Mae: it's too bad you didn't cut yourself on it and get a disease. #line:59d9de
+Gregg: it's too bad you didn't die on the way here. #line:82cf25
+Mae: it's too bad the robot wasn't filled with angry snakes  :) =_= #line:28f720
+Mae: and they killed you. #line:3c2fac
+Gregg: it's too bad the elevator didn't fall #line:0717c3
+Gregg: and squash you like a pancake. :) #line:83caff
+Mae: oh dude no that's a phobia. :| o_o #line:41b807
+Gregg: that's one that makes sense at least. :| #line:4617c7
+<<wait 2>>
+Mae: what were we doing again? #line:e45a97
+<<close>>
+<<set $gregg_friendship_quest_2 to 3>>
+<<irisOut 1 wait>>
+<<scene PawsModeBatteryConnect>>
+===
+title: FQ2_3
+tags: 
+colorID: 3
+position: -33476,16076
+---
+Mae: Geez. #line:46c4bc
+Mae: That looks safe. #line:cc094b
+Gregg: Are you gonna be all boring now #line:dfba7d
+Gregg: just because you died for like #line:de5d3e
+Gregg: a whole 5 seconds? #line:2bb22a
+Mae: Dude. =_= #line:8b8885
+Mae: Come on. #line:a2a7ec
+Gregg: Some people have been dead, like, FOREVER! #line:50b6f6
+Gregg: Do you see them whining? #line:484684
+Mae: Um #line:e6bf65
+Gregg: Right. #line:c46b5d
+Gregg: They either shut up and deal #line:e25a23
+Gregg: Or they become ghosts! #line:d03776
+Mae: Are you saying I should... become a ghost? o_o #line:02706d
+Gregg: Yeah! Carpy Diem! #line:51be39
+    ->carp-ay diem #line:2b4391
+        Gregg: oh look who's all fancy and french now. #line:b66c91
+    ->Carpy Diem sounds like a fish. #line:a63ba7
+        Gregg: A fish that tells you to live your damn life. #line:c5dc1d
+Mae: ok fine. What are we doing? <o> #line:2b2bc1
+Gregg: Now is the best part. #line:2a3fef
+Gregg: We are gonna put this beast together #line:357ab4
+Mae: Do you know how it goes together? #line:4d97b8
+Gregg: GONNA FIND OUT!!! #line:4a2371
+Mae: cool. :| _o_ #line:af752e
+Gregg: MAE. #line:b6dcd0
+Mae: sorry #line:9530a2
+<<dilate Mae .85 .5>>
+Mae: COOOOOOOOOOOOL!!!! :)  #line:1fe9c1
+Mae:{width=8} AWOOOOOOOOOO!!!! \o/ #line:843c49
+<<dilate Gregg .85 .5>>
+Gregg:{width=8} AWOOOOOOOOOOOOOOOOOO!!! D: \o/ #line:699b52
+<<irisOut 1 wait>>
+<<set $gregg_friendship_quest_2 to 4>>
+<<scene RobotBuilder>>
+===
+title: FQ2_4
+tags: 
+colorID: 3
+position: -33224,16069
+---
+Mae: :) <o> #line:879487
+Mae: He’s beautiful. #line:747a06
+Gregg: He’s perfect. #line:9c5f2d
+Mae: Our beautiful boy. =_= #line:6aa94e
+<<fadeOutMusic 5>>
+Gregg: Our robot son. #line:664834
+Mae: So like... this is pretty great and all #line:b338df
+Mae: o_o #line:3c5142
+Mae: but remind me- #line:0593e1
+Mae: why did we just put a bunch of garbage together in your living room #line:99f3b3
+Mae: and connect it to a stolen car battery #line:3c3c78
+Mae: that’s already leaking acid on the carpet, I think? #line:966a91
+Gregg: I dunno. #line:d0bbe5
+Gregg: Since you’ve been back in town #line:7b9eaa
+Gregg: I think I missed Gregg of a few years ago #line:db06f5
+Mae: Hm? #line:8b468c
+Gregg: Like these days I mostly work all the time, but #line:0b4768
+<<if $did_gregg_friendship_quest_1 is 0>>
+	Mae: Why ARE you working so much? O_o #line:89a268
+	Gregg: We got plans. #line:805eb7
+	Mae: What plans? #line:d738e6
+    <<set $knows_bright_harbor to 1>>
+	Gregg: Bright Harbor! :) #line:10ec1a
+	Mae: Bright... Harbor? :| o_o _o_ #line:60dc1c
+    Mae: Since when? #line:cd5e6d
+    Gregg: Uh... a year or so now? #line:7bdbe9
+    Gregg: That’s why we’re working like 7 days a week. \o/ #line:1aec05
+    Mae: But... when are you moving? #line:ba1aa8
+    Gregg: I think in the spring? _o_ #line:114a08
+    Mae: That’s like... a few months away. #line:7e7192
+    Gregg: Yeah! #line:95970c
+    Mae: Oh. Ok. #line:2ee810
+    Gregg: You should come visit when we get settled in! #line:74d55a
+        ->Why Bright Harbor? #line:f657e3
+        ->Isn't Bright Harbor like really expensive? #line:82be2b
+            Gregg: Not if you live in a terrible neighborhood! #line:cc7aac
+    Gregg: Oh Mae it's SO cool. o_o :| #line:deab31
+    Gregg: We visited in the summer #line:5f2add
+    Gregg: There's like record stores and weird bars #line:4ff157
+    Gregg: and everyone's cool and like... free? #line:45faf6
+    Mae: Oh. #line:658e28
+    Gregg: That's where I got my tattoo! #line:9c2839
+    Mae: What? #line:9e855a
+    Gregg: Yeah! #line:eef24e
+    Gregg:{emote=sheep_tattoo} #line:a0a7c5
+    <<close>>
+    Mae: Is that a... sheep? #line:1c78dd
+    Gregg: Yep. #line:899fa5
+    Mae: Why a sheep? #line:94c130
+    Gregg: ... #line:598409
+    Gregg: The tattoo guy was like all the way hot. #line:b9dc09
+    Gregg: And it didn't even hurt! #line:7290c3
+    Mae: You have a tattoo. #line:bedce4
+    Mae: You're moving to Bright Harbor. #line:a42dc5
+    Gregg: Yeah! #line:2d3a67
+    Mae: Oh. #line:14d1ea
+    Mae: Ok. #line:48b0da
+    Mae: Alright, anyway #line:73502f
+    Gregg: Yeah, like I was saying	 #line:08bf36
+<<endif>>
+Gregg: now that you’re back in Possum Springs #line:ba3619
+Gregg: I was like #line:f89e1c
+Gregg: Hey, let’s do some crimes again. #line:817327
+Mae: Aw. Dude. _o_ :) #line:b08ea5
+Gregg: Yeeeeeeeep. #line:54fe2b
+Gregg: So I was thinking about how to use that for, like, good #line:34c74c
+Gregg: so I thought I’d bring this here, for Angus! #line:a6ba36
+Mae: That’s beautiful dude =_= #line:d6abd1
+Mae: I’m sure he’ll love it. #line:251e59
+Gregg: I hope so. #line:45e495
+<<close>>
+<<wait 1>>
+Mae: ok so o_o #line:13ac66
+<<playMusic gregg_not_as_manic>>
+Gregg: yeah, all we need to do now is turn it on! #line:044138
+<<dilate Mae .85 .5>>
+Mae: OOH! OOH! :) #line:9cf378
+Mae: I wanna push the button lemme push the button lemme do it \o/ #line:7bdc17
+Gregg: Dude. It’s the least I could do. #line:3b5535
+Gregg: For my best friend. Back from the dead. #line:c54c72
+<<dilate Mae 1 .5>>
+Mae: Pizza party next time I die and come back. _o_ #line:241440
+Gregg: Dude. That is such a deal. #line:e4367e
+Mae: Sweeeeeeeeeeeeet. =_= #line:38b38c
+<<irisOut 1 wait>>
+<<set $gregg_friendship_quest_2 to 5>>
+<<scene PawsModeFlipTheSwitch>>
+===
+title: FQ2_5
+tags: 
+colorID: 3
+position: -33009,16049
+---
+<<cameraLookAt GreggFQ2EndCam1 0>>
+<<extraZoom 1 0>>
+<<setAnimInt Mae layShocked 1>>
+//mae is laying on the floor getting electrocuted.
+//Her dialogue autoplays and you just advance Gregg’s.
+//Robot is waggling around. Gregg is whooping and hollering and dancing.
+<<tell RobotBody Activate>>
+Gregg: \o/ :) #line:21f9cb
+<<lookUp Gregg>>
+<<dilate Gregg .85 .5>>
+Mae:{width=8} Abhyyhrggghhhgaaaaaaghghhhh!!! #line:c03456
+Gregg:{width=4} YEEEEEEEEEAAAAHHH!!! #line:b0e590
+Gregg:{width=4} WHOOAAAAA!!! #line:f23c44
+Mae:{width=4} HARGGGARGGGGGGHGNNNhNN!!! #line:862ad5
+Gregg: D: #line:60969e
+Gregg: IT LIVES!!!! #line:576dfe
+Gregg: :) #line:0be0cf
+<<warp Angus AngusDoor>>
+<<flip Angus 1>>
+<<show Angus>>
+<<tell _AmbientSFX:door Play>>
+<<wait 2>>
+Angus: What the- #line:d6ba27
+<<close>>
+<<extraZoom 0 2>>
+<<cameraLookAt GreggFQ2EndCam2 3>>
+<<wait 2>>
+//pan over and Angus is standing there with the door open//
+Angus: I- #line:8aba4a
+Gregg: D: #line:479af2
+Gregg:{width=8} WHOOOOOOOOOOOOOOOOWWWAAAOOAOH!!! #line:e185f9
+Gregg: :) #line:3a0d50
+<<close>>
+//you control mae’s dialogue again. She is no longer being electrocuted.//
+Mae: H-hey Angus... #line:592a7d
+Angus: How’s it going, Mae? #line:d5ebfb
+Mae: Good! I didn't die this time! #line:a4f4c4
+Mae: You? #line:57533a
+Angus: Good, good. #line:c487ce
+Mae: I’m just gonna lay here for a while if that’s ok. #line:b4ff82
+Angus: ok. #line:472a0d
+<<close>>
+<<fadeOut 1 wait>>
+<<unlockDoodle GreggFQ2>>
+<<set $gregg_hat to 0>>
+<<set $night to 1>>
+<<set $did_gregg_friendship_quest_2 to 1>>
+<<set $completed_gregg_friendship_quests += 1>>
+<<set $gregg_friendship_quest to 0>>
+<<scene MaeHouse>>
+
+						
+===
+title: EnterLevel_A3D3
+tags: 
+colorID: 4
+position: -32333,15581
+---
+[[GreggFQ4Intro]]
+===
+title: GreggFQ4Intro
+tags: 
+colorID: 4
+position: -32322,15844
+---
+<<extraZoom 1.7 0>>
+<<set $gregg_friendship_quest to 4>>
+<<if $did_gregg_friendship_quest_2>>
+	Mae: Our boy :) #line:69be0d
+	Gregg: yep #line:483818
+	Mae: Our boy is not looking good :\ #line:c9fbf3
+	Gregg: yeeeep. #line:f75a84
+<<else>>
+	Mae: huh. So this is the thing? O_o #line:43bb0f
+	Gregg: this is the thing. #line:8114c9
+	Mae: it’s kind of our son #line:5542d0
+	Mae: we brought him into this world #line:1ce890
+	Gregg: well, you [wave]helped[/wave] #line:f6b4ab
+	Mae: it kinda smells weird :\ #line:8387ae
+<<endif>>
+Gregg: Anyway #line:dee152
+Mae: So what are we doing tonight? :) o_o #line:092627
+Gregg: I dunno. We have Bea’s car. #line:309b6c
+Mae: [wave]Oh really?[/wave] #line:0ffd4e
+Mae: [wave][shake=.01]WE SHOULD GO TO DONUT WOLF!!![/all] #line:515663
+Gregg: Oh yeah! :) #line:488adf
+Mae: I haven’t been since I got back! #line:095088
+Mae: I NEED some of those slammercakes. #line:0661d7
+Gregg: They have pancakes now too for some reason. #line:fb4852
+Mae: OOOOH!!! #line:4ff806
+Gregg: Hey Cap'n! Donut Wolf? o_o #line:fd902d
+<<lookAt Mae Angus>>
+<<lookAt Gregg Angus>>
+<<close>>
+<<warp Angus AngusRobotBody>>
+<<flip Angus -1>>
+//camera pulls out to see Angus is standing like 6 feet away//
+<<extraZoom 0 2>>
+<<wait 1>>
+Angus: ... #line:28e67d
+Gregg: :| #line:d0000f
+Gregg: ...? #line:4bf187
+Mae: o_o #line:dd8366
+Mae: ... #line:645e9c
+Gregg: They got pancakes now! :) #line:d99f16
+<<close>>
+//angus walks across the screen and off the left//
+<<walk Angus AngusOffLeft>>
+<<wait 3>>
+Angus: fine. #line:ab16bb
+<<lookUp Mae>>
+<<lookUp Gregg>>
+Gregg: \o/ D: #line:c7077d
+Gregg: RIDE THE CHARIOT! #line:d6e753
+<<dilate Mae .85 .5>>
+Mae: TO DONUT HELL!!! \o/ #line:e401fa
+<<runNextLinesTogether 2>>
+Mae: {width=8}[shake=.05]AWOOOOOOOOOOOOOOOOO!![/shake] #line:00c4a4
+Gregg: {width=8}[shake=.05]AWOOOOOOOOOOOOOOOOO!![/shake] #line:6f14bd
+<<close>>
+<<irisOut 1 wait>>
+<<sectionTitle GreggFQ4Intro BeaCar>>
+===
+title: EnterLevel_A4D1
+tags: 
+colorID: 5
+position: -31710,15522
+---
+[[HangoutWithoutMae]]
+===
+title: EnterLevel_A4D2
+tags: 
+colorID: 5
+position: -30749,15491
+---
+<<if $laptop_vignettes>>
+    <<fadeOut .0001>>
+    <<hide Bea>>
+    <<hide Germ>>
+    <<warp Mae MaeOffScreen>>
+    <<sit5 Gregg GreggSitInFrontOfCouch>>
+    <<flip Gregg 1>>
+    <<flip Angus 1>>
+    <<sit7 Angus SitOnCouch1>>
+    <<lookOut Gregg>>
+    <<playMusic laptop_vignettes 10>>
+    <<if $dom_friend_bea>>
+        [[SubFriendVignette]]
+    <<else>>
+        [[DomFriendVignette]]
+    <<endif>>
+<<elseif $night is 0>>
+    <<set $death_walk to 1>>
+    <<playIdleAnimationPlayer>>
+    [[MaeComesBack]]
+<<else>>
+    <<cameraLookAt CameraMaeKitchen>>
+    [[AfterPizza]]
+<<endif>>
+===
+title: AfterCouchNightmare
+tags: temp
+colorID: 5
+position: -30146,17598
+---
+<<setAnimInt Mae layingSide 0>>
+<<playIdleAnimationPlayer>>
+<<cameraUseData 1>>
+<<cameraLookAt CouchCamera 0>>
+<<togglePlayerFallEnabled true>>
+<<warp Mae MaeAboutToLeave>>
+<<flip Mae -1>>
+<<fadeIn 1 wait>>
+Mae: ... #line:9d0c70
+<<wait 3>>
+Mae: bye, guys. #line:cef57f
+Mae: love you. #line:d9c1b3
+<<close>>
+<<irisOut 1 wait>>
+<<sectionTitle TheDark MineWoods left>>
+===
+title: SubFriendVignette
+tags: 
+colorID: 5
+position: -30199,15890
+---
+<<cameraLookAt CameraVignetteStart 0>>
+<<cameraLookAt CameraVignetteEnd 30>>
+<<fadeIn 1 wait>>
+MaeLaptop: i don't know if i'm ever gonna understand what all just happened. #line:f63863
+MaeLaptop: i hope it's stopped. #line:b98b0c
+MaeLaptop: I just feel right now like all i want to do #line:ae8134
+MaeLaptop: is wrap my arms around all of you. #line:05160c
+MaeLaptop: not just because i love you #line:0b53ce
+MaeLaptop: but to keep you all together with me. #line:3a856d
+MaeLaptop: wrap up into a ball and no one can hurt us. #line:152c24
+MaeLaptop: sorry, I'm rambling. #line:533278
+//fade out. Fade in on germ in a parking lot. This will need to be a new scene called “GermVignette”//
+<<fadeOut 1 wait>>
+<<overrideLoadingScreenType Blank>>
+<<scene GermVignette>>
+===
+title: DomFriendVignette
+tags: 
+colorID: 5
+position: -30492,15894
+---
+<<cameraLookAt CameraVignetteStart 0>>
+<<cameraLookAt CameraVignetteEnd 30>>
+<<fadeIn 1 wait>>
+MaeLaptop: I don't even understand life. #line:abd8f8
+MaeLaptop: I think you get taught that you have a lot more control of the world. #line:3e74cb
+MaeLaptop: than you do. #line:b0ea8c
+MaeLaptop: I just walked into all this horrible stuff that was already happening. #line:2a1002
+MaeLaptop: we all did. #line:07d419
+MaeLaptop: and i guess that's really scary? Like who knows what's gonna happen? #line:8d611c
+MaeLaptop: but i guess you can like connect things #line:9ba43b
+MaeLaptop: or connect to things. #line:50f163
+MaeLaptop: sometimes you need someone to be the thing you don't have #line:c93f7c
+MaeLaptop: even if it's something you're supposed to already have. #line:65077c
+MaeLaptop: All of you are what kept me from floating off tonight. #line:4999e0
+MaeLaptop: Also you kinda killed that guy to save me. #line:40d790
+MaeLaptop: Don't think i didn't appreciate that. #line:783808
+MaeLaptop: L O L #line:7e0a6c
+//fade in on bea, sitting in her living room doing bills as her dad is asleep on the couch.//
+<<fadeOut 1 wait>>
+<<overrideLoadingScreenType Blank>>
+<<scene BeaApartment>>
+===
+title: HangoutWithoutMae
+tags: 
+colorID: 5
+position: -31709,15825
+---
+<<tell _AmbientSFX:skate_wolf Play>>
+<<tell _AmbientSFX:skate_wolf_music Play>>
+<<tell _AmbientSFX:upstairs_neighbours_02 Play>>
+<<lookOut Gregg>>
+<<LookOut Germ>>
+<<LookOut Bea>>
+<<dilate Bea .85 0>>
+<<if $dom_friend_bea>>
+    <<wait 6>>
+    Bea: Nice. #line:19d71d
+    Gregg: Nice. #line:df5c73
+    Germ: Yep. #line:a775b3
+    Bea: I barely remember how to play this. #line:aa2c15
+    Gregg: It’s like riding a bike. #line:55e113
+    Germ: I play this game in my head when I’m falling asleep. #line:1fcd57
+    Bea: hm. I like go over the plots of books I’ve read. #line:9f85b4
+    Germ: ooooh look at the smartie. #line:de1cae
+    Gregg: I try to remember every place I’ve ever been. #line:9a1169
+    Gregg: In order. #line:938efb
+    Bea: Wow. #line:4107cf
+    <<close>>
+    <<wait 4>>
+    Bea: Alright, well. #line:7794af
+    <<close>>
+    <<wait 1>>
+    <<possess Bea>>
+    <<dilate Bea 1 .25>>
+    <<set $bea to 1>>
+    <<set $bea_done to 1>>
+<<else>>
+    <<wait 6>>
+    Gregg: Nice. #line:52527c
+    Bea: Nice. #line:4fc57c
+    Germ: Yep. #line:57e0a3
+    Gregg: Dude you are way better at this than I am. #line:f63245
+    Bea: I’m not this good at like... anything. #line:44a438
+    Germ: I still play a lot. #line:c30abf
+    Germ: Got lots of old games at home. #line:13ba58
+    Germ: Collect 'em. #line:7ccd96
+    Gregg: Huh. I’ve never been over to your place. #line:a0188e
+    Germ: I don’t take anyone there. #line:9f0e9b
+    Gregg: Secret? #line:b3740f
+    Germ: I live in a tree. #line:af8f13
+    Bea: I’d believe that. #line:a342a2
+    <<close>>
+    <<wait 4>>
+    Gregg: Ok, well #line:39a661
+    <<close>>
+    <<wait 1>>
+    <<possess Gregg>>
+    <<set $gregg to 1>>
+    <<set $gregg_done to 1>>
+<<endif>>
+<<cameraFollowPlayer 1>>
+===
+title: InitLevel_A4D1
+tags: 
+colorID: 5
+position: -31710,15100
+---
+<<warp Mae MaeOffScreen>>
+<<cameraLookAt CouchCamera>>
+<<playerCanRun 0>>
+<<playerCanJump 0>>
+[[SetupDomFriendCouchGroup]]
+===
+title: Angus_A4D1
+tags: 
+colorID: 5
+position: -31726,16086
+---
+<<if $angus is 0>>
+    <<set $angus += 1>>
+    <<if $did_angus_investigation_quest is 0>>
+        <<set $angus_done to 1>>
+    <<endif>>
+    <<closeAll>>
+    <<if $dom_friend_bea>>
+        Angus: Want some brownies? #line:3b4317
+        Angus: I’m making brownies #line:931097
+        Angus: and #line:378528
+        Bea: yeah? #line:0a0d41
+        Angus: maybe lasagna. #line:537290
+        ->Lasagna? #line:8e1dee
+        	Angus: I found one in the freezer! #line:782df6
+        ->Brownies? #line:6189ab
+        	Angus: I got some mix last week! #line:9fb3ee
+        Bea: why all the food? #line:cf24c0
+        Angus: need to eat! Everyone needs to eat! #line:5da058
+        Bea: aren’t you, like scared and worried? #line:6127b8
+        Angus: good dinner makes everyone feel better! :) #line:e4a45a
+        Angus: someone’s gotta take care of you! #line:f55ecc
+        Bea: thanks, angus. you're extremely good. #line:b3acc4
+        Angus: aw no more than anyone else. :| #line:cdbc4a
+    <<else>>
+        Gregg: Hey Cap’n. #line:a46361
+        Angus: Hey Bug. #line:1d5b91
+        Gregg: You making, like 3 dinners at once? #line:e90833
+        Angus: Brownies are in the oven #line:903f6a
+        Angus: thinking about making that lasagna we got and forgot about? #line:3b0e9f
+    	->We have lasagna? #line:4bdebf
+    		Angus: yeah! way back in the back! #line:d30d36
+            Gregg: i thought that was like, the wall. #line:206343
+            Angus: nope! #line:868f20
+    	->Are brownies and lasagna a good combo? #line:f910bf
+    		Angus: we haven’t been shopping in a week. #line:2d1d37
+        Gregg: Hey hon, you should maybe go sleep or something... #line:fb6a71
+        Gregg: You’ve barely sat down in the past 24 hours #line:ddf1dd
+        Angus: good dinner makes everyone feel better! #line:7ac881
+        Angus: someone’s gotta take care of you! #line:2be864
+        Gregg: Dude. Let me take care of *you*. #line:f7e69f
+        Angus: This. This stuff I'm doing? #line:06e972
+        Angus: this helps me. #line:1c3ab1
+        Gregg: ok. that's cool. #line:e48a40
+        //need some sort of animation of Gregg hugging or smooching Angus here//
+        Gregg: We are gonna make it through this. #line:0c751c
+        Angus: We are gonna make it through this. #line:a69785
+        Gregg: love you. #line:900428
+        Angus: love you. #line:401c6a
+    <<endif>>
+<<elseif $angus is 1>>
+    <<set $angus += 1>>
+    <<set $angus_done to 1>>
+    <<if $dom_friend_bea>>
+        Bea: so that guy you saw in the woods at Possum Jump? #line:b2e9e0
+        Angus: yep #line:160b04
+        Bea: were those guys... like that guy? #line:da2485
+        Angus: yep. sorta. #line:b0118d
+        Angus: he had a hat. #line:88bbe2
+        Bea: hm. #line:9891ed
+        Angus: I need to defrost the lasagna #line:e37c7f
+        Angus: or do I? Do you cook it frozen? #line:de6665
+    <<else>>
+        Gregg: Hey, just wanna say. #line:1e5b8b
+        Gregg: it was cool of you to go to Possum Jump with Mae. #line:c920d2
+        Gregg: I know the scout camp isn't like #line:d25c44
+        Gregg: the most fun place from when you were a kid. #line:faab3a
+        Angus: it's cool. like, it was cathartic. #line:96187d
+        Gregg: nice. #line:c686e0
+        Angus: I need to defrost the lasagna #line:130338
+        Angus: or do I? Do you cook it frozen? #line:fe97c1
+    <<endif>>
+<<endif>>
+===
+title: MaeComesBack
+tags: temp
+colorID: 5
+position: -30718,15056
+---
+<<playAmbientSFX _AmbientSFX:skate_wolf>>
+<<playAmbientSFX _AmbientSFX:skate_wolf_music>>
+
+<<if $dom_friend_bea>>
+    Bea: O_O #line:ef6458
+	Bea: Holy shit it’s Mae. #line:99ffd7
+	Mae: It’s me. #line:6477f2
+	Gregg: You came back to life! #line:e9a9fd
+	Bea: I don’t think she was dead. #line:cce370
+<<else>>
+    Bea: O_O #line:6100b6
+	Gregg: HOLY SHIT DUDE!! #line:661f39
+	Gregg: I THOUGHT YOU WERE GONNA BE DEAD!! #line:9a3c19
+	Mae: Not yet #line:24eb6d
+	Gregg: You came back to life! #line:a33c5c
+	Bea: I don’t think she was dead. #line:65b9b9
+<<endif>>
+Gregg: :) \o/ #line:5a3e46
+Gregg: PIZZA PARTY!!! #line:c869a8
+Mae: I’m feeling woozy. #line:10d48c
+Gregg: :) _o_ #line:a737a8
+Bea: you should lay down. #line:2724c4
+Gregg: you can sleep in our bed! #line:145f39
+Mae: I feel weird about that. How bout the couch? #line:dd3f26
+Germ: Do I have to stop playing? #line:361e53
+Mae: No. The sound is good. #line:7a3465
+<<close>>
+<<fadeOut 1 wait>>
+
+// mae laying on couch
+<<setAnimInt Mae eyes 4>>
+<<togglePlayerFallEnabled false>>
+<<warp Mae MaeLieCouch>>
+<<setAnimInt Mae layingSide 1>> 
+<<setSortingLayerName BG4>>
+
+<<warp Bea SitRightOfCouchMae>>
+<<flip Bea 1>>
+
+<<warp Angus GreggRobotCrate>>
+<<flip Angus -1>>
+<<lookAt Bea Angus>>
+<<hide Gregg>>
+
+<<cameraLookAt CouchCameraA4D2>>
+
+<<wait 1>>
+
+
+//Germ still playing games. Bea and Angus talking to the right of the couch.//
+Bea: o_o #line:60ea19
+Gregg: o_o :| #line:9bcd31
+<<fadeIn 1 wait>>
+Bea: her mom said it’s ok to keep her here #line:7054dd
+Bea: I’ll drive her home later. #line:3a7b48
+Angus: so she just like, wandered out of her house? #line:3ce6c3
+Bea: yeah and all the way here #line:a828bb
+Angus: geez. #line:0ec1ac
+Bea: lucky she didn’t pass out somewhere out there #line:32499f
+<<close>>
+<<fadeOut 1 wait>>
+
+<<warp Gregg AngusWalkInCouch>>
+<<warp Bea BeaKitchen>>
+
+<<show Gregg>>
+<<hide Angus>>
+
+<<lookOut Gregg>>
+
+<<cameraLookAt CouchCamera>>
+
+<<wait 1>>
+
+<<fadeIn 1 wait>>
+//Gregg is standing to the left of the couch//
+Gregg: I sure hope she’s alright. #line:0b9598
+<<if $did_germ_friendship_quest_3>>
+	Germ: Me too. #line:801d47
+	Germ: She’s a good person. #line:95cfe6
+<<else>>
+	Germ: MMHMM #line:315fbf
+<<endif>>
+<<close>>
+<<walk Bea SitRightOfCouchMae wait>>
+//Bea walks in from kitchen//
+<<lookAt Gregg Bea>>
+Bea: Both of you!! SHHH!!! #line:f3e63a
+<<if $did_gregg_investigation_quest>>
+	Gregg: No, THHHHH! #line:1da2ef
+	Bea: What? #line:f525e7
+	Gregg: It’s leth noithy. #line:727544
+<<endif>>
+<<close>>
+<<fadeOut 1 wait>>
+<<wait 1>>
+
+<<lookNearest Gregg>>
+<<show Angus>>
+<<warp Bea SitRightOfCouchMae>>
+<<warp Gregg GreggRobotCrate>>
+<<warp Angus AngusIsOnTheLeft>>
+<<flip Bea -1>>
+<<flip Gregg -1>>
+<<flip Angus 1>>
+<<cameraLookAt CouchCameraA4D2>>
+
+
+<<fadeIn 1 wait>>
+//Bea and Gregg are standing to the right of the couch. Angus is on the left//
+Bea: so how well do you know this guy? #line:421f93
+<<lookAt Bea Gregg>>
+Gregg: we order pizza what, twice a week? #line:a65a2a
+<<lookAt Bea Angus>>
+Angus: at least #line:7338fa
+<<lookAt Bea Gregg>>
+Gregg: from out by the highway now since Pastabilities closed down. #line:51e929
+Bea: I thought you two were trying to save money? #line:afebcb
+Gregg: What? #line:3fe86c
+<<lookAt Bea Angus>>
+Angus: Don’t police our lifestyle, Bea. #line:8b2620
+Bea: ok well just as long as we’re sure the delivery guy is... safe #line:e57f85
+Angus: I can spot him through the keyhole. #line:32d833
+<<lookAt Bea Gregg>>
+Gregg: If it’s not him, we’ll turn off the light #line:893e39
+Gregg: and I guess hide here until we die. #line:15fcbc
+<<lookAt Bea Angus>>
+Bea: Alright well as long as there’s a plan. #line:0d86ff
+<<lookNearest Bea>>
+<<fadeOut 1 wait>>
+<<wait 1>>
+
+//<<cameraLookAt CouchCamera>>
+
+<<setAnimInt GreggAngusApartment blackOut 1>>
+
+<<fadeIn 1 wait>>
+//on black screen//
+Mae: Hello? #line:21e92a
+Bea: Look who’s awake! #line:ab3780
+//buzzer rings//
+<<tell _AmbientSFX:intercom_buzz_short Play>>
+<<wait 1>>
+Angus: It’s him! It’s the pizza guy! :) #line:e64c00
+Gregg: PIZZA’S HERE!! :) #line:b8d957
+<<set $night to 1>>
+<<irisOut 1 wait>>
+<<scene PawsModePizzaParty>>
+===
+title: AfterPizza
+tags: temp
+colorID: 5
+position: -30399,15358
+---
+//Mae is talking to her mom on an actual land line in the kitchen! A LAND LINE! Mom’s responses come from receiver and hang out on a node opposite Mae?
+<<lookAt Mae Mom>>
+Mae: -_- #line:90688d
+Mae: sorry mom. #line:98ced2
+Mom: you scared us to death, honey. #line:9dada7
+Mae: sorry mom. #line:539726
+Mom: we'll come pick you up. #line:29aafa
+Mae: no, it's cool. i'm gonna just sleep here. #line:29fca9
+Mom: Bea is there? #line:acc339
+Mae: Bea is here. #line:24bab5
+Mom: ok. #line:523f0a
+Mae: I'll be back in the morning. #line:33d599
+Mom: have Bea drive you home. #line:8ea680
+Mae: i will. #line:a4ce25
+Mom: Mae... #line:0d6c75
+<<wait 3>>
+Mae: I know. #line:3459fa
+Mom: give us a call if you need to come home. #line:66580b
+Mae: I will. #line:aac6b8
+Mae: love you, mom. #line:1baea4
+Mom: love you, sweetie. #line:34c263
+<<close>>
+<<fadeOut 1 wait>>
+<<lookNearest Mae>>
+<<wait 2>>
+<<set $gregg_angus_phone_off_hook to 0>>
+//music does a thing during this pause here? Like an ambient sting or... something? Like foreboding? So players can think maybe her saying she loves her mom is like her last words to her?//
+//Mae can deathwalk around the apartment.
+//Angus is in the kitchen eating a brownie.
+<<warp Angus AngusKitchen>>
+//Gregg is on the couch watching
+<<sit Gregg SitOnCouch2>>
+//Germ, who is still sitting there playing the game.
+//Bea is looking at her phone by their computer in the bedroom.
+<<warp Bea BeaBedroom>>
+<<flip Bea -1>>
+<<playIdleAnimationPlayer>>
+<<warp Mae MaeKitchenLandline>>
+<<fadeIn 1 wait>>
+// need to prevent access to the door here! somehow... maybe the door should always be off?
+<<unfreezePlayer>>
+<<cameraFollowPlayer 1>>
+===
+title: Angus_A4D2
+tags: 
+colorID: 5
+position: -31030,16481
+---
+Angus: you want a brownie? :) #line:e50531
+Mae: nah. I can’t really eat right now #line:6e050f
+Mae: like, I’d puke but there isn’t anything in there #line:6a062c
+Mae: so I’d like puke my actual guts out. #line:e43529
+Angus: oh right :| #line:ca489a
+Angus: you need your guts. #line:2101ad
+Mae: for the moment at least. #line:10a711
+<<set $angus_done to 1>>
+===
+title: Gregg_A4D2
+tags: 
+colorID: 5
+position: -30726,16477
+---
+<<if $gregg is 0>>
+    <<set $gregg += 1>>
+    [[Gregg_A4D2_00]]
+<<elseif $gregg is 1>>
+    [[Gregg_A4D2_01]]
+<<endif>>
+===
+title: Gregg_A4D2_00
+tags: 
+colorID: 5
+position: -30777,16732
+---
+<<if $dom_friend_bea>>
+	Gregg: Dude. Wild week, huh? #line:8ad557
+	Mae: you could say that #line:07a314
+	Gregg: When we get out of this, #line:b3a88a
+	Mae: I don’t know if we’re getting out of this. #line:922bfe
+	Gregg: Well, even if we don’t #line:013aad
+	Gregg: and we’re ghosts #line:106075
+	Gregg: we should hang out more. #line:605e18
+	Mae: Deal. #line:99d146
+<<else>>
+	Gregg: Dude. Are you sure you’re ok? #line:dcf68f
+	Mae: yeah I guess so. #line:a0f731
+	Mae: not really. #line:5b1768
+	Gregg: I was like... really worried. #line:7ff548
+	Mae: you were correct #line:a18ec0
+	Mae: to worry #line:48ca49
+	Mae: it was bad. #line:1822e9
+	Gregg: yeah.  #line:f996f0
+    Gregg: Don’t ever get seriously injured again, ok? #line:4e7e45
+<<endif>>
+
+<<if $dom_friend_bea>>
+    <<set $gregg_done to 1>>
+<<endif>>
+===
+title: Gregg_A4D2_01
+tags: 
+colorID: 5
+position: -30511,16733
+---
+->Can we all hit the sack? #line:ffaa1e
+	Gregg: sure, dude. #line:b141ec
+    Mae: ... #line:e657fa
+	Gregg: HEY!! D: #line:d81310
+	Gregg: EVERYBODY GO TO BED NOW!!! D: #line:fe7e39
+    Gregg: :| #line:22e62e
+	Mae: holy crap #line:6b3603
+    [[GermLeaves]]
+->Gonna like... Wander around your apartment. #line:7c1631
+	Gregg: that’s what it’s here for. #line:f1d85a
+===
+title: Germ_A4D2
+tags: 
+colorID: 5
+position: -30222,16476
+---
+Mae: What even was that game? #line:ed26c6
+Germ: Werewolf: Shred The Gnar 3 #line:c6324f
+Mae: Wow. I played this at Casey’s house like #line:7846f1
+Mae: years ago. #line:4ed32a
+Germ: I played it #line:ac3363
+Germ: yesterday #line:ce8637
+Germ: at home. #line:7cabfa
+Mae: Cool. #line:42f015
+<<set $germ_done to 1>>
+===
+title: Bea_A4D2
+tags: 
+colorID: 5
+position: -29818,16399
+---
+<<if $bea is 0>>
+    <<set $bea += 1>>
+    [[Bea_A4D2_00]]
+<<elseif $bea is 1>>
+    [[Bea_A4D2_01]]
+<<endif>>
+===
+title: Bea_A4D2_00
+tags: 
+colorID: 5
+position: -29930,16664
+---
+<<if $dom_friend_bea>>
+    Bea: they’ve got wifi! #line:9ed5a3
+    Mae: nice #line:225994
+    Bea: it’s like we’re a real place #line:f91aaf
+    Bea: at least within range #line:928eb6
+    Mae: i don’t even have a phone because of this place #line:51045d
+    Mae: it’s the 1800’s here #line:237524
+    Bea: Hey Mae? #line:2e4868
+    Mae: yeah? #line:0afcdf
+    Bea: I’m really glad you’re not dead #line:3075e6
+    Mae: me too #line:9362c8
+    Bea: ... #line:0b40a2
+    Mae: ... #line:2ad170
+    Bea: Yeah. #line:7a1fe4
+    Mae: Yeah. #line:ebf81a
+    Bea: Yeeeeeeah. #line:cce247
+<<else>>
+    Mae: Is there signal here? #line:746e1e
+    Bea: wifi #line:1b87e6
+    Mae: ah ok #line:e48b0a
+    Bea: I got like a mental map of all of the wifi spots in town #line:4e3269
+    Mae: what is it with Possum Springs and no signal? #line:6fbfc1
+    Bea: eh. Out here in the hills #line:2a4f16
+    Bea: and we’re not big enough to get towers #line:b2c247
+    Bea: or something #line:0924db
+    Mae: huh. #line:90c25c
+    Bea: hey #line:26f5fb
+    Mae: yeah? #line:0f6252
+    Bea: if we’re all still alive or whatever #line:2339ae
+    Bea: we should like #line:9a2bc8
+    Bea: maybe hang out more #line:218a54
+    Mae: i kinda thought you found me really annoying? #line:8e2364
+    Bea: eh. #line:f4c3ce
+    Mae: I’ll take eh. #line:8c9130
+<<endif>>
+
+<<if $dom_friend_gregg>>
+    <<set $bea_done to 1>>
+<<endif>>
+
+===
+title: Bea_A4D2_01
+tags: 
+colorID: 5
+position: -29679,16728
+---
+->Can we all hit the sack? #line:03494d
+	Bea: cool. I’ll be right out. #line:a9f4a6
+    <<close>>
+    <<walk Mae MaeDoor wait>>
+	Mae: hey kids can we do lights out now? #line:f5c954
+	Mae: i’m gonna drop over. #line:007c40
+	Gregg: yeah dude #line:bbef8f
+	Germ: sounds good! #line:aea5c1
+	[[GermLeaves]]
+->Gonna like... Wander around the apartment. #line:5e9eab
+	Bea: don’t push yourself. #line:58a10c
+===
+title: Bedtime
+tags: 
+colorID: 5
+position: -30142,17251
+---
+<<setAnimInt Mae layingSide 1>>
+<<setAnimInt Gregg sitting 0>>
+<<setAnimInt Bea sitting 0>>
+<<togglePlayerFallEnabled false>>
+<<warp Mae MaeOnCouchWithFriend>>
+<<hackFlip Mae -1>>
+<<if $dom_friend_bea>>
+    <<show Bea>>
+    <<hide Gregg>>
+    <<warp Bea BeaOnCouchWithMae>>
+    <<setAnimInt Bea layingSide 1>>
+    <<flip Bea 1>>
+    <<lookAt Mae Bea>>
+<<else>>
+    <<show Gregg>>
+    <<hide Bea>>
+    <<warp Gregg GreggOnCouchWithMae>>
+    <<setAnimInt Gregg layingSide 1>>
+    <<flip Gregg 1>>
+    <<lookAt Mae Gregg>>
+<<endif>>
+<<cameraLookAt CouchCamera 0>>
+<<hide Angus>>
+<<hide Germ>>
+<<fadeIn 1 wait>>
+<<wait 4>>
+<<if $dom_friend_bea>>
+	Mae: do you know why I beat down Andy Cullen 6 years ago? #line:82f983
+    Bea: no.  #line:db5b1b
+    Bea: we weren’t talking then and I thought it’d be weird to bring it up now, and... #line:a79d29
+    Mae: I was playing this video game. You were like dating ghosts or something. #line:6b1b71
+    Bea: ok #line:17a58b
+    Mae: and I was really into it. Played it like 24-7. #line:406492
+    Mae: until this one afternoon #line:77b876
+    Mae: and suddenly, like, something broke. #line:012eac
+    Bea: broke? #line:f95007
+    Mae: it was just like... pixels. #line:03d8d3
+    Mae: the characters onscreen… i felt like i knew them #line:334b44
+    Mae: they weren't /people/ anymore. They were just shapes. #line:c7a858
+    Mae: and their lines were just things someone had written #line:8053ce
+    Mae: they never existed, they never had feelings #line:0cec39
+    Mae: they never would exist, either #line:18a0fe
+    Mae: and it felt so /sad/ #line:ec135b
+    Mae: like i’d just lost these real people #line:1934b9
+    Mae: and this whole thing we had, it was just... me. Alone. #line:685853
+    Mae: and like that realization like dumped out of the screen and into real life #line:6b98bb
+    Mae: went outside and the tree out front, #line:41a20a
+    Mae: I looked at it every day, it was like a friend outside the window #line:003b76
+    Mae: now it was just a thing... just a thing that was there #line:941c9f
+    Mae: growing and eating and just /being/ there #line:e9728a
+    Mae: like all the stuff i felt about the tree #line:a25282
+    Mae: was just in my head #line:9e9efa
+    Mae: and there was some guy walking by #line:7eaf72
+    Mae: and he was just shapes #line:278823
+    Mae: just like this moving bulk of... stuff #line:1b8138
+    Mae: and I cried #line:420373
+    Mae: because nothing was there for me anymore #line:d718f2
+    Mae: it was all just stuff. Stuff in the universe #line:73f1de
+    Mae: just... dead #line:5f9857
+    Bea: wow... that's... huh #line:35e549
+    Mae: And the next day was that softball game #line:f5915d
+    Mae: and Andy was the pitcher when I was up #line:ecc63d
+    Mae: and he was just shapes too #line:4ef3fb
+    Mae: just lines someone wrote #line:0b251e
+    Mae: like nothing in there #line:9e0969
+    Mae: and I was so scared and angry and just... I dunno #line:791cd0
+    Mae: before I knew it I was on top of him #line:e69168
+    Mae: smashing his face in with the bat #line:97a9dc
+    Mae: just shapes #line:220b02
+    Mae: red shapes all over the grass #line:a0dbc1
+    Bea: oh my god, mae. #line:1db181
+    Bea: have you talked to anyone about this? #line:5ad820
+    Mae: after it happened they made me go to therapy #line:2d1b75
+    Mae: with Dr. Hank- #line:0c3d62
+    Bea: oh gaaaaaaaawd. He’s the worst. #line:f65d14
+    Mae: and he made me start a journal #line:45fdac
+    Bea: a journal? #line:bde14b
+    Mae: yeah he kinda just said it would help to be able to get my thoughts down #line:dc949b
+    Bea: did it help? #line:9823ed
+    Mae: kinda? sorta? #line:5056d3
+    Mae: but since this whole thing happened, when I'm alone in a new place #line:6d03b6
+    Mae: it's all shapes, like back at the softball game #line:586596
+    Mae: I was doing fine at college for a while #line:eedce4
+    Mae: but I couldn't make friends, I was just afraid of being outside or around people alone. #line:f1e890
+    Mae: And there was this statue of like the founder of something. #line:054aa7
+    Mae: a really shitty statue, like all rusty metal, #line:cc7c76
+    Mae: and it was these shapes #line:98f619
+    Mae: and he was pointing down at me #line:18dc6f
+    Mae: and I was so... scared... I didn't leave my dorm room, #line:5c373d
+    Mae: I either didn't eat or I ate entire pizzas at once #line:bf2b38
+    Mae: I downed cough syrup just to sleep all the time #line:223714
+    Mae: and finally I got up the courage to leave. #line:8fe6f5
+    Mae: and I came home. Where everything was fine. #line:d3b2ec
+    Mae: where I knew everyone, and it wasn't just... dead shapes. #line:91c30f
+    Mae: watching me. #line:8ac271
+    Bea: Geez. #line:2025fb
+    Mae: something broke. In my head. In my life. #line:c9ad03
+    Bea: i don’t mean to be like… whatever, but #line:e0ee3d
+    Bea: it sounds like you’re suffering from some serious stuff #line:7b2b4f
+    Bea: and like, I can help you find some help for it? #line:ef3b82
+    Mae: Dr. Hank already tried! #line:850753
+    Bea: I think Dr. Hank should stick to family medicine and dentistry #line:a9f82d
+    Bea: and the half dozen other things he does #line:de3073
+    Bea: and maybe leave the mental health services to someone else. #line:f340de
+    Bea: like there are such things as depression and anxiety and like #line:cbc108
+    Bea: i dunno… what you’re going through, it exists. #line:477a62
+    Mae: I… I thought when I came home… #line:718385
+    Mae: i just- #line:727210
+    Mae: i felt so safe here #line:312b0e
+    Mae: and everything made sense for a few days #line:d5838c
+    Mae: and then all this. #line:842228
+    Mae: and… and… and… #line:fa8457
+    Bea: shhhhhhh #line:dbcdf0
+    Bea: it’s gonna be okay #line:0f4184
+    Bea: we’ll figure this out #line:c8e193
+    Mae: i’m so scared #line:9d2bc6
+    Bea: i know. We’re all scared. #line:fde959
+    Bea: but we’re gonna make it. #line:5d0b6a
+    Bea: you should get some sleep U_U #line:05da76
+    Mae: … #line:d18cf2
+    Mae: I- #line:e026b7
+    Mae: … #line:cdb4f8
+    Mae: … #line:3b729f
+    Bea: zzz #line:62dfca
+    Mae: … #line:7ea4ac
+<<else>>
+    Mae: hey. #line:8dca8c
+    Mae: hey gregg. #line:872533
+    Mae: you awake? #line:9b5866
+    Gregg: yeah. #line:817af0
+    Mae: do you know why I beat down Andy Cullen 6 years ago? #line:d63719
+    Gregg: back then you said you went all crazy #line:7c50a9
+    Gregg: but like that’s not really a reason i guess #line:dcf30d
+    Mae: i was playing that game where you like dated ghosts #line:61694b
+    Gregg: i remember that one. Had a hot skeleton. #line:a8e86a
+    Gregg: Allister or something like that. #line:cb4f80
+    Mae: heh heh yeah #line:c30b88
+    Mae: you were crushing hard on those dank bones. #line:7a3523
+    Mae: i was playing it like 24-7 #line:fb9c05
+    Mae: until this one afternoon #line:262788
+    Mae: and suddenly, like, something broke. #line:bdd045
+    Mae: it was just like... pixels. #line:5af8f1
+    Gregg: your computer broke? #line:268408
+    Mae: no like… reality broke. #line:e7b161
+    Mae: the characters onscreen… like i’d felt like i knew them... #line:86b3b0
+    Mae: but they weren't /people/ anymore. They were just shapes. #line:3b090f
+    Mae: and their lines were just things someone had written #line:27b2bd
+    Mae: they never existed, they never had feelings #line:b41904
+    Mae: they never would exist, either #line:c47168
+    Mae: and it felt so /sad/ #line:c8e17b
+    Mae: like i’d just lost these real people #line:ed96aa
+    Mae: and this whole thing we had, it was just… me. Alone. #line:223ca1
+    Mae: and like that realization like dumped out of the screen and into real life #line:6ca198
+    Mae: went outside and the tree out front, #line:db13c6
+    Mae: I looked at it every day, it was like a friend outside the window #line:a99e5c
+    Mae: now it was just a thing... just a thing that was there #line:0f14ca
+    Mae: growing and eating and just /being/ there #line:b7525b
+    Mae: like all the stuff i felt about the tree #line:6e858e
+    Mae: was just in my head #line:7b50a8
+    Mae: and there was some guy walking by #line:749c31
+    Mae: and he was just shapes #line:3df67c
+    Mae: just like this moving bulk of... stuff #line:c0552e
+    Mae: and I cried #line:d62b1e
+    Mae: because nothing was there for me anymore #line:f0f71f
+    Mae: it was all just stuff. Stuff in the universe #line:5af3f5
+    Mae: just... dead #line:5932e3
+    Gregg: dude. Why didn’t you tell me? #line:a72f1b
+    Mae: i don’t know. What could i have said? #line:991b0b
+    Mae: this all happened like the day before that softball game. #line:32e586
+    Gregg: i mean i was there in the stands. #line:43f203
+    Gregg: i watched you do it. I was so scared for you #line:05d60a
+    Mae: when Andy stepped up it was like... #line:22f6a3
+    Mae: and he was just shapes too #line:024d53
+    Mae: just lines someone wrote #line:36e3e2
+    Mae: like nothing in there #line:480a31
+    Mae: and I was so scared and angry and just... I dunno #line:769401
+    Mae: before I knew it I was on top of him #line:b9a2ae
+    Mae: smashing his face in with the bat #line:e60396
+    Mae: just shapes #line:b4beee
+    Mae: red shapes all over the grass #line:27d6ba
+    Gregg: there wasn’t *that* much blood #line:56f1ee
+    Mae: oh god. I made him bleed all over the place gregg #line:d9b188
+    Mae: i wonder if he like wondered why #line:c2b3cb
+    Mae: what he’d done #line:d276ea
+    Gregg: he was probably an asshole #line:93e446
+    Mae: no, dude. I didn’t know him. Neither did you. #line:b3fa77
+    Gregg: well then you had to go to therapy #line:0faf10
+    Mae: yeah Dr. Hank and his journalling.  #line:01df46
+    Gregg: Dr. hank’s messed up one of my tooth fillings. #line:b7caee
+    Mae: yeah he’s not good at what he does. #line:99d39f
+    Mae: which i guess is understandable because he does like everything. #line:13fd25
+    Gregg: i meant to ask you- did that journal shit… did it actually work? #line:5485fa
+    Mae: kinda? Sorta? #line:fee47a
+    Mae: it helps me… like… grab onto things. And keep them in one place. #line:86ffd3
+    Gregg: whoa. #line:e8310b
+    Mae: but since that whole thing happened back then #line:fd7b16
+    Mae: when I'm alone in a new place #line:84cdd3
+    Mae: it's all shapes, like back at the softball game #line:358ce9
+    Mae: I was doing fine at college for a while #line:8cbd6c
+    Gregg: college is for losers. #line:2d80cd
+    Mae: dude. Listen, ok? #line:93d9f4
+    Gregg: sorry, dude. #line:8e97b1
+    Mae: I couldn't make friends, I was just afraid of being outside or around people alone. #line:81337e
+    Mae: And there was this statue of like the founder of something. #line:807f64
+    Mae: a really shitty statue, like all rusty metal, #line:c30b70
+    Mae: and it was these shapes #line:caa006
+    Mae: and he was pointing down at me #line:1fef4d
+    Mae: and I was so... scared... I didn't leave my dorm room, #line:35bdb6
+    Mae: I either didn't eat or I ate entire pizzas at once #line:930995
+    Mae: I downed cough syrup just to sleep all the time #line:330a5b
+    Gregg: dude #line:55721b
+    Mae: and finally I got up the courage to leave. #line:d14ec4
+    Mae: and I came home. Where everything was fine. #line:b9c69f
+    Mae: where I knew everyone, and it wasn't just... dead shapes. #line:5379ee
+    Mae: watching me. #line:1daa42
+    Gregg: geez, dude. #line:6444f3
+    Mae: something broke. In my head. In my life. #line:fda162
+    Gregg: Dude, you should have called me! #line:03b434
+    Gregg: we could have come and rescued you. #line:5d12d8
+    Gregg: woulda like kidnapped you #line:a6f97d
+    Mae: i like couldn’t call home either #line:4983d2
+    Mae: i couldn’t even talk to anyone #line:a54fd4
+    Mae: i don’t even know why #line:e1501c
+    Mae: i didn’t even come home for longest night #line:9911e6
+    Mae: i just stayed in my room #line:2ff4de
+    Mae: in bed #line:b15010
+    Gregg: that’s… that’s horrible, dude #line:241229
+    Mae: I… I thought when I came home… #line:7b4d7f
+    Mae: i just- #line:4eb2d6
+    Mae: i felt so safe here #line:4a8f1a
+    Mae: and everything made sense for a few days #line:f1c62d
+    Mae: and then all this. #line:8415c5
+    Mae: and… and… and… #line:59462a
+    Gregg: dude… dude… #line:873e21
+    Gregg: shhhhhh… #line:93fcc5
+    Gregg: you’re gonna be ok #line:c85a3c
+    Mae: i’m so scared Gregg #line:587e0a
+    Gregg: i know dude #line:423467
+    Gregg: we’re all freaked out right now. #line:0f6b79
+    Gregg: you need to sleep. #line:c9443f
+    Gregg: i’ll be here all night. U_U #line:940b2a
+    Mae: … #line:d9f15a
+    Mae: I- #line:6ed5b1
+    Mae: … #line:84c093
+    Mae: … #line:446183
+    Gregg: zzz #line:42ae60
+    Mae: … #line:9abf5a
+<<endif>>
+<<fadeOut 1 wait>>
+<<lookNearest Mae>>
+<<wait 3>>
+[[AfterCouchNightmare]]
+===
+title: SetupDomFriendCouchGroup
+tags: 
+colorID: 5
+position: -31346,15354
+---
+<<if $dom_friend_bea>>
+    //if Bea is domfriend, here’s the layout- Bea is sitting on the couch, on the right. Gregg is sitting on the ground in front of the couch to the left, germ on the right. Those two are playing videogames. Angus is in the kitchen, cooking. We just watch this for a few seconds. What era of games is it? Feel like they’d be playing some sort of two-player Tony Hawk thing or something but how do we want to show “old game” audibly w/o it being like 8-bit?
+    <<sit Bea>>
+    <<sit5 Gregg GreggSitInFrontOfCouch>>
+    <<flip Gregg 1>>
+    <<sit5 Germ LeftOfCouch>>
+    <<flip Germ -1>>
+    <<warp Angus AngusKitchen>>
+    <<flip Angus -1>>
+    <<setSpriteLayer Germ FG1>>
+<<else>>
+    //if Gregg is domfriend, here’s the layout- Gregg is standing in front of the couch, to the left. Bea is sitting on the couch, on the right. Germ is sitting in from of the couch on the right. Angus is in the kitchen, cooking. We just watch this for a few seconds. Video game noises.
+    <<warp Gregg GreggSitInFrontOfCouch>>
+    <<flip Gregg 1>>
+    <<sit Bea SitOnCouch3>>
+    <<sit5 Germ GermPlayingGameLeft>>
+    <<flip Germ -1>>
+    <<warp Angus AngusKitchen>>
+    <<flip Angus -1>>
+    <<setSpriteLayer Germ FG1>>
+<<endif>>
+===
+title: InitLevel_A4D2
+tags: 
+colorID: 5
+position: -31001,15197
+---
+<<if $laptop_vignettes>>
+<<elseif $night is 0>>
+    <<cameraLookAt CouchCamera2>>
+
+    <<warp Gregg GreggSitInFrontOfCouch>>
+    <<flip Gregg -1>>
+    <<warp Bea GreggRobotBody>>
+    <<flip Bea -1>>
+    <<sit5 Germ GermPlayingGameLeft>>
+    <<flip Germ -1>>
+    <<warp Angus AngusKitchen>>
+    <<flip Angus -1>>
+    <<setSpriteLayer Germ FG1>>
+
+    <<lookAt Bea Mae>>
+    <<lookAt Gregg Mae>>
+    <<lookOut Germ>>
+
+    <<set $death_walk to 1>>
+    <<playIdleAnimationPlayer>>
+<<else>>
+    <<set $death_walk to 1>>
+    <<sit4 Mae MaeKitchenLandline>>
+    <<set $gregg_angus_phone_off_hook to 1>>
+<<endif>>
+===
+title: InitLevel_A3D3
+tags: 
+colorID: 4
+position: -32333,15305
+---
+<<hide Bea>>
+<<hide Germ>>
+//Gregg and Mae are in the living room.
+<<warp Mae MaeRobotBody>>
+<<warp Gregg GreggRobotBody>>
+//The robot is on the couch(?).
+//Angus is in the kitchen but we can’t see him yet.
+<<warp Angus AngusKitchen>>
+<<cameraLookAt CouchCamera>>
+===
+title: InitLevel_A3D4
+tags: 
+colorID: 4
+position: -31995,15319
+---
+<<cameraLookAt CouchCameraA3D4>>
+<<playerCanRun 0>>
+<<playerCanJump 0>>
+//left to right on the couch, seated: angus, gregg, bea. mae on the floor in floor sit pose//
+
+<<hide Germ>>
+
+<<flip Angus 1>>
+<<sit7 Angus SitOnCouch1>>
+
+<<flip Gregg 1>>
+<<sit Gregg SitOnCouch2>>
+
+<<flip Bea 1>>
+<<sit Bea SitOnCouch3>>
+
+<<sit3 Mae SitRightOfCouchMae>>
+===
+title: EnterLevel_A3D4
+tags: 
+colorID: 4
+position: -32014,15572
+---
+[[PostIQConvo]]
+===
+title: PostIQConvo
+tags: 
+colorID: 4
+position: -32017,15844
+---
+//left to right on the couch, seated: angus, gregg, bea. mae on the floor in floor sit pose//
+<<lookAt Angus Mae>>
+<<lookAt Gregg Mae>>
+<<lookAt Bea Mae>>
+<<dilate Mae .85 0>>
+<<lookAt Mae Gregg>>
+Mae: O_O :( #line:ab6a8b
+Mae: thanks for like... #line:695591
+Mae: coming... #line:83ec18
+Angus: Again, we live here. #line:ffd9b4
+Gregg: yeah you're in my living room. #line:81199e
+Bea: i'll accept the thanks #line:d87a11
+Gregg: so like... do you have an idea of what's going on? #line:e5c3ee
+<<lookDown Mae>>
+    ->there's a ghost that's in my head #line:e3fcfa
+        Mae: like, the night after i saw the kidnapping #line:e82197
+        Mae: or i think it was a kidnapping #line:508a85
+        Mae: i had this dream i barely remember #line:11bb60
+        Mae: except for this sound... #line:a68ddd
+        Mae: this horrible sound #line:a4a1cd
+        Mae: and this feeling #line:e70ae0
+        Mae: and i keep hearing it whenever the ghost gets nearby #line:487a7a
+        Mae: and it's like someone rips open a hole in my brain. #line:41442d
+    ->there's a ghost following me. #line:ee8a20
+        Mae: like it keeps showing up #line:d15c56
+        Mae: when we go out to like investigate it #line:78089a
+        Angus: or all of those times it could have just been a random person? #line:32887e
+        Mae: no! i can like... feel it. #line:bf7d28
+        Mae: in my head! #line:555005
+        Mae: why do you think i freaked out earlier? #line:0bc6e9
+    ->i have no idea. #line:ad4795
+        Mae: but there's a ghost #line:bb6cfb
+        Mae: and it's after me #line:f448ba
+Angus: ... #line:93ce98
+Gregg: ... #line:12ee53
+Bea: ... #line:6f9278
+Mae: i know you guys don't believe me... #line:367a22
+Bea: it's not that i don't believe that something's happening with you #line:5c8f89
+Bea: i just don't know that it's a... ghost. #line:54b062
+Gregg: yeah dude #line:ed467e
+Gregg: there are like 50 better explanations for all of this. #line:1690b5
+<<lookAt Mae Gregg>>
+Mae: like what? #line:78a79d
+Bea: you have like sudden stress migraines #line:11f7ee
+Bea: and you saw something that freaked you out #line:cac6be
+Bea: and makes you stress out. #line:4ab566
+Angus: i get migraines. #line:70ac8f
+Bea: and mae, you've gone through a lot of life changes recently #line:ab9bb4
+Bea: and... i dunno... stress does weird things to people. #line:73823b
+Mae: =_= #line:a34126
+Mae: ok fine. fine. whatever. #line:a572a5
+Mae: i'm going up into the woods #line:1b12a7
+Mae: i know this thing is up there #line:705c72
+Mae: i know what i saw #line:f1a9e1
+Mae: and if you don't believe me, that's fine. #line:fdb019
+Mae: i'll go alone. #line:22b662
+Bea: you're really gonna hike up past the basketball court? #line:ef695c
+Gregg: it's late, dude. #line:f2e67a
+Mae: what do you all care? #line:265b37
+Mae: you don't believe me anyway. #line:437c65
+<<wait 2>>
+Angus: i'll go. #line:73052d
+<<dilate Mae 1 1>>
+Mae: o_o #line:caa5c5
+Mae: ! #line:6836dc
+Angus: listen, i don't believe in ghosts #line:ebed63
+Angus: but i believe in you #line:14058b
+<<lookAt Gregg Angus>>
+Gregg: aw, dude. :) #line:78252e
+Angus: so let's go find your ghost #line:446cb8
+Bea: i was fixin' to say something like that #line:8cd0e4
+Bea: but you said it better. #line:44ab78
+<<lookAt Gregg Mae>>
+Mae: aw... you guys... :) #line:d2d59b
+Bea: it's not even ghost hunting season. #line:746a82
+Angus: yeah, it's buck. #line:b80ffd
+Bea: we're outlaws. #line:50b80b
+Mae: th... thank you... #line:937135
+Mae: for believing me. #line:634407
+Bea: mostly I just don't want you wandering around up there #line:fb2aaa
+Bea: alone #line:2de63f
+Bea: at night. #line:92a9de
+Mae: close enough. =_= #line:1c4421
+Gregg: alright. #line:fdc513
+Gregg: let's hunt some ghost. #line:d0979e
+<<set $night to 1>>
+//<<set $walking_up_to_the_woods to 1>>
+<<fadeOut 1 wait>>
+<<scene MineWoods left>>
+===
+title: Gregg_A4D1
+tags: temp
+colorID: 5
+position: -31708,16329
+---
+<<if $gregg is 0>>
+    Bea: So no word from her parents? #line:25c0a2
+    Gregg: nope. #line:04865f
+	-> Did you leave a message? #line:8f4757
+		Gregg: yep #line:3a3d5e
+	-> That's bad, right? #line:1a0a82
+		Gregg: yup. #line:9b6a77
+		Germ: yerp. #line:c9c31a
+        Bea: thanks guys. #line:f698a1
+    <<set $gregg += 1>>
+<<elseif $gregg is 1>>
+    Bea: This game had a great soundtrack. #line:711836
+    Bea: very high school summer. #line:2384f7
+    Gregg: I listen to like half the bands on it. #line:7cabfe
+    Gregg: We're going to see The Blanktones in a few days. #line:101eeb
+    Gregg: or we were. #line:191324
+    Gregg: I dunno. #line:e1ab35
+    <<set $gregg += 1>>
+    <<set $gregg_done to 1>>
+<<endif>>
+===
+title: Germ_A4D1
+tags: temp
+colorID: 5
+position: -31715,16574
+---
+<<if $dom_friend_bea>>
+    Bea: I played this until I broke one of the sticks. #line:22a0b8
+    Germ: that's harsh. #line:ae59d9
+    -> I don't screw around. #line:8cba3a
+    	Germ: that's the spirit. #line:52a18f
+    -> It was a stressful time. Senior year. #line:fdf263
+    	Germ: I remember. #line:0648ae
+        Germ: sorry about your mom. #line:e3dbab
+        Bea: Thanks. #line:66f03c
+    <<set $germ += 1>>
+    <<set $germ_done to 1>>
+<<else>>
+    Gregg: I used to skate. #line:a0ac9f
+    Gregg: I wasn't super good at it. #line:2ed6a4
+    Germ: I can skate. I am a skater. #line:ed62a8
+	->Sk8 n destroy #line:ca5a9c
+		Germ: i use my powers for good. #line:8e65da
+	->Sk8 2 cre8 #line:dceb3d
+		Germ: i do what i like. #line:02856e
+    <<set $germ += 1>>
+    <<set $germ_done to 1>>
+<<endif>>
+===
+title: Bea_A4D1
+tags: temp
+colorID: 5
+position: -31707,16810
+---
+<<if $bea is 0>>
+    Gregg: So is she dead? #line:f4d023
+    Bea: No idea. No response from her parents. #line:5cbf7d
+    -> that's bad. #line:d6a258
+    	Bea: It's not great. #line:72e4c6
+    -> Maybe they're at the hospital? #line:289624
+    	Bea: She might be like braindead or something. #line:4d448a
+        Bea: More so than usual. #line:c61f66
+        Gregg: Dude. #line:d8ef85
+        Bea: Sorry. That sounded funnier in my head. #line:d1e2e0
+    Gregg: Geez #line:d9c82d
+    <<set $bea += 1>>
+    <<set $bea_done to 1>>
+//<<else>>
+//    <<set $bea += 1>>
+//    <<set $bea_done to 1>>
+<<endif>>
+===
+title: Window_A4D1
+tags: 
+colorID: 5
+position: -31709,17067
+---
+<<if $dom_friend_bea>>
+    <<if $gregg_angus_window is 0>>
+        Bea: I don’t see anyone out there. #line:dcbab7
+        Gregg: Just wait. He’ll be back. #line:7aa99e
+        -> So we still have no idea who this is? #line:963842
+            Gregg: Uh. Big guy. Dirty coat. #line:af50a4
+            Gregg: or several. they could swap out. #line:f7be83
+            Gregg: i can't tell. #line:a7f111
+        -> And the cops? #line:d39341
+            Gregg: we called. they don't care. #line:37a4e7
+            Bea: that's... it? #line:b1c5ff
+            Gregg: "sir, you say you saw a man outside?" #line:40a34e
+            Gregg: "sir, that's not illegal." #line:4cd0d1
+        <<set $gregg_angus_window += 1>>
+    <<else>>
+        Bea: getting dark earlier. #line:a12c04
+        <<set $gregg_angus_window_a4d1_done to 1>>
+    <<endif>>
+<<else>>
+    <<if $gregg_angus_window is 0>>
+        Gregg: I don’t see the dude. #line:94b77b
+        Bea: He was outside my building last night. #line:c9a292
+        Bea: Late. #line:f77c64
+        -> Any ideas who these people are? #line:ecbbf3
+        	Bea: I have zero clue. #line:63d9bf
+            Bea: I can't come up with any explanations that aren't nuts. #line:6070b2
+    	-> You call the cops? #line:bed066
+    		Bea: Yeah I called. #line:2ca7da
+            Bea: they sent someone by. #line:6fe2c1
+            Bea: he was gone. #line:be7f39
+            Bea: also it's not illegal to stand on the street. #line:3b5d3f
+        <<set $gregg_angus_window += 1>>
+    <<else>>
+        Gregg: getting dark earlier. #line:f41332
+        <<set $gregg_angus_window_a4d1_done to 1>>
+    <<endif>>
+<<endif>>
+===
+title: Bedroom_A4D1
+tags: 
+colorID: 5
+position: -31710,17333
+---
+<<if $dom_friend_bea>>
+    Bea: I am so tired. #line:7c4813
+    Bea: I could like curl up on their bed. #line:c6c579
+    Bea: there's like a whole living area under there. #line:a609a6
+<<else>>
+    Gregg: I could use like 5 naps. #line:e788c7
+    Gregg: 5 good naps in one nap bucket. #line:a62e5d
+    Gregg: jump in. #line:9466aa
+<<endif>>
+<<set $gregg_angus_bedroom_done to 1>>
+===
+title: Computer_A4D1
+tags: 
+colorID: 5
+position: -31714,17611
+---
+<<if $dom_friend_bea>>
+    Bea: Computer, eh? #line:5c8151
+<<else>>
+    Gregg: I wonder if they’re watching our internet? #line:d56a54
+    Gregg: can they watch the internet? #line:bad75a
+    Gregg: or is that just for like the government and angry nerds? #line:242a36
+<<endif>>
+<<set $gregg_angus_computer_done to 1>>
+===
+title: Couch_A4D1
+tags: temp
+colorID: 5
+position: -31714,17884
+---
+<<if $dom_friend_bea>>
+    Bea: guys, this is a bad situation #line:75e6d8
+    Gregg: yep #line:8b9f10
+    Angus: yup #line:4da368
+    Germ: yes'm #line:935cfa
+    Gregg: wait everybody shut up #line:f15bfb
+    <<playAmbientSFX _AmbientSFX:mae_shuffle>>
+    <<wait 12>>
+    Bea: what? #line:371820
+    //Angus walks in and stands to the left of the couch//
+    Angus: I heard it too. #line:457196
+    Bea: seriously, what? #line:92b5b5
+    <<close>>
+    <<wait 3>>
+    Angus: there’s someone standing outside the door #line:2b253d
+    Bea: what???? #line:4dc28b
+    Gregg: everyone be very quiet #line:b5b49d
+    <<close>>
+    <<wait 3>>
+    //three knocks on the door- how do we want to do this? Just sound? Some sort of graphic too? Maybe not?//
+    Bea: oh my god #line:53a41e
+<<else>>
+    Gregg: guys, this is a bad situation #line:c80802
+    Bea: yep #line:0cffc6
+    Angus: yup #line:3119bf
+    Germ: yessir #line:8628d3
+    Gregg: wait everybody shut up #line:8e7423
+    <<playAmbientSFX _AmbientSFX:mae_shuffle>>
+    <<wait 12>>
+    Bea: what? #line:6245a7
+    //Angus walks in and stands to the left of the couch//
+    Angus: I heard it too. #line:787ed2
+    Bea: seriously, what? #line:a53b05
+    <<wait 3>>
+    Angus: there’s someone standing outside the door #line:69e56b
+    Bea: what???? #line:1e3b7d
+    Gregg: everyone be very quiet #line:3f4c5e
+    <<wait 3>>
+    //three knocks on the door- how do we want to do this? Just sound? Some sort of graphic too? Maybe not?//
+    Gregg: crap. #line:a2250f
+<<endif>>
+<<fadeOut .0001 wait>>
+<<wait 3>>
+<<scene DeathPrairie_Woods>>
+===
+title: AngusKitchen_A4D1
+tags: temp
+colorID: 5
+position: -31701,18117
+---
+Angus: Ok so... got brownies, got sodas... #line:574b2e
+===
+title: GermLeaves
+tags: 
+colorID: 5
+position: -30149,16992
+---
+Germ: See you all tomorrow! #line:e88b2a
+Mae: you sure it’s safe for you to leave? #line:51b4dd
+<<if $did_germ_friendship_quest_1 and $did_germ_friendship_quest_2>>
+    //walk mae and germ over by door//
+    <<close>>
+    <<walk Germ GermByDoorWithMae wait>>
+    <<if $dom_friend_bea is 0>>
+        // only flip if gregg is dom friend
+        <<flip Mae -1>>
+    <<endif>>
+    <<lookAt Germ Mae>>
+    Germ: Safer for me, at least. #line:c0684a
+    Germ: Nobody’s been following me #line:917689
+    Germ: I wasn’t in the woods the other night. #line:1d5f55
+    Mae: Oh. right. #line:e421fd
+    Germ: I’ll keep an eye out. #line:77667c
+    Germ: also I got mace #line:e654aa
+    Mae: you carry mace? #line:708d44
+    <<if $germ_followed>>
+        Germ: since that dude followed me home that one time. #line:53bbb9
+        Mae: oh. Right. #line:6bdd54
+    <<endif>>
+    <<wait 2>>
+    <<if $did_germ_friendship_quest_3 is 0>>
+        Germ: I live out past the parking lots #line:9f188b
+        Germ: up in the woods #line:2b736c
+        Germ: out at the edge of town #line:727dc3
+        Germ: before it's just state park. #line:295892
+        Germ: got a mom and a dad #line:e73644
+        Germ: and some siblin's #line:dd2d0c
+        Germ: and a gramma. #line:9359fc
+        Germ: she's spooky sometimes. #line:ed9ab4
+        Mae: wow. #line:3e5e95
+        Germ: we got a trampoline. #line:28a3f4
+        Mae: aw lucky. #line:febd77
+    <<endif>>
+    Germ: hey mae? #line:9909e0
+    Mae: yeah Germ? #line:b66f08
+    Germ: what’s your name short for? #line:20058a
+    Mae: ... #line:05f286
+    Germ: ... #line:fa3ba9
+    Mae: ...Margaret. #line:5ceb82
+    Germ: Take care of yourself, Margaret. #line:159c54
+    Mae: You too, Jeremy. #line:ba44cb
+    <<unlockAchievement He's_From_Somewhere>>
+<<else>>
+    Germ: None of this got anything to do with me #line:57ab5a
+	Germ: no weirdos are following me around #line:4c52b1
+	Mae: oh. Right. #line:ab7e58
+	Germ: See ya! #line:3c11cb
+	Mae: Bye, Germ #line:08d0d1
+    //Mae: What a weird guy.
+    //Gregg: Aw, Germ’s alright.
+<<endif>>
+<<fadeOut 1 wait>>
+<<hide Germ>>
+[[Bedtime]]
+===

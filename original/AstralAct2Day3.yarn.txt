@@ -1,0 +1,11 @@
+title: Trigger
+tags: 
+colorID: 0
+position: 470,230
+---
+<<tell AstralAct2Day3 End>>
+<<wait 21>>
+<<fadeOut 1 wait>>
+<<wait 3>>
+<<endDay>>
+===

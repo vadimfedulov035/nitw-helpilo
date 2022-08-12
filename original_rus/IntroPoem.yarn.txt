@@ -1,0 +1,74 @@
+title: Start
+tags: 
+colorID: 0
+position: 96,614
+---
+<<wait 5>>
+Mae: В год, когда дедушка умер, #line:e32925
+<<setIndentLevel 1>>
+<<shuffleNextOptions>>
+-> случилось самое ужасное наводнение после 1998 г. #line:664782
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 1 1>>
+    Mae: Грегг застрял на крыше собачьей будки. #line:a727b1
+    Mae: Электричество отрубили на два дня. #line:5ce2bc
+    Mae: Кейси Хартли приплыл на лодке своего отца, #line:5456ca
+    Mae: Я засмеялась, когда увидела его. #line:3bdd32
+-> продлили шоссе #line:c399c8
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 1 1>>
+    Mae: Только дорога через Поссум Спрингс #line:9640ac
+    Mae: вела к национальному парку. #line:43c488
+    Mae: На шоссе начались пробки, #line:56d481
+    Mae: но благодаря нему появился Донат Вулф. #line:a21ab3
+<<setIndentLevel 0>>
+<<moveParameter WindSFX wind_intensity 3 1>>
+Mae: Дедушка оставил мне книги в ящике из-под яблок. #line:27ba7a
+Mae: Он любил истории про приведений #line:fcf1c5
+Mae: и рассказывал их сам себе, лёжа на больничной койке. #line:04c9dc
+<<setIndentLevel 1>>
+<<shuffleNextOptions>>
+-> "Они приходят в поисках богов, #line:55770c
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 5 1>>
+    Mae: и умирают в одиночестве." #line:f4444f
+-> "В его лесах, его краях" #line:e7dd5e
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 5 1>>
+    Mae: вся жизнь умрёт, не зная страх." #line:42f07d
+-> "Они боялись смерти, #line:25c4de
+    <<setIndentLevel 2>>
+    Mae: поэтому они пожирали юных." #line:d24b51
+<<setIndentLevel 0>>
+<<moveParameter WindSFX wind_intensity 7 1>>
+<<wrapPoem>>
+Mae: В свой последний день #line:bedd20
+Mae: он внезапно приподнялся #line:7b0840
+Mae: и уставился в окно #line:326767
+<<setIndentLevel 1>>
+<<shuffleNextOptions>>
+-> на старую пустую мельницу. #line:54cefc
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 8 1>>
+    Mae: Окна наполовину открыты. #line:11df12
+-> на старую детскую площадку, #line:7bd73c
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 8 1>>
+    Mae: наполовину смытую. #line:052bf6
+-> на старые поезда, #line:ca2e8b
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 8 1>>
+    Mae: проезжавшие непонятно откуда|и непонятно куда. #line:08c0e1
+-> на старую автостоянку, #line:442b05
+    <<setIndentLevel 2>>
+    Mae: широкую и сверкающую, как океаны. #line:8e5509
+<<setIndentLevel 0>>
+<<moveParameter WindSFX wind_intensity 10 1>>
+Mae: Он повернулся к моему отцу, #line:0c5bf6
+Mae: глаза все такие же широкие. #line:005ede
+Mae: "Этот дом полон призраков" #line:ab7656
+Mae: сказал он #line:c5b031
+Mae: и умер. #line:2787b2
+<<fadeOut 2 wait>>
+<<scene BusStation>>
+===

@@ -1,0 +1,216 @@
+title: CliffJump
+tags: 
+colorID: 0
+position: 91,-205
+---
+<<showTalkingHeads>>
+<<setCameraMode Stationary>>
+<<if $cliff_jumps is 0>>
+	Mae: ...and then she jumped off the cliff! #line:33257d
+	Granddad: What? No she didn't! #line:572884
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps > 0 and $cliff_jumps < 1000>>
+	Mae: ...and then she jumped-- #line:6b4635
+	Granddad: No Mae. Just stop. #line:d831aa
+	<<set $cliff_jumps = 1000>>
+<<elseif $cliff_jumps is 1000>>
+	Granddad: Sigh. #line:416c03
+<<endif>>
+<<fadeOut 1 0 0 0>>
+<<wait 1>>
+<<scene LN2_FG_Interior>>
+
+===
+title: ForestGod
+tags: 
+colorID: 0
+position: 537,-178
+---
+Adina: ...hello? #line:8f9cb9
+<<close>>
+<<wait 2>>
+Adina: Are you there? #line:3901b9
+ForestGod: You've come late. #line:b3e896
+ForestGod: You are no Empress. #line:69c6ca
+ForestGod: Centuries have passed since I spoke to one so small and unimportant. #line:7ee7ba
+ForestGod: It is my right to kill you. #line:d3241b
+Adina: I didn't know that. #line:a63ec6
+ForestGod: Accept it. Death is happening always. #line:f2f5d0
+Adina: Why should I accept it? #line:3d4ed1
+ForestGod: It is the natural way. #line:d5fb1d
+Adina: Funny how you decided that the way that allows you to kill me #line:e18a5e
+Adina: is the natural one. #line:3a47c3
+ForestGod: Brrrrrrrrrrrrrl. #line:2e4098
+Adina: You're not a god. #line:6a33ef
+Adina: You're just a big animal. #line:e788eb
+<<animationTrigger ForestGod LightsUp>>
+ForestGod: They call me a god.  #line:d19622
+ForestGod: So I'm god enough. #line:1e0bfc
+ForestGod: Tell me what was so important to say to me that you would give up your life. #line:83d296
+[[I know why you are dying.|FGKnowDying]] #line:b9b0c4
+[[I know why you are sick.|FGKnowSick]] #line:4d74f1
+
+===
+title: Intro
+tags: 
+colorID: 0
+position: -400,91
+---
+GodtenderBrown: Approach them with humility. #line:9bad52
+GodtenderBrown: I will wait here. #line:e2ebd6
+<<speechBubbleSizeOverride 0>>
+===
+title: FGKnowSick
+tags: 
+colorID: 0
+position: 647,80
+---
+ForestGod: BRRRRRRRRRL. #line:3ab1d0
+ForestGod: Sickness cannot touch me. #line:b37504
+Adina: You don't have a sickness, but you are dying. #line:9c7ef2
+Adina: Funny, now that it's happening to you, death isn't so easy to accept, huh? #line:72d796
+ForestGod: It was Godtender Brown who told you I was weak. #line:f95262
+ForestGod: Useless, worthless. #line:5ab8dc
+ForestGod: I will find use for him. He will feed the forest. #line:bb634e
+ForestGod: The trees will find worth in him. #line:b6e74c
+Adina: No. #line:2457cc
+Adina: Godtender Brown is a good man. #line:f24916
+Adina: He is kind and curious and warm. #line:1b75ec
+Adina: Even while standing out in the cold, for you. #line:e3fcf9
+ForestGod: BRRRRRRRRL. #line:388383
+Adina: He thinks he doesn't deserve you #line:8401df
+Adina: But you don't deserve him. #line:fcaeb4
+Adina: And I'd rather you die never knowing what happened to you #line:5b59d0
+Adina: then to have you touch one hair on his head #line:d6132e
+Adina: or betray his devotion. #line:7005cf
+ForestGod: Why are we sick? #line:67fab8
+Adina: Promise Brown will be safe. Promise on whatever is holy to you. #line:9ebba5
+ForestGod: I promise on myself. I promise on the 10 million mile forest. #line:7b7914
+Adina: Good. #line:490589
+ForestGod: Now swear on what is holy to you. #line:c743cb
+[[I swear on the stars.|FGSwear]] #line:e9709f
+[[I swear on the family you find.|FGSwear]] #line:7114cc
+[[I swear on the search.|FGSwear]] #line:045939
+
+===
+title: FGKnowDying
+tags: 
+colorID: 0
+position: 418,82
+---
+ForestGod: BRRRRRRRRRL. #line:dffee9
+ForestGod: I am not dying. #line:15cf7b
+Adina: Oh, I thought you might have accepted it. #line:151981
+Adina: Death being always and all that. #line:d355ee
+ForestGod: It was Godtender Brown who told you. #line:b19571
+ForestGod: Useless, worthless. #line:8abcb9
+ForestGod: I will find use for him. He will feed the forest. #line:a5beb1
+ForestGod: The trees will find worth in him. #line:acb0e3
+Adina: No. #line:fe4fe9
+Adina: Godtender Brown is a good man. #line:007391
+Adina: He is kind and curious and warm. #line:cd47d8
+Adina: Even while standing out in the cold, for you. #line:0c1024
+ForestGod: BRRRRRRRRL. #line:d9d1b8
+Adina: He thinks he doesn't deserve you #line:4b85e9
+Adina: But you don't deserve him. #line:379282
+Adina: And I'd rather you die never knowing what happened to you #line:866784
+Adina: then to have you touch one hair on his head #line:b1a350
+Adina: or betray his devotion. #line:ef4148
+ForestGod: Why are we dying? #line:1ed1d7
+Adina: Promise Brown will be safe. Promise on whatever is holy to you. #line:4a439f
+ForestGod: I promise on myself. I promise on the taiga, endless. #line:31b06b
+Adina: Good. #line:63870b
+ForestGod: Now swear on what is holy to you. #line:d4e76d
+[[I swear on the stars.|FGSwear]] #line:c2b22c
+[[I swear on the family you find.|FGSwear]] #line:adbf67
+[[I swear on the search.|FGSwear]] #line:49aaf4
+
+===
+title: FGSwear
+tags: 
+colorID: 0
+position: 524,336
+---
+ForestGod: If that is what gives you hope, fine. #line:e57a38
+ForestGod: Now speak. #line:fcf1ac
+Adina: The only reason I came here is because of Godtender Brown's sadness #line:6772c1
+Adina: and his love for you. #line:f1ac47
+Adina: But you won't survive. And now I want you to know that. #line:ec3138
+ForestGod: SPEAK!!!!! #line:b30e53
+Adina: The Huncher poisoned you. #line:01c2c9
+Adina: Obviously. #line:f4f928
+ForestGod: BRRRRRRRRRRRRRL. #line:7ab9f3
+ForestGod: There was peace! After- #line:a593d2
+Adina: hundreds of years, I know. #line:a1cdcb
+ForestGod: But why? #line:5101de
+Adina: She's a survivor. #line:40b3a4
+Adina: It appears you won't be. #line:90b932
+ForestGod: Then neither shall she. #line:3e3e47
+Adina: Ugh. #line:8bd2a0
+Adina: You big dumb animal. #line:85b1f6
+<<fadeOutMusic 3>>
+ForestGod:{width=8} BRRRRRRRAAAAAAAAAAAAAAAAAAAARLLLLL!!!!! #line:fc3b22
+<<close>>
+<<wait 1>>
+<<tell ForestGodFlyAway to Play>>
+<<animationTrigger ForestGod Freakout>>
+<<wait 9>>
+<<hide ForestGod>>
+<<wait 4>>
+Adina: Goodbye. #line:8e11f7
+<<destroy Fire1>>
+<<destroy Fire2>>
+<<set $forest_god to 1>>
+<<end>>
+
+===
+title: Done
+tags: 
+colorID: 0
+position: -69,80
+---
+Adina: They're gone. #line:ca030a
+GodtenderBrown: They'll be back! They always are. #line:963416
+Adina: Godtender... #line:1c74cf
+GodtenderBrown: Yes, Empress? #line:672923
+Adina: You're a good man. #line:f51190
+GodtenderBrown: Thank you, I can only hope to be good. #line:976238
+Adina:{width=5} Hope is good. Whatever happens, please don't lose that. #line:d80283
+GodtenderBrown: I wish you blessings on your journey. #line:ca9ec7
+Adina: You as well. Happy Longest Night. #line:26d12d
+GodtenderBrown: Happy Longest Night to you. #line:d2a8ce
+<<close>>
+<<fadeOut 3 0 0 0>>
+<<wait 3>>
+<<speechBubbleSizeOverride 0>>
+<<showTalkingHeads>>
+Mae: I'm getting sleepy, Granddad. #line:7c77dd
+Granddad: We're almost done, Mae. #line:40e80d
+Mae: Ok good. I like the story a lot. #line:526754
+Granddad: I knew you would. #line:259686
+Mae: You can rob banks with me anytime. #line:67ea7d
+<<hideTalkingHeads>>
+<<wait 1>>
+<<scene LN2_LostWoods>>
+
+===
+title: GodtenderBrown
+tags: 
+colorID: 0
+position: -238,-192
+---
+<<speechBubbleSizeOverride 1>>
+<<if $forest_god is 0>>
+	[[Intro]]
+<<else>>
+	[[Done]]
+<<endif>>
+
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 329,-465
+---
+<<clearSnowballs>>
+===

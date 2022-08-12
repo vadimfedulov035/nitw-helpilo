@@ -1,0 +1,72 @@
+title: Harleys
+tags: 
+colorID: 2
+position: 516,878
+---
+<<setInvolvedCharacters Mae Harley1 Harley2 Harley3>>
+<<if $harleys_sequence is 0>>
+    <<if $harleys is 0>>
+        <<set $harleys += 1>>
+        <<set $harleys_done to 1>>
+        [[Harleys_00_00]]
+    <<endif>>
+<<endif>>
+===
+title: Harley1
+tags: 
+colorID: 2
+position: 146,552
+---
+[[Harleys]]
+===
+title: Harley2
+tags: 
+colorID: 2
+position: 523,498
+---
+[[Harleys]]
+===
+title: Harley3
+tags: 
+colorID: 2
+position: 926,603
+---
+[[Harleys]]
+===
+title: Harleys_00_00
+tags: 
+colorID: 2
+position: 519,1205
+---
+Mae: Hey it’s the Harleys! What are you doing? #line:1519db
+Harley2: Little Joe you’re under arrest #line:2afbec
+Mae: Oh wow. Kids still talk about Little Joe? #line:7c504d
+Harley3: We used your DNA #line:c1f21a
+-> Do you kids know what DNA is? #line:2d8d78
+    Harley3: Yeah it's stuff you use to solve crimes #line:07ddfb
+    Harley2: Like a body part but really small. #line:6d6dda
+    Harley1: But ghosts don't have parts. #line:ecb1b2
+    Mae: Yeah Harley, Harley's right. #line:a71ec9
+    Harley3: Hey lady, will you go away? #line:dadc58
+    Mae: Lady?! #line:c6a634
+-> Ghosts don't have DNA #line:c98ae7
+    Harley1: Yeah ghosts don't have DNA #line:6058a8
+    Harley3: Hey lady can you leave us alone? #line:ac8388
+    Harley2: Yeah leave us alone lady. #line:e89d66
+    Mae: Lady?! #line:eed325
+===
+title: Harley1InitLevel
+tags: 
+colorID: 0
+position: 858,139
+---
+<<if $act is 1 and $day is 1 and $Underhill is 1>>
+    <<show Harley1>>
+    <<show Harley2>>
+    <<show Harley3>>
+<<else>>
+    <<hide Harley1>>
+    <<hide Harley2>>
+    <<hide Harley3>>
+<<endif>>
+===

@@ -1,0 +1,127 @@
+title: Trigger
+tags: 
+colorID: 0
+position: 371,228
+---
+<<playMusic cat_god 10>>
+Mae: UPNBET? #line:617119
+<<close>>
+<<wait 4>>
+Mae: TJ1 YMEEQJ F0B0PNTJ? #line:abb223
+CatGod: DA. #line:7e9b95
+Mae: TJ1 UEPBJ1L, C 4EM R PEQNVA 3AF0B0PNTJ 3DECJ. #line:08a27c
+<<close>>
+<<wait 4>>
+Mae: TJ1... 60F? #line:544736
+CatGod: HET... #line:0f206f
+Mae: 0Y #line:52f1ad
+<<close>>
+<<wait 2>>
+Mae: TAK, #line:110df2
+CatGod: T0VJK0 4T0 UPNX0DNVN MAVEHJKNE CYWECTBA #line:d1c652
+CatGod: N CUPAQNBAVN, 60F VN R #line:e20d2b
+CatGod: R CUP0CNV, 4T0 ECTJ 60F #line:80720d
+CatGod: N 0HN 0TBETNVN #line:3ac4ac
+CatGod: H0 R HE NX 60F #line:ec8ecf
+CatGod: NX 60FA HE CYWECTBYET #line:335e0f
+->HY, TJ1 HE M0SEQJ YBNDETJ 60FA #line:08accd
+	CatGod: TJ1 BNDNQJ T0, 4T0 SEVAEQJ YBNDETJ, MAVEHJK0E CYWECTB0 #line:ec83da
+->HY, DYMA%, 0H UPNX0DNT C BEP0L #line:11b5f0
+	CatGod: MAVEHJKNE CYWECTBA 06JRCHR%T, 4T0 ECTJ BEPA #line:597117
+	CatGod: MFH0BEHNR HA3AD 6J1V0 HA4AV0 BCEMY #line:413c34
+	CatGod: N R TAM CEL4AC, N 3DECJ CEL4AC #line:d3c5f9
+	CatGod:N 60FY HEFDE UPRTATJCR #line:dc50a2
+Mae: ... #line:ff78f8
+Mae: TAK 4T0 R 3DECJ DEVA%? #line:11809d
+CatGod: B0V04NQJ CYWECTB0BAHNE #line:218285
+Mae: HE, B CMJ1CVE, 4T0 R *3DECJ* DEVA%? #line:632300
+Mae: 4T0 TJ1 TAK0E? N KT0 TE DPYFNE 0FP0MHJ1E SNB0THJ1E? #line:00e9f5
+Mae: R BNSY UPN3PAK0B? #line:2d454d
+Mae: TAM 6J1VN KAK 6YDT0 KYCKN PEAVJH0CTN... #line:e764b2
+Mae: R BNDEVA U0E3D... K0T0PJ1L 6J1V F0P0D0M? #line:ef5d89
+Mae: GT0 BCE... #line:549554
+Mae: APFX. R 3A6J1VA. #line:edcc03
+<<close>>
+<<wait 2>>
+Mae: 0KEL, NTAK... #line:ad50b3
+CatGod: 60VJQ0L 3BEPJ NDET 4EPE3 UECKN #line:20b41d
+CatGod: N 3A6EPAETCR HA HE60 #line:361d5f
+CatGod: N TEUEPJ HA T0M MECTE DJ1PA #line:64b96d
+CatGod: N TEUEPJ EF0 HET#line:081e7c
+CatGod: N TEUEPJ ECTJ TJ1 #line:403260
+->4T0? #line:c0f98a
+->...DJ1PA? #line:525915
+	CatGod:0H 6JET K0UJ1TAMN #line:dd4fcc
+	CatGod:0H DEVAET DJ1PY. #line:e3036c
+CatGod: MAVEHJKNE CYWECTBA UVJ1BYT U0 B03DYXY #line:0b2d7b
+CatGod: 0HN PA36P0CAHJ1 U0 MNPY 0TF0V0CKAMN SN3HN #line:87d756
+CatGod: N 0HN CUPAQNBA%T MEHR 0 60FE #line:f062e7
+Mae: F0V0BA 60VNT #line:9d9ad4
+CatGod: R C06NPA%CJ PACCKA3ATJ TE6E, MAVEHJK0E CYWECTB0 #line:0eefdb
+CatGod: TJ1 UVJ1BEQJ BCE DAVJQE N DAVJQE B 0TKPJ1T0E M0PE #line:9495bd
+CatGod: N BUEPEDN HE4T0 CVEU0E N YSACA%WEE #line:f267fe
+CatGod: N R U0KA3J1BA% TE6E GT0 CEL4AC #line:e8cb49
+<<close>>
+<<playMusic unknowable 6>>
+//flash to horrifying things//
+<<trigger AstralAct3Day2 BeyondThings>> 
+<<wait 9>>
+<<fadeOutMusic 3>>
+<<wait 3>>
+<<playMusic cat_god 10>>
+Mae: AAAAA #line:f27b40
+Mae: 0 60SE, 0 60SE. #line:bb6ef4
+CatGod: 0HN CVEUJ1, H0 BNDRT TE6R #line:98af44
+CatGod: N TJ1 NDEQJ K HNM #line:795b10
+CatGod: U0CVE 4EF0 TJ1 HE CM0SEQJ BEPHYTJCR C%DA #line:1d6510
+CatGod: R 3A6NPA%CJ BBJ1CJ #line:90d58a
+CatGod: N 3AKPJ1BA% HE6ECA #line:61f820
+->3A4EM? #line:9a3186
+	CatGod: HAD0EV0 PA3F0BAPNBATJ 0 60FE #line:a57f7c
+	CatGod: HAD0EV0, 4T0 MEHR C4NTA%T 60F0M #line:535d41
+->3AUE4ATAEQJ HE60? #line:5d1910
+	CatGod: DA #line:e1db21
+Mae: 0KEL... #line:6b8cfb
+CatGod: N EWE 0DH0 #line:21b069
+CatGod: B OEHTPE BCEF0 CYWEF0 ECTJ DJ1PA #line:7d30fe
+CatGod: N 0HA PACQNPRETCR #line:f44127
+CatGod: R BNSY EE MESDY 3BE3D #line:d32159
+CatGod: 4T0-T0 FPRDET	 #line:1a108e
+CatGod: N TJ1 HE N36ESNQJ GT0F0 #line:b6716f
+CatGod: N BCEVEHHAR 3A6YDET TE6R #line:cea4a2
+CatGod: N BCEVEHHAR 6YDET 3A6J1TA #line:008e51
+CatGod: HE 0CTAHETCR HN4EF0, 4T0 U0MHNT 0 HEL #line:d18390
+CatGod: HN4EF0 HE 0CTAHETCR #line:2b8a50
+CatGod: T0VJK0 DJ1PA #line:071802
+Mae: TAK 4T0... HN4T0 HE NMEET CMJ1CVA? #line:63ec68
+CatGod: GT0 B0UP0C, HE TPE6Y%WNL 0TBETA #line:f0c28d
+-> KAK SE M0L D0M? KAK SE M0N DPY3JR? #line:d12326
+	CatGod: CK0P0 0HN YMPYT #line:211db5
+	CatGod: CK0P0 0HN CFHN%T #line:83e7b0
+-> 4T0 HAC4ET DEPEBJEB 0CEHJ%? 4T0 HAC4ET VNCTJEB? #line:77a1a2
+	CatGod: UYCTAR, HN4EF0 HE 3HA4AWAR, SN3HJ #line:543324
+CatGod: TJ1 - GT0 AT0MJ1 #line:6c5437
+//begin blurry fade to black//
+CatGod: N TB0NM AT0MAM BCE PABH0, CYWECTBYEQJ VN TJ1 #line:3add4e
+CatGod: N TB0N AT0MJ1 B0V04AT CB0E CYWECTB0BAHNE #line:fe9968
+Mae: T0FDA KAK0F0 XPEHA R 3DECJ DEVA%? KT0 PEQNV, 4T0 R D0VSHA BCE GT0 YBNDETJ? #line:fce248
+Mae: FDE MJ1 CEL4AC? #line:99265f
+CatGod: CYWECTB0, HNKT0 TE6R HE BJ16NPAV #line:551cbe
+CatGod: HET HNK0F0, KT0 BJ16NPAET N PEQAET #line:33f5a3
+CatGod: MJ1 CEL4AC HNFDE #line:034f0c
+CatGod: MJ1 60VJQE HE BCTPETNMCR #line:a547d5
+//fully black now//
+CatGod: N BCEVEHHAR 3A6YDET TE6R #line:02c14c
+CatGod: H0 R 6YDY U0MHNTJ #line:6decf6
+CatGod: X0TJ TJ1 MHE 6E3PA3VN4HA #line:e3194f
+CatGod: HA4AV0 BCEF0 6J1V0 HE TAK DABH0 #line:1b7a0e
+CatGod: K0HEO BCEMY T0SE 6VN3K0 #line:fefbd3
+CatGod: BCE 6YDET 3A6J1T0 6J1CTPEE #line:fb74aa
+CatGod: 4EM TJ1 DYMAEQJ #line:777671
+CatGod: UP0WAL, MAVEHJK0E CYWECTB0 #line:e97d11
+<<close>>
+<<fadeOutMusic 5>>
+<<fadeOut 5 wait>>
+<<wait 5>>
+<<endDay>>
+===

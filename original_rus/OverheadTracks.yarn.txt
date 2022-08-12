@@ -1,0 +1,187 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 621,68
+---
+<<if $did_lori_friendship_quest_1 is 0>>
+    [[Tracks1]]
+<<else>>
+    [[Tracks2]]
+<<endif>>
+===
+title: Tracks2
+tags: 
+colorID: 4
+position: 805,431
+---
+<<freezePlayer>>
+<<wait 4>>
+Lori: 3HAEQJ, 4EF0 HET B HAQEM F0P0DE? #line:7f646f
+Mae: 3A6EFAV0BKN C TAK0. #line:fd6546
+Lori: CEPNLHJ1X Y6NLO #line:431d74
+Mae: 0, DA. XM. #line:105797
+Mae: B CMJ1CVE, R 6J1 CHA4AVA UP0F0V0C0BAVA 3A 3A6EFAV0BKY C TAK0, H0 #line:215aef
+Mae: DA, Y HAC HNK0FDA HE 6J1V0 C06CTBEHH0F0 CEPNLH0F0 Y6NLOJ1 #line:a0745b
+Lori: TJ1 K0FDA-HN6YDJ DYMAVA 0 T0M, 4T06J1 K0F0-T0 Y6NTJ? #line:4e2613
+Lori: TNUA... VADH0, 0KEL #line:d1336c
+Lori: HECK0VJK0 DVNHHELQNX H04EL HA3AD R U0QVA B 6PALT XPAP60P C0 CB0NMN TETEL N KY3NH0L #line:119ced
+Lori: N MJ1 CUYCTNVNCJ B METP0 #line:4c69a9
+Lori: N, TNUA, TAM HET UEPNV HAD PEVJCAMN #line:3db6d2
+Lori: N Y MEHR 6J1V0 TAK0E BHE3AUH0E SEVAHNE CT0VKHYTJ K0F0-T0 HA HNX? #line:0d50f5
+Lori: GT0 6J1V0 CTPEMH0, N MHE 6J1V0 CTJ1DH0 3A GT0 D0VF0E BPEMR #line:63c992
+Lori: H0, TNUA, R HE CDEVAVA GT0F0 HA CAM0M DEVE, TAK 4T0 #line:54610a
+Lori: B CMJ1CVE, GT0 H0PMAVJH0? #line:04a34e
+Mae: R DYMA%, GT0 BU0VHE H0PMAVJH0 #line:87856d
+Lori: R DYMA%, TJ1 UPABDA *UJ1TAVACJ* Y6NTJ K0E-K0F0 #line:061ab8
+    -> GT0 6J1V0 U0-DPYF0MY #line:d961d1
+        Lori: KAK? #line:fd094b
+        Mae: GT0 6J1V0, TNUA... HE3AUVAHNP0BAHH0 #line:1b7898
+    -> HET #line:96abb3
+        Lori: MH0FNE TAK DYMA%T #line:d2c452
+        Mae: AFA, HY #line:834f70
+        Mae: MH0FNE PEAVJH0 TYU0PJ1VJ1E #line:3fb47d
+Mae: N R HE UJ1TAVACJ EF0 Y6NTJ #line:f888f4
+Mae: TAK UP0CT0 U0VY4NV0CJ #line:873965
+Mae: TAK 4T0 HET #line:4b5a0a
+Mae: GT0 HE 6J1V, TNUA, M0L UEPBJ1L QAF #line:68d528
+Mae: HA UYTN B CEPNLH0Y6NLCTBEHH0E K0P0VEBCTB0 #line:03bd3f
+<<wait 2>>
+Lori: UP0CTN. #line:e69332
+<<setAnimInt Lori laying 2>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 2>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+//mae pulls her feet in as the train passes//
+<<trigger OverheadTracks TrainPassBottom>>
+<<wait 13>>
+<<setAnimInt Lori laying 1>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 3>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+Mae: 6J1V0 KPYT0. #line:ed0e58
+Lori: 3HAEQJ, 4T0 MHE HPABNTCR? #line:8e6d8f
+Mae: TAK0 #line:015d7b
+Lori: KAPTNHKN METE0PNTA, K0T0PJ1L Y6NV DNH03ABP0B, #line:322cd0
+Lori: HA K0T0PJ1X DNH03ABPJ1 BNDRT EF0 B HE6E. #line:4680fa
+Mae: 0, DA, #line:c9b2a1
+Mae: UPRM0 KAK HA BCEX 0CTAVJHJ1X KAPTNHAX C GTNM METE0PNT0M. #line:322827
+Mae: CTPAHH0 #line:1bdcb4
+Lori: NHTEPECH0, 3HAVN VN 0HN. #line:e2b920
+//lori pulls her feet in as the train passes//
+<<setAnimInt Lori laying 2>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 2>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+<<trigger OverheadTracks TrainPassBoth>>
+<<wait 13>>
+Lori: VADH0 VADH0 VADH0 #line:ec29ff
+Lori: DABAL U0CM0TPNM, 4T0 Y HAC U0VY4NV0CJ! #line:91f04b
+<<irisOut 1 wait>>
+<<scene Tracks>>
+===
+title: Tracks1
+tags: 
+colorID: 3
+position: 486,431
+---
+<<freezePlayer>>
+<<wait 4>>
+Lori: NH0FDA R UPNX0SY C%DA U0 H04AM #line:bbe2c1
+Lori: N 3ACJ1UA% MESDY GTNMN UYTRMN. #line:8e5e9b
+	->GT0 3BY4NT 0UACH0 #line:570446
+	-> 3A4EM? #line:96fcd6
+		Lori: R HE 3HA%. #line:9e74c3
+Lori: R 4YBCTBY% CE6R B3B0VH0BAHH0L N M0FY YCHYTJ #line:7f047d
+Lori: Y TE6R 6J1BAV0 TAK0E, #line:ba219b
+Lori: K0FDA TJ1 TAK B3B0VH0BAHA, 4T0 NDEQJ CUATJ? #line:873512
+	->K0ZE DEVAET MEHR C0HH0L. #line:c404a6
+		Lori: XA-XA. CVA6A4KA. #line:b09735
+		Mae: BNH0BATA. #line:220eb2
+	->Y MEHR 6J1BA%T CTPECC0BJ1E CHJ1, ECVN R CVNQK0M B3B0VH0BAHA #line:8202c8
+		Lori: R HE U0MH% CB0NX CH0B #line:ba3997
+//train noise in the distance to the right//
+<<tell _AmbientSFX:train_whistle Play>>
+<<close>>
+<<wait 4>>
+Lori: NH0FDA R 3ACJ1UA% 3A 5 MNHYT. #line:730089
+Lori: H0 U0P0L GT0 M0SET DVNTJCR N 4AC #line:aca01d
+Mae: TYT HADBNFAETCR HE60VJQAR 0UACH0CTJ #line:7a15d5
+<<close>>
+<<setAnimInt Lori laying 2>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 2>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+//train flies past//
+<<trigger OverheadTracks TrainPassBottom>>
+<<wait 13>>
+//after train passes//
+<<setAnimInt Lori laying 1>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 3>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+Lori: Y MEHR CTPAHHJ1E MJ1CVN #line:0368f6
+Lori: TNUA, NH0FDA R X04Y U0LTN U0CUATJ B VECY #line:17cea3
+Lori: NVN B U0DBAVE 3A6P0QEHH0F0 D0MA B0 BPEMR DHR #line:9a2189
+Lori: N BJ1LTN T0VJK0 H04J% #line:551a51
+Lori: N 6J1TJ, TNUA, M0HCTP0M #line:e550eb
+Lori: N, TNUA, KPACNBJ1M. #line:cd762d
+	->MHE 3HAK0M0 GT0 4YBCTB0. #line:2b09bb
+		Mae: R NH0FDA X04Y U0SNPATJ V%DEL #line:af4943
+		Lori: CEPJE3H0??? #line:0bf379
+		Mae: U0CVE T0F0, KAK R BCTPE4A% K0F0-HN6YDJ, #line:319cc2
+		Mae: R 3ADA%CJ B0UP0C0M, KAK0L 0H HA BKYC. #line:0de00f
+		Lori: MHE KASETCR, MNP U0V0H UV0XNX V%DEL, #line:3af0ac
+		Lori: K0T0PJ1X 6J1V0 6J1 HEUV0X0 CJECTJ. #line:555d46
+		Mae: YFY. #line:ea3e03
+	->GT0, TNUA, DELCTBNTEVJH0 D0CTNSNMJ1E ME4TJ1. #line:5f5b51
+		Lori: 0Y, XA-XA #line:f6a8b0
+		Lori: R HEKPACNBAR #line:aa81b3
+		Mae: 0X, TJ1 H0PMAVJHAR #line:6b1900
+		Mae: HNK0MY B TB0EM B03PACTE HE HPABNTCR C06CTBEHHAR BHEQH0CTJ #line:5f95d7
+		Lori: 06JEKTNBH0, R UP0TNBHA BHEQHE. #line:4465b7
+		Mae: HAMH0F0 MEHJQE, 4EM 6J1VA R #line:2c4b2a
+		Lori: TJ1 DYMAEQJ? #line:a8b7a6
+		Mae: FAPAHTNPY% #line:5a1430
+<<close>>
+<<setAnimInt Lori laying 2>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 2>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+//train flies past going other direction//
+<<trigger OverheadTracks TrainPassBoth>>
+<<wait 13>>
+Lori: VADH0 VADH0 VADH0 #line:0834e8
+Lori: DABAL U0CM0TPNM, 4T0 Y HAC U0VY4NV0CJ #line:91386f
+<<irisOut 1 wait>>
+<<scene Tracks>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 299,16
+---
+<<playerFace -1>>
+<<if $did_lori_friendship_quest_1 is 0>>
+    <<setAnimInt Lori laying 1>>
+    <<setAnimInt Mae laying 1>>
+<<else>>
+    <<warp Lori Lori2>>
+    <<warp Mae Mae2>>
+    <<toggleUpdateTargetNormal 0>>
+    <<rotate Mae -180>>
+    <<setAnimInt Lori laying 1>>
+    <<setAnimInt Mae laying 1>>
+<<endif>>
+===

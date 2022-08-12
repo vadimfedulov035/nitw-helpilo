@@ -1,0 +1,22 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 4383,6216
+---
+<<playMusic laptop_vignettes 10>>
+<<cameraLookAt CameraLocator 0>>
+<<extraZoom -4 10>>
+<<fadeIn 1 wait>>
+MaeLaptop: Germ, buddy. #line:6f8f4a
+MaeLaptop: Germ you don't even use messenger. #line:37d890
+MaeLaptop: I guess i'm just typing at you wherever you're at. #line:18734c
+<<if $did_germ_friendship_quest_3>>
+	MaeLaptop: you're like the most stuck here of anyone i've met #line:15ab64
+	MaeLaptop: but you're the least trapped. #line:e315c5
+    MaeLaptop: that's some beautiful shit, dude. #line:0f3f3b
+<<endif>>
+<<set $laptop_vignettes to 1>>
+<<fadeOut 1 wait>>
+<<overrideLoadingScreenType Blank>>
+<<scene Laptop>>
+===

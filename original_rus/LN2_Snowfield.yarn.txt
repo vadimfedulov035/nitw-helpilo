@@ -1,0 +1,266 @@
+title: Field1
+tags: 
+colorID: 0
+position: 443,493
+---
+<<showTalkingHeads>>
+Mae: FDE GT0 MECT0? #line:fa8ba5
+Granddad: TAM, 0TKYDA UPNQVN TB0N UPA-UPA-UPA6A6YQKA N DEDYQKA, D0 T0F0, KAK 0HN UPN6J1VN B GTY CTPAHY. #line:dbbfa0
+Granddad: H0 3AD0VF0 D0 T0F0, KAK 0HN P0DNVNCJ N HAMH0F0 DAVJQE. #line:da5493
+[[Y HNX TAM 6J1VA DVNHHELQAR H04J?|LongestNightThere]] #line:b3dc3b
+[[3HA4NT Y HNX 6J1VA DVNHHELQAR H04J?|LongestNightThen]] #line:56f6d7
+===
+title: LongestNightThere
+tags: 
+colorID: 0
+position: 726,629
+---
+Granddad: K0HE4H0 SE! #line:11b5c3
+Mae: 0HN DAPNVN U0DAPKN? #line:18ec16
+Granddad: TE KT0 YMEET! #line:1680e4
+Mae: 0HN BCE D0VSHJ1 YMETJ. #line:7ee2a4
+Granddad: 4T0... A, AFA. HY DA VADH0. #line:851b6c
+===
+title: LongestNightThen
+tags: 
+colorID: 0
+position: 449,774
+---
+Granddad: TAM BCEFDA 6J1VA DVNHHELQAR H04J. #line:62048d
+Granddad: DASE K0FDA 0HN EWE HE UPNDYMAVN HA3BAHNE DVR HEE. #line:bd6fd2
+Mae: KAK T0FDA 0HN HA3J1BAVN EE? #line:3e37e5
+Granddad: DVNHHELQAR H04J. #line:5b9d73
+Mae: 0L. #line:7cf72d
+
+===
+title: TreeCat.1
+tags: 
+colorID: 0
+position: -75,399
+---
+<<speechBubbleSizeOverride 1.3>>
+Adina: K0T! GL, K0T! #line:4a0949
+Adina: TJ1 SNBEQJ B GT0M VECY? #line:5d7e05
+TreeCat: D0CTAT04H0 6VN3K0 K HEMY. #line:a2e808
+Adina: M0SH0 3ADATJ TE6E B0UP0C? #line:bc6f14
+TreeCat: GT0L H04J% TJ1 YMPEQJ. #line:5f1197
+Adina: 0F0, KPALHE 6ECU0VE3HAR NHZ0PMAONR. #line:febd28
+TreeCat: HEYSEVN? #line:399eca
+[[KYDA TJ1 HAUPABVREQJCR CEF0DHR H04J%?|WhereAreYouGoing]] #line:31968b
+[[UP04J, K0T!|GoAwayCat]] #line:3c430b
+
+===
+title: WhereAreYouGoing
+tags: 
+colorID: 0
+position: -5,726
+---
+TreeCat: R HABEWA% CB0% P0DH%, H0 CHA4AVA R U0LDY B OEPK0BJ. #line:c75a3d
+Adina: U0X0SE, GT0 TB0R 06J14HAR DVNHHELQAR H04J. #line:b1b9a8
+TreeCat: D0 OEPKBN, R 6YDY 0X0TNTJCR HA MJ1QJ. #line:fd5a5e
+TreeCat: N CJEM EE. #line:275135
+TreeCat: A D0 GT0F0, R U0CM0TP% KAK TJ1 3AX0DNQJ B VEC. #line:751c4b
+TreeCat: 4T06J1 YMEPETJ. #line:582699
+TreeCat: N EWE D0 GT0F0, MJ1 U0UP0WAEMCR. #line:797148
+Adina: TJ1 TAK YBEPEH B GT0M? #line:77168e
+TreeCat: [speed=.5][wave]MP-P-P-P.[/all] #line:75fa20
+Adina: UP0WAL! #line:b20d16
+TreeCat: XA-XA-XA-XA. #line:5a6877
+Adina: HAD 4EM TJ1... #line:c846dc
+Adina: 0, U0HRTH0. #line:f97ac3
+TreeCat: UP0WAL. #line:8fe2c5
+
+===
+title: GoAwayCat
+tags: 
+colorID: 0
+position: -285,690
+---
+TreeCat: CEF0DHR H04J% R CUYWYCJ K X0VMAM, H0 R BEPHYCJ.  #line:fc358d
+TreeCat: R C06NPA% 6VECTRWNE BEWN #line:995c5a
+TreeCat: N3 X0V0DHJ1X KAPMAH0B #line:769525
+TreeCat: TAKNX DYPAK0B, KAK TJ1. #line:b3cb16
+Adina: UPEKPATN HAD0EDATJ MHE! #line:d189dc
+TreeCat: R DYMAV, GT0 TJ1 HAD0EDAEQJ MHE? #line:2c2ce5
+Adina: T0FDA BUEPED! #line:c2fb9a
+TreeCat: BCEFDA ECTJ BPEMR U0CM0TPETJ, KAK DYPAK C0BEPQAET CB0% U0CVEDH%% 0QN6KY. #line:45afcd
+Adina: 0, 04EHJ MNV0. GT0 U0VE3H0. #line:6e4c1d
+Adina: ...CPAHJ1L K0T... #line:92308b
+TreeCat: [speed=.5][wave]MP-P-P-P.[/all] #line:54072d
+Adina: HY, X0P0QEL DVNHHELQEL H04N TE6E. #line:7ddaaf
+TreeCat: K YTPY R 6YDY PJ1TJCR B TB0NX KAPMAHAX. #line:b319e4
+Adina: CUACN60! #line:6b8e5e
+TreeCat: U0KA! #line:b8c7d3
+
+===
+title: TreeCat.2
+tags: 
+colorID: 0
+position: 179,400
+---
+<<speechBubbleSizeOverride 1.3>>
+TreeCat: [speed=.5][wave]MP-P-P-P.[/all] #line:391634
+===
+title: WanderingKings_A1D3.1
+tags: 
+colorID: 0
+position: 1016,445
+---
+Adina: CH0BA UPNBET! #line:e4afb5
+King: 0, MJ1 0URTJ BCTPETNVNCJ! #line:c0ecda
+<<setAnimInt King look -1>>
+Advisor: HADE%CJ, TJ1 X0P0Q0 CUPABVREQJCR! #line:aa2915
+King: MJ1 UP0CT0 YQVN! #line:9e1188
+Adina: U04EMY? #line:ec81fd
+<<setAnimInt King look 1>>
+Advisor: U0T0MY 4T0 K0P0VEBCTBY HYSEH K0P0VJ! #line:a53d2f
+King: N K0P0VJ HYSDAETCR B CB0EM D0BEPEHH0M C0BETHNKE! #line:145b64
+Adina: 4T0 UP0N30QV0 C TB0NM ME4HNK0M? #line:f19ae1
+King: CTNBEHC0H! #line:a16499
+<<setAnimInt King look -1>>
+Advisor: 3HAEQJ, Y HEF0 ECTJ NMR. #line:26bc0a
+Adina: N3BNHN! 4T0 C HNM CVY4NV0CJ? BJ1 BNDEVN VECH0F0 60FA? #line:0baa23
+Advisor: CTN-N-N-N-N-N-NBE-E-E-E-E-EHC0-0-0-0-0H! #line:eaedfe
+<<if $found_stevenson_head is 1>>
+	[[WK_StevensonHead]]
+<<else>>
+	King: TEUEPJ MJ1 B03BPAWAEMCR D0M0L, R UPNKA3J1BA% N R K0P0VJ. #line:4775b2
+	<<setAnimInt King look -1>>
+	Advisor: DA. D0M0L. #line:8c2acf
+	King: R C06NPA%CJ YCTP0NTJ H04H0L UNP! #line:0134fc
+	Advisor: GT0 6YDET H0BAR TPADNONR, CGP! #line:b4b051
+	King: GT0 6YDET CAMAR VY4QAR DVNHHELQAR H04J! #line:508e86
+	Advisor: BEPH0! #line:cd9b3f
+	Adina: HY, C4ACTVNB0L DVNHHELQEL H04N... #line:a6b27a
+	<<setAnimInt King look 1>>
+	King: *VY4QEL* DVNHHELQEL H04N! #line:2312ba
+	Adina: DA, K0HE4H0! #line:e87c72
+	King: 6EPEFN CE6R! #line:4af212
+<<endif>>
+
+===
+title: WanderingKings_A1D3.2
+tags: 
+colorID: 0
+position: 1251,444
+---
+King: CU0EM UECHJ DVNHHELQEL H04N! #line:6814ed
+<<setAnimInt King look -1>>
+Advisor: DA, GT0 U0DHNMET HAM DYX! #line:0569a5
+<<setAnimInt King look 1>>
+===
+title: SnowfieldNPC_A1D2
+tags: 
+colorID: 0
+position: 727,197
+---
+SnowfieldNPC: UPNBET, BEP0RTH0 R 3DECJ B CAMJ1L U0CVEDHNL M0MEHT 4T06J1 K0P0TK0 PACCKA3ATJ, HACK0VJK0 0UACEH VECH0L 60F! A TAKSE, 3BE3DAX!  #line:794771
+Adina: BAY, GT0 6J1V0 6J1 KPYT0! #line:81aa70
+SnowfieldNPC: AFA, B03M0SH0 UP0CT0 EDNHAR U0CVED0BATEVJH0CTJ CUPALT0B NVN 4EF0-T0 C PRD0M DNAV0F0B. #line:436d8a
+Adina: HY, U0CM0TPNM, ECVN 6YDET BPEMR! #line:6b29d3
+SnowfieldNPC: CKPECTNM UAVJOJ1! #line:d34a07
+===
+title: WK_StevensonHead
+tags: 
+colorID: 0
+position: 1099,728
+---
+Adina: R HAQVA GT0T... QVEM. #line:f7419b
+Advisor: FDE 0H 6J1V? #line:a50cb5
+Adina: 0H BEPHYVCR HA F0PY VECH0F0 60FA, TJ1 M0F UP0CT0... #line:0de2ea
+<<setAnimInt King look 1>>
+King: HE-E-E-E-E-EA #line:be4eba
+<<setAnimInt King look -1>>
+Advisor: B03BPAWATJCR TYDA HE C06NPA%CJ! #line:3ce3eb
+Adina: 0H HAUAV HA VECH0F0 60FA? #line:cd5d61
+<<setAnimInt King look 1>>
+King: 0H 6J1 HNK0FDA GT0F0 HE CDEVAV! R 6J1 HNK0FDA TAK0F0 HE UPNKA3AV! #line:997b9c
+<<setAnimInt King look -1>>
+Advisor: CTNBEHC0M 6J1V D0P0FNM, KPALHE D0P0FNM N... #line:1e1dc6
+King: 6YDJ CNVJHJ1M, CTAPJ1L DPYF. #line:5b693a
+Advisor: R D0VSEH 6J1TJ CNVJHJ1M, CNP. #line:a360c8
+Adina: 4T0 UP0NCX0DNT? #line:56f85e
+<<setAnimInt King look 1>>
+King: HN4EF0. #line:8500f5
+<<setAnimInt King look -1>>
+Advisor: HN4EF0 HE CVY4NV0CJ. #line:84fa44
+King: R K0P0VJ N R F0B0P%, 4T0 MJ1 0TUPABVREMCR D0M0L. #line:12667c
+Advisor: 6VECTRWAR NDER, CNP. #line:aacdd2
+<<setAnimInt King look 1>>
+King: CU0K0LH0L D0P0FN, KAK 6J1 TE6R HE 3BAVN! #line:2082c1
+Adina: ADNHA. #line:d80d9b
+Advisor: CU0K0LH0L D0P0FN, KEM 6J1 TJ1 HE 6J1VA! #line:fe3a1a
+Adina: ADNHA. #line:e2214e
+King: D0 CBNDAHNR. #line:90fb8e
+
+===
+title: WanderingKings_A1D3.3
+tags: 
+colorID: 0
+position: 1506,442
+---
+King: VA-VA-VA-VA! #line:9f56dc
+<<setAnimInt King look -1>>
+Advisor: 6AM-6AM-6AM-6A-6AM-6AM-6AM! #line:2d4c29
+<<setAnimInt King look 1>>
+===
+title: ExitLevel_A1D1
+tags: 
+colorID: 0
+position: 1284,40
+---
+<<if $mae_gd_snowfield is 0>>
+	<<set $mae_gd_snowfield to 1>>
+	<<showTalkingHeads>>
+	Mae: FDE GT0 UP0NCX0DNT? #line:e57ea5
+	Granddad: TAM, 0TKYDA UPNQVN M0N DEDYQKA N 6A6YQKA, H0 3AD0VF0 D0 NX SN3HN. #line:c4dbe3
+	Mae: Y HNX T0FDA 6J1VA DVNHHELQAR H04J? #line:95b519
+	Granddad: K0HE4H0! #line:5099c2
+	Mae: KAK 0HN EE HA3J1BAVN? #line:99bda2
+	Granddad: DVNHHELQAR H04J. #line:58d7ed
+	Mae: 0L. #line:a4bf6f
+	<<hideTalkingHeads>>
+	<<wait 1>>
+<<endif>>
+
+===
+title: EnterLevel_A1D1
+tags: 
+colorID: 0
+position: 286,136
+---
+<<if $adina_intro is 0>>
+	<<wait 1>>
+	Adina: NTAK, R C0BCEM B DAVN 0T D0MA 3DECJ. #line:24ca16
+	Adina: M0SH0 6J1V0 UP0CT0 BEPHYTJCR 06PATH0... #line:6ad78d
+	<<close>>
+	<<wait .5>>
+	Adina: HET. #line:61cfa5
+	Adina: UP0QEV F0D N TJ1 DAVA 06EWAHNE. #line:a93191
+	Adina: B03JMN CE6R B PYKN. #line:1e50d9
+	Adina: TJ1 HE YMPEQJ 3DECJ, GT0L H04J%. #line:aa22fd
+	Adina: TJ1 YBNDNQJ EE CH0BA. #line:81af55
+	Adina: N BEPHEQJCR C0 3BE3D0L. #line:fdc739
+	<<set $adina_intro to 1>>
+<<endif>>
+
+===
+title: Fog
+tags: 
+colorID: 0
+position: 543,-61
+---
+<<if $snow_chimes_glowing is 1>>
+	Adina: KASETCR, TYMAH PACCENBAETCR! #line:2c9f43
+<<elseif $snowfield_fog is 0>>
+	Adina: 0, GT0T TYMAH TAK0L FYCT0L. #line:0a91c6
+	Adina: CTPAHHJ1L TYMAH.  #line:becd6d
+	Adina: KAK N36ABNTJCR 0T GT0F0 CTPAHH0F0 TYMAHA? #line:67b95f
+	<<set $snowfield_fog to 1>>
+<<elseif $snowfield_fog is 1>>
+	Adina: Y6NPALCR, TYMAH! #line:96928a
+	Adina: YX. KAK SE MHE N36ABNTJCR 0T TE6R? #line:f5254b
+<<endif>>
+
+
+===

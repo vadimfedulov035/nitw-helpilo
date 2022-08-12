@@ -1,0 +1,1516 @@
+title: TunnelTeens
+tags: 
+colorID: 0
+position: 7467,-9822
+---
+<<set $tunnel_teens_done to 1>>
+<<if $met_tunnel_teens is 0>>
+    [[TunnelTeens_Intro]]
+<<else>>
+    // A1D1, A1D3, A2D2, A2D4, A3D1, A3D3, A4D3 //
+    <<if $act is 1 and $day is 1>>
+        [[TunnelTeens_A1D1]]
+    <<elseif $act is 1 and $day is 3>>
+        [[TunnelTeens_A1D3]]
+    <<elseif $act is 2 and $day is 2>>
+        [[TunnelTeens_A2D2]]
+    <<elseif $act is 3 and $day is 1>>
+        [[TunnelTeens_A3D1]]
+    <<elseif $act is 3 and $day is 3>>
+        [[TunnelTeens_A3D3]]
+    <<elseif $act is 4 and $day is 3>>
+        [[TunnelTeens_A4D3]]
+    <<endif>>
+<<endif>>
+===
+title: Old_TunnelTeenStairs
+tags: 
+colorID: 0
+position: 7053,-8551
+---
+<<if $tunnel_teens_no_talk is 1>>
+    <<set $tunnel_teens_no_talk to 1>>
+    Mae: I’m gonna need some kind of teen interpreter #line:1b6f23
+    Mae: if I’m gonna come down here. #line:272291
+    Mae: My god, I’m 20 and they’re already like aliens. #line:538acb
+    Mae: Oh my old bones. #line:2c9446
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 8999,-11125
+---
+<<if $act is 2 and $day is 1 and $tunnel_west_city_council_a2d1_done is 0>>
+    <<setCanInteract Molly 0>>
+    <<setCanInteract Council1 1>>
+    <<show Council1>>
+    <<if $demo2>>
+        <<hide Council2>>
+        <<hide Council3>>
+        <<hide Council4>>
+    <<else>>
+        <<show Council2>>
+        <<show Council3>>
+        <<show Council4>>
+    <<endif>>
+<<else>>
+    <<hide Council1>>
+    <<hide Council2>>
+    <<hide Council3>>
+    <<hide Council4>>
+<<endif>>
+
+<<if $act is 2 and $day is 1 and $tunnel_west_city_council_a2d1_done is 0>>
+    <<show Molly>>
+<<else>>
+    <<hide Molly>>
+<<endif>>
+
+<<if $act is 3 and $day is 2>>
+    <<show Germ>>
+<<else>>
+    <<hide Germ>>
+<<endif>>
+
+// A1D1, A1D3, A2D2, A2D4, A3D1, A3D3, A4D3 //
+<<if $act is 1 and $day is 1>>
+    // show TunnelTeens
+<<elseif $act is 1 and $day is 3>>
+    // show TunnelTeens
+<<elseif $act is 2 and $day is 2>>
+    // show TunnelTeens
+<<elseif $act is 3 and $day is 1>>
+    // show TunnelTeens
+<<elseif $act is 3 and $day is 3>>
+    // show TunnelTeens
+<<elseif $act is 4 and $day is 3>>
+    // show TunnelTeens
+<<else>>
+    <<hide TunnelTeen1>>
+    <<hide TunnelTeen2>>
+    <<hide TunnelTeen3>>
+    <<hide TunnelTeen4>>
+<<endif>>
+
+<<hide MissQuelcy>>
+<<hide Fisherman>>
+
+<<if $act is 0>>
+    <<show MsQuelcy>>
+    <<set $cook_done to 1>>
+<<endif>>
+
+<<if $act is 1 and $day is 2>>
+    <<show Fisherman>>
+    <<setAnimInt Fisherman sitting 1>>
+    //<<show Rosa>>
+<<endif>>
+
+<<if $act is 2 and $day is 1>>
+    <<show Fisherman>>
+    <<setAnimInt Fisherman sitting 1>>
+<<endif>>
+
+<<if $act is 2 and $day is 3>>
+    <<show Fisherman>>
+    <<setAnimInt Fisherman sitting 1>>
+<<endif>>
+
+<<if $act is 3 and $day is 2>>
+    <<show Fisherman>>
+    <<setAnimInt Fisherman sitting 1>>
+<<endif>>
+
+<<if $act is 3 and $day is 4>>
+    <<show Fisherman>>
+    <<setAnimInt Fisherman sitting 1>>
+<<endif>>
+
+<<if $act is 4 and $day is 3>>
+    <<show Fisherman>>
+    <<setAnimInt Fisherman sitting 1>>
+<<endif>>
+
+<<if $act is 4 and $day is 3 and $did_birdland_quest>>
+    <<show Saleem>>
+    <<show Sadie>>
+    <<setCanInteract Saleem 0>>
+    <<setCanInteract Sadie 0>>
+<<else>>
+    <<hide Saleem>>
+    <<hide Sadie>>
+<<endif>>
+
+<<if $rosa_sequence > 2>>
+    <<hide Rosa>>
+<<elseif $act is 1 and $day is 2>>
+    <<show Rosa>>
+<<elseif $act is 2 and $day is 1>>
+    <<show Rosa>>
+<<elseif $act is 2 and $day is 3>>
+    <<show Rosa>>
+<<elseif $act is 3 and $day is 1>>
+    <<show Rosa>>
+<<elseif $act is 4 and $day is 3>>
+    <<show Rosa>>
+<<else>>
+    <<hide Rosa>>
+<<endif>>
+
+
+<<if $act is 2 and $day is 4>>
+    // show PumpkinHeadGuy
+<<else>>
+    <<hide PumpkinHeadGuy>>
+<<endif>>
+
+<<if $act is 3 and $day is 2>>
+    // show Salvi and his TunnelBoat
+    <<sit Salvi>>
+<<else>>
+    <<tell TunnelBoat Hide>>
+    <<hide Salvi>>
+<<endif>>
+===
+title: TunnelTeen1
+tags: 
+colorID: 0
+position: 7248,-10182
+---
+[[TunnelTeens]]
+===
+title: TunnelTeen2
+tags: 
+colorID: 0
+position: 7483,-10239
+---
+[[TunnelTeens]]
+===
+title: TunnelTeen3
+tags: 
+colorID: 0
+position: 7723,-10204
+---
+[[TunnelTeens]]
+===
+title: Old_TunnelTeens_01_00
+tags: 
+colorID: 0
+position: 6757,-8589
+---
+Mae: Hey kids! #line:8ccea4
+TunnelTeen1: Hey adult. #line:4160c2
+Mae: Well I was your age only a few years ago. #line:90f44c
+TunnelTeen2: Uh huh. #line:41c23c
+Mae: ... #line:e50599
+Mae: Well, see ya later! #line:d31f18
+===
+title: TunnelTeen4
+tags: 
+colorID: 0
+position: 7987,-10128
+---
+[[TunnelTeens]]
+===
+title: TriggerCityCouncil_A2D1
+tags: 
+colorID: 3
+position: 12033,-10521
+---
+<<if $demo2>>
+    [[CityCouncil_A2D1_Demo2]]
+<<else>>
+    Council1: Because this mural is of historical note, Molly! #line:7c8548
+    Council1: What do we know? #line:29635c
+    Molly: Well, sometime overnight #line:cf3a9c
+    Molly: someone used bolt cutters on the gate #line:2733ca
+    Molly: and came down here. #line:e7aac8
+    Council1: What’d they use, a paint roller? #line:fdeb3e
+    Molly: Looks to be. #line:196769
+    Council3: Says they intend to Nuke Poss... something? #line:96dcec
+    Molly: I think it’s likely some kid #line:faeac1
+    Molly: saw one of the old Nuke Possum Springs tags from back when #line:f19d28
+    Molly: and got bored halfway through writing it. #line:7c4408
+    Council4: We need to treat this as a terrorist action. #line:400863
+    Molly: I’m... sorry? #line:fe793b
+    Council1: This mural is of historical note! #line:b8e45d
+    Molly: Alright well I’ll round up any… uh… terrorists I see. #line:ce527d
+    Council3: Round up any dirtbag teens or vagrants that’ve been hanging around town #line:209549
+    Council1: check out by the abandoned Food Donkey. #line:52d186
+    Council4: they come off the train there #line:3c406d
+    Molly: Already on it. #line:5ea37d
+    Council1: Molly. #line:02e553
+    Molly: Yeah? #line:777076
+    Council1: Find whoever did this. #line:8614bd
+    Molly: Ok. #line:26ff20
+    Council1: I want to see them hang. #line:6f4006
+    Molly: I think at most they’d get a fine and some jail time. #line:58b1fb
+    Council3: this was of historical note. #line:e67308
+    Council4: without this I don't know if there's a reason to keep this place open #line:8694fa
+    Council3: yeah cathleen we all know what you think #line:dac75c
+    Council4: what? You think I wanted this? #line:ccac06
+    Council4: it's not like any of you had ideas for this place! #line:bf8789
+    Council1: cathleen, we are not going to put a rest home down here! #line:bf12ad
+    Council4: it's just wasted space! #line:2c74dd
+    Council4: And they're down here anyway at Trolleyside News everyday! #line:3c0b17
+    Council2: We are not putting our eldery in a hole! #line:9dfd60
+    Council1: Yeah colleen! #line:659914
+    Molly: 'Least if we closed it I wouldn't have to keep an eye on this place. #line:2ce43f
+    Council3: thank you, molly. That's helpful. #line:d7b28d
+    Molly: If you're all done I got things to do. #line:57c7ef
+    <<close>>
+    <<walk Molly MollyOffRight>>
+    <<wait 3>>
+    Council1: Yeah fine. #line:4ea11f
+    Council3: This was of historical note. #line:d96047
+    Council2: this sure is a picture. #line:534ad1
+    <<close>>
+    <<walk Council1 CouncilOffLeft>>
+    <<walk Council2 CouncilOffLeft>>
+    <<walk Council3 CouncilOffLeft>>
+    <<walk Council4 CouncilOffLeft wait>>
+    <<hide Council1>>
+    <<hide Council2>>
+    <<hide Council3>>
+    <<hide Council4>>
+    <<waitForMove Molly>>
+    <<hide Molly>>
+<<endif>>
+===
+title: Old_TunnelTeens_A2D3
+tags: 
+colorID: 3
+position: 4526,-8688
+---
+<<set $talked_to_teens_a2d3 to 1>>
+TunnelTeen1: Hey don't you know Lori? #line:861b69
+Mae: Yeah. #line:3422c7
+TunnelTeen1: Oh ok. #line:a22e6b
+TunnelTeen2: I thought so #line:9ee21e
+TunnelTeen3: So you're like a college dropout, right? #line:db66bf
+-> Mind your damn business! #line:28a955
+    TunnelTeen2: Fine. #line:5e41c9
+-> Yeah I guess. #line:9aa66e
+    TunnelTeen3: What happened? #line:6c395b
+    TunnelTeen4: You fail out? #line:ee8f3b
+    -> Mind your damn business! #line:54b3df
+        TunnelTeen4: Fine. #line:e22045
+    -> It just didn't work out. #line:e31ebe
+        TunnelTeen4: What does that mean? #line:5baea2
+        TunnelTeen1: Yeah what? #line:f6708a
+        Mae: I had kind of a slow nervous breakdown. #line:02643c
+        TunnelTeen1: Cool. #line:5ffa96
+        Mae: Well... ok sure. #line:ce81ce
+        <<set $intro_teens to 1>>
+===
+title: UNUSED
+tags: 
+colorID: 0
+position: 8791,-10187
+---
+Mae: Hey hey! Gimme all yer pretzels! #line:0137c0
+<<wait .9>>
+Mae: [size=1.25]Hey![/all] #line:775644
+<<wait .9>>
+Mae: [shake=.05][size=1.5]Hey![/all] #line:3ea00d
+Table1: Do you mind? He's in a [speed=.5]pierogi trance[/speed]. Come back later. #line:ca30e6
+Mae: I come here all the time and I've never seen a pierogi trance. #line:3b6337
+Table1: He's makin' something [speed=.5]extra special[/speed], [wave]dear.[/wave] Something that ain't never been pierogi'd before. #line:328a7b
+Mae: Ugh. [color=aaaaaa]Dear.[/all] #line:4fcf2b
+===
+title: Cook_00_00
+tags: demo2
+colorID: 0
+position: 9646,-10664
+---
+Mae: Hey, I just got back in town #line:03fd4c
+Mae: and the one thing I missed most was- #line:607bda
+Cook: HEY! #line:534b49
+Cook: I REMEMBER YOU! #line:a16e3d
+Mae: :) o/ #line:48e2bc
+Mae: Hello! #line:fb0997
+Cook: THIEF! #line:ed9f4d
+Mae: :| _o_ #line:854336
+Mae: Oh COME ON. #line:af9a82
+Mae: That was years ago! #line:f1550d
+Cook: ONCE A THIEF, ALWAYS A THIEF. #line:51f1f6
+Mae: Alright, you know what? =_= #line:84d0b4
+[[I’m not a thief! You take that back!|Cook_NotAThief]] #line:d05de7
+[[This isn't even a restaurant!|Cook_IsntEvenARestaurant]] #line:7d4b3c
+===
+title: Cook
+tags: 
+colorID: 0
+position: 9726,-10977
+---
+<<if $cook_sequence is 0>>
+    <<if $cook is 0>>
+        <<set $cook += 1>> 
+        <<set $cook_done to 1>>
+        [[Cook_00_00]]
+    <<endif>>
+<<endif>>
+===
+title: Cook_NotAThief
+tags: demo2
+colorID: 0
+position: 9411,-10408
+---
+Mae: I’ve stolen from better places than this! o_o #line:bdc9b2
+Mae: I wouldn’t lower myself to steal from here! #line:ebee8b
+Cook: YEAH YEAH YEAH #line:7c8593
+Cook: GO JUMP IN THE RIVER. #line:6072ab
+===
+title: Cook_IsntEvenARestaurant
+tags: demo2
+colorID: 0
+position: 9843,-10366
+---
+Mae: It's a crappy foodstand in a hole! #line:d0f84e
+Cook: This establishment has been in business for 50 years! #line:6a5ecd
+Mae: 50 CRAPPY YEARS IN A HOLE! o_o #line:49561e
+Mae: You know what else has been in a hole for 50 years? #line:59ead1
+Mae: \o/ :( #line:424ebe
+Mae: DEAD PEOPLE FROM THE 60s! #line:6f2889
+Cook: No respect! No respect, this one! #line:2a8003
+Mae: YOU CAN KEEP YOUR HOLE PRETZELS #line:77b7f6
+Mae: AND YOUR DAMP PIEROGIES #line:894620
+Mae: _o_ :| #line:4d695f
+Cook: YEAH YEAH YEAH #line:620a02
+Cook: GO JUMP IN THE RIVER. #line:14aac3
+===
+title: RightBench
+tags: demo
+colorID: 0
+position: 10068,-9941
+---
+Mae: Usually someone fishing here. For tunnel fish. Because why the hell not. #line:bbea82
+Mae: The tunnel flooded, and we lost a bit more land to the fish. #line:f8bf8f
+<<set $tunnel_east_right_bench_done to 1>>
+===
+title: Stairs
+tags: demo
+colorID: 0
+position: 8997,-8702
+---
+<<if $tunnel_east_stairs is 0>>
+    <<set $tunnel_east_stairs += 1>>
+    [[Stairs00]]
+<<elseif $tunnel_east_stairs is 1>>
+    <<set $tunnel_east_stairs += 1>>
+    [[Stairs01]]
+<<elseif $tunnel_east_stairs is 2>>
+    <<set $tunnel_east_stairs += 1>>
+    <<set $tunnel_east_stairs_done to 1>>
+    [[Stairs02]]
+<<endif>>
+===
+title: Stairs00
+tags: demo
+colorID: 0
+position: 8866,-8420
+---
+Mae: I still can't believe they kept this place open after the flood took out the trolleys. #line:6fa3f0
+Mae: Never underestimate the power of old people to get state funding. #line:4f12f3
+Mae: Which is why we have more war memorials than there were wars. #line:d76973
+===
+title: Stairs01
+tags: demo
+colorID: 0
+position: 9143,-8342
+---
+Mae: We were at Aunt Janet's place up in Fort Lucenne when that flood hit. #line:c82d7b
+Mae: Our house had two feet of water in the living room when we came back. #line:475b25
+Mae: Mudslides took out a few houses in Underhill. #line:bcd38b
+Mae: Casey Hartley came by in his dad's boat. #line:23569e
+Mae: Gregg kept trying to ride his bike in the water and got stranded on top of a doghouse. #line:f385a3
+===
+title: Stairs02
+tags: demo
+colorID: 0
+position: 9440,-8551
+---
+Mae: We were at Aunt Janet's place up in Fort Lucenne when that flood hit. #line:671492
+Mae: Our house had two feet of water in the living room when we came back. #line:5ddb88
+Mae: Mudslides took out a few houses in Underhill. #line:3285c3
+Mae: Casey Hartley came by in his dad's boat. #line:6a5994
+Mae: Gregg kept trying to ride his bike in the water and got stranded on top of a doghouse. #line:a47e94
+===
+title: LeftSideLocked
+tags: demo
+colorID: 0
+position: 8400,-10448
+---
+<<if $tunnel_east_left_side_locked is 0>>
+    Mae: {align=middle,nearestLocator}Well if I can't get a pretzel this is basically a wet, underground old folks home. #line:7d9387
+    Mae: {align=middle,nearestLocator}Can't even get into rest of the tunnel right now, but it's just as well. #line:8f9caf
+    Mae: {align=middle,nearestLocator}It's full of teens. #line:513692
+    <<set $tunnel_east_left_side_locked to 1>>
+<<else>>
+    Mae: {align=middle,nearestLocator}Ugh. Teens. #line:436e0e
+<<endif>>
+===
+title: Stand
+tags: demo
+colorID: 0
+position: 10078,-8870
+---
+<<if $tunnel_east_stand is 0>>
+    <<set $tunnel_east_stand += 1>>
+    [[Stand00]]
+<<elseif $tunnel_east_stand is 1>>
+    <<set $tunnel_east_stand += 1>>
+    [[Stand01]]
+<<elseif $tunnel_east_stand is 2>>
+    <<set $tunnel_east_stand_done to 1>>
+    [[Stand02]]
+<<endif>>
+===
+title: Stand00
+tags: demo
+colorID: 0
+position: 9878,-8591
+---
+Mae: Always pretty empty in here this time of day. #line:8b67b9
+Mae: Don't know why they don't just close up until dinner time. #line:c21a7a
+Mae: =_= #line:69be3b
+Mae: But whatever, screw this place. They won't sell me a pretzel anyway. #line:6a6ae8
+Mae: o_o #line:c82bad
+===
+title: Stand01
+tags: demo
+colorID: 0
+position: 10132,-8570
+---
+Mae: It was years ago. #line:06790c
+Mae: It was one pretzel. #line:aa127a
+Mae: I'm not a thief. #line:1e2d1b
+Mae: But I was [shake=.01][size=1.2]HUNGRY[/all] #line:e422bf
+Mae: What, did they want me to [size=1.2]STARVE[/all]? #line:76ee3a
+Mae: =_= #line:d12ac6
+Mae: They probably did. #line:71c377
+Mae: Monsters. #line:a035ed
+Mae: o_o #line:233934
+===
+title: Stand02
+tags: demo
+colorID: 0
+position: 10398,-8622
+---
+Mae: I've stolen from better places than this! #line:9aefbe
+===
+title: Fisherman_A1D2
+tags: 
+colorID: 2
+position: 11650,-10116
+---
+Fisherman: Pale white tunnel fish. #line:356a8a
+Fisherman: Easy to catch and so delish. #line:593266
+Mae: That’s good. #line:152cc4
+Fisherman: Oh god you were listening #line:814af4
+<<set $fisherman_done to 1>>
+===
+title: Rosa
+tags: 
+colorID: 2
+position: 11269,-10298
+---
+<<if $act is 4 and $day is 3 and $met_rosa is 0>>
+    <<set $met_rosa to 1>>
+    Rosa: mmm. You’re Mae. #line:a5e1c8
+    Mae: yeah. #line:f59c36
+    Mae: do I know you? #line:a49365
+    Rosa: you did when you were a baby child. #line:bfb207
+    Rosa: Miss Rosa. #line:3d1c0c
+    Mae: oh. Hm. #line:dd72ab
+    Mae: i’m sorry. #line:034a3b
+    Rosa: it’s alright. #line:eb7a96
+    Rosa: time does that. #line:27650e
+    Rosa: you know, I knew your grandfather. #line:d7f529
+    Mae: oh really? #line:caa9f5
+    Rosa: yes. Long ago. #line:acec7b
+    Rosa: if you’d like to ever talk about him #line:e81b46
+    Rosa: i got history to pass on #line:380f8d
+    Rosa: before i join him #line:09fb51
+    Rosa: heh heh #line:d6a248
+    Mae: oh. #line:529049
+    Mae: yeah, sure! #line:522c46
+    Rosa: i’m here from time to time #line:8e54a7
+    Rosa: stop by when you like #line:a77842
+    Rosa: and we’ll have ourselves a talk. #line:4899e7
+    Rosa: history don’t keep itself #line:2d56f9
+    Mae: sounds like a plan, Miss Rosa #line:aa0060
+    Rosa: until later, Mae Borowski. #line:633866
+<<elseif $met_rosa is 0>>
+    <<set $met_rosa to 1>>
+    Rosa: Oh, hello Mae! #line:45e550
+    Mae: Um. #line:522bd8
+    Mae: Do I know you? #line:81c22b
+    Rosa: I don't know if you remember me? Miss Rosa? #line:c6dea4
+    Mae: Hm... #line:3aa253
+    Rosa: I knew your grandfather. #line:979604
+    Rosa: I visited you the day after you were born. #line:34ef0a
+    Rosa: You were so small. #line:4b4c2e
+    Mae: ... #line:6866c3
+    Rosa: I guess some things don’t change, eh? #line:0e51bb
+    Mae: How did you know grandad? #line:ab54ca
+    Rosa: I’m here most days, why don’t you stop by sometime #line:4dd1d7
+    Rosa: and I’ll tell you all about him? #line:e6d453
+    Rosa: things you might not know. #line:026872
+    Mae: Alright, you’ve got my interest. #line:2ca22f
+    Rosa: Sweet curious child. #line:8cf83d
+<<else>>
+    <<if $rosa_sequence is 0>>
+        <<set $rosa_sequence += 1>>
+        Rosa: Oh, hello? #line:c4e171
+        Mae: hey. It’s mae. #line:1afe75
+        Rosa: i remember. Ol’ clock upstairs ain’t stopped yet. #line:82ad6b
+        Mae: what did you want to tell me about granddad? #line:4637f1
+        Rosa: well i’ll only say if you really want to know... #line:1978ca
+        	->ha ha yes, i do want to know #line:ca01bf
+        	->is it scandalous? #line:e90f7f
+        		Rosa: oh i don’t think so. #line:39b3ea
+        		Rosa: i’m old enough that nothing feels scandalous anyway. #line:963a9c
+        		Mae: is that a thing that happens when you get old? #line:4c96eb
+        		Rosa: heh heh... depends on the life you led #line:485f75
+        		Mae: ok, anyway- #line:e33e43
+        Rosa: you got a history of troublemakers in your family. #line:caddbf
+        Rosa: on your daddy’s side in particular. #line:6db481
+        Mae: oh? #line:38b10c
+        Rosa: go back far enough you got folks #line:788acf
+        Rosa: that were around for the real hard times #line:4b9bd6
+        Rosa: when the workers went up against armies. #line:415aff
+        Mae: oh yeah I kinda remember something about that. #line:79ccb7
+        Mae: great-great-great-great grandpa or whatever. #line:eaf034
+        Mae: might have gotten the number of greats wrong there #line:5bb080
+        Rosa: your grandfather and i weren’t around for a lot of the violence #line:3c6b97
+        Rosa: that was before even our time. #line:b0d842
+        Rosa: naw, we were around to watch the tide roll out. #line:8fcf09
+        <<wait 4>>
+        Mae: ...and? #line:a3061f
+        Rosa: we’ll need to talk again another time. #line:7f5dc7
+        Rosa: i get tired. #line:4485b7
+        Mae: oh. Ok. #line:d9c98b
+        Mae: can i get you anything? #line:8cbac2
+        Mae: i don’t have any money. #line:bc297a
+        Rosa: naw, i’m just fine Mae. #line:efcdf5
+        Rosa: we’ll talk another time. #line:5027d6
+        Mae: ok! See you! #line:258a17
+    <<elseif $rosa_sequence is 1>>
+        <<set $rosa_sequence += 1>>
+        Mae: Hey Miss Rosa! #line:015c6a
+        Rosa: oh, hello mae. #line:e296d0
+        Mae: how are you feeling today? #line:2d9b71
+        Rosa: oh, i feel the damp and the cold down here #line:aaa98d
+        Rosa: but it’s in my bones wherever i go #line:63c86f
+        Rosa: so no harm. #line:49bf9b
+        Mae: did you want to talk about granddad? #line:7be390
+        Rosa: oh yes, where was i? #line:691c58
+        	->something about a tide rolling out? #line:480e40
+        		Rosa: what? #line:ee0b68
+        		<<wait 3>>
+        		Rosa: oh right.  #line:4f368f
+        		Rosa: that was a metaphor. #line:51b0c6
+        		Mae: i figured. #line:806e6f
+        	->troublemakers in my family? #line:30a408
+        		Rosa: right #line:fab242
+        Rosa: back then there were places that brought us all together #line:d5a0ae
+        Rosa: or at least brought us together in bits and bobs. #line:32c9fb
+        Rosa: the Ol’ smokeys #line:023601
+        Rosa: the grand bears #line:a57954
+        Rosa: the lodge of old #line:889bbb
+        Rosa: the church and the union. #line:41b1fa
+        Rosa: there’d be dances #line:3147bc
+        Rosa: up at the H-Bee #line:8875da
+        Rosa: that’s where I met your granddad, oh… a lifetime ago. #line:6a2633
+        Mae: what was he like back then? #line:f2de62
+        Rosa: Plain in most respects. #line:9a1b03
+        Rosa: Prone to fits of melancholy #line:857c08
+        Rosa: but funny, and wild when the occasion called. #line:0f45f3
+        Rosa: surprising, is I guess the word. #line:acf927
+        Mae: hm. #line:da1122
+        Rosa: what’d your daddy say about him? #line:5cc8f6
+        	->strict but nice? #line:f8379e
+        		Rosa: heh heh #line:c98154
+        		Rosa: strict is funny. #line:8b1db0
+        		Mae: why? #line:0b159b
+        	->distant but... trying? #line:bdb42c
+        		Rosa: sounds right #line:cde141
+        		Rosa: that sounds... #line:e7d367
+        <<wait 4>>
+        Mae: you alright, Miss Rosa? #line:f79b63
+        Rosa: oh yes. #line:fde926
+        Rosa: let’s talk another time. #line:81d3db
+        Mae: ok. #line:13a23f
+        Mae: hope you feel better? #line:0bc78f
+        Rosa: oh mae #line:c2ccda
+        Rosa: oh dear mae... #line:409879
+    <<elseif $rosa_sequence is 2>>
+        <<set $rosa_sequence += 1>>
+        Mae: oh hey Miss Rosa! #line:515558
+        Rosa: oh. Hello mae. #line:feef58
+        Mae: feeling better? #line:49d375
+        Rosa: as well as to be expected i s’pose. #line:0428dd
+        Mae: that’s good. #line:59f0c7
+        Mae: did you want to talk about- #line:4a54a0
+        Rosa: your grandfather. #line:c78c1b
+        Mae: yeah #line:e3d81c
+        Rosa: Possum Springs was built on our backs and the backs before us. #line:d014ad
+        Rosa: Time was they didn’t pay the people in real money #line:5a20f6
+        Rosa: paid in little tokens and bills stamped with the company name #line:c3753d
+        Rosa: good at the company store #line:b7cb2b
+        Rosa: for company goods. #line:c0969d
+        Mae: back in school they showed us some of those. #line:afa498
+        Mae: weird quarters and stuff. #line:f66788
+        Rosa: your grandfather remembered. His daddy experienced it first hand. #line:59d664
+        Rosa: mine boss came into town, driving a big fancy car #line:9b1518
+        Rosa: night i met your grandfather. #line:5692e6
+        Rosa: a real bastard, that boss, god forgive him. #line:914272
+        Rosa: your grandfather runs out of the dance, #line:56fef0
+        Rosa: i think he was a bit drunk. Or just stupid in some brave way. #line:93fc9a
+        Rosa: he shouts “the guts of all bosses!” #line:b6ed1a
+        Rosa: he all of a sudden has a hunting knife from somewhere #line:6f9492
+        Rosa: and he slashes the boss’s tires. #line:ca8b12
+        Mae: :) #line:64e8b9
+        Mae: ha ha ha ha wow! #line:1a629a
+        Rosa: picks up a rock, put it through the windshield #line:adddf0
+        Rosa: then he climbs up #line:8ab294
+        Rosa: i’m sorry, this part is a bit rude… #line:bfde1f
+        Mae: holy shit don’t stop #line:1da57c
+        Rosa: he pees through the windshield hole. #line:7cae4b
+        Mae: this is amazing! #line:a75959
+        Mae: :| #line:b245e8
+        Mae: did they catch him? #line:51dc79
+        Rosa: naw, just me and a few other folks saw it. #line:9b2bab
+        Rosa: i trot over to him, and we run off down the alley #line:3ba892
+        Rosa: past the A-OK drug store #line:0b1d16
+        Rosa: big field, big parking lot nowadays #line:530860
+        Rosa: stars fat and bright #line:201da9
+        Rosa: i guess we were both pretty drunk #line:127455
+        Rosa: one thing led to another, #line:30ab83
+        Mae: oh. ok. #line:d9dc0f
+        Mae: wait... when was this...? #line:f96ca7
+        Rosa: a... very long time ago. #line:30fcb9
+        Mae: was he...  #line:47a05d
+        Rosa: ... #line:161616
+        Mae: ... #line:273cc9
+        Rosa: ... #line:47f6cb
+        Mae: so what happened with the car? #line:07819e
+        Rosa: got towed away. #line:27fd76
+        Rosa: police couldn’t get no witnesses. #line:788d27
+        Rosa: we weren’t snitches about that kinda thing. #line:b534a8
+        Mae: damn right. #line:318a67
+        Rosa: so like i said #line:e99989
+        Rosa: you got troublemaker blood. #line:bd58bd
+        Rosa: heh heh heh #line:48023d
+        Mae: geez. I never knew this. #line:da3ee2
+        Rosa: i don’t think your daddy even knows #line:399dca
+        Mae: i bet not. #line:f5080d
+        Rosa: you gonna tell him? #line:9f90de
+        ->yes #line:9c76b0
+        	Mae: sometime #line:23f9fd
+        	Mae: maybe #line:b26f30
+        ->no #line:3cd986
+        	Rosa: secret keeper like me, eh? #line:dd72aa
+        	Mae: i just think it’d be a weird conversation #line:1c1be4
+        	Rosa: you may find someday it isn’t so strange. #line:058542
+        Rosa: i wanted to pass this story along to you #line:6eba23
+        Rosa: it was one night, one thing he did #line:1478ed
+        Rosa: in a lifetime of nights and things he did #line:babef5
+        Rosa: what you want to do with that, is part of your story now. #line:4eb94d
+        <<wait 4>>
+        Rosa: i can’t talk much more for today #line:480cb8
+        Mae: i’d like to know more about him! #line:36753c
+        Mae: this was crazy. #line:7ece1c
+        Rosa: ... #line:26536d
+        Rosa: i’ll see you, mae #line:ba208b
+        Rosa: sooner or later. #line:bd8072
+        Mae: ok. #line:3e97d8
+        Mae: bye, Miss Rosa! #line:82eab4
+        Rosa: bye for now, Mae Borowski. #line:4ed2a3
+    <<endif>>
+<<endif>>
+<<set $rosa_done to 1>>
+===
+title: Fisherman_A1D3
+tags: 
+colorID: 2
+position: 11879,-10111
+---
+Fisherman: Wife long gone, kids don’t care. #line:f325d0
+Fisherman: Tunnel fish are always there. #line:65e724
+Mae: Ha ha yeah man. #line:8330f6
+Fisherman: Oh god please don’t listen. #line:97e0a8
+<<set $fisherman_done to 1>>
+===
+title: MissQuelcy
+tags: 
+colorID: 0
+position: 8162,-9206
+---
+<<if $act is 0 and $day is 0>>
+    [[MissQuelcy_Demo]]
+<<endif>>
+===
+title: MissQuelcy_Demo
+tags: demo
+colorID: 0
+position: 8138,-8801
+---
+<<if $miss_quelcy is 0>>
+    <<alwaysLookAt Mae MissQuelcy>>
+    <<wait .25>>
+    Mae: o/ #line:a51855
+    Mae:{locator=MaeQuelcy}Hey Ms. Quelcy! Are you on... a phone? #line:c779a2
+    Mae: _o_ #line:75cef1
+    MissQuelcy:{locator=MaeQuelcy}Mae, I think I found signal. #line:c8ac5f
+    Mae:{locator=MaeQuelcy}Oh my god. #line:9483bb
+    MissQuelcy:{locator=Quelcy}I know, Mae. I know. #line:53296d
+    [[{locator=MaeQuelcy}So how's art class this year?|MissQuelcy_Demo_ArtClass]] #line:6169b0
+    [[{locator=MaeQuelcy}I'm surprised you even carry a phone around town. No one else does.|MissQuelcy_Demo_Phone]] #line:d17f4c
+<<elseif $miss_quelcy is 1>>
+    MissQuelcy: Mae, you're scaring the signal away. #line:5e0053
+<<endif>>
+===
+title: MissQuelcy_Demo_Phone
+tags: demo
+colorID: 0
+position: 8413,-8493
+---
+MissQuelcy: I have a comprehensive internal database of unsecured wifi hotspots. #line:808ccb
+Mae:{locator=MaeQuelcy}That's scandalous. #line:75fda4
+MissQuelcy: Me stealing wifi is about the 10th most scandalous thing involving a phone I've encountered this week. #line:f3d1fd
+Mae:{locator=MaeQuelcy}Oh? #line:b5e212
+MissQuelcy:{locator=Quelcy}I caught several students earlier this week, back of the art room, looking at ...visual reference. #line:46fd76
+Mae:{locator=MaeQuelcy}Oh... :\ #line:538a0e
+MissQuelcy:{locator=Quelcy}I swear they should stop calling these smartphones and start calling them tupperware for porn. #line:2b8478
+Mae:{locator=MaeQuelcy}Yeah. They should call them that. :| #line:1090d3
+MissQuelcy: It's not like we get any signal in Possum Springs.  #line:b882a5
+MissQuelcy: If I see a kid with a phone I just assume they're carrying a smut bomb waiting to go off. #line:337dde
+[[MissQuelcy_Demo_End]]
+===
+title: MissQuelcy_Demo_ArtClass
+tags: demo
+colorID: 0
+position: 7913,-8526
+---
+MissQuelcy: Well, we're studying anatomy for figure drawing #line:4cc2a8
+MissQuelcy: and I'm trying to somehow work it into the sex ed class this district won't allow us to have. #line:d94428
+Mae:{locator=MaeQuelcy}I won't tell. :) #line:30806e
+MissQuelcy: I guess if all else fails we could make onesies. #line:7ebf6b
+Mae: :| #line:b2bc4b
+[[MissQuelcy_Demo_End]]
+===
+title: MissQuelcy_Demo_End
+tags: demo
+colorID: 0
+position: 8144,-8231
+---
+Mae:{locator=MaeQuelcy}Well, best of luck with the signal! #line:c3461b
+MissQuelcy: Hey, Mae? I know you just recently got back, but I have some free advice for you. #line:033831
+Mae:{locator=MaeQuelcy}What's that? #line:8a81cb
+MissQuelcy: Get out now while you still can. #line:9ba70a
+Mae:{locator=MaeQuelcy}Um. Thanks. :\ #line:b6b315
+Mae:{locator=MaeQuelcy}Why are you still here if you hate it so much? #line:a63569
+MissQuelcy: Child, I am paid to be here. #line:ac6b0d
+Mae:{locator=MaeQuelcy}Ok. Thanks? #line:368f8b
+MissQuelcy: Run. Run away. Get a job in far away lands. Join the circus. Be not here.  #line:b9a88f
+Mae:{locator=MaeQuelcy}... :| #line:8c1954
+MissQuelcy: You're welcome. #line:0d56da
+<<set $ms_quelcy to 1>>
+===
+title: Old_TunnelTeens_A2D4
+tags: 
+colorID: 3
+position: 5739,-8851
+---
+//THIS IS THE PUMPKIN HEAD GUY!!!!//
+<<if $tunnel_teens is 0>>
+    <<set $tunnel_teens += 1>>
+    <<set $tunnel_teens_done to 1>>
+    Mae: Where is everybody? #line:15f908
+    TunnelTeen3: *mmf**mmf* #line:a64cf3
+    Mae: What? #line:3cd8e3
+    TunnelTeen3: *MMF**MMF* #line:da3668
+    Mae: Oh my god. We used to do that. Awesome. #line:c14f80
+    TunnelTeen3: *mmf**mmf**mmf* #line:595545
+    Mae: Well you go easy on my street. #line:7d3a01
+    TunnelTeen3: *mmf**mmfmmffmffff* #line:ea0c64
+    Mae: Deal #line:b5e871
+    <<set $knows_mischief to 1>>
+<<endif>>
+===
+title: Old_TunnelTeens_A3D1
+tags: 
+colorID: 3
+position: 6055,-8801
+---
+<<if $tunnel_teens is 0>>
+    <<set $tunnel_teens += 1>>
+    <<set $tunnel_teens_done to 1>>
+    <<if $knows_mischief is 1>>
+    	Mae: Wow. #line:08d078
+    	Mae: You guys sure did a number on my street. #line:32816f
+    	TunnelTeen3: We did nothing. #line:043e79
+    	TunnelTeen2: You got no proof. #line:7682fc
+    	Mae: That's my neighbor's pumpkin right there. #line:eb0dc9
+    	TunnelTeen2: This is a different pumpkin. #line:57663c
+    	Mae: ... #line:3e41d0
+    <<endif>>
+    <<if $intro_teens is 0>>
+    	TunnelTeen1: Hey don't you know Lori? #line:3aa32a
+    	Mae: Yeah. #line:326946
+    	TunnelTeen1: Oh ok. #line:366e4e
+    	TunnelTeen2: I thought so #line:be9c7f
+    	<<set $intro_teens to 1>>
+    <<endif>>
+    Mae: Hey... uh... kind of a weird question, but #line:7497e6
+    Mae: is anyone missing? #line:48ba36
+    TunnelTeen3: What? #line:c312a6
+    Mae: Like anyone you know who was out last night #line:056643
+    Mae: and didn't come back? #line:914b89
+    TunnelTeen2: Uh. #line:c8a7a2
+    TunnelTeen4: I don't think so? #line:c5c2a5
+    TunnelTeen1: What's going on? #line:1acc37
+    Mae: Nothing. Thought I saw something. #line:b7cae9
+    TunnelTeen3: Ok... uh... #line:d421bd
+    TunnelTeen1: You should tell us if this is something. #line:3f6e18
+    Mae: Just be careful, ok? Keep an eye out #line:3a296d
+    Mae: and let me know if you see anything weird, ok? #line:29c8bd
+    <<set $teen_sleuth to 1>>
+    Mae: I mean you all hang out together constantly. #line:39a69b
+    Mae: You're safer than anyone else I know! #line:3d9106
+    TunnelTeen1: ... #line:853785
+<<endif>>
+===
+title: Old_TunnelTeens_A3D3
+tags: 
+colorID: 3
+position: 6241,-8929
+---
+<<if $tunnel_teens is 0>>
+    <<set $tunnel_teens += 1>>
+    <<set $tunnel_teens_done to 1>>
+
+    <<if $no_lori is 1>>
+    	TunnelTeen1: Eff off. #line:d3b7ef
+        <<stop>>
+    <<endif>>
+    <<if $intro_teens is 0>>
+    	TunnelTeen1: Hey don't you know Lori? #line:de4c3d
+    	Mae: Yeah. #line:722e5d
+    	TunnelTeen1: Oh ok. #line:f36d62
+    	TunnelTeen2: I thought so #line:5c0a27
+    	<<set $intro_teens to 1>>
+    <<else>>
+    	Mae: Hey teens. #line:46740a
+    	TunnelTeen3: Hey. #line:c8d6fa
+    <<endif>>
+    Mae: So like... are you *always* together? #line:a9ebd2
+    TunnelTeen1: Yeah I guess. #line:90c4ac
+    Mae: That's cool. Friends are cool. #line:fef9b8
+    Mae: Safer. #line:13fece
+    TunnelTeen3: Safer? #line:b09941
+    Mae: Yeah, like the buddy system. #line:5f4cd9
+    Mae: Safety in numbers!!! #line:67f399
+    TunnelTeen4: You're a little paranoid, you know that? #line:71c7e3
+    Mae: Kid, you don't even know. #line:042644
+    <<if $teen_sleuth is 1>>
+    	Mae: Anyone hear anything about anyone around here missing? #line:833a41
+    	TunnelTeen3: Uh, yeah actually. #line:cd7cd4
+    	TunnelTeen3: There's some girl I know online #line:98bef4
+    	TunnelTeen3: she hasn't been on since Harfest. #line:cd3ed1
+    	Mae: Ok well I think we might need a bit more than that. #line:e33a4d
+    	TunnelTeen3: Ok. #line:3772a0
+    	Mae: Is she from here? I could ask my aunt... #line:48eade
+    	TunnelTeen3: some place called Mulvay #line:f8a7de
+    	Mae: !!!! (eyes dilate, big frown) #line:9392a0
+    	Mae: *Mulvay*? #line:626dc9
+    	Mae: You know someone from *Mulvay*? #line:32417b
+    	TunnelTeen3: Yeah? #line:e1c6b4
+    	Mae: Do you know where Mulvay is? #line:c9625f
+    	Mae: Do you know *WHAT* Mulvay is? #line:f85801
+    	TunnelTeen3: No... #line:da75bb
+    	TunnelTeen1: I heard about Mulvay. #line:3cdc60
+    	TunnelTeen1: My dad drives a bread truck. #line:ad7cc2
+    	TunnelTeen1: Mulvay used to be one of his stops. #line:d22eb6
+    	Mae: What happened? #line:6a89e0
+    	TunnelTeen1: He don't stop there no more. #line:5c56ec
+    	TunnelTeen1: They had to pay some other guy to do it. #line:c03ae9
+    	Mae: Sounds about right. #line:4300eb
+    	TunnelTeen3: WHAT'S Mulvay? #line:629257
+    	TunnelTeen1: I'll take you out there this weekend. #line:2e23dc
+    	Mae: Don't. #line:7fe33c
+    	TunnelTeen1: It'll be fine. We'll just drive through. #line:1926d3
+    	Mae: ... #line:74a197
+    	Mae: I need to go get back in the sun now. #line:9251d1
+        <<set $munroy to 1>>
+    <<else>>
+    	Mae: So like... and I don't want this to sound weird, but... #line:b4a8d3
+    	Mae: Do you know of anyone who's gone missing in the past couple days? #line:152964
+    	TunnelTeen1: No? #line:bb7f5e
+    	TunnelTeen4: Nah, not that I know of #line:4fd750
+    	Mae: Ok, well tell me if you notice anyone is. #line:6259da
+    	TunnelTeen3: You are really spooking me. #line:3b47d3
+    	Mae: You and me both, kid. #line:b6ef2c
+    	<<set $teen_sleuth to 1>>
+    <<endif>>
+<<endif>>
+===
+title: Old_TunnelTeens_A3D4
+tags: 
+colorID: 3
+position: 6468,-8865
+---
+<<if $tunnel_teens is 0>>
+    <<set $tunnel_teens += 1>>
+    <<set $tunnel_teens_done to 1>>
+    <<if $no_lori is 1>>
+    	TunnelTeen1: Eff off. #line:5c4be8
+    <<else>>
+        <<if $intro_teens is 0>>
+        	TunnelTeen1: Hey don't you know Lori? #line:a0e7a7
+        	Mae: Yeah. #line:705235
+        	TunnelTeen1: Oh ok. #line:a1fd37
+        	TunnelTeen2: I thought so #line:9c454f
+        	<<set $intro_teens to 1>>
+        <<else>>
+        	Mae: Hey teens. #line:95615f
+        	TunnelTeen3: Hey. #line:79867f
+        <<endif>>
+        Mae: Hey you guys. #line:5fdac2
+        TunnelTeen2: Yeah? #line:f99c5e
+        Mae: Stay safe, alright? #line:14328f
+        TunnelTeen3: wow. Thanks mom. #line:e71046
+        TunnelTeen4: are you our new mom? #line:e08973
+        Mae: apparently. #line:986caa
+        Mae: life, man. it goes. #line:2483fc
+        TunnelTeen1: slowly #line:d7226e
+        Mae: nah, dude. #line:031c7e
+        Mae: nah. #line:8d1e22
+    <<endif>>
+<<endif>>
+===
+title: PawsModeStealingPretzel
+tags: 
+colorID: 0
+position: 10930,-11012
+---
+<<if $mallard_rats>>
+    //interaction shoudl be deactivated if this variable is set
+    //Mae: My precious rat babies have left the nest! no need for Momma to feed 'em anymore.
+    //Mae: ...they grow up so fast...
+<<elseif $rats_fed_today is 1 >>
+    Mae: My babies are all fed. Momma don't need to steal today. #line:fd69b8
+<<elseif $paws_mode_mallard is 0>>
+    Mae: Delicious pretzels... #line:1570f6
+<<elseif $paws_mode_mallard is 1 and $pretzel is 0 and $pretzel_steal_attempt is 0>>
+    Mae: I bet some rat babies would love a delicious pretzel... #line:43eb5b
+    <<set $pretzel_steal_attempt to 1>>
+    <<irisOut 1 wait>>
+    <<scene PawsModeStealingPretzel>>
+<<elseif $paws_mode_mallard is 1 and $pretzel is 0 and $pretzel_steal_attempt > 0>>
+    Mae: ugh probably not gonna get another chance today. dammit. #line:403955
+<<elseif $paws_mode_mallard is 1 and $pretzel > 0>>
+    Mae: One pretzel is enough for my tiny rat darlings. #line:6aea7d
+<<endif>>
+===
+title: MuralVandalism
+tags: demo2
+colorID: 3
+position: 11629,-10944
+---
+Mae: {emote=exclamation} #line:6a9b17
+Mae: HOLY SHIT. #line:4d5b94
+Mae: The Dudes! Someone hecked up the dudes! #line:ca137a
+Mae: Who... did... this? #line:c2d109
+Mae: Why did they do it? #line:b6990d
+<<set $knows_mural to 1>>
+<<set $mural_vandalism_done to 1>>
+<<unlockDoodle NukePossumSprings>>
+===
+title: Fisherman_A2D1
+tags: demo2
+colorID: 3
+position: 12133,-10105
+---
+Fisherman: Many miners old and young #line:43ff0a
+Fisherman: With home in heart and coal in lung #line:7e693b
+Fisherman: Were taken by the trolley men #line:a6ee6b
+Fisherman: Up to the mine and back again #line:e26a2a
+Fisherman: But mudslide, flood, and awful storm #line:7f6cd9
+Fisherman: Have given tunnel fishes ho... rm. #line:8e1a8b
+Mae: "Horm?" :) #line:4168d5
+Fisherman: Please stop listening. #line:7e29d3
+Mae: :| #line:9bf4b9
+<<set $fisherman_done to 1>>
+<<unlockDoodle HoneyImHorm>>
+===
+title: TrolleyWonder
+tags: demo2
+colorID: 3
+position: 10426,-10721
+---
+<<lookOut Mae>>
+Mae:{locator=TrolleyWonder}Amazing to think these things used to run. #line:3d2a8d
+Mae:{locator=TrolleyWonder}Kind of amazing they're still down here too. #line:30317f
+Mae:{locator=TrolleyWonder}No way to get them out of here I guess. #line:ce4491
+Mae:{locator=TrolleyWonder}This place sure was something a long time ago. #line:c6f58d
+<<lookNearest Mae>>
+<<set $trolley_wonder_done to 1>>
+===
+title: AboutTunnelDemo2
+tags: demo2
+colorID: 3
+position: 10728,-10716
+---
+Mae: I can't believe they've kept this open. #line:46b469
+Mae: Historical note, I guess. #line:e32628
+Mae: I think it's just because the old people like the pierogi stand. #line:68f5f9
+Mae: Never underestimate the ability of old people to get state funding. #line:19f14d
+<<end>>
+===
+title: Council1
+tags: demo2
+colorID: 0
+position: 12187,-10828
+---
+<<if $council1 is 0>>
+    Council1: Damn shame #line:98d2f6
+    <<set $council1 += 1>>
+<<elseif $council1 is 1>>
+    Council1: This was of historical note! #line:389d5f
+    <<set $council1 += 1>>
+<<elseif $council1 is 2>>
+    Council1: Without it I don’t know if we can justify keeping this place open... #line:dc34ec
+    <<set $council1 += 1>>
+<<else>>
+    Council1: {emote=cloud_rain} #line:6dcdd4
+<<endif>>
+
+===
+title: CityCouncil_A2D1_Demo2
+tags: demo2
+colorID: 3
+position: 11790,-10463
+---
+<<set $council1_done to 1>>
+Council1: Because this mural is of historical note, Molly! #line:dd8664
+Council1: What do we know? #line:120ce6
+Molly: Well, sometime overnight #line:2e613b
+Molly: someone used bolt cutters on the gate #line:526d97
+Molly: and came down here. #line:4ce8e4
+Council1: What’d they use, a paint roller? #line:f75c78
+Molly: Looks to be. #line:76b5d6
+Council1: Says they intend to Nuke Poss... something? #line:f1616b
+Molly: I think it’s likely some kid #line:364c8f
+Molly: saw one of the old Nuke Possum Springs vandalisms from back when #line:22f6a0
+Molly: and got bored halfway through writing it. #line:d7e9bc
+Council1: We need to treat this as a terrorist action. #line:d97445
+Molly: I’m... sorry? #line:dec852
+Council1: This mural is of historical note! #line:358775
+Molly: Alright well I’ll round up any… uh… terrorists I see. #line:e17187
+Council1: Round up any dirtbag teens or vagrants that’ve been hanging around town #line:52adf2
+Council1: check out by the abandoned Food Donkey. #line:31c864
+Council1: they come off the train there #line:67a36c
+Molly: Already on it. #line:526ee7
+Council1: Molly. #line:5703d4
+Molly: Yeah? #line:a65a29
+Council1: Find whoever did this. #line:3b2db5
+Molly: Ok. #line:c5f1f0
+Council1: I want to see them hang. #line:5ceca2
+Molly: I think at most they’d get a fine and some jail time #line:2f2527
+Molly: but alright. I’ll let you know when we’ve got something. #line:4e7b68
+<<close>>
+<<set $council1_done to 0>>
+<<walk Molly MollyOffRight>>
+<<wait 3>>
+===
+title: Old_TunnelTeens_A4D3
+tags: 
+colorID: 6
+position: 6270,-8527
+---
+<<if $tunnel_teens is 0>>
+    <<set $tunnel_teens += 1>>
+    <<set $tunnel_teens_done to 1>>
+    <<if $no_lori is 1>>
+    	TunnelTeen1: Eff off. #line:fd36f2
+        Mae: No. Today *YOU* eff off. #line:5d132d
+        TunnelTeen1: Dang, bud. #line:01f483
+    <<else>>
+        <<if $intro_teens is 0>>
+        	TunnelTeen1: Hey don't you know Lori? #line:50a9c9
+        	Mae: Yeah. #line:b4889e
+        	TunnelTeen1: Oh ok. #line:91761a
+        	TunnelTeen2: I thought so #line:e69c1c
+        	<<set $intro_teens to 1>>
+        <<else>>
+        	Mae: Hey teens. #line:48cb38
+        	TunnelTeen3: Hey. #line:6678a6
+        <<endif>>
+        Mae: oof. #line:6c5c55
+        TunnelTeen1: Oof? #line:788d2f
+        TunnelTeen2: you alright? #line:8ffc93
+        Mae: I guess. #line:3283f5
+        TunnelTeen3: How old did you say you were? #line:96be13
+        Mae: 20 #line:cab2fe
+        TunnelTeen4: Told you she couldn't get us beer. #line:8cc868
+        Mae: What do you want beer for anyway? #line:65a829
+        Mae: Beer is gross. #line:1a33ed
+        Mae: It's not delicious at all. #line:5847c2
+        TunnelTeen1: Life ain't always delicious, mom. #line:f4d04b
+        TunnelTeen2: Thought you'd know that by now. #line:e82d3b
+        Mae: That doesn't even have any bearing on this. #line:112cf4
+        Mae: I hear there is actual good-tasting alcohol out there. #line:01b4a1
+        Mae: I dunno. Fruit punch that makes you do things you regret. #line:164807
+        TunnelTeen3: Right. #line:e828e9
+        Mae: Am I uncool again? #line:312f8a
+        TunnelTeen4: You never were cool, mom. #line:e62e78
+        Mae: Dang. #line:853117
+        TunnelTeen1: But life ain't always cool. #line:c773ab
+        TunnelTeen2: Life is garbage. #line:a258af
+        TunnelTeen3: But like, you know. Whatever. #line:4c1af5
+        TunnelTeen4: Yeah. We're all trash anyway. #line:d17499
+        TunnelTeen1: We belong here. #line:23486f
+        Mae: Ok we can stop with the words of teenly wisdom now. #line:fe6d7b
+        Mae: Catch you later. #line:fa2585
+    <<endif>>
+<<endif>>
+===
+title: Fisherman_A2D3
+tags: 
+colorID: 3
+position: 12399,-10113
+---
+Fisherman: Wife long gone, kids don’t care. #line:19a2a9
+Fisherman: Tunnel fish are always there. #line:ef6ce8
+Mae: Ha ha yeah man. #line:e5a2c6
+Fisherman: Oh god please don’t listen. #line:6e6e02
+<<set $fisherman_done to 1>>
+===
+title: Fisherman_A3D2
+tags: 
+colorID: 4
+position: 12648,-10102
+---
+Fisherman: Methinks I spy a tunnel shark #line:4673a2
+Fisherman: Scary monster in the dark #line:f2d829
+Mae: Holy crap! #line:95fd19
+Fisherman: I didn't really see it. #line:cf0ecf
+Fisherman: please don't listen. #line:751531
+<<set $fisherman_done to 1>>
+===
+title: Fisherman_A3D4
+tags: 
+colorID: 4
+position: 12921,-10097
+---
+Fisherman: Will tunnel fish be always there? #line:da20c2
+Fisherman: Will tunnel drain, canal be bare? #line:a1cbd0
+Fisherman: I would miss the tunnel fish. #line:351f76
+Fisherman: To have them back would be my wish. #line:bbb0d4
+Mae: are they gonna drain the tunnel or something? #line:8c50d6
+Fisherman: No. It's poetry, ok? #line:1991c1
+Fisherman: I'm just making stuff up! #line:d5858c
+Fisherman: Please don't listen!!! #line:abbe03
+<<set $fisherman_done to 1>>
+===
+title: Fisherman_A4D3
+tags: 
+colorID: 6
+position: 13212,-10085
+---
+Fisherman: When winter come and water freeze #line:04a4e0
+Fisherman: Here the fish can be at ease #line:3a54dc
+Fisherman: the tunnel is not flooded ruin #line:664e2d
+Fisherman: it's a home, a place for doin' #line:ec09fe
+Mae: Sure. That works. #line:5b5e8b
+Fisherman: please go away. #line:ebac7c
+<<set $fisherman_done to 1>>
+===
+title: TunnelTeens_A1D1
+tags: 
+colorID: 2
+position: 6937,-9585
+---
+Mae: Cool that people still hang around down here. #line:6880e0
+Mae: We used to do that when I was in highschool. #line:835914
+TunnelTeen1: yeah. #line:ab47a2
+Mae: I wasn’t in high school that long ago, you know. #line:616b04
+TunnelTeen2: How old are you? #line:81578c
+Mae: 20! #line:c41ff6
+TunnelTeen2: Oh so you can’t buy beer. #line:20415f
+Mae: ...no. #line:a71896
+TunnelTeen1: Do you have a car? #line:6cb424
+Mae: ...no. #line:341679
+TunnelTeen2: hm. #line:9c988e
+===
+title: TunnelTeens_A1D3
+tags: 
+colorID: 2
+position: 7194,-9576
+---
+Mae: Hey kids! #line:b11054
+TunnelTeen1: Hey adult. #line:9d5b7f
+Mae: Well I was your age only a few years ago. #line:800563
+TunnelTeen2: Uh huh. #line:abc5eb
+Mae: ... #line:11d420
+Mae: Well, see ya later! #line:01f821
+===
+title: TunnelTeens_A2D2
+tags: 
+colorID: 3
+position: 6936,-9343
+---
+Mae: Rainy day, huh. #line:523021
+TunnelTeen3: But not down here. #line:421e25
+Mae: You kids have your own little secret hideout down here, huh. :) #line:8c9f6f
+TunnelTeen2: Pfft. #line:3c2744
+TunnelTeen3: Whatever. #line:465d19
+Mae: :| #line:fc1013
+Mae: When I was a kid -  #line:2a7da3
+TunnelTeen2: Literally nobody cares. #line:f8e041
+<<wait 1>>
+Mae: Well - :( #line:ade1ea
+TunnelTeen3: Whatever. #line:ccd323
+<<wait 1>>
+Mae: ... :| #line:a05cf2
+Mae: Okay then. #line:cccfb9
+===
+title: TunnelTeens_A3D1
+tags: 
+colorID: 4
+position: 6930,-9099
+---
+Mae: Hey... uh... kind of a weird question, but #line:e8f392
+Mae: is anyone missing? #line:981f4e
+TunnelTeen3: What? #line:0e1b86
+Mae: Like anyone you know who was out last night #line:be441e
+Mae: and didn't come back? #line:03c06b
+TunnelTeen2: Uh. #line:7d21e5
+TunnelTeen4: I don't think so? #line:eb14ed
+TunnelTeen1: What's going on? #line:9b2bff
+Mae: Nothing. Thought I saw something. #line:916d24
+TunnelTeen3: Ok... uh... #line:14a58c
+TunnelTeen1: You should tell us if this is something. #line:0aeed8
+Mae: Just be careful, ok? Keep an eye out #line:54d3d2
+Mae: and let me know if you see anything weird, ok? #line:33082c
+Mae: I mean you all hang out together constantly. #line:3517ac
+Mae: You're safer than anyone else I know! #line:0108fc
+TunnelTeen1: ... #line:1f1846
+===
+title: TunnelTeens_A3D3
+tags: 
+colorID: 4
+position: 7186,-9097
+---
+Mae: So like... are you *always* together? #line:db4082
+TunnelTeen1: Yeah I guess. #line:7c3641
+Mae: That's cool. Friends are cool. #line:558028
+Mae: Safer. #line:fff818
+TunnelTeen3: Safer? #line:f2d0bf
+Mae: Yeah, like the buddy system. #line:385cbb
+Mae: Safety in numbers!!! #line:141e0b
+TunnelTeen4: You're a little paranoid, you know that? #line:a9ebd9
+Mae: Kid, you don't even know. #line:cebf1b
+Mae: Anyone hear anything about anyone around here missing? #line:af8537
+TunnelTeen3: Uh, yeah actually. #line:2223c7
+TunnelTeen3: There's some girl I know online #line:874900
+TunnelTeen3: she hasn't been on since Harfest. #line:80c9fe
+Mae: Ok well I think we might need a bit more than that. #line:688ac3
+TunnelTeen3: Ok. #line:d375a2
+Mae: Is she from here? I could ask my aunt... #line:f74cd2
+TunnelTeen3: some place called Mulvay #line:7fe46c
+Mae: !!!! #line:da48dd
+//(eyes dilate, big frown)
+Mae: *Mulvay*? \o/ #line:83c091
+Mae: You know someone from *Mulvay*? #line:9bf72b
+TunnelTeen3: Yeah? #line:8e7d07
+Mae: Do you know where Mulvay is? _o_ #line:f2cc36
+Mae: Do you know *WHAT* Mulvay is? #line:999b13
+TunnelTeen3: No... #line:02e37d
+TunnelTeen1: I heard about Mulvay. #line:c0b0fd
+TunnelTeen1: My dad drives a bread truck. #line:76a820
+TunnelTeen1: Mulvay used to be one of his stops. #line:708afc
+Mae: What happened? #line:3d8a94
+TunnelTeen1: He don't stop there no more. #line:372f4c
+TunnelTeen1: They had to pay some other guy to do it. #line:37cb9d
+Mae: Sounds about right. #line:091f18
+TunnelTeen3: WHAT'S Mulvay? #line:11456d
+TunnelTeen1: I'll take you out there this weekend. #line:fb0716
+Mae: Don't. #line:0b655d
+TunnelTeen1: It'll be fine. We'll just drive through. #line:1d9fbf
+Mae: ... #line:31aba9
+Mae: I need to go get back in the sun now. #line:7752fa
+===
+title: TunnelTeens_A4D3
+tags: 
+colorID: 6
+position: 7460,-9339
+---
+Mae: Hey you guys. #line:a064da
+TunnelTeen2: Yeah? #line:d9fef9
+Mae: Stay safe, alright? #line:b096d7
+TunnelTeen3: wow. Thanks mom. #line:840142
+TunnelTeen4: are you our new mom? #line:642fad
+Mae: apparently. #line:ef8502
+Mae: life, man. it goes. #line:543b34
+TunnelTeen1: slowly #line:5afe1e
+Mae: nah, dude. #line:63cbec
+Mae: nah. #line:1a6200
+<<wait 1>>
+<<if $did_birdland_quest>>
+    TunnelTeen1: I wish those two playing the music would shut the eff up. #line:28e261
+    Mae: Hey! #line:412fea
+    TunnelTeen1: ... #line:13a205
+    Mae: Watch it. #line:d4ef65
+<<endif>>
+===
+title: TunnelTeens_Intro
+tags: 
+colorID: 0
+position: 6949,-9843
+---
+Mae: Hey teens. #line:58bf4e
+TunnelTeen1: Hey. #line:b1571a
+Mae: What are you guys doing? #line:6511d1
+TunnelTeen1: ... #line:909b3f
+Mae: ... #line:e8744b
+TunnelTeen1: nothing. #line:e29b2d
+Mae: Cool! #line:529cab
+<<wait 1>>
+<<set $met_tunnel_teens to 1>>
+
+// A1D1, A1D3, A2D2, A2D4, A3D1, A3D3, A4D3 //
+<<if $act is 1 and $day is 1>>
+    [[TunnelTeens_A1D1]]
+<<elseif $act is 1 and $day is 3>>
+    [[TunnelTeens_A1D3]]
+<<elseif $act is 2 and $day is 2>>
+    [[TunnelTeens_A2D2]]
+<<elseif $act is 2 and $day is 4>>
+    [[TunnelTeens_A2D4]]
+<<elseif $act is 3 and $day is 1>>
+    [[TunnelTeens_A3D1]]
+<<elseif $act is 3 and $day is 3>>
+    [[TunnelTeens_A3D3]]
+<<elseif $act is 4 and $day is 3>>
+    [[TunnelTeens_A4D3]]
+<<endif>>
+===
+title: PumpkinHeadGuy
+tags: temp
+colorID: 3
+position: 8359,-9802
+---
+Mae: Where is everybody? #line:3f471a
+PumpkinHeadGuy: *mmf**mmf* #line:7c289e
+Mae: What? #line:c7d1be
+PumpkinHeadGuy: *MMF**MMF* #line:d69376
+Mae: Oh my god. We used to do that. Awesome. #line:72bc8c
+PumpkinHeadGuy: *mmf**mmf**mmf* #line:96f37e
+Mae: Well you go easy on my street. #line:a6661f
+PumpkinHeadGuy: *mmf**mmfmmffmffff* #line:10de5a
+Mae: Deal #line:8c41ea
+<<set $pumpkin_head_guy_done to 1>>
+===
+title: Salvi
+tags: 
+colorID: 0
+position: 9046,-10803
+---
+<<lookAt Mae Salvi>>
+<<if $did_tunnel_boat_ride>>
+    Salvi: Thanks for joining me! #line:7564a1
+    Mae: That was great! #line:4aeb03
+    Mae: I could totally do this as a job! #line:a1c9f9
+    Salvi: Oh no! A competitor! #line:7ff9d8
+    Mae: I'm gonna get me a boat #line:df7f92
+    Mae: and go find some trash #line:0049e3
+    Mae: and sell it to rich dorks. #line:d329b9
+    Salvi: that's the spirit! #line:17f5e8
+    Salvi: take care! #line:2a4d59
+    Mae: you too! good luck! #line:034733
+    <<set $salvi_done to 1>>
+<<else>>
+    <<if $salvi_boat_intro is 0>>
+        <<set $salvi_boat_intro to 1>>
+        Mae: Whoa, hi down there. #line:455fdf
+        Salvi: Ahoy there, Mae! #line:a7e55e
+        Mae: ha ha ha is that Mr. Salvi? #line:5ce510
+        Mae: what are you doing in a boat? #line:5c4620
+        Mae: in the tunnel? #line:47a89b
+        Mae: in the late afternoon? #line:fc5aaa
+        Salvi: What are you doing home from school? #line:238d47
+            ->You answer first! #line:62dc37
+            ->I guess I kinda dropped out! #line:b05fc9
+                Salvi: oh dear, mae. #line:5fee52
+                Mae: yeah. uh. sorry. #line:95f545
+                Salvi: why are you apologizing to me? #line:7aca1e
+                Mae: I don't know! #line:352b73
+                Mae: so what are you even doing down here? #line:4f107c
+        Salvi: it's my side-hustle! #line:24b64e
+        Salvi: Salvi's Salvage #line:611dbf
+        Mae: what's that? #line:5dd65b
+        Salvi: I'm a junkman, Mae. #line:e8c519
+        Mae: Are you not mowing lawns anymore? #line:ad6dcc
+        Salvi: oh no I'm still doing the landscaping #line:f17320
+        Salvi: but I'm also a purveyor of fine goods #line:589183
+        Salvi: for the discerning antique enthusiast. #line:add514
+        Mae: ok. side hustle. yeah. #line:4a1fc4
+        Salvi: you wanna come along? #line:d78a02
+        Salvi: boat ride back into the tunnel? #line:a4fd5f
+        Salvi: gonna be a short trip today, but #line:ddf75d
+        Salvi: might be fun? #line:9f65f1
+            ->uh... sure! #line:93a82d
+                Mae: Uh. #line:58756b
+                Mae: this probably isn't smart #line:de2d60
+                Salvi: it's pretty safe. #line:4d1be8
+                <<set $salvi_second_pair_of_hands to 1>>
+                Salvi: i just need a second pair of hands #line:664de5
+                Salvi: usually I take one'a the kids over there #line:e52d18
+                Mae: hey teens! #line:9d3b4d
+                Teen3: yeah what! #line:aab74d
+                Mae: I'm going on this boat now! #line:e2620a
+                Teen1: and? #line:1fe27e
+                Teen4: we've all gone on the boat before! #line:802923
+                Teen3: you're not special! #line:da38cb
+                Mae: just saying! like if anyone should ask! #line:4f2f45
+                Mae: I got on this boat with Mr. Salvi here! #line:341747
+                Teen2: we don't care! #line:f60656
+                Mae: ok thanks! #line:b0f007
+                <<wait 2>>
+                Salvi: what was- #line:f64ca5
+                Mae: ok let's go #line:fa9a82
+                <<set $did_tunnel_boat_ride to 1>>
+                <<fadeOut 1 wait>>
+                <<scene TunnelBoatRide left>>
+            ->um... no! #line:f56fd3
+                Mae: I've uh... it's been a weird week. #line:15bf90
+                Mae: weird enough that getting in a boat #line:52b97c
+                Mae: and sailing into a tunnel #line:5b4389
+                Mae: even with a family friend #line:7e61d2
+                Mae: seems like an odd choice. #line:a27388
+                Salvi: suit yerself! maybe another time! #line:ea64a0
+                Mae: yeah sure! #line:6a881c
+                Mae: see ya! #line:38da38
+    <<else>>
+        Salvi: Changed yer mind? #line:aab5af
+        -> Naw #line:978aca
+            Salvi: Maybe another time! #line:855b0e
+        -> Yeah #line:5dc599
+            <<if $salvi_second_pair_of_hands is 0>>
+                Salvi: Good, I need a second pair of hands. #line:b748c0
+                <<set $salvi_second_pair_of_hands to 1>>
+            <<endif>>
+            Salvi: Hop aboard! #line:69b13d
+            Mae: ahoy ahoy! #line:5cf4b9
+            <<set $did_tunnel_boat_ride to 1>>
+            <<fadeOut 1 wait>>
+            <<scene TunnelBoatRide left>>
+    <<endif>>
+
+<<endif>>
+===

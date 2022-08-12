@@ -1,0 +1,338 @@
+title: EnterLevel_A1D3
+tags: 
+colorID: 0
+position: -1182,281
+---
+<<fadeOut 0.00001>>
+<<lookOut Mae instant>>
+Mae: o> #line:f0bfdb
+<<wait .5>>
+<<irisIn .5>>
+Mae: Looking alright. #line:330b7e
+[[God, this shirt really accentuates my roundness, doesn't it?|Roundness]] #line:8d01f3
+[[I have the worst face. I have a nightmare face.|WorstFace]] #line:30f4d3
+===
+title: Roundness
+tags: 
+colorID: 0
+position: -1543,539
+---
+<<closeOldSpeechBubbles>>
+<<lookDown Mae>>
+<<wait 1>>
+<<newSpeechBubble>>
+Mae:{locator=Left}I think the round zero doesn’t help. _o_ #line:c7ba63
+<<closeOldSpeechBubbles>>
+<<newSpeechBubble>>
+[[{locator=Right}It's cool, dude. Round is ok.|RoundIsOK]] #line:09007e
+[[{locator=Right}I need to stop eating literally everything I see.|NeedToStopEatingEverything]] #line:93de69
+===
+title: NeedToStopEatingEverything
+tags: 
+colorID: 0
+position: -1298,878
+---
+<<set $eat_everything_i_see to 1>>
+<<closeOldSpeechBubbles>>
+Mae: Ugh don't do this to yourself, Mae. :\ #line:3a7e82
+Mae: Not tonight. #line:ad6b6f
+Mae: Tomorrow you'll do lots of situps :) #line:b561c8
+Mae: and learn to like horrible things like kale #line:a3493e
+Mae: and everything will be great. #line:2e1863
+[[YouCanDoThis]]
+===
+title: RoundIsOK
+tags: 
+colorID: 0
+position: -1667,925
+---
+<<set $body_posi to 1>>
+<<closeOldSpeechBubbles>>
+Mae: <o> #line:687f68
+Mae: I'm being body-positive like the internet said.  :) #line:8d0e78
+Mae: I'm a real live person #line:47ccfc
+<<lookOut Mae>>
+Mae: _o_ #line:dfcdcf
+Mae: and no one can prove I'm not. :| #line:d2beb1
+[[YouCanDoThis]]
+===
+title: WorstFace
+tags: 
+colorID: 0
+position: -778,540
+---
+<<newSpeechBubble>>
+<<rotateHead Mae -10 .5>>
+Mae:{locator=Left}Geez. What a mess. _o_ #line:6fba56
+<<closeOldSpeechBubbles>>
+<<newSpeechBubble>>
+[[{locator=Right}My big dumb eyes. My nightmare eyes.|MyNightmareEyes]] #line:909eb3
+[[{locator=Right}My messed up ear. My nightmare ear.|MyNightmareEar]] #line:d1a9db
+===
+title: MyNightmareEyes
+tags: 
+colorID: 0
+position: -905,870
+---
+<<closeOldSpeechBubbles>>
+<<dilate Mae .75 1>>
+Mae: [speed=.5][shake=.03][color=DF3912]Nightmare Eyes[/all] would be an excellent horror movie name. o_o :| #line:f51895
+Mae: You’ll see the Nightmare Eyes outside your window. #line:7aa260
+<<dilate Mae .5 .1>>
+<<rotateHead Mae 10 1>>
+Mae: [speed=.2][shake=.03][color=DF3912]and you'll know.[/all] #line:51394b
+Mae: o_o #line:5ec453
+<<dilate Mae 1 3>>
+<<set $nightmare_eyes to 1>>
+[[YouCanDoThis]]
+===
+title: MyNightmareEar
+tags: 
+colorID: 0
+position: -544,882
+---
+<<closeOldSpeechBubble>>
+Mae: =_= #line:01712e
+Mae: Oh yeah, well you should see the dog who did that. #line:42a6ec
+<<set $dog_bite_dead to 1>>
+Mae: Oh wait you can't, because he’s dead! #line:1f2861
+Mae: Because dogs don't live as long as people! #line:59d4ce
+<<rotateHead Mae 10 1>>
+<<dilate Mae .5 3>>
+Mae: Put that in your pipe and smoke it, dog! \o/ o_o #line:a2ef20
+Mae: [wave]with your skeleton lips![/wave] #line:6b26f0
+<<dilate Mae 1 3>>
+[[YouCanDoThis]]
+
+===
+title: YouCanDoThis
+tags: 
+colorID: 0
+position: -1103,1444
+---
+<<rotateHead Mae 0 .7>>
+<<lookOut Mae>>
+Mae: o_o :| _o_ #line:7c95d9
+Mae: You can do this. People like you. #line:bc19c0
+<<newSpeechBubble>>
+[[{locator=Left}People don’t like you. Clearly.|PeopleDontLikeYou]] #line:246469
+[[{locator=Left}You don’t like people. Clearly.|YouDontLikePeople]] #line:2c81a9
+===
+title: PeopleDontLikeYou
+tags: 
+colorID: 0
+position: -1279,1813
+---
+<<set $people_dont_like to 1>>
+<<newSpeechBubble>>
+<<closeOldSpeechBubbles>>
+Mae:{locator=Right} No friends at college! #line:79a581
+Mae: Not even one. #line:3a5c82
+Mae: Not really their fault. :\ #line:b477fb
+Mae: Something's... #line:5b30dc
+Mae: ... #line:5614de
+Mae: Whatever. =_= :| #line:5e45d0
+[[ColeCheck]]
+===
+title: YouDontLikePeople
+tags: 
+colorID: 0
+position: -922,1821
+---
+<<set $you_dont_like to 1>>
+<<newSpeechBubble>>
+<<closeOldSpeechBubbles>>
+Mae:{locator=Right} Just because that online test said #line:07723e
+Mae: that your best chance at being happy #line:70f7d2
+Mae: is a situation where everyone already likes you #line:7359a8
+Mae: but they mostly leave you alone #line:b4502f
+Mae: except when they're delivering food to you... #line:136970
+Mae: that doesn't mean you can hide in your room #line:aacb60
+Mae: and wait for that to happen. #line:b57408
+Mae: That's how hermits are made, Mae. #line:fe169d
+Mae: And they die alone in the middle of winter. #line:f69eef
+Mae: Waiting for pizza from friends they don't want to see. #line:2392ed
+[[ColeCheck]]
+===
+title: ColeCheck
+tags: 
+colorID: 0
+position: -1038,2183
+---
+<<if $knows_cole_will_be_there is 1>>
+	[[ColeWillBeThere]]
+<<else>>
+	[[WhatAreYouGonnaSay]]
+<<endif>>
+
+===
+title: ColeWillBeThere
+tags: 
+colorID: 0
+position: -1345,2517
+---
+Mae: Who cares if Cole is there? #line:dce9c9
+Mae: Jerk. =_= #line:6adac4
+[[He’s probably up at school or whatever.|HesProbablyUpAtSchool]] #line:6ca9ad
+[[Prom was a mistake in like 10 different ways|PromWasAMistake]] #line:4e6869
+===
+title: HesProbablyUpAtSchool
+tags: 
+colorID: 0
+position: -1542,2876
+---
+Mae: Taking classes. Being all successful. o_o #line:b42ac6
+<<lookUp Mae>>
+Mae: Probably doesn’t even think about me. #line:761d7a
+Mae: Which is good because I honestly don’t care. #line:e1d233
+<<lookOut Mae>>
+Mae: But I hope to any god who is listening that he isn’t there. #line:2e3d9f
+Mae: Please whatevergod. #line:2f83a5
+<<set $whatever_god to 1>>
+Mae: Make sure Cole isn’t there tonight. #line:851377
+[[Cole_2]]
+===
+title: PromWasAMistake
+tags: 
+colorID: 0
+position: -1194,2850
+---
+<<lookRight Mae>>
+Mae: That dress. #line:e9d81d
+Mae: That picture under that doorway flower thing. #line:3a099a
+Mae: Less slowdancing than slowstanding. #line:978f61
+Mae: Careful nontouching. No smooches. #line:42447f
+<<set $no_smooches to 1>>
+<<lookOut Mae>>
+Mae: I'm so glad I'm not a teenager anymore. #line:38cbef
+[[Cole_2]]
+===
+title: Cole_2
+tags: 
+colorID: 0
+position: -1331,3150
+---
+<<if $ate_tacos is 1>>
+    <<newSpeechBubble>>
+	Mae:{locator=Left} My breath tastes like tacos. #line:e72f7e
+    <<closeAllSpeechBubbles>>
+<<endif>>
+Mae:{locator=Right} This is a disaster. #line:09b3fa
+[[WhatAreYouGonnaSay]]
+
+===
+title: WhatAreYouGonnaSay
+tags: 
+colorID: 0
+position: -1022,3404
+---
+<<closeAllSpeechBubbles>>
+Mae:{locator=Left} Alright, what are you gonna say? o_o #line:3bfdbe
+Mae: You're a smooth talker. You're a smoothie. :) #line:1368f6
+Mae: o/ #line:0d707a
+<<newSpeechBubble>>
+<<dilate Mae .5 3>>
+[[{locator=Right}[wave]"Hi, I’m Mae! How's it going?"[/wave]|HowsItGoing]] #line:2b55d3
+[[{locator=Right}[wave]"Oh hey, I'm Mae! What's your name?"[/wave]|WhatsYourName]] #line:778dd4
+[[{locator=Right}[wave]"Hi, I'm Mae! I dropped out of college earlier this week!"[/wave]|IDroppedOut]] #line:19a577
+===
+title: HowsItGoing
+tags: 
+colorID: 0
+position: -1289,3828
+---
+<<set $hows_it_going to 1>>
+<<closeOldSpeechBubbles>>
+Mae: "Really? That's fascinating!" #line:3258e2
+Mae: "That is so true! Well, see you later!" #line:ca379d
+<<dilate Mae 1 3>>
+Mae: Ok good. That sounds normal. :| _o_ #line:8420c2
+Mae: No one can prove you're not normal. #line:0748b8
+Mae: And really everyone looks normal in the dark. #line:9ce91c
+Mae: I'm pretty sure that’s the only way sex works. #line:4b5ae3
+<<close>>
+[[ThisIsHopeless]]
+===
+title: WhatsYourName
+tags: 
+colorID: 0
+position: -1008,3826
+---
+<<set $whats_your_name to 1>>
+<<closeOldSpeechBubbles>>
+Mae: "Oh, I think I know you from somewhere..." #line:56a5ce
+Mae: "It's probably from when we were lovers #line:8d32e4
+Mae: and we beat up that street gang #line:2111c3
+Mae: with chains and garbage cans." #line:6335df
+<<dilate Mae 1 3>>
+[[ThisIsHopeless]]
+===
+title: IDroppedOut
+tags: 
+colorID: 0
+position: -685,3796
+---
+<<set $dropout_week to 1>>
+<<closeOldSpeechBubbles>>
+Mae: "And now I'm in the woods! #line:7f5c33
+Mae: drinking!" \o/ #line:8e3d27
+<<set $you_dont_like to 1>>
+<<dilate Mae 1 3>>
+Mae: _o_ #line:11bb14
+Mae: geez this is yet another road to hermit-dom :\ #line:4f7012
+[[ThisIsHopeless]]
+===
+title: ThisIsHopeless
+tags: 
+colorID: 0
+position: -992,4160
+---
+<<closeAllSpeechBubbles>>
+<<wait 2>>
+Mae: =_= :( _o_ #line:d5fbff
+<<wait 2>>
+Mae: This is hopeless. #line:7856e2
+Mae: Wheel me out to the curb for garbage day.  #line:038806
+<<close>>
+<<wait 1>>
+<<lookLeft Mae>>
+Mae: Oh geez they’ll be here any minute! o_o :| #line:588a4e
+<<lookOut Mae>>
+Mae: Good luck, kid. #line:863a5b
+<<newSpeechBubble>>
+Mae:{locator=Left} I don’t need luck. =_= :) #line:2bad37
+<<closeOldSpeechBubble>>
+Mae:{locator=Left} I make my own luck. #line:d10166
+Mae:{locator=Left} With a luck machine. o_o :| #line:746db3
+<<closeAllSpeechBubbles>>
+<<fadeOut 1 wait>>
+<<sectionTitle TheParty BeaCar>>
+===
+title: EnterLevel_A2D4
+tags: 
+colorID: 0
+position: -129,271
+---
+<<fadeOut 0.00001>>
+<<lookOut Mae instant>>
+<<set $night to 1>>
+Mae: o> #line:cd68a3
+<<wait .5>>
+<<irisIn .5>>
+Mae: Aw yeah normal clothes #line:d96871
+Mae: Aw yeah time to get spooky #line:311529
+<<close>>
+<<irisOut .5 wait>>
+Mae: _o_ #line:7b843f
+<<set $harfest_costume to 1>>
+<<playIdleAnimationPlayer>>
+<<close>>
+<<wait 1>>
+<<irisIn .5 wait>>
+Mae: Sweeeeeeeeeeet. #line:2c39f1
+Mae: WITCHDAGGAH!!!! #line:a11765
+<<close>>
+<<set $mirror_done to 1>>
+<<irisOut 1 wait>>
+<<scene MaeRoom>>
+===

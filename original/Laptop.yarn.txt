@@ -1,0 +1,1171 @@
+title: GreggMessages_A2D1
+tags: demo2
+colorID: 3
+position: -3796,16077
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: UPNBET, 4YBNXA #line:f39c37
+GreggLaptop: BCE H0PM? #line:cf1fe6
+GreggLaptop: H04KA B4EPA 3ADAVACJ HAUPRSEHHAR #line:998f31
+GreggLaptop: 6N F0B0PNT, TJ1 B H0PME #line:d2bcb2
+GreggLaptop: R B CHGK ZGVK0H BECJ DEHJ #line:4ce5df
+GreggLaptop: 3AX0DN, ECVN EWE HE U0MEPVA #line:7f5ba1
+GreggLaptop: C YBASEHNEM #line:60f8d9
+GreggLaptop: FPEFF0PN #line:9a6218
+GreggLaptop: CEF0DHR PEUETNPYEM 0MF #line:2aee85
+GreggLaptop: K0HEO #line:14d377
+===
+title: GreggLaptop_A1D2
+tags: temp
+colorID: 2
+position: -5043,15968
+---
+<<set $gregg_laptop to 2>>
+GreggLaptop: HY KAK, Y6PAVA BC% U0PHYXY C0 CB0EF0 H0YT6YKA???? #line:40a3ae
+GreggLaptop: CVJ1QAV, 0H Y TE6R HAKPJ1VCR, N3-3A K0VN4ECTBA UP0CM0TPEHH0L U0PHYXN. #line:795e57
+-> R HE CM0TPEVA #line:369f24
+    GreggLaptop: R 4Y% TB0% V0SJ. #line:f528b8
+    GreggLaptop: 3A4EM TJ1 UPEBPAWAEQJ NHTEPHET B 6E3DHY VSN? #line:dbcf63
+    Mae: R BCE 0TPNOA%!!!! #line:66a96b
+-> 4YBAK, HY TJ1 S 3HAEQJ #line:38893b
+    GreggLaptop: PNK PEKKELDS CKA3AV MHE, 4T0, K0FDA NHTEPHETA HE 6J1V0, 0HN UPRTAVN U0PHYXY B CTAP0M 6PEBHE B VECY #line:68437f
+    Mae: N 4T0, GT0 PEAVJH0 TAK 6J1V0? #line:291e7c
+    GreggLaptop: 6J1V0 6J1 CTPEMH0 TAWNTJCR B VEC 3A U0PHYX0L #line:22bb88
+    GreggLaptop: A U0T0M UPNX0DNQJ N KAK0L-T0 4EV YSE TAM N TJ1 TAK0L, TNUA, 4E KAK #line:ab6e57
+    GreggLaptop: U0X0SE, MJ1 06A 3DECJ 3A U0PHYX0L #line:f3a854
+    Mae: DYMA%, TAK BCE N 6J1V0. F0T0BA U0CU0PNTJ, 0HN U0DPYSNVNCJ. #line:2353e1
+    GreggLaptop: VECHJ1EDP04EPJ1HABCEFDA #line:29422e
+    <<set $porn_log to 1>>
+GreggLaptop: TJ1 BEDJ UPNDEQJ HA BE4EPNHKY 3ABTPA BE4EP0M???? #line:08c451
+Mae: KAKY% BE4EPNHKY???? #line:3826de
+GreggLaptop: B HAON0HAVJH0M UAPKE! KY4A HAP0DY UPNEDET C0 QK0VJ1 N B006WE 0T0BC%DY #line:bb442e
+GreggLaptop: KVEBJ1E PE6RTA, 3D0P0BEHHJ1L K0CTEP, 3AK0QCKA, UNB0 #line:7521c7
+-> TJ1 SE 3HAEQJ, R B DEVE DETKA. #line:f7a353
+    GreggLaptop: DETKA, R TAK PAD. #line:61320d
+    GreggLaptop: VEC TAK0L BECEVJ1L U0 H04AM #line:9b90d2
+    GreggLaptop: UYWYCJ B0 BCE TRSKNE #line:bfd88b
+    GreggLaptop: B VECY HET 3AK0HA #line:839040
+-> TJ1 CKA3AV 3AKYCKA NVN K0QKA? #line:ed1795
+    GreggLaptop: N T0, N T0, 4EV #line:e76737
+    GreggLaptop: N T0, N T0 #line:008369
+GreggLaptop: KPYT0, T0FDA TE6E CT0NT CUP0CNTJ 6N, CM0SET VN 0HA U0DBE3TN HAC #line:cf034c
+Mae: HE DYMA%, 4T0 R HPABV%CJ EL #line:ea5dad
+GreggLaptop: DA HE, 4YBNXA, 0HA KVACCHAR. 0HA U0CT0RHH0 HAC U0DB03NT N 0DAVSNBAET CB0% MAQNHY #line:e02d8a
+GreggLaptop: 3ALDN K HEL 3ABTPA B MAFA3 N CUP0CN, VADJ1? UVNNNNNNNNN3????? #line:c22145
+Mae: VADH0, U0ZNF #line:b4c032
+GreggLaptop: {width=400}YPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!! #line:0405a2
+
+===
+title: AngusLaptop_A1D2
+tags: temp
+colorID: 2
+position: -5042,16233
+---
+<<set $angus_laptop to 2>>
+AngusLaptop: U0VAFA%, BCE UP0QV0 FVADK0. C TB0NM K0MUJ%TEP0M. #line:1e479c
+Mae: DA CPA60TAV0 CUACN60!!!! #line:8b2daf
+AngusLaptop: R K0E-4EF0 EWE 3AKA4AV HA ZVEQKY! U0MHNQJ 6AQH% DEM0HA? #line:2715b1
+<<if $demontower_plays > 0>>
+    // if player has played demontower already
+    Mae: AFA, T0VJK0 4T0 NFPAVA! #line:1d3433
+    AngusLaptop: 0, KPYT0 #line:be8626
+    AngusLaptop: R T0SE CH0BA U0DCEV HA HEE. EE D0 CNX U0P 06H0BVR%T. #line:f1b13b
+    AngusLaptop: KAK-HN6YDJ U060VTAEM 0 6AQHE DEM0H0B. 0HA D0 CNX U0P SSET! #line:5a9163
+    Mae: CUC AHFYC!!!! #line:c24261
+    AngusLaptop: *CHNMA% QVRUY* #line:fcd8c2
+<<else>>
+    // if player hasn't played demontower yet
+    Mae: 0F0, DA, U0MH%, R NFPAVA B HEE U0CT0RHH0 0K0V0 10-TN VET HA3AD #line:d04815
+    AngusLaptop: R CH0BA HA4AV NFPATJ. EE D0 CNX U0P 06H0BVR%T. #line:94289e
+    AngusLaptop: TJ1 M0SEQJ CTRHYTJ CB0N CTAPJ1E C0XPAHEHNR C NX CEPBEPA N HA4ATJ TAM, FDE 0CTAH0BNVACJ :) #line:c22b5b
+    Mae: YYYY KPYT0 #line:f5cb7e
+    AngusLaptop: U0UP06YL U0NFPAL N MJ1 KAK-HN6YDJ M0SEM 06CYDNTJ 6AQH% DEM0H0B. 0HA D0 CNX U0P SSET! #line:8fc800
+    Mae: R 0UPEDEVEHH0 CDEVA% GT0!!!!! CUC AHFYC!!!! #line:3df85a
+    AngusLaptop: *CHNMA% QVRUY* #line:b0ec15
+<<endif>>
+[[GreggLaptop_A1D2]]
+
+===
+title: GreggMessages_A1D3
+tags: temp
+colorID: 2
+position: -4681,15964
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: A, KCTATN, 6N PA60TAET B CTAP0L KNPKE, TAK 4T0 M0SEQJ CX0DNTJ TYDA #line:2b2eda
+GreggLaptop: KYUNTJ NHCTPYMEHTJ1 V0V #line:91ce93
+GreggLaptop: 60VJQ0L T0U0P N U0LTN Y6NBATJ V0V #line:0449e1
+===
+title: GreggLaptop_A2D1
+tags: temp
+colorID: 3
+position: -3531,16373
+---
+<<set $gregg_laptop to 2>>
+<<if $did_bea_friendship_quest_1>>
+    Mae: GL GL 4YBAK. 4EF0 DEVAV CEF0DHR #line:d3e53f
+    GreggLaptop: HN4E #line:30f64d
+    GreggLaptop: YKPAV K0E-4T0 #line:ff3294
+    GreggLaptop: DVR AHFYCA #line:d26db1
+    GreggLaptop: (GT0 C%PUPN3)! #line:a512db
+    Mae: BAY, 4T0 NMEHH0? #line:b985cb
+    GreggLaptop: U0F0DJ #line:b30ee4
+    GreggLaptop: 4EPT, HYSH0 NDTN, U0T0M U0F0B0PNM #line:512203
+    Mae: VADH0, 4YDNVA #line:f4a54f
+    <<set $gregg_ttyl to 1>>
+<<else>>
+    Mae: GL, 4YBAK, M0N MYCKYVJ1 6YDYT HEHABNDNTJ TE6R BC% SN3HJ #line:0ccc16
+    Mae: N BC% CVEDY%WY% SN3HJ #line:7c4bbd
+    GreggLaptop: 4YBNXA, M0N MYCKYVJ1 HEHABNDRT MEHR 3A HAC 060NX #line:8815f4
+    Mae: KAK SE R 3VA HA FPABNTAON% #line:66fd37
+    GreggLaptop: DABAL Y6JEM FPABNTAON% #line:6dfb55
+    Mae: 0HA MHE HN4EF0 HE CDEVAVA #line:a768b5
+    GreggLaptop: N3-3A HEE 60VRT TB0N MYCKYVJ1 #line:d560b7
+    Mae: VADH0, R U0LDY UPNVRFY HA KP0BATJ N, B03M0SH0, U0MPY #line:982631
+    GreggLaptop: R YSE MEPTB, A GT0 UNQET P060-F0V0BA #line:022c7d
+    Mae: 0MF #line:eb901d
+    GreggLaptop: R 3HA%, FDE TJ1 SNBEQJ N 4T0 TJ1 F0B0PNVA #line:79a0b7
+    Mae: 0MFCTPAQH0D0YCPA4KN #line:c992f2
+    GreggLaptop: VADH0, H04N #line:1a9063
+<<endif>>
+===
+title: PlayDemonTower
+tags: 
+colorID: 0
+position: -3016,16110
+---
+Mae: 6AQHR DEM0H0B! #line:3560f2
+<<irisOut 1 wait>>
+<<scene Demontower>>
+===
+title: BeaMessages_A2D1
+tags: demo2
+colorID: 3
+position: -3826,16362
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: UPNBET. #line:4fd1f0
+BeaLaptop: N3BNHN 3A UP0QVY% H04J. #line:8d9301
+BeaLaptop: HADE%CJ, TJ1 X0P0Q0 CE6R 4YBCTBYEQJ. #line:f40f20
+BeaLaptop: GM. #line:b421c9
+BeaLaptop: DA. #line:9b8685
+BeaLaptop: R B KNPKE BECJ DEHJ. #line:4ee566
+BeaLaptop: ECVN B3DYMAEQJ 3ACK04NTJ. #line:70baaf
+===
+title: BeaLaptop_A2D1
+tags: temp
+colorID: 3
+position: -3503,16081
+---
+<<set $bea_laptop to 2>>
+<<if $did_bea_friendship_quest_1>>
+    Mae: GL, HEUV0X0 TYCAHYVN B T0PF0B0M OEHTPE #line:f03ed2
+    BeaLaptop: BECJMA HEUV0X0, DA. #line:90e9f7
+    Mae: HADE%CJ, MJ1 HE UEPE60PWNVN #line:076834
+    Mae: C Z0HTAH0M #line:fdad2f
+    BeaLaptop: KT0 "MJ1"? #line:8dc4c1
+    BeaLaptop: R UP0CT0 CNDEVA B T0PF0B0M OEHTPE, K0FDA HA MEHR HAUAVN C B0D0L. #line:579f37
+    Mae: R HE YCU0K0%CJ, U0KA GT0T Z0HTAH HE UPEDCTAHET UEPED CYD0M #line:c28b0e
+    BeaLaptop: PACCKASN MNPY M0% NCT0PN%. #line:1e1737
+    BeaLaptop: 0HN D0VSHJ1 3HATJ. #line:bf2ed3
+    Mae: VADH0, R CUATJ, HADE%CJ, CHJ1 HE 6YDYT CVNQK0M K0QMAPHJ1MN #line:4e5ef6
+    BeaLaptop: GTA TPABMA 0CTAHETCR C0 MH0L HABCEFDA #line:bdd763
+<<else>>
+    Mae: UPNBET! 4EM CEDHR 3AHNMAVACJ #line:e0daf3
+    BeaLaptop: U0CM0TPEVA TPETJ CE30HA 6VNK D0MNHNH0H #line:d30f54
+    <<set $bleak_dominion to 1>>
+    Mae: 0F0, R 060SA% GT0 Q0Y #line:1f1508
+    BeaLaptop: R CM0TP% EF0 BUEPBJ1E. #line:b8bffd
+    Mae: KPYYYT0. R U0CM0TPEVA EF0 U0VH0CTJ%. #line:8202d5
+    BeaLaptop: T0FDA HE CU0LVEPN. #line:63ae67
+    Mae: TJ1 HA KAK0L CEPNN CEL4AC? #line:0b7742
+    BeaLaptop: CE30H 1, GUN30D 4. #line:a08f38
+    Mae: 0 4EPT #line:65ec14
+    Mae: 0K #line:b5764a
+    Mae: U0F0B0PNM T0FDA U03SE #line:808d04
+    BeaLaptop: X0P0Q0. R U0QVA DAVJQE CM0TPETJ. #line:483221
+    Mae: HACVASDALCR!!!!! #line:2d2b66
+    BeaLaptop: D06P0L H04N. #line:543006
+<<endif>>
+===
+title: EnterLevel_A1D2
+tags: temp
+colorID: 0
+position: -5041,15688
+---
+<<if $night is 0>>
+    <<if $need_to_fix_laptop is 0>>
+        <<wait 2>>
+        MaeNotLaptop: 0000 HEEEET!!! #line:4e62c9
+        MaeNotLaptop: 4T0 C T060L CVY4NV0CJ? #line:ba6749
+        MaeNotLaptop: 4EPT B03JMN! #line:a5d228
+        MaeNotLaptop: DYMA%, AHFYC 3HAET, KAK NCUPABNTJ GT0. #line:aebf97
+        MaeNotLaptop: 0H QAPNT B K0MUJ%TEPAX. #line:3f9ebd
+        MaeNotLaptop: KASETCR. #line:182ddc
+        MaeNotLaptop: H0 R HE X04Y... 4T06J1 0H YBNDEV GT0... #line:3ab6ef
+        MaeNotLaptop: FDE 0H TAM PA60TAET? #line:b954db
+        <<set $need_to_fix_laptop to 1>>
+    <<endif>>
+<<else>>
+    <<if $talked_about_fixed_laptop is 0>>
+        MaeNotLaptop: 0MF, U04NHNV0CJ! #line:fb955b
+        <<set $talked_about_fixed_laptop to 1>>
+		[[AngusLaptop_A1D2]]
+    <<endif>>
+<<endif>>
+
+===
+title: ChattrBox_A2D1
+tags: 
+colorID: 3
+position: -3744,15180
+---
+ChattrBox: TEXH0MNKA CEF0DHR - GK0H0MNCT UNT K0PKFVN: UP0NCX0DNT P0CT PA604NX MECT B CEKT0PAX C HN3K0L 3APUVAT0L, B 06WEM HN PJ16A HN MRC0, R U0VAFA%. #line:0ef3c1
+
+===
+title: EnterLevel_A4D2
+tags: 
+colorID: 5
+position: 3204,15790
+---
+<<if $laptop_vignettes is 0>>
+    [[StartLaptopVignettes]]
+<<else>>
+    [[EndLaptopVignettes]]
+<<endif>>
+===
+title: StartLaptopVignettes
+tags: 
+colorID: 5
+position: 3060,16142
+---
+<<fadeIn 1>>
+<<playAmbientSFX AmbientSFXLaptopVignettes 1>>
+<<wait 1>>
+<<set $laptop_vignettes to 1>>
+Mae: GL, PE63N #line:4183b9
+Mae: G-G #line:9daaa7
+Mae: BJ1 TYT #line:bbd89c
+<<close>>
+<<wait 2>>
+Mae: KT0-HN6YDJ? #line:254a23
+<<close>>
+<<wait 2>>
+Mae: 0KEL, R BCE PABH0 HAUNQY #line:f982cc
+<<playMusic laptop_vignettes 20>>
+Mae: MHE CV0SH0 CKA3ATJ 4T0-VN60 YMH0E 0 T0M, 4T0 3A XEPHR CEL4AC B006WE UP0N30QVA #line:321a40
+Mae: UP0WE BJ1UYCTNTJ BCE HAPYSY #line:eeb4df
+Mae: N MHE HAD0 C BAMN U0F0B0PNTJ #line:bd1cea
+Mae: DASE ECVN BJ1, U0D0HKN, 4EM-T0 TAM 3AHRTJ1 #line:39b6fd
+<<fadeOut 1 wait>>
+
+<<overrideLoadingScreenType Blank>>
+<<if $dom_friend_bea>>
+    <<scene BeaApartment>>
+<<else>>
+    <<scene GreggAngusApartment>>
+<<endif>>
+===
+title: EndLaptopVignettes
+tags: 
+colorID: 5
+position: 3375,16139
+---
+<<fadeIn 1 wait>>
+<<if $dom_friend_bea>>
+    Mae: 6N, TJ1 DELCTBNTEVJH0 UP0CT0 HE4T0 #line:a925d3
+    Mae: R 04EHJ C04YBCTBY% T0MY, 4EPE3 4T0 TJ1 UP0QVA. #line:8d2061
+    Mae: R DASE HE U0HNMA% BCEX TB0NX UP06VEM #line:d45960
+    Mae: H0 ECVN 6J1 M0FVA, R 6J1 BCE-BCE NCUPABNVA. #line:b64baf
+    Mae: NCUPABNVA 6J1 BCE, 4T0 ECTJ. #line:df6633
+    Mae: N R KYUV% NHCTPYMEHTJ1, 4T06J1 CDEVATJ BCE B TB0EM MAFA3NHE. #line:8029a8
+    Mae: HY, NVN, TNUA, 0D0VSY NX, B K0HOE K0HO0B. #line:87e1b5
+    Mae: 6YDJ Y TE6R DPYF U0VY4QE, 0H 6J1 KYUNV, H0 R BCE, 4T0 Y TE6R ECTJ. #line:6e2975
+    Mae: N R PADA. #line:2903b9
+<<else>>
+    Mae: DYMA%, R V%6V% FPEFFA 60VJQE, 4EM K0F0-VN60. #line:b4a44e
+    Mae: HE 3HA%, CYWECTBY%T VN DPY3JR VY4QE. #line:7feaa7
+    Mae: MJ1 DBA CAU0FA UAPA. #line:6fb1ce
+    Mae: N3BNHN, 4T0 CUP0B0ONP0BAVA TPAFEDN% MESDY T060L N AHFYC0M, 4EV. #line:48b7d6
+    Mae: AHFYC, R 0TDA% TE6E FPEFFA. KAK U0DAP0K. #line:da3ccd
+    Mae: HE 3A6J1BAL U0VNBATJ N K0PMNTJ EF0. #line:a97d29
+    Mae: ECVN TJ1 EMY X0TJ PA3 HABPEDNQJ, R 3AP0% TB0% M0XHATY% S0UY B 3EMV%. #line:3f61f7
+    Mae: 0H 6J1V M0NM D0 TE6R. #line:9d37ed
+<<endif>>
+<<fadeOutMusic 8>>
+Mae: AFA. B0T. #line:1cb8e6
+Mae: CEEEEL4AC R UP0CT0 BCE GT0 C0TPY. #line:6f579f
+<<wait 2>>
+Mae: B0T DEPJM0. #line:7f9016
+Mae: XA-XA, PE6RT, DA R U0 60VJQEL 4ACTN UP0CT0 QYTNVA. #line:36311a
+Mae: R PEAVJH0 YCTAVA N U0HRTNR HE NME% 0 4EM F0B0P%. #line:832073
+Mae: BJ1X0DN, MGL. #line:278617
+Mae: BJ1X0DNNNN. #line:d779f8
+<<fadeOutAmbientSFX AmbientSFXLaptopVignettes 1>>
+<<fadeOut 1 wait>>
+<<fadeOutMusic 2>>
+<<wait 3>>
+<<endDay>>
+===
+title: InitLevel_A4D2
+tags: 
+colorID: 5
+position: 3201,15559
+---
+
+===
+title: GreggLaptop_A1D3
+tags: temp
+colorID: 2
+position: -4377,15974
+---
+<<set $gregg_laptop to 2>>
+GreggLaptop: GL, HE 3A6YDJ UP0 CEF0DHRQH%% BE4EPNHKY! #line:102147
+Mae: R HE 3A6J1VA! #line:773c44
+GreggLaptop: T0FDA U04EMY TJ1 CNDNQJ 3A H0YT0M! CK0PEE F0T0BJCR! #line:e4582d
+Mae: 60SE! 0K! #line:a7d5cb
+GreggLaptop: C: #line:e62d1e
+===
+title: BeaLaptop_A1D3
+tags: temp
+colorID: 2
+position: -4375,16233
+---
+<<set $bea_laptop to 2>>
+Mae: 0MF, BPEMR TYCNTJ. 6N, TJ1 F0T0BA? #line:a70c6c
+BeaLaptop: R F0T0BA, *TJ1* F0T0BA? #line:33d1d4
+Mae: 0X... B03M0SH0, CT0NT UPNF0T0BNTJCR. #line:c6c16a
+BeaLaptop: AFA. B03M0SH0. #line:c3701a
+===
+title: GreggMessages_A2D2
+tags: 
+colorID: 3
+position: -2215,15798
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: D06P0E YTP0 #line:0e7b23
+<<if $did_gregg_friendship_quest_1>>
+    GreggLaptop: CEF0DHR Y MEHR TEV0 60VNT EWE CNVJHEL #line:840592
+    GreggLaptop: U0VHAR XPEHJ #line:c70fa4
+<<endif>>
+GreggLaptop: R CEDHR PA60TA% #line:7a0968
+GreggLaptop: AHFYC YEXAV N3 F0P0DA N MHE 0DNH0K0 #line:041b9a
+GreggLaptop: 0K U0KA #line:c66bf4
+GreggLaptop: C YBASEHNEM, FPEFF0PPN #line:2e95ee
+===
+title: BeaMessages_A2D2
+tags: 
+colorID: 3
+position: -2228,16045
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: UPNBET. #line:b7bd07
+<<if $did_bea_friendship_quest_1>>
+	BeaLaptop: T0QHNT 0T EDJ1 C T0PF0B0F0 OEHTA. #line:aa0466
+	BeaLaptop: 0HA 6J1VA HEX0P0QEL. #line:11b336
+<<endif>>
+BeaLaptop: R CEF0DHR HA PA60TE, ECVN X04EQJ UEPEDATJ UPNBET. #line:04b08d
+BeaLaptop: AFA. B0T 0HA M0R SN3HJ. #line:7baab4
+===
+title: GreggLaptop_A2D2
+tags: 
+colorID: 3
+position: -1899,15790
+---
+<<set $gregg_laptop to 2>>
+<<if $did_gregg_friendship_quest_2>>
+	Mae: GL, F0BH%K #line:9f41f3
+	GreggLaptop: D0 CNX U0P HAGVEKTPN30BAHA? #line:f8cbe3
+	Mae: HET. KASETCR, BCE UP0QV0. #line:c36dd9
+	Mae: U0F0DN, U0TP0FA% 4E-HNTJ METAVVN4ECK0E. #line:125b72
+	<<wait 3>>
+	Mae: TAK, R U0TP0FAVA 0CH0BY KP0BATN N BCE H0PM. #line:e5e82b
+	GreggLaptop: X0P0QAR PA60TA D0KT0P HAYKA #line:5c4ade
+	Mae: AHFYCY U0HPABNVCR P060T? #line:15615a
+	GreggLaptop: KASETCR #line:7f5d40
+	GreggLaptop: 0H UPRM0 WAC CM0TPNT HA HEF0. #line:3d8cd3
+	GreggLaptop: U0F0DJ. R EF0 CUP0QY #line:0385e2
+	<<wait 3>>
+	GreggLaptop: 0K 0H UP0CNV UEPEDATJ CUACN60 #line:260560
+	GreggLaptop: TAK 4T0, DYMA%, EMY U0HPABNV0CJ. #line:659a49
+	Mae: VADH0, 4YBAK, MHE HAD0 3AKPYFVRTJCR #line:fcdf68
+	GreggLaptop: MHE T0S #line:a62a68
+	GreggLaptop: EWE CBNDNMCR #line:6829ef
+<<else>>
+    GreggLaptop: GL QUAHA 4E DEVAVA CEDHR #line:9bd17b
+    Mae: MEHR 3AUEPVN B U0DBAVE #line:e00be9
+    Mae: 0TMYD0XAVA UE4J #line:87fc57
+    GreggLaptop: TAK DEPSATJ, C0VDAT #line:81f74c
+    GreggLaptop: CU0K0LH0L H04N #line:80d279
+<<endif>>
+===
+title: AngusLaptop_A2D2
+tags: 
+colorID: 3
+position: -1917,16065
+---
+<<set $angus_laptop to 2>>
+<<if $did_gregg_friendship_quest_2>>
+    AngusLaptop: GL, MGL. TJ1 B U0PRDKE? #line:b9293c
+    AngusLaptop: MHE U0KA3AV0CJ, 4T0 TE6E 6J1V0 04EHJ 60VJH0. #line:ac41b3
+    AngusLaptop: N TJ1 TAK 6J1CTP0 YQVA. #line:3a3cb2
+    Mae: R B U0PRDE, 3D0P0BRK. #line:56373a
+    AngusLaptop: VADH0. UP0CT0 X0TEV Y6EDNTJCR. #line:e26d85
+    Mae: 00Y. R OEH% GT0. #line:c5588e
+    AngusLaptop: U0CTAPALCR 60VJQE U04TN HE U0MNPATJ CEF0DHR. #line:991c53
+    Mae: HN4EF0 HE 06EWA% #line:564cf1
+<<endif>>
+===
+title: BeaLaptop_A2D2
+tags: 
+colorID: 3
+position: -1902,16299
+---
+<<set $bea_laptop to 2>>
+<<if $did_bea_friendship_quest_2>>
+	Mae: GL! GT0 6J1V0 BECEV0! #line:40c1b0
+	Mae: DABAL KAK-HN6YDJ U0BT0PNM! #line:c7d30e
+	BeaLaptop: 0KA3J1BAETCR, 0T TE6R ECTJ U0VJ3A, K0FDA HAD0 CV0MATJ 4T0-T0 #line:8c2cb4
+	Mae: YBEPEHA, 4T0 FDE-T0 3A TAK0E DASE UVATRT #line:716d3d
+	BeaLaptop: DA, HA3J1BAETCR DEM0HTAS. #line:22d58a
+	BeaLaptop: TJ1 N BUPABDY M0SEQJ 3AHRTJCR GTNM #line:5bcf43
+	Mae: 4EPT B03JMN! B0T 0H0 - M0E UPN3BAHNE. #line:70df53
+	BeaLaptop: PADA, 4T0 CM0FVA U0M04J HALTN EF0 #line:7e7061
+	BeaLaptop: 0, N R U0FYFVNVA "V%DN, K0T0PJ1E UPNBVEKA%T HACEK0MJ1X" #line:20ea54
+	BeaLaptop: MH0F0E CB0DNTCR K NCUYCKAHN% TEUVA N PA3VN4HJ1M 3AUAXAM #line:957a58
+	Mae: NM BCE BPEMR MAV0 #line:0044f2
+	BeaLaptop: U0VAFA%, 4T0 HET #line:4ac18e
+	BeaLaptop: D06P0L H04N, MGL #line:1e707a
+	Mae: H04N #line:47642a
+<<else>>
+    BeaLaptop: GL, MGL. TJ1 HE CUNQJ? #line:85e346
+    Mae: K0HE4H0 HET! #line:0af540
+    Mae: 4E H0B0F0? #line:5e0032
+    BeaLaptop: HN4EF0. CM0TP% TEVNK. #line:61755a
+    Mae: 4EF0 CM0TPNQJ? #line:7d2a00
+    BeaLaptop: KPNMNHAVJH0E Q0Y #line:5df132
+    Mae: X0P0QEE X0TJ? #line:5e4205
+    BeaLaptop: HE. PEK0HCTPYKONR Y HNX - 0TCT0L #line:92c473
+    BeaLaptop: H0 ECVN 6J1 BCE 6J1V0 UPABD0U0D06H0, T0 R CTAVA 6J1 UEPESNBATJ #line:d7b11e
+    BeaLaptop: A TAK, GT0 BJ1FVRDNT KAK 6YDT0 XPEH0BJ1E MECTHJ1E AKTEPJ1 #line:22080f
+    BeaLaptop: UPNTB0PR%TCR Y6NLOAMN NVN TPYUAMN #line:8fbbe9
+    Mae: V%6V% TAKNE Q0Y #line:83de14
+    BeaLaptop: 0HN HANKPYTELQNE #line:c28178
+<<endif>>
+===
+title: GreggMessages_A2D3
+tags: 
+colorID: 3
+position: -1317,15842
+---
+<<set $gregg_laptop to 1>>
+<<if $did_gregg_friendship_quest_2>>
+	GreggLaptop: NHZA: P060T UAXHET HEMH0F0 CTPAHH0. #line:f3003f
+	GreggLaptop: HABEPH0E, MJ1 4T0-T0 YUYCTNVN. #line:be8f30
+	GreggLaptop: B 06WEM, #line:6d369e
+<<endif>>
+GreggLaptop: GL, DEB40HKA #line:2feded
+GreggLaptop: BECJ DEHJ HA PA60TE #line:208f9c
+GreggLaptop: 04EHJ CKY4H0 #line:c32e8a
+GreggLaptop: PA60TA 0TCT0L #line:bf1469
+GreggLaptop: 60VJQE U0X0SE HA F0BH0 ZGVK0H #line:3e9b90
+===
+title: BeaMessages_A2D3
+tags: 
+colorID: 3
+position: -1310,16094
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: XEL #line:75b9c5
+<<if $did_bea_friendship_quest_2>>
+	BeaLaptop: MHE U03B0HNVA MNCC MNPAHDA  #line:77592e
+	BeaLaptop: BNDNM0, 0HA PACCTP0EHA N3-3A 6ECU0PRDKA B U0DBAVE #line:b49822
+	BeaLaptop: KAK 6J1 T0 HN 6J1V0, 0HA HE 3AUVATNVA HAM 3A Y60PKY. #line:42c4bf
+<<endif>>
+BeaLaptop: R 6YDY BECJ DEHJ HA PA60TE. #line:a11024
+BeaLaptop: F0B0P% UP0CT0 TAK. ECVN 3AX04EQJ 3A6ESATJ K0 MHE. #line:354b14
+BeaLaptop: R 6YDY TAM #line:e9b98e
+===
+title: GreggLaptop_A2D3
+tags: 
+colorID: 3
+position: -999,15851
+---
+<<set $gregg_laptop to 2>>
+Mae: GL MEVKNLLL #line:7ae726
+GreggLaptop: XEL00000Y #line:4a9190
+<<if $did_gregg_friendship_quest_3>>
+	GreggLaptop: X0P0Q0 U0TYCNVN, CUACN60 TE6E #line:87b764
+	Mae: 6E3 UP06VEM, 4YBAK #line:3735bd
+	<<if $won_knife_fight is 0>>
+		GreggLaptop: KAK TB0N H0SEBJ1E PAHEHNR? #line:6261ff
+		Mae: R U0DEPSAVA PYKY U0D B0D0L #line:71c512
+		Mae: DYMA%, GT0 U0M0SET #line:265e6c
+		GreggLaptop: 3BY4NT, 6YDT0 TAK N D0VSH0 6J1TJ #line:2f4772
+    <<else>>
+		Mae: KAK TB0R PAHEHAR PYKA? #line:f83707
+		GreggLaptop: R SNB #line:80f82a
+		GreggLaptop: AHFYC U03A60TNVCR 060 MHE. #line:482e8e
+		Mae: 0Y. KAK0L X0P0QNL 60LZPEHD. #line:3b2b21
+		GreggLaptop: AFA, 0H M0L XPAHNTEVJ. #line:f80aeb
+    <<endif>>
+	GreggLaptop: UP0CTN, R 6J1V TAKNM 0TCT0LHJ1M U0D K0HEO #line:adfd3c
+	Mae: BCE B U0PRDKE, 4YBAK. CEPJE3H0. #line:f021f0
+	GreggLaptop: R UP0CT0... DA. #line:6a24a5
+	Mae: U0CUN #line:e1b153
+	GreggLaptop: AFA. #line:9ef776
+	GreggLaptop: CU0KN H0KN #line:994dcb
+<<else>>
+    Mae: 4E DEVAEQJ #line:7ddf14
+    GreggLaptop: HN4EF0. TNUA PACCTP0EH. #line:bfe130
+    Mae: 0X. U04EMY? #line:b3b3b5
+    GreggLaptop: 6E3 UPN4NHJ1. UP0CT0 TAK. #line:658c6b
+    Mae: Y MEHR T0SE BCE HAUEPEK0CRK #line:dfb556
+    Mae: R T0VJK0 4T0 U0CC0PNVACJ C 6N #line:879304
+    GreggLaptop: 0 HET! KAK TAK? #line:5f5c11
+    Mae: DASE HE 3HA%. R UP0CT0 3ACPAHKA. #line:08c89a
+    GreggLaptop: TJ1 N R, BDB0EM #line:102981
+    Mae: 6VN3HEOJ1-3ACPAHOJ1 #line:939c12
+    GreggLaptop: M0SH0 CDEVATJ TAKY% HADUNCJ HA KYPTKAX #line:a96810
+    Mae: HA CU0PTNBHJ1X KYPTKAX #line:1eb09a
+    Mae: CDEVAEM HA PYKABAX FNFAHTCKNE HAQNBKN C N306PASEHNEM DEPJMA. #line:dc19db
+    GreggLaptop: XA-XA-XA! #line:28a61d
+    Mae: 0KEL 4YBAK. R U0LDY CUATJ. #line:748877
+    GreggLaptop: CBNDNMCR, 4YBNXA #line:17dd4c
+<<endif>>
+===
+title: BeaLaptop_A2D3
+tags: 
+colorID: 3
+position: -1002,16103
+---
+<<set $bea_laptop to 2>>
+Mae: UPNBET, 6N. TJ1 TYT? #line:8d1f8d
+<<if $did_bea_friendship_quest_3>>
+	<<wait 4>>
+	BeaLaptop: DA. #line:9a50ab
+	Mae: R UPABDA HE 3HA%, KAK M0FVA TAK 06VASATJCR, H0 R N3BNHR%CJ. #line:58862b
+	BeaLaptop: BCE B U0PRDKE. NDN CUATJ. YBNDNMCR U03SE. #line:217c14
+	Mae: X0P0Q0. #line:50bc65
+<<else>>
+    BeaLaptop: TAKT04H0 #line:cca1d2
+    Mae: 4EM 3AHNMAVACJ? #line:8f47be
+    BeaLaptop: DEVAVA 6YXFAVTEPCKNE DEVA U0 MAFA3NHY N CM0TPEVA KVNUJ1 80-X #line:74ff96
+    Mae: GT0 NMEHH0 T0, 4T0 TJ1 D0VSHA DEVATJ, ECVN TJ1, HY, VET HA 20 CTAPQE, 4EM ECTJ #line:aef5c3
+    BeaLaptop: HY, KT0-T0 D0VSEH 3AHNMATJCR GTNM, BMECT0 MAMJ1. #line:d8610e
+    BeaLaptop: 0CH0BATEVJH0 U0DX0SY K DEVY. #line:880369
+    Mae: HY, TJ1 UP0DEVJ1BAEQJ X0P0QY% PA60TY #line:c7097d
+    BeaLaptop: CUACN60 #line:909e53
+    BeaLaptop: BEPHYCJ K PA60TE #line:8597d5
+    Mae: CU0K0LH0L H04N #line:0d3488
+<<endif>>
+===
+title: GreggMessages_A2D4
+tags: 
+colorID: 3
+position: -566,15852
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: C4ACTVNB0F0 XGVV0YNHA, 4YBNXA #line:d2e6ce
+GreggLaptop: SEVA% TE6E NCUYFATJCR D0 4EPTNK0B #line:a3cd49
+===
+title: BeaMessages_A2D4
+tags: 
+colorID: 3
+position: -552,16092
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: -CTATYC- CEF0DHR H04J% B 4ECTJ XAPZECTA C0CT0NTCR ESEF0DHAR UJECA B CTAP0L KNPKE! UPNX0DNTE N YBNDNTE NCT0PN% 0 UPN3PAKAX U0CCYM CUPNHFC! #line:07c258
+===
+title: GreggMessages_A3D1
+tags: 
+colorID: 4
+position: -114,15856
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: UPNBET, 4YBNXA, UP0CTN, 4T0 HE 3ATYCNVN B4EPA BE4EP0M #line:b76c00
+GreggLaptop: AHFYC F0B0PNT, 4T0 EMY T0SE SAVJ #line:29d85d
+GreggLaptop: CEF0DHR PEUETNONR! U0T0MY 4T0 R B DYXE N M0E CV0B0 - 3AK0H #line:c73371
+GreggLaptop: Y6ESAV PA60TATJ, U0KA #line:e50525
+===
+title: BeaMessages_A3D1
+tags: 
+colorID: 4
+position: -114,16112
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: UPNBET, MGL! 0FP0MH0E CUACN60, 4T0 U0M0FVA B4EPA BE4EP0M. #line:a8020d
+BeaLaptop: UP0CHYVACJ N U0HRVA, 4T0 6J1VA 4EPEC4YP HABR34NB0L. #line:afa2b9
+BeaLaptop: CUACN60. R 04EHJ OEH% TB0% U0M0WJ. #line:0305ed
+BeaLaptop: ECVN 3AX04EQJ U03D0P0BATJCR, R 6YDY UPN6NPATJCR HA PA60TE U0CVE B4EPAQHEF0. #line:68fc78
+===
+title: GreggLaptop_A3D1
+tags: 
+colorID: 4
+position: 192,15866
+---
+<<set $gregg_laptop to 2>>
+GreggLaptop: L0Y, R UP06NV NCT0PN4ECK0E C006WECTB0 B NHTEPHETE #line:1634eb
+GreggLaptop: 0H0 PEAVJH0 CTAP0E, H0 TAM CDEVAVN HEZNF0BJ1L PEM0HT #line:9bab5f
+Mae: CEPJE3H0? #line:4ecef7
+GreggLaptop: B CMJ1CVE, R HE F0B0P%, 4T0 TAM ECTJ UPN3PAK, H0 #line:624790
+GreggLaptop: PA3PYQEHHJ1E CTAPJ1E BEWN, U0X0SE, UPNBVEKA%T UPN3PAK0B #line:6c14b3
+Mae: KAK TAK #line:128503
+GreggLaptop: TJ1 UPN3PAK, 3ABNCA%WNL B CTAP0M D0ME #line:838274
+GreggLaptop: A 3ATEM, KT0-T0 YCTAH0BNV 6ACCELH HA MECTE, FDE TJ1 U0MEP #line:961ff0
+Mae: 6ACCELHJ1 C UPN3PAKAMN GT0 DELCTBNTEVJH0 CTPAQH0 #line:630262
+GreggLaptop: D0 SYTN. R U0QEV CUATJ #line:cfd3fa
+===
+title: BeaLaptop_A3D1
+tags: 
+colorID: 4
+position: 185,16110
+---
+<<set $bea_laptop to 2>>
+BeaLaptop: DAL 3HATJ, K0FDA C06EPEQJCR U0CETNTJ KVAD6NWE. #line:892b28
+BeaLaptop: HA GT0L HEDEVE, R 6YDY CB060DHA 60VJQNHCTB0 BE4EP0B. #line:7d7b61
+Mae: U0KA HE 3HA%. CUACN60, 6N. #line:489165
+BeaLaptop: CNVJH0 HE 6VAF0DAPN #line:b13d41
+BeaLaptop: R TYDA U0-V%60MY U0EDY, 0H0 UPRM0 Y D0P0FN #line:309972
+Mae: NCU0PTNVA M0MEHT #line:3eb41e
+BeaLaptop: 0X, HY, T0FDA... #line:b696a8
+BeaLaptop: TE6E 04EHJ U0BE3V0 N VY4QE 6J1 TE6E HE 3A6J1BATJ 0 CEL FP0MADH0L YCVYFE. #line:075447
+Mae: B0T TEUEPJ C0LDET. #line:ff8f9a
+BeaLaptop: R YSE BJ1PY6A%CJ. CEDHR 6J1V0 BECEV0. N3BNHN, 4T0 B0P4AVA, UP0CTCTTTCTT,. #line:985294
+Mae: BCE X0P0Q0. #line:782a46
+<<wait 1>>
+Mae: U0F0DN, TJ1 TAM 4E, 3ACHYVA? #line:8a91ab
+<<wait 1>>
+Mae: V0V #line:866789
+===
+title: AngusLaptop_A3D1
+tags: 
+colorID: 4
+position: 193,16350
+---
+<<set $angus_laptop to 2>>
+AngusLaptop: GL, MGL. #line:d68142
+AngusLaptop: DAL 3HATJ, K0FDA 3AX04EQJ CX0DNTJ B UAPK. #line:7ae350
+AngusLaptop: R U0CM0TPEV U0 KAPTE N D0 U0CCYMCK0F0 UEPEBAVA PYK0L U0DATJ. #line:d45783
+Mae: 0KEL, 3D0P0B0! Y HAC TAK N HE 6J1V0 QAHCA U03ABNCATJ BMECTE #line:713a1d
+AngusLaptop: 6YDET BECEV0, R DYMA%! #line:4ab019
+AngusLaptop: VADH0, R CUATJ #line:50a9db
+Mae: D06P0L H04N, CGP. #line:a81a67
+AngusLaptop: *CHNMAET QVRUY* #line:f24e9d
+===
+title: GreggMessages_A3D2
+tags: 
+colorID: 4
+position: 639,15919
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: 4YBNXA, Y MEHR B0 PTY KAK0L-T0 CTPAHHJ1L UPNBKYC #line:a8e371
+GreggLaptop: KAK U0KPJ1QKA #line:1e7627
+GreggLaptop: 6YDY HA PA60TE N U0UP06Y% 0TMJ1TJ T0L ZNFHEL, 4T0 6YDET B KYVEPE #line:e7bfed
+===
+title: AngusMessages_A3D2
+tags: 
+colorID: 4
+position: 660,16171
+---
+<<set $angus_laptop to 1>>
+AngusLaptop: -CTATYC- "UVAHETJ1 M0SH0 U0SAVETJ, N60 0HN HE 3HA%T CK0VJ 0HN BEVNKN N KPYTJ1"- D0KT0P KGTN K0HKVNH, HAON0HAVJH0E ACTP0H0MN4ECK0E AFEHTCTB0 #line:b66ce6
+===
+title: BeaMessages_A3D2
+tags: 
+colorID: 4
+position: 653,16428
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: UP0QVAR H04J BD0XH0BNVA MEHR #line:f39c5e
+BeaLaptop: R D0CTAHY TE6E 4NTATEVJCKNL 6NVET HA BC% DVNHHELQY% H04J #line:26309f
+BeaLaptop: HE 6VAF0DAPN. #line:4cae32
+===
+title: GreggMessages_A4D3
+tags: 
+colorID: 5
+position: 3935,15828
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: UPNBET. #line:6c4c5b
+GreggLaptop: UPNRTH0 U04ATNVNCJ UP0QV0L H04J% #line:757e65
+GreggLaptop: HY, TNUA, UPRM B006WE... UPABDA #line:438708
+GreggLaptop: TJ1 T0T EWE KPETNH, V0V #line:fa7e62
+GreggLaptop: PEUETNONR CEF0DHR #line:229572
+GreggLaptop: U0T0MY 4T0 4YBCTBY% 6YDT0 MHE HAD0 CDEVATJ 4T0-T0 H0PMAVJH0E #line:3d608e
+GreggLaptop: R B CHGVK0HE #line:49bba6
+GreggLaptop: HADE%CJ, TJ1 B U0PRDKE #line:2651e8
+GreggLaptop: C YBASEHNEM, FPEFF0PN #line:bf30f2
+===
+title: AngusMessages_A4D3
+tags: 
+colorID: 5
+position: 3942,16090
+---
+<<set $angus_laptop to 1>>
+AngusLaptop: -CTATYC- UPNRTH0 SNTJ GTNM YTP0M. B0T N BCE. #line:062ebe
+===
+title: BeaMessages_A4D3
+tags: 
+colorID: 5
+position: 3940,16360
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: GL, MGL. #line:f93eea
+BeaLaptop: Y TE6R BCE H0PM? #line:887f52
+BeaLaptop: CEF0DHR R HE 6YDY 0TKPJ1BATJ KNPKY. #line:2e6e7d
+BeaLaptop: FPEFF CKA3AV MHE, 4T0 CEF0DHR 6YDET PEUETNONR. #line:a0adc5
+BeaLaptop: YBNDNMCR TAM. #line:b0131e
+======= #line:6ab359
+title: Node46 #line:f0d231
+tags: empty #line:8ba340
+colorID: 0 #line:1543d6
+position: -2421,16462 #line:784db5
+--- #line:e7643f
+Empty Text #line:97bd30
+===
+title: ChattrBox_A1D2
+tags: 
+colorID: 2
+position: -3744,14930
+---
+ChattrBox: BECTHNK 6PALT XAP60P - CEKPETAPJ U0 06PA30BAHN%: "NMETJ F0CYDAPCTBEHHJ1E QK0VJ1 - GT0 BCE PABH0 4T0 NMETJ F0CYDAPCTBEHHJ1E FAM6YPFEPJ1. GT0 6E3YMNE. KASDJ1L D0VSEH KYUNTJ CE6E CB0L C06CTBEHHJ1L FAM6YPFEP." #line:a14ae5
+===
+title: ChattrBox_A2D2
+tags: 
+colorID: 3
+position: -3497,15178
+---
+ChattrBox: HAY4HJ1L B3FVRD - PA60TA HE M0SET YFHETATJ DYQY, U0T0MY 4T0 HET D0KA3ATEVJCTB CYWECTB0BAHNR DYQN. #line:38d25b
+===
+title: ChattrBox_A1D3
+tags: 
+colorID: 2
+position: -3495,14932
+---
+ChattrBox: HA3AD K QK0VJHJ1M C0BETAM: 06EPHN Y4E6HNKN Z0VJF0L. UP0CT0 CDEVAL GT0. #line:457614
+===
+title: ChattrBox_A4D3
+tags: 
+colorID: 6
+position: -3755,15723
+---
+ChattrBox: U0F0DA - U0 UP0FH03Y CHEF! BJ1 F0T0BJ1 K HADBNFA%WEMYCR? #line:bae7fa
+===
+title: ChattrBox_A2D3
+tags: 
+colorID: 3
+position: -3249,15183
+---
+ChattrBox: D0MAQHNL KYU0V - NU0TEKA 3ACTAVA BPACUV0X? H0B0E UPNV0SEHNE U03B0VRET BAM CDEVATJ BAQ TYAVET 06WECTBEHHJ1M! #line:dd855d
+===
+title: ChattrBox_A2D4
+tags: 
+colorID: 3
+position: -2981,15184
+---
+ChattrBox: UPN3PA4HAR TJ1KBA: CAMAR 60VJQAR TJ1KBA B MNPE "6P0K" - UP0B0DHNK K MEPTBEOAM? #line:e047b6
+===
+title: ChattrBox_A3D1
+tags: 
+colorID: 5
+position: -3752,15447
+---
+ChattrBox: 6PALT XAP60P U0CT - 0CEHJ B TALHE Y6NBAET BAC? #line:5f0539
+===
+title: ChattrBox_A3D2
+tags: 
+colorID: 5
+position: -3492,15445
+---
+ChattrBox: Y4EHJ1E: "P0CT YP0BHR M0PR U0 04EBNDHJ1M UPN4NHAM U0BJ1CNT 4ACT0TY HAUADEHNR AKYV." #line:60d177
+===
+title: ChattrBox_A3D3
+tags: 
+colorID: 5
+position: -3247,15451
+---
+ChattrBox: TEXH0H0MNKA CEF0DHR: C03DATEVJ TEPHAU, MALK GFUVGHT, KYUNT U04T0BY% CVYS6Y #line:fad05a
+===
+title: ChattrBox_A3D4
+tags: 
+colorID: 5
+position: -2989,15452
+---
+ChattrBox: HAY4HJ1L B3FVRD - H0B0E NCCVED0BAHNE U0KA3J1BAET, 4T0 BCE M0SET 6J1TJ HE TAK UV0X0, KAK KASETCR. #line:3cfd14
+===
+title: EnterLevel_A2D2
+tags: 
+colorID: 3
+position: -2047,15511
+---
+<<if $night>>
+    <<if $did_gregg_friendship_quest_2 is 0>>
+        <<set $angus_laptop to 2>>
+    <<endif>>
+<<endif>>
+===
+title: GreggLaptop_A3D2
+tags: temp
+colorID: 4
+position: 928,15931
+---
+<<set $gregg_laptop to 2>>
+Mae: GL GL GL #line:18837f
+GreggLaptop: L0Y L0Y L0Y #line:69e875
+<<if $did_gregg_investigation_quest_on_a3d2>>
+	Mae: KAK TB0N F0VEHN? #line:9b07ec
+	GreggLaptop: DA BCE H0PMYVJ. R U0CT0RHH0F0 UPJ1FA% C U0SAPHJ1X VECTHNO. #line:8a1135
+	GreggLaptop: B006WE-T0 60VJH0, 6YDT0 U0 RLOAM BDAPNVN. #line:54cb8b
+	GreggLaptop: HY A TJ1 HAQVA T0, 3A4EM MJ1 TYDA U0VE3VN? #line:7dabe3
+    	->DYMA%, 0H HAQEV HAC. #line:67fc38
+    	->4YBAK, MJ1 HAQVN D0ZNFA BCEF0 #line:4906fb
+    		Mae: 3AV C KAPTAMN, CTPAQHJ1L P060T #line:8cc59c
+    		Mae: CTPAHHAR XPEH0BAR KAPTNHA HA 4EPDAKE #line:549167
+    		Mae: CYMACQEDQEE K0VN4ECTB0 VNZT0B #line:152690
+    		Mae: N! DASE! UPN3PAKA! #line:6b0b5f
+	GreggLaptop: T0T BAXTEP, K0T0PJ1L K0PUEV HAD TEM NCT0PN4ECKNM P060T0M? #line:51712e
+	Mae: FPEFFFFFFFFFF0P #line:c82a88
+	GreggLaptop: CVYQAL, R 3HA%, 4T0 BAXTEPJ1 CYWECTBY%T #line:79abea
+	GreggLaptop: 3HA4NT, C KYDA 6000VJQEL D0VEL BEP0RTH0CTN, #line:51a0d7
+	GreggLaptop: GT0 6J1V HE UPN3PAK, A BAXTEP. #line:f8d052
+	Mae: R *U04YBCTB0BAVA* EF0, 4YBAK. #line:b3c2cd
+	//No more owl
+	//GreggLaptop: well I felt getting attacked by an owl
+	//GreggLaptop: maybe the owl was stalking us inside there
+	GreggLaptop: CUP0QY AHFYCA, M0SET VN TAK0E 6J1TJ #line:f6edbc
+	<<wait 3>>
+	GreggLaptop: 0H HE 0TBE4AET #line:2ac9a6
+	Mae: VADH0, U0LDY HA 60K0BY%. #line:de5887
+	Mae: CUACN60, 4T0 U0QEV C0 MH0L CEF0DHR. #line:ade2ea
+	GreggLaptop: UPECTYUVEHNR, 4YBNXA. #line:6549f3
+	Mae: UPECTYUVEHNR. #line:d48f2b
+<<elseif $did_angus_investigation_quest_on_a3d2>>
+	Mae: XEL XEL #line:d4337f
+	GreggLaptop: BJ1 C AHFYC0M X0P0Q0 UP0BEVN BPEMR????? #line:0ab4ad
+		->PA3BE 0H HE PACCKA3AV TE6E? #line:b5084e
+			GreggLaptop: DA, PACCKA3AV. #line:5fdb31
+		->DA, BCE 6J1V0 3D0P0B0, U0KA HE CTAV0 CYUEP CTPAQH0!!! #line:67ad77
+	GreggLaptop: BJ1, PE6RTKN, BNDEVN CTPAHH0F0 4EVNKA, XAX #line:6973ef
+	Mae: AFA. GT0 0URTJ 6J1V GT0T D0V6AHJ1L UPN3PAK!!! #line:c74cae
+	GreggLaptop: U0F0DJ #line:5e5f7a
+	<<wait 2>>
+	GreggLaptop: AHFYC DYMAET, 4T0 GT0 6J1V 0X0THNK. CE30H 0X0TJ1 HA4HETCR B PAL0HE DBYX DHEL #line:0b5e64
+	Mae: HY 4T0 3A XPEHJ #line:bc41d6
+	Mae: U030BN EF0 #line:6ffbd3
+	GreggLaptop: 0KKKK #line:c48608
+	<<wait 4>>
+	GreggLaptop: UPNBET, MGL. GT0 AHFYC. #line:05a5d9
+	Mae: 4YBAK! TJ1 EF0 CB0NMN FVA3AMN BNDEV! #line:2601e9
+	GreggLaptop: HY, T0 ECTJ, MJ1 BNDEVN UAPHR, K0T0PJ1L CTPAHH0 CE6R BEV. #line:15e7ce
+	GreggLaptop: H0 ECTJ BEDJ V%DN, K0T0PJ1E SNBYT TAM, B UAPKE #line:73264d
+	GreggLaptop: N TAM ECTJ 0X0THN4JN VAFEPR N BCE TAK0E. #line:23a707
+	<<set $angus_laptop to 1>>
+	GreggLaptop: TAK 4T0, CK0PEE BCEF0, GT0 UP0CT0 UAPEHJ, PEQNBQNL U0PAHJQE U00X0TNTJCR #line:cc3cdb
+	Mae: 4YBAK. R, TNUA, *U04YBCTB0BAVA* GT0. #line:eb8819
+	GreggLaptop: R 3HA%. HE M0FY HN4EF0 CKA3ATJ U0 GT0MY U0B0DY. #line:92d2d7
+	GreggLaptop: DYMA%, BCE MJ1 TP0E 6J1VN HAUYFAHJ1. #line:82969f
+	Mae: 0K, VADH0. CUACN60, 4T0 U0QEV, 6J1V XPA6PJ1M N BCE TAK0E. #line:363f86
+	GreggLaptop: DA HE 3A 4T0. 6J1V0 BECEV0! #line:e7612c
+	Mae: M0SEQJ BEPHYTJ FPEFFA. #line:7d4b8c
+	<<wait 3>>
+	GreggLaptop: GL GL GL 4YBNXA. #line:413c10
+	GreggLaptop: R XYD0SHNK #line:8be485
+	Mae: TJ1 4T0, TB0PNV UPRM WAC? #line:e77763
+    GreggLaptop: HY DA, B006WE-T0 #line:ab426c
+    GreggLaptop: X0P0Q0, R CUATJ #line:69e3bb
+    Mae: H04N, 4YBAK. #line:d006b4
+<<else>>
+	Mae: 4EV #line:5ea48c
+	GreggLaptop: GL GL GL #line:6aa095
+	GreggLaptop: KAK TB0R CTPAQHAR H04J #line:049e81
+	Mae: 4YBAK, MJ1 X0DNVN HA KVAD6NWE #line:c678c1
+	Mae: N, TNUA, CVY4ALH0 0TKPJ1VN CKVEU #line:b5ddb5
+	Mae: TAM T04HRK 6J1V TPYU UPNBNDEHNR #line:4a16dd
+	Mae: NVN... HY, TJ1 U0HNMAEQJ #line:c8a395
+	GreggLaptop: B000YYYY!!! #line:004ec0
+    Mae: N, 4YBAK, GT0 6J1V0 PEAVJH0 SECTJ #line:e92bc9
+	GreggLaptop: TJ1 BNDEVA CB0E UPNBNDEHNE! #line:2351ac
+	Mae: R T04HRK BNDEVA!!! #line:8d44b9
+	Mae: D0VSH0 6J1TJ MJ1 HA UPABNVJH0M UYTN #line:b6c715
+	GreggLaptop: 4YBAK HABEPH0E 30V, 4T0 TJ1 PA3B0P0TNVA FP06Y #line:5facfa
+	Mae: YZZ. GT0 T04H0. #line:952f58
+	Mae: HY N VADH0. #line:582eb5
+	GreggLaptop: 0KEL, R CUATJ. #line:b525e2
+	GreggLaptop: TJ1, TNUA...M0V0DEO, B 06WEM #line:4bfafe
+	Mae: TJ1 3HAEQJ GT0, 4YBAK #line:d2ce69
+	GreggLaptop: AD0B0L H04N, 6P0 #line:9ddaff
+	Mae: AXEPEHH0L H04N #line:83c76f
+<<endif>>
+===
+title: AngusLaptop_A3D2
+tags: 
+colorID: 4
+position: 931,16219
+---
+<<set $angus_laptop to 2>>
+AngusLaptop: GL, MEL, GT0 FPEFF #line:07229e
+AngusLaptop: BJ1 C AHFYC0M F0B0PNTE 4EPE3 M0L K0MUJ%TEP #line:121bac
+AngusLaptop: 0, UPNBET, R AHFYC, R TAK0L YMHJ1L N Y MEHR 0TVN4HAR 3ADHNOA #line:c25ad0
+AngusLaptop: 6VA-6VA-6VA, BJ1 DB0E D0ZNFA 60VTAETE #line:d2771c
+AngusLaptop: U0F0DN, R PNCY% EMY U0QV0E U0CVAHNE B UGNHTE #line:51f88b
+AngusLaptop: GT0 XEP B QVRUE N C YVJ1604K0L #line:9df3f9
+AngusLaptop: DASE HE 3HA%, 4T0 GT0 3HA4NT #line:235381
+AngusLaptop: BAM BDB0EM, U0X0SE, 04EHJ DASE HEUV0X0 #line:37bcc1
+AngusLaptop: VAH, R U0FHAV #line:267167
+AngusLaptop: GL, MGL, GT0 AHFYC. #line:d3f6ab
+AngusLaptop: TJ1 F0B0PNVN C FPEFF0M. #line:81fc8b
+AngusLaptop: GTA KAPTNHKA MEHR 04EHJ DASE 03ADA4NVA. #line:1c0a42
+AngusLaptop: D06P0L H04N. #line:f47bbf
+===
+title: EnterLevel_A3D2
+tags: 
+colorID: 4
+position: 885,15679
+---
+<<if $night>>
+    <<set $angus_laptop to 2>>
+<<endif>>
+===
+title: BeaLaptop_A3D2
+tags: 
+colorID: 4
+position: 917,16505
+---
+<<set $bea_laptop to 2>>
+Mae: GL, 6N. TJ1 HE CUNQJ? #line:3b57af
+BeaLaptop: C0BCEM, A6C0V%TH0 HET. #line:5d9d49
+BeaLaptop: CEL4AC PA36NPA% C4ETA N EM SAPEHJ1L CJ1P. #line:055b3e
+BeaLaptop: 4E H0B0F0? #line:bfe786
+<<if $did_bea_investigation_quest_on_a3d2>>
+	Mae: N3BNHN, 4T0 HEMH0F0 PA3FP0MNVA KVAD6NWE #line:3f2d17
+	Mae: 3HA%, HE GTNM TE6E X0TEV0CJ 6J1 3AHNMATJCR B CB060DH0E BPEMR. #line:702434
+	BeaLaptop: DA BCE H0PM. R 3HA%, TJ1 HE C0 3VA. #line:cbd0f0
+	BeaLaptop: B CMJ1CVE, U0DYMAEQJ, 0CKBEPHEHNE M0FNVJ1 #line:aa82b7
+	Mae: 4T0 HAC4ET T0F0 UPN3PAKA???? #line:235846
+	BeaLaptop: MGL, CEPJE3H0, GT0 6J1V CM0TPNTEVJ. #line:e31111
+		-> !!!! #line:c8366c
+			Mae: 6N! #line:cbcf8a
+			BeaLaptop: 4T0? #line:d6928b
+			Mae: DA 0H SE 6J1V UPRM0 TAM! #line:5231d4
+			Mae: 3Y6 DA%, GT0 6J1V T0T SE MYSNK, 4T0 N B TY H04J! #line:251cd7
+			BeaLaptop: GT0 6J1V UP0CT0 06J14HJ1L 4YBAK! #line:8c162d
+		-> !?!?!? #line:058e1e
+			Mae: R DYMAVA, TJ1 BEPNQJ B UPN3PAK0B! #line:3fe987
+			BeaLaptop: BEP%! KAK 6J1! HABEPH0! #line:14a8fa
+			Mae: U04EMY T0FDA T0T 4YBAK HE M0SET 6J1TJ UPN3PAK0M? #line:0d676d
+			BeaLaptop: R UP0CT0 HE UPN3HA% B KASD0M 4EV0BEKE UPN3PAKA! #line:e61c4b
+			Mae: KASDJ1L M0SET 6J1TJ UPN3PAK0M! #line:c8e415
+			BeaLaptop: R UPN3PAK, MGL? #line:4c88e0
+			Mae: 0L, TE6E 6J1 X0TEV0CJ GT0F0, DA? #line:a845c4
+			Mae: UPECVED0BATJ MEHR BC% SN3HJ. #line:322765
+			BeaLaptop: HY, U0 KPALHEL MEPE, TJ1 6J1 HAY4NVACJ B0DNTJ MAQNHY C M0EL U0M0WJ%. #line:748036
+			BeaLaptop: B V%60M CVY4AE... #line:17e9bc
+	BeaLaptop: KAK TJ1 EF0 B006WE PA3FVRDEVA? TAM BC%DY 6J1V TYMAH! #line:26c35c
+	Mae: HE 3HA%. R UP0CT0 /U04YBCTB0BAVA/ GT0. #line:90e6d4
+	BeaLaptop: HAM 04EHJ U0BE3V0, 4T0 6J1V0 TYMAHH0 #line:d9dd58
+	BeaLaptop: NHA4E 6J1 0H CM0F 0U03HATJ HAC B U0VNONN #line:15351e
+	Mae: AAAAAAAAAAAAAAAAA!!!! #line:a15520
+	Mae: VADH0, KAK 3HAEQJ. #line:713a76
+	BeaLaptop: N3BNHN, 4T0 PA303VNVA! #line:c24b55
+	Mae: HN4EF0. HN4EF0. #line:24554b
+	Mae: CUACN60, 4T0 U0QVA C0 MH0L. #line:37920e
+	BeaLaptop: R HA MAQNHE. GT0 TJ1 U0QVA C0 MH0L. #line:52d376
+	Mae: VADH0, CUACN60, 4T0 U0DBE3VA. #line:f53e5c
+	BeaLaptop: DA HE 3A 4T0. #line:0ccde6
+	BeaLaptop: NDN UP0CUNCJ. TE6E HE U0MEQAET. #line:62aa35
+	Mae: 06R3ATEVJH0. #line:d20a0e
+	Mae: H04N, U0DPYFA #line:d944b8
+	BeaLaptop: CU0K0LH0L H04N! #line:e3ca58
+<<elseif $did_gregg_investigation_quest_on_a3d2>>
+	Mae: X0DNVA B NCT0PN4ECK0E C006WECTB0 #line:2f0a9a
+	BeaLaptop: 0, HY N KAK BCE UP0QV0? #line:fa2464
+	Mae: HY, 3A HAMN 0UPEDEVEHH0 F0HRVCR UPN3PAK #line:cce8fd
+	BeaLaptop: CEPJE3H0? #line:862900
+	BeaLaptop: U0F0DN, CBEP% GTY NHZ0PMAON% C FPEFF0M. #line:c7616d
+	Mae: 3A4EM TE6E CBEPRTJ, TJ1 4T0, HE BEPNQJ MHE? #line:d121ac
+	BeaLaptop: N3BNHN, MHE HYSEH B3FVRD C0 CT0P0HJ1. #line:129fea
+	<<wait 4>>
+	BeaLaptop: FPEFF F0B0PNT, 4T0 GT0 6J1V BAXTEP NVN TNUA T0F0. #line:9a5b3a
+	Mae: YYYXXXXXX. #line:940d23
+	Mae: HY N VADH0, R U0QVA CUATJ. #line:6d5391
+	BeaLaptop: HE V0SNCJ 3V0L. UPNCHRTCR UV0XNE CHJ1. #line:0ea2d5
+	Mae: CUACN60. #line:0e5f74
+	BeaLaptop: CU0K0LH0L H04N, MGL. #line:72739a
+<<else>>
+    // angus IQ
+	Mae: CX0DNVA B UAPK C AHFYC0M. #line:111469
+	BeaLaptop: KAK BCE UP0QV0? #line:5d157a
+	Mae: 6J1V0 BECEV0, U0KA HE CTAV0 CTPAQH0. #line:8dc021
+	BeaLaptop: KAK GT0? #line:caace0
+	Mae: MJ1 CT0 UP0O BNDEVN UPN3PAKA B VECY. #line:583a77
+	BeaLaptop: CEPJE3H0? AHFYC T0SE BNDEV? #line:a50d94
+	Mae: DA, BNDEV! #line:199be2
+	BeaLaptop: B0Y, 0KEL. U0F0DN. R UNQY AHFYCY. #line:497aed
+	Mae: 3A4EM? #line:cddbf3
+	BeaLaptop: AHFYC T0T EWE ATENCT. #line:26e14b
+	BeaLaptop: 0H HE BEPNT B UPN3PAK0B. #line:9453a7
+	Mae: U04EMY TJ1 UP0CT0 HE M0SEQJ U0BEPNTJ MHE HA CV0B0? #line:098434
+	BeaLaptop: U0F0DJ #line:b23d40
+	<<wait 4>>
+	BeaLaptop: 0H CKA3AV, 4T0, B03M0SH0, GT0 6J1V 0X0THNK. #line:1a9fc5
+	Mae: AAAAAAAAAAAAAA. #line:d24960
+	Mae: VADH0, U0ZNF. #line:96d7d1
+	BeaLaptop: N3BNHN. H0, B K0HOE K0HO0B, R HE *HE* BEP% TE6E. #line:331ba0
+	Mae: CUACN60. #line:b1fec5
+	BeaLaptop: B V%60M CVY4AE, BJ1 X0P0Q0 UP0BEVN BPEMR? #line:3b5d5e
+	Mae: AFA. Y3HAVA MH0F0 H0B0F0 06 AHFYCE. #line:0cd793
+	Mae: Y HEF0, TNUA, TRSEVAR SN3HJ N BCE TAK0E? #line:e519bc
+	BeaLaptop: 0 DA. 0UPEDEVEHH0. #line:1d7e45
+	Mae: CT0L, 0TKYDA TJ1 Y3HAVA? #line:ae215f
+	BeaLaptop: GM, U0T0MY 4T0 MJ1 C AHFYC0M DPYSNM, TNUA, C 8 KVACCA NVN 0K0V0 T0F0? #line:653e67
+	Mae: DA, T04H0. R 3A6J1VA. #line:ee5735
+	BeaLaptop: TJ1 HE TA, KT0 CBR3J1BAET HAC BMECTE. #line:50884e
+	BeaLaptop: 0H 06WNL 3HAMEHATEVJ. MJ1 C FPEFF0M HE TYCYEMCR. #line:55a1af
+	Mae: XM. AHFYC X0P0QNL. #line:7e46ea
+	BeaLaptop: GT0 T04H0. #line:3f821e
+	Mae: 0KE, R CUATJ. #line:8127fa
+	BeaLaptop: U0T0M U060VTAEM. #line:34018f
+<<endif>>
+===
+title: GreggMessages_A3D3
+tags: 
+colorID: 4
+position: 1442,15953
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: 3DAP0B, U0DPYF #line:6297a1
+GreggLaptop: R B CHGVK0HE #line:b3ebe1
+GreggLaptop: UPNDN N CUACN MEHR 0T BEVNK0L CKYKN #line:b1e1b0
+GreggLaptop: C YBASEHNEM, FPEFF0PN #line:267da5
+===
+title: AngusMessages_A3D3
+tags: 
+colorID: 4
+position: 1449,16230
+---
+<<set $angus_laptop to 1>>
+AngusLaptop: -CTATYC- "UVAHETJ1 BNDNM0 UYCTJ1E, U0CK0VJKY HE 3HA%T, HACK0VJK0 0HN BEVNKN N KPYTJ1"- D0KT0P KGTN K0HKVNH, HAON0HAVJH0E ACTP0H0MN4ECK0E AFEHTCTB0 #line:f5bdfc
+===
+title: BeaMessages_A3D3
+tags: 
+colorID: 4
+position: 1448,16491
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: D06P0E YTP0. ECVN 0KASEQJCR B TAYHN CEHTPN CEF0DHR, T0 R KAK 06J14H0 HA PA60TE. #line:677e3b
+BeaLaptop: X0TR, HE 3HA%, 3A4EM R GT0 F0B0P%. TJ1 U0CT0RHH0 B TAYHN CEHTPN. #line:422105
+BeaLaptop: B 06WEM, YBNDNMCR. #line:0a6fbd
+===
+title: GreggLaptop_A3D3
+tags: 
+colorID: 4
+position: 1733,15951
+---
+<<set $gregg_laptop to 2>>
+<<if $did_gregg_friendship_quest_4>>
+	Mae: UPNBET. #line:2cfc79
+	GreggLaptop: UPNBET. #line:bfa8d5
+	Mae: N3BNHN, HY, TNUA, 3A BCE #line:9a4f6a
+	GreggLaptop: MJ1 BCE EWE N3BNHREMCR? #line:612ea7
+	GreggLaptop: M0SET, DABAL YSE 3AK0H4NM? #line:d34318
+	Mae: XA-XA, UP0CTN #line:389556
+	Mae: B CMJ1CVE #line:7ca4cb
+	Mae: HY TJ1 U0HRV #line:15242d
+	GreggLaptop: XA XA XA XA XA AX #line:b681e6
+	GreggLaptop: H04N, 4YYYBNXA #line:405689
+	Mae: H04N #line:038369
+<<else>>
+    Mae: GL MEVKNLLL #line:60f182
+    Mae: CX0DNVA HA BE4EPNHKY #line:bb54cb
+    Mae: TAHOEBAVA HA BE4EPNHKE #line:d34576
+    Mae: 6EFAVA U0D D0SDEM #line:0187e0
+    <<if $cool_party_girl>>
+    	Mae: BCTPETNVA F0PR4Y% OJ1U04KY #line:8d59dd
+    	Mae: CT0UP0OEHTH0 HE B3RVA EE H0MEP #line:f39623
+    	Mae: X0TR 0HA TA EWE QTY4KA #line:aef41a
+    <<endif>>
+    GreggLaptop: BAY. 3BY4NT KAK 0ZNFEHHAR H04KA. #line:2881b9
+    Mae: HY, CMEQAHH0 #line:dc55ab
+    Mae: H0, B K0HOE K0HO0B, DYMA%, EWE 6YDY TYCNTJ #line:07b229
+    GreggLaptop: HAM HAD0 60VJQE X0DNTJ HA BE4EPNHKN #line:4f6be5
+    Mae: GT0 A6C0V%TH0 T04H0 #line:9b54f8
+    Mae: VADHEHJK0, U0LDY R CUATJ #line:09f8cf
+    GreggLaptop: CUNQEMCR #line:4cb3f9
+<<endif>>
+===
+title: BeaLaptop_A3D3
+tags: 
+colorID: 4
+position: 1725,16232
+---
+<<set $bea_laptop to 2>>
+<<if $did_gregg_friendship_quest_4>>
+	Mae: XEL XEL 6N. TJ1 HE CUNQJ? #line:f2dfbc
+	BeaLaptop: HET, MGL. #line:31bc06
+	BeaLaptop: 4E H0B0F0? #line:559853
+	Mae: HN4EF0. #line:005b90
+	Mae: HEMH0F0 T0QHNT 0T D0HAT BYVZA #line:f42220
+	BeaLaptop: DA YS, B0T U04EMY R TYDA HE X0SY. #line:dc8b63
+	Mae: TAM TAK KVEB0 #line:2f5996
+	Mae: KAK GT0 MECT0 M0SET 6J1TJ TAKNM KVEBJ1M N TAKNM... SECT0KNM? #line:f0fa9b
+	BeaLaptop: GT0 DNKNL MNP, MGL #line:a78f07
+	Mae: B V%60M CVY4AE, R 6VEBAHYVA N U0T0M MJ1 6P0CNVN P060TA B VECY #line:0e60e4
+	BeaLaptop: 0K. R CVNQK0M C0HHAR, 4T06J1 GT0 PACQNZP0BJ1BATJ #line:4d2ebd
+	Mae: NDN CUATJ #line:4aca52
+	BeaLaptop: NDY CUATJ #line:bc4f9d
+<<else>>
+    Mae: GL, TJ1 #line:dade47
+    BeaLaptop: GL, R #line:2ca911
+    Mae: R TAK YCTAVA CEF0DHR. #line:71b269
+    BeaLaptop: DA YS. U0DN 6ESAVA AS D0 PEKN? #line:3b6421
+    Mae: AFA. U0 KPJ1QAM N BCE TAK0E. #line:9f1fc8
+    Mae: 6EF0THR N TAHOJ1 PEAVJH0 N3MATJ1BA%T. #line:3df060
+    BeaLaptop: DELCTBNTEVJH0 #line:3bfeb5
+    BeaLaptop: GT0 DELCTBNTEVJH0 3D0P0B0, MGL #line:203677
+    BeaLaptop: 4T0 TJ1 CDEVAVA GT0 #line:78acc4
+    Mae: 0L. DA VADH0 TE6E. #line:8f522a
+    BeaLaptop: NDN U0CUN. #line:b26400
+    Mae: 0KEL. R CDEVA% GT0. #line:2487d2
+    BeaLaptop: CUACN60, 4T0 6ESAVA 3A MH0L. #line:32e781
+    Mae: 0, R HNK0FDA HE 0TCTAHY. TJ1 0T MEHR HE N36ABNQJCR. #line:46c9e2
+    <<wait 2>>
+    BeaLaptop: M0FY UPEDCTABNTJ K0E-4T0 N U0XYSE. #line:3efc81
+<<endif>>
+===
+title: GreggMessages_A3D4
+tags: 
+colorID: 4
+position: 2195,15966
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: GL, MEVKAR #line:65cb5a
+GreggLaptop: UAQY B CHGK ZGVK0H #line:02bd94
+GreggLaptop: UAQY UAQY UAQY #line:dd9094
+GreggLaptop: U0KA HE YMPY YMPY YMPY #line:2453dc
+===
+title: AngusMessages_A3D4
+tags: 
+colorID: 4
+position: 2200,16198
+---
+<<set $angus_laptop to 1>>
+AngusLaptop: -CTATYC- "*HALDN CB0% 6NTBY* *3AUYCTN CTPEVJ1* *DEP3NQJ MHE* *DEP3NQJ BCEM HAM*" - YBNSY 6VGHKT0HC HA CVEDY%WEL HEDEVE!!!!!! #line:90569b
+===
+title: BeaMessages_A3D4
+tags: 
+colorID: 4
+position: 2202,16412
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: UPNBET, MGL. #line:147aae
+BeaLaptop: CTAPAR KNPKA. N R. B HEL. #line:e0635c
+BeaLaptop: TJ1 3HAEQJ, GT0 MAHTPA. #line:06d950
+===
+title: CaseyAwayMessage
+tags: 
+colorID: 0
+position: -4247,17116
+---
+CaseyLaptop: -C006WEHNE-| P0SDEH UP0NFPJ1BATJ| CTPAHA MYC0P F0PD0CTJ| 6APA6AHWNK| CKELT N PA3PYQEHNE| CKELT N C03DAHNE| UPNBR3AH K CVABE #line:270c78
+===

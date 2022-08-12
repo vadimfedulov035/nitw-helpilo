@@ -1,0 +1,15 @@
+title: End
+tags: 
+colorID: 5
+position: 550,263
+---
+<<endDay>>
+===
+title: InitLevel
+tags: 
+colorID: 5
+position: 214,264
+---
+<<set $act to 3>>
+<<set $day to 4>>
+===

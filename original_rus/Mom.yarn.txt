@@ -1,0 +1,1823 @@
+title: MomHome_A1D1
+tags: 
+colorID: 2
+position: 5041,2980
+---
+<<camera lookOffset -2 0>>
+<<sit>>
+<<if $mom is 0>>
+    <<set $mom += 1>>
+	[[WelcomeHome]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+	[[News_A1D1]]
+<<elseif $mom is 2>>
+    <<set $mom += 1>>
+	[[Book_A1D1]]
+<<elseif $mom is 3>>
+	[[Loop_A1D1]]
+<<endif>>
+
+===
+title: WelcomeHome
+tags: 
+colorID: 2
+position: 4680,3374
+---
+Mae: UPNBET, MAM! #line:797649
+Mom: D06P0 U0SAV0BATJ D0M0L, MNVAR! #line:eaada6
+Mae: CUACN60, 4T0 HE CMEHNVN 3AMKN! #line:e92e74
+Mom: N3BNHN, MJ1 UEPEUYTAVN DEHJ TB0EF0 B03BPAWEHNR #line:f83d1a
+Mom: GT0 6J1V0 K0P0TK0E YBED0MVEHNE! #line:655bf4
+Mae: BCE X0P0Q0, MAM. #line:51354c
+Mom: MGL, D0P0FAR? #line:3a50cb
+Mae: DA? #line:8430cc
+Mom: BCE B U0PRDKE? #line:300a04
+[[DA!|Yeah_A1D1]] #line:6ed4c2
+[[4T0 TJ1 NMEEQJ B BNDY?|What_A1D1]] #line:44e916
+
+===
+title: Yeah_A1D1
+tags: 
+colorID: 2
+position: 4663,3762
+---
+Mae: DA, MAM, BCE X0P0Q0. #line:e2e2bc
+Mom: HY, R NME% B BNDY, TB0L 3B0H0K BCTPEB0SNV HAC C UAU0L. #line:d8ddd6
+Mom: R U0DYMAVA, 4T0 4T0-T0 HE TAK. #line:f7e093
+Mae: HE, UP0CT0 C K0VVEDSEM HE CP0CV0CJ. #line:c8c659
+Mom: 4T0 GT0 3HA4NT, D0P0FAR? #line:d6d3bb
+Mae: MJ1 M0SEM U0F0B0PNTJ 06 GT0M U03SE? #line:18332e
+Mom: K0HE4H0, D0P0FAR. #line:b40757
+Mae: CUACN60, MAM. #line:2710da
+[[WheresGregg]]
+
+
+===
+title: What_A1D1
+tags: 
+colorID: 2
+position: 4902,3782
+---
+Mom: D0P0FAR, 4T0-T0 CVY4NV0CJ? #line:97bf6b
+Mae: MHE UP0CT0 HYSH0 6J1V0 BEPHYTJCR D0M0L. #line:33b7fb
+Mom: HY, MNVAR, DYMA%, TJ1 U0HNMAEQJ M0E 6ECU0K0LCTB0... #line:c3a6db
+Mom: 06J14H0 CTYDEHT-BT0P0KYPCHNK TAK HE U0CTYUAET... #line:0fe0f0
+Mae: R 3HA%. #line:b4e62b
+Mom: D0P0FAR, TJ1 M0SEQJ CKA3ATJ, ECVN 4T0-T0 UP0N30QV0. #line:a51b78
+Mae: MAM, R B U0PRDKE. UPABDA. #line:4be09c
+Mae: MJ1 M0SEM U0F0B0PNTJ 06 GT0M U03SE? #line:48a410
+Mom: K0HE4H0, D0P0FAR. BCE B U0PRDKE. #line:bdeb2e
+Mae: CUACN60, MAM. #line:fccef9
+[[WheresGregg]]
+
+===
+title: WheresGregg
+tags: 
+colorID: 2
+position: 5009,4203
+---
+Mom: R YBEPEHA, TB0N CTAPJ1E DPY3JR 6YDYT PADJ1 TE6R YBNDETJ! #line:aab850
+Mae: TJ1 CVY4ALH0 HE 3HAEQJ, FDE FPEFF? #line:d6338f
+Mom: 0, DA! FPEFF PA60TAET B CHGK ZGVK0H. #line:2164dc
+Mom: B TAYHN CEHTPN Y KVNK KVAKA. #line:1f20f1
+[[DYMA%, MHE HYSH0 C6EFATJ TYDA N U03D0P0BATJCR.|Thanks_A1D1]] #line:b58e68
+[[Y HAC TEUEPJ ECTJ CHGK ZGVK0H??|SnackFalcon]] #line:13bc9a
+
+===
+title: SnackFalcon
+tags: 
+colorID: 2
+position: 5046,4578
+---
+Mom: 0, DA! GT0 TAK YD06H0! #line:36641c
+Mom: 3HAEQJ, C TEX U0P, KAK ZYD D0HKN 3AKPJ1VCR. #line:7a076a
+Mae: ZYD D0HKN 3AKPJ1VCR? #line:871f19
+Mom: 0, DA! U04TN F0D UP0QEV! #line:28e132
+Mae: BAY. N KYDA TEUEPJ BCE X0DRT 3A U0KYUKAMN? #line:c085c7
+Mom: BCE X0DRT B XGM UAHTEP Y Q0CCE. #line:151f47
+Mom: H0 R BNSY TB0EF0 MAVEHJK0F0 DPYFA FPEFFA, K0FDA EDY B F0P0D. #line:51cb33
+Mae: BAY. ZYD D0HKN 3AKPJ1VCR. N TEUEPJ Y HAC ECTJ CHGK ZGVK0H. #line:484cde
+Mom: GT0 C0BEPQEHH0 H0BJ1L MNP, MNVAR. #line:94b343
+Mae: DA, GT0 TAK. #line:13a138
+[[Thanks_A1D1]]
+
+===
+title: Thanks_A1D1
+tags: 
+colorID: 2
+position: 5482,4563
+---
+Mom: 4T0 S, SEVA% TE6E X0P0Q0 UP0BECTN BPEMR 3DECJ! #line:a3579f
+Mom: CT0VJK0 H0B0F0! U0CM0TPN, 4T0 N3MEHNV0CJ! #line:52cf60
+Mae: TAK N CDEVA%! #line:d920d3
+Mom: T0VJK0 6YDJ 0CT0P0SHA C0 BCEL GT0L CTP0LK0L. #line:aba759
+Mae: HY, 4T0 3A 0CEHJ B U0CCYM CUPNHFC 6E3 0FP0MH0L CTP0LKN. #line:f694e8
+Mom: GT0 TAK U0-UPA3DHN4H0MY, D0P0FAR. #line:c13543
+Mae: BEPHYCJ U03SE! #line:7d0dd1
+Mom: U0KA, MNVAR! #line:547365
+<<camera lookOffset 0 0>>
+<<unlockDoodle MomFace>>
+===
+title: News_A1D1
+tags: 
+colorID: 2
+position: 4926,3386
+---
+Mae: NTAK, 4T0 CVY4NV0CJ B F0P0DE 3A GT0 BPEMR? #line:947a85
+Mom: TAK, U0CM0TPNM... #line:6d5f6a
+Mom: CVJ1QAVA, MNCCNC KPAHFVEP YMEPVA? #line:b5cf6e
+Mae: KT0? #line:daccb6
+Mom: TJ1 SE U0MHNQJ EE! 0HA Y4NVA BAQY FPYUUY CKAYT0B TAHOEBATJ, K0FDA TJ1 6J1VA MAVEHJK0L! #line:344849
+Mae: 0, BAY. 0HA 6J1VA D0B0VJH0 CTAP0L N T0FDA. #line:5321a1
+Mom: 0, 0HA 6J1VA DPEBHEL, D0P0FAR. 0HA 6J1VA DPEBHEL, K0FDA R 6J1VA B TB0EM B03PACTE. #line:197b58
+Mae: KAK 0HA YMEPVA? #line:08913c
+Mom: 0T CTAP0CTN, D0P0FAR. #line:7c659c
+Mae: CK0VJK0 VET EL 6J1V0? #line:8761d2
+Mom: 115 #line:8551b4
+Mae: BAY. #line:98a133
+Mom: R 3HA%! ECVN 6J1 GT0 6J1V0 C0PEBH0BAHNEM, 0HA 6J1 BJ1NFPAVA! #line:238439
+
+===
+title: Book_A1D1
+tags: 
+colorID: 2
+position: 5187,3394
+---
+Mom: D0P0FAR, TJ1 D0VSHA UP04NTATJ GTY KHNFY, K0FDA R 3AK0H4Y. #line:c3c1ca
+Mae: 4T0 3A KHNFA? #line:234f6e
+Mom: BGVV60L. GT0 PEAVJHAR NCT0PNR 0 MAVJ4NKE, K0T0PJ1L BJ1P0C B K0V0DOE. #line:e423f9
+Mom: P0DNTEVRM 0H 6J1V HE HYSEH, U0GT0MY 0HN BJ16P0CNVN EF0 B K0V0DEO. #line:92623c
+Mom: N EF0 BJ1PACTNVN YFPN. #line:5ccc50
+Mom: B K0V0DOE. #line:911415
+Mae: 0F0. #line:8b2625
+Mom: YFPN. #line:668b12
+Mae: YFPN. #line:82a024
+Mom: YFPNNNNNN, D0P0FAR. #line:e1ecc8
+<<set $eels to 1>>
+<<camera lookOffset 0 0>>
+<<unlockDoodle MomEels>>
+
+===
+title: Loop_A1D1
+tags: 
+colorID: 2
+position: 5416,3389
+---
+Mom: YFPN, D0P0FAR. YFPN. #line:7b59fd
+<<camera lookOffset 0 0>>
+===
+title: MomHome_A2D2
+tags: 
+colorID: 3
+position: 7292,3149
+---
+<<if $mom is 0>>
+    <<sit>>
+    Mom: D06P0E YTP0! TJ1 U04YBCTB0BAVA GT0 H04J%? #line:7b2dac
+        ->HET? #line:a144f3
+            Mom: TJ1 3HAEQJ, 0 4EM R, HE TAK VN? #line:f9113b
+            Mae: BJ1KVADJ1BAL, MAM. #line:6f833d
+        ->4T0? #line:01c3d9
+    Mom: 4EPE3 DBE YVNOJ1 CVY4NVCR 60VJQ0L UP0BAV FPYHTA! #line:1243d5
+    <<set $knows_sinkholes to 1>>
+    Mae: 0, 0HN D0 CNX U0P 6J1BA%T? #line:063a10
+    Mom: HE DYMA%, 4T0 0HN B006WE K0FDA-HN6YDJ UPEKPATRTCR. #line:e9830c
+    Mom: 60V0TNCTAR 3EMVR N BCE TAK0E. N U0LMA PEKN. #line:5925bd
+    Mae: 0X, CTPAHH0. #line:ccf176
+    Mom: R HE X04Y, 4T06J1 TJ1 0QNBAVACJ B0KPYF HEF0. #line:8aa66c
+    Mae: R PY4A%CJ, 4T0 HE 6YDY. R YSE BNDEVA TAKNE UP0BAVJ1. #line:482efe
+    Mom: C0BCEM HE NHTEPECH0? #line:5ded2b
+    Mae: MAM, GT0 UP0CT0 DJ1PJ1 B 3EMVE. #line:5b9766
+    Mae: B03BPAWALCR, K0FDA B HEE UP0BAVNTCR D0M NVN 4T0-T0 EWE. #line:45bf21
+    Mom: ECVN GT0 CVY4NTCR, MJ1 CX0DNM BMECTE N U0CM0TPNM. #line:33fd77
+    Mae: D0F0B0PNVNCJ. #line:0f65da
+    Mom: TAK N 4T0 TJ1 DEVAVA UP0QV0L H04J%? #line:b7f48b
+    <<if $did_gregg_friendship_quest_1 is 1>>
+    	Mae: TYC0BAVACJ C FPEFF0M. #line:98b9ab
+    	Mom: N 4T0 BJ1 DEVAVN? #line:ca6960
+    	Mae: G. X0DNVN B UP0DYKT0BJ1L MAFA3NH. #line:c2fb29
+        Mom: 3BY4NT NHTEPECH0! #line:fc1210
+        Mom: KYUNVA 4T0-T0 0C06EHH0E? #line:f01cfe
+        Mae: 0000, DAAA. K0HE4H0 KYUNVA. #line:df95d4
+    <<elseif $did_bea_friendship_quest_1 is 1>>
+    	Mae: U0QVA B T0PF0BJ1L OEHTP C 6N. #line:2f7ff2
+    	Mom: 0! Z0PT V%CEH? #line:f4fcd9
+        Mae: AFA! #line:19451c
+        Mom: R HE 6J1BAVA TAM F0DAMN! KAK 0H0? #line:99c898
+        Mae: PA3BAVNHJ1 N UYCT0TA. #line:30212e
+        Mom: DA, 0SNDAEM0. #line:f1e7ab
+        Mom: CEL4AC BCE UP0CT0 X0DRT B 0TDEVJ1 MAFA3NH0B BBEPX U0 Q0CCE. #line:ede853
+        Mom: HY, 3HAEQJ. 06YBJ N BEWN. #line:11da61
+    <<endif>>
+    //after you jump down//
+    Mom: 0CTAH0BNCJ Y OEPKBN, ECVN 6YDEQJ B T0M PAL0HE! #line:8b72a2
+    Mae: 6YDET CDEVAH0, MAM #line:3a7571
+    Mae: YBNDNMCR! #line:5f9f09
+    Mom: YFY. U0KA, MNVAR. #line:930356
+    <<set $mom += 1>>
+<<elseif $mom is 1>>
+    Mom: TEUEPJ, U0KA TJ1 6YDEQJ D0MA HECK0VJK0 DHEL, #line:515dc8
+    Mae: DA? #line:206a1c
+    Mom: TJ1 HE DYMAVA YCTP0NTJCR HA PA60... #line:990dfe
+    Mae: 4T0 S, MHE U0PA, MAM! #line:6a21c7
+    Mom: XE-XE. #line:8127c1
+    Mom: U0KA, MNVAR. #line:9bcea7
+    <<set $mom += 1>>
+<<elseif $mom is 2>>
+    Mom: XM XM XMMMMMM. #line:3f7b75
+<<endif>>
+
+===
+title: MomHome_A0D0
+tags: 
+colorID: 0
+position: 3706,3065
+---
+<<camera lookOffset -2 0>>
+<<sit>>
+<<if $mom is 0>>
+	[[MomDemoHub]]
+<<elseif $mom is 1>>
+	[[MomDemoSuzie]]
+<<elseif $mom is 2>>
+	[[MomDemoLoop]]
+<<endif>>
+===
+title: MomDemoSuzie
+tags: 
+colorID: 0
+position: 3386,3426
+---
+Mom: {align=middle,locator=kitchen}TJ1 U0MHNQJ, 4T0 CVY4NV0CJ C C%3N KYQHEP? #line:5692c2
+Mae: {align=middle,locator=kitchen}60SE4KN, MAM! =_= #line:391b5e
+Mae: {align=middle,locator=kitchen}R 0UPEDEVEHH0 HNK0FDA HE CVJ1QAVA GTY NCT0PN%, BCEF0 VNQJ 1000 PA3. #line:db206f
+Mom: {align=middle,locator=kitchen}TJ1 U0MHNQJ, 4T0 CVY4NV0CJ, #line:8636cd
+Mom: {align=middle,locator=kitchen}K0FDA 0HA HE YQVA C VNHNL GVEKTP0UEPEDA4? #line:36cad5
+Mae: {align=middle,locator=kitchen}EE YDAPNV0 T0K0M. #line:170d2e
+Mom: {align=middle,locator=kitchen}U0DSAPNVACJ, D0P0FAR. 06 GT0M UNCAVN B FA3ETAX. #line:5d169d
+Mae: {align=middle,locator=kitchen}0HA SE U0VH0CTJ% B0CCTAH0BNVACJ! #line:7bc04b
+Mom: {align=middle,locator=kitchen}D0P0FAR, 0HA HE M0SET NCU0VJ30BATJ UPNVAFATEVJHJ1E. #line:ae9686
+Mom: {align=middle,locator=kitchen}0HA U04TN HE F0B0PNT. #line:e9e679
+Mae: {align=middle,locator=kitchen}GT0 UV0X0. #line:178367
+Mom: {align=middle,locator=kitchen}GT0 NMEHH0 T0 UPEDV0SEHNE, K0T0P0E C%3N HE M0SET CZ0PMYVNP0BATJ. #line:b85ed3
+Mom: {align=middle,locator=kitchen}TAK 4T0 DEPSNCJ U0DAVJQE 0T VNHNL GVEKTP0UEPEDA4, X0P0Q0? #line:7f1b9b
+Mae: {align=middle,locator=kitchen}U04EMY GT0 CH0BA CVY4NV0CJ? o_o :) #line:b127f4
+Mom: {align=middle,locator=kitchen}0Y, TAK 0KA3J1BAETCR, TJ1 MAMNHJKNHA D04KA, DA. #line:222e04
+Mae: :| #line:c99148
+<<addToJournal SuzieKushnerExistence>>
+<<camera lookOffset 0 0>>
+<<set $mom to 2>>
+===
+title: MomDemoLoop
+tags: 
+colorID: 0
+position: 3198,3157
+---
+Mom: {align=middle,locator=kitchen}GTA KHNFA 0 MAVJ4NKE, K0T0PJ1L 6J1V B0CUNTAH YFPRMN HA DHE K0V0DOA. #line:7a8663
+Mom: {align=middle,locator=kitchen}0HA HAU0VHEHA F0PEM N CTPADAHNEM, TJ1 D0VSHA UP04ECTJ EE U0CVE MEHR, D0P0FAR. #line:f8feb8
+<<camera lookOffset 0 0>>
+
+===
+title: MomDemoHub
+tags: 
+colorID: 0
+position: 4000,3262
+---
+Mae: {align=middle,locator=kitchen}UPNBET, MAM. #line:6c7178
+Mom: {align=middle,locator=kitchen,width=4}TAK 4T0, D0P0FAR, HE 3HA%, 4EM TJ1 C06NPAEQJCR 3AHRTJCR BE4EP0M, H0 ECVN 0K0V0 DEBRTN TJ1... #line:b961de
+<<set $mom to 1>>
+[[{align=middle,locator=kitchen}B03M0SH0, R CM0FY?|MomDemoIMightBe]] #line:673e11
+[[{align=middle,locator=kitchen}U0D0SDN, 4T0 GT0 HA CT0VE? GT0...|MomDemoWaitWhatsThat]] #line:df0923
+===
+title: MomDemoIMightBe
+tags: 
+colorID: 0
+position: 3706,3521
+---
+Mom: {align=middle,locator=kitchen,width=4}Well there's a movie on tonight, Poison Husband: T0KCN4HJ1E KVRTBJ1. #line:78cc0a
+Mae: {align=middle,locator=kitchen}0 4EM 0H? #line:bcbc5c
+Mom: {align=middle,locator=kitchen,width=4}0, 0H UP0 SEHWNHY, K0T0PAR Y3HAET, 4T0 EE 0TPABNV C06CTBEHHJ1L MYS! #line:2377ba
+Mae: {align=middle,locator=kitchen}60SE4KN! :( #line:fbf85d
+Mom: {align=middle,locator=kitchen,width=4.5}A 3ATEM EE C0CED U0XNWAET EE DETEL N 0TUPABVRET NX B KAHADY! #line:b2bbcb
+Mae: {align=middle,locator=kitchen}PA3YMH0. :| #line:e29fae
+Mom: {align=middle,locator=kitchen,width=4.5}NTAK, MATJ NWET CB0NX DETEL U0 BCEL KAHADE, 0TPABVRR UP0FHNBQNX V%DEL U0 UYTN. #line:eefbbd
+[[{align=middle,locator=kitchen}U0D0SDN, 4T0 CVY4NV0CJ C 0TO0M?|MomDemoWhatHappenedToTheFather]] #line:1ee68d
+[[{align=middle,locator=kitchen}BAY, B03M0SH0 MHE UPNDETCR U0CM0TPETJ GT0.|MomDemoWowIMightHaveToWatchThis]] #line:2e97e3
+===
+title: MomDemoWaitWhatsThat
+tags: 
+colorID: 0
+position: 4301,3523
+---
+Mom: {align=middle,locator=kitchen,width=4}0, MJ1 C TB0NM UAU0L 3ABTPAKAVN U0H4NKAMN. #line:49419f
+Mae: {align=middle,locator=kitchen}BJ1 HE 0CTABNVN MHE HN 0DH0F0. :( #line:272c82
+Mom: {align=middle,locator=kitchen,width=4}D0P0FAR, CEL4AC 4:30 BE4EPA. BPEMR U0H4NK0B YSE UP0QV0. #line:bc969b
+Mae: {align=middle,locator=kitchen}GT0 PAHA, K0T0PAR 0CTAHETCR HABCEFDA.-_- #line:998a3b
+Mom: {align=middle,locator=kitchen,width=4}R YBEPEHA, MNVAR #line:a67a75
+Mae: o_o :| #line:545f83
+<<addToJournal TodoGetThatDonutWolf>>
+[[MomDemoEnd]]
+===
+title: MomDemoEnd
+tags: 
+colorID: 0
+position: 3977,4163
+---
+Mae: o_o :| #line:6ec60c
+Mom: {align=middle,locator=kitchen}U0CVYQAL, D0P0FAR, HAM HYSH0 U0F0B0PNTJ... #line:e27a46
+Mom: {align=middle,locator=kitchen}TE6E UPABDA CT0NT UEPECTATJ [hop]UPJ1FATJ[/hop] N VA3ATJ U0 BCEMY F0P0DY. #line:82bb69
+Mae: {align=middle,locator=kitchen}MAM. MHE 20. #line:d30a90
+Mom: {align=middle,locator=kitchen}YFY. #line:762760
+Mom: {align=middle,locator=kitchen}CVYQAL, MH0FNE PACTYT, 6EFAR #line:3f51cc
+Mom: {align=middle,locator=kitchen}U0 KPJ1QAM N VNHNRM GVEKTP0UEPEDA4. #line:27f3e8
+Mom: {align=middle,locator=kitchen,width=4}A TB0EMY 0TOY CH0BA UPNDETCR 3AMEHNTJ U04T0BJ1L RWNK, #line:73ef3a
+Mom: {align=middle,locator=kitchen}ECVN TJ1 6YDEQJ UP0D0VSATJ UPJ1FATJ HA HEF0. #line:82169e
+Mae: {align=middle,locator=kitchen}MAM. #line:e0836d
+Mom: {align=middle,locator=kitchen}DA? #line:e1db61
+Mae: {align=middle,locator=kitchen}MAM. #line:2f2fc4
+Mom: {align=middle,locator=kitchen}4T0? #line:56d8d3
+Mae: {align=middle,locator=kitchen}MHE 20. #line:1e879a
+Mom: {align=middle,locator=kitchen}YFY. #line:71230e
+Mae: {align=middle,locator=kitchen}VADH0, YBNDNMCR U03SE, MAM! #line:14b648
+Mom: {align=middle,locator=kitchen}U0KA-U0KA, D04KA! #line:e26cc9
+<<addToJournal TodoDontJumpOnMailboxes>>
+<<camera lookOffset 0 0>>
+
+===
+title: MomDemoWowIMightHaveToWatchThis
+tags: 
+colorID: 0
+position: 3912,3801
+---
+Mom: {align=middle,locator=kitchen,width=4}3BY4NT TAK, 6YDT0 TAM 0UNCAHJ1 4EV0BE4ECKNE CTPADAHNR! #line:d83d63
+Mae: {align=middle,locator=kitchen}0KEL, R BEPHYCJ U03SE. :) #line:77899f
+Mom: {align=middle,locator=kitchen,width=4}GT0 6YDET DEBN4HNK! #line:c04f54
+Mae: :| #line:1e6412
+<<addToJournal TodoWatchMiseryPorn>>
+[[MomDemoEnd]]
+===
+title: MomDemoWhatHappenedToTheFather
+tags: 
+colorID: 0
+position: 3482,3793
+---
+Mom: {align=middle,locator=kitchen,width=4}DYMA%, TEUEPJ 0H CVEU U0CVE BCEX GTNX 0TPABVEHNL N NWET EE C C06AK0L-U0B0DJ1PEM. #line:62bf12
+Mae: {align=middle,locator=kitchen}U0 BCEL KAHADE?? BEPX0M HA C06AKE? #line:3ad278
+Mom: {align=middle,locator=kitchen,width=4}R DYMA%, 0HN E3DRT HA ABT06YCE. #line:645163
+[[{align=middle,locator=kitchen}0TKYDA 0HA 3HAET, KYDA 0HA U0QVA?|MomDemoDog]] #line:7a76ef
+[[{align=middle,locator=kitchen}GT0 3BY4NT U0TPRCA%WE.|MomDemoEnd]] #line:8cc48d
+===
+title: MomDemoDog
+tags: 
+colorID: 0
+position: 3474,4148
+---
+Mom: {align=middle,locator=kitchen,width=5}HY, R DYMA%, Y GTNX C06AK X0P0QAR NHTYNONR! #line:8faff9
+Mom: {align=middle,locator=kitchen,width=5}N GT0T UAPEHJ U0FV0TNV MH0F0 RDA #line:bb4e95
+Mom: {align=middle,locator=kitchen,width=5}TAK 4T0, BNDNM0, 0HN DAVN EMY DELCTBNTEVJH0 04EHJ X0P0QNL RD. #line:ce41c8
+Mae: {align=middle,locator=kitchen}CNCTEMA PA60TAET! :) #line:913250
+[[MomDemoEnd]]
+===
+title: Mom_A1D2_0
+tags: 
+colorID: 2
+position: 5777,3439
+---
+Mae: YTPA, MAM. #line:ca74e1
+Mom: HE-A, R MAMA 24 4ACA B CYTKN. #line:756be7
+Mae: XA-XA-XA. #line:fd741b
+Mom: BD06AB0K, CEL4AC 4 4ACA DHR, MNVAR. #line:f3459b
+Mae: 4T0 S, MHE HYSH0 HALTN AHFYCA. #line:df5322
+Mom: 0, 0H - UAPEHJ TB0EF0 DPYFA FPEFFA? #line:63319b
+Mom: 3D0P0BRK? D0B0VJH0 TNXNL? #line:5661b0
+Mae: AFA, GT0 0H. #line:e4df2f
+Mae: MHE HYSH0, 4T06J1 0H U04NHNV M0L H0YT. #line:d585c8
+Mom: VY4QE 6J1 0H U04NHNV, MNVAR. TJ1 BEDJ HE M0SEQJ U03B0VNTJ CE6E KYUNTJ H0BJ1L! #line:9519ef
+Mae: U0F0DJ, TJ1 X0TJ 3HAEQJ KT0 TAK0L AHFYC? #line:da24a9
+Mom: A TJ1? #line:e6b1f7
+[[BP0DE?|A1D2_0_Kinda]] #line:e1a161
+[[MAM, MJ1 B 0DH0L FPYUUE. BP0DE KAK.|A1D2_0_band]] #line:3a9ab7
+===
+title: Mom_A1D2_1
+tags: 
+colorID: 2
+position: 6009,3438
+---
+Mom: TETR M0VVN 3B0HNVA. #line:33244a
+Mae: AFX. 4EF0 MAFA3NHHJ1L K0U X04ET? #line:9915a6
+Mom: MNVAR, R 04EHJ X04Y, 4T06J1 TJ1 HE HA3J1BAVA EE TAK. #line:f85931
+Mom: 0HA 04EHJ MH0F0 PA60TAVA, 4T06J1 D06NTJCR TAKNX BJ1C0T #line:6b1500
+Mom: N EE PA60TA 0UACHA. #line:ca05c6
+Mae: 0, DA. U0CCYM CUPNHFC TAK000L 0UACHJ1L. #line:a3f912
+Mae: TEM HE MEHEE, 0HA PACCKA3AVA TE6E 0 PYKE, K0T0PY% MJ1 HAQVN B4EPA? #line:701091
+Mom: AX DA, PACCKA3AVA! #line:89ba67
+Mom: CTPAQHJ1E BEWN. #line:68db97
+Mae: DA, HABEPH0E. #line:8e1d6c
+Mom: MNVAR, R 3HA%, TJ1 4YBCTBYEQJ CE6R KAK D0MA #line:996d78
+Mom: H0, U0SAVYLCTA, 6YDJ 0CT0P0SHA. #line:5cb6ff
+Mae: R 6YDY, MAM. #line:e489d4
+Mom: N BEPHNCJ D0M0L D0 HACTYUVEHNR TEMH0TJ1, ECVN TJ1 HE C KEM-T0. #line:d57165
+Mom: U0 KPALHEL MEPE, U0KA 0HN HE BJ1RCHRT, 4T0 UP0N30QV0. #line:4b3171
+Mae: 0KEL. #line:175e4e
+Mom: CUACN60, MNVAR. #line:359095
+===
+title: MomHome_A1D2
+tags: 
+colorID: 2
+position: 6010,3187
+---
+<<sit>>
+<<if $mom is 0>>
+    <<set $mom += 1>>
+	[[Mom_A1D2_0]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+	[[Mom_A1D2_1]]
+<<elseif $mom is 2>>
+	<<set $mom_done to 1>>
+    [[Mom_A1D2_2]]
+<<endif>>
+
+===
+title: A1D2_0_Kinda
+tags: 
+colorID: 2
+position: 5779,3666
+---
+Mom: HY, CEL4AC CAMJ1L U0DX0DRWNL M0MEHT. #line:9da023
+Mae: CUACN60, 24-X 4AC0BAR MAMA. #line:c13edd
+Mom: 7 DHEL B HEDEV%. #line:751096
+===
+title: A1D2_0_band
+tags: 
+colorID: 2
+position: 6015,3664
+---
+Mom: 0, FPYUUA B0CC0EDNHNVACJ? #line:7b08a5
+Mae: AFA! Y HAC 6J1VA PEUETNONR UP0QV0L H04J%! #line:6679da
+Mae: ...R HE DYMA%, 4T0 MJ1 6YDEM NFPATJ K0FDA-HN6YDJ. #line:8225e1
+Mom: XM. #line:268a52
+Mom: HY, GT0 3BY4NT BECEV0, D0P0FAR! #line:8677da
+Mae: DA, HABEPH0E. #line:709e94
+Mom: TJ1 KAK-T0 HE 0C060 PADA GT0MY. #line:b3c1dc
+Mae: GX. #line:05e7df
+Mae: VADH0, R NDY NCKATJ AHFYCA. #line:07d502
+Mom: UPNRTH0F0 BPEMRUPEUP0B0SDEHNR, D04EHJKA! #line:b35428
+Mae: CUACN60, 24-X 4AC0BAR MAMA. #line:6d534c
+Mom: 7 DHEL B HEDEV%. #line:fa3783
+===
+title: Mom_A1D2_2
+tags: 
+colorID: 2
+position: 6246,3435
+---
+Mom: MNVAR. #line:a71eeb
+Mae: DA? #line:120bcb
+Mom: *KAK BJ1FVRDEVA PYKA?* #line:68d475
+Mae: 0HA 6J1VA 0TPE3AHA UPRM0 Y UVE4A. #line:110654
+Mom: 6J1VA VN KP0BJ N EWE 4T0-T0? #line:a9698b
+Mae: HEMH0F0, C0BCEM 4YTJ-4YTJ. #line:7ecaa2
+Mom: NHTEPECH0, 4JR GT0 PYKA. #line:b85c68
+Mae: HY, 6YDET D0B0VJH0 VEFK0 GT0 U0HRTJ. #line:0469ea
+Mom: XA-XA, AFA. #line:40ba7a
+Mom: "GL, 4T0 C TB0EL PYK0L?" #line:0c9050
+Mom: "R YP0HNV EE B03VE 3AKYC04H0L!" #line:6f56ae
+Mae: B0T, CGP, R HAQVA BAQY PYKY. #line:59d822
+Mom: "CUACN60, R DYMAV, 4T0 HNK0FDA 60VJQE EE HE YBNSY!" #line:829c23
+Mae: K0FDA KT0-T0 HAX0DNT PYKY, EE HE BCEFDA B03BPAWA%T. #line:7ea7c7
+Mom: GT0 HACT0RWNL U030P. #line:80f04a
+Mae: GT0 X0V0DHJ1L MNP. #line:99adbe
+Mom: X0V0DHJ1L, X0V0DHJ1L MNP, MNVAR. #line:be277a
+===
+title: MomHome_A2D1
+tags: demo2
+colorID: 3
+position: 7031,3144
+---
+//revisit this with new expressions and animations//
+<<if $mom is 0>>
+    <<sit>>
+    Mae: =_= #line:a91c46
+    Mom: UPNBET, D0P0FAR! DEPJM0B0 BJ1FVRDNQJ! #line:7d2e41
+    Mae: AFA. #line:d1e8cb
+    Mom: TRSEVAR H04J? #line:421ca7
+    ->HET, UP0CT0 YCTAVA. #line:3839c1
+        Mom: X0P0Q0, PACCVA6JCR... #line:88a2b0
+        Mae: VADH0. #line:4f5921
+    ->GT0 TAK 04EBNDH0? #line:5b3138
+        Mom: HET, R CKA3AVA, 4T0 TJ1 DEPJM0B0 BJ1FVRDNQJ, U0T0MY 4T0 R V%6V% TE6R. #line:adbbfc
+        Mae: CUACN60. #line:7c298f
+        Mom: ECVN TJ1 X04EQJ U0F0B0PNTJ 06 GT0M... #line:c957d4
+        ->BCE KPYT0, MAM. #line:a7be0c
+        ->R BNDEVA K0YVA HA BE4EPNHKE B VECY. #line:431b84
+            Mom: CTAPQEKVACCHNK? #line:a13e6c
+            Mae: DA, 0H 6J1V D0MA HA BJ1X0DHJ1X. #line:084494
+            Mom: TJ1 F0B0PNVA C HNM? #line:76f62b
+            ->R MAV0 4T0 U0MH%. #line:a38a0c
+                Mom: 0, D0P0FAR. #line:795bdd
+                Mae: BCE B U0PRDKE. #line:2deaf3
+                Mae: HE... 06J14H0E RBVEHNE. #line:3521e4
+                Mom: VADH0, HY, GT0 X0P0Q0. #line:ccf9d2
+                Mae: =_= #line:11f3bf
+                Mae: B V%60M CVY4AE. #line:779063
+            ->BP0DE KAK. HABEPH0E. HE 3HA%. #line:a1aba6
+                Mom: HY, 0H - UPNDYP0K, D0P0FAR. #line:461811
+                Mae: HET, 0H HE TAK0L. NVN HE 6J1V TAKNM. #line:a81870
+                Mae: HE 3HA%. #line:48f11e
+                Mae: B V%60M CVY4AE. #line:746b03
+    Mom: U0X0SE, 4T0 60VJQNHCTB0 PEM0HTHJ1X PA60T B TAYHN CEHTPN 3ABEPQEHJ1. #line:c702d2
+    Mae: HY HAK0HEO-T0. o_o :) #line:36c2ef
+    Mom: DA, 0HN HAK0HEO 3AK0H4NVN OEPK0BHJ1E CTYUEHN #line:315e1a
+    Mom: ... N VNHNN GVEKTP0UEPEDA4... #line:9664c7
+    Mae: 0TVN4H0! #line:74de51
+    Mom: D0P0FAR, R *HE X04Y*, 4T06J1 TJ1 3AHNMAVACJ GTNMN BEWAMN. #line:2577a3
+    Mae: =_= :| #line:66e269
+    Mae: MAM, MHE 20. #line:1a4840
+    Mom: AFA. A GT0 3HA4NT, 4T0 3A TAK0E TJ1 0TUPABNQJCR B T%PJMY. #line:c92853
+    ->HNK0F0 HE CASA%T B T%PJMY 3A X0DJ6Y U0 VNHNN GVEKTP0UEPEDA4. #line:eee3b0
+        Mom: 6J1BAET. #line:4041ce
+        Mae: DA, ECVN U0VNOELCKNM 6YKBAVJH0 HE4EF0 DEVATJ. #line:c6348b
+        Mom: ... #line:150607
+        Mae: X0P0QAR T04KA 3PEHNR. #line:5b97a2
+        Mae: :) #line:65cb73
+        Mae: TETR M0VVN 6J1VA 6J1 TAK PADA APECT0BATJ MEHR. #line:fbed25
+        Mom: XE-XE. 0HA M0SET. #line:fc13b0
+    ->UZ-Z. 0HN HNK0FDA MEHR HE U0LMA%T. #line:be14a9
+        Mom: TETR M0VVN U0LMAET TE6R HA HNX, #line:28be9a
+        Mom: N HEN3BECTH0, 4T0 0HA C T060L CDEVAET. #line:9b53a1
+        Mae: R F0B0PNVA TE6E, 4T0 BNDEVA EE B4EPA Y HAQEF0 D0MA? #line:bd69c4
+        Mom: CEPJE3H0? #line:b889fd
+        Mae: DA, 0HA 6J1VA CTPAHH0L N 3AFAD04H0L. #line:ca46aa
+        Mae: HE 3HA%. CEF0DHR BCE HE TAK. #line:6af52d
+    Mae: :| #line:53c087
+    <<unlockDoodle EffTheCops>>
+    Mom: N B006WE GT0 0UACH0. #line:ab0ae8
+    Mom: TJ1 U0MHNQJ C%3N KYQHEP? #line:9ac360
+    Mae: 60SE4KN, MAM, K0HE4H0 HET. #line:dc2274
+    Mae: R HNK0FDA HE CVJ1QAVA GTY NCT0PN%, ECVN HE C4NTATJ 1000 PA3 D0 GT0F0. #line:6b3a81
+    Mom: U0DSAPNVACJ, D0P0FAR. 06 GT0M UNCAVN B FA3ETAX. #line:5a5868
+    Mom: TEUEPJ 0HA HE M0SET NCU0VJ30BATJ UPNVAFATEVJHJ1E. #line:fc0495
+    Mom: 0HA U04TN HE M0SET F0B0PNTJ! #line:902150
+    Mae: 60SE4KN, MAM, GT0 YSACH0. #line:124019
+    Mom: GT0 NMEHH0 TA ZPA3A, K0T0PY% C%3N HE M0SET BJ1F0B0PNTJ. #line:1437ac
+    Mae: ... #line:88564e
+    Mom: NTAK, 4EM 3ALMEQJCR CEF0DHR? #line:76f90c
+    Mae: HE 3HA%. C06NPA%CJ U0CM0TPETJ, 4T0 FPEFF N 6N 3ADYMAVN. #line:4acb75
+    Mom: BJ1 BCE BMECTE C06NPAETECJ DEVATJ 4T0-HN6YDJ? #line:32f30c
+    Mae: HE 3HA%. HE DYMA%, 4T0 0HN MH0F0 TYCY%TCR #line:32dfbb
+    Mae: U0MNM0 BCEL GT0L B03HN C0 CTAP0L AUUAPATYP0L FPYUUJ1. #line:1da3e1
+    Mom: 4T0 S, B HAQEL SN3HN TAK MH0F0 4AC0B N DHEL. #line:3a5c03
+    Mae: 3DECJ ECTJ KAK0L-T0 BNPYC, N3-3A K0T0P0F0 BCE PA3F0BAPNBA%T KAK UE4EHJKN C UPEDCKA3AHNRMN? #line:edfc54
+    Mom: DPYS6A U0D06HA DEPEBJRM. #line:adcdd7
+    Mae: AFA #line:b4a65b
+    Mom: TJ1 D0VSHA U0VNBATJ NX, 4T06J1 0HN P0CVN. #line:e396fd
+    Mom: N Y KASD0F0 N3 HAC TAK MH0F0 B0DJ1. #line:391a0e
+    Mae: TJ1 K0FDA-HN6YDJ U0VNBAVA DEPEB0? #line:67b668
+    Mom: HET, 60F GT0 DEVAET. #line:201bdc
+    Mae: VADH0, R U0QVA. #line:71622f
+    Mom: YBNDNMCR U03SE, MNVAR! #line:ac284c
+    Mae: o_o :| #line:7ba33d
+    <<close>>
+    //<<jump>>
+    //<<if $eels is 1>>
+    //    Mom: Eels, honey.
+    //    Mae: Eels.
+    //    Mom: Hey this is gonna be a running joke til the end of this game.
+    //    Mae: Gotta remember to use it sparingly!
+    //<<endif>>
+    <<set $mom += 1>>
+<<elseif $mom is 1>>
+    Mae: 4EF0 4NTAEQJ? #line:4a0460
+    Mom: KHNFY 0 MAVJ4NKE, BJ1PAWEHH0M YFPRMN HA DHE K0V0DOA, #line:7f59d6
+    Mom: SNBQEM B 604KE, UNTABQEMCR PJ160L, KPA6AMN, #line:ad9d7d
+    Mom: 0CJMNH0FAMN, KAVJMAPAMN, 0MAPAMN, 4ALKAMN, AVJ6ATP0CAMN, #line:b7013f
+        ->U0HRVA. #line:0e78d5
+        ->BAY! #line:6c7c45
+            Mom: AKYVAMN, DEVJZNHAMN, M0PCKNMN 0FYPOAMN, #line:c668ec
+            Mom: B0D0P0CVRMN, UECK0M, KAMHRMN, #line:42a440
+            Mom: VAMNHAPNEL, H0, DYMA%, GT0 T0 SE, 4T0 N B0D0P0CVN, #line:c9d369
+              ->UPEDCTABNVA KAPTNHKY. #line:8ab442
+              ->BAY! #line:8abff4
+                Mom: KAHATAMN, UAPYCAMN, 0DHY N3 V0D0K, CHACTN, #line:af0dbe
+                Mom: MATP0CCKY% 06YBJ, MATP0CCKNE QVRUJ1, MATP0CCKNE QTAHJ1, #line:6ecfeb
+                Mom: MATP0CCKNE MALKN, MATP0CCK0E 6EVJE (4NCT0E), #line:f2df1b
+                    ->YV0BNVA CYTJ. #line:2df358
+                    ->BAY! #line:2e01b5
+                        Mom: VECKN, PJ160V0BHJ1E CETN, YD04KN... #line:b1fcde
+                        Mae: 60SE4KN, 0H 6J1V CJ1TJ1M. #line:8cafb9
+                        Mom: ... HECK0VJK0 M0PCKNX K0P0B N VAMAHTNH0B. #line:e49e96
+                        Mom: BCE PA3HJ1E, 3HAEQJ. #line:1afffd
+                        Mae: R 3HAVA. #line:c8fa18
+                        Mom: N GT0 CUNC0K BCEF0, 4T0 0H EV. #line:c933f5
+                        Mae: KAK M0SH0 CJECTJ VECKY? #line:0b1ab8
+    Mom: GKNUAS DYMAV, 4T0 HA V0DKY 0X0TRTCR! #line:60f79d
+    Mom: H0 HET. UP0CT0 MAVJ4NK B 604KE. #line:cf6d6f
+    Mae: KAK0E HA3BAHNE Y KHNFN? #line:0abc25
+    Mom: MAVJ4NK B 604KE. #line:15a04e
+    Mae: KAK HN CTPAHH0, TEUEPJ R X04Y PJ16HJ1E UAV04KN. #line:875e30
+    Mom: R 3HA%, VADH0? R U0UP0QY TB0EF0 UAUY UPNHECTN HEMH0F0 D0M0L. #line:1aa679
+    <<set $mom += 1>>
+<<elseif $mom is 2>>
+    Mom: X0P0QEF0 DHR, MNVAR! #line:43547f
+    <<set $mom_done to 1>>
+//insert fish emoticon//
+<<endif>>
+
+===
+title: MomHome_A2D3
+tags: 
+colorID: 3
+position: 7919,3171
+---
+<<if $mom is 0>>
+    <<set $mom += 1>>
+    [[MomHome_A2D3_00]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+    <<set $mom_done to 1>>
+    [[MomHome_A2D3_01]]
+<<endif>>
+===
+title: MomHome_A3D1
+tags: 
+colorID: 4
+position: 9153,3297
+---
+<<if $mom is 0>>
+    <<set $mom += 1>>
+    [[MomHome_A3D1_00]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+    [[MomHome_A3D1_01]]
+<<elseif $mom is 2>>
+    <<set $mom_done to 1>>
+    [[MomHome_A3D1_02]]
+<<endif>>
+===
+title: MomHome_A3D2
+tags: 
+colorID: 4
+position: 9794,2979
+---
+<<if $mom is 0>>
+    <<set $mom += 1>>
+    [[MomHome_A3D2_00]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+    <<set $mom_done to 1>>
+    [[MomHome_A3D2_01]]
+<<endif>>
+===
+title: MomHome_A3D2_00
+tags: 
+colorID: 4
+position: 9641,3254
+---
+// needs to be changed, A3D1 is the rainy day
+<<sit>>
+Mae: =_= #line:c28500
+Mom: YTPA, C0VHJ1QK0! #line:179db9
+Mom: X0P0Q0 CE6R 4YBCTBYEQJ? #line:7bb38e
+Mom: TJ1 BJ1FVRDNQJ HEMH0F0 BRV0L. #line:7531c5
+Mae: AFA. GM. CTPAHHJ1E CHJ1. #line:0bc057
+Mae: :\ #line:168471
+Mae: CTPAHHAR H04J. #line:e9b60f
+Mom: TJ1 4ACT0 U0BT0PREQJ "CTPAHHJ1L". #line:e6574d
+Mae: TAK0BA UPABDA. #line:f116b1
+Mae: :| #line:9fb757
+Mom: TJ1 UNVA TA6VETKN 0T F0V0BH0L 60VN? #line:50d822
+Mom: 0HN B QKAZ4NKE B BAHH0L. #line:48cd22
+Mae: DA, YSE. 0HN BP0DE U0M0FA%T. A BP0DE N HET. #line:a1611c
+Mom: 4T0 S, M0SET, TE6E CT0NT 60VJQE CUATJ? #line:1b74ef
+Mom: T0 ECTJ, 60VJQE 10 4AC0B NVN 0K0V0 T0F0, K0T0PJ1E TJ1 YSE U0CUAVA. #line:d0e06a
+Mom: TJ1 HABCEFDA 0CTAHEQJCR M0EL C0HEL. #line:b36fea
+Mae: YZ-Z. #line:9822e9
+Mom: 4T0 TJ1 DEVAVA UP0QVJ1M BE4EP0M? #line:005ef2
+Mae: o_o :| #line:bd74d5
+Mae: X0DNVA B 6N6VN0TEKY C 6N. #line:348b56
+Mom: 3BY4NT HEUV0X0! #line:44bfb9
+Mae: GT0 6J1V0... #line:e45937
+Mom: CTPAHH0? #line:22009c
+Mae: NHTEPECH0. #line:e62b21
+Mae: 0KEL, MHE U0PA. #line:35fb70
+Mom: 6YDJ 0CT0P0SHA, D0P0FAR! #line:0c06f9
+Mom: HE UEPEHAUPRFALCR, TJ1 N UPABDA BJ1FVRDNQJ HEMH0F0 YCTABQEL. #line:a7a7ce
+Mae: HA YVNOE R 4YBCTBY% CE6R VY4QE. #line:1e6a05
+Mom: R T0SE! #line:5893a1
+Mom: B03M0SH0, CEF0DHR X0P0QNL DEHJ DVR UP0FYVKN HA CBESEM B03DYXE. #line:e962d2
+Mae: R DAM TE6E 3HATJ! #line:afa1d3
+Mom: U0KA, MNVAR. #line:6ca552
+===
+title: MomHome_A3D3
+tags: 
+colorID: 4
+position: 10220,3271
+---
+<<if $mom is 0>>
+    <<set $mom += 1>>
+    [[MomHome_A3D3_00]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+    <<set $mom_done to 1>>
+    [[MomHome_A3D3_01]]
+<<endif>>
+
+===
+title: MomHome_A3D4
+tags: 
+colorID: 4
+position: 11189,3281
+---
+<<if $mom is 0>>
+    <<set $mom += 1>>
+    [[MomHome_A3D4_00]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+    <<set $mom_done to 1>>
+    [[MomHome_A3D4_01]]
+<<endif>>
+
+===
+title: MomHome_A1D3
+tags: 
+colorID: 2
+position: 6538,2939
+---
+<<sit>>
+<<set $mom += 1>>
+[[Mom_A1D3_Morning]]
+===
+title: Mom_A1D3_Morning
+tags: 
+colorID: 2
+position: 6537,3249
+---
+Mae: YTPA, MAM! #line:a5ad72
+Mom: U0BCEDHEBHAR MAMA. KASD0DHEBHAR MAMA. #line:f0e44d
+Mom: 4EM 3ALMEQJCR CEF0DHR? #line:1dfe6c
+Mae: FPEFF, AHFYC N 6N NDYT HA BE4EPNHKY, #line:ca3da8
+Mae: TAK 4T0 R M0FVA 6J1 U0LTN C HNMN. #line:b37c35
+Mom: BE4EPNHKA, DA? U0DYMATJ T0VJK0! #line:e1a70e
+Mom: BEPHYVACJ DBA DHR HA3AD - N YSE C0ONAVJHAR 6A604KA. #line:12c743
+[[AFA, R D0B0VJH0 B0CTPE60BAHA.|Mom_A1D3_PrettyHighDemand]] #line:5a9e9c
+[[R HEMH0F0 HEPBHN4A%.|Mom_A1D3_LittleNervous]] #line:2b0039
+===
+title: Mom_A1D3_LittleNervous
+tags: 
+colorID: 2
+position: 6785,3511
+---
+Mom: 0, TJ1 6YDEQJ B U0PRDKE, MNVAR! #line:fc157b
+Mom: NDN N BVELCR B K0VVEKTNB! #line:e726b2
+Mae: DYMA%, B 0CH0BH0M TAM 6YDYT 6J1BQNE 0DH0KVACCHNKN. #line:d7d248
+Mom: NHTEPECH0, K0YV 6YDET TAM? #line:6f7731
+Mom: MHE BCEFDA KA3AV0CJ, 4T0 BJ1 MNV0 CM0TPNTECJ BMECTE... #line:d596f0
+Mae: MAM. HET. #line:c15df6
+Mom: 0, UP0CTN, D0P0FAR, R HE 3HAVA, 4T0 GT0 BCE EWE 60VJHAR TEMA. #line:1f5d88
+Mae: GT0 HE TAK. #line:9370f9
+<<set $knows_cole_will_be_there to 1>>
+[[Mom_A1D3_MorningEnd]]
+===
+title: Mom_A1D3_MorningEnd
+tags: 
+colorID: 2
+position: 6540,3752
+---
+Mom: T0FDA NDN N X0P0Q0 UP0BEDN TAM BPEMR, D0P0FAR. #line:c70705
+Mae: TAK N 6YDET! YBNDNMCR! #line:f4a1a3
+<<if $eels is 1>>
+    Mom: GL, D0P0FAR. #line:8f5107
+    Mae: 4T0. #line:fdd9bf
+    Mom: YFPN, D0P0FAR. #line:99b672
+    Mae: :) #line:4c7297
+    Mae: YFPNNNNNNNN, MAM. #line:de2bc9
+    Mae: o_o :| #line:f59d1c
+<<endif>>
+<<set $mom_done to 1>>
+===
+title: Mom_A1D3_PrettyHighDemand
+tags: 
+colorID: 2
+position: 6541,3507
+---
+Mom: TJ1 U0DDEPSNBAEQJ CBR3J C DPY3JRMN N3 K0VVEDSA? #line:95886d
+Mae: R HE 3ABEVA HNKAKNX DPY3EL? #line:3f3654
+Mom: DASE C0CED U0 K0MHATE? DASE TA MNVAR DEB04KA, K0T0PY% BCTPETNVA HA C06PAHNN UEPB0KYPCHNK0B? #line:ffb95d
+Mae: HE C0BCEM. #line:6edca3
+[[Mom_A1D3_MorningEnd]]
+
+===
+title: MomChurch_A2D1
+tags: 
+colorID: 3
+position: 7060,3836
+---
+<<if $mom_church is 0>>
+    Mom: UPNBET, D0P0FAR! #line:cb4c09
+    Mae: UPNBET, MAAAAM. #line:8dc3ac
+    Mae: BAY, MH0F0 BPEMEHN UP0QV0 C TEX U0P, KAK R 6J1VA TYT B U0CVEDHNL PA3. #line:07b3de
+    Mom: R 3HA%, MNVAR. #line:f01584
+    Mom: PADA, 4T0 TJ1 X0TJ B 3DAHNE 3AQVA! #line:e432cf
+    Mom: TJ1 BNDEVA H0B0F0 UACT0PA? #line:a31fb0
+    <<if $met_pastor or $pastor > 0>>
+    	Mae: AFA! N 6E3D0MH0F0 UAPHR! #line:b07ccf
+    	Mom: 0! VADH0. #line:fd7682
+        Mom: SNBYWEF0 4EPE3 YVNOY? #line:06a2c1
+        Mae: AFA. 6P%C. #line:fff3b4
+        Mom: 0, 4T0 S, GT0 MNV0 C EE CT0P0HJ1 #line:b67bdb
+        Mom: BCTPETNTJCR C HNM. #line:ed97ae
+        Mae: 0HN 06A BJ1FVRDRT MNVJ1MN. #line:62d638
+        Mom: MJ1 BCE 3DECJ KY4KA MNVAQEK. #line:098b1c
+    <<else>>
+    	Mae: HE-A! #line:48aa3d
+    	Mom: 0, 0HA FDE-T0 PRD0M. #line:fd3285
+        Mom: M0SET, CHAPYSN? #line:4a2e54
+        Mom: EL HPABNTCR FYVRTJ. #line:76b3f0
+        Mae: KPYT0, KPYT0. B03M0SH0, R BNDEVA EE. #line:606480
+    <<endif>>
+    <<set $mom_church += 1>>
+<<elseif $mom_church is 1>>
+    Mae: KAK PA60TA B OEPKBN? #line:4aa903
+    Mom: X0P0Q0. 0TBE4A% HA TEVEZ0HHJ1E 3B0HKN. #line:884a45
+    Mom: BB0SY PA3VN4HJ1E DAHHJ1E. #line:8af90c
+    Mom: R UJ1TA%CJ CDEVATJ GT0 BCE 4EPE3 0DH0 EDNH0E UPNV0SEHNE. #line:918c9b
+    Mom: TJ1 3HAVA, 4T0 0HN DEVA%T UP0FPAMMJ1 T0VJK0 DVR ADMNHNCTPAONN OEPKBN? #line:f4c12e
+    Mae: HE 3HAVA! #line:2050cb
+    Mom: R CM0TPEVA 0HVALH-Y4E6HNKN, K0T0PJ1E MJ1 T0VJK0 4T0 U0VY4NVN #line:6ecb92
+    Mom: H0 R 0TBVEKVACJ HA BNDE0 C UPECTYUVEHNRMN. #line:0bf6ff
+    Mae: MAM, R 3ARBVR% - TJ1 CA4KYEQJ HA PA60TE! #line:a471b6
+    Mom: 60F UP0CTNT MEHR. #line:3fd2a3
+    <<if $knows_mural>>
+    	Mae: GL, TJ1 CVJ1QAVA UP0 4YBAK0B? #line:d4a08b
+        Mom: "4YBAK0B"? #line:1df3c8
+        Mae: ZPECKA B TYHHEVE! #line:a270ba
+        Mom: 4T0 C HEL, MNVAR? #line:130de5
+        Mae: KT0-T0 EE NCU0PTNV! #line:ebc1f8
+        Mae: HAUNCAV "B30PBNTE U0CCYM CUPNHFC" HA HEL! #line:5fb42f
+        Mae: NVN... UJ1TAVCR. #line:6e51cf
+    	Mom: 0, HET!!! GT0 YSACH0! #line:df72d3
+        Mae: GT0 NCT0PN4ECKAR OEHH0CTJ! #line:e7bcc4
+        Mom: T04H0! 0, 4T0 3A YSAC. #line:8b4461
+        Mae: 4T0 3A MNP, MAM. #line:327740
+        Mom: 4T0. 3A. MNP. #line:10e127
+    <<endif>>
+    <<set $mom_church += 1>>
+<<elseif $mom_church is 2>>
+    Mom: VADH0, MNVAR, R BEPHYCJ K PA60TE. #line:21e706
+    <<set $mom_church_done to 1>>
+<<endif>>
+===
+title: MomChurch_A2D2
+tags: 
+colorID: 3
+position: 7304,3839
+---
+<<if $paster is 0>>
+    <<if $mom_church is 0>>
+        Mae: GL, MAM! #line:8cce37
+        Mom: UPNBET, MNVAR. #line:c71350
+        Mae: R C0BCEM 3A6J1VA, FDE HAX0DNTCR CBRTNVNWE. #line:3e25c8
+        Mom: GM, TJ1 UP0QVA DBEPN U0 UYTN C%DA. #line:a1b958
+        Mae: 0, R DYMAVA, 0HN 6J1VN 3AUEPTJ1. #line:9b0387
+        Mom: 0HN NH0FDA 3AUEPTJ1. #line:902b55
+        Mom: BCE DBEPN NH0FDA 3AUEPTJ1. #line:03c859
+        Mae: H0 ECTJ #line:e0f944
+        Mae: DBEPN CAVYHA #line:ab6ec8
+        Mae: K0B60N UP0CT0 X0DRT TYDA-C%DA #line:1ed47d
+        Mom: GT0 04EHJ FPY60. #line:ded1d3
+        Mae: DNKNL 3AUAD 6J1V D0B0VJH0 FPY6J1M UEPN0D0M. #line:b5105a
+        Mom: "KAK DEVNWAAAA, UAPTHEP!" #line:e6925e
+        Mom: "AX, F0B0PRT, GT0 BVACTH0 N FPY60!" #line:4052fc
+        Mae: O_o #line:fc3710
+        Mae: GT0 TNUA KAK #line:12f2b0
+        Mae: %SHJ1L DSEHTEVJMEH. #line:cfc4b8
+        Mom: 0H YKPAQAET GT0 MECT0! #line:75673c
+        Mae: o_o #line:9728b0
+        <<set $church_sanctuary_open to 1>>
+        <<set $mom_church += 1>>
+    <<elseif $mom_church is 1>>
+        Mom: ETNTJ-K0V0TNTJ! #line:0c0b18
+        Mae: 0KEL, MAM, HNKAKNX 60VJQE PA3F0B0P0B UP0 K0B60EB. #line:bda3df
+        Mom: TWEPT U06EPN! #line:320236
+        <<set $mom_church += 1>>
+    <<elseif $mom_church is 2>>
+        Mom: R D0VSHA BEPHYTJCR K PA60TE, MNVAR. #line:e1ffec
+        Mom: V%6V% TE6R! #line:140b21
+        <<set $mom_church_done to 1>>
+    <<endif>>
+<<else>>
+    <<if $mom_church_2 is 0>>
+        <<set $mom_church to 1>>
+        Mom: UPNBET, MNVAR! #line:da89c8
+        Mae: GL. TJ1 6YDEQJ PADA Y3HATJ, 4T0 R BCTPETNVACJ C UACT0P0M KELT. #line:77143f
+        Mom: 0, YPA! BJ1 T04H0 U0VADNTE. #line:a9d6ec
+        Mae: 0HA BJ1FVRDNT TAK, CV0BH0 VADNT C 60VJQNHCTB0M V%DEL. #line:da586e
+        Mom: 0, NH0FDA Y HEE B03HNKA%T 3A6ABHJ1E NDEN. #line:1dbfb1
+        Mom: 3A 4T0 HEK0T0PJ1E EE 06BNHR%T #line:627190
+        Mom: H0 HEK0T0PJ1E BCEFDA 06BNHR%T. #line:eb6f8e
+        Mom: B V%60M CVY4AE, Y HEE 60VJQ0E CEPDOE #line:2ded40
+        Mom: N GT0 FVABH0E. #line:39c7db
+        Mae: R DYMA%, M0E CEPDOE H0PMAVJH0F0 PA3MEPA. #line:66633f
+        Mom: CEPDOE - KAK 60VJQAR GVACTN4HAR CYMKA #line:fe2ad5
+        Mae: ZY #line:ca794b
+        Mom: HET, R NME% B BNDY, 4EM 60VJQE TJ1 B HEF0 BKVADJ1BAEQJ, TEM 60VJQE 0H0 CTAH0BNTCR #line:b69b66
+        Mae: DYMA%, GT0 PEAVJHJ1L MEDNONHCKNL ZAKT. #line:7e9773
+        Mom: DA, U0HRVA. #line:d3c80b
+        Mae: XA-XA. YBNDNMCR. #line:7bcbaa
+        <<set $mom_church_2 += 1>>
+    <<elseif $mom_church_2 is 1>>
+        Mom: PA60TATJ-PA60TATJ-PA60TATJ. #line:a0a95d
+        <<set $mom_church_done to 1>>
+    <<endif>>
+<<endif>>
+===
+title: MomChurch_A2D3
+tags: 
+colorID: 3
+position: 7924,4032
+---
+<<if $mom_church is 0>>
+    <<set $mom_church += 1>>
+    [[MomChurch_A2D3_00]]
+<<elseif $mom_church is 1>>
+    <<set $mom_church_done to 1>>
+    [[MomChurch_A2D3_01]]
+<<endif>>
+===
+title: MomChurch_A2D4
+tags: 
+colorID: 3
+position: 8558,3865
+---
+<<if $big_fight is 1>>
+	Mom: ... #line:5ed95e
+    Mom: R 3AHRTA. #line:2931c2
+<<else>>
+    Mae: UPNBET, MAM. #line:ff1f4a
+    Mom: MM-XMM #line:c39ee6
+    Mae: GM. #line:5dfd8b
+    ->TJ1 B U0PRDKE? #line:052f9a
+        Mom: K0HE4H0, D0P0FAR. #line:721abf
+    ->4T0 CVY4NV0CJ? #line:1f6133
+        Mom: BCE B U0PRDKE. #line:cc8023
+    <<wait 2>>
+    Mae: TJ1 VSEQJ #line:17f80b
+    Mom: TAK 4T0, D0P0FAR, TJ1 F0T0BA U0F0B0PNTJ 0 K0VVEDSE? #line:15dd24
+    ->GM... VADH0 #line:9b4e8f
+        Mom: 4T0 CTPRCV0CJ BCE-TAKN? #line:644326
+        Mae: R UP0CT0 4YBCTB0BAVA, 4T0 GT0 HE T0 MECT0, FDE R D0VSHA 6J1TJ #line:5acc00
+        Mom: "FDE TJ1 D0VSHA 6J1TJ"? #line:e51364
+        Mom: 4T0 GT0 B006WE 3HA4NT? #line:2a1aa7
+        Mae: AFX, 3A6YDJ #line:c72f90
+        Mae: DABAL 06CYDNM GT0 U03SE #line:23ef47
+    ->HE C0BCEM #line:04d60e
+    Mom: N K0FDA SE TJ1 6YDEQJ F0T0BA GT0 CDEVATJ? #line:e65468
+    Mom: U0T0MY 4T0 R F0T0BA B V%60E BPEMR #line:296fea
+    Mom: R UPRM0 YMNPA% 0T HETEPUEHNR #line:c33992
+    Mom: U04EMY TJ1 PEQNVA Y4NTJCR, A U0T0M 6P0CNVA GT0 #line:48fd38
+    Mom: BCE UVAHJ1, K0T0PJ1E MJ1 CTP0NVN, 6YDY4N CEMJEL #line:3364ef
+    Mae: :\ #line:b0e493
+    Mae: 60SE4KN, MAM! #line:7b487e
+    Mae: 3A4EM GT0 BCE? #line:802f1f
+    Mom: TJ1 BEDJ 3HAEQJ, 4T0 TJ1 UE- #line:422827
+    Mae: :| =_= #line:31bdc5
+    Mae: "UEPBAR 60P0BCKN, K0T0PAR U0QVA B K0VVEDS!" #line:5c5749
+    Mae: DA, MAM, R 3HA% #line:512d45
+    Mae: R T0VJK0 GT0 N CVJ1QAVA, K0FDA MHE 6J1V0 QECTJ #line:a19f31
+    Mom: HY, D0P0FAR, MJ1 UVAHNP0BAVN GT0, K0FDA TJ1 T0VJK0 P0DNVACJ, #line:1b5d06
+    Mom: HA UP0TRSEHNN 18 VET, #line:6b61bb
+    Mom: N TJ1 U0UADAVA B PA3VN4HJ1E UEPEDPRFN, #line:5eca80
+    Mom: H0 TJ1 PEQNVA, 4T0 D0VSHA 6J1TJ 3DECJ. #line:08d074
+    Mom: BCE UPEDUPNHRTJ1E YCNVNR, #line:e2e0a1
+    Mom: U0TPA4EHHJ1E DEHJFN #line:506c3a
+    Mom: N 6ECU0K0LCTB0 #line:7c8c3d
+    Mom: KAHYVN B 6E3DHY. #line:71e4a5
+    <<wait 2>>
+    <<fadeOutMusic 10>>
+    Mae: Y TE6R CH0BA UEPEUADJ1 HACTP0EHNR? #line:8a75b9
+    Mom: AFX, 6YDT0 GT0 R C KAUPN30M B HAQEM D0ME. #line:683dae
+    Mae: DA, TJ1 C KAUPN30M B HAQEM D0ME. #line:513f8e
+    Mom: 4T0 S, HACVASDALCR "HAQNM D0M0M", U0KA 0H EWE Y HAC ECTJ #line:4a7984
+    Mae: O_O #line:d59269
+    Mae: 4T0?! #line:929eb0
+    Mae: 4T0 HE TAK C D0M0M??? #line:34f1cd
+    Mom: M0SET 6J1TJ, GT0 UP0CT0 "HE T0, FDE MJ1 D0VSHJ1 6J1TJ". #line:022018
+        ->MAM. GT0 HE CMEQH0 #line:a35ed4
+            Mom: HE 6ECU0K0LCR 06 GT0M #line:8c80be
+            Mom: HE 6ECU0K0LCR HN 0 4EM #line:b767e3
+            Mom: 3A4EM HA4NHATJ CEL4AC? #line:afd8c4
+            Mom: NDN N DEVAL 4T0 YF0DH0, 4T0 TJ1 TAM 06J14H0 DEVAEQJ. #line:957741
+        ->3HAEQJ, 4T0? 0TBAVN. #line:e565e6
+            Mom: "0TBAVNTJ"? #line:773972
+            Mom: 60SE, TJ1 BEDEQJ CE6R, KAK PE6EH0K #line:9b9fcb
+    Mae: =_= #line:e0348a
+    Mae: A 3HAEQJ, 4T0? #line:cbba5b
+    Mae: M0SET 6J1TJ, ECVN 6J1 Y MEHR 6J1V0 60VJQE UPNMEP0B, HY TJ1 3HAEQJ #line:12ba52
+    Mae: KAK BJ16PATJCR N CTATJ KEM-T0. #line:e2b50c
+    Mom: HET. #line:85007a
+    Mom: HET. #line:dd390b
+    Mom: TJ1 HE CTAHEQJ... #line:405cfa
+    Mae: M0SET 6J1TJ, TJ1 UP0CT0 X0TEVA, 4T06J1 R CBAVNVA 0TC%DA? #line:7028d9
+    Mae: U0T0MY 4T0 TJ1 HNK0FDA HE PEQAVACJ CDEVATJ GT0 CAMA. #line:c6cac6
+    Mae: o_o :| #line:743df3
+    Mae: M0SET 6J1TJ, R UP0CT0 CAMJ1L U0CVEDHNL UP0BAV #line:7ff189
+    Mae: B 4EPEDE HEYDA4 HAQEL CEMJN. #line:997452
+    <<wait 4>>
+    Mae: R YX0SY. #line:0578a5
+    Mom: ... #line:51fb8c
+    <<set $big_fight to 1>>
+<<endif>>
+<<set $mom_church_done to 1>>
+===
+title: MomChurch_A3D1
+tags: 
+colorID: 4
+position: 8978,3881
+---
+Mae: UPNBET-UPNBET, OEPK0BHNOA-MAMA. #line:0232c2
+Mom: UPNBET, R3J14HNOA-D04J. #line:d9ae6c
+Mae: K0FDA-HN6YDJ R UPNDY C%DA B0BPEMR. #line:4aa352
+Mae: H0, 6VNH. CEPJE3H0, HNKT0 HE V%6NT BCTABATJ B B0CKPECEHJE. #line:b20aa1
+Mom: R HAX0SY GT0 BECJMA UV0D0TB0PHJ1M. #line:5bdeae
+Mom: N TB0L 0TEO T0SE TAK C4NTAET... KAK UPABNV0. #line:c1323b
+Mom: H0 0H UPNX0DNT, N GT0 BASH0! #line:71fa04
+Mom: N 0H 3HAET, KAK MH0F0 DVR MEHR GT0 3HA4NT. #line:fe83b4
+Mae: VADH0, 06BNHEHNR UPNHRTJ1. #line:5dd285
+Mae: TJ1 SE *PA60TAEQJ* B OEPKBN. #line:1e45e3
+Mom: HE B GT0M 3AKV%4AETCR BEPA, D0P0FAR. #line:4656b1
+Mom: GT0 60VJQE 6VAF0DATJ, 4EM 0CYSDEHNE. #line:7e0f07
+Mae: TNUA T0F0. HE BASH0. VADH0, R YX0SY. #line:9ec953
+Mom: YBNDNMCR U03SE, MNVAR! #line:4c57de
+<<set $mom_church_done to 1>>
+===
+title: AcceptJob
+tags: cut
+colorID: 4
+position: 8847,4419
+---
+<<set $accepted_church_job to 1>>
+===
+title: RefuseJob
+tags: cut
+colorID: 4
+position: 9117,4420
+---
+<<set $accepted_church_job to 1>>
+===
+title: MomChurch_A3D2
+tags: 
+colorID: 4
+position: 9734,3870
+---
+<<if $big_fight is 1>>
+    Mom: UPNBET. TJ1 CB060DHA? #line:cfd68a
+    Mae: HABEPH0E? #line:99c562
+    Mom: X04EQJ 0TUPABNTJCR B 6J1CTP0E UYTEQECTBNE? #line:f1c66d
+    Mae: PA3BE TJ1 HE PA60TAEQJ? #line:85e5c4
+    Mom: UACT0P YQEV. R C06NPA%CJ YVN3HYTJ 0TC%DA. #line:f42849
+	->0Y, K0HE4H0! #line:c32ab4
+        Mae: DABAL UP0FYVREM PA60TY! #line:172645
+        Mom: T0VJK0 R UP0FYVNBA% PA60TY, D0P0FAR. #line:3db1e7
+        Mae: 0L, DA VADH0. #line:99d730
+        Mae: TEUEPJ R C0Y4ACTHNK UPECTYUVEHNR. #line:ece42b
+        Mom: GT0 HE UPECTYUVEHNE, MNVAR. #line:ad3cae
+        <<set $mom_quest to 1>>
+        <<irisOut 1 wait>>
+        <<scene MomQuest>>
+    -> HE CEL4AC. #line:289be9
+        Mom: 0Y. #line:27e0b4
+        Mom: BCE B U0PRDKE, MNVAR. #line:e116b4
+<<else>>
+    Mom: TJ1 HE D0VSHA 6J1VA 6J1TJ 3DECJ B GT0T DEHJ, C0VHJ1QK0. #line:83aebd
+    Mae: R CV0MAVA NFPY! \o/ #line:615475
+    Mom: 0TVN4HAR PA60TA, D0P0FAR. #line:12ad26
+    Mae: XMM. _o_ #line:9b7d7a
+<<endif>>
+<<set $mom_church_done to 1>>
+===
+title: MomHome_A2D4
+tags: 
+colorID: 3
+position: 8556,3418
+---
+//sad mom//
+<<set $mom += 1>>
+<<sit>>
+Mae: UPNBET, MAM. #line:fca772
+Mom: YFY #line:516347
+Mae: GM. #line:e33324
+    ->TJ1 B U0PRDKE? #line:b2d252
+        Mom: K0HE4H0, D0P0FAR. #line:fdce22
+    ->4T0 CVY4NV0CJ? #line:6cc490
+        Mom: BCE B U0PRDKE. #line:399892
+<<wait 2>>
+Mae: TJ1 VSEQJ #line:b60736
+Mom: TAK 4T0, D0P0FAR, TJ1 F0T0BA U0F0B0PNTJ 0 K0VVEDSE? #line:29a5c7
+    ->GM... VADH0 #line:e1b0d6
+        Mom: 4T0 CTPRCV0CJ? #line:f4746f
+        Mae: R UP0CT0 4YBCTB0BAVA, 4T0 GT0 HE T0 MECT0, FDE R D0VSHA 6J1TJ #line:9c5e5b
+        Mom: "FDE TJ1 D0VSHA 6J1TJ"? #line:06f173
+        Mom: 4T0 GT0 B006WE 3HA4NT? #line:3e6fb8
+        Mae: FPP, 3A6YDJ #line:f4051b
+        Mae: DABAL 06CYDNM GT0 U03SE #line:a0524e
+    ->HE C0BCEM #line:6de7d6
+Mom: N K0FDA SE TJ1 6YDEQJ F0T0BA GT0 CDEVATJ? #line:2d0564
+Mom: U0T0MY 4T0 R F0T0BA B V%60E BPEMR #line:827786
+Mom: R UPRM0 YMNPA% 0T HETEPUEHNR #line:fa0bc4
+Mom: U04EMY TJ1 PEQNVA Y4NTJCR, A U0T0M 6P0CNVA GT0 #line:a54c09
+Mom: BCE UVAHJ1, K0T0PJ1E MJ1 CTP0NVN, 6YDY4N CEMJEL #line:424df1
+Mae: :\ #line:295fa2
+Mae: 60SE4KN, MAM! #line:eb0c7c
+Mae: 3A4EM GT0 BCE? #line:9bfc85
+Mom: TJ1 BEDJ 3HAEQJ, 4T0 TJ1 UE- #line:b0cc22
+Mae: :| =_= #line:c52676
+Mae: "UEPBAR 60P0BCKN, K0T0PAR U0QVA B K0VVEDS!" #line:aea200
+Mae: DA, MAM, R 3HA% #line:995187
+Mae: R T0VJK0 GT0 N CVJ1QAVA, K0FDA MHE 6J1V0 QECTJ #line:90e34f
+Mom: HY, D0P0FAR, MJ1 UVAHNP0BAVN GT0, K0FDA TJ1 T0VJK0 P0DNVACJ, #line:7ad4f6
+Mom: HA UP0TRSEHNN 18 VET, #line:fc7e0f
+Mom: U0KA TJ1 U0UADAVA B PA3VN4HJ1E UEPEDPRFN, #line:0b98bc
+Mom: MJ1 UPNHRVN 3A TE6R GT0 PEQEHNE, #line:aad936
+Mom: H0 TJ1 PEQNVA, 4T0 D0VSHA 6J1TJ 3DECJ. #line:816794
+Mom: BCE UPEDUPNHRTJ1E YCNVNR, #line:4d660b
+Mom: U0TPA4EHHJ1E DEHJFN #line:6924b9
+Mom: N 6ECU0K0LCTB0 #line:1d0438
+Mom: KAHYVN B 6E3DHY. #line:2d00d1
+<<wait 2>>
+<<fadeOutMusic 10>>
+Mae: TE6E CH0BA HPABNTCR KAUPN3HN4ATJ? #line:f3f84a
+Mom: AFX, 6YDT0 MHE HPABNTCR KAUPN3HN4ATJ B HAQEM D0ME. #line:4c4d32
+Mae: TJ1 KAUPN3HN4AEQJ B HAQEM D0ME. #line:3e2113
+Mom: 4T0 S, HACVASDALCR "HAQNM D0M0M", U0KA 0H Y HAC ECTJ #line:9984ed
+Mae: o_o :| #line:46eb13
+<<close>>
+<<jump>>
+<<wait 1>>
+Mae: O_O :| #line:a93e6f
+Mae: 4T0?! #line:493d77
+Mae: 4T0 HE TAK C D0M0M??? #line:fd78d5
+Mom: M0SET 6J1TJ, GT0 UP0CT0 "HE T0, FDE MJ1 D0VSHJ1 6J1TJ". #line:e5f2b7
+    ->MAM. GT0 HE CMEQH0 #line:6eccf5
+        Mom: HE 6ECU0K0LCR 06 GT0M #line:40c465
+        Mom: HE 6ECU0K0LCR HN 0 4EM #line:56a959
+        Mom: 3A4EM HA4NHATJ? #line:dedcef
+        Mom: YX0DN N DEVAL T0, 4T0 X04EQJ DEVATJ. #line:18a161
+    ->3HAEQJ, 4T0? 0TBAVN. #line:33db99
+        Mom: "0TBAVNTJ"? #line:f63171
+        Mom: 60SE, TJ1 BEDEQJ CE6R, KAK PE6EH0K #line:ba5981
+Mae: =_= #line:2803a4
+Mae: A 3HAEQJ, 4T0? #line:f826a7
+Mae: M0SET 6J1TJ, ECVN 6J1 Y MEHR 6J1V0 60VJQE UPNMEP0B, HY TJ1 U0HNMAEQJ #line:16d5cc
+Mae: BJ16PATJCR N CTATJ KEM-T0. #line:bbf86e
+Mom: HET. #line:38a7ac
+Mom: HET. #line:8af691
+Mom: HE TE6E PEQATJ... #line:1cb5af
+Mae: M0SET 6J1TJ, TJ1 UP0CT0 X04EQJ, 4T06J1 R CBAVNVA 0TC%DA? #line:98c277
+Mae: U0T0MY 4T0 TJ1 HNK0FDA HE PEQNVACJ 6J1 CDEVATJ GT0 CAMA. #line:66dbdf
+Mae: o_o :| #line:7169c6
+Mae: M0SET 6J1TJ, R UP0CT0 CAMJ1L U0CVEDHNL UP0BAV #line:e8dbb2
+Mae: B 4EPEDE HEYDA4 HAQEL CEMJN. #line:f18525
+<<wait 4>>
+Mae: R YX0SY. #line:8589df
+Mom: ... #line:f109ad
+<<set $big_fight to 1>>
+<<set $mom_done to 1>>
+===
+title: MomHome_A2D3_00
+tags: 
+colorID: 3
+position: 7654,3517
+---
+<<sit>>
+Mae: *3EB0TA* #line:8ae061
+Mom: YTPA. D0VFAR H04J? #line:834e16
+<<if $did_gregg_friendship_quest_2>>
+	Mae: AFA. #line:000492
+	Mae: U0MHNQJ TEX 60VJQNX P060T0B N3 ZYD D0HKN? #line:8e7f3c
+	Mom: YFY. 0HN TE6R UYFAVN. #line:adbe92
+	Mom: UVAKAVA CB0NMN MAVEHJKNMN FVA3KAMN. #line:672af6
+	Mae: 0X, BCE 6J1V0 HE TAK UV0X0. #line:a8c903
+	Mom: YFY #line:e2748e
+	Mae: R B006WE GT0F0 HE U0MH%. #line:41ce0c
+	Mom: YFY #line:52bf0d
+<<else>>
+	Mae: AFA #line:b3534d
+	Mae: R U0QVA HA PA60TY K 6N. #line:df33be
+	Mom: 0, TJ1 C06NPAEQJCR TAM PA60TATJ? #line:3fd50b
+	Mae: HET, MAM. R UP0CT0 3A K0MUAHN%. #line:6575ee
+	Mae: X0TR, 0T MEHR 6J1VA 6J1 U0VJ3A. #line:501ee9
+	Mom: YFY. #line:242b9d
+	Mae: GT0 6J1VN H0BJ1E N 3AXBATJ1BA%WNE 4YBCTBA. #line:1da120
+	Mae: YFY. #line:f2f75a
+<<endif>>
+Mae: TJ1 B U0PRDKE? #line:b4a7c4
+Mom: AFA. UP0CT0 DEVA% CKY4HJ1E B3P0CVJ1E BEWN. #line:c70e13
+Mae: :) #line:256266
+Mae: KAK0F0 P0DA B3P0CVJ1E BEWN? R B3P0CVAR BEWJ! #line:70fe12
+Mom: ... #line:062e6b
+Mae: :| #line:710863
+Mae: ..? #line:bb509d
+Mom: TAKNE KAK 6%DSET, C4ETA, 4NCVA. #line:c156a0
+Mom: 60VJQAR 4ACTJ B3P0CV0L SN3HN - GT0 ONZPJ1, ONZPJ1, ONZPJ1. #line:216b64
+Mae: 3BY4NT HE 04EHJ. R HE CNVJHA B ONZPAX. #line:00c275
+Mom: 0, R U0MH%. #line:e00f34
+Mae: 4T0 S, VADH0, R U0QVA. #line:37d4a9
+Mom: YFY. #line:6061c5
+Mae: X0P0QEF0 DHR! #line:0bf3af
+===
+title: MomHome_A2D3_01
+tags: 
+colorID: 3
+position: 7916,3583
+---
+Mom: 4NCVA, 4NCVA, 4NCVA. #line:6068d8
+===
+title: MomChurch_A2D3_01
+tags: 
+colorID: 3
+position: 8127,4306
+---
+Mom: D0P0FAR, MHE DELCTBNTEVJH0 HAD0 CK0HOEHTPNP0BATJCR. #line:7dc348
+===
+title: MomHome_A3D3_00
+tags: 
+colorID: 4
+position: 10057,3572
+---
+<<sit>>
+Mae: =_= #line:a8fb37
+<<wait 3>>
+Mom: D0P0FAR... TJ1 B U0PRDKE? #line:bd764f
+Mae: FPP. B U0CVEDHEE BPEMR MHE TRSEV0 U0 YTPY. #line:56a4c6
+Mom: TJ1... 6EPEMEHHA? #line:505db3
+<<dilate Mae .85 .25>>
+Mae: O_O #line:6ae2cf
+Mae: HET! #line:8f067b
+Mom: 0, D0P0FAR, U0GT0MY-T0 TJ1 BEPHYVACJ D0M0L? #line:11907d
+Mae: HET! B0BCE HET! #line:458f15
+Mom: MNVAR, TJ1 M0SEQJ PACCKA3ATJ MHE! R 4EPE3 GT0 UP0X0DNVA! #line:b6589b
+Mom: N, HECM0TPR HA HAMEPEHNR UPNP0DJ1, 60F UPNQEV N 6VAF0CV0BNV HAC T060L! #line:c416bf
+Mom: TB0E P0SDEHNE 6J1V0 4YD0M. #line:08a521
+<<dilate Mae 1 .25>>
+Mae: =_= #line:5973ed
+Mae: GT0 R. 4YD0. #line:4b2186
+Mom: U0CVE BCEX BJ1KNDJ1QEL, MJ1 U0TEPRVN HADESDY. #line:b73fc0
+Mom: N T0FDA U0RBNVACJ TJ1! #line:48a38d
+Mae: N B0T 0HA R. #line:42b042
+Mom: TAK 4T0, ECVN TJ1 6EPEMEHHA, #line:53c8a6
+<<dilate Mae .85 .25>>
+Mae: o_o :| #line:f5e457
+Mae: R HE 6EPEMEHHA! #line:3cdd60
+Mae: O_o #line:be7bcc
+Mae: R HE 6J1VA B CNTYAONN, K0FDA CVY4AETCR 6EPEMEHH0CTJ! #line:cba746
+Mom: VADH0! VADH0! #line:19e24f
+Mom: R UP0CT0 X04Y, 4T06J1 TJ1 3HAVA, 4T0 BCEFDA M0SEQJ 06PATNTJCR K HAM U0 GT0MY U0B0DY. #line:7d1faa
+Mae: 0KEL. 3AU0MHNVA. M0SET, MJ1 CMEHNM TEMY? #line:8efc2f
+Mom: K0HE4H0! #line:d32e9e
+<<wait 4>>
+Mom: 3HAEQJ, ECVN 6J1 Y TE6R *6J1V* PE6EH0K, #line:ec67f1
+<<dilate Mae 1 .25>>
+Mae: o_o :| #line:45bf91
+Mae: 0K! #line:a8068e
+<<jump>>
+Mae: R YX0SY! #line:02655a
+Mom: XA-XA-XA. X0P0Q0, MNVAR. #line:09f963
+Mom: N3BNHN, MEHR TAK B3B0VH0BAVA MJ1CVJ 0 BHYKAX. #line:f25d48
+Mae: BCE X0P0Q0. #line:a75f9d
+Mae: BEPHYCJ U03SE. #line:7ecae6
+Mom: V%6V% TE6R! #line:c211c2
+Mae: N R TE6R V%6V%. #line:bc7ab6
+===
+title: MomHome_A3D3_01
+tags: 
+colorID: 4
+position: 10387,3556
+---
+Mom: ECVN 6J1 GT0 6J1V MAVJ4NK, TJ1 M0FVA 6J1 HA3BATJ EF0 KEVJBNH0M. #line:92a89a
+Mae: =_= #line:cd86d6
+Mae: F0CU0DN, MAM. #line:cd436c
+Mom: ECVN 6J1 6J1VA DEB04KA, M0SH0 6J1V0 6J1 HA3BATJ EE... #line:88148b
+Mae: :) #line:25a149
+Mae: HEHYSHJ1L PE6EH0K? #line:b57d95
+Mom: K0PDEVNR! #line:dfd350
+Mae: o_o :| #line:baa576
+Mae: U04EMY 6J1 MHE HE 3ABECTN PE6EHKA N UP0CT0 0TDATJ EF0 TE6E. #line:4217ac
+Mom: 000X! #line:686342
+Mae: 0KEL, U0KA, R U0QVA #line:61dcb0
+===
+title: MomChurch_A3D3
+tags: 
+colorID: 4
+position: 10203,3978
+---
+<<if $mom_church is 0>>
+    <<set $mom_church += 1>>
+    [[MomChurch_A3D3_00]]
+<<elseif $mom_church is 1>>
+    <<set $mom_church += 1>>
+    <<set $mom_church_done to 1>>
+    [[MomChurch_A3D3_01]]
+<<endif>>
+
+===
+title: MomChurch_A3D3_00
+tags: 
+colorID: 4
+position: 9998,4245
+---
+Mom: UPNBET, MNVAR.. #line:76351a
+Mom: Y TE6R BCE EWE 6J1BA%T F0V0BHJ1E 60VN? #line:6a2ba3
+Mae: AFA. H0 YVNOA U0M0FAET. #line:b81ee8
+Mom: CBESNL B03DYX! #line:9d5ef1
+Mom: CUACN60, 4T0 HABECTNVA MEHR, D0P0FAR #line:e40c02
+Mom: N YKPACNVA M0L DEHJ! #line:6a7d6d
+Mae: CEF0DHR MHE 3DECJ HE U0 CE6E. #line:cf164e
+Mae: KAK 6YDT0.... CTAV0 CVNQK0M MH0F0 CB060DH0F0 MECTA. #line:a1ed0c
+Mom: UPNX0DN B B0CKPECEHJE! T0FDA 3DECJ HE 6YDET UYCT0! #line:b21c01
+Mae: DEPSY UAPN! #line:8f18e7
+<<if $money_trouble is 1>>
+    Mae: SAVJ, 4T0 TE6E UPNX0DNTCR PA60TATJ, U0T0MY 4T0 Y HAC UP06VEMJ1 C DEHJFAMN.
+    Mom: MGL, R BCEFDA PA60TAVA#line:c7a897
+    Mom: N GT0 MECT0 - HE NCKV%4EHNE. #line:7d2f15
+<<endif>>
+===
+title: MomHome_A3D4_00
+tags: 
+colorID: 4
+position: 10954,3589
+---
+<<sit>>
+Mae: =_= #line:7e7add
+Mom: D0-0-0-0-06P0E YTP0! #line:4946e9
+Mom: A B0T N M0L C0VHE4HJ1L OBET04EK! #line:6989ef
+Mom: TJ1 4YBCTBYEQJ CE6R VY4QE B GT0T "DPYF0L DEHJ"? #line:4329bb
+Mae: CUV% MH0F0, H0 CTAH0BNTCR XYSE? #line:ac5f37
+Mom: TAK, R 0PFAHN3Y% TE6E BCTPE4Y C D0KT0P0M XGHK0M #line:d1b976
+Mae: 60SE4KN, MAM. BCE H0PMAVJH0. #line:614583
+Mom: GT0 HN4YTJ HE H0PMAVJH0, D0P0FAR. #line:daa907
+Mae: R B3P0CVAR! R CAMA M0FY UPNHNMATJ PEQEHNR. #line:890fc3
+Mom: K0FDA TJ1 3DECJ, TJ1 BCE EWE M0R MAV%TKA. #line:fac509
+Mom: N R HA3HA4Y TE6E BCTPE4Y. #line:b5faf3
+Mom: MGL, D0P0FAR... R 6ECU0K0%CJ 0 TE6E. #line:75296b
+Mae: R B U0PRDKE, MAM. #line:86853a
+<<if $money_trouble is 1>>
+	Mae: U0CVYQAL, R BCE BPEMR DYMA% HAC4ET UP06VEM C DEHJFAMN #line:6dcfcc
+	Mae: N 0 D0ME #line:173c17
+	Mae: N MHE 04EHJ SAVJ... #line:08fe36
+	Mae: TJ1... MJ1... #line:ebd3f6
+	Mae: GT0L CNTYAONN HE 6J1V0 6J1, HE 6YDJ R TAK0L 0FP0MH0L UP06VEM0L. #line:5f3cd9
+	Mae: R UP0CT0 X04Y YUACTJ B RMY N YMEPETJ UPRM0 CEL4AC. #line:3b07fd
+	Mom: MGL, BCE H0PMAVJH0! UPABDA! MJ1 4T0-HN6YDJ UPNDYMAEM! #line:2698ed
+	Mom: TJ1 HE D0VSHA HN4EF0 NCUPABVRTJ! N3BNHN, ECVN GT0 TAK BJ1FVRDNT! #line:7151ee
+	Mom: 4T0 CDEVAH0, T0 CDEVAH0, N MJ1 BCE PABH0 0CTAEMCR CEMJEL. #line:7632d7
+	Mom: U0SAVYLCTA, HE 6ECU0K0LCR 06 GT0M! #line:db93ee
+	Mae: 4T0 6J1 HN CVY4NV0CJ, R V%6V% TE6R. R X04Y, 4T06J1 TJ1 GT0 3HAVA. #line:efe7a6
+	Mom: R TE6R T0SE! #line:650669
+    Mae: :( #line:25ed60
+	Mae: ... #line:87dfdb
+	Mae: *QMJ1FAET* #line:d8494e
+<<endif>>
+<<wait 3>>
+Mae: o_o :| #line:dcddda
+Mae: VADH0. R U0QVA. #line:0ff5c0
+Mom: T04H0 HE X04EQJ 0CTATJCR D0MA N 0TD0XHYTJ? #line:2d61cf
+Mae: HE. KY4A DEV. #line:5251f4
+Mom: 4EM TJ1 6YDEQJ 3AHRTA? #line:05de3f
+Mae: ECVN 4ECTH0, N CAMA HE 3HA%. #line:501457
+Mom: 0X, D0P0FAR. #line:0999ad
+Mom: U0SAVYLCTA, HE B0VHYLCR. #line:dc5a5f
+Mae: 06R3ATEVJH0. #line:4bf3a6
+Mom: V%6V% TE6R! #line:9ca995
+Mae: N R TE6R V%6V%. #line:0e463e
+===
+title: MomHome_A3D4_01
+tags: 
+colorID: 4
+position: 11196,3593
+---
+Mom: Y MEHR ECTJ X0P0QEE CPEDCTB0 0T F0V0BH0L 60VN, 0H0 VESNT HA TYM604KE. #line:705e35
+Mom: R M0FY DATJ TE6E U0V0BNHKY. #line:071dbe
+Mae: :) #line:8733a8
+Mae: T0VJK0 U0V0BNHKY? #line:ed2556
+Mom: D0P0FAR... HY TJ1 SE... TJ1 3HAEQJ.... #line:6f6699
+Mae: :| #line:0223f4
+Mae: K0P0TJ1QKA? #line:283585
+Mom: U0V0BNHKN 6YDET D0CTAT04H0. #line:5d86c8
+Mae: BCE B U0PRDKE, MAM. #line:fcada0
+Mom: X0P0Q0! DAL 3HATJ, ECVN TE6E U0HAD06NTCR M0R U0M0WJ! #line:b7da37
+Mae: CUACN60, MAM. #line:98eed5
+===
+title: MomChurch_A3D4
+tags: 
+colorID: 4
+position: 11213,3927
+---
+<<if $mom_church is 0>>
+    <<set $mom_church += 1>>
+    [[MomChurch_A3D4_00]]
+<<elseif $mom_church is 1>>
+    <<set $mom_church += 1>>
+    <<set $mom_church_done to 1>>
+    [[MomChurch_A3D4_01]]
+<<endif>>
+===
+title: MomHome_A4D3
+tags: 
+colorID: 6
+position: 13258,3206
+---
+<<if $mom is 0>>
+    <<set $mom += 1>>
+    [[MomHome_A4D3_00]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+    [[MomHome_A4D3_01]]
+<<elseif $mom is 2>>
+    [[MomHome_A4D3_Loop]]
+<<endif>>
+===
+title: MomHome_A4D3_00
+tags: 
+colorID: 6
+position: 13188,3488
+---
+Mom: UPNBET, MNVAR! #line:c6480b
+Mae: UPNBET, MAM. #line:2fdc0e
+Mom: KAK TJ1 CE6R 4YBCTBYEQJ? #line:054ea7
+<<sit>>
+Mae: D0CTAT04H0 X0P0Q0, 4T06J1 3AUPJ1FHYTJ C%DA. #line:a10fa9
+Mom: M0SEQJ CDEVATJ MHE 0D0VSEHNE N 0CTATJCR D0MA CEF0DHR BE4EP0M? #line:0bdd27
+	->K0HE4H0, MAM #line:084806
+	->3A4EM? #line:6db2fa
+		Mom: GT0 6YDET... R UP0CT0... #line:79a249
+Mom: R... TJ1 YSE B3P0CVAR #line:de2352
+Mom: N TJ1 M0SEQJ DEVATJ, 4T0 X04EQJ, #line:8671d7
+Mom: H0 TJ1 SNBEQJ 3DECJ #line:49d99b
+Mom: N TJ1 0CTAEQJCR M0EL MAVJ1QK0L. #line:88fc35
+Mae: 00Y, MAM. #line:fdcb2c
+Mom: HAM HYSH0 UPNDYMATJ HECK0VJK0 0CH0BHJ1X UPABNV, #line:791a02
+Mom: UP0CT0... #line:cd633a
+Mom: D0P0FAR, TJ1 M0FVA YMEPETJ UP0QV0L H04J% #line:63a8fe
+Mom: N U0CVE GT0F0 TJ1 YX0DNQJ BECEVNTJCR C DPY3JRMN??? #line:6f4b2c
+Mae: R #line:3670e3
+Mae: R #line:64361e
+Mae: MHE 04EHJ SAVJ, MAM. #line:3ae1b7
+Mom: MNVAR, 4T0 C T060L UP0NCX0DNT? #line:bd0a90
+	->Y MEHR 6J1V DELCTBNTEVJH0 04EHJ TRSEVJ1L F0D, MAM. #line:4f2a60
+		Mom: D0P0FAR, Y TE6R 6J1VA TPYDHAR *HEDEVR* #line:caa9c8
+		Mom: Y BCEX HAC. #line:1f7b2e
+		Mae: DA, H0... #line:ea1e45
+	->R DASE HE YBEPEHA, 4T0 CM0FY PACCKA3ATJ TE6E. #line:50f69a
+		Mom: U04EMY? R U0LMY TE6R. 06EWA%. #line:890d80
+		Mae: R HE 3HA%, KAK CKA3ATJ 06 GT0M, UP0CT0 HE 3HA%. #line:6c2d55
+Mom: 4T0 CVY4NV0CJ B K0VVEDSE, D0P0FAR? #line:edc3b1
+Mom: MHE HE BASH0, 4T0 GT0. UP0CT0, U0SAVYLCTA... CKASN MHE. #line:3cd0e3
+Mae: ... #line:c86697
+Mae: TJ1 PA60TAEQJ CEF0DHR? #line:8b323a
+Mom: HET, Y HAC C TB0NM UAU0L BJ1X0DH0L CEF0DHR. #line:206f16
+Mae: R 6YDY CEF0DHR BE4EP0M. MJ1 CM0SEM U0F0B0PNTJ 06 GT0M? #line:43ef04
+Mom: K0HE4H0. #line:49adb5
+Mom: MJ1 M0SEM UPNF0T0BNTJ 3ABTPAK HA YSNH, KAK MJ1 UPNBJ1KVN. #line:fd85c1
+Mae: UAUA 6YDET U0DKNDJ1BATJ 6VNH4NKN B B03DYX!!! :) #line:4d034d
+Mom: XA-XA-XA. K0HE4H0. #line:64ce95
+<<wait 2>>
+Mom: TJ1 YX0DNQJ CEF0DHR? #line:44372f
+Mae: AFA. #line:0151a7
+Mom: TJ1 M0SEQJ 0CTABATJCR B F0P0DE, U0SAVYLCTA? PRD0M? #line:6ea765
+Mae: AFA, MAM. :| #line:d2515c
+Mom: R DYMA%, 0HN D0CTA%T DEK0PAONN DVR DVNHHELQEL H04N #line:be8643
+Mae: 0Y, BAY. #line:87d467
+Mom: N UPN3J1BA%T CHEF #line:26849a
+Mae: 0HA 6J1CTP0 3AK0H4NVACJ. #line:7e2189
+Mom: 4T0 3AK0H4NV0CJ? #line:89687b
+Mae: 0CEHJ. #line:740b53
+Mom: KAK N BCEFDA, D0P0FAR. #line:a2035e
+Mae: X0P0Q0. #line:9e7af6
+Mae: VADH0. #line:b8ea59
+//jumps down//
+<<jump>>
+Mae: R U0QVA. #line:2715e5
+Mom: V%6V% TE6R, MNVAR. #line:987782
+Mae: N R TE6R, MAM. #line:7cf87f
+===
+title: MomHome_A4D3_Loop
+tags: 
+colorID: 6
+position: 13734,3430
+---
+Mom: XM XM XMMMMMM. #line:dbe445
+===
+title: MomHome_A4D3_01
+tags: 
+colorID: 6
+position: 13476,3460
+---
+Mae: TJ1 BCE EWE 4NTAEQJ TY KHNFY? #line:771daa
+Mom: 0, HET! GT0 YSE DPYFAR. #line:dee574
+Mom: GTA - 0 V%DRX, K0T0PJ1E U0FN6VN B 3DEQHNX QAXTAX. #line:3aa4df
+Mae: 0, KPYT0. #line:81947b
+Mom: DA, GT0 04EHJ NHTEPECH0. #line:21bee1
+Mom: TYT ECTJ HECK0VJK0 CTAPJ1X UECEH. #line:7f3a85
+Mom: X04EQJ U0CVYQATJ 0DHY? #line:0185a4
+->K0HE4H0 #line:8bde98
+	Mom: BDAVN 0T PEBA 0KEAHA #line:be0b40
+    Mom: BDAVN 0T FP0X0TA N QYMA #line:bea761
+    Mom: R CVJ1QY FP0MKNL V0PDA 30B #line:688d1e
+    Mom: DETEL MAHRWNL 30B #line:b9dc28
+    Mom: N BJ1 NDETE CKB03J R4MEHJ #line:2f6c4d
+    Mom: NWA CB0% P0DH%, DPY3EL #line:cfdd79
+    Mom: R CVJ1QY FP0MKNL V0PDA 30B #line:16a5b1
+    Mom: H0 VNQJ TE6R R 3ADEPSY, U0CT0L #line:0a7c96
+    Mom: 0CTAHJCR 3DECJ, PRD0M C0 MH0L #line:f239b3
+    Mom: U0F0B0PNM 0 T0M, FDE MJ1 6J1BAVN #line:62e476
+    Mom: A F0CU0DJ HAC UPN30BET #line:cc3a52
+    Mom: UPRM0 B PAL, HA HE6ECA #line:eab933
+    <<wait 2>>
+    Mae: :) #line:90a41d
+    Mae: KPACNB0. #line:c92233
+    Mom: DA. 04EHJ KPACNB0. #line:a4252d
+    Mae: o_o :| #line:a159a4
+->M0SET 6J1TJ, U03SE. #line:a1526e
+	Mom: MJ1 M0SEM CUETJ EE HA 3ABTPAKE-YSNHE CEF0DHR BE4EP0M. #line:60b5c9
+	Mae: 3AMETAH0 #line:15022d
+===
+title: MomChurch_A2D3_00
+tags: 
+colorID: 3
+position: 7735,4278
+---
+Mae: UPNBET, MAM. #line:ca29f6
+Mom: HE M0FY F0B0PNTJ CEF0DHR, MH0F0 DEV. #line:4f48bb
+Mae: CEPJE3H0? #line:83e689
+Mae: 4EM TJ1 6YDEQJ 3AHRTA? #line:a150b1
+Mom: HY, MNVAR, CEF0DHR Y HAC F0P0DCK0L C0BET #line:f2bab7
+Mom: N U0CVE GT0F0 B U0DBAVE C0CT0NTCR 12-CTYUEH4ATAR UP0FPAMMA. #line:a37697
+Mae: 0Y, BAY. #line:680abf
+Mom: EWE R 3APA6ATJ1BA%, KAK DVR OEPKBN, TAK N DVR HAC #line:d2900a
+Mom: B 0DH0 N T0 SE BPEMR. #line:1ea04d
+Mae: T0FDA HE 6YDY TE6E MEQATJ! #line:125e6d
+Mom: CUACN60, MNVAR. #line:e33a1a
+===
+title: MomHome_A3D1_00
+tags: 
+colorID: 4
+position: 8887,3543
+---
+<<if $big_fight>>
+    <<sit>>
+    Mae: =_= #line:22784e
+	Mom: UPNBET, D0P0FAR. #line:821722
+    Mae: UPNBET, MAM. #line:6d21c0
+    Mom: TJ1 BJ1FVRDNQJ 04EHJ YCTABQEL. #line:4672c4
+	Mae: KAK N TJ1. #line:1d33d4
+    Mae: :\ #line:c9c926
+    Mae: EWE Y MEHR PACKAVJ1BAETCR F0V0BA. #line:67dd39
+    Mom: 4T0 S, U0F0DA, KASETCR, C0FVACHA C T060L. #line:15946b
+    Mom: CEPAR N M0P03HAR. #line:cf8c53
+    Mae: UPRM0 KAK R. #line:449f05
+    <<wait 3>>
+    Mom: D0P0FAR. #line:d225e5
+    Mae: o_o :| #line:87d545
+    Mae: DA? #line:ae6dc3
+    Mom: UP0CTN 3A B4EPAQHEE. #line:34dc32
+	Mae: N TJ1 MEHR. #line:35930b
+    Mae: 3A T0, 4T0 R CKA3AVA #line:b0be2d
+    Mae: R HE GT0 NMEVA B BNDY. #line:f12b11
+	Mom: HY, NMEVA TJ1 GT0 B BNDY NVN HET #line:e6798d
+    Mom: HAM BCE PABH0 HE CT0NT TAK 06WATJCR #line:15c341
+    Mom: R HE X04Y, 4T06J1 MJ1 B0BCE UEPECTAVN F0B0PNTJ. #line:967fb1
+    Mom: UP0CT0... HE X04Y U0BT0PRTJ T0, 4T0 6J1V0 B UP0QV0M. #line:e03ad6
+    Mae: ... #line:c10917
+    Mae: UP0CTN MEHR, MAM. #line:6a3857
+    Mae: 3A BCE. #line:375bad
+	//mae jumps down//
+    <<jump>>
+	Mom: MGL... TJ1 B U0PRDKE? #line:3c95dc
+	Mae: R B U0PRDKE. DYMA%, Y MEHR CTPECC. #line:1d6be5
+    Mae: BNDEVA MH0F0 CTPAHHJ1X BEWEL UP0QV0L H04J%. #line:1cba8f
+    Mae: NVN DYMAVA, 4T0 BNDEVA. #line:cbeca9
+    Mom: X04EQJ U0F0B0PNTJ 06 GT0M? #line:c51687
+    Mae: U03SE. R D0 CNX U0P 0CMJ1CVNBA% BCE UP0N30QEDQEE. #line:51d168
+	Mom: M0SEM VN MJ1 U0F0B0PNTJ 0 K0VVEDSE? #line:5cdc43
+	Mae: T0SE U03SE. #line:b13d2b
+<<else>>
+    <<sit>>
+    Mae: =_= #line:044743
+	Mom: UPNBET, D0P0FAR! X0P0Q0 UP0BEVA BPEMR HA XAPZECTE? #line:27427c
+	Mae: K0HE4H0. #line:cfc164
+	Mae: TJ1 BJ1FVRDNQJ YCTABQEL. #line:e0cd54
+	Mom: TJ1 BJ1FVRDNQJ YCTABQEL. #line:5f1891
+	Mae: DA, HABEPH0E. F0V0BA 60VNT. #line:a4466e
+	Mom: TJ1 B U0PRDKE? #line:737049
+	Mae: DA, HABEPH0E. #line:ff590c
+	Mom: TJ1 X04EQJ U0F0B0PNTJ 0 K0VVEDSE? #line:3c47f4
+	Mae: U0KA HET. #line:8bc539
+	Mom: TJ1... SDEQJ U0DX0DRWEF0 M0MEHTA? #line:912976
+	Mae: HE. UP0CT0... MJ1 M0SEM *U0T0M* 06 GT0M U0F0B0PNTJ? #line:d06327
+	Mae: R HNKYDA HE DEHYCJ. #line:f80411
+    Mae: o_o :| #line:c77375
+	Mom: 4T0 S. GT0 X0P0Q0. #line:d578c6
+	Mae: R U0QVA. #line:6c747e
+	Mom: X0P0Q0! 0TVN4H0F0 DHR, MNVAR! #line:bd27ac
+<<endif>>
+===
+title: MomHome_A3D1_01
+tags: 
+colorID: 4
+position: 9138,3583
+---
+<<if $big_fight>>
+    Mae: TAK 4T0 TE6R 6ECU0K0NT? #line:f2b869
+	Mom: R DYMA%, TJ1 UP0CT0 BJ1P0CVA. #line:76dfad
+    Mae: =_= #line:ec167c
+    Mae: BJ1KVADJ1BAL YSE MAM. #line:08dd0c
+    Mom: U0CVE T0F0 NHONDEHTA, UP0N30QEDQEF0 HECK0VJK0 VET HA3AD #line:7bdebc
+    Mae: o_o #line:02ff43
+    Mom: TJ1 3HAEQJ, 4T0 MJ1 6J1VN B HE60VJQNX D0VFAX. #line:616f36
+    Mae: 60SE4KN. MHE D0 CNX U0P YSACH0 CTJ1DH0 N3-3A GT0F0. #line:17deca
+    Mom: GT0 B UP0QV0M. DABAL HE 6YDEM K HEMY B03BPAWATJCR. #line:35c612
+    Mae: 0K #line:09dce7
+    Mom: K0FDA UPNQV0 BPEMR 0TUPABNTJ TE6R B K0VVEDS, #line:ffc7ef
+    Mom: MJ1 B3RVN CB0EF0 P0DA NU0TEKY, #line:ad0e97
+    Mom: U03A60TNBQNCJ 0 TE6E TAKNM 06PA30M. #line:9bf08f
+    Mae: O_o #line:507de4
+    Mae: 0KEEEEEEEL? #line:7dbaea
+    Mom: 0KA3AV0CJ, CDEVKA 6J1VA DAVEK0 HEBJ1F0DHAR. #line:e7c2c1
+    Mom: N... R UP0CT0 4YBCTBY% CE6R FVYU0L... #line:20e8b9
+    Mom: 0HN V%6RT UPEDVAFATJ GTN NU0TE4HJ1E KPEDNTJ1 V%DRM #line:838e01
+    Mom: Y K0T0PJ1X, B03M0SH0, HE TAK YS N MH0F0 DEHEF. #line:872b47
+    Mom: N K0T0PJ1E HE UPNBJ1KVN U0VJ30BATJCR U0D06HJ1MN YCVYFAMN. #line:651acd
+    Mae: :\ #line:54c5b7
+    Mae: U04EMY? #line:51a59b
+    Mom: U0T0MY 4T0 6AHK U0VJ3YETCR HAMN. #line:4ce4a3
+    Mom: N TEUEPJ 0HN BVADE%T D0M0M, A MJ1 D0VSHJ1 NM 60VJQE, 4EM EF0 CT0NM0CTJ. #line:730944
+    Mae: 4T0 GT0 3HA4NT? #line:166a34
+    Mom: GT0 3HA4NT, 4T0 MJ1 HE 3HAEM, KAK D0VF0 Y HAC 6YDET GT0T D0M. #line:5a37bd
+    <<set $money_trouble to 1>>
+	Mae: O_O :| #line:54759c
+    Mae: 4EPT B03JMN, MJ1 B DEPJME? A R U0VHAR MYDA4KA? #line:2fdfa1
+    Mae: o_o :| #line:99d52f
+	Mom: BCE X0P0Q0, MNVAR. HE B0VHYLCR. #line:3f579c
+<<else>>
+    Mae: 4T0 TE6R 6ECU0K0NT? #line:752266
+	Mom: 6%DSET. C4ETA. N 0CTAVJH0E. #line:47f31e
+	Mae: 0Y. #line:b04610
+	Mom: HE B0VHYLCR 06 GT0M. #line:0ec4fd
+	Mae: 0K! #line:d25e1d
+<<endif>>
+===
+title: MomHome_A3D1_02
+tags: 
+colorID: 4
+position: 9419,3548
+---
+Mae: 4T0 4NTAEQJ? #line:daf1bb
+Mom: KHNFY 06 Y6NLCTBAX, K0T0PJ1E HEB03M0SH0 PACKPJ1TJ. #line:70c5c6
+Mae: N BCE 0HN UP0N30QVN? #line:a8601f
+Mom: HY, R HE 3HA%. U04EMY 6J1 N HET. #line:886887
+Mom: X04EQJ YCVJ1QATJ OEUVR%WY% 3ATPABKY? #line:244338
+->K0HE4H0! #line:6e522e
+	Mom: 3HA4NT, ECTJ TPYU, VESAWNL HA KYXHE, #line:29527f
+    Mom: C UYVEBJ1M PAHEHNEM B F0V0BY #line:9a6986
+    Mom: ECTJ EWE 0DNH, PRD0M C HNM. #line:73a85a
+    Mom: Y HEF0 HEMH0F0 KP0BN HA UPAB0L PYKE #line:524a74
+    Mom: H0 HET 0PYSNR. #line:a05764
+    Mae: XAX. #line:3b4755
+    Mom: N U0CVEDHEE - Y MEPTB0F0 UAPHR ECTJ QPAM HA 3ATJ1VKE. #line:136e8b
+	Mae: TJ1 3HAEQJ 0TBET? #line:e8a065
+	Mom: HY, R HE 3HA%, *0DNH* VN 3DECJ 0TBET. #line:d71b57
+	Mom: GT0 D0VSH0 3ACTABNTJ TE6R 3ADYMATJCR #line:43e574
+	->06 Y6NLCTBE? #line:4e4d7f
+		Mom: HEVJ3R PACKPJ1TJ Y6NLCTB0, K0FDA EF0 HET! #line:6861f5
+	->TJ1 D0VSHA 6J1VA CTATJ DETEKTNB0M #line:0759b0
+		Mom: AFA. #line:a112cd
+		Mom: MHE 6J1 GT0 HPABNV0CJ. #line:29fb0a
+	Mae: TAK, Y MEHR ECTJ B0UP0C. #line:790d38
+    Mae: -_- #line:f272d7
+	->KAK0L QPAM 6J1V Y MEPTB0F0 UAPHR? #line:21a6ff
+		Mom: "UPRMAR VNHNR, HECK0VJK0 D%LM0B DVNH0L, CUPRTAH U0D B0V0CAMN" #line:7e099a
+		Mae: XM-M-M. #line:f66e75
+	->KT0 DPYF0L UAPEHJ B K0MHATE? #line:ae89a6
+		Mom: "U0D03PEBAEMJ1L RBH0 N3 CPEDHEF0 KVACCA V%DEL" #line:94ba80
+        Mae: 0T GT0F0 MAV0 U0VJ3J1. #line:b7d4d0
+        Mom: M0SET, VJ1SN, 4T0 TAK EMY HPABNVNCJ, U0M0FVN EMY Y6NTJ K0F0-T0. #line:fcc886
+        Mae: DA, 0H 0FPEV EF0 4EM-T0 B DSAKY3N HA 3ADHEM DB0PE. #line:8d2b92
+	->4T0 EWE 6J1V0 B T0L K0MHATE? #line:318f94
+		Mom: 06J14HJ1E BEWN. X0V0DNVJHNK, MNKP0B0VH0BKA, CT0V0BJ1E UPN60PJ1. #line:7e1fc6
+		Mae: H0SN? #line:a2c92f
+		Mom: HET H0SEBJ1X PAHEHNL. #line:76fcfb
+		Mae: 0Y, T04H0. #line:788899
+	<<wait 3>>
+    Mae: o_o #line:fb257a
+    Mae: DYMA%, R U0HRVA! #line:62e80e
+	Mom: YX TJ1! 4T0 NMEHH0??? #line:f6c89f
+	Mae: UAPEHJ B K0MHATE - XNPYPF. #line:8bd72d
+	Mae: 0H NMUVAHTNP0BAV MAFHNT B 4EPEU MEPTB0F0 UAPHR #line:28531c
+	Mae: B0T U04EMY Y HEF0 ECTJ GT0T QPAM. #line:b27b1c
+	Mae: 3ATEM U0D03PEBAEMJ1L NCU0VJ30BAV CYUEP MAFHNT NVN 4T0-T0 U0X0SEE #line:ff60e9
+    Mae: HA V06 MEPTB0F0 UAPHR #line:c41fbf
+	Mae: K0T0PJ1L BJ1TAWNV MAFHNT CKB03J F0V0BY T0F0 MEPTB0F0 4YBAKA. #line:b9e058
+	Mom: XA-XA! B0T U04EMY Y HEF0 KP0BJ T0VJK0 HA 0DH0L PYKE! #line:192e47
+	Mae: AFA. N R DEPSY UAPN, 4T0 0PYSNE UPNKVENV0CJ K X0V0DNVJHNKY #line:1c7116
+	Mae: YDEPSNBAR Z0T0FPAZN% TETN D0TTN. #line:b134c9
+	Mom: 0, 6PAB0, MNVAR! #line:683c45
+    Mae: :) #line:313cf2
+	Mae: CUACN60, CUACN60. #line:f9a59f
+	Mom: N3 HAC BJ1QVN 6J1 HEUV0XNE CVED0BATEVN. #line:a8ec60
+	Mae: CT0NT 0TKPJ1TJ DETEKTNBH0E AFEHCTB0 B F0P0DE. #line:a66308
+    Mae: :| #line:314b50
+	Mae: MHE KAK PA3 HYSH0 PACCVED0BATJ 0DH0 UPRM0 CEL4AC. #line:b0f6b1
+	Mom: DVR DETEKTNBA BCEFDA HALDETCR PA60TEHKA! #line:f7b88d
+	Mae: VADH0, MHE U0PA. #line:b5ed48
+	Mom: V%6V% TE6R, D04J-DETEKTNB! #line:66c188
+	Mae: N R TE6R, NHCUEKT0P MAMA! #line:75b991
+    <<unlockDoodle MomMurder>>
+->HE CEL4AC. HYSH0 6ESATJ. #line:c8ee8a
+	Mom: 0X, X0P0Q0. #line:3cc29a
+	Mom: MJ1 PACCVEDYEM 0DH0 U03SE. #line:4ae4ef
+	Mae: 3BY4NT 3D0P0B0, MAM. #line:32e409
+===
+title: MomHome_A3D2_01
+tags: 
+colorID: 4
+position: 9940,3233
+---
+// needs to be changed, A3D1 is the rainy day
+Mom: CEF0DHR X0P0Q0 N C0VHE4H0. #line:05af05
+Mom: HEHABNSY D0SDVNBJ1E DHN. #line:bbd389
+Mom: HE X04Y U0KNDATJ KP0BATJ. #line:5581ed
+Mae: A R V%6V% NX. #line:132bd2
+Mae: KPACNB0 N CEP0. #line:bd278f
+Mae: C0VHOE CVNQK0M RPK0E, NH0FDA HYSH0 HEMH0F0 06VAK0B. #line:70a55b
+<<if $eels>>
+    Mom: YFP%MJ1L MAVEHJKNL YF0PJ. #line:71a36a
+    Mae: :) #line:5e92bd
+    Mae: YFPNNNN, MAM. #line:48bff9
+    Mom: [wave]YFPNNNNNNNNN, D0P0FAR[/wave] #line:eb6570
+<<endif>>
+Mae: o_o :| #line:109111
+Mae: VADH0, R U0QVA. #line:dc8ac8
+Mom: U0KA-U0KA, MNVAR. #line:78bfb1
+===
+title: MomChurch_A3D3_01
+tags: 
+colorID: 4
+position: 10379,4244
+---
+Mom: D0VSHA BEPHYTJCR K PA60TE, MNVAR! #line:777fed
+Mae: YBNDNMCR, MAMYVJ #line:79ac4e
+Mom: YBNDNMCR, D04EHJKA. #line:2e5317
+===
+title: MomChurch_A3D4_00
+tags: 
+colorID: 4
+position: 11055,4176
+---
+Mom: BNDNQJ, TJ1 HE M0SEQJ C0UP0TNBVRTJCR SEVAHN% UPNDTN C%DA #line:67c6a6
+Mom: GT0 60F 30BET TE6R! #line:955b5f
+Mae: 0, 60SE4KN. F0T0BA U0CU0PNTJ. #line:151e7d
+Mom: 60F TEPUEVNB, D0P0FAR. #line:ccd4d0
+Mom: KAK UPNP0DA. #line:8e3230
+Mae: D0B0VJH0 UYFA%WEE 3ARBVEHNE. #line:637d8e
+Mom: U0-M0EMY, 0H0 04EHJ YCU0KANBAET. #line:be2f31
+Mae: R U0HRVA, KAK GTA CTPEMHAR QTYKA PA60TAET, #line:53dc26
+Mae: U0GT0MY UP0CT0 NFH0PNPYL MEHR. #line:e6c88a
+Mom: X0P0Q0, D0P0FAR. R M0FY TE6E 4EM-HN6YDJ U0M04J? #line:4cd476
+Mae: HE. #line:f1d27e
+Mae: V%6V% TE6R! #line:7f446d
+===
+title: MomChurch_A3D4_01
+tags: 
+colorID: 4
+position: 11362,4173
+---
+Mae: ... #line:c29b51
+Mom: 4T0 GT0? #line:9463f2
+Mae: R HE 3HA%. #line:ed2e7c
+Mae: R HAMEPEHH0 0CTABV% GT0 B UAMRTN. #line:ba0604
+Mom: CDEVAL MEHTAVJH0E Z0T0! #line:40f23d
+Mae: XA-XA, DA. UPRM0 KAK PAHJQE, K0FDA R 6J1VA MAVEHJK0L. #line:f56f12
+Mom: TB0L UAUA 6J1V X0P0Q B NFPAX, 6VAF0DAPR K0T0PJ1M TJ1 6J1VA TNX0L B MAQNHE. #line:accc17
+Mae: K0HE4H0, 0H 6J1V. R D0 CNX U0P QYMHAR. #line:438d60
+Mom: *WEVK* #line:6e9dd2
+Mom: Z0T0 CDEVAH0 #line:a6b485
+Mae: *WEVK WEVK* #line:5c06b7
+Mae: EWE 0DH0. #line:abcbbb
+Mom: V%6V% TE6R, MNVAR. #line:3f915f
+Mae: N R TE6R, MAM. #line:09a987
+Mae: ... #line:e87cf9
+Mae: R TAK YCTAVA #line:0e402e
+Mom: U04EMY 6J1 TE6E HE U0LTN B3DPEMHYTJ B 4NTAVJHY% K0MHATY? #line:985b4f
+Mae: 0F0. #line:c9d83f
+Mae: R HE 6J1VA B 4NTAVJH0L K0MHATE F0DAMN. #line:b88b9e
+<<set $church_library_unlocked to 1>>
+Mom: B HAQN DHN 0HA HE TAK 4ACT0 NCU0VJ3YETCR. #line:3976c4
+Mom: H0 TAM UPNRTH0, TNX0 N CU0K0LH0. #line:7e0c3f
+Mae: 0KEL. R M0FVA 6J1 CX0DNTJ TYDA.  #line:879a31
+Mom: DBEPJ TYDA KAK PA3 0TKPJ1TA, TAK 4T0 NDN.  #line:fefae1
+Mom: R 6YDY 3DECJ. #line:e05e32
+Mae: CUACN60, MAM. #line:27a41c
+Mom: 6E3 UP06VEM, MNVAR. #line:7e101e
+<<set $can_church_nap to 1>>
+===

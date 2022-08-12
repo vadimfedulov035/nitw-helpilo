@@ -1,0 +1,118 @@
+title: Convo1
+tags: 
+colorID: 0
+position: 77,109
+---
+<<if $just_ate_crust>>
+    Gregg: Whoa you just ate my crust. #line:ac2344
+    Mae: This was a mistake. #line:b95f71
+    Gregg: oh looks like someone went off to school and got all fancy and eats CRUSTS now #line:a98ab2
+    <<set $crusts_eaten_at_diner += 1>>
+<<endif>>
+Angus: This pizza isn't great. #line:458747
+Bea: It's pretty horrible. #line:0255a8
+Gregg: Dudes, haven't you heard of the pizza scale? #line:1ba238
+[[The What?|TheWhat]] #line:572433
+[[Screw it. Pizza good.|PizzaGood]] #line:3d5cd2
+===
+title: PizzaGood
+tags: 
+colorID: 0
+position: 389,416
+---
+Gregg: That's basically the pizza scale. #line:6f765f
+Angus: He's explained it to me several times. #line:558cdd
+Angus: That's about it. #line:eaf35e
+[[End]]
+===
+title: End
+tags: 
+colorID: 0
+position: 73,655
+---
+Mae: Pizza good. #line:7669a1
+<<unlockDoodle PizzaScale>>
+<<tell GreggFoodPaw Reach>>
+<<tell AngusFoodPaw Reach>>
+<<tell BeaFoodPaw Reach>>
+===
+title: TheWhat
+tags: 
+colorID: 0
+position: -246,435
+---
+Gregg: There's a scale of pizza. #line:d0f1ec
+Gregg: On one end there's the worst pizza. #line:0d18d6
+Gregg: But like everything right above that #line:faaa8c
+Gregg: is still really good. #line:bd3958
+Bea: What's at the other end of the scale? #line:7a60b4
+Gregg: It's pizza all the way up. #line:e57f96
+[[End]]
+===
+title: Diner
+tags: empty
+colorID: 0
+position: -529,742
+---
+Empty Text #line:22a818
+===
+title: Convo2
+tags: 
+colorID: 0
+position: 600,107
+---
+Bea: i mean it's no pastabilities. #line:540124
+Mae: mmmm i missed pastabilities. #line:5ad58a
+<<if $just_ate_crust>>
+    <<set $crusts_eaten_at_diner += 1>>
+    <<if $crusts_eaten_at_diner >= 2>>
+        Gregg: So you're just all about crusts now? #line:87c028
+        Gregg: like some sort of maniac? #line:3f47ec
+        Mae: It's good. #line:088beb
+        Gregg: Weird. #line:f14e15
+        <<unlockAchievement Crusty>>
+    <<else>>
+        Gregg: Whoa did you just eat my crust? #line:dc5646
+        Mae: I like crusts! #line:7d5694
+        Gregg: oh looks like someone went off to school and got all fancy and eats CRUSTS now #line:883a4d
+    <<endif>>
+<<else>>
+    Mae: I am not touching those crusts. #line:47525a
+    Gregg: saaaaaaaaaaame. #line:418990
+<<endif>>
+Mae: we should have gone to pastabilities. #line:959e11
+Gregg: the diner has ambience!!!! #line:52d31e
+Angus: the seats are comfy. #line:d2983a
+Bea: the food is terrible but #line:d2878d
+Bea: it's got charm. #line:87feed
+Gregg: you too fancy for the diner now? #line:ebfa83
+Mae: guys. #line:cc387d
+Mae: please. #line:2d01e1
+Mae: i was raised in this diner. #line:655d14
+Bea: you and like a zillion rats. #line:b45f9d
+<<irisOut 1 wait>>
+<<scene Diner>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: -239,2
+---
+Angus: mmmmmm. #line:cb1ddb
+Gregg: Hell yeah. did you miss pizza, mae? #line:e58a54
+Mae: they have pizza at school. #line:6e2329
+Gregg: oh cool. #line:3b8090
+<<tell GreggFoodPaw Reach>>
+<<tell BeaFoodPaw Reach>>
+<<tell AngusFoodPaw Reach>>
+===
+title: Convo1Short
+tags: cut
+colorID: 0
+position: 361,-60
+---
+Mae: Short! #line:0b62ac
+<<tell GreggFoodPaw Reach>>
+<<tell AngusFoodPaw Reach>>
+<<tell BeaFoodPaw Reach>>
+===

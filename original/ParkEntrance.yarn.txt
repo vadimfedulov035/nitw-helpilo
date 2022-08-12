@@ -1,0 +1,180 @@
+title: EnterLevel
+tags: 
+colorID: 4
+position: -280,131
+---
+<<flip Angus -1>>
+<<playerFace -1>>
+<<setCanInteract Angus 0>>
+<<set $angus_investigation_quest to 1>>
+<<fadeOutMusic 3>>
+Angus: X0P0QNL BE4EP. #line:e1a015
+Mae: DA, HN4EF0 TAK. #line:3fb899
+Angus: M0R MAMA B0DNVA HAC C%DA U0NFPATJ B ZPNC6N. #line:649069
+Mae: KAK-T0 PA3, ZPNC6N UPNVETEV MHE UPRM0 B 3Y6J1. HA U0VH0L CK0P0CTN. #line:3c7723
+Angus: 60SE. #line:6c5edd
+Mae: KELCN N R... MJ1 6P0CAVNCJ DPYF B DPYFA BCRKNMN QTYKAMN. #line:4723e3
+Angus: 0Y. #line:bf2c46
+Mae: H0 UPEKPATNVN U0CVE CVY4AR C ZPNC6N. #line:99e0dd
+<<playMusic angus_climbs_the_hill 3>>
+[[Move1]]
+===
+title: Move1
+tags: 
+colorID: 4
+position: -278,379
+---
+<<walk Angus AngusSign>>
+===
+title: AngusSign
+tags: 
+colorID: 4
+position: 16,200
+---
+Angus: 06JRBVEHNE #line:4f9ccc
+Angus: HE K0PMNTJ #line:2ebf30
+Angus: N HE TP0FATJ #line:040e10
+Angus: DNKY% SNBH0CTJ. #line:489796
+    ->HY, GT0 BJ1FVRDNT GKCTPEMAVJHJ1M. #line:970fae
+        Angus: HE 3HA%. #line:ee6c94
+        Angus: BEDJ TJ1 HE M0SEQJ U0LTN B VEC, 4T06J1, HY #line:6354df
+        Angus: C0ONAVN3NP0BATJCR #line:f7a8f5
+        Angus: C VEC0M. #line:e7b393
+        Mae: HABEPH0E. #line:928149
+    ->HY, GT0 04EBNDH0 #line:ac9f5f
+Angus: 3DECJ ECTJ PE6RTA, SNBYWNE B XNSNHAX, #line:4d67bb
+Angus: TJ1 M0SEQJ... HY... U0K0PMNTJ N U0TP0FATJ NX, ECVN X04EQJ. #line:ac418b
+Mae: ... #line:4c4466
+Mae: GT0 CTPAHH0E, CTAPNHH0E MECT0 #line:6ea760
+Angus: 3DECJ U0VH0 CTPAHHJ1X BEWEL #line:97c4c5
+Angus: A BCE CTAP0E B VECY #line:b9ee84
+Angus: ECVN U0LDEM DAVJQE, T0, HABEPH0E, HATKHEMCR HA M0L CTAPJ1L CKAYTCKNL VAFEPJ #line:778cfe
+Mae: TECHJ1L VEC #line:4f2096
+Angus: VADH0, VY4QE U0LDEM, U0KA HE CTEMHEV0. #line:136ab1
+<<walk Angus AngusPillar1>>
+===
+title: AngusPillar1
+tags: 
+colorID: 4
+position: 279,194
+---
+Angus: *YX YZ* #line:683a65
+Mae: TJ1 B U0PRDKE? #line:4dcaab
+Angus: DA, UP0CT0 ACTMA. #line:5ab150
+Angus: N3BNHN, 4T0 TE6E UPNX0DNTCR SDATJ. #line:bdba73
+    ->Y TE6R ECTJ NHFAVRT0P? #line:91eca1
+        Angus: DA, H0 R XPAH% EF0 HA KPALHNL CVY4AL. #line:03b0d5
+        Angus: MEDVEHH0 NDTN - GT0 HE KPALHNL CVY4AL. #line:8dbd94
+    ->PA3BE TJ1 HE 6EFAV KP0CC B CPEDHEL QK0VE? #line:c3e1e2
+        Angus: DA, H0 R HNK0FDA HE D06EFAV D0 ZNHNQA. #line:c67951
+        Mae: T0FDA 3A4EM TJ1 GT0 DEVAV? #line:22e42e
+        Angus: 6E3 U0HRTNR. #line:42ea66
+Mae: 4T0 GT0 3A QTYKA? #line:c4cf96
+Angus: 4T0-T0 BP0DE #line:72707b
+Angus: UE4N DVR 06SNFA N3BECTN? #line:73ff32
+    ->N3BECTJ? #line:eb53e0
+    ->UE4J DVR 06SNFA? #line:269e15
+        Angus: 4T0-T0 BP0DE 06J14H0L UE4N #line:e62ff2
+        Mae: 0. UE4J DVR 4EF0? #line:ae111a
+Angus: N3BECTHRKA #line:137205
+Angus: TJ1 TNUA TB0PNQJ C HNM B HEL BCRK0E, #line:be79a0
+Angus: N 0H UPEBPAWAETCR B 4T0-T0 DPYF0E. #line:712943
+Mae: 0Y. #line:e110d7
+Angus: N3BECTHRK CTPAHHJ1L. U0T0MY 4T0 #line:34a234
+Angus: B 0CH0BH0M CDEVAH N3 CKEVET0B M0PCKNX C03DAHNL, #line:c10413
+Angus: YMEPQNX MNVVN0HJ1 VET HA3AD #line:c792e7
+Angus: HY, TNUA, #line:bacd2c
+Angus: K0FDA-T0 GT0 BCE 6J1V0 U0D B0D0L NVN BP0DE T0F0. #line:e4f6e3
+    ->BAY #line:955baf
+        Angus: KPYT0, UPABDA? #line:cccba4
+    ->HE M0SET 6J1TJ #line:d11138
+        Angus: B CMJ1CVE, KAMHN BEDJ HE VFYT #line:82889f
+Angus: UPRM0 TAM, FDE MJ1 CT0NM, #line:f4d1de
+Angus: 6J1VN DPEBHNE, YSACHJ1E, M0PCKNE 4YD0BNWA #line:f8034c
+Mae: SYTKNE. N KVEBJ1E. #line:abc195
+Angus: GGGGGGGGT0 NCT0PNR! #line:31a677
+Angus: VADH0, R F0T0B NDTN DAVJQE. #line:01d220
+<<walk Angus AngusPillar2>>
+===
+title: AngusPillar2
+tags: 
+colorID: 4
+position: 525,205
+---
+Angus: *YX YZ* #line:d40ddf
+Angus: ZYX. #line:46539d
+Mae: HYSEH UEPEPJ1B? #line:b6aaf5
+Angus: R B H0PME. R B H0PME. #line:d32dcb
+Mae: 6E3 UP06VEM #line:a8ee8a
+Angus: *YX YZ* #line:60af00
+Mae: PA3 YS GT0 MECT0 HAX0DNV0CJ U0D B0D0L #line:9cdb8e
+    ->KYDA DEVACJ B0DA? #line:d4c4c7
+        Angus: HE 3HA%. YQVA B 0KEAH, HABEPH0E. #line:cdb1b3
+        Angus: 3EMVR U0CT0RHH0 MEHRETCR #line:daf740
+        Angus: 3HA4NT F0PJ1 U0DHRVNCJ N3 #line:384259
+        Angus: 06J14H0L UV0CK0L 3EMVN. #line:60f085
+    ->T0FDA U04EMY 3DECJ, HABEPXY, HET DPEBHNX AKYVJNX K0CTEL? #line:a4c92c
+        Angus: HE 3HA%. H0, B03M0SH0, 0HN FDE-T0 N ECTJ. #line:48094a
+        Angus: H0 HE BCE CTAH0BNTCR NCK0UAEMJ1M #line:b194d2
+        Mae: U04EMY? #line:0bdd69
+        Angus: HE 3HA%. R HE GKCUEPT B GTNX B0UP0CAX. #line:641af8
+        Angus: H0 PAHJQE 3DECJ T04H0 B0DNVNCJ DPEBHNE AKYVJ1. #line:90a6f5
+Mae: CTPAHH0, BEDJ B HAQN DHN BCE TAK0E CKY4H0E #line:a2416e
+Mae: CV0SH0 UPEDCTABNTJ, 4T0 3DECJ 6J1V0 CT0VJK0 KPYT0F0 #line:87298e
+Angus: BCEFDA ECTJ 4T0-T0 60VEE CTPAHH0E #line:192876
+Angus: H0 GT0 YSE C0BCEM DPYFAR NCT0PNR. #line:99ad3d
+Angus: VADH0, R F0T0B NDTN DAVJQE. #line:f6278c
+Mae: KPYT0 KPYT0. #line:d71f75
+<<setSpriteLayer Angus BG3>>
+<<walk Angus AngusPillar3>>
+===
+title: AngusPillar3
+tags: 
+colorID: 4
+position: 794,227
+---
+Angus: *YX YZ YX* #line:deeafe
+Angus: *XPNUNT* #line:6e5525
+Mae: TJ1 YBEPEH, 4T0 BCE B U0PRDKE? #line:bcac5b
+Angus: AFA... *YX* #line:f9adac
+Angus: ...N3BNHN... *YX YZ* #line:a05b8f
+Mae: CEPJE3H0, BCE X0P0Q0. #line:4e1887
+Mae: 0TDJ1QNCJ HEMH0SK0. #line:cccc49
+Angus: X0P0Q0. #line:c6aee6
+Mae: R X04Y 3HATJ BCE 06 GT0L TEME, TNUA #line:4258ba
+Mae: DPEBHNX M0PCKNX 4YD0BNWAX, 06 GTNX KAMHRX #line:e981bf
+Angus: N3BEC... *YZ*...THRKAX... #line:529035
+Mae: EWE B QK0VE R X0TEVA X0DNTJ HA 3AHRTNR, FDE N3Y4AVN DNH03ABP0B. #line:9fdc54
+Angus: N 4T0 CVY4NV0CJ? #line:f76625
+Mae: 0HN 6J1VN 3AU0VHEHJ1! #line:404439
+Mae: FPYUUY HA6PAVN CVNQK0M 6J1CTP0. #line:158b16
+Angus: HE C0MHEBA%CJ. #line:107a43
+    ->R V%6V% DNH03ABP0B #line:443549
+        Angus: A KT0 HE V%6NT? #line:1c3ae6
+    ->DNH03ABPJ1 CAMJ1E NHTEPECHJ1E SNB0THJ1E. #line:5fdd6d
+        Angus: 3HAEQJ, A Y HNX BEDJ 6J1VN UEPJR. #line:f9e133
+        Angus: HY, Y HEK0T0PJ1X. #line:dfd5ec
+        Mae: KPYT0, UPABDA? #line:acb48a
+        Mae: 3D0P0BJ1E SYTKNE KYPNOJ1. #line:346b29
+Mae: KAK SE T0FDA 6J1V0 KPYT0 N CTPAQH0. #line:8907ee
+Mae: MJ1 6J1 TAM N 5 MNHYT HE UP0DEPSAVNCJ, XA-XA #line:1b36d1
+Angus: AFA, HAC 6J1 C0SPAVN DPEBHNE 4YDNWA N HE 6J1V0 6J1 HNKAKNX UP06VEM. #line:76ab35
+Angus: PAD, 4T0 HAC 0TDEVR%T MNVVN0HJ1 VET #line:90b6e6
+Mae: BPEMR #line:675c56
+Mae: CTPAHHAR QTYKA. #line:098026
+Angus: BPEMR DEVAET HAN60VEE 0UACHJ1E BEWN MEHEE 0UACHJ1MN. #line:aa7ce9
+Angus: 60VJQNHCTB0 BEWEL. #line:e8a9a9
+Mae: 0KEL, F0T0B NDTN DAVJQE? #line:3a60a2
+Angus: DA, MJ1 U04TN HABEPXY. #line:502c11
+<<hide Collision:LeftTop>>
+<<set $interaction_park_entrance_should_go_back_done to 1>>
+<<walk Angus AngusOffLeft>>
+===
+title: ShouldGoBack
+tags: temp
+colorID: 4
+position: 149,488
+---
+Mae: XMM... MHE CVEDYET BEPHYTJCR 3A AHFYC0M. #line:df8b7f
+Mae: 0H 6J1 BEPHYVCR 3A MH0L. #line:f442cd
+===

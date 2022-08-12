@@ -1,0 +1,466 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 292,288
+---
+<<if $bea_friendship_quest_3 is 0>>
+    [[BeaFQ3Start]]
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 292,49
+---
+<<show Bea>>
+<<show Dad>>
+
+<<set $dad_ham_panther_costume to 1>>
+===
+title: CannedGoods
+tags: 
+colorID: 3
+position: 393,1283
+---
+Mae: XMM 4T0 6J1 MHE BJ16PATJ... #line:0a9fe3
+<<shuffleNextOptions>>
+-> CYKK0TAQ... ZYKK0TAZ. #line:f40611
+    <<set $grocery_canned_goods to 1>>
+-> 3EVEHAR ZAC0VJ #line:5c56a7
+    <<set $grocery_canned_goods to 2>>
+-> KYPNHJ1L CYU-U%PE. #line:2c6f37
+    <<set $grocery_canned_goods to 3>>
+Mae: XM. GT0 U0LDET? #line:8972e1
+-> HET #line:3e1e2c
+    <<set $grocery_canned_goods to 0>>
+-> DA #line:74390d
+    Mae: BKYCHEHJK0. #line:5ef3f9
+===
+title: Boxes
+tags: 
+colorID: 3
+position: 635,1286
+---
+Mae: 0K 0K 4T0 BJ16PATJ 4T0 BJ16PATJ #line:eb6f12
+<<shuffleNextOptions>>
+-> MAK&4N3 #line:fa76a0
+    <<set $grocery_box to 1>>
+-> 3AUE4EHHJ1L KAPT0ZEVJ. #line:828558
+    <<set $grocery_box to 2>>
+-> KAPT0ZEVJH0E U%PE #line:aa1bef
+    <<set $grocery_box to 3>>
+-> PNC #line:8842c2
+    <<set $grocery_box to 4>>
+Mae: XM. YBEPEHA VN R... #line:4a19d2
+-> HET #line:051137
+    <<set $grocery_box to 0>>
+-> DA #line:7e3fff
+    Mae: MMMMM. BKYCHRTNHA. #line:020910
+===
+title: Cooler
+tags: 
+colorID: 3
+position: 930,1283
+---
+Mae: XMM XMM. #line:03323f
+<<shuffleNextOptions>>
+-> UE4EHJE #line:e83960
+    <<set $grocery_cooler to 1>>
+-> U%PE N3 QUNHATA #line:7f16e1
+    <<set $grocery_cooler to 2>>
+Mae: YBEPEHA VN R? #line:173e2f
+-> HET #line:956cb6
+    <<set $grocery_cooler to 0>>
+-> DA #line:62cd7f
+    Mae: 0 VR VR #line:0b8aab
+===
+title: TriggerDadConversation
+tags: 
+colorID: 3
+position: 940,269
+---
+<<stopFollowing Bea>>
+<<walk Bea BeaDeli>>
+<<walk Mae MaeDeli wait>>
+[[DadDeli]]
+===
+title: DadDeli
+tags: 
+colorID: 3
+position: 1248,244
+---
+Dad: 3DPABCTBYLTE VEDN! #line:b0f39c
+Mae: UPNBET, UAU! #line:09a736
+Dad: 6N, KAK DABH0 R TE6R HE BNDEV! #line:a9a7d4
+Bea: KAK BJ1, MNCTEP 60P0BCKN? #line:d7c51c
+Dad: HE M0FY SAV0BATJCR! #line:82cd69
+Dad: T0VJK0 R N MRC0. #line:e65545
+-> MRCHJ1EDPY3JR #line:6bf390
+    Dad: U0M0FA%T MHE 0CTABATJCR DPYSEV%6HJ1M, U0KA R DEVA% BJ1PE3KY N PJ16Y. #line:d706c5
+-> T0VJK0 TJ1? #line:1f44c2
+    Dad: HE BCEFDA. T0VJK0 CEF0DHR. #line:d3efcb
+    Dad: XYDQEE MECT0, FDE M0SH0 6J1TJ 0DH0MY. #line:78360b
+Bea: N BEPH0. #line:e8ffdc
+<<lookAt Mae Dad>>
+Mae: D0 CNX U0P CTPAHH0 BNDETJ TE6R 3DECJ. #line:830792
+Dad: 6J1VN AVJTEPHATNBJ1 KYDA XYSE! #line:14bc89
+Mae: U0-M0EMY, R BNDEVA CB0EF0 6J1BQEF0 Y4NTEVR U0 MY3J1KE, K0FDA MJ1 UPNQVN B MAFA3NH. #line:a49e56
+Bea: AX DA. GT0 *6J1V* MNCTEP APMNCTED. #line:5b9d35
+Mae: U0X0SE, TEUEPJ EF0 PA60TA - UPNBETCTB0BATJ V%DEL HA BX0DE? #line:6d3895
+Dad: AFA. 0H UPNBETCTBYET U0KYUATEVEL. #line:2c8bb0
+Dad: R 3HAV, 4T0 FDE-T0 BNDEV EF0 PAHJQE. #line:3d57c4
+Mae: AVJTEPHATNBJ1? #line:ff5ba3
+Dad: HE PA60TATJ. #line:ccd6c3
+Mae: 0X.		 #line:087c8d
+Dad: TAK 4T0 TYT DEVA%T TAKNE UPEKPACHJ1E DAMJ1? #line:ccba89
+Bea: UP0CT0 U0KYUAEM K0E-4T0 HA YSNH. #line:b17b70
+Dad: KAK TB0L 0TEO? #line:7796ad
+Bea: H0PMAVJH0. #line:71d878
+Dad: TAK 4T0 R M0FY UPEDV0SNTJ BAM, VEDN? #line:249e60
+[[Meat]]
+===
+title: BeaFQ3Start
+tags: 
+colorID: 3
+position: 552,283
+---
+<<setAltBodyRig Bea BeaGroceryRig>>
+<<setCanInteract Bea 1>>
+<<set $block_for_groceries to 1>>
+Mae: GT0 MECT0 Y6NV0 ZYD D0HKN! #line:d80018
+Bea: AFA, BP0DE T0F0. #line:126ebb
+Mae: ZYYYYYD! #line:f3d6c9
+Bea: 3HAEQJ, HNKT0, KT0 PA60TAET 3DECJ, HE NMEET K Y6NLCTBY HNKAK0F0 0TH0QEHNR. #line:dd0a34
+-> N BEPH0. #line:75332c
+-> D00000HKN! #line:913892
+    Bea: TJ1 DELCTBNTEVJH0 U0KA3AVA K0PU0PAONN XGM UAHTEPA, KT0 3DECJ 60CC. #line:50cbfc
+    Bea: B006WE-T0, #line:7b7b9b
+    Bea: TJ1 3HAVA, 4T0 HAQ CEHAT0P CBR3AH C XGM UAHTEP? #line:7fcbab
+    Mae: TJ1 3HAEQJ, 4T0 TJ1 CKY4HAR, HE TAK VN? #line:947657
+    Bea: DA, R 3HA%, AFA. #line:9c73f1
+Bea: 0KEL. #line:dc268f
+Bea: MHE HYSH0 U0-6J1CTP0MY KYUNTJ HECK0VJK0 BEWEL. #line:0519cd
+Mae: A R DYMAVA MJ1 C06NPAEMCR TYCNTJ. #line:8e830f
+Bea: G-G. #line:634095
+Bea: MJ1 TYCNM UPRM0 CEL4AC. #line:d3152a
+Bea: R 3DECJ DVR T0F0, 4T0 KYUNTJ K0E-4T0 HA YSNH DVR MEHR N 0TOA. #line:b452f6
+Bea: Y MEHR HET HACTP0EHNR YCTPANBATJ 60VJQY% 3AKYUKY. #line:d1e3c7
+Mae: U03B0VJ MHE BJ16PATJ, 4T0 MJ1 6YDEM ECTJ! #line:1c115a
+Bea: 0X, A TJ1 NDEQJ K HAM HA YSNH? #line:fb386d
+Mae: A R M0FY? #line:ed4c86
+Bea: GM #line:5e93e9
+Bea: HABEPH0? #line:8c9c2b
+Mae: TJ1 CUPAQNBAEQJ? #line:11de4c
+	Bea: R HE CUPAQNBAVA. #line:eab27e
+	Bea: H0 TEUEPJ MHE KASETCR CTPAHHJ1M HE CUP0CNTJ... #line:5814f2
+Mae: T0FDA R BJ16EPY 4T0 MJ1 6YDEM ECTJ! #line:6371db
+<<close>>
+<<wait 1.5>>
+Bea: U0F0DJ, TJ1 CEPJE3H0? #line:3eb3e7
+Mae: DA! #line:a8770f
+Bea: 3HAEQJ 4T0? BAVRL. HEHABNSY 3AHNMATJCR Q0UUNHF0M. #line:3cecad
+Bea: HAM HYSH0... 0CH0BH0E 6V%D0 N DBA FAPHNPA? #line:f82c64
+-> N3J1CKAHH0! #line:602e6e
+    Bea: GX. MJ1 TPADNON0HHJ1. #line:c1b6e4
+    Mae: 4T0 TAM HYSH0 DVR 0CH0BH0F0 6V%DA? #line:93f378
+-> 4T0 C4NTAETCR 0CH0BHJ1M? #line:10f4f1
+Bea: MJ1 M0SEM U0LTN B MRCH0L 0TDEV, K0FDA TJ1 B03JMEQJ BCE 0CTAVJH0E. #line:0cd607
+Mae: KAK HAC4ET DECEPTA? #line:e32ffb
+Bea: MJ1 HE DETN. #line:f6e596
+Mae: 3AKYCKN? #line:0302de
+Bea: MGL, Y HAC TYF0 C DEHJFAMN. #line:57c74a
+Mae: 0K 0K 0K U0TYCN 3DECJ, R CK0P0 BEPHYCJ #line:323b95
+Bea: UP0CT0 CDEVAL BCE 6J1CTP0 N HE CVNQK0M YSACH0. AX DA, N 0TEO 4YBCTBNTEVEH K 6P0KK0VN. #line:9940ee
+<<if $did_bea_friendship_quest_1 is 1>>
+    Bea: 0, A TAKSE... HNKAK0F0 B0P0BCTBA N3 MAFA3NHA.. #line:24d2aa
+    Mae: HYYY. #line:c726dd
+    Bea: R M0FY U03B0VNTJ CE6E UAPY UP0DYKT0B, MGL.. #line:d0c4a4
+    Bea: TAKSE, B GT0M MECTE KY4A KAMEP. #line:506520
+    Mae: V0FN4H0. #line:383df7
+<<endif>>
+<<playMusic grocery_shopping 3>>
+===
+title: Bea
+tags: 
+colorID: 3
+position: 710,-3
+---
+<<if $grocery_canned_goods is 0>>
+    Bea: HAM HYSHJ1 K0HCEPBJ1 NVN TNUA T0F0. #line:70d893
+<<elseif $grocery_box is 0>>
+    Bea: M0SET 6J1TJ B3RTJ KAKY%-HN6YDJ EDY, YUAK0BAHHY% B K0P06KE? #line:69962d
+<<elseif $grocery_cooler is 0>>
+    Bea: UP0BEPJ X0V0DNVJHNK. 4T0 TAM ECTJ. #line:356763
+    Mae: 4T0-HN6YDJ KVEB0E. #line:186792
+<<elseif $grocery_meat is 0>>
+    Mae: M0L 0TEO PA60TAET B DEVN. MJ1 M0FVN 6J1 CX0DNTJ TYDA 3A MRC0M! #line:df97a8
+    Bea: VADH0. #line:5b8552
+    <<set $grocery_picking_interactions_done to 1>>
+    <<follow Bea Mae>>
+    <<setCanInteract Bea 0>>
+    <<set $block_for_groceries to 0>>
+<<endif>>
+===
+title: FoodChart
+tags: notes question!
+colorID: 1
+position: -4,397
+---
+//question: Syntax looks inconsistent for these options.//
+// Should there be a colon after $grocery_cooler and $grocery_meat?//
+$grocery_canned_goods: #line:76a00b
+1 - Succotash #line:3751d9
+2 - Green Beans #line:796c2e
+3 - Cream of Chicken Soup #line:85d290
+
+$grocery_box: #line:e1f87d
+1 - Mac n’ Cheese #line:f257b6
+2 - Scalloped Potatoes #line:1d1e3a
+3 - Mashed Potatoes #line:2dc6b6
+4 - Rice #line:121815
+
+$grocery_cooler #line:d3048c
+1 - Biscuits #line:42defe
+2 - Creamed Spinach #line:9c49f3
+
+$grocery_meat #line:3c4582
+1 - Ground Beef #line:cb319e
+2 - Chicken #line:4362e8
+3 - Fish #line:fa8f97
+4 - Pork Chops #line:566a8e
+===
+title: EndGroceries
+tags: 
+colorID: 3
+position: 2232,394
+---
+<<if $grocery_meat is 1 and $grocery_bakey_shakey is 0 and $grocery_box is 1 and $grocery_canned_goods is 1>>
+    //Ground Beef (no bakey shakey) + Mac n’ Cheese + Succotash = GOOD
+    <<set $grocery_quality to 1>>
+<<elseif $grocery_meat is 4 and $grocery_bakey_shakey is 1 and $grocery_box is 2 and $grocery_canned_goods is 2>>
+    //Pork Chops (with Bakey Shakey) + Scalloped Potatoes + Green Beans = GOOD
+    <<set $grocery_quality to 1>>
+<<elseif $grocery_meat is 2 and $grocery_bakey_shakey is 0 and $grocery_canned_goods is 3 and $grocery_cooler is 1>>
+    //Chicken (nobakey shakey) + Cream of Chicken Soup + Biscuits = GOOD
+    <<set $grocery_quality to 1>>
+<<elseif $grocery_meat is 3 and $grocery_bakey_shakey is 0 and $grocery_box is 1 and $grocery_cooler is 2>>
+    //Fish (no bakey shakey) + Mac n’ Cheese + Creamed Spinach
+    <<set $grocery_quality to 1>>
+<<elseif $grocery_meat is 3 and $grocery_bakey_shakey is 1>>
+    //Fish (bakey shakey)
+    <<set $grocery_quality to -1>>
+<<elseif $grocery_meat is 1 and $grocery_bakey_shakey is 2>>
+    //Beef  (bakey shakey)
+    <<set $grocery_quality to -1>>
+<<elseif $grocery_meat is 1 and $grocery_box != 1>>
+    //Beef + anything other than Mac n’ Cheese
+    <<set $grocery_quality to -1>>
+<<elseif $grocery_meat is 3 and $grocery_canned_goods is 3>>
+    //Fish + Cream of Chicken
+    <<set $grocery_quality to -1>>
+<<elseif $grocery_meat is 2 and $grocery_bakey_shakey is 1 and $grocery_canned_goods is 3>>
+    //Chicken (bakey shakey) + Cream of Chicken Soup
+    <<set $grocery_quality to -1>>
+<<elseif $grocery_meat is 4 and $grocery_canned_goods is 3>>
+    //Pork Chops + Cream of Chicken Soup
+    <<set $grocery_quality to -1>>
+<<elseif $grocery_meat is 1 and $grocery_canned_goods is 3>>
+    //Beef + Cream of Chicken Soup
+    <<set $grocery_quality to -1>>
+<<endif>>
+
+<<fadeOutMusic 5>>
+<<lookAt Mae Dad>>
+Dad: X0P0Q0 DAMJ1. DABALTE U0CM0TPNM, 4T0 Y BAC ECTJ! #line:efe52f
+Dad: XMMMM. XMMMM. AFA. 0K. #line:bd6d5f
+<<if $grocery_quality is 1>>
+    Dad: U0X0SE Y BAC 6YDET 3AME4ATEVJHJ1L YSNH! #line:cee0e9
+<<elseif $grocery_quality is -1>>
+    Dad: NTAK GT0... NHTEPECH0. #line:c44a10
+    Mae: NHTEPECH0? #line:c8fcd7
+    Dad: M0SET 6J1TJ R UP0CT0 0TCTAV 0T SN3HN. #line:540b97
+    Dad: YDA4N! #line:39c13e
+<<else>>
+    Dad: BJ1FVRDNT C0BEPQEHH0, HA 100 UP0OEHT0B 0TVN4H0. #line:c5754d
+<<endif>>
+
+Bea: X0P0Q0. CUACN60 BAM, MNCTEP 60P0BCKN! #line:4119a8
+Dad: UEPEDAL CB0EMY 0TOY UPNBET! #line:9a4d5d
+Mae: UAU, YBNDNMCR! #line:1fd6fb
+Dad: D06P0L H04N, DAMJ1! #line:f29948
+<<close>>
+<<irisOut 1 wait>>
+<<set $dad_ham_panther_costume to 0>>
+<<scene BeaCar>>
+===
+title: BakeyShakey
+tags: 
+colorID: 3
+position: 2226,744
+---
+Mae: XMM, DYMAETE, R D0VSHA B3RTJ 6ELKN QELKN? GT0 X0P0Q0 C04ETAETCR C MRC0M. #line:d51dba
+-> HET #line:730fac
+-> DA #line:24851a
+    <<set $grocery_bakey_shakey to 1>>
+===
+title: Meat
+tags: 
+colorID: 3
+position: 1562,149
+---
+<<shuffleNextOptions>>
+-> ZAPQ #line:1894bb
+    <<set $grocery_meat to 1>>
+    Dad: KVACCNKA! #line:1a8749
+-> KYPNOY #line:04a91c
+    <<set $grocery_meat to 2>>
+    Dad: C HEL HNK0FDA HE UP0FADAEQJ! #line:870377
+-> 0DHY N3 TB0NX VY4QNX PJ16NH, U0SAVYLCTA. #line:9a54e6
+    <<set $grocery_meat to 3>>
+    Bea: 60SE, KAKAR PA3HNOA. HYSEH YSNH HA TPEX 4EV0BEK. HE CVNQK0M D0P0F0L. #line:01377d
+    Dad: M0FY CDEVATJ! #line:048de0
+-> CBNHJ1E 0T6NBHJ1E #line:8a650b
+    <<set $grocery_meat to 4>>
+    Dad: Y HAC GT0 ECTJ! Y HAC GT0 ECTJ! #line:e5e4a4
+Mae: XMM... DELCTBNTEVJH0 VN R X04Y BJ16PATJ GT0 MRC0? #line:2a0093
+-> HET #line:202380
+    Mae: UAU, U0D0SDN... R UEPEDYMAVA. #line:e1f3ac
+    [[Meat]]
+-> DA #line:c63c62
+    [[AfterMeat]]
+===
+title: AfterMeat
+tags: 
+colorID: 3
+position: 1896,293
+---
+Dad: 6N, TJ1 D0VSHA KAK-HN6YDJ UPNLTN K HAM HA YSNH! #line:2adcea
+Mae: B XGM UAHTEP? #line:947f21
+Dad: B HAQ D0M, MGL. #line:853382
+Dad: R U0SAP% 4T0-HN6YDJ BKYCH0E! #line:f4db0e
+Dad: MJ1 M0SEM U0PY6NTJ TYT V%60E MRC0! #line:7648fb
+Bea: GT0 6YDET HEUV0X0. CUACN60 BAM. #line:132b9f
+Mae: DA! #line:458233
+Mae: VADH0, DABAL HAQE MRC0! #line:5afa32
+Dad: CEL4AC 6YDET! #line:10b6bf
+<<lookAt Mae Bea>>
+Mae: NTAK! YSNH BJ16PAH! #line:973b42
+Bea: R DASE HE U0CM0TPEVA, 4T0 TJ1 B3RVA. #line:ada333
+Bea: B0T HACK0VJK0 R YCTAVA. #line:e34641
+Mae: BCE 6YDET 3AME4ATEVJH0! #line:3faaf0
+Bea: 0KEEEEEL, UP0D0VSNM. #line:c05d42
+[[EndGroceries]]
+===
+title: VerifyCannedGoods1
+tags: 
+colorID: 3
+position: -98,655
+---
+Mae: CYKK0TAQ... ZYKK0TAZ. #line:a0ded5
+[[Confirm1]]
+===
+title: Confirm2
+tags: 
+colorID: 3
+position: 762,1021
+---
+-> HET #line:580a58
+-> DA #line:fd473e
+    Mae: MMMMM. BKYCHRTNHA. #line:3b2d6d
+    <<confirmGroceryChoice>>
+===
+title: Confirm3
+tags: 
+colorID: 3
+position: 1740,1012
+---
+-> HET #line:3cfa5b
+-> DA #line:5ff4e0
+    Mae: 0 VR VR #line:1e59e3
+    <<confirmGroceryChoice>>
+===
+title: VerifyBakeyShakey
+tags: 
+colorID: 3
+position: 1483,1554
+---
+Mae: XMM, DYMAETE R D0VSEH B3RTJ 6ELKN QELKN? GT0 X0P0Q0 C04ETAETCR C MRC0M. #line:83b538
+-> HET #line:379c65
+-> DA #line:30dcb7
+    Mae: MMMMM. BKYCHRTNHA. #line:b8fddc
+    <<confirmGroceryChoice>>
+===
+title: VerifyCannedGoods2
+tags: 
+colorID: 3
+position: 123,656
+---
+Mae: 3EVEHAR ZAC0VJ #line:e0084e
+[[Confirm1]]
+===
+title: VerifyCannedGoods3
+tags: 
+colorID: 3
+position: 361,656
+---
+Mae: KYPNHJ1L CYU-U%PE. #line:cf6716
+[[Confirm1]]
+===
+title: Confirm1
+tags: 
+colorID: 3
+position: 76,936
+---
+-> HET #line:eeadb2
+-> DA #line:b8df7f
+    Mae: BKYCHEHJK0. #line:e8fc45
+    <<confirmGroceryChoice>>
+===
+title: VerifyBox1
+tags: 
+colorID: 3
+position: 590,654
+---
+Mae: CTAPJ1L D06PJ1L MAK&4N3 #line:9a497c
+[[Confirm2]]
+===
+title: VerifyBox2
+tags: 
+colorID: 3
+position: 814,653
+---
+Mae: SAPEHAR KAPT0QE4KA! #line:a8d956
+[[Confirm2]]
+===
+title: VerifyBox3
+tags: 
+colorID: 3
+position: 1036,649
+---
+Mae: KAPT0ZEVJH0E U%PE #line:8dcf34
+[[Confirm2]]
+===
+title: VerifyBox4
+tags: 
+colorID: 3
+position: 1277,647
+---
+Mae: KVEEEBJ1L PNC #line:57cd92
+[[Confirm2]]
+===
+title: VerifyCooler1
+tags: 
+colorID: 3
+position: 1590,666
+---
+Mae: MMM... UE4EHJKN #line:9a9863
+[[Confirm3]]
+===
+title: VerifyCooler2
+tags: 
+colorID: 3
+position: 1886,672
+---
+Mae: U%PE N3 QUNHATA..? #line:ac9a86
+[[Confirm3]]
+===

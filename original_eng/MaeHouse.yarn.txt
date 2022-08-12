@@ -1,0 +1,2026 @@
+title: EnterLevel_A1D0
+tags: 
+colorID: 1
+position: -2503,485
+---
+<<if $dad_done is 0>>
+    <<fadeIn 3>>
+    <<playMusic come_home>>
+    <<destroy Collision:DoorAtNight>>
+    <<wait 6>>
+    <<tell _AmbientSFX:Door Play>>
+    <<wait 3>>
+    <<walk Mae EnterMaePositionForDadCouchTalk wait>>
+    <<set $door_blocker to 1>>
+    Mae: HEY! REMEMBER ME? #line:b84625
+    Dad: AAAAAAAAAAAAGH! #line:bd8966
+    Dad: Mae! You gave me a heart attack! #line:1bc33d
+    Mae: GOOD! /o\ #line:2c34f5
+    Dad: What are you doing- #line:85bac5
+    <<wait 2>>
+    Dad: Ooooooh. #line:ab2e3d
+    Mae: _o_ #line:851230
+    Dad: Mae honey we thought you were coming tomorrow night! #line:bf195b
+    Mae: YOU THOUGHT WRONG! \o/ #line:01859c
+    Mae: _o_ #line:61a150
+    Dad: How did you get here? #line:3cf7f3
+    Mae: I WALKED UNTIL I GOT ARRESTED #line:c93f3e
+    Mae: BY AUNT MALL COP. :\ #line:c366f8
+    Dad: Oh did you say hi to Molly for me? #line:146607
+    Mae: NO! :( #line:3fb751
+    Mae: I SAY HI FOR NO ONE! #line:1efd12
+    Mae: EFF THE COPS! #line:a229ba
+    Mae: I'M GOING TO BED! #line:a6c3e8
+    Mae: IS MY BED STILL HERE? :o #line:14cfed
+    Mae: OR ARE WE WAITING FOR TOMORROW NIGHT FOR THAT TOO? #line:65941b
+    Dad: Ah Mae. So good to hear that voice again. #line:4ef869
+    Mae: GOODNIGHT! :| \o/ #line:f920c0
+    Mae: _o_ #line:c34560
+    <<set $dad_done to 1>>
+    <<unlockDoodle DadOlder>>
+<<endif>>
+===
+title: EnterLevel_A1D1
+tags: 
+colorID: 2
+position: -2155,503
+---
+
+===
+title: EnterLevel_A1D3
+tags: 
+colorID: 2
+position: -1426,551
+---
+<<if $party_prep is 1>>
+    <<walk Mae KitchenTalk wait>>
+    [[Dad_A1D3]]
+<<endif>>
+===
+title: EnterLevel_A2D1
+tags: 
+colorID: 3
+position: -870,533
+---
+
+
+===
+title: Dad_A2D1_0
+tags: 
+colorID: 3
+position: -1043,1136
+---
+Mae: 'Sup dad. #line:fa9e48
+Dad: Heard you had a wild time last night! #line:8458a5
+Mae: I didn't drink! #line:9a93ac
+Dad: It works better if you let me accuse you first. #line:0a17d9
+Mae: Right. #line:367cf2
+Dad: Here's my hangover cure: #line:ca8f36
+Dad: not drinking the night before. #line:2de65f
+Mae: wow. hold on, let me write that down. #line:e14195
+Dad: it's complicated, i know. #line:61a62f
+<<unlockDoodle DadStillFunny>>
+===
+title: Dad_A2D1_1
+tags: 
+colorID: 3
+position: -914,1466
+---
+Dad: What did you do tonight? #line:8c9eec
+<<if $did_gregg_friendship_quest_1 is 1>>
+    Mae: Um. #line:3a3c42
+    Mae: Helped Gregg move some stuff. #line:126fa6
+    Dad: Look at what a good friend you are. #line:c8a5ce
+    Dad: Helping someone move is quite a gesture. #line:5ca061
+    Mae: Well, we've been best friends since like #line:cd5084
+    Mae: forever. #line:ca0843
+    Mae: So I feel like we're well past that point. #line:171b68
+    Mae: I am really, really sore though. #line:5a06c0
+    Dad: Sometimes you gotta get sore for friends. #line:f3953c
+<<elseif $did_bea_friendship_quest_1 is 1>>
+	Mae: Went out with Bea. #line:a201fe
+	Dad: You have a good time? #line:c1d228
+	Mae: Yeah. She's kinda... I dunno. #line:b9f378
+	Dad: ? #line:353851
+	Mae: Like, she's older. Like, much older. #line:44d735
+	Mae: And kinda... sad? #line:2c0d3d
+	Dad: Well, she's been through a lot. #line:48f2af
+	Mae: Yeah. #line:f1a725
+<<else>>
+    Mae: I didn't register any friendship quests. #line:aeb87c
+    Dad: Huh, okay. Someone's gone wrong here. #line:c1933c
+<<endif>>
+
+===
+title: EnterLevel_A2D2
+tags: 
+colorID: 3
+position: -148,609
+---
+
+
+===
+title: InitLevel_A1D0
+tags: 
+colorID: 1
+position: -2515,252
+---
+<<hide Bea>>
+<<show Dad>>
+<<hide Mom>>
+<<sit Dad>>
+
+<<if $dad_done is 0>>
+    <<warp Mae MaeOutside>>
+<<endif>>
+===
+title: InitLevel_A1D1
+tags: 
+colorID: 2
+position: -2156,239
+---
+<<hide Bea>>
+<<if $night is 0>>
+	<<hide Dad>>
+    <<if $mom_home > 0>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+<<elseif $night is 1>>
+	<<show Dad>>
+    <<sit Dad>>
+	<<hide Mom>>
+<<endif>>
+
+<<if $night is 0>>
+    <<set $mom_stairs to 1>>
+
+    <<if $mom is 0>>
+        <<set $door_blocker to 1>>
+    <<else>>
+        <<set $door_blocker to 0>>
+    <<endif>>
+<<endif>>
+===
+title: InitLevel_A1D3
+tags: 
+colorID: 2
+position: -1402,264
+---
+<<if $party_prep is 1>>
+	<<show Mom>>
+    <<sit Mom>>
+	<<show Dad>>
+	<<hide Bea>>
+	<<warp Dad DadKitchen>>
+    <<setRigOffsetZ Dad 0>>
+    <<setSpriteLayer Dad DadFG0>>
+    <<setPlayerInteractLocator Dad KitchenTalk>>
+    <<setCanInteract Mom 0>>
+<<elseif $night is 0>>
+    <<if $mom_home > 0>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<elseif $night is 1>>
+	<<hide Mom>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<endif>>
+
+===
+title: InitLevel_A2D1
+tags: 
+colorID: 3
+position: -852,305
+---
+<<if $night is 0>>
+    <<if $mom_home > 0>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<else>>
+	<<hide Mom>>
+	<<show Dad>>
+    <<sit Dad>>
+	<<hide Bea>>
+<<endif>>
+
+<<if $night is 0>>
+    <<set $mom_stairs to 1>>
+
+    <<if $mom is 0>>
+        <<set $door_blocker to 1>>
+    <<else>>
+        <<set $door_blocker to 0>>
+    <<endif>>
+<<endif>>
+===
+title: InitLevel_A2D2
+tags: 
+colorID: 3
+position: -156,310
+---
+<<if $night is 0>>
+    <<if $mom_home > 0>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<else>>
+	<<hide Mom>>
+	<<show Dad>>
+    <<sit Dad>>
+	<<hide Bea>>
+<<endif>>
+===
+title: InitLevel_A1D2
+tags: 
+colorID: 2
+position: -1796,268
+---
+<<hide Bea>>
+<<if $night is 0>>
+    <<hide Dad>>
+    <<if $mom_home > 0>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+<<else>>
+    <<show Dad>>
+    <<sit Dad>>
+    <<hide Mom>>
+<<endif>>
+
+<<if $night is 0>>
+    <<set $mom_stairs to 1>>
+<<endif>>
+===
+title: Dad_A1D1_0
+tags: 
+colorID: 2
+position: -2383,1085
+---
+Dad: Hey Kitten. #line:66cdcf
+Mae: *ROWR* #line:7a9ee2
+Dad: Listen Mae, I'm sorry about last night. #line:8bfdd0
+Dad: I really thought you were coming home tonight. #line:bf2565
+[[It's ok|Dad_A1D1_ItsOk]] #line:fa4405
+[[It's ok I guess...|Dad_A1D1_ItsOkIGuess]] #line:2124f5
+===
+title: Dad_A1D1_ItsOk
+tags: 
+colorID: 2
+position: -2387,1327
+---
+Mae: Went through the ravine by the old mill. #line:a7dc4f
+Mae: Almost died. #line:eb2719
+Dad: What? #line:a11663
+Mae: Yeah logs almost killed me. #line:4e953d
+Mae: Normal stuff. #line:f48a25
+Dad: Well, I promise you I'll never leave you stranded again. #line:d39f3c
+[[Dad_A1D1_Continue]]
+===
+title: Dad_A1D1_Continue
+tags: 
+colorID: 2
+position: -2378,1552
+---
+Mae: Tell you what. #line:805fba
+Mae: How about we pretend I did come home tonight. #line:db51c4
+Mae: And we just got back from the bus station. #line:3ca052
+Dad: Start over? #line:892ab6
+Mae: Yeah. #line:01f660
+Dad: Ok. #line:771182
+Mae: Hey Dad. #line:c25cb1
+Dad: Hey Mae. #line:d4d936
+Mae: Thanks for picking me up. #line:dcbba4
+Dad: Welcome home, Mae. #line:fdb484
+Mae: I'm going to go to sleep I think. #line:0b8d5a
+Dad: Well you've had a big day. #line:5b632d
+Dad: Goodnight, kitten. #line:571ec1
+<<unlockDoodle DadStillFunny>>
+===
+title: Dad_A1D1_ItsOkIGuess
+tags: 
+colorID: 2
+position: -2102,1317
+---
+Dad: You know me. With the bad memory. #line:017338
+Mae: Yeah I remember. #line:40aacf
+Mae: I mean you do pretty well. #line:4f2054
+Dad: Yeah I remember to eat and breathe. #line:55bc76
+Mae: You're really good at, like, remembering how to walk. #line:de0a9b
+Dad: I'm a champ. #line:ed8a42
+[[Dad_A1D1_Continue]]
+===
+title: Dad_A1D1_1
+tags: 
+colorID: 2
+position: -2110,1087
+---
+Mae: OH WAIT! I FORGOT TO TELL YOU! #line:d8e810
+Dad: What? #line:7f2de2
+Mae: WE FOUND AN ARM ON THE GROUND TODAY! #line:1fae59
+Dad: Are we still pretending it's yesterday? #line:fad85f
+Mae: No! We came out of the Clik Clak and there was an arm! #line:120009
+Dad: Just like... an arm? #line:ae3e71
+Dad: What? #line:534a41
+Mae: Aunt Mall Cop came and everything! #line:ce61c8
+Dad: Oh my god. That's really... weird. #line:3b7b6c
+Mae: I poked it with a stick! #line:257435
+Dad: Ok really Mae don't poke dead body parts with sticks. #line:dee129
+Mae: Too late! #line:760504
+Dad: Wow. I'll have to email Molly. #line:0b7183
+Mae: Alright goodnight for real now! #line:ff0b17
+
+===
+title: A1D3_PartyPrep
+tags: 
+colorID: 2
+position: -1335,1500
+---
+Mom: Hey sweetie! #line:ce62c1
+Dad: Look who's home! #line:41726d
+Mae: Hey, the parents. #line:dea1b4
+Mom: I made tacos. #line:f897fe
+Dad: Excuse me, WE made tacos. #line:bbac7f
+Mae: Tacos? #line:2a16dd
+Mom: Tacos! #line:d1e12d
+Dad: Do you want Tacos? #line:2f4a74
+[[I want tacos. Every day. All day.|Mom_A1D3_IWantTacos]] #line:d9df46
+[[No, I'm gonna snack it up at the party later.|Mom_A1D3_NoGonnaSnackItUp]] #line:e4d797
+===
+title: Mom_A1D3_IWantTacos
+tags: 
+colorID: 2
+position: -1433,1860
+---
+Dad: The family that tacos together rockos together. #line:69194a
+Mae: ... #line:6f1187
+Mom: Honey no. #line:309aa3
+Dad: What? #line:6806a4
+Mae: I am so angry right now. #line:f8d0cd
+Dad: You’ve all turned against me. #line:e07a25
+Mom: Mae honey do you want sour cream on your taco? #line:58bbfb
+Mae: I. #line:956aa3
+Mae: Want. #line:c30bc8
+Mae: Everything. #line:610afa
+<<set $ate_tacos to 1>>
+<<close>>
+<<set $night to 1>>
+<<fadeOut 1 wait>>
+<<scene MaeRoom>>
+===
+title: Mom_A1D3_NoGonnaSnackItUp
+tags: 
+colorID: 2
+position: -1107,1851
+---
+Dad: Did you mean snake it up? #line:1ba214
+Mom: Watch out for snakes, honey. #line:54715a
+Mae: Guys there's gonna be a fire and people. #line:60b161
+Mae: Snakes will be running in terror. #line:e07964
+Dad: Snakes don't run, kitten. #line:2aa048
+Mom: Can you imagine snakes with legs? #line:daec44
+Mom: *shiver* #line:aeac1f
+Mae: Those are lizards, mom. #line:a8afb9
+Mom: Watch out for lizards then. #line:86e145
+Dad: They'll getcha. #line:af6500
+<<close>>
+<<set $night to 1>>
+<<fadeOut 1 wait>>
+<<scene MaeRoom>>
+===
+title: InitLevel_A0D0
+tags: demo
+colorID: 2
+position: -2815,248
+---
+<<hide Bea>>
+<<hide Dad>>
+<<show Mom>>
+<<sit Mom>>
+===
+title: Clock
+tags: demo
+colorID: 0
+position: -848,-522
+---
+<<if $mae_house_clock is 0>>
+	[[ClockClock]]
+<<elseif $mae_house_clock is 1>>
+	[[ClockDuck]]
+<<elseif $mae_house_clock is 2>>
+	[[ClockOldCountry]]
+<<endif>>
+===
+title: ClockClock
+tags: demo
+colorID: 0
+position: -968,-89
+---
+Mae: {align=middle,locator=clock} Great-grandad's clock. #line:fdda7a
+Mae: {align=middle,locator=clock} It's from the old country! #line:87af80
+Mae: {align=middle,locator=clock} It's never really worked. #line:001bd7
+<<set $mae_house_clock to 1>>
+
+===
+title: ClockOldCountry
+tags: demo
+colorID: 0
+position: -432,-462
+---
+Mae: {align=middle,locator=clock} There are a few things hanging around in here from the Old Country. #line:5c5816
+Mae: {align=middle,locator=clock} This clock, the trunk in the storage room #line:88bbff
+Mae: {align=middle,locator=clock} and whatever is buried under the house after the cement incident. #line:c000cb
+===
+title: ClockDuck
+tags: demo
+colorID: 0
+position: -634,-173
+---
+Mae: {align=middle,locator=clock} This thing goes off randomly every month or so. #line:62091b
+Mae: {align=middle,locator=clock} Little wooden duck pops out. Makes the weirdest sound. #line:568855
+Mae: {align=middle,locator=clock} Scares dad half to death every time. #line:9a0ff6
+Mae: {align=middle,locator=clock} Used to joke it was Grandad getting even with him from beyond the grave. #line:b3f3be
+<<set $mae_house_clock to 2>>
+===
+title: Door1
+tags: demo
+colorID: 0
+position: -74,-676
+---
+<<if $mae_house_door_1 is 0>>
+	Mae: Don't need the bathroom at the moment. #line:1ba915
+	Mae: Tooth-brushing is for kissers. #line:a99d9c
+	<<set $mae_house_door_1 to 1>>
+<<elseif $mae_house_door_1 is 1>>
+	Mae: I hate walking downstairs and finding out someone is in there. #line:a54e9c
+	Mae: I feel like I've stomped all over their right to privacy. #line:3ad6c1
+	<<set $mae_house_door_1 to 2>>
+<<elseif $mae_house_door_1 is 2>>
+	Mae: I will use the bathroom when I feel like it. #line:91bf15
+	Mae: Which is not now. #line:a2ee82
+<<endif>>
+===
+title: Door2
+tags: demo
+colorID: 0
+position: 186,-625
+---
+<<if $mae_house_door_2 is 0>>
+	Mae: I think I've only been in mom and dad's room like once. #line:7da3ce
+	Mae: Wait. That can't be right. #line:eb439c
+	Mae: What do I even remember about it? #line:d590fb
+	<<set $mae_house_door_2 += 1>>
+<<elseif $mae_house_door_2 is 1>>
+	Mae: They have that creepy statue of naked people kissing #line:5b0147
+	Mae: on the table at the foot of the bed. #line:ccb83a
+	Mae: NOPE #line:497686
+	<<set $mae_house_door_2 += 1>>
+<<elseif $mae_house_door_2 is 2>>
+	Mae: My mom got a cedar chest from her mom. #line:b2f93b
+	Mae: Some kind of heirloom. #line:aa6688
+	Mae: I think back in the old days you were supposed to fill it with a dowry? #line:e36902
+	Mae: What is a dowry? #line:79f167
+	<<set $mae_house_door_2 += 1>>
+<<elseif $mae_house_door_2 is 3>>
+	Mae: I'll just leave mom and dad's room to the imagination a bit longer. #line:e0c10b
+<<endif>>
+
+===
+title: MomStairs_A0D0
+tags: demo
+colorID: 0
+position: -1630,-508
+---
+Mom: {align=middle,locator=momstairs} ...Mae? #line:fe284f
+Mae: Yeah? #line:cdf7b5
+Mom: {align=middle,locator=momstairs} Are you going to go out? #line:e0c03b
+Mae: Yeah! #line:7b6abd
+Mom: {align=middle,locator=momstairs} [wave]Come back to the kitchen for a second![/wave] #line:293173
+===
+title: Dad_A1D1
+tags: 
+colorID: 2
+position: -2191,838
+---
+<<if $dad is 0>>
+	<<set $dad += 1>>
+	[[Dad_A1D1_0]]
+<<elseif $dad is 1>>
+	<<set $dad += 1>>
+	<<set $dad_done to 1>>
+	[[Dad_A1D1_1]]
+<<endif>>
+
+===
+title: Dad_A2D1
+tags: 
+colorID: 3
+position: -859,876
+---
+<<if $dad is 0>>
+	<<set $dad += 1>>
+	[[Dad_A2D1_0]]
+<<elseif $dad is 1>>
+	<<set $dad += 1>>
+	[[Dad_A2D1_1]]
+<<elseif $dad is 2>>
+    [[GarboCheck]]
+<<endif>>
+===
+title: Dad_A1D2
+tags: 
+colorID: 2
+position: -1771,812
+---
+<<if $dad is 0>>
+	<<set $dad += 1>>
+	[[Dad_A1D2_0]]
+<<elseif $dad is 1>>
+	<<set $dad += 1>>
+	<<set $dad_done to 1>>
+	[[Dad_A1D2_1]]
+<<endif>>
+===
+title: Dad_A1D2_0
+tags: 
+colorID: 2
+position: -1854,1103
+---
+Mae: Hey dadders. #line:a8692e
+Dad: Why if it isn’t the Mayor of Possum Springs herself. #line:2a7a45
+Dad: What did you get up to today? #line:e6fd1d
+Mae: Hung out with Angus a bit. You remember him? #line:e169ca
+Dad: Oh yeah! I like Angus. He’s smart. #line:6ef5b0
+Dad: In the old days I used to work with his dad. #line:d4428c
+Dad: I know they fell on some hard times after we all got laid off. #line:df4aa4
+Dad: Used to see him at the bar… #line:38d001
+Mae: Yeah. #line:7e7109
+Dad: After I stopped drinking I didn’t really see him as much. #line:0233a5
+Dad: I wonder how he is. #line:fb5aac
+<<set $dad_knows_angus to 1>>
+
+===
+title: Dad_A1D2_1
+tags: 
+colorID: 2
+position: -1609,1114
+---
+Dad: Did they find out anything about that arm? #line:0f180a
+Mae: Not that I heard. #line:4561e5
+Dad: huh. Well, be careful out there. #line:720477
+Mae: Maybe I should carry mace or brass knuckles or something. #line:af22be
+Dad: Well it’d be a shame if you got into trouble #line:25daa0
+Dad: and were unarmed. #line:4eba4f
+Mae: Naw, I think I’ll be ok. #line:87b1c6
+Dad: ... #line:5d4876
+Mae: What? #line:c36882
+Dad: ... #line:d31ebe
+Mae: HA HA HA HA HA ok I get it. #line:2bdffd
+Dad: UN-ARMED??? EH?? #line:e2acc6
+Mae: I’m going to bed now. #line:b463f4
+Dad: Goodnight Mayor Kitten. #line:d4b644
+Mae: Goodnight! #line:55b54e
+<<unlockDoodle DadStillFunny>>
+===
+title: Internal
+tags: demo
+colorID: 0
+position: -555,-1026
+---
+<<if $mae_room_internal is 0>>
+    Mae: {width=5}If I don't get out of this room I am probably going [speed=.7][color=999]to burn it down with me in it.[/all] #line:78ef14
+    <<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 1>>
+    Mae: {width=3}I bet someone has done that. For like [color=999]political reasons.[/all] #line:0eca98
+    <<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 2>>
+    Mae: {width=3}I wonder what would be left if I did [speed=.7][color=999]burn the room down with me in it?[/all] #line:df3fbf
+    <<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 3>>
+    Mae: {width=3}Bones probably. Copper pipes. [speed=.7][color=999]A shrieking phantom.[/all] #line:63e0cc
+    <<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 4>>
+    Mae: {width=3}"Yeah, this is a good location" #line:8890a0
+    Mae: "but I hear there was once a house here and a girl burned it down." #line:b94fbb
+    Mae: "[speed=.5][color=999]With her inside it.[/all]" #line:388901
+    <<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 5>>
+    Mae: {width=3}"We like to mention that to potential buyers."[/all] #line:f277a2
+    <<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 6>>
+    Mae: {width=3}"There is a lot of screaming." #line:01346d
+    Mae: "[speed=.7][color=999]I mean was."[/all] #line:7ad456
+    <<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 7>>
+    Mae: {width=3}In fact, she did it on a night [speed=.7][color=999]JUST LIKE TONIGHT...[/all] #line:53d9a4
+    <<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 8>>
+    Mae: {width=3}And that's why I should [wave]go outside.[/all] #line:b0554a
+    <<set $mae_room_internal += 1>>
+<<elseif $mae_room_internal is 9>>
+    Mae: {align=top,furthestLocator,emote=maeburn,emoteAlign=middle} #line:33f8d1
+<<endif>>
+===
+title: Couch
+tags: 
+colorID: 0
+position: -3202,242
+---
+<<sit>>
+<<if $act > 0>>
+    <<if $night is 1>>
+        Dad: You're on the couch! #line:a96141
+    <<endif>>
+<<endif>>
+<<waitForInteractOrJump>>
+===
+title: EnterLevel_A1D2
+tags: 
+colorID: 2
+position: -1748,545
+---
+
+===
+title: Dad_A1D3
+tags: 
+colorID: 2
+position: -1315,1134
+---
+[[A1D3_PartyPrep]]
+===
+title: InitLevel_A2D3
+tags: 
+colorID: 3
+position: 222,326
+---
+<<if $night is 0>>
+    <<if $mom_home > 0>>
+        <<setAnimInt Mom gloomy 1>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<else>>
+	<<hide Mom>>
+    <<show Dad>>
+    <<sit Dad>>
+	<<hide Bea>>
+<<endif>>
+===
+title: InitLevel_A2D4
+tags: 
+colorID: 3
+position: 541,340
+---
+<<if $night is 0>>
+    <<if $mom_home > 0>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<else>>
+	<<hide Mom>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<endif>>
+===
+title: InitLevel_A3D1
+tags: 
+colorID: 4
+position: 816,347
+---
+<<if $night is 0>>
+    <<if $mom_home > 0>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<else>>
+	<<hide Mom>>
+	<<show Dad>>
+    <<sit Dad>>
+	<<hide Bea>>
+<<endif>>
+
+<<if $night is 0>>
+    <<set $mom_stairs to 1>>
+
+    <<if $mom is 0>>
+        <<set $door_blocker to 1>>
+    <<else>>
+        <<set $door_blocker to 0>>
+    <<endif>>
+<<endif>>
+===
+title: InitLevel_A3D2
+tags: 
+colorID: 4
+position: 1314,344
+---
+<<if $night is 0>>
+    <<if $mom_home > 0>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<else>>
+	<<hide Mom>>
+	<<show Dad>>
+    <<sit Dad>>
+	<<hide Bea>>
+<<endif>>
+===
+title: InitLevel_A3D3
+tags: 
+colorID: 4
+position: 1922,344
+---
+<<if $night is 0>>
+    <<if $mom_home > 0>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<else>>
+	<<hide Mom>>
+	<<show Dad>>
+    <<sit Dad>>
+	<<hide Bea>>
+<<endif>>
+===
+title: InitLevel_A3D4
+tags: 
+colorID: 4
+position: 2336,346
+---
+<<if $night is 0>>
+    <<if $mom_home > 0>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<else>>
+	<<hide Mom>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<endif>>
+===
+title: GarboCheck
+tags: 
+colorID: 3
+position: -545,1699
+---
+<<if $knows_crawlspace_boxes and $mae_house_boxes_moved is 0>>
+    <<if $watched_tv_with_dad is 0>>
+        Mae: Hey Dad, would you mind moving the boxes in the crawlspace? #line:0bf8f8
+        Dad: Well what have you done for me lately? #line:9cc0f9
+        -> Been an excellent daughter. #line:dc903e
+        -> Been a credit to this family. #line:ca8494
+        Dad: That doesn't count. #line:4e1bd9
+        Dad: Well would you watch some TV with me? #line:a3e131
+    <<elseif $watched_tv_with_dad is 1>>
+        Mae: Um... what about those boxes I asked about? In the crawlspace? #line:6504a3
+        Dad: Hmm. I'm thinking about it. #line:71648a
+        Dad: Watch some TV with me? #line:cacea9
+    <<else>>
+        <<set $dad_will_move_boxes to 1>>
+        Mae: So how about those crawlspace boxes? #line:bae66b
+        Dad: Yeah, okay. I'll move 'em. #line:af6dff
+        Dad: TV time? #line:4645ef
+    <<endif>>
+<<else>>
+    Dad: You staying up? #line:8377c5
+<<endif>>
+[[Yeah for a little bit.|YeahForALittleBit]] #line:b8023a
+[[Nah, I'm heading to bed.|NawImHeadingToBed]] #line:5612b4
+===
+title: YeahForALittleBit
+tags: 
+colorID: 3
+position: -396,2059
+---
+<<set $dad_done to 1>>
+<<if $watched_tv_with_dad is 0>>
+    Dad: Hop up. I'm watching Garbo and Malloy. #line:7c8930
+<<elseif $watched_tv_with_dad is 1>>
+    Dad: Perfect timing, Garbo and Malloy is starting. #line:47cd7f
+<<endif>>
+
+<<if $player_y * 10 > -14>>
+    <<playerFallThrough wait>>
+<<endif>>
+<<walk Mae MaeCouch>>
+<<if $watched_tv_with_dad is 0>>
+    Mae: Niiiiiiice. #line:329928
+<<elseif $watched_tv_with_dad is 1>>
+    Mae: Aw yes. #line:0cb385
+<<endif>>
+<<close>>
+<<set $watched_tv_with_dad += 1>>
+<<waitForMove Mae>>
+<<cameraLookAt CameraTV 1>>
+<<sit>>
+<<tell TVOverlay Show>>
+<<wait 2>>
+<<if $act is 2 and $day is 1>>
+    [[GarboAndMalloy_A2D1]]
+<<elseif $act is 2 and $day is 2>>
+    [[GarboAndMalloy_A2D2]]
+<<elseif $act is 2 and $day is 3>>
+    [[GarboAndMalloy_A2D3]]
+<<else>>
+    [[EndTV]]
+<<endif>>
+===
+title: NawImHeadingToBed
+tags: 
+colorID: 3
+position: -635,2083
+---
+Dad: Sounds like a plan. #line:194061
+<<set $dad_done to 1>>
+===
+title: Dad_A2D2_0
+tags: 
+colorID: 3
+position: -95,1330
+---
+Mae: How's work? #line:5b5378
+Dad: Ya know. Better than the glass factory! #line:d0800b
+Mae: Is it? #line:599042
+Dad: I've mined, I've ran machines, #line:1a903c
+Dad: but now I get to slice steaks #line:79a304
+Dad: and hock salamis. #line:420af1
+Dad: I mean, it's easier on the back that's for sure. #line:d68f09
+Mae: But like, do you like it? #line:52ea43
+Dad: I like havin' a paycheck! #line:70d00a
+Mae: Fair. #line:344e67
+Dad: Paychecks: the sweetest meats of all. #line:d200fb
+<<unlockDoodle DadStillFunny>>
+===
+title: Dad_A2D2
+tags: 
+colorID: 3
+position: -350,920
+---
+<<if $dad is 0>>
+	<<set $dad += 1>>
+	[[Dad_A2D2_0]]
+<<elseif $dad is 1>>
+	<<set $dad += 1>>
+	[[Dad_A2D2_1]]
+<<elseif $dad is 2>>
+    [[GarboCheck]]
+<<endif>>
+===
+title: Dad_A2D2_1
+tags: 
+colorID: 3
+position: 144,1255
+---
+Dad: What'd you do tonight? #line:9e6505
+Mae: Oh ya know. Stuff. #line:53b8f4
+Mae: tired. #line:b3e734
+Mae: Feel like I just did a day's work. #line:b76f8a
+Dad: You know, there are places you can get paid for work these days. #line:365dc5
+Mae: Oh really? #line:4f4fbf
+Dad: Yeah, they call it working. #line:182831
+Mae: Huh. You kids with your slang. #line:66481a
+Dad: Slang you could pick up at work. #line:30d513
+Mae: ok yes point made #line:f0b0ab
+===
+title: Dad_A2D3_0
+tags: 
+colorID: 3
+position: 332,956
+---
+Dad: Oof. #line:078a89
+Mae: What's up? #line:43fbef
+Dad: Long day. #line:245954
+Mae: Yeah, same here. #line:b472cd
+Dad: How's socializing? #line:424ab1
+Mae: Surprisingly tiring sometimes. #line:35d7f5
+Dad: Yeah. That's why I don't do much of it! #line:8086c6
+<<if $did_bea_friendship_quest_3 is 1>>
+	Dad: Pleasant surprise seeing you at work tonight #line:9c64ed
+	Mae: Yeah! I can't believe I hadn't visited yet. #line:84ab3c
+	Dad: Well you haven't been back long. #line:3306d7
+	Dad: And you're not usually lurking at the Ham Panther. #line:21407b
+	Mae: Who's to say I'm not? #line:a3a1c4
+	Dad: Well it was nice seeing you anyway. #line:1ab86f
+	Mae: Lurk lurk. #line:4e0dc9
+<<endif>>
+<<unlockDoodle DadStillFunny>>
+===
+title: Dad_A2D3_1
+tags: 
+colorID: 3
+position: 553,954
+---
+<<if $mom > 0 or $mom_church > 0>>
+	Mae: Any idea what was up with mom today? #line:3b78ec
+	Dad: Oh, she's just stressed. #line:4330b7
+<<else>>
+	Mae: You seem a little stressed tonight. #line:c20001
+	Dad: Yeeeep. A bit stressed. #line:50e18f
+	Mae: Stressed about... #line:0c10e7
+	Dad: Oh, just stuff. #line:cd5227
+<<endif>>
+Mae: That's vague. #line:121a5f
+Dad: Ha ha, well. #line:009480
+Dad: I hate to be the one to break it to you #line:968041
+Dad: but you spend a lot of adulthood being vaguely stressed. #line:e8e56f
+Mae: Aw dang. #line:1108fa
+Mae: I thought the stress would at least get more specific. #line:f28cfa
+Dad: Oh no you'll have that too. #line:cf9090
+Mae: hrm. #line:0092b0
+Dad: Cheer up, kiddo. It's only life. #line:1fb4ef
+Mae: Gee, thanks pop. #line:2d3971
+
+===
+title: Dad_A2D3
+tags: 
+colorID: 3
+position: 265,713
+---
+<<if $dad is 0>>
+	<<set $dad += 1>>
+	[[Dad_A2D3_0]]
+<<elseif $dad is 1>>
+	<<set $dad += 1>>
+	[[Dad_A2D3_1]]
+<<elseif $dad is 2>>
+    [[GarboCheck]]
+<<endif>>
+===
+title: Dad_A3D1_0
+tags: 
+colorID: 4
+position: 781,873
+---
+<<if $big_fight is 0>>
+    Mae: =_= #line:2fa54d
+	Mae: Urgh. #line:cc510e
+	Dad: Urgh? #line:dbde72
+	Mae: Feeling kinda beat tonight. #line:288fb6
+	Dad: Aw poor Mae. Anything I can do? #line:53c8ef
+	Mae: I... #line:8c841c
+	Mae: no. #line:3536ee
+	Mae: I don't know. #line:661d6e
+	Dad: Well if you figure it out, let me know. #line:375853
+	Mae: Thanks, dad. #line:0c32fb
+    Mae: o_o #line:560842
+<<else>>
+    Mae: =_= #line:b68556
+    Mae: Urgh #line:ec24cd
+	Dad: Yeah, seems like that's going around. #line:014790
+	Dad: The Urgh. #line:b0c080
+	Mae: Yeppers. #line:fac340
+	Dad: So... uh... you and mom had a bit of a fight yesterday, huh? #line:390085
+	Mae: yeah. #line:65d96b
+	Dad: I thought you two were getting along? #line:7bf69d
+    Mae: o_o #line:f32d0d
+        ->we were #line:8d4fbe
+            Mae: but we talked about it. #line:5a3732
+        ->we are #line:c746a1
+            Mae: just a bump #line:6382eb
+            Dad: You two. Always too alike. #line:de964c
+            Mae: I guess. #line:06f609
+            Mae: I got your chill and her smartass... ness. #line:ad7bad
+    Dad: I'd just hate to see you two on the outs again. #line:3b73e4
+    Mae: It'll be fine. We're cool. #line:a369d3
+    <<if $money_trouble is 1>>
+		Mae: So we're having money problems? #line:4fbdb7
+        Dad: What? No. We're fine. #line:664765
+        Mae: Dad. #line:7ff416
+        Dad: Mae. It's fine. #line:7caffd
+		Mae: It's ok. I'm 20. I can handle it. #line:5771cb
+        Dad: Nothing to handle. #line:036189
+        Mae: ok. #line:54ef6d
+    <<endif>>
+<<endif>>
+===
+title: Dad_A3D1_1
+tags: 
+colorID: 4
+position: 1022,853
+---
+Mae: Might just head up to bed tonight. #line:c7c352
+Dad: Sounds good, kid. Been a long couple days. #line:f228b9
+===
+title: Dad_A3D1
+tags: 
+colorID: 4
+position: 843,617
+---
+<<if $dad is 0>>
+	<<set $dad += 1>>
+	[[Dad_A3D1_0]]
+<<elseif $dad is 1>>
+	<<set $dad += 1>>
+    <<set $dad_done to 1>>
+	[[Dad_A3D1_1]]
+<<endif>>
+===
+title: Dad_A3D2_0
+tags: 
+colorID: 4
+position: 1312,917
+---
+Mae: =_= #line:fa44da
+Mae: Hey dad. #line:aef4d0
+Dad: Hey you. #line:0df9c9
+Dad: You ok? #line:5be292
+Mae: Yeah. Weird night. #line:19893c
+Dad: You look really worn out. #line:ffddec
+Mae: Yeah... #line:7749e5
+Mae: o_o #line:5b9509
+===
+title: Dad_A3D2_1
+tags: 
+colorID: 4
+position: 1553,913
+---
+Dad: Geez. I am sore tonight. #line:146fb2
+Dad: Need a backbrace or something. #line:9538b1
+Dad: How do you do it? #line:3824ef
+Mae: Do what? #line:1645b9
+Dad: Always running and jumping around all crazy #line:b98c75
+Mae: I dunno. I mean I'm really out of shape. #line:69b725
+Mae: I don't think I've ever been *in* shape. #line:849c12
+Dad: I used to be, but that was because of my job. #line:2c87e2
+Dad: New job don't require much like that. #line:9fe9b2
+Mae: yeah. #line:685eab
+<<wait 2>>
+<<if $did_mom_friendship_quest is 1>>
+    Dad: Heard you and your mom went on an adventure today? #line:7219db
+    Mae: :) #line:785b87
+    Mae: Ha ha yeah. #line:49f96a
+    Dad: She talked about it all through dinner. #line:4cd2e5
+    Dad: You should, you know, be home for dinner sometime. #line:df086f
+    Mae: :| #line:f9c309
+    Mae: Yeah. #line:c2b39b
+    Dad: Yeah? #line:e79a9c
+    Mae: Yeah. #line:a5eb96
+<<endif>>
+Dad: Ok, go to bed, you. #line:d6142c
+Mae: Will do. #line:39d558
+===
+title: Dad_A3D2
+tags: 
+colorID: 4
+position: 1389,628
+---
+<<if $dad is 0>>
+	<<set $dad += 1>>
+	[[Dad_A3D2_0]]
+<<elseif $dad is 1>>
+	<<set $dad += 1>>
+    <<set $dad_done to 1>>
+	[[Dad_A3D2_1]]
+<<endif>>
+===
+title: Dad_A3D3_0
+tags: 
+colorID: 4
+position: 1983,845
+---
+<<toggleSitSwings Mae 0>>
+Mae: =_= #line:94b302
+Mae: Hi. #line:fde606
+Dad: Hello. #line:5bd112
+Dad: Oh wow. Are you ok? #line:32ffee
+Mae: No. #line:46d7cb
+Mae: o_o #line:6b9491
+<<close>>
+<<if $player_y * 10 > -14>>
+    <<playerFallThrough wait>>
+<<endif>>
+<<walk Mae MaeCouch>>
+<<waitForMove Mae>>
+<<cameraLookAt CameraTV 1>>
+<<sit>>
+Dad: Ok #line:cd01cc
+Dad: so what's going on? #line:e53344
+Mae: I don't think I can talk about it. #line:316d2b
+Dad: You're gonna have to start talking sometime, kitten. #line:adbd65
+Mae: I wish I could. #line:5a5946
+Dad: Why can't you? #line:ec3906
+    ->I don't even know. #line:830142
+        Dad: that's how it is sometimes #line:1842fb
+        Dad: but it's not always a great reason. #line:034ef5
+        Mae: i know. #line:8d2419
+    ->where to even start? #line:f28656
+Mae: it's just #line:963142
+Mae: i've been having these dreams #line:fc903f
+Mae: and i keep thinking i see a ghost #line:fb5803
+Dad: a ghost? #line:50281b
+Mae: and i've had these horrible nightmares #line:b78818
+Mae: that feel really real #line:9b02de
+Mae: and i think something really bad is going to happen #line:e2d592
+Mae: and i've been running around doing all this stupid stuff #line:4f67cb
+Mae: and where's it all going? #line:a82f4f
+Mae: what even is my life right now? #line:ad71f4
+Mae: i think i patched up some stuff tonight #line:cfec61
+Mae: but like #line:1436bf
+Mae: -_- :( #line:992ef6
+Mae: everyone is on their way somewhere else #line:31ee9f
+<<if $big_fight>>
+	Mae: and I had that big fight with mom. #line:59f255
+    Dad: Kitten, it's ok. #line:a135b8
+<<endif>>
+<<if $money_trouble>>
+	Mae: and that's not even counting the money problems. #line:21bfb0
+	Dad: Yeah. #line:7fbcb0
+    Dad: Money problems make everything worse. I know it. #line:9752ab
+    Mae: and i can't do anything about it #line:dc53dc
+    Mae: i don't even know if i could hold down a job #line:e345cb
+    Mae: and how am i ever going to survive #line:72b4a9
+<<endif>>
+Mae: and- and- and #line:fe2294
+Dad: shhhhh, kitten #line:b79a46
+Dad: take a breath. #line:47549d
+Mae: ok. ok. ok. #line:6e7c87
+Mae: o_o :( #line:baa145
+<<wait 4>>
+Dad: Why don't you get some sleep? #line:17c094
+Mae: ... #line:8c2280
+Mae: Can I just stay down here for a bit? #line:c6f827
+<<wait 3>>
+Dad: As long as you like. #line:5a4c8f
+Mae: :| #line:c6c573
+<<close>>
+<<wait 2>>
+[[GarboAndMalloy_A3D3]]
+===
+title: PreInitLevel
+tags: 
+colorID: 0
+position: -2996,0
+---
+<<if $night is 0>>
+    <<play MaeHouseMusic>>
+<<else>>
+    <<musicFadeOut 4>>
+<<endif>>
+===
+title: InitMaeHouseFromGreggAngusApartment
+tags: 
+colorID: 0
+position: -2528,16
+---
+<<playerFace -1>>
+===
+title: MomStairs
+tags: 
+colorID: 0
+position: -3049,563
+---
+<<set $mom_stairs to 0>>
+
+<<if $act is 1 and $day is 1>>
+    Mom: Honey? #line:f67413
+    Mae: Yeah? #line:358f82
+    Mom: Come see me in the kitchen before you leave! #line:51695a
+    Mae: Okay! #line:a95b57
+<<elseif $act is 1 and $day is 2>>
+    Mom: Hey Hon. #line:dabc28
+    Mae: Yeah? #line:e9ad3d
+    Mom: Come say Hi. #line:dd2ae9
+<<elseif $act is 2 and $day is 1>>
+    [[MomStairsA2D1]]
+<<elseif $act is 3 and $day is 1>>
+    Mom: Hey Hon. #line:62e327
+    Mae: Yeah? #line:78fb80
+    Mom: Come say hello whydoncha? #line:e39823
+<<elseif $act is 4 and $day is 2>>
+    Mom: You were in a coma! Come talk to me. #line:9ea87b
+<<elseif $act is 4 and $day is 3>>
+    Mom: Mae honey? Is that you? #line:be229c
+    Mae: yeah! #line:fd156b
+    Mom: I'm back in the kitchen #line:d0fc84
+    Mom: if you want to talk... #line:983e34
+<<endif>>
+===
+title: EndTV
+tags: 
+colorID: 3
+position: -444,2458
+---
+<<close>>
+<<tell TVOverlay to Hide>>
+<<wait 2>>
+<<cameraFollowPlayer 1>>
+===
+title: GarboAndMalloy_A2D2
+tags: 
+colorID: 3
+position: -23,2079
+---
+<<animate TV Logo>>
+<<tell _AmbientSFX:GarboAndMalloy Play>>
+<<wait 5.5>>
+//======================================
+<<animate TV MalloyTalk>>
+TV: aaaah, yes. #line:7bcec6
+<<animate TV GarboTalk>>
+TV: you know we like to get political here #line:0066f1
+<<animate TV MalloyTalk>>
+TV: gotta do it! Gotta! #line:4b034d
+<<animate TV GarboTalk>>
+TV: you hear about this new law on the books #line:614191
+<<animate TV GarboTalk>>
+TV: pirating a movie online, you know about that? #line:72c9a6
+<<animate TV MalloyTalk>>
+TV: i do. #line:80f050
+<<animate TV GarboTalk>>
+TV: punishable by up to 10 years in prison! #line:26fb19
+<<animate TV MalloyTalk>>
+TV: wow! And  here i’ve been trying to get in the hard way! #line:a9de4d
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV GarboStare>>
+<<wait 2>>
+<<animate TV GarboTalk>>
+TV: he has, folks! #line:237c98
+<<animate TV MalloyTalk>>
+TV: Wonder if pirating a movie about first degree murder #line:fe6dab
+<<animate TV MalloyTalk>>
+TV: earns you more prison respect than one about grand larceny? #line:43bdbd
+<<animate TV GarboTalk>>
+TV: hey Malloy, you know what i think about that law? #line:08d37e
+<<animate TV MalloyTalk>>
+TV: what Garbo? #line:490b91
+<<animate TV GarboTalk>>
+TV: . . . “that’s a whoppah!” #line:e06198
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV MalloyLaugh>>
+<<wait 2>>
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV MalloyStare>>
+<<wait 2>>
+<<animate TV MalloyTalk>>
+TV: Coming up next: Stupid Sandwiches! #line:cb14fd
+//======================================
+<<animate TV Static>>
+<<wait 3>>
+[[EndTV]]
+===
+title: GarboAndMalloy_A2D1
+tags: 
+colorID: 3
+position: -43,1803
+---
+<<animate TV Logo>>
+<<tell _AmbientSFX:GarboAndMalloy Play>>
+<<wait 5.5>>
+//======================================
+<<animate TV GarboTalk>>
+TV: Welcome back folks! #line:c3454a
+<<animate TV MalloyTalk>>
+TV: Hell of a show tonight. #line:e13728
+<<animate TV GarboTalk>>
+TV: Say, Malloy #line:532564
+<<animate TV MalloyTalk>>
+TV: Yes, Garbo #line:0926ee
+<<animate TV GarboTalk>>
+TV: Ever get the feeling that disaster’s right around the corner? #line:1dc2ab
+<<animate TV MalloyTalk>>
+TV: Sure do, right before we start the show every night! #line:639f74
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV GarboStare>>
+<<wait 2>>
+<<animate TV MalloyTalk>>
+TV: You superstitious, Garbo? #line:e08544
+<<animate TV GarboTalk>>
+TV: Not anymore! #line:b096fe
+<<animate TV MalloyTalk>>
+TV: What happened! #line:c6798f
+<<animate TV GarboTalk>>
+TV: I’ve broken every mirror I’ve ever owned #line:381273
+<<animate TV GarboTalk>>
+TV: and now I’m lucky enough to never have to look at this mug! #line:a291c6
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV GarboLaugh>>
+<<wait 2>>
+<<animate TV MalloyTalk>>
+TV: yeah but whattabout the rest of us? #line:346f83
+<<animate TV GarboTalk>>
+TV: Wha-? “that’s a whoppah!” #line:63585b
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV MalloyLaugh>>
+<<wait 2>>
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV GarboLaugh>>
+<<wait 2>>
+<<animate TV MalloyTalk>>
+TV: Coming up next: Garbo and I join a cult! #line:ffada8
+//======================================
+<<animate TV Static>>
+<<wait 3>>
+[[EndTV]]
+===
+title: GarboAndMalloy_A2D3
+tags: 
+colorID: 3
+position: -16,2317
+---
+<<animate TV Logo>>
+<<tell _AmbientSFX:GarboAndMalloy Play>>
+<<wait 5.5>>
+//======================================
+<<animate TV GarboTalk>>
+TV: And we’re back! #line:d40c2d
+<<animate TV GarboTalk>>
+TV: Great crowd in here tonight! #line:3ffff7
+<<animate TV MalloyTalk>>
+TV: we’d never leave for too long, folks! #line:ba84da
+<<animate TV MalloyTalk>>
+TV: say Garbo! #line:765818
+<<animate TV GarboTalk>>
+TV: yeah malloy? #line:d63e52
+<<animate TV MalloyTalk>>
+TV: crowds like this remind me of our early days #line:3ed27f
+<<animate TV GarboTalk>>
+TV: i disagree. None of them are angry and drunk! #line:1759a3
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV GarboStare>>
+<<wait 2>>
+<<animate TV GarboTalk>>
+TV: most of ‘em anyway. #line:411f33
+<<animate TV MalloyTalk>>
+TV: no, i mean those old nights, those good nights #line:65b695
+<<animate TV MalloyTalk>>
+TV: just the heat of the stagelights and the thrill of winging it! #line:e782e9
+<<animate TV GarboTalk>>
+TV: and the gentle thump of an empty beer bottle thrown at your head! #line:45d523
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV GarboLaugh>>
+<<wait 2>>
+<<animate TV MalloyTalk>>
+TV: These days things are pretty cushy! #line:cf78fa
+<<animate TV GarboTalk>>
+TV: You think we’re getting soft? #line:8bb135
+<<animate TV MalloyTalk>>
+TV: You sure are… AROUND THE MIDSECTION #line:2decc2
+<<animate TV GarboTalk>>
+TV: “that’s a whoppah!” #line:aaedac
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV GarboStare>>
+<<wait 2>>
+<<animate TV GarboTalk>>
+TV: Malloy, it’s company policy to never body-shame! #line:96fe6b
+<<animate TV MalloyTalk>>
+TV: oh, i never worry about that, Garbo. #line:e0d9bf
+<<animate TV GarboTalk>>
+TV: why is that, Malloy? #line:941f58
+<<animate TV MalloyTalk>>
+TV: I’m what you call bodyshameless! #line:82818f
+<<playOneShot event:/bus_station/tv_applause TV>>
+<<animate TV MalloyStare>>
+<<wait 2>>
+<<playOneShot event:/bus_station/tv_applause TV>>
+<<animate TV GarboLaugh>>
+<<wait 2>>
+<<animate TV MalloyTalk>>
+TV: Coming up next: Garbo and I go to counseling! #line:ade683
+//======================================
+<<animate TV Static>>
+<<wait 3>>
+[[EndTV]]
+===
+title: Picture_A1D1
+tags: 
+colorID: 2
+position: -3823,-1153
+---
+Mae: {align=middle,locator=picture,width=2} I was so cute then. We were all so cute then.:) #line:2052d8
+Mae: {align=middle,locator=picture} Cuties, the lot of us. #line:bd7153
+Mae: {align=middle,locator=picture} We could have a traveling show. The Cute Borowskis.:| #line:6afd37
+<<set $mae_house_picture_done to 1>>
+===
+title: Picture_A1D3
+tags: 
+colorID: 2
+position: -3824,-913
+---
+Mae: Home again. #line:f3ee7d
+Mae: Where the people know my name #line:b339d9
+Mae: and my mom's name #line:349ec0
+Mae: and my dad's name #line:9b4981
+Mae: and about the time I put that kid in the hospital. #line:4fcff3
+<<set $mae_house_picture_done to 1>>
+===
+title: Picture_A3D1
+tags: 
+colorID: 4
+position: -3334,-1154
+---
+Mae: Hm. #line:8489bd
+Mae: We're all looking a bit older I guess. #line:292f1e
+Mae: weird to take like one moment #line:d037df
+Mae: and make it like #line:4c80cc
+Mae: the official version of us. #line:c3a2bd
+<<set $mae_house_picture_done to 1>>
+===
+title: Picture_A2D4
+tags: 
+colorID: 3
+position: -3584,-920
+---
+Mae: I've definitely grown quite a bit since then. #line:aa30a4
+Mae: A little bit taller #line:4f706a
+Mae: a regular bit wider. #line:be6db3
+Mae: Granddad said I was "sturdy". #line:8938e2
+<<wait 2>>
+Mae: screw it. I *AM* sturdy. #line:927b65
+<<set $mae_house_picture_done to 1>>
+===
+title: Picture_A2D1
+tags: demo2 
+colorID: 3
+position: -3587,-1149
+---
+Mae: Afternoon, us. #line:f41b8b
+<<set $mae_house_picture_done to 1>>
+===
+title: HarfestExit
+tags: 
+colorID: 3
+position: 532,610
+---
+<<playerFace -1>>
+Mae: Hello? #line:72cd3e
+Mae: Hm. They must already be out. #line:a18f19
+<<close>>
+<<unlockDoodle Halloween>>
+<<playerFace 1>>
+<<walk Mae DoorExit>>
+<<irisOut 1 wait>>
+<<sectionTitle Harfest TowneCentreEast_Harfest left>>
+===
+title: GarboAndMalloy_A3D3
+tags: 
+colorID: 4
+position: 1965,1122
+---
+<<close>>
+<<tell TVOverlay Show>>
+<<wait 2>>
+<<animate TV Logo>>
+<<wait 5.5>>
+//========================
+<<animate TV GarboTalk>>
+TV: Malloy. #line:b3bb5a
+<<animate TV MalloyTalk>>
+TV: Garbo. #line:822616
+<<animate TV GarboTalk>>
+TV: Ever think about, ya know, the afterlife? #line:7b8092
+<<animate TV MalloyTalk>>
+TV: I don’t have a life as it is! #line:6ba27b
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV MalloyLaugh>>
+<<wait 2>>
+<<animate TV MalloyTalk>>
+TV: why, garbo? Do you think there’s someone up there watching? #line:c351cb
+<<animate TV GarboTalk>>
+TV: hey, i just hope anyone’s watching at this time slot! #line:4e49b1
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV MalloyLaugh>>
+<<wait 2>>
+<<playOneShot event:/bus_station/tv_applause TV>>
+<<animate TV GarboStare>>
+<<wait 2>>
+<<animate TV MalloyTalk>>
+TV: these are the big questions, Garbo #line:d7ee3e
+<<animate TV GarboTalk>>
+TV: don’t get any bigger, Malloy! #line:b29882
+<<animate TV MalloyTalk>>
+TV: are you a churchgoer, Garbo? #line:05a952
+<<animate TV GarboTalk>>
+TV: hey, the last time i was in church- they hadn’t invented religion yet! #line:2f7b24
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<animate TV MalloyLaugh>>
+<<wait 2>>
+<<animate TV MalloyTalk>>
+TV: you were making it up as we went along! #line:5738b4
+<<animate TV GarboTalk>>
+TV: “ok so we all think there’s a god, right?” #line:0e726e
+<<animate TV MalloyTalk>>
+TV: “we should have potlucks!” #line:b1edf4
+<<animate TV MalloyTalk>>
+TV: can’t have a church without potlucks! #line:b571d8
+<<animate TV GarboTalk>>
+TV: ya could, Malloy #line:df5acf
+<<animate TV GarboTalk>>
+TV: but it #line:169ada
+<<animate TV GarboTalk>>
+TV: would be #line:d502c0
+//Malloy stares for 2 seconds
+<<animate TV MalloyStare>>
+<<wait 2>>
+<<animate TV GarboTalk>>
+TV: “A WHOPPAH!” #line:c6965d
+<<playOneShot event:/bus_station/tv_cheering TV>>
+<<animate TV MalloyLaugh>>
+<<wait 2>>
+<<animate TV GarboLaugh>>
+<<wait 2>>
+<<animate TV MalloyLaugh>>
+<<wait 2>>
+<<animate TV GarboStare>>
+<<wait 2>>
+<<animate TV MalloyTalk>>
+TV: coming up next: Garbo and I contact the dead! #line:c31e3f
+//========================
+<<animate TV Static>>
+<<wait 3>>
+[[EndTV]]
+===
+title: Dad_A3D3
+tags: 
+colorID: 4
+position: 1983,594
+---
+<<if $dad is 0>>
+	<<set $dad += 1>>
+    <<set $dad_done to 1>>
+	[[Dad_A3D3_0]]
+<<endif>>
+===
+title: InitLevel_A4D2
+tags: 
+colorID: 5
+position: 2986,357
+---
+<<if $night is 0>>
+    <<if $mom_home > 0>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<else>>
+	<<hide Mom>>
+	<<hide Bea>>
+<<endif>>
+
+<<if $night is 0>>
+    <<set $mom_stairs to 1>>
+
+    <<if $mom is 0>>
+        <<set $door_blocker to 1>>
+    <<else>>
+        <<set $door_blocker to 0>>
+    <<endif>>
+<<endif>>
+===
+title: InitLevel_A4D3
+tags: 
+colorID: 5
+position: 3258,368
+---
+<<if $night is 0>>
+    <<if $mom_home > 0>>
+        <<sit Mom>>
+    <<else>>
+        <<hide Mom>>
+    <<endif>>
+	<<hide Dad>>
+	<<hide Bea>>
+<<else>>
+	<<hide Mom>>
+	<<hide Bea>>
+<<endif>>
+
+<<if $night is 0>>
+    <<set $mom_stairs to 1>>
+
+    <<if $mom is 0>>
+        <<set $door_blocker to 1>>
+    <<else>>
+        <<set $door_blocker to 0>>
+    <<endif>>
+<<endif>>
+===
+title: MomStairsA2D1
+tags: demo2
+colorID: 0
+position: -2790,568
+---
+Mom: Mae? #line:7b3670
+Mae: Yeah? #line:190a5a
+Mom: Come say Hi! #line:e0b858
+Mae: Okay! #line:17e307
+===
+title: BirdCage_A1D2
+tags: 
+colorID: 2
+position: -3471,-2424
+---
+Mae: Ugh. I have never liked this bird. #line:a19f92
+<<set $mae_house_bird_cage_done to 1>>
+===
+title: BirdCage_A1D3
+tags: 
+colorID: 2
+position: -3485,-2200
+---
+Mae: Hey bird! I'm home!!!! #line:a388fd
+<<set $mae_house_bird_cage_done to 1>>
+===
+title: BirdCage_A1D1
+tags: 
+colorID: 2
+position: -3479,-2659
+---
+Mae: How is this bird still alive? :\ #line:c789af
+Mae: o_o :| #line:bc9575
+<<set $mae_house_bird_cage_done to 1>>
+===
+title: BirdCage_A2D1
+tags: 
+colorID: 3
+position: -3240,-2652
+---
+Mae: 'sup bird. #line:3c8776
+<<set $mae_house_bird_cage_done to 1>>
+===
+title: BirdCage_A2D2
+tags: 
+colorID: 3
+position: -3255,-2417
+---
+Mae: what are you even thinking about in there? #line:174b0a
+<<set $mae_house_bird_cage_done to 1>>
+===
+title: BirdCage_A2D3
+tags: 
+colorID: 3
+position: -3251,-2201
+---
+Mae: i wonder if you can learn to talk to birds. #line:f95456
+<<set $mae_house_bird_cage_done to 1>>
+===
+title: BirdCage_A2D4
+tags: 
+colorID: 3
+position: -3255,-1960
+---
+Mae: hey trashbird. #line:0bd63c
+<<set $mae_house_bird_cage_done to 1>>
+===
+title: BirdCage_A3D1
+tags: 
+colorID: 4
+position: -3010,-2640
+---
+Mae: you're just like #line:e18090
+Mae: the same every day? #line:de7c57
+Mae: what is your bird existence like? #line:ec7ff8
+<<set $mae_house_bird_cage_done to 1>>
+===
+title: BirdCage_A3D2
+tags: 
+colorID: 4
+position: -3004,-2417
+---
+Mae: hey bird. #line:0dc589
+Mae: sorry i'm always rude to you. #line:4e5e59
+<<set $mae_house_bird_cage_done to 1>>
+===
+title: BirdCage_A3D3
+tags: 
+colorID: 4
+position: -3007,-2197
+---
+Mae: Bird. #line:21521a
+Mae: i kinda get you now. #line:e0f276
+Mae: all like trapped and shit. #line:fa2b29
+Mae: i should let you out. #line:9e2cc2
+<<wait 2>>
+Mae: nah. #line:41f0c0
+<<set $mae_house_bird_cage_done to 1>>
+===
+title: BirdCage_A3D4
+tags: 
+colorID: 4
+position: -3002,-1963
+---
+Mae: hey bird. #line:ff5abb
+Mae: things are like #line:309cb2
+Mae: really intense right now. #line:64f027
+Mae: pray to your bird gods for my soul, bird. #line:5cb081
+<<set $mae_house_bird_cage_done to 1>>
+===
+title: BirdCage_A4D3
+tags: 
+colorID: 6
+position: -2736,-2612
+---
+Mae: We're gonna eat you for thanksgiving, bird. #line:e8b0ff
+<<set $mae_house_bird_cage_done to 1>>
+===
+title: Picture_A3D4
+tags: 
+colorID: 4
+position: -3343,-915
+---
+Mae: ... #line:4a26a1
+Mae: ... #line:550e99
+Mae: geez #line:d1f66a
+Mae: feels like it's been years since i got back. #line:c1c570
+Mae: and saw this again. #line:9a92d8
+<<set $mae_house_picture_done to 1>>
+===
+title: Picture_A4D3
+tags: 
+colorID: 6
+position: -3092,-1146
+---
+Mae: god. #line:0e30e5
+Mae: it's us. #line:cad5d4
+Mae: it's just... us. #line:38d590
+Mae: home and us #line:e96af3
+<<wait 2>>
+Mae: i don't know what this feeling is. #line:c2a284
+Mae: but i'm not gonna cry today. #line:cf5d26
+<<set $mae_house_picture_done to 1>>
+===
+title: CheckForSafeCombination
+tags: 
+colorID: 0
+position: -1418,-2813
+---
+<<if $safe_combination is 0>>
+    <<set $safe_combination to 1>>
+    Mae: oh hm #line:d12dab
+    Mae: there's like... #line:fe061b
+    Mae: something written inside this book cover... #line:ec31aa
+    Mae: left 45, Right 100, left 22, left 90, right 15. #line:c590a0
+    Mae: is this like... #line:3ef91b
+    Mae: what is this? #line:545771
+<<endif>>
+===
+title: BookshelfAct1.1
+tags: 
+colorID: 2
+position: -1942,-2432
+---
+Mae: It was pretty great when Grandad gave me that apple crate of old scary stories. #line:c9fd74
+Mae: Not sure how they ended up out here. #line:427374
+Mae: Death Comes To Wigglesbury. #line:f66dad
+Mae: The Fancy Corpse. #line:d41c2a
+Mae: Hellmole Stevenson. #line:192959
+Mae: Necropuss, book the first. #line:21b59a
+Mae: Ladyshark. #line:08da5a
+Mae: The Stoat On Gallows Hill. #line:ed2054
+===
+title: BookshelfAct1.2
+tags: 
+colorID: 2
+position: -1943,-2205
+---
+Mae: Mom has all of her grisly books #line:d0fb7e
+Mae: about creepy crimes and sad children #line:bb46af
+Mae: on a creepy sad shelf in their room. #line:412e0d
+Mae: Oh looks like one of mom's books made it out here. #line:d4aa19
+Mae: ... #line:d5a804
+Mae: "And We Even Ate The Horses" #line:95f9ab
+Mae: "One family's horrfying farm life in the 1880s" #line:5e2e17
+Mae: Geez, mom. #line:44ef10
+===
+title: BookshelfAct1.3
+tags: 
+colorID: 2
+position: -1941,-1981
+---
+Mae: Hey look, some of Dad's books got in here. #line:bad7fe
+Mae: Finches Of North America #line:7d630e
+Mae: World Of Titmice #line:6786dc
+Mae: The Complete Grackle: A Three Volume Set #line:6a910c
+Mae: Owls Are Owlsome! #line:558599
+Mae: Treacherous Cranes. #line:5ec17e
+Mae: ... #line:fda557
+Mae: ...the hell is a grackle? #line:16aabc
+<<end>>
+===
+title: BookshelfAct2.1
+tags: 
+colorID: 3
+position: -1679,-2421
+---
+Mae: This bookshelf is like the ghost of Granddad #line:281559
+Mae: hanging out in the corner. #line:6edba0
+Mae: Maybe not his ghost. #line:67b54d
+Mae: Like, his skeleton. #line:3c467a
+Mae: =_= :( #line:2f6dab
+Mae: ugh ok I just made myself sad #line:cd16ed
+Mae: Why did I come over here? #line:280674
+Mae: :| o_o #line:b8dd2f
+<<unlockDoodle GrandadComeBackToLife>>
+[[CheckForSafeCombination]]
+===
+title: BookshelfAct2.2
+tags: 
+colorID: 3
+position: -1674,-2196
+---
+Mae: Oh yeah! #line:399912
+Mae: Let's see... -_- #line:571c32
+Mae: Where is it... #line:98a457
+Mae: ... #line:fa8847
+Mae: ... #line:7dae04
+Mae: o_o #line:fd4542
+Mae: Oh yeah. Here it is. #line:7b26b9
+Mae: "The Floating Island And Other Stories". #line:1cc1cc
+Mae: Granddad didn't read out of this. #line:962fdf
+Mae: He, like, recited it. From memory. #line:7c1801
+Mae: And made stuff up on top of that. #line:4e0e09
+Mae: To get me to sleep when I was a kid. #line:584b94
+Mae: ... #line:a70559
+Mae: -_- :) #line:61d1e2
+Mae: Miss you, dude. #line:543a23
+Mae: :| o_o #line:1a99c0
+===
+title: BookshelfAct2.3
+tags: 
+colorID: 3
+position: -1671,-1971
+---
+Mae: The Floating Island. #line:a5a6c7
+Mae: geez. #line:031505
+Mae: i'm old. #line:4b2304
+<<end>>
+===
+title: BookshelfAct3.1
+tags: 
+colorID: 4
+position: -1444,-2425
+---
+Mae: Do do do we have any detective books out here? #line:7f0133
+Mae: oh of course. of course we do. #line:50246e
+[[CheckForSafeCombination]]
+===
+title: BookshelfAct3.2
+tags: 
+colorID: 4
+position: -1446,-2199
+---
+Mae: Doooo we have any books about ghosts? #line:e2ec5a
+Mae: like real life ghosts? #line:0df97e
+Mae: dooooo we have any books for nutjobs I guess? #line:d89c21
+===
+title: BookshelfAct3.3
+tags: 
+colorID: 4
+position: -1446,-1981
+---
+Mae: No, this is good. #line:02f7a4
+Mae: research is good. #line:ab034a
+Mae: confront the problem head on. #line:669f3d
+Mae: you're not losing it, dude. #line:227cb3
+Mae: you are in fact keeping it #line:6642d4
+Mae: very close. #line:1494d4
+<<end>>
+===
+title: BookshelfAct4.1
+tags: 
+colorID: 6
+position: -1172,-2401
+---
+Mae: I should like #line:30fd48
+Mae: re-read some of these. #line:3358fe
+Mae: i mean i got time. #line:c91c0f
+Mae: and the cozy months are coming. #line:d4a51c
+===
+title: BookshelfAct4.2
+tags: 
+colorID: 6
+position: -1168,-2180
+---
+Mae: "Shapes From Beyond The Veil Of Space" #line:c99759
+Mae: ok yeah. let's go with that one. #line:52ea36
+===
+title: BookshelfAct4.3
+tags: 
+colorID: 6
+position: -1176,-1952
+---
+Mae: let's see what the back of the book says. #line:89a7c6
+Mae: Released in 1937, #line:642b76
+Mae: "Shapes From Beyond The Veil Of Space" is a towering achievement #line:13c2ee
+Mae: and marks the start of the weird gothic genre. #line:2ca8d9
+Mae: an influence on much of 20th and 21st century horror, #line:712f0e
+Mae: science fiction, #line:8c3e9b
+Mae: and pulp literature, #line:432e1d
+Mae: "Shapes" is sure to make you question #line:6ece9b
+Mae: just how far away the night sky is #line:5e09c4
+Mae: from you #line:d4680f
+Mae: at this moment. #line:fed1d8
+Mae: Cool. #line:6b3bf6
+<<end>>
+===
+title: GrandfatherClockAct1.1
+tags: 
+colorID: 2
+position: -1935,-1565
+---
+Mae: {align=middle,locator=clock} There are a few things hanging around in here from the Old Country. #line:44ce1d
+Mae: {align=middle,locator=clock} This clock, the trunk in the storage room #line:dfc2f1
+Mae: {align=middle,locator=clock} and whatever is buried under the house after the cement incident. #line:2e7563
+===
+title: GrandfatherClockAct1.2
+tags: 
+colorID: 2
+position: -1945,-1344
+---
+Mae: {align=middle,locator=clock} This thing goes off randomly every month or so. #line:161453
+Mae: {align=middle,locator=clock} Little wooden duck pops out. Makes the weirdest sound. #line:d69296
+Mae: {align=middle,locator=clock} Scares dad half to death every time. #line:89d927
+Mae: {align=middle,locator=clock} Used to joke it was Granddad getting even with him from beyond the grave. #line:9cfbe5
+<<end>>
+===
+title: GrandfatherClockAct2.1
+tags: 
+colorID: 3
+position: -1678,-1561
+---
+Mae: {align=middle,locator=clock} god. this thing is intense. #line:ee0f23
+Mae: {align=middle,locator=clock} weird how big clocks are like #line:ad4d30
+Mae: {align=middle,locator=clock} luxury furniture now #line:6891ec
+Mae: {align=middle,locator=clock} since everything has a clock and internet on it. #line:d1b274
+Mae: {align=middle,locator=clock} like having something big that only does one thing #line:2aa4b9
+Mae: {align=middle,locator=clock} is like #line:2f5a6d
+Mae: {align=middle,locator=clock} a statement or something. #line:3bb163
+===
+title: GrandfatherClockAct2.2
+tags: 
+colorID: 3
+position: -1671,-1340
+---
+Mae: {align=middle,locator=clock} Wonder how old this thing is? #line:deac3c
+<<end>>
+===
+title: GrandfatherClockAct3.1
+tags: 
+colorID: 4
+position: -1430,-1558
+---
+Mae: {align=middle,locator=clock} I wonder if the new working clock downstairs #line:a64329
+Mae: {align=middle,locator=clock} thinks this clock is scary. #line:4c65c6
+Mae: {align=middle,locator=clock} Big old thing upstairs #line:342dde
+Mae: {align=middle,locator=clock} Like you, but different, huge, and spooky #line:a174fd
+Mae: {align=middle,locator=clock} making weird noises at night. #line:80e07d
+===
+title: GrandfatherClockAct3.2
+tags: 
+colorID: 4
+position: -1424,-1336
+---
+Mae: {align=middle,locator=clock}Aw, I can't find this thing spooky. #line:952a24
+Mae: {align=middle,locator=clock}It's a piece of granddad. #line:aabb21
+Mae: {align=middle,locator=clock}we need more of those. #line:8d02f5
+<<end>>
+===
+title: GrandfatherClockAct4.1
+tags: 
+colorID: 6
+position: -1182,-1565
+---
+Mae: {align=middle,locator=clock} Hey Granddad's clock. #line:417b50
+===
+title: GrandfatherClockAct4.2
+tags: 
+colorID: 6
+position: -1178,-1353
+---
+Mae: {align=middle,locator=clock}Hey Granddad. #line:ef5217
+<<end>>
+===

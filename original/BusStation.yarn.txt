@@ -1,0 +1,350 @@
+title: Brochures
+tags: 
+colorID: 0
+position: -1343,690
+---
+Mae: GL, CM0TPN, 6P0Q%PJ1! #line:a08787
+===
+title: excuse
+tags: 
+colorID: 0
+position: 639,796
+---
+Mae: UP0QY UP0WEHNR, A FDE BCE? #line:89e929
+Janitor:{width=4}CEL4AC 10:45. 3AKPJ1T0.#line:7da177
+Janitor: B GTN DHN U04TN HNKT0 HE UPNE3SAET HA U0CVEDHEM ABT06YCE B U0CCYM CUPNHFC. #line:9d6e9b
+Janitor: T0VJK0 TJ1. #line:c1a7ed
+<<close>>
+<<setAnimInt Janitor drilling 1>>
+<<wait 2>>
+<<set $janitor to 1>>
+[[PA3BE 3DECJ HE D0VSH0 6J1TJ DESYPH0F0?|someone]] #line:b64380
+[[TAK, 3HA4NT BJ1 BAXTEP NVN TNUA T0F0?|something]] #line:cf1de5
+
+
+===
+title: how
+tags: 
+colorID: 0
+position: 315,808
+---
+Mae: KAK DEVA C DBEPJ%? -_- #line:e37284
+Janitor: KAK DEVA C M0EL C0D0B0L? #line:7acd3b
+<<eyes Mae Neutral>>
+<<mood Mae Neutral>>
+===
+title: Janitor
+tags: 
+colorID: 0
+position: 383,500
+---
+<<if $soda is 0>>
+	<<if $janitor is 0>>
+		[[excuse]]
+	<<elseif $janitor is 1>>
+		[[squeeze]]
+	<<elseif $janitor is 2>>
+		[[how]]
+	<<endif>>
+<<elseif $soda is 1>>
+	[[seeya]]
+<<endif>>
+
+===
+title: Mural
+tags: 
+colorID: 0
+position: -390,738
+---
+<<if $bus_station_mural is 0>>
+	[[wow]]
+<<elseif $bus_station_mural is 1>>
+	[[visitors]]
+<<elseif $bus_station_mural is 2>>
+	[[forest]]
+<<elseif $bus_station_mural is 3>>
+	[[mine]]
+<<endif>>
+===
+title: Phone
+tags: 
+colorID: 0
+position: -127,63
+---
+<<if $bus_station_phone is 0>>
+	[[reception]]
+<<elseif $bus_station_phone is 1>>
+	[[whosteals]]
+<<endif>>
+
+===
+title: seeya
+tags: 
+colorID: 0
+position: 1091,733
+---
+<<setAnimInt Janitor drilling 2>>
+<<wait 1>>
+Mae: 0DHA ZPPPNACK0VA. #line:58f01d
+<<close>>
+<<trigger Janitor GrabbyHand>>
+<<setHoldItem SodaCan>>
+<<setGiveFunction JanitorSodaDrink>>
+<<trigger Mae Give>>
+<<wait 2>>
+<<lookRight Mae>>
+<<wait 5>>
+<<lookNearest Mae>>
+Janitor: BKYCHRQKA. #line:7c8a0a
+Janitor: NTAK, 4T0 TJ1 3DECJ DEVAEQJ? #line:449b6d
+<<setAnimInt Janitor drilling 1>>
+Mae: R 3DECJ SNBY. #line:3bbe4b
+Mae: HY, SNVA PAHJQE. #line:ab4751
+Janitor: XEX. CTPAHH0. #line:581921
+Mae: K0FDA BJ1 3AK0H4NTE C DBEPJ%? #line:7902db
+<<close>>
+<<setAnimInt Janitor drilling 2>>
+<<wait 1>>
+Janitor: UPRM0 CEL4AC. #line:88ccdb
+<<close>>
+<<setAnimInt Janitor drilling 0>>
+<<wait .75>>
+Janitor: D0 CBNDAHNR. #line:942e26
+<<close>>
+<<flip Janitor -1>>
+<<walk Janitor ExitLeft>>
+<<wait 1>>
+<<playOneShot event:/bus_station/bus_station_door BusStationDoor>>
+<<waitForMove Janitor>>
+<<hide Janitor>>
+<<setSceneMood LightsOff>>
+<<stopDialogue TV>>
+<<closeAll>>
+<<animate TV Static>>
+<<set $janitor to 5>>
+Mae: GM. U0KA. #line:1fe282
+===
+title: someone
+tags: 
+colorID: 0
+position: 1041,1014
+---
+Janitor: 3AKPJ1T0. #line:d1c54a
+Mae: U04EMY BKV%4EH CBET? U04EMY PA60TAET TEVEBN30P? #line:c1a449
+Janitor:  MHE CTAH0BNTCR CTPAQH0, K0FDA R 0CTA%CJ 3DECJ 0DNH. #line:2b734d
+Mae: 0Y. #line:52d276
+
+===
+title: something
+tags: 
+colorID: 0
+position: 600,1155
+---
+Janitor: BP0DJ T0F0. #line:7812bb
+Mae: 4T0 TJ1 DEVAEQJ? #line:0899b7
+Janitor: R 4NH% DBEPJ. #line:3b29f7
+Mae: F0T0B0? #line:ae570f
+Janitor: HE-A. #line:dfb72e
+
+===
+title: squeeze
+tags: 
+colorID: 0
+position: 87,705
+---
+Mae: M0SH0 R UP0TNCHYCJ 4EPE3 BAC? #line:8b1e12
+Janitor: HE-A. UP0LDEQJ, K0FDA R U04NH% EE. #line:320604
+Mae: A K0FDA BJ1 UVAHNPYETE 3AK0H4NTJ? #line:d1ed74
+Janitor: CPA3Y U0CVE T0F0, KAK TJ1 U0DAQJ MHE ZNACK0VY N3 ABT0MATA. #line:981491
+Mae: ... #line:ca5497
+Mae: R D0VSHA 3A HEE 3AUVATNTJ? #line:dd2baf
+Janitor: HET. R BCEFDA UEPEHACTPANBA% EF0, U0KA PA60TA% 3DECJ H04J%. #line:26a4e0
+Mae: MNV0. T0 ECTJ, C0BCEM 6ECUVATH0? :) #line:394e29
+Janitor: 6ECUVATH0, U0KA KT0-HN6YDJ HE UPNDET N HE CKASET 06PATH0E. #line:f00c90
+<<eyes Mae Neutral>>
+<<mood Mae Neutral>>
+<<set $janitor to 2>>
+<<set $vending_machine_done to 0>>
+===
+title: TicketStand
+tags: 
+colorID: 0
+position: -1306,427
+---
+Mae: GT0 6NVETHAR KACCA. #line:a6e72c
+===
+title: TV
+tags: 
+colorID: 0
+position: -626,417
+---
+<<animate TV Logo>>
+<<wait 5.5>>
+<<animate TV MalloyTalk>>
+TV: D06P0 U0SAV0BATJ HA Q0Y FAP60 N MGVV0L! #line:0cba7f
+<<animate TV GarboTalk>>
+TV: KAKNE H0B0CTN, MGVV0L? #line:7ebfe0
+<<animate TV MalloyTalk>>
+TV: CEF0DHR PJ1HKN U0DCK04NVN! #line:240660
+<<animate TV GarboTalk>>
+TV: 0000004EHJ BJ1C0K0! #line:ff7908
+<<animate TV MalloyStare>>
+<<playOneShot event:/bus_station/tv_applause TV>>
+<<wait 2>>
+<<animate TV GarboTalk>>
+TV: R CM0TP% HA GT0T FPAZNK, N 0H 04EHJ BUE4ATVRET! #line:3c8f6c
+<<animate TV MalloyTalk>>
+TV: UPN6ABNV0CJ 15000 PA604NX MECT, #line:b72c6d
+TV: B 0CH0BH0M VNQJ HA CXEMAX, #line:50bff0
+<<animate TV GarboTalk>>
+TV: 4T0 RBVRETCR D0KA3ATEVJCTB0M GK0H0MN4ECK0F0 YUADKA! #line:d1750a
+<<animate TV MalloyStare>>
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<wait 2>>
+<<animate TV MalloyTalk>>
+TV: 0X, FAP60, U0X0SE MJ1 YDAPNVNCJ B U0VNTN4ECKNE DNCKYCCNN! #line:342f8c
+<<animate TV GarboTalk>>
+TV: BPEMR 0T BPEMEHN HAD0 YDEVRTJ GT0MY BHNMAHNE. #line:903a92
+<<animate TV MalloyStare>>
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<wait 2>>
+<<animate TV MalloyTalk>>
+TV: HA UP0QV0L HEDEVE R CX0DNV HA CBNDAHNE C DEBYQK0L, C K0T0P0L U03HAK0MNVCR B NHTEPHETE. #line:95e899
+<<animate TV GarboTalk>>
+TV: UPABDA? #line:001595
+<<animate TV GarboTalk>>
+TV: AFA, NHTEPHET PEAVJH0 M0SET U0M04J HALTN CB0% V%60BJ. #line:df8e7d
+<<animate TV GarboStare>>
+<<wait 2>>
+<<playOneShot event:/bus_station/tv_cough TV>>
+<<wait 3>>
+<<animate TV GarboTalk>>
+TV: KT0-HN6YDJ N3 HAQNX UPEKPACHJ1X 3PNTEVJHNO HE NWET CE6E SEHNXA? #line:fceaf6
+TV: CBRSNTECJ C0 MH0L! #line:658baf
+<<animate TV GarboLaugh>>
+TV: N R DAM 3HATJ, ECVN HALDY K0F0-HN6YDJ. #line:22bd27
+<<animate TV MalloyStare>>
+<<playOneShot event:/bus_station/tv_laughter_applause TV>>
+<<wait 3>>
+<<close>>
+<<animate TV Static>>
+<<wait 3>>
+
+===
+title: VendingMachine
+tags: 
+colorID: 0
+position: 539,251
+---
+<<if $janitor >= 2 and $soda is 0>>
+	Mae: 4T0 3A? #line:75143a
+    Mae: Y HNX ECTJ VALM0BJ1L ZNACK0, A 0H X04ET ZNACK0VY? #line:3716b2
+    Mae: GT0 HEB006PA3NM0. #line:058ebb
+	<<close>>
+	<<wait 1>>
+	<<tell VendingMachine to Vend>>
+	<<wait 5.5>>
+    <<set $can_grab_soda_can to 1>>
+    <<set $vending_machine_done to 1>>
+    Mae: VADH0, UP0CT0 B03JMY EE. #line:94d4e3
+	//<<set $soda to 1>>
+	//Mae: Got it!
+<<else>>
+	Mae: :) -_- ZNACK0 Z0KC, TJ1 TAK0L B0CXNTNTEVJHJ1L. #line:867df6
+    <<eyes Mae Neutral>>
+    <<mood Mae Neutral>>
+    <<set $vending_machine_done to 1>>
+<<endif>>
+
+
+===
+title: wow
+tags: 
+colorID: 0
+position: -765,1046
+---
+Mae: BAY. K0FDA GT0 U0BECNVN? #line:07ec71
+Mae: U0CCYM CUPNHFC EWE HNK0FDA HE BJ1FVRDEV TAKNM... #line:ef66b7
+Mae: ...ZAVJQNBJ1M. :\ #line:585471
+<<eyes Mae Neutral>>
+<<mood Mae Neutral>>
+<<set $bus_station_mural to 1>>
+===
+title: visitors
+tags: 
+colorID: 0
+position: -562,1273
+---
+Mae: UPNE3SNE PACCTP0RTCR, K0FDA YBNDRT, KAK F0P0D BJ1FVRDNT HA CAM0M DEVE. #line:48c736
+Mae: UPNF0T0BJCR K PA304AP0BAHN%, BCRK C%DA BX0DRWNL! #line:8702a8
+Mae: DEBN3 HAQEF0 F0P0DA. #line:e47578
+<<set $bus_station_mural to 2>>
+===
+title: forest
+tags: 
+colorID: 0
+position: -294,1296
+---
+Mae: F0CYDAPCTBEHHJ1L VEC HABEPXY, #line:7a46d5
+Mae: 06J14HJ1L VEC, KAK N BE3DE. #line:5e929b
+Mae: VEC, VEC, VEC. #line:84a270
+<<set $bus_station_mural to 3>>
+
+===
+title: mine
+tags: 
+colorID: 0
+position: -114,1046
+---
+Mae: TJ1 T0VJK0 FVRHJ HA B0H TY BAF0HETKY. #line:1ecaf7
+Mae: GT0 BCE DABH0 UP0QV0. #line:88f64b
+Mae: GT0 CDEVAV UYTEQECTBEHHNK B0 BPEMEHN? #line:e1e5ae
+<<set $bus_station_mural_done to 1>>
+===
+title: reception
+tags: 
+colorID: 0
+position: 78,366
+---
+Mae: GT0, HABEPH0, TAK0E 06VEF4EHNE DVR TEVEZ0HHJ1X K0MUAHNL, 4T0 B U0CCYM CUPNHFC HET CBR3N. #line:8773a7
+Mae: 6J1V0 6J1 3D0P0B0 U03B0HNTJ P0DNTEVRM, #line:a122a1
+Mae: H0 KAK0L-T0 Y6V%D0K U0CTAPAVCR N 0T0PBAV TPY6KY. #line:adbeea
+Mae: 3A4EM KPACTJ TEVEZ0H? #line:c22b41
+<<set $bus_station_phone to 1>>
+===
+title: whosteals
+tags: 
+colorID: 0
+position: -196,433
+---
+Mae: NHTEPECH0, 3A4EM K0MY-T0 GT0T TEVEZ0H. #line:eee3e1
+Mae: CUATJ C HNM B 06HNMKY. #line:9ba608
+Mae: 6PATJ C C060L HA UP0FYVKY. #line:2752ca
+Mae: KPEUK0 CSNMATJ B PYKAX. #line:3724ad
+Mae: PA3F0BAPNBATJ 4EPE3 HEF0 #line:319501
+Mae: HN C KEM. #line:7a2782
+Mae: PACOEV0BJ1BATJ EF0. #line:4f7c9b
+<<set $bus_station_phone_done to 1>>
+
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 346,-40
+---
+<<if $busStation is 0>>
+	<<set $busStation to 1>>
+<<endif>>
+<<playerFace -1>>
+<<if $janitor >= 5>>
+	<<hide Janitor>>
+<<else>>
+	<<flip Janitor -1>>
+	<<setAnimInt Janitor drilling 1>>
+<<endif>>
+Mae: 4T0 S, 3AME4ATEVJH0. #line:f53579
+Mae: R HE F0B0P%, 4T0 0SNDAVA KAK0L-HN6YDJ BE4EPNHKN NVN U0D06H0F0, #line:31f06f
+Mae: H0 R U0VAFAVA, 4T0 3DECJ 6YDET X0TJ *KT0-HN6YDJ*. #line:f25ef7
+Mae: ... #line:9b299a
+Mae: D06P0 U0SAV0BATJ D0M0L, MGL. #line:64c8e8
+===

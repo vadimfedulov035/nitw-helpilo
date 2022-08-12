@@ -1,0 +1,1431 @@
+title: IntroPastor
+tags: 
+colorID: 0
+position: -1326,62
+---
+<<if $demo2 and $act is 2 and $day is 1>>
+    [[PastorDemo2]]
+<<elseif $act is 4 and $day is 3>>
+    Mae: Hey! #line:b7d8fe
+    Pastor: hey! you're candy borowski's daughter, right? #line:897066
+    Mae: sure. who are you? #line:bd3da8
+    Pastor: Pastor Kate. #line:282f6c
+    Mae: oh right. my mom's boss. #line:098040
+    Pastor: ha ha. the church board is your mom's boss. #line:b06798
+    Pastor: mine too. #line:fc58aa
+    Mae: i didn't know that was a thing. #line:97c40c
+    Pastor: it's a thing. #line:97d4e0
+    Mae: you're new here, right? #line:710643
+    Pastor: 16 months? something like that. #line:12e4f7
+    Mae: oh. new to me at least. #line:eb3e76
+    Pastor: you should stop by the church sometime? #line:40792b
+    Mae: my mom would be happy if i did. #line:6e5178
+    Pastor: I know.  #line:9af399
+    Pastor: I'm just adding extra guilt. #line:324522
+    Mae: ha ha ha thanks #line:fb6f59
+    Pastor: yep yep. #line:fa421e
+    Pastor: we do our best #line:934e7b
+    Pastor: with what we have #line:01aef2
+    Pastor: when we have it. #line:75c0fc
+	<<set $met_pastor to 1>>
+    <<set $pastor_done to 1>>
+<<elseif $day is 1>>
+	// then bruce + pastor are together
+	Mae: hey! #line:67ac36
+    Pastor: hey! #line:a818c8
+    Pastor: you're candy borowski's daughter, right? #line:125b84
+    Mae: yep. who are you? #line:665427
+    Pastor: I'm Kate, but you can call me Pastor K. #line:56e731
+    Mae: that's like... way more syllables. #line:58e3e4
+    Mae: you're new here, right? #line:97d806
+    Pastor: 16 months? something like that. #line:3b9fb6
+    Mae: oh. new to me at least. #line:32a3e7
+    Pastor: this over here is Bruce. #line:753560
+    <<lookAt Mae Bruce>>
+    Mae: hey #line:bd2c8a
+    Bruce: hey #line:2fb1ec
+    Pastor: Bruce is new to our community! #line:03c1d4
+    Mae: Do you live in the woods? #line:d4fa0b
+    Bruce: ... #line:ba3c41
+    Bruce: yup #line:9ce600
+    <<lookNearest Mae>>
+    Pastor: But not for long! We’re working on fixing that before winter gets here. #line:856555
+    Pastor: gonna take some doing, but God’s a do-er #line:d9d33e
+    Pastor: and they're bigger than city council. #line:729872
+    Bruce: ...still thinks it’s a lot of trouble to go to... #line:b88620
+    Pastor: Listen, nobody said loving your neighbor would be easy. #line:050181
+    Pastor: and you are our actual neighbor. #line:a20bcb
+    Bruce: I appreciate it. #line:f941bb
+    Pastor: We all need a little help sometimes, Bruce. #line:eda89d
+    Pastor: No shame in hard times. #line:442cc6
+    Mae: Well, it was nice meeting you both! #line:c126e0
+    Pastor: Come up and see me at the church sometime! #line:f23888
+    Mae: I will! I’ll be up to visit my mom anyway. #line:c01fa3
+    <<lookAt Mae Bruce>>
+    Mae: See you later Bruce! #line:7a1918
+    Bruce: ok. Nice to meet you Mary #line:56b8f4
+    Mae: Mae. Mae Borowski. #line:b7ae53
+    Bruce: Bruce. Just Bruce. #line:2cc35c
+    <<lookNearest Mae>>
+    Pastor: Pastor. Pastor Kate. #line:388713
+    <<unlockDoodle BruceSketch>>
+    <<set $knows_bruce_situation to 1>>
+	<<set $met_pastor to 1>>
+	<<set $met_bruce to 1>>
+    <<set $pastor_done to 1>>
+    <<set $bruce_done to 1>>
+<<elseif $act is 2>>
+	Mae: Hello. #line:9b2fe3
+    Pastor: Hello. #line:502cc7
+    Pastor: You're Candy's daughter, right? #line:e1579d
+    Mae: Yep. Who are you? #line:aae223
+    Pastor: Kate. But most people call me Pastor K. #line:c1db44
+    Mae: you're new here, right? #line:b2990f
+    Pastor: 16 months? something like that. #line:5783b3
+    Mae: oh. new to me at least. #line:6480a4
+    Mae: Hello. #line:5c2456
+    Pastor: Hello. #line:6530f9
+    Mae: Hello. #line:fbd0e3
+    Pastor: do me a favor. #line:55b86c
+    Pastor: take that last hello #line:bb8c8a
+    Pastor: and give it to Bruce. #line:3cb756
+	<<if $met_bruce>>
+		Mae: Oh yeah! I met that guy. #line:99576c
+        Pastor: oh good! #line:e0b758
+        Pastor: Bruce is new to our community. #line:955f22
+        Mae: looks like he's been in the woods a while #line:760a03
+        Pastor: only a few weeks #line:206ee0
+        Pastor: but being in the woods isn't really the same #line:20b608
+        Pastor: as being in the community. #line:4928d2
+        Mae: true. #line:70bf7a
+        Mae: is he cold at night? #line:c5a06b
+        Pastor: ha ha. working on it. #line:aed70d
+	<<else>>
+		Mae: Bruce? #line:24b2e6
+        Pastor: Bruce lives across the street. #line:222761
+        Mae: In the woods? #line:95c051
+        Pastor: for now, at least. #line:66ab5c
+        Mae: You want me to go talk to a strange man in the woods? #line:d7b862
+        Pastor: Bruce isn't strange. He's my friend. #line:c1869e
+        Pastor: and he's a part of this community. #line:dbeaf2
+        Mae: okey doke. #line:bd870c
+        Pastor: thank you. #line:90692e
+        Pastor: it was nice to meet you! #line:f72ad9
+        Mae: you too! #line:6891f1
+	<<endif>>
+	<<set $met_pastor to 1>>
+<<elseif $act is 3>>
+	<<if $day is 3>>
+		Pastor: Hello Mae. #line:84cd43
+        Mae: whoa. uh. #line:d8e4a3
+        Pastor: ha ha. #line:f203dc
+        Pastor: I've seen your picture on your mom's desk. #line:c38a10
+        Pastor: I'm kate. Pastor K works too. #line:273a2e
+        Mae: you're new here, right? #line:1b14be
+        Pastor: 16 months? something like that. #line:54057b
+        Mae: oh. new to me at least. #line:a8dd2b
+        Pastor: she'll be happy you came by. #line:3cdad1
+        Mae: oh geez don't tell her #line:fd70d8
+        Mae: it'll make, like, expectations. #line:97f031
+        Pastor: well we can't have that. #line:88a03c
+        Mae: ... #line:846f89
+        Mae: you seem sad. #line:58e11b
+        Pastor: oh do i? #line:df684a
+		Mae: yeah. what are you sad about? #line:e4b9f5
+		Pastor: Oh nothing. #line:e0aef0
+        Mae: unconvincing. #line:973f73
+        Pastor: i was never a good liar. #line:0c0d53
+        Pastor: but i'll survive. #line:ef5e40
+        Pastor: hey, have you met our neighbor Bruce? #line:2a7069
+		<<if $met_bruce>>
+			Mae: yeah! #line:8a8c5c
+            Mae: guy across the street? #line:328090
+            Pastor: that's him. #line:862f3d
+            Mae: he's cool. #line:9fb3e3
+            Mae: is he cold at night? #line:1cd8be
+            Pastor: i expect he is. #line:f0d857
+            Pastor: but we're doing what we can. #line:8cc842
+            Mae: well, see ya! #line:9a9db7
+            Pastor: see you, Mae. #line:894606
+		<<else>>
+			Mae: I don't think so. #line:3e49d6
+			Pastor: you should say hi. #line:c54f3e
+            Pastor: he lives across the street. #line:c461b0
+            Mae: in the woods? #line:d42565
+            Pastor: yeah. he lives... in the woods. #line:148a29
+            Mae: there's that sad again. #line:07d2b5
+            Pastor: anyway, go say hi. #line:a35b46
+            Pastor: he's a guy who needs more people saying hi to him. #line:b27ff3
+            Mae: ok. #line:f934b1
+            Pastor: thanks, mae. #line:05a149
+		<<endif>>
+		<<set $met_pastor to 1>>
+	<<elseif $day is 4>>
+		Pastor: Oh hey, how's it going? #line:f52357
+		Pastor: I'm Pastor Kate. #line:c7e24e
+        Mae: you're new here, right? #line:88c599
+        Pastor: 16 months? something like that. #line:b16634
+        Mae: oh. new to me at least. #line:8cc2b5
+        Pastor: you're candy's borowski's daughter, right? #line:998724
+        Mae: yeah. #line:1150c7
+		Mae: you alright? #line:0dca40
+		Pastor: I'm fine. #line:f85017
+        Mae: you don't look fine. #line:dccca8
+        Pastor: looking for a friend #line:fb3c02
+        Pastor: who seems to have left. #line:264799
+        Mae: oh. i'm sorry. #line:845bda
+        Pastor: it's ok. #line:07cc98
+        Pastor: i'll wait a bit longer. #line:3e2187
+        Pastor: waiting on someone to show up #line:fa40e7
+        Pastor: is a big part of my job. #line:a66412
+        Pastor: see you, Mae. #line:6bd49e
+        Mae: seeya #line:23d62d
+		<<set $met_pastor to 1>>
+	<<endif>>
+<<endif>>
+<<unlockDoodle PastorK>>
+===
+title: IntroBruce
+tags: 
+colorID: 0
+position: 768,254
+---
+Mae: Hello. I'm Mae Borowski! #line:0a6170
+<<if $met_pastor>>
+	Mae: uh... friend of Pastor Kate? #line:2a3c67
+<<endif>>
+Bruce: Hey. I'm Bruce. #line:c73d39
+Bruce: ... #line:0e3f74
+Bruce: I don't say much. #line:b394cb
+Mae: that's fine. #line:bf2701
+Mae: i talk a lot. #line:d2a0f2
+Bruce: ... #line:c43e8b
+Mae: but I can like... not. #line:b04a24
+<<if $act is 2 and $day is 3>>
+    Bruce: Seen a fire through the trees last night. #line:4456f2
+    Bruce: past these woods here. #line:d79595
+    Bruce: Weird noises. #line:415eaf
+    Bruce: I just kept to myself. #line:2e2efd
+    Bruce: and they went away. #line:9e0ac2
+        ->That sounds spooky. #line:066c0a
+            Bruce: Been around a lotta places. #line:628e1a
+            Bruce: Ain't spooked by much. #line:01c6c2
+            Bruce: But out past that water tower... #line:811a5c
+        ->Where? #line:fa3ae9
+            Bruce: right over there #line:f96c88
+            Bruce: past the water tower. #line:062cbf
+            Mae: oh ok. #line:0b87f6
+    Mae: yeah that's a place where teens hang out. #line:e30e17
+    Bruce: let's hope that's all it was. #line:94782a
+    Bruce: in my experience #line:bdd10f
+    Bruce: strange fire and strange voices #line:8e0a03
+    Bruce: ain't never been good. #line:18023d
+    Mae: I wonder if they'll be back...? #line:40f363
+    Bruce: Hope not. #line:bc9518
+<<endif>>
+<<unlockDoodle BruceSketch>>
+<<set $met_bruce to 1>>
+<<set $bruce_done to 1>>
+===
+title: Pastor
+tags: 
+colorID: 0
+position: -369,285
+---
+<<if $met_pastor is 0>>
+    [[IntroPastor]]
+<<elseif $act is 2 and $day is 2>>
+    <<if $pastor is 0>>
+        <<set $pastor += 1>>
+        <<set $pastor_done to 1>>
+        [[PastorA2D2]]
+    <<endif>>
+<<elseif $act is 2 and $day is 3>>
+    <<if $pastor is 0>>
+        <<set $pastor += 1>>
+        <<set $pastor_done to 1>>
+        [[PastorA2D3]]
+    <<endif>>
+<<elseif $act is 2 and $day is 4>>
+    <<if $pastor is 0>>
+        <<set $pastor += 1>>
+        <<set $pastor_done to 1>>
+        [[PastorA2D4]]
+    <<endif>>
+<<elseif $act is 3 and $day is 1>>
+    <<if $pastor is 0>>
+        <<set $pastor += 1>>
+        <<set $pastor_done to 1>>
+        [[PastorA3D1]]
+    <<endif>>
+<<elseif $act is 3 and $day is 2>>
+    <<if $pastor is 0>>
+        <<set $pastor += 1>>
+        <<set $pastor_done to 1>>
+        [[PastorA3D2]]
+    <<endif>>
+<<elseif $act is 3 and $day is 3>>
+    <<if $pastor is 0>>
+        <<set $pastor += 1>>
+        <<set $pastor_done to 1>>
+        [[PastorA3D3]]
+    <<endif>>
+<<elseif $act is 3 and $day is 4>>
+    <<if $pastor is 0>>
+        <<set $pastor += 1>>
+        <<set $pastor_done to 1>>
+        [[PastorA3D4]]
+    <<endif>>
+<<elseif $act is 4 and $day is 3>>
+    <<if $pastor is 0>>
+        <<set $pastor += 1>>
+        <<set $pastor_done to 1>>
+        [[PastorA4D3]]
+    <<endif>>
+<<endif>>
+===
+title: Bruce
+tags: 
+colorID: 0
+position: 1201,158
+---
+<<if $met_bruce is 0>>
+    [[IntroBruce]]
+<<elseif $act is 2 and $day is 2>>
+    <<set $bruce_done to 1>>
+    [[BruceA2D2]]
+<<elseif $act is 2 and $day is 3>>
+    <<set $bruce_done to 1>>
+    [[BruceA2D3]]
+<<elseif $act is 2 and $day is 4>>
+    <<set $bruce_done to 1>>
+    [[BruceA2D4]]
+<<elseif $act is 3 and $day is 2>>
+    <<set $bruce_done to 1>>
+    [[BruceA3D2]]
+<<elseif $act is 3 and $day is 3>>
+    <<set $bruce_done to 1>>
+    <<if $knows_bruce_situation>>
+        [[BruceA3D3.Leaving]]
+    <<else>>
+        [[BruceA3D3.NotTalkingMuch]]
+    <<endif>>
+<<endif>>
+===
+title: BruceA3D3.Leaving
+tags: 
+colorID: 4
+position: 1711,513
+---
+Bruce: Hey. Can you do me a favor? #line:9603dd
+Mae: sure. #line:1a4942
+Bruce: Can you tell Pastor Kate something for me? #line:616ea3
+Mae: sure. #line:3786a7
+Bruce: but don't tell her this til tomorrow. #line:8ea9c5
+Bruce: can you do that? #line:eed340
+Mae: sure. #line:db64e2
+Bruce: Tell her I said thank you. #line:2de61d
+Bruce: and I'm sorry I caused her trouble. #line:b9a2da
+Bruce: but I'm not worth throwing away her job. #line:d530ce
+Bruce: she's the pastor after all. #line:f23f33
+Bruce: folks need 'er. #line:ba21c2
+    ->why am i telling her this? #line:d54898
+        Bruce: cuz I won't be there to do it. #line:c9734e
+    ->are you... leaving? #line:6106a2
+        Bruce: yep. #line:20ba82
+Bruce: gonna hop a train tonight #line:9b6df8
+Bruce: headed east. #line:cd0d05
+Mae: where will you go? #line:883cd6
+Bruce: I'm going home. #line:7defd0
+Mae: wow, really? #line:0d91af
+Bruce: never gonna touch a bottle again. #line:db936c
+Bruce: never gonna lift a hand to no man again. #line:f87a25
+Bruce: sit on my daughter's front porch #line:2549b5
+Bruce: watch my grandbabies play in the yard #line:726816
+Bruce: they'll all be there #line:1da96e
+Bruce: gonna get off that train #line:fed97a
+Bruce: my kids are gonna be there #line:472e4f
+Bruce: they'll have a sign they made #line:32c50e
+Bruce: nothing fancy, poster board and markers #line:506e64
+Bruce: "welcome home dad". #line:258ac7
+Bruce: and i'll be home. #line:a724c4
+Mae: that sounds great, Bruce! #line:91ad8f
+Bruce: yep yep. #line:07a973
+<<if $bruce_familiarity >= 2>>
+    Bruce: Thanks for talking to me. Was nice to get to know you. #line:1a4647
+    Mae: You too, Bruce. #line:2a0db0
+    Mae: gonna miss you. #line:7626f1
+    Bruce: we'll all meet again. #line:09d808
+    Mae: i hope so. #line:9f8537
+    Bruce: hope's important. #line:af3781
+    Bruce: it's the last thing you got. #line:2b0727
+<<endif>>
+Mae: you take care of yourself. #line:cc54cb
+Bruce: you too, Mae. #line:a8eb40
+Bruce: i'll be fine, you know. #line:2c95f3
+Bruce: i'm an old hand at this. #line:8edb29
+Bruce: maybe older than i shoulda ever got to #line:3f4ac5
+Bruce: but i'll be fine. #line:30e426
+Mae: see you around, Bruce. #line:aa8154
+Bruce: goodbye, Mae. #line:199ac9
+<<set $knows_bruce_leaving to 1>>
+===
+title: BruceA3D3.NotTalkingMuch
+tags: 
+colorID: 4
+position: 1830,243
+---
+Bruce: ... #line:73bda7
+Mae: what's up? #line:226316
+Bruce: nothin' #line:c0fcfe
+Mae: cool. #line:8fc566
+Bruce: yep. #line:c30393
+===
+title: PastorA3D4
+tags: question!
+colorID: 4
+position: 97,552
+---
+//question: need a variable that lets mae apologize if you did the godcatconvo. here and a4d3. not sure how to set that up//
+
+Pastor: Wonder where Bruce has got to? #line:af0368
+<<if $knows_bruce_leaving>>
+    Mae: Actually, I know. #line:ba7070
+    Pastor: really? #line:21cf1d
+    Mae: yeah. he told me not to tell you yesterday... #line:3c24ed
+    Pastor: tell me what, mae? #line:c51e90
+    Mae: Bruce is going home! #line:710057
+    Pastor: he... what? #line:eff9c6
+    Mae: yeah. he's going home to his kids #line:943693
+    Mae: i guess they're all waiting for him #line:fb210e
+    Pastor: oh. #line:693475
+    Mae: he seemed pretty happy about it. #line:afa607
+    Pastor: ok. #line:4b1a6e
+    Pastor: thanks, mae. #line:287433
+    <<wait 3>>
+    Mae: are you not happy about this? #line:cd9f25
+    Pastor: ... #line:46c05b
+    Pastor: thanks for letting me know. #line:9f659e
+    <<set $told_pastor_bruce_leaving to 1>>
+<<else>>
+    <<if $met_bruce is 0>>
+        Mae: Bruce? #line:aa9390
+        Pastor: He's a dear man. #line:9195f0
+        Pastor: Looks like you might have missed him. #line:2d87cd
+        Pastor: ... #line:d90555
+    <<else>>
+        Mae: Beats me. #line:52e8a8
+        Mae: He's kinda transient though, right? #line:413ce3
+        Mae: I mean he wasn't like renting the woods. #line:32a82c
+        Pastor: no... no he wasn't. #line:cbe431
+        <<wait 2>>
+        Pastor: god damn this world. #line:966e8c
+    <<endif>>
+<<endif>>
+<<set $pastor_done to 1>>
+===
+title: PastorA4D3
+tags: question!
+colorID: 6
+position: 337,388
+---
+Mae: Hey. #line:331d50
+Pastor: Well hey there, Mae. #line:ecc547
+Mae: what're you doing? #line:545825
+Pastor: oh, just cleanin' up. #line:2d9385
+<<if $told_pastor_bruce_leaving>>
+    Mae: how did the council vote go? #line:bf0767
+    Pastor: we lost. #line:2e0b4e
+    Pastor: i lost. #line:648dc8
+    Pastor: it was just me pushing for it, really. #line:175f5d
+    Pastor: we've got all this #line:cea9fc
+    Pastor: empty space #line:58a60a
+    Pastor: could use it for so many things #line:5fd5d6
+    Pastor: but #line:083e92
+    Pastor: ... #line:3a0204
+    Mae: you tried. #line:44b977
+    Pastor: all we can do. #line:2e84df
+    Pastor: and god will show up. #line:bf3dbb
+    Pastor: when the time is right. #line:96d094
+    <<if $bruce_familiarity >= 2>>
+        Mae: Bruce was my friend. #line:d133bd
+        Pastor: Mine too. Bruce was my friend too. #line:3fb6ca
+    <<endif>>
+<<elseif $knows_bruce_leaving>>
+    Pastor: wonder where bruce got to? #line:7cefec
+    Mae: Actually, I know. #line:43c0ba
+    Pastor: really? #line:16d692
+    Mae: yeah. he told me not to tell you yesterday... #line:634500
+    Pastor: tell me what, mae? #line:63c0f8
+    Mae: Bruce is going home! #line:7a352b
+    Pastor: he... what? #line:c92a16
+    Mae: yeah. he's going home to his kids #line:90cd25
+    Mae: i guess they're all waiting for him #line:937530
+    Pastor: oh. #line:b6c011
+    Mae: he seemed pretty happy about it. #line:701aea
+    Pastor: ok. #line:6dc685
+    Pastor: thanks, mae. #line:87c843
+    <<wait 3>>
+    Mae: are you not happy about this? #line:55eaeb
+    Pastor: ... #line:a5b660
+    Pastor: thanks for letting me know. #line:92013f
+    <<if $bruce_familiarity >= 2>>
+        Mae: Bruce was my friend. #line:843b10
+        Pastor: Mine too. Bruce was my friend too. #line:9ba1a0
+    <<endif>>
+<<elseif $knows_bruce_situation>>
+    Mae: Do you know where Bruce went? #line:66a30d
+    Pastor: I don't know, Mae. #line:3c19a7
+    Pastor: wish i did. #line:3b2927
+    <<if $bruce_familiarity >= 2>>
+        Mae: I hope he's gonna be okay, he was my friend. #line:4b183e
+        Pastor: He's mine too. #line:33bb11
+    <<endif>>
+<<elseif $met_bruce is 0>>
+    Mae: what was out here? #line:59ca37
+    Pastor: A man named Bruce was living here. #line:74f91a
+    Mae: Bruce? #line:e6ea84
+    Pastor: He's a dear man. #line:97270b
+    Pastor: Looks like you might have missed him. #line:70918c
+    Pastor: ...  #line:4cdc78
+<<else>>
+    Mae: So... Bruce is gone? #line:ff02ee
+    Pastor: Yeah. #line:19c799
+    Pastor: Sure Wish I knew where he got to. #line:bc1814
+    Mae: does he have a home somewhere? #line:700926
+    Pastor: No. I don't know. Not really. #line:f2f162
+    Mae: oh. #line:4ef445
+    Pastor: ... #line:52add2
+<<endif>>
+Mae: you need some help cleaning this place up? #line:1c46be
+Pastor: that'd be nice, Mae. #line:898046
+Pastor: there's a rake back in a shed behind the church #line:f0972d
+Mae: oh, i can't do it *now*, but #line:b35e5a
+Pastor: ha ha ha. #line:f5dd50
+Pastor: run along, mae. #line:9d3e28
+<<set $pastor_done to 1>>
+===
+title: PastorA2D2
+tags: 
+colorID: 3
+position: -1309,394
+---
+Mae: Hey again. #line:d11898
+Pastor: Hey. #line:609f4c
+Pastor: Your mom will be pretty happy you're here. #line:5e8f11
+Mae: oh don't I know it. #line:eadf85
+Pastor: you not a churchgoer? #line:d80d92
+    ->no #line:b253a7
+        Pastor: big fan of sleeping in? #line:b2b838
+        Mae: i mean aren't you? #line:aa49cf
+        Pastor: i can't remember the last time i slept in. #line:239c1a
+        Pastor: might have been last saturday. #line:302d87
+        Mae: that's not long ago. #line:951a15
+        Pastor: it's been a very long week. #line:048da2
+        Mae: same, honestly. #line:31d7ad
+    ->i was when i was a kid. #line:944ba3
+        Pastor: well, you *had* to go then. #line:1005a8
+        Mae: yeah. #line:bd0c5b
+        Mae: i liked sunday school. #line:ee4be6
+        Mae: they'd give you cookies and orange drink. #line:7cd673
+        Pastor: is "orange drink" really the only name for it? #line:e30e20
+        Mae: huh. I don't know. #line:58988a
+        Pastor: I'm realizing I've also been calling it that my entire life. #line:43f0ad
+        Pastor: "orange drink" #line:947242
+        Mae: the drink that is orange. #line:9cf877
+Pastor: when did you stop coming? #line:b402d5
+Mae: when my mom stopped making me. #line:fdbd5f
+Mae: when i was like 15 or so. #line:94d6e1
+Pastor: why? #line:06f6a5
+Mae: i dunno. #line:53088d
+Mae: all the sitting and standing #line:75ba81
+Mae: sing this now, feel this thing now, #line:fabac9
+Pastor: well the feelings are more suggestions... #line:ab0a73
+Mae: doesn't feel like it. #line:b344b2
+Pastor: well, I hope you'll maybe come some sunday? #line:463c57
+Mae: yeah, I guess I haven't seen you preach. #line:9deaff
+Pastor: oh wow. "preach" #line:79ffa6
+Pastor: kind of has a bad ring to it, huh? #line:d31bc4
+Mae: "talk?" #line:fb3b25
+Pastor: that works. #line:8a1995
+<<if $knows_bruce_situation>>
+    Mae: Hey, how are things with the whole Bruce situation? #line:0edcf1
+    Pastor: weeeeelll... #line:e4d363
+    Pastor: we're praying. and gears are turning. #line:dc45e9
+    Pastor: but they turn slow. #line:9a2440
+    Pastor: but god can turn any gear they want #line:54b91f
+    Pastor: and i take comfort in that. #line:f62b7f
+    Mae: i hope it turns out ok! #line:8bea8d
+    Pastor: thank you, Mae. #line:daef11
+<<endif>>
+
+<<if $pastor_god_talk is 0>>
+    [[PastorGodTalk]]
+<<endif>>
+===
+title: PastorA2D3
+tags: 
+colorID: 3
+position: -1091,577
+---
+Pastor: How's things? #line:ee63bf
+Mae: ok. weird dreams. #line:1d1c97
+Pastor: want to talk about it? #line:42a82a
+Mae: not really. #line:5f3a62
+Pastor: i dreamed i was trapped in a wall #line:9b3460
+Mae: geez #line:73c0b9
+Pastor: no, it was fine. #line:d0503a
+Pastor: i knew the rescue crew was coming in a few hours #line:9d44c5
+Pastor: and it was cozy #line:594d7b
+Pastor: so i could take a nap, guilt-free. #line:3ca655
+Mae: you feel guilty about naps? #line:c3a6d5
+Pastor: wish I didn't. #line:aa8c3c
+<<if $knows_bruce_situation>>
+    Mae: How's that whole thing with Bruce going? #line:ed2225
+    Pastor: I'm hopeful and positive #line:4336b1
+    Mae: that sounds like what someone says #line:ab5d01
+    Mae: when they're not. #line:414315
+    Pastor: ha ha #line:3cfdb6
+    Pastor: it's fine, mae. it's going fine. #line:af8f05
+<<endif>>
+
+<<if $pastor_god_talk is 0>>
+    [[PastorGodTalk]]
+<<endif>>
+===
+title: PastorA2D4
+tags: 
+colorID: 3
+position: -873,655
+---
+Pastor: Howdy. #line:7891a7
+Mae: you waiting for someone? #line:7ce8d4
+Pastor: well, i think i'm being stood up. #line:4eddbd
+Mae: a... date? #line:66a2a3
+Pastor: not the kind you mean. #line:b7d807
+Pastor: honestly a big part of my job #line:3ce9e4
+Pastor: is someone calling #line:c1d136
+Pastor: me heading out #line:643251
+Pastor: and them not showing up. #line:6df982
+Mae: you were meeting them at #line:fe3abc
+Mae: the statue of... saint... #line:7c52a0
+Pastor: Rubello. #line:a9cc6c
+Mae: yeah. the firebreathing guy #line:3fb922
+Mae: who like, ate people. #line:a6ccf8
+Pastor: that's a bit of an oversimplification #line:281848
+Mae: ... #line:22ce4e
+Pastor: but yeah. basically. #line:a67321
+Mae: cool guy to have a statue of #line:e9da0e
+Mae: outside the church I mean. #line:106063
+Pastor: well, i didn't put it here #line:16801e
+Pastor: but can't we learn something from Saint Rubello? #line:5f8668
+    ->breathe fire #line:3749b9
+    ->eat people #line:e2f478
+Pastor: sure. #line:a8f791
+Pastor: this statue is part of our "encourage criminal acts" outreach #line:449d83
+Mae: it's working! #line:3d5950
+<<if $knows_bruce_situation>>
+    Mae: How's the situation? #line:0f74ef
+    Pastor: the situation? #line:50aee8
+    Mae: with Bruce and stuff. #line:9cf76f
+    Pastor: eh. #line:cba640
+    Pastor: we wait and see. #line:397661
+    Pastor: and pray. #line:9b02d3
+<<endif>>
+
+<<if $pastor_god_talk is 0>>
+    [[PastorGodTalk]]
+<<endif>>
+===
+title: PastorA3D2
+tags: 
+colorID: 4
+position: -428,728
+---
+//pastor is gone this day//
+
+Pastor: I'm gone today! This is an error! #line:5d268a
+
+<<if $knows_bruce_situation>>
+    Mae: Bruce situation A3D2? #line:a52a19
+    Pastor: Eh. #line:7d99d7
+<<endif>>
+
+<<if $pastor_god_talk is 0>>
+    [[PastorGodTalk]]
+<<endif>>
+===
+title: PastorA3D3
+tags: 
+colorID: 4
+position: -179,659
+---
+Pastor: Ugh. Stressful day. #line:0f01b9
+Pastor: some days you need grace more than others. #line:8c1153
+<<if $knows_bruce_situation>>
+    Mae: Was this all about Bruce? #line:87c11b
+    Pastor: It was. #line:654490
+    Pastor: is. #line:05be45
+    Pastor: whatever. It's out of our hands now. #line:9d692c
+    Pastor: but there are better hands than mine. #line:37020f
+    Mae: hm. #line:05c737
+<<endif>>
+Pastor: Anyway, how are you Mae? #line:d2157d
+Mae: Eh. #line:20f225
+Mae: Eeeeeeeeeeeeeeeeh. #line:af810e
+Pastor: sounds serious. #line:fced32
+Mae: I guess. #line:1cd9dd
+
+<<if $pastor_god_talk and $pastor_cat_god_talk is 0>>
+    [[PastorCatGodTalk]]
+<<endif>>
+===
+title: PastorGodTalk
+tags: temp
+colorID: 0
+position: -1274,997
+---
+Pastor: Hey listen #line:8273f4
+Pastor: You know #line:ca53d7
+Pastor: If you ever want to talk or have any questions #line:9cc390
+Mae: about, like, god? #line:c182f3
+Pastor: sure. #line:30e2b1
+Pastor: you can always talk to me. #line:267d97
+Pastor: it's kind of in my job description. #line:50089d
+Mae: ok. #line:4147ee
+<<set $pastor_god_talk to 1>>
+===
+title: PastorCatGodTalk
+tags: 
+colorID: 4
+position: -99,965
+---
+Mae: so like #line:99f45b
+Mae: things have been rough lately #line:a5e62b
+Pastor: i can see that. #line:22051f
+Pastor: what seems to be the trouble? #line:7a7eb6
+Mae: i think i met god #line:2d74f4
+Pastor: what? #line:71224d
+    ->it was a dream #line:c73ae1
+        Mae: but god talks to us that way, right? #line:c4c45b
+        Pastor: sure. #line:e14fcc
+    ->i don't think it was a dream #line:a25341
+        Pastor: oh wow. #line:4ca5e2
+        Mae: that happens, right? #line:9a8f09
+        Mae: or it like, happened. #line:293320
+        Pastor: sure. #line:19168e
+Pastor: can you tell me about it? #line:96bcfa
+    ->i was in this desert #line:1eb205
+        Mae: as far as i could see #line:0aa21d
+        Mae: where like #line:7916f2
+        Mae: all that was left of the world #line:288459
+        Mae: was bits of wood #line:318282
+        Mae: and sand #line:10defb
+    ->it was like the shore #line:84957d
+        Mae: of this giant black ocean #line:88056c
+        Mae: i could see like #line:951c74
+        Mae: forever into the sky #line:406c1d
+        Mae: and below it was just #line:f29b12
+        Mae: sand #line:ce3af4
+        Mae: as far as i could see #line:d2a398
+Mae: i was wandering through it but #line:2ee2b0
+Mae: i was like, drawn to something #line:77f36e
+Mae: and i came up over this... #line:6a2022
+Mae: what do you call a hill made of sand? #line:36a8f2
+Pastor: A dune. #line:55217c
+Mae: yeah. A Dune. #line:3c51e9
+Mae: and there was god. #line:750d5d
+Mae: just sitting there. up on another hill. #line:e62b27
+Mae: or dune. whatever. #line:65bbfb
+Pastor: just hangin' out? #line:eac5d9
+Mae: yeah. #line:d84951
+Mae: seemed like they were *really* into just hanging out. #line:2c46de
+Pastor: did they say anything? #line:6fc72d
+Mae: yeah #line:6373f5
+    ->they like, didn't care #line:0d5122
+        Pastor: they didn't care if you were there? #line:62db2c
+        Mae: no, i mean, they didn't care. #line:625e29
+        Mae: in general. #line:f3a6bc
+    ->they were kind of a... jerk #line:3fa258
+        Mae: i mean, more of a straight up asshole. #line:695d65
+        Mae: sorry. can i say that in a church? #line:3396dc
+        Pastor: ha ha. #line:7e118a
+        Pastor: i think the structure can handle the shock. #line:3ced76
+Mae: they went on and on about how annoyed they were #line:264093
+Mae: that people kept coming to them with questions #line:ad66a4
+Mae: and annoyed that anyone thought they were god to begin with #line:278443
+Pastor: well, i don't think that was god then #line:0fc56b
+Mae: why? #line:891560
+Pastor: if something tells you it isn't god #line:1de0be
+Pastor: you should probably believe it. #line:8ce8aa
+Mae: no, what i mean is that #line:3a1298
+Mae: the thing we call god #line:3ad9e2
+Mae: isn't god #line:a2e759
+Mae: it's just a thing #line:f49749
+Mae: and it doesn't care #line:737091
+Pastor: hm. #line:4cd0ec
+Mae: they kept talking about #line:772faa
+    ->how nothing matters #line:15fcef
+        Mae: like the universe is ending #line:ece137
+        Mae: and everything is being forgotten. #line:a40931
+    ->this giant hole #line:456d8d
+        Mae: in the center of everything. #line:b091d2
+        Mae: growing. #line:b8f609
+Pastor: that sounds very lonely. #line:99cfa3
+Pastor: have you been feeling lonely lately? #line:3258cc
+    ->yes. #line:4cd014
+        Mae: i had this problem when i was in high school #line:ce0e8c
+        Mae: and i did something really bad. #line:038dd8
+        Mae: you probably heard about it. #line:486314
+        Pastor: your mom has mentioned it. #line:324148
+        Mae: yeah i figured. #line:de0df4
+        Mae: well, since then #line:fef455
+    ->no. #line:b8bd2c
+        Mae: no, i mean i've got friends #line:64dd8f
+        Mae: i've been with them every day since i got home. #line:9f0cbb
+        Mae: but... hm... #line:b0d125
+Mae: there's this deep down loneliness #line:3b05f7
+Mae: been there for years #line:43df8e
+Mae: since... well, just been a long time. #line:89424d
+Pastor: i've been there. #line:2d9d39
+Pastor: i mean i'm there all the time #line:2c8c7d
+Pastor: i think that's where #line:ebf7fc
+Pastor: if we open ourselves up #line:c84a69
+Pastor: god can enter our lives most effectively #line:d8d351
+    ->i guess #line:b0b340
+        Pastor: sometimes that's the best you've got. #line:895f85
+        Mae: yeah. #line:7b2fe4
+        Mae: ... #line:f00363
+        Pastor: i feel like that's maybe not a good enough answer for you #line:c08035
+        Mae: is that a good enough answer for anyone? #line:c872ad
+    ->i don't think i believe in god anymore #line:9d6f6e
+        Pastor: if you want the truth #line:4cde3d
+        Pastor: i think everyone doesn't believe in god #line:1cf09c
+        Pastor: for at least a few minutes a day #line:06c585
+        Mae: hm. #line:c55433
+Pastor: faith is a process #line:830509
+Pastor: you have to keep getting up and choosing to go on #line:c51b80
+Mae: do you really think there's a god? #line:a31dd2
+Mae: like, literally someone up there listening? #line:f3e7c7
+Mae: is that something you completely believe? #line:609690
+Pastor: hm. #line:6ec717
+Pastor: i don't know. #line:41b6df
+Mae: oh. #line:858787
+Pastor: on my best days I think I do. #line:d57daa
+Pastor: but there are times where I don't. #line:5aa762
+Mae: but... but you stand up there every sunday #line:5c04a4
+Mae: and tell people you do! #line:3be58c
+Mae: and even *YOU'RE* not sure? #line:3e09c9
+Mae: It's your *JOB* to believe. #line:558a8d
+Pastor: well, I think it's more my job to serve others... #line:c29f6b
+Mae: but you're lying to people! #line:11caf4
+Pastor: how? #line:33501c
+Mae: you stand up there and tell people to believe #line:8cbaa1
+Mae: in something you don't 100% believe in yourself. #line:17d054
+Pastor: maybe you're right Mae #line:c054b9
+Pastor: and maybe I should get up there every week #line:b81135
+Pastor: and give some sort of tally of how much I believed that week #line:e84769
+Pastor: but who would that help? #line:e022b8
+Mae: but you're a pastor #line:e91c62
+Mae: and you can't tell me whether or not god is up there. #line:94e95d
+Mae: whether anyone is watching #line:c3708f
+Mae: anyone who gives a shit. #line:3d8d48
+Pastor: no, but- #line:de0b28
+<<dilate Mae .85 .2>>
+Mae: :(  #line:430da3
+Mae: THEN WHAT IS THE POINT OF YOU? #line:7ff066
+Pastor: ... #line:e5630a
+<<dilate Mae 1 .2>>
+Mae: :| #line:c11d57
+Mae: ... #line:f82ed0
+Mae: I have to go. #line:9f895b
+Pastor: ok. #line:1c07b1
+<<set $pastor_cat_god_talk to 1>>
+<<set $pastor_done to 1>>
+===
+title: BruceA2D2
+tags: 
+colorID: 3
+position: 769,473
+---
+Mae: so what's your story? #line:ebb5a5
+Bruce: uh. got no story. #line:97e825
+Mae: like, where are you from? #line:4ff7c6
+Bruce: north of here. northeast. #line:28abbd
+Bruce: ... #line:bed621
+Bruce: worked on the railroads #line:ead59e
+Bruce: worked some mines #line:667074
+Bruce: worked some construction. #line:f2ccbe
+Mae: how'd you end up here? #line:7e2bee
+Bruce: string 'a bad luck #line:54ae9c
+Bruce: ... #line:6189e2
+Mae: don't have to talk about it. #line:4b55bb
+Bruce: i never turn down that offer. #line:25a556
+<<set $bruce_familiarity += 1>>
+===
+title: BruceA2D3
+tags: 
+colorID: 3
+position: 989,528
+---
+Bruce: Seen a fire through the trees last night. #line:2d63f7
+Bruce: past these woods here. #line:aeb540
+Bruce: Weird noises. #line:952291
+Bruce: I just kept to myself. #line:c0239b
+Bruce: and they went away. #line:052048
+    ->That sounds spooky. #line:4670cb
+        Bruce: Been around a lotta places. #line:9abd9f
+        Bruce: Ain't spooked by much. #line:e4f8c7
+        Bruce: But out past that water tower... #line:ba016f
+    ->Where? #line:0d42fe
+        Bruce: right over there #line:5efe69
+        Bruce: past the water tower. #line:9d2601
+        Mae: oh ok. #line:3139cf
+Mae: yeah that's a place where teens hang out. #line:63abb6
+Bruce: let's hope that's all it was. #line:4279e4
+Bruce: in my experience #line:558d44
+Bruce: strange fire and strange voices #line:754457
+Bruce: ain't never been good. #line:9ae74d
+Mae: I wonder if they'll be back...? #line:43b6bc
+Bruce: Hope not. #line:9e806e
+<<set $bruce_familiarity += 1>>
+===
+title: BruceA3D2
+tags: 
+colorID: 4
+position: 1471,535
+---
+Mae: getting kinda cold, huh? #line:3982db
+Bruce: yeah, nip in the air at night. #line:d6e9c6
+Mae: i like fall when it gets cold. #line:79e2cf
+Bruce: me too. real pretty out a'swell. #line:e35855
+Mae: i used to cry at fall trees when i was a kid. #line:640ee4
+Bruce: why? #line:58fa32
+Mae: because they were so pretty. #line:d57f1b
+Bruce: hm. i did that when my daughter was born. #line:51a0c0
+Mae: you have a daughter? #line:f57aab
+Bruce: yep. #line:61f6ca
+Mae: where is she? #line:946dc6
+Bruce: ... #line:335f7b
+Mae: sorry. #line:781ad3
+Bruce: s'fine. #line:17e7f1
+<<set $bruce_familiarity += 1>>
+===
+title: PastorInitLevel
+tags: 
+colorID: 0
+position: -389,-165
+---
+<<if $demo2 and $act is 2 and $day is 1 and $TowneCentreWest>>
+    <<show Pastor>>
+<<elseif $act is 2 and $day is 1 and $ChurchHill>>
+    <<show Pastor>>
+<<elseif $act is 2 and $day is 2 and $ChurchSanctuary>>
+    <<if $pastor_done>>
+        <<hide Pastor>>
+    <<else>>
+        <<show Pastor>>
+        <<warp Pastor PastorCouncil>>
+        <<flip Pastor -1>>
+    <<endif>>
+<<elseif $act is 2 and $day is 3 and $ChurchSanctuary>>
+    <<if $pastor_done is 1>>
+        <<hide Pastor>>
+    <<else>>
+        <<warp Pastor PastorCouncil>>
+        <<flip Pastor -1>>
+        <<show Pastor>>
+    <<endif>>
+<<elseif $act is 2 and $day is 4 and $ChurchHill>>
+    <<show Pastor>>
+    <<warp Pastor PastorStatue>>
+    <<sit Pastor>>
+    <<flip Pastor -1>>
+    <<setSpriteLayer Pastor BG1>>
+<<elseif $act is 3 and $day is 1 and $ChurchHill>>
+    <<show Pastor>>
+<<elseif $act is 3 and $day is 3 and $ChurchSanctuary>>
+    <<if $pastor_done is 1>>
+        <<hide Pastor>>
+    <<else>>
+        <<warp Pastor PastorCouncil>>
+        <<flip Pastor -1>>
+        <<show Pastor>>
+    <<endif>>
+<<elseif $act is 3 and $day is 4 and $ChurchHill>>
+    <<show Pastor>>
+<<elseif $act is 4 and $day is 1 and $ChurchSanctuary>>
+    <<show Pastor>>
+<<elseif $act is 4 and $day is 3 and $ChurchHill>>
+    <<show Pastor>>
+<<else>>
+    <<hide Pastor>>
+<<endif>>
+
+<<if $act is 2 and $day is 2 and $church_hill_background_a2d2_done is 0 and $ChurchHill>>
+    <<show Council1>>
+    <<show Council2>>
+    <<show Council3>>
+    <<show Council4>>
+    <<flip Council1 -1>>
+    <<flip Council2 -1>>
+    <<flip Council3 -1>>
+    <<flip Council4 -1>>
+<<elseif $act is 2 and $day is 3 and $ChurchSanctuary>>
+    <<if $council_a2d3_done is 0>>
+        <<show Council1>>
+        <<show Council2>>
+        <<show Council3>>
+        <<show Council4>>
+    <<else>>
+        <<hide Council1>>
+        <<hide Council2>>
+        <<hide Council3>>
+        <<hide Council4>>
+    <<endif>>
+<<elseif $act is 3 and $day is 3 and $ChurchSanctuary>>
+    <<if $council_a3d3_done is 0>>
+        <<show Council1>>
+        <<show Council2>>
+        <<show Council3>>
+        <<show Council4>>
+    <<else>>
+        <<hide Council1>>
+        <<hide Council2>>
+        <<hide Council3>>
+        <<hide Council4>>
+    <<endif>>
+<<else>>
+    <<hide Council1>>
+    <<hide Council2>>
+    <<hide Council3>>
+    <<hide Council4>>
+<<endif>>
+===
+title: BruceInitLevel
+tags: 
+colorID: 0
+position: 1199,-133
+---
+<<if $ChurchHill>>
+    <<if $act is 2>>
+        <<if $day is 1>>
+            <<show Bruce>>
+            <<warp Bruce BruceOutsideShelter>>
+            <<flip Bruce -1>>
+            <<setCanInteract Bruce false>>
+        <<elseif $day is 2>>
+            <<show Bruce>>
+            <<if $church_hill_background_a2d2_done is 1>>
+                <<warp Bruce BruceCamp>>
+                <<flip Bruce 1>>
+            <<else>>
+                <<warp Bruce BruceCamp>>
+                <<flip Bruce 1>>
+                <<setCanInteract Bruce false>>
+            <<endif>>
+        <<elseif $day is 3>>
+            <<show Bruce>>
+            <<warp Bruce BruceCliff>>
+        <<elseif $day is 4>>
+            <<show Bruce>>
+            <<warp Bruce BruceOutsideShelter>>
+            <<flip Bruce -1>>
+        <<else>>
+            <<hide Bruce>>
+        <<endif>>
+    <<elseif $act is 3>>
+        <<if $day is 1>>
+            <<show Bruce>>
+            <<warp Bruce BruceOutsideShelter>>
+            <<setCanInteract Bruce false>>
+        <<elseif $day is 3>>
+            <<show Bruce>>
+            <<warp Bruce BruceShelter>>
+        <<elseif $day is 4>>
+            <<hide Bruce>>
+        <<else>>
+            <<show Bruce>>
+        <<endif>>
+    <<else>>
+        <<hide Bruce>>
+    <<endif>>
+<<elseif $TowneCentreWest>>
+    <<if $demo2>>
+        <<show Bruce>>
+    <<else>>
+        <<hide Bruce>>
+    <<endif>>
+<<else>>
+    <<hide Bruce>>
+<<endif>>
+===
+title: BackgroundA2D1
+tags: 
+colorID: 3
+position: 2348,-322
+---
+<<if $pastor_background_a2d1 is 0>>
+    <<set $pastor_background_a2d1 to 1>>
+    <<if $demo2>>
+        [[BackgroundA2D1Demo2]]
+    <<else>>
+        Pastor: You warm enough at night? #line:b0a730
+        Bruce: Yeah, you know I get by. #line:945863
+        Pastor: Well, I'm working on something to help you out. #line:eacdd4
+        Bruce: Aw, don't go to any trouble. I'm alright. #line:253f6f
+        Pastor: That's good. #line:bbfd0f
+        Bruce: Gonna get cold soon. #line:b1be04
+        Pastor: I can get you some blankets for now. #line:92465d
+        Pastor: For some reason we have a *LOT* of blankets. #line:814a11
+        Bruce: That'd sure be a blessing! #line:06bcde
+        Pastor: Well, we bless best with what we already have too much of anyway. #line:dde6b5
+        Bruce: Heh heh. #line:f0f95d
+        Pastor: And we got blankets! #line:8b85bc
+        Bruce: Ha ha ha #line:8d9c52
+        <<close>>
+        <<wait 1>>
+    <<endif>>
+<<endif>>
+<<if $demo2 is 0>>
+    [[EmoticonLoopA2D1]]
+<<endif>>
+===
+title: EmoticonLoopA2D1
+tags: temp
+colorID: 3
+position: 2646,-322
+---
+Pastor: {emote=stars} #line:8729e7
+Bruce: {emote=money} #line:23f68f
+[[EmoticonLoopA2D1]]
+===
+title: CouncilA2D3
+tags: 
+colorID: 3
+position: 2344,101
+---
+<<cameraLookAt PastorCouncilCamera 3>>
+Council1: he's very nice. #line:9d3f7a
+Pastor: yeah, and he can be like, the first! #line:08e796
+Pastor: a trial run. #line:b9c74f
+Council2: where would you put him? #line:1dd325
+Pastor: oh in the basement, #line:acd54d
+Pastor: or in the old library? #line:ec227a
+Council3: with all the books? #line:567a31
+Pastor: he's not going to eat them. #line:34d270
+Council4: interesting proposal, Kate. #line:b1ca3c
+Council1: yes, thank you for bringing this to us. #line:5c14b7
+Pastor: i look forward to us moving forward together on this. #line:ac2616
+Council2: it will be brought up at the town council meeting. #line:70f1af
+Pastor: oh!! that's wonderful!! #line:bba23d
+Council1: alright, troops! move out! #line:a542f4
+<<close>>
+<<walk Council1 CouncilOffscreenLeft>>
+<<walk Council2 CouncilOffscreenLeft>>
+<<walk Council3 CouncilOffscreenLeft>>
+<<walk Council4 CouncilOffscreenLeft wait>>
+<<waitForMove Council3>>
+<<waitForMove Council2>>
+<<waitForMove Council1>>
+<<hide Council1>>
+<<hide Council2>>
+<<hide Council3>>
+<<hide Council4>>
+<<cameraFollowPlayer 3>>
+===
+title: BackgroundA3D1
+tags: 
+colorID: 4
+position: 2339,331
+---
+Bruce: I don't feel right about it. #line:8301fc
+Pastor: I know, but sometimes the right thing doesn't feel right. #line:2593a9
+Bruce: i just think... it's just wrong to take something #line:2b9eee
+Bruce: when folks don't want you to take it. #line:250b2d
+Pastor: well... #line:1951dd
+Pastor: i feel like god would see this differently. #line:b30485
+Pastor: i do at least. #line:ae2181
+Bruce: hmmm #line:6abf6f
+Bruce: that's because you're a good person. #line:5004e8
+<<close>>
+<<wait 1>>
+[[EmoticonLoopA3D1]]
+===
+title: EmoticonLoopA3D1
+tags: temp
+colorID: 4
+position: 2628,334
+---
+Pastor: {emote=spiral} #line:deea3d
+Bruce: {emote=hotdog} #line:91f8b7
+[[EmoticonLoopA3D1]]
+===
+title: CouncilA3D3
+tags: 
+colorID: 4
+position: 2345,562
+---
+<<cameraLookAt PastorCouncilCamera 3>>
+Council2: ...because there will be children here! #line:0c3a11
+Council3: and this is a historic church #line:b838c9
+Pastor: that's half empty! #line:d02ce8
+Council3: that's your job to fix, not ours! #line:9bfc19
+Pastor: the population drain in this region #line:d88927
+Pastor: you have to know this place'll never be full again. #line:cb5ddf
+Pastor: we have the space, and we have people who need space. #line:4e5534
+Pastor: we have resources, and we have poverty! #line:2daa31
+Pastor: and not in some far off place or some big city! #line:583b31
+Pastor: right here! right across the street! #line:590f34
+Council1: Katie, it's our number one job right now #line:daa677
+Council1: to bring businesses into town. #line:158c56
+Council1: businesses mean jobs, and jobs means people. #line:cb4586
+Council1: we have to do what we can #line:2bc577
+Council1: to get the attention of the market. #line:5a2cff
+Council1: and having a half-dead church stacked full of bums- #line:5f85f2
+<<wait 3>>
+Pastor: thanks for your time. #line:390398
+Council1: We'll see you for the vote tomorrow night. #line:c92ab7
+Council2: thank you, kate. #line:0fd6f9
+Council4: ... #line:40cc55
+Council4: you have a good heart, kate. #line:d6a41f
+Pastor: thank you all for coming. #line:dc071d
+<<close>>
+<<walk Council1 OffscreenLeft>>
+<<walk Council2 OffscreenLeft>>
+<<walk Council3 OffscreenLeft>>
+<<walk Council4 OffscreenLeft wait>>
+<<hide Council1>>
+<<hide Council2>>
+<<hide Council3>>
+<<hide Council4>>
+<<cameraFollowPlayer 3>>
+===
+title: BruceA2D4
+tags: 
+colorID: 3
+position: 1235,560
+---
+Mae: you gonna go down to Harfest tonight? #line:83bae1
+Bruce: dunno. maybe. #line:b8530c
+Bruce: keep to myself #line:c55a6f
+Mae: you should say hi if you're there! #line:667a8e
+Mae: i'll be there. #line:744a75
+Bruce: ok. #line:d42561
+Bruce: we'll see i s'pose. #line:75d50e
+<<set $bruce_familiarity += 1>>
+===
+title: PastorA3D1
+tags: 
+colorID: 4
+position: -645,674
+---
+Mae: Hey hey. #line:32800a
+Pastor: hey again. #line:b8e2ad
+Bruce: hey. #line:dadd11
+Mae: so i had this really bad dream last night... #line:8bda6d
+Pastor: me too. #line:a09b3c
+Pastor: i dreamed i was a pizza #line:33e9b0
+Pastor: and i was afraid someone would slice me #line:864d49
+Mae: geez. #line:98d657
+Pastor: yep #line:bf6b44
+Mae: this just makes me sad we don't have a pizza place anymore #line:838b8f
+Pastor: gotta order it from out by the highway now. #line:e0c836
+Pastor: tragic. #line:229c7b
+Bruce: i had a dream i was a goose flying south #line:8df80c
+Bruce: and i had to keep up with the other gooses #line:4d07c3
+Bruce: or i'd get lost. #line:29f2c8
+Mae: that's sad. #line:4aed31
+Bruce: t'wernt a good dream. #line:161298
+Mae: what are y'all talking about? #line:59c5a7
+Pastor: big meeting coming up #line:ed8c66
+Pastor: city council #line:58d786
+Bruce: yep. #line:4e9b8e
+Mae: about... #line:31bbd7
+Pastor: about bruce here! #line:86da30
+Bruce: ... #line:cf1344
+Mae: wow. that's intense. #line:512c62
+Pastor: we'd appreciate your prayers #line:3595f1
+Pastor: this is precisely the kind of time #line:dc31ac
+Pastor: where god shows up. #line:4c7206
+Bruce: hope so. #line:e3a90d
+Mae: me too. #line:2d0488
+<<set $knows_bruce_situation to 1>>
+===
+title: BackgroundA2D1Demo2
+tags: demo2
+colorID: 3
+position: 2528,-609
+---
+Bruce: Can we just stand out here for a while? #line:8543e6
+Pastor: It’s just the Clik Clak! #line:72c0e5
+Pastor: It ain’t some fancy place. #line:042092
+Pastor: You’ll be more than welcome. #line:051cad
+Bruce: I know... I just... #line:e0c16f
+Pastor: Fine. We can stand here as long as you like. #line:677065
+Pastor: Or until 7:30. I have a prayer group to run. #line:bd65a4
+===
+title: PastorDemo2
+tags: 
+colorID: 3
+position: -953,-50
+---
+<<if $pastor is 0>>
+    Pastor: Hey, aren’t you Mae? #line:fdee90
+    Mae: Yeah? #line:b314ed
+    Pastor: You’re Candy’s daughter! #line:b8baec
+    Mae: Yeah. #line:63f9a1
+    Pastor: I’m Pastor Kate. Your mom works at our church. #line:e439f8
+    Mae: Yep. She’s a professional reception-er. #line:d4d8c4
+    Pastor: Have you met Bruce? #line:55de0e
+    Mae: Hey Bruce. #line:7e043d
+    Bruce: Hello. #line:90784a
+    Pastor: Bruce has never been to the Clik Clak! #line:c72083
+    -> How is that possible? #line:c75aa6
+    -> You are in for a treat. #line:f97210
+        Pastor: See Bruce? #line:40bd42
+        Mae: A greasy, greasy treat. #line:d66572
+        Mae: and an angry waitress. #line:b8e79e
+        Bruce: Sounds like my kinda place. #line:ae5fcf
+    Pastor: Bruce is new in town so he’s never had the pleasure #line:7e41c7
+    Mae: You live around here? #line:9ef439
+    Bruce: um... #line:e3bf10
+    Pastor: Bruce is our neighbor up at the church. #line:b0b9ed
+    Bruce: ...I’m camped out across the street... #line:7546e0
+    Mae: oh. #line:b4e95e
+    Bruce: in the woods. #line:546f7e
+    Pastor: But not for long! We’re working on fixing that before winter gets here. #line:d4e95a
+    Pastor: gonna take some doing, but God’s a do-er. #line:59209c
+    Bruce: ...still thinks it’s a lot of trouble to go to... #line:2b4f8f
+    Pastor: Listen, nobody said loving your neighbor would be easy. #line:91bc98
+    Pastor: and you are our actual neighbor. #line:6248f3
+    Bruce: I appreciate it. #line:d2a077
+    Pastor: We all need a little help sometimes, Bruce. #line:4dc41e
+    Pastor: No shame in hard times. #line:3a1ac8
+    Mae: Well, it was nice meeting you both! #line:e40af4
+    Pastor: Come up and see me at the church sometime! #line:bdf30a
+    Mae: I will! I’ll be up to visit my mom anyway. #line:0abf8d
+    Mae: See you later Bruce! #line:9c52a8
+    Bruce: ok. Nice to meet you Mary #line:ce519f
+    Mae: Mae. Mae Borowski. #line:f2cece
+    Bruce: Bruce. Just Bruce. #line:3093c9
+    Pastor: Pastor. Pastor Kate. #line:4983fe
+    <<unlockDoodle BruceSketch>>
+    <<set $pastor to 1>>
+<<elseif $pastor is 1>>
+    Mae: are you guys waiting for someone? #line:4b43e2
+    Bruce: no #line:eb5ed0
+    Pastor: Bruce is a little gunshy #line:3f8673
+    Bruce: ain’t been in a restaurant in a while #line:26d878
+    Pastor: Click Clack’s as good as any place to start! #line:f0aefd
+    Bruce: ...gotta get back on the horse sometime… #line:0c07a8
+    Mae: You might actually order horse in there without knowing it. #line:243cf6
+    Pastor: Mae... #line:dbd361
+    Mae: It’s true! #line:2584ac
+    Bruce: heh heh. #line:cc5c47
+    <<set $pastor_done to 1>>
+<<endif>>
+===
+title: BackgroundA2D2
+tags: 
+colorID: 3
+position: 2341,-110
+---
+Council3: oh ok. #line:720e99
+<<set $church_hill_background_a2d2_done to 1>>
+Council2: so you're more of a... drifter? #line:571369
+Bruce: Yeah, but it's temporary... #line:7a2fd2
+Council1: Of course! Well, we just wanted to see if you're ok up here. #line:b7d522
+Bruce: Yeah, Pastor Kate has been very kind. #line:25bb26
+Council4: Mind if we see your setup here? #line:a02c86
+Council3: What do you think, Molly? #line:ffc965
+Molly: Uh #line:89b1e8
+Bruce: Uh #line:2aaa49
+Molly: It's... fine? #line:f7dbc6
+<<close>>
+<<playOneShot event:/ui/snap_animation Council1>>
+<<flip Council1 1>>
+<<wait .5>>
+<<playOneShot event:/ui/snap_animation Council2>>
+<<flip Council3 1>>
+<<wait .5>>
+<<playOneShot event:/ui/snap_animation Council3>>
+<<flip Council4 1>>
+<<wait .5>>
+<<playOneShot event:/ui/snap_animation Council4>>
+<<flip Council2 1>>
+<<wait .5>>
+//<<walk Council2 Council2Camp>>
+//<<walk Council3 Council3Camp>>
+//<<walk Council4 Council4Camp>>
+//<<walk Molly MollyCamp>>
+//<<walk Bruce BruceCamp>>
+//<<walk Council1 Council1Camp wait>>
+Council1: Ha ha! Alright... Bruce? #line:d3dfb5
+Bruce: Yeah. #line:c6af9b
+Council3: How are you finding Possum Springs? #line:799853
+Bruce: nice place. nice people. #line:459f28
+Council4: how long you been in town, bruce? #line:2f0ec2
+Bruce: I been here for a while now... #line:1e2fd9
+Bruce: and I was here before back in the 70s. #line:48ac13
+Bruce: They were looking for miners, at least for a while. #line:8eff59
+Council4: Got a whole thing going here, Bruce! #line:59c818
+Bruce: yup. #line:6d65da
+Council1: pretty impressive! #line:af47d7
+Bruce: uh #line:0cb4e7
+Bruce: thanks. #line:86be0e
+<<wait 1>>
+Council4: Well, we sure appreciate you talking to us, Bruce. #line:7b4ddb
+Council2: It was really great to meet you! #line:27397f
+Bruce: Yup. Likewise. #line:00c432
+Council1: Alright, troops! Let's move out! #line:32087d
+<<close>>
+<<playOneShot event:/ui/snap_animation Council1>>
+<<flip Council1 -1>>
+<<wait .5>>
+<<playOneShot event:/ui/snap_animation Council2>>
+<<flip Council3 -1>>
+<<wait .5>>
+<<playOneShot event:/ui/snap_animation Council3>>
+<<flip Council4 -1>>
+<<wait .5>>
+<<playOneShot event:/ui/snap_animation Council4>>
+<<flip Council2 -1>>
+<<wait .5>>
+<<wait .5>>
+<<walk Council1 Council1Church>>
+<<walk Council2 Council2Church>>
+<<walk Council3 Council3Church>>
+<<walk Council4 Council4Church>>
+<<wait 1>>
+Council3: Thanks again Bruce! #line:0bc9cd
+<<close>>
+<<wait 1>>
+Molly: Thanks, Bruce. #line:3aae0b
+Bruce: no trouble. #line:6b054b
+<<setCanInteract Bruce 1>>
+<<walk Molly MollyChurch>>
+Council3: That's quite a setup he has there. #line:57b804
+Council2: Sure is. #line:39db42
+Council4: When I used to go camp with my dad it wasn't nearly that nice. #line:b52d49
+Council1: Oh really? We belonged to a hunter's camp north of Possum Jump. #line:9266bb
+Council4: My father's idea of camping was a bit more rustic. #line:117cf6
+Council3: Quite a setup, he's got. #line:89b4cc
+Council2: He hasn't harmed anyone. #line:a86ca9
+Council1: *sigh* #line:d622e9
+Council1: it's a toughie. #line:274c9c
+Molly: I have things to do. #line:89c642
+<<close>>
+<<waitForMove Molly>>
+<<walk Molly OffscreenLeft>>
+<<wait 1>>
+Council3: I don't know that it serves the interests of the community. #line:4b23cc
+Council1: Either way he shouldn't be sleeping outside. #line:8c60af
+Council4: Can we discuss this indoors somewhere? #line:2f1b5d
+Council1: TO THE CLIK CLAK! #line:f5b0a0
+<<close>>
+<<walk Council1 OffscreenLeft>>
+<<walk Council2 OffscreenLeft>>
+<<walk Council3 OffscreenLeft>>
+<<walk Council4 OffscreenLeft>>
+===

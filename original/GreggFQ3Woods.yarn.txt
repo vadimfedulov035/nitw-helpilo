@@ -1,0 +1,392 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: -215,159
+---
+<<setCanInteract Gregg 0>>
+<<if $gregg_fq3_woods is 0>>
+    <<wait .1>>
+    <<walk Mae Mae1>>
+    <<walk Gregg Gregg1>>
+    //enter from offscreen to the left and walk to locators we’ll set up when blocking happens//
+    Gregg: HE, GT0, TNUA, HA60P, K0T0PJ1L M0SH0 3AKA3ATJ B NHTEPHETE. #line:187637
+    Gregg: DSEPM N R C06PAVN EF0. #line:8ded26
+    Mae: TAK 4T0? TEUEPJ GT0 M0T0ONKV? #line:80c82c
+    Gregg: HET, GT0 4T0-T0, TNUA, M0UEDA. HEMH0F0 HE T0. #line:4793c0
+    Mae: U04EMY TJ1 CH0BA HE KYUNQJ CE6E F0PHJ1L BEV0CNUED? #line:91a808
+    Gregg: R YSE B3P0CVJ1L. F0HR% HA M0UEDE. #line:3b711d
+    Mae: HY, N... FDE MJ1? #line:f3f3ea
+    <<waitForMove Gregg>>
+    Gregg: B VECY. #line:74badb
+    <<close>>
+    <<lookForward Gregg>>
+    //Gregg runs to the right//
+    <<run Gregg GreggOffRight1>>
+    <<wait 1>>
+    Mae: VADH0. #line:64aaca
+    <<close>>
+    //Wait til he’s offscreen to trigger movement for Mae again. You can freerun around now until you go talk to Gregg. Gregg’ll be doing some amusing animation until you do.//
+    <<waitForMove Gregg>>
+    <<warp Gregg Gregg2>>
+    <<flip Gregg -1>>
+    <<set $gregg_fq3_woods += 1>>
+<<elseif $gregg_fq3_woods is 1>>
+    // after knife fight
+    <<warp Gregg GreggOnLogKnifeFight>>
+    <<warp Mae MaeOnLogKnifeFight>>
+    <<playerFace -1>>
+    <<hide TriggerDialogue:Gregg1>>
+    <<hide TriggerDialogue:Gregg2>>
+    [[BreakLogConversation]]
+<<elseif $gregg_fq3_woods is 2>>
+    <<hide TriggerDialogue:Gregg1>>
+    <<hide TriggerDialogue:Gregg2>>
+    [[DoneShooting]]
+<<endif>>
+===
+title: Gregg1
+tags: 
+colorID: 0
+position: 90,171
+---
+<<walk Gregg Gregg3 1>>
+Gregg: CMEPTJ CMEPTJ CMEPTJ CMEPTJ #line:761274
+<<close>>
+===
+title: Gregg2
+tags: 
+colorID: 0
+position: 397,173
+---
+<<playerFace -1>>
+Mae: M0CT N3 6PEBHA B BAVJFAVVY :) \o/ #line:c9779a
+Gregg: UEPELDEQJ N YMPEQJ, CMEPTHAR :) \o/ #line:8778b7
+Gregg: _o_ #line:54955b
+Mae: GT0 6PEBH0 TPECHET N MJ1 CV0MAEM CE6E H0FN _o_ #line:3c7a81
+Mae: N D0 F0P0DA HAM UPNDETCR U0V3TN :| #line:b65301
+Gregg: NVN U0MEPETJ 0T VAU MEDBEDEL N X0V0DNHJ1 _o_ :| #line:cd45cf
+Mae: U0MHNQJ, KAK MJ1 DPAVNCJ HA H0SAX? :) #line:f2fc8e
+Gregg: XE-XE, AFA :) #line:452846
+Mae: MJ1 UPNX0DNVN D0M0L C U0PE3AMN HA PYKAX =_= #line:5b19b8
+Mae: TAK TYU0 #line:0a2169
+Gregg: HY, R... :| #line:7d60f7
+Mae: 4T0? :| o_o #line:0bfa1d
+Gregg: Y MEHR ECTJ H0SN. C C060L. HY TAK, K CV0BY. #line:67ca1a
+Mae: 4EPT B03JMN. DA. TJ1 B TEME. :) #line:f80018
+Gregg: UEPBJ1L, KT0 CTPYCNT 3 PA3A - UP0NFPJ1BAET #line:c7e07d
+Mae: :| #line:47df38
+<<close>>
+<<walk Mae MaeOnLogKnifeFight wait>>
+//mae walks to middle of log//
+Mae: HE U0PESJCR, FPEFF0P. #line:6e31ad
+<<close>>
+//gregg walks to middle of log//
+<<walk Gregg GreggOnLogKnifeFight wait>>
+Gregg: CKASN U0KA CB0NM UAVJ4NKAM. :) #line:c369e9
+[[KnifeFight]]
+===
+title: BreakLog
+tags: 
+colorID: 0
+position: 45,779
+---
+Mae: 6VNNNH #line:84d388
+Gregg: DA, 3HA% #line:f4cd41
+<<close>>
+<<wait 4>>
+Mae: R TYT U0DYMAVA #line:0d5cdd
+Gregg: DA? #line:63f83b
+Mae: TNUA, ECVN TJ1 BNDNQJ FHNV0E DEPEB0 NVN 6PEBH0 NVN 4T0 YF0DH0 B VECY #line:c51fe1
+Mae: NVN, TNUA, VED N 60VJQ0L KAMEHJ, #line:fb4701
+Mae: T0 TJ1 UP0CT0 *06R3AH* 0UP0KNHYTJ DEPEB0 NVN CV0MATJ VED #line:ed9a3f
+Mae: R UP0CT0 HE M0FY HE CDEVATJ GT0. #line:94a500
+Gregg: AFA #line:cab8a8
+Mae: XM #line:fdeb6c
+<<close>>
+<<wait 3>>
+Gregg: HPABNTCR 0WYWATJ #line:9daaaf
+Gregg: 4T0 BCE N3MEHNV0CJ!!! #line:48e7b6
+Gregg: U0T0MY 4T0 R TYT 6J1V!!!! #line:0ea065
+Mae: DA, VADH0, DA #line:8704ee
+Mae: BEPH0 U0DME4EH0 #line:181724
+Mae: GTN DEPEBJR HNK0FDA HE CTAHYT UPESHNMN, 4YBAK #line:5169f7
+Mae: R N3MEHNVA NX #line:6371e7
+Gregg: MJ1 N3MEHNVN NX. #line:5c891f
+Mae: GZZEKT 6A604KN. #line:45827b
+Gregg: XM, KT0-T0 YMPET NVN P0DNTCR, N3-3A T0F0, 4T0 MJ1 CV0MAVN GT0 6PEBH0. #line:9ffda4
+Mae: 4EPT, 4YBAK. #line:9d801c
+Gregg: AFA. #line:950395
+<<close>>
+// gregg jumps up
+<<setAnimInt Gregg layingSide 0>>
+<<run Gregg GreggOffRight2 wait>>
+<<warp Gregg Gregg5>>
+<<setAnimInt Gregg crossbow 1>>
+Mae: 0X... #line:6455e2
+<<forceJumpToNormal>>
+===
+title: BreakLogConversation
+tags: 
+colorID: 0
+position: -198,460
+---
+Mae: U0F0DN, 3A4EM TJ1 B3RV C C060L DBA H0SA? #line:3cb5d4
+Gregg: XAX. X0P0QNL B0UP0C. #line:452df5
+Mae: ... #line:0cfc03
+Gregg: DABAL PA3V0MAEM GT0 6PEBH0!!! :) #line:a61566
+Mae: H0SAMN? #line:0c7c19
+Gregg: HET! :| #line:26230c
+//gregg runs into place and starts jumping//
+Mae: GT0, BEP0RTH0, Y6JET HAC! #line:88c814
+Gregg: DA HEEE. #line:7fb343
+Mae: BEC0MJ1L APFYMEHT. #line:49c8cf
+//you can now jump, and then the log breaks, wooo//
+<<tell GreggLogBreakBrain Run>>
+===
+title: KnifeFight
+tags: 
+colorID: 0
+position: 151,477
+---
+<<irisOut .5 wait>>
+<<scene KnifeFight>>
+===
+title: Gregg3
+tags: 
+colorID: 0
+position: 636,195
+---
+//find Gregg and chat then shoot that beast!//
+//when you enter, gregg is set to Gregg_bod_crossbow_down//
+Gregg: TADAAAAAM. #line:cd3f70
+Mae: R YDNBVEHA TEM, 4T0 Y TE6R D0 CNX U0P ECTJ GTA QTYKA. #line:308a01
+Gregg: DA, HY #line:efe752
+Gregg: 0X0TA - GT0 HE M0E, #line:6fdd89
+Gregg: H0, CVYQAL, #line:68b596
+Gregg: 4EV #line:657f5f
+Gregg: TNUA, 4T0 B GT0L QTYKE M0SET 6J1TJ *HE* BECEV0F0? #line:c258d5
+Gregg: TJ1 0X0TNVACJ K0FDA-HN6YDJ? #line:594e59
+Mae: HE, M0L 0TEO TAKNM HE YBVEKAVCR. #line:4ee042
+Mae: DEDYQKA 0X0TNVCR, H0 0H 0UPEDEVEHH0 DYMAV, 4T0 GT0 MYSCKAR TEMA. #line:21ae01
+Gregg: XM. #line:028d27
+->B OEV0M, MHE 6J1V0 U0ZNF. #line:f51122
+	Gregg: TJ1 HE MH0F0 U0TEPRVA. #line:123202
+	Gregg: R 0X0TNVCR C0 CB0NM 0TO0M, DRDEL N CECTP0L #line:fb8103
+	Gregg: R U0DCTPEVNV NHDELKY #line:f65c08
+	Mae: N? #line:f3e2f9
+	//play Gregg_bod_crossbow_down2up//
+    //hold on Gregg_bod_crossbow_up//
+    <<setAnimInt Gregg crossbow 2>>
+    <<lookRight Gregg>>
+	Gregg: MHE CTAV0 EE SAVJ. #line:166023
+	Mae: XM. #line:948e31
+	Mae: HY, TEM HE MEHEE. #line:6b575d
+-> T0FDA MEHR GT0 6ECNV0. #line:a77d96
+	Gregg: CEPJE3H0? #line:025cbd
+	//play Gregg_bod_crossbow_down2up//
+    //hold on Gregg_bod_crossbow_up//
+    <<setAnimInt Gregg crossbow 2>>
+    <<lookRight Gregg>>
+	Gregg: KAK DYMAEQJ, TE6E 6J1 U0HPABNV0CJ? #line:ce3408
+	Mae: BU0VHE B03M0SH0. #line:25e9cc
+	Mae: TNUA, 0X0TA HA 0VEHEL, 4T0-T0 B GT0M DYXE. #line:efcff3
+	Gregg: U0CVE3ABTPA HA4NHAETCR CE30H 0X0TJ1! #line:90775e
+	Mae: DA. #line:d0a709
+	Mae: HY, TEM HE MEHEE. #line:1eca45
+Mae: R 6J1 X0TEVA, 4T06J1 MEHR X0TR 6J1 CUP0CNVN. #line:b823dd
+Gregg: X04EQJ U0DCTPEVNTJ GT0F0 UAPHR? #line:55319a
+//there’s gonna be a camera panning over joke here//
+Mae: HY, TNUA... A 4T0 GT0 B006WE? #line:e11e25
+Gregg: VECH0L 60F. #line:6e81f4
+Mae: KAK B T0L NCT0PNN? #line:41f094
+Gregg: DA. #line:7e3829
+Mae: U0X0SE, 6YDT0 TJ1 UP0CT0 UPNOEUNV KY4Y MNQEHEL N UPNMAH0K BMECTE. #line:53e1e0
+Gregg: TJ1 PA60TAEQJ #line:7ba845
+Gregg: *6AX 6AX* #line:de1663
+Gregg: C TEM, 4T0 NMEEQJ. #line:971d9c
+<<lookLeft Gregg>>
+Gregg: X04EQJ CTPEVJHYTJ, 4YBNXA? #line:a8399a
+Mae: :) #line:e8b460
+Mae: GM. DA. #line:fdf288
+Mae: TJ1 D0VSEH BCTATJ CUEPEDN, 4T06J1 R, TNUA... BJ1CTPEVNVA Y TE6R HAD F0V0B0L #line:9a3049
+<<close>>
+<<wait 2>>
+Gregg: MGL. #line:ec3422
+Mae: :| #line:511d62
+Mae: VADH0, VADH0, DAL C%DA #line:7bd21b
+<<irisOut 1 wait>>
+<<scene FPS>>
+===
+title: Gregg4
+tags: temp
+colorID: 0
+position: 914,202
+---
+//aperture in//
+Mae: TAK, #line:92766e
+<<close>>
+//broken tv nearby pops on for a second. Loud static echoes through the woods//
+<<playOneShot event:/gregg_woods/tv_on AmbientSFX:tv>>
+<<tell AmbientSFX:tv Play1>>
+<<wait 2>>
+<<tell AmbientSFX:tv FadeOut1>>
+<<wait 2>>
+Mae: 4T0, 4EPT B03JMN, GT0 6J1V0? #line:6f44c0
+Gregg: DA. TAK0E UP0NCX0DNT B U0CVEDHEE BPEMR. #line:95383e
+Mae: KAK0E TAK0E? #line:32fbf3
+Gregg: BCRK0E GVEKTPN4ECK0E #line:117b00
+<<if $did_gregg_friendship_quest_2>>
+	Mae: TNUA, KAK R, HEDABH0 U0MEPEBQAR DBASDJ1? #line:afb95e
+	Gregg: HE, GT0 T0VJK0 TB0R BNHA. #line:189920
+<<endif>>
+Mae: XM. #line:0fc2e8
+<<close>>
+<<playMusic sad_gregg 15>>
+<<walk Gregg GreggWatersEdge>>
+Mae: TAK, HE X04Y D0KY4ATJ, H0 #line:f439e2
+<<close>>
+<<walk Mae MaeWatersEdge>>
+Mae: Y TE6R CEF0DHR UEPEMEH4NB0E HACTP0EHNE. #line:145be5
+Gregg: DA. #line:476c12
+Gregg: GT0 M0R ZNQKA. #line:ff0b68
+Gregg: B CMJ1CVE, GT0 6J1V0 M0EL FVABH0L ZNQK0L, H0 #line:0aa034
+//gregg sits//
+<<lookRight Gregg>>
+<<wait 3>>
+Gregg: R... R BEDJ X0P0QNL 4EV0BEK, BEPH0? #line:00175e
+    ->K0HE4H0! #line:df662a
+        Gregg: ... #line:46b519
+    ->B KAK0M CMJ1CVE "X0P0QNL"? #line:980e8d
+Gregg: R HE 3HA%. #line:0a34f8
+Mae: 4T0 HE TAK, 4YBAK? #line:041cbe
+Gregg: R, UPABDA, 04EHJ CTAPA%CJ. #line:6dc21d
+Gregg: R, KAK 6J1... HYSEH AHFYCY. #line:b32c0c
+Gregg: EMY HYSEH FPEFF. 04EHJ HYSEH. #line:c09c92
+    ->Y AHFYCA HEUPNRTH0CTN NVN? #line:76d8f8
+        Gregg: HE. U0HNMAEQJ... #line:9689bc
+    ->HAM BCEM HYSEH FPEFF. #line:539bb6
+        Gregg: DA, H0 C AHFYC0M... #line:1d6a9f
+Gregg: Y HEF0 HE CAMAR VY4QAR SN3HJ. #line:5f3e6c
+Gregg: EF0 CEMJR - 0T6P0CJ1 06WECTBA. #line:4ba95e
+    ->KAK TAK? #line:2dabc2
+        Gregg: HY, UP0CT0 #line:d12713
+        Gregg: MYDA4JE. #line:16289b
+        Gregg: PEAVJH0 TYU0E 6J1DV0. #line:7d16a6
+    ->R DYMAVA, EF0 CEMJR 6J1VA BESVNB0L N TNX0L #line:969ba9
+        Mae: KAK 0H #line:aa17b1
+        Gregg: AHFYC TAK0L, KAK0L 0H ECTJ #line:5d5985
+        Gregg: 0H PEAVJH0 KVACCHJ1L 4EV0BEK, #line:21329d
+        Gregg: U0DHRBQNLCR N3 U0VH0F0 DEPJMA. #line:3b6ecb
+<<wait 2>>
+Gregg: R UP0CT0 HE X04Y U0TEPRTJ EF0. #line:ebce52
+Gregg: HNK0FDA. #line:a6a8dd
+Gregg: HE 3HA%, 4T0 R 6YDY DEVATJ 6E3 HEF0. #line:a5783c
+Gregg: R... HE X04Y BCE UP0CPATJ. #line:c88505
+    ->Y BAC BCE X0P0Q0? #line:5ebf0b
+        Gregg: DA, KASETCR. #line:69dc43
+        Gregg: Y HAC 6J1VN KAKNE-T0 CU0PJ1 B U0CVEDHEE BPEMR. #line:0c75ce
+        Mae: 0 4EM? #line:7c9cdd
+        Gregg: DA... 0 BCRK0M. #line:d3762f
+    ->4T0 TE6R 6ECU0K0NT? #line:4db6b1
+        Gregg: Y HAC 6J1VN KAKNE-T0 CU0PJ1 B U0CVEDHEE BPEMR. #line:97063d
+        Mae: 0 4EM? #line:c8d370
+        Gregg: DA... 0 BCRK0M. #line:50a5d3
+        Gregg: M0SET, R 0UP0MET4NB #line:b73d6e
+        Gregg: M0SET, R HE TAK X0P0Q. #line:8ffb51
+        Mae: TJ1 X0P0QNL. #line:e81763
+Gregg: H0 R, CV0BH0, 6E3PACCYDHJ1L U0DP0CT0K. #line:e35b44
+Gregg: R U0HNMA% GT0. #line:c8a60e
+Gregg: Y MEHR HE 6J1V0 6J1 6YDYWEF0, ECVN 6J1 HE 0H #line:d1d9db
+Gregg: K0FDA R UP0CJ1UA%CJ H04J% #line:f86bc7
+Gregg: R CVYQA%, KAK XPAUNT AHFYC #line:419c87
+Gregg: N URV%CJ B U0T0V0K #line:9c7236
+Gregg: N DYMA%, KAK0L SE R BCE-TAKN KYC0K DEPJMA #line:f41060
+Gregg: N N N #line:507af1
+Mae: FPEFF. FPEFF. #line:ccefc1
+Mae: YCU0K0LCR, 4YBAK. #line:e21726
+Mae: TJ1 X0P0QNL. #line:5d9e39
+Mae: N AHFYC X0P0QNL. #line:4334d2
+<<lookRight Gregg>>
+<<wait 2>>
+Gregg: AFA. #line:314376
+Gregg: AHFYC X0P0QNL. #line:81f4c1
+Gregg: MNVJ1L, YMHJ1L, KPACNBJ1L, KPYT0L UAOAH. #line:608883
+Gregg: CU0K0LHJ1L. #line:a2bdd9
+Gregg: NTAKDAVEE. #line:be338c
+Mae: ...NFPEFFDAVEE. #line:5c9fc2
+Gregg: N 3HAEQJ... #line:5ae6c6
+<<wait 2>>
+Gregg: Y HEF0 TAKAR 3ADHNOA #line:638c1a
+Mae: o> #line:5ea481
+Mae: 0 60SE, *CUACN60*, 4T0 HAK0HEO CKA3AV 06 GT0M. #line:a53d18
+<<lookLeft Gregg>>
+Gregg: U0TPRCHAR 3ADHNOA, BEPH0? #line:546d01
+<<setAnimInt Mae nodding 1>>
+Mae: U0TPRCHAR. #line:72e5e1
+<<setAnimInt Mae nodding 0>>
+Gregg: VADH0, MHE HEYD06H0, #line:0cfcb5
+Gregg: K0FDA TJ1 0OEHNBAEQJ M0EF0 UAPHR. #line:4725e7
+Mae: _o_ #line:19ecde
+Mae: T0VJK0 EF0 3ADHNOY. #line:49f470
+Gregg: N TE6R HEVJ3R BNHNTJ. #line:c8382f
+<<lookRight Gregg>>
+<<wait 3>>
+Gregg: 3A6J1V, 4T0 X0TEV CKA3ATJ. #line:82d5ee
+Gregg: HE 3HA%. #line:dd05ee
+Gregg: HABEPH0E, B0VH0BAVCR N3-3A HN4EF0. #line:df5e3a
+Gregg: Y MEHR 6J1BA%T N 04EHJ CBETVJ1E, N 04EHJ XMYPJ1E DHN. #line:412bc1
+Gregg: N R HE M0FY U0HRTJ, KAK0L N3 HNX CEL4AC, U0KA 0H HE 3AK0H4NTCR. #line:2e1137
+Mae: BNDNM0, CEL4AC R CVJ1QY CAM0E FVABH0E TB0E 6VAAAAAA. #line:99bb61
+Gregg: XE-XE. #line:e171a2
+<<wait 6>>
+Gregg: 4T0 GT0 3A UTNOJ1? #line:8b7faa
+Mae: -_- #line:28c6d6
+Mae: 6E3 U0HRTNR. #line:f9d243
+Mae: o_o #line:4f5c1b
+Gregg: GL, UTNOA!!!! #line:b2987d
+<<wait 2>>
+Gregg: CEBEPHAR TYUNHNOA #line:54fd4b
+Mae: B0CT04HAR DPJ1W-UTNOA #line:fb9543
+Gregg: 0HN VETA%T HA %F? #line:7ca7e5
+Mae: X04EQJ, 4T06J1 R UPNDYMAVA 4T0-T0 B 0TBET? #line:f01877
+Gregg: AFA. #line:26a770
+Mae: DA. #line:db3257
+Gregg: GT0 KPYT0. #line:faa81b
+Gregg: 04EHJ KPYT0. #line:72edab
+<<wait 2>>
+<<close>>
+<<wait 6>>
+<<fadeOut 5 wait>>
+<<unlockDoodle GreggFQ3>>
+<<set $night to 1>>
+<<set $did_gregg_friendship_quest_3 to 1>>
+<<set $completed_gregg_friendship_quests += 1>>
+<<scene MaeHouse left>>
+===
+title: DoneShooting
+tags: 
+colorID: 0
+position: 85,-89
+---
+<<fadeOutMusic 3>>
+Gregg: VADH0, HA CEF0DHR XBATNT CTPEVJ6J1. #line:f44863
+<<close>>
+<<run Gregg Gregg6 wait>>
+<<warp Gregg Gregg7>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -606,25
+---
+<<if $gregg_fq3_woods is 1>>
+    // after knife fight
+    <<warp Gregg GreggOnLogKnifeFight>>
+    <<warp Mae MaeOnLogKnifeFight>>
+    <<playerFace -1>>
+<<elseif $gregg_fq3_woods is 2>>
+    // done shooting
+    <<warp Mae Gregg5>>
+    <<warp Gregg GreggWatchMaeShootThing>>
+<<endif>>
+===

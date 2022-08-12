@@ -1,0 +1,128 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: -1455,30
+---
+<<playerUpdateFallDuringInteract 1>>
+<<fadeIn 1 wait>>
+<<wait 2>>
+Mae: Gregg? #line:58ccea
+Mae: Hey, where are you? #line:669335
+Gregg: OVER HERE!!! #line:1b0aef
+<<playerUpdateFallDuringInteract 0>>
+<<playerCanRun 0>>
+<<playerCanJump 0>>
+===
+title: GreggWantsLight1
+tags: 
+colorID: 0
+position: -971,72
+---
+Gregg: Hey, you wanna shine that light down here? #line:24eab3
+===
+title: GreggThanks1
+tags: 
+colorID: 0
+position: -680,121
+---
+Gregg: Cool thanks. #line:dadf42
+===
+title: GreggOMG1
+tags: 
+colorID: 0
+position: -411,90
+---
+<<flip Gregg -1>>
+Gregg: omg what was that? #line:bc36a8
+===
+title: Nothing1
+tags: 
+colorID: 0
+position: -144,83
+---
+<<flip Gregg -1>>
+Mae: Nothing. #line:a77b47
+Gregg: uh huh #line:3f0a8e
+<<flip Gregg 1>>
+Gregg: Hey more light please #line:fc5199
+===
+title: Owl
+tags: 
+colorID: 0
+position: 968,126
+---
+<<irisOut 1 wait>>
+<<scene MansionInterior>>
+===
+title: GreggCrack1
+tags: 
+colorID: 0
+position: 96,76
+---
+<<flip Gregg -1>>
+Gregg: wtf? #line:be7755
+===
+title: Something1
+tags: 
+colorID: 0
+position: 348,61
+---
+Gregg: ok. there's something up there. #line:b41f68
+Mae: told you #line:73c2e7
+<<flip Gregg 1>>
+Gregg: Alright, let's finish this. Also watch my back. Basically do both. #line:32af43
+===
+title: Hey1
+tags: 
+colorID: 0
+position: 623,49
+---
+<<flip Gregg -1>>
+Gregg: Hey! you up there!!! #line:c0a065
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -1666,35
+---
+<<warp Mae MaeInTheWoods>>
+<<setCanInteract Gregg 0>>
+===
+title: FindGregg
+tags: 
+colorID: 0
+position: -1194,37
+---
+Gregg: AW YEAH!  #line:b59673
+Gregg: FOUND THE BASEMENT DOORS! #line:9d2eb3
+Mae: THHH!!! #line:0b32a1
+Gregg: What? #line:fd652c
+Mae: Thtop Yelling! #line:4c5969
+Gregg: Why are you talking like that? #line:08bab5
+Mae: If you thay “TH” inthtead of “ETH” ith harder #line:361964
+Mae: for thomeone, for exthample a GHOTHT, #line:cb47e0
+Mae: to hear that you’re thpeaking. #line:4ca6e9
+Gregg: I have no idea what you’re saying here. #line:a7c83d
+Mae: OK, we’re trying to be thtealthy, right? #line:6ddbff
+Gregg: oh ok I get what you’re saying #line:12bdd1
+Mae: THANK you. #line:af55e9
+Gregg: I’m not going to do that. #line:cb4207
+Mae: Ok. #line:61748d
+Gregg: We’re fine. Nobody’s here. #line:5ac50c
+Gregg: No lights on, doors are locked. #line:550ee0
+Mae: So how are we doing this? #line:31aa02
+Gregg: You are going to hold the flashlight... #line:2c711a
+//hands mae flashlight <- how do we want to do this?//
+<<fadeOutInternal .5 wait>>
+<<warp Mae MaeWithFlashlight>>
+<<flip Mae -1>>
+<<fadeInInternal .5 wait>>
+Gregg: while I pick this lock. #line:02940a
+Mae: You can pick locks. I totally forgot. #line:6b891b
+Gregg: Yeah dude. #line:6e8b5c
+Mae: This is kind of awesome. #line:f1b87b
+Gregg: It sure is. #line:2e388c
+Gregg: Crimes, dude. #line:4f3fcd
+Mae: Crimeth, dude. #line:29db47
+<<tell FlashlightBrain Run>>
+===

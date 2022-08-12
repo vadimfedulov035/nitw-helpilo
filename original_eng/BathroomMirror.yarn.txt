@@ -1,0 +1,73 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 657,380
+---
+<<if $bathroom_mirror is 0>>
+    Mae: =_= #line:d361b8
+    <<wait 8>>
+    Mae: this isn't fun. #line:49c23f
+    Mae: this blows. #line:07ac91
+    Mae: why are things weird. #line:bdb3a4
+    Mae: why doesn't this feel good. #line:61f060
+    Mae: everything's stupid. #line:8b211d
+    <<wait 4>>
+    <<lookleft Mae>>
+    <<wait 2>>
+    Mae: i'm going to break something. #line:5b7aaa
+    <<close>>
+    <<fadeOutMusic 6>>
+    <<wait 6>>
+    <<set $bathroom_mirror to 1>>
+    <<fadeOut .1>>
+    <<wait 1>>
+    <<scene BathroomVandalism>>
+<<elseif $bathroom_mirror is 1>>
+    Mae: =_= #line:9eb47c
+    Gregg: What are you doing? #line:d18b34
+    Mae: What does it look like I'm doing? #line:bd423b
+    <<wait 3>>
+    Gregg: Ok fine that was a #line:646848
+    Mae: dumb question. #line:1457c4
+    Gregg: ok, *WHY* are you doing this? #line:10f1a1
+    Mae: Do I *NEED* a reason? #line:cb81cc
+    Gregg: Yeah! I kinda think you do! #line:d1eaad
+    Mae: Since when? #line:395be9
+    Mae: What are you even doing in here? #line:f6e6bd
+    Gregg: Getting you! #line:a12d77
+    Mae: I can find my way out myself! #line:32544a
+    Gregg: Fine! #line:6f5aab
+    Mae: Fine! #line:8b3c19
+    Gregg: Fine! #line:109645
+    Mae: Fine! #line:dec74e
+    Gregg: kind of a weird question, but #line:e19b4d
+    Gregg: did you go *before* you decided to trash the bathroom #line:f69801
+    Gregg: or... #line:def917
+    Mae: *GOD* gregg i didn't even have to go. #line:e34608
+    Gregg: ok! geez! #line:cc4120
+    <<wait 3>>
+    Mae: I DO NOW. o_o :( \o/ #line:992a85
+    Gregg: we have a table for when you're done. #line:969692
+    Mae: LEAVE. #line:9efd67
+    Gregg: right ok #line:860f2a
+    <<close>>
+    <<irisOut 1 wait>>
+    <<scene DonutWolfInterior>>
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 632,147
+---
+<<lookOut Mae instant>>
+
+<<if $bathroom_mirror is 0>>
+    <<hide Gregg>>
+<<else>>
+    <<warp Mae MaeWithGregg>>
+    <<show Gregg>>
+<<endif>>
+
+<<wait .5>>
+===

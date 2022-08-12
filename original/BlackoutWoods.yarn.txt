@@ -1,0 +1,21 @@
+title: TriggerEnding
+tags: 
+colorID: 0
+position: 908,76
+---
+<<fadeOutAmbientSFX _AmbientSFX:HurtAnimal 3>>
+<<wait 3>>
+<<trigger IbonRoarAnimator Go>>
+<<wait 8>>
+<<fadeOut 1 wait>>
+<<wait 8>>
+<<endDay>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 523,188
+---
+<<playerFace -1>>
+<<fadeOutMusic 1>>
+===

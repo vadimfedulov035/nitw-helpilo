@@ -1,0 +1,29 @@
+title: Zapped
+tags: 
+colorID: 0
+position: 343,149
+---
+Mae: {width=8}YAAAAAAAAAAAAAAAAAAAARGH!!!!!! #line:eb6322
+<<irisOut 1 wait>>
+<<scene GreggAngusApartment>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 129,-28
+---
+//aperture in//
+Mae: oh god #line:3b073f
+Mae: this side smells even worse #line:b4b4d9
+Mae: hope whatever was living here #line:a362e2
+Mae: in this... #line:8772f0
+Mae: hole... #line:cbb45d
+Mae: ok I think I see it! #line:780923
+Gregg: PUSH IT PUSH IT PUSH IT #line:85a99e
+Mae: Hey. I’m glad you and Angus have this whole, like, #line:d429c4
+Mae: LIFE together. #line:58d5b6
+Gregg: Thanks dude. We’ve worked hard. #line:fb92d3
+Mae: That’s sweet. #line:87642f
+Gregg: PUSH IT PUSH IT PUSH IT #line:4cf9aa
+Mae: Ok ok ok ok ok ok #line:7e05d5
+===

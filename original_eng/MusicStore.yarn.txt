@@ -1,0 +1,125 @@
+title: EnterLevel_A2D1
+tags: demo2
+colorID: 3
+position: 479,-30
+---
+<<if $bea_friendship_quest is 1>>
+    <<setCanInteract Bea 0>>
+    <<if $fort_lucenne_mall < 3>>
+        <<show Bea>>
+    <<else>>
+        <<hide Bea>>
+    <<endif>>
+<<endif>>
+
+<<if $fort_lucenne_mall < 3 and $did_music_store is 0>>
+    <<warp Mae MaeOffRight>>
+    <<set $did_music_store_intro to 1>>
+    Bea: Well this should be good. #line:5f8959
+    <<walk Mae MaeCounter>>
+    Mae: I wonder what kind of- #line:3c8486
+    <<close>>
+    Mae: \o/ :( #line:257319
+    <<lookUp Mae>>
+    Mae: OH COME ON! #line:6c90cb
+    <<lookNearest Mae>>
+    Mae: There's no one working the counter! #line:bf9211
+    <<walk Bea BeaCounter>>
+    Bea: Oh wow. #line:ccaa6f
+    Mae: o> #line:16efc5
+    Mae: [wave]HELLO?! ANYONE HERE?![/wave] #line:d1cede
+    <<waitForMove Bea>>
+    <<walk Bea BeaTalk2>>
+    Mae: Geez. #line:e49d26
+    Mae: :| #line:596732
+    Bea: This is bleak. #line:f03736
+    Mae: _o_ #line:6a28b1
+    Bea: This is like something out of a failed state or something. #line:bf53ed
+    <<set $failed_state_joke to 1>>
+    <<walk Mae MaeTalk2>>
+    Mae: What's that? #line:610695
+    Bea: When you make a country and it doesn't work out. #line:dac943
+    <<lookRight Mae>>
+    Mae: So... like this country? #line:2c1a2b
+    Mae: :) =_= #line:627f7c
+    Bea: AAAAAYYYYYY. #line:3d6ae8
+    Mae: o> #line:c36599
+    Mae: [hop]AAAAAAAAAYYYY.[/hop] #line:e25cfb
+    Mae: o_o :| _o_ #line:0657f9
+    <<generateFollowPoints Mae Bea>>
+    <<follow Bea Mae>>
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 190,-35
+---
+
+
+===
+title: ThatSong
+tags: demo2
+colorID: 0
+position: 823,260
+---
+<<if $fort_lucenne_mall < 3>>
+    Mae: Oh hey it's that band. #line:8c270a
+    Bea: What band? #line:1ed580
+    Mae: You knooooow... #line:08e275
+    Mae: you remember this song #line:70a6ab
+    Mae: had that video that people posted like a zillion times #line:3a4e2b
+    Bea: I have literally no idea what you're talking about. #line:59e98a
+    Mae: It had that weird horse in it. #line:12cf32
+    Mae: {emote=horse_stand} #line:ccb230
+    Bea: Ok yeah I remember. Had a weird horse in it. #line:03dbb7
+    Mae: Oh god yeah that horse was all #line:f1f6cc
+    Mae: {emote=horse_dance1} #line:32d191
+    Bea: I remember. #line:6c3a21
+    Mae: {emote=horse_dance2} #line:0c3eff
+    Bea: Yep. We have officially remembered that video. #line:a84ba8
+    Mae: We did it! #line:76cfa2
+<<else>>
+    Mae: Looking at this by myself. #line:47e033
+<<endif>>
+<<end>>
+===
+title: EmptyRacks
+tags: demo2
+colorID: 0
+position: 544,469
+---
+<<if $fort_lucenne_mall < 3>>
+    Bea: Geeeeeeez. #line:8da6b7
+    Bea: Ruins. #line:e78cd9
+    Mae: Let's see what they've got. #line:45615c
+        ->Honky Tonk Armaggeddon. #line:51e4b0
+            Bea: Whoa. I'd actually listen to that. #line:c4cc64
+            Bea: Just to see what the hell it even means. #line:256370
+            Mae: Cover's got a pickup truck exactly like my uncle's #line:c82532
+            Mae: but this one is on fire and flying at a dragon's face. #line:9a4139
+            Bea: Upgrade. #line:81668d
+        ->Clubbagurl: Rollin' Hard On That Eeee At This Rave Remixes #line:3f3776
+            Bea: Geez. That's cute. #line:ab89bb
+            Mae: What does that mean? #line:948d6a
+            Bea: Someone's very excited to be out on a school night. #line:2dbdf6
+            Mae: Is it drugs? #line:201ca6
+            Bea: It is drugs. #line:413cde
+<<else>>
+    Mae: Looking at this without bea. #line:bd8ab1
+<<endif>>
+<<end>>
+===
+title: LetsGo
+tags: demo2
+colorID: 0
+position: 1122,494
+---
+Bea: Ok, we need to go. #line:b750c3
+Bea: I am getting a contact depressive state from being in here. #line:b7cf80
+Mae: Geez. Yeah. #line:d3624e
+Mae: Even the giant glowing scribble is depressing. #line:1daf06
+Bea: Time moved on and left the glowing scribble behind. #line:1c90a4
+Mae: Ok yeah we're leaving. #line:fbea1f
+<<end>>
+===

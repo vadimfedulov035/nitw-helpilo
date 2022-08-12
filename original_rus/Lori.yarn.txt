@@ -1,0 +1,968 @@
+title: Lori
+tags: 
+colorID: 0
+position: 2473,1234
+---
+<<if $demo2>>
+    <<if $lori is 0>>
+        <<set $lori += 1>>
+        [[LoriDemo2_00]]
+    <<elseif $lori is 1>>
+        <<set $lori += 1>>
+        [[LoriDemo2_01]]
+    <<elseif $lori is 2>>
+        [[LoriDemo2_02]]
+    <<endif>>
+<<elseif $met_lori is 0>>
+    <<if $act is 4 and $day is 3>>
+        <<set $lori to 1>>
+    <<endif>>
+    [[LoriIntroConvo]]
+<<elseif $act is 1>>
+    [[A1.Emoticon]]
+<<elseif $act is 2 and $day is 1>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A2D1.0]]
+    <<elseif $lori is 1>>
+        [[A2D1.Emoticon]]
+    <<endif>>
+<<elseif $act is 2 and $day is 2>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A2D2.0]]
+    <<elseif $lori is 1>>
+        [[A2D2.Emoticon]]
+    <<endif>>
+<<elseif $act is 2 and $day is 3>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A2D3.0]]
+    <<elseif $lori is 1>>
+        [[A2D3.Emoticon]]
+    <<endif>>
+<<elseif $act is 2 and $day is 4>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A2D4.0]]
+    <<elseif $lori is 1>>
+        [[A2D4.Emoticon]]
+    <<endif>>
+<<elseif $act is 3 and $day is 1>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A3D1.0]]
+    <<elseif $lori is 1>>
+        [[A3D1.Emoticon]]
+    <<endif>>
+<<elseif $act is 3 and $day is 2>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A3D2.0]]
+    <<elseif $lori is 1>>
+        [[A3D2.Emoticon]]
+    <<endif>>
+<<elseif $act is 3 and $day is 3>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A3D3.0]]
+    <<elseif $lori is 1>>
+        [[A3D3.Emoticon]]
+    <<endif>>
+<<elseif $act is 3 and $day is 4>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A3D4.0]]
+    <<elseif $lori is 1>>
+        [[A3D4.Emoticon]]
+    <<endif>>
+<<elseif $act is 4 and $day is 3>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A4D3.0]]
+    <<elseif $lori is 1>>
+        [[A4D3.Emoticon]]
+    <<endif>>
+<<endif>>
+===
+title: LoriInitLevel
+tags: 
+colorID: 0
+position: 1997,1219
+---
+<<if $night is 0 and $lori_day_done is 1>>
+    <<hide Lori>>
+<<else>>
+    <<if $act is 1 and $TowneCentreEast and $met_lori is 0>>
+        <<warp Lori LoriGround>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 3 and $day is 2 and $TowneCentreEast>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 2 and $day is 1 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 2 and $day is 2 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 2 and $day is 3 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 2 and $day is 4 and $TowneCentreEast>>
+        <<warp Lori LoriGround>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 3 and $day is 1 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 3 and $day is 2 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 3 and $day is 3 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 3 and $day is 4 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 4 and $day is 3 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $Tracks or $OverheadTracks>>
+        <<show Lori>>
+        <<flip Mae -1>>
+    <<else>>
+        <<hide Lori>>
+    <<endif>>
+<<endif>>
+===
+title: LoriIntroConvo
+tags: 
+colorID: 3
+position: 1588,2031
+---
+<<if $act is 4 and $day is 3>>
+    Lori: XGL, Y6NLOA. #line:afb663
+    Mae: 60SE! KT0 TJ1? #line:8e0f0c
+    Lori: V0PN M. #line:44ab74
+    Mae: KAK TJ1 Y3HAVA UP0 Y6NLOY? #line:00a0fa
+    Lori: TJ1 4T0-T0 TNUA MECTH0L 3HAMEHNT0CTN DVR HEK0T0PJ1X N3 HAC. #line:48728f
+    Mae: 0K. #line:31955e
+    Mae: R HE BCTPE4AVA TE6R FDE-T0 TYT? #line:c304da
+    Lori: HE 3HA%. R B 0CH0BH0M TYCY%CJ 3DECJ. #line:8cbe8b
+    Mae: XM #line:24eb62
+    Lori: XM #line:efa133
+    Mae: D0 CK0P0F0. #line:af7f96
+    Lori: YBNDNMCR, Y6NLOA. #line:d5c005
+    <<set $lori_done to 1>>
+<<else>>
+    Lori: XGL, Y6NLOA. #line:195be6
+    Mae: 6PP. HE HA3J1BAL MEHR TAK. =_= #line:402264
+    Mae: KT0 TJ1? #line:2ce327
+    Lori: V0PN M. #line:9a7666
+    Mae: KAK TJ1 Y3HAVA UP0 Y6NLOY? #line:eb0cd8
+    Lori: GT0 6J1V0 BASH0E C06J1TNE DASE DVR HAC, Y4EHNK0B CPEDHEL QK0VJ1. #line:04f253
+        ->DA YS. CT0VJK0 BPEMEHN UP0QV0. #line:94ad48
+            Lori: 3A4EM TJ1 GT0 CDEVAVA? #line:ee7d34
+            Mae: R HE 3HA%. #line:08d17b
+            Lori: 0H GT0 3ACVYSNV? #line:c28e9b
+            Mae: HET. #line:a6ad66
+            Lori: HAQN MAMJ1 HAKA3AVN HAM HE PA3F0BAPNBATJ C T060L. #line:f6c941
+            Lori: U0T0MY 4T0 HNKT0 HE 3HAET, K0FDA TJ1 C06NPAEQJCR CDEVATJ GT0 CH0BA. #line:bf5518
+        ->4T0 F0B0PRT Y4EHNKN CPEDHEL QK0VJ1? #line:3974a6
+            Lori: TJ1 0TUPABNVA EF0 B 60VJHNOY. #line:4b96a6
+            Lori: N HNKT0 HE 3HAET U04EMY. #line:347781
+            Lori: 0H GT0, TNUA, 3ACVYSNV NVN 4T0-T0 TNUA T0F0? #line:3b79fe
+            Mae: HET. #line:974bd9
+            Lori: HAQN MAMJ1 HAKA3AVN HAM HE PA3F0BAPNBATJ C T060L. #line:3a44f1
+            Lori: U0T0MY 4T0 HNKT0 HE 3HAET, K0FDA TJ1 C06NPAEQJCR CDEVATJ GT0 CH0BA. #line:27e5db
+    Mae: 4T0 S, UEPEDABAL UPNBET MAME 0T MEHR. #line:b45d9d
+    Lori: 0, 0HA YMEPVA. #line:3274e9
+    Mae: 0Y. N3BNHN. #line:ebefeb
+    Lori: BCE H0PMAVJH0. #line:df6038
+    Mae: MDG. :\ #line:df657a
+    Mae: :| o_o  #line:d84604
+<<endif>>
+
+<<set $met_lori to 1>>
+===
+title: A2D1.0
+tags: 
+colorID: 3
+position: 1837,2027
+---
+Mae: UPNBET. #line:9c8c4d
+Lori: UPNBET, GT0 TJ1. #line:734b8f
+Mae: GT0 R #line:76f621
+Mae: R, U0SAVYL, UPNCRDY. H0FN Y6NLCTBEHH0 60VRT. #line:db6531
+Lori: UPNX0DNTCR U0CTAPATJCR, 4T06J1 3A6PATJCR C%DA, HE UPABDA VN? #line:986657
+Mae: R UP0CT0 CTAPE%. 20 VET. :\ #line:ff8343
+Lori: DA, TJ1 PEAVJH0 C0BCEM CTAPYXA. #line:db27c1
+Mae: CK0VJK0 TE6E VET? :| #line:7e234a
+Lori: 15 6YDET B ZEBPAVE. #line:ee6c3c
+<<close>>
+<<sit>>
+Mae: PAHJQE R 60VTAVACJ TYT U0CVE QK0VJ1. #line:cdd15a
+Lori: UPABDA? 60VJQNHCTB0 DETEL HE D06NPAETCR C%DA. #line:58d23b
+Mae: XA-XA. B0T U04EMY TYT TAK KVEB0. :) =_= #line:bf382d
+Lori: VY4QE, 4EM 6J1TJ D0MA! #line:04af3a
+Mae: o_o :| #line:086d5c
+Mae: FDE TJ1 SNBEQJ? #line:e7ed34
+Lori: KAQTAH0BAR YVNOA. #line:29147f
+Mae: 0, 0KEL. 3A SEVE3H0D0P0SHJ1MN UYTRMN. #line:ad3040
+Lori: DA... DYMA%, R HE 04EHJ "F0P0DCKAR". #line:a6e4e8
+Lori: R TNUA #line:cb8070
+Lori: "SEVE3H0D0P0SHAR". #line:9dfe0d
+Mae: R SNBY HA KVEHE. #line:09d7b9
+Lori: 000! 60FATJ1L PAL0H! #line:891d77
+Mae: {emote=interrobang} #line:e5feb8
+    ->4T0? #line:8e8d58
+    ->GM... HET. #line:51448c
+Lori: 0, N3BNHN. #line:8d9f88
+Lori: R UP0CT0 NMEVA B BNDY, 4T0 GT0 3D0P0B0... #line:b55c42
+Lori: *YZ* *YZ* #line:8799bb
+Lori: HEBASH0, BCE H0PMAVJH0. N3BNHN. N3BNHN. #line:216268
+//lori goes into panic animation//
+Mae: :( #line:e6e6fd
+Mae: BCE B U0PRDKE! YCU0K0LCR! #line:543279
+Lori: N3BNHN, BPEMEHAMN R BEDY CE6R CTPAHH0. N3BNHN. #line:4d82ee
+Lori: *YZ* *YZ* *YZ* #line:bb10ec
+Mae: R UP0WY TE6R, ECVN TJ1 UPEKPATNQJ N3BNHRTJCR! #line:12c6d4
+Lori: *YZ* *YZ* #line:686605
+Lori: X0P0Q0. #line:2161b9
+Mae: :| #line:c27e84
+//pause as transition back to lori normal//
+Mae: SEVE3H0D0P0SHJ1E UYTN KVEBJ1E. DABH0 HE 6J1VA TAM. #line:131803
+Lori: U0 H04AM M0R K0MHATA X0DNT X0DYH0M N3-3A U0E3D0B. #line:706b23
+Mae: DA, 3NM0L R M0FY NX CVJ1QATJ. :) #line:c30b58
+Mae: GT0T QYM 0DNH N3 M0NX V%6NMJ1X. #line:cb85a4
+Lori: HY, TE6E HE UPNX0DNTCR UP0CJ1UATJCR C #line:78a5f6
+Lori: *YZ* #line:d0e8dc
+Lori: KYC04KAMN U0T0VKA HA CE6E. #line:7dc54b
+Mae: PE30HH0. :| #line:dba546
+Mae: VADH0 #line:7c41d0
+<<jump>>
+Mae: R U0QVA! 6J1V0 UPNRTH0 U060VTATJ! #line:929c9f
+Lori: 60VJQY% 4ACTJ BPEMEHN R TYCY%CJ 3DECJ. #line:31d795
+Mae: KPYT0 #line:3ff8a6
+Mae: YBNDNMCR! o/ #line:8b491d
+Lori: U0KA, Y6NLOA. #line:8544a8
+Mae: 0X =_= _o_ #line:450b02
+Mae: o_o #line:13dfc7
+<<set $can_do_lori_friendship_quest to 1>>
+<<if $knows_mural and $talked_to_lori_about_mural is 0>>
+    [[TalkAboutMural]]
+<<endif>>
+===
+title: A2D1.Emoticon
+tags: temp
+colorID: 3
+position: 2074,2027
+---
+Lori: {emote=crossbones} #line:41676d
+===
+title: A2D2.0
+tags: temp
+colorID: 3
+position: 2320,2033
+---
+Mae: UPNBET #line:ce6e4a
+Lori: UPNBET #line:136ed6
+Mae: UPNCRDY, ECVN TJ1 HE UP0TNB? #line:8d4cd6
+Lori: CADNCJ. #line:e868c8
+<<close>>
+<<sit>>
+<<wait 2>>
+Mae: 4E DEVAEQJ? #line:8a20a4
+Lori: PNCY%. #line:0ac6ce
+Mae: 0KEL, 4E PNCYEQJ. #line:4a2700
+Lori: TJ1 3HAEQJ, KAK B KNH0 #line:538e06
+Lori: TNUA H0S B0TKHETCR K0MY-HN6YDJ B FVA3 #line:5cc0e2
+Mae: BAY, 60SE, HEBEP0RTH0 #line:07853e
+Lori: R TNUA PA3PA6ATJ1BA% GZZEKTJ1 N FPNM DVR GT0F0 #line:799ee0
+Lori:{emote=eye_stab} #line:0b4f4c
+Lori: R PA60TA% HAD ZNVJM0M YSAC0B. #line:042740
+    ->TJ1 C06NPAEQJCR CHRTJ ZNVJM YSAC0B? #line:f1e865
+        Lori: HET. #line:c68b7b
+        Lori: DA. #line:6695fa
+    ->GT0 TA-A-A-A-AK KPYT0!! #line:a00756
+        Lori: VADH0, B03M0SH0, B DAHHJ1L M0MEHT R HE C06NPA%CJ, H0 #line:9a183d
+Lori: R NME% B BNDY, 4T0 K0FDA-HN6YDJ R 6YDY, TNUA, #line:3679c4
+Lori: PESNCCEP0M N COEHAPNCT0M, N FPNMEP0M. #line:087518
+Lori: TAKSE, R D0B0VJH0 HEUV0X0 KPN4Y. #line:d27868
+Mae: CEPJE3H0? #line:9131c2
+Lori:{width=600}A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A-A!!!!#line:b8349a
+Lori: R X04Y, TNUA, #line:68396c
+Lori: U0LTN B QK0VY ZNVJM0B YSAC0B. #line:b2e812
+    ->DYMA%, Y HNX ECTJ TAKNE. #line:d502bc
+        Lori: 0 DA, 0HN DELCTBNTEVJH0 KVEBJ1E. #line:8384ad
+    ->Y HNX TAKNE ECTJ? #line:fb02e9
+        Lori: DA!!!! #line:47a114
+Lori: R YSE 3HA%, KAK DEVATJ NCKYCCTBEHHY% KP0BJ N 4ACTN TEVA. #line:96194a
+Lori: N3BNHN, GT0, HABEPH0E, CKY4H0 CVYQATJ. #line:61a255
+Mae: KAK, 4EPT B03JMN, GT0 M0SET 6J1TJ CKY4HJ1M? #line:0f2777
+Lori: R 3HA%, TNUA, NX BCE. #line:39a326
+Mae: 4ACTN TEVA? #line:79a97f
+Lori: ZNVJMJ1 YSAC0B. #line:44588a
+Mae: BCE? #line:54f72e
+Lori: 60VJQNHCTB0 N3 HNX. #line:9414e2
+Mae: KVEB0 KVEB0 KVEB0. #line:da15bb
+Mae: VADH0, MHE U0PA. #line:88f75e
+<<jump>>
+Lori: YBNDNMCR! #line:65a455
+Mae: U03SE! #line:78e458
+<<set $can_do_lori_friendship_quest to 1>>
+<<if $knows_mural and $talked_to_lori_about_mural is 0>>
+    [[TalkAboutMural]]
+<<endif>>
+===
+title: A2D2.Emoticon
+tags: temp
+colorID: 3
+position: 2565,2033
+---
+Lori: {emote=tombstone} #line:77f79e
+===
+title: A2D3.0
+tags: 
+colorID: 3
+position: 2818,2016
+---
+Mae: XGL, MEVKAR. 4E DEVAEQJ? #line:1be514
+Lori: UPNBET. HN4EF0. #line:c9639d
+Mae: 3BY4NT HEUV0X0. #line:04266b
+<<if $can_do_lori_friendship_quest>>
+    Lori: R C06NPA%CJ CUYCTNTJCR HA SEVE3H0D0P0SHJ1E UYTN. #line:d055f9
+    Lori: X04EQJ C0 MH0L? #line:781a8f
+    Lori: N3BNHN, ECVN GT0 3BY4NT CKY4H0 #line:a0b439
+    Lori: TJ1 HE 06R3AHA NDTN. #line:91d03e
+    Lori: BCE 0KEL. #line:796d2a
+    Mae: XA-XA, 4EPT, DAL MHE 0TBETNTJ D0 T0F0, KAK TJ1 PEQNQJ, 4T0 R 0TKASYCJ #line:24b323
+    Lori: 0, 0KEL... X04EQJ C0 MH0L? #line:eb2c6a
+    -> A T0! #line:0e913e
+        Lori: 0, 0TVN4H0! DA, GT0 6YDET BECEV0! #line:6eef04
+        Mae: U0FHAVN #line:3d3c87
+        <<irisOut 1 wait>>
+        <<scene Tracks>>
+    -> B006WE-T0 R HE M0FY. #line:0b6aaf
+        Lori: 0Y. X0P0Q0. #line:5b3a3b
+        Lori: BCE H0PMAVJH0. BCE H0PMAVJH0. #line:25136a
+        Lori: B V%60M CVY4AE, GT0 6YDET DELCTBNTEVJH0 CKY4H0. #line:3580b6
+        Mae: 0, 6VNH, R HE X0TEVA TE6R PACCTP0NTJ! #line:b51de8
+        Mae: R UP0CT0 3AHRTA CEF0DHR, B0T N BCE. #line:0fc3e5
+        Lori: GT0 KPYT0, GT0 KPYT0, GT0 KPYT0 #line:c6a252
+        Lori: D0 BCTPE4N! #line:0becf1
+        Mae: ...D0 BCTPE4N...? #line:c6a797
+<<else>>
+    Lori: B03M0SH0, YBNDNMCR HA SEVE3H0D0P0SHJ1X UYTRX. #line:a5e2e9
+    Mae: KVEB0. #line:6a7769
+    Mae: YBNDNMCR! #line:d1ac25
+    Lori: U0KA! #line:8a7dc1
+<<endif>>
+===
+title: A2D3.Emoticon
+tags: temp
+colorID: 3
+position: 3048,2004
+---
+Lori: {emote=crossbones} #line:ad8fdb
+===
+title: A2D4.0
+tags: temp blocking
+colorID: 3
+position: 3298,2009
+---
+Mae: SDEQJ XAPZECT? #line:4b1027
+Lori: XM. PA3BE XAPZECT HE YHJ1VJ1L UPA3DHNK? #line:327698
+Lori: R C06NPA%CJ U0CM0TPETJ KY4Y CTAPJ1X ZNVJM0B UP0 DPAKYVY, HA4NHAR C 60-X F0D0B. #line:8c803e
+Mae: GT0 3BY4NT DELCTBNTEVJH0 KPYT0. #line:1120df
+Lori: TAK N ECTJ. N C06NPA%CJ 3AKA3ATJ UNOOY. #line:d0d56f
+Lori: T0VJK0 DVR CE6R. #line:8f90bf
+Mae: BAY. TJ1 U0HNMAEQJ SN3HJ F0PA3D0 60VJQE, #line:5a80ca
+Mae: 4EM R, K0FDA 6J1VA B TB0EM B03PACTE. #line:754cae
+Lori: CEPJE3H0? #line:eed0fd
+Lori: N 4T0 TJ1 T0FDA DEVAVA? #line:641301
+    ->06NTAVA B CMYWA%WNX MECTAX NHTEPHETA #line:e29218
+    ->FY6NVA CB0% SN3HJ #line:5ce82c
+        Lori: 0Y #line:5a4eaf
+        Lori: N3BNHN, 4T0 HAU0MHNVA! #line:f1b46f
+        Mae: BCE H0PMAVJH0. UP0CT0 CVY4NVACJ TAKAR QTYKA. #line:ce33e9
+        Lori: T04H0. QTYKA. #line:716627
+        Mae: YFY. M0L C0BET TE6E. #line:7675ea
+        Mae: U0CTAPALCR, 4T06J1 Y TE6R TAKNX QTYK HE 6J1V0. #line:009639
+        Lori: X0P0Q0. #line:2e3877
+Mae: DA. #line:0aba7a
+Lori: YBNDNMCR! #line:071c02
+Mae: U03SE! #line:f9bcf2
+//lori walks left offscreen//
+===
+title: A2D4.Emoticon
+tags: temp
+colorID: 3
+position: 3529,1982
+---
+Lori: {emote=tombstone} #line:6f0178
+===
+title: A3D1.0
+tags: 
+colorID: 4
+position: 1533,2803
+---
+Lori: 6J1VA HA XAPZECTE? #line:a49505
+Mae: DA. YZ. #line:d3d976
+Mae: U0UAVA B UJECY #line:55e06f
+Mae: U0T0MY 4T0 M0R U0DPYFA 6N 06VASAVACJ C HEL #line:b24205
+Lori: KVEB0. R EVA UNOOY N CM0TPEVA KP0BABY% F0PF0HY. #line:6c0aac
+        ->KPYT0 #line:553d7c
+        ->KP0BABAR F0PF0HA? #line:2380b3
+            Lori: NTAVJRHCK0E KNH0 TNUA 1980 F0DA #line:99af02
+            Lori: MH0F0 KP0BN, H0 0HA TNUA TEATPAVJHAR #line:fea9d4
+            Lori: N BCE TAK0E #line:ed9cce
+            Lori: QK0VA-NHTEPHAT DVR DEB04EK #line:f3245d
+            Lori: KY4A UPN3PAK0B U0XNWAET NX #line:46c016
+            Lori: 3A6NPAET NX K... #line:46f692
+            Mae: K KP0BAB0L F0PF0HE? #line:9832e4
+            Lori: DA. #line:da0b8b
+Mae: … #line:3dbbce
+Lori: 4T0-T0 HE TAK? #line:7bd9ef
+Mae: HE. UP0CT0. #line:146e3a
+Mae: R DYMA%, UP0QV0L H04J% R BNDEVA UPN3PAKA NVN 4T0-T0 TNUA T0F0 #line:c7efd8
+Mae: 6PP, R HE YBEPEHA #line:6c693e
+Lori: GT0 3BY4NT KAK 4T0-T0 0ZNFEHH0E? #line:c10068
+Mae: GT0 6J1V0 TNUA HA060P0T. #line:52ee9d
+Lori: 0. N3BNHN. #line:5835bc
+Mae: HN4EF0. YBNDNMCR U03SE. #line:b57536
+Lori: YDA4N TE6E C TB0EL UPN3PA4H0L UP06VEM0L. #line:d4ede3
+Mae: CUACN60. #line:3db907
+<<set $can_do_lori_friendship_quest to 1>>
+<<if $knows_mural and $talked_to_lori_about_mural is 0>>
+    [[TalkAboutMural]]
+<<endif>>
+===
+title: A3D1.Emoticon
+tags: temp
+colorID: 4
+position: 1765,2796
+---
+Lori: {emote=crossbones} #line:554170
+===
+title: A3D2.0
+tags: 
+colorID: 4
+position: 2006,2794
+---
+Mae: 4T0-T0 PNCYEQJ? #line:2f6cff
+Lori: DA, PNCY% UV0X0F0 UAPHR DVR ZNVJMA #line:69e12f
+    <<close>>
+    <<sit>>
+    <<wait 2>>
+Mae: TJ1 TNUA YSE 4T0-HN6YDJ CHNMAVA? #line:a373ae
+Lori: R CDEVAVA K0P0TKNL ZNVJM C U0M0WJ% TEVEZ0HA #line:7fc347
+Lori: N R B3V0MAVA HECK0VJK0 UP0FPAMM DVR ZNVJM0B #line:a673d9
+Lori: 0H 04EHJ UV0X #line:515335
+    ->0 4EM 0H? #line:c37520
+        Lori: GM #line:3d4768
+        Lori: SEHWNHA 06HAPYSNVA 0KH0 B CB0EL CTEHE #line:7af500
+        Lori: PAHJQE EF0 HE 6J1V0 #line:dd4eb9
+        Lori: N 0H0 TNUA C BND0M HA 3ADHNL DB0P #line:ee761d
+        Lori: H0 TAM BCEFDA 3AKAT #line:200f32
+        Lori: N TAM TNUA CT0NT KAK0L-T0 UAPEHJ, K0T0P0F0 0HA HE M0SET PA3FVRDETJ #line:cb504a
+        Mae: 60SE. GT0 DELCTBNTEVJH0 SYTK0 #line:ca63ff
+        Lori: UPABDA??? #line:e3e844
+        Mae: MHE SYTK0. #line:6f4b5e
+        Lori: 0X, CUACN60. #line:672a51
+        Lori: R DYMAVA, GT0 0TCT0L #line:aaf458
+            ->0TKYDA B3RVACJ NDER? #line:873d57
+                Lori: R V%6V% MH0F0 DELCTBNTEVJH0 KP0BABJ1X ZNVJM0B YSAC0B #line:9c6a5f
+                Lori: H0 KP0BJ - GT0 HE BCEFDA CTPAQH0 #line:c2da6a
+                Lori: TAK 4T0 R DYMAVA HAD TEM, 4T0 M0SET HAUYFATJ #line:b25e87
+                Lori: N... HE 3HA% #line:f64c40
+                Lori: TJ1 D0MA, H0 3DECJ 4T0-T0 N3MEHNV0CJ #line:3f2c29
+                Lori: NVN TJ1 UP0CT0 HE 3AME4AV GT0F0 PAHJQE #line:8d53b4
+                Lori: N 3DECJ KT0-T0 CTPAHHJ1L, C0BCEM 6VN3K0 #line:ae010f
+                Lori: N... KAK-T0 TAK #line:51a668
+                Mae: … #line:7ba3b9
+                Lori: 4T0? #line:a06b38
+                Mae: HN4EF0. SYTJ. #line:dd5422
+            ->TAK KAK TJ1 CHNMAVA GT0? #line:d93342
+                Lori: R CHNMAVA GT0 Y CE6R D0MA #line:2e51a5
+                Lori: NFPAVA 06E P0VN #line:fffc0b
+                Lori: N K0E-4T0 R AHNMNP0BAVA HA K0MUJ%TEPE #line:f413b4
+                Lori: GT0 6J1V0 04EHJ UV0X0! #line:2fcdd2
+                Mae: R X04Y GT0 YBNDETJ! #line:5b3626
+                Lori: HNKT0 HNK0FDA GT0 HE YBNDNT. #line:6dd986
+                Mae: 0H 0CTAVCR Y TE6R? #line:4cb084
+                Lori: DA, R 0CTABNVA EF0 KAK TALHJ1L U030P. #line:f56ce1
+                Mae: GT0 D0VSH0 6J1TJ HA3BAHNEM. #line:838171
+                Lori: 4EPT. #line:b047ab
+    ->R 04EHJ UV0X0 NFPA% HA 6AC FNTAPE. #line:e7eb39
+        Lori: KAK D0VF0 TJ1 NFPAEQJ? #line:9cc422
+        Mae: D0CTAT04H0 DVR T0F0, 4T06J1 GT0 6J1V0 04EHJ, 04EHJ UV0X0. #line:c2c6ce
+<<jump>>
+Mae: VADH0, MHE U0PA. #line:9e8b35
+Lori: YBNDNMCR! #line:25f81c
+Mae: U03SE! #line:a7e0a6
+<<set $can_do_lori_friendship_quest to 1>>
+<<if $knows_mural and $talked_to_lori_about_mural is 0>>
+    [[TalkAboutMural]]
+<<endif>>
+===
+title: A3D3.0
+tags: 
+colorID: 4
+position: 2465,2795
+---
+Mae: XGL, MEVKAR. 4E DEVAEQJ? #line:a118f4
+Lori: UPNBET. HN4EF0. #line:f69c69
+Mae: 3BY4NT HEUV0X0. #line:6f0659
+<<if $can_do_lori_friendship_quest>>
+    Lori: C06NPAVACJ CUYCTNTJCR HA SEVE3H0D0P0SHJ1E UYTN #line:e8ea5e
+    Lori: X04EQJ C0 MH0L? #line:4e4ae5
+    -> 3BY4NT HEUV0X0. #line:29f98a
+        Lori: 0, KVEB0 KVEB0 KVEB0 #line:7c0e2e
+        Lori: BUEPED #line:9302a0
+        Mae: 0UPEDEVEHH0, BUEPED #line:a706c5
+        <<irisOut 1 wait>>
+        <<scene Tracks>>
+    -> B006WE-T0 R HE M0FY. #line:b67baf
+        Mae: R TNUA... YCTAVA CEL4AC. #line:f11526
+        Lori: CEL4AC? #line:897706
+        Mae: TNUA B GT0T M0MEHT M0EL SN3HN. #line:6747af
+        Mae: M0SET KAK-HN6YDJ B DPYF0L PA3. #line:c3ff80
+        Lori: 3AAAAAAAMETAH0. #line:157411
+        Mae: YBNDNMCR! #line:9644d1
+        Lori: U0KA! #line:c1a3af
+<<else>>
+    Lori: U0LDY U03ABNCA% HA SEVE3H0D0P0SHJ1X UYTRX. #line:da89c7
+    Mae: HE U0UADN U0D U0E3D N BCE TAK0E. #line:fffa97
+    Lori: R SNBY PRD0M C SEVE3H0D0P0SHJ1MN UYTRMN BC% M0% SN3HJ. #line:c02478
+    Lori: T0VJK0 UPNDYPKN N UJRHNOJ1 U0UADA%T U0D U0E3DA. #line:201326
+    Mae: GT0... CYP0B0. #line:d73c95
+    Lori: GT0T MNP CYP0B #line:9a962d
+    Mae: … #line:88b21e
+    Mae: HY, YBNDNMCR! #line:0171d7
+    Lori: U0KA! #line:1a79cc
+<<endif>>
+===
+title: A3D2.Emoticon
+tags: temp
+colorID: 4
+position: 2236,2793
+---
+Lori: {emote=tombstone} #line:b58777
+===
+title: A3D3.Emoticon
+tags: temp
+colorID: 4
+position: 2707,2797
+---
+Lori: {emote=crossbones} #line:03bbe6
+===
+title: A3D4.0
+tags: 
+colorID: 4
+position: 2933,2796
+---
+Lori: TJ1 B U0PRDKE? #line:28eb97
+<<close>>
+<<sit>>
+Mae: DA-A-A. #line:ffa63c
+Mae: R TNUA #line:00139c
+Mae: 3DECJ VNQJ 4ACTN4H0 #line:13d351
+Mae: R UP0CT0... YCTAVA. #line:d05424
+Lori: TJ1 60VEEQJ NVN 4T0-T0 BP0DE T0F0? #line:974b83
+Mae: R YSE N HE 3HA% #line:ec3ac0
+Lori: TE6E HYSH0 BJ1UNTJ VEKAPCTBA 0T UP0CTYDJ1 #line:b764a5
+Lori: N HEMH0F0 NM6NPH0F0 GVR C KPEKEPAMN #line:e2a00f
+Lori: N 0TVESATJCR B KP0BATN, UP0CMATPNBAR UV0XNE ZNVJMJ1. #line:92b95b
+    ->CUACN60 3A C0BET, D0K #line:522053
+        Lori: UYCTRKN. #line:77d5f5
+    ->MHE KASETCR, 4T0 GT0 HE U0M0SET #line:b35a97
+        Lori: KAK-T0 PA3 Y MEHR 6J1VA UHEBM0HNR #line:83eddd
+        Lori: H0 R BCE PABH0 D0VSHA 6J1VA X0DNTJ B QK0VY #line:611114
+        Mae: PA3BE GT0 HE 4T0-T0 3APA3H0E? #line:88c70c
+        Lori: R HE 3HA%. #line:6a20ff
+Mae: =_= #line:e46280
+//trigger hud2 drunk cam//
+Mae: XMMMMM XMMMMM XMMM #line:e568d5
+Mae: XMMMM MMM MMMMM #line:316d60
+Mae: -_- #line:6e0d60
+Lori: MGL? TJ1 B U0PRDKE? #line:1a02da
+Mae: MM MMMM MMMMMM #line:db2073
+Lori: MGL!!! #line:e83d07
+//fade out//
+Mae: o_o #line:9e909e
+Mae: KXM. N3BNHN. 0TKV%4NVACJ HA CEKYHDY. #line:65d3a3
+Lori: TE6E HYSH0, TNUA, #line:87cd7f
+Lori: CX0DNTJ K D0KT0PY #line:c9dc5e
+Mae: R CX0SY. #line:5c063c
+Mae: CUACN60. #line:e6543a
+Lori: GX... 6E3 UP06VEM... #line:e77886
+<<jump>>
+Mae: 4T0 S, X0P0Q0 #line:33d118
+Mae: HABEPH0, YBNDNMCR U03SE. #line:747213
+Lori: HABEPH0? #line:b2bfc9
+Mae: HE M0FY HN4EF0 06EWATJ #line:532296
+Lori: ...VADH0 #line:935c63
+Mae: YBNDNMCR #line:a6f329
+===
+title: A3D4.Emoticon
+tags: temp
+colorID: 4
+position: 3148,2790
+---
+Lori: {emote=tombstone} #line:dd41d4
+===
+title: A4D3.0
+tags: 
+colorID: 6
+position: 3413,2792
+---
+Lori: UPNBET! #line:b922e2
+Lori: TJ1 B U0PRDKE? #line:cffc2c
+<<close>>
+<<sit>>
+Mae: UPNBET. #line:d7c4c0
+Lori: R CVJ1QAVA TJ1 TNUA 6J1VA B 60VJHNOE NVN 4T0-T0 BP0DE T0F0? #line:5e0f6b
+Mae: XA-XA. AFA. #line:b3a4c2
+Lori: U04EMY? #line:2eea53
+Mae: YUAVA B 0BPAF, K0FDA 6ESAVA 4EPE3 VEC H04J% #line:886973
+Lori: U04EMY? #line:4c9fff
+Mae: GM. MEHR UPECVED0BAV MEPTBJ1L KYVJT K0HCEPBATNBHJ1X DRD%QEK. #line:484e83
+Lori: VADH0. TJ1 HE 06R3AHA MHE PACCKA3J1BATJ. #line:9c2549
+<<if $did_lori_friendship_quest_1>>
+    <<wait 2>>
+    Lori: TAK 4T0 TJ1 DELCTBNTEVJH0 B U0PRDKE? #line:762b81
+    Mae: DA. UP0CT0 GT0 6J1VN HECK0VJK0 CTPAHHJ1X DHEL. #line:11cf20
+    Lori: 0K. R B0VH0BAVACJ. #line:1e911e
+    Mae: 00Y. HN4EF0, R KPEUKAR. #line:1d0f57
+    Mae: HN4T0 HE CV0MNT MEHR B 6VNSALQEE BPEMR. #line:3510f6
+    Lori: 0, X0P0Q0. GT0 04EHJ X0P0Q0. #line:841a16
+    <<wait 2>>
+    <<if $did_lori_friendship_quest_2>>
+        <<if $knows_mural>>
+            Mae: NHTEPECH0, CM0FYT VN 0HN Y3HATJ, KT0 NCU0PTNV 4YBAK0B. #line:95ae86
+            Lori: 4YBAK0B? #line:0ee8bd
+            Mae: ZPECKA. B TYHHEVE. #line:2485c9
+            Lori: 0, GT0 CDEVAVA R. #line:17d694
+        <<else>>
+            Lori: TAK MJ1 EWE DPY3JR? #line:7542b3
+            Mae: AFA. #line:6a8080
+            Lori: X0P0Q0. #line:0f7e03
+            Lori: R NCU0PTNVA ZPECKY. #line:225e61
+        <<endif>>
+        Mae: 4T0!? :( #line:5b5e69
+        Mae: U04EMY? #line:fc4bd4
+        Lori: R HE 3HA%! #line:ab40d4
+        Mae: Y TE6R HE 6J1V0 UPN4NHJ1? #line:1e4f3b
+        Lori: U04EMY TE6R GT0 TAK 3A60TNT? #line:3ee884
+            ->GT0 S 4YBAKN! #line:c5162c
+                Mae: HE QYTN TAK C 4YBAKAMN! #line:cdb4b0
+            ->4YBAKN! 4YBAKN CBRWEHHJ1! #line:30cb46
+                Lori: U04EMY? #line:e1d3e3
+        Mae: 0HN, TNUA, 4ACTJ GT0F0 MECTA! :| #line:8cdf2b
+        Lori: BCE GT0 MECT0 0ZNFNTEVJH0 NCU0P4EH0! #line:2b3f9d
+        Lori: N HNK0MY HET DEVA! #line:156ca9
+        Lori: R X0TEVA, 4T06J1 KT0-T0 3AMETNV, 4T0 4T0-T0 HE TAK. #line:59a8a0
+        Lori: GT0T F0P0D KAK ZNVJM YSAC0B, K0T0PJ1L HNK0FDA HE 3AK0H4NTCR #line:0ffdf4
+        Lori: N 0H DASE HE N3 X0P0QNX ZNVJM0B YSAC0B! #line:665e18
+        Mae: DA, GT0 0TCT0L! #line:ac361f
+        Mae: H0 GT0 /HAQ/ ZNVJM YSAC0B #line:5fd393
+            ->N GT0 KVACCH0. UPABDA? #line:51f09e
+                Lori: DA, H0... #line:eba835
+                <<wait 2>>
+                Mae: DA, R 3HA%. #line:53b0dc
+                Mae: R 4YBCTBY% U0X0SY% QTYKY #line:4a371c
+                Lori: QTYKA #line:c7c31c
+                Mae: QTYKA #line:ca692f
+                Lori: MHE KASETCR, 6YDT0 BCEM UVEBATJ #line:fec021
+                Lori: BCE UP0CT0... BCEFDA 0TCT0LH0. #line:f057fc
+                Lori: QTYKA HADBNFAETCR HA HAC #line:1d1142
+                Lori: UP0NCX0DNT C HAMN #line:4439d9
+                Mae: AFA, H0, TNUA, #line:6ed69a
+                Mae: GT0 HE C0BET, K K0T0P0MY R CTAVA 6J1 UPNCVYQNBATJCR, H0 #line:8f1c94
+                Mae: U0P0L QTYKN D0CTAT04H0 3HA4NTEVJHJ1E N D0CTAT04H0 UV0XNE #line:67ff21
+                Mae: 4T06J1 6J1TJ HEY6NBAEMJ1MN #line:4ea261
+                Mae: H0, 3HAEQJ, SN3HJ UP0D0VSAETCR #line:c07e28
+                Lori: AFA. T0VJK0 GT0 HE 0C060 YTEQAET. #line:b5665f
+                Mae: XE-XE. #line:02b102
+                Mae: 4T0 S, R EWE PA60TA% HAD HAUYTCTBNEM U0VY4QE N DVR CE6R T0SE #line:b758ed
+                Lori: XA-XA-XA. CUPABEDVNB0. #line:83a97f
+            ->KAKNM TJ1 BNDNQJ GT0T ZNVJM #line:1d8520
+                Lori: R HE 3HA%. #line:6a1a38
+                Lori: P0MAHTN4ECKAR K0MEDNR. #line:0db77b
+                Lori: BCE SNBYT B 4NCTJ1X CBETVJ1X D0MAX #line:833857
+                Lori: N BCE 04EHJ MNVJ1 #line:6b5a03
+                Lori: N 0HN OEVY%TCR. #line:a876d1
+                Mae: H0 NX TAK CV0SH0 D0CM0TPETJ D0 K0HOA. #line:2ffb3c
+                Mae: N B K0HOE TJ1 YSE HEHABNDNQJ KASD0F0 UEPC0HASA HA GKPAHE. #line:91b1f3
+                Lori: … #line:f1cfb9
+                Lori: ...AFA. #line:1fa44d
+                Lori: 0HN BCEFDA D0B0VJH0 HEHABNCTHJ1. #line:2a7176
+                Mae: GT0 H0PMAVJH0 HEHABNDETJ NX #line:85b091
+                Mae: BEDJ 0HN HE PEAVJHJ1E V%DN #line:a88aa4
+                Lori: DA. BJ1MJ1QVEHHJ1M V%DRM BCE PABH0. #line:784fa9
+                Mae: R NMEVA B BNDY AKTEP0B. #line:b80301
+                Lori: R T0SE. #line:235214
+        Mae: R 3HA%. #line:4cfb60
+        Mae: TB0R CEMJR F0T0BNTCR K UPA3DHNKAM? #line:23d5cd
+        Lori: M0L 0TEO 06J14H0 0TCYTCTBYET HA DEHJ 6VAF0DAPEHNR #line:cead84
+        Lori: H0 0H B03BPAWAETCR D0M0L K CAM0L DVNHH0L H04N. #line:11274c
+        Mae: TJ1 D0VSHA UPNLTN HA DEHJ 6VAF0DAPEHNR K0 MHE #line:3488b8
+        Lori: 0, HET. HET-HET-HET. #line:e0d7a4
+        Mae: DA VADH0. #line:1f8f19
+        Mae: Y HAC 4 KPECVA, A HAC 6YDET BCEF0 TP0E. #line:4e9087
+        Mae: T0 U0CVEDHEE KPECV0 06J14H0 UP0CT0 3ABAVEH0 XVAM0M. #line:a804e9
+        Lori: HET-HET-HET. R HE M0FY. #line:ec916c
+        Mae: U04EMY HET? #line:5ede16
+        Lori: *YZ YZ* #line:52b74f
+        Lori: BCE H0PMAVJH0. #line:24e009
+        //Lori goes into panic attack mode//
+        Lori:{width=8}BCEBU0PRDKEBCEBCEB0PRDKE#line:dc9d3c
+        Mae: GL, GL, X0P0Q0. MJ1 M0SEM U0F0B0PNTJ 06 GT0M U03SE. #line:54ee80
+        Lori: *YZ* *YZ* *YZ* #line:a44241
+        Lori: CUACN60 *YZ* TE6E *YZ* #line:0d4cf2
+        Mae: TJ1 B U0PRDKE? M0FY VN R 4T0-HN6YDJ CDEVATJ? #line:af052a
+        Lori: HET, BCE *YZ* KVEB0, MHE UP0CT0 HYSH0 *YZ* UPNCECTJ N #line:288ca0
+        Lori: *YZ* #line:f5b95b
+        Lori: U0M0V4ATJ HEMH0F0. #line:443923
+        Mae: X0P0Q0. T0FDA R 0CTABV% TE6R! #line:9a4cc9
+        Mae: YBNDNMCR 3ABTPA, HABEPH0E. #line:804e32
+        Lori: MGL? #line:ab3a0b
+        Mae: AFACJ! #line:1a3be0
+        Lori: CUACN60, 4T0 *YZ* TYCYEQJCR C0 MH0L. #line:361128
+        Mae: 6E3 UP06VEM, MEVKAR. #line:d89976
+        Mae: U0CTAPALCR, TNUA, HE CSE4J U0KA 4T0-HN6YDJ. #line:df1bd4
+        Lori: XA-XA-XA! #line:c5e686
+        Lori: *YZ* #line:9760b1
+        Mae: YBNDNMCR! #line:9baf35
+        <<unlockAchievement Horrorshow>>
+    <<endif>>
+    <<jump>>
+    <<wait 1>>
+<<else>>
+    <<wait 3>>
+    Lori: TJ1... TJ1 X04EQJ NH0FDA TYC0BATJCR BMECTE? #line:f686f1
+    Mae: PA3BE GT0 HE T0, 4T0 MJ1 DEVAEM? #line:d71992
+    Lori: R NME% B BNDY, TNUA, MJ1 M0SEM CM0TPETJ ZNVJMJ1 YSAC0B #line:44ad0c
+    Lori: TJ1 M0SEQJ U03HAK0MNTJCR C M0EL CECTP0L #line:01a701
+    Lori: 0HA, TNUA, U04TN TB0EF0 B03PACTA #line:9ca85a
+        ->KAK EE 30BYT? R, B03M0SH0, BNDEVA EE B QK0VE. #line:e6b8da
+            Lori: CTNBN MELEPC. H0 TJ1 EE HE 3HAEQJ. #line:82d035
+            Lori: 0HA N36NVA K0F0-T0 N EL UPNQV0CJ CMEHNTJ QK0VY. #line:a2d1da
+            Mae: 0, KVEB0. MJ1 M0SEM U0VADNTJ. #line:4a8b1e
+            Lori: XA-XA, HABEPH0E. #line:bf26f3
+            Lori: U0P0L 0HA BEDET CE6R HE 04EHJ X0P0Q0, H0 0HA KVEBAR. #line:db336d
+            Mae: 3BY4NT HEUV0X0. #line:7ec896
+        ->HE DYMA%, 4T0 3HA% EE #line:f189b5
+            Lori: HE3A4EM. #line:4998ba
+            Lori: EE HE 6J1BAET D0MA #line:dd43ec
+            Lori: H0 R M0FY TNUA... CUVAHNP0BATJ GT0 #line:6cd1e9
+            Lori: M0SH0 YCTP0NTJ BE4EPNHKY #line:15327d
+            Lori: GT0 6YDET 3AME4ATEVJH0, GT0 6YDET 3AME4ATEVJH0, GT0 6YDET 3AME4ATEVJH0 #line:cab5cc
+            Mae: 3BY4NT CV0BH0 GT0 6YDET 3AME4ATEVJH0 #line:862f35
+    <<jump>>
+    Mae: MHE HAD0 NDTN. #line:78639e
+    Mae: U0CVEDHNE UAPY DHEL 6J1VN CTPAHHJ1MN. #line:f9857a
+    Lori: CTPAHH0 - GT0 X0P0Q0. #line:4fc309
+    Mae: HABEPH0E. CTPAHH0CTN UP0CT0 UP0NCX0DRT. #line:c249a5
+    Lori: YBNDNMCR KAK-HN6YDJ. #line:df18f0
+    Mae: U03SE, MEVKAR. #line:b2ae97
+    Lori: U03SE, Y6NLOA. #line:a3879a
+<<endif>>
+===
+title: A4D3.Emoticon
+tags: temp
+colorID: 6
+position: 3676,2793
+---
+Lori: {emote=crossbones} #line:237379
+===
+title: TalkAboutMural
+tags: 
+colorID: 0
+position: 3125,2268
+---
+Mae: TJ1 BNDEVA, KT0 NCU0PTNV ZPECKY B TYHHEVE? #line:f6eb6c
+Lori: DA, XA-XA, D0B0VJH0 CMEQH0 #line:fe778f
+Mae: … #line:083e2e
+Lori: R NME% B BNDY, GT0 CTPAHH0 N UV0X0 #line:407345
+Mae: ECTJ NDEN, KT0 GT0 CDEVAV? #line:88aa00
+Lori: HE-A. #line:10a437
+Lori: UPABDA, MH0F0 U0D03PEBAEMJ1X #line:50e237
+Mae: DA... OEVJ1L F0P0D, U0VHJ1L U0D03PEBAEMJ1X #line:685724
+<<set $talked_to_lori_about_mural to 1>>
+===
+title: A1.Emoticon
+tags: temp
+colorID: 0
+position: 1715,1779
+---
+Lori: {emote=tombstone} #line:7b9dbc
+===
+title: EnterTowneCentreEastFromTracks_A2D3
+tags: 
+colorID: 0
+position: 2828,2240
+---
+Lori: YYYYYYYYYYBNDNMCRRRRR! #line:e032fd
+===
+title: EnterTowneCentreEastFromTracks_A3D3
+tags: 
+colorID: 0
+position: 2442,3033
+---
+Lori: U0000000003SEEEEEEEEEE{width=8} #line:daf63a
+===
+title: LoriDemo2_00
+tags: demo2
+colorID: 2
+position: 1129,1828
+---
+Lori: XGL, Y6NLOA. #line:11cc47
+Mae: 6PP. HE HA3J1BAL MEHR TAK. =_= #line:7742cb
+Mae: KT0 TJ1? #line:e3f2a8
+Lori: V0PN M. #line:642058
+Mae: KAK TJ1 Y3HAVA UP0 Y6NLOY? #line:83c4ea
+Lori: GT0 6J1V0 BASH0E C06J1TNE DASE DVR HAC, Y4EHNK0B CPEDHEL QK0VJ1. #line:5fc494
+[[DA YS. CT0VJK0 BPEMEHN UP0QV0.|Lori_LongTimeAgo]] #line:fc9fb2
+[[4T0 F0B0PRT Y4EHNKN CPEDHEL QK0VJ1?|Lori_MiddleSchoolers]] #line:b83ed9
+===
+title: Lori_LongTimeAgo
+tags: demo2
+colorID: 2
+position: 917,2152
+---
+Lori: 3A4EM TJ1 GT0 CDEVAVA? #line:0ca106
+Mae: R HE 3HA%. #line:aee15b
+Lori: 0H GT0 3ACVYSNV? #line:c2bfab
+Mae: HET. #line:74bbd1
+Lori: HAQN MAMJ1 HAKA3AVN HAM HE PA3F0BAPNBATJ C T060L. #line:9894b1
+Lori: U0T0MY 4T0 HNKT0 HE 3HAET, K0FDA TJ1 C06NPAEQJCR CDEVATJ GT0 CH0BA. #line:55ea64
+[[Lori_00_End]]
+===
+title: Lori_MiddleSchoolers
+tags: demo2
+colorID: 2
+position: 1246,2143
+---
+Lori: TJ1 0TUPABNVA EF0 B 60VJHNOY. #line:f7a0d8
+Lori: N HNKT0 HE 3HAET U04EMY. #line:6bac83
+Lori: 0H GT0, TNUA, 3ACVYSNV NVN 4T0-T0 TNUA T0F0? #line:b7fe54
+Mae: HET. #line:74f6ce
+Lori: HAQN MAMJ1 HAKA3AVN HAM HE PA3F0BAPNBATJ C T060L. #line:3c8295
+Lori: U0T0MY 4T0 HNKT0 HE 3HAET, K0FDA TJ1 C06NPAEQJCR CDEVATJ GT0 CH0BA. #line:09aa43
+[[Lori_00_End]]
+===
+title: Lori_00_End
+tags: demo2
+colorID: 2
+position: 1118,2447
+---
+Mae: 4T0 S, UEPEDABAL UPNBET MAME 0T MEHR. #line:c80d1a
+Lori: VADH0. #line:f0cd56
+Mae: 6VNNNH. :\ #line:021c81
+Mae: :| o_o #line:9522f9
+===
+title: LoriDemo2_01
+tags: demo2
+colorID: 3
+position: 440,1788
+---
+Mae: R, U0SAVYL, UPNCRDY. H0FN YCTAVN. #line:970a9d
+Lori: DA, UPNX0DNTCR U0CTAPATJCR, 4T06J1 3A6PATJCR C%DA, HE UPABDA VN? #line:71f0f4
+Mae: R UP0CT0 CTAPE%. 20 VET. :\ #line:dc84ab
+Lori: TJ1 CV0BH0 C0BCEM CTAPAR. #line:8808ac
+Mae: CK0VJK0 TE6E VET? :| #line:83d25d
+Lori: 16 6YDET B ZEBPAVE. #line:a73c78
+<<close>>
+<<sit>>
+Mae: PAHJQE R 60VTAVACJ TYT U0CVE QK0VJ1. #line:ba5b6d
+Lori: UPABDA? 60VJQNHCTB0 DETEL HE D06NPAETCR C%DA. #line:cca6f6
+Mae: XA-XA. B0T U04EMY TYT TAK KVEB0. :) =_= #line:2db058
+Lori: VY4QE, 4EM 6J1TJ D0MA! #line:c3b44c
+Mae: o_o :| #line:e9eae9
+Mae: FDE TJ1 SNBEQJ? #line:8448e0
+Lori: KAQTAH0BAR YVNOA. #line:2e0b44
+Mae: 0, 0KEL. 3A SEVE3H0D0P0SHJ1MN UYTRMN. #line:889080
+Lori: DA... DYMA%, R HE 04EHJ "F0P0DCKAR". #line:0c9148
+Lori: R TNUA #line:455e76
+Lori: "SEVE3H0D0P0SHAR". #line:ca56ab
+Mae: R SNBY HA KVEHE. #line:0aa43c
+Lori: 000! 60FATJ1L PAL0H! #line:43988c
+Mae: {emote=interrobang} #line:293c04
+<<close>>
+    ->4T0? #line:33a308
+    ->GM... HET. #line:648086
+Lori: 0, N3BNHN. #line:635a37
+Lori: R UP0CT0 NMEVA B BNDY, 4T0 GT0 3D0P0B0... #line:4ed887
+Lori: HEBASH0, BCE H0PMAVJH0. N3BNHN. N3BNHN. #line:5bbbe8
+Mae: :( #line:ffc8b9
+Mae: BCE B U0PRDKE! YCU0K0LCR! #line:ed8b26
+Lori: N3BNHN, R BEDY CE6R CTPAHH0 U0P0L. N3BNHN. #line:54352d
+Mae: R UP0WY TE6R, ECVN TJ1 UPEKPATNQJ N3BNHRTJCR! #line:1b52fb
+Lori: X0P0Q0. #line:20fef1
+Mae: :| #line:752649
+Mae: SEVE3H0D0P0SHJ1E UYTN KVEBJ1E. DABH0 HE 6J1VA TAM. #line:4ecfaf
+Lori: U0 H04AM M0R K0MHATA X0DNT X0DYH0M N3-3A U0E3D0B. #line:5b0586
+Mae: DA, 3NM0L R M0FY NX CVJ1QATJ. :) #line:b671d7
+Mae: GT0T QYM 0DNH N3 M0NX V%6NMJ1X. #line:c8b9f6
+Lori: HY, TE6E HE UPNX0DNTCR UP0CJ1UATJCR C KYC04KAMN U0T0VKA HA TE6E. #line:8aaebe
+Mae: PE30HH0. :| #line:dbba2d
+Mae: VADH0 #line:849859
+<<jump>>
+Mae: R U0QVA! 6J1V0 UPNRTH0 U060VTATJ! #line:2b0efd
+Lori: 60VJQY% 4ACTJ BPEMEHN R TYCY%CJ 3DECJ. #line:1b8333
+Mae: KPYT0 #line:ba6063
+<<if $knows_mural is 1 and $asked_lori_mural is 0>>
+    Mae: KCTATN, TJ1 3AMETNVA, 4T0 TYHHEVJ B3V0MAVN? #line:cbedba
+    Lori: AFA, CTPAHH0, UPABDA? #line:283a0c
+    Lori: F0P0DCK0L C0BET N T0T K0U BJ1CVESNBAVN 3DECJ BCEX N KASD0F0 PAHJQE. #line:33ec8c
+    Mae: MHE 6J1V0 NHTEPECH0, KYDA U0DEBAVNCJ BCE DETN. #line:81c19a
+    Lori: XE-XE. 0HN BCE CTAPQE MEHR. #line:33b574
+    Lori: M0R CECTPA 0QNBAETCR C HNMN. #line:46eb89
+    Mae: <o> -_- #line:b3f214
+        ->M0SET 6J1TJ, R D0VSHA CUP0CNTJ TB0% CECTPY 06 GT0M. #line:fd18fa
+            Lori: R HE DYMA%, 4T0 0HA 4T0-HN6YDJ 3HAET. #line:2676aa
+            Mae: DA, TJ1 BEP0RTHEE BCEF0 UPABA. #line:f77845
+            Mae: V%6J1E NDEN, FDE 0HA M0SET 0QNBATJCR? #line:518a6c
+            Lori: XM, 0HA 4ACT0 HAX0DNTCR B TYHHEVE. #line:dfdecd
+            Lori: K0FDA TAM HET K0UA. #line:99b00a
+            Mae: B0VQE6H0. #line:328a17
+        ->ECTJ NDEN, KT0 CDEVAV GT0? #line:82aea3
+            Lori: M0SET B0H T0T UAPEHJ? CTNB? #line:0e96bc
+            Mae: CTNB? #line:8dac24
+            Lori: DA. BP0DE, EF0 BJ1FHAVN N3 QK0VJ1 #line:2c4cc4
+            Lori: H0 0H D0 CNX U0P UPNX0DNT HA QK0VJHJ1E TYC0BKN. #line:8409a4
+            Lori: U0DKATJ1BATJ K DEB40HKAM N3 M0EF0 KVACCA. #line:b9b151
+            Mae: =_= _o_ #line:66263f
+            Mae: 0 60SE, CTNB CKPNFFNHC. #line:b153fa
+             <<set $suspect_steve to 1>>
+            Lori: DA. 0H. #line:0cb166
+            Mae: TAK, GT0 0UPEDEVEHH0 NMEET CMJ1CV. #line:4e8e02
+            Lori: ECTJ X0TJ F0PCTJ NDEL, FDE 0H M0SET 0QNBATJCR? #line:9b1b39
+            Mae: 6E3 U0HRTNR. R BCEF0 UAPY DHEL KAK BEPHYVCR B F0P0D. #line:294359
+    Mae: CUACN60, MEVKAR. o_o #line:77996d
+    <<set $asked_lori_mural to 1>>
+<<endif>>
+Mae: YBNDNMCR! o/ #line:bfd689
+Lori: U0KA Y6NLOA. #line:81e28a
+Mae: 0X =_= _o_ #line:69a449
+Mae: o_o #line:45be52
+<<unlockDoodle LoriM>>
+===
+title: LoriDemo2_02
+tags: demo2
+colorID: 3
+position: 681,1852
+---
+Lori: {emote=music} #line:df953e
+===

@@ -1,0 +1,157 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 523,187
+---
+<<irisIn 1 wait>>
+FortuneTeller: Dare you spin the wheel of destiny? #line:57fa07
+Mae: Explain. #line:ac3b62
+FortuneTeller: None can explain the power of the wheel #line:f23d9c
+FortuneTeller: save that it is an unknowable circular sooth-sayer. #line:4359fb
+Mae: oh snap is it gonna say the sooth? #line:77baa0
+FortuneTeller: The sooth shall be said. #line:d73547
+Mae: ok I'm into this. #line:3f8e23
+<<tell FortuneWheelBrain StartSpin>>
+===
+title: AfterSpin
+tags: 
+colorID: 0
+position: 770,192
+---
+<<if $fortune_wheel_spin_power > 0.8>>
+    FortuneTeller: A mighty spin! A commendable spin! #line:8e9d5f
+<<elseif $fortune_wheel_spin_power > 0.6>>
+    FortuneTeller: Spin, spin, spin away. #line:bab4d8
+<<elseif $fortune_wheel_spin_power > 0.3>>
+    FortuneTeller: Your spin is... weak, my child. #line:f21655
+    Mae: I'm 20. #line:084cb5
+<<else>>
+    FortuneTeller: Is your arm injured? #line:8cd78e
+    Mae: It's a little sore lately, actually. #line:1fa5cf
+    FortuneTeller: I could tell. I see all. #line:53e7a2
+<<endif>>
+
+<<if $fortune_wheel_index is 1>>
+    FortuneTeller: You fortune is your future #line:6be02d
+    FortuneTeller: a place you will soon be #line:b03610
+    FortuneTeller: forever. #line:cff2c6
+    Mae: ok that checks out #line:249f77
+    FortuneTeller: your card says much... #line:3655d2
+    FortuneTeller: you shall live... #line:7d2289
+    Mae: oh good #line:7ac14d
+    FortuneTeller: until, alas, you die. #line:04fb03
+    Mae: oh. #line:60f92f
+    Mae: wait that was gonna happen anyway! #line:08a6df
+<<elseif $fortune_wheel_index is 2>>
+    FortuneTeller: You fortune is your future #line:e6b06b
+    FortuneTeller: a place you will soon be #line:3bf6ae
+    FortuneTeller: forever. #line:8e9fa0
+    Mae: ok that checks out #line:075702
+    FortuneTeller: your card says much... #line:ca0ad6
+    FortuneTeller: you shall know many troubles #line:ff4b6c
+    FortuneTeller: even until the end of your days. #line:c6398e
+    Mae: oh. #line:a08c96
+    FortuneTeller: yep. #line:178ba0
+    Mae: i feel like that's just everyone's life. #line:3652e9
+    Mae: everyone's got problems. #line:edb6f9
+    Mae: how is this a fortune? #line:f56fde
+<<elseif $fortune_wheel_index is 3>>
+    FortuneTeller: You fortune is your future #line:dad9b2
+    FortuneTeller: a place you will soon be #line:0e8848
+    FortuneTeller: forever. #line:e951ec
+    Mae: ok that checks out #line:d00619
+    FortuneTeller: your card says much... #line:a53b81
+    FortuneTeller: There is something you want #line:feb1d6
+    FortuneTeller: and you shall have it #line:667435
+    FortuneTeller: and yet there is something else you desire #line:79855c
+    FortuneTeller: and it shall ever elude you. #line:d461f5
+    Mae: oh come on. #line:eb60ca
+    Mae: that's not a fortune. #line:edf5ce
+    Mae: that's just like... the human condition or whatever. #line:1b7e48
+<<elseif $fortune_wheel_index is 4>>
+    FortuneTeller: You fortune is your future #line:c7dedd
+    FortuneTeller: a place you will soon be #line:265f0b
+    FortuneTeller: forever. #line:6bfdfa
+    Mae: ok that checks out #line:fab3d8
+    FortuneTeller: your card says much... #line:4d14ac
+    FortuneTeller: In your life are those who would harm you #line:9c4084
+    FortuneTeller: but also those who will protect you. #line:9a0d78
+    FortuneTeller: You shall know both in your time. #line:52ff04
+    Mae: ... #line:4b4232
+    Mae: So some people are cool, some people are assholes? #line:e996bd
+    FortuneTeller: language! #line:5ca98f
+    Mae: sorry. this just seems like a random fact about life. #line:3bc3f2
+<<elseif $fortune_wheel_index is 5>>
+    FortuneTeller: You fortune is your future #line:4895a6
+    FortuneTeller: a place you will soon be #line:383720
+    FortuneTeller: forever. #line:c49289
+    Mae: ok that checks out #line:bb696b
+    FortuneTeller: your card says much... #line:2bdcc7
+    FortuneTeller: You shall see many things #line:67c01f
+    FortuneTeller: There are times for running away #line:754bed
+    FortuneTeller: and times for standing your ground. #line:e952e6
+    FortuneTeller: and you shall sometimes know only in hindsight. #line:6630a9
+    <<wait 2>>
+    Mae: that's it? that's not mystical! #line:76704f
+    Mae: that's just like... a fortune cookie #line:d55c5d
+<<elseif $fortune_wheel_index is 6>>
+    FortuneTeller: You fortune is your future #line:c16a7e
+    FortuneTeller: a place you will soon be #line:3b4d8b
+    FortuneTeller: forever. #line:664fb9
+    Mae: ok that checks out #line:d7e708
+    FortuneTeller: your card says much... #line:7c0f77
+    FortuneTeller: some things you shall understand #line:9e86cd
+    FortuneTeller: and some things that shall elude you #line:e773d2
+    FortuneTeller: and this shall ever be your fate. #line:3444ea
+    Mae: ... #line:fb4fa1
+    Mae: so some things i'm gonna understand and... what? #line:4e00df
+    Mae: that's a dumb fortune! #line:732157
+    Mae: that's everyone! everyone is like that! #line:3f7825
+<<elseif $fortune_wheel_index is 7>>
+    FortuneTeller: You fortune is your future #line:a3abca
+    FortuneTeller: a place you will soon be #line:934d71
+    FortuneTeller: forever. #line:cb85b5
+    Mae: ok that checks out #line:5377e9
+    FortuneTeller: your card says much... #line:7b4b1b
+    FortuneTeller: a great circle #line:9c4570
+    FortuneTeller: an orb #line:9ab7f4
+    FortuneTeller: but flat #line:aa2dab
+    FortuneTeller: your thoughts shall be consumed by it #line:f142f5
+    FortuneTeller: and yet you shall devour it #line:b1deb8
+    Mae: so like... pizza! slammercakes at donut wolf? #line:ad8df9
+    Mae: my fortune is i'm gonna eat pizza or donuts or something? #line:877072
+    Mae: i mean that's good but i expected something more #line:6d0460
+    Mae: mystical or something. #line:3a1f4c
+<<elseif $fortune_wheel_index is 8>>
+    FortuneTeller: You fortune is your future #line:ab0ac9
+    FortuneTeller: a place you will soon be #line:4da895
+    FortuneTeller: forever. #line:6ca1d5
+    Mae: ok that checks out #line:7614dc
+    FortuneTeller: your card says much... #line:04a2e7
+    FortuneTeller: some days shall be like unto the fish you keep as a trophy #line:b54d9e
+    FortuneTeller: some days shall be like unto the fish you eat #line:516e8e
+    FortuneTeller: and some days shall be link unto the fish you throw back. #line:5102ad
+    Mae: ok so some days are going to be good, some are going to be average #line:aa937b
+    Mae: and some are going to suck. #line:bf664d
+    Mae: i think I saw this fortune on a greeting card once. #line:e6c4f3
+    Mae: this isn't a fortune! this is just like regular life! #line:c4597c
+<<else>>
+    FortuneTeller: Oops, some kinda bug happened. #line:1dfe01
+    FortuneTeller: Make sure to let the developers know so they can fix it.  #line:b47836
+    Mae: Okay! #line:63ce5f
+<<endif>>
+
+FortuneTeller: the cards do not lie #line:b551d2
+FortuneTeller: the wheel that chooses the card is unknowable. #line:6159ed
+Mae: so this is... unknowable truth? #line:edc312
+FortuneTeller: you have learned much, child. #line:d5744f
+Mae: I'm 20. #line:f8befb
+Mae: ...well that was interesting. #line:20e6be
+FortuneTeller: May the wheel ever spin in your favor. #line:281bfa
+Mae: Alright then. #line:605711
+
+<<set $did_fortune_wheel to 1>>
+
+<<irisOut 1 wait>>
+<<scene TowneCentreEast_Harfest>>
+===

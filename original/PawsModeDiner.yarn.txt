@@ -1,0 +1,118 @@
+title: Convo1
+tags: 
+colorID: 0
+position: 77,109
+---
+<<if $just_ate_crust>>
+    Gregg: B0Y, TJ1 CJEVA M0% K0P04KY. #line:ac2344
+    Mae: GT0 6J1VA 0QN6KA. #line:b95f71
+    Gregg: 0, U0X0SE, K0E-KT0 BJ1VETEV N3 K0VVEDSA N CTAV BECJ TAK0L M0DHRBJ1L ECTJ K0P04KN #line:a98ab2
+    <<set $crusts_eaten_at_diner += 1>>
+<<endif>>
+Angus: UNOOA HE TAKAR YS N BKYCHAR. #line:458747
+Bea: D0B0VJH0 0TBPATNTEVJHAR. #line:0255a8
+Gregg: PE6RT, BJ1 HE CVJ1QAVN 0 UNOOEB0L QKAVE? #line:1ba238
+[[4T0?|TheWhat]] #line:572433
+[[U0QV0 0H0, UNOOA X0P0QA.|PizzaGood]] #line:3d5cd2
+===
+title: PizzaGood
+tags: 
+colorID: 0
+position: 389,416
+---
+Gregg: B0T GTA UNOOA BX0DNT B QKAVY. #line:6f765f
+Angus: 0H 06JRCHRV MHE GT0 HECK0VJK0 PA3. #line:558cdd
+Angus: VADH0, UP0EXAVN. #line:eaf35e
+[[End]]
+===
+title: End
+tags: 
+colorID: 0
+position: 73,655
+---
+Mae: UNOOA X0P0QA. #line:7669a1
+<<unlockDoodle PizzaScale>>
+<<tell GreggFoodPaw Reach>>
+<<tell AngusFoodPaw Reach>>
+<<tell BeaFoodPaw Reach>>
+===
+title: TheWhat
+tags: 
+colorID: 0
+position: -246,435
+---
+Gregg: CYWECTBYET QKAVA UNOOJ1. #line:d0f1ec
+Gregg: HA 0DH0M K0HOE XYDQAR UNOOA. #line:0d18d6
+Gregg: H0, TNUA, BCE, 4T0 HAD HEL, #line:faaa8c
+Gregg: BCE EWE D0B0VJH0 X0P0QEE. #line:bd3958
+Bea: 4T0 HA DPYF0M K0HOE QKAVJ1? #line:7a60b4
+Gregg: D0MAQHRR UNOOA, V0V. #line:e57f96
+[[End]]
+===
+title: Diner
+tags: empty
+colorID: 0
+position: -529,742
+---
+Empty Text #line:22a818
+===
+title: Convo2
+tags: 
+colorID: 0
+position: 600,107
+---
+Bea: R NME% B BNDY, GT0 DASE HE UACTA6NVNTNC. #line:540124
+Mae: MMMMMMM, R CKY4AVA U0 UACTA6NVNTNC. #line:5ad58a
+<<if $just_ate_crust>>
+    <<set $crusts_eaten_at_diner += 1>>
+    <<if $crusts_eaten_at_diner >= 2>>
+        Gregg: TAK TJ1 TEUEPJ BCR TAKAR U0 K0P04KAM? #line:87c028
+        Gregg: KAK KAKAR-T0 MAHJR4KA? #line:3f47ec
+        Mae: GT0 UPNK0VJH0. #line:088beb
+        Gregg: CTPEMH0. #line:f14e15
+        <<unlockAchievement Crusty>>
+    <<else>>
+        Gregg: B0Y, TJ1 CJEVA M0% K0P04KY? #line:dc5646
+        Mae: R V%6V% K0PKN! #line:7d5694
+        Gregg: 0, U0X0SE, K0E-KT0 BJ1VETEV N3 K0VVEDSA N CTAV BECJ TAK0L M0DHRBJ1L ECTJ K0P04KN #line:883a4d
+    <<endif>>
+<<else>>
+    Mae: ZE, HE UPNKACA%CJ K K0P04KAM. #line:47525a
+    Gregg: SNNNNNNNNNNN3A. #line:418990
+<<endif>>
+Mae: MJ1 M0FVN 6J1 N B UACTA6NVNTNC U0LTN. #line:959e11
+Gregg: H0 3DECJ ATM0CZEPH0!!!! #line:52d31e
+Angus: CNDEHJR K0MZ0PTHJ1E. #line:d2983a
+Bea: EDA YSACHA, H0 #line:d2878d
+Bea: Y HEE CB0L QAPM. #line:87feed
+Gregg: TJ1 TEUEPJ CVNQK0M M0DHRBAR DVR 3AKYC04HJ1X? #line:ebfa83
+Mae: PE6RTA. #line:cc387d
+Mae: U0SAVYLCTA. #line:2d01e1
+Mae: R BJ1P0CVA B GT0L 3AKYC04H0L. #line:655d14
+Bea: AFA, N EWE, TNUA, TPNVVN0H KPJ1C. #line:b45f9d
+<<irisOut 1 wait>>
+<<scene Diner>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: -239,2
+---
+Angus: M-M-M-M-M. #line:cb1ddb
+Gregg: 0, DA. CKY4AVA U0 UNOOE, MGL? #line:e58a54
+Mae: B K0VVEDSE 6J1VA UNOOA. #line:6e2329
+Gregg: 0, KPYT0. #line:3b8090
+<<tell GreggFoodPaw Reach>>
+<<tell BeaFoodPaw Reach>>
+<<tell AngusFoodPaw Reach>>
+===
+title: Convo1Short
+tags: cut
+colorID: 0
+position: 361,-60
+---
+Mae: K0P0TK0! #line:0b62ac
+<<tell GreggFoodPaw Reach>>
+<<tell AngusFoodPaw Reach>>
+<<tell BeaFoodPaw Reach>>
+===

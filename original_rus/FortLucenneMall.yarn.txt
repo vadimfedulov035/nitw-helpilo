@@ -1,0 +1,588 @@
+title: EnterLevel
+tags: 
+colorID: 3
+position: -768,6043
+---
+<<if $fort_lucenne_mall is 0>>
+    // intro
+    <<warp Mae MaeOffRight>>
+    <<wait .01>>
+    <<playerCanRun 0>>
+    <<playerCanJump 0>>
+    <<playerFace -1>>
+    <<flip Bea -1>>
+    <<setCanInteract Bea 0>>
+    <<set $fort_lucenne_mall to 1>>
+    [[Intro]]
+<<elseif $fort_lucenne_mall is 1>>
+    // after the not topic, first time
+    <<set $fort_lucenne_mall to 2>>
+    <<warp Bea BeaNotTopic2>>
+    <<warp Player MaeNotTopic2>>
+    <<playerFace -1>>
+    [[AfterMaeSteals]]
+<<elseif $fort_lucenne_mall is 2>>
+    <<playerCanRun 0>>
+    <<playerCanJump 0>>
+    <<setCanInteract Bea 0>>
+    <<if $after_bea_steals>>
+        <<warp Bea BeaMusicStore>>
+        <<generateFollowPoints Mae Bea>>
+        <<follow Bea Mae>>
+    <<else>>
+        <<set $after_bea_steals to 1>>
+        <<warp Bea Bea3>>
+        <<warp Player Mae3>>
+        <<playerFace -1>>
+        [[AfterBeaSteals]]
+    <<endif>>
+<<elseif $fort_lucenne_mall is 3>>
+    // they're eating in the cafeteria
+    <<fadeOut 0>>
+    <<setCanInteract Bea 0>>
+    <<warp Bea BeaCafeteria>>
+    <<warp Player MaeNotTopic2>>
+    [[DinnerConversation]]
+<<elseif $fort_lucenne_mall is 6>>
+    // walking out of the not topic for the last time
+    <<warp Mae MaeNotTopic>>
+    <<warp Bea BeaNotTopic>>
+    <<walk Bea BeaNearExit>>
+    <<walk Mae MaeNearExit>>
+    [[WalkOutConversation]]
+<<endif>>
+===
+title: TriggerNotTopic
+tags: demo2
+colorID: 3
+position: -250,6675
+---
+Mae: :) O_O #line:be5f2c
+Mae: 60SE M0L. #line:fbc79c
+Mae: YPEB EWE 3DECJ! #line:c244dd
+Bea: XA-XA, DA, GT0 T0 EWE CTAPJE. #line:2febd7
+Mae: R 0TC%DA 4YBCTBY% GTY HAUPRSEHH0CTJ. #line:f00a93
+Bea: R 4YBCTBY% CE6R CTAP0L, UP0CT0 FVRDR HA GT0. #line:071d18
+Mae: MJ1 D0VSHJ1 CDEVATJ GT0. #line:fe2c8c
+Bea: R HN 3A 4T0 HE B0LDY TYDA. #line:390083
+<<fadeOut 1 wait>>
+<<scene URev>>
+===
+title: LookAtSomeStore
+tags: demo2
+colorID: 3
+position: -168,6365
+---
+Mae: #line:8ad7dd
+<<lookUp Mae>>
+Mae: 0CTAVACJ T0VJK0 "D0VVAP0BAR NMUEPNR"? #line:ffa495
+Bea: DYMA%, GT0 EDNHCTBEHH0E C 4EM NHTEPHET HE M0SET C0UEPHN4ATJ. #line:c15121
+    ->HABEPH0E.   #line:f13330
+    ->R X0DNVA C%DA, K0FDA 6J1VA PE6EHK0M. #line:1533c3
+        Mae: TJ1 M0SEQJ KYUNTJ PE3NHKY 3A D0VVAP, :) #line:2f2cbc
+        Mae: KAPAHDAQ 3A D0VVAP, #line:dc30cc
+        Bea: B006WE, GT0 HE 04EHJ-T0 BJ1F0DHAR CDEVKA #line:733911
+        Mae: 0 60SE, TJ1 UPABA. :( #line:a3815a
+<<lookNearest Mae>>
+<<end>>
+===
+title: Cafeteria
+tags: demo2
+colorID: 3
+position: 69,6360
+---
+Bea: ECTJ 6YDEQJ? #line:70fb81
+[[DABAL CHA4AVA UP0BEPNM 0CTAVJH0E B T0PF0B0M OEHTPE.|EatLater]] #line:caceeb
+[[DA!|EatNow]] #line:a087c3
+===
+title: EatLater
+tags: demo2
+colorID: 3
+position: 343,6273
+---
+Mae: HAFYVREM AUUETNT. #line:3a4911
+Bea: R N TAK 6J1VA F0V0DHA, K0FDA MJ1 UPNQVN... #line:6394e2
+===
+title: EatNow
+tags: demo2
+colorID: 3
+position: 351,6588
+---
+Mae: DABAL ECTJ! \o/ #line:4ff7d2
+Bea: 0KEL. #line:b89e1a
+Mae: _o_ #line:8e41f7
+Mae: R 0SNDAVA 60VJQE GHTY3NA3MA. #line:2a8493
+Bea: CT0V0BKA T0PF0B0F0 OEHTPA. #line:4e1d37
+Bea: KAK SE X0P0Q0. #line:2f38a3
+Mae: BNDNQJ? 6J1V0 HECV0SH0. #line:fcba11
+<<close>>
+<<set $fort_lucenne_mall to 3>>
+<<fadeOut .5 wait>>
+[[DinnerConversation]]
+===
+title: DinnerConversation
+tags: demo2
+colorID: 3
+position: 66,6648
+---
+<<close>>
+<<stopFollowing Bea>>
+<<warp Mae MaeCafeteria>>
+<<sit2>>
+<<warp Bea BeaCafeteria>>
+<<flip Bea 1>>
+<<sit2 Bea>>
+<<wait 1>>
+<<fadeIn .5 wait>>
+Bea: 4T0 Y TE6R? #line:a1a69c
+Bea: TJ1 BCE CV0UAVA N R DASE HE YCUEVA B3FVRHYTJ. #line:4e3eb3
+	-> UNOOATAK0 N3 QECTEPKN #line:f6fa0f
+		Bea: B QECTEPKE 0ZNFEHHJ1L ZACTZYD.. #line:315c9b
+		Mae: AFA, X0TEVA 6J1 R, 4T06J1 Y HAC B F0P0DE 6J1VA NX T04KA. #line:265c9c
+		Bea: 000, M0EMY 3D0P0BJ% GT0 T04H0 HE U0LDET HA U0VJ3Y. #line:ad56eb
+		Mae: H0 0H0 T0F0 CT0NT. #line:ca7c33
+	-> 4E6Y6YPFEP N3 CMEVTEP6YPFEP #line:dc5030
+		Bea: 60VJQAR KY4A YFVEB0D0B N MRCA, DA? #line:4ac4ca
+		Mae: PA3BE MJ1 C0CT0NM HE N3 GT0F0 SE? #line:b6350e
+		Bea: EWE N3 K0CTEL. #line:d8903c
+		Mae: HE X04Y K0CTN B M0EM 6YPFEPE. #line:f8a4e7
+<<close>>
+<<wait 2>>
+Bea:{emote=cloud_rain} #line:1b19a0
+Mae: 4T0? #line:cd2e4e
+Bea: ... #line:e536d0
+Mae: U0MHNQJ, KAK 3DECJ KGTN DAMNHK0 BJ1TAWNVA K0VJO0 N3 H0CA CNHDN KVAPK? #line:6e611a
+Bea: TJ1 SE 3HAEQJ N3-3A 4EF0 GT0 UP0N30QV0, BEPH0? #line:71e812
+Mae: KGTN 6J1VA 6EPEMEHHA 0T... KAK EF0 TAM... T0F0 ZYT60VNCTA... #line:8fe6f7
+Bea: P0H 6YHCTPA. HE 3HAVA, 4T0 TJ1 B KYPCE GT0F0. #line:8ef90d
+Mae: HY, GT0 6J1VA UEPBAR NFPA B HAQEM BJ1UYCKH0M F0DY #line:2de60b
+Mae: P0H 3A6ESAV 3A VNHN% N 3AKPN4AV HA TPN6YHJ1 #line:16ae6d
+Mae: "M0L UEPBJ1L TA4DAYH DVR M0EF0 UEPBEHOA N EF0 MAM04KN, KGTN DAMNHK0" #line:1cbae4
+Bea: GT0... 4T0-T0. #line:8f2c0a
+Mae: U0-M0EMY, KGTN T0FDA MAPQNP0BAVA N UVAKAVA. #line:09f0f5
+Mae: A 3ATEM 0H YQEV 0T HEE K CNHDN, CUYCTR HEDEV%. #line:6dbcc1
+Bea: AX DA, B0T 0HA 4ACTJ, 0 K0T0P0L R B KYPCE. #line:44cb79
+Bea: B0T 0TKYDA HA4AVACJ BCR NCT0PNR C K0VJO0M N3 H0CA. #line:5aca4a
+    -> NHTEPECH0, 4EM KGTN CEL4AC 3AHNMAETCR? #line:abcfc9
+        Bea: HY, B UP0QV0M F0DY P0H HABEPHYVCR HA KBADP0ONKVE #line:c585ff
+        Bea: N, KAKNM-T0 06PA30M, Y HEF0 N KGTN C0CT0RVCR DNAV0F U0CVE GT0F0 #line:b8ffe1
+        Bea: N... 0HN U0SEHNVNCJ! #line:cef3e9
+        Mae: XAX. :\ #line:3c4672
+        Bea: AFA, P0DNTEVN P0HA U0DAPNVN NM TPELVEP B 6PNDDVE #line:e93140
+        Bea: TAK KAK KGTN 0TKA3AVACJ U0KNDATJ U0CCYM CUPNHFC. #line:b165e1
+        Mae: 6PNDDV TNUA... B 15-TN MNHYTAX 0TC%DA. #line:ca5711
+    -> NHTEPECH0, 4T0 C P0H0M? #line:09a6c3
+        Bea: YX, B UP0QV0M F0DY 0H UEPEBEPHYVCR HA KBADP0ONKVE #line:14e300
+        Bea: N 60VJHN4HJ1E C4ETA 6J1VN 04EHJ 60VJQNMN, #line:e3d728
+        Bea: TAK 4T0 EF0 P0DNTEVN UVATNVN 3A HEF0. #line:08d01f
+        Mae: DA, 6J1BAET SE. :\ #line:2ed9e0
+        Bea: N 0H CH0BA U0F0B0PNV C KGTN N... TEUEPJ 0HN SEHATJ1. #line:a8bcde
+        Bea: DVR P0HA BCE 3AK0H4NV0CJ X0P0Q0, R DYMA% #line:58bc90
+    ->NHTEPECH0, 4T0 CVY4NV0CJ C CNHDN? #line:a1a9e0
+        Bea: NHTEPECH0, 0HA BCTABNVA CE6E H0B0E K0VJO0? #line:bac673
+        Bea: NVN, HA060P0T, TEUEPJ HNK0FDA HE 6YDET DEVATJ UNPCNHF. #line:f23eaf
+Bea: 3HAEQJ, 4T0 CAM0E YSACH0E B GT0L NCT0PNN? #line:a7e2db
+    -> FPR3HAR DPAMA CTAPQEL QK0VJ1? #line:1f2f71
+    -> CNHDN VNQNVACJ K0E-4EF0, BJ1PBAHH0F0 C EE VNOA? #line:966694
+    -> P0H? #line:6ac101
+Bea: NH0FDA, R DYMAVA #line:4a3cff
+Bea: "60F BJ1TB0PRET CTPAHHJ1E BEWN, 4T06J1 CBECTN DBYX V%DEL BMECTE" #line:1c59e4
+Mae: :| #line:9a9d9c
+    -> XM. HABEPH0E. #line:bf2429
+        Bea: HY, TAK X0TR 6J1 B UP0NCX0DRWEM 60VJQE CMJ1CVA. #line:e60ba3
+    -> R HE 3HA%, BEP% VN R B 60FA. #line:015297
+        Bea: T0 SE CAM0E. #line:84ebb8
+Bea: DYMA% 06 GT0M MECTE... Z0HTAHE N 60FE... UYTRX N UP04EM... #line:bf12a9
+Bea: HE3HAHNE T0F0, KAK 4T0 PA60TAET, - U0X0SE HA... MAFN%. #line:ed0919
+Bea: TEUEPJ HE 3HA%, 4T0 M0SET U0LTN HE TAK N KAK MHE, ECVN 4T0, GT0 NCUPABNTJ. #line:6e936e
+Bea: U0M0FAV0 T0VJK0 0C03HAHNE T0F0, 4T0 KT0-T0 GT0 K0HTP0VNPYET, U0HNMAEQJ? #line:ec9122
+Bea: TEUEPJ R UP0CT0 U0CT0RHH0 YCTA% HA PA60TE. #line:cb9252
+Mae: K0FDA R 6J1VA B K0VVEDS... #line:018721
+Bea: DA? #line:c0d56f
+Mae: AX, TJ1 BCE PABH0 HE 3AX04EQJ F0B0PNTJ 06 GT0M. #line:a91aea
+Bea: F0B0PN, 4T0 CVY4NV0CJ? #line:f0af0e
+Mae: ... #line:1f905a
+<<close>>
+<<wait 2>>
+Mae: X04EQJ EWE U0X0DNTJ U0 OEHTPY? #line:29b0fd
+Bea: YX... 3DECJ 60VJQE N HEKYDA NDTN, 4ECTH0 F0B0PR. #line:ded32d
+Mae: MJ1 M0SEM 3AOEHNTJ T0 CTPAHH0E NCKYCCTB0 HABEPXY! #line:e3fd0e
+Mae: X04Y U0TP0FATJ EF0. #line:33d0ee
+Bea: U0SAVYLCTA, HE HAD0. #line:a40a09
+Mae: X04Y CX0DNTJ! :) #line:5d0512
+Bea: CX0DN. A R 6YDY CNDETJ 3DECJ. #line:ac0fcf
+Bea: R YCTAVA N MHE FPYCTH0. #line:8628ed
+Mae: :| #line:ff0c2a
+Mae: KAK X04EQJ. #line:6df18f
+[[DinnerConversationEnd]]
+===
+title: DinnerConversationEnd
+tags: 
+colorID: 3
+position: 100,6942
+---
+<<playerCanRun 1>>
+<<playerCanJump 1>>
+===
+title: FountainDone
+tags: demo2
+colorID: 3
+position: 1108,6555
+---
+<<closeAll>>
+<<tell Fountain Stop>>
+<<fadeOutMusic 3>>
+<<wait 3>>
+// feedback noise, crackly, echoey, overblown V/O and a bit of screenshake when she talks?
+<<playOneShot event:/fort_lucenne_mall/microphone_feedback>>
+Mae: {size=1.2,locator=MaeGodTalk}[shake=.03]6NATPNC CAHTEVV0!!![/shake] #line:c3fe54
+Bea: {locator=BeaFountainTalk}XA-XA-XA-XA!!! HE F0B0PN HAQN NMEHA! #line:d46596
+Mae: {locator=MaeGodTalk}...#line:17b246
+Mae: {locator=MaeGodTalk}[shake=.03]6NATPNC DS0HC!!![/shake] #line:c5d9e5
+Bea: {locator=BeaFountainTalk}0F0! GT0 TJ1, F0CU0DJ? #line:259c07
+Mae: {locator=MaeGodTalk}[shake=.03]DA! GT0 R, F0CU0DJ CTNBEHC0H[/shake] #line:c463b5
+Bea: {locator=BeaFountainTalk}HE 3HAVA, 4T0 Y TE6R ECTJ ZAMNVNR! #line:410ec8
+Mae: {locator=MaeGodTalk}[shake=.03]M0V4ATJ, CMEPTHAR[/shake] #line:bf69c4
+Mae: {locator=MaeGodTalk}[shake=.03]C U0M0WJ% CB0EF0 PJ160-M0HCTPA R M0FY U0K0H4NTJ C TB0NM P0D0M[/shake] #line:854ffb
+Bea: {locator=BeaFountainTalk}HE 6YDY BPATJ... GT0 6J1V0 BECJMA B0VQE6H0. #line:2ae863
+Mae: {locator=MaeGodTalk}[shake=.03]M0V4ATJ! R F0B0P% VNQJ EDNH0SDJ1[/shake] #line:f9dbb8
+Mae: {locator=MaeGodTalk}[shake=.03]TJ1 N TB0L DPAF0OEHHJ1L CUYTHNK KYUNTE M0P0SEH0F0 U0 UYTN D0M0L[/shake] #line:cda151
+Bea: {locator=BeaFountainTalk}XA-XA-XA DA, KASETCR HAM HAD0 CBAVNBATJ 0TC%DA #line:563acf
+Bea: {locator=BeaFountainTalk}XA-XA-XA-XA U0KA TE6R HE APECT0BAVN #line:644588
+Bea: {locator=BeaFountainTalk}[shake=.03]AX XA XA XA XA XA XA XA XA[/shake] #line:f25338
+Mae: {locator=MaeGodTalk}[shake=.03]K0UJ1 6YDYT 0QAPAQEHJ1 N HA4HYT K0V0TNTJ DPYF DPYFA[/shake] #line:dd4df8
+Mae: {locator=MaeGodTalk}[shake=.03]N60 R ECMJ 60F, N R HEHABNSY K0U0B[/shake] #line:a64f91
+Bea: {locator=BeaFountainTalk}VADH0, VADH0! CVE3AL 0TTYDA! #line:f74606
+Mae: {locator=MaeGodTalk}[shake=.03]YDA4N TE6E, CMEPTHAR[/shake] #line:3d3dcd
+<<close>>
+<<unlockDoodle BeaFQ1>>
+<<set $bea_bubble_data to 0>>
+<<set $fort_lucenne_mall to 5>>
+<<fadeOut 1 wait>>
+<<scene URev>>
+===
+title: WalkOutConversation
+tags: demo2
+colorID: 3
+position: -753,6419
+---
+<<wait 1>>
+Mae: GT0 MECT0, PAHJQE, UPEDCTABVRV0 N3 CE6R 4T0-T0. #line:2d52bf
+Bea: HY, 0H0 N CEL4AC "4T0-T0". #line:e7e76e
+Mae: HE. UP0CT0 60VJQ0E U0VYUYCT0E HN4EF0 #line:afa1a5
+Mae: C 60VJQ0L N U0VYUYCT0L UAPK0BK0L. #line:ca1764
+Bea: HY, 4T0 S, NMEEM T0, 4T0 NMEEM. #line:d2ae54
+Mae: DABAL HNK0FDA 60VJQE HE 6YDEM C%DA UPNX0DNTJ. #line:7e31dd
+Bea: MEHR HE HAD0 YF0BAPNBATJ. #line:405c44
+Bea: R C%DA UPNQVA, U0T0MY 4T0 TJ1 GT0F0 3AX0TEVA. #line:b26986
+Mae: PAHJQE Z0PT V%CEH UPEDCTABVRV N3 CE6R 4T0-T0 #line:36f012
+Mae: TEUEPJ SE EMY K0HEO. #line:a632f6
+Bea: U0QVN. #line:bf54d2
+Bea: UYCTJ U0K0NTCR C MNP0M. #line:ee8dcc
+Mae: UYCTJ. U0K0NTCR. #line:38fb3b
+Mae: R X04Y PA3BECTN HAC U0 D0MAM. #line:02466d
+Bea: HE-A. #line:781a14
+<<fadeOut 1 wait>>
+<<set $night to 1>>
+<<set $did_bea_friendship_quest_1 to 1>>
+<<set $completed_bea_friendship_quests += 1>>
+<<if $demo2>>
+    <<scene ShowJournalDoodles>>
+<<else>>
+    <<scene MaeHouse left>>
+<<endif>>
+===
+title: Intro
+tags: demo2
+colorID: 3
+position: -1002,6392
+---
+<<set $fort_lucenne_mall_blocker_right_disabled to 1>>
+<<wait 3>>
+<<run Mae MaeNearExit>>
+Mae: :) #line:c0ed63
+Mae: [wave]Z0PT V%CEEEEEEEEH!!![/wave] \o/ -_- #line:eaad12
+Mae: O_O :( #line:d556d3
+<<walk Bea BeaNearExit>>
+Mae: 0 60SE M0L. #line:a8b989
+Bea: DA. #line:c6f51a
+Mae: _o_ #line:072e9c
+Mae: KAK0F0 4EPTA 3DECJ UP0N30QV0? #line:c07859
+Bea: GM... NHTEPHET? #line:016bab
+<<run Mae MaeNearExitStairTop>>
+Mae: Y HAC YSE 6J1V NHTEPHET, K0FDA MJ1 UPNX0DNVN C%DA! #line:23caee
+Mae: 4T0 CVY4NV0CJ C KAPYCEVJ%? #line:c5c6ab
+<<waitForMove Bea>>
+<<walk Bea BeaNearExitStairTop>>
+Bea: UP0DAVN, HABEPH0E. #line:25b4a2
+Mae: KT0 U0KYUAET KAPYCEVN? #line:5c0fac
+Bea: TE, KT0 C%DA HE X0DNT. #line:88985e
+Mae: 4T0 CVY4NV0CJ C KHNSHJ1M MAFA3NH0M?! #line:7fb785
+Bea: BCE T0T SE NHTEPHET. #line:417db6
+Mae: A C NFP0BJ1MN ABT0MATAMN 4T0? #line:c6bc11
+Bea: "NHTEPHET" #line:b6b580
+Bea: N R 6YDY UPNDEPSNBATJCR GT0F0, U0KA TJ1 HE UEPECTAHEQJ CUPAQNBATJ. #line:b4c9c9
+<<waitForMove Bea>>
+<<walk Bea BeaNotTopic>>
+<<set $fort_lucenne_mall_blocker_right_disabled to 0>>
+===
+title: AfterBeaSteals
+tags: demo2
+colorID: 3
+position: -495,6419
+---
+<<playerUpdateFallDuringInteract 1>>
+Bea: :( #line:48eb20
+Bea: 3A4EM R GT0 CDEVAVA? #line:d1b96b
+Mae: -_- :) #line:860a20
+Mae: TJ1 0TVN4H0 CUPABNVACJ, 6N!!! #line:145cae
+Bea: R BEDJ CAMA HATPABVNBA% K0U0B HA B0P0B, B CB0EM MAFA3NHE! #line:0a4e32
+Bea: GT0... #line:4503f1
+Mae: o_o #line:47a807
+   -> 4T0 Y TE6R? #line:e53fc2
+        Bea: 4T0-T0 TNUA 0SEPEVJR? #line:0a1eb5
+        Mae: CVABH0, CVABH0 #line:1936cd
+        Bea: 0 60SE. #line:c5fb28
+    -> PA3BE TJ1 EWE HE KPAVA B MAFA3NHE? #line:11fa2f
+        Bea: HET! HNK0FDA! #line:3c5a96
+        Mae: VADH0, TEUEPJ YSE *MHE* HE U0 CE6E 0T GT0F0. #line:c0e07c
+        Bea: ...UP0CTN? #line:cb5ae4
+Mae: DA 3A6EL. CAM0E CV0SH0E YSE U03ADN. #line:de20ba
+Bea: CEPJE3H0? #line:a35824
+Mae: DA, BJ1QVN B 0TKPJ1T0E UVABAHJE. #line:07a625
+Bea: MEHR CEL4AC CT0QHNT. #line:07f724
+Mae: T0FDA CT0NT HEMH0F0 U0X0DNTJ. #line:fd9607
+Bea: :| #line:3050eb
+Mae: :| #line:360f30
+<<generateFollowPoints Mae Bea>>
+<<follow Bea Mae>>
+<<playerUpdateFallDuringInteract 0>>
+===
+title: AfterMaeSteals
+tags: demo2
+colorID: 3
+position: -426,6101
+---
+<<if $urev_theft is 0>>
+    Mae: =_= :( #line:6cda65
+    Bea: MGL 60P0BCKN. B0T GT0 DA. #line:e67bc2
+    Bea: R-T0 DYMAVA, TJ1 KPNMNHAVJHJ1L UP0ZN NVN TNUA T0F0 #line:8bd6b7
+    Mae: 3ATKHNCJ #line:0450b8
+    Bea: U0T0MY 4T0 [wave]DNH03ABPJ1!!![/wave] #line:acf9b2
+    Mae: R 3A4EPCTBEVA! HY NVN 0HA CBEPX4EV0BEK. #line:222231
+    Mae: DA U0ZNF. #line:b7c3e5
+    Bea: HY, 3HAEQJ. TJ1 HE M0SEQJ 6J1TJ X0P0QA B0 BCEM. #line:32b200
+    Bea: HEK0T0PJ1E ME4TJ1 UP0CT0 HE C6J1BA%TCR. #line:f5725c
+<<else>>
+    Mae: 0 DA. KPYTAR UPRSKA DVR PEMHR, K0T0PY% R HE 6YDY H0CNTJ. #line:df76e5
+    Mae: 0HA HATNPAET MHE SNB0TNK. #line:089f51
+    Bea: HY N CK0TCTB0, MGL. #line:39c403
+<<endif>>
+Mae: o_o :| #line:f0101a
+Mae: TE6E CVEDYET YKPACTJ 4T0-HN6YDJ! #line:308d01
+Bea: UAPD0H? #line:f20ff3
+Mae: TJ1 PA3BE HNK0FDA HE C0BEPQAVA UPECTYUVEHNR? #line:ac90b5
+Bea: HY, DA, T0 ECTJ... A KT0 HE C0BEPQAV? #line:e05ee0
+Mae: T0FDA BEPHNCJ TYDA, 4EMUN0H! :) #line:9052e1
+Bea: 4T0? HET. #line:611182
+Mae: 6NATPNC, U03B0VJ MHE N3V0SNTJ GT0: #line:e1b557
+Mae: 1. KAMEPJ1 6E30UACH0CTN TAM DASE HE BKV%4EHJ1. #line:f5346c
+Mae: 2. KACCNPQE RBH0 U0 6APA6AHY. #line:b659a3
+<<if $urev_theft is 0>>
+    Bea: TEM HE MEHEE, TE6R 4T0-T0 0CTAH0BNV0. #line:e834dd
+    Mae: -_- #line:5dcfc6
+    <<wait 1.5>>
+    Mae: B 06WEM, #line:896c15
+    Mae: o_o #line:64d425
+<<endif>>
+Mae: 3. 3DECJ HET 0XPAHHNK0B, HACK0VJK0 R M0FY CYDNTJ. #line:90b4c7
+Bea: HE 3HA%... B CMJ1CVE... XMMM #line:aa77a3
+Mae: 6N. GT0 BEDJ H0BJ1L 0UJ1T. #line:dc5f60
+Mae: DABAL. #line:39d790
+Mae: R BMEQA%CJ, CVY4NCJ 4EF0! #line:bec4ec
+Bea: VADH0... H0 ECVN MEHR U0BRSYT, R BAV% BCE HA TE6R N YE3SA%. #line:b91f78
+Mae: 0TVN4H0! \o/ #line:8478de
+<<fadeOut 1 wait>>
+<<scene URev>>
+===
+title: BeaReactsToSplash1
+tags: demo2
+colorID: 0
+position: 873,5500
+---
+Bea: {locator=BeaFountainTalk,emote=interrobang} #line:12dbef
+Bea: {locator=BeaFountainTalk}0 M0L 60F. #line:64df05
+===
+title: BeaReactsToSplash2
+tags: demo2
+colorID: 0
+position: 1112,5500
+---
+Bea: O_O :) #line:9f8e5d
+Bea:{locator=BeaFountainTalk}4EPT B03JMN!#line:8885f7
+===
+title: BeaReactsToSplash3
+tags: demo2
+colorID: 0
+position: 871,5749
+---
+Bea:{locator=BeaFountainTalk}KAK... X... XN-XN... N-XN-XN-XN #line:05fd79
+===
+title: BeaReactsToSplash4
+tags: demo2
+colorID: 0
+position: 1109,5754
+---
+Bea:{locator=BeaFountainTalk}XA-XA MGL R 3HA%, 4T0 GT0 TJ1! #line:980a3f
+===
+title: FountainStart
+tags: demo2
+colorID: 3
+position: 505,5758
+---
+<<set $bea_bubble_data to 1>>
+<<setSpriteLayer Bea BG0>>
+Mae: 0F0. #line:2585d5
+Mae: GT0..? #line:2d7bdd
+<<close>>
+<<tell ColorFadeSprites Set>>
+<<musicFadeOut 3>>
+<<wait 3>>
+<<playMusic fish_fountain>>
+<<wait 1>>
+Mae: XE XE #line:df482e
+Mae: XN XN #line:14ac59
+Mae: XA XA XA XA XA XA #line:39bfe8
+Mae: 0TVNNNNNNNNNN4H0. #line:bd5bd6
+<<tell Fountain Run>>
+Bea: B0Y, GL #line:029692
+===
+title: BeaReactsToSplash8
+tags: 
+colorID: 0
+position: 1108,6240
+---
+[[FountainDone]]
+===
+title: ClosedStore1
+tags: demo2
+colorID: 3
+position: 42,6082
+---
+Mae: #line:d0d061
+<<lookUp Mae>>
+Mae: A 4T0 CVY4NV0CJ C... #line:9acde2
+Bea: NHTEPHET. #line:ec10c7
+<<lookNearest Mae>>
+<<end>>
+===
+title: BeaReactsToSplash5
+tags: demo2
+colorID: 0
+position: 873,5993
+---
+Bea:{locator=BeaFountainTalk}[shake=.04]AX XA XA XA XA MGL KAK TJ1 GT0 DEVAEQJ?![/shake] #line:f6c76f
+===
+title: BeaReactsToSplash6
+tags: demo2
+colorID: 0
+position: 1108,5999
+---
+Bea:{locator=BeaFountainTalk}[shake=.04]XA XA XA 0CTAH0BNCJ, R CEL4AC YMPY XA XA XA XA[/shake] #line:274745
+===
+title: BeaReactsToSplash7
+tags: demo2
+colorID: 0
+position: 872,6236
+---
+Bea:{locator=BeaFountainTalk}[shake=.04]VADH0, VADH0, K0E-KT0 BJ13J1BAET K0U0B XA XA XA XA XA XA XA XA XA XA[/shake] #line:77a443
+===
+title: PastFountain
+tags: demo2
+colorID: 3
+position: -444,5782
+---
+Mae: 0F0. R BEDJ N 3A6J1VA 06 GT0L FNFAHTCK0L PJ16JEL F0V0BE. #line:9c8485
+Bea: 0 60SE M0L. R 060SAVA EE. #line:4e9b93
+Mae: TJ1 6J1BAVA 3DECJ B VETHNE DEHJKN? #line:40dac3
+Bea: AFA, GTA PJ16NHA UVEBAVACJ B V%DEL. D0 CNX U0P HE 3HA%, KAK 0HN GT0 cDEVAVN. #line:b680c1
+-> R BCEFDA DYMAVA, 4T0 TAM 6J1V KAK0L-T0 UAPEHJ C B0DRHJ1M UNCT0VET0M. #line:fe46e5
+    Bea: HET. GT0 T04H0 6J1V KAK0L-T0 TP%K C CAMNM Z0HTAH0M. #line:7ae4a3
+    Mae: U0TPRCA%WE. #line:48258c
+-> 0DHASDJ1 BNDEVA, KAK 4EV CBAVNVCR HA U0V. #line:2e06f0
+    Bea: DA, GT0 UP0NCX0DNV0 KASDJ1L F0D, N KT0-T0 U0CKAVJ3J1BAVCR. #line:916d6a
+    Bea: HY, TNUA. R HE 3HA%. #line:0d4c42
+    Bea: TJ1 UPNX0DNQJ, 4T06J1 TE6R 0UVEBAVA PJ16A. #line:5652a0
+Bea: XE-XE. 3DECJ ECTJ VECTHNOA, K0T0PAR BJ1X0DNT #line:bb9acb
+Bea: HA PECT0PAHHJ1L DB0PNK, #line:20b1f8
+Bea: FDE 0TKPJ1BAETCR BND HA ATPNYM. #line:4f7fd8
+Mae: 4EF0? #line:b54b25
+Bea: U0T0V0K. 60VJQ0L KYC0K CTEKVA CBEPXY. #line:dd342a
+-> R 3HA%, 4T0 TAK0E ATPNYM. #line:cbadfb
+    Bea: YFY. #line:240abd
+    Bea: B 06WEM, #line:da6166
+-> DA? #line:528195
+Bea: K0FDA R 6J1VA MEVK0L, R DYMAVA, 4T0 TAM SNBET 60F. #line:f848a2
+Mae: 0F0. #line:3b8bac
+Bea: HE 3HA%. U0MH%, 4T0 CT0RVA N URVNVACJ TYDA #line:b4397a
+Bea: U0EDAR 6YPFEP #line:15ec3e
+Bea: N UJ1TAVACJ YBNDETJ, FDE SE TAM 60F. #line:a1ad4a
+Bea: TNUA, BJ1CMATPNBAVA EF0. #line:ae74f5
+<<extraZoom -3 4>>
+<<cameraLookAt FountainLookFocus 4>>
+Mae: U0X0SE, TEUEPJ TAM BNCNT 4T0-T0 TNUA C0BPEMEHH0F0 "NCKYCCTBA". #line:a073ef
+Mae: X04EQJ U0DHRTJCR N U0CM0TPETJ? #line:86d582
+Bea: HE, Y MEHR K0VEHN H0%T U0CVE PA60TJ1. #line:9403c3
+<<extraZoom 0 2>>
+<<cameraFollowPlayer 2>>
+===
+title: Plaque
+tags: demo2
+colorID: 3
+position: -173,5720
+---
+Mae: “K0CM0C 4: K0CMN4ECKNE KAMHN" #line:f5e6e4
+Mae: "NHCTAVVRONR P0PZ0PDA FPNMCA" #line:be66dc
+Mae: “UPN U0DDEPSKE D0VVAP0B0L NMUEPNN” #line:e597f0
+Mae: “UPED0CTEPESEHNE: HA GKCU0HAT HE CTAH0BNTJCR” #line:12904a
+<<end>>
+===
+title: OtherEnd
+tags: demo2
+colorID: 3
+position: 132,5751
+---
+<<if $fort_lucenne_mall >= 3>>
+    Mae: 0F0. A B0T N 0DNH0KNL BJ1X0D N3 T0PF0B0F0 OEHTPA. #line:4720a9
+    Mae: CTPAHH0 X0DNTJ U0 GT0MY 60VJQ0MY 3DAHN% #line:1c9af3
+    Mae: B 0DNH04KY. #line:35dd4a
+<<else>>
+    Mae: GX. MHE KA3AV0CJ, 4T0 3DECJ 6J1V0 KYDA 60VJQE BCEF0. #line:d2012c
+    Bea: HE-A. #line:ae5e44
+    Mae: GT0 DASE HE T0PF0BJ1L OEHTP. UP0CT0 K0PND0P C0 BCRK0L ZNFHEL. #line:a14778
+    <<lookLeft Mae>>
+    <<lookLeft Bea>>
+    <<close>>
+    <<wait 1>>
+    Mae: 0F0. B3FVRHN HA GTY 0FP0MHY%, MPA4HY% N UYCTY% UAPK0BKY. #line:5a7f06
+    Bea: AFA. HE YBEPEHA, 4T0 0HA 6J1VA X0TJ PA3 3A6NTA. #line:8b18d6
+    Mae: BCEF0 F0P0DA HE XBATNT, 4T06J1 3A6NTJ EE. #line:4fe4b2
+    Bea: BU0VHE B03M0SH0. #line:94186b
+    Mae: 0HA CV0BH0 0FP0MHJ1L 4EPHJ1L 0KEAH. #line:202f9a
+    Bea: C PJ16HJ1M ZACTZYD0M HA DPYF0M K0HOE. #line:88f58e
+    Mae: 0X 6VNNNNNH. #line:59118d
+    Mae: MEHR VNX0PADNV0 U0CVE T0F0, KAK R U0EVA TAM. #line:190df0
+    <<lookNearest Mae>>
+    <<lookNearest Bea>>
+<<endif>>
+<<end>>
+===
+title: MusicStoreAlone
+tags: demo2
+colorID: 3
+position: 290,5524
+---
+Mae: KAK0L 6ECU0PRD0K. #line:6ddbfe
+Mae: U0BEPNTJ HE M0FY, 4T0 TYT EWE ECTJ CBET. #line:4d4b6d
+<<end>>
+===

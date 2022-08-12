@@ -1,0 +1,804 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 609,5
+---
+<<playerFace -1>>
+<<tell TunnelBoatRide Run>>
+<<fadeOutMusic 5>>
+<<fadeIn 1 wait>>
+<<wait 1>>
+[[BeforeIsland1]]
+===
+title: Salvi
+tags: 
+colorID: 0
+position: 3063,-1314
+---
+<<if $tunnel_boat_island is 1>>
+    [[SalviIsland1]]
+<<elseif $tunnel_boat_island is 2>>
+    [[SalviIsland2]]
+<<elseif $tunnel_boat_island is 3>>
+    [[SalviIsland3]]
+<<elseif $tunnel_boat_island is 4>>
+    [[SalviIsland4]]
+<<endif>>
+===
+title: BeforeIsland1
+tags: 
+colorID: 0
+position: 720,345
+---
+Salvi: ...and lotsa folks from somewhere else drive past #line:8fe519
+Salvi: between Fort Lucenne and Willow Grove #line:6d6c64
+Salvi: and they like going to antique shops out here #line:57ea5d
+Salvi: i think they think it’s exclusive or something #line:81c0f1
+Salvi: and that’s the side hustle. #line:48d95c
+Mae: wow. #line:147c38
+Mae: do they know it’s garbage? #line:4ffe5b
+Salvi: it’s not *garbage* #line:b1d52e
+Mae: sorry #line:79ff01
+Salvi: here, we’re coming up on one now. #line:7ebbb5
+Salvi: you’ll see. #line:3df3dc
+<<close>>
+<<set $tunnel_boat_island to 1>>
+<<waitForTunnelBoatIsland>>
+===
+title: Island1
+tags: 
+colorID: 0
+position: 1016,-2
+---
+Mae: this is garbage. #line:689bf5
+Mae: it’s an island of garbage. #line:d33500
+Salvi: your garbage is my priceless antique #line:a243db
+Salvi: once it’s cleaned up a bit. #line:247a3c
+Salvi: look around! Find something! #line:b7cebe
+Mae: is this thing safe to walk on? #line:992fbd
+Salvi: oh yeah. Years of sediment and rocks and junk #line:e13d5d
+Mae: ha ha! You called it junk too! #line:aa62dc
+Salvie: Junk ain’t garbage. #line:c837cd
+===
+title: Axe
+tags: 
+colorID: 0
+position: 1093,313
+---
+<<if $saw_tunnel_axe is 0>>
+    Mae: huh. Big axe. #line:4cac74
+    <<set $saw_tunnel_axe to 1>>
+<<endif>>
+Mae: do i want a big garbage axe? #line:3864a3
+<<if $tunnel_snowshoe>>
+	Mae: instead of this... other thing? #line:770e01
+<<endif>>
+-> Yes #line:b601e2
+    <<set $tunnel_axe to 1>>
+    <<set $tunnel_snowshoe to 0>>
+	Mae: It’s so big and axey. #line:e293cc
+-> No #line:f3c8bf
+	Mae: eh. #line:2d73ad
+===
+title: Snowshoe
+tags: 
+colorID: 0
+position: 1406,321
+---
+<<if $saw_tunnel_snowshoe is 0>>
+    Mae: oh wow it’s a... thing! #line:3a7768
+    Mae: a sled? Really bad boat? #line:05b082
+    Mae: maybe you like sleep in it? Tiny garbage hammock? #line:4cf1b3
+    <<set $saw_tunnel_snowshoe to 1>>
+<<endif>>
+Mae: should I take this garbage bed? #line:5d06fb
+<<if $tunnel_axe>>
+	Mae:instead of the garbage axe? #line:6899bd
+<<endif>>
+->Yes #line:1677e6
+    <<set $tunnel_axe to 0>>
+    <<set $tunnel_snowshoe to 1>>
+	Mae: aw yeah love me a mystery garbage object #line:bf4a2b
+->No #line:7d4412
+	Mae: eh. #line:c6aae2
+===
+title: SalviIsland1
+tags: 
+colorID: 0
+position: 1324,-51
+---
+Salvi: Find anything good? #line:9e1bf8
+<<if $tunnel_axe is 0 and $tunnel_snowshoe is 0>>
+    Mae: nah. #line:2f2f15
+<<elseif $tunnel_axe>>
+	Mae: killer garbage axe! #line:ad7349
+	Salvi: oh nice! #line:e61e4a
+	Salvi: looks like an old fire axe from somewhere. #line:c5c135
+	Mae: axe murderer garbage axe! #line:a0e44e
+	Salvi: yes you could conceivably murder someone with this. #line:e14487
+	Salvi: have to sharpen it first... #line:ffa61c
+	Mae: oh i’ll sharpen it. #line:647fab
+	Salvi: planning on murdering someone? #line:81c8aa
+	Mae: i keep my options open! #line:97531b
+	Salvi: oh dear. #line:96965d
+<<elseif $tunnel_snowshoe>>
+	Mae: this... thing! #line:863b73
+	Mae: this garbage thing! #line:dfbc0c
+	Salvi: oh, that’s a- #line:c495dc
+	Mae: It’s like a... really bad boat paddle? #line:a41db1
+	Mae: a very useless shield? For fighting? #line:0ce5e3
+	Salvi: it’s a snowshoe. #line:a1796f
+	Mae: oh. #line:104844
+	Mae: never seen one before i guess. #line:578076
+	Salvi: ideally you should have two of them. #line:f65e63
+	Mae: eh. I can like... hop. #line:a1e87b
+	Salvi: snowhopper. #line:8df831
+	Mae: yes. It’s a snowhopper. #line:66458f
+<<endif>>
+
+<<if $tunnel_axe or $tunnel_snowshoe>>
+    <<fadeOutInternal 1 wait>>
+    <<tell TunnelBoatRide Run>>
+    <<fadeInInternal 1 wait>>
+    [[AfterIsland1]]
+<<endif>>
+===
+title: AfterIsland1
+tags: 
+colorID: 0
+position: 1616,-58
+---
+<<wait 3>>
+Salvi: ...and somehow he’d run over his own foot #line:e7088b
+Mae: NO! #line:1586f2
+Salvi: ...with the mower. #line:ac24ac
+Mae: AAAAAAAAGH!!! #line:2d0d4e
+Salvi: yeah he’s got a limp now #line:21b4ba
+Salvi: but he still comes to work. #line:d55a1e
+Mae: geeeez. #line:52240f
+Salvi: gotta work! #line:55f0ed
+Mae: oof. #line:e2f9af
+<<wait 3>>
+[[Bats1]]
+===
+title: Bats1
+tags: 
+colorID: 0
+position: 1929,50
+---
+Salvi: ok so remember how I said I needed a second pair of hands? #line:5dcf59
+Mae: oh yeah! What was that about? #line:19b2c6
+Salvi: so there’s a little panel back where you are #line:6a00a7
+Salvi: gonna need you to use it and move this light up here #line:33ca13
+Mae: are we... wait... why? #line:c44492
+Salvi: we got bats down here #line:027697
+Mae: so? #line:abc826
+Salvi: i don’t like bats. #line:57201b
+Salvi: but bats like bugs #line:7767e4
+Salvi: and bugs like light #line:518236
+Salvi: so you’re gonna shine that light all around ‘em and get ‘em to scatter #line:720015
+Salvi: lookin’ for bugs. #line:4b40b0
+Salvi: they mostly go away for a while when they scatter. #line:96dd50
+Mae: oh... ok. #line:b43bf5
+Salvi: now get ready, we’re comin’ up on a place they like to cluster together #line:25f476
+Mae: ok I got it! #line:885bd6
+Salvi: here we go! Up above me! #line:b8e94a
+<<tell TunnelBoatRide TriggerBats1>>
+===
+title: AfterBats1
+tags: 
+colorID: 0
+position: 2253,44
+---
+Mae: wow! #line:5bb3d9
+Salvi: did most of 'em leave? #line:74fe76
+<<if $tunnel_bats_1_percent > 75>>
+	Mae: I think so! #line:6cfbcd
+	Mae: sure were a lot of them #line:67c9b5
+	Salvi: uuugh! I hate ‘em! #line:d04c7f
+	Mae: but bats are cute! #line:fc337c
+	Salvi: they are *not!* #line:a136e3
+<<else>>
+	Mae: i don’t know? #line:472db9
+	Mae: don’t think so? #line:ff15bf
+	Mae: it was hard to see. #line:b03a42
+	Salvi: alright well. #line:f4bfa2
+	Salvi: we’ll plan accordingly. #line:b43738
+	Mae: I like bats. #line:ddf162
+	Salvi: yich. #line:8f258c
+<<endif>>
+Mae: can i take a bat home? #line:2fa49a
+Salvi: ain’t no bat getting on my boat! #line:41622d
+Salvi: sooner swim back than have a goddamn bat on my boat! #line:b39cad
+Mae: ok ok ok. No bats. #line:286c19
+Salvi: no bats. #line:c60946
+<<wait 2>>
+[[BeforeIsland2]]
+===
+title: BeforeIsland2
+tags: 
+colorID: 0
+position: 2608,-3
+---
+Salvi: alright we’re coming up on another island. #line:5a9535
+Mae: garbage hooooooooo!!!!!!!! #line:70539d
+<<close>>
+<<set $tunnel_boat_island += 1>>
+<<waitForTunnelBoatIsland>>
+===
+title: Island2
+tags: 
+colorID: 0
+position: 2918,-69
+---
+Salvi: You gonna look around? #line:48a151
+Mae: No I’m gonna hang out in the boat. #line:9f02d8
+<<wait 2>>
+Mae: of *course* i’m gonna look around!!! #line:64801e
+Salvi: heh heh heh #line:00605a
+Salvi: yer sarcastic like yer dad. #line:7ef67e
+Mae: do you still talk to my dad? #line:506644
+Salvi: oh yeah! I get my meats from him once a week! #line:1bf81c
+Salvi: last fall us and some of the boys from the factory days #line:1b04de
+Salvi: went up to Stuter’s old hunting camp. #line:502b3a
+Mae: you get anything? #line:614afd
+Salvi: Ed Gress got a 6 point buck. #line:863035
+Mae: oh nice. #line:a4b178
+Salvi: alright let’s go, we got a schedule to keep. #line:68cb6f
+===
+title: CoconutMonkey
+tags: 
+colorID: 0
+position: 3247,-6
+---
+<<if $saw_tunnel_coconut_monkey is 0>>
+    Mae: oh my god! #line:79a645
+    Mae: it’s a coconut monkey!!!! #line:dd2599
+    Mae: like the one granddad brought back from hawaii!!! #line:e8f520
+    <<set $saw_tunnel_coconut_monkey to 1>>
+<<endif>>
+Mae: Do I want this Coconut friend? #line:7b2ffa
+<<if $tunnel_dracula_teeth>>
+	Mae: instead of these Dracula teeth? #line:8d82d9
+<<endif>>
+->yes'm #line:1d7f49
+    <<set $tunnel_dracula_teeth to 0>>
+    <<set $tunnel_coconut_monkey to 1>>
+	Mae: welcome to the family, Mr. monkey! #line:ec9c5a
+	Mae: i love you so much and we’ve just met! #line:c52ed2
+->naw #line:c8c9c3
+	Mae: it’s kinda stinky and soft. #line:523c55
+===
+title: DraculaTeeth
+tags: 
+colorID: 0
+position: 3540,12
+---
+<<if $saw_tunnel_dracula_teeth is 0>>
+    Mae: hoooooooly shit. #line:b70884
+    Mae: Dracula teeth! #line:a2e8e3
+    Mae: these are so rad, i could totally be a Dracula. #line:997682
+    Mae: of all the false teeth in the world #line:c25ca9
+    Mae: Dracula teeth are the best. #line:425b7a
+    <<set $saw_tunnel_dracula_teeth to 1>>
+<<endif>>
+Mae: Should I take these excellent dracula teeth? #line:09de83
+<<if $tunnel_coconut_monkey>>
+	Mae: instead of my dear friend Coconut Monkey? #line:e340a2
+<<endif>>
+->blah!!!! #line:8bcfdb
+    <<set $tunnel_coconut_monkey to 0>>
+    <<set $tunnel_dracula_teeth to 1>>
+	Mae: why do draculas say “blaaaaah”? #line:2dc6a0
+	Mae: I’m gonna put these in and find out. #line:4895ad
+	Mae: ...should probably clean them first... #line:131288
+->no. #line:5feb30
+	Mae: I can get new ones for like a buck #line:d5fb9e
+	Mae: over at the Ham Panther. #line:087baf
+	Mae: I don’t know if vintage dracula teeth are that much of a find. #line:67695a
+===
+title: SalviIsland2
+tags: 
+colorID: 0
+position: 3867,-89
+---
+Salvi: Find anything good? #line:515601
+<<if $tunnel_coconut_monkey is 0 and $tunnel_dracula_teeth is 0>>
+    Mae: nah. #line:abcd38
+<<elseif $tunnel_coconut_monkey>>
+	Mae: Coconut Monkey! #line:853ec7
+	Salvi: oh wow. #line:2c28da
+	Salvi: is it still... good? #line:aeea84
+	Mae: he’s a little soft #line:4eef45
+	Mae: and he smells like trash water #line:6e8f6c
+	Mae: but when he’s all dried out #line:0f85bf
+	Mae: he’s gonna be a regular member of the family! #line:7525f3
+	Salvi: huh. Alright. #line:157f47
+	Mae: you’re not gonna steal him for your shop or anything, right? #line:527f01
+	Salvi: uh. No. #line:586d0d
+	Mae: not even tempted? #line:386cb3
+	Salvi: i think I can let this one go, mae. #line:9ae93f
+<<elseif $tunnel_dracula_teeth>>
+	Mae: DRACULA TEETH! #line:a889fd
+	Salvi: oh wow! #line:91cb72
+	Salvi: i remember these! #line:83b742
+	Mae: they still make them. #line:83727e
+	Salvi: now there’s a market that never goes away. #line:4cc683
+	Mae: people will always want to be draculas #line:ad7799
+	Salvi: i don’t want to be a vampire. #line:5d7777
+	Mae: no choice! I’m gonna put these in… #line:e57ffb
+	Salvi: oh god please don’t they’re disgusting #line:8e099b
+	Mae: gonna bite ya #line:d99ca2
+	Salvi: alright lets keep going #line:11265b
+	Mae: blaaaaaaaah!!!! #line:6cea97
+<<endif>>
+
+<<if $tunnel_coconut_monkey or $tunnel_dracula_teeth>>
+    <<fadeOutInternal 1 wait>>
+    <<tell TunnelBoatRide Run>>
+    <<fadeInInternal 1 wait>>
+    [[AfterIsland2]]
+<<endif>>
+===
+title: AfterIsland2
+tags: 
+colorID: 0
+position: 4194,-78
+---
+Salvi: ...and that’s how I saved Longest Night. #line:d57b22
+Mae: ha ha wow. #line:264505
+Mae: did you ever tell your kids? #line:76ead8
+Salvi: what? No. it’d spoil the magic. #line:2035c1
+Mae: did they ever notice your neck scar? #line:6693bd
+Salvi: if they did they never said nothin’. #line:0729fb
+Mae: did the cops ever catch the guy? #line:e07970
+Salvi: oh no. he’s still out there. #line:13c69f
+Salvi: but he ain’t coming back anytime soon. #line:3c2cd8
+Mae: wow. Great story. #line:71b211
+<<wait 4>>
+Salvi: alright, we’re coming up on another bat nest... #line:438afb
+Mae: do bats have nests? #line:c0737f
+Salvi: whatever. Get the light ready, shine it up there and get rid of ‘em! #line:16444e
+Mae: aye aye sir. #line:034d0f
+Salvi: here they come!!! #line:487918
+<<tell TunnelBoatRide TriggerBats2>>
+===
+title: AfterBats2
+tags: 
+colorID: 0
+position: 4473,-67
+---
+Mae: wow! #line:936323
+Salvi: did most of ‘em leave? #line:24508f
+<<if $tunnel_bats_2_percent > 75>>
+	Mae: I think so! #line:acdd61
+	Mae: I got 'em good. #line:efdc78
+	Salvi: whew. #line:b17175
+	Salvi: thanks kid #line:aad3ef
+	Mae: I’m 20! #line:f0e69b
+	Salvi: ha ha  #line:b76133
+	Salvi: well at my age that’s plenty kid enough. #line:9bfb2d
+	Mae: rude. #line:c4de6b
+<<else>>
+	Mae: aaagh! #line:8fa009
+	Mae: i don’t think so? #line:89351b
+	Mae: i couldn’t really see them? #line:5b0415
+	Salvi: oh boy. They’re still here then. #line:09f1e3
+	Salvi: hangin’ there. #line:6bd605
+	Salvi: with their beady eyes #line:1dc39c
+	Salvi: and fangs #line:aba225
+	Salvi: and w...w...wings!!! #line:1b027f
+	Mae: why do you hate bats so much? #line:41ffec
+	Salvi: they’re horrible, that’s why! #line:797422
+<<endif>>
+[[BeforeIsland3]]
+===
+title: BeforeIsland3
+tags: 
+colorID: 0
+position: 4757,-79
+---
+Salvi: Comin' up on another island. #line:484a67
+Mae: how many of these are down here? #line:989ae7
+Salvi: oh, I ain’t counted. #line:54f031
+Salvi: seem to find new ones all the time. #line:aeeb8a
+Salvi: and lose old ones. #line:4b5506
+Mae: spooky. #line:77f39c
+Salvi: we’re pretty far back now. It’s always a bit spooky. #line:24a613
+<<close>>
+<<set $tunnel_boat_island += 1>>
+<<waitForTunnelBoatIsland>>
+===
+title: Island3
+tags: 
+colorID: 0
+position: 5069,-75
+---
+Mae: whoa. Old trolley car over there. #line:5ebc67
+Salvi: yeah we’re getting close to where the flood really hit hardest. #line:36d7eb
+Mae: I can’t imagine this place still up and running. #line:4e4076
+Salvi: it was quite something. #line:c343c2
+Salvi: had a sense of... going somewhere. #line:6d2e30
+Mae: yeah. #line:497973
+Salvi: way back when they got these “new” trolley cars #line:64fe81
+Salvi: they were designed by some company overseas #line:ca1454
+Salvi: big and fancy, like france or somethin’. #line:c12f6c
+Mae: they are pretty. #line:e12c39
+Salvi: yeah they still got their charms. #line:e9c029
+Salvi: you gonna look around? #line:5fb4e5
+Mae: sure. #line:c216a8
+===
+title: Pennant
+tags: 
+colorID: 0
+position: 5137,202
+---
+<<if $saw_tunnel_pennant is 0>>
+    Mae: oh huh. #line:e49486
+    Mae: wonder how old this is? #line:6ee3d2
+    Mae: it’s pretty soggy #line:daefaa
+    Mae: what sport even is this? #line:5b5756
+    Mae: it’s a sports mystery. #line:d6f3b3
+    Mae: the worst kind of mystery. #line:7df4e0
+    Mae: it’s pretty though. #line:85755b
+    <<set $saw_tunnel_pennant to 1>>
+<<endif>>
+Mae: do I want this thing? #line:09d4bc
+<<if $tunnel_football_helmet>>
+	Mae: more than the very functional helmet? #line:d056d2
+<<endif>>
+-> yeah #line:53ee74
+    <<set $tunnel_football_helmet to 0>>
+    <<set $tunnel_pennant to 1>>
+	Mae: could hang it on the wall. #line:a57100
+	Mae: that’d be pretty neat. #line:d44461
+	Mae: and then look up what it’s even for. #line:89d8ec
+	Mae: cool cool cool. #line:002eb1
+->nah #line:97e8d6
+	Mae: it’s gross and i don’t care about sports. #line:fac83b
+	Mae: anymore. #line:cf605d
+===
+title: FootballHelmet
+tags: 
+colorID: 0
+position: 5444,202
+---
+<<if $saw_tunnel_football_helmet is 0>>
+    Mae: oh nice! #line:fdf1d7
+    Mae: Football, our official religion around here. #line:a48772
+    Mae: I could totally wear this. #line:397dd9
+    Mae: It’s functional! #line:862ddc
+    Mae: I could totally wear this in the winter, in case I slip on the ice. #line:922a33
+    Mae: I could wear this if I was in a fight. #line:808947
+    Mae: could probably stop a bullet even. I dunno. #line:4dbab6
+    Mae: It smells inside though... #line:019aa8
+    <<set $saw_tunnel_football_helmet to 1>>
+<<endif>>
+Mae: do I want this thing? #line:2271d8
+<<if $tunnel_pennant>>
+	Mae: more than that ancient flag thing? #line:3fbba7
+<<endif>>
+->yeah #line:f60593
+    <<set $tunnel_football_helmet to 1>>
+    <<set $tunnel_pennant to 0>>
+	Mae: it’s functional! #line:aaa699
+->nah #line:3fdd8f
+	Mae: it’s functional, but #line:3c9763
+	<<if $tunnel_pennant>>
+		Mae: the flaggy thing is mysterious. #line:c1e1fb
+		Mae: Gotta go with the mystery. #line:bb4d99
+	<<else>>
+		Mae: hmmm. #line:7fe944
+	<<endif>>
+===
+title: SalviIsland3
+tags: 
+colorID: 0
+position: 5633,-121
+---
+Salvi: Find anything good? #line:94df9c
+<<if $tunnel_pennant is 0 and $tunnel_football_helmet is 0>>
+    Mae: nah. #line:d96694
+<<elseif $tunnel_pennant>>
+	Mae: Check this out! #line:bdab3c
+	Salvi: oh wow that’s an old hockey pennant. #line:f998db
+	Mae: how old? #line:d7f7d6
+	Mae: like really old? #line:cd6026
+	Salvi: uh. 1970s? 80s? #line:f27e41
+	Mae: oh. That’s like #line:1ad157
+	Mae: medium old. #line:8e6595
+	Mae: we had a hockey team back then? #line:e2e977
+	Salvi: sure did! #line:b657a0
+	Salvi: ice arena used to be out by where ham panther is now. #line:1dd2c2
+	Mae: geez. So much stuff used to be here. #line:98e9ce
+	Salvi: lots still here. #line:bfa086
+	Salvi: but yeah. Lots gone. #line:64cfd0
+<<elseif $tunnel_football_helmet>>
+	Mae: Football helmet! #line:cf4c18
+	Salvi: oh... you sure you want that? #line:f1cf0e
+	Mae: did i finally find something you want? #line:e33a62
+	Salvi: well... i mean... it’s cool. You take it. #line:4538b7
+	Mae: no, it’s alright. #line:26370c
+	Mae: it’s your boat. It’s your garbage. #line:3be8cb
+	Mae: you can have it. #line:526a53
+	Salvi: no, that’s fine Mae. #line:ee5a8a
+	Mae: no, i think you should have it. #line:8d34f4
+	Salvi: no Mae. you take it. #line:59bcad
+	Mae: [shake=.025]TAKE IT.[/all] #line:b481db
+	Salvi: [shake=.025]I DON’T WANT IT[/all] #line:3e3938
+	Mae: [shake=.05]NEITHER DO I - TAKE IT[/all] #line:8f6fc7
+	Salvi: [shake=.05]IT’S YOURS[/all] #line:c9f72c
+	Mae: [shake=.075]GODDAMMIT YOU TAKE THIS EFFING HELMET[/all] #line:25b038
+	Salvi: [shake=.075]NO!!![/all] #line:175711
+	Mae: [shake=.1]AAAAAAARGH YOU GO STRAIGHT TO HELL!!!!![/all] #line:d606db
+	<<wait 4>>
+	Salvi: are you ok? #line:ea2367
+	Mae: yeah. Sorry I yelled. #line:545b1c
+	Salvi: me too. #line:f4f950
+	Salvi: you happy with your helmet? #line:26c81c
+	Mae: yeah! It’s functional! #line:3d1cff
+<<endif>>
+<<if $tunnel_pennant or $tunnel_football_helmet>>
+    <<fadeOutInternal 1 wait>>
+    <<tell TunnelBoatRide Run>>
+    <<fadeInInternal 1 wait>>
+    [[AfterIsland3]]
+<<endif>>
+===
+title: AfterIsland3
+tags: 
+colorID: 0
+position: 6035,-156
+---
+Mae: any more bats to get rid of? #line:d5c782
+Salvi: nah. They don’t come back this far to sleep. #line:25fa00
+Salvi: they fly around a good bit back here though #line:d7274c
+Salvi: unless you clear em off before you get here. #line:46ff97
+Mae: where even are we? #line:6b5c84
+Salvi: almost to the far platform. #line:03c49e
+Mae: oh wow. Is that where we’re going? #line:9d9fcf
+<<if $tunnel_bats_1_percent > 75 and $tunnel_bats_2_percent > 75>>
+	//(if scared away most of the bats both times)
+	Salvi: well #line:976316
+	Salvi: you got rid of most of the bats back there... #line:e3c7e6
+	Salvi: so maybe we can make one last stop #line:898809
+	Salvi: at the big one. #line:801b21
+	Mae: "the big one?" #line:9135c2
+	[[BeforeIsland4]]
+<<else>>
+	Salvi: yeah... don’t think we got rid of enough bats back there #line:709176
+	Salvi: for them to not be a problem back here #line:b8d78b
+	Mae: oh. Sorry. #line:595d00
+	Salvi: ain’t no worry. #line:7ca944
+	Salvi: we’ll head on out to the far platform. #line:95168c
+    <<set $tunnel_boat_island += 1>>
+	[[BeforeIsland5]]
+<<endif>>
+===
+title: BeforeIsland4
+tags: 
+colorID: 0
+position: 6501,-163
+---
+Salvi: I thank god I wasn’t down here when the flood hit. #line:440078
+Mae: the river jumped, right? #line:427548
+Salvi: yeah. Flood was bad enough, river just up and moved. #line:eb0c09
+Salvi: had something to do with the reservoir too, i forget. #line:307648
+Mae: I guess it was a while ago. #line:9fdc2d
+Mae: weird to think that rivers can move. #line:2375fb
+Salvi: oh they’re always moving, kid. #line:8f26ed
+Mae: (20 year old) #line:630e79
+Salvi: they’re just usually moving in one direction. #line:50da2a
+Salvi: no one’s really prepared for when it stops doing #line:68b55d
+Salvi: what it’s always been doing. #line:cb9266
+Mae: hm. #line:e050c4
+Salvi: alright, here we are. #line:33af5a
+Salvi: the big one. #line:448eb2
+<<close>>
+<<set $tunnel_boat_island += 1>>
+<<waitForTunnelBoatIsland>>
+===
+title: Island4
+tags: 
+colorID: 0
+position: 6871,-183
+---
+Mae: wow. #line:caa735
+Mae: this looks like something I dreamed #line:3e07b4
+Mae: or something. #line:922f19
+Mae: it’s familiar someways. #line:1c078b
+Salvi: Back then they thought the trolleys would stay on the track #line:bd4062
+Salvi: come a big flood. #line:6e116a
+Salvi: but nah. They went right along with the water. #line:df3775
+Salvi: bobbing up and down #line:d08c47
+Salvi: crashing into big piles like this. #line:4ea5b4
+Mae: geez. #line:50babb
+Salvi: can’t fix something like this #line:f5d1dd
+Salvi: what’re you gonna do? #line:75f4c7
+Salvi: dam up the river? Dig this whole thing out? #line:2af9d1
+Salvi: nobody got that money. #line:be1e16
+Salvi: nobody got that time. #line:fe3a04
+Mae: this is like #line:5965b6
+Mae: visiting some place beyond the grave #line:6cd8ac
+Mae: like where you go when you die #line:bdfa10
+Salvi: some folks *did* die down here #line:595d97
+Mae: oh yeah. #line:550cdb
+<<wait 2>>
+Salvi: you gonna go look around? #line:105aa4
+Salvi: hafta say, not much back this far usually. #line:b28407
+Salvi: most stuff washes in from side channels #line:3bbc12
+Salvi: gets caught up back where we came from. #line:0ca6b6
+Mae: yeah. I think i’ll still look around. #line:35eb54
+===
+title: Horn
+tags: 
+colorID: 0
+position: 6983,168
+---
+<<if $saw_tunnel_horn is 0>>
+    Mae: wow.  #line:028404
+    Mae: wonder if it still works? #line:48005e
+    Mae: should probably clean all of the mud out of it first. #line:e3f11e
+    <<set $saw_tunnel_horn to 1>>
+<<endif>>
+Mae: do i want to take this? #line:1a825a
+<<if $tunnel_lock>>
+	Mae: even more than the lock? #line:9b0f41
+<<endif>>
+->yeah #line:d20d69
+    <<set $tunnel_lock to 0>>
+    <<set $tunnel_horn to 1>>
+	Mae: it’s really pretty. #line:b0188b
+	Mae: it should have someone to appreciate it. #line:44f957
+->nah #line:b71252
+	Mae: i got nowhere to put it. #line:b573ec
+	Mae: and i can’t play it. #line:532e0e
+	Mae: also feel like some horn-playing ghost is gonna haunt me #line:de625d
+	Mae: if i take it from here. #line:9cd000
+===
+title: Lock
+tags: 
+colorID: 0
+position: 7311,220
+---
+<<if $saw_tunnel_lock is 0>>
+    Mae: wonder what this used to lock up? #line:9c1c9e
+    Mae: really old lock. #line:0e97d9
+    Mae: pretty neat key. #line:b5df17
+    Mae: someone bought this to keep something safe #line:737431
+    Mae: or secret #line:f3cf94
+    <<set $saw_tunnel_lock to 1>>
+<<endif>>
+Mae: do i want to take this? #line:9a514e
+<<if $tunnel_horn>>
+	Mae: more than the muddy horn? #line:3aa46b
+<<endif>>
+->yeah #line:29e766
+    <<set $tunnel_lock to 1>>
+    <<set $tunnel_horn to 0>>
+	Mae: this thing has like #line:d108d7
+	Mae: someone’s intentions in it #line:64d474
+	Mae: or something. #line:f77474
+	Mae: it feels heavy. #line:fbdcb0
+	Mae: someone should have it. #line:0d9856
+->nah #line:f87c2a
+	Mae: it’s just junk now. #line:86f32d
+	Mae: and i got nothing to lock up anyways. #line:dea27f
+===
+title: SalviIsland4
+tags: 
+colorID: 0
+position: 7459,-181
+---
+Salvi: Find anything good? #line:34340d
+<<if $tunnel_lock is 0 and $tunnel_horn is 0>>
+    Mae: nah. #line:18232d
+<<elseif $tunnel_horn>>
+	Mae: horn. #line:024ba2
+	Salvi: looks like a packhorn, maybe? #line:858862
+	Mae: i’m gonna clean it out #line:e61c36
+	Mae: maybe play it. #line:babc5d
+	Mae: or at least make it make some noise. #line:26110c
+	Salvi: good plan. #line:fb4656
+	Mae: it’s real pretty #line:b609ec
+	Mae: shame to leave it down here. #line:b39673
+	Salvi: you rescued it. #line:7ead52
+	Mae: i’m a hero. #line:3ebf8b
+	Salvi: i’ll call the papers. #line:c5dc3b
+<<elseif $tunnel_lock>>
+	Mae: got a lock and a key #line:e60079
+	Salvi: oh. What are you gonna do with that? #line:08aa2a
+	Mae: i dunno. I just figured someone should have it. #line:ab0bf6
+	Salvi: hm. #line:7b0358
+	Salvi: that’s thoughtful, Mae. #line:d008ac
+	Mae: i feel like we’re a thousand miles away from Possum Springs. #line:21dd72
+	Salvi: yeah. We’re not so far though. #line:4ac5be
+	Salvi: let’s get going. #line:9f2dc4
+<<endif>>
+
+<<if $tunnel_horn or $tunnel_lock>>
+    <<fadeOutInternal 1 wait>>
+    <<tell TunnelBoatRide Run>>
+    <<fadeInInternal 1 wait>>
+    [[BeforeIsland5]]
+<<endif>>
+===
+title: BeforeIsland5
+tags: 
+colorID: 0
+position: 7772,-181
+---
+<<wait 4>>
+Salvi: here we are #line:9ce672
+Mae: wow. #line:beb473
+<<close>>
+<<set $tunnel_boat_island += 1>>
+<<waitForTunnelBoatIsland>>
+===
+title: MuralRight
+tags: 
+colorID: 0
+position: 8068,22
+---
+Mae: ha ha ha #line:a16ac3
+Salvi: what? #line:d2024b
+Mae: there’s some beer cans and a mattress back here #line:0c03ee
+Mae: and a spot where a fire was #line:0a07da
+Mae: and a sock #line:76f787
+Mae: and some weed, it looks like #line:7f1caa
+Mae: someone did some partying back here #line:230de5
+Salvi: ha ha ha ha. That must be new! #line:9f3290
+Mae: Teens. It was the teens. #line:c47512
+Salvi: ha ha ha. #line:301f24
+Salvi: There is nowhere you can go that the teens have not been already. #line:d1760c
+Mae: oh god... the mattress... #line:10c549
+Salvi: that’s unsavory #line:9d50be
+Mae: who’s idea was it to get high, drunk, and then boink #line:50e26b
+Mae: way back here? #line:58d9fa
+Salvi: it does seem a lot of trouble to go to. #line:b6b3c9
+Mae: this is hilarious. #line:e16040
+Salvi: it’s very funny. #line:e886cc
+<<set $mural_right_done to 1>>
+===
+title: MuralCenter
+tags: 
+colorID: 0
+position: 8381,48
+---
+Salvi: so that’s it. That’s the other mural. #line:ba98c0
+Mae: ... #line:bd6a44
+Mae: it’s so... #line:403920
+Mae: ... #line:1ba3fc
+Salvi: yeah. #line:fbe4df
+Mae: yeah. #line:640b2a
+Salvi: basically the only thing back here that survived the flood. #line:127bb0
+Mae: ... #line:c85eac
+Salvi: i just think it’s nice that it’s not gone. #line:b9c87d
+Mae: yeah i guess. #line:7c711b
+Mae: forgotten maybe, but not gone. #line:2bd403
+Salvi: well... not forgotten yet. #line:ebbae4
+Mae: i wonder if in like 500 years  #line:3c2d6f
+Mae: some archeologists will find it #line:3f74bb
+Mae: and wonder what it meant. #line:974d9b
+Salvi: sometimes I think in 50 years no one will know what it meant. #line:596eb9
+Mae: places can’t control how they’re remembered #line:60e0de
+Mae: they just... hang out... #line:b38616
+Mae: and then fall apart. #line:da1848
+<<wait 4>>
+Salvi: you ok, mae? #line:b0b483
+Mae: yeah. #line:af1985
+Mae: i’ll be fine. #line:92fc07
+Mae: i’m just gonna look for a minute. #line:1463e2
+Salvi: take your time. #line:ba383f
+<<wait 6>>
+<<fadeOut 4 wait>>
+<<unlockDoodle TunnelBoat>>
+<<scene Tunnel>>
+===
+title: Island5
+tags: 
+colorID: 0
+position: 8065,-240
+---
+Mae: ... #line:0ea066
+===

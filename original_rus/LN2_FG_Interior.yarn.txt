@@ -1,0 +1,216 @@
+title: CliffJump
+tags: 
+colorID: 0
+position: 91,-205
+---
+<<showTalkingHeads>>
+<<setCameraMode Stationary>>
+<<if $cliff_jumps is 0>>
+	Mae: ...N U0T0M 0HA CUPJ1FHYVA C 06PJ1BA. #line:33257d
+	Granddad: 4T0? HET, 0HA GT0F0 HE DEVAVA! #line:572884
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps > 0 and $cliff_jumps < 1000>>
+	Mae: ...N 3ATEM 0HA CUPJ1FHYVA... #line:6b4635
+	Granddad: HET, MGL. UP0CT0 0CTAH0BNCJ. #line:d831aa
+	<<set $cliff_jumps = 1000>>
+<<elseif $cliff_jumps is 1000>>
+	Granddad: GX. #line:416c03
+<<endif>>
+<<fadeOut 1 0 0 0>>
+<<wait 1>>
+<<scene LN2_FG_Interior>>
+
+===
+title: ForestGod
+tags: 
+colorID: 0
+position: 537,-178
+---
+Adina: ...UPNBET? #line:8f9cb9
+<<close>>
+<<wait 2>>
+Adina: TJ1 TAM? #line:3901b9
+ForestGod: TJ1 0U03DAVA. #line:b3e896
+ForestGod: TJ1 HE NMUEPATPNOA. #line:69c6ca
+ForestGod: UP0QVN CT0VETNR, C TEX U0P KAK R F0B0PNV C TAKNM MAVEHJKNM N HE BASHJ1M F0CTEM.  #line:7ee7ba
+ForestGod: GT0 M0E UPAB0 Y6NTJ TE6R. #line:d3241b
+Adina: R GT0F0 HE 3HAVA. #line:a63ec6
+ForestGod: UPNMN GT0. CMEPTJ UPNX0DNT BCEFDA. #line:f2f5d0
+Adina: U04EMY R D0VSHA UPNHRTJ GT0? #line:3d4ed1
+ForestGod: GT0 ECTECTBEHHJ1L UYTJ.  #line:d5fb1d
+Adina: 3A6ABH0, KAK TJ1 PEQNV, 4T0 UPN4NHA, K0T0PAR U03B0VRET TE6E Y6NTJ MEHR #line:e18a5e
+Adina: RBVRETCR ECTECTBEHH0L. #line:3a47c3
+ForestGod: 6PPPPPPPPPPV. #line:2e4098
+Adina: TJ1 HE 60F. #line:6a33ef
+Adina: TJ1 UP0CT0 60VJQ0E SNB0TH0E. #line:e788eb
+<<animationTrigger ForestGod LightsUp>>
+ForestGod: 0HN HA3J1BA%T MEHR 60F0M. #line:d19622
+ForestGod: U0GT0MY, R D0CTAT04H0 60SECTBEHHEH #line:1e0bfc
+ForestGod: CKASN MHE, 4T0 TJ1 X0TEVA CKA3ATJ MHE TAK0F0 BASH0F0, 4T0 TJ1 F0T0BA 0TDATJ CB0% SN3HJ? #line:83d296
+[[R 3HA% U04EMY TJ1 YMNPAEQJ.|FGKnowDying]] #line:b9b0c4
+[[R 3HA% U04EMY TJ1 60VEH.|FGKnowSick]] #line:4d74f1
+
+===
+title: Intro
+tags: 
+colorID: 0
+position: -400,91
+---
+GodtenderBrown: U0DX0DNTE K HEMY C0 CMNPEHNEM.  #line:9bad52
+GodtenderBrown: R 6YDY SDATJ 3DECJ. #line:e2ebd6
+<<speechBubbleSizeOverride 0>>
+===
+title: FGKnowSick
+tags: 
+colorID: 0
+position: 647,80
+---
+ForestGod: 6P-P-P-P-P-P-P-P-P-P-P-PV #line:3ab1d0
+ForestGod: 60VE3HJ HE M0SET K0CHYTJCR MEHR. #line:b37504
+Adina: Y TE6R HET 60VE3HN, H0 TJ1 YMNPAEQJ.  #line:9c7ef2
+Adina: 3A6ABH0, CEL4AC, K0FDA GT0 UP0NCX0DNT C T060L, CMEPTJ HE TAK VEFK0 UPNHRTJ, A? #line:72d796
+ForestGod: GT0 CVYSAWNL 60FY 6PAYH CKA3AV TE6E, 4T0 R CVA6. #line:f95262
+ForestGod: 6ECU0VE3HJ1L, HNK4EMHJ1L. #line:5ab8dc
+ForestGod: R HALDY DVR HEF0 NCU0VJ30BAHNE, 0H 6YDET K0PMNTJ VEC. #line:bb634e
+ForestGod: DEPEBJR HALDYT B HEM OEHH0CTJ. #line:b6e74c
+Adina: HET. #line:2457cc
+Adina: CVYSAWNL 60FY 6PAYH X0P0QNL UAPEHJ.  #line:f24916
+Adina: 0H D06PJ1L, V%60UJ1THJ1L N TEUVJ1L. #line:1b75ec
+Adina: DASE CT0R HA X0V0DE, PADN TE6R. #line:e3fcf9
+ForestGod: 6P-P-P-P-P-P-PV #line:388383
+Adina: 0H C4NTAET, 4T0 0H TE6R HE 3ACVYSNBAET. #line:8401df
+Adina: H0 GT0 TJ1 HE 3ACVYSNBAEQJ EF0. #line:fcaeb4
+Adina: R 6J1 UPEDU04VA 4T06J1 TJ1 YMEP N R HNK0FDA HE Y3HAVA, 4T0 UP0N30QV0 C T060L #line:5b59d0
+Adina: 4EM DATJ TE6E TP0HYTJ B0V0C C EF0 F0V0BJ1 #line:d6132e
+Adina: NVN UPEDATJ EF0 UPEDAH0CTJ. #line:7005cf
+ForestGod: U04EMY MJ1 60VJHJ1? #line:67fab8
+Adina: U0KVRHNCJ 4T0 6PAYH 6YDET B 6E30UACH0CTN. U0KVRHNCJ BCEM, 4T0 CBRT0 DVR TE6R? #line:9ebba5
+ForestGod: R KVRHYCJ, R KVRHYCJ HA DECRTJ MNVVN0H0B MNVJ VECA. #line:7b7914
+Adina: X0P0Q0. #line:490589
+ForestGod: TEUEPJ DAL KVRTBY HA T0M, 4T0 CBRT0 DVR TE6R. #line:c743cb
+[[KVRHYCJ 3BE3DAMN.|FGSwear]] #line:e9709f
+[[KVRHYCJ CEMJEL, K0T0PY% TJ1 NWEQJ.|FGSwear]] #line:7114cc
+[[KVRHYCJ U0NCK0M.|FGSwear]] #line:045939
+
+===
+title: FGKnowDying
+tags: 
+colorID: 0
+position: 418,82
+---
+ForestGod: 6P-P-P-P-P-P-PV #line:dffee9
+ForestGod: R HE YMNPA%. #line:15cf7b
+Adina: 0, R DYMAVA TJ1 M0SEQJ UPNHRTJ GT0. #line:151981
+Adina: CMEPTJ UPNX0DNT BCEFDA N BCE TAK0E. #line:d355ee
+ForestGod: GT0 CVYSAWNL 60FY 6PAYH CKA3AV TE6E. #line:b19571
+ForestGod: 6ECU0VE3HJ1L, HNK4EMHJ1L. #line:8abcb9
+ForestGod: R HALDY DVR HEF0 NCU0VJ30BAHNE, 0H 6YDET K0PMNTJ VEC. #line:a5beb1
+ForestGod: DEPEBJR HALDYT B HEM OEHH0CTJ. #line:acb0e3
+Adina: HET. #line:fe4fe9
+Adina: CVYSAWNL 60FY 6PAYH X0P0QNL UAPEHJ. #line:007391
+Adina: 0H D06PJ1L, V%60UJ1THJ1L N TEUVJ1L. #line:cd47d8
+Adina: DASE CT0R HA X0V0DE, PADN TE6R. #line:0c1024
+ForestGod: 6P-P-P-P-P-P-PV #line:d9d1b8
+Adina: 0H C4NTAET, 4T0 0H TE6R HE 3ACVYSNBAET. #line:4b85e9
+Adina: H0 GT0 TJ1 HE 3ACVYSNBAEQJ EF0. #line:379282
+Adina: R 6J1 UPEDU04VA 4T06J1 TJ1 YMEP N R HNK0FDA HE Y3HAVA, 4T0 UP0N30QV0 C T060L #line:866784
+Adina: 4EM DATJ TE6E TP0HYTJ B0V0C C EF0 F0V0BJ1 #line:b1a350
+Adina: NVN UPEDATJ EF0 UPEDAH0CTJ. #line:ef4148
+ForestGod: U04EMY MJ1 YMNPAEM? #line:1ed1d7
+Adina: U0KVRHNCJ 4T0 6PAYH 6YDET B 6E30UACH0CTN. U0KVRHNCJ BCEM, 4T0 CBRT0 DVR TE6R? #line:4a439f
+ForestGod: R KVRHYCJ, KVRHYCJ 6E3FPAHN4H0L TALF0L #line:31b06b
+Adina: X0P0Q0. #line:63870b
+ForestGod: TEUEPJ DAL KVRTBY HA T0M, 4T0 CBRT0 DVR TE6R. #line:d4e76d
+[[KVRHYCJ 3BE3DAMN.|FGSwear]] #line:c2b22c
+[[KVRHYCJ CEMJEL, K0T0PY% TJ1 NWEQJ.|FGSwear]] #line:adbf67
+[[KVRHYCJ U0NCK0M.|FGSwear]] #line:49aaf4
+
+===
+title: FGSwear
+tags: 
+colorID: 0
+position: 524,336
+---
+ForestGod: ECVN GT0 T0, 4T0 DAET TE6E HADESDY, VADH0. #line:e57a38
+ForestGod: TEUEPJ F0B0PN. #line:fcf1ac
+Adina: EDNHCTBEHHAR UPN4NHA, U0 K0T0P0L R UPNQVA C%DA, GT0 UE4AVJ CVYSAWEF0 60FY 6PAYMA #line:6772c1
+Adina: N EF0 V%60BJ K TE6E. #line:f1ac47
+Adina: H0 TJ1 HE BJ1SNBEQJ. N CEL4AC R X04Y 4T0 6J1 TJ1 3HAV GT0. #line:ec3138
+ForestGod: F0B0PN!!!!! #line:b30e53
+Adina: XAH4EP 0TPABNVA TE6R. #line:01c2c9
+Adina: U0 BNDNM0MY.  #line:f4f928
+ForestGod: 6-P-P-P-P-P-P-P-P-P-PV. #line:7ab9f3
+ForestGod: 3DECJ 6J1V MNP! U0CVE... #line:a593d2
+Adina: C0TEH VET, R 3HA%. #line:a1cdcb
+ForestGod: H0 U04EMY? #line:5101de
+Adina: 0HA BJ1SNBQAR. #line:40b3a4
+Adina: KASETCR, TJ1 NM HE 6YDEQJ. #line:90b932
+ForestGod: T0FDA N 0HA HE 6YDET. #line:3e3e47
+Adina: AFX. #line:8bd2a0
+Adina: TJ1 60VJQ0E, FVYU0E SNB0TH0E. #line:85b1f6
+<<fadeOutMusic 3>>
+ForestGod:{width=8}AAAAAAPPPPPPPPPPPPPP!!!!!#line:fc3b22
+<<close>>
+<<wait 1>>
+<<tell ForestGodFlyAway to Play>>
+<<animationTrigger ForestGod Freakout>>
+<<wait 9>>
+<<hide ForestGod>>
+<<wait 4>>
+Adina: D0 CBNDAHNR. #line:8e11f7
+<<destroy Fire1>>
+<<destroy Fire2>>
+<<set $forest_god to 1>>
+<<end>>
+
+===
+title: Done
+tags: 
+colorID: 0
+position: -69,80
+---
+Adina: 0H YQEV. #line:ca030a
+GodtenderBrown: 0H BEPHETCR! 0H BCEFDA B03BPAWAETCR. #line:963416
+Adina: CVYSAWNL 60FY... #line:1c74cf
+GodtenderBrown: DA, NMUEPATPNOA? #line:672923
+Adina: BJ1 X0P0QNL UAPEHJ. #line:f51190
+GodtenderBrown: CUACN60 BAM, R M0FY T0VJK0 HADERTJCR CTATJ X0P0QNM.  #line:976238
+Adina:{width=5}HADESDA GT0 X0P0Q0. 4T0 6J1 HN CVY4NV0CJ, U0SAVYLCTA, HE TEPRLTE EE.#line:d80283
+GodtenderBrown: SEVA% BAM 6VAF0CV0BEHNL B TB0EM UYTEQECTBNN.  #line:ca9ec7
+Adina: BAM T0SE. C4ACTVNB0L DVNHHELQEL H04N. #line:26d12d
+GodtenderBrown: N BAM. #line:d2a8ce
+<<close>>
+<<fadeOut 3 0 0 0>>
+<<wait 3>>
+<<speechBubbleSizeOverride 0>>
+<<showTalkingHeads>>
+Mae: R 3ACJ1UA%, DEDYQKA.  #line:7c77dd
+Granddad: MJ1 U04TN 3AK0H4NVN, MGL. #line:40e80d
+Mae: X0P0Q0. MHE 04EHJ HPABNTCR GTA NCT0PNR.  #line:526754
+Granddad: R N HE C0MHEBAVCR. #line:259686
+Mae: TJ1 M0SEQJ 0FPA6NTJ 6AHK C0 MH0L B V%60E BPEMR. #line:67ea7d
+<<hideTalkingHeads>>
+<<wait 1>>
+<<scene LN2_LostWoods>>
+
+===
+title: GodtenderBrown
+tags: 
+colorID: 0
+position: -238,-192
+---
+<<speechBubbleSizeOverride 1>>
+<<if $forest_god is 0>>
+	[[Intro]]
+<<else>>
+	[[Done]]
+<<endif>>
+
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 329,-465
+---
+<<clearSnowballs>>
+===

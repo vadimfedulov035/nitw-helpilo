@@ -1,0 +1,190 @@
+title: EnterLevel
+tags: 
+colorID: 4
+position: -210,935
+---
+<<if $bathroom_mirror is 0>>
+    [[FQ4Intro]]
+<<endif>>
+===
+title: FQ4Intro
+tags: 
+colorID: 4
+position: 171,988
+---
+Mae: :) #line:cb425d
+Gregg: :) #line:77a674
+Mae: too bad you didn't get partially eaten by a shark. #line:cadbd5
+Gregg: too bad you didn't get serial killed. #line:319826
+Mae: too bad you didn't start doing drugs. #line:48241d
+Mae: and then died from drugs. #line:8fda41
+Gregg: we tried weed a while back. #line:f98295
+Mae: too bad you didn't O.D. and die from it. #line:7e0581
+Angus: ok are you two done? #line:bb9a45
+Gregg: :| #line:efcec0
+<<close>>
+<<walk Mae MaeEnter>>
+<<walk Gregg GreggEnter>>
+<<walk Angus AngusEnter>>
+<<waitForMove Mae>>
+Mae: FINALLY HERE! #line:f2bbae
+Angus: yup. #line:19e2ac
+Gregg: AW YEAH #line:dda161
+Gregg: THAT WOLF OF THE DONUT #line:36d635
+Mae: \o/ #line:738da9
+Mae: awoooooooo #line:3366b1
+Mae: _o_ #line:96775b
+Angus: yup #line:f34827
+<<close>>
+<<cameraLookAt CameraDWCashier 4>>
+<<walk Mae MaeCounter>>
+<<walk Gregg GreggCounter>>
+<<walk Angus AngusCounter>>
+<<waitForMove Mae>>
+<<playerFace -1>>
+DWCashier: Welcome to Donut Wolf home of the slammercake now featuring pan- #line:f98bef
+DWCashier: cakes with special Howlin Mad Maple Syrup how would you like to ride #line:d29a19
+DWCashier: the chariot today? #line:0e1125
+<<lookAt Gregg Mae>>
+Mae: Hello sir. :) =_= <o> #line:0d5868
+Mae: Mighty fine donuts ya got there. #line:4b21ac
+<<lookAt Gregg DWCashier>>
+DWCashier: Thank you ma'am. #line:a642b6
+<<lookAt Gregg Angus>>
+Angus: We'll take a half dozen Go-Nuts. #line:cf1456
+Gregg: Dude. #line:fc2a88
+Gregg: We should get chariot wheels. #line:0fa07b
+Angus: we got chariot wheels last time... #line:173ce2
+<<lookAt Gregg Mae>>
+Mae: i want slammercakes! o_o #line:30bf3b
+<<lookAt Gregg DWCashier>>
+DWCashier: actually we are out of slammercakes #line:b2d83c
+<<lookAt Gregg Mae>>
+Mae: WHAT?! :( _o_ #line:5f9467
+Mae: HOW CAN YOU BE OUT OF SLAMMERCAKES?!?!? \o/ #line:9c3a76
+Mae: THAT'S LIKE HALF THE REASON TO COME HERE!!!! #line:58b748
+Angus: Dude just pick something. #line:f9f360
+Gregg: ... #line:548961
+Mae: _o_ #line:d86112
+<<lookAt Gregg Angus>>
+Angus: Ok we'll take half a dozen chariot wheels. #line:e582fc
+<<lookAt Gregg DWCashier>>
+DWCashier: would you like them with eternity sauce #line:ca121d
+<<lookAt Gregg Angus>>
+Angus: No. #line:ac1489
+<<lookAt Gregg Mae>>
+Mae: -_- :| #line:c28ba5
+Mae: Alright alright. I'll take... #line:3247db
+->6 chariot wheels. #line:191b06
+    Mae: no eternity sauce o_o #line:ba6895
+    Mae: last time i had that #line:639156
+    Mae: i stayed up all night cleaning the entire house. #line:7eef33
+    <<set $donut_set_doom to 0>>
+->6 Doomnuts. #line:1a338f
+    Mae: are those new? o_o #line:55e146
+    <<lookAt Gregg DWCashier>>
+    DWCashier: limited edition, ma'am. #line:7099ab
+    <<lookAt Gregg Mae>>
+    Mae: well they're about to be even more limited. #line:cf2011
+    Mae: and *NO* eternity sauce #line:be22fe
+    Mae: last time i had that #line:b97b69
+    Mae: i stayed up all night digging a hole in our backyard. #line:a57ec3
+    Mae: they found me asleep in the morning #line:66e0c9
+    Mae: at the bottom of a hole. #line:efc1ed
+    <<if $pentagram_quest>>
+        <<set $found_pentagrams += 1>>
+        <<unlockPentagramDoodle>>
+    <<endif>>
+    <<set $donut_set_doom to 1>>
+<<lookAt Gregg DWCashier>>
+DWCashier: yes ma'am. #line:aa8fcf
+<<lookAt Gregg Angus>>
+Angus: Are we eating here? #line:bde9f5
+<<lookAt Gregg Mae>>
+Mae: I guess. Whatever. #line:2c84c8
+Gregg: Um. #line:24991e
+Gregg: Yeah, let's eat here! #line:6283d0
+<<lookAt Gregg Angus>>
+Angus: Fine. I’m gonna go find a seat. #line:4bf994
+<<lookAt Gregg Mae>>
+<<close>>
+<<walk Angus AngusOffscreen>>
+<<wait 3>>
+<<lookAt Gregg Mae>>
+Mae: I have to go to the bathroom. #line:8039c5
+Gregg: ...ok... #line:e245b3
+<<close>>
+//Mae walks over to the bathroom. Camera stays on Gregg as she walks away. Poor Gregg. Or… poor Gregg???//
+//<<setCameraMode Stationary>>
+<<toggleCameraControlEnabled 0>>
+<<walk Mae MaeBathroom>>
+<<wait 3>>
+Gregg: this is fun. #line:4d4645
+<<close>>
+<<wait 1>>
+<<fadeOut 1 wait>>
+<<scene BathroomMirror>>
+
+===
+title: InitLevel
+tags: 
+colorID: 4
+position: -176,662
+---
+<<setCanInteract Gregg 0>>
+<<setCanInteract Angus 0>>
+
+<<if $bathroom_mirror is 0>>
+    //characters start offscreen to the left and start walking in to some locators by the door//
+    <<hide Collision:Left>>
+<<else>>
+    <<warp Mae MaeBathroom>>
+    <<warp Angus AngusSit>>
+    <<sit7 Angus>>
+    <<warp Gregg GreggSit>>
+    <<sit Gregg>>
+    <<setSpriteLayer Gregg BG3>>
+    <<setSpriteLayer Angus BG3>>
+    <<flip Angus -1>>
+<<endif>>
+===
+title: SitDown
+tags: 
+colorID: 4
+position: 449,791
+---
+<<fadeOut 1 wait>>
+<<warp Mae MaeSit>>
+<<sit>>
+<<setSortingLayerName BG3>>
+<<wait .1>>
+<<fadeIn 1 wait>>
+<<wait 4>>
+Mae: So. :) #line:08c208
+<<wait 3>>
+Mae: =_= #line:903a59
+Mae: how you guys doing...? #line:568137
+<<wait 2>>
+Mae: anything new? #line:c12b64
+Mae: other than, you know #line:e3ae01
+Mae: all this stuff that's been happening. #line:e24cd4
+<<wait 2>>
+Mae: o_o :| #line:9b2c96
+Mae: ghosts and stuff. #line:4de3b5
+Mae: yep. #line:cc653d
+Mae: that's pretty new. #line:47339d
+<<wait 3>>
+Mae: hey angus, how'd you get bea's car for tonight? #line:370049
+Angus: she was going to go to a party out of town #line:a0523e
+Angus: but i guess she lost her nerve. #line:f4f61f
+Mae: oh. #line:f324d9
+Angus: and gregg and i were *supposed* to do something #line:90b916
+Mae: this is something! #line:42b15f
+<<wait 3>>
+Angus: let's just eat. #line:502522
+Gregg: yes please let's eat. #line:a64942
+Mae: woohoo! :) #line:9f06d0
+<<close>>
+<<irisOut 1 wait>>
+<<scene PawsModeDonutWolfGreggAngus>>
+===

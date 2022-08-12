@@ -1,0 +1,109 @@
+title: Convo1
+tags: 
+colorID: 0
+position: 373,227
+---
+Mae: so how's our son working out? #line:7097f6
+Angus: he's in our living room. #line:2e49e3
+Mae: he sure is! #line:e7af48
+Mae: pretty great. #line:18b30e
+Angus: yep. #line:639bd2
+<<wait 1>>
+<<tell AngusFoodPaw Reach>>
+===
+title: Convo2
+tags: 
+colorID: 0
+position: 624,230
+---
+Mae: Gregg, you're awful quiet? #line:71e2fd
+Gregg: just eating. #line:2b39b6
+Mae: you've never had a problem talking and eating at the same time. #line:d8c8b0
+Gregg: ... #line:3f5db2
+Angus: ... #line:1613f8
+<<wait 1>>
+<<tell GreggFoodPaw Reach>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 57,118
+---
+Mae: oh god #line:fc33f5
+Mae: if god even exists #line:ef7fdc
+Mae: these donuts #line:40365b
+Mae: you're not religious, right angus? #line:7b91c4
+Angus: no. #line:73426d
+Mae: have donuts ever made you think twice? #line:851283
+Angus: no. #line:794462
+<<close>>
+<<wait 1>>
+<<tell GreggFoodPaw Reach>>
+===
+title: Convo3
+tags: 
+colorID: 0
+position: 868,228
+---
+<<playOneShot event:/paws_mode_pizza/mae_pizza_sick>>
+Mae: ugh. donut sick already. #line:5e9ab6
+<<wait 2>>
+Angus: it smells. #line:626ab5
+Gregg: dude. #line:59774e
+Mae: Donut wolf? #line:b65be7
+Angus: the robot thing. #line:a4e399
+Gregg: I thought you'd like it! #line:b640bf
+Gregg: I smell, and you like me! #line:6205a9
+Mae: yeah! to both of those things! #line:448949
+Mae: Gregg spent a lot of time and effort on that robot #line:0ac61c
+Mae: because he thought you'd love it. #line:76502a
+Angus: No, he did it because it was fun. #line:a3d587
+Angus: No matter what could happen. #line:8bcf06
+Mae: geez. #line:c157dd
+Gregg: ... #line:04a9ae
+<<wait 1>>
+<<tell AngusFoodPaw Reach>>
+===
+title: Convo5
+tags: 
+colorID: 0
+position: 1362,227
+---
+<<playOneShot event:/paws_mode_pizza/mae_pizza_sick>>
+<<wait 2>>
+<<fadeOutMusic 10>>
+Mae: oh cripes #line:b7ca56
+<<wait 2>>
+Mae: oh sweet cripes #line:f93047
+Mae: i'm falling into the sky #line:f01df7
+<<resumeAnimation PawsModeDonutWolfGreggAngus>>
+<<playOneShot event:/paws_mode_donut/donut_sick_transition>>
+<<wait 7>>
+===
+title: Convo4
+tags: 
+colorID: 0
+position: 1108,224
+---
+<<playOneShot event:/paws_mode_pizza/mae_pizza_sick>>
+Mae: oof. feeling woozy. #line:4f56d6
+<<wait 2>>
+Mae: Angus, you're being rude. #line:69d65b
+Angus: *I'M* being rude? #line:bc221e
+Angus: we're trying to get out of here #line:e5b751
+Angus: both working our asses off #line:217e15
+Angus: and you come waltzing back into town #line:9ccd0b
+Angus: and suddenly Gregg is breaking into grocery stores #line:c5c724
+Gregg: abandoned ones! #line:749621
+Angus: and like stealing car batteries #line:40c4cf
+Gregg: abandoned ones! #line:583482
+Angus: and messing up our already crappy apartment, #line:8caf53
+Gregg: hey. dude. c'mon. #line:85cb59
+Mae: wait, how is this my fault? #line:d966a3
+Angus: ... #line:883597
+Gregg: ... #line:89e6d2
+Mae: whatever. i'm eating. #line:4357a7
+<<wait 1>>
+<<tell GreggFoodPaw Reach>>
+<<tell AngusFoodPaw Reach>>
+===

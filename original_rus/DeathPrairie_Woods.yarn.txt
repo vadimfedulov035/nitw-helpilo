@@ -1,0 +1,25 @@
+title: InitLevel
+tags: 
+colorID: 5
+position: 421,220
+---
+<<set $death_walk to 1>>
+<<playIdleAnimationPlayer>>
+===
+title: EnterLevel
+tags: 
+colorID: 5
+position: 641,235
+---
+<<fadeOut .0001>>
+<<trigger DeathPrairie_Woods FadeIn>>
+<<fadeIn .1>>
+<<wait 3.5>>
+<<trigger Mae DeathPrairieWakeUp>>
+<<wait 9.8>>
+<<hide Mae>>
+<<playerForcePlayIdleAnimation>>
+<<playOneShot event:/deathprairie/mae_fade_in Mae>>
+<<show Mae .3>>
+<<wait .5>>
+===

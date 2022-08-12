@@ -1,0 +1,8 @@
+title: TryToPressButton
+tags: 
+colorID: 0
+position: 665,376
+---
+<<fadeOutMusic .1>>
+Gregg: Dude! Stop! What the hell! #line:96b811
+===

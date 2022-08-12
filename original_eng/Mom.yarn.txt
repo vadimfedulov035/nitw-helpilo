@@ -1,0 +1,1823 @@
+title: MomHome_A1D1
+tags: 
+colorID: 2
+position: 5041,2980
+---
+<<camera lookOffset -2 0>>
+<<sit>>
+<<if $mom is 0>>
+    <<set $mom += 1>>
+	[[WelcomeHome]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+	[[News_A1D1]]
+<<elseif $mom is 2>>
+    <<set $mom += 1>>
+	[[Book_A1D1]]
+<<elseif $mom is 3>>
+	[[Loop_A1D1]]
+<<endif>>
+
+===
+title: WelcomeHome
+tags: 
+colorID: 2
+position: 4680,3374
+---
+Mae: Hi mom! #line:797649
+Mom: Welcome home, sweetie! #line:eaada6
+Mae: Thanks for not changing the locks! #line:e92e74
+Mom: Sorry we mixed up the day you were coming back #line:f83d1a
+Mom: It was such short notice! #line:655bf4
+Mae: It's okay, mom. #line:51354c
+Mom: Mae honey? #line:3a50cb
+Mae: Yeah? #line:8430cc
+Mom: Is everything ok? #line:300a04
+[[Yeah!|Yeah_A1D1]] #line:6ed4c2
+[[What Do You Mean?|What_A1D1]] #line:44e916
+
+===
+title: Yeah_A1D1
+tags: 
+colorID: 2
+position: 4663,3762
+---
+Mae: Yeah Mom, things are good. #line:e2e2bc
+Mom: Well I mean it was a bit alarming to your father and I when you called. #line:d8ddd6
+Mom: I assumed that something was very wrong. #line:f7e093
+Mae: No, it just didn't work out at school. #line:c8c659
+Mom: What does that mean, honey? #line:d6d3bb
+Mae: Can we talk about this another time? #line:18332e
+Mom: Sure, hon. #line:b40757
+Mae: Thanks, mom. #line:2710da
+[[WheresGregg]]
+
+
+===
+title: What_A1D1
+tags: 
+colorID: 2
+position: 4902,3782
+---
+Mom: Honey, did something happen? #line:97bf6b
+Mae: I just needed to come home. #line:33b7fb
+Mom: Well sweetie I think you can understand my worry... #line:c3a6db
+Mom: That's not usually something a college sophomore just up and does... #line:0fe0f0
+Mae: I know. #line:b4e62b
+Mom: Honey, you can tell me if something happened. #line:a51b78
+Mae: Mom, I'm fine. Really. #line:4be09c
+Mae: Can we talk about this another time? #line:48a410
+Mom: Sure, honey. It's ok. #line:bdeb2e
+Mae: Thanks, mom. #line:fccef9
+[[WheresGregg]]
+
+===
+title: WheresGregg
+tags: 
+colorID: 2
+position: 5009,4203
+---
+Mom: I betcha your old friends will be happy to see you! #line:aab850
+Mae: You wouldn't happen to know where Gregg is, would you? #line:d6338f
+Mom: Oh yeah! Gregg's working down at the Snack Falcon #line:2164dc
+Mom: Up in Towne Centre West by the Clik Clak. #line:1f20f1
+[[I think I'll run over and say hey.|Thanks_A1D1]] #line:b58e68
+[[We have a Snack Falcon now?|SnackFalcon]] #line:13bc9a
+
+===
+title: SnackFalcon
+tags: 
+colorID: 2
+position: 5046,4578
+---
+Mom: Oh yeah! It's so handy! #line:36641c
+Mom: You know, ever since the Food Donkey went out. #line:7a076a
+Mae: The Food Donkey is gone? #line:871f19
+Mom: Oh yeah! Going on almost a year now! #line:28e132
+Mae: Wow. Where does everyone shop? #line:c085c7
+Mom: Everyone goes out to the Ham Panther out by the highway now. #line:151f47
+Mom: But I see your little friend Gregg when I go into town. #line:51cb33
+Mae: Wow. The Food Donkey's gone. We have a Snack Falcon. #line:484cde
+Mom: It's a whole new world, sweetie. #line:94b343
+Mae: Yes it is. #line:13a138
+[[Thanks_A1D1]]
+
+===
+title: Thanks_A1D1
+tags: 
+colorID: 2
+position: 5482,4563
+---
+Mom: Well, have a good time out there! #line:a3579f
+Mom: Lots to explore! See what's changed! #line:52cf60
+Mae: I will! #line:d920d3
+Mom: Just watch out for all the construction. #line:aba759
+Mae: Well it wouldn't be fall in Possum Springs without loads of construction. #line:f694e8
+Mom: It's so festive, honey. #line:c13543
+Mae: I'll be back later! #line:7d0dd1
+Mom: Bye, sweetie! #line:547365
+<<camera lookOffset 0 0>>
+<<unlockDoodle MomFace>>
+===
+title: News_A1D1
+tags: 
+colorID: 2
+position: 4926,3386
+---
+Mae: So what's been happening in town? #line:947a85
+Mom: Well, let's see... #line:6d5f6a
+Mom: Did you hear Mrs. Crangler died? #line:b5cf6e
+Mae: Who? #line:daccb6
+Mom: You remember Mrs. Crangler! She taught your girl scout troop how to dance! #line:344849
+Mae: Oh wow. She was pretty old then, too. #line:5321a1
+Mom: Oh she was ancient, honey. She was ancient when I was your age. #line:197b58
+Mae: How did she die? #line:08913c
+Mom: From being ancient, honey. #line:7c659c
+Mae: How old was she? #line:8761d2
+Mom: 115 #line:8551b4
+Mae: WOW. #line:98a133
+Mom: I know! If this were a contest, she'd have won! #line:238439
+
+===
+title: Book_A1D1
+tags: 
+colorID: 2
+position: 5187,3394
+---
+Mom: Honey you've got to read this book when I'm done with it. #line:c3c1ca
+Mae: What is it? #line:234f6e
+Mom: Wellboy. It's a true story about a boy who grew up in a well. #line:e423f9
+Mom: His parents didn't want him so they threw him in a well. #line:92623c
+Mom: And he was raised by eels. #line:5ccc50
+Mom: In a well. #line:911415
+Mae: Wow. #line:8b2625
+Mom: Eels. #line:668b12
+Mae: Eels. #line:82a024
+Mom: Eeeeeels, honey. #line:e1ecc8
+<<set $eels to 1>>
+<<camera lookOffset 0 0>>
+<<unlockDoodle MomEels>>
+
+===
+title: Loop_A1D1
+tags: 
+colorID: 2
+position: 5416,3389
+---
+Mom: Eels, honey. EELS. #line:7b59fd
+<<camera lookOffset 0 0>>
+===
+title: MomHome_A2D2
+tags: 
+colorID: 3
+position: 7292,3149
+---
+<<if $mom is 0>>
+    <<sit>>
+    Mom: Good morning! Did you feel it last night? #line:7b2dac
+        ->no? #line:a144f3
+            Mom: but you know what I'm talking about right? #line:f9113b
+            Mae: spill it, mom. #line:6f833d
+        ->what? #line:01c3d9
+    Mom: there was a big sinkhole 2 streets over! #line:1243d5
+    <<set $knows_sinkholes to 1>>
+    Mae: oh, are we still getting those? #line:063a10
+    Mom: i don't think those ever really go away. #line:e9830c
+    Mom: swampy ground and so forth. and on a flood plain. #line:5925bd
+    Mae: oh weird. #line:ccf176
+    Mom: i don't want you over there nosing around it. #line:8aa66c
+    Mae: i guarantee you i won't. I have seen sinkholes. #line:482efe
+    Mom: no interest at all? #line:5ded2b
+    Mae: mom they're just holes in the ground. #line:5b9766
+    Mae: get back to me when one like swallows a house or something. #line:45bf21
+    Mom: we'll go see together if that happens. #line:33fd77
+    Mae: deal. #line:0f65da
+    Mom: so what did you do last night? #line:b7f48b
+    <<if $did_gregg_friendship_quest_1 is 1>>
+    	Mae: Hung out with Gregg. #line:98b9ab
+    	Mom: What did you do? #line:ca6960
+    	Mae: Uh. Went to the grocery store. #line:c2fb29
+        Mom: that sounds exciting! #line:fc1210
+        Mom: get anything special? #line:f01cfe
+        Mae: hooooooboy. sure did. #line:df95d4
+    <<elseif $did_bea_friendship_quest_1 is 1>>
+    	Mae: Went to the mall with Bea. #line:2f7ff2
+    	Mom: Oh! Fort lucenne? #line:f4fcd9
+        Mae: yeah! #line:19451c
+        Mom: i haven't been there in years. How is it? #line:99c898
+        Mae: kinda falling apart and empty. #line:30212e
+        Mom: yeah i expect. #line:f1e7ab
+        Mom: everyone just goes to the outlet stores up by the interstate now. #line:ede853
+        Mom: for, ya know. shoes and things. #line:11da61
+    <<endif>>
+    //after you jump down//
+    Mom: well, stop by the church if you're in the area! #line:8b72a2
+    Mae: will do mom #line:3a7571
+    Mae: see ya! #line:5f9f09
+    Mom: mmhmm. bye sweetie. #line:930356
+    <<set $mom += 1>>
+<<elseif $mom is 1>>
+    Mom: now that you've been home for a few days #line:515dc8
+    Mae: yeah? #line:206a1c
+    Mom: have you thought about getting a j- #line:990dfe
+    Mae: well, gotta go mom! #line:6a21c7
+    Mom: heh heh. #line:8127c1
+    Mom: bye sweetie. #line:9bcea7
+    <<set $mom += 1>>
+<<elseif $mom is 2>>
+    Mom: hm hm hmmmmmm. #line:3f7b75
+<<endif>>
+
+===
+title: MomHome_A0D0
+tags: 
+colorID: 0
+position: 3706,3065
+---
+<<camera lookOffset -2 0>>
+<<sit>>
+<<if $mom is 0>>
+	[[MomDemoHub]]
+<<elseif $mom is 1>>
+	[[MomDemoSuzie]]
+<<elseif $mom is 2>>
+	[[MomDemoLoop]]
+<<endif>>
+===
+title: MomDemoSuzie
+tags: 
+colorID: 0
+position: 3386,3426
+---
+Mom: {align=middle,locator=kitchen}You remember what happened to Suzie Kushner? #line:5692c2
+Mae: {align=middle,locator=kitchen}Geez, no mom! =_= #line:391b5e
+Mae: {align=middle,locator=kitchen}I've definitely never heard that story about 1000 times. #line:db206f
+Mom: {align=middle,locator=kitchen}Do you remember what happened #line:8636cd
+Mom: {align=middle,locator=kitchen}when she wouldn't stay off the powerlines? #line:36cad5
+Mae: {align=middle,locator=kitchen}She got electrocuted. #line:170d2e
+Mom: {align=middle,locator=kitchen}Fried, darling. The newspaper said fried. #line:5d169d
+Mae: {align=middle,locator=kitchen}She made a full recovery, though! #line:7bc04b
+Mom: {align=middle,locator=kitchen}Honey, she can't use adjectives now. #line:ae9686
+Mom: {align=middle,locator=kitchen}She lost an entire part of speech. #line:e9e679
+Mae: {align=middle,locator=kitchen}That's bad. #line:178367
+Mom: {align=middle,locator=kitchen}That's exactly the kind of sentence Suzie can't formulate. #line:b85ed3
+Mom: {align=middle,locator=kitchen}So stay off the powerlines, ok? #line:7f1b9b
+Mae: {align=middle,locator=kitchen}Why was that again? o_o :) #line:b127f4
+Mom: {align=middle,locator=kitchen}Oh you are your mother's daughter alright. #line:222e04
+Mae: :| #line:c99148
+<<addToJournal SuzieKushnerExistence>>
+<<camera lookOffset 0 0>>
+<<set $mom to 2>>
+===
+title: MomDemoLoop
+tags: 
+colorID: 0
+position: 3198,3157
+---
+Mom: {align=middle,locator=kitchen}This book is about a boy who was raised by eels at the bottom of a well. #line:7a8663
+Mom: {align=middle,locator=kitchen}It's really full of misery and suffering and you need to read it after me, honey. #line:f8feb8
+<<camera lookOffset 0 0>>
+
+===
+title: MomDemoHub
+tags: 
+colorID: 0
+position: 4000,3262
+---
+Mae: {align=middle,locator=kitchen}HI MOM. #line:6c7178
+Mom: {align=middle,locator=kitchen,width=4}So honey, I don't know what you're up to tonight, but if you're around at 9... #line:b961de
+<<set $mom to 1>>
+[[{align=middle,locator=kitchen}I might be?|MomDemoIMightBe]] #line:673e11
+[[{align=middle,locator=kitchen}Wait, what's that on the table? Is that...|MomDemoWaitWhatsThat]] #line:df0923
+===
+title: MomDemoIMightBe
+tags: 
+colorID: 0
+position: 3706,3521
+---
+Mom: {align=middle,locator=kitchen,width=4}Well there's a movie on tonight, Poison Husband: Toxic Vows. #line:78cc0a
+Mae: {align=middle,locator=kitchen}What's it about? #line:bcbc5c
+Mom: {align=middle,locator=kitchen,width=4}Oh there's this woman, and she finds out she's being poisoned by her husband! #line:2377ba
+Mae: {align=middle,locator=kitchen}Oh geez! :( #line:fbf85d
+Mom: {align=middle,locator=kitchen,width=4.5}And then her neighbor kidnaps her children and takes them to Canada! #line:b2bbcb
+Mae: {align=middle,locator=kitchen}Reasonable. :| #line:e29fae
+Mom: {align=middle,locator=kitchen,width=4.5}So the mom is searching for her kids across Canada and poisoning rotten men along the way. #line:eefbbd
+[[{align=middle,locator=kitchen}Wait, what happened to the father?|MomDemoWhatHappenedToTheFather]] #line:1ee68d
+[[{align=middle,locator=kitchen}Wow I might have to watch this.|MomDemoWowIMightHaveToWatchThis]] #line:2e97e3
+===
+title: MomDemoWaitWhatsThat
+tags: 
+colorID: 0
+position: 4301,3523
+---
+Mom: {align=middle,locator=kitchen,width=4}Oh your father and I had Donut Wolf this morning. #line:49419f
+Mae: {align=middle,locator=kitchen}You didn't save me any. :( #line:272c82
+Mom: {align=middle,locator=kitchen,width=4}Honey, it's 4:30 PM. We're long past donut time. #line:bc969b
+Mae: {align=middle,locator=kitchen}This is a wound I will bear forever.-_- #line:998a3b
+Mom: {align=middle,locator=kitchen,width=4}I'm sure, sweetie #line:a67a75
+Mae: o_o :| #line:545f83
+<<addToJournal TodoGetThatDonutWolf>>
+[[MomDemoEnd]]
+===
+title: MomDemoEnd
+tags: 
+colorID: 0
+position: 3977,4163
+---
+Mae: o_o :| #line:6ec60c
+Mom: {align=middle,locator=kitchen}Listen honey, we need to talk... #line:e27a46
+Mom: {align=middle,locator=kitchen}You really do need to stop [hop]jumping[/hop] and climbing all over town. #line:82bb69
+Mae: {align=middle,locator=kitchen}Mom. I'm 20. #line:d30a90
+Mom: {align=middle,locator=kitchen}Mmmhmm. #line:762760
+Mom: {align=middle,locator=kitchen}Listen, most folks grow out of running around #line:3f51cc
+Mom: {align=middle,locator=kitchen}on roofs and powerlines by now. #line:27f3e8
+Mom: {align=middle,locator=kitchen,width=4}And your poor father is going to have to replace the mailbox again #line:73ef3a
+Mom: {align=middle,locator=kitchen}if you keep jumping on it. #line:82169e
+Mae: {align=middle,locator=kitchen}Mom. #line:e0836d
+Mom: {align=middle,locator=kitchen}Yes? #line:e1db61
+Mae: {align=middle,locator=kitchen}Mom. #line:2f2fc4
+Mom: {align=middle,locator=kitchen}What? #line:56d8d3
+Mae: {align=middle,locator=kitchen}I'm 20. #line:1e879a
+Mom: {align=middle,locator=kitchen}Mmmhmm. #line:71230e
+Mae: {align=middle,locator=kitchen}Well, see you later, mother! #line:14b648
+Mom: {align=middle,locator=kitchen}Bye bye, daughter! #line:e26cc9
+<<addToJournal TodoDontJumpOnMailboxes>>
+<<camera lookOffset 0 0>>
+
+===
+title: MomDemoWowIMightHaveToWatchThis
+tags: 
+colorID: 0
+position: 3912,3801
+---
+Mom: {align=middle,locator=kitchen,width=4}It sounds like it's going to depict a lot of human misery! #line:d83d63
+Mae: {align=middle,locator=kitchen}Ok I'll be back later. :) #line:77899f
+Mom: {align=middle,locator=kitchen,width=4}It'll be a girl's night in! #line:c04f54
+Mae: :| #line:1e6412
+<<addToJournal TodoWatchMiseryPorn>>
+[[MomDemoEnd]]
+===
+title: MomDemoWhatHappenedToTheFather
+tags: 
+colorID: 0
+position: 3482,3793
+---
+Mom: {align=middle,locator=kitchen,width=4}I think he's blind now from all the poisoning and is tailing her with a seeing eye dog. #line:62bf12
+Mae: {align=middle,locator=kitchen}Across Canada?? Is he riding the dog? #line:3ad278
+Mom: {align=middle,locator=kitchen,width=4}I think they ride the bus. #line:645163
+[[{align=middle,locator=kitchen}How do they know where she's going?|MomDemoDog]] #line:7a76ef
+[[{align=middle,locator=kitchen}This sounds amazing.|MomDemoEnd]] #line:8cc48d
+===
+title: MomDemoDog
+tags: 
+colorID: 0
+position: 3474,4148
+---
+Mom: {align=middle,locator=kitchen,width=5}Well I guess those dogs are just very intuitive! #line:8faff9
+Mom: {align=middle,locator=kitchen,width=5}And honey this guy has ingested a lot of poison #line:bb4e95
+Mom: {align=middle,locator=kitchen,width=5}so they probably gave him a real good one. #line:ce41c8
+Mae: {align=middle,locator=kitchen}The system works! :) #line:913250
+[[MomDemoEnd]]
+===
+title: Mom_A1D2_0
+tags: 
+colorID: 2
+position: 5777,3439
+---
+Mae: Morning mom. #line:ca74e1
+Mom: Nope, I’m mom 24 hours a day. #line:756be7
+Mae: Har har har. #line:fd741b
+Mom: Also it’s 4pm sweetie. #line:f3459b
+Mae: Well I’m off to find Angus. #line:df5322
+Mom: Oh is he your little friend Gregg’s boyfriend? #line:63319b
+Mom: Big guy? Kinda quiet? #line:5661b0
+Mae: Yeah that’s him. #line:e4df2f
+Mae: I need him to fix my laptop. #line:d585c8
+Mom: Well he better, sweetie. You can’t afford to buy a new one! #line:9519ef
+Mae: Wait, do you even know Angus? #line:da24a9
+Mom: Do you? #line:e6b1f7
+[[Kinda?|A1D2_0_Kinda]] #line:e1a161
+[[Mom we are in a band together. Sorta.|A1D2_0_band]] #line:3a9ab7
+===
+title: Mom_A1D2_1
+tags: 
+colorID: 2
+position: 6009,3438
+---
+Mom: Got a call from your Aunt Molly. #line:33244a
+Mae: Ugh. What did aunt Mall Cop want? #line:9915a6
+Mom: Sweetie I really wish you wouldn’t call her that. #line:f85931
+Mom: She worked very hard to get where she is #line:6b1500
+Mom: and it’s a dangerous job. #line:ca05c6
+Mae: Oh yeah. Possum Springs is SOOO dangerous. #line:a3f912
+Mae: Anyway did she tell you about the severed arm we found? #line:701091
+Mom: She did, in fact! #line:89ba67
+Mom: Scary things. #line:68db97
+Mae: Yeah I guess. #line:8e1d6c
+Mom: Honey, I know this is home #line:996d78
+Mom: but please be careful out there. #line:5cb6ff
+Mae: I will, mom. #line:e489d4
+Mom: And come home before dark unless you’re with somebody #line:d57165
+Mom: at least until they figure out what happened. #line:4b3171
+Mae: Ok. #line:175e4e
+Mom: Thanks, sweetie. #line:359095
+===
+title: MomHome_A1D2
+tags: 
+colorID: 2
+position: 6010,3187
+---
+<<sit>>
+<<if $mom is 0>>
+    <<set $mom += 1>>
+	[[Mom_A1D2_0]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+	[[Mom_A1D2_1]]
+<<elseif $mom is 2>>
+	<<set $mom_done to 1>>
+    [[Mom_A1D2_2]]
+<<endif>>
+
+===
+title: A1D2_0_Kinda
+tags: 
+colorID: 2
+position: 5779,3666
+---
+Mom: Well, no time like the present. #line:9da023
+Mae: Thanks, 24 hour Mom. #line:c13edd
+Mom: 7 days a week. #line:751096
+===
+title: A1D2_0_band
+tags: 
+colorID: 2
+position: 6015,3664
+---
+Mom: Oh, is the band back together? #line:7b08a5
+Mae: Yeah! We practiced last night! #line:6679da
+Mae: ...I don't think we're ever gonna play though. #line:8225e1
+Mom: Hm. #line:268a52
+Mom: Well, that sounds like fun, honey! #line:8677da
+Mae: Yeah I guess. #line:709e94
+Mom: You don't sound too happy about it. #line:b3c1dc
+Mae: eh. #line:05e7df
+Mae: Well, I'm off to find Angus! #line:07d502
+Mom: Have a good time, daughter! #line:b35428
+Mae: Thanks, 24 hour Mom. #line:6d534c
+Mom: 7 days a week. #line:fa3783
+===
+title: Mom_A1D2_2
+tags: 
+colorID: 2
+position: 6246,3435
+---
+Mom: So honey. #line:a71eeb
+Mae: Yeah? #line:120bcb
+Mom: *what did the arm look like?* #line:68d475
+Mae: It was cut off like right above the elbow. #line:110654
+Mom: Was there blood and stuff? #line:a9698b
+Mae: Little bit, little bit. #line:7ecaa2
+Mom: I wonder who's arm it is. #line:b85c68
+Mae: Well, should be pretty easy to spot. #line:0469ea
+Mom: Yeah ha ha. #line:40ba7a
+Mom: "Hey, what happened to your arm?" #line:0c9050
+Mom: "I dropped it by the diner!" #line:6f56ae
+Mae: Here sir, I found your arm. #line:59d822
+Mom: "Thanks, I was afraid I'd never see it again!" #line:829c23
+Mae: People don't always return arms when they find them. #line:7ea7c7
+Mom: It's a real shame. #line:80f04a
+Mae: It's a cold world. #line:99adbe
+Mom: A cold, cold world, sweetie. #line:be277a
+===
+title: MomHome_A2D1
+tags: demo2
+colorID: 3
+position: 7031,3144
+---
+//revisit this with new expressions and animations//
+<<if $mom is 0>>
+    <<sit>>
+    Mae: =_= #line:a91c46
+    Mom: Hey hon! You look like crap! #line:7d2e41
+    Mae: Yup! #line:d1e8cb
+    Mom: Rough night? #line:421ca7
+    ->No, just tired. #line:3839c1
+        Mom: OK, well take it easy... #line:88a2b0
+        Mae: I will. #line:4f5921
+    ->Is it that obvious? #line:5b3138
+        Mom: No, I was just saying you look like crap because I love you. #line:adbbfc
+        Mae: Thanks. #line:7c298f
+        Mom: If you want to talk about it... #line:c957d4
+        ->It's cool mom. #line:a7be0c
+        ->I saw Cole at a party in the woods. #line:431b84
+            Mom: From senior year? #line:a13e6c
+            Mae: Yeah he was home from school for the weekend. #line:084494
+            Mom: Did you talk to him? #line:76f62b
+            ->I don't really remember. #line:a38a0c
+                Mom: oh honey. #line:795bdd
+                Mae: it's fine. #line:2deaf3
+                Mae: not... going to become a regular occurrence. #line:3521e4
+                Mom: ok well that's good #line:ccf9d2
+                Mae: =_= #line:11f3bf
+                Mae: Anyway. #line:779063
+            ->Kind of. Sort of. I dunno. #line:a1aba6
+                Mom: Well, he's a jerk, hon. #line:461811
+                Mae: No, he's not. Or he wasn't. #line:a81870
+                Mae: I dunno. #line:48f11e
+                Mae: Anyway. #line:746b03
+    Mom: Looks like most of the repair workers have cleared out of Towne Centre. #line:c702d2
+    Mae: FINALLY. o_o :) #line:36c2ef
+    Mom: Yeah, they're all done with the churchill steps #line:315e1a
+    Mom: ...and the powerlines... #line:9664c7
+    Mae: Great! #line:74de51
+    Mom: Hon, I do *NOT* want you up on those things. #line:2577a3
+    Mae: =_= :| #line:66e269
+    Mae: Mom, I'm 20. #line:1a4840
+    Mom: Uh huh. Which means you go to jail for it. #line:c92853
+    ->No one is going to jail for running around on the powerlines. #line:eee3b0
+        Mom: It happens. #line:4041ce
+        Mae: Yeah, if the cops have literally nothing else to do. #line:c6348b
+        Mom: ... #line:150607
+        Mae: Ok good point. #line:5b97a2
+        Mae: :) #line:65cb73
+        Mae: Aunt Molly would be so delighted to arrest me. #line:fbed25
+        Mom: Heh heh. She might just. #line:fc13b0
+    ->Pssh. They'd never catch me. #line:be14a9
+        Mom: Your Aunt Molly catches you up there #line:28be9a
+        Mom: there's no telling what she'll do. #line:9b53a1
+        Mae: Did I tell you I saw her yesterday out front? #line:bd69c4
+        Mom: Really? #line:b889fd
+        Mae: Yeah she was being all weird and cryptic. #line:ca46aa
+        Mae: I dunno. Everything's fuzzy today. #line:6af52d
+    Mae: :| #line:53c087
+    <<unlockDoodle EffTheCops>>
+    Mom: And anyway it's dangerous. #line:ab0ae8
+    Mom: You remember Susie Kushner? #line:9ac360
+    Mae: Gee mom I sure don't. #line:dc2274
+    Mae: I've definitely never heard this story 1000 times. #line:6b3a81
+    Mom: Fried, honey. The paper used the word FRIED. #line:5a5868
+    Mom: Now she can't use adjectives. #line:fc0495
+    Mom: She lost an entire part of speech! #line:902150
+    Mae: Gee mom that's terrible. #line:124019
+    Mom: See that's the exact kind of sentence Susie can't formulate. #line:1437ac
+    Mae: ... #line:88564e
+    Mom: So what are you up to today? #line:76f90c
+    Mae: I dunno. Gonna go see what Gregg and Bea are up to. #line:4acb75
+    Mom: You all gonna do something together? #line:32f30c
+    Mae: I dunno. I don't think they hang out much #line:32dfbb
+    Mae: past messing around with our old band equipment. #line:1da3e1
+    Mom: Well, there are only so many hours and so many days in our lives. #line:3a5c03
+    Mae: Is there some bug going around that makes people talk like fortune cookies? #line:edfc54
+    Mom: Friendships are like trees. #line:adcdd7
+    Mae: Uh huh #line:b4a65b
+    Mom: You have to water them so they grow. #line:e396fd
+    Mom: And we each have only so much water. #line:391a0e
+    Mae: Have you ever watered a tree? #line:67b668
+    Mom: No, god does that. #line:201bdc
+    Mae: ok, I'm out. #line:71622f
+    Mom: See you later, sweetie! #line:ac284c
+    Mae: o_o :| #line:7ba33d
+    <<close>>
+    //<<jump>>
+    //<<if $eels is 1>>
+    //    Mom: Eels, honey.
+    //    Mae: Eels.
+    //    Mom: Hey this is gonna be a running joke til the end of this game.
+    //    Mae: Gotta remember to use it sparingly!
+    //<<endif>>
+    <<set $mom += 1>>
+<<elseif $mom is 1>>
+    Mae: Whatcha readin'? #line:4a0460
+    Mom: Book about a guy who grew up secretly living on a fishing ship #line:7f59d6
+    Mom: living in a barrel, eating raw fish, crabs, #line:ad9d7d
+    Mom: octopus, squid, lobster, gulls, albatross, #line:b7013f
+        ->I get it. #line:0e78d5
+        ->wow! #line:6c7c45
+            Mom: sharks, dolphins, sea cucumbers, #line:c668ec
+            Mom: seaweed, sand, rocks, #line:42a440
+            Mom: kelp, but that's the same as seaweed i think, #line:c9d369
+              ->I get the picture. #line:8ab442
+              ->wow! #line:8abff4
+                Mom: ropes, sails, one of the boats, the rigging, #line:af0dbe
+                Mom: sailor shoes, sailor hats, sailor pants #line:6ecfeb
+                Mom: sailor shirts, sailor underwear (clean), #line:f2df1b
+                    ->I get the idea. #line:2df358
+                    ->wow! #line:2e01b5
+                        Mom: fishing line, fishing nets, fishing poles... #line:b1fcde
+                        Mae: geez, he was well fed. #line:8cafb9
+                        Mom: ...several dugongs and a manatee. #line:e49e96
+                        Mom: Which are different, you know. #line:1afffd
+                        Mae: I did know that. #line:c8fa18
+                        Mom: and that's a list of everything he ate. #line:c933f5
+                        Mae: How do you eat fishing line?     #line:0b1ab8
+    Mom: The crews thought the boat was haunted! #line:60f79d
+    Mom: But nope. Just the Barrel Boy. #line:cf6d6f
+    Mae: What's the book called? #line:0abc25
+    Mom: Barrel Boy. #line:15a04e
+    Mae: Oddly enough I now want fish sticks. #line:875e30
+    Mom: I know right? I'll have your father bring some home. #line:1aa679
+    <<set $mom += 1>>
+<<elseif $mom is 2>>
+    Mom: Have a nice day, sweetie! #line:43547f
+    <<set $mom_done to 1>>
+//insert fish emoticon//
+<<endif>>
+
+===
+title: MomHome_A2D3
+tags: 
+colorID: 3
+position: 7919,3171
+---
+<<if $mom is 0>>
+    <<set $mom += 1>>
+    [[MomHome_A2D3_00]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+    <<set $mom_done to 1>>
+    [[MomHome_A2D3_01]]
+<<endif>>
+===
+title: MomHome_A3D1
+tags: 
+colorID: 4
+position: 9153,3297
+---
+<<if $mom is 0>>
+    <<set $mom += 1>>
+    [[MomHome_A3D1_00]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+    [[MomHome_A3D1_01]]
+<<elseif $mom is 2>>
+    <<set $mom_done to 1>>
+    [[MomHome_A3D1_02]]
+<<endif>>
+===
+title: MomHome_A3D2
+tags: 
+colorID: 4
+position: 9794,2979
+---
+<<if $mom is 0>>
+    <<set $mom += 1>>
+    [[MomHome_A3D2_00]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+    <<set $mom_done to 1>>
+    [[MomHome_A3D2_01]]
+<<endif>>
+===
+title: MomHome_A3D2_00
+tags: 
+colorID: 4
+position: 9641,3254
+---
+// needs to be changed, A3D1 is the rainy day
+<<sit>>
+Mae: =_= #line:c28500
+Mom: morning sunshine! #line:179db9
+Mom: you feeling ok? #line:7bb38e
+Mom: you look a little limp. #line:7531c5
+Mae: yeah. Uh. weird dreams. #line:0bc057
+Mae: :\ #line:168471
+Mae: weird night. #line:e9b60f
+Mom: you say “weird” a lot. #line:e6574d
+Mae: just bein’ honest. #line:f116b1
+Mae: :| #line:9fb757
+Mom: you taking headache meds? #line:50d822
+Mom: they’re in the bathroom cabinet. #line:48cd22
+Mae: yeah i am. They’re kinda working. Kinda not. #line:a1611c
+Mom: well, maybe you need more sleep? #line:1b74ef
+Mom: i mean more than the 10 hours or so you already get. #line:d0e06a
+Mom: you’ve always been my sleepy girl. #line:b36fea
+Mae: oof. #line:9822e9
+Mom: what did you do last night? #line:005ef2
+Mae: o_o :| #line:bd74d5
+Mae: went to the library with bea. #line:348b56
+Mom: that sounds nice! #line:44bfb9
+Mae: it was… #line:e45937
+Mom: weird? #line:22009c
+Mae: interesting. #line:e62b21
+Mae: ok, gotta go. #line:35fb70
+Mom: be safe hon! #line:0c06f9
+Mom: take it easy, you really do look a little tired. #line:a7a7ce
+Mae: getting out makes me feel better. #line:1e6a05
+Mom: me too! #line:5893a1
+Mom: maybe it's a good day to get out in the fresh air. #line:e962d2
+Mae: i'll let you know! #line:afa1d3
+Mom: bye sweetie. #line:6ca552
+===
+title: MomHome_A3D3
+tags: 
+colorID: 4
+position: 10220,3271
+---
+<<if $mom is 0>>
+    <<set $mom += 1>>
+    [[MomHome_A3D3_00]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+    <<set $mom_done to 1>>
+    [[MomHome_A3D3_01]]
+<<endif>>
+
+===
+title: MomHome_A3D4
+tags: 
+colorID: 4
+position: 11189,3281
+---
+<<if $mom is 0>>
+    <<set $mom += 1>>
+    [[MomHome_A3D4_00]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+    <<set $mom_done to 1>>
+    [[MomHome_A3D4_01]]
+<<endif>>
+
+===
+title: MomHome_A1D3
+tags: 
+colorID: 2
+position: 6538,2939
+---
+<<sit>>
+<<set $mom += 1>>
+[[Mom_A1D3_Morning]]
+===
+title: Mom_A1D3_Morning
+tags: 
+colorID: 2
+position: 6537,3249
+---
+Mae: Morning mom! #line:a5ad72
+Mom: All day mom. Every day mom. #line:f0e44d
+Mom: What are you up to today? #line:1dfe6c
+Mae: Gregg and Angus and Bea are going to a party #line:ca3da8
+Mae: so I might go out with them. #line:b37c35
+Mom: A party, huh? Look at you! #line:e1a70e
+Mom: Back two days and already the social butterfly. #line:12c743
+[[Yeah I'm in pretty high demand.|Mom_A1D3_PrettyHighDemand]] #line:5a9e9c
+[[I'm a little nervous.|Mom_A1D3_LittleNervous]] #line:2b0039
+===
+title: Mom_A1D3_LittleNervous
+tags: 
+colorID: 2
+position: 6785,3511
+---
+Mom: Oh you'll be fine, sweetie! #line:fc157b
+Mom: Get out there and mingle! #line:e726b2
+Mae: Actually I think it's mostly going to be old highschool people. #line:d7d248
+Mom: I wonder if Cole will be there? #line:6f7731
+Mom: I always thought you two were so cute together... #line:d596f0
+Mae: MOM. NO. #line:c15df6
+Mom: Oh sorry honey, I didn’t know that was still a sensitive subject. #line:1f5d88
+Mae: IT'S NOT. #line:9370f9
+<<set $knows_cole_will_be_there to 1>>
+[[Mom_A1D3_MorningEnd]]
+===
+title: Mom_A1D3_MorningEnd
+tags: 
+colorID: 2
+position: 6540,3752
+---
+Mom: Ok, well you go out there and have a nice time, honey. #line:c70705
+Mae: I will! See you later! #line:f4a1a3
+<<if $eels is 1>>
+    Mom: Hey honey. #line:8f5107
+    Mae: What. #line:fdd9bf
+    Mom: Eels, honey. #line:99b672
+    Mae: :) #line:4c7297
+    Mae: Eeeeeeeeels, mom. #line:de2bc9
+    Mae: o_o :| #line:f59d1c
+<<endif>>
+<<set $mom_done to 1>>
+===
+title: Mom_A1D3_PrettyHighDemand
+tags: 
+colorID: 2
+position: 6541,3507
+---
+Mom: Are you keeping in touch with any of your friends from college? #line:95886d
+Mae: I didn't really make any friends? #line:3f3654
+Mom: Not even your roommate? Not that nice girl you met at orientation? #line:ffb95d
+Mae: Not really. #line:6edca3
+[[Mom_A1D3_MorningEnd]]
+
+===
+title: MomChurch_A2D1
+tags: 
+colorID: 3
+position: 7060,3836
+---
+<<if $mom_church is 0>>
+    Mom: Hey hon! #line:cb4c09
+    Mae: Hey moooom. #line:8dc3ac
+    Mae: wow, it's been a while since i was in here. #line:07b3de
+    Mom: i know, sweetie. #line:f01584
+    Mom: nice to see you in the building at least! #line:e432cf
+    Mom: Did you meet the new pastor? #line:a31fb0
+    <<if $met_pastor or $pastor > 0>>
+    	Mae: Yeah! And a homeless guy! #line:b07ccf
+    	Mom: Oh! ok. #line:fd7682
+        Mom: the man across the street? #line:06a2c1
+        Mae: Yeah. Bruce. #line:fff3b4
+        Mom: oh, well that's nice of her #line:b67bdb
+        Mom: going to see him. #line:ed97ae
+        Mae: they both seem pretty nice. #line:62d638
+        Mom: we're all just a pack of nice up here. #line:098b1c
+    <<else>>
+    	Mae: nope! #line:48aa3d
+    	Mom: oh she's around somewhere. #line:fd3285
+        Mom: might be outside? #line:4a2e54
+        Mom: she likes to go on walks. #line:76b3f0
+        Mae: cool cool. I might bump into her. #line:606480
+    <<endif>>
+    <<set $mom_church += 1>>
+<<elseif $mom_church is 1>>
+    Mae: so how's church workin'? #line:4aa903
+    Mom: good. answering the phone. #line:884a45
+    Mom: entering data of various sorts. #line:8af90c
+    Mom: i'm trying to get everything into one unified app... thing. #line:918c9b
+    Mom: you know they make programs just for church administration? #line:f4c12e
+    Mae: i didn't! #line:2050cb
+    Mom: i was watching online tutorials for the one we just got #line:6ecb92
+    Mom: but i just got distracted by true crime videos. #line:0bf6ff
+    Mae: mom, i do declare- you are slacking off at work! #line:a471b6
+    Mom: god will forgive me. #line:3fd2a3
+    <<if $knows_mural>>
+    	Mae: Hey did you hear about the dudes? #line:d4a08b
+        Mom: "the dudes"? #line:1df3c8
+        Mae: the mural in the tunnel! #line:a270ba
+        Mom: what about it, sweetie? #line:130de5
+        Mae: Someone messed it all up! #line:ebc1f8
+        Mae: wrote "nuke possum springs" on it! #line:5fb42f
+        Mae: or... tried to. #line:6e51cf
+    	Mom: oh no!!! that's terrible! #line:df72d3
+        Mae: it's historically valuable! #line:e7bcc4
+        Mom: yes it is! oh, what a tragedy. #line:8b4461
+        Mae: what a world, mom. #line:327740
+        Mom: what. a. world. #line:10e127
+    <<endif>>
+    <<set $mom_church += 1>>
+<<elseif $mom_church is 2>>
+    Mom: Alright sweetie, I better work. #line:21e706
+    <<set $mom_church_done to 1>>
+<<endif>>
+===
+title: MomChurch_A2D2
+tags: 
+colorID: 3
+position: 7304,3839
+---
+<<if $paster is 0>>
+    <<if $mom_church is 0>>
+        Mae: hey mom! #line:8cce37
+        Mom: hey sweetie. #line:c71350
+        Mae: i completely forgot where the sanctuary is. #line:3e25c8
+        Mom: um you passed the door on your way here. #line:a1b958
+        Mae: oh i thought those were locked. #line:9b0387
+        Mom: they're locked sometimes. #line:902b55
+        Mom: all doors are locked sometimes. #line:03c859
+        Mae: not like #line:e0f944
+        Mae: saloon doors #line:ab6ec8
+        Mae: cowboys just walkin' in and out #line:1ed47d
+        Mom: that's very rude. #line:ded1d3
+        Mae: the old west was a very rude time. #line:b5105a
+        Mom: how-deee pardner! #line:e6925e
+        Mom: ah say ah say this is pow'rful rude! #line:4052fc
+        Mae: O_o #line:fc3710
+        Mae: that's like #line:12f2b0
+        Mae: a southern gentleman. #line:cfc4b8
+        Mom: he's classing the place up! #line:75673c
+        Mae: o_o #line:9728b0
+        <<set $church_sanctuary_open to 1>>
+        <<set $mom_church += 1>>
+    <<elseif $mom_church is 1>>
+        Mom: tarnation! #line:0c0b18
+        Mae: ok mom no more cowboy talk for you. #line:bda3df
+        Mom: dadgummit! #line:320236
+        <<set $mom_church += 1>>
+    <<elseif $mom_church is 2>>
+        Mom: i gotta get back to work sweetie. #line:e1ffec
+        Mom: love you! #line:140b21
+        <<set $mom_church_done to 1>>
+    <<endif>>
+<<else>>
+    <<if $mom_church_2 is 0>>
+        <<set $mom_church to 1>>
+        Mom: Hey sweetie! #line:da89c8
+        Mae: Hey. You'll be happy to know I've met Pastor Kate. #line:77143f
+        Mom: Oh yay! You'll get along just fine. #line:a9d6ec
+        Mae: She seems like she gets along with most people. #line:da586e
+        Mom: oh, she's got some funny ideas sometimes. #line:1dbfb1
+        Mom: some folks find fault #line:627190
+        Mom: but some folks always find fault. #line:eb6f8e
+        Mom: either way she's got a big heart #line:2ded40
+        Mom: and that's what counts. #line:39c7db
+        Mae: i think my heart is normal sized. #line:66633f
+        Mom: hearts are like big stretchy bags #line:fe2ad5
+        Mae: ew #line:ca794b
+        Mom: no, i mean they get bigger the more you put in them #line:b69b66
+        Mae: i think that's still like an actual medical fact. #line:7e9773
+        Mom: alright you, get. #line:d3c80b
+        Mae: ha ha. seeya. #line:7bcbaa
+        <<set $mom_church_2 += 1>>
+    <<elseif $mom_church_2 is 1>>
+        Mom: Work work workin' away. #line:a0a95d
+        <<set $mom_church_done to 1>>
+    <<endif>>
+<<endif>>
+===
+title: MomChurch_A2D3
+tags: 
+colorID: 3
+position: 7924,4032
+---
+<<if $mom_church is 0>>
+    <<set $mom_church += 1>>
+    [[MomChurch_A2D3_00]]
+<<elseif $mom_church is 1>>
+    <<set $mom_church_done to 1>>
+    [[MomChurch_A2D3_01]]
+<<endif>>
+===
+title: MomChurch_A2D4
+tags: 
+colorID: 3
+position: 8558,3865
+---
+<<if $big_fight is 1>>
+	Mom: ... #line:5ed95e
+    Mom: i'm busy. #line:2931c2
+<<else>>
+    Mae: Hey mom. #line:ff1f4a
+    Mom: mmhmm #line:c39ee6
+    Mae: um. #line:5dfd8b
+    ->You ok? #line:052f9a
+        Mom: sure honey. #line:721abf
+    ->what's wrong? #line:1f6133
+        Mom: nothing's wrong. #line:cc8023
+    <<wait 2>>
+    Mae: you're lying #line:17f80b
+    Mom: so honey, do you feel like talking about school yet? #line:15dd24
+    ->um... ok #line:9b4e8f
+        Mom: so what's the story? #line:644326
+        Mae: i just felt like it wasn't where i should be #line:5acc00
+        Mom: "where you should be"? #line:e51364
+        Mom: what does that even mean? #line:2a1aa7
+        Mae: ugh nevermind #line:c72f90
+        Mae: let's talk about this later #line:23ef47
+    ->not really #line:04d60e
+    Mom: any idea when you might want to do that? #line:e65468
+    Mom: because honey i am all ears #line:296fea
+    Mom: i really am dying to find out #line:c33992
+    Mom: why you decided to up and abandon #line:48fd38
+    Mom: all the plans we'd made as a family #line:3364ef
+    Mae: :\ #line:b0e493
+    Mae: geez, mom! #line:7b487e
+    Mae: where is this coming from? #line:802f1f
+    Mom: you know you're the f- #line:422827
+    Mae: :| =_= #line:31bdc5
+    Mae: "the first borowski to go to college!" #line:5c5749
+    Mae: yeah mom i know #line:512d45
+    Mae: i only heard that since i was like 6 #line:a19f31
+    Mom: well honey we'd been planning for it since you were born #line:1b5d06
+    Mom: spent a good 18 years #line:6b61bb
+    Mom: and got into all kinds of trouble #line:5eca80
+    Mom: you'd rather be here. #line:08d074
+    Mom: might as well have taken all that effort #line:e2e0a1
+    Mom: and money #line:506c3a
+    Mom: and worry #line:7c8c3d
+    Mom: and dumped it in a hole. #line:71e4a5
+    <<wait 2>>
+    <<fadeOutMusic 10>>
+    Mae: are you like having one of your mood swings again? #line:8a75b9
+    Mom: ugh like i'm the moody one in our house. #line:683dae
+    Mae: you are the moody one in our house. #line:513f8e
+    Mom: well enjoy "our house" while we still have it #line:4a7984
+    Mae: O_O #line:d59269
+    Mae: WHAT?! #line:929eb0
+    Mae: What's happening to the house??? #line:34f1cd
+    Mom: Maybe it just "isn't where we should be". #line:022018
+        ->Mom. This isn't funny. #line:a35ed4
+            Mom: don't worry about it #line:8c80be
+            Mom: don't worry about anything #line:b767e3
+            Mom: why start now? #line:afd8c4
+            Mom: go off and do whatever it is you do. #line:957741
+        ->You know what? Eff off. #line:e565e6
+            Mom: "eff off"? #line:773972
+            Mom: god you're such a child #line:9b9fcb
+    Mae: =_= #line:e0348a
+    Mae: you know what? #line:cbba5b
+    Mae: maybe if i'd had more examples of, ya know, #line:12ba52
+    Mae: getting out and making something of myself. #line:e2b50c
+    Mom: no. #line:85007a
+    Mom: no. #line:dd390b
+    Mom: you do not get to- #line:405cfa
+    Mae: maybe you wanted me to get out of here #line:7028d9
+    Mae: because you never got around to doing it yourself. #line:c6cac6
+    Mae: o_o :| #line:743df3
+    Mae: maybe i'm just the most recent failure #line:7ff189
+    Mae: in the line of failures that is our family. #line:997452
+    <<wait 4>>
+    Mae: i'm leaving now. #line:0578a5
+    Mom: ... #line:51fb8c
+    <<set $big_fight to 1>>
+<<endif>>
+<<set $mom_church_done to 1>>
+===
+title: MomChurch_A3D1
+tags: 
+colorID: 4
+position: 8978,3881
+---
+Mae: hey hey churchmom. #line:0232c2
+Mom: hey heathen daughter. #line:d9ae6c
+Mae: oh i’ll make it in here someday. #line:4aa352
+Mae: but come on. Seriously no one likes getting up on sunday. #line:b20aa1
+Mom: i find it very enriching. #line:5bdeae
+Mom: your father does too… mostly. #line:c1323b
+Mom: but he attends, and that’s important! #line:71fa04
+Mom: and he knows it means a lot to me. #line:fe83b4
+Mae: alright well, guilt thoroughly tripped. #line:5dd285
+Mae: you *DO* work for the church. #line:1e45e3
+Mom: that’s not what faith is like, hon. #line:4656b1
+Mom: there’s more grace than condemnation. #line:7e0f07
+Mae: kinda. Whatever. Alright, i’m out! #line:9ec953
+Mom: see you later sweetie! #line:4c57de
+<<set $mom_church_done to 1>>
+===
+title: AcceptJob
+tags: cut
+colorID: 4
+position: 8847,4419
+---
+<<set $accepted_church_job to 1>>
+===
+title: RefuseJob
+tags: cut
+colorID: 4
+position: 9117,4420
+---
+<<set $accepted_church_job to 1>>
+===
+title: MomChurch_A3D2
+tags: 
+colorID: 4
+position: 9734,3870
+---
+<<if $big_fight is 1>>
+    Mom: Hey. You free? #line:cfd68a
+    Mae: Maybe? #line:99c562
+    Mom: Want to go on a quick adventure? #line:f1c66d
+    Mae: Don't you have a job? #line:85e5c4
+    Mom: Pastor's gone. I'm going to skip out. #line:f42849
+	->aw yeah! #line:c32ab4
+        Mae: let’s skip work! #line:172645
+        Mom: only I’m skipping work, hon. #line:3db1e7
+        Mae: oh hush. #line:99d730
+        Mae: i’m an accessory to the crime. #line:ece42b
+        Mom: also not a crime, sweetie. #line:ad3cae
+        <<set $mom_quest to 1>>
+        <<irisOut 1 wait>>
+        <<scene MomQuest>>
+    -> not right now. #line:289be9
+        Mom: oh. #line:27e0b4
+        Mom: that's fine, sweetie. #line:e116b4
+<<else>>
+    Mom: You're not supposed to be able to get in here on this day, sweetie. #line:83aebd
+    Mae: I broke the game! \o/ #line:615475
+    Mom: Good work, hon. #line:12ad26
+    Mae: Hmm. _o_ #line:9b7d7a
+<<endif>>
+<<set $mom_church_done to 1>>
+===
+title: MomHome_A2D4
+tags: 
+colorID: 3
+position: 8556,3418
+---
+//sad mom//
+<<set $mom += 1>>
+<<sit>>
+Mae: Hey mom. #line:fca772
+Mom: mmhmm #line:516347
+Mae: um. #line:e33324
+    ->You ok? #line:b2d252
+        Mom: sure honey. #line:fdce22
+    ->what's wrong? #line:6cc490
+        Mom: nothing's wrong. #line:399892
+<<wait 2>>
+Mae: you're lying #line:b60736
+Mom: so honey, do you feel like talking about school yet? #line:29a5c7
+    ->um... ok #line:e1b0d6
+        Mom: so what's the story? #line:f4746f
+        Mae: i just felt like it wasn't where i should be #line:9c5e5b
+        Mom: "where you should be"? #line:06f173
+        Mom: what does that even mean? #line:3e6fb8
+        Mae: ugh nevermind #line:f4051b
+        Mae: let's talk about this later #line:a0524e
+    ->not really #line:6de7d6
+Mom: any idea when you might want to do that? #line:2d0564
+Mom: because honey i am all ears #line:827786
+Mom: i really am dying to find out #line:fa0bc4
+Mom: why you decided to up and abandon #line:a54c09
+Mom: all the plans we'd made as a family #line:424df1
+Mae: :\ #line:295fa2
+Mae: geez, mom! #line:eb0c7c
+Mae: where is this coming from? #line:9bfc85
+Mom: you know you're the f- #line:b0cc22
+Mae: :| =_= #line:c52676
+Mae: "the first borowski to go to college!" #line:aea200
+Mae: yeah mom i know #line:995187
+Mae: i only heard that since i was like 6 #line:90e34f
+Mom: well honey we'd been planning for it since you were born #line:7ad4f6
+Mom: spent a good 18 years #line:fc7e0f
+Mom: and got into all kinds of trouble #line:0b98bc
+Mom: just for you to decide #line:aad936
+Mom: you'd rather be here. #line:816794
+Mom: might as well have taken all that effort #line:4d660b
+Mom: and money #line:6924b9
+Mom: and worry #line:1d0438
+Mom: and dumped it in a hole. #line:2d00d1
+<<wait 2>>
+<<fadeOutMusic 10>>
+Mae: are you like having one of your mood swings again? #line:f3f84a
+Mom: ugh like i'm the moody one in this house. #line:4c4d32
+Mae: you are the moody one in this house. #line:3e2113
+Mom: well enjoy "this house" while we still have it #line:9984ed
+Mae: o_o :| #line:46eb13
+<<close>>
+<<jump>>
+<<wait 1>>
+Mae: O_O :| #line:a93e6f
+Mae: WHAT?! #line:493d77
+Mae: What's happening to the house??? #line:fd78d5
+Mom: Maybe it just "isn't where we should be". #line:e5f2b7
+    ->Mom. This isn't funny. #line:6eccf5
+        Mom: don't worry about it #line:40c465
+        Mom: don't worry about anything #line:56a959
+        Mom: why start now? #line:dedcef
+        Mom: go off and do whatever it is you do. #line:18a161
+    ->You know what? Eff off. #line:33db99
+        Mom: "eff off"? #line:f63171
+        Mom: god you're such a child #line:ba5981
+Mae: =_= #line:2803a4
+Mae: you know what? #line:f826a7
+Mae: maybe if i'd had more examples of, ya know, #line:16d5cc
+Mae: getting out and making something of myself. #line:bbf86e
+Mom: no. #line:38a7ac
+Mom: no. #line:8af691
+Mom: you do not get to- #line:1cb5af
+Mae: maybe you wanted me to get out of here #line:98c277
+Mae: because you never got around to doing it yourself. #line:66dbdf
+Mae: o_o :| #line:7169c6
+Mae: maybe i'm just the most recent failure #line:e8dbb2
+Mae: in the line of failures that is our family. #line:f18525
+<<wait 4>>
+Mae: i'm leaving now. #line:8589df
+Mom: ... #line:f109ad
+<<set $big_fight to 1>>
+<<set $mom_done to 1>>
+===
+title: MomHome_A2D3_00
+tags: 
+colorID: 3
+position: 7654,3517
+---
+<<sit>>
+Mae: *yaaaawn* #line:8ae061
+Mom: Morning. Long night? #line:834e16
+<<if $did_gregg_friendship_quest_2>>
+	Mae: yup #line:000492
+	Mae: Remember those big robot things from the Food Donkey? #line:8e7f3c
+	Mom: mmhmm. You were scared of those. #line:adbe92
+	Mom: cried your little eyes out. #line:672af6
+	Mae: oh it wasn’t that bad. #line:a8c903
+	Mom: mmhmm #line:e2748e
+	Mae: i don’t remember this at all. #line:41ce0c
+	Mom: mmhmm #line:52bf0d
+<<else>>
+	Mae: yeah #line:b3534d
+	Mae: i went to work with Bea. #line:df33be
+	Mom: oh, are you gonna work there? #line:3fd50b
+	Mae: no, mom. I was just tagging along. #line:6575ee
+	Mae: though i was like, really useful. #line:501ee9
+	Mom: mmhmm. #line:242b9d
+	Mae: it was a new and exciting feeling. #line:1da120
+	Mae: mmhmm. #line:f2f75a
+<<endif>>
+Mae: you ok? #line:b4a7c4
+Mom: yeah. just been doing boring adult stuff. #line:c70e13
+Mae: :) #line:256266
+Mae: what kind of adult stuff? I’m adult stuff! #line:70fe12
+Mom: ... #line:062e6b
+Mae: :| #line:710863
+Mae: ...? #line:bb509d
+Mom: just like budget, bills, numbers. #line:c156a0
+Mom: a lot of adulthood is number stress. #line:216b64
+Mae: that sounds bad. I’m bad at numbers. #line:00c275
+Mom: oh i remember. #line:e00f34
+Mae: ok well i’m gonna head out. #line:37d4a9
+Mom: mmhmm. #line:6061c5
+Mae: have a nice day! #line:0bf3af
+===
+title: MomHome_A2D3_01
+tags: 
+colorID: 3
+position: 7916,3583
+---
+Mom: numbers numbers numbers. #line:6068d8
+===
+title: MomChurch_A2D3_01
+tags: 
+colorID: 3
+position: 8127,4306
+---
+Mom: honey, i really do need to concentrate. #line:7dc348
+===
+title: MomHome_A3D3_00
+tags: 
+colorID: 4
+position: 10057,3572
+---
+<<sit>>
+Mae: =_= #line:a8fb37
+<<wait 3>>
+Mom: honey… you ok? #line:bd764f
+Mae: ugh. Mornings are tough right now. #line:56a4c6
+Mom: are you… pregnant? #line:505db3
+<<dilate Mae .85 .25>>
+Mae: O_O  #line:6ae2cf
+Mae: no! #line:8f067b
+Mom: oh honey, is that why you came home???? #line:11907d
+Mae: no! Not at all! #line:458f15
+Mom: sweetie, you can tell me! I’ve been there! #line:b6589b
+Mom: and despite nature’s intentions, god came through and blessed us with you! #line:c416bf
+Mom: you were a miracle baby! #line:08a521
+<<dilate Mae 1 .25>>
+Mae: =_= #line:5973ed
+Mae: that’s me. A miracle. #line:4b2186
+Mom: after all the miscarriages, we’d given up hope. #line:b73fc0
+Mom: and then there you were! #line:48a38d
+Mae: and here i am now. #line:42b042
+Mom: so if you’re pregnant, #line:53c8a6
+<<dilate Mae .85 .25>>
+Mae: o_o :| #line:f5e457
+Mae: I’M NOT PREGNANT! #line:3cdd60
+Mae: O_o #line:be7bcc
+Mae: I WAS NOT IN A SITUATION WHERE PREGNANCY HAPPENS! #line:cba746
+Mom: ok! Ok! #line:19e24f
+Mom: i just want you to know that you can always come to us with this. #line:7d1faa
+Mae: ok. Noted. Can we talk about anything else? #line:8efc2f
+Mom: sure! #line:d32e9e
+<<wait 4>>
+Mom: you know, if you *DID* have a baby, #line:ec67f1
+<<dilate Mae 1 .25>>
+Mae: o_o :| #line:45bf91
+Mae: ok! #line:a8068e
+<<jump>>
+Mae: i’m out! #line:02655a
+Mom: ha ha ha. Ok sweetie. #line:09f963
+Mom: i’m sorry, i get excited about grandbabies. #line:f25d48
+Mae: it’s fine.  #line:a75f9d
+Mae: i’ll be back later. #line:7ecae6
+Mom: love you! #line:c211c2
+Mae: love you too. #line:bc7ab6
+===
+title: MomHome_A3D3_01
+tags: 
+colorID: 4
+position: 10387,3556
+---
+Mom: if it was a boy you could name him Calvin. #line:92a89a
+Mae: =_= #line:cd86d6
+Mae: oh god mom #line:cd436c
+Mom: if it was a girl you could name her...  #line:88148b
+Mae: :) #line:25a149
+Mae: trashbaby? #line:b57d95
+Mom: cordelia! #line:dfd350
+Mae: o_o :| #line:baa576
+Mae: why don’t i just have the baby and hand it to you. #line:4217ac
+Mom: oooh! #line:686342
+Mae: ok bye i’m leaving #line:61dcb0
+===
+title: MomChurch_A3D3
+tags: 
+colorID: 4
+position: 10203,3978
+---
+<<if $mom_church is 0>>
+    <<set $mom_church += 1>>
+    [[MomChurch_A3D3_00]]
+<<elseif $mom_church is 1>>
+    <<set $mom_church += 1>>
+    <<set $mom_church_done to 1>>
+    [[MomChurch_A3D3_01]]
+<<endif>>
+
+===
+title: MomChurch_A3D3_00
+tags: 
+colorID: 4
+position: 9998,4245
+---
+Mom: hey hon. #line:76351a
+Mom: are you still having headaches? #line:6a2ba3
+Mae: yeah. But being out and about helps. #line:b81ee8
+Mom: fresh air! #line:9d5ef1
+Mom: thanks for visiting me here hon #line:e40c02
+Mom: it brightens my day! #line:6a7d6d
+Mae: Feels weird being here today. #line:cf164e
+Mae: Like... there's so much empty space. #line:a1ed0c
+Mom: Come on sunday! It's full then! #line:b21c01
+Mae: I bet it is! #line:8f18e7
+<<if $money_trouble is 1>>
+    Mae: sorry you have to work because we have money problems #line:4056a5
+    Mom: mae I've always had a job #line:c7a897
+    Mom: this is just another one #line:7d2f15
+<<endif>>
+===
+title: MomHome_A3D4_00
+tags: 
+colorID: 4
+position: 10954,3589
+---
+<<sit>>
+Mae: =_= #line:7e7add
+Mom: Gooooood morning! #line:4946e9
+Mom: there’s my little sunshine daisy! #line:6989ef
+Mom: are you feeling any better from the other day? #line:4329bb
+Mae: sleeping a lot, but feeling worse? #line:ac5f37
+Mom: ok well i’m going to make you an appointment with Dr. Hank #line:d1b976
+Mae: oh geez, mom. It’s fine. #line:614583
+Mom: it is very much not fine, hon. #line:daa907
+Mae: i’m an adult! I can make that decision. #line:890fc3
+Mom: when you’re here you’re still my baby. #line:fac509
+Mom: and i’m making you an appointment. #line:b5faf3
+Mom: mae, hon… i’m worried about you. #line:75296b
+Mae: i’m ok, mom. #line:86853a
+<<if $money_trouble is 1>>
+	Mae: Listen, I keep thinking about the money problems #line:6dcfcc
+	Mae: and the house #line:173c17
+	Mae: and i’m just so sorry… #line:08fe36
+	Mae: you...  we...  #line:ebd3f6
+	Mae: wouldn’t be in this situation if i wasn’t such a massive screw up. #line:5f3cd9
+	Mae: i just want to fall into a pit and die right now. #line:3b07fd
+	Mom: Mae! It's ok! Really! We'll figure something out! #line:2698ed
+	Mom: this isn’t on you to fix! I’m sorry if i made it seem that way! #line:7151ee
+	Mom: what’s done is done, and we’re a family together regardless. #line:7632d7
+	Mom: please stop worrying about it! #line:db93ee
+	Mae: Whatever happens, I love you. I need you to know that. #line:efe7a6
+	Mom: You too! #line:650669
+    Mae: :( #line:25ed60
+	Mae: … #line:87dfdb
+	Mae: *sniff* #line:d8494e
+<<endif>>
+<<wait 3>>
+Mae: o_o :| #line:dcddda
+Mae: ok. I’m gonna go. #line:0ff5c0
+Mom: you sure you don’t want to stay home and rest? #line:2d61cf
+Mae: nah. Got stuff to do. #line:5251f4
+Mom: what is it you have to do? #line:05de3f
+Mae: i don’t even know honestly. #line:501457
+Mom: oh hon. #line:0999ad
+Mom: please take it easy. #line:dc5a5f
+Mae: i will. #line:4bf3a6
+Mom: love you! #line:9ca995
+Mae: love you too. #line:0e463e
+===
+title: MomHome_A3D4_01
+tags: 
+colorID: 4
+position: 11196,3593
+---
+Mom: i keep the really good prescription headache meds on my nightstand. #line:705e35
+Mom: i can like give you half of one. #line:071dbe
+Mae: :) #line:8733a8
+Mae: only half? #line:ed2556
+Mom: honey… you’re… you know… #line:6f6699
+Mae: :| #line:0223f4
+Mae: short? #line:283585
+Mom: half would be fine. #line:5d86c8
+Mae: it’s fine, mom. #line:fcada0
+Mom: ok! Let me know if i can be any help! #line:b7da37
+Mae: thanks, mom. #line:98eed5
+===
+title: MomChurch_A3D4
+tags: 
+colorID: 4
+position: 11213,3927
+---
+<<if $mom_church is 0>>
+    <<set $mom_church += 1>>
+    [[MomChurch_A3D4_00]]
+<<elseif $mom_church is 1>>
+    <<set $mom_church += 1>>
+    <<set $mom_church_done to 1>>
+    [[MomChurch_A3D4_01]]
+<<endif>>
+===
+title: MomHome_A4D3
+tags: 
+colorID: 6
+position: 13258,3206
+---
+<<if $mom is 0>>
+    <<set $mom += 1>>
+    [[MomHome_A4D3_00]]
+<<elseif $mom is 1>>
+    <<set $mom += 1>>
+    [[MomHome_A4D3_01]]
+<<elseif $mom is 2>>
+    [[MomHome_A4D3_Loop]]
+<<endif>>
+===
+title: MomHome_A4D3_00
+tags: 
+colorID: 6
+position: 13188,3488
+---
+Mom: Hey sweetie! #line:c6480b
+Mae: hey mom. #line:2fdc0e
+Mom: how are you feeling? #line:054ea7
+<<sit>>
+Mae: good enough to jump up here. #line:a10fa9
+Mom: can you do me a favor and stay home tonight? #line:0bdd27
+	->sure, mom. #line:084806
+	->why? #line:6db2fa
+		Mom: it’s been… i just... #line:79a249
+Mom: i… you’re an adult #line:de2352
+Mom: and you can do whatever you want #line:8671d7
+Mom: but you do live here #line:49d99b
+Mom: and you are, still, my baby. #line:88fc35
+Mae: aw mom. #line:fdcb2c
+Mom: we need to come up with some ground rules #line:791a02
+Mom: just because #line:cd633a
+Mom: honey you could have died the other night #line:63a8fe
+Mom: and then you just left to hang out with your friends??? #line:6f4b2c
+Mae: I #line:3670e3
+Mae: I #line:64361e
+Mae: i’m so sorry, mom. #line:3ae1b7
+Mom: sweetie what’s going on with you? #line:bd0a90
+	->i’ve had a really tough year, mom #line:4f2a60
+		Mom: hon, you’ve had a tough *week* #line:caa9c8
+		Mom: we all have. #line:1f7b2e
+		Mae: yeah, but- #line:ea1e45
+	->i don’t even know if i can tell you #line:50f69a
+		Mom: why? I’ll understand. I promise. #line:890d80
+		Mae: i don’t even know how to talk about it yet i don’t think. #line:6c2d55
+Mom: what happened at school, hon? #line:edc3b1
+Mom: i don’t care what it is. Just please… tell me. #line:3cd0e3
+Mae: … #line:c86697
+Mae: are you working today? #line:8b323a
+Mom: no, me and your father are both off today. #line:206f16
+Mae: i’ll be around tonight. We can talk about it then? #line:43ef04
+Mom: sure. #line:49adb5
+Mom: we can make breakfast for dinner like we used to. #line:fd85c1
+Mae: dad can flip the pancakes in the air!!! :) #line:4d034d
+Mom: ha ha ha. Sure. #line:64ce95
+<<wait 2>>
+Mom: are you going out today? #line:44372f
+Mae: yeah. #line:0151a7
+Mom: can you please stay in town? Close? #line:6ea765
+Mae: yeah mom. :| #line:d2515c
+Mom: i think they’re getting some of the Longest Night decorations out. #line:be8643
+Mae: oh wow. #line:87d467
+Mom: calling for some snow too. #line:26849a
+Mae: that went fast. #line:7e2189
+Mom: what did? #line:89687b
+Mae: the fall. #line:740b53
+Mom: always does, hon. #line:a2035e
+Mae: ok. #line:9e7af6
+Mae: well. #line:b8ea59
+//jumps down//
+<<jump>>
+Mae: i’m off. #line:2715e5
+Mom: i love you, sweetie. #line:987782
+Mae: i love you too, mom. #line:7cf87f
+===
+title: MomHome_A4D3_Loop
+tags: 
+colorID: 6
+position: 13734,3430
+---
+Mom: hm hm hmmmmmm. #line:dbe445
+===
+title: MomHome_A4D3_01
+tags: 
+colorID: 6
+position: 13476,3460
+---
+Mae: are you still reading the same book? #line:771daa
+Mom: oh no! This is a different one. #line:dee574
+Mom: this one’s about people who died in the mines around here. #line:3aa4df
+Mae: oh cool.  #line:81947b
+Mom: yeah it’s very interesting. #line:21bee1
+Mom: it’s got some old songs. #line:7f3a85
+Mom: want to hear one? #line:0185a4
+->sure #line:8bde98
+	Mom: Far from here the ocean’s roarin’ #line:be0b40
+    Mom: Far away across the din #line:bea761
+    Mom: I hear the lord a-call their children #line:688d1e
+    Mom: Bringing in, bringing in #line:b9dc28
+    Mom: I’ll see you walking through the barley #line:2f6c4d
+    Mom: We’ll find each other, friend and kin #line:cfdd79
+    Mom: I hear the lord a-call their children #line:16a5b1
+    Mom: Bring ‘em in, Bring ‘em in. #line:0a7c96
+    Mom: Tarry with me for a moment #line:f239b3
+    Mom: Talk the places we have been #line:62e476
+    Mom: The lord will call us both to heaven #line:cc3a52
+    Mom: Bring ‘em in, Bring ‘em in #line:eab933
+    <<wait 2>>
+    Mae: :) #line:90a41d
+    Mae: that’s nice. #line:c92233
+    Mom: it is. It is nice. #line:a4252d
+    Mae: o_o :| #line:a159a4
+->maybe later #line:a1526e
+	Mom: we can sing them at breakfastdinner tonight. #line:60b5c9
+	Mae: deal #line:15022d
+===
+title: MomChurch_A2D3_00
+tags: 
+colorID: 3
+position: 7735,4278
+---
+Mae: hey mom. #line:ca29f6
+Mom: can’t talk today, lots to do. #line:4f48bb
+Mae: really? #line:83e689
+Mae: what could possibly be going on? #line:a150b1
+Mom: well, sweetie, we have the town council here today #line:f2bab7
+Mom: and after that a 12-step program meeting in the basement. #line:a37697
+Mae: oh wow. #line:680abf
+Mom: and i’m doing both church budget and our budget #line:d2900a
+Mom: at the same time. #line:1ea04d
+Mae: i’ll leave you alone, then! #line:125e6d
+Mom: thanks hon. #line:e33a1a
+===
+title: MomHome_A3D1_00
+tags: 
+colorID: 4
+position: 8887,3543
+---
+<<if $big_fight>>
+    <<sit>>
+    Mae: =_= #line:22784e
+	Mom: Hey hon. #line:821722
+    Mae: Hey mom. #line:6d21c0
+    Mom: You look really tired. #line:4672c4
+	Mae: So do you. #line:1d33d4
+    Mae: :\ #line:c9c926
+    Mae: Also I have a splitting headache. #line:67dd39
+    Mom: well, the weather seems to agree with you. #line:15946b
+    Mom: gray and drizzly. #line:cf8c53
+    Mae: i could go for that today. #line:449f05
+    <<wait 3>>
+    Mom: Hey hon. #line:d225e5
+    Mae: o_o :| #line:87d545
+    Mae: Yeah? #line:ae6dc3
+    Mom: Sorry about yesterday. #line:34dc32
+	Mae: Me too. #line:35930b
+    Mae: I said some stuff #line:b0be2d
+    Mae: I didn't really mean it. #line:f12b11
+	Mom: Well, whether you meant it or not #line:e6798d
+    Mom: that isn't how we should communicate. #line:15c341
+    Mom: i don't want us to stop talking. #line:967fb1
+    Mom: i just... don't want a repeat of a few years ago. #line:e03ad6
+    Mae: ... #line:c10917
+    Mae: I'm really sorry, mom. #line:6a3857
+    Mae: about all of it. #line:375bad
+	//mae jumps down//
+    <<jump>>
+	Mom: hey mae... you ok? #line:3c95dc
+	Mae: i'm fine. Guess i'm stressed too. #line:1d6be5
+    Mae: saw some weird stuff last night #line:1cba8f
+    Mae: or i think i did. #line:cbeca9
+    Mom: want to talk about it? #line:c51687
+    Mae: later. I’m still like putting it together. #line:51d168
+	Mom: can we talk about school? #line:5cdc43
+	Mae: also later. #line:b13d2b
+<<else>>
+    <<sit>>
+    Mae: =_= #line:044743
+	Mom: Hey hon! Did you have a good time at Harfest? #line:27427c
+	Mae: Sure. #line:cfc164
+	Mae: You look tired. #line:e0cd54
+	Mom: You look tired. #line:5f1891
+	Mae: Yeah I guess. Have a headache. #line:a4466e
+	Mom: You ok? #line:737049
+	Mae: Yeah I guess. #line:ff590c
+	Mom: You want to talk about school? #line:3c47f4
+	Mae: not yet. #line:8bc539
+	Mom: are you... waiting for anything in particular? #line:912976
+	Mae: no. just... we *will* talk about it ok? #line:d06327
+	Mae: i’m not going anywhere. #line:f80411
+    Mae: o_o :| #line:c77375
+	Mom: ok. Well that’s good. #line:d578c6
+	Mae: i’m gonna get going. #line:6c747e
+	Mom: ok! Have a nice day, sweetie! #line:bd27ac
+<<endif>>
+===
+title: MomHome_A3D1_01
+tags: 
+colorID: 4
+position: 9138,3583
+---
+<<if $big_fight>>
+    Mae: So what are you stressed about? #line:f2b869
+	Mom: Well, I guess you're a grown up now. #line:76dfad
+    Mae: =_= #line:ec167c
+    Mae: just spill it, mom. #line:08dd0c
+    Mom: After your incident a few years back #line:7bdebc
+    Mae: o_o #line:02ff43
+    Mom: as you know, we went into some debt smoothing that over. #line:616f36
+    Mae: geez. I'm still so sorry about that. #line:17deca
+    Mom: it's in the past. let's not go back over it. #line:35c612
+    Mae: ok #line:09dce7
+    Mom: when it came time to get you off to school #line:ffc7ef
+    Mom: we took advantage of a kinda of mortgage #line:ad0e97
+    Mom: to make sure you were taken care of. #line:9bf08f
+    Mae: O_o #line:507de4
+    Mae: ooooooook? #line:7dbaea
+    Mom: well turns out it wasn't a very good deal #line:e7c2c1
+    Mom: and... i just feel so stupid... #line:20e8b9
+    Mom: they like to offer these mortgages to people #line:838e01
+    Mom: who maybe don't have a lot of money #line:872b47
+    Mom: and aren't used to getting offers like this. #line:651acd
+    Mae: :\ #line:54c5b7
+    Mae: why? #line:51a59b
+    Mom: because the bank took advantage of us. #line:4ce4a3
+    Mom: and now they own the house, and we owe them more than it's worth. #line:730944
+    Mae: what does that mean? #line:166a34
+    Mom: means we're not sure how long into the future we'll have the house. #line:5a37bd
+    <<set $money_trouble to 1>>
+	Mae: O_O :| #line:54759c
+    Mae: holy crap we're in trouble, huh? And I'm a huge jerk? #line:2fdfa1
+    Mae: o_o :| #line:99d52f
+	Mom: it's ok, sweetie. don't worry. #line:3f579c
+<<else>>
+    Mae: what are you stressed about? #line:752266
+	Mom: just budget. And bills. And stuff. #line:47f31e
+	Mae: oh. #line:b04610
+	Mom: don't worry about it. #line:0ec4fd
+	Mae: ok! #line:d25e1d
+<<endif>>
+===
+title: MomHome_A3D1_02
+tags: 
+colorID: 4
+position: 9419,3548
+---
+Mae: whatcha reading? #line:daf1bb
+Mom: it’s a book of unsolvable murders. #line:70c5c6
+Mae: did they all happen? #line:a8601f
+Mom: oh i don’t know. Maybe. Sure. #line:886887
+Mom: wanna hear a real teaser? #line:244338
+->sure! #line:6e522e
+	Mom: alright there’s a man lying dead in a kitchen #line:29527f
+    Mom: with a bullet wound in his head #line:9a6986
+    Mom: there’s a man there with him. #line:73a85a
+    Mom: he’s got some blood on his right hand #line:524a74
+    Mom: but no gun. #line:a05764
+    Mae: huh. #line:3b4755
+    Mom: last thing- the dead guy has a scar on the back of his head. #line:136e8b
+	Mae: do you know the answer? #line:e8a065
+	Mom: well i don’t know if there’s *one* answer. #line:d71b57
+	Mom: it’s supposed to get ya thinkin’ #line:43e574
+	->about murder? #line:4e4d7f
+		Mom: can’t solve a murder without one! #line:6861f5
+	->you should have been a detective #line:0759b0
+		Mom: yeah. #line:a112cd
+		Mom: i woulda loved that. #line:29fb0a
+	Mae: ok so i have a question. #line:790d38
+    Mae: -_- #line:f272d7
+	->what kind of scar does the dead guy have? #line:21a6ff
+		Mom: “a straight line, a few inches across, hidden under the hair” #line:7e099a
+		Mae: hmmm. #line:f66e75
+	->who’s the other guy in the room? #line:ae89a6
+		Mom: “the suspect is clearly upper middle class” #line:94ba80
+        Mae: that’s not super helpful. #line:b7d4d0
+        Mom: maybe he like ski tripped him to death somehow. #line:fcc886
+        Mae: yeah he whacked him in the jacuzzi in his backyard. #line:8d2b92
+	->what else is in the room? #line:318f94
+		Mom: normal stuff. Refrigerator, microwave, silverware. #line:7e1fc6
+		Mae: knives? #line:a2c92f
+		Mom: no knife wounds though. #line:76fcfb
+		Mae: oh right. #line:788899
+	<<wait 3>>
+    Mae: o_o #line:fb257a
+    Mae: ok i think i got it! #line:62e80e
+	Mom: wow! Whatcha got??? #line:f6c89f
+	Mae: the guy in the room is a surgeon. #line:8bd72d
+	Mae: he implanted a magnet in the dead guy’s skull #line:28531c
+	Mae: that’s why he has that scar. #line:b27b1c
+	Mae: then the suspect used a super magnet or something #line:ff60e9
+    Mae: on the dead guy’s forehead #line:c41fbf
+	Mae: which pulled the magnet out through the dude’s head. #line:b9e058
+	Mom: ha ha! That’s why he has blood on one hand! #line:192e47
+	Mae: yup. And i bet the murder weapons are stuck to the fridge #line:1c7116
+	Mae: holding up a pic of Aunt Dottie. #line:b134c9
+	Mom: oh bravo, sweetie! #line:683c45
+    Mae: :) #line:313cf2
+	Mae: thank you, thank you. #line:f9a59f
+	Mom: we’d make quite a pair of investigators. #line:a8ec60
+	Mae: could open a detective agency in town. #line:a66308
+    Mae: :| #line:314b50
+	Mae: could use one right now probably. #line:b0f6b1
+	Mom: always work for crimesolvers! #line:f7b88d
+	Mae: alright, i’m gonna get going. #line:b5ed48
+	Mom: love you, daughter detective! #line:66c188
+	Mae: you too, inspector mom! #line:75b991
+    <<unlockDoodle MomMurder>>
+->not right now, gotta jet. #line:c8ee8a
+	Mom: oh ok! #line:3cc29a
+	Mom: we’ll do one later. #line:4ae4ef
+	Mae: sounds great mom. #line:32e409
+===
+title: MomHome_A3D2_01
+tags: 
+colorID: 4
+position: 9940,3233
+---
+// needs to be changed, A3D1 is the rainy day
+Mom: nice and sunny today. #line:05af05
+Mom: i hate rainy days. #line:bbd389
+Mom: just wanna never leave bed. #line:5581ed
+Mae: i love 'em. #line:132bd2
+Mae: nice and gray. #line:bd278f
+Mae: sun's too bright sometimes. need some cloudies. #line:70a55b
+<<if $eels>>
+    Mom: gloomy little eel you are. #line:71a36a
+    Mae: :) #line:5e92bd
+    Mae: eeeeels, mom. #line:48bff9
+    Mom: [wave]EEEEEEEEEEEELS, HONEY[/wave] #line:eb6570
+<<endif>>
+Mae: o_o :| #line:109111
+Mae: alright, i'm out. #line:dc8ac8
+Mom: byebye sweetie. #line:78bfb1
+===
+title: MomChurch_A3D3_01
+tags: 
+colorID: 4
+position: 10379,4244
+---
+Mom: gotta get back to work, sweetie! #line:777fed
+Mae: see ya mommers #line:79ac4e
+Mom: see ya dotters. #line:2e5317
+===
+title: MomChurch_A3D4_00
+tags: 
+colorID: 4
+position: 11055,4176
+---
+Mom: see, you can’t resist coming here #line:67c6a6
+Mom: that’s god calling you! #line:955b5f
+Mae: oh geez. I’m betting not. #line:151e7d
+Mom: god’s patient, hon. #line:ccd4d0
+Mom: like nature. #line:8e3230
+Mae: that is such a creepy statement. #line:637d8e
+Mom: i find it comforting. #line:be2f31
+Mae: i got this creeping dread thing going on #line:53dc26
+Mae: so just ignore me. #line:e6c88a
+Mom: ok hon. Can i do anything? #line:4cd476
+Mae: not really. #line:f1d27e
+Mae: love you! #line:7f446d
+===
+title: MomChurch_A3D4_01
+tags: 
+colorID: 4
+position: 11362,4173
+---
+Mae: … #line:c29b51
+Mom: what is it? #line:9463f2
+Mae: i dunno. #line:ed2e7c
+Mae: purposely committing this scene to memory. #line:ba0604
+Mom: taking a brain photo! #line:40f23d
+Mae: ha ha yeah. Like when i was a kid. #line:f56f12
+Mom: your dad was great with the games to keep you quiet in the car. #line:accc17
+Mae: he sure was. I still do it now. #line:438d60
+Mom: *snap* #line:6e9dd2
+Mom: gotcher picture #line:a6b485
+Mae: *snap snap* #line:5c06b7
+Mae: Gotchers too. #line:abcbbb
+Mom: love you sweetie. #line:3f915f
+Mae: you too mom. #line:09a987
+Mae: ... #line:e87cf9
+Mae: I'm so worn out. #line:0e402e
+Mom: Why don't you go take a nap back in the library room? #line:985b4f
+Mae: Oh wow. #line:c9d83f
+Mae: I haven't been in the library room in years. #line:b88b9e
+<<set $church_library_unlocked to 1>>
+Mom: It doesn't get a lot of use these days. #line:3976c4
+Mom: but it's nice and quiet and peaceful. #line:7e0c3f
+Mae: ok. I might do that. #line:879a31
+Mom: Door back there's unlocked now, so have at it. #line:fefae1
+Mom: I'll be out here. #line:e05e32
+Mae: Thanks mom. #line:27a41c
+Mom: No problem sweetie. #line:7e101e
+<<set $can_church_nap to 1>>
+===

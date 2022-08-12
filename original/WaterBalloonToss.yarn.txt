@@ -1,0 +1,116 @@
+title: HitTarget1
+tags: 
+colorID: 0
+position: 769,192
+---
+<<set $wb_target_1_hits += 1>>
+<<if $wb_target_1_hits is 1>>
+    Council1: YYY! TJ1 U0UAVA B SYTK0F0 UPN3PAKA! #line:46e274
+<<elseif $wb_target_1_hits is 2>>
+    Council1: R CTPAQHJ1L DYX,N B MEHR U0UAVN! #line:487bb5
+<<elseif $wb_target_1_hits is 3>>
+    Council1: 6YDY UPECVED0BATJ TE6R 3A GT0! #line:daede7
+<<elseif $wb_target_1_hits is 4>>
+    Council1: R 04EHJ X0V0DHJ1L N M0KPJ1L! #line:093b55
+<<elseif $wb_target_1_hits is 5>>
+    Council1: AAAAAAA! #line:7d23c5
+<<elseif $wb_target_1_hits is 6>>
+    Council1: 0, HET, R MEPTB... CH0BA! #line:0bab35
+<<endif>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 508,101
+---
+Council1: 0CTAH0BNCJ... #line:b5cb29
+Council1: K0VVNH, KAK MHE U0UACTJ B GTY QTYKY? #line:4cc111
+<<wait 2>>
+Council1: 4EPT! #line:49146f
+<<wait 2>>
+Council1: X0P0Q0, MJ1 B U0PRDKE, B U0PRDKE. #line:7b8022
+Council1: D06P0 U0SAV0BATJ HA XAPZECT C0PEBH0BAHNE U0 6P0CAHN% B0DRHJ1X 60M604EK! #line:fc7939
+Council1: TJ1 3HAEQJ, 4T0 DEVATJ! #line:6aafbc
+Council1: NVN CM0SEQJ 6J1CTP0 GT0 U0HRTJ! #line:40ad08
+Council1: VADH0, HA4HEM! #line:c4b147
+<<set $did_water_balloon_toss to 1>>
+===
+title: HitTarget2
+tags: 
+colorID: 0
+position: 1030,208
+---
+<<set $wb_target_2_hits += 1>>
+<<if $wb_target_2_hits is 1>>
+    Council2: 0 HET, TJ1 U0UAVA B 3VY% BEDJMY! #line:6af4ce
+<<elseif $wb_target_2_hits is 2>>
+    Council2: AAAA! R CVEDY%WAR HA UYTN BEDJMJ1??? #line:075e40
+<<elseif $wb_target_2_hits is 3>>
+    Council2: 0L! R C06NPA%CJ 3AK0VD0BATJ TE6R! #line:111e00
+<<elseif $wb_target_2_hits is 4>>
+    Council2: AAAAAAA! #line:7ae9e5
+<<elseif $wb_target_2_hits is 5>>
+    Council2: AAAAAAAAAAAAA! #line:7f8124
+<<elseif $wb_target_2_hits is 6>>
+    Council2: 0 HET, R TA%! Y6EFA% UP04J!!!! #line:ca49cb
+<<endif>>
+===
+title: HitTarget3
+tags: 
+colorID: 0
+position: 1278,215
+---
+<<set $wb_target_3_hits += 1>>
+<<if $wb_target_3_hits is 1>>
+    Council3: YUC. R TJ1KBA. #line:b81eba
+<<elseif $wb_target_3_hits is 2>>
+    Council3: TJ1 U0UAVA B MEHR - TJ1KBY. #line:7fe12e
+<<elseif $wb_target_3_hits is 3>>
+    Council3: TJ1 U0UAVA, TJ1KBA - BJ1M0KVA. #line:c8c056
+<<elseif $wb_target_3_hits is 4>>
+    Council3: AY4. TJ1 PAHNVA MEHR - TJ1KBY. #line:59099e
+<<elseif $wb_target_3_hits is 5>>
+    Council3: R CEL4AC 3AMEP3HY. TJ1KBA 3AMEP3AET. #line:0343c6
+<<elseif $wb_target_3_hits is 6>>
+    Council3: 0 HET, TEUEPJ R YX0SY. R TJ1KBA. #line:83a3eb
+<<endif>>
+===
+title: HitTarget4
+tags: 
+colorID: 0
+position: 1537,231
+---
+<<set $wb_target_4_hits += 1>>
+<<if $wb_target_4_hits is 1>>
+    Council4: XPYCTJ XPYCTJ! R CKEVET! #line:0b0d54
+<<elseif $wb_target_4_hits is 2>>
+    Council4: KVNHKNTN-KVAHK. TJ1 U0UAVA U0 M0NM K0CTRM! #line:b75e4a
+<<elseif $wb_target_4_hits is 3>>
+    Council4: KVAHKNTN-KV0HK! 4T0-T0 WEK04ET M0L V0K0TJ! #line:f3760b
+<<elseif $wb_target_4_hits is 4>>
+    Council4: KVGHKNTN-KVNHK! R BECJ M0KPJ1L! #line:16e22a
+<<elseif $wb_target_4_hits is 5>>
+    Council4: KV0HKNTN-6GHF! M0E 6EDH0E K0CTVRB0E TEV0! #line:9b39e5
+<<elseif $wb_target_4_hits is 6>>
+    Council4: BEPHNCJ B M0FNVY C0 MH0L! #line:f247a7
+<<endif>>
+===
+title: End
+tags: 
+colorID: 0
+position: 743,480
+---
+Council1: BAY, GT0 6J1V0 4T0-T0! #line:d8c80c
+Council3: 0T NMEHN F0P0DCK0F0 C0BETA U0CCYM CUPNHFC #line:c17295
+Council3: MJ1 UPN3J1BAEM BAC U0DDEPSATJ MECTHJ1L 6N3HEC #line:46dd57
+Council2: N HACVASDATJCR HAQNM 	 D0M0M! #line:907247
+Council4: U0CCYM CUPNHFC BCE 60VJQE U... #line:79b37a
+Council1: ...KGTVNH HET... #line:d3c910
+Council4: BCE 60VJQE U0X0S HA YDNBNTEVJHJ1E P0DHNKN! #line:67adcb
+Council1: ... #line:075255
+Council3: ... #line:45f497
+Council2: X0P0Q0, MJ1 3AK0H4NVN #line:b7b331
+<<wait 1>>
+<<irisOut 1 wait>>
+<<scene TowneCentreEast_Harfest>>
+===

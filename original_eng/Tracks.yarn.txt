@@ -1,0 +1,165 @@
+title: Tracks1
+tags: 
+colorID: 3
+position: 475,470
+---
+<<fadeOutMusic 5>>
+<<if $tracks_1 is 0>>
+    <<walk Mae MaeEnd>>
+    <<walk Lori LoriEnd>>
+    <<cameraLookAt CameraEnd 16>>
+    Mae: Wow. Been a while since I've been here. #line:e002de
+    Lori: My house is like 3 minutes from here #line:903a6c
+    Lori: got the Longest Night lights from last year still up #line:900776
+    Mae: ha ha someone on my street does that too #line:f0a957
+    Lori: we got pumpkins last year and we left them out too long #line:a44dde
+    Lori: and they like #line:c8ad4b
+    Lori: liquefied #line:588a01
+        ->gross #line:adcbc3
+            Lori: oh really? i'm sorry #line:53879c
+            Mae: ha ha it's cool #line:e5e859
+            Mae: gross is fine #line:75add9
+        ->oh yeah i remember that happened with ours one year #line:14164f
+            Mae: my mom was so mad at my dad #line:d8a45e
+            Mae: it was his job to get rid of them #line:13c5ec
+            Mae: he had to like #line:3a75ab
+            Mae: mop it up #line:008df4
+    Lori: i've seen like a timelapse video #line:1a50a4
+    Lori: of when a corpse decays #line:2b8c49
+    Lori: and like #line:af568b
+    Lori: everything liquefies #line:8d7547
+    Mae: we're all goo, deep down #line:0d4fed
+    Lori: yep #line:2ae097
+    Lori: Ok so like #line:d56fb7
+    Lori: a cool thing to do is squish a metal thing on the tracks. #line:7c8838
+    Lori: i like that a lot. #line:96b845
+    Mae: cool. #line:ee8d85
+    Lori: I brought a little metal dude. Let's see what happens. #line:512e5e
+    Mae: sounds good, kid. #line:545118
+    <<set $tracks_1 to 1>>
+    <<irisOut 1 wait>>
+    <<scene OverheadTracks>>
+<<else>>
+    Mae: whoa! #line:132e03
+    <<set $tracks_quest to 1>>
+    <<set $did_lori_friendship_quest_1 to 1>>
+    <<unlockDoodle LoriTracks1>>
+    Lori: yay!!! #line:0380a2
+    Mae: your little metal guy is all... wow. #line:77b140
+    Lori: He represents the human soul. #line:549d28
+    Lori: this is important art. #line:6787e5
+    Mae: ha ha ha #line:31a78f
+    Mae: well, i gotta get rolling #line:e42e10
+    Lori: ok ok ok ok ok #line:59a0ca
+    Lori: let's roll. #line:9b54ea
+    <<close>>
+    <<irisOut 1 wait>>
+    <<unlockDoodle LoriMPage>>
+    <<scene TowneCentreEast>>
+<<endif>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 589,146
+---
+<<if $did_lori_friendship_quest_1 is 0>>
+    [[Tracks1]]
+<<else>>
+    [[Tracks2]]
+<<endif>>
+===
+title: Tracks2
+tags: 
+colorID: 4
+position: 756,467
+---
+<<fadeOutMusic 5>>
+<<if $tracks_2 is 0>>
+    <<walk Mae MaeEnd>>
+    <<walk Lori LoriEnd>>
+    <<cameraLookAt CameraEnd 16>>
+    Mae: My friend Casey used to come out here and smoke. #line:f54061
+    Lori: I used to smoke when I was younger. #line:d80b05
+        ->i'm allergic #line:20c30c
+            Mae: but my friend Bea does it around me anyway #line:fbd30d
+            Mae: how long did you do it for? #line:41a423
+        ->oh really? #line:f05797
+    Lori: Ok it was once. I was younger though. I was 12. #line:ea7b22
+    Mae: Good age to quit. #line:611914
+    Lori: i could vape. #line:6f95b4
+    Mae: you could vape. #line:9b02b9
+    Lori: i'm not gonna vape. #line:249a18
+    Mae: probably a good idea. #line:c78273
+    Lori: Um so do you remember the thing we squished on the tracks last time? #line:d1cd41
+    Mae: Uh... yeah! #line:728c55
+    Mae: What are we doing? Gonna make it flatter? #line:35ef03
+    Lori: Kinda but no. You'll see. #line:6f978f
+    Lori: I'm gonna pick a new thing to squish him with. #line:9468cc
+    Mae: Alright then. #line:b52247
+    <<set $tracks_2 to 1>>
+    <<irisOut 1 wait>>
+    <<scene OverheadTracks>>
+<<else>>
+    //Mae: whoa!
+    //Mae: WHOA.
+    //Mae: This looks tortured.
+    //Lori: Aaah look at mine!!!
+    <<set $tracks_quest to 2>>
+    <<set $did_lori_friendship_quest_2 to 1>>
+    <<unlockDoodle LoriTracks2>>
+    Lori: yaaaaaaaaaaay! #line:bacab4
+    Mae: oh god your little dudes are... #line:8a662d
+    Mae: it like hurts my soul. #line:74211f
+    Lori: it speaks. the art speaks, mae. #line:0d9599
+    Mae: it calls my name!!! #line:da1fc6
+    Lori: uh #line:075ba2
+    Lori: that was cool #line:597aaa
+    Mae: yeah it was #line:00e84b
+    Mae: i gotta get going #line:5006fa
+    Mae: things are like... hectic right now #line:6e3719
+    Lori: oh? what's up? #line:2110b0
+    Mae: uh... geez. #line:711c79
+    Mae: just like, be careful ok? #line:e21e5c
+    Lori: how so? #line:56479b
+    Mae: like, go home at dark #line:a6ed2a
+    Mae: there's some bad stuff going on #line:7efbba
+    Lori: like what? #line:364be8
+    Mae: oh god i don't even know where to start #line:d74b86
+    Mae: just like... be careful #line:6cb23b
+    Lori: alright. #line:1cf856
+    Lori: thanks for the warning #line:2f0d89
+    Lori: about whatever you're warning me about #line:93cb94
+    Mae: don't mention it. #line:1b2627
+    <<close>>
+    <<irisOut 1 wait>>
+    <<scene TowneCentreEast>>
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 243,120
+---
+<<if $did_lori_friendship_quest_1 is 0>>
+    <<if $tracks_1 is 0>>
+        <<warp Mae MaeStart>>
+        <<warp Lori LoriStart>>
+        <<cameraLookAt CameraStart 0>>
+    <<else>>
+        <<warp Mae MaeEnd>>
+        <<warp Lori LoriEnd>>
+        <<cameraLookAt CameraEnd 0>>
+    <<endif>>
+<<else>>
+    <<if $tracks_2 is 0>>
+        <<warp Mae MaeStart>>
+        <<warp Lori LoriStart>>
+        <<cameraLookAt CameraStart 0>>
+    <<else>>
+        <<warp Mae MaeEnd>>
+        <<warp Lori LoriEnd>>
+        <<cameraLookAt CameraEnd 0>>
+    <<endif>>
+<<endif>>
+===

@@ -1,0 +1,31 @@
+title: StartGame
+tags: 
+colorID: 0
+position: 536,234
+---
+<<showTalkingHeads>>
+Mae: I'm gonna rob the bank! #line:2a3a77
+Granddad: Ha ha ha. You want to spend longest night in jail? #line:4fba1c
+Mae: Gonna rob 'em to death! #line:9e11c5
+Mae: They'll never catch me! #line:63822d
+Granddad: There'll be time enough when you're older for felonies and jail. #line:388b95
+Mae: What's a felony? #line:bd471a
+Granddad: A bad thing they put you in jail for. #line:e4e6e4
+Mae: Not if they don't catch me! #line:a139d6
+Granddad: Ok, how about a story before bedtime? #line:837055
+Mae: A Longest Night story! #line:614c3b
+Granddad: Sure! #line:da2e44
+Mae: But not a dumb one like Charity Bearity. #line:33f32b
+Granddad: How about a ghost story? #line:c9f572
+Mae: Oooooooh. Yeah. #line:bf8e10
+Granddad: Alright then- #line:490706
+Mae: I hope lots of people die in it. #line:2899a1
+Granddad: Quiet, kid. I'm starting over here. #line:ec4a29
+Granddad: Long ago, in the hills... #line:339fbe
+<<hideTalkingHeads>>
+<<fadeOut 4 0 0 0>>
+<<fadeOutMusic 6>>
+<<wait 4>>
+<<scene LN2_Snowfield>>
+
+===

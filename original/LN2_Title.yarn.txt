@@ -1,0 +1,31 @@
+title: StartGame
+tags: 
+colorID: 0
+position: 536,234
+---
+<<showTalkingHeads>>
+Mae: R C06NPA%CJ 0FPA6NTJ 6AHK! #line:2a3a77
+Granddad: XA-XA-XA. TJ1 C06NPAEQJCR UP0BECTN DVNHHELQY% H04J B T%PJME? #line:4fba1c
+Mae: 3AFPA6V% NX D0 CMEPTN! #line:9e11c5
+Mae: MEHR HNK0FDA HE U0LMA%T! #line:63822d
+Granddad: UP0LDET D0CTAT04H0 BPEMEHN, 4T06J1 TJ1 CTAVA D0CTAT04H0 B3P0CV0L DVR ZEV0HNL N T%PJMJ1. #line:388b95
+Mae: 4T0 TAK0E ZEV0HNR? #line:bd471a
+Granddad: UP0CTYU0K, 3A K0T0PJ1L 0HN CASA%T TE6R 3A PEQETKY. #line:e4e6e4
+Mae: HET, ECVN 0HN HE U0LMA%T MEHR! #line:a139d6
+Granddad: VADH0, KAK HAC4ET NCT0PNN HA H04J? #line:837055
+Mae: CAMAR DVNHHAR H04HAR NCT0PNR! #line:614c3b
+Granddad: A T0! #line:da2e44
+Mae: H0 HE TAKY% TYUY% KAK MNQKA-6VAF0TB0PNQKA. #line:33f32b
+Granddad: KAK HAC4ET NCT0PNN 0 UPN3PAKE? #line:c9f572
+Mae: 0-0-0-0-0-0 DA. #line:bf8e10
+Granddad: VADH0, T0FDA... #line:490706
+Mae: HADE%CJ B HEL YMPYT MH0FNE. #line:2899a1
+Granddad: TNX0 MAVJ1QKA, R HA4NHA%.  #line:ec4a29
+Granddad: DABHJ1M-DABH0, B F0PAX... #line:339fbe
+<<hideTalkingHeads>>
+<<fadeOut 4 0 0 0>>
+<<fadeOutMusic 6>>
+<<wait 4>>
+<<scene LN2_Snowfield>>
+
+===

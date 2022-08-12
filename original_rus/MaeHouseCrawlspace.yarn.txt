@@ -1,0 +1,20 @@
+title: ExamineBoxes
+tags: 
+colorID: 0
+position: 539,260
+---
+<<if $dad_will_move_boxes is 1>>
+    Mae: HAK0HEO! UAUA C06NPAETCR U0DBNHYTJ NX. #line:2268d5
+    Mae: R C06NPA%CJ UPNU0V3TN C%DA N UP04ECTJ KHNFY. #line:29dbe6
+    Mae: KAK B CTAPJ1E D06PJ1E. #line:32f311
+<<elseif $knows_crawlspace_boxes is 0>>
+    Mae: AFX. #line:7df15b
+    Mae: C KAKNX U0P U0V3K0B0E MECT0 UEPEKPJ1T0? #line:d611d1
+    Mae: NHTEPECH0, Y6EPET VN NX UAUA. #line:9a12fb
+    <<set $knows_crawlspace_boxes to 1>>
+<<else>>
+    Mae: DA. DEPSY UAPN, UAUA U0CTABNV NX C%DA. #line:52bffb
+    Mae: 0H D0VSEH NX UEPEDBNHYTJ. #line:ecfa12
+    Mae: GT0 6YDET CUPABEDVNB0!| #line:26c23c
+<<endif>>
+===

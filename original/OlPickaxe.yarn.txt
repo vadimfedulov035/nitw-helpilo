@@ -1,0 +1,952 @@
+title: Bill_A1D3
+tags: 
+colorID: 2
+position: -677,9063
+---
+Bea: DA, 6NVV. UNQN UPRM0 TAK, KAK HA 4ACAX. #line:fc0976
+Bill: EL HE U0HPABNTCR GT0. #line:99274c
+Bea: MHE HAUVEBATJ, U0HPABNTCR EL GT0 NVN HET. #line:5c6640
+Bea: GT0 6J1VA EE BNHA. 60VJQE TYT HE 0 4EM F0B0PNTJ. #line:9aef14
+Bea: 0HA U0TPATNVA HAQE BPEMR. MJ1 6EPEM 3A GT0 DEHJFN. #line:619372
+Bill: VADH0! #line:fdf482
+<<close>>
+<<flip Bill -1>>
+<<walk Bill BillExit>>
+<<walk Player CentreTalkFront wait>>
+[[UPNBET,6N!|Bea_A1D3_Hey]] #line:605875
+[[4T0 GT0 6J1V0?|Bea_A1D3_WhatWasThat]] #line:0c5e3e
+===
+title: Bea_A1D3_WhatWasThat
+tags: 
+colorID: 2
+position: -557,9351
+---
+<<flip Bea 1>>
+<<walk Bea RegisterMed wait>>
+<<lookAt Bea RegisterLook>>
+Bea: 0X, DASE HE CUPAQNBAL. #line:521916
+Bea: MNCCNC MNPAHDA 3AUEPVA 0DH0F0 N3 HAQNX PA60THNK0B B U0DBAVE, YSE B0 BT0P0L PA3. #line:2159d4
+Mae: U04EMY? #line:274165
+<<lookAt Bea Player>>
+Bea: U0T0MY 4T0 0HA CTAPAR N 3A6J1B4NBAR. #line:03187b
+Bea: M0SET, ECVN EL BJ1CTABNTJ C4ET 3A GT0, T0 0HA UEPECTAHET 3A6J1BATJ. #line:4a6424
+[[Bea_A1D3_2]]
+===
+title: Bea_A1D3_Hey
+tags: 
+colorID: 2
+position: -781,9342
+---
+<<lookAt Bea Player>>
+Bea: UPNBET. #line:5a5ec0
+Mae: KAK PA60TA? #line:4a1bd9
+<<flip Bea 1>>
+<<walk Bea RegisterMed>>
+<<lookAt Bea RegisterLook>>
+Bea: MH0F0 CTPECCA. 6VN3NTCR K0HEO MECROA. #line:92acf5
+Bea: N R D0VSHA HA4ATJ 3AKA3J1BATJ BCRKNE 3NMHNE BEWN. #line:e9a364
+Bea: GT0 03HA4AET, 4T0 R D0VSHA U0DKYUNTJ 0DH0F0 NVN CK0PEE DBYX HYSHJ1X V%DEL, #line:242f9f
+Bea: 4T06J1 PA3FPY3NTJ FPY30BNKN. #line:1ee1b8
+Bea: U0T0MY 4T0 R HE UEPEHECY U0VHJ1L FPY30BNK C0VN B 0DNH04KY. #line:4dbb59
+[[Bea_A1D3_2]]
+===
+title: Bea_A1D3_2
+tags: 
+colorID: 2
+position: -672,9646
+---
+Mae: XAX. #line:9302a5
+<<lookAt Bea Player>>
+Bea: 4T0 TE6E HAD0? #line:8d8e87
+Mae: HY, FPEFF U0UP0CNV CUP0CNTJ, CM0SEQJ VN TJ1 U0DBE3TN HAC HA BE4EPNHKY CEF0DHR? #line:4ee84e
+Mae: HY 3HAEQJ, HA TY, 4T0 6YDET B HAON0HAVJH0M UAPKE? #line:00a839
+Bea: CUACN60 3A PA3JRCHEHNE. #line:d1fa3e
+Bea: A T0 R 6J1 HE U0HRVA, #line:5fb535
+Bea: UP0 KAKY% N3 D%SNH BE4EPNH0K, #line:493d92
+Bea: K0T0PJ1E UP0X0DRT KASDJ1L DEHJ B U0CCYM CUPNHFCE #line:1b453a
+Bea: TJ1 F0B0PNQJ. #line:1b70d5
+Mae: ...GT0 4T0, CAPKA3M? -_- #line:ac1f4d
+<<close>>
+<<flip Bea -1>>
+<<walk Bea BeaMid wait>>
+<<lookAt Bea Player>>
+Bea: R BAC U0DBE3Y. #line:ccb61e
+Mae: o_o :) 0TVN4H0! CUACN60! #line:ff37e4
+Bea: MJ1 U0DJEDEM K TB0EMY D0MY B 20:30. #line:ae9f9c
+Bea: 6YDJ F0T0BA, NHA4E MJ1 U0EDEM 6E3 TE6R. #line:2c8c55
+Mae: 0KEL! :| #line:d06ae4
+Bea: HE U0TEPRLCR U0 D0P0FE D0M0L. #line:879b1b
+Mae: R 3HA%, FDE R SNBY. #line:209627
+Bea: R CEPJE3H0. NDN D0M0L N HA4NHAL F0T0BNTJCR. #line:e1ef42
+Mae: X0P0Q0, X0P0Q0! 60SE. #line:d6487f
+<<unlockDoodle Bea1>>
+<<set $mom_done to 0>>
+<<set $party_prep to 1>>
+<<set $bea_can_drive to 1>>
+<<set $bill_done to 1>>
+<<set $trigger_molly to 1>>
+<<set $bea_done to 1>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -1456,8201
+---
+<<setSpriteLayer Bea BG1>>
+<<flip Bea -1>>
+
+<<if $act is 2 and $day is 3>>
+    <<show Germ>>
+    <<setSpriteLayer Germ BG6>>
+<<else>>
+    <<hide Germ>>
+<<endif>>
+
+<<if $act is 1 and $day is 3>>
+    <<if $bill_done is 0>>
+        <<show Bill>>
+    <<endif>>
+<<endif>>
+===
+title: A2D3_00
+tags: 
+colorID: 3
+position: -1252,9222
+---
+<<if $bea_day_intro is 0>>
+    <<set $bea_day_intro to 1>>
+    Bea: UPNBET, MGL. #line:efe594
+    Mae: KAK MAFA3NH? #line:671a2e
+    Bea: UJ1TAETCR Y6NTJ MEHR #line:7f41ab
+    Bea: 6E3YCUEQH0 #line:9dff80
+    Bea: U0KA 4T0. #line:e54726
+    Mae: A B 4EM UP06VEMA? #line:dabdf8
+    Bea: HY, U0MNM0 BCEF0 0CTAVJH0F0 #line:d996fd
+    Bea: MJ1 3ABTPA YCTPANBAEM TYUY% UJECY DVR XAPZECTA. #line:ad9e10
+    Mae:{width=8}0, BA-A-A-A-A-A-AY.#line:d18b5e
+    Bea: AFA. R 60VJQE HNK0FDA HE C0FVAQYCJ 3AHNMATJCR GTNM. #line:91c6c8
+    Mae: 4T0 DEVAEQJ CEF0DHR BE4EP0M? #line:ab4ab6
+    Bea: G-G. HN4EF0. #line:ec34c4
+    Bea: R, TNUA, CYUEP YCTAVA. #line:bfd5df
+    Bea: U0T0MY 4T0 BCE B M0EL SN3HN YT0MNTEVJH0 #line:eb3906
+    Bea: N R PA60TA% 3A TP0NX, A K T0MY SE NCU0VHR% 06R3AHH0CTN BVADEVJOA MAFA3NHA. #line:e3f64a
+    Bea: UPN GT0M R UP0CT0 0DNH C0TPYDHNK N HE BVADE% GTNM MAFA3NH0M. #line:ee4092
+    Mae: 0X, CTPAHH0. U0 KAK0L-T0 UPN4NHE R DYMAVA, 4T0 TJ1 BVADEEQJ GTNM MECT0M. #line:6e7aef
+    Bea: TJ1 DYMAVA. #line:4a3efd
+    Bea: H0 BCE SE HET. R VY4QE YMPY. #line:5bbe06
+    Bea: MHE 6YKBAVJH0 CDEVA%T FP06 #line:c8f4d6
+    Bea: NCU0VJ3YR MATEPNAVJ1 N NHCTPYMEHTJ1 N3 GT0F0 MAFA3NHA #line:01de3d
+    Bea: N FDE-HN6YDJ MEHR U0X0P0HRT. #line:b4b6f0
+    Mae: 60SE. KAK HAUPRFVACJ 06CTAH0BKA. #line:45133a
+    Bea: FPPPPP. #line:f0ed69
+    Bea: TAK NVN NHA4E. CEF0DHR BE4EP0M R HN4EF0 HE DEVA%. #line:a5f9c9
+    Mae: R T0SE M0FY HN4EF0 HE DEVATJ! #line:54a3b5
+    Bea: ... #line:280981
+    Bea: VADH0. #line:5478df
+<<endif>>
+
+Bea: TAK 4T0, U0LDEM? #line:1dd7ce
+-> HE YBEPEHA! ECTJ UAPA MECT, KYDA MHE HYSH0 3A6ESATJ. #line:89f3dc
+    Bea: 0KEL. #line:7216ce
+-> DABAL TYC0BATJCR! #line:c280bd
+    [[GermShowsUp]]
+===
+title: GermShowsUp
+tags: 
+colorID: 3
+position: -1313,9484
+---
+<<close>>
+<<set $bea_friendship_quest to 3>>
+<<walk Germ GermComeOut wait>>
+Germ: UPNBET, 6N. #line:07b422
+Germ: UPNBET, MGL. #line:4de71f
+<<close>>
+<<flip Bea -1>>
+Bea: UPNBET, DSEPM! #line:2efc23
+Mae: L0Y, 4YBAK. #line:e6a12b
+Bea: DSEPM U0M0FAET MHE UEPEDBNFATJ BCRKNE BEWN. A R EMY 3A GT0 UVA4Y MNM0 KACCJ1. #line:13c0fa
+<<close>>
+<<flip Germ -1>>
+<<walk Germ GermExitBack wait>>
+Bea: TAK. #line:ef8f06
+Bea: R YX0SY C PA60TJ1 U0PAHJQE, 4T0 6J1 CJE3DNTJ 3A UP0DYKTAMN. X04EQJ C0 MH0L? #line:69a127
+Mae: K0HE4H0! #line:25ea41
+<<close>>
+<<flip Bea 1>>
+<<walk Bea BeaOffRightBack wait>>
+<<warp Bea BeaOffRight>>
+<<flip Bea -1>>
+<<setSpriteLayer Bea BeaFQ>>
+<<walk Bea BeaBeforeExitLeft wait>>
+Bea: 0TUPABVREMCR? #line:f86340
+<<close>>
+<<trackAllSpeechBubblesToCharacters 1>>
+<<flip Germ 1>>
+<<walk Germ GermRightBack>>
+<<wait .5>>
+Germ:{width=3}Y BAC MH0F0 M0V0TK0B!#line:b21725
+Germ: CPAHJ F0CU0DHR, KAK SE TYT MH0F0 BND0B FB03DEL! #line:77b234
+<<close>>
+Mae: T0FDA VADH0. #line:897e71
+Bea: 0H KAK 6YDT0 BJ1QEV C0 CTPAHNO DETCK0L KHNFN #line:70261e
+Bea: UP0 XPEH 3HAET 4T0. #line:bfea88
+<<close>>
+<<irisOut 1 wait>>
+<<sectionTitle BeaFQ3Intro HamPanther>>
+===
+title: A2D1_00
+tags: 
+colorID: 3
+position: -1851,9120
+---
+Mae: UPNBET, 6N. #line:0ce03e
+Bea: L00Y #line:13fede
+Mae: N3BNHN 3A UP0QVY% H04J. #line:caa951
+Mae: R DYPE% DASE U0CVE VEKAPCTB 0T UP0CTYDJ1. #line:3e4bc3
+Mae: TAK 4T0, HE 3HA%, 4EF0 R B NT0FE 0SNDAVA. #line:61eff4
+Bea: N3BNHN, 3A T0, 4T0 R HAF0B0PNVA. #line:3d5c1e
+Mae: 3HAEQJ, R N HE U0MH% HN4EF0. #line:c4d820
+Mae: TAK 4T0 HE CTPAQH0.. #line:18fa6b
+Bea: DA 3DPABCTBYET AVK0F0VJ. #line:d46a42
+Mae: H0BJ1L DEBN3 F0P0DA. #line:3b2ea4
+===
+title: A2D1_01
+tags: 
+colorID: 3
+position: -2125,9323
+---
+Mae: PEUETNPYEM CEF0DHR? #line:2206f4
+Bea: XA-XA. AFA. #line:8e5442
+Mae: U0PASA%CJ, 4T0 BJ1 BCE EWE NFPAETE. #line:f805b7
+Mae: MJ1 N B QK0VE-T0 FPYUU0L C TPYD0M HA3J1BAVNCJ. #line:90a371
+Bea: GX. GT0 BECEV0. X0DNTJ N 3ABNCATJ C AHFYC0M. #line:b2b477
+Mae: KAK BJ1 B006WE HA4AVN 3AHNMATJCR GTNM? #line:851e1e
+Bea: K0FDA KELCN YEXAV, AHFYC CKA3AV, 4T0 FPEFF 04EHJ 0UE4AVEH. #line:8fc642
+Bea: TAK 4T0 R BJ13BAVACJ CTATJ H0BJ1M 6APA6AHWNK0M. #line:479781
+Mae: DA YS, "6APA6AHWNK". #line:cf460a
+Mae: GT0 H0YT6YK, 6N. #line:3933e8
+Bea: 0H CAMJ1L, MGL. 0H CAMJ1L. #line:e480a2
+===
+title: A2D1_02
+tags: 
+colorID: 3
+position: -2392,9531
+---
+Bea: YBNDNMCR U03SE. Y MEHR TYT PA60TJ1 HAK0UNV0CJ. #line:71eec0
+<<set $bea_done to 1>>
+===
+title: Bea_Act2
+tags: 
+colorID: 3
+position: -1533,8878
+---
+<<if $day is 1>>
+    <<if $bea is 0>>
+        <<set $bea += 1>>
+        [[A2D1_00]]
+    <<elseif $bea is 1>>
+        <<set $bea += 1>>
+        [[A2D1_01]]
+    <<elseif $bea is 2>>
+        <<set $bea += 1>>
+        [[A2D1_02]]
+    <<endif>>
+<<elseif $day is 2>>
+    <<if $bea is 0>>
+        [[A2D2_00]]
+    <<endif>>
+<<elseif $day is 3>>
+    <<if $bea is 0>>
+        [[A2D3_00]]
+    <<endif>>
+<<elseif $day is 4>>
+    <<if $bea is 0>>
+        [[A2D4_00]]
+    <<endif>>
+<<endif>>
+===
+title: Bea
+tags: 
+colorID: 3
+position: -630,8416
+---
+<<if $act is 2>>
+    [[Bea_Act2]]
+<<elseif $act is 3>>
+    [[Bea_Act3]]
+<<endif>>
+===
+title: A2D2_00
+tags: 
+colorID: 3
+position: -1556,9158
+---
+<<if $bea_day_intro is 0>>
+    <<set $bea_day_intro to 1>>
+    Mae: XGGGGGGL 6N6N #line:bc3ce2
+    Bea: GL MGL #line:fd551f
+    Mae: KAK DEVA? #line:da7f98
+    Bea: MH0F0 KAMEHH0L C0VN, K0T0PY% HAD0 UEPEBE3TN. #line:7eebe8
+    Bea: K0T0PAR UPNEXAVA PAH0 B GT0M F0DY. #line:e09dd5
+    Bea: N *D0XPEHA* V0UAT DVR CHEFA... #line:35d3c5
+    Bea: 06J14H0 M0L 0UT0BNK TAK HE 0QN6AETCR. #line:d09195
+    Mae: M0SET 6J1TJ GT0 BCE N3-3A U0F0DHJ1X B0VQE6HNK0B? #line:4fc718
+    Bea: AFA, UPABD0U0D06HAR TE0PNR. #line:3d04bb
+    Bea: HY 4T0, KAK U0SNBAEQJ? #line:bb94c8
+    Mae: X04EQJ U0TYCNTJ CEF0DHR???? #line:80c74a
+    Bea: GX. R PA60TA%. #line:e60f40
+    Bea: ECVN TJ1 X04EQJ TNUA #line:47c376
+    Bea: UP0FYVRTJCR C0 MH0L. #line:140aa2
+    Mae: 0X, A R DYMAVA MJ1 U0LDEM B XYHBNK, U0F0HREM MR4N B VYHKY. #line:89cf8d
+    Bea: MGL, GT0... #line:df8c0b
+    Bea: B006WE-T0 X0P0QAR NDER... #line:2803e7
+    Bea: H0 UP0CTN, Y MEHR PA60TA. #line:85249f
+    Mae: 0000 60SE, B 4EM B006WE CMJ1CV? #line:ad3ead
+    Bea: 3APUVATA. APEHDA. EDA. VEKAPCTBA. N BCE TAK0E. #line:eeb9b6
+<<endif>>
+Bea: TAK 4T0, TJ1 X04EQJ U0LTN NVN HET? #line:797cdd
+-> CEF0DHR MH0F0 DEV. #line:f3cd7f
+    Bea: VADH0! #line:856cb7
+-> DABAL TYC0BATJCR! #line:c49a37
+    <<set $bea_friendship_quest to 2>>
+    <<irisOut 1 wait>>
+    <<sectionTitle BeaFQ2Intro MirandaYard>>
+===
+title: EnterLevel_A2D4
+tags: 
+colorID: 3
+position: -209,8829
+---
+<<if $harfest_costume is 1>>
+    [[EnterHarfest]]
+<<endif>>
+===
+title: EnterHarfest
+tags: 
+colorID: 3
+position: -179,9092
+---
+<<playAmbientSFX _AmbientSFX:play_pre_audience>>
+Mae: UPNBET-UPNBET. #line:f7894e
+Bea: ... #line:d8fdb6
+Mae: 4EF0 3ADYMAVN? #line:7335c9
+<<wait 2>>
+Bea: CEPJE3H0? #line:734522
+Mae: :) #line:2250e3
+<<wait 2>>
+Bea: B GT0M F0DY MJ1 UP0B0DNM K0HKYPC YP0SAR. #line:301ab3
+Mae: 0, X0P0Q0 #line:ba3866
+Mae: UPRM0 Y CTAP0L KNPKN! #line:36f236
+Mae: :| #line:db69e6
+Mae: GL, A K0FDA BCR GTA 4EXAPDA HA4HETCR? #line:9af17e
+Bea: GM... 4EPE3 MNHYT 10... HABEPH0E? #line:57c1fc
+Mae: HABEPH0E? #line:cd5432
+Bea: YX, GT0 K0QMAP. #line:63cc2a
+Bea: 3A4EM R B006WE C0FVACNVACJ UP0B0DNTJ EF0? #line:e3040b
+Bea: T0PF0BAR UAVATA CVNQK0M MH0F0 HA MEHR B3BAVNVA. #line:5cbe48
+Mae: 60SE. DA U0HRVA R. #line:8f045a
+Bea: ... #line:4868d6
+Bea: ... #line:84a32a
+Mae: 4T0? #line:fe29e8
+Bea: NTAK, TYT TAK0E DEV0... Y TE6R BEDJ HE 04EHJ MH0F0 PEUVNK... #line:66722b
+Mae: 4T0?! #line:0d8cf7
+Bea: TP0E TAK N HE 06JRBNVNCJ! #line:11f677
+Mae: U04EMY? #line:48dffa
+Bea: U0T0MY 4T0 BCE GT0 TYU0 N BCEM HACPATJ!!! #line:9ea9d4
+Mae: 6N, #line:fb4e90
+Bea: U0SAVYLCTA? GT0 CAMAR BECEVAR 4ACTJ! #line:b03a36
+Mae: 6N. #line:1f9399
+Bea: DA? #line:4a216b
+Mae: R CUACY TB0% S0UY. #line:8bf53a
+Mae: R U0UP06Y% B0CCTAH0BNTJ BCE N3 M0NX DETCKNX F0D0B. #line:f5c6eb
+Bea: HE U0VY4NTCR. COEHAPNL UEPEUNCJ1BAVN 6 PA3 3A U0CVEDHNE 2 F0DA. #line:f871e3
+Bea: DEVAVN CTPAQHEE, #line:c86f62
+Bea: TAK 4T0 0T NCT0PNN TAM UP0OEHT0B 20 #line:38bae7
+Bea: N 80 UP0OEHT0B CTPAQNV0K. #line:5512e0
+->GT0 BCE TEUEPJ ZAVJQNBAR NCT0PNR? #line:876299
+    Bea: GT0 TNUA... ZNF0BJ1L PEMELK #line:c29dfb
+    Bea: K0T0PJ1L HE YBASAET UEPB0NCT04HNK. #line:5d4c72
+->CTPAHH0. #line:07a01e
+Bea: HA4NHAETCR BCE H0PMAVJH0, H0 U0T0M... B 06WEM. #line:2d7635
+Bea: Y TE6R 5 MNHYT, 4T06J1 UP0CM0TPETJ CB0N PEUVNKN. #line:0cea08
+Mae: UZZ. CJ1MUP0BN3NPY%. #line:015c62
+Bea: MGL, U0SAVYLCTA, HE NMUP0BN3NPYL. #line:49d514
+Mae: X0P0Q0. #line:0aa559
+<<fadeOut 1 wait>>
+<<stopAmbientSFX _AmbientSFX:play_pre_audience>>
+<<show Bill>>
+<<setSpriteLayer Bill BG2>>
+<<set $bill_hat to 1>>
+<<playerUpdateFallDuringInteract 1>>
+[[PlayScene1]]
+===
+title: PlayScene1
+tags: 
+colorID: 3
+position: 161,9023
+---
+<<tell _AmbientSFX:amb_play Play1>>
+<<tell HarfestPlayWatchers Show>>
+<<cameraLookAt HarfestCamHigh 0>>
+<<warp Mae CounterOffRight>>
+<<warp Dan CounterOffLeft2>>
+<<warp Bill CounterOffLeft>>
+<<warp Bea BeaCounter>>
+<<show Dan>>
+<<setAnimInt Dan harfestIdle 1>>
+<<fadeIn 1 wait>>
+<<cameraLookAt HarfestCamLow 6>>
+//organ fanfare as camera descends from ceiling//
+<<playOneShot event:/music/harfest_organ_00>>
+<<wait 7>>
+<<walk Dan DanCounter wait>>
+<<walk Bill BillCounter wait>>
+//will do actual stage blocking after dialogue is in//
+<<wait 1>>
+<<dilate Bea .75 10>>
+<<lookOut Bea>>
+Bea: 0X! R N HE YBRDAVA BAC TAM! #line:acd1f8
+Bea: AVJ BJ1 UPN3PAKN? #line:bc48a6
+Bea: BJ1 3DECJ, 4T0 6J1 U0CVYQATJ #line:bc7b5b
+Bea: CKA3 0 T0M, KAK CH0BAH 6J1V U0CCYM CUPNHFC? #line:7bbfe0
+<<tell HarfestPlayWatchers Happy>>
+<<wait 3>>
+<<dilate Bea 1 10>>
+<<lookLeft Bea>>
+Bea: CKB03J DJ1M DECRTNVETNL BNSY R #line:44ffdb
+Bea: YT0MVEHHJ1X 0X0THNK0B 3A MEX0M, N3 1973-F0. #line:286657
+//dan enters//
+Dan: 6PAT DS0H! #line:1e3a53
+//bill enters//
+Bill: DA, 6PAT CTNBEH! #line:a650e0
+Dan: 0TC%DA R BNDEV 0FP0MHY% BUADNHY #line:f4d9b3
+Dan: A BHYTPN, BEVNK0E MEPTB0E DEPEB0 #line:f5a396
+Dan: N, KP0ME T0F0, GM, BP0DE 6J1 P0DHNK! #line:5e280c
+Bill: 6VAF0CV0BEHHJ1 MJ1, 6PAT CTNBEH, #line:77dfc0
+Bill: BEDJ F0PV0 M0E UEPEC0XV0 #line:e592d7
+Bill: 0T GTNX D0VFNX N TPYDHJ1X UYTEQECTBNL #line:901dbc
+Bill: N 0T GTNX TPEXC0T 606P0BJ1X QKYP. #line:d48bf5
+Dan: DABAL SE U0CUEQNM, M0L 3AME4ATEVJHJ1L 6PAT! #line:77f692
+<<close>>
+<<walk Mae MaeCounter wait>>
+<<shuffleNextOptions>>
+-> GL! UYTHNKN! U0DEVNTECJ K0PK0L XVE6A C HYSDA%WELCR SEHWNH0L? #line:7216ac
+    <<tell HarfestPlayWatchers Happy>>
+    <<set $play_correct_responses += 1>>
+-> GL! UYTHNKN! U0M0SETE U0SNV0L SEHWNHE? #line:108719
+    Mae: AX. U0SAVYLCTA, U0M0FNTE. #line:7016fb
+    Bea: 4T..? #line:aafcfb
+    <<lookForward Mae>>
+    <<playOneShot event:/music/harfest_organ_mistake>>
+    <<tell HarfestPlayWatchers Grumble>>
+    <<shuffleNextOptions>>
+    -> 0, HET, R CDEVAHA N3 UAYTNHJ1, U0T0MY 4T0 HACT0VJK0 CTAPA! #line:e5a2fb
+        Bea: YX. UYTHNKN HE 3HA%T, 4T0 GT0 B006WE 3HA4NT. #line:8f5299
+    -> Y MEHR D0VSHA 6J1TJ EDA, K0T0PAR B0CCTAH0BNT M0% %H0QECKY% Z0PMY, BEDJ K0FDA-T0 R 6J1VA UPEKPACH0L DEBYQK0L. #line:a27f9b
+        Bea: ... #line:94994a
+    <<tell HarfestPlayWatchers Grumble>>
+<<lookForward Mae>>
+//witchy organ riff//
+<<playOneShot event:/music/harfest_organ_01>>
+<<wait 5>>
+<<lookNearest Mae>>
+Bill: BEDJMA XAFFAPD! #line:0eb94a
+Dan: DASE CM0TPETJ CTPAQH0! #line:5ba171
+Mae: SECT0KNE M0V0DJ1E V%DN, #line:551e29
+Mae: BJ1 HE UPEDV0SNVN MHE DASE 0DHY N3 TPEXC0T 606P0BJ1X QKYP, #line:cc665e
+Mae: 4T06J1 R C0FPEVA CB0N DPRXVJ1E K0CTN! #line:eb1c63
+<<shuffleNextOptions>>
+-> R UP0KVRHY BAC 060NX #line:572cf4
+    Mae: N, B GTY CAMY% H04J, BJ1 KAHETE B VETY. #line:6515c9
+    <<tell HarfestPlayWatchers Happy>>
+    <<set $play_correct_responses += 1>>
+    Dan: MHE CTPAQH0! #line:c3b7e2
+    Bill: KPEUNCJ, 6PAT CTNBEH #line:07511d
+    Bill: HE DVR GT0F0 R B306PAVCR HA CNN X0VMA #line:9c0e02
+    Bill: 4T06J1 UPEUNPATJCR C0 CTAP0L KAPF0L! #line:e2612e
+-> TJ1 HEB0CUNTAHHJ1L N HEU0CVYQHJ1L MAVJ4NQKA, #line:f13fe0
+    <<playOneShot event:/music/harfest_organ_mistake>>
+    <<tell HarfestPlayWatchers Grumble>>
+    Bill: ... #line:3ed334
+    Mae: BCE HEF0DHNKN D0VSHJ1 6J1TJ HAKA3AHJ1! #line:347a56
+    Dan: MHE... HA... HEYD06H0! #line:da93be
+    Bea: GM. #line:21bb14
+    <<lookForward Mae>>
+    <<shuffleNextOptions>>
+    -> BAQE HAKA3AHNE - GT0 UP0KVRTJE, #line:6dbae7
+        <<tell HarfestPlayWatchers Happy>>
+        <<set $play_correct_responses += 1>>
+        Mae: K0T0P0E 3A6EPET BAC #line:039830
+        Mae: DASE B GTY CAMY% H04J! #line:d2cbcc
+        Bea: *YZ* #line:da92db
+    -> TB0E HAKA3AHNE - GT0 YP0K, YSACHJ1L! #line:4f760a
+        <<tell HarfestPlayWatchers Grumble>>
+        <<playOneShot event:/music/harfest_organ_mistake>>
+        Bea: 4T... #line:dd3320
+        <<lookForward Mae>>
+        Mae: TJ1 BEPHEQJCR B CB0L F0P0D... #line:a1cfc2
+        Bill: GM #line:778262
+        Mae: PACK0UAEQJ CTAPELQY% M0FNVY HA KVAD6NWE... #line:ee1206
+        Dan: G-G #line:e555e0
+        Mae: ...N PACOEVYEQJ NX! #line:bb5f89
+        Bill: 4T0? #line:fc62ef
+        Bea: H0 BEDJMA T0VJK0 QYTNVA #line:914566
+        Bea: UYFAR UYTEQECTBEHHNK0B! #line:9ed818
+        Bea: N BMECT0 GT0F0, 0HA UP0KVRVA NX HACMEPTJ T0L SE H04J%! #line:25025d
+<<lookForward Mae>>
+Mae: NXN XN XN XN XNNNNN! #line:0a525c
+<<lookNearest Mae>>
+Mae: R 6J1VA P0SDEHA CPEDN GTNX DEPEBJEB #line:2cf60d
+Mae: U0D VYH0L B0 BPEMR XAPZECTA, #line:27e210
+Mae: N BJ1 YMPETE U0D GT0L VYH0L! #line:6d0696
+Dan: 6PAT DS0H, R HAUYFAH! #line:e95e69
+Bill: B03BEPYL, 6PAT CTNBEH! #line:d3482d
+Bill: TJ1 TAK VEFK0 BUADAEQJ B DP0SJ UEPED GT0L CTAPYX0L? #line:51d3f4
+Bill: U0QVN, U0M0SEQJ MHE 0THECTN 300 606P0BJ1X QKYP. #line:bb347c
+Bea: ...H0 KT0 SE M0F UP03HATJ #line:9dacbe
+Bea: 4T0 BEDJMA HE UP0KVNHAET... #line:0463b6
+Bea: 3A3PR. #line:f91243
+<<close>>
+//spooky organ end of act theme//
+<<playOneShot event:/music/harfest_organ_02>>
+<<tell HarfestPlayWatchers Happy>>
+<<playOneShot event:/harfest/play_applause>>
+<<cameraLookAt HarfestCamHigh 11>>
+<<wait 11.5>>
+<<fadeOut 1 wait>>
+[[PlayScene2]]
+===
+title: PlayScene2
+tags: 
+colorID: 3
+position: 439,9034
+---
+<<warp Mae CounterOffRight>>
+<<warp Gregg CounterOffLeft>>
+<<warp Dan CounterOffLeft>>
+<<warp Bill CounterOffLeft>>
+<<fadeIn 1 wait>>
+//OH NO! Organ theme//
+<<cameraLookAt HarfestCamLow 6>>
+<<playOneShot event:/music/harfest_organ_03>>
+<<wait 4>>
+<<walk Dan DanCounter wait>>
+Dan: U0M0FNTE! U0M0FNTE! #line:b427dd
+Dan: KT0 U0M0SET 6EDH0MY UYTHNKY?! #line:de41ba
+<<close>>
+<<walk Gregg GreggCounter wait>>
+<<lookLeft Gregg>>
+Gregg: YX... GM. #line:f40fba
+Gregg: YX, U0D  VYH0L N 3BE3DAMN, 4T0 HAD HAMN, CGP #line:f22ac6
+Gregg: R B0UP0QA% BAC, 4T0 CVY4NV0CJ? #line:39235d
+<<close>>
+<<walk Mae MaeCounter wait>>
+Mae: TJ1 T0SE NFPAEQJ? #line:3d9c55
+<<lookRight Gregg>>
+Gregg: AFA #line:35f35b
+<<lookLeft Gregg>>
+Dan: AAAAAA!!! BEDJMA!!! #line:4e5be7
+Mae: AFA #line:3d4214
+Dan: KVRHYCJ BAM, DPYF, B GT0T CAMJ1L DEHJ #line:962cf0
+Dan: GTA YSACHAR CTAPYXA #line:9ee76b
+Dan: UP0KVRVA M0EF0 6PATA N MEHR, HA CMEPTJ! #line:bc86cd
+Gregg: B0T X0VEPA! #line:ba066e
+Dan: MJ1 0CTAH0BNVNCJ 3DECJ TAK0L SE BECH0L, B03VE MEPTB0F0 DEPEBA #line:318629
+Dan: N DASE CEL4AC TEV0 EF0 U0K0NTCR HA 3EMVE, #line:b9d1af
+Dan: 6E3SN3HEHH0E, KAK KY4KA N3 TPEXC0T 606P0BJ1X QKYP! #line:dd9bc7
+Gregg: 0X! M0E CEPDOE UVA4ET!!! #line:de5458
+<<lookRight Gregg>>
+Mae: NN XNN XNN XNNNNNNN!!! #line:05c683
+<<shuffleNextOptions>>
+-> R UP0KVRVA GT0T NCT04HNK. #line:9bcd6b
+    Mae: T0T KT0 BJ1UJET 0TC%DA, 6YDET MEPTB! #line:d3d062
+    <<lookLeft Gregg>>
+    <<tell HarfestPlayWatchers Happy>>
+    <<set $play_correct_responses += 1>>
+    Dan: AAAA! MEHR Y6NVN! #line:24dfc9
+    Dan: R NDY K TE6E, 6PAT CTNBEH!!! #line:e24ebf
+-> UP0KVNHA% FPY6J1X M0V0DJ1X V%DEL #line:f4dcf1
+    <<tell HarfestPlayWatchers Grumble>>
+    <<playOneShot event:/music/harfest_organ_mistake>>
+    Gregg: GT0 HE... #line:91bba5
+    Dan: GM #line:b56b21
+    Bea: ... #line:16f123
+    <<lookLeft Gregg>>
+    Dan: 0HA UP0KVRVA NCT04HNK N TEUEPJ R YMPY!!! #line:c773c0
+//dan falls behind counter//
+<<setAnimInt Dan die 1>>
+<<wait 2>>
+Mae: BAY #line:f13554
+<<lookRight Gregg>>
+Gregg: N R T0SE UP0UAV, BEDJ R BJ1UNV GTY B0DY! #line:4e72e6
+Mae: HE 0CTABVRL MEHR 3DECJ, FPEFF. #line:1be6f2
+Gregg: U0KAAAAAAAAA. #line:94418d
+//gregg falls behind counter//
+<<setAnimInt Gregg die 1>>
+<<wait 2>>
+Bea: N B0T, DASE U0CVE GT0F0 #line:65eb71
+Bea: UP0KVRTNE TAK N HE HACJ1TNV0CJ... #line:ce6815
+Bea: KP0BJ%!!! #line:e18098
+//spooky organ end of act theme//
+<<close>>
+<<playOneShot event:/music/harfest_organ_04>>
+<<tell HarfestPlayWatchers Happy>>
+<<playOneShot event:/harfest/play_applause>>
+<<cameraLookAt HarfestCamHigh 7.5>>
+<<wait 7.5>>
+<<fadeOut 1 wait>>
+<<warp Gregg CounterOffLeft>>
+[[PlayScene3]]
+===
+title: PlayScene3
+tags: 
+colorID: 3
+position: 689,9037
+---
+<<warp Mae CounterOffRight>>
+<<warp Bea BeaCounter>>
+<<warp Dan DanCounter>>
+<<warp Bill BillCounter>>
+<<show Bill>>
+<<set $bill_hat to 1>>
+<<setAnimInt Dan die 0>>
+<<fadeIn 1 wait>>
+//THINGS ARE SPOOKY ORGAN RIFF//
+<<cameraLookAt HarfestCamLow 8.5>>
+<<playOneShot event:/music/harfest_organ_05>>
+<<wait 8.5>>
+Bea: Y3PNTE NX! Y3PNTE GTNX DYX0B! #line:290b42
+Bill: 6PAT, MJ1 TEUEPJ UPN3PAKN! #line:c38e08
+Bill: AAX! KAK MY4NTEVJH0 0CVEUVRET 0CYSDA%WNL CBET #line:8372a7
+Bill: GTNX TPEXC0T UPN3PA4HJ1X 606P0B! #line:fbe73f
+Dan: KASETCR, 4T0 BCE U0FN6QNE 3DECJ #line:ac3282
+Dan: UP0KVRTJ1 HABCEFDA 3DECJ SE N 0CTATJCR! #line:7dc333
+Bill: 3HAET VN TA BEDJMA, 4T0 0HA HATB0PNVA? #line:c66f93
+<<close>>
+<<walk Dan CounterOffLeft>>
+<<walk Bill CounterOffLeft>>
+<<walk Bea CounterOffLeft>>
+<<wait 4>>
+<<walk Mae MaeCounter2 wait>>
+<<wait 3>>
+<<warp Janitor CounterOffRight>>
+<<shuffleNextOptions>>
+Mae: G-G... GM... #line:42e97f
+Mae: ...6VNH... #line:619604
+<<wait 3>>
+Bea:{locator=LeftSide}"DVR-R-R-R-R-R-R,#line:8ed56d
+-> DVR 4EF0 UPN3PAK #line:6b6af0
+    Mae: 0X0TNTCR HA 6E3SN3HEHH0L 3EMVE, #line:6ddba2
+    Mae: 4T0 PAHEE DJ1QAVA SN3HJ%? #line:3b806c
+    Janitor: N M0SET VN NCOEVNTJCR 3EMVR, TP0HYTAR E%? #line:2f8cb9
+-> DVR KASD0F0 4EV0BEKA 0UPEDEVRETCR EF0 UYTJ #line:706f3f
+    Mae: N KASDJ1L UYTJ BEDET K CB0EMY K0HOY. #line:f5ac65
+    Bea:{locator=LeftSide}0K...?#line:737f9c
+    Janitor: H0 BCE SE, KASDJ1L UYTJ M0SET BECTN B MECTA HEN3BEDAHHJ1E. #line:b56df9
+<<close>>
+<<walk Janitor JanitorCounter wait>>
+Mae: BJ1! #line:01df52
+Mae: TNU C ABT0B0K3AVA! #line:0f86c5
+Janitor: %HAR BEDJMA! #line:2541e0
+Janitor: GT0 R, 60F VECA! #line:8f4813
+Mae: GM... UP0CT0 HE 0SNDAVA BAC... #line:fbf2fa
+Janitor: HE TA PEUVNKA. #line:625414
+Mae: NTAK... #line:3cbfa5
+Janitor: BEDJMA, TJ1 CVNQK0M D0VF0 UPE6J1BAVA B GT0M MNPE #line:223239
+Janitor: R N3F0HR% TE6R, DA6J1 TJ1 6P0DNVA B H04N #line:762895
+Janitor: U0 CTPAHHJ1M MECTAM! #line:44be06
+<<shuffleNextOptions>>
+-> 0 60SE... KAK TJ1 Y3HAV... #line:ffe900
+-> R... 4T0? #line:215b22
+Janitor: %HAR BEDJMA, U03B0VJ U0DEVNTJCR MYDP0CTJ%: #line:01eb62
+Janitor: MJ1 ECTJ HA4AV0 N K0HEO, #line:38fbf9
+Janitor: B H04N, B VECAX. #line:ee1eb7
+Janitor: H0 GT0 HE BCR NCT0PNR. #line:d885d5
+<<close>>
+<<wait 2>>
+Mae: ... #line:087ae7
+Mae: ... #line:f643a7
+<<close>>
+<<lookRight Bea>>
+<<warp Bea BeaBehindCounter>>
+<<walk Bea BeaAboveCounter wait>>
+Bea: *CEL4AC TB0R PEUVNKA* #line:5a291f
+<<close>>
+<<walk Bea BeaBehindCounter wait>>
+<<shuffleNextOptions>>
+<<lookAt Mae Janitor>>
+-> 60F VECA, Y TE6R 3DECJ HET BVACTN. #line:e26d18
+    <<tell HarfestPlayWatchers Happy>>
+    <<set $play_correct_responses += 1>>
+    Janitor: DASE CEL4AC, TB0L K0HEO 6VN3NTCR. #line:1e0a38
+    Mae: AAAAA!!! M0N ADCKNE CNVJ1! #line:2e6d5d
+    Janitor: TNQE, %HAR BEDJMA. #line:90e6e3
+    Janitor: CEL4AC #line:c349c5
+    Janitor: T0T MNP, 4T0 TJ1 3HAVA, 3AK0H4NVCR #line:537952
+    Janitor: N KT0 3HAET, 4T0 UPNHECET #line:2650b4
+    Janitor: CVEDY%WNL MNP. #line:44fbe1
+-> KAK MH0F0 BJ1 3HAETE 060 MHE? #line:599400
+    <<tell HarfestPlayWatchers Grumble>>
+    <<playOneShot event:/music/harfest_organ_mistake>>
+    Janitor: %HAR BEDJMA, R 3HA% 60VJQE, 4EM TJ1 M0SEQJ UPEDCTABNTJ #line:a91581
+    Janitor: BEDJ R CTAPQE GTNX DEPEBJEB. #line:8bf353
+Mae: 0F0. #line:c1a89a
+Janitor: 0CTEPEFALCR UYTN CB0EF0 #line:58c681
+Janitor: N60 UPN3PAKN 0SNDA%T TE6R HA HEM. #line:a86755
+<<lookNearest Mae>>
+//bill and dan both say WOOOOOO!!!//
+<<runNextLinesTogether 2>>
+Bill:{locator=LeftSide}[wave]Y-Y-Y-Y-Y-Y!!![/wave]#line:ded394
+Dan:{locator=LeftSide2}[wave]Y-Y-Y-Y-Y-Y!!![/wave]#line:640c1f
+Janitor: 6EPEFN CE6R. #line:bee150
+<<close>>
+<<walk Janitor CounterOffLeft>>
+<<wait 3>>
+//walk janitor off//
+//walk bill and dan off//
+//spooky organ end of act theme//
+<<cameraLookAt HarfestCamHigh 6>>
+<<playOneShot event:/music/harfest_organ_06>>
+<<tell HarfestPlayWatchers Happy>>
+<<playOneShot event:/harfest/play_applause>>
+<<wait 5>>
+<<fadeOut 1 wait>>
+[[PlayScene4]]
+===
+title: PlayScene4
+tags: 
+colorID: 3
+position: 964,9003
+---
+<<warp Mae MaeCounter>>
+<<warp Dan DanCounter>>
+<<warp Gregg GreggCounter>>
+<<warp Bill BillCounter>>
+<<warp Janitor CounterOffRight>>
+<<hide Janitor>>
+<<warp Bea BeaCounter>>
+<<setAnimInt Gregg die 0>>
+<<setAnimInt Dan harfestIdle 2>>
+<<cameraLookAt HarfestCamLow 0>>
+<<lookLeft Bea>>
+<<fadeIn 1 wait>>
+Bea: B0T TAK N 3AP0DNVCR GT0T UPA3DHNK, #line:bc3eb8
+Bea: HA XGVV0YNH MJ1 UPA3DHYEM #line:99c32e
+Bea: CMEPTJ F0DA #line:c79b0e
+Bea: N 0CH0BAHNE U0CCYM CUPNHFC! #line:211e93
+Dan: R, MGP UPN3PAK, 0TDAV UPNKA3! #line:bf2799
+Bill: U0UYVRONR 606P0B PE3K0 YUAVA #line:8a0049
+Bill: N TEUEPJ MJ1 GKCU0PTNPYEM KYKYPY3Y N TJ1KBJ1! #line:079a9d
+Gregg: PAHJQE MJ1 6J1VN YE3DHJ1M F0P0D0M! #line:81b18c
+<<shuffleNextOptions>>
+->NXN-XN-XN-XN-XN-N-N-N-N!!!! #line:43007f
+    Mae: B006WE-T0, MNZ 0 DNKNX BEDJMAX #line:8cea0a
+    Mae: GT0 PE3YVJTAT MH0F0BEK0BJ1X F0HEHNL... #line:326ef7
+->TEUEPJ YX0DNTE, U0KA R HE UP0KVRVA BAC BCEX!!!!!!!! #line:403ae1
+    Bea: 0 HET, 3PNTEVN!!! #line:825088
+Bea: B0T TAKAR U0VY4NVACJ U0CTAH0BKA! #line:9555cc
+<<lookOut Mae>>
+<<lookOut Gregg>>
+<<dilate Bea .75 10>>
+<<lookOut Bea>>
+Bea: 6YDJTE 0CT0P0SHJ1, HE 0CTABALTECJ 3DECJ, #line:330585
+Bea: KT0 3HAET, 4T0 M0SET KPACTJCR B TEMH0TE? #line:394912
+Bea: N EWE, Y6EDNTECJ, 4T0 B3RVN ZVAEP HA BJ1X0DE #line:9b8345
+Bea: 0T T0PF0B0L UAVATJ1 U0CCYM CUPNHFC! #line:911284
+Bea: U0DDEPSNTE MECTHJ1L CTPAQHJ1L 6N3HECCCCCCCCC!!!! #line:5bd9f9
+<<close>>
+<<tell HarfestPlayWatchers HappyForever>>
+<<cameraLookAt HarfestCamHigh 11>>
+//organ fanfare as camera ascends toceiling//
+<<playOneShot event:/music/harfest_organ_07>>
+<<playOneShot event:/harfest/play_applause>>
+<<wait 11>>
+<<set $did_harfest_play to 1>>
+<<fadeOut 1 wait>>
+<<set $bill_hat to 0>>
+<<scene TowneCentreEast_Harfest>>
+===
+title: Bea_Act3
+tags: 
+colorID: 4
+position: 1661,8712
+---
+<<if $day is 1>>
+    <<if $bea is 0>>
+        [[A3D1_00]]
+    <<endif>>
+<<elseif $day is 2>>
+    <<if $bea is 0>>
+        [[A3D2_00]]
+    <<endif>>
+<<elseif $day is 3>>
+    <<if $bea is 0>>
+        [[A3D3_00]]
+    <<endif>>
+<<elseif $day is 4>>
+    <<if $bea is 0>>
+        [[A3D4_00]]
+    <<endif>>
+<<endif>>
+===
+title: A3D1_00
+tags: 
+colorID: 4
+position: 1227,9070
+---
+Mae: UPNBEEET 6N. #line:e3d519
+Bea: UPNBET G #line:e11968
+Bea: EWE PA3 CUACN60 3A B4EPAQHEE. #line:945afd
+Bea: R Y TE6R B D0VFY. #line:cbfe4d
+Mae: BCE H0PM. 6J1V0 BECEV0. #line:a879a7
+Mae: UPABDA U0T0M, M0L BE4EP CKATNVCR B KAKY%-T0 CTPAHHY% XPEHJ. #line:3c035f
+Bea: KAK GT0? #line:f7c3c4
+Mae: DYMA%, R TE6E U0T0M PACCKASY. #line:791cb7
+Mae: BCE EWE UJ1TA%CJ PA306PATJCR B GT0M. #line:ea3542
+Bea: VADH0. DAL MHE 3HATJ, KAK PA36EPEQJCR. #line:83156c
+Mae: 06R3ATEVJH0. #line:a7227e
+Bea: U0-M0EMY, CEF0DHR PEUETNPYEM? #line:78f3cc
+Mae: AFA, MHE HAD0 EWE U0LMATJ FPEFFA. #line:2317ce
+Bea: DYMA%, GT0 HE CV0SH0. #line:d4efda
+Mae: DA, 3HA%. 0H B CHGK ZGVK0H. #line:2f3d67
+Bea: HE 3HA%, KAK EF0 EWE HE YB0VNVN. #line:1c471d
+Bea: 0H BE4H0 4T0-HN6YDJ KPADET. N PA36NBAET T0BAP PADN 3A6ABJ1. #line:6eb7b8
+Bea: N YX0DNT C PA60TJ1, K0FDA 3AX04ET. #line:2ea899
+Mae: FPEFF NFPAET U0 CB0NM C06CTBEHHJ1M UPABNVAM. #line:390a8c
+Bea: TAK0E 0WYWEHNE, 4T0 GT0 MNP NFPAET U0 EF0 UPABNVAM. #line:23457e
+Mae: BAY. #line:cf93b6
+Bea: R DASE HE 3HA%, 4T0 R CEL4AC CKA3AVA. #line:166f9a
+Mae: BCE EWE. BAY. #line:acbbd0
+<<set $bea_done to 1>>
+===
+title: InvestigationQuest
+tags: 
+colorID: 4
+position: 1542,9662
+---
+<<close>>
+<<irisOut 1 wait>>
+<<sectionTitle BeaIQ BeaIQGraveyard>>
+===
+title: A3D3_00
+tags: 
+colorID: 4
+position: 1763,9091
+---
+<<if $bea_day_intro is 0>>
+    <<set $bea_day_intro to 1>>
+    Mae: UPNBET, 6N. #line:4de664
+    Bea: UPNBET. #line:830ee3
+    Mae: BCE X0P0Q0? BJ1FVRDNQJ HE 04EHJ. #line:c68f48
+    Bea: 0X, DA HN4EF0 TAK0F0. #line:f3e1bd
+    Bea: EPYHDA. #line:c2ab59
+    Mae: X04EQJ U0F0B0PNTJ 06 GT0M? #line:13bfb4
+    Bea: HE-A. #line:58edce
+    Mae: X0P0Q0. #line:885f88
+<<endif>>
+
+Bea: YZ. 4EM 3ALMEQJCR CEF0DHR? #line:bd433b
+-> 6YDY 6P0DNTJ U0 F0P0DY. #line:1754d1
+    Bea: BECEVNCJ! #line:803705
+-> *BCEM* 4T0 TJ1 U0SEVAEQJ!! #line:82f99a
+    [[FriendshipQuest]]
+===
+title: A3D4_00
+tags: 
+colorID: 4
+position: 2155,9119
+---
+<<if $bea_day_intro is 0>>
+    <<set $bea_day_intro to 1>>
+    Bea: 0F0! #line:ddc7e7
+    Mae: BAY. #line:27e3bb
+    Bea: U0DPYFA, TJ1 B U0PRDKE? #line:cdc4e1
+    Mae: HY DA. HABEPH0E. K0HE4H0. #line:1f2166
+    Mae: YCTAVA. F0V0BA 60VNT K0T0PJ1L DEHJ. #line:e51b33
+    Bea: TJ1 D0VSHA U0LTN D0M0L N BJ1CUATJCR. #line:c763d5
+    Bea: KASNCJ, TJ1 YSE HA FPAHN N3DJ1XAHNR. #line:10e391
+    Mae: HE-A. R B U0PRDKE. #line:1d655b
+    Mae: MHE VEF4E, K0FDA R 4EM-T0 3AHNMA%CJ. #line:fe9c20
+    Bea: KAK UP0DBNFAETCR TB0R 0X0TA HA GT0F0 "UPN3PAKA"? #line:9bde00
+        ->"UPN3PAKA"? #line:c74715
+            Bea: UP0CTN. UPN3PAKA. #line:5d7f1c
+            Mae: CUACN60. #line:531320
+            Mae: D0B0VJH0 ZNF0B0 #line:790eaf
+        -> UV0X0 #line:69d23b
+    Mae: B CMJ1CVE, KAK T0VJK0 BCE GT0 HA4AV0CJ, R DASE UP0CJ1UA%CJ YCTABQEL #line:c44dcc
+    Mae: KAK 6YDT0, KT0-T0 3ACEV B M0EL F0V0BE #line:0aa078
+    Mae: N M0L 4EPEU CK0P0 B30PBETCR. #line:6278b9
+    Bea: HY DA, GT0 HE KVEB0. #line:6dcd05
+    Mae: HE-A. #line:8c4642
+    Bea: XM. #line:cd657f
+<<endif>>
+
+<<if $did_bea_investigation_quest is 0>>
+    Bea: BCE EWE X04EQJ UP0BEPNTJ KVAD6NWE? #line:345d97
+    -> HE... HE CEF0DHR. #line:467499
+        Bea: DAL 3HATJ, KAK HADYMAEQJ! #line:e1ea5e
+    -> AFA, DABAL CDEVAEM GT0. #line:48ef6a
+        [[InvestigationQuest]]
+<<else>>
+    <<set $bea_done to 1>>
+<<endif>>
+===
+title: A3D2_00
+tags: 
+colorID: 4
+position: 1470,9089
+---
+<<if $bea_day_intro is 0>>
+    <<set $bea_day_intro to 1>>
+    Mae: UPNBET, 6N. #line:4821a2
+    Bea: UPNBET, MGL. #line:35186b
+    Bea: MHE KASETCR, R CK0P0 CUAV% GT0 MECT0. #line:655d02
+    Mae: 0X KPYT0! #line:914773
+    Mae: B CMJ1CVE, K0HE4H0, M0FYT 6J1TJ N U0CVEDCTBNR #line:fab5e4
+    Bea: MJ1 CM0SEM U0VY4NTJ DEHJFN N3 CTPAX0BKN. #line:e9df43
+    Bea: N #line:619efa
+    Bea: HE 3AHNMATJCR GTNM. #line:a01e34
+    Mae: 4T0, ECVN TE6R U0LMA%T? #line:54b8d5
+    Mae: R BNDEVA U0 TB, KAK K0F0-T0 HA GT0M U0LMAVN. #line:51757f
+    Bea: ... #line:f46362
+    Bea: TJ1 CUAVNQJ GT0 MECT0, PADN MEHR. #line:a0f2d7
+    Mae: 0 KPYT0! #line:0f8733
+    Mae: PA3BE R HE U0UADY B T%PJMY 3A GT0? #line:53ef58
+    Bea: HET, Y TE6R SE HET M0TNBA! #line:5be1a9
+    Bea: HNKT0 N HE 3AU0D03PNT! #line:beb025
+    Mae: 4T0, C PA60T0L HE VADNTCR? #line:f90a3f
+    Bea: AAAFXXX. #line:ae1faf
+    <<wait 2>>
+    Mae: 3HA4NT R U0QVA U0DSNFATJ. #line:b20864
+    Bea: U0SAVYLCTA, HE U0DSNFAL HN4EF0. #line:bbc7ce
+    Mae: 0KEL VADH0. #line:5cbd0d
+<<endif>>
+
+Bea: X04EQJ CX0DNTJ UP0BEPNTJ KVAD6NWE? #line:9662a0
+    -> HE... HE CEF0DHR. #line:6f9838
+        Bea: DAL 3HATJ, KAK HADYMAEQJ! #line:94a001
+    -> AFA, DABAL CDEVAEM GT0. #line:9ab105
+        [[InvestigationQuest]]
+===
+title: FriendshipQuest
+tags: 
+colorID: 4
+position: 1854,9650
+---
+<<if $dom_friend_bea is 0>>
+    Bea: BCE H0PM. R 3AHRTA. #line:7dbf0f
+    Bea: A FPEFF N AHFYC 6EPYT HA BE4EP M0% TA4KY #line:5aca82
+    Bea: TAK 4T0 R TYT 3ACTPRVA. #line:a987cc
+    Mae: A, 0KEL. #line:f6b357
+    Bea: M0SET 6J1TJ U0CM0TPNQJ, 4T0 0HN TAM 3ADYMAVN? #line:b2d186
+    Bea: 0HN C06NPAVNCJ KYDA-T0 NVN TNUA T0F0. #line:a96a50
+    <<wait 2>>
+    Bea: A R - HET. #line:e16f21
+<<else>>
+    <<close>>
+    <<set $bea_friendship_quest to 4>>
+    <<irisOut 1 wait>>
+    <<sectionTitle BeaFQ4Intro BeaCar>>
+<<endif>>
+===
