@@ -3,9 +3,7 @@ Python script to simplify modifications of Night in the Woods phrazes
 
 With the help of NITW-Dialogue-Tool it is possible to extract all .yarn.txt files from the .assets Unity archived files. This script goes a little bit further by collecting all the names and phrazes of the characters from already extracted files in one file, simplifying the process of modifications and eliminating the need to see all the stuff behind the scenes.
 
-`python ./main `
-`-r` for decipherement of originally substituted russificated files
-`-e` to translate original emoticons in Esperanto (I created a program to simplify my translation, so chances are 99% that you won't need it)
+`python ./main ` `-r` tor decipherement of originally substituted russificated files `-e` to translate original emoticons in Esperanto (I created a program to simplify my translation, so chances are 99% that you won't need it)
 1) Extracts all the names and phrazes from the .yarn.txt files situated in "original" directory into "phrazes.txt"
 2) Copies contents of "phrazes.txt" into "phrazes_translated.txt", if it didn't existed before, in other case asks for permission to rewrite not to delete progress of modification accidentally.
 3) Copies content of "original" directory to "not_patched" for the next step (needed for preserving automatic changes because of specified options)
