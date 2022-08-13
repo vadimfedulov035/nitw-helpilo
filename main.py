@@ -127,26 +127,31 @@ def collect_named_phrases():
     approve = "{}/{} approve"
     question = f"Next step will rewrite \"{name_post}\" based on \"{name_pre}\". " + \
     "Do you agree? (y/n): "
+    answer = ["N"]
+    name_post_exists = True
     with open(name_pre, "w+", encoding="utf-8") as f:
         text = "\n".join(NAMED_PHRASES)
         f.write(text)
     with open("phrase_addresses.txt", "w+", encoding="utf-8") as f:
         text = "\n".join(phrase_ADDRESSES)
         f.write(text)
-    for i in range(APPROVE_NUM):
-        approve_question = f"{approve} | {question}"
-        answers.append(input(approve_question.format(i + 1, APPROVE_NUM)))
+    if not os.path.exists(name_post):
+        name_post_exists = False
+    else:
+        for i in range(APPROVE_NUM):
+            approve_question = f"{approve} | {question}"
+            answers.append(input(approve_question.format(i + 1, APPROVE_NUM)))
     try:
-        if all([answer[0].capitalize() == "Y" for answer in answers]):
+        if not name_post_exists or all([answer[0].capitalize() == "Y" for answer in answers]):
             load(name_pre, name_post, mode="file")
-            print(f"Successfully rewrited \"{name_post}\"!")
+            print(f"Successfully (re)writed \"{name_post}\"!")
         else:
             print(f"Did't rewrite \"{name_post}\" because of ambigue answers. Abort.")
     except IndexError:
         print("You've answered nothing once or more times! Abort!")
 
 
-def patch_based_on_translated_named_phrases(translate_emoticons):
+def patch_based_on_translated_named_phrases():
     reload("patched", mode="dir")
     with open("phrases_translated.txt", "r", encoding="utf-8") as translation_file, \
          open("phrase_addresses.txt", "r", encoding="utf-8") as address_file:
@@ -174,17 +179,14 @@ def patch_based_on_translated_named_phrases(translate_emoticons):
                     f"{phrase_translated}{lines[line_i][jdx:]}"
                     lines[line_i] = line_translated
                 text = "\n".join(lines)
-                if translate_emoticons:
-                    for key, value in emoticons_table.items():
-                        text = re.sub(value, re.escape(key), text)
                 patched_file.write(text + "\n")
 
 
 def main():
     HELP_MSGS = [
         "replace the original content with new version",
-        "specify if original content is in Russian and needs decipherment",
-        "specify if don't want to translate emoticons en Esperanto",
+        "specify only if original content is in Russian and needs decipherment",
+        "specify only if want to translate emoticons in Esperanto (one-way)",
     ]
     parser = argparse.ArgumentParser()
     parser.add_argument("-p", "--patch", dest="patch",
@@ -196,7 +198,7 @@ def main():
     args = parser.parse_args()
 
     if args.patch:
-        patch_based_on_translated_named_phrases(args.translate_emoticons)
+        patch_based_on_translated_named_phrases()
     else:
         extract_named_phrases(args.decipher_russification, args.translate_emoticons)
         collect_named_phrases()
