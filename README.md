@@ -1,4 +1,4 @@
-# nitw-helper
+# nitw-helpilo
 ## Python script to simplify modifications of Night in the Woods phrases
 
 With the help of [NITW-Dialogue-Tool](https://github.com/emberimp/NITW-Dialogue-Tool) it is possible to extract all .yarn.txt files from the .assets Unity archived files. This script goes a little bit further by collecting all the names and phrases of the characters from already extracted files in one file, simplifying the process of modifications and eliminating the need to see all the stuff behind the scenes.
