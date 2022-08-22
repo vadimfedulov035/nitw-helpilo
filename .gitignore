@@ -1,0 +1,6 @@
+*.exe
+not_patched
+patched
+phrase_addresses.txt
+phrases_translated.txt
+phrases.txt

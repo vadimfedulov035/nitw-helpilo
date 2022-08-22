@@ -6,7 +6,7 @@ import argparse
 
 
 NAMED_PHRASES = []
-phrase_ADDRESSES = []
+PHRASE_ADDRESSES = []
 APPROVE_NUM = 1
 
 
@@ -67,7 +67,7 @@ def get_span_and_name(re_sp, re_ba):
 
 def extract_named_phrases(decipher_russification, translate_emoticons):
     global NAMED_PHRASES
-    global phrase_ADDRESSES
+    global PHRASE_ADDRESSES
     reload("not_patched", mode="dir")
     re_evr_inc = r"(.*?)"
     re_evr_exc = r"(?:.*?)"
@@ -109,7 +109,7 @@ def extract_named_phrases(decipher_russification, translate_emoticons):
                     else:
                         phrase = line[idx:jdx]
                     NAMED_PHRASES.append(f"{name}{phrase}")
-                    phrase_ADDRESSES.append(f"{filename}/{i + 1}/" + \
+                    PHRASE_ADDRESSES.append(f"{filename}/{i + 1}/" + \
                     f"{idx}/{idx + len(phrase)}")  # in case if replacement happened
                 lines[i] = line
             text = "\n".join(lines)
@@ -119,7 +119,7 @@ def extract_named_phrases(decipher_russification, translate_emoticons):
 
 def collect_named_phrases():
     global NAMED_PHRASES
-    global phrase_ADDRESSES
+    global PHRASE_ADDRESSES
     global APPROVE_NUM
     answers = []
     name_pre = "phrases.txt"
@@ -133,7 +133,7 @@ def collect_named_phrases():
         text = "\n".join(NAMED_PHRASES)
         f.write(text)
     with open("phrase_addresses.txt", "w+", encoding="utf-8") as f:
-        text = "\n".join(phrase_ADDRESSES)
+        text = "\n".join(PHRASE_ADDRESSES)
         f.write(text)
     if not os.path.exists(name_post):
         name_post_exists = False
