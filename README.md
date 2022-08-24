@@ -9,9 +9,9 @@ With the help of [NITW-Dialogue-Tool](https://github.com/emberimp/NITW-Dialogue-
 
 Regex codes used for fetching names and phrases respectively (firstly special lines are replaced for convenience):
 
-NITW re_basic_line: https://regex101.com/r/FIpyta/3
+NITW re_basic_line search pattern: https://regex101.com/r/FIpyta/5
 
-NITW re_special_line: https://regex101.com/r/2e55Rf/4
+NITW re_special_line search pattern: https://regex101.com/r/2e55Rf/5
 
 `python ./main `| `-r` to decipher originally substituted russificated files| `-e` to translate original emoticons in Esperanto (the script was created to simplify translation of the game in Esperanto, so chances are 99.9% that you won't need it)
 
