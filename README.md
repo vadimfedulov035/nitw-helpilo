@@ -1,6 +1,10 @@
 # nitw-helpilo
 ## Python script to simplify modifications of Night in the Woods phrases
 
+[![video](http://www.nightinthewoods.com/images/banner.jpg)](https://www.youtube.com/watch?v=u17kM8oSz3k)
+
+Klaku sur bildon por spekti anticipfilmeton pri la ludo!
+
 With the help of [NITW-Dialogue-Tool](https://github.com/emberimp/NITW-Dialogue-Tool) it became possible to extract all the .yarn.txt files from the .assets Unity archived files of Night in the Woods game. This script goes a little bit further by collecting all the names and phrases of the characters from already extracted files in one file, simplifying the process of modifications and eliminating the need to see all the stuff behind the scenes while changing phrases.
 
 Regex codes used for fetching names and phrases respectively (firstly special lines are replaced for convenience):
