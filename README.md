@@ -1,7 +1,7 @@
 # nitw-helpilo
 ## Python script to simplify modifications of Night in the Woods phrases
 
-[![video](http://www.nightinthewoods.com/images/banner.jpg)](https://www.youtube.com/watch?v=u17kM8oSz3k)
+[![video](https://github.com/vadimfedulov035/nitw-helpilo/main/cover.jpg)](https://www.youtube.com/watch?v=u17kM8oSz3k)
 
 Klaku sur bildon por spekti anticipfilmeton pri la ludo!
 
