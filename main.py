@@ -5,7 +5,7 @@ import shutil
 import argparse
 
 
-NAMED_PHRASES = []
+PHRASES = []
 PHRASE_ADDRESSES = []
 APPROVE_NUM = 1
 
@@ -52,44 +52,31 @@ def sub_in_line(line, idx, jdx, look_up_table):
     return fixed_line, line_fix
 
 
-def get_span_and_name(re_sp, re_ba):
+def get_name_and_span(re_special, re_basic):
     name = None
     span = (None, None)
-    if re_sp is not None:
-        span = re_sp.span(1)
-    elif re_ba is not None:
-        span = re_ba.span(2)
-        name = re_ba.group(1)
+    if re_special is not None:
+        span = re_special.span("PHRASE")
+    elif re_basic is not None:
+        span = re_basic.span("PHRASE")
+        name = re_basic.group("NAME")
     if name is None:
-        name = "Not Stated:"
+        name = "Not Stated"
     return name, span
 
 
 def extract_named_phrases(decipher_russification, translate_emoticons):
-    global NAMED_PHRASES
+    global PHRASES
     global PHRASE_ADDRESSES
     reload("not_patched", mode="dir")
-    re_evr_inc = r"(.*?)"
-    re_evr_exc = r"(?:.*?)"
-    re_name_inc = r"(\w*?\:)"
-    re_noname_exc = r"(?:->)"
-    re_name_inc_or_noname_exc = fr"{re_name_inc}?{re_noname_exc}?"
-    re_cur_brs_exc = r"(?:\{.*?\})"
-    re_sqr_brs_exc = r"(?:\[.*?\])"
-    re_cur_and_sqr_brs_exc = fr"{re_cur_brs_exc}*{re_sqr_brs_exc}*"
-    re_cur_brs_rpart_exc = r"(?:\{.*?\})"
-    re_sqr_brs_rpart_exc = r"(?:\[\/.*?\])"  # lpart will be inside found group
-    re_cur_and_sqr_brs_rpart_exc = fr"{re_cur_brs_rpart_exc}?{re_sqr_brs_rpart_exc}?"
-    re_special_line_str = fr"\[\[{re_cur_brs_exc}?{re_evr_inc}{re_cur_brs_exc}?" + \
-    fr"\|{re_evr_exc}\]\]\s*#line"
-    re_basic_line_str = fr"\s*{re_name_inc_or_noname_exc}\s*" + \
-    fr"{re_cur_and_sqr_brs_exc}\s*{re_evr_inc}" + \
-    fr"{re_cur_and_sqr_brs_rpart_exc}\s*#line"
-    re_special_line = re.compile(re_special_line_str)
-    re_basic_line = re.compile(re_basic_line_str)
+    re_special_search_str = r"\[\[(?:\{.*?\})?(?P<PHRASE>.*?)(?:\{.*?\})?\|(?:.*?)\]\]\s*#line"
+    re_basic_search_str = r"\s*(?:(?P<NAME>\w*?)(?:\:))?(?:->)?\s*(?:\{.*?\})*(?:\[.*?\])*\s*(?P<PHRASE>.*?)(?:\{.*?\})?(?:\[\/.*?\])?\s*#line"
+    re_special_search = re.compile(re_special_search_str)
+    re_basic_search = re.compile(re_basic_search_str)
     print(f"Following regex expressions have been used for compilation:")
-    print(f"re_special_line: {re_special_line_str}")
-    print(f"re_basic_line: {re_basic_line_str}")
+    print(f"re_special_search: {re_special_search_str}")
+    print(f"re_basic_search: {re_basic_search_str}")
+    total_line_num = 0
     for filename in os.listdir("original"):
         with open(os.path.join("original", filename), "r", encoding="utf-8") as original_file:
             lines = original_file.readlines()
@@ -99,18 +86,19 @@ def extract_named_phrases(decipher_russification, translate_emoticons):
                 if translate_emoticons:
                     for key, value in emoticons_table.items():
                         line = re.sub(re.escape(key), value, line)
-                re_sp = re.search(re_special_line, line)
-                re_ba = re.search(re_basic_line, line)
-                name, span = get_span_and_name(re_sp, re_ba)
+                re_special = re.search(re_special_search, line)
+                re_basic = re.search(re_basic_search, line)
+                name, span = get_name_and_span(re_special, re_basic)
                 if span != (None, None):
+                    total_line_num += 1
                     idx, jdx = span
                     if decipher_russification:
                         line, phrase = sub_in_line(line, idx, jdx, chars_table)
                     else:
                         phrase = line[idx:jdx]
-                    NAMED_PHRASES.append(f"{name}{phrase}")
-                    PHRASE_ADDRESSES.append(f"{filename}/{i + 1}/" + \
-                    f"{idx}/{idx + len(phrase)}")  # in case if replacement happened
+                    PHRASES.append(f"{total_line_num}:{name}:{phrase}")
+                    PHRASE_ADDRESSES.append(f"{total_line_num}/{filename}/" + \
+                    f"{i + 1}/{idx}/{idx + len(phrase)}")  # len() if changed
                 lines[i] = line
             text = "\n".join(lines)
             with open(os.path.join("not_patched", filename), "w+", encoding="utf-8") as not_patched_file:
@@ -118,11 +106,11 @@ def extract_named_phrases(decipher_russification, translate_emoticons):
 
 
 def collect_named_phrases():
-    global NAMED_PHRASES
+    global PHRASES
     global PHRASE_ADDRESSES
     global APPROVE_NUM
     answers = []
-    name_pre = "phrases.txt"
+    name_pre = "phrases_collected.txt"
     name_post = "phrases_translated.txt"
     approve = "{}/{} approve"
     question = f"Next step will rewrite \"{name_post}\" based on \"{name_pre}\". " + \
@@ -130,7 +118,7 @@ def collect_named_phrases():
     answer = ["N"]
     name_post_exists = True
     with open(name_pre, "w+", encoding="utf-8") as f:
-        text = "\n".join(NAMED_PHRASES)
+        text = "\n".join(PHRASES)
         f.write(text)
     with open("phrase_addresses.txt", "w+", encoding="utf-8") as f:
         text = "\n".join(PHRASE_ADDRESSES)
@@ -155,24 +143,24 @@ def patch_based_on_translated_named_phrases():
     reload("patched", mode="dir")
     with open("phrases_translated.txt", "r", encoding="utf-8") as translation_file, \
          open("phrase_addresses.txt", "r", encoding="utf-8") as address_file:
-        named_phrases_translated = translation_file.readlines()
-        named_phrases_translated = [line.rstrip() for line in named_phrases_translated]
-        named_phrases_translated = [re.split(":", line) for line in named_phrases_translated]
-        phrases_translated = ["".join(phrase).lstrip() for (name, *phrase) in named_phrases_translated]
+        phrases_translated = translation_file.readlines()
+        phrases_translated = [line.rstrip() for line in phrases_translated]
+        phrases_translated = [re.split(":", line) for line in phrases_translated]
+        phrases_translated = ["".join(phrase).lstrip() for (total_line_num, name, *phrase) in phrases_translated]
         phrase_addresses = address_file.readlines()
         phrase_addresses = [line.rstrip() for line in phrase_addresses]
         phrase_addresses = [line.split("/") for line in phrase_addresses]
         occs = {}
         for filename in os.listdir("not_patched"):
-            occs[filename] = [i for i, phrase_address in enumerate(phrase_addresses) if phrase_address[0] == filename]
+            occs[filename] = [i for i, phrase_address in enumerate(phrase_addresses) if phrase_address[1] == filename]
         for filename in os.listdir("not_patched"):
             with open(os.path.join("not_patched", filename), "r", encoding="utf-8") as not_patched_file, \
                  open(os.path.join("patched", filename), "w", encoding="utf-8") as patched_file:
                 lines = not_patched_file.readlines()
                 lines = [line.rstrip() for line in lines]
                 for occ in occs[filename]:
-                    filename, line_num, idx, jdx = phrase_addresses[occ]
-                    line_i = int(line_num) - 1
+                    total_line_num, filename, actual_line_num, idx, jdx = phrase_addresses[occ]
+                    line_i = int(actual_line_num) - 1
                     idx, jdx = int(idx), int(jdx)
                     phrase_translated = phrases_translated[occ]
                     line_translated = f"{lines[line_i][:idx]}" + \
