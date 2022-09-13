@@ -18,7 +18,7 @@ NITW re_special_line search pattern: https://regex101.com/r/2e55Rf/5
 ### Steps:
 1) Extracts all names and phrases from the .yarn.txt files situated in "original" directory into "phrases.txt" via structure: total_line_num:name:phrase
 2) Copies content of "phrases_collected.txt" into "phrases_translated.txt", if it didn't existed before, in other case asks for permission to rewrite
-3) Writes all phrase addresses into "phrase_addresses.txt", this way becomes possible to learn which specific file is being modified and where exactly while changing "phrases_translated.txt", via strucure: total_line_num/filename/line_num/start_of_phrase/end_of_phrase
+3) Writes all phrase addresses into "phrase_addresses.txt", this way becomes possible to learn which specific file is being modified and where exactly while changing "phrases_translated.txt", via structure: total_line_num/filename/line_num/start_of_phrase/end_of_phrase
 4) Copies content of "original" directory to "not_patched" created on the fly (needed to preserve possible automatic changes based on elected options "-r" or "-e")
 
 `python ./main -p`

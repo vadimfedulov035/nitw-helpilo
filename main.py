@@ -96,7 +96,7 @@ def extract_named_phrases(decipher_russification, translate_emoticons):
                         line, phrase = sub_in_line(line, idx, jdx, chars_table)
                     else:
                         phrase = line[idx:jdx]
-                    PHRASES.append(f"{total_line_num}:{name}:{phrase}")
+                    PHRASES.append(f"{total_line_num}/{name}/{phrase}")
                     PHRASE_ADDRESSES.append(f"{total_line_num}/{filename}/" + \
                     f"{i + 1}/{idx}/{idx + len(phrase)}")  # len() if changed
                 lines[i] = line
@@ -145,7 +145,7 @@ def patch_based_on_translated_named_phrases():
          open("phrase_addresses.txt", "r", encoding="utf-8") as address_file:
         phrases_translated = translation_file.readlines()
         phrases_translated = [line.rstrip() for line in phrases_translated]
-        phrases_translated = [re.split(":", line) for line in phrases_translated]
+        phrases_translated = [re.split("/", line) for line in phrases_translated]
         phrases_translated = ["".join(phrase).lstrip() for (total_line_num, name, *phrase) in phrases_translated]
         phrase_addresses = address_file.readlines()
         phrase_addresses = [line.rstrip() for line in phrase_addresses]
