@@ -48,7 +48,7 @@ def sub_in_line(line, idx, jdx, look_up_table):
     line_nofix_post = line[jdx:]
     for key, value in look_up_table.items():
         line_fix = re.sub(key, value, line_fix)
-    fixed_line = line_nofix_pre + line_fix + line_nofix_post
+    fixed_line = f"{line_nofix_pre}{line_fix}{line_nofix_post}"
     return fixed_line, line_fix
 
 
@@ -96,9 +96,9 @@ def extract_named_phrases(decipher_russification, translate_emoticons):
                         line, phrase = sub_in_line(line, idx, jdx, chars_table)
                     else:
                         phrase = line[idx:jdx]
-                    PHRASES.append(f"{total_line_num}/{name}/{phrase}")
-                    PHRASE_ADDRESSES.append(f"{total_line_num}/{filename}/" + \
-                    f"{i + 1}/{idx}/{idx + len(phrase)}")  # len() if changed
+                    PHRASES.append(f"{total_line_num}•{name}♦️{phrase}♦️")
+                    PHRASE_ADDRESSES.append(f"{total_line_num}•{filename}:" + \
+                    f"{i + 1}:{idx}:{idx + len(phrase)}")  # len() if changed
                 lines[i] = line
             text = "\n".join(lines)
             with open(os.path.join("not_patched", filename), "w+", encoding="utf-8") as not_patched_file:
@@ -112,16 +112,14 @@ def collect_named_phrases():
     answers = []
     name_pre = "phrases_collected.txt"
     name_post = "phrases_translated.txt"
+    name_addr = "phrase_addresses.txt"
     approve = "{}/{} approve"
-    question = f"Next step will rewrite \"{name_post}\" based on \"{name_pre}\". " + \
+    question = f"Next step will rewrite \"{name_post}\" based on \"{name_pre}\" and renew \"{name_addr}\". " + \
     "Do you agree? (y/n): "
     answer = ["N"]
     name_post_exists = True
     with open(name_pre, "w+", encoding="utf-8") as f:
         text = "\n".join(PHRASES)
-        f.write(text)
-    with open("phrase_addresses.txt", "w+", encoding="utf-8") as f:
-        text = "\n".join(PHRASE_ADDRESSES)
         f.write(text)
     if not os.path.exists(name_post):
         name_post_exists = False
@@ -133,8 +131,12 @@ def collect_named_phrases():
         if not name_post_exists or all([answer[0].capitalize() == "Y" for answer in answers]):
             load(name_pre, name_post, mode="file")
             print(f"Successfully (re)writed \"{name_post}\"!")
+            with open("phrase_addresses.txt", "w+", encoding="utf-8") as f:
+                text = "\n".join(PHRASE_ADDRESSES)
+                f.write(text)
+            print(f"Successfully (re)writed \"{name_addr}\"!")
         else:
-            print(f"Did't rewrite \"{name_post}\" because of ambigue answers. Abort.")
+            print(f"Did't rewrite \"{name_post}\" and \"{name_addr}\" because of ambigue answers. Abort.")
     except IndexError:
         print("You've answered nothing once or more times! Abort!")
 
@@ -145,11 +147,11 @@ def patch_based_on_translated_named_phrases():
          open("phrase_addresses.txt", "r", encoding="utf-8") as address_file:
         phrases_translated = translation_file.readlines()
         phrases_translated = [line.rstrip() for line in phrases_translated]
-        phrases_translated = [re.split("/", line) for line in phrases_translated]
+        phrases_translated = [re.split("•|♦️", line) for line in phrases_translated]
         phrases_translated = ["".join(phrase).lstrip() for (total_line_num, name, *phrase) in phrases_translated]
         phrase_addresses = address_file.readlines()
         phrase_addresses = [line.rstrip() for line in phrase_addresses]
-        phrase_addresses = [line.split("/") for line in phrase_addresses]
+        phrase_addresses = [re.split("•|/", line) for line in phrase_addresses]
         occs = {}
         for filename in os.listdir("not_patched"):
             occs[filename] = [i for i, phrase_address in enumerate(phrase_addresses) if phrase_address[1] == filename]
