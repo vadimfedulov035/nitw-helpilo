@@ -19,86 +19,86 @@ position: 324,330
 <<walk Germ Germ1>>
 
 <<waitForMove Mae>>
-Germ: 0, B0T N 0HA. #line:cc0fc3
+Germ: oh, here she is. #line:cc0fc3
 <<close>>
 <<wait 2>>
-GermGramma: CT0LKAR DEB04KA. #line:d3026e
+GermGramma: Sturdy girl. #line:d3026e
 Mae: ... #line:d0d6d8
-Mae: M0L DEDYQKA TAK F0B0PNV. #line:1b4c30
-Mae: A BJ1... #line:8fe183
-Germ: GT0 6A6YQKA. #line:33cc24
+Mae: My granddad said that. #line:1b4c30
+Mae: Did you... #line:8fe183
+Germ: this is Gramma. #line:33cc24
 <<lookAt Mae GermGramma>>
-Mae: 3DPACJTE. #line:cf6307
-GermGramma: YFY. #line:b2e759
+Mae: Hello. #line:cf6307
+GermGramma: Mmhmm. #line:b2e759
 <<wait 2>>
 <<lookAt Mae Germ>>
-Germ: VADJ1, HY, YBNDNMCR! #line:0c0ebf
+Germ: ok, well, see ya! #line:0c0ebf
 <<walk Germ Germ0>>
-Mae: CT0U, 4T0? #line:ce993e
+Mae: Wait, what? #line:ce993e
 <<close>>
 <<walk Germ Germ0>>
 <<wait 2>>
 <<lookAt Mae GermGramma>>
 <<wait 1>>
-Mae: BJ1 CM0TPNTE HA MEHR. #line:f64841
-GermGramma: CT0LKAR - U0DX0DRWEE CV0B0 DVR TE6R. #line:907318
-GermGramma: KPYUHJ1E K0CTN. UP04HJ1E. #line:5789db
-Mae: DA. #line:7c2152
+Mae: You're looking at me. #line:f64841
+GermGramma: Sturdy's a good word for you. #line:907318
+GermGramma: Big bones. Stout. #line:5789db
+Mae: Yep. #line:7c2152
 <<wait 2>>
-Mae: TAAAAK... GT0 BCE? #line:808162
-GermGramma: 0Y, UP0CTN. #line:ebb8f1
-GermGramma: R TE6R 0F0P4NVA? #line:3a6dea
-Mae: HET. #line:cca65d
-GermGramma: GT0 UV0X0. TJ1 D0VSHA 6J1TJ 0F0P4EHA. #line:d4b345
-GermGramma: T0, 4T0 SDET TE6R, %HAR VEDN, #line:3b34d5
-GermGramma: B TPN PA3A YSACHEE, 4EM TJ1 3ACVYSNBAEQJ. #line:820ff5
-GermGramma: TJ1 YLDEQJ FVY60K0 U0D 3EMV%, #line:bf8c48
-GermGramma: HEDAVEK0 0TC%DA. #line:53611c
-GermGramma: TJ1 0KASEQJCR U0D 3EMVEL, #line:87dcf3
-GermGramma: B GTNX VECAX. #line:eba622
-Mae: BJ1, TNUA, UPEDCKA3J1BAETE M0% CYDJ6Y? #line:2fa34b
+Mae: soooo... is that it? #line:808162
+GermGramma: oh, I'm sorry. #line:ebb8f1
+GermGramma: did I upset you? #line:3a6dea
+Mae: no. #line:cca65d
+GermGramma: too bad. you need to be upset. #line:d4b345
+GermGramma: what's coming to you, little girl #line:3b34d5
+GermGramma: is three times the trouble you deserve #line:820ff5
+GermGramma: you are going to go down hard #line:bf8c48
+GermGramma: not far from here #line:53611c
+GermGramma: you will go down #line:87dcf3
+GermGramma: in these woods. #line:eba622
+Mae: are you like, telling my fortune? #line:2fa34b
 <<wait 2>>
-GermGramma: DNTR, R HE 3HA%, 4T0 TJ1 CDEVAVA. #line:49f491
-GermGramma: B TE6E ECTJ TEMH0E URTH0, #line:4e5c9e
-GermGramma: K0T0P0E 0DHASDJ1 3A6EPET SN3HJ #line:43580e
-GermGramma: K0F0-T0 DPYF0F0 NVN SE TB0%. #line:d4362e
+GermGramma: little girl, i don't know what you did #line:49f491
+GermGramma: you've got a dark spot in you #line:4e5c9e
+GermGramma: that one day is gonna take a life.  #line:43580e
+GermGramma: might be someone else's. or it might be yours. #line:d4362e
 <<wait 2>>
-GermGramma: 3AU0MHN M0N CV0BA. #line:b625f2
-GermGramma: TJ1 06PE4EHA. #line:e09cdd
+GermGramma: mark my words. #line:b625f2
+GermGramma: you're doomed. #line:e09cdd
 <<wait 2>>
-Mae: VADH0. R, GM... U0UJ1TA%CJ 3AU0MHNTJ GT0. #line:ad5d52
+Mae: ok. i'll uh... try to remember that. #line:ad5d52
 Mae: o> O_o :\ #line:484aa0
-Mae: X0TR? HET. GT0 FVYU0. #line:3181ac
-Mae: TJ1 MEHR HE 3HAEQJ. #line:cfdc64
-Mae: H0 BCE SE, 4T0 C0 MH0L HE TAK? #line:5cee35
-Mae: DA, R HE T0VJK0 FPE6AHJ1L MAFHNT #line:760ab1
-Mae: DVR UP06VEM, K0T0PJ1E MEHR 0KPYSA%T. #line:b24e84
-Mae: "YYYX YYYX B BAC ECTJ TEMH0E URTH0" #line:c5ada1
-Mae: 4T0, 4EPT B03JMN, TJ1 B006WE 060 MHE 3HAEQJ?!? #line:86f2a4
+Mae: or actually? no. this is stupid. #line:3181ac
+Mae: you don't know me. #line:cfdc64
+Mae: whatever it is that's wrong with me? #line:5cee35
+Mae: yeah I'm not just an effing shell #line:760ab1
+Mae: for my problems to walk around in. #line:b24e84
+Mae: "uuuh uuuh you got a dark spot on you" #line:c5ada1
+Mae: What the actual hell do you know about me anyway?!? #line:86f2a4
 <<wait 2>>
-GermGramma: MHE HE U0D CNVY 0CTAH0BNTJ FPRDYWEE, #line:1d9dfa
-GermGramma: H0 U0D CNVY 3ADATJ TE6E B0UP0C, 4T0 TJ1 0CTABNQJ 6E3 0TBETA: #line:ac5d10
-GermGramma: M0SEQJ VN TJ1 04NCTNTJ UP0KVRTJ1L D0M? #line:470fef
+GermGramma: i can't stop what's coming #line:1d9dfa
+GermGramma: but ask you a question you can't answer #line:ac5d10
+GermGramma: can you unhaunt a haunted house? #line:470fef
 Mae: :| #line:69457f
-Mae: R... R... 4T0? #line:844391
+Mae: i... i... what? #line:844391
 <<wait 2>>
-GermGramma: XE-XE-XE! #line:2886f7
-GermGramma: HA CEKYHDY TJ1 6J1VA DELCTBNTEVJH0 6VN3KA. #line:b31981
-Mae: 4EF0? #line:54f9dd
-GermGramma: R UP0CT0 QY4Y HAD T060L. #line:0b98c7
-GermGramma: Y MEHR CB0E06PA3H0E 4YBCTB0 %M0PA. #line:4d9ec4
+GermGramma: heh heh heh #line:2886f7
+GermGramma: had you going there for a second #line:b31981
+Mae: what? #line:54f9dd
+GermGramma: i'm just joshin' ya #line:0b98c7
+GermGramma: i have my fun #line:4d9ec4
 Mae: o_o :\ _o_ #line:682a97
-Mae: 4T0 C BAMN HE TAK?!?! #line:cf0235
-Mae: GT0 CEPJE3H0 BCE U0PTNT!! #line:e1a96e
-GermGramma: XEE-XEE-XEE #line:0806d6
-GermGramma: A TJ1 M0V0DEO. #line:0c837a
-GermGramma: TEUEPJ CTYUAL, MNVAR! #line:7fa152
-GermGramma: DAL 6A6YVE U0CM0TPETJ CYDJ% DSEHNC #line:48f9e4
+Mae: what is wrong with you?!?! #line:cf0235
+Mae: that was seriously messed up!! #line:e1a96e
+GermGramma: hee hee hee #line:0806d6
+GermGramma: you're a good sport. #line:0c837a
+GermGramma: you go outside now, dear! #line:7fa152
+GermGramma: let gramma watch Judge Janice #line:48f9e4
 Mae: :| #line:2fa60d
-Mae: VADH0... GM... EWE YBNDNMCR! #line:603e38
-GermGramma: BPRD VN. #line:e9d792
+Mae: ok... uh... see ya around! #line:603e38
+GermGramma: not likely. #line:e9d792
 <<wait 2>>
-GermGramma: %HAR VEDN. #line:810669
+GermGramma: little girl. #line:810669
 <<close>>
 
 <<irisOut 1 wait>>

@@ -3,11 +3,11 @@ tags:
 colorID: 0
 position: 852,76
 ---
-GraveDigger: UPNBET. #line:fae61d
-Mae: 4E KAK. #line:65b23d
-GraveDigger: DA B0T M0FNVJ1 K0UA%. #line:ba87bb
-Mae: VADH0? #line:8fa2d5
-GraveDigger: U0PA UP0CJ1UATJCR! #line:be2afd
+GraveDigger: Hey. #line:fae61d
+Mae: Sup. #line:65b23d
+GraveDigger: Been digging some graves. #line:ba87bb
+Mae: Okay? #line:8fa2d5
+GraveDigger: Time to wake up! #line:be2afd
 <<fadeOut 1 wait>>
 <<endDay>>
 
@@ -17,41 +17,41 @@ tags:
 colorID: 0
 position: 1144,39
 ---
-ManOnHill: [color=2B81A9]MJ1 HE 3HAEM, K0FDA V0PD 3A6EPET HAC.[/color] #line:b57a04
-ManOnHill: [color=2B81A9]6PALAH 3HAV 06 0UACH0CTRX QAXT,[/color] #line:d655b9
-ManOnHill: [color=2B81A9]H0 0H V%6NV CB0% CEMJ%.[/color] #line:622bca
-ManOnHill: [color=2B81A9]N, KAK MH0FNE N3 HAC,[/color] #line:2bce78
-ManOnHill: [color=2B81A9]0H U0CTABNV NX UEPED CB0EL 6E30UACH0CTJ%.[/color] #line:049cad
-ManOnHill: [color=2B81A9]H0 60F HE6EC 0H SE N 60F TYHHEVEL.[/color] #line:ce4e76
-ManOnHill: [color=2B81A9]N MJ1 M0SEM YU0K0NTJCR B 3HAHNRX[/color] #line:c1f98b
-ManOnHill: [color=2B81A9]GT0 6PALAH TEUEPJ C BMECTE C HNM.[/color] #line:e85a06
-Crowd: [color=2B81A9]AMNHJ.[/color] #line:4ca3d3
-ManOnHill: [color=2B81A9]UPEDADNM 6PALAHA 3EMVE N PYKAM 60SJNM.[/color] #line:8fd25c
+ManOnHill: [color=2B81A9]we know not when the lord will take us.[/color] #line:b57a04
+ManOnHill: [color=2B81A9]brian knew the dangers of the mines[/color] #line:d655b9
+ManOnHill: [color=2B81A9]but he loved his family.[/color] #line:622bca
+ManOnHill: [color=2B81A9]and like so many of us[/color] #line:2bce78
+ManOnHill: [color=2B81A9]he put them before his own safety.[/color] #line:049cad
+ManOnHill: [color=2B81A9]But the god of heaven is the god of the tunnels.[/color] #line:ce4e76
+ManOnHill: [color=2B81A9]And we may rest in the knowledge[/color] #line:c1f98b
+ManOnHill: [color=2B81A9]That Brian is with Him now.[/color] #line:e85a06
+Crowd: [color=2B81A9]Amen.[/color] #line:4ca3d3
+ManOnHill: [color=2B81A9]We consign Brian to the dust, and to the care of the Lord.[/color] #line:8fd25c
 ===
 title: ManOnFence
 tags: 
 colorID: 0
 position: 501,49
 ---
-Mae:{align=middle,locator=MaeFenceTalk,width=2}UPNBET? #line:f98896
-ManOnFence: 4EF0? KT0 TAM? #line:bc7d6e
-Mae:{align=middle,locator=MaeFenceTalk,width=2}R MGL 60P0BCKN.#line:d083e6
-ManOnFence: 4EF0 TJ1 X04EQJ, UPN3PAK? #line:b61fe2
-[[{align=middle,locator=MaeFenceTalk,width=2}FDE R?|ManOnFence_WhereAmI]] #line:001163
-[[{align=middle,locator=MaeFenceTalk,width=2}GT0 U0X0P0HJ1?|ManOnFence_IsThisAFuneral]] #line:2dac70
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Hello? #line:f98896
+ManOnFence: What? Who’s there? #line:bc7d6e
+Mae:{align=middle,locator=MaeFenceTalk,width=2}I’m Mae Borowski. #line:d083e6
+ManOnFence: What do you want, ghost? #line:b61fe2
+[[{align=middle,locator=MaeFenceTalk,width=2}Where am I?|ManOnFence_WhereAmI]] #line:001163
+[[{align=middle,locator=MaeFenceTalk,width=2}Is this a funeral?|ManOnFence_IsThisAFuneral]] #line:2dac70
 ===
 title: ManOnFence_WhereAmI
 tags: 
 colorID: 0
 position: 321,335
 ---
-ManOnFence: TJ1 HA KVAD6NWE B U0CCYM CUPNHFC, UEHCNVJBAHNR. #line:09bb14
-ManOnFence: H0 TJ1 GT0 N TAK 3HAEQJ #line:f88c11
-ManOnFence: U0T0MY 4T0 UPNQVA HABECTNTJ MEHR #line:5916a2
-ManOnFence: B TAK0L 0DNH0KNL U0VDEHJ. #line:e3f0b1
-Mae:{align=middle,locator=MaeFenceTalk,width=2}R HE 0X04YCJ HA TE6R!#line:3f8f67
-Mae:{align=middle,locator=MaeFenceTalk,width=2}N R HE UPN3PAK!#line:acd788
-Mae:{align=middle,locator=MaeFenceTalk,width=2}N CEL4AC H04J!#line:820e82
+ManOnFence: You are in the cemetery in Possum Springs, Pennsylvania. #line:09bb14
+ManOnFence: But surely you know that #line:f88c11
+ManOnFence: for you have come here to haunt me #line:5916a2
+ManOnFence: on such a lonely afternoon. #line:e3f0b1
+Mae:{align=middle,locator=MaeFenceTalk,width=2}I’m not haunting you! #line:3f8f67
+Mae:{align=middle,locator=MaeFenceTalk,width=2}And I’m not a ghost! #line:acd788
+Mae:{align=middle,locator=MaeFenceTalk,width=2}And it’s night! #line:820e82
 [[ManOnFence_2]]
 
 ===
@@ -60,17 +60,17 @@ tags:
 colorID: 0
 position: 676,327
 ---
-ManOnFence: U0X0P0HJ1 6PALAHA PYKA. 0H TEUEPJ KAK TJ1, UPN3PAK. #line:530b5b
-Mae:{align=middle,locator=MaeFenceTalk,width=2}4T0 C HNM CVY4NV0CJ?#line:d8dcca
-ManOnFence: 3AD0XHYVCR B QAXTE. #line:f38eba
-ManOnFence: GD RONHN4 CU0TKHYVCR 06 HEF0 TPN HEDEVN HA3AD. #line:fc8823
-ManOnFence: 6PALAH 6J1V U0X0P0HEH B YF0VJH0L UJ1VN. #line:dfec5f
-Mae:{align=middle,locator=MaeFenceTalk,width=2}HY, GT0 BECJMA UYFA%WE!#line:67e7f9
-ManOnFence: 0HN D0CTAVN EF0 N3 3EMVN #line:11df27
-ManOnFence: U04NCTNVN #line:a3438c
-ManOnFence: HEMH0F0 U0CM0TPEVN HA HEF0 #line:c62a86
-ManOnFence: N TEUEPJ CH0BA X0P0HRT. #line:b3d0a0
-Mae:{align=middle,locator=MaeFenceTalk,width=2}AFA, KAK U0 MHE, GT0 D0B0VJH0 CTPAHH0.#line:becdf5
+ManOnFence: Of Brian Rooke. He is like you now, ghost. #line:530b5b
+Mae:{align=middle,locator=MaeFenceTalk,width=2}What happened to him? #line:d8dcca
+ManOnFence: Suffocated down the mines. #line:f38eba
+ManOnFence: Ed Yacynich tripped over him three weeks later. #line:fc8823
+ManOnFence: He was buried in coal dust. #line:dfec5f
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Well that’s pretty horrible! #line:67e7f9
+ManOnFence: They pull him out of the ground #line:11df27
+ManOnFence: they cleaned him up #line:a3438c
+ManOnFence: for awhile they looked at him #line:c62a86
+ManOnFence: and now they’re burying him again. #line:b3d0a0
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Yeah I guess that’s kind of weird. #line:becdf5
 [[ManOnFence_2]]
 ===
 title: ManOnFence_2
@@ -78,19 +78,19 @@ tags:
 colorID: 0
 position: 464,659
 ---
-ManOnFence: U04EMY TJ1 F0B0PNQJ C0 MH0L, UPN3PAK? #line:c99c07
-Mae:{align=middle,locator=MaeFenceTalk,width=2}60SE UPABJ1L, 0 4EM MJ1 B006WE BEDEM PA3F0B0P? :(#line:a6a04b
-ManOnFence: TE6R U0CVAVA 6A6YVR? 4T06J1 MEHR U0MY4ATJ? #line:ec703b
-Mae:{align=middle,locator=MaeFenceTalk,width=2, mood=5}U0CVYQAL, MHE CTPAQH0.#line:35f51a
-Mae:{align=middle,locator=MaeFenceTalk,width=2}R HE U0MH% KAK 0KA3AVCR 3DECJ.#line:1c3b6e
-Mae:{align=middle,locator=MaeFenceTalk,width=2}R YMEP?#line:599da9
-Mae:{align=middle,locator=MaeFenceTalk,width=2}M0L D0M CF0PEV BMECTE C0 MH0L?#line:d27013
-Mae:{align=middle,locator=MaeFenceTalk,width=2}0 60SE... MAMA N UAUA...#line:1e0ce2
-ManOnFence: U04EMY TJ1 MY4AEQJ MEHR? #line:49b487
-Mae:{align=middle,locator=MaeFenceTalk,width=2}U0SAVYLCTA, U0M0FN MHE!#line:81248d
-ManOnFence: U0K0LCR B 3EMVE, UPN3PAK #line:25c60e
-ManOnFence: FDE HNKT0 TE6R HE PA36YDNT #line:f17817
-ManOnFence: N MNP... MNP... MNP... #line:043131
+ManOnFence: Why do you speak to me, ghost? #line:c99c07
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Good god what are we even talking about? :( #line:a6a04b
+ManOnFence: Did Granny send you? To torment me? #line:ec703b
+Mae:{align=middle,locator=MaeFenceTalk,width=2, mood=5}Listen, I'm scared. #line:35f51a
+Mae:{align=middle,locator=MaeFenceTalk,width=2}I don't remember how I got here. #line:1c3b6e
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Did I die? #line:599da9
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Did my house burn down with me in it? #line:d27013
+Mae:{align=middle,locator=MaeFenceTalk,width=2}Oh my god... mom and dad... #line:1e0ce2
+ManOnFence: why do you torment me? #line:49b487
+Mae:{align=middle,locator=MaeFenceTalk,width=2}PLEASE HELP ME!!! #line:81248d
+ManOnFence: sleep in the ground, ghost #line:25c60e
+ManOnFence: where no one may wake you #line:f17817
+ManOnFence: and peace... peace... peace... #line:043131
 <<close>>
 <<trigger AstralAct1Day3 AstralFreakout>>
 <<wait 13>>
@@ -103,10 +103,10 @@ tags:
 colorID: 0
 position: 1590,168
 ---
-Mae: HE M0FY GT0 UP04NTATJ... #line:a7f2cf
-Mae: 4T0-T0 TAM F0PH0UP0MJ1QVEHH0E T0BAPNWECTB0... #line:f2205c
-Mae: DYMA%, 3DECJ HAUNCAH0 #line:ba9745
-Mae: HACEVEHNE 562? #line:f12b09
-Mae: XAX. #line:6d262c
+Mae: can't read this thing... #line:a7f2cf
+Mae: Something something mining company... #line:f2205c
+Mae: I think this one part says #line:ba9745
+Mae: population 562? #line:f12b09
+Mae: huh. #line:6d262c
 <<end>>
 ===

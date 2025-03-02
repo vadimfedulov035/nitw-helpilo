@@ -8,9 +8,9 @@ position: -1182,281
 Mae: o> #line:f0bfdb
 <<wait .5>>
 <<irisIn .5>>
-Mae: BP0DE, HEUV0X0. #line:330b7e
-[[60SE, GTA ZYT60VKA B CAM0M DEVE U0D4EPKNBAET M0% U0VH0TY, HE TAK VN?|Roundness]] #line:8d01f3
-[[Y MEHR UP0CT0 YSACH0E VNO0. K0QMAPH0E.|WorstFace]] #line:30f4d3
+Mae: Looking alright. #line:330b7e
+[[God, this shirt really accentuates my roundness, doesn't it?|Roundness]] #line:8d01f3
+[[I have the worst face. I have a nightmare face.|WorstFace]] #line:30f4d3
 ===
 title: Roundness
 tags: 
@@ -21,11 +21,11 @@ position: -1543,539
 <<lookDown Mae>>
 <<wait 1>>
 <<newSpeechBubble>>
-Mae:{locator=Left}DYMA%, GT0T KPYF HE U0M0FAET. _o_ #line:c7ba63
+Mae:{locator=Left}I think the round zero doesn’t help. _o_ #line:c7ba63
 <<closeOldSpeechBubbles>>
 <<newSpeechBubble>>
-[[{locator=Right}GT0 KPYT0, U0DPYFA. KPYF - GT0 KPYT0.|RoundIsOK]] #line:09007e
-[[{locator=Right}MHE CT0NT UEPECTATJ ECTJ 6YKBAVJH0 BCE, 4T0 R BNSY.|NeedToStopEatingEverything]] #line:93de69
+[[{locator=Right}It's cool, dude. Round is ok.|RoundIsOK]] #line:09007e
+[[{locator=Right}I need to stop eating literally everything I see.|NeedToStopEatingEverything]] #line:93de69
 ===
 title: NeedToStopEatingEverything
 tags: 
@@ -34,11 +34,11 @@ position: -1298,878
 ---
 <<set $eat_everything_i_see to 1>>
 <<closeOldSpeechBubbles>>
-Mae: TJZY, HE DEVAL GT0F0 C C060L, MGL. :\ #line:3a7e82
-Mae: HE CEF0DHR. #line:ad6b6f
-Mae: 3ABTPA TJ1 CDEVAEQJ KY4Y UPNCEDAHNL :) #line:b561c8
-Mae: N HAY4NQJCR V%6NTJ YSACHJ1E BEWN BP0DE M0PCK0L KAUYCTJ1, #line:a3493e
-Mae: N BCE 6YDET 0TVN4H0. #line:2e1863
+Mae: Ugh don't do this to yourself, Mae. :\ #line:3a7e82
+Mae: Not tonight. #line:ad6b6f
+Mae: Tomorrow you'll do lots of situps :) #line:b561c8
+Mae: and learn to like horrible things like kale #line:a3493e
+Mae: and everything will be great. #line:2e1863
 [[YouCanDoThis]]
 ===
 title: RoundIsOK
@@ -49,11 +49,11 @@ position: -1667,925
 <<set $body_posi to 1>>
 <<closeOldSpeechBubbles>>
 Mae: <o> #line:687f68
-Mae: R 60DNU03NTNBHA, KAK F0B0PNT NHTEPHET. :) #line:8d0e78
-Mae: R PEAVJHAR, SNBAR VN4H0CTJ. #line:47ccfc
+Mae: I'm being body-positive like the internet said.  :) #line:8d0e78
+Mae: I'm a real live person #line:47ccfc
 <<lookOut Mae>>
 Mae: _o_ #line:dfcdcf
-Mae: N HNKT0 HE D0KASET 06PATH0F0. :| #line:d2beb1
+Mae: and no one can prove I'm not. :| #line:d2beb1
 [[YouCanDoThis]]
 ===
 title: WorstFace
@@ -63,11 +63,11 @@ position: -778,540
 ---
 <<newSpeechBubble>>
 <<rotateHead Mae -10 .5>>
-Mae:{locator=Left}60SE4KN. KAK0L 6ECU0PRD0K. _o_ #line:6fba56
+Mae:{locator=Left}Geez. What a mess. _o_ #line:6fba56
 <<closeOldSpeechBubbles>>
 <<newSpeechBubble>>
-[[{locator=Right}M0N 60VJQNE FVYUJ1E FVA3A. K0QMAPHJ1E FVA3A.|MyNightmareEyes]] #line:909eb3
-[[{locator=Right}M0E U0KYCAHH0E YX0. K0QMAPH0E YX0.|MyNightmareEar]] #line:d1a9db
+[[{locator=Right}My big dumb eyes. My nightmare eyes.|MyNightmareEyes]] #line:909eb3
+[[{locator=Right}My messed up ear. My nightmare ear.|MyNightmareEar]] #line:d1a9db
 ===
 title: MyNightmareEyes
 tags: 
@@ -76,11 +76,11 @@ position: -905,870
 ---
 <<closeOldSpeechBubbles>>
 <<dilate Mae .75 1>>
-Mae: [speed=.5][shake=.03][color=DF3912]K0QMAPHJ1E FVA3A[/all] 6J1V0 6J1 0TVN4HJ1M HA3BAHNEM DVR ZNVJMA YSAC0B. o_o :| #line:f51895
-Mae: TJ1 YBNDNQJ K0QMAPHJ1E FVA3A 3A CB0NM 0KH0M. #line:7aa260
+Mae: [speed=.5][shake=.03][color=DF3912]Nightmare Eyes[/all] would be an excellent horror movie name. o_o :| #line:f51895
+Mae: You’ll see the Nightmare Eyes outside your window. #line:7aa260
 <<dilate Mae .5 .1>>
 <<rotateHead Mae 10 1>>
-Mae: [speed=.2][shake=.03][color=DF3912]N TJ1 U0LMEQJ.[/all] #line:51394b
+Mae: [speed=.2][shake=.03][color=DF3912]and you'll know.[/all] #line:51394b
 Mae: o_o #line:5ec453
 <<dilate Mae 1 3>>
 <<set $nightmare_eyes to 1>>
@@ -93,14 +93,14 @@ position: -544,882
 ---
 <<closeOldSpeechBubble>>
 Mae: =_= #line:01712e
-Mae: 0, DA, TE6E 6J1 BNDETJ T0F0 UCA, 4T0 CDEVAV GT0. #line:42a6ec
+Mae: Oh yeah, well you should see the dog who did that. #line:42a6ec
 <<set $dog_bite_dead to 1>>
-Mae: X0TR, U0F0DN, BPRD VN TJ1 EF0 YBNDNQJ. 0H MEPTB! #line:1f2861
-Mae: BCE-TAKN C06AKN SNBYT F0PA3D0 MEHJQE, 4EM MJ1! #line:59d4ce
+Mae: Oh wait you can't, because he’s dead! #line:1f2861
+Mae: Because dogs don't live as long as people! #line:59d4ce
 <<rotateHead Mae 10 1>>
 <<dilate Mae .5 3>>
-Mae: 3ACYHJ GT0 B CB0L K0CR40K N BJ1KYPN EF0, UEC! \o/ o_o #line:a2ef20
-Mae: [wave]CB0NMN CKEVETHJ1MN FY6AMN![/wave] #line:6b26f0
+Mae: Put that in your pipe and smoke it, dog! \o/ o_o #line:a2ef20
+Mae: [wave]with your skeleton lips![/wave] #line:6b26f0
 <<dilate Mae 1 3>>
 [[YouCanDoThis]]
 
@@ -113,10 +113,10 @@ position: -1103,1444
 <<rotateHead Mae 0 .7>>
 <<lookOut Mae>>
 Mae: o_o :| _o_ #line:7c95d9
-Mae: TJ1 CM0SEQJ. TJ1 HPABNQJCR V%DRM. #line:bc19c0
+Mae: You can do this. People like you. #line:bc19c0
 <<newSpeechBubble>>
-[[{locator=Left}04EBNDH0, TE6R HNKT0 HE V%6NT. |PeopleDontLikeYou]] #line:246469
-[[{locator=Left}04EBNDH0, TJ1 HE V%6NQJ V%DEL. |YouDontLikePeople]] #line:2c81a9
+[[{locator=Left}People don’t like you. Clearly.|PeopleDontLikeYou]] #line:246469
+[[{locator=Left}You don’t like people. Clearly.|YouDontLikePeople]] #line:2c81a9
 ===
 title: PeopleDontLikeYou
 tags: 
@@ -126,12 +126,12 @@ position: -1279,1813
 <<set $people_dont_like to 1>>
 <<newSpeechBubble>>
 <<closeOldSpeechBubbles>>
-Mae:{locator=Right}HNKAKNX DPY3EL B K0VVEDSE! #line:79a581
-Mae: HN 0DH0F0. #line:3a5c82
-Mae: HE C0BCEM NX BNHA. :\ #line:b477fb
-Mae: 4T0-T0... #line:5b30dc
+Mae:{locator=Right} No friends at college! #line:79a581
+Mae: Not even one. #line:3a5c82
+Mae: Not really their fault. :\ #line:b477fb
+Mae: Something's... #line:5b30dc
 Mae: ... #line:5614de
-Mae: HEBASH0. =_= :| #line:5e45d0
+Mae: Whatever. =_= :| #line:5e45d0
 [[ColeCheck]]
 ===
 title: YouDontLikePeople
@@ -142,16 +142,16 @@ position: -922,1821
 <<set $you_dont_like to 1>>
 <<newSpeechBubble>>
 <<closeOldSpeechBubbles>>
-Mae:{locator=Right} UP0CT0 U0T0MY, 4T0 GT0T 0HVALH-TECT CKA3AV #line:07723e
-Mae: GT0 TB0L VY4QNL QAHC, 4T06J1 CTATJ C4ACTVNB0L #line:70f7d2
-Mae: HYSH0 6J1TJ B K0MUAHNN, K0T0P0L TJ1 YSE HPABNQJCR, #line:7359a8
-Mae: H0 0HN 3A4ACTY% 0CTABVR%T TE6R B 0DNH04ECTBE, #line:b4502f
-Mae: 3A NCKV%4EHNEM, K0FDA 0HN UPNH0CRT TE6E EDY... #line:136970
-Mae: GT0 HE 3HA4NT, 4T0 HYSH0 UPRTATJCR B K0MHATE #line:aacb60
-Mae: N CNDETJ B 0SNDAHNN 4YDA. #line:b57408
-Mae: NMEHH0 TAK CTAH0BRTCR 0TQEVJHNKAMN, MGL. #line:fe169d
-Mae: N 0HN U0MNPA%T B 0DNH04ECTBE, U0CPEDN 3NMJ1. #line:f69eef
-Mae: B 0SNDAHNN UNOOJ1 0T DPY3EL, K0T0PJ1X 0HN HE X0TRT BNDETJ. #line:2392ed
+Mae:{locator=Right} Just because that online test said #line:07723e
+Mae: that your best chance at being happy #line:70f7d2
+Mae: is a situation where everyone already likes you #line:7359a8
+Mae: but they mostly leave you alone #line:b4502f
+Mae: except when they're delivering food to you... #line:136970
+Mae: that doesn't mean you can hide in your room #line:aacb60
+Mae: and wait for that to happen. #line:b57408
+Mae: That's how hermits are made, Mae. #line:fe169d
+Mae: And they die alone in the middle of winter. #line:f69eef
+Mae: Waiting for pizza from friends they don't want to see. #line:2392ed
 [[ColeCheck]]
 ===
 title: ColeCheck
@@ -171,25 +171,25 @@ tags:
 colorID: 0
 position: -1345,2517
 ---
-Mae: KAKAR PA3HNOA, 6YDET VN TAM K0YV? #line:dce9c9
-Mae: K03EV. =_= #line:6adac4
-[[BEP0RTH0, 0H B QK0VE NVN TNUA T0F0.|HesProbablyUpAtSchool]] #line:6ca9ad
-[[BJ1UYCKH0L 6J1V 0QN6K0L U0 10 PA3HJ1M UPN4NHAM|PromWasAMistake]] #line:4e6869
+Mae: Who cares if Cole is there? #line:dce9c9
+Mae: Jerk. =_= #line:6adac4
+[[He’s probably up at school or whatever.|HesProbablyUpAtSchool]] #line:6ca9ad
+[[Prom was a mistake in like 10 different ways|PromWasAMistake]] #line:4e6869
 ===
 title: HesProbablyUpAtSchool
 tags: 
 colorID: 0
 position: -1542,2876
 ---
-Mae: HE UP0FYVNBAET Y4E6Y. BECJ TAK0L YCUEQHJ1L. o_o #line:b42ac6
+Mae: Taking classes. Being all successful. o_o #line:b42ac6
 <<lookUp Mae>>
-Mae: B03M0SH0, DASE N HE DYMAET 060 MHE. #line:761d7a
-Mae: 4T0 X0P0Q0, U0T0MY 4T0 MHE, 4ECTH0, UVEBATJ. #line:e1d233
+Mae: Probably doesn’t even think about me. #line:761d7a
+Mae: Which is good because I honestly don’t care. #line:e1d233
 <<lookOut Mae>>
-Mae: H0 R M0V% V%60F0 N3 60F0B, K0T0PJ1L MEHR CVJ1QNT, 4T06J1 EF0 TAM HE 6J1V0. #line:2e3d9f
-Mae: U0SAVYLCTA, U0ZNF-KAK0L-60F. #line:2f83a5
+Mae: But I hope to any god who is listening that he isn’t there. #line:2e3d9f
+Mae: Please whatevergod. #line:2f83a5
 <<set $whatever_god to 1>>
-Mae: CDEVAL TAK, 4T06J1 K0YVA TAM CEF0DHR HE 6J1V0. #line:851377
+Mae: Make sure Cole isn’t there tonight. #line:851377
 [[Cole_2]]
 ===
 title: PromWasAMistake
@@ -198,13 +198,13 @@ colorID: 0
 position: -1194,2850
 ---
 <<lookRight Mae>>
-Mae: T0 UVATJE. #line:e9d81d
-Mae: TA Z0TKA U0D TEM OBET04HJ1M DEK0P0M HA DBEPN. #line:3a099a
-Mae: CK0PEE HE MEDVEHHJ1L TAHEO, A MEDVEHH0E CT0RHNE. #line:978f61
-Mae: HNKAKNX UPNK0CH0BEHNL. HNKAKNX U0OEVYEB. #line:42447f
+Mae: That dress. #line:e9d81d
+Mae: That picture under that doorway flower thing. #line:3a099a
+Mae: Less slowdancing than slowstanding. #line:978f61
+Mae: Careful nontouching. No smooches. #line:42447f
 <<set $no_smooches to 1>>
 <<lookOut Mae>>
-Mae: R TAK PADA, 4T0 R 60VJQE HE U0DP0CT0K. #line:38cbef
+Mae: I'm so glad I'm not a teenager anymore. #line:38cbef
 [[Cole_2]]
 ===
 title: Cole_2
@@ -213,11 +213,11 @@ colorID: 0
 position: -1331,3150
 ---
 <<if $ate_tacos is 1>>
- <<newSpeechBubble>>
-	Mae:{locator=Left} M0E DJ1XAHNE HA BKYC, KAK TAK0. #line:e72f7e
+    <<newSpeechBubble>>
+	Mae:{locator=Left} My breath tastes like tacos. #line:e72f7e
     <<closeAllSpeechBubbles>>
 <<endif>>
-Mae:{locator=Right}GT0 KATACTP0ZA.#line:09b3fa
+Mae:{locator=Right} This is a disaster. #line:09b3fa
 [[WhatAreYouGonnaSay]]
 
 ===
@@ -227,14 +227,14 @@ colorID: 0
 position: -1022,3404
 ---
 <<closeAllSpeechBubbles>>
-Mae:{locator=Left} NTAK, 4T0 TJ1 C06NPAEQJCR CKA3ATJ? o_o #line:3bfdbe
-Mae: TJ1 YMEEQJ KPACNB0 F0B0PNTJ. TJ1 VJCTEO. :) #line:1368f6
+Mae:{locator=Left} Alright, what are you gonna say? o_o #line:3bfdbe
+Mae: You're a smooth talker. You're a smoothie. :) #line:1368f6
 Mae: o/ #line:0d707a
 <<newSpeechBubble>>
 <<dilate Mae .5 3>>
-[[{locator=Right}[wave]"UPNBET, R MGL! KAK DEVNQKN?"[/wave]|HowsItGoing]] #line:2b55d3
-[[{locator=Right}[wave]"0, UPNBET, R MGL! A TE6R KAK 30BYT?"[/wave]|WhatsYourName]] #line:778dd4
-[[{locator=Right}[wave]"UPNBET, R MGL! R BJ1VETEVA N3 K0VVEDSA HA GT0L HEDEVE!"[/wave]|IDroppedOut]] #line:19a577
+[[{locator=Right}[wave]"Hi, I’m Mae! How's it going?"[/wave]|HowsItGoing]] #line:2b55d3
+[[{locator=Right}[wave]"Oh hey, I'm Mae! What's your name?"[/wave]|WhatsYourName]] #line:778dd4
+[[{locator=Right}[wave]"Hi, I'm Mae! I dropped out of college earlier this week!"[/wave]|IDroppedOut]] #line:19a577
 ===
 title: HowsItGoing
 tags: 
@@ -243,13 +243,13 @@ position: -1289,3828
 ---
 <<set $hows_it_going to 1>>
 <<closeOldSpeechBubbles>>
-Mae: "UPABDA? UP0CT0 U0TPRCA%WE!" #line:3258e2
-Mae: "GT0 UPABDA! 4T0 S, YBNDNMCR U03SE!" #line:ca379d
+Mae: "Really? That's fascinating!" #line:3258e2
+Mae: "That is so true! Well, see you later!" #line:ca379d
 <<dilate Mae 1 3>>
-Mae: VADH0, X0P0Q0. 3BY4NT H0PMAVJH0.  :| _o_ #line:8420c2
-Mae: HNKT0 HE D0KASET, 4T0 TJ1 HEH0PMAVJHAR. #line:0748b8
-Mae: HY N BCE KASYTCR H0PMAVJHJ1MN B TEMH0TE. #line:9ce91c
-Mae: BU0VHE YBEPEHA, 4T0 TAK N PA60TAET CEKC. #line:4b5ae3
+Mae: Ok good. That sounds normal. :| _o_ #line:8420c2
+Mae: No one can prove you're not normal. #line:0748b8
+Mae: And really everyone looks normal in the dark. #line:9ce91c
+Mae: I'm pretty sure that’s the only way sex works. #line:4b5ae3
 <<close>>
 [[ThisIsHopeless]]
 ===
@@ -260,10 +260,10 @@ position: -1008,3826
 ---
 <<set $whats_your_name to 1>>
 <<closeOldSpeechBubbles>>
-Mae: "0, R DYMA%, 4T0 3HA% TE6R 0TKYDA-T0..." #line:56a5ce
-Mae: "HABEPH0E, C0 BPEMEHN, K0FDA MJ1 BCTPE4AVNCJ #line:8d32e4
-Mae: N N36NBAVN YVN4HY% 6AHDY #line:2111c3
-Mae: OEURMN N MYC0PHJ1MN 6AKAMN." #line:6335df
+Mae: "Oh, I think I know you from somewhere..." #line:56a5ce
+Mae: "It's probably from when we were lovers #line:8d32e4
+Mae: and we beat up that street gang #line:2111c3
+Mae: with chains and garbage cans." #line:6335df
 <<dilate Mae 1 3>>
 [[ThisIsHopeless]]
 ===
@@ -274,12 +274,12 @@ position: -685,3796
 ---
 <<set $dropout_week to 1>>
 <<closeOldSpeechBubbles>>
-Mae: "N TEUEPJ R B VECY! #line:7f5c33
-Mae: 6YXA%!" \o/ #line:8e3d27
+Mae: "And now I'm in the woods! #line:7f5c33
+Mae: drinking!" \o/ #line:8e3d27
 <<set $you_dont_like to 1>>
 <<dilate Mae 1 3>>
 Mae: _o_ #line:11bb14
-Mae: 60SE, GT0 EWE 0DNH CU0C06 CTATJ 0TQEVJHNK0M :\ #line:4f7012
+Mae: geez this is yet another road to hermit-dom :\ #line:4f7012
 [[ThisIsHopeless]]
 ===
 title: ThisIsHopeless
@@ -291,19 +291,19 @@ position: -992,4160
 <<wait 2>>
 Mae: =_= :( _o_ #line:d5fbff
 <<wait 2>>
-Mae: GT0 6E3HADESH0. #line:7856e2
-Mae: BJ1HECNTE MEHR HA 0604NHY, BMECT0 MYC0PA. #line:038806
+Mae: This is hopeless. #line:7856e2
+Mae: Wheel me out to the curb for garbage day.  #line:038806
 <<close>>
 <<wait 1>>
 <<lookLeft Mae>>
-Mae: 6VNH, 0HN S 6YDYT 3DECJ C MNHYTJ1 HA MNHYTY! o_o :| #line:588a4e
+Mae: Oh geez they’ll be here any minute! o_o :| #line:588a4e
 <<lookOut Mae>>
-Mae: YDA4N, MAVAR. #line:863a5b
+Mae: Good luck, kid. #line:863a5b
 <<newSpeechBubble>>
-Mae:{locator=Left}MHE HE HYSHA YDA4A. =_= :)#line:2bad37
+Mae:{locator=Left} I don’t need luck. =_= :) #line:2bad37
 <<closeOldSpeechBubble>>
-Mae:{locator=Left}R C03DAM CB0% C06CTBEHHY% YDA4Y.#line:d10166
-Mae:{locator=Left}C U0M0WJ% MAQNHJ1 YDA4N. o_o :|#line:746db3
+Mae:{locator=Left} I make my own luck. #line:d10166
+Mae:{locator=Left} With a luck machine. o_o :| #line:746db3
 <<closeAllSpeechBubbles>>
 <<fadeOut 1 wait>>
 <<sectionTitle TheParty BeaCar>>
@@ -319,8 +319,8 @@ position: -129,271
 Mae: o> #line:cd68a3
 <<wait .5>>
 <<irisIn .5>>
-Mae: 0, DA, H0PMAVJHAR 0DESDA #line:d96871
-Mae: 0, DA, BPEMR CTATJ CTPAQH0L #line:311529
+Mae: Aw yeah normal clothes #line:d96871
+Mae: Aw yeah time to get spooky #line:311529
 <<close>>
 <<irisOut .5 wait>>
 Mae: _o_ #line:7b843f
@@ -329,8 +329,8 @@ Mae: _o_ #line:7b843f
 <<close>>
 <<wait 1>>
 <<irisIn .5 wait>>
-Mae: 0TVNNNNN4HEHJK0. #line:2c39f1
-Mae: BEDJMA4JN KVNHKN!! #line:a11765
+Mae: Sweeeeeeeeeeet. #line:2c39f1
+Mae: WITCHDAGGAH!!!! #line:a11765
 <<close>>
 <<set $mirror_done to 1>>
 <<irisOut 1 wait>>

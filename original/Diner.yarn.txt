@@ -4,16 +4,16 @@ colorID: 0
 position: 115,-46
 ---
 <<play HangingAtTheDinerMusic>>
-Mae: TAK K0FDA BJ1 C06NPAETECJ BJ1CTYUATJ? :) #line:e64ba3
-Bea: *ZJ1PKAET* #line:170c91
-Bea: MGL. MJ1 HE BJ1CTYUAEM. #line:757099
-Mae: 0Y. :| #line:969d8f
-Bea: Y HAC Y BCEX ECTJ PA60TA, MGL. #line:72ba4b
-Angus: R PA60TA% B BNDE0UP0KATE! :) #line:2ec9dd
+Mae: So when are we gonna play out? :) #line:e64ba3
+Bea: *SNORT* #line:170c91
+Bea: Mae. We don't play out. #line:757099
+Mae: Oh. :| #line:969d8f
+Bea: We have jobs, Mae. #line:72ba4b
+Angus: I work at the Video Outpost "Too"! :) #line:2ec9dd
 <<mood Angus Neutral>>
-Bea: R B "CTAP0L KNPKE". #line:b884b3
-[[R DYMAVA, TJ1 C06NPAEQCR B K0VVEDS?|GoingToSchool]] #line:674beb
-[[PA3BE GT0 HE MAFA3NH TB0EF0 UAUJ1?|DadStore]] #line:052809
+Bea: I'm at the 'Ol Pickaxe. #line:b884b3
+[[I thought you were going to school?|GoingToSchool]] #line:674beb
+[[Isn't that your Dad's store?|DadStore]] #line:052809
 
 ===
 title: 02_A1D1
@@ -24,9 +24,9 @@ position: 157,1099
 Mae: [speed=.25]...[/all] :\ #line:507b6a
 <<close>>
 <<wait 3>>
-Angus: 4T0 S! VY4QE 6J1 HAM PA30LTNCJ U0 D0MAM. #line:1c4c2e
-Gregg: AX DA, Y AHFYCA CBNDAHNE B CB0PD UNUV 0HVALH. :) #line:f25929
-Mae: BE3YH4NK. :| #line:f58040
+Angus: Well! We better get home, dude. #line:1c4c2e
+Gregg: Oh yeah Angus got a date with sword people online. :) #line:f25929
+Mae: Aw lucky. :| #line:f58040
 [[End_A1D1]]
 
 ===
@@ -35,8 +35,8 @@ tags:
 colorID: 0
 position: -96,210
 ---
-Bea: XA. #line:ac1d95
-Bea: DA, 4T0 S. TAK0BA SN3HJ. #line:5f2115
+Bea: Heh. #line:ac1d95
+Bea: Yeah, well. Life happens. #line:5f2115
 [[01_A1D1]]
 ===
 title: DadStore
@@ -44,7 +44,7 @@ tags:
 colorID: 0
 position: 362,216
 ---
-Bea: T04H0. #line:6bd277
+Bea: Sure is. #line:6bd277
 [[01_A1D1]]
 ===
 title: 01_A1D1
@@ -52,30 +52,30 @@ tags:
 colorID: 0
 position: 132,513
 ---
-Gregg: R BVADJ1KA CHGK ZGVK0H! \o/ D: #line:176c9c
+Gregg: I'm lord of the Snack Falcons! \o/ D: #line:176c9c
 Gregg: :| _o_ #line:2b6530
 <<close>>
 <<wait 2>>
-Mae: A FDE KELCN? #line:a8647b
+Mae: Where's Casey? #line:a8647b
 Angus: ... #line:1ce4c3
 <<playMusic diner_conversation>>
-Gregg: AX DA, TJ1 BEDJ EWE HE 3HAEQJ? #line:2bdc0c
-Gregg: KELCN 3DECJ HET. #line:92efbd
-Mae: "HET"? B CMJ1CVE "HET"? #line:1d6953
-Gregg: 3AUPJ1FHYV B 6VNSALQNL U0E3D, R DYMA%. #line:12819e
-Mae: 0F0. 0H BCEFDA F0B0PNV 0 4EM-T0 U0D06H0M. #line:63648f
-Gregg: DA, N B 0DNH DEHJ 0H UP0CT0 NC4E3. #line:25ced7
-Angus: 4NCTJ1L U06EF. 6E3 UP0WAVJH0F0 C006WEHNR NVN 4EF0-T0 TAK0F0. #line:157e2b
-Mae: HY, DYMA%, DVR HEF0 TAK DASE VY4QE. #line:8d9e90
-Gregg: EF0 P0DNTEVN PA3BECNVN UVAKATJ1 0 UP0UASE, #line:f326a8
-Gregg: H0 BCE 3HA%T, 4T0 UP0N30QV0. #line:69100f
-Mae: 60SE. KELCN. R... YX. #line:f8a976
-Bea: YFY. #line:f2875e
-Bea: A 4EM NMEHH0 TJ1 3AHNMAVACJ, MGL? #line:1de68b
-Mae: R 6J1VA B K0VVEDSE? #line:1a87b5
-Bea: N U04EMY SE TJ1 CEL4AC HE TAM? -_- #line:c82812
-[[4YBNXA, K 4EPTY Y4E6Y!|ScrewSchool]] #line:fe08ac
-[[HN4EF0 HE BJ1QV0.|DidntWorkOut]] #line:16136e
+Gregg: Oh yeah, you wouldn't know, huh? #line:2bdc0c
+Gregg: Casey's gone. #line:92efbd
+Mae: "Gone"? Gone how? #line:1d6953
+Gregg: Hopped a train I bet. #line:12819e
+Mae: Oh wow. He always talked about doing that. #line:63648f
+Gregg: Yeah one day he was just gone. #line:25ced7
+Angus: Made a clean break. Hasn't emailed or anything. #line:157e2b
+Mae: Well, good for him I guess. #line:8d9e90
+Gregg: His parents put up missing person posters #line:f326a8
+Gregg: but everyone knew what happened. #line:69100f
+Mae: Geez. Casey. I... huh. #line:f8a976
+Bea: Mmhmm. #line:f2875e
+Bea: And what exactly do you do, Mae? #line:1de68b
+Mae: I was in college? #line:1a87b5
+Bea: And why exactly are you not still there? -_- #line:c82812
+[[Man, screw school!|ScrewSchool]] #line:fe08ac
+[[Didn't work out.|DidntWorkOut]] #line:16136e
 
 ===
 title: ScrewSchool
@@ -83,7 +83,7 @@ tags:
 colorID: 0
 position: -50,827
 ---
-Bea: U0TPRCA%WE... o_o #line:fa48f4
+Bea: Stunning... o_o #line:fa48f4
 [[02_A1D1]]
 ===
 title: DidntWorkOut
@@ -91,7 +91,7 @@ tags:
 colorID: 0
 position: 322,815
 ---
-Bea: XAX. UPEDCTABVR%. o_o #line:03d1f3
+Bea: Huh. Imagine that. o_o #line:03d1f3
 [[02_A1D1]]
 ===
 title: End_A1D1
@@ -137,96 +137,96 @@ tags: temp
 colorID: 3
 position: 925,312
 ---
-Gregg: KASETCR, MEHR M0SET CT0QHNTJ. #line:8f5b2c
-Mae: HACT0RWAR DPYS6A: U03B0VJ CB0EMY DPYFY 6VEBAHYTJ. #line:4cd424
-Gregg: HACT0RWNE 6P0. #line:46d2fa
-Mae: HACT0RWNE 6P0. #line:c3bba5
-Mae: 0WYWEHNE, 6YDT0 GT0 BUEPBJ1E, K0FDA MJ1 CM0FVN 3ATYCNTJ BMECTE. #line:e418be
-Gregg: HY N KAK 0H0? #line:a85293
-    ->DYMA%, R 04EHJ 60VJHA N 0T MEHR UAXHET KVEEM. #line:649fea
-        Gregg: AFA, UPNDR D0M0L, R 6YDY CT0RTJ U0D DYQEM FDE-T0 4AC. #line:d64e1c
-    ->04EHJ X0P0Q0. #line:1f7681
-        Gregg: TA SE ZNFHR, 4YBNXA. #line:27b66e
-Mae: TAK KAK TB0N DEVA, B 06WEM? #line:e8f9ab
-Gregg: G-G... X0P0Q0! #line:bd1c48
-Mae: CTPAHH0 BNDETJ TE6R C U0CT0RHH0L PA60T0L, #line:76529a
-Mae: HA K0T0PY% TJ1 V%6NQJ #line:5bd0ae
-Mae: X0DNTJ. #line:9a8419
-Gregg: HY, DA, PA60TA% HAD UVAH0M. #line:de8ce4
-    ->UVAH0M? #line:535be6
-    ->AFA, Y MEHR T0SE ECTJ UVAH. #line:f9a33e
-        Gregg: KAK0L? #line:62eefb
-        Mae: CMJ1TJ C CE6R 3AUAX KVER. #line:333900
-        Mae: 0 KAK0M UVAHE TJ1 F0B0PNQJ? #line:4ceb74
-Gregg: 6PALT XAP60P. #line:194bb2
+Gregg: I think I might be sick. #line:8f5b2c
+Mae: True friendship: Letting your friend make you sick. #line:4cd424
+Gregg: True bros. #line:46d2fa
+Mae: True bros. #line:c3bba5
+Mae: I feel like this is the first time we've just gotten to hang out. #line:e418be
+Gregg: Howzit feel? #line:a85293
+    ->I mean I'm very sore and I smell like glue. #line:649fea
+        Gregg: Yeah I'm going to take an hour long shower when I get home. #line:d64e1c
+    ->Real good. #line:1f7681
+        Gregg: Same, dude. #line:27b66e
+Mae: So how have things been? #line:e8f9ab
+Gregg: Uh... good! #line:bd1c48
+Mae: Weird seeing you with a regular job #line:76529a
+Mae: that you like #line:5bd0ae
+Mae: go to. #line:9a8419
+Gregg: Yeah, working on the plan. #line:de8ce4
+    ->The plan? #line:535be6
+    ->Yeah I got plans too. #line:f9a33e
+        Gregg: Like what? #line:62eefb
+        Mae: Washing this glue smell off. #line:333900
+        Mae: What plan were you talking about? #line:4ceb74
+Gregg: Bright Harbor. #line:194bb2
 <<set $knows_bright_harbor to 1>>
-Mae: 6PALT... XAP60P? #line:2ae623
-Gregg: DA. MJ1 C06NPAEMCR UEPEEXATJ B 6PALT XAP60P. #line:742542
-    ->K0FDA? #line:9c17f9
-    ->DABH0? #line:57d1f4
-        Gregg: GM... 0K0V0 F0DA. #line:29c4d0
-        Gregg: U0T0MY MJ1 N PA60TAEM 7 DHEL B HEDEV%. #line:d4729d
-        Mae: H0... K0FDA BJ1 UEPEE3SAETE? #line:daf88b
-Gregg: DYMA%, GT0L BECH0L? #line:e3f582
-Mae: GT0 SE... 4EPE3 TPN-4ETJ1PE MECROEB. #line:611868
-Gregg: DA! #line:55bf08
-Mae: 0Y. #line:1d23a8
-Gregg: U0CETNQJ HAC, K0FDA MJ1 TAM 06YCTP0NMCR! #line:27933d
-    ->U04EMY 6PALT XAP60P? #line:19094e
-    ->PA3BE 6PALT XAP60P GT0 HE CVNQK0M D0P0F0? #line:d0109e
-        Gregg: HET, ECVN SNTJ B YSACH0M PAL0HE! #line:e50912
-Gregg: 0, MGL, GT0 TAK KPYT0. #line:cf3417
-Gregg: MJ1 UPNE3SAVN TYDA VET0M #line:395094
-Gregg: TAM 6J1VN MY3J1KAVJHJ1E MAFA3NHJ1 N CTPAHHJ1E 6APJ1 #line:6a2f0a
-Gregg: N BCE TAKNE KVEBJ1E N 6YDT0... CB060DHJ1E? #line:fec4a4
-Mae: 0Y. #line:065855
-Gregg: TAM MHE N HA6NVN TATYNP0BKY! #line:3f300e
-Mae: 4T0? #line:65e821
-Gregg: DA! #line:0a2cfd
+Mae: Bright... harbor? #line:2ae623
+Gregg: Yeah. We're gonna move to Bright Harbor? #line:742542
+    ->When? #line:9c17f9
+    ->Since when? #line:57d1f4
+        Gregg: Uh... a year or so now? #line:29c4d0
+        Gregg: That's why we're working like 7 days a week. #line:d4729d
+        Mae: But... when are you moving? #line:daf88b
+Gregg: I think in the spring? #line:e3f582
+Mae: That's like... a few months away. #line:611868
+Gregg: Yeah! #line:55bf08
+Mae: Oh. #line:1d23a8
+Gregg: You should come visit when we get settled in! #line:27933d
+    ->Why Bright Harbor? #line:19094e
+    ->Isn't Bright Harbor like really expensive? #line:d0109e
+        Gregg: Not if you live in a terrible neighborhood! #line:e50912
+Gregg: Oh Mae it's SO cool. #line:cf3417
+Gregg: We visited in the summer #line:395094
+Gregg: There's like record stores and weird bars #line:6a2f0a
+Gregg: and everyone's cool and like... free? #line:fec4a4
+Mae: Oh. #line:065855
+Gregg: That's where I got my tattoo! #line:3f300e
+Mae: What? #line:65e821
+Gregg: Yeah! #line:0a2cfd
 //emoticon of sheep tattoo//
 Gregg:{emote=sheep_tattoo} #line:abf3c7
 <<close>>
-Mae: GT0 4T0... 0BOA? #line:8256dc
-Gregg: DA. #line:96b6af
-Mae: U04EMY 0BOA? #line:836272
+Mae: Is that a... sheep? #line:8256dc
+Gregg: Yep. #line:96b6af
+Mae: Why a sheep? #line:836272
 Gregg: ... #line:3bfad1
-Gregg: TATY MACTEP 6J1V UP0CT0 0004EHJ F0PR4. #line:74cc2c
-Gregg: N 6J1V0 DASE HE 60VJH0. #line:04656e
-Mae: Y TE6R ECTJ TATY. #line:b32473
-Mae: TJ1 UEPEE3SAEQJ B 6PALT XAP60P. #line:c70ff4
-Gregg: DA! #line:b6e67e
-Mae: 0X. #line:760f7a
+Gregg: The tattoo guy was like all the way hot. #line:74cc2c
+Gregg: And it didn't even hurt! #line:04656e
+Mae: You have a tattoo. #line:b32473
+Mae: You're moving to Bright Harbor. #line:c70ff4
+Gregg: Yeah! #line:b6e67e
+Mae: Oh. #line:760f7a
 // We need a variable to say I know about Bright Harbor and the tattoo so we don't repeat this later.
 // ^ we can use $did_gregg_friendship_quest_1 to check this
-Gregg: 4T0 TAK0E? #line:21ee01
-Mae: HN4EF0! #line:d2adb7
-Gregg: A TJ1, KAK D0VF0 C06NPAEQJCR 0CTABATJCR B F0P0DE? #line:27a3ac
-    -> GM. R HE 3HA%. #line:8c46c9
-        Gregg: R U0M0FY TE6E BJ16PATJ KYDA CBAVNTJ. #line:902d4d
-    -> HED0VF0. R T0SE C06NPA%CJ UEPEEXATJ #line:7e8dc3
-        Gregg: 0-0, KYDA? #line:447df6
-            ->HA CEBEP. #line:f2589a
-                Gregg: K X0V0DAM, METEVRM N F0PR4EMY Q0K0VADY! #line:933aa2
-                Gregg: 0-0, MJ1 M0SEM U0KATATJCR VET0M! #line:9ff8a0
-            ->HA %F. #line:c69e05
-                Gregg: SAPA, T0PHAD0 N CVADKNL 4AL! #line:4ebf5c
-                Gregg: 0-0, MJ1 M0SEM U0KATATJCR 3NM0L! #line:42c760
-Mae: DA. #line:ca737b
-Gregg: 6J1V0 04EHJ KPYT0 UP0BECTN GT0T BE4EP C T060L. #line:f983d1
-Gregg: A T0 TYT CKYK0TNWA B U0CVEDHEE BPEMR. #line:8427cf
-Gregg: DABHEHJK0 HE BBR3J1BAVCR B ABAHT%PJ1. #line:c052a9
-Mae: U04EMY? #line:f8bff0
-Gregg: AHFYC. UVAH. HE CM0SEM UEPEEXATJ B 6PALT XAP60P, ECVN MEHR U0LMA%T NVN YB0VRT. #line:34745b
-Mae: TJ1 CTAV CVNQK0M B3P0CVJ1M. #line:46931e
-Gregg: R 0TBETCTBEHHJ1L. #line:da1ba3
-Mae: DYMA%, R U0LDY. #line:c4fe01
-Gregg: X0P0Q0. HAD0 CMJ1TJ 3AUAX KVER. #line:69f845
-Mae: BCR 3AKYC04HAR UP0B0HRVA N3-3A HAC. #line:f02432
-Gregg: HE B UEPBJ1L PA3. #line:d57b18
+Gregg: What's wrong? #line:21ee01
+Mae: Nothing! #line:d2adb7
+Gregg: How long do you think you're staying in town? #line:27a3ac
+    -> Um. I don't know. #line:8c46c9
+        Gregg: I'll help you pick somewhere out. #line:902d4d
+    -> Not long. Gonna move too. #line:7e8dc3
+        Gregg: Ooh where to? #line:447df6
+            ->North. #line:f2589a
+                Gregg: Cold and blizzards and hot cocoa! #line:933aa2
+                Gregg: Ooh we can come visit in the summer! #line:9ff8a0
+            ->South. #line:c69e05
+                Gregg: Heat and tornadoes and sweet tea! #line:4ebf5c
+                Gregg: Ooh we can come visit in the winter! #line:42c760
+Mae: Yeah. #line:ca737b
+Gregg: It was really great hanging with you tonight. #line:f983d1
+Gregg: I've been really boring lately. #line:8427cf
+Gregg: Haven't done a crime in... a long time. #line:c052a9
+Mae: Why? #line:f8bff0
+Gregg: Angus. The plan. Can't go to Bright Harbor if I get caught or fired. #line:34745b
+Mae: You're all adult now. #line:46931e
+Gregg: I'm bonafide. #line:da1ba3
+Mae: I'm gonna go I think. #line:c4fe01
+Gregg: Good call. We need to de-glue. #line:69f845
+Mae: I think we stunk up the diner. #line:f02432
+Gregg: Eh. Wouldn't be the first time. #line:d57b18
 Mae: =_= :) #line:930e20
-Mae: R CKY4AVA U0 TE6E. #line:51102a
+Mae: I missed you. #line:51102a
 Gregg: :) #line:9efdb9
-Gregg: R T0S, 4YBNX. #line:6f2956
+Gregg: You too bro. #line:6f2956
 <<unlockDoodle GreggFQ1Crimes>>
 <<unlockRobotHeadDoodle>>
 <<close>>
@@ -242,31 +242,31 @@ tags:
 colorID: 3
 position: 1212,244
 ---
-Mae: SAVJ, 4T0 TJ1 HE CV0MAV CE6E U03B0H04HNK. #line:5cb2fa
-Gregg: SAVJ, 4T0 TE6E HE 0T0PBAV0 PYKN. #line:a29a95
-Mae: SAVJ, 4T0 TE6R HE U0PBAV0 HA 4ACTN. #line:5613b4
-Gregg: SAVJ, 4T0 TJ1 HE CBAVNVACJ C VECTHNOJ1 N HE BJ16NVA CE6E 3Y6J1. #line:70acbe
-Mae: SAVJ, 4T0 TE6R HE UPNDABNV0 K0P06K0L #line:a2f9d3
-Gregg: SAVJ... #line:ae229c
-Mae: R HE 3AK0H4NVA #line:125b5a
-Mae: N 3ATEM U0SAP B 3DAHNN HE CSEF TE6R 3ASNB0. #line:a7906b
-Gregg: SAVJ, 4T0 TJ1 HE 3AU0V3VA B BEHTNVRON%, #line:ad09cb
-Gregg: C6EFAR 0T U0SAPA, #line:eba147
-Gregg: N HE CBAPNVACJ TAM. #line:6e9757
-Mae: AAAX. CVABHJ1E BPEMEHA. #line:c1da5f
-Mae: BCE EWE 4Y% 3AUAX KVEEEEEEEEER. #line:4cd774
-Gregg: DYMAL 0 4EM-HN6YDJ DPYF0M. #line:9f4a1b
-Mae: HE M0FY. KASETCR, MEHR T0PKHYV0 0T KVER. #line:76f25a
-Gregg: DYMAL 0 4E6YPEKAX. #line:0bfb26
-Gregg: B T0M K0VEDSE, FDE TJ1 Y4NVACJ, 6J1VN 4E6YPEKN? #line:33977f
-Mae: 0DHA OEPK0BJ UP0DABAVA NX B0 BPEMR KAK0F0-T0 UPA3DHNKA. #line:53ef4f
-Gregg: ZECTNBAVJ HECK0H4AEMJ1X 4E6YPEK0B. #line:b8eef6
-Mae: L0Y, 4YBAK. #line:4276ff
-Gregg: 4T0? #line:f0a45d
-Mae: 0TKP0L P0T. #line:4412c4
-Gregg: 3A4EM? #line:ba6483
-Mae: D0BEPJCR MHE. #line:929b98
-Gregg: B0T 0HA, DPYS6A. #line:705360
+Mae: too bad you didn't snap your spine. #line:5cb2fa
+Gregg: too bad your arms didn't get ripped off. #line:a29a95
+Mae: too bad you weren't horribly disfigured. #line:5613b4
+Gregg: too bad you didn't fall and break your teeth on a stair. #line:70acbe
+Mae: too bad you didn't get trapped under the box #line:a2f9d3
+Gregg: too- #line:ae229c
+Mae: not finished #line:125b5a
+Mae: and then burned alive in a building fire. #line:a7906b
+Gregg: too bad you didn't crawl into a vent #line:ad09cb
+Gregg: to escape the fire #line:eba147
+Gregg: and get cooked. #line:6e9757
+Mae: aaah. good times. #line:c1da5f
+Mae: I still smell gluuuuuuuuuuuuue. #line:4cd774
+Gregg: Think about something else. #line:9f4a1b
+Mae: I can't. I think I'm high from the glue. #line:76f25a
+Gregg: Think about pierogis. #line:0bfb26
+Gregg: They have pierogis when you were at school? #line:33977f
+Mae: This one church in town would sell them during whatever holiday. #line:53ef4f
+Gregg: Feast Of The Perpetual Pierogi. #line:b8eef6
+Mae: Yo dude. #line:4276ff
+Gregg: What? #line:f0a45d
+Mae: Open your mouth. #line:4412c4
+Gregg: Why? #line:ba6483
+Mae: Trust me. #line:929b98
+Gregg: True friendship is this. #line:705360
 <<irisOut 1 wait>>
 <<scene FoodFlicker>>
 ===

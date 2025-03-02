@@ -6,23 +6,23 @@ position: -13929,1776
 <<sit>>
 <<irisIn 1 wait>>
 <<wait 4>>
-Mae: NTAK... #line:9cb8af
-Mae: PA60TAEQJ B "CTAP0L KNPKE"? #line:f8cd3d
-Bea: DA. #line:71f90f
-Mae: 0HN 06Y4A%T TE6R, KAK BVADETJ CEMELHJ1M 6N3HEC0M? #line:a64802
-Bea: "0HN"? #line:55943e
-Mae: HY... TB0N P0DNTEVN. #line:b94bd4
+Mae: So... #line:9cb8af
+Mae: Working at the Ol Pickaxe? #line:f8cd3d
+Bea: Yep. #line:71f90f
+Mae: Are they training you to take over the family business? #line:a64802
+Bea: "They?" #line:55943e
+Mae: Um... your parents? #line:b94bd4
 Bea: ... #line:052193
 <<close>>
 <<wait 1>>
 <<stopCarAbruptly>>
 <<wait .5>>
-Bea: GL, CM0TPN, MJ1 YSE UPNEXAVN. #line:c38b04
-Mae: H0 M0L D0M HAX0DNTCR EWE 4EPE3 HECK0VJK0 KBAPTAV0B. #line:61d7c8
-Bea: BJ1METALCR. #line:b01963
-Mae: 0K! #line:ce94a4
-Mae: GM... CUACN60, 4T0 U0DBE3VA. #line:16f0f9
-Bea: NDN. #line:669296
+Bea: Hey look we're here. #line:c38b04
+Mae: Oh my house actually isn't for a few blocks. #line:61d7c8
+Bea: Get out. #line:b01963
+Mae: Ok! #line:ce94a4
+Mae: Uh... thanks for the ride. #line:16f0f9
+Bea: GO. #line:669296
 [[End_A1D1]]
 
 ===
@@ -61,7 +61,7 @@ position: -13364,2173
 <<wait 3>>
 <<rotateHead Mae 10 .5>>
 <<lookLeft Gregg>>
-Gregg: GL, MGL, DYMA%, K0YV T0SE UPNDET CEF0DHR! #line:feda1f
+Gregg: Hey Mae, I think Cole might be there tonight! #line:feda1f
 <<if $knows_cole_will_be_there is 1>>
 	[[ToParty_Knows]]
 <<else>>
@@ -82,9 +82,9 @@ position: -12747,2161
 Mae: =_= #line:f4e428
 <<wait 1>>
 <<irisIn 1 wait>>
-Bea: ECVN TE6R BJ1PBET B GT0L MAQNHE, T0, KVRHYCJ, R... #line:45c451
-[[(R D0VSHA N3BNHNTJCR UEPED T060L, 6N.)|BackFromParty_Apology]] #line:6478b6
-[[(R 04EHJ PACTEPRHA.)|BackFromParty_Embarrassed]] #line:b37820
+Bea: If you puke in this car, so help me... #line:45c451
+[[(I owe you an apology, Bea.)|BackFromParty_Apology]] #line:6478b6
+[[(I really am quite embarrassed.)|BackFromParty_Embarrassed]] #line:b37820
 ===
 title: ToParty_A1D3_End
 tags: 
@@ -116,15 +116,15 @@ tags:
 colorID: 2
 position: -13561,2496
 ---
-Mae: DA, 3HA%. =_= #line:e8effa
-Gregg: 6VNH. N3BNHN. #line:97a093
-Mae: MHE UVEBATJ, ECVN 0H UPNDET. #line:3aa33d
-Angus: DA 0H M0SET TAM N HE 6J1TJ. #line:3a0e84
-Bea: 6YDEM HADERTJCR HA GT0 NVN HE 6YDEM. R DASE HE 3HA%, 0 4EM MJ1 F0B0PNM. #line:9198c3
-Gregg: MGL N K0YV BCTPE4AVNCJ B 11 KVACCE. #line:a40c06
-Mae: DA, N HN4EF0 X0P0QEF0 N3 GT0F0 HE BJ1QV0. #line:58f955
-Mae: TAK 4T0 XBATNT 06 GT0M F0B0PNTJ. =_= #line:fc86ba
-Bea: C0FVACHA. #line:0b7c0f
+Mae: YEAH I KNOW. =_= #line:e8effa
+Gregg: Geez! Sorry. #line:97a093
+Mae: I don’t care if he’s there. #line:3aa33d
+Angus: He might not be. #line:3a0e84
+Bea: Well let’s hope so or not. I don’t even know what we’re talking about. #line:9198c3
+Gregg: Mae and Cole went out in junior year. #line:a40c06
+Mae: Yeah and it didn’t work out. #line:58f955
+Mae: So let’s stop talking about it. =_= #line:fc86ba
+Bea: Let’s. #line:0b7c0f
 [[ToParty_A1D3_End]]
 ===
 title: ToParty_DoesntKnow
@@ -135,22 +135,22 @@ position: -13210,2494
 <<dilate Mae .75 1>>
 <<lookOut Mae>>
 <<rotateHead Mae 0 .2>>
-Mae: 4T0?! :o / \ #line:6b1cce
-Mae: 60SE M0L. \ / #line:17e0f7
+Mae: WHAT?! :o / \ #line:6b1cce
+Mae: Oh my god. \ / #line:17e0f7
 <<dilate Mae .9 1>>
-Bea: KT0 TAK0L K0YV? #line:bae07a
-Angus: GM, TJ1 EF0 HE U0MHNQJ? 0H 6J1V C HAMN HA ESEF0DHNKE. #line:d5e677
-Bea: A, K0YV. DA, TEUEPJ UPNU0MNHA%. #line:44b8db
-Gregg: Y MGL C HNM 6J1VA KAKAR-T0 HE60VJQAR NHTPNSKA. #line:9c1122
-Bea: UPABDA? BAY. #line:c6b4b3
-Bea: 0H YMEH. #line:6f8552
+Bea: Who’s Cole? #line:bae07a
+Angus: Um you remember him? He was in yearbook with us. #line:d5e677
+Bea: Oh COLE. Yeah I remember him. #line:44b8db
+Gregg: Mae and him were a thing for a while. #line:9c1122
+Bea: Really? Wow. #line:c6b4b3
+Bea: He was really smart. #line:6f8552
 Mae: =_= #line:6ec756
 <<lookLeft Mae>>
 <<dilate Mae 1 1>>
 <<lookLeft Gregg>>
-Mae: R YMHA! #line:07c288
-Gregg: DA, 0UPEDEVEHH0, 4YBNXA. :) #line:317d61
-Bea: HY, 4T0 S, U0HRTH0. #line:a7f756
+Mae: I’m really smart! #line:07c288
+Gregg: Yeah you are dude. :) #line:317d61
+Bea: Well that’s settled then. #line:a7f756
 [[ToParty_A1D3_End]]
 ===
 title: BackFromParty_Apology
@@ -158,7 +158,7 @@ tags:
 colorID: 2
 position: -12902,2492
 ---
-Mae: [wave]N3BHN R DASE HE3HA%4T0 UP03VQV0[/wave] #line:dc2f90
+Mae: [wave]Im sory I don’t even knowhat hapdpend[/wave] #line:dc2f90
 [[BackFromParty_2]]
 ===
 title: BackFromParty_Embarrassed
@@ -166,7 +166,7 @@ tags:
 colorID: 2
 position: -12535,2500
 ---
-Mae:[wave]6N R TAK CMYWEHAAAAA[/wave] #line:c18c63
+Mae:[wave]BEE Im so EMBARASSSS[/wave] #line:c18c63
 [[BackFromParty_2]]
 ===
 title: BackFromParty_2
@@ -174,18 +174,18 @@ tags:
 colorID: 2
 position: -12692,2814
 ---
-Bea: TJ1 HASPAVACJ, 6YKBAVJH0, U0CVE CK0VJKN? #line:22fb7e
-Bea: TPEX CTAKAH4NK0B PA36ABVEHH0F0 UNBA? #line:821639
-[[(U0MHNQJ, K0FDA MJ1 6J1VN VY4QNMN DPY3JRMN?)|BackFromParty_BestFriends]] #line:4dede7
-[[(R U0MH%, KAK MJ1 TYCNVN B DETCTBE...)|BackFromParty_HungOutAsKids]] #line:65e763
+Bea: You got sloppy-ass drunk after what #line:22fb7e
+Bea: Three cups of watered-down beer? #line:821639
+[[(Remember when we used to be best friends?)|BackFromParty_BestFriends]] #line:4dede7
+[[(I remember when we hung out as kids...)|BackFromParty_HungOutAsKids]] #line:65e763
 ===
 title: BackFromParty_BestFriends
 tags: 
 colorID: 2
 position: -12904,3076
 ---
-Mae: [wave]MJ1 6VN VY4QJ1MN DP3R MN 6 N N R BCEWE V6V% TR 6E[/wave] #line:c055c5
-Bea: R HN CV0BA HE U0HRVA #line:1cbab4
+Mae: [wave]we uszsda b ee bess frien ds b eea and i stillove u b ee[/wave] #line:c055c5
+Bea: i didn't get a word of that #line:1cbab4
 [[BackFromParty_3]]
 ===
 title: BackFromParty_3
@@ -193,22 +193,22 @@ tags:
 colorID: 2
 position: -12698,3371
 ---
-Mae: [wave]UUMHNNQQJ, KAK TJ1 HA33BAVA MHR [speed=.5]MGGGLDGGGGGL[/speed][/wave] #line:5f6ce6
-Mae: [wave]A R 3BAVA TR [speed=.5]6NNNN6NNNNN[/speed][/wave] #line:468aa8
-Bea: A, GT0 K0FDA HAM 6J1V0 EWE U0 10 VET? #line:dcb29f
-Bea: HET. HE U0MH%. #line:13d77d
-Mae: [wave]U0MMHNQQJ, KAK MJ1 FVRVN BMECTE[/wave] #line:56b057
-Mae: [wave]N U0LMAVN TY 4EEEEPEUAXY??[/wave] #line:8187c8
-Bea: AFA. 4EPEUAXA 60KCN. 0H YMEP. #line:473688
-[[(U04EMY TJ1 TAK 3VA HA MEHR?)|BackFromParty_WhySoMean]] #line:b8b64d
-[[(R 4YBCTBY%, 4T0 TJ1 3VNQJCR HA MEHR BCE BPEMR. U04EMY?)|BackFromParty_WhySoMad]] #line:62aa2a
+Mae: [wave]remmemmbr u uszta call me [speed=.5]maaaydaaaaay[/speed][/wave] #line:5f6ce6
+Mae: [wave]and i called you [speed=.5]beeeeebeeeee[/speed][/wave] #line:468aa8
+Bea: Oh you mean when we were like 10? #line:dcb29f
+Bea: No. I don’t. #line:13d77d
+Mae: [wave]remmebber when we were scouts together[/wave] #line:56b057
+Mae: [wave]and we caught thatt tuuuuurdle??[/wave] #line:8187c8
+Bea: Yeah. Boxy the turtle. He died. #line:473688
+[[(Why are you so mean to me?)|BackFromParty_WhySoMean]] #line:b8b64d
+[[(I feel like you're mad at me all the time. Why?)|BackFromParty_WhySoMad]] #line:62aa2a
 ===
 title: BackFromParty_HungOutAsKids
 tags: 
 colorID: 2
 position: -12503,3089
 ---
-Mae:[wave]R U0 MH% 6PPP K0FDAA MJ1J1 J1 6J1NVN VY4EMN DPY33R MN[/wave] #line:67347a
+Mae:[wave]i re mbem brrr whenn wee e wrrr liikke bes frenns b ee e[/wave] #line:67347a
 [[BackFromParty_3]]
 ===
 title: BackFromParty_WhySoMean
@@ -216,7 +216,7 @@ tags:
 colorID: 2
 position: -12886,3682
 ---
-Mae: [wave][shake=.03]U04EM% TJ1 TKAR 3VAR????[/all]o_o #line:cded09
+Mae: [wave][shake=.03]WHYOO SO MEANAMEE????[/all]o_o #line:cded09
 [[BackFromParty_4]]
 ===
 title: BackFromParty_WhySoMad
@@ -224,7 +224,7 @@ tags:
 colorID: 2
 position: -12474,3679
 ---
-Mae:[wave][shake=.03]U04EM0A TJ1 BCEBPEMR 3VNQJCR????[/all] o_o #line:4d4ead
+Mae:[wave][shake=.03]WHYOO SO MADATME ALLATIME????[/all] o_o #line:4d4ead
 [[BackFromParty_4]]
 ===
 title: BackFromParty_4
@@ -232,30 +232,30 @@ tags:
 colorID: 2
 position: -12674,3982
 ---
-Mae: *CFVATJ1BAET* #line:590d83
-Mae: [wave]6VNH, ECVN R 6VBAHY 3DCJ, TB0N UPDKN TAK PA33VRTCR HA MHR[/wave] =_= #line:adcfc4
-Mae: [wave]CKSN CAEL MAME, Q0 MHE SAVJ, 0HA TAKA MNNNNNVAR[/wave] #line:9a04c5
-Bea: 4EPT U06EPN MGL #line:abaa0d
-Mae: 4EE? o_o #line:a6f74e
-Bea: M0R MATJ MEPTBA. #line:da32ec
-Mae: 4T00000? :( #line:89dbc9
-Bea: 0HA YMEPVA. #line:7adfd6
-Bea: 0T PAKA. #line:9fdde2
-Bea: B F0D BJ1UYCKA. #line:8f54cd
-Mae: [wave]0HEEEEET 0HA 6J1VA TAK000L MNNNNV0L![/wave] #line:861cd2
-Mae: [wave]6NN6NN TJ1BUPRDKEE?[/wave] #line:3e01c9
-Bea: KAK TJ1 M0FVA HE 3HATJ GT0F0? #line:32fb54
-Bea: TJ1 4T0, 3A6J1VA 0 M0EL MEPTB0L MAME? #line:0b80c9
-[[(YSACHJ1L UP0BAV B UAMRTN, 6N. MHE TAK SAVJ.)|BackFromParty_LapseOfMemory]] #line:0cc069
-[[(MHE CTJ1DH0 3A CB0E U0BEDEHNE. UP0CTN MEHR.)|BackFromParty_Mortified]] #line:d6142f
+Mae: *hurp!* #line:590d83
+Mae: [wave]Awman if i puke inheer your parentz are gonna be so madat me[/wave] =_= #line:adcfc4
+Mae: [wave]Tellyour mom I’m sorry okay shes soo niiiiiiiice[/wave] #line:9a04c5
+Bea: GODDAMMIT MAE #line:abaa0d
+Mae: WHAA? o_o  #line:a6f74e
+Bea: MY MOTHER IS DEAD. #line:da32ec
+Mae: WHAAAAA? :( #line:89dbc9
+Bea: SHE DIED. #line:7adfd6
+Bea: OF CANCER. #line:9fdde2
+Bea: SENIOR YEAR. #line:8f54cd
+Mae: [wave]OHnoooo she was soo niiiiiiiice![/wave]  #line:861cd2
+Mae: [wave]Beebee aryou okaaa ayy?[/wave] #line:3e01c9
+Bea: HOW DO YOU NOT KNOW THIS? #line:32fb54
+Bea: DID YOU FORGET ABOUT MY DEAD MOM? #line:0b80c9
+[[(This was a terrible lapse of memory, Bea. I’m so sorry.)|BackFromParty_LapseOfMemory]] #line:0cc069
+[[(I’m mortified by my behavior. I am sorry.)|BackFromParty_Mortified]] #line:d6142f
 ===
 title: BackFromParty_LapseOfMemory
 tags: 
 colorID: 2
 position: -12873,4249
 ---
-Mae: [wave]MHE HE HPANTJCR 3AU0MHATJ 4EF0-VN60, U0P0L[/wave] #line:17a7bf
-Mae: [wave]HN4E VN4H0F0[/wave] #line:b7f84b
+Mae: [wave]i don like, rebmember ANYTHING sometimes[/wave] #line:17a7bf
+Mae: [wave]dont take id personally[/wave] #line:b7f84b
 [[BackFromParty_5]]
 ===
 title: BackFromParty_Mortified
@@ -263,8 +263,8 @@ tags:
 colorID: 2
 position: -12458,4254
 ---
-Mae: [wave]0X, 6NN, R BEDY CR KAK CBNHR[/wave] #line:43aadc
-Mae: [wave]TJ1 3VNQJCJ HA MEHR???[/wave] #line:3e24a2
+Mae: [wave]awe bee, i am acting lika JERK[/wave] #line:43aadc
+Mae: [wave]are you madat me???[/wave] #line:3e24a2
 [[BackFromParty_5]]
 ===
 title: BackFromParty_5
@@ -272,27 +272,27 @@ tags:
 colorID: 2
 position: -12657,4580
 ---
-Bea: 4T0 C T060L UP0N30QV0? #line:98a390
-Bea: TJ1 BEDJ 6J1VA YMH0L!!! #line:dfcc06
-Bea: TJ1 6J1VA KVEB0L! #line:ac0f28
-Bea: TJ1 CT0NVA T0F0, 4T06J1 C T060L F0B0PNTJ! #line:249225
-Mae: *BCXVNUJ1BAET* :o #line:3b2e58
-Bea: 3A4EM TJ1 B006WE BEPHYVACJ? #line:a708fc
-Bea: 4T0, B K0VVEDSE HE 3AVADNV0CJ, DA? #line:7f361f
-Bea: TE6E 6J1V0 TAM HEY%TH0? #line:c33112
-Bea: TJ1 6J1VA HE B HACTP0EHNN Y4NTJCR? #line:54da99
-Mae: *BCXVNUJ1BAET* :( #line:0dfe66
-Bea: R 6J1 Y6NVA 3A TAKY% B03M0SH0CTJ. #line:0cdb27
-Bea: N DASE CEL4AC. #line:0792dc
-Bea: R 6 BJ1KNHYVA TE6R HA X0DY N3 MAQNHJ1 HE PA3DYMJ1BAR, #line:39d57f
-Bea: ECVN 6J1 U0CVE GT0F0 MEHR UPNHRVN B K0VVEDS. #line:e42eb4
+Bea: WHAT HAPPENED TO YOU? #line:98a390
+Bea: YOU USED TO BE SMART!!! #line:dfcc06
+Bea: YOU USED TO BE COOL! #line:ac0f28
+Bea: YOU USED TO BE WORTH TALKING TO! #line:249225
+Mae: *sniff* :o #line:3b2e58
+Bea: Why did you even come back? #line:a708fc
+Bea: Oh, did college not work out for you? #line:7f361f
+Bea: Was it INCONVENIENT? #line:c33112
+Bea: Were you not in the MOOD? #line:54da99
+Mae: *sniffle* :( #line:0dfe66
+Bea: I would have killed for that. #line:0cdb27
+Bea: I still would. #line:0792dc
+Bea: I’d kick you out of this moving car right now #line:39d57f
+Bea: if it meant I could go to college. #line:e42eb4
 <<setAnimInt Mae crying 1>>
-Mae: [shake=.1]YAAAAAAA[/shake] #line:4ee9d2
+Mae: [shake=.1]WAAHAAAHAAA[/shake] #line:4ee9d2
 <<close>>
 <<stopCarAbruptly>>
-Bea: MJ1 HA MECTE. BJ1METALCR N3 M0EL MAQNHJ1. #line:2e5fcb
-Mae: [size=1][shake=.2]YAAAAAAAAAAAAAAAAAAAAA[/all] #line:27879e
-Bea: 0 60SE, DABAL U0M0FY. #line:775171
+Bea: We’re here. Get the hell out of my car. #line:2e5fcb
+Mae: [size=1][shake=.2]AAAAHHHAA HAAAA HAAAA HAAAA AAAAHAA[/all] #line:27879e
+Bea: Oh god, let me help you in. #line:775171
 [[BackFromParty_A1D3_End]]
 ===
 title: InitLevel_A1D3
@@ -350,13 +350,13 @@ colorID: 3
 position: -11863,2280
 ---
 <<irisIn 1 wait>>
-Mae: 6J1V0 BECEV0! #line:db1eea
-Bea: YFY. UP0DYKTJ1. #line:73bafb
-Bea: DELCTBNTEVJH0 3ACTABVR%T OEHNTJ SN3HJ. #line:dc0b9a
-Mae: TB0L CAPKA3M 0TKV0HEH. #line:4575ee
-Mae: Q0UUNHF GT0 BEEEEECEV0! #line:7cdcd1
+Mae: that was fun! #line:db1eea
+Bea: yup. groceries. #line:73bafb
+Bea: really makes you appreciate life. #line:dc0b9a
+Mae: your sarcasm is invalid. #line:4575ee
+Mae: shopping is fuuuuuuun! #line:7cdcd1
 <<wait 3>>
-Bea: BY-XY-Y! #line:d01819
+Bea: woohoo. #line:d01819
 <<close>>
 <<wait 1>>
 <<irisOut 1 wait>>
@@ -383,49 +383,49 @@ position: -11106,2248
 ---
 <<musicFadeOut 1>>
 <<irisIn 1 wait>>
-Mae: HY, TAK, 4T0 GT0 3A BE4EPNHKA? #line:c06dd6
-Bea: GM. #line:9eb0d5
-Bea: BE4EPNHKA DSEKN? #line:e0dc29
-Mae: 4T0 3A BE4EPNHKA DSEKN? #line:4b2f8d
-Bea: U0MHNQJ DSEKN? #line:74c75f
-    ->AFA, 0HA MEHR HEHABNDNT. #line:712259
-        Bea: 0X, GT0 6J1V0 DABH0. #line:aab1df
-        Mae: AFA #line:23899d
-    ->AFA, 0HA NHTEHCNBHAR. #line:a10e8e
-        Bea: 0HA CEPJE3H0 0TH0CNTCR K0 BCEMY CEPJE3H0MY. #line:8fc866
-        Bea: H0 B 0CTAVJH0M, 0HA, D0B0VJH0, 3A6ABHAR. #line:b4ab1c
-Mae: PA3BE Y DSEKN HE 6J1V0 0DH0L SEHCK0L FPYUUJ1? #line:79417d
-Bea: AFA. #line:01c09c
-Bea: "TPAHCJ1 PYQAT MNP0B0L U0PRD0K" #line:75729f
-Mae: T.P.M.U.? #line:707bb4
-Bea: DA. GT0 DELCTBNTEVJH0 KPYT0. #line:ffee51
-Bea: Y HNX 0TVN4HJ1L CKPNM #line:5afccc
-Mae: R U0DKYUVEHA. #line:c6aab7
+Mae: So what kind of party is this? #line:c06dd6
+Bea: Um. #line:9eb0d5
+Bea: A Jackie Party? #line:e0dc29
+Mae: What’s a Jackie Party? #line:4b2f8d
+Bea: You remember Jackie? #line:74c75f
+    ->yeah, she hates me. #line:712259
+        Bea: oh, that was years ago. #line:aab1df
+        Mae: uh huh. #line:23899d
+    ->yeah, she's intense. #line:a10e8e
+        Bea: she's serious about serious stuff. #line:8fc866
+        Bea: she's a lot of fun otherwise. #line:b4ab1c
+Mae: didn’t jackie have like a one-woman band? #line:79417d
+Bea: yeah. #line:01c09c
+Bea: “Trans World Order Give Them Hell” #line:75729f
+Mae: T.W.O.G.T.H.? #line:707bb4
+Bea: yeah. It’s actually really great. #line:ffee51
+Bea: she’s got a great scream #line:5afccc
+Mae: I’m sold. #line:c6aab7
 <<wait 2>>
-Mae: "TPMU" #line:26053d
-Mae: GL, 6N, CKASN GT0. #line:91df7c
-Mae: CKASN TPMU. #line:8279a5
-Bea: TPMU. #line:7e89f6
+Mae: “Twogth” #line:26053d
+Mae: Hey Bea say it. #line:91df7c
+Mae: Say Twogth. #line:8279a5
+Bea: Twogth. #line:7e89f6
 <<lookOut Mae>>
-Mae: TPMU. #line:042c49
+Mae: Twogth. #line:042c49
 <<dilate Mae .75 1>>
-Mae: T P M M M M U. #line:4ecc9f
+Mae: T w o o o o g t h. #line:4ecc9f
 <<wait 2>>
-Bea: B 06WEM, #line:bc96f6
+Bea: anyway #line:bc96f6
 <<dilate Mae 1 .25>>
 <<lookNearest Mae>>
 <<wait 1>>
-Bea: GT0 BE4EPNHKA #line:de609d
-Bea: N DSEKN MEHR UPNFVACNVA. #line:ae8c90
-Mae: U0CM0TPNTE-KA! #line:a0564d
-Mae: X0DNT HA CEKPETHJ1E BE4EPNHKN N BCE TAK0E. #line:dcd960
-Bea: 0HN HE CEKPETHJ1E, MGL. #line:cfefe1
-Mae: HY, *MEHR-T0* HE UPNFVACNVN. #line:621908
-Bea: 0KEL. R TE6R UPNFVAQA%. TEUEPJ TJ1 UPNFVAQEHA. #line:532da2
-Mae: YPAAAA! #line:62ef35
-Bea: NTAK, HAM EXATJ EWE FDE-T0 4ACA U0VT0PA, TAK 4T0... #line:dbf70f
-Mae: 60SE. HADE%CJ, 0H0 T0F0 CT0NT. #line:64244f
-Bea: BE4EPNHKN DSEKN CT0RT TAK0L U0E3DKN. #line:9c7d82
+Bea: this is a party #line:de609d
+Bea: and Jackie invited me. #line:ae8c90
+Mae: look at you! #line:a0564d
+Mae: all going to secret parties and shit. #line:dcd960
+Bea: they're not secret, mae. #line:cfefe1
+Mae: well *I* wasn't invited. #line:621908
+Bea: ok. i invite you. you are now invited. #line:532da2
+Mae: woohoo! #line:62ef35
+Bea: ok we got like a 90 minute drive ahead so... #line:dbf70f
+Mae: geez. this better be some party. #line:64244f
+Bea: Jackie parties are worth the trip. #line:9c7d82
 <<close>>
 <<fadeOut 1 wait>>
 <<scene BeaTown>>
@@ -442,25 +442,25 @@ position: -12185,1943
     <<dilate Bea .75 .1>>
     <<wait 1>>
     <<irisIn 1 wait>>
-    Mae: R PADA, 4T0 MEHR 3DECJ HE BJ1PBAV0. #line:0ffeaf
-    Bea: R T0SE. #line:977681
-    Mae: M0SET, MHE 60VJQE HNK0FDA HE CT0NT UNTJ. #line:9b111f
-    Bea: NVNNNN UP0CT0 HE HAVEFAL TAK B CVEDY%WNL PA3. #line:310058
+    Mae: Glad I didn't puke in here. #line:0ffeaf
+    Bea: me too. #line:977681
+    Mae: maybe I just never drink again. #line:9b111f
+    Bea: orrrr maybe you just take it easy next time. #line:310058
     <<lookAt Mae Bea>>
-    Mae: HE 3HA%, U0-M0EMY, R HE YME% UNTJ. #line:f64e6b
-    Bea: R GT0 3AMETNVA. #line:9b7307
-    Mae: DYMA%, MHE HYSEH KT0-T0 DVR U0DCTPAX0BKN. #line:4ed73b
+    Mae: i don't know if i do moderation well. #line:f64e6b
+    Bea: i could see that. #line:9b7307
+    Mae: i think the term is "risk-taking behavior." #line:4ed73b
     <<dilate Bea 1 .1>>
     Bea: -_- #line:645f29
     <<lookLeft Bea>>
-    Bea: ...N TJ1 YSE K0F0-T0 UPNMETNVA? #line:09539f
-    Mae: HY, MJ1 C T060L BP0DE 6J1 HEUV0X0 CUPABNVNCJ B4EPA. #line:e1f502
+    Bea: ...are you seeing someone about this? #line:09539f
+    Mae: hanging with you is working pretty well tonight. #line:e1f502
     Bea: ... #line:c544fa
     -> ... #line:a3d1bc
-    -> HNKAKNX 06R3ATEVJCTB. #line:6bda1e
-    Bea: T0FDA MHE HYSHA U04AC0BAR 0UVATA. #line:3c920e
-    Mae: Y MEHR ECTJ SBA4KA. #line:c5ae58
-    Bea: R BKV%4A% PADN0. #line:2f8028
+    -> No pressure. #line:6bda1e
+    Bea: I should be getting paid by the hour. #line:3c920e
+    Mae: I got gum. #line:c5ae58
+    Bea: I'm gonna turn on the radio now. #line:2f8028
     <<close>>
     <<playMusic bea_dance_in_car>>
     <<close>>
@@ -521,59 +521,59 @@ position: -10842,2267
 <<lookAt Mae Gregg>>
 <<musicFadeOut 1>>
 <<irisIn 1 wait>>
-Mae: HY, N GT0 BCE, K0F0 R OEV0BAVA. #line:c62cd3
-Gregg: GT0 2 4EV0BEKA #line:340691
-Gregg: HY, TNUA, #line:4e69b3
-Gregg: U0VT0PA #line:e3b83f
-Mae: DA U0ZNF. 6YDT0 TB0L CUNC0K VY4QE. #line:6cefd7
+Mae: and that's all the people I’ve kissed. #line:c62cd3
+Gregg: that's 2 people #line:340691
+Gregg: kinda #line:4e69b3
+Gregg: one and a half #line:e3b83f
+Mae: whatever. Like your average is any better. #line:6cefd7
 <<close>>
 <<wait 1>>
 <<lookAt Mae Angus>>
 <<wait 1>>
 <<lookNearest Mae>>
-Mae: AHFYC, TJ1 4T0-T0 04EHJ M0V4AVNB. #line:622948
+Mae: Angus you've been really quiet. #line:622948
 Angus: ... #line:e4093e
-Angus: UP0CTN. #line:aa0d19
-Mae: TJ1 B U0PRDKE? #line:2f8398
+Angus: sorry. #line:aa0d19
+Mae: you ok? #line:2f8398
 Angus: ... #line:d5a855
 <<lookAt Mae Gregg>>
-Gregg: MJ1 BEDJ EDEM KYQATJ 6VNH4NKN!!! #line:2c9f2f
+Gregg: We're gonna get pancakes!!! #line:2c9f2f
 <<lookAt Mae Angus>>
 Angus: ... #line:b214ff
 <<close>>
 <<wait 2>>
-Mae: GL, AHFYC #line:06d5bc
-Mae: AHFYC #line:db3098
-Mae: GL #line:18be2e
-Mae: CBEDEM NX C YMA "6VNH4NKC0M" #line:1560e2
-Mae: AHFYC #line:1f70b0
+Mae: Hey Angus #line:06d5bc
+Mae: Angus #line:db3098
+Mae: Hey #line:18be2e
+Mae: gonna get them flapjacks #line:1560e2
+Mae: Angus #line:1f70b0
 <<close>>
 <<wait 2>>
-Mae: *UQQQQQ!!* #line:eafd54
-Mae: "BJ13J1BA% D0KT0PA 4NKC0HA..." #line:4d9e74
+Mae: *crrrrsch!* #line:eafd54
+Mae: "Paging Doctor Jackson..." #line:4d9e74
 <<close>>
 <<wait 1>>
-Mae: "...D0KT0P 6VNH 4NKC0H..." #line:41e3e0
-Mae: "...U0SAVYLCTA 0TBETJTE M0EMY SNB0TY..." #line:9a848c
-Angus: VADH0, DA, 6VNH4NKN #line:920f89
-Gregg: 0KEL. #line:8e9896
-Mae: 0KEL. #line:9666c1
+Mae: "...Doctor Flap Jackson..." #line:41e3e0
+Mae: "...please report to my belly..." #line:9a848c
+Angus: OK YES PANCAKES #line:920f89
+Gregg: Dude. #line:8e9896
+Mae: Dude. #line:9666c1
 <<close>>
 <<wait 2>>
 <<tell CarMode FlatTire>>
 <<wait 2>>
-Angus: TB0% #line:c295c9
-Angus: SE #line:00b841
-Angus: MATJ #line:cdd87e
-Gregg: 0F0, Y HAC UP06NV0 K0VEC0? #line:5399bb
-Angus: R T0PM0SY. #line:2daf5e
-Mae: HET! D0HAT BYVZ! #line:617d7a
-Angus: MGL. #line:165248
+Angus: God #line:c295c9
+Angus: Damn #line:00b841
+Angus: It #line:cdd87e
+Gregg: Whoa, did we get a flat tire? #line:5399bb
+Angus: I'm pulling over. #line:2daf5e
+Mae: No! Donut Wolf! #line:617d7a
+Angus: Mae. #line:165248
 <<close>>
 <<tell CarMode StopWithFlatTire>>
 <<wait 2>>
-Gregg: MJ1 D06EPEMCR. 6YDEM T0VKATJ MAQNHY. #line:25c98d
-Angus: VADH0, BJ1 0CTABALTECJ BHYTPN. #line:114e50
+Gregg: We'll get there. We'll push the car. #line:25c98d
+Angus: Ok you all stay in here. #line:114e50
 <<close>>
 <<irisOut 1 wait>>
 <<scene Roadside>>
@@ -662,19 +662,19 @@ position: -9928,2693
 <<set $angus_investigation_quest to 0>>
 <<unlockDoodle AngusIQ>>
 <<unlockDoodle AngusPsychic>>
-Angus: *0DJ1QKA* #line:d3fe32
-Angus: *0DJ1QKA* #line:39c17e
-Mae: TJ1 B H0PME, 3D0P0BRK? #line:26f63a
-Angus: AFA, B0CCTAH0BV%CJ 4EPE3 UAPY MNHYT. #line:784104
-Angus: R D0B0VJH0 BJ1H0CVNB. #line:424cfd
-Mae: GT0 6J1V 0H! GT0 6J1V UPN3PAK! #line:24efa4
-Angus: NVN *0DJ1QKA* GT0 6J1V *0DJ1QKA* KAK0L-T0 4YDAK, SNBYWNL TAM. #line:20505c
-Angus: CK0PEE BCEF0, TYDA 3A6PEDA%T DETNQKN C BE4EPNH0K #line:9a80b7
-Angus: HY, TNUA T0L, HA K0T0P0L TE6R BJ1PBAV0 #line:5a1f30
-Mae: YX #line:1f4907
-Angus: T0 MECT0 HE TAK YS DAVEK0 0TTYDA. #line:e6eea1
+Angus: *wheeeeeeze* #line:d3fe32
+Angus: *wheeeeeeeeeeze* #line:39c17e
+Mae: You ok, big guy? #line:26f63a
+Angus: yeah, I’ll be ok in a few minutes. #line:784104
+Angus: i’m resilient. #line:424cfd
+Mae: So that was it! That was the ghost! #line:24efa4
+Angus: Or *wheeze* it was *wheeze* some weirdo who lives out there. #line:20505c
+Angus: they probably get lots of kids throwing parties back there #line:9a80b7
+Angus: I mean the party we went to where you threw up #line:5a1f30
+Mae: ugh #line:1f4907
+Angus: that wasn’t *TOO* far from there. #line:e6eea1
 <<if $act is 3 and $day is 4>>
-    Mae: U04EMY HNKT... #line:b1c16d
+    Mae: WHY DOES NOB- #line:b1c16d
     <<close>>
     //freakout animation and sound plays//
     <<enableAnimator BeaCar>>
@@ -683,35 +683,35 @@ Angus: T0 MECT0 HE TAK YS DAVEK0 0TTYDA. #line:e6eea1
     <<wait 12>>
     <<playAmbientSFX _AmbientSFX:mae_head_hurt 3>>
     <<wait 3>>
-    Mae:{width=4}A-A-A-A-A-A-A-A-A-A-A-A-A-A-A!!!#line:fc7790
-    Angus: MGL? #line:998090
-    Mae:{width=4}AAAAAAYYYYYYMMMZZZZ.#line:01a8c7
-    Angus: 4T0 HE TAK? #line:b731b2
-    Angus: M0SET, MHE 0CTAH0BNTJCR? #line:4cb825
-    Mae: YX. M0R F0V0BA... 60SE... YZ #line:33bcf1
-    Angus: TAK, VADH0. 0TBE3Y TE6R D0M0L... #line:77f1e0
-    Mae: HET! #line:8e589a
-    Mae: HAD0 U0F0B0PNTJ C0... BCEMN... CEF0DHR... #line:22406f
-    Angus: 4T0? #line:01f8f6
-    Mae: BCE MJ1. #line:341d49
-    Mae: MHE HYSHJ1 BCE MJ1. #line:a56dfb
+    Mae:{width=4} AAAAAAAAAAAAAAAGH!!! #line:fc7790
+    Angus: Mae? #line:998090
+    Mae:{width=4} AAAAAUUGHHHGH. #line:01a8c7
+    Angus: What’s wrong?!?!? #line:b731b2
+    Angus: Do you need me to pull over? #line:4cb825
+    Mae: Ugh. My head... geez... ugh #line:33bcf1
+    Angus: Ok well let’s get you home... #line:77f1e0
+    Mae: NO! #line:8e589a
+    Mae: Need to talk to... everyone... tonight... #line:22406f
+    Angus: What? #line:01f8f6
+    Mae: All of us. #line:341d49
+    Mae: I need all of us. #line:a56dfb
     <<fadeOut 1 wait>>
     <<scene GreggAngusApartment>>
 <<else>>
     //if A3D2//
-	Mae:{width=4}Y-Y-Y-Y-Y-Y-Y-Y-Y-Z#line:b802f1
-	Mae: U04EMY HNKT0 MHE HE BEPNT? #line:212276
-    Angus: MGL, KAK 6J1 #line:6c3796
-    Angus: ECTJ 60VEE Y6EDNTEVJHJ1E 06JRCHEHNR GT0MY, #line:9450c9
-    Angus: HESEVN "UPN3PAK". #line:906f82
-    Mae: VADH0, X0P0Q0, KAK X04EQJ. #line:7c5dbb
+	Mae:{width=4} uuuuuuuuuuuuuuuuuuuuuuugh #line:b802f1
+	Mae: WHY DOES NOBODY BELIEVE ME? #line:212276
+    Angus: Mae it's like #line:6c3796
+    Angus: every other explanation is more likely #line:9450c9
+    Angus: than "ghost". #line:906f82
+    Mae: ok fine whatever. #line:7c5dbb
     <<wait 1>>
-    Mae: UP0CTN. #line:ce061d
-    Mae: B0P4YH. #line:bf560c
-	Mae: MNFPEHJ. #line:06d5a2
-    Mae: 6J1V0 CTPAQH0BAT0. #line:a0c6af
-    Angus: 6J1V0 KPYT0. #line:32d78a
-    Angus: N CTPAQH0. #line:a16f1a
+    Mae: sorry. #line:ce061d
+    Mae: grouchy. #line:bf560c
+	Mae: headache. #line:06d5a2
+    Mae: that was scary. #line:a0c6af
+    Angus: it's cool. #line:32d78a
+    Angus: it was. #line:a16f1a
 	<<fadeOut 1 wait>>
 	<<scene MaeHouse left>>
 <<endif>>

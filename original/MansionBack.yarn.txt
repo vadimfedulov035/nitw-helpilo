@@ -6,9 +6,9 @@ position: -1455,30
 <<playerUpdateFallDuringInteract 1>>
 <<fadeIn 1 wait>>
 <<wait 2>>
-Mae: FPEFF? #line:58ccea
-Mae: GL, TJ1 FDE? #line:669335
-Gregg: 3DECJ!!! #line:1b0aef
+Mae: Gregg? #line:58ccea
+Mae: Hey, where are you? #line:669335
+Gregg: OVER HERE!!! #line:1b0aef
 <<playerUpdateFallDuringInteract 0>>
 <<playerCanRun 0>>
 <<playerCanJump 0>>
@@ -18,14 +18,14 @@ tags:
 colorID: 0
 position: -971,72
 ---
-Gregg: GL, HE U0CBETNQJ C%DA? #line:24eab3
+Gregg: Hey, you wanna shine that light down here? #line:24eab3
 ===
 title: GreggThanks1
 tags: 
 colorID: 0
 position: -680,121
 ---
-Gregg: KPYT0, CUACN60. #line:dadf42
+Gregg: Cool thanks. #line:dadf42
 ===
 title: GreggOMG1
 tags: 
@@ -33,7 +33,7 @@ colorID: 0
 position: -411,90
 ---
 <<flip Gregg -1>>
-
+Gregg: omg what was that? #line:bc36a8
 ===
 title: Nothing1
 tags: 
@@ -41,10 +41,10 @@ colorID: 0
 position: -144,83
 ---
 <<flip Gregg -1>>
-Mae: HN4EF0. #line:a77b47
-Gregg: HY, AFA. #line:3f0a8e
+Mae: Nothing. #line:a77b47
+Gregg: uh huh #line:3f0a8e
 <<flip Gregg 1>>
-Gregg: GL, 60VJQE CBETA, U0SAVYLCTA.  #line:fc5199
+Gregg: Hey more light please #line:fc5199
 ===
 title: Owl
 tags: 
@@ -60,17 +60,17 @@ colorID: 0
 position: 96,76
 ---
 <<flip Gregg -1>>
-Gregg: KAK0F0 4EPTA? #line:be7755
+Gregg: wtf? #line:be7755
 ===
 title: Something1
 tags: 
 colorID: 0
 position: 348,61
 ---
-Gregg: TAM 4T0-T0 ECTJ.  #line:b41f68
-Mae: R SE F0B0PNVA #line:73c2e7
+Gregg: ok. there's something up there. #line:b41f68
+Mae: told you #line:73c2e7
 <<flip Gregg 1>>
-Gregg: VADH0, DABAL 3AKAH4NBATJ. A EWE UPNKPJ1BAL M0% CUNHY. A VY4QE N T0, N DPYF0E. #line:32af43
+Gregg: Alright, let's finish this. Also watch my back. Basically do both. #line:32af43
 ===
 title: Hey1
 tags: 
@@ -78,7 +78,7 @@ colorID: 0
 position: 623,49
 ---
 <<flip Gregg -1>>
-Gregg: GL! TJ1 HABEPXY!!! #line:c0a065
+Gregg: Hey! you up there!!! #line:c0a065
 ===
 title: InitLevel
 tags: 
@@ -93,36 +93,36 @@ tags:
 colorID: 0
 position: -1194,37
 ---
-Gregg: 000 DA! #line:b59673
-Gregg: HAQVN DBEPJ B U0DBAV! #line:9d2eb3
-Mae: TCCC!!! #line:0b32a1
-Gregg: 4T0? #line:fd652c
-Mae: XB0ATNT KPN4ATJ! #line:4c5969
-Gregg: U04EMY TJ1 TAK F0B0PNQJ? #line:08bab5
-Mae: ECVN NCU0VJ3YEQJ "0A" BMECT0 "A", GT0 CV0SHEE #line:361964
-Mae: B K0A4ECTBE UPNMEP0A UPN3P0AK, #line:cb47e0
-Mae: CVJ1QNQJ, K0AK UP0N3H0CNTCR. #line:4ca6e9
-Gregg: R U0HRTNR HE NME%, 0 4EM TJ1 F0B0PNQJ. #line:a7c83d
-Mae: X0P0Q0, MJ1 UJ1TAEMCR 6J1TJ CKPJ1J10THJ1MN, TAK BEDJ? #line:6ddbff
-Gregg: 0, VADH0, D0 MEHR D0QV0 0 4EM TJ1 #line:12bdd1
-Mae: CUACN60. #line:af55e9
-Gregg: R HE 6YDY TAK DEVATJ. #line:cb4207
-Mae: 0KEL. #line:61748d
-Gregg: BCE B U0PRDKE. 3DECJ HNK0F0. #line:5ac50c
-Gregg: CBETA HET, DBEPN 3AKPJ1TJ1. #line:550ee0
-Mae: TAK KAK MJ1 GT0 CDEVAEM? #line:31aa02
-Gregg: TJ1 6YDEQJ DEPSATJ Z0HAPNK... #line:2c711a
+Gregg: AW YEAH!  #line:b59673
+Gregg: FOUND THE BASEMENT DOORS! #line:9d2eb3
+Mae: THHH!!! #line:0b32a1
+Gregg: What? #line:fd652c
+Mae: Thtop Yelling! #line:4c5969
+Gregg: Why are you talking like that? #line:08bab5
+Mae: If you thay “TH” inthtead of “ETH” ith harder #line:361964
+Mae: for thomeone, for exthample a GHOTHT, #line:cb47e0
+Mae: to hear that you’re thpeaking. #line:4ca6e9
+Gregg: I have no idea what you’re saying here. #line:a7c83d
+Mae: OK, we’re trying to be thtealthy, right? #line:6ddbff
+Gregg: oh ok I get what you’re saying #line:12bdd1
+Mae: THANK you. #line:af55e9
+Gregg: I’m not going to do that. #line:cb4207
+Mae: Ok. #line:61748d
+Gregg: We’re fine. Nobody’s here. #line:5ac50c
+Gregg: No lights on, doors are locked. #line:550ee0
+Mae: So how are we doing this? #line:31aa02
+Gregg: You are going to hold the flashlight... #line:2c711a
 //hands mae flashlight <- how do we want to do this?//
 <<fadeOutInternal .5 wait>>
 <<warp Mae MaeWithFlashlight>>
 <<flip Mae -1>>
 <<fadeInInternal .5 wait>>
-Gregg: U0KA R BCKPJ1BA% 3AM0K. #line:02940a
-Mae: TJ1 SE YMEEQJ B3VAMJ1BATJ 3AMKN. R A6C0V%TH0 3A6J1VA. #line:6b891b
-Gregg: HY T0-T0 SE. #line:6e8b5c
-Mae: GT0 UP0CT0 UPEB0CX0DH0. #line:f1b87b
-Gregg: GT0 T04H0. #line:2e388c
-Gregg: UPECTYUVEHNR, 4YBNXA. #line:4f3fcd
-Mae: UPECTYUVEHNR, 4YBAK. #line:29db47
+Gregg: while I pick this lock. #line:02940a
+Mae: You can pick locks. I totally forgot. #line:6b891b
+Gregg: Yeah dude. #line:6e8b5c
+Mae: This is kind of awesome. #line:f1b87b
+Gregg: It sure is. #line:2e388c
+Gregg: Crimes, dude. #line:4f3fcd
+Mae: Crimeth, dude. #line:29db47
 <<tell FlashlightBrain Run>>
 ===

@@ -4,24 +4,24 @@ colorID: 0
 position: 505,248
 ---
 <<if $caught_stealing_pretzel is 0>>
-    Cook: UPNBET! #line:424173
-    Mae: UPNBET! #line:494a8d
+    Cook: Hey! #line:424173
+    Mae: Hey! #line:494a8d
     <<set $caught_stealing_pretzel += 1>>
 <<elseif $caught_stealing_pretzel is 1>>
-    Cook: GL! Y6EPN CB0N PYKN! #line:8bb52d
-    Mae: XA-XA, UP0CTN #line:f779fe
+    Cook: HEY! HANDS OFF! #line:8bb52d
+    Mae: ha ha sorry #line:f779fe
     <<set $caught_stealing_pretzel += 1>>
 <<elseif $caught_stealing_pretzel is 2>>
-    Cook: 4T0-HN6YDJ HYSH0, MNCC? #line:55d723
-    Mae: HE-A! #line:d5156e
+    Cook: NEED SOMETHING MISS. #line:55d723
+    Mae: nope! #line:d5156e
     <<set $caught_stealing_pretzel += 1>>
 <<elseif $caught_stealing_pretzel is 2>>
-    Cook: 3HAEQJ, 0HN CT0RT DEHEF. #line:62e28f
-    Mae: 3HA%, 3HA%! #line:15f80f
+    Cook: THOSE COST MONEY YA KNOW #line:62e28f
+    Mae: i know i know! #line:15f80f
     <<set $caught_stealing_pretzel += 1>>
 <<else>>
-    Cook: GL! #line:21cd1a
-    Mae: A-A-A, 0TVN4H0. #line:18699f
+    Cook: HEY! #line:21cd1a
+    Mae: AAAGH FINE. #line:18699f
     <<set $caught_stealing_pretzel += 1>>
 <<endif>>
 <<irisOut 1 wait>>
@@ -33,13 +33,13 @@ colorID: 0
 position: 788,244
 ---
 <<if $pretzels_stolen is 0>>
-    Mae: R. K0P0VEBA. B0P0B. #line:fcebf4
+    Mae: I. Am. The. Bandit. Queen. #line:fcebf4
 <<elseif $pretzels_stolen is 1>>
-    Mae: R CUPABNVACJ! #line:eca7fc
+    Mae: Getting the hang of this! #line:eca7fc
 <<elseif $pretzels_stolen is 2>>
-    Mae: TEUEPJ GT0 KASETCR CVNQK0M UP0CTJ1M. #line:f0bb6e
+    Mae: This is unfairly easy now. #line:f0bb6e
 <<else>>
-    Mae: BKYCHRQKA DVR KPJ1CRT. #line:82f251
+    Mae: Delicious, for rat babies. #line:82f251
 <<endif>>
 <<set $pretzels_stolen += 1>>
 
@@ -54,15 +54,15 @@ position: 235,269
 ---
 <<if $pretzel_intro_done is 0>>
     <<set $pretzel_intro_done to 1>>
-    Mae: 0K 0K 0K 0K, MGL. #line:d99bba
-    Mae: Y TE6R 6YDET T0VJK0 0DHA U0UJ1TKA. #line:949213
-    Mae: HYSH0 UP0CT0 3ACTJ1TJ, K0FDA 0H 6YDET CM0TPETJ HA MEHR. #line:dd7160
-    Mae: DASE ECVN TJ1 DEPSNQJ KPEHDEVJ. #line:26d6a6
-    Mae: HNKAK0F0. DBNSEHNR. #line:290d5f
-    Mae: GT0 06J14HAR UCNX0V0FNR. #line:db9caf
-    Mae: TJ1 YSE B0P0BAVA. #line:4ff8c0
-    Mae: TJ1 CM0SEQJ CDEVATJ GT0. #line:b6343b
-    Mae: 3AUP0CT0. #line:3a1243
-    Mae: VADH0. HA4HEM. #line:3605c4
+    Mae: Ok ok ok ok Mae. #line:d99bba
+    Mae: You're only gonna get one shot at this. #line:949213
+    Mae: Just gotta freeze when he looks over. #line:dd7160
+    Mae: Even if you're holding a pretzel. #line:26d6a6
+    Mae: No. Movement. #line:290d5f
+    Mae: It's simple psychology. #line:db9caf
+    Mae: You've done this before. #line:4ff8c0
+    Mae: You've still got it. #line:b6343b
+    Mae: Easy easy easy. #line:3a1243
+    Mae: Ok GO. #line:3605c4
 <<endif>>
 ===

@@ -3,7 +3,7 @@ tags:
 colorID: 0
 position: 343,149
 ---
-Mae: {width=8}AAAAAAAAAAAAAAAAAAAA!!!!!!! #line:eb6322
+Mae: {width=8}YAAAAAAAAAAAAAAAAAAAARGH!!!!!! #line:eb6322
 <<irisOut 1 wait>>
 <<scene GreggAngusApartment>>
 ===
@@ -13,17 +13,17 @@ colorID: 0
 position: 129,-28
 ---
 //aperture in//
-Mae: 60SE #line:3b073f
-Mae: GTA CT0P0HA B0HRET EWE XYSE #line:b4b4d9
-Mae: TYT T04H0 KT0-T0 SNV #line:a362e2
-Mae: B GT0L... #line:8772f0
-Mae: DJ1PE... #line:cbb45d
-Mae: TAK, KASETCR, R BNSY EE! #line:780923
-Gregg: HASNMAL HASNMAL HASNMAL #line:85a99e
-Mae: GL. R PADA, 4T0 Y BAC C AHFYC0M BCE TAK CKVADJ1BAETCR, BCR GTA #line:d429c4
-Mae: SN3HJ BMECTE. #line:58d5b6
-Gregg: CUACN60, 4YBNXA. MJ1 MH0F0 PA60TAVN HAD GTNM. #line:fb92d3
-Mae: GT0 MNV0. #line:87642f
-Gregg: HASNMAL HASNMAL HASNMAL #line:4cf9aa
-Mae: 0KEL-0KEL-0KEL-0KEL #line:7e05d5
+Mae: oh god #line:3b073f
+Mae: this side smells even worse #line:b4b4d9
+Mae: hope whatever was living here #line:a362e2
+Mae: in this... #line:8772f0
+Mae: hole... #line:cbb45d
+Mae: ok I think I see it! #line:780923
+Gregg: PUSH IT PUSH IT PUSH IT #line:85a99e
+Mae: Hey. I’m glad you and Angus have this whole, like, #line:d429c4
+Mae: LIFE together. #line:58d5b6
+Gregg: Thanks dude. We’ve worked hard. #line:fb92d3
+Mae: That’s sweet. #line:87642f
+Gregg: PUSH IT PUSH IT PUSH IT #line:4cf9aa
+Mae: Ok ok ok ok ok ok #line:7e05d5
 ===

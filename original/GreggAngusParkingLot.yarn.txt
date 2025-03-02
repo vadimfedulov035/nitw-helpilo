@@ -19,10 +19,10 @@ position: 170,129
 <<walk Gregg GreggEnter>>
 <<walk Mae MaeEnter>>
 //walking across to the car, which is on the right//
-Mae: D0SDJ K0H4NVCR. #line:622cf7
-Gregg: U0F0DA HA HAQEL CT0P0HE. #line:dbede0
+Mae: rain sure cleared up. #line:622cf7
+Gregg: weather moves for us. #line:dbede0
 <<lookAt Mae Gregg>>
-Mae: TAK, DVR 4EF0 MHE 6NTA? #line:859413
+Mae: So what do I need the bat for? #line:859413
 <<close>>
 <<waitForMove Mae>>
 <<waitForMove Gregg>>
@@ -30,51 +30,51 @@ Mae: TAK, DVR 4EF0 MHE 6NTA? #line:859413
 <<wait 2>>
 //they stop in front of the car//
 <<lookRight Mae>>
-Gregg: TA-DA!!! #line:83fa25
-Mae: 0-VR-VR! #line:001074
-Gregg: PA3XEPA4J GTY MAQNHY, PRD0BAR 60P0BCKN! #line:bb547f
+Gregg: Ta-Da!!!! #line:83fa25
+Mae: Ooh la la! #line:001074
+Gregg: Eff that car up, Private Borowski! #line:bb547f
 <<lookAt Mae Gregg>>
-Mae: TAK... #line:a742ba
--> TJ1 UPNBEV MEHR C%DA, 4T06J1 U0CM0TPETJ, KAK R V0MA% MAQNHY? #line:dfc5d4
-	Mae: GT0 KAK B T0M ZNVJME? FDE BCE B036YSDA%TCR 0T 6NTJR MAQNH? #line:38f542
-	Gregg: HET. N R HE 3HA% TAK0F0 ZNVJMA. #line:a2f1cf
-	Mae: U0CM0TPN. #line:0a73c5
-	Gregg: GX. #line:0dc541
-->3A4EM? #line:f1329d
-	Gregg: A TE6E HYSHA UPN4NHA? #line:579793
-	Mae: HET, H0 6J1V0 6J1 HEUV0X0. #line:2d8c6c
-	Gregg: CUPABEDVNB0. #line:ccc9d9
-Gregg: HAM HYSEH AKKYMYVRT0P GT0L MAQNHJ1. #line:faa107
-Mae: DVR 4EF0? #line:47b7dd
-Gregg: GT0 K0HZNDEHONAVJHAR NHZ0PMAONR, PRD0BAR. #line:0d6a91
-Mae: XBATNT HA3J1BATJ MEHR PRD0B0L. #line:1f031e
--> R, B006WE-T0, FEHEPAV #line:2cb846
-	Gregg: HET, *R* - FEHEPAV. #line:8fce2d
-	Gregg: Y MEHR QVEM. #line:f6591a
-	Mae: B0LHA - GT0 TYU0. #line:7fba3b
-	Gregg: B3FVRHN! B0LHA DAVA MHE GT0T QVEM! #line:23d325
--> R HE B TB0EL APMNN. #line:7b1009
-	Gregg: TJ1 6J1VA UPN3BAHA. #line:9c971f
-	Mae: GT0, TNUA, HECUPABEDVNB0. #line:a13243
-	Gregg: MNP B006WE HECUPABEDVNB, PRD0BAR 60P0BCKN. #line:bd33ac
+Mae: so... #line:a742ba
+-> you brought me out here to watch me beat up a car? #line:dfc5d4
+	Mae: Is this like that thing? Where people are all hot for car crashes? #line:38f542
+	Gregg: No. And I don’t know that movie #line:a2f1cf
+	Mae: Look it up. #line:0a73c5
+	Gregg: eh. #line:0dc541
+->why? #line:f1329d
+	Gregg: do you need a reason? #line:579793
+	Mae: No, but I’d like one. #line:2d8c6c
+	Gregg: Fair. #line:ccc9d9
+Gregg: So we need the battery out of this car. #line:faa107
+Mae: What for? #line:47b7dd
+Gregg: That’s privileged info, Private. #line:0d6a91
+Mae: Stop calling me private. #line:1f031e
+-> I’m a general at least #line:2cb846
+	Gregg: No, *I’M* the general. #line:8fce2d
+	Gregg: I got a hat. #line:f6591a
+	Mae: War is stupid. #line:7fba3b
+	Gregg: Watch it! War got me this hat! #line:23d325
+-> I ain’t in your army. #line:7b1009
+	Gregg: You’ve been drafted. #line:9c971f
+	Mae: That’s, like, very unjust. #line:a13243
+	Gregg: The world ain’t just, Private Borowski. #line:bd33ac
 <<lookRight Mae>>
-Mae: VADH0, H0 4T0, ECVN K0MY-T0 HYSHA GTA MAQNHA? #line:a5b1c8
-Gregg: DYMA%, 4T0 CKY4ATJ U0 HEL HNKT0 HE 6YDET. #line:f37615
-Mae: DA. U0-M0EMY, CKB03J HEE UP0P0CV0 DEPEB0. #line:739f17
+Mae: ok, but what if someone needs this car? #line:a5b1c8
+Gregg: I think it’s safe to say no one’s gonna miss it. #line:f37615
+Mae: yeah. I guess it’s got a tree growing through it. #line:739f17
 <<lookAt Mae Gregg>>
-->TAK 4T0, MHE UP0CT0 6NTJ EE, U0KA KAU0T HE 0TKP0ETCR? #line:861af1
-->U04EMY TJ1 HE U0M0FAEQJ? #line:0b30f1
-	Gregg: R U0HECY AKKYMYVRT0P BC% D0P0FY HA3AD! #line:5bd7c9
-	Gregg: PA3DEVEHNE TPYDA! #line:b0ca7d
-	Gregg: TE6E BCE PABH0 D0CTAV0CJ CAM0E BECEV0E. #line:054d6d
-	Mae: N UPABDA! #line:cdb784
-Gregg: DA! UP0CT0 YHN4T0SJ EE! #line:63b606
+->So we’re just beating it until the hood pops open? #line:861af1
+->Why aren’t you helping? #line:0b30f1
+	Gregg: I’m carrying the battery all the way back! #line:5bd7c9
+	Gregg: Division of labor! #line:b0ca7d
+	Gregg: You get the fun part anyways. #line:054d6d
+	Mae: True! #line:cdb784
+Gregg: Yeah! Just smash it up! #line:63b606
 <<lookRight Mae>>
-Mae: YHN4T0SNTJ B UYX N UPAX! #line:7352ba
-Gregg: YHN4T0SJ KAUNTAVN3M! #line:428af8
-Mae: YHN4T0SNTJ UPABNTEVJCTB0! #line:d8e528
-Gregg: YHN4T0SJ GTY MAQNHY! #line:18c6a4
-Mae: DAAAAAAAAAA!!!! #line:387bbb
+Mae: Smash it all up! #line:7352ba
+Gregg: Smash capitalism! #line:428af8
+Mae: Smash the government! #line:d8e528
+Gregg: Smash this car! #line:18c6a4
+Mae: YEEEAAAAARGH!!!! #line:387bbb
 <<lookNearest Mae>>
 <<set $gregg_angus_parking_lot_block_left to 1>>
 ===
@@ -88,17 +88,17 @@ position: 2704,105
 <<warp Mae MaeStandForGregg>>
 <<flip Mae 1>>
 <<fadeIn .5 wait>>
-Gregg: UPEKPACHAR PA60TA. #line:747afe
-Mae: C0FVACHA. CUACN60. #line:df728d
-Gregg: 0KASEQJ MHE 4ECTJ? #line:0cb5b8
-Mae: A MEHR HE YDAPNT T0K0M? #line:7920c1
-Gregg: HE D0VSH0. #line:88bc0c
-Gregg: N3 MAQNHJ1 PACTET DEPEB0. #line:2f4686
-Gregg: DYMA%, B HEL YSE HET GVEKTPN4ECTBA. #line:24e99b
-Mae: U0F0DN. H0... #line:abe254
-Gregg: TJ1 X04EQJ GT0 CDEVATJ NVN HET? #line:e1f70f
+Gregg: Excellent work. #line:747afe
+Mae: Thank you. I agree. #line:df728d
+Gregg: You want to do the honors? #line:0cb5b8
+Mae: Am I gonna get electrocuted? #line:7920c1
+Gregg: Should be fine. #line:88bc0c
+Gregg: The car’s got a tree growing through it. #line:2f4686
+Gregg: Probably not electric anymore. #line:24e99b
+Mae: Wait. But... #line:abe254
+Gregg: Do you want to do it or not? #line:e1f70f
 Mae: ... #line:4aa9d3
-Mae: X04Y. #line:173d07
+Mae: I do. #line:173d07
 <<close>>
 <<set $has_bat to 0>>
 <<irisOut 1 wait>>
@@ -111,21 +111,21 @@ position: 211,397
 ---
 Mae: =_= #line:e71cee
 //mae is on the ground, gregg is standing on top of the car//
-Gregg: XA-XA-XA-XA-XA-XA-XA-XA-XA-XA #line:4c1fb3
-Mae: YYYYYYZ. #line:8f3af9
-Gregg: B0T DEPJM0 #line:043fe9
-Gregg: TJ1 B U0PRDKE? #line:1ebd5f
-->DYMA%, R YMEPVA #line:061076
-->HET #line:229227
-Mae: HAD0VF0 R BJ1PY6NVACJ? #line:4b80d5
-Gregg: CEKYHD HA 5? #line:457f2d
-Mae: CTPAHH0 #line:2f52b8
-Mae: BPEMR, CV0BH0, 06PJ1BKN. #line:8458d4
-Gregg: GTA BCEVEHHAR U0VHA TALH. #line:02944f
-Mae: M0SET, YSE 3A6EPEM AKKYMYVRT0P N U0LDEM? #line:fbbfca
-Gregg: 0UPEDEVEHH0! #line:7cc1ee
-Gregg: B03BPAWAEMCR B KBAPTNPY! #line:c77c6b
-Mae: ...B0 PTY BKYC M0HET0K... #line:2ce982
+Gregg: HA HA HA HA HA HA HA HA HA HA #line:4c1fb3
+Mae: Uuuuugh. #line:8f3af9
+Gregg: Oh shit #line:043fe9
+Gregg: you ok? #line:1ebd5f
+->I think I died #line:061076
+->No #line:229227
+Mae: How long was I out? #line:4b80d5
+Gregg: Like 5 seconds? #line:457f2d
+Mae: oh weird #line:2f52b8
+Mae: Time, like, stretches. #line:8458d4
+Gregg: It’s a mysterious universe. #line:02944f
+Mae: We good to go with the battery? #line:fbbfca
+Gregg: You know it! #line:7cc1ee
+Gregg: Let's get back to the apartment! #line:c77c6b
+Mae: ...I taste pennies... #line:2ce982
 <<set $hasBat to 0>>
 <<irisOut 1 wait>>
 <<scene GreggAngusApartment>>
@@ -153,43 +153,43 @@ tags:
 colorID: 0
 position: 422,87
 ---
-Gregg: DA! YHN4T0SJ ZAQNCTCKY% MAQNHY! #line:e401d7
+Gregg: YEAH! DESTROY THE FASCIST CAR! #line:e401d7
 ===
 title: CarDamage01
 tags: 
 colorID: 0
 position: 688,69
 ---
-Gregg: BUEPED! PEB0V%ONR! #line:9a17d6
+Gregg: ONWARD! REVOLUTION! #line:9a17d6
 ===
 title: CarDamage02
 tags: 
 colorID: 0
 position: 929,99
 ---
-Gregg: DAAAAAAAAAAAAA!!! #line:dc7826
+Gregg: YEEEEAAAAAAAAAARGH!!! #line:dc7826
 ===
 title: CarDamage03
 tags: 
 colorID: 0
 position: 1164,134
 ---
-Gregg: TB0E BPEMR UPNQV0, MAQNHA!! #line:53d31e
+Gregg: YOUR TIME HAS COME, CAR!! #line:53d31e
 ===
 title: CarDamage04
 tags: 
 colorID: 0
 position: 1398,87
 ---
-Gregg: M0VNCJ, MAQNHA! #line:624965
-Gregg: CB0EMY MAQNHH0MY 60FY! #line:575271
+Gregg: SAY YOUR PRAYERS, CAR! #line:624965
+Gregg: TO WHATEVER GOD CARS PRAY TO! #line:575271
 ===
 title: CarDamage05
 tags: 
 colorID: 0
 position: 1632,119
 ---
-Gregg: UPN3PAK TNFPA BAMUNPA, UPNQEDQEF0 C VYHJ1!!! #line:81de1b
+Gregg: GHOST TIGER VAMPIRES RISE FROM THE MOON!!! #line:81de1b
 //Mae: What?
 //Gregg: I dunno! I go where the moment takes me!
 ===
@@ -198,19 +198,19 @@ tags:
 colorID: 0
 position: 1883,94
 ---
-Gregg: KP0BJ!!! MHE HYSHA KP0000BJJJJJJJJ!!!!! #line:a047ae
+Gregg: BLOOD!!! GIMME BLOODDDDD!!!!! #line:a047ae
 ===
 title: CarDamage07
 tags: 
 colorID: 0
 position: 2114,131
 ---
-Gregg: U0CVEDHNL YDAP!!! #line:171d6c
+Gregg: THE FINAL BLOW!!! #line:171d6c
 ===
 title: CarDamage08
 tags: 
 colorID: 0
 position: 2362,77
 ---
-Gregg: YHN4T0000000000SJ!!! #line:23765e
+Gregg: DESTROOOOOOOOOOOOY!!! #line:23765e
 ===

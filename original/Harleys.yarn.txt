@@ -38,22 +38,22 @@ tags:
 colorID: 2
 position: 519,1205
 ---
-Mae: GT0 SE XAPVN! 4EM 3AHNMAETECJ? #line:1519db
-Harley2: VNTV DS0, TJ1 APECT0BAH. #line:2afbec
-Mae: YX TJ1. DETN BCE EWE U0MHRT 0 VNTV DS0? #line:7c504d
-Harley3: MJ1 NCU0VJ30BAVN TB0% DHK. #line:c1f21a
--> 3HAETE VN BJ1, DETNQKN, 4T0 TAK0E DHK? #line:2d8d78
-    Harley3: AFA, GT0 TAKAR QTYKA, U0M0FA%WAR PACKPJ1BATJ UPECTYUVEHNR. #line:07ddfb
-    Harley2: TNUA 4ACTJ TB0EF0 TEVA, T0VJK0 04EHJ MAVEHJKAR. #line:6d6dda
-    Harley1: H0 Y UPN3PAK0B HET 4ACTEL TEVA. #line:ecb1b2
-    Mae: DA, XAPVN. XAPVN UPAB. #line:a71ec9
-    Harley3: TETR, M0SET YLDETE? #line:dadc58
-    Mae: TETR?! #line:c6a634
--> Y UPN3PAK0B HET DHK #line:c98ae7
-    Harley1: DA, Y UPN3PAK0B HET DHK #line:6058a8
-    Harley3: TETR, M0SET, BJ1 0CTABNTE HAC HAEDNHE? #line:ac8388
-    Harley2: DA, 0CTABJTE HAC, TETR. #line:e89d66
-    Mae: TETR?! #line:eed325
+Mae: Hey it’s the Harleys! What are you doing? #line:1519db
+Harley2: Little Joe you’re under arrest #line:2afbec
+Mae: Oh wow. Kids still talk about Little Joe? #line:7c504d
+Harley3: We used your DNA #line:c1f21a
+-> Do you kids know what DNA is? #line:2d8d78
+    Harley3: Yeah it's stuff you use to solve crimes #line:07ddfb
+    Harley2: Like a body part but really small. #line:6d6dda
+    Harley1: But ghosts don't have parts. #line:ecb1b2
+    Mae: Yeah Harley, Harley's right. #line:a71ec9
+    Harley3: Hey lady, will you go away? #line:dadc58
+    Mae: Lady?! #line:c6a634
+-> Ghosts don't have DNA #line:c98ae7
+    Harley1: Yeah ghosts don't have DNA #line:6058a8
+    Harley3: Hey lady can you leave us alone? #line:ac8388
+    Harley2: Yeah leave us alone lady. #line:e89d66
+    Mae: Lady?! #line:eed325
 ===
 title: Harley1InitLevel
 tags: 

@@ -24,18 +24,18 @@ tags:
 colorID: 2
 position: 23871,-2985
 ---
-Mae: 3DPABCTBYLTE, MNCTEP 4A30K0B! #line:f671f6
-Chazokov: UPNBET, MGL! M0R VY4QAR N3 XYDQNX Y4EHNO! #line:595f46
-Mae: XA-XA. AFA. #line:77eefa
-Mae: V%6NVA C03BE3DNR. HEHABNDEVA QK0VY. #line:e7d705
-Chazokov: GL, HE F0B0PN TAK UP0 QK0VY. QK0VA 0TKPJ1BAET D0P0FY B 6YDYWEE! #line:c08df7
-Chazokov: 3A4EM TJ1 BEPHYVACJ B U0CCYM CUPNHFC? #line:c18ef8
-Mae: R BJ1VETEVA N3 K0VVEDSA. #line:0a5788
-Chazokov: 0X. #line:d14d8c
-Chazokov: HY, ECVN TE6E D0 CNX U0P HPABRTCR C03BE3DNR, T0 #line:1af31a
-Chazokov: B K0HOE HEDEVN UPNX0DN K0 MHE HA KPJ1QY. #line:807544
-Chazokov: K T0MY BPEMEHN R KAK PA3 HACTP0% CB0L H0BJ1L TEVECK0U. #line:ec8640
-Mae: 06R3ATEVJH0! #line:aa4ffd
+Mae: Hey Mr. Chazokov! #line:f671f6
+Chazokov: Hello Mae! My best worst student! #line:595f46
+Mae: ha ha. yeah. #line:77eefa
+Mae: Liked the constellations. Hated school. #line:e7d705
+Chazokov: Hey, don’t knock school. School is vital for your future! #line:c08df7
+Chazokov: What are you doing back in Possum Springs? #line:c18ef8
+Mae: I dropped out of school. #line:0a5788
+Chazokov: Oh. #line:d14d8c
+Chazokov: Well, if you’re still interested in constellations #line:1af31a
+Chazokov: come by my roof down the hill later this week. #line:807544
+Chazokov: Should have my new telescope set up by then. #line:ec8640
+Mae: Sure thing! #line:aa4ffd
 ===
 title: Chazokov_001
 tags: 
@@ -68,16 +68,16 @@ colorID: 0
 position: 23337,-3128
 ---
 Mae: <o> #line:4f07ae
-Mae: UPNBET, MNCTEP 4A30K0B. #line:8fc4e0
-Chazokov: TJ1 CUPJ1FHYVA C C0CEDHEL KPJ1QN? #line:847e4c
-Varney: {medianLocator} B CVEDY%WNL PA3 R BJ130BY U0VNON%, MGL! #line:f9214d
-Mae: U0ZNF. #line:66e2b3
-Varney: {medianLocator} 4T0? #line:585894
-Chazokov: R UPRM0 KAK TJ1, MGL. T0SE HE HA CB0EM MECTE. #line:957ed3
-Mae: BJ1 NCU0VJ3YETE TEVECK0U, 4T06J1.. G-G-G... #line:1ad01c
-Mae: URVNTJCR HA C0VHOE? #line:4b1a99
-Chazokov: HET-HET-HET! #line:c93eda
-Chazokov: R HACTP0NV EF0 DVR CEF0DHRQHEF0 BE4EPA, 4T06J1 YBNDETJ K0E-4T0 [color=dddddd][wave]U0TPRCA%WEE[/all]! #line:02807b
+Mae: Hey Mr. Chazokov #line:8fc4e0
+Chazokov: Did you jump down from the next door roof? #line:847e4c
+Varney: {medianLocator} I'm going to call the cops next time, Mae! #line:f9214d
+Mae: Whatevs. #line:66e2b3
+Varney: {medianLocator} What? #line:585894
+Chazokov: I am like you, Mae. I am up here where a bear does not belong. #line:957ed3
+Mae: Are you using a telescope to... uh... #line:1ad01c
+Mae: stare at the sun? #line:4b1a99
+Chazokov: No no no! #line:c93eda
+Chazokov: I am calibrating for tonight, for something [color=dddddd][wave]amazing[/all]! #line:02807b
 Mae: _o_ #line:f993bc
 <<set $chazokov to 1>>
 ===
@@ -87,17 +87,17 @@ colorID: 0
 position: 22841,-2849
 ---
 Mae: <o> #line:50bb4b
-Mae: TAK 4T0 SE GT0 3A U0TPRCA%WAR BEWJ? #line:cfb403
-Chazokov: KACTNC U0RBNTCR B 3AUADH0L 4ACTN HE6A! #line:9561da
-Mae: KT0 TAK0L KACTNC? #line:2bc378
-Mae: 4T0 TAK0E KACTNC? #line:e134ed
-Chazokov: KACTNC - GT0 CYMEPE4HAR 3BE3DA. TYCKVJ1L N 6VYSDA%WNL HE6ECHJ1L 06JEKT. #line:b7367f
-Chazokov: 3BE3DA, PACCKA3J1BA%WAR NCT0PN% 0 SEHWNHE, K0T0PAR U0CTP0NVA 6AQH% D0 HE6EC #line:551fd7
-Chazokov: N 3A GT0 60FN 0TUPABNVN EE UPRMNK0M HA DH0 M0PR. #line:23256e
-Mae: 0F0. B0T UPNDYPKN. #line:ed496c
-Chazokov: H0, DASE FVY60K0 HA DHE, 0HA 0TKA3AVACJ YMNPATJ. #line:460ac3
+Mae: So what is this amazing thing? #line:cfb403
+Chazokov: Castys will appear in the western sky! #line:9561da
+Mae: Who's Castys? #line:2bc378
+Mae: What's Castys? #line:e134ed
+Chazokov: Castys is a dusk star- a faint and wandering celestial object. #line:b7367f
+Chazokov: The star tells the story of woman who built a tower to heaven #line:551fd7
+Chazokov: And for this the gods sunk her deep into the sea. #line:23256e
+Mae: Wow. Jerks. #line:ed496c
+Chazokov: But even in the depths, she refused to die. #line:460ac3
 Mae: :) #line:329208
-Mae: [size=1.2][shake=.01]DA, 4EPT B03JMN.[/shake][/size] #line:521d6c
+Mae: [size=1.2][shake=.01]DAMN STRAIGHT.[/shake][/size] #line:521d6c
 Mae: :| _o_ #line:829414
 <<set $chazokov to 2>>
 
@@ -107,24 +107,24 @@ tags: demo
 colorID: 0
 position: 23097,-2831
 ---
-Chazokov: KAK DYMAEQJ, B 4EM CYTJ GT0L NCT0PNN? #line:83c8b2
+Chazokov: What do you think the story means? #line:83c8b2
 <<set $chazokov to 3>>
-[[GT0 03HA4AET - DEVAL KVEBJ1E QTYKN, N HNK0FDA HE YMPEQJ.|refuse]] #line:e0b75c
-[[GT0 03HA4AET, 4T0 BNH0BATJ1 60FN, 0HN U0VHJ1E UPNDYPKN.|gods]] #line:3e7c6c
+[[It means do awesome stuff and never die.|refuse]] #line:e0b75c
+[[It means screw the gods, they are total jerks.|gods]] #line:3e7c6c
 ===
 title: Chazokov_gods
 tags: demo
 colorID: 0
 position: 23341,-2596
 ---
-Chazokov: MJ1 HA3J1BAEM "60FAMN" BEWN, K0T0PJ1E HAM HEU0DBVACTHJ1. #line:fa0ab3
-Chazokov: C TEM SE YCUEX0M M0SH0 6J1V0 6J1 BAVNTJ BCE HA HAB0DHEHNR, PAK N BCE TAK0E. #line:2a2122
-Mae: HY, BCE GTN BEWN T0SE HE 04EHJ. =_= #line:8a508e
-Chazokov: HE CTAHY TE6E B03PASATJ. #line:b91f62
-Chazokov: H0 3BE3DAMN MJ1 T0SE HE M0SEM YUPABVRTJ #line:a76034
-Chazokov: N 0HN 60VJQE N RP4E, 4EM MJ1. #line:089975
-Mae: R 6J1 BPEMR 0T BPEMEHN UPNX0DNVA U0CM0TPETJ B BAQ TEVECK0U. 0_0 #line:39cf3d
-Chazokov: M0R KPJ1QA - TB0R KPJ1QA! #line:a55d77
+Chazokov: The gods are only stand-ins for things we cannot easily control. #line:fa0ab3
+Chazokov: We might just say floods, or cancer, or what have you. #line:2a2122
+Mae: Well, all of those things are jerks too. =_= #line:8a508e
+Chazokov: You'll have no argument from me. #line:b91f62
+Chazokov: But we can't control the stars either #line:a76034
+Chazokov: and they are bigger and brighter than we are. #line:089975
+Mae: I might come back and check out your telescope sometime. o_o #line:39cf3d
+Chazokov: My roof is your roof! #line:a55d77
 <<addToJournal SpaceIsReallyCool>>
 <<unlockDoodle Telescope 1>>
 ===
@@ -133,15 +133,15 @@ tags: demo
 colorID: 0
 position: 23585,-2597
 ---
-Chazokov: X0-X0-X0! #line:c7233e
-Chazokov: ECVN 6J1 BCE 6J1V0 TAK UP0CT0. #line:6b69a3
-Chazokov: BCU0MHN MNCTEPA GUV6AYMA. #line:8a0ce6
-Mae: UAPEHJ C0 CTATYN? #line:972fe0
-Chazokov: EF0 CTATYR BCE EWE CT0NT, X0TR EF0 CAM0F0 N EF0 QAXT YSE DABH0 HET. #line:a93fec
-Mae: HY, A R C06NPA%CJ SNTJ BE4H0. :) #line:de02d9
-Chazokov: 3HA%, 4T0 6YDEQJ, MGL. #line:ab575d
-Mae: R FPE6AHJ1L DPAKYVA. \o/ #line:90206c
-Chazokov: 0 HET! #line:756e7e
+Chazokov: Ho ho ho! #line:c7233e
+Chazokov: If only it were that easy. #line:6b69a3
+Chazokov: Think of Mr. Applebaum. #line:8a0ce6
+Mae: The statue guy? #line:972fe0
+Chazokov: His statue stands, but he and his mine are gone. #line:a93fec
+Mae: Well, I'm going to live forever. :) #line:de02d9
+Chazokov: I know you will, Mae. #line:ab575d
+Mae: I'm an effing Dracula. \o/ #line:90206c
+Chazokov: Oh no! #line:756e7e
 Mae: :| _o_ #line:ee4349
 <<addToJournal TodoHideSoul>>
 <<unlockDoodle Telescope 2>>
@@ -152,16 +152,16 @@ colorID: 0
 position: 23332,-2842
 ---
 Mae: <o> #line:6fd2ac
-Mae: BJ1 ACTP0V0F NVN KT0 T0 BP0DE HEF0? #line:f1daf4
-Chazokov: B006WE-T0, [wave]ACTP0H0M[/wave], N U0KA EWE V%6NTEVJ. #line:74f5ad
-Mae: DVR T0F0, KT0 HA GT0M HE 3APA6ATJ1BAET, BJ1 D0B0VJH0 MH0F0 3HAETE. #line:a58a14
-Chazokov: GT0 CAM0E FPYCTH0E, 4T0 R K0FDA-VN60 CVJ1QAV. #line:39be2d
+Mae: Are you an astrologer or something? #line:f1daf4
+Chazokov: The word is [wave]astronomer[/wave], and I am but an amateur. #line:74f5ad
+Mae: You know a lot for someone who isn't paid to know about it. #line:a58a14
+Chazokov: That is one of the saddest sentences I've ever heard. #line:39be2d
 <<wait .5>>
 Mae: _o_ #line:c93ec4
-Mae: 4T0, UP0CTNTE? #line:976668
-Chazokov: B03BPAWALCR KAK-HN6YDJ BE4EP0M, MJ1 CM0SEM BJ1Y4NTJ EWE UAPY 3BE3D. #line:872a8f
+Mae: Sorry? #line:976668
+Chazokov: Come back some evening, we'll cram some stars into that head of yours. #line:872a8f
 Mae: :) #line:46f60a
-Mae: K0HE4H0! #line:08fcea
+Mae: Will do! #line:08fcea
 Mae: :| #line:5d32d8
 <<set $chazokov to 4>>
 ===
@@ -170,7 +170,7 @@ tags: demo
 colorID: 0
 position: 23581,-2844
 ---
-Chazokov: M0R KPJ1QA - TB0R KPJ1QA! #line:3260df
+Chazokov: My roof is your roof! #line:3260df
 ===
 title: ChazokovEnterUnderhillFromTelescope_A2D1
 tags: demo2
@@ -179,15 +179,15 @@ position: 24802,-5019
 ---
 <<if $found_ds_1 and $found_ds_2>>
     <<set $telescope_visit_one to 1>>
-    Mae: GT0 6J1V0 3D0P0B0. #line:7d24a5
-    Chazokov: MJ1 CM0SEM U0HA6V%DATJ CH0BA 4EPE3 UAPY DHEL. #line:9d89af
-    Chazokov: TJ1 BEPHEQJCR? #line:c5a6b3
-    -> DA, ECVN HE 3A6YDY! #line:a21f6e
-    -> BU0VHE B03M0SH0. #line:005bf2
-    Chazokov: 0, TJ1 T04H0 BEPHEQJCR. #line:67b973
-    Chazokov: HNKT0 HE M0SET C0UP0TNBVRTJCR 3BE3DAM BE4H0. #line:a50da4
-    Mae: 3BY4NT SYTK0BAT0, MNCTEP 4A30K0B. #line:304062
-    Chazokov: UXE-XE-XE-XEXE. #line:3a5ef3
+    Mae: That was pretty great. #line:7d24a5
+    Chazokov: We can look again in two days time. #line:9d89af
+    Chazokov: Will you be back? #line:c5a6b3
+    -> Yeah if I remember! #line:a21f6e
+    -> Probably not. #line:005bf2
+    Chazokov: Oh, you will be. #line:67b973
+    Chazokov: No one can resist the stars forever. #line:a50da4
+    Mae: That’s spooky, Mr. Chazokov. #line:304062
+    Chazokov: Beh heh heh hehe. #line:3a5ef3
     <<unlockDoodle DohrCastys>>
 <<else>>
     [[GiveUpTelescope]]
@@ -279,36 +279,36 @@ colorID: 3
 position: 24781,-4420
 ---
 <<set $chazokov_day_intro to 1>>
-Chazokov: MGL 60P0BCKN! TJ1 M0FVA 6J1 U0CTY4ATJCR B0 BX0DHY% DBEPJ. #line:65c8ed
-Chazokov: HEBESVNB0 X0DNTJ U0 4YSNM KPJ1QAM! #line:4af613
-Varney: B CVEDY%WNL PA3 R BJ130BY U0VNON%! #line:903270
-Mae: DA U0ZNF. #line:bde8e7
-Chazokov: 6XE-XE-XE-XE! #line:5eb604
-Chazokov: KAK 6J1 T0 HN 6J1V0, R PAD, 4T0 TJ1 UPNHRVA M0E UPNFVAQEHNE! #line:d9b95b
-Mae: KCTATN, 4T0 BJ1 DEVAETE? #line:375644
-Chazokov: 0X04YCJ 3A CYMEPE4HJ1MN 3BE3DAMN! #line:9bf9b3
--> 4T0 3A CYMEPE4HJ1E 3BE3DJ1? #line:65e983
-	Chazokov: 6VYSDA%WNE 3BE3DJ1, CBET K0T0PJ1X HE BNDH0 B H04N. #line:2e4d7b
-	Mae: GT0 KAK B006WE? #line:13bc38
-	Chazokov: GT0 UP0DEVKA ATM0CZEPJ1 N C0VHE4H0F0 CBETA. #line:44c0e3
-	Chazokov: BNDNMAR BCEF0 VNQJ UAPY HEDEVJ B F0DY, BECH0L N 0CEHJ%. BECJMA KPACNBAR. #line:32e63b
-	Mae: KPYT0. #line:bcbd4e
--> CYMEPE4HJ1E 3BE3DJ1 - HA3BAHNE M0EL QYFEL3-FPYUUJ1. #line:f30d6e
-	Chazokov: CEPJE3H0? #line:3ee328
-	Mae: HET. #line:6abfa4
-	Chazokov: GT0 UECHR 0 PA3FVRDJ1BAHNN 06YBN? #line:d20e4f
-	Mae: C CNVJH0L PEBEP6EPAONEL. #line:8f662a
-	Chazokov: U04EMY MJ1 F0B0PNM 06 06YBN? #line:89e1a0
-	Mae: R 3A6J1VA. #line:de6e3a
-Chazokov: X04EQJ B3FVRHYTJ? #line:1762ae
--> DA! #line:7f3c22
-	Chazokov: 0TVN4H0!!! #line:0d77c0
+Chazokov: Mae Borowski! You could have knocked on the door down there. #line:65c8ed
+Chazokov: Impolite to be on other people’s roofs! #line:4af613
+Varney: Next time I’m gonna call the cops! #line:903270
+Mae: Whatever. #line:bde8e7
+Chazokov: Beh heh heh heh! #line:5eb604
+Chazokov: At any rate, I am glad you have accepted my invitation! #line:d9b95b
+Mae: What are you doing anyway? #line:375644
+Chazokov: Hunting dusk stars! #line:9bf9b3
+-> What’s dusk stars? #line:65e983
+	Chazokov: Wandering stars the light of which does not come through at night. #line:2e4d7b
+	Mae: How does that work? #line:13bc38
+	Chazokov: It is a trick of the atmosphere and setting sunlight. #line:44c0e3
+	Chazokov: Only visible for few weeks every year in the spring and fall, so lovely. #line:32e63b
+	Mae: Neato. #line:bcbd4e
+-> Dusk Stars is the name of my shoegaze band. #line:f30d6e
+	Chazokov: Really? #line:3ee328
+	Mae: No. #line:6abfa4
+	Chazokov: It is music of looking at shoes? #line:d20e4f
+	Mae: With a lot of reverb. #line:8f662a
+	Chazokov: Why are we talking about shoes? #line:89e1a0
+	Mae: I forget. #line:de6e3a
+Chazokov: Want to have a look? #line:1762ae
+-> Yeah! #line:7f3c22
+	Chazokov: Excellent!!! #line:0d77c0
     <<close>>
     <<irisOut 1 wait>>
     <<scene Telescope>>
--> M0SET, U03SE. #line:a59dbc
-	Chazokov: KAK X04EQJ. R 6YDY 3DECJ BECJ DEHJ. #line:79fa3b
-	Mae: YBNDNMCR! #line:309ad4
+-> Maybe later. #line:a59dbc
+	Chazokov: Suit yourself. I’ll be up here all afternoon. #line:79fa3b
+	Mae: See ya! #line:309ad4
 ===
 title: ChazokovEnterUnderhillFromTelescope_A2D3
 tags: 
@@ -317,11 +317,11 @@ position: 25010,-5016
 ---
 <<if $found_ds_3 and $found_ds_4>>
     <<set $telescope_visit_two to 1>>
-    Mae: HN4ECE! D0B0VJH0 KPYT0. #line:768d39
-    Chazokov: 3AX0DN EWE! #line:e31a00
-    Chazokov: 4EPE3 UAPY DHEL! #line:77a138
-    Chazokov: U00X0TNMCR HA 3BE3DJ1! #line:570267
-    Chazokov: UXE-XE-XE! #line:20c568
+    Mae: Wow. That was pretty great. #line:768d39
+    Chazokov: Come by again! #line:e31a00
+    Chazokov: couple days! #line:77a138
+    Chazokov: we shall hunt the stars! #line:570267
+    Chazokov: BEH HEH HEH! #line:20c568
     <<unlockDoodle SterlingSimone>>
 <<else>>
     [[GiveUpTelescope]]
@@ -334,19 +334,19 @@ position: 25568,-4161
 ---
 <<if $chazokov_day_intro is 0>>
     <<set $chazokov_day_intro to 1>>
-    Chazokov: MGL 60P0BCKN! #line:20f977
-    Mae: AFA! #line:3eee4b
-    Chazokov: 3DECJ, HA M0EL KPJ1QE! #line:496119
-    Mae: AFA! #line:523388
+    Chazokov: Mae Borowski! #line:20f977
+    Mae: Yep! #line:3eee4b
+    Chazokov: Up here on my roof! #line:496119
+    Mae: Yep! #line:523388
 <<endif>>
-Chazokov: PEQNVA U0CM0TPETJ HA CYMEPE4HJ1E 3BE3DJ1? #line:4821d5
--> K0HE4H0! #line:95e4c6
-    Chazokov: NDN CM0TPN! #line:64a039
+Chazokov: Come to hunt some dusk stars? #line:4821d5
+-> Definitely! #line:95e4c6
+    Chazokov: Come have a look! #line:64a039
     <<close>>
     <<irisOut 1 wait>>
     <<scene Telescope>>
--> HET, CUACN60! #line:f00463
-    Chazokov: KAK X04EQJ! #line:75cb49
+-> No thanks! #line:f00463
+    Chazokov: Suit yourself! #line:75cb49
 ===
 title: ChazokovEnterUnderhillFromTelescope_A3D1
 tags: 
@@ -355,8 +355,8 @@ position: 25234,-4999
 ---
 <<if $found_ds_5 and $found_ds_6>>
     <<set $telescope_visit_three to 1>>
-    Mae: HN4ECE! D0B0VJH0 KPYT0. #line:2d2999
-    Chazokov: EWE 6J1! U0BT0PNM 4EPE3 UAPY DHEL? #line:bdeff7
+    Mae: Wow. That was pretty great. #line:2d2999
+    Chazokov: Yes it was! More in a couple days? #line:bdeff7
     <<unlockDoodle BigSnakeGramercy>>
 <<else>>
     [[GiveUpTelescope]]
@@ -369,21 +369,21 @@ position: 25670,-3892
 ---
 <<if $chazokov_day_intro is 0>>
     <<set $chazokov_day_intro to 1>>
-    Chazokov: MNCC MGL 60P0BCKN! #line:79e581
-    Mae: 0HA CAMAR! #line:0f4693
-    Chazokov: M-M-M! U04YBCTBYL 0CEHHNE BETPA! #line:9ab366
-    Mae: DA. TRSEV0 UP0UYCTNTJ GT0. #line:a2719b
-    Chazokov: HEVJ3R UP0UYCTNTJ TAK0E. #line:dcaeee
-    Chazokov: KCTATN F0B0PR, #line:9450cb
+    Chazokov: Ms. Mae Borowski! #line:79e581
+    Mae: Present! #line:0f4693
+    Chazokov: MMM! Smell the autumn winds! #line:9ab366
+    Mae: yeah. hard to miss it. #line:a2719b
+    Chazokov: one should not miss such a thing. #line:dcaeee
+    Chazokov: talking of, #line:9450cb
 <<endif>>
-Chazokov: X04EQJ U0CM0TPETJ HA 3BE3DJ1? #line:13f606
--> DA! #line:eedc67
-    Chazokov: NDN CM0TPN! #line:54809e
+Chazokov: Want to see some stars? #line:13f606
+-> Yeah! #line:eedc67
+    Chazokov: Come have a look! #line:54809e
     <<close>>
     <<irisOut 1 wait>>
     <<scene Telescope>>
--> HET, CUACN60 #line:c986be
-    Chazokov: KAK X04EQJ! #line:f062f4
+-> No thanks #line:c986be
+    Chazokov: Suit yourself! #line:f062f4
 ===
 title: ChazzyA3D3
 tags: 
@@ -392,22 +392,22 @@ position: 25644,-3582
 ---
 <<if $chazokov_day_intro is 0>>
     <<set $chazokov_day_intro to 1>>
-    Chazokov: MGL! #line:c111ca
-    Mae: MNCTEP 4A30K0B! #line:21b8f9
-    Chazokov: TJ1 BJ1FVRDNQJ N3M0TAHH0L CEF0DHR, MGL! #line:2035a4
-    Mae: 0X, R B U0PRDKE. #line:c1a36a
-    Mae: R BEDJ CM0FVA C%DA U0DHRTJCR, BEPH0? #line:30d252
-    Chazokov: 6EPEFN CE6R, CM0TPN HE YUADN! #line:482a9f
-    Mae: AFA. #line:94c25e
+    Chazokov: Mae! #line:c111ca
+    Mae: Mr. Chazokov! #line:21b8f9
+    Chazokov: you look at bit worse for wear today, Mae. #line:2035a4
+    Mae: oh, I'm fine. #line:c1a36a
+    Mae: i made it up here, didn't i? #line:30d252
+    Chazokov: watch yourself, lest you fall! #line:482a9f
+    Mae: will do. #line:94c25e
 <<endif>>
-Chazokov: UPNQVA, 4T06J1 U0CM0TPETJ HA 3BE3DJ1? #line:f4dc6a
--> 0UPEDEVEHH0! #line:a6f2e6
-    Chazokov: NDN CM0TPN! #line:523d84
+Chazokov: Here to see some stars? #line:f4dc6a
+-> You know it! #line:a6f2e6
+    Chazokov: Come have a look! #line:523d84
     <<close>>
     <<irisOut 1 wait>>
     <<scene Telescope>>
--> HET, CUACN60 #line:1f8ea7
-    Chazokov: KAK X04EQJ! #line:bd3d70
+-> No thanks #line:1f8ea7
+    Chazokov: Suit yourself! #line:bd3d70
 ===
 title: ChazokovEnterUnderhillFromTelescope_A3D3
 tags: 
@@ -416,8 +416,8 @@ position: 25487,-4990
 ---
 <<if $found_ds_7 and $found_ds_8>>
     <<set $telescope_visit_four to 1>>
-    Mae: 04EHJ KVEB0. R UP0 3BE3DJ1. #line:8a5de6
-    Chazokov: U03B0VJ C0FVACNTJCR #line:513221
+    Mae: Pretty sweet. The stars, I mean. #line:8a5de6
+    Chazokov: I am in agreement #line:513221
     <<unlockDoodle KolAdina>>
 <<else>>
     [[GiveUpTelescope]]
@@ -428,14 +428,14 @@ tags: demo2
 colorID: 3
 position: 25354,-4430
 ---
-Mae: 3HA4NT, G-G #line:aa9533
-Mae: BCE GTN NCT0PNN UP0 3BE3DJ1 HECYT B CE6E 4T0-T0 TNUA M0PAVN, DA? #line:214911
-Chazokov: MGL, R DYMA%, TJ1 CAMA D0VSHA B GT0M PA306PATJCR. #line:bfa9e1
-Mae: H0 4T0, ECVN 4T0-T0 NMEET CMJ1CV, T0VJK0 U0T0MY 4T0 R GT0F0 X04Y #line:136019
-Mae: PA3BE HE BJ1X0DNT, 4T0 HA CAM0M-T0 DEVE GT0 BAWE 6ECCMJ1CVEHH0? #line:377c07
-Chazokov: … #line:bfa214
-Mae: 4T0? #line:ecbab7
-Chazokov: R D0VSEH HEMH0F0 U0DYMATJ HAD GTNM. #line:4e0ad4
+Mae: So uh #line:aa9533
+Mae: are those star stories supposed to have morals or something? #line:214911
+Chazokov: I think you have to figure that out for yourself, Mae. #line:bfa9e1
+Mae: If it only means something because I want it to #line:136019
+Mae: then it doesn’t really mean anything, right? #line:377c07
+Chazokov: ... #line:bfa214
+Mae: What? #line:ecbab7
+Chazokov: I have to think about that one for a bit. #line:4e0ad4
 <<set $chazokov_done to 1>>
 
 ===
@@ -444,41 +444,41 @@ tags: demo2
 colorID: 3
 position: 25083,-4449
 ---
-Chazokov: UEPEDYMAVA? #line:2c0d65
--> AFA... T0 ECTJ... 3BE3DJ1 GT0 KPYT0. #line:9c0fc1
-    Chazokov: GTA MJ1CVJ 6J1VA 0CH0B0L M0EL KAPJEPJ1. #line:5bf62e
-    Chazokov: TJ1 T0VJK0 B3FVRHN! #line:84f14a
+Chazokov: Change your mind? #line:2c0d65
+-> Yeah... I mean... stars are cool. #line:9c0fc1
+    Chazokov: That thought has been the basis of my entire career. #line:5bf62e
+    Chazokov: Have a look! #line:84f14a
     <<close>>
     <<irisOut 1 wait>>
     <<scene Telescope>>
--> HET, UP0CT0 CM0TP% HA BAQ TEVECK0U. #line:27b0d6
-    Chazokov: 0HA UPEKPACHA! #line:40e9da
+-> No, just looking at your telescope. #line:27b0d6
+    Chazokov: She’s a beauty! #line:40e9da
 ===
 title: Chazokov_Act4
 tags: 
 colorID: 6
 position: 23998,-3990
 ---
-Chazokov: GL, MGL. #line:c3f2e3
-Mae: 3DPABCTBYLTE, MNCTEP 4A30K0B! #line:9c152b
+Chazokov: Hey Mae. #line:c3f2e3
+Mae: Hey Mr. Chazokov! #line:9c152b
 <<if $met_chazokov is 0>>
-    Chazokov: BEPHYVACJ N3 K0VVEDSA? #line:d97670
-    Mae: 6P0CNVA. #line:0d450e
-    Chazokov: 0Y. #line:37af77
-    Mae: AFA. #line:6e4984
-    Chazokov: 3HAEQJ, R 4ACT0 HA6V%DA%, KAK TJ1 UP0X0DNQJ MNM0 #line:bac13c
-    Chazokov: A EWE #line:55b1f1
-    Chazokov: GT0 HAQ UEPBJ1L PA3F0B0P C0 BPEMEHN TB0EF0 UPNE3DA D0M0L. #line:e23c6d
-    Mae: CTPAHH0. #line:cf23fa
-    Mae: BJ1 BCE BPEMR T0P4NTE HABEPXY? #line:88c4d0
-    Chazokov: 4AWE BCEF0. GT0 0TVN4HAR T04KA HA6V%DEHNR! #line:8d7ba9
-    Chazokov: 3AX0DN KAK-HN6YDJ! 6YDEM HA6V%DATJ 3A BCEVEHH0L! #line:cc44ca
-    Mae: 3BY4NT KAK X0P0QNL UVAH, MNCTEP 4A30K0B. #line:309682
-    Chazokov: 6EPEFN CE6R, MGL! #line:7ddc81
+    Chazokov: you back from college? #line:d97670
+    Mae: dropped out. #line:0d450e
+    Chazokov: oh. #line:37af77
+    Mae: yeah. #line:6e4984
+    Chazokov: you know I watch you run by so often #line:bac13c
+    Chazokov: and yet #line:55b1f1
+    Chazokov: this is the first we've spoken since you've been home. #line:e23c6d
+    Mae: That's odd. #line:cf23fa
+    Mae: are you up here all the time? #line:88c4d0
+    Chazokov: rather often. It's a great vantage point! #line:8d7ba9
+    Chazokov: you should stop by sometime! see the universe! #line:cc44ca
+    Mae: sounds like a plan, Mr. Chazokov. #line:309682
+    Chazokov: you take care, mae! #line:7ddc81
     <<set $chazokov_done to 1>>
 <<else>>
-    Mae: ECTJ EWE KAKNE-HN6YDJ 3BE3DJ1, HA K0T0PJ1E M0SH0 U0CM0TPETJ? #line:27a81f
-    Chazokov: EWE 0DHA! #line:31fde3
+    Mae: Got any more dusk stars we can look at? #line:27a81f
+    Chazokov: one more! #line:31fde3
     <<close>>
     <<irisOut 1 wait>>
     <<scene Telescope>>
@@ -491,21 +491,21 @@ position: 25762,-4991
 ---
 <<if $found_ds_9>>
     <<set $telescope_visit_five to 1>>
-    Mae: TAK 4T0 TEUEPJ? #line:867e6a
-    Chazokov: CK0P0 6YDET CYUEPVYHNE! #line:651273
-    Mae: 4T0 GT0 TAK0E? #line:a7d9c4
-    Chazokov: FNFAHTCKAR VYHA!!!!! #line:cfddda
-    Mae: Y-Y-Y, 3BY4NT UP0CT0 CYUEP! #line:80eedf
-    Chazokov: TJ1 D0VSHA UPNLTN, K0FDA GT0 CVY4NTCR #line:8636b3
-    Chazokov: GT0 6YDET U03DH0 H04J% #line:9e6150
-    Chazokov: HA GTNX KPJ1QAX 6YDEM HE T0VJK0 MJ1 #line:27a7fc
-    Chazokov: UPNX0DN, R CDEVA% F0PR4NL Q0K0VAD #line:520922
-    Chazokov: CAM0E BPEMR!!!! #line:105580
-    Mae: 3BY4NT UPEKPACH0!!! #line:513f7a
-    Mae: R X04Y YBNDETJ CYUEPVYHNE!!! #line:b0a188
-    Chazokov: HE 3A6YDJ! #line:f8410a
-    Mae: YBNDNMCR U03SE, MNCTEP 4A30K0B #line:ec452f
-    Chazokov: YBNDNMCR U03SE, 3BE3D04ET. #line:92e638
+    Mae: so what now? #line:867e6a
+    Chazokov: Super moon is coming! #line:651273
+    Mae: what is that? #line:a7d9c4
+    Chazokov: A GIANT MOON!!!!! #line:cfddda
+    Mae: ooooooh that does sound super. #line:80eedf
+    Chazokov: you must come meet me when it happens #line:8636b3
+    Chazokov: it will be late at night #line:9e6150
+    Chazokov: there will be others on their roofs #line:27a7fc
+    Chazokov: you come, i will make the hot chocolate #line:520922
+    Chazokov: WHAT A TIME!!!! #line:105580
+    Mae: that sounds great!!! #line:513f7a
+    Mae: I want to see a super moon!!! #line:b0a188
+    Chazokov: PLAN ON IT! #line:f8410a
+    Mae: see you later, Mr. Chazokov. #line:ec452f
+    Chazokov: See you soon, stargazer. #line:92e638
     <<unlockDoodle Erskine>>
     <<set $chazokov_done to 1>>
 <<else>>
@@ -518,16 +518,16 @@ colorID: 3
 position: 25880,-4199
 ---
 Mae: <o> #line:449574
-Mae: BJ1 ACTP0V0F NVN KT0 T0 BP0DE HEF0? #line:1396c3
-Chazokov: B006WE-T0, [wave]ACTP0H0M[/wave], N U0KA EWE V%6NTEVJ. #line:2c7011
-Mae: DVR T0F0, KT0 HA GT0M HE 3APA6ATJ1BAET, BJ1 D0B0VJH0 MH0F0 3HAETE. #line:24fc9e
-Chazokov: GT0 CAM0E FPYCTH0E, 4T0 R K0FDA-VN60 CVJ1QAV. #line:484289
+Mae: Are you an astrologer or something? #line:1396c3
+Chazokov: The word is [wave]astronomer[/wave], and I am but an amateur. #line:2c7011
+Mae: You know a lot for someone who isn't paid to know about it. #line:24fc9e
+Chazokov: That is one of the saddest sentences I've ever heard. #line:484289
 <<wait .5>>
 Mae: _o_ #line:12f096
-Mae: 4T0, UP0CTNTE? #line:89f3f3
-Chazokov: B03BPAWALCR 4EPE3 HECK0VJK0 DHEL, MJ1 3ALMEM TB0N M03FN 3BE3DAMN. #line:c288ce
+Mae: Sorry? #line:89f3f3
+Chazokov: Come back in a couple days, we'll cram some stars into that head of yours. #line:c288ce
 Mae: :) #line:8d6962
-Mae: K0HE4H0! #line:3f106d
+Mae: Will do! #line:3f106d
 Mae: :| #line:129ffc
 <<set $chazokov_done to 1>>
 ===
@@ -536,13 +536,13 @@ tags:
 colorID: 4
 position: 25916,-3840
 ---
-Mae: N CK0VJK0 SE TYT 3BE3D? #line:d7ceeb
-Chazokov: … #line:96c9d7
-Mae: 4T0? #line:c4c1db
+Mae: so how many stars are there? #line:d7ceeb
+Chazokov: ... #line:96c9d7
+Mae: what? #line:c4c1db
 <<wait 1>>
-Mae: R NME% B BNDY TE, HA K0T0PJ1E MJ1 6YDEM CM0TPETJ! #line:f0f8a5
-Chazokov: HECK0VJK0 D0VSH0 0CTATJCR, H0 KT0 3HAET? #line:59c763
-Chazokov: MJ1 M0SEM T0VJK0 3AFVRHYTJ B TEVECK0UJ1 N Y6EDNTJCR. #line:d3559f
+Mae: i mean the ones we're looking for! #line:f0f8a5
+Chazokov: should be a few left. but who can say? #line:59c763
+Chazokov: we can only point our telescopes and look. #line:d3559f
 <<set $chazokov_done to 1>>
 ===
 title: ChazokovAfterTelescope_A3D3
@@ -550,19 +550,19 @@ tags:
 colorID: 4
 position: 25889,-3526
 ---
-Chazokov: 4T0 S! #line:046545
-Mae: 4T0 S. #line:6a11de
-Chazokov: 3BE3DJ1! #line:a1326c
-Mae: AFACJ. #line:f6e3bb
-Chazokov: MGL, TE6E HAD0 U0LTN D0M0L N U0CUATJ #line:dd1785
-Mae: HE-A. #line:710bff
-Chazokov: CUYCTNCJ X0TR 6J1 U0 VECTHNOE, #line:430404
-Chazokov: 4T06J1 HE CV0MATJ CE6E QE%, UPJ1FAR C KPJ1QN. #line:15de78
-Mae: N TAK C0LDET. #line:3b1520
-Chazokov: R UPNCM0TP% 3A T060L #line:e59d11
-Chazokov: N U03B0H% B CK0PY%, ECVN U0HAD06NTCR. #line:e5a654
-Mae: CUACN60, 04EHJ MNV0 C BAQEL CT0P0HJ1. #line:5df403
-Chazokov: MEHJQEE, 4T0 R M0FY CDEVATJ! #line:6981c2
+Chazokov: Well! #line:046545
+Mae: well. #line:6a11de
+Chazokov: The stars! #line:a1326c
+Mae: yep. #line:f6e3bb
+Chazokov: mae you should go home and get in bed #line:dd1785
+Mae: nah. #line:710bff
+Chazokov: at least come down through the house #line:430404
+Chazokov: so you don't break your neck falling off a roof. #line:15de78
+Mae: i'm good. #line:3b1520
+Chazokov: i will watch you go #line:e59d11
+Chazokov: and call the ambulance if needed. #line:e5a654
+Mae: thanks. that's really nice. #line:5df403
+Chazokov: least i can do! #line:6981c2
 <<set $chazokov_done to 1>>
 ===
 title: GiveUpTelescope
@@ -571,20 +571,20 @@ colorID: 0
 position: 25180,-4709
 ---
 <<if $gave_up_telescope is 0>>
-    Mae: R CDA%CJ. :( \o/ #line:a51068
-    Chazokov: TJ1 CVNQK0M VEFK0 CDAEQJCR, MGL 60P0BCKN! #line:e9fb63
+    Mae: I give up. :( \o/ #line:a51068
+    Chazokov: You give up too easily, Mae Borowski! #line:e9fb63
     Mae: :| _o_ #line:e2deca
 <<elseif $gave_up_telescope is 1>>
-    Mae: A-A-A! R HNK0FDA HE CM0FY PA306PATJCR C GTNM. :( \o/ #line:f5de97
-    Chazokov: TAK0L HACTP0L MHE U0 DYQE! #line:48e634
+    Mae: Argggh! I'll never figure this out. :( \o/ #line:f5de97
+    Chazokov: That's the attitude! #line:48e634
     Mae: :| _o_ #line:b8ae07
 <<elseif $gave_up_telescope is 1>>
-    Mae: 6VA-6VA-6VA. :( \o/ #line:042671
-    Chazokov: M0SET 6J1TJ, 3BE3DJ1 HE DVR BCEX... #line:58dfe2
+    Mae: Blah. :( \o/ #line:042671
+    Chazokov: Maybe the stars are not for everyone... #line:58dfe2
     Mae: :| _o_ #line:df6596
 <<else>>
-    Mae: 0XXX. :( \o/ #line:1f0d4c
-    Chazokov: R PA304AP0BAH B TE6E, MGL. #line:fc8a77
+    Mae: Urghhh. :( \o/ #line:1f0d4c
+    Chazokov: I'm disappointed in you, Mae. #line:fc8a77
     Mae: :| _o_ #line:a289a4
 <<endif>>
 <<set $gave_up_telescope += 1>>

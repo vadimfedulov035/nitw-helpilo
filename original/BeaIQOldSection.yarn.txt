@@ -15,64 +15,64 @@ tags:
 colorID: 4
 position: -34,683
 ---
-Bea: NTAK, GM, #line:8b612d
-Bea: UPN3PAKN. #line:8b4301
-Mae: UPN3PAKN? #line:e3ece4
-Bea: TNUA... HE 3HA%, BEP% VN R B HNX, H0 #line:8de41b
-Mae: DA? #line:87db0e
-Bea: U0MHNQJ, KAK TJ1 F0B0PNVA, 4T0 BNDEVA UPN3PAK0B H04J%? #line:10e1f7
-Bea: HY, HE 0C060-T0 N BEPNTCR, 4T0 GT0 6J1VN *HE* CHJ1. #line:59b9cc
-Bea: N60, 04EBNDH0, GT0 6J1VN CHJ1. #line:fc5181
-Mae: VADH0, 4EMY-T0 GT0 TJ1 BEDEQJ? #line:e71220
-Bea: R UP0CT0... #line:2b91ee
-Bea: TJ1 BNDEVA M0% MAMY? #line:0eed6c
-->DA #line:9ac953
-	Mae: B HNX D0B0VJH0 TPYDH0 K0F0-VN60 PACU03HATJ, #line:c41434
-    Mae: H0 V%DEL M0SH0 UP04YBCTB0BATJ, #line:dc7428
-    Mae: TAK 4T0 R, GM, BU0VHE YBEPEHA, 4T0 BNDEVA EE. #line:70e863
+Bea: So like #line:8b612d
+Bea: ghosts. #line:8b4301
+Mae: ghosts? #line:e3ece4
+Bea: like i dunno if i believe in them but #line:8de41b
+Mae: yeah? #line:87db0e
+Bea: So you know how you said you’ve been seeing ghosts at night? #line:10e1f7
+Bea: I mean I don’t super believe it's not just dreams. #line:59b9cc
+Bea: because obviously it's dreams. #line:fc5181
+Mae: ok that's certainly your take on it. #line:e71220
+Bea: but like... #line:2b91ee
+Bea: did you ever see my mom? #line:0eed6c
+->yes #line:9ac953
+	Mae: it's hard to like recognize anyone #line:c41434
+    Mae: but you can get a sense of people #line:dc7428
+    Mae: and i uh i'm pretty sure i saw her #line:70e863
     Bea: ... #line:4b6332
-    Bea: CEPJE3H0? #line:1b0f6d
-    Mae: HACK0VJK0 R M0FY CYDNTJ. #line:a36e49
-    Bea: R UP0CT0... X04Y 3HATJ, 4T0 0HA FDE-T0 #line:8d5f34
-    Bea: N B U0PRDKE. #line:4c8e73
-    Mae: 0HA FDE-T0, 6N. N B U0PRDKE. #line:c965d3
-    Bea: CUACN60. HE 3HA%, M0SET, TJ1 UP0CT0 VSEQJ, #line:c31602
-    Bea: NVN TE6E UPNBNDEV0CJ, #line:509674
-    Bea: NVN 4T0-T0. #line:a83996
-    Bea: H0... DASE ECVN TJ1 BCE BJ1DYMAVA, #line:0e8df7
-    Bea: GT0 6J1V0 MNV0 C TB0EL CT0P0HJ1. #line:bb6304
+    Bea: really? #line:1b0f6d
+    Mae: as far as i can tell. #line:a36e49
+    Bea: I just... want to know she's somewhere #line:8d5f34
+    Bea: and ok. #line:4c8e73
+    Mae: she's somewhere, bea. and ok. #line:c965d3
+    Bea: thanks. i don't know if you're just lying #line:c31602
+    Bea: or you dreamed it #line:509674
+    Bea: or what. #line:a83996
+    Bea: but... even if you just made all that up #line:0e8df7
+    Bea: it was nice of you. #line:bb6304
     <<wait 2>>
-->HET #line:2b1572
-	Mae: B CMJ1CVE, HE M0FY CKA3ATJ HABEPHRKA. #line:7e3881
-    Mae: N R HE DYMA%, 4T0 UPN3PAKN, KAK 6J1, U0X0SN #line:9953bf
-    Mae: HA V%DEL? #line:1c833a
-    Mae: Y HNX SE HET CB0NX 6YDHNX UPN3PA4HJ1X DHEL. #line:51a588
-    Mae: 0HN 60VJQE KAK #line:380e7f
-    Mae: 0TF0V0CKN? #line:7d4840
-    Mae: 0TF0V0CKN UP0N30QEDQEF0 DEPJMA N V%DEL, K0T0PJ1E UP0QVN 4EPE3 HEF0. #line:a4fe9b
+->no #line:2b1572
+	Mae: i mean, i can't really tell? #line:7e3881
+    Mae: and i don't think the ghosts were like #line:9953bf
+    Mae: people? #line:1c833a
+    Mae: like they're not sitting around being ghosts. #line:51a588
+    Mae: it's more like #line:380e7f
+    Mae: echoes? #line:7d4840
+    Mae: echoes of shit that happened and people that were here? #line:a4fe9b
     Bea: ... #line:66eb65
-    Bea: 0Y. #line:dd8b5f
-    Mae: U0BEPJ MHE, HN4T0 N3 T0F0, 4T0 R BNDEVA, HE BJ1FVRDEV0 BECEVJ1M, #line:39b087
-    Mae: A TB0R MAMA 6J1VA CVNQK0M KPYTA. #line:5e0acf
-    Mae: CVNQK0M KPYTA, 4T06J1 3ABNCATJ TAM. #line:5e00c5
-    Bea: XA-XA. HY 4T0 SE... #line:5f826b
-    Bea: R OEH% TB0% U0UJ1TKY UEPEBECTN BCE GT0 B QYTKY. #line:8837c1
-    Mae: CTAPA%CJ N30 BCEX CNV, 6NATPNC. #line:4a6583
-Bea: VADH0, B V%60M CVY4AE, #line:74d388
-Bea: UV0XNE H0B0CTN: MJ1 3DECJ HE UP0LDEM. #line:ccb878
-Bea: N3-3A GTNX 3D0P0BEHHJ1X B0P0T. #line:aea9dd
-Mae: YX, 3A4EM DEVATJ FNFAHTCKNE B0P0TA HA KVAD6NWE? #line:87762c
-Bea: 4T06J1 C%DA HE VA3NVN TAKNE, KAK TJ1, #line:8299a2
-Bea: N HE DEVAVN T0, 4T0 TJ1 C06NPAEQJCR DEVATJ. #line:456d4c
-Mae: XM, HY, NCTNHY MJ1 HABPRD VN Y3HAEM. #line:444fa8
-Bea: HY, R HE C06NPA%CJ VE3TJ HA HNX. #line:e05635
-Bea: DEVAL CB0N DEVA. #line:06b5b2
-Mae: M0N DEVA? #line:2d0426
-Bea: TJ1 BEDJ B GT0M X0P0QA! #line:351ab8
-Bea: FPY6AR CNVA N BCE TAK0E. #line:484bba
-Mae: 60SE. BCE 3DECJ UPNDETCR DEVATJ CAM0L. #line:080755
-Bea: GT0 TB0L UPN3PAK! R BCEF0 VNQJ B0DNTEVJ. #line:c1fb59
-Mae: VADH0, 0TDJ1XAL, A R CK0P0 BEPHYCJ. #line:c82cfe
+    Bea: oh. #line:dd8b5f
+    Mae: trust me, none of the places looked like super much fun. #line:39b087
+    Mae: your mom was rad as hell #line:5e0acf
+    Mae: too rad to hang there. #line:5e00c5
+    Bea: ha ha. that's like... #line:5f826b
+    Bea: i appreciate you trying to turn this around. #line:8837c1
+    Mae: i'm doing my best, beatrice. #line:4a6583
+Bea: alright anyway #line:74d388
+Bea: so the bad news is that we're locked out. #line:ccb878
+Bea: by that big-ass gate. #line:aea9dd
+Mae: ugh why make a giant gate in a graveyard? #line:87762c
+Bea: um to keep people like you out #line:8299a2
+Bea: and stop what you're probably gonna do. #line:456d4c
+Mae: hm. yeah we'll never know for sure. #line:444fa8
+Bea: alright well i'm not climbing it. #line:e05635
+Bea: go do your thing. #line:06b5b2
+Mae: my thing? #line:2d0426
+Bea: you're good at this kinda thing! #line:351ab8
+Bea: brute force and shit. #line:484bba
+Mae: geez. gotta do everything around here. #line:080755
+Bea: it's your ghost! i'm just the driver. #line:c1fb59
+Mae: fine. hang out. i'll be back. #line:c82cfe
 <<walk Bea BeaByGate>>
 <<setCanInteract Bea 0>>
 ===
@@ -84,21 +84,21 @@ position: 336,500
 <<freezePlayer>>
 <<playerCanRun 0>>
 <<playerCanJump 0>>
-Bea: G-G. #line:935670
-Bea: 04EHJ HADE%CJ, 4T0 HNKT0 GT0F0 HE BNDEV. #line:e5aa85
-Bea: N HAC HE 3ACYDRT. #line:794d17
-Mae: HE DYMA%, 4T0 3DECJ KT0-T0 0CTAVCR. #line:557ef2
-Mae: DA N U03DH0 CEL4AC. #line:db814b
-Bea: YFY. #line:62fdc1
-Mae: BCEFDA U0SAVYLCTA, KCTATN F0B0PR! #line:ca8ee5
-Bea: BNDNQJ? R SE F0B0PNVA, 4T0 TJ1 X0P0QA B GT0M. #line:d9ec66
-Mae: CUNHA 60VNT. #line:d6deed
-Bea: TAK 4T0 HAM HAD0 CDEVATJ? #line:1d8113
-Mae: YX, R U0LDY HALDY M0FNVY MAVJ1QA DS0 #line:8616d7
-Mae: N ECVN 0H HE U0RBNTCR #line:5d28ce
-Mae: R 6YDY UNHATJ EE, U0KA 0H HE C0N3B0VNT. #line:fee8c8
-Bea: TJ1 HE M0SEQJ  PA3PYQATJ BCE U0DPRD, MGL. #line:3737dc
-Mae: 0L BCE, VADH0! U0ZNF! U0QVN! #line:ed5863
+Bea: Uh. #line:935670
+Bea: I sure hope nobody saw that. #line:e5aa85
+Bea: We’re gonna get sued. #line:794d17
+Mae: I don’t think anyone’s back here. #line:557ef2
+Mae: And it’s getting late. #line:db814b
+Bea: mmhm. #line:62fdc1
+Mae: You’re welcome, by the way! #line:ca8ee5
+Bea: Yeah see? I told you you're good at this. #line:d9ec66
+Mae: my back hurts. #line:d6deed
+Bea: so what do we need to do? #line:1d8113
+Mae: uh I'm gonna go find Little Joe's grave #line:8616d7
+Mae: and if he doesn't show up #line:5d28ce
+Mae: i'm gonna knock on it until he does. #line:fee8c8
+Bea: you're not allowed to destroy anything, mae. #line:3737dc
+Mae: ok fine! whatever! let's go! #line:ed5863
 <<set $at_joes_grave_done to 0>>
 <<walk Bea BeaInPit>>
 ===
@@ -107,19 +107,19 @@ tags:
 colorID: 4
 position: 637,541
 ---
-Bea: "DS0 QELD" #line:bd0ea8
-Bea: AFA, GT0 0H. #line:43ebdd
-Bea: 3EMVR BCR 3J16KAR. #line:052773
-Mae: YZ. MEP30CTJ. #line:0228ef
-Bea: TAK N 4T0 6YDEM DEVATJ? #line:54924a
-Mae: GM. HABEPH0E, R UP0CT0 0CM0TP%CJ. #line:f65d8a
-Bea: B U0NCKAX UPN3PAKA? #line:a1ec97
-Mae: 0X, XBATNT N3DEBATJCR. #line:20c369
-Bea: N HE DYMAVA! BCE KPYT0! #line:8bf454
-Bea: MGL, R 3DECJ T0VJK0 PADN *TE6R*. #line:75f5b8
-Mae: N3BNHN. UP0CT0 TB0L T0H. #line:39e8d9
-Bea: T0H 0TKV%4EH. #line:b8fd8a
-Mae: CUACN60. #line:15cd88
+Bea: "Joe Shade" #line:bd0ea8
+Bea: Yeah, this is him. #line:43ebdd
+Bea: Ground here’s all swampy. #line:052773
+Mae: Ugh. Gross. #line:0228ef
+Bea: So what do we do here? #line:54924a
+Mae: Um. I guess I'm gonna just look around? #line:f65d8a
+Bea: for... ghosts? #line:a1ec97
+Mae: ugh don't make this a thing. #line:20c369
+Bea: it's not a thing! it's cool! #line:8bf454
+Bea: mae, i am here for *you* right now. #line:75f5b8
+Mae: sorry. you had a tone. #line:39e8d9
+Bea: tone stowed. #line:b8fd8a
+Mae: thank you. #line:15cd88
 <<set $at_joes_grave_done to 1>>
 <<set $check_old_section_1_done to 0>>
 <<set $check_old_section_2_done to 0>>
@@ -153,10 +153,10 @@ tags:
 colorID: 4
 position: 934,583
 ---
-Mae: R TYT HAQVA K0E-KAK0E CTAPJE! #line:24a161
-Bea: KAK0E TAK0E CTAPJE? #line:02f3c6
-Mae: M0FNVJ1? #line:34fc85
-Bea: BAY. #line:9cf745
+Mae: I found some old stuff! #line:24a161
+Bea: what kind of old stuff? #line:02f3c6
+Mae: graves? #line:34fc85
+Bea: wow. #line:9cf745
 <<close>>
 <<set $check_old_section_1_done to 1>>
 <<set $checked_old_section_count += 1>>
@@ -167,10 +167,10 @@ tags: temp
 colorID: 4
 position: 1189,643
 ---
-Mae: GTA M0FNVA DVR V0QADN, R U0VAFA%? #line:a4f00b
-Bea: HE DYMA%, 4T0 V0QADEL X0P0HNVN B 4EV0BE4ECKNX M0FNVAX. #line:155e60
-Mae: UPEDCTABJ 60VJQ0L V0QADEPA3MEPHJ1L FP06. #line:a65a17
-Bea: UPEDCTABVR%. #line:786049
+Mae: This grave is for a horse I think? #line:a4f00b
+Bea: I don't think they ever buried horses in people graves. #line:155e60
+Mae: imagine the big horse-sized coffin. #line:a65a17
+Bea: imagine. #line:786049
 <<close>>
 <<set $check_old_section_2_done to 1>>
 <<set $checked_old_section_count += 1>>
@@ -181,11 +181,11 @@ tags:
 colorID: 4
 position: 1469,608
 ---
-Bea: ECTJ TAM KAKNE UPN3PAKN? #line:e4b3ae
-Mae: HE-A, 6N. #line:0a0378
-Mae: TJ1 6J1 Y3HAVA. #line:acb676
-Mae: BEDJ R 6J1 CKA3AVA. #line:e767c1
-Bea: XA-XA, 0KEL 0KEL #line:aa44a2
+Bea: any ghosts over there? #line:e4b3ae
+Mae: no, bea. #line:0a0378
+Mae: you'd know. #line:acb676
+Mae: I'd say. #line:e767c1
+Bea: ha ha ok ok #line:aa44a2
 <<set $check_old_section_3_done to 1>>
 <<set $checked_old_section_count += 1>>
 [[CheckOldSectionCount]]
@@ -205,16 +205,16 @@ colorID: 4
 position: 1163,1206
 ---
 <<wait 2>>
-Mae: GT0 TYU0! #line:f2cc12
-Bea: A 4EF0 TJ1 0SNDAVA? #line:d7caef
-Mae: 4EF0-HN6YDJ! #line:69f519
-Mae: A GT0 UP0CT0... TYU0!!! #line:fc82cb
-Mae: 0H HE BJ1UPJ1FHYV N3 3EMVN, HN4EF0 TAK0F0! #line:e8447d
-Bea: TJ1... TJ1 GT0 0SNDAVA YBNDETJ? #line:4566df
-Mae: GT0 TYU0! #line:a91e59
-Mae: R PA3HECY EF0 M0FNVY K XEPAM! #line:195d4e
-Bea: YX, BAY, U0F0DN-KA, HE HAD0 #line:6ff57e
-Mae: [shake=.05]U0PA BCTABATJ, MAVJ1Q DS0!!![/shake] #line:f12eda
+Mae: THIS IS STUPID! #line:f2cc12
+Bea: What were you expecting? #line:d7caef
+Mae: SOMETHING! #line:69f519
+Mae: It’s just... STUPID!!! #line:fc82cb
+Mae: HE DIDN’T POP OUT OF THE GROUND OR ANYTHING! #line:e8447d
+Bea: Is... is that what you were expecting to happen? #line:4566df
+Mae: THIS IS STUPID! #line:a91e59
+Mae: I’m gonna smash his shit up! #line:195d4e
+Bea: uh whoa dude hold up no #line:6ff57e
+Mae: [shake=.05]WAKEY WAKEY LITTLE JOE!!![/shake] #line:f12eda
 <<playerCanRun 1>>
 <<playerCanJump 1>>
 <<setCanInteract Bea 0>>
@@ -224,7 +224,7 @@ tags:
 colorID: 4
 position: 1478,1210
 ---
-Bea: TAK. GT0T 3BYK 6J1V HE 04EHJ. #line:432447
+Bea: ok. that didn’t sound right. #line:432447
 ===
 title: InSinkhole
 tags: 
@@ -237,31 +237,31 @@ position: 1748,1204
 <<warp Mae MaeSinkhole>>
 <<flip Mae -1>>
 <<freezePlayer>>
-Bea: TB0% MATJ! #line:05de66
-Mae: CPAHJ F0CU0DHR! #line:6d690f
-Bea: 4T0 TJ1 HADEVAVA??? #line:d1cf74
-Mae: TJ1 6J1VA UPABA! #line:f169d8
-Bea: HAC4ET 4EF0??? R PA3BE F0B0PNVA TE6E UPJ1FATJ HA M0FNVE? #line:c4e71b
-Mae: HAC4ET FPYHT0BJ1X UP0BAV0B! #line:ed58c2
-Bea: HAM U0BE3V0, 4T0 RMA HE FVY60KAR. #line:df893a
-Bea: U0F0DN... GT0... #line:a19871
-Mae: DA. GT0 FP06. #line:aa0037
-Bea: B0T 4EPT! #line:b4c15d
-Mae: TAK, MJ1... 0TKP0EM EF0... DA? #line:b54b04
-Bea: HET. MJ1 HE 6YDEM 0TKPJ1BATJ FP06 #line:d3eb27
-Bea: C FHN%WNM TPYU0M BHYTPN. #line:e8848d
-Mae: 6N, KY4A BPEMEHN UP0QV0. #line:e91f91
-Mae: 0H YSE DABH0 HE FHNET. #line:b838c3
+Bea: HOLY SHIT! #line:05de66
+Mae: HOLY SHIT! #line:6d690f
+Bea: WHAT DID YOU DO??? #line:d1cf74
+Mae: You were right! #line:f169d8
+Bea: About what??? I didn’t tell you to do that? #line:c4e71b
+Mae: About the sinkholes! #line:ed58c2
+Bea: We’re lucky it wasn’t deeper. #line:df893a
+Bea: Wait... is that... #line:a19871
+Mae: Yeah. That’s a coffin. #line:aa0037
+Bea: Oh crap. #line:b4c15d
+Mae: So, we're gonna... open it... right? #line:b54b04
+Bea: no. we're not going to open a coffin #line:d3eb27
+Bea: with a rotting corpse in it. #line:e8848d
+Mae: Bea, it's been a long time. #line:e91f91
+Mae: he's not rotting anymore. #line:b838c3
     <<if $did_bea_friendship_quest_2>>
-        Mae: TYT, CK0PEE BCEF0, CNTYAONR KAK Y MNCCNC MNPAHDJ1. #line:e98a67
+        Mae: we got more a Mr. Miranda situation going on here. #line:e98a67
     <<endif>>
-Bea: 60SE, HET. MJ1 HE 6YDEM DEVATJ GT0F0, 6J1CTP0 YX0DNM! #line:90ddc4
-Mae: TE6E X0TJ KAUEVJKY NHTEPECH0? #line:74f819
+Bea: geez god we are not doing this we are leaving #line:90ddc4
+Mae: aren't you kinda curious at least? #line:74f819
 Bea: ... #line:d85af9
 Bea: ... #line:39e865
-Bea: ...DA. #line:5870fd
-Mae: 0KEL! 3A DEV0! #line:1ac12d
-Bea: TJ1 BCE DEVAEQJ, A R CT0% PRD0M. #line:aa4da7
+Bea: ...yeah. #line:5870fd
+Mae: ok! let's do this! #line:1ac12d
+Bea: you're doing it. I'm standing here. #line:aa4da7
 <<close>>
 <<irisOut 1 wait>>
 <<scene PawsModeBeaCoffin>>
@@ -271,28 +271,28 @@ tags:
 colorID: 4
 position: 2004,1203
 ---
-Mae: HY 4T0, V0SHAR TPEB0FA? #line:039178
-Bea: KT0 3HAET. #line:ca21a7
-Mae: MJ1 DETEKTNBJ1! #line:b6ce50
-Bea: HET, HNXPEHA. MJ1, CK0PEE, #line:8f7189
-Bea: 06J14HJ1E BAHDAVJ1 #line:8db13b
-Bea: NVN 4T0-T0 TNUA PACXNTNTEVEL M0FNV. #line:f481f9
-Mae: MJ1 BCE D0 KY4N! #line:0fdf30
-Mae: CT0VJK0 BCEF0 U0HADEVAVN. #line:fc7039
-Bea: TC-C! #line:b4abe3
-Mae: 4T0? #line:11c4ec
+Mae: so what, foul play? #line:039178
+Bea: who knows. #line:ca21a7
+Mae: we're detectives! #line:b6ce50
+Bea: we're not. we're like #line:8f7189
+Bea: criminal vandals #line:8db13b
+Bea: or like graverobbers or something. #line:f481f9
+Mae: those too! #line:0fdf30
+Mae: we're a lot of things right now. #line:fc7039
+Bea: SHH! #line:b4abe3
+Mae: what? #line:11c4ec
 <<playAmbientSFX _AmbientSFX:amb_ibon 3>>
 <<wait 2>>
-Bea: KT0-T0 U03ADN HAC HA6V%DAET 3A HAMN. #line:f1d83e
-Mae: 0 60SE... #line:9718df
-Bea: HE 3HA%, KYDA 0HN U0QVN. #line:3786fc
-Bea: HY, UP0CT0 #line:438eec
-Bea: 3AMETNVA NX KPAEM FVA3A... #line:b4f03e
-Mae: GT0... #line:b3792e
-Bea: HE 3HA%. H0 HAM HAD0 CBAVNBATJ. CEL4AC! #line:f75aec
-Mae: GT0 M0SET 6J1TJ UPN3PAK! #line:2a7a3e
-Bea: HET! YX0DNM! CEL4AC SE! #line:0b1e04
-Mae: VADH0, X0P0Q0, F0CU0DN! #line:3d678a
+Bea: So there’s someone back there watching us. #line:f1d83e
+Mae: Oh god... #line:9718df
+Bea: i don't know where they went #line:3786fc
+Bea: just like #line:438eec
+Bea: out of the corner of my eye... #line:b4f03e
+Mae: is it... #line:b3792e
+Bea: I don’t know. But we need to leave. NOW! #line:f75aec
+Mae: it could be the ghost! #line:2a7a3e
+Bea: NO! We're gone! Now! #line:0b1e04
+Mae: ok fine geez! #line:3d678a
 <<set $graveyard_branch_break to 1>>
 <<close>>
 <<run Mae OffLeft>>
@@ -310,13 +310,13 @@ colorID: 4
 position: 455,1133
 ---
 <<if $graveyard_need_bea is 0>>
-    Mae: R HN 3A 4T0 HE 0CTABV% 6N U03ADN... #line:f58345
-    Mae: 0X, 6NATPNC. #line:3d810d
-    Mae: UP0CT0 HAY4NCJ UPJ1FATJ. #line:03dfc8
-    Mae: X0TR C TB0NMN T0WNMN H0SKAMN. #line:81708b
-    Mae: KAK MHE 0TKPJ1TJ GTN B0P0TA? #line:136339
+    Mae: There's no way I'm going to leave Bea behind... #line:f58345
+    Mae: Ugh Beatrice. #line:3d810d
+    Mae: just learn to jump. #line:03dfc8
+    Mae: not with those scrawny legs I guess. #line:81708b
+    Mae: how do I break that gate open? #line:136339
     <<set $graveyard_need_bea to 1>>
 <<elseif $graveyard_need_bea is 1>>
-    Mae: XMM. D0VSEH 6J1TJ CU0C06 0TKPJ1TJ GTN B0P0TA... #line:300bba
+    Mae: Hmm, there's gotta be a way to break that gate open... #line:300bba
 <<endif>>
 ===

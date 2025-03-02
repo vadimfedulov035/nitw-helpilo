@@ -3,45 +3,45 @@ tags:
 colorID: 2
 position: -212,-211
 ---
-Mae: CEVMEPC! #line:6d332e
-Selmers: 4T0 TJ1 DEVAEQJ D0MA? #line:e8a5b8
-Mae: R 6P0CNVA Y4E6Y! #line:7a4764
-Selmers: 0F0. #line:f2d777
-Mae: DA, HABEPH0E. #line:48c02d
-Selmers: NTAK, U0VY4AETCR TJ1 HE YEDEQJ? #line:e1e554
-Mae: U0X0SE HA T0. #line:d7662d
-Selmers: CTPEMH0. #line:34e40f
+Mae: Selmers! #line:6d332e
+Selmers: What are you doing home? #line:e8a5b8
+Mae: Dropped out! #line:7a4764
+Selmers: Wow. #line:f2d777
+Mae: Yeah I guess. #line:48c02d
+Selmers: So, like, you just don’t go back? #line:e1e554
+Mae: That’s about it. #line:d7662d
+Selmers: Weird. #line:34e40f
 ===
 title: Selmers_00_01
 tags: 
 colorID: 2
 position: -188,41
 ---
-Mae: TAK... KAK SNBETCR? #line:4b553b
-Selmers: H0PMAVJH0. #line:44ae98
-Selmers: MJ1 C DEHHNC0M PACCTAVNCJ. #line:9e535c
-Mae: 0, HET! #line:6f3b15
-Selmers: AFA. 0H U0VY4NV PA60TY B H0B0L T%PJME 0K0V0 6PNDDVA #line:b21ae8
-Selmers: N BCTPETNV KAKY%-T0 DEB40HKY HA 3AUPABKE. #line:400b25
-Mae: YX TJ1, HY N YP0D. #line:f3536c
-Selmers: GX, 0H CB060DHJ1L AFEHT. #line:31c566
-Mae: HABEPH0E. #line:26ab8a
+Mae: So how've you been? #line:4b553b
+Selmers: Ok. #line:44ae98
+Selmers: Me and Dennis split. #line:9e535c
+Mae: Oh no! #line:6f3b15
+Selmers: Yeah he got a job at the new prison over in Briddle #line:b21ae8
+Selmers: and he met some girl at a gas station. #line:400b25
+Mae: Wow. What a jerk. #line:f3536c
+Selmers: Eh, he's a free agent. #line:31c566
+Mae: I guess. #line:26ab8a
 ===
 title: Selmers_00_02
 tags: 
 colorID: 2
 position: -61,277
 ---
-Selmers: KAK0E CV0B0 NCU0VJ3YETCR #line:665641
-Selmers: DVR, TNUA, 0PYSNR, K0T0P0E DEVAEQJ B T%PJME? #line:9ae73c
-Selmers: BP0DE H0SA. #line:cccac8
-Mae: 3AT04KA? #line:88ff41
-Selmers: HADE%CJ, DEHHNCA UPNQNVN HA PA60TE. #line:47401e
-Selmers: UP0CT0 4T06J1 HAUYFATJ EF0. X0P0Q0 HAUYFATJ. #line:01a93b
-Mae: GT0 M0FV0 6J1 CPA60TATJ. #line:b0efae
-Selmers: HAUYFATJ EF0 UPRM0 B U04KY. #line:11eb18
-Mae: HY, R U0QVA. #line:47d7a2
-Selmers: PADA BCTPETNTJCR! UPNX0DN B V%60E BPEMR! #line:e85d78
+Selmers: What's that word they use #line:665641
+Selmers: for like a weapon you make in jail? #line:9ae73c
+Selmers: Like a knife? #line:cccac8
+Mae: A shiv? #line:88ff41
+Selmers: I hope Dennis gets shivved at work. #line:47401e
+Selmers: Just to scare him. Scare him good. #line:01a93b
+Mae: That'd do it.  #line:b0efae
+Selmers: Scare him right in the kidney. #line:11eb18
+Mae: Ok, well I gotta go. #line:47d7a2
+Selmers: Nice seeing you! Stop by anytime! #line:e85d78
 ===
 title: Selmers
 tags: 
@@ -66,58 +66,58 @@ tags:
 colorID: 2
 position: 515,-75
 ---
-Selmers: KAK0B0 GT0, BEPHYTJCR 06PATH0? #line:ad4370
-Mae: HY, R UP0CT0 BEPHYVACJ D0M0L, TAK 4T0 #line:798ce0
-Mae: BHNKA% B0 BCE, 4T0 UP0NCX0DNT #line:63330c
-Selmers: U0-TB0EMY, 4T0-HN6YDJ 3DECJ N3MEHNV0CJ? #line:f8b94d
-    ->DA, A6C0V%TH0. #line:7b2cef
-        Mae: MAFA3NH Y UAPK0BKN 3AKPJ1T. #line:3a4eb8
-        Mae: U0RBNVCR CHGK ZGVK0H #line:0b439b
-        Mae: D0HKN ZYD 3AKPJ1T #line:7fa9dd
-        Mae: 3AT0 ECTJ XGM UAHTEP #line:318f3b
-        Mae: XAPVN BJ1P0CVN #line:316c0b
-        Mae: BNDEVA, KAK 0HN 6EFAVN B0KPYF D0 GT0F0. #line:8b9f7b
-        Selmers: DA, UPNX0DNTCR HRH4NTJCR C GTNMN U0D0HKAMN. #line:7a9658
-        Mae: PA3BE 0HN UV0XN? BJ1FVRDEVN DPYSEV%6H0. #line:5c8b2b
-        Selmers: B0T KAK 0HN TE6R 0DYPA4NBA%T. #line:18311d
-        Selmers: TJ1 3HAEQJ, 4T0 0HN B0PY%T? #line:d369c1
-        Mae: 4T0? #line:70fb9e
-        Selmers: 0HN B0PY%T. #line:744e88
-        Mae: 6VNH. MEHR YSE 0DYPA4NVN. #line:8f748f
-    ->HE, HE C0BCEM. #line:f3b202
-        Mae: BCE U0-CTAP0MY. #line:eca5ee
-        Mae: TE SE V%DN, TE SE YVNOJ1, TE SE DEPEBJR. #line:a57692
-        Selmers: X0TEVA 6J1 R YLTN 0TC%DA. #line:47dc45
-        Mae: N KYDA 6J1 TJ1 U0QVA? #line:84a756
-        Selmers: KYDA-HN6YDJ K 0KEAHY. #line:243642
-        Selmers: HAQVA 6J1 CTA6NVJHY% PA60TY, FDE UVATNVN 6J1 D0ZNFA. #line:f73b3a
-        Selmers: DEVAVA 6J1 YKPAQEHNR N3 BCRKNX PAKYQEK HA UVRSE N UP0DABAVA 6J1. #line:5b03c8
-        Selmers: N X0DNVA 6J1 B KAPA0KE KASDY% H04J #line:da9433
-        Mae: A R M0FVA 6J1, KAK-HN6YDJ, 3ACK04NTJ? #line:8aec04
-        Selmers: A TJ1 YMEEQJ UETJ KAPA0KE? #line:25f310
-        Mae: ...A 06R3ATEVJH0 X0P0Q0 YMETJ UETJ? #line:e6fc7d
-        Selmers: DA HET, U0DPYFA. FVABH0E - UPNLTN, U0KPAC0BATJCR. #line:c957b5
+Selmers: What's it like being back? #line:ad4370
+Mae: well, I just got home so #line:798ce0
+Mae: just like taking it all in. #line:63330c
+Selmers: feel like anything's changed? #line:f8b94d
+    ->Yeah totally. #line:7b2cef
+        Mae: park store's gone. #line:3a4eb8
+        Mae: got a snack falcon now. #line:0b439b
+        Mae: food donkey's gone. #line:7fa9dd
+        Mae: got a ham panther though. #line:318f3b
+        Mae: the harleys are bigger now #line:316c0b
+        Mae: saw them running around before. #line:8b9f7b
+        Selmers: yeah I babysit those little shits sometimes. #line:7a9658
+        Mae: are they bad? they seem so nice. #line:5c8b2b
+        Selmers: that's how they fool ya. #line:18311d
+        Selmers: you know they steal things? #line:d369c1
+        Mae: what? #line:70fb9e
+        Selmers: they steal things. #line:744e88
+        Mae: holy crap. I *was* fooled. #line:8f748f
+    ->Nah. Not really. #line:f3b202
+        Mae: same old same old #line:eca5ee
+        Mae: same people, same streets, same trees. #line:a57692
+        Selmers: I wish I could get away. #line:47dc45
+        Mae: where would you go? #line:84a756
+        Selmers: Wanna go out to the ocean. #line:243642
+        Selmers: Get a stable job that pays worth a damn. #line:f73b3a
+        Selmers: Make jewelry out of things I find on the beach and sell 'em. #line:5b03c8
+        Selmers: And do karaoke every night. #line:da9433
+        Mae: Can I come visit? #line:8aec04
+        Selmers: Can you karaoke? #line:25f310
+        Mae: ...does it have to be any good? #line:e6fc7d
+        Selmers: don't matter, girl. just gotta show up. #line:c957b5
 ===
 title: Selmers_Demo_00
 tags: demo demo2
 colorID: 0
 position: 967,-973
 ---
-Selmers: UPNBET. #line:c46115
-Mae: GL, CEVMEPC. o/ #line:85deca
+Selmers: Hey Mae. #line:c46115
+Mae: Hey Selmers. o/ #line:85deca
 Mae: _o_ #line:662874
-Selmers: U0-M0EMY, R BNDEVA Y TE6R DHEBHNK PAHEE. #line:fd025f
-Mae: A, DA. D0KT0P UP0UNCAV. #line:b6b677
-Selmers: DA, D0KT0P XGHK 3ACTABVRET MEHR T0SE BECTN EF0. #line:481ec4
-Mae: 0Y, TAK Y TE6R T0SE UP06VEMJ1 C K0HTP0VEM FHEBA? #line:490531
-Selmers: R KPAVA K0DENH0BJ1L CNP0U 0T KAQVR N3 CHGK ZGVK0HA. #line:5ea56e
-Mae: 0 60SE #line:e3d192
-Mae: 3HA4NT, D0KT0P XGHK C4NTAET, 4T0 DHEBHNK - VEKAPCTB0 0T BCEX 60VE3HEL. #line:0ad905
-Mae: HY, A TE6E 0H U0M0F? _o_ #line:b8ea69
-Selmers: HE-A. H0 R CTAH0BV%CJ 04EHJ X0P0QNM U0GT0M. #line:431c2c
-Selmers: X04EQJ U0CVYQATJ? #line:f3951a
-[[HE, MHE HYSH0 HALTN FPEFFA.|Selmers_Demo_Naw]] #line:ab63c6
-[[K0HE4H0!|Selmers_Demo_Sure]] #line:42b42c
+Selmers: Did I see you with a journal the other day? #line:fd025f
+Mae: Oh yeah. Doctor's orders. #line:b6b677
+Selmers: Yeah Dr. Hank has me doing one too. #line:481ec4
+Mae: Oh ok did you have anger problems too? #line:490531
+Selmers: I was stealing codeine cough syrup from the Snack Falcon. #line:5ea56e
+Mae: Oh geez. #line:e3d192
+Mae: So Dr. Hank sees journals as a general cure-all. #line:0ad905
+Mae: Is it working for you? _o_ #line:b8ea69
+Selmers: Nope. But I've become a very good poet. #line:431c2c
+Selmers: Wanna hear one? #line:f3951a
+[[Naw, gotta find Gregg.|Selmers_Demo_Naw]] #line:ab63c6
+[[Sure!|Selmers_Demo_Sure]] #line:42b42c
 
 ===
 title: Selmers_Demo_Naw
@@ -125,8 +125,8 @@ tags: demo demo2
 colorID: 0
 position: 1258,-1064
 ---
-Selmers: VADH0, M0SET, B DPYF0L PA3. #line:8d05ba
-Mae: 06R3ATEVJH0. :) #line:e34fb1
+Selmers: Ok, maybe another time. #line:8d05ba
+Mae: Definitely. :) #line:e34fb1
 Mae: :| #line:3b7f05
 ===
 title: Selmers_Demo_Sure
@@ -134,20 +134,20 @@ tags: demo demo2
 colorID: 0
 position: 976,-1345
 ---
-Selmers: CEPDOE M0E #line:35fdb5
-Selmers: 0DH0 NCKASEHNE, #line:3a12c9
-Selmers: H0 C T060L R #line:ea95fe
-Selmers: 4YBCTBY% 06VEF4EHJE. #line:bb9100
-Mae: 0F0, N UPABDA 3D0P0B0. :) #line:4dadfe
-Selmers: K0FDA BHYTPN UPNVNB #line:55703b
-Selmers: FPYCTH0TJ1, #line:987b2d
-Selmers: MHE HYSHA #line:c55b1d
-Selmers: BCEF0 VNQJ TJ1 #line:35c06d
-Mae: 04EHJ P0MAHTN4H0. #line:8e10e6
-Selmers: 0HA 0 M0EL V0QADN. #line:63c081
+Selmers: my heart is #line:35fdb5
+Selmers: a dankness #line:3a12c9
+Selmers: but when I see you #line:ea95fe
+Selmers: i feel a thankness #line:bb9100
+Mae: Wow, that's really nice. :) #line:4dadfe
+Selmers: when i feel #line:55703b
+Selmers: a blueness #line:987b2d
+Selmers: all i need #line:c55b1d
+Selmers: is a youness #line:35c06d
+Mae: That's very romantic. #line:8e10e6
+Selmers: It's about my horse. #line:63c081
 Mae: :| #line:c8e1b1
-Mae: 0Y. #line:34e3a6
-Selmers: MJ1 C HEL UP0CT0 DPY3JR. #line:4f7c2e
+Mae: Oh. #line:34e3a6
+Selmers: We're just friends. #line:4f7c2e
 <<addToJournal SelmersPoetry>>
 ===
 title: Selmers_Demo_01
@@ -155,48 +155,48 @@ tags: demo demo2
 colorID: 0
 position: 605,-1121
 ---
-Selmers: MNCTEP 4A30K0B CH0BA CT0NT HA CB0EL KPJ1QE. #line:6c37ec
-Selmers: YBEPEHA, 0H CE6E K0FDA-HN6YDJ QE% CV0MAET. #line:95ecac
+Selmers: Mr. Chazokov's up on the roof again. #line:6c37ec
+Selmers: Pretty sure he's gonna break his damn neck. #line:95ecac
 ===
 title: Selmers_A2D1_00
 tags: demo2
 colorID: 3
 position: -2577,-1027
 ---
-Selmers: XGL, MGL. #line:d5bda2
-Mae: XGL, CEVMEPC. o/ #line:343e3a
+Selmers: Hey Mae. #line:d5bda2
+Mae: Hey Selmers. o/ #line:343e3a
 Mae: _o_ #line:b339f5
-Selmers: U0-M0EMY, R BNDEVA Y TE6R DHEBHNK PAHEE. #line:a6b381
-Mae: A, DA. D0KT0P UP0UNCAV. #line:4f9263
-Selmers: DA, D0KT0P XGHK 3ACTABVRET MEHR T0SE BECTN EF0. #line:863c8e
-Mae: 0Y, TAK Y TE6R T0SE UP06VEMJ1 C0 3V0CTJ%? #line:9f000a
-Selmers: R YKPAVA 06E360VNBA%WNE N3 AUTEKN XGM UAHTEP. #line:e698a5
-Mae: 0 60SE #line:661cb8
-Mae: 3HA4NT, D0KT0P XGHK C4NTAET, 4T0 DHEBHNK - VEKAPCTB0 0T BCEX 60VE3HEL. #line:3ed789
-Mae: HY, A TE6E 0H U0M0F? _o_ #line:436149
-Selmers: HET. PEA6NVNTAONR N UP0FPAMMA U0M0FA%T. #line:6a6a1a
-Selmers: N R CTAVA 04EHJ X0P0QNM U0GT0M. #line:08117b
-Selmers: X04EQJ U0CVYQATJ? #line:5a8bc0
--> K0HE4H0 #line:29e7ea
-    Selmers: CEPDOE M0E #line:609da0
-    Selmers: 0DH0 NCKASEHNE, #line:4a0426
-    Selmers: H0 C T060L R #line:f9fa04
-    Selmers: 4YBCTBY% 06VEF4EHJE. #line:c88b54
-    Mae: 0F0, N UPABDA 3D0P0B0. :) #line:f061f4
-    Selmers: K0FDA BHYTPN UPNVNB #line:c094ca
-    Selmers: FPYCTH0TJ1, #line:874bc9
-    Selmers: MHE HYSHA #line:5289b8
-    Selmers: BCEF0 VNQJ TJ1 #line:db2130
-    Mae: 04EHJ P0MAHTN4H0. #line:75fd92
-    Selmers: 0HA 0 M0EL V0QADN. #line:015755
+Selmers: Did I see you with a journal the other day? #line:a6b381
+Mae: Oh yeah. Doctor's orders. #line:4f9263
+Selmers: Yeah Dr. Hank has me doing one too. #line:863c8e
+Mae: Oh ok did you have anger problems too? #line:9f000a
+Selmers: I was stealing painkillers from the Ham Panther pharmacy. #line:e698a5
+Mae: Oh geez. #line:661cb8
+Mae: So Dr. Hank sees journals as a general cure-all. #line:3ed789
+Mae: Is it working for you? _o_ #line:436149
+Selmers: Nope. Rehab and the program do, though. #line:6a6a1a
+Selmers: And I've become a very good poet. #line:08117b
+Selmers: Wanna hear one? #line:5a8bc0
+-> Yeah #line:29e7ea
+    Selmers: my heart is #line:609da0
+    Selmers: a dankness #line:4a0426
+    Selmers: but when I see you #line:f9fa04
+    Selmers: i feel a thankness #line:c88b54
+    Mae: Wow, that's really nice. :) #line:f061f4
+    Selmers: when i feel #line:c094ca
+    Selmers: a blueness #line:874bc9
+    Selmers: all i need #line:5289b8
+    Selmers: is a youness #line:db2130
+    Mae: That's very romantic. #line:75fd92
+    Selmers: It's about my horse. #line:015755
     Mae: :| #line:a7c41e
-    Mae: 0Y. #line:b9ed64
-    Selmers: MJ1 UP0CT0 DPY3JR. #line:e5b1eb
+    Mae: Oh. #line:b9ed64
+    Selmers: We're just friends. #line:e5b1eb
     <<set $selmers_poet += 1>>
     <<unlockDoodle SelmersPoet>>
--> HE-A #line:ca75cc
-    Selmers: VADH0, M0SET, B DPYF0L PA3. #line:fa082b
-    Mae: 06R3ATEVJH0. :) #line:55d9f0
+-> Naw #line:ca75cc
+    Selmers: Ok, maybe another time. #line:fa082b
+    Mae: Definitely. :) #line:55d9f0
     Mae: :| #line:18c01e
 <<set $knows_selmers_poet to 1>>
 <<unlockDoodle Selmers1>>
@@ -208,8 +208,8 @@ colorID: 3
 position: -2572,-1317
 ---
 <<lookAt Selmers Chazokov>>
-Selmers: MNCTEP 4A30K0B CH0BA CT0NT HA CB0EL KPJ1QE. #line:d55e17
-Selmers: YBEPEHA, 0H CE6E K0FDA-HN6YDJ QE% CV0MAET. #line:14f10c
+Selmers: Mr. Chazokov's up on the roof again. #line:d55e17
+Selmers: Pretty sure he's gonna break his damn neck. #line:14f10c
 <<lookNearest Selmers>>
 ===
 title: Selmers_A2D2_00
@@ -217,51 +217,51 @@ tags:
 colorID: 3
 position: -2276,-1087
 ---
-Selmers: MGL 60P0BCKN. #line:e0ec5e
-Mae: CEVMEPC. #line:00e88b
-Selmers: TEUEPJ HAM BCEM RCH0, KAK BASH0 BJ1FVRDETJ HA BCE CT0 #line:f987dc
-Mae: 4EF0 #line:2a22bd
-Selmers: HAQA BHEQH0CTJ - UEPB0E N U0P0% U0CVEDHEE BUE4ATVEHNE, K0T0P0E MJ1 C03DAEM #line:bb572f
-Mae: TJ1 BCTYUNVA B KYVJT, CEVMEPC? #line:e8222f
-Selmers: K C4ACTJ% DVR TE6R, R VNOEH3NP0BAHHJ1L UP0DABEO #line:4bf54b
-Mae: 0K #line:23266d
-Selmers: UP0DYKONN CNVJBAMA. #line:7b8912
-Mae: CEVMEPC, Y MEHR HET DEHEF. #line:77cc2f
-Selmers: 0X, 0KEL. #line:34c789
-    ->TJ1 BJ1CTYUAEQJ C GTNM UPEDV0SEHNEM DVR BCEX? #line:73a98f
-        Selmers: YSACH0, HE UPABDA VN? #line:f53f7e
-        Selmers: R UP0X0DNVA BNDE0CEMNHAP, N BEDYWAR CKA3AVA GT0. #line:dab6c5
-        Mae: 0HA 4T0-HN6YDJ UP0DAVA? #line:2050e4
-        Selmers: DA, EE C0CED 6J1V 04EHJ UPN3HATEVEH. #line:703f9d
-        Mae: VADH0 #line:70ce23
-        Selmers: BCE YVJ16AVNCJ, N 0HN UP0CT0 UP0D0VSAVN CMERTJCR #line:73d65c
-        Selmers: UP0CT0 YVJ16AVNCJ N CMERVNCJ, N CM0TPEVN HA V0CJ0HJ1 DVR PYK. #line:90ad9d
-        Mae: MJ1 M0SEM UP0CT0 YVJ16ATJCR N CMERTJCR, ECVN X04EQJ. #line:3ca126
-        Selmers: HE-A. #line:827689
-    ->TJ1 4T0-HN6YDJ UP0DAVA? #line:00362a
-        Selmers: UP0DAVA HECK0VJK0 CB0EL MAME. #line:5b31b4
-        Selmers: N G66N KPAHFVEP. #line:42e6e5
-        Mae: D04EPN MNCCNC KPAHFVEP? #line:65672a
-        Selmers: BHY4KE #line:f4e589
-        Selmers: R HATJ1KA%CJ HA HEE B UPA4E4H0L B03VE QK0VJ1. #line:3efcc9
-        Mae: 0DHASDJ1 FPEFF 3AKPJ1VCR B 0DH0L N3 CYQNV0K. #line:017e12
-        Selmers: 0H YMEP? #line:202926
-        Mae: 0H X0TEV, 4T06J1 R BKV%4NVA EE, H0 R CTPYCNVA. #line:191dce
-        Selmers: 0H 6J1 T04H0 YMEP. #line:af62b4
-        Mae: CKASN GT0 EMY. 0H BCE EWE 30V. #line:e5508b
-Selmers: X04EQJ CTNX0TB0PEHNE? #line:98ad60
+Selmers: Mae Borowski. #line:e0ec5e
+Mae: Selmers. #line:00e88b
+Selmers: Now, we all know how important it is to look our best. #line:f987dc
+Mae: what #line:2a22bd
+Selmers: Our appearance is the first and sometimes last impression we make! #line:bb572f
+Mae: Selmers did you join a cult? #line:e8222f
+Selmers: Lucky for you, I happen to be a licensed dealer #line:4bf54b
+Mae: oh ok #line:23266d
+Selmers: of the Sylvam family of products. #line:7b8912
+Mae: Selmers I don't have any money. #line:77cc2f
+Selmers: oh ok. #line:34c789
+    ->Are you giving that pitch to everyone? #line:73a98f
+        Selmers: it's horrible, isn't it? #line:f53f7e
+        Selmers: i did a video seminar and that's what the woman said. #line:dab6c5
+        Mae: Did she sell anything? #line:2050e4
+        Selmers: yeah her neighbor was really appreciative. #line:703f9d
+        Mae: sorry #line:70ce23
+        Selmers: everyone was smiling and they just kept laughing #line:73d65c
+        Selmers: just smiling and laughing and looking at hand lotions. #line:90ad9d
+        Mae: we can just smile and laugh if you want. #line:3ca126
+        Selmers: nah. #line:827689
+    ->Have you sold anything yet? #line:00362a
+        Selmers: sold some to my mom #line:5b31b4
+        Selmers: and to Abby Crangler. #line:42e6e5
+        Mae: Mrs. Crangler's daughter? #line:65672a
+        Selmers: granddaughter #line:f4e589
+        Selmers: i run into her at the laundromat over by the school. #line:3efcc9
+        Mae: one time gregg got locked inside one of the tumble dryers. #line:017e12
+        Selmers: did he die? #line:202926
+        Mae: he wanted me to start it but i chickened out #line:191dce
+        Selmers: he definitely would have died. #line:af62b4
+        Mae: tell him that. he's still mad. #line:e5508b
+Selmers: Want to hear a poem? #line:98ad60
 <<if $knows_selmers_poet is 0>>
-	Mae: TJ1 U0GT? #line:683786
-	Selmers: AFA, C T0F0 BPEMEHN, KAK BJ1QVA C PEA6NVNTAONN. #line:507fad
-	Mae: TJ1 6J1VA HA PEA6NVNTAONN? #line:8ab6f0
-	Selmers: DA. #line:810e7c
+	Mae: You're a poet? #line:683786
+	Selmers: Yeah since I got out of rehab. #line:507fad
+	Mae: You were in rehab? #line:8ab6f0
+	Selmers: Yep. #line:810e7c
     <<set $knows_selmers_poet to 1>>
-	Mae: VADH0, 4NTAL, U0CVYQA%. #line:32686d
+	Mae: Ok I'll hear the poem. #line:32686d
     [[Selmers_A2D2_Poem]]
 <<endif>>
--> HE-A, M0SET 6J1TJ B DPYF0L PA3. #line:5cd9ee
-	Selmers: KPYT0. #line:250652
--> A T0! #line:eb4791
+-> Nah, maybe another time. #line:5cd9ee
+	Selmers: Cool. #line:250652
+-> Sure! #line:eb4791
 	[[Selmers_A2D2_Poem]]
 ===
 title: Selmers_A2D2_Poem
@@ -269,19 +269,19 @@ tags:
 colorID: 3
 position: -2023,-1089
 ---
-Selmers: U0P0L #line:51281a
-Selmers: R PA3MJ1QVR%. #line:13eb7d
-Selmers: N YT0UATJ #line:74d9be
-Selmers: HA4NHA%. #line:70af09
-Mae: 0 HET. #line:d432b6
-Selmers: GT0 HE BCE. #line:84712b
-Mae: UP0CTN. #line:2ef6c3
-Selmers: U0T0M UPEPBAVACJ, #line:1c8474
-Selmers: BEDJ CEHKTR6PJ CEL4AC. #line:3ab2e4
-Mae: "CEHKTR6PJ"? #line:6a5496
-Selmers: R C0EDNHNVA DBA M0NX V%6NMJ1X MECROA. #line:1a1de1
-Mae: 0CEHJ 04EHJ KPYTAR. #line:b21cb3
-Selmers: 0HA VY4QAR. #line:564ee0
+Selmers: Sometimes #line:51281a
+Selmers: I think. #line:13eb7d
+Selmers: And start #line:74d9be
+Selmers: to sink. #line:70af09
+Mae: oh no. #line:d432b6
+Selmers: there's more. #line:84712b
+Mae: sorry. #line:2ef6c3
+Selmers: Then I remember #line:1c8474
+Selmers: it's Octember. #line:3ab2e4
+Mae: "Octember"? #line:6a5496
+Selmers: I combined my two favorite months. #line:1a1de1
+Mae: Fall is really nice. #line:b21cb3
+Selmers: It's the best. #line:564ee0
 <<set $selmers_poet += 1>>
 <<unlockDoodle SelmersPoet>>
 ===
@@ -290,54 +290,54 @@ tags:
 colorID: 3
 position: -2070,-1346
 ---
-Selmers: CK0P0 DHN 6YDYT CTAH0BNTJCR K0P04E. #line:8cb68f
-Selmers: FPYCTH0 GT0. #line:5e75d5
-Mae: MHE HPABNTCR! #line:a5b6d7
-Selmers: V%6V% 0CEHJ, H0 HE V%6V% TEMH0TY. #line:b6a0f6
-Mae: MHE HPABNTCR! #line:c4bb92
-Selmers: K0HE4H0 HPABNTCR. #line:c671a5
+Selmers: Days are gonna start getting shorter soon. #line:8cb68f
+Selmers: It makes me sad. #line:5e75d5
+Mae: I like it! #line:a5b6d7
+Selmers: I love the fall but hate the dark. #line:b6a0f6
+Mae: I like it! #line:c4bb92
+Selmers: you sure do. #line:c671a5
 ===
 title: Selmers_A2D2_02
 tags: 
 colorID: 3
 position: -1809,-1449
 ---
-Selmers: R BNDEVA EH0TA. #line:a92565
-Mae: FDE? #line:4a7739
-Selmers: TAM, B OEHTPE F0P0DA #line:02fd46
-Selmers: 0H 60VJQ0L #line:626b43
-Mae: KPYT0. #line:c8697b
+Selmers: I seen a raccoon. #line:a92565
+Mae: Where? #line:4a7739
+Selmers: up in towny centry. #line:02fd46
+Selmers: he's a big'un. #line:626b43
+Mae: cool. #line:c8697b
 ===
 title: Selmers_A2D3_00
 tags: 
 colorID: 3
 position: -2082,-504
 ---
-Mae: HANA6C0V%THELQNL UPNBET, CGVMEPCCCCC.. #line:4f76fd
-Selmers: 3HAEQJ, 4T0 X0P0Q0? #line:dafc2e
-Mae: UEPB0E, 4T0 UPNX0DNT B F0V0BY? #line:97fea4
-    ->K0FDA B CPEDHEL QK0VE HET KP0BN HA TB0EM CNDEHJE? #line:a4bfd1
-    ->K0FDA TJ1 HE UADAEQJ B MYC0PKY N HE 6V%EQJ HA CE6R? #line:4fffd5
-    ->K0FDA TJ1 T0VJK0 CVEFKA TPABMNP0BAV K0F0-T0 B0 BPEMR UEPB0F0 U0OEVYR? #line:9f4267
-Selmers: G-G... #line:3dd72f
-Selmers: R X0TEVA CKA3ATJ 0 TEX ZPYKT0BJ1X 3AKYCKAX, #line:13f434
-Selmers: K0T0PJ1E MJ1 EVN B HA4AVJH0L QK0VE. #line:888eca
-Mae: 0X, T04H0! DA, 0HN 04EHJ X0P0QN. #line:6ba74a
-Selmers: HE4T0 TAK0E CVY4AV0CJ C T060L? #line:eb790b
-Mae: HE-A. #line:6e8b0b
-Selmers: X04EQJ YCVJ1QATJ H0B0E CTNX0TB0PEHNE? #line:e657f5
+Mae: Totally what's up Selmersssss. #line:4f76fd
+Selmers: You know what's good? #line:dafc2e
+Mae: off the top of my head? #line:97fea4
+    ->not bleeding on your seat in junior high? #line:a4bfd1
+    ->not falling in a trashcan and puking on yourself? #line:4fffd5
+    ->not seriously injuring someone during your first kiss at senior prom? #line:9f4267
+Selmers: um... #line:3dd72f
+Selmers: i was gonna say those fruit snack thingies #line:13f434
+Selmers: we used to eat in grade school. #line:888eca
+Mae: oh right! yeah those are really good. #line:6ba74a
+Selmers: did that other thing happen to you? #line:eb790b
+Mae: nope. #line:6e8b0b
+Selmers: Want to hear a new poem? #line:e657f5
 <<if $knows_selmers_poet is 0>>
-	Mae: TJ1 U0GT? #line:d237dc
-	Selmers: AFA, C T0F0 BPEMEHN, KAK BJ1QVA C PEA6NVNTAONN. #line:913474
-	Mae: TJ1 6J1VA HA PEA6NVNTAONN? #line:70745d
-	Selmers: DA. #line:100605
+	Mae: You're a poet? #line:d237dc
+	Selmers: Yeah since I got out of rehab. #line:913474
+	Mae: You were in rehab? #line:70745d
+	Selmers: Yep. #line:100605
     <<set $knows_selmers_poet to 1>>
-	Mae: X0P0Q0, DABAL U0CVYQAEM. #line:e4f99d
+	Mae: Ok let's hear it. #line:e4f99d
     [[Selmers_A2D3_Poem]]
 <<endif>>
--> HE-A, M0SET 6J1TJ B DPYF0L PA3. #line:e57642
-	Selmers: KPYT0. #line:9544d2
--> A T0! #line:aec938
+-> Nah, maybe another time. #line:e57642
+	Selmers: Cool. #line:9544d2
+-> Sure! #line:aec938
 	[[Selmers_A2D3_Poem]]
 ===
 title: Selmers_A2D3_Poem
@@ -345,19 +345,19 @@ tags:
 colorID: 3
 position: -2353,-366
 ---
-Selmers: U0P0L R V%6V% #line:3333d8
-Selmers: UEPEKYCJ1 VALT0BJ1E, #line:425e80
-Selmers: FDE CTAVJHJ1E D0P0FN #line:db80f6
-Selmers: KNV0METP0BJ1E. #line:f209d7
-Mae: CKP0MH0. #line:e50019
-Selmers: UA4KA C0KA #line:ca6d85
-Selmers: MY3J1KA B YQAX #line:6dacdb
-Selmers: TEUEPJ YS BCR #line:966849
-Selmers: B C04HJ1X ME4TAX. #line:42222c
-Mae: 6VNH, CPA3Y BKYCHRQEK 3AX0TEV0CJ. #line:da8f19
-Mae: TJ1 B0CKPECNVA NX B M0EL UAMRTN. #line:4e2ad4
-Mae: R UPRM0 4YBCTBY% BKYC AT0MHJ1X UE4EHE3ABPNK0B N CNHERDEPH0F0 CMY3N. #line:b18039
-Selmers: CUACN60. #line:ac7042
+Selmers: Sometimes #line:3333d8
+Selmers: I like fruit snacks #line:425e80
+Selmers: Out by #line:db80f6
+Selmers: the train tracks #line:f209d7
+Mae: Decent. #line:e50019
+Selmers: A juice box #line:ca6d85
+Selmers: and headphones #line:6dacdb
+Selmers: I enter #line:966849
+Selmers: the juice zone. #line:42222c
+Mae: Geez those are like all I want now. #line:da8f19
+Mae: you made them sound so real. #line:4e2ad4
+Mae: i can taste the atomic dino snacks and the bluclear squeezer. #line:b18039
+Selmers: thanks. #line:ac7042
 <<set $selmers_poet += 1>>
 <<unlockDoodle SelmersPoet>>
 ===
@@ -366,18 +366,18 @@ tags:
 colorID: 3
 position: -1822,-398
 ---
-Selmers: R DYMA%, MNCTEP 4A30K0B CH0BA Y CE6R HA KPJ1QE. #line:21380b
-Mae: 0, UPABDA? #line:f93688
-Selmers: 0DHASDJ1 0H YUADET UPRM0 HA GTN CTYUEHN. #line:ec7287
+Selmers: I think Mr. Chazokov's up there again. #line:21380b
+Mae: Oh really? #line:f93688
+Selmers: He's gonna fall right on this stoop one day. #line:ec7287
 ===
 title: Selmers_A2D3_02
 tags: 
 colorID: 3
 position: -1536,-277
 ---
-Selmers: R BNSY B0D0HAU0PHY% 6AQH% 4EPE3 3ADHEE 0KH0. #line:8a36f2
-Selmers: UP0QV0L H04J% TAM 3AF0PEVCR CBET. #line:cc849f
-Selmers: NHTEPECH0, KT0 6J1V HA HEL? #line:9b707c
+Selmers: I can see the watertower from my back window. #line:8a36f2
+Selmers: seen a fire up by there the other night. #line:cc849f
+Selmers: wonder who was up there? #line:9b707c
 ===
 title: Selmers_Act2
 tags: 
@@ -433,22 +433,22 @@ tags:
 colorID: 3
 position: -2658,-307
 ---
-Mae: BAY! YKPAQEHNR! #line:2c7d66
-Selmers: U0DPYFA, TJ1 HE M0SEQJ 6E3DEVJHN4ATJ HA XGVV0YNH. #line:0629ac
-Mae: 60SE! #line:298de8
-Selmers: X04EQJ YCVJ1QATJ H0B0E CTNX0TB0PEHNE? #line:eaa795
+Mae: Whoa! Decorations! #line:2c7d66
+Selmers: Girl you can't mess around on Halloween. #line:0629ac
+Mae: Geez! #line:298de8
+Selmers: Want to hear a new poem? #line:eaa795
 <<if $knows_selmers_poet is 0>>
-	Mae: TJ1 U0GT? #line:a13d83
-	Selmers: AFA, C T0F0 BPEMEHN, KAK BJ1QVA C PEA6NVNTAONN. #line:efeac9
-	Mae: TJ1 6J1VA HA PEA6NVNTAONN? #line:bf5ee1
-	Selmers: DA. #line:e4691a
+	Mae: You're a poet? #line:a13d83
+	Selmers: Yeah since I got out of rehab. #line:efeac9
+	Mae: You were in rehab? #line:bf5ee1
+	Selmers: Yep. #line:e4691a
     <<set $knows_selmers_poet to 1>>
-	Mae: K0HE4H0. #line:33871e
+	Mae: Ok sure. #line:33871e
     [[Selmers_A2D4_Poem]]
 <<endif>>
--> HE-A, M0SET 6J1TJ B DPYF0L PA3. #line:55fd47
-	Selmers: KPYT0. #line:657d9c
--> A T0! #line:991f5f
+-> Nah, maybe another time. #line:55fd47
+	Selmers: Cool. #line:657d9c
+-> Sure! #line:991f5f
 	[[Selmers_A2D4_Poem]]
 ===
 title: Selmers_A2D4_Poem
@@ -456,17 +456,17 @@ tags:
 colorID: 3
 position: -2984,-544
 ---
-Selmers: MJ1QJ VETY4AR, VYHA #line:1d8703
-Selmers: MPAKA H04EHJKA U0VHA #line:b3a20b
-Selmers: TEMH0TA, XAPDK0P N SECTJ #line:3324a9
-Selmers: R CBAPFAHNVA U0ECTJ #line:1c4325
-Mae: KPYT0 #line:989dad
-Selmers: UNOOY R 6J1 PA30FPEVA #line:bc7dae
-Selmers: C0 B4EPA KYCKN D0EVA #line:b2b5f9
-Selmers: H0 X0V0DHAR 0HA #line:6affbc
-Selmers: T0SE H0PM. UPRM KAK VYHA. #line:d4d4e1
-Mae: GT0 TAKAR SN3A. #line:d02a54
-Selmers: 4T0 S, N UPABDA. #line:7d8beb
+Selmers: Bats and moon #line:1d8703
+Selmers: against the gloom #line:b3a20b
+Selmers: the night is black #line:3324a9
+Selmers: I made a snack #line:1c4325
+Mae: cool #line:989dad
+Selmers: i microwav'd #line:bc7dae
+Selmers: pizza i'd sav'd #line:b2b5f9
+Selmers: tho pizza cold #line:6affbc
+Selmers: is breakfast gold. #line:d4d4e1
+Mae: that's so true #line:d02a54
+Selmers: It really happened. #line:7d8beb
 <<set $selmers_poet += 1>>
 <<unlockDoodle SelmersPoet>>
 ===
@@ -475,11 +475,11 @@ tags:
 colorID: 3
 position: -2924,12
 ---
-Selmers: 60VJQ0L XGVV0YNH0BCKNL ZAHAT 3DECJ. #line:466c9e
-Mae: AFA, R, ECTECTBEHH0, T0SE ZAHATE%. #line:911830
-Mae: TJ1 NDEQJ HA XAPZECT? #line:9d4e36
-Selmers: HE-A, 0CTA%CJ TYT DVR K0QEVJK0B NVN SN3HN! #line:bd0ad2
-Mae: TJ1 CBRTAR. #line:39e7b2
+Selmers: Big Halloween fan here. #line:466c9e
+Mae: Yeah me too obviously. #line:911830
+Mae: You going to Harfest? #line:9d4e36
+Selmers: Nah, staying here for the trick or treaters! #line:bd0ad2
+Mae: You are a saint. #line:39e7b2
 ===
 title: Selmers_Act3
 tags: 
@@ -541,59 +541,59 @@ tags:
 colorID: 4
 position: -310,-2730
 ---
-Mae: TJ1 HE 3AME4AVA HN4EF0 #line:b0ffd0
-Mae: CTPAHH0F0, B U0CVEDHEE BPEMR? #line:97fdec
-Selmers: CTPAHH0F0, TNUA... #line:8401d6
-    ->UPN3PAKA #line:85cf13
-        Selmers: UPN... 3PAKA? #line:4a05c5
-        Mae: ...AFA. #line:824bd2
-        Selmers: HE U0MH% HN4EF0 TAK0F0...? #line:8f1b26
-        Mae: KASETCR, R C YMA CX0SY #line:09a5ef
-        Mae: R DYMA%, M0SET, R BNSY CBEPXJECTECTBEHHJ1E QYTKN? #line:57b6eb
-        Selmers: M0R MAMA BNDNT UPN3PAK0B. #line:3a4373
-        Selmers: KVRHETCR, 4T0 BNDEVA 0DH0F0 B U0DBAVE. #line:021f0e
-        Selmers: H0 0HA 0QN6AETCR. #line:25a137
-        Mae: 0TKYDA TJ1 3HAEQJ? #line:e6046b
-        Selmers: R SE SNBY B U0DBAVE. #line:3a25bc
-        Mae: TJ1 UPN3PAK? #line:406b01
-        Selmers: XE-XE. U0KA HET. #line:a902cc
-    ->UP0UABQNX DETEL #line:1874fd
-        Selmers: HET, HE DYMA%. #line:75117d
-        Selmers: U0 KPALHEL MEPE, HE HA DHRX. #line:30a3d0
-        Selmers: T0T MAVJ4NQKA, KELCN, NC4E3 T0L BECH0L. #line:fdde2e
-        Selmers: H0, T0FDA, 0H YSE HE 6J1V PE6EHK0M. #line:794b99
-        Selmers: M0SET, EWE KT0 UP0UADAV, H0 N3 DPYF0F0 F0P0DA? #line:04f4e6
-        Selmers: 4T0-T0 R DA BCU0MH%. #line:6098da
-        Mae: 3HAEQJ, R CUP0CNVA, H0 HE HADERVACJ, 4T0 TJ1 3HAEQJ. #line:2ff4d9
-        Selmers: R 4NTA% FA3ETY! #line:d780f8
+Mae: you noticed anything like #line:b0ffd0
+Mae: weird around here lately? #line:97fdec
+Selmers: weird as in... #line:8401d6
+    ->ghost man #line:85cf13
+        Selmers: a ghost... man? #line:4a05c5
+        Mae: ...yeah. #line:824bd2
+        Selmers: not that i recall...? #line:8f1b26
+        Mae: i think i'm going crazy #line:09a5ef
+        Mae: i think maybe i'm seeing things? #line:57b6eb
+        Selmers: my mom sees ghosts. #line:3a4373
+        Selmers: swears there's one in the basement. #line:021f0e
+        Selmers: but she's wrong. #line:25a137
+        Mae: how do you know? #line:e6046b
+        Selmers: i live in the basement. #line:3a25bc
+        Mae: are you a ghost? #line:406b01
+        Selmers: heh heh. not yet. #line:a902cc
+    ->missing kids #line:1874fd
+        Selmers: i don't think so? #line:75117d
+        Selmers: not recently at least. #line:30a3d0
+        Selmers: that Casey kid last spring. #line:fdde2e
+        Selmers: but he weren't a kid no more. #line:794b99
+        Selmers: maybe someone else but from another town? #line:04f4e6
+        Selmers: i'm sure i'll remember. #line:6098da
+        Mae: you know i asked that but didn't expect you to know #line:2ff4d9
+        Selmers: i read the paper! #line:d780f8
 ===
 title: Selmers_A3D4_02
 tags: 
 colorID: 4
 position: -203,-3099
 ---
-Selmers: UP0FH03J1 UPEDCKA3J1BA%T CHEF. #line:6184e2
-Mae: K0FDA? #line:c69b9a
-Selmers: CK0P0. CK0P0 U0X0V0DAET. #line:5c5311
+Selmers: Forecast is thinking snow soon. #line:6184e2
+Mae: when? #line:c69b9a
+Selmers: soon. gonna get cold soon. #line:5c5311
 ===
 title: Selmers_A3D4_00
 tags: 
 colorID: 4
 position: -746,-2669
 ---
-Mae: XGGGGGGL, CEVMEPC. #line:889dc0
-Selmers: 60SE, MGL, TJ1 3A60VEVA? #line:e32149
-Mae: HEEEEEEE-A. #line:598f64
-Mae: UP0CT0 YCTAVA. F0V0BA 60VNT. #line:03ef4c
-Selmers: M0SET, TE6E HE CT0NT 6EFATJ U0 YVNOE? #line:32dff7
-Mae: UEPESNBY. #line:85772f
-Selmers: DA YS. #line:336949
-Selmers: HE UEPETPYSDALCR, C0CEDYQKA. #line:9b8931
-Mae: VADH0. #line:d1fb71
-Selmers: X04EQJ YCVJ1QATJ H0B0E CTNX0TB0PEHNE? #line:13504c
--> HE-A, M0SET 6J1TJ B DPYF0L PA3. #line:4d089e
-	Selmers: KPYT0. #line:315638
--> A T0! #line:d3813e
+Mae: Heyyyyyy selmers. #line:889dc0
+Selmers: Geez Mae are you sick? #line:e32149
+Mae: naaaaaaah. #line:598f64
+Mae: just tired. got a headache. #line:03ef4c
+Selmers: why are you out running around? #line:32dff7
+Mae: i'll get over it. #line:85772f
+Selmers: yeesh. #line:336949
+Selmers: take it easy, neighbor. #line:9b8931
+Mae: can do. #line:d1fb71
+Selmers: Want to hear a new poem? #line:13504c
+-> Nah, maybe another time. #line:4d089e
+	Selmers: Cool. #line:315638
+-> Sure! #line:d3813e
 	[[Selmers_A3D4_Poem]]
 ===
 title: Selmers_A3D4_Poem
@@ -601,19 +601,19 @@ tags:
 colorID: 4
 position: -914,-2944
 ---
-Selmers: 3BE3DA C HE6EC #line:a40982
-Selmers: 4T0 TB0L MEPCEDEC #line:129d35
-Selmers: U0 BCTPE4H0L VETNT #line:40e6c2
-Selmers: MNFAVK0L 6VECTNT. #line:823a3a
-Mae: GT0 UPABDA. 0HN TAKNE. #line:b096eb
-Selmers: Y MEHR ECTJ EWE, UP0 DVNHHELQY% H04J. #line:455e85
-Mae: 0? #line:eed075
-Selmers: DVNHHELQAR H04J #line:960497
-Selmers: DVNHHELQAR H04J #line:3d20ea
-Selmers: H04J TAK TEMHA #line:9d69d2
-Selmers: H0 3BE3DJ1 CU0C06HJ1 U0M04J #line:1c06b3
-Mae: KVEB0. #line:6caa66
-Selmers: CUACN60. 4YBCTBY% CE6R UPA3DHN4H0. #line:bf2ca4
+Selmers: The stars the stars #line:a40982
+Selmers: like lights on cars #line:129d35
+Selmers: drive 'cross the dark #line:40e6c2
+Selmers: and never park. #line:823a3a
+Mae: it's true. they are like that. #line:b096eb
+Selmers: i got one ready for Longest Night. #line:455e85
+Mae: oh? #line:eed075
+Selmers: Longest Night #line:960497
+Selmers: Longest Night #line:3d20ea
+Selmers: night so dark #line:9d69d2
+Selmers: but stars so bright #line:1c06b3
+Mae: nice. #line:6caa66
+Selmers: thanks. i'm feeling festive. #line:bf2ca4
 <<unlockDoodle SelmersPoet>>
 ===
 title: Selmers_A3D3_01
@@ -621,37 +621,37 @@ tags:
 colorID: 4
 position: -1728,-2666
 ---
-Selmers: 4A30K0B CH0BA HA KPJ1QE. #line:c09c18
-Mae: 0H K0FDA-VN60, TNUA, P0HRV CB0L TEVECK0U? #line:ac0ae9
-Selmers: 0 HET, 0H 6J1 BJ1UVAKAV CB0N FVA3A. #line:376511
-Selmers: 0H V%6NT GTY QTYKY 60VJQE CB0EF0 PE6EHKA. #line:540cfd
-Mae: Y HEF0 ECTJ PE6EH0K? #line:ae4e1b
-Selmers: AFA. 30BYT K0VNH.. #line:b6f01b
-Selmers: UPNE3SAET BPEMR 0T BPEMEHN #line:836a2a
-Selmers: 0H 4EPT0BCKN F0PR4 #line:25f8c0
-Mae: TJ1 PA3F0BAPNBAVA C HNM? #line:067d65
-Selmers: HE. 0H PA60TAET B KAK0M-T0 NCCVED0BATEVJCK0M YHNBEPCNTETE. #line:2684a6
-Selmers: EF0 BPRDVN 3ANHTEPECYET... GT0. #line:fe2786
-Mae: CEVMEPC... #line:365426
-Selmers: GX. #line:cf3f17
+Selmers: Chazokov's up there again. #line:c09c18
+Mae: He ever like drop that telescope? #line:ac0ae9
+Selmers: Oh no he'd cry his eyes out. #line:376511
+Selmers: He loves that thing more than his kid. #line:540cfd
+Mae: he has a kid? #line:ae4e1b
+Selmers: yeah. name's Colin. #line:b6f01b
+Selmers: visits every once in a while. #line:836a2a
+Selmers: he is hot as hell #line:25f8c0
+Mae: you talk to him? #line:067d65
+Selmers: nah. he works at some university research place. #line:2684a6
+Selmers: he's not interested in... this. #line:fe2786
+Mae: Selmers... #line:365426
+Selmers: eh. #line:cf3f17
 ===
 title: Selmers_A3D3_00
 tags: 
 colorID: 4
 position: -1398,-2541
 ---
-Selmers: GL, MGL. #line:a02a07
-Selmers: TJ1 B U0PRDKE? #line:b29b22
-Mae: DA. 4T0-T0 HE TAK? #line:9e9c8b
-Selmers: HY TJ1 KAK 6YDT0 #line:6e6f8f
-Selmers: U06J1BAVA B CYQNVKE #line:95b280
-Selmers: C HEBEPHJ1MN HACTP0LKAMN #line:2808df
-Mae: XA-XA! DA. #line:5d2292
-Mae: HEDEVJKA EWE TA 6J1VA. #line:cc87f5
-Selmers: X04EQJ CTNX0TB0PEHNE? M0SET 0H0 TE6R B360DPNT? #line:d54217
--> HE-A, M0SET 6J1TJ B DPYF0L PA3. #line:f257b1
-	Selmers: KPYT0. #line:adba9e
--> A T0! #line:1fb218
+Selmers: Hey Mae. #line:a02a07
+Selmers: you alright? #line:b29b22
+Mae: yeah I guess. why? #line:9e9c8b
+Selmers: you look like #line:6e6f8f
+Selmers: you went through the dryer #line:95b280
+Selmers: on the wrong setting #line:2808df
+Mae: ha ha yeah #line:5d2292
+Mae: long week is all. #line:cc87f5
+Selmers: you wanna hear a poem? cheer you up? #line:d54217
+-> Nah, maybe another time. #line:f257b1
+	Selmers: Cool. #line:adba9e
+-> Sure! #line:1fb218
     [[Selmers_A3D3_Poem]]
 ===
 title: Selmers_A3D3_Poem
@@ -659,20 +659,20 @@ tags:
 colorID: 4
 position: -1362,-2789
 ---
-Selmers: SN3HJ HE CT0NT HA MECTE #line:26ea0c
-Selmers: CKY4H0 N MH0F0 SECTN #line:1c265d
-Selmers: 4T0 S, 06PADY% CVEFKA: #line:d7cb24
-Selmers: SN3HJ 4EPT0BCKN K0P0TKA. #line:c64e79
-Mae: XA-XA. #line:4b7cd6
-Selmers: B0T EWE 0DNH U03NTNBHJ1L: #line:45b777
-Selmers: SN3HJ X0P0QA #line:3d88b1
-Selmers: SN3HJ CV0SHA #line:9744e6
-Selmers: VY4QE U0LDEM-KA #line:73b352
-Selmers: CJEDNM QAQVJ1KA. #line:c4db16
-Mae: CUACN60, CGVMEPC. #line:875e60
-Selmers: 0HN U0D60DPNVN TE6R? #line:642420
-Mae: DA. #line:7dee73
-Selmers: LEL! #line:650230
+Selmers: Life goes on #line:26ea0c
+Selmers: It feels so long #line:1c265d
+Selmers: But I report #line:d7cb24
+Selmers: Life is too short. #line:c64e79
+Mae: ha ha. #line:4b7cd6
+Selmers: here's another happy one: #line:45b777
+Selmers: Life is great #line:3d88b1
+Selmers: But Life is hard #line:9744e6
+Selmers: let's grill hot dogs #line:73b352
+Selmers: in the backyard. #line:c4db16
+Mae: thank you, selmers. #line:875e60
+Selmers: they cheer you up? #line:642420
+Mae: they did. #line:7dee73
+Selmers: yay! #line:650230
 <<unlockDoodle SelmersPoet>>
 ===
 title: Selmers_A3D3_02
@@ -680,17 +680,17 @@ tags:
 colorID: 4
 position: -2000,-2839
 ---
-Selmers: 0HN UP0B0DRT KAPA0KE B "Y MNVVEPA", UPABDA T0VJK0 DBA PA3A B HEDEV%. #line:961883
-Selmers: D0VSH0 6J1TJ KASDY% H04J #line:501713
+Selmers: They do karaoke at Miller's but only like twice a week. #line:961883
+Selmers: should be every night. #line:501713
 ===
 title: Selmers_A3D2_01
 tags: 
 colorID: 4
 position: -1709,-2206
 ---
-Selmers: 4T0 TJ1 DEVAVA B 6N6VN0TEKE? #line:0b5d77
-Mae: R X0SY TYDA! #line:9d8c1d
-Selmers: HET, CEPJE3H0. #line:ec188e
+Selmers: What were you doing at the library? #line:0b5d77
+Mae: I go to the library! #line:9d8c1d
+Selmers: No but seriously. #line:ec188e
 
 ===
 title: Selmers_A3D2_02
@@ -707,17 +707,17 @@ colorID: 4
 position: -1416,-2296
 ---
 <<if $saw_selmers_deliver_poem_at_poets_society>>
-    Mae: GL, CEVMEPC! TJ1 6J1VA BEVNK0VEUHA UP0QV0L H04J%. #line:e157d4
-    Selmers: 0, CUACN60!! #line:a5347d
+    Mae: Hey Selmers! You were great last night! #line:e157d4
+    Selmers: Aw thanks!!! #line:a5347d
     <<if $selmers_poet >= 3>>
-    	Selmers: HAQN C T060L 06CYSDEHNR U0M0FVN MHE. #line:3c3553
-    	Mae: R X0P0QA B 06CYSDEHNRX. #line:f7680c
+    	Selmers: Having you to bounce ideas off helped. #line:3c3553
+    	Mae: I am good for that. #line:f7680c
     <<endif>>
 <<endif>>
-Selmers: X04EQJ YCVJ1QATJ H0B0E CTNX0TB0PEHNE? #line:ceb15a
--> HE-A, M0SET 6J1TJ B DPYF0L PA3. #line:07b752
-    Selmers: KPYT0 #line:0f87d3
--> A T0! #line:f3fdd4
+Selmers: Want to hear a new poem? #line:ceb15a
+-> Nah, maybe another time. #line:07b752
+    Selmers: Cool #line:0f87d3
+-> Sure! #line:f3fdd4
     [[Selmers_A3D2_Poem]]
 ===
 title: Selmers_A3D2_Poem
@@ -725,14 +725,14 @@ tags:
 colorID: 4
 position: -1363,-2009
 ---
-Selmers: 0H0 K0P0TK0E. #line:f2a4ae
-Selmers: U0T0MY 4T0 R YCTAVA. #line:eb5a01
-Mae: R T0SE. TAK 4T0 BCE H0PMAVJH0. #line:b9b337
-Selmers: *KXE-KXE* #line:17b2f9
-Selmers: 6J1VA R 3VA 0DNH M0MEHT #line:a6525f
-Selmers: 6VAF0 6J1V GT0 NHTEPHET. #line:87640f
-Mae: 0DHASDJ1 R T0SE 3VNVACJ B CETN. #line:9ac9bd
-Selmers: GT0 CB0DNT C YMA. #line:ab9f05
+Selmers: This is a short one.  #line:f2a4ae
+Selmers: because I'm tired. #line:eb5a01
+Mae: me too. so that works out. #line:b9b337
+Selmers: *ahem* #line:17b2f9
+Selmers: I got mad one time #line:a6525f
+Selmers: it was online. #line:87640f
+Mae: I've been mad on the internet before too. #line:9ac9bd
+Selmers: It's crazy-making. #line:ab9f05
 <<unlockDoodle SelmersPoet>>
 ===
 title: Selmers_A3D1_00
@@ -740,20 +740,20 @@ tags:
 colorID: 4
 position: -1037,-2037
 ---
-Mae: KAK 0H0, CEVMEPC? #line:5faa47
-Selmers: KAK UP0QEV TB0L XGVV0YNH? #line:bb008f
-Mae: CTPAHH0. X0DNVA HA XAPZECT. #line:e0cd2e
-Mae: BNDEVA CTPEMH0E DEPJM0, U0KA3ABQEECR MHE... PEAVJHJ1M? #line:c09ed5
-Mae: 3ATEM MHE UPNCHNVCR DELCTBNTEVJH0 CTPAQHJ1L K0QMAP. #line:9f0f3f
-Selmers: KVEB0, A R 0CTAVACJ D0MA N CM0TPEVA TEVEBN30P, U0EDAR K0HZETJ1. #line:5b8bc4
-Selmers: QVN XGVV0YNH0BCKNE GUN30DJ1. #line:db4ef1
-Mae: HY, R *UP0SNVA* XGVV0YNH0BCKNL GUN30D, AFA. #line:2b3cc1
-Selmers: BAY. #line:3a786a
-Mae: DA. #line:f0811b
-Selmers: X04EQJ YCVJ1QATJ H0B0E CTNX0TB0PEHNE? #line:30b04f
--> HE-A, M0SET 6J1TJ B DPYF0L PA3. #line:91f05b
-	Selmers: KPYT0. #line:c12a7e
--> A T0! #line:0d0b7e
+Mae: How's it going, Selmers? #line:5faa47
+Selmers: How was your Halloween? #line:bb008f
+Mae: weird. went to harfest. #line:e0cd2e
+Mae: saw some messed up shit that I think was real? #line:c09ed5
+Mae: then had a really bad nightmare. #line:9f0f3f
+Selmers: cool I stayed in and ate candy and watched tv. #line:5b8bc4
+Selmers: halloween episodes were on. #line:db4ef1
+Mae: well, i was out *living* a halloween episode ok #line:2b3cc1
+Selmers: whoa. #line:3a786a
+Mae: yep. #line:f0811b
+Selmers: Want to hear a new poem? #line:30b04f
+-> Nah, maybe another time. #line:91f05b
+	Selmers: Cool. #line:c12a7e
+-> Sure! #line:0d0b7e
     [[Selmers_A3D1_Poem]]
 ===
 title: Selmers_A3D1_Poem
@@ -761,22 +761,22 @@ tags:
 colorID: 4
 position: -767,-2012
 ---
-Selmers: 0CEHHNE U0T0KN #line:37b5fa
-Selmers: 0CEHHNE U0P0KN #line:063f22
-Mae: 0K #line:dcf2dc
-Selmers: 0CEHHNE BVASH0CTN. #line:61d489
-Selmers: 0CEHHNE QAV0CTN. #line:459237
--> 4T0 C4NTAETCR 3A "0CEHHNE U0P0KN"? #line:76f1df
-    Selmers: N3MEHRTJ CB0EL SEHE #line:cee66c
-    Selmers: C 3AUPAB04H0L CTPAQNV0L. #line:7ccb7b
+Selmers: Autumn winds #line:37b5fa
+Selmers: Autumn sins. #line:063f22
+Mae: ok #line:dcf2dc
+Selmers: Autumn times. #line:61d489
+Selmers: Autumn crimes. #line:459237
+-> what counts as an "autumn sin"? #line:76f1df
+    Selmers: cheatin' on your wife #line:cee66c
+    Selmers: with some gas station skank. #line:7ccb7b
     <<wait 1>>
-    Selmers: B H0R6PE. #line:3e0025
-    Mae: 0X. BEPH0. DA, GT0, GM... #line:498adc
-    Mae: 0UP0MET4NB0. #line:87bd12
--> 4T0 C4NTAETCR 3A "0CEHHNE QAV0CTN"? #line:9b95d1
-    Selmers: FPA6NTJ 3AUPABKY, A U0CVE B3PJ1BATJ EE #line:810ea4
-    Selmers: B H0R6PE #line:d98114
-    Mae: VADH0, DA, B GT0M ECTJ CMJ1CV. #line:cdab28
+    Selmers: in november. #line:3e0025
+    Mae: oh. right. yeah that's uh #line:498adc
+    Mae: inconsiderate. #line:87bd12
+-> what's considered an "autumn crime"? #line:9b95d1
+    Selmers: robbing a gas station then blowing it up #line:810ea4
+    Selmers: in november #line:d98114
+    Mae: ok yeah that makes sense. #line:cdab28
 <<set $selmers_poet += 1>>
 <<unlockDoodle SelmersPoet>>
 ===
@@ -786,13 +786,13 @@ colorID: 4
 position: -1042,-1756
 ---
 <<lookAt Selmers Chazokov>>
-Selmers: 3DPABCTBYLTE, MNCTEP 4A30K0B! #line:4c7126
-Chazokov: DA, CGVJMA? #line:d79c14
-Selmers: K0FDA-HN6YDJ BJ1 CV0MAETE CE6E QE%! #line:dd9e21
-Chazokov: R U0CTAPA%CJ YUACTJ HA TE6R! #line:fb4ec5
-Selmers: XA XA XA, R D0B0VJH0 60VJQAR MNQEHJ #line:a4780e
-Chazokov: XA-XA-XA, R KPYUHEE TE6R! MJ1 06A 3AWNWEHJ1! #line:abb330
-Mae: HY XBATNT BAM. #line:e28b8d
+Selmers: Hey Mr. Chazokov! #line:4c7126
+Chazokov: Yes Selma? #line:d79c14
+Selmers: You're gonna break your neck someday! #line:dd9e21
+Chazokov: I will make sure to fall right on you! #line:fb4ec5
+Selmers: Ha ha ha well I'm a big enough target! #line:a4780e
+Chazokov: Ha ha ha I'm bigger than you! We should be covered! #line:abb330
+Mae: YOU TWO. #line:e28b8d
 <<lookNearest Selmers>>
 ===
 title: Selmers_A3D1_02
@@ -800,9 +800,9 @@ tags:
 colorID: 4
 position: -1053,-1495
 ---
-Selmers: VNCTJR, VNCTJR, VNCTJR. #line:0b4b60
-Mae: GT0 CTNX0TB0PEHNE? #line:822066
-Selmers: HE-A. #line:acd6d4
+Selmers: Leaves leaves leaves #line:0b4b60
+Mae: is that a poem? #line:822066
+Selmers: nope. #line:acd6d4
 ===
 title: RunPast
 tags: 
@@ -816,13 +816,13 @@ tags:
 colorID: 2
 position: 283,150
 ---
-Mae: TAK 4EM TJ1 3AHNMAEQJCR? #line:85cc10
-Selmers: GM. CNSY 3DECJ, U0KA HE BEPHETCR M0R K0MHATA. #line:c9e58b
-Selmers: P0DNTEVN CDAVN B APEHDY U0V0BNHY KBAPTNPJ1 MNCTEPY 4A30BCKN. #line:10f891
-Selmers: R U0DPA6ATJ1BAVA HRHJK0L, UP0X0DNVA C06ECED0BAHNE B XGM UAHTEP. #line:bcefa1
-Selmers: SDY NX 0TBETA. #line:de303e
-Mae: 0000! M0L 0TEO PA60TAET B XGM UAHTEP. #line:d70702
-Selmers: Y HNX ECTJ BCE! #line:620d78
+Mae: So what are you up to these days? #line:85cc10
+Selmers: um. crashing here until i get back in my own place. #line:c9e58b
+Selmers: parents rented out half the place to Mr. Chazokov. #line:10f891
+Selmers: I been babysitting, interviewed at Ham Panther. #line:bcefa1
+Selmers: waiting to hear back. #line:de303e
+Mae: ooooh! my dad works at Ham Panther now. #line:d70702
+Selmers: They got everything! #line:620d78
 ===
 title: Selmers_Act1
 tags: 
@@ -899,36 +899,36 @@ tags:
 colorID: 3
 position: -2654,1
 ---
-Selmers: XAPZECT - GT0 FVYU0. #line:027c55
-Mae: CEPJE3H0? MHE HPABNTCR. #line:317a30
-Selmers: B CMJ1CVE, TE6E 8, 4T0 VN? #line:b3a407
-Mae: HET. MHE 20. #line:b37415
-Selmers: GX. #line:3ac01c
+Selmers: Harfest is dumb. #line:027c55
+Mae: Really?! I love it. #line:317a30
+Selmers: I mean are you 8 years old? #line:b3a407
+Mae: No. I'm not. #line:b37415
+Selmers: eh. #line:3ac01c
 ===
 title: Selmers_A4D3_00
 tags: 
 colorID: 6
 position: 522,-1605
 ---
-Selmers: GL, MGL! #line:447dd5
-Mae: UPNBET, CEVMEPC. #line:41d1d7
-Selmers: TJ1 B U0PRDKE? #line:100934
-Selmers: U0CVE T0L TPABMJ1 F0V0BJ1? #line:90c3da
-Mae: DA R B U0PRDKE. #line:3e3513
-Mae: UP0CT0 F0V0BHJ1E 60VN. #line:a2cd09
-Selmers: Y MEHR ECTJ TA6VETKN 0T MNFPEHN, ECVN 0HN TE6E HYSHJ1 #line:7713f8
-Mae: HE, GT0 HE MNFPEHJ. #line:17522d
-Mae: U0CVE GTNX TA6VET0K R X04Y B TYAVET. #line:da7d1f
-Selmers: 0HN C K0ZENH0M. #line:01cddc
-Selmers: ECVN TJ1 K0FDA-VN60 UNVA M04EF0HHJ1E TA6VETKN #line:5d9199
-Selmers: T0 0HN C K0ZENH0M. #line:ee0744
-Mae: R HE 3HAVA GT0F0. #line:18e507
-Selmers: PA60TAVA B AUTEKE PAHJQE. #line:53122e
-Mae: 0Y, T04H0. #line:96a196
-Mae: HY, ECVN Y MEHR K0FDA-VN60 6YDET F0V0BHAR 60VJ #line:689370
-Mae: NVN MHE HYSH0 6YDET B TYAVET #line:15774d
-Mae: R UPNDY. #line:552a6c
-Selmers: B V%60E BPEMR, C0CEDKA. #line:faf3c2
+Selmers: hey mae! #line:447dd5
+Mae: sup selmers. #line:41d1d7
+Selmers: you ok? #line:100934
+Selmers: after the whole like head injury thing? #line:90c3da
+Mae: yeah I'm alright. #line:3e3513
+Mae: headache is all #line:a2cd09
+Selmers: I got some migraine meds if you need it. #line:7713f8
+Mae: naw, it's not a migraine. #line:17522d
+Mae: and those things make me have to pee. #line:da7d1f
+Selmers: it's the caffeine. #line:01cddc
+Selmers: if you ever take pills that make you pee #line:5d9199
+Selmers: it's the caffeine. #line:ee0744
+Mae: i didn't know that. #line:18e507
+Selmers: used to work at the pharmacy. #line:53122e
+Mae: oh right. #line:96a196
+Mae: well if i ever have a headache #line:689370
+Mae: or need to pee #line:15774d
+Mae: i'll come by. #line:552a6c
+Selmers: anytime, neighbor. #line:faf3c2
 ===
 title: Selmers_Act4
 tags: 
@@ -948,5 +948,5 @@ tags:
 colorID: 4
 position: -1603,-1978
 ---
-Selmers: KPYT0. #line:5ad276
+Selmers: Cool. #line:5ad276
 ===

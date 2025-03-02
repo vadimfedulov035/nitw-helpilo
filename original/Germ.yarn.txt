@@ -64,19 +64,19 @@ tags: demo2
 colorID: 3
 position: -17909,-1171
 ---
-Mae: UPNBET... DSEPEMN? #line:37c669
+Mae: Hey... Jeremy? #line:37c669
 <<set $met_germ to 1>>
-Mae: DSEPEMN Y0PT0H? #line:5543e0
-Germ: HNKT0 MEHR TAK HE HA3J1BAET. #line:d6adf9
-Mae: DSEPM, UPABNVJH0? #line:b08616
-Germ: DSEPM CTPAHHNK. #line:cba336
-Mae: 0X, A KVN4KA UPNBR3AVACJ, DA? #line:652231
-Germ: DA. #line:685ff8
-Mae: GT0 X0P0QEE NMR. #line:b9b012
-Germ: TE6R 30BYT MGL. #line:b808e4
-Mae: DA. #line:989856
-Germ: GT0 X0P0QEE NMR. #line:1b2e75
-Mae: 0K. #line:88a1b0
+Mae: Jeremy Warton? #line:5543e0
+Germ: No one calls me that. #line:d6adf9
+Mae: Germ, right? #line:b08616
+Germ: Germ Warfare. #line:cba336
+Mae: Oh, that stuck, huh? #line:652231
+Germ: Yep. #line:685ff8
+Mae: That's an ok name. #line:b9b012
+Germ: Your name is Mae. #line:b808e4
+Mae: Yep. #line:989856
+Germ: That's an ok name. #line:1b2e75
+Mae: OK. #line:88a1b0
 <<unlockDoodle Germ1>>
 ===
 title: Germ_A2D1_01
@@ -84,27 +84,27 @@ tags: demo2
 colorID: 3
 position: -17648,-1138
 ---
-Mae: TJ1 MVADQE MEHR HA F0D, BEPH0? #line:12ed8f
-Germ: HA 2 F0DA. #line:561a17
-Mae: TAK TJ1 HEDABH0 BJ1UYCTNVCR, DA? #line:9a5831
-Germ: NH0FDA R 3ABNCA% C FPEFF0M. #line:807f36
-Germ: MJ1 KATAEMCR HA BEVNKAX. #line:5b9b99
-Germ: R X0P0Q B GT0M. #line:64bf4c
-Mae: H0PMAVJH0. #line:f85a65
+Mae: You were like a year behind me right? #line:12ed8f
+Germ: 2 years. #line:561a17
+Mae: So you're fresh out, huh? #line:9a5831
+Germ: I hang out with Gregg sometimes. #line:807f36
+Germ: We ride bikes. #line:5b9b99
+Germ: I'm pretty good at it. #line:64bf4c
+Mae: Ok. #line:f85a65
 Germ: !!! #line:6bf45c
-Mae: 4T0? #line:e75a44
-Germ: KAK-T0 PA3 R BNDEV 6EQEH0F0 0U0CCYMA. #line:7572a2
-Mae: UPABDA? FDE? #line:9c720f
-Germ: 0H U0V3 4EPE3 D0P0FY. #line:822b66
-Mae: EF0 C6NVA MAQNHA? #line:0193c4
-Germ: HE, UP0CT0 6EQEHJ1L. #line:f688e6
-Mae: A 4T0 CVY4NV0CJ U0T0M? #line:8ec90a
-Germ: EF0 C6NVA MAQNHA. #line:b1980e
-Mae: 0F0. #line:5cb1e1
-Germ: U04TN KAK... #line:5e3c2a
-Germ: %M0PECKA. #line:ee3ac3
+Mae: What? #line:e75a44
+Germ: I saw a rabid possum the other day. #line:7572a2
+Mae: Really? Where? #line:9c720f
+Germ: It was crawling across the road. #line:822b66
+Mae: Had it been hit by a car? #line:0193c4
+Germ: Naw, just rabid. #line:f688e6
+Mae: What happened to it? #line:8ec90a
+Germ: Got hit by a car. #line:b1980e
+Mae: Wow. #line:5cb1e1
+Germ: It was like... #line:5e3c2a
+Germ: a poem. #line:ee3ac3
 <<set $like_a_poem to 1>>
-Mae: 0K. #line:7a7316
+Mae: OK. #line:7a7316
 ===
 title: Germ_A2D1
 tags: 
@@ -125,40 +125,40 @@ tags:
 colorID: 3
 position: -17080,-1250
 ---
-Mae: UPNBET, DSEPM. #line:144835
-Mae: 4EM MAEQJCR? #line:fa00d2
-Germ: HN4EM. #line:4d0d75
-Germ: TYCNV C UAP04K0L KPACTEP0B D0 GT0F0. #line:cb78b4
-Mae: 4T0? #line:cc42a3
-Germ: KPACT-UAHKN. UYTEQECTBY%WNE MAPFNHAVJ1. #line:e41968
-Mae: 0, X0P0Q0. TNUA CUPJ1FNBA%WNX C U0E3D0B. #line:0f8bc6
-Germ: 0HN 3HA%T, 4T0 Y HAC MAV0 K0U0B. #line:8dbf91
-Mae: R CKY4A% U0 *BCEM* KVEBJ1M BEWAM. #line:dedf46
-Germ: Y 0DH0F0 N3 HNX 6J1VA C06AKA. #line:6ae2a7
-Germ: 4ACT0 Y 60VJQNHCTBA N3 HNX ECTJ C06AKN. #line:41f02a
-Germ: R 0DNH PA3 BNDEV 0DH0F0 6E3 H0FN. #line:f37c04
-Mae: 4T0 CVY4NV0CJ? #line:99cb3d
-Germ: U0E3DA. UPJ1SKN TYDA-C%DA, BCRK0E TAK0E. U0D MAQNHY, M0SET, U0UAV. #line:c7a314
-Mae: BUE4ATVRET. #line:853ac5
-Germ: KNCTN, K0VEHN, H0FN, CTYUHN, OEVJ1E PYKN. #line:495df7
-Mae: 0DNH PA3 MJ1 BNDEVN OEVY% PYKY! #line:bdd3b8
-Mae: DYMAEQJ, 0HA UPNHADVESAVA KPACTEPY? #line:ee0996
+Mae: Hey Germ. #line:144835
+Mae: Whatcha doin? #line:fa00d2
+Germ: Nothin. #line:4d0d75
+Germ: Was hanging with a couple crusties before. #line:cb78b4
+Mae: What? #line:cc42a3
+Germ: Crust punks. Traveler kids. #line:e41968
+Mae: Oh ok. Like from off the trains. #line:0f8bc6
+Germ: They know we don't got much cops. #line:8dbf91
+Mae: I miss *all* the cool stuff. #line:dedf46
+Germ: One of them had a dog. #line:6ae2a7
+Germ: They mostly have dogs sometimes. #line:41f02a
+Germ: One time I seen a crusty missing a foot. #line:f37c04
+Mae: What happened? #line:99cb3d
+Germ: Trains. Jumping on and off and falling between cars and stuff. #line:c7a314
+Mae: That's intense. #line:853ac5
+Germ: Hands, knees, legs, feet, whole arms. #line:495df7
+Mae: We saw an arm the other day! #line:bdd3b8
+Mae: Do you think it was from a crusty? #line:ee0996
 <<set $crusty_clue to 1>>
-Germ: HE. #line:52a91d
-Germ: HY, T0 ECTJ. #line:e8b9f5
-Germ: HE 3HA%. #line:0c1f68
-Mae: XM. #line:6cb2f6
+Germ: Naw. #line:52a91d
+Germ: I mean. #line:e8b9f5
+Germ: I dunno. #line:0c1f68
+Mae: Huh. #line:6cb2f6
 ===
 title: Germ_A2D2_01
 tags: 
 colorID: 3
 position: -16760,-1293
 ---
-Mae: TAK, #line:b6f19f
-Germ: R 3DECJ 60VJQY% 4ACTJ BPEMEHN. #line:7e476e
-Mae: 0KEL, R X0TEVA CKA3ATJ... #line:e63fbe
-Germ: MHE U0PA NDTN. #line:465f4c
-Mae: U0KA! #line:3bf122
+Mae: So, #line:b6f19f
+Germ: I'M HERE A LOT OF DAYS. #line:7e476e
+Mae: Ok, I was gonna say- #line:e63fbe
+Germ: I have to go now. #line:465f4c
+Mae: Bye! #line:3bf122
 [[WalkGermOut]]
 ===
 title: Germ_A2D2
@@ -179,19 +179,19 @@ tags:
 colorID: 3
 position: -16361,-1114
 ---
-Mae: UPNBET, DSEPM. #line:5084ca
-Germ: XE-E-E-EL. #line:bfcae6
-Germ: X04EQJ TYCAHYTJ? #line:b1fc23
-Mae: HE 3HA%, DYMAVA 3ATYCNTJ C FPEFF0M NVN 6N CEF0DHR BE4EP0M. #line:744565
-Germ: HY R SE HE UP0QY C6ESATJ C0 MH0L, 4T06J1 TALH0 06BEH4ATJCR. NDEQJ? #line:19388d
--> HET #line:82eecf
-    Germ: VADH0, U0KA! #line:5859a0
-    Mae: U0KA! #line:7c140a
+Mae: Hey Germ. #line:5084ca
+Germ: Heeeeeey. #line:bfcae6
+Germ: Wanna hang out? #line:b1fc23
+Mae: I dunno, supposed to hang with Gregg or Bea tonight. #line:744565
+Germ: Geez I'm not asking you to run away and get married. #line:19388d
+-> No #line:82eecf
+    Germ: Ok bye! #line:5859a0
+    Mae: Bye! #line:7c140a
     <<set $germ_done to 1>>
--> DA #line:ed5183
+-> Yes #line:ed5183
     <<set $germ_friendship_quest_1 to 1>>
-    Mae: VADH0, 4EM TJ1 X04EQJ 3AHRTJCR? #line:b79572
-    Germ: CVEDYL 3A MH0L! #line:e9d4e9
+    Mae: Ok, what do you wanna do? #line:b79572
+    Germ: Follow me! #line:e9d4e9
     <<irisOut 1 wait>>
     <<scene ParkingLot>>
 ===
@@ -200,19 +200,19 @@ tags:
 colorID: 3
 position: -15859,-1113
 ---
-Mae: UPNBET, DSEPM! #line:852beb
-Germ: GL, MGL. #line:6ce945
-Crusty1: UPNBET! R D%PAK. #line:9b07b5
-Mae: DYPAK? #line:31a6bb
-Crusty1: GT0 DSEHHA. #line:07e5ac
-Crusty2: UPNBET! #line:5976d4
-Mae: UPNBET! #line:dc0dd7
-OldHobo: R 6NVV D0H. #line:c0fc32
-Germ: A R DSEPM! #line:ca0322
-Mae: R MGL. #line:edaebd
+Mae: Hey Germ! #line:852beb
+Germ: Hey Mae. #line:6ce945
+Crusty1: Hey! I'm Skamz. #line:9b07b5
+Mae: Scams? #line:31a6bb
+Crusty1: That's Jenna. #line:07e5ac
+Crusty2: Hi! #line:5976d4
+Mae: Hi! #line:dc0dd7
+OldHobo: I'm Bill Don. #line:c0fc32
+Germ: And I'm Germ! #line:ca0322
+Mae: I'm Mae. #line:edaebd
 <<close>>
 <<wait 1>>
-Mae: R BAWE 3A6J1VA, 4E X0TEVA CKA3ATJ. #line:dc1f28
+Mae: I completely forgot what I was going to say. #line:dc1f28
 
 ===
 title: Germ_A2D4_01
@@ -220,31 +220,31 @@ tags:
 colorID: 3
 position: -15607,-1088
 ---
-Mae: GL DSEPM, NDEQJ HA XAPZECT? #line:a4651a
-Germ: G-G. HABEPH0E. #line:17a096
-Mae: A BJ1 NDETE, UAPHN? #line:0ab565	
-Crusty1: M0SET, 3AFVRHEM #line:ce3da1
-Crusty1: 3AOEHNM TYCHRK. #line:3f6205
-Crusty1: Y BAC TYT TNUA PEAVJH0 UPN3PAKN B0DRTCR, DA? #line:5437a9
+Mae: Hey Germ, you coming to Harfest? #line:a4651a
+Germ: Eh. Maybe. #line:17a096
+Mae: Are you guys going? #line:0ab565
+Crusty1: Yeah we might hop over #line:ce3da1
+Crusty1: check out the part-tay. #line:3f6205
+Crusty1: I mean, y'all got ghosts here for real, right? #line:5437a9
 <<set $knows_legend_hobo to 1>>
-Germ: DA. #line:a7953f
-Mae: 4T0? #line:430f32
-Germ: TJ1 3HAEQJ VNTV DS0? #line:cec606
-Mae: K0HE4H0. MECTHAR VEFEHDA. #line:e538f6
-Crusty1: M0L DPYFAH VEHT04HJ1L? #line:85e357
-Crusty1: N3 6PALT XAP60PA? #line:a82845
-Crusty1: 0H F0B0PNV MHE, 4T0 HNK0FDA HE 3AFVRDJ1BAV K BAM. #line:bf06fb
-Crusty1: N3-3A UPN3PAK0B! #line:cdf4ab
-OldHobo: 0X, GT0 BCE 6PEDHN. #line:2ce323
-Crusty1: 0H UP0HNKAET HA CTAHONN N U0XNWAET X0P0QNX N 4ECTHJ1X. #line:f69d41
-OldHobo: HY, BAM, PE6RTNQKAM, T0FDA HE4EF0 60RTJCR. #line:28b79d
-Crusty1: 4EPT0B CTAPNKAQKA! MJ1 4NCTJ1 KAK B03DYX! #line:708d35
-Mae: GM, VADHEHJK0, HADE%CJ YBNDETJ K0F0-HN6YDJ N3 BAC TAM! #line:ac79b9
-Mae: PADA 6J1VA BCTPE4E! #line:6f4974
-Crusty1: B3ANMH0, MAVEHJKAR VEDN! #line:0926ba
-Mae: … #line:91c885
-Mae: U0KA, DSEPM! #line:d3fecf
-Germ: U0KA. #line:68ddaa
+Germ: Yeah. #line:a7953f
+Mae: What? #line:430f32
+Germ: Little Joe, you know? #line:cec606
+Mae: Yeah man. Local legend. #line:e538f6
+Crusty1: My man Tapeworm? #line:85e357
+Crusty1: Out in Bright Harbor? #line:a82845
+Crusty1: He told me he never got off in this town. #line:bf06fb
+Crusty1: Because of the ghost! #line:cdf4ab
+OldHobo: Aw that's a load a' crap. #line:2ce323
+Crusty1: He sneaks into railyards and SNATCHES up the good and the pure. #line:f69d41
+OldHobo: Well you kids got nothin' a' fear then. #line:28b79d
+Crusty1: dammit old timer! we're pure as the air! #line:708d35
+Mae: Alright well I guess I'll see some of you there! #line:ac79b9
+Mae: Nice to meet you! #line:6f4974
+Crusty1: Same, little lady! #line:0926ba
+Mae: ... #line:91c885
+Mae: Seeya Germ! #line:d3fecf
+Germ: Seeya. #line:68ddaa
 ===
 title: Germ_A2D4
 tags: 
@@ -276,81 +276,81 @@ tags:
 colorID: 4
 position: -14926,-1211
 ---
-Mae: UPNBET. #line:da78ac
-Germ: 4E KAK, MAVAR. #line:64cd4a
-Germ: *H%X H%X* #line:5d7aca
-Germ: TJ1 CTPAHH0 UAXHEQJ. #line:a23997
+Mae: Hey. #line:da78ac
+Germ: Sup kid. #line:64cd4a
+Germ: *sniff sniff* #line:5d7aca
+Germ: You smell weird. #line:a23997
 <<if $knows_council_bball is 0 and $trigger_molly_a3d1_done is 0>>
-	Mae: U04EMY TA4KA M0EL TETN 3DECJ? #line:25438c
-	Germ: GT0 TB0R TETR? #line:7c5c29
-	Mae: ...AFA... #line:4e4264
-	Germ: 0, GT0 DEVAET TE6R U0VY-MEHT0M? #line:7465a1
-	Germ: TE6E HE U0VYU0LMATJ MEHR, U0VYK0U!!! #line:1b65cb
-	Germ: XA-XA-XA-XA-XA-XA-XA-XA-XA-XA #line:9a5b8c
-	Mae: … #line:699000
-	Germ: R HE 3HA%, 4T0 0HN TAM DEVA%T. #line:4afaeb
-	Mae: XM. #line:438cc9
+	Mae: Why is my aunt's car here? #line:25438c
+	Germ: That's your aunt? #line:7c5c29
+	Mae: ...yeah... #line:4e4264
+	Germ: Oh weird that like makes you half cop? #line:7465a1
+	Germ: YOU'LL NEVER HALF CATCH ME, HALF COPPAAAAAH!!! #line:1b65cb
+	Germ: HA HA HA HA HA HA HA HA HA HA #line:9a5b8c
+	Mae: ... #line:699000
+	Germ: I dunno what they're doing up there. #line:4afaeb
+	Mae: Huh. #line:438cc9
 <<endif>>
-Mae: 6J1V HA XAPZECTE? #line:9919d9
-Germ: HE, HAZNF EF0. #line:b0c461
-Mae: 0TVN4H0. TAM 6J1V0 KPALHE CTPAHH0. #line:3904d7
-Mae: U0-UV0X0MY CTPAHH0. #line:e8cf6c
-Germ: "U0-UV0X0MY CTPAHH0" TAM FAPAHTNP0BAH0. #line:049bf3
-Mae: AFA. #line:ff4894
+Mae: You go to Harfest? #line:9919d9
+Germ: Nah. Over it. #line:b0c461
+Mae: Cool. I had kind of a weird time. #line:3904d7
+Mae: Weird bad time, actually. #line:e8cf6c
+Germ: It's a guaranteed weird bad time. #line:049bf3
+Mae: Yeah. #line:ff4894
 <<if $knows_legend_hobo is 1>>
-	Mae: TE B4EPAQHNE V%DN BCE EWE TYT? #line:c4c0ff
-	Germ: HE 3HA%. #line:dc00ba
-	Germ: MJ1 HE T0 4T06J1 DPY3JR. #line:63b210
-	Mae: 0L, DA. HE 3HA%, C 4EF0 R B3RVA, 4T0 TJ1 3HAEQJ. #line:db0288
-	Mae: MHE NHTEPECH0, BCTPE4AVN VN 0HN KELCN. #line:62d993
-	Mae: FDE-T0 TAM, BDAVEKE. #line:b3563a
-	Germ: R M0FY Y3HATJ. R Y3HABAV PAHJQE. #line:506efd
-	Mae: MHE UP0CT0 04EHJ UP0TNBH0 DYMATJ 0 T0M, KAK 0H 0DNHEQEHEK. #line:1d8968
-	Germ: KELCN CNVJHJ1L UAPEHJ. 0H CUPABNTCR. #line:7e6549
-	Germ: K0FDA TE6E HYSH0 C6ESATJ, TJ1 D0VSEH C6ESATJ! #line:d2f86e
-	Mae: DYMA%, DA #line:129c95
+	Mae: Are those people from yesterday still here? #line:c4c0ff
+	Germ: Dunno. #line:dc00ba
+	Germ: We're not like... good friends or anything. #line:63b210
+	Mae: Oh yeah. I don't know why I thought you'd know. #line:db0288
+	Mae: I was wondering if they ever met Casey. #line:62d993
+	Mae: Out there somewhere. #line:b3563a
+	Germ: I can ask. I used to ask. #line:506efd
+	Mae: I just hate thinking about him out there all by himself. #line:1d8968
+	Germ: Aw, Casey's tough. He'll be fine. #line:7e6549
+	Germ: When you gotta get out, you gotta get out! #line:d2f86e
+	Mae: yeah I guess #line:129c95
 <<endif>>
-Germ: HY, BCTPETNMCR HA PEUNTNONN! #line:43a1c7
-Mae: ECVN 4ECTH0: TE6E UPABDA HPABNTCR CM0TPETJ KAK MJ1 NFPAEM? #line:a1d7ba
-Germ: DA! HE T0 4T06J1 BJ1 X0P0Q0 NFPAVN, H0 DA. #line:e87dc9
-Germ: HE M0L CTNVJ. #line:f1afc5
-Mae: KAK0B TB0L CTNVJ? #line:79befc
-Germ: 6VGK METAV, GM, KP0CC0BEP C TPGQEM, XNU-X0U. #line:42c7f4
-Mae: R V%6V% "BEDJM KVNHKA"! GT0 TNUA METAV. #line:e59467
-Germ: 0, DA, TNUA, KAK TA CMEPTEVJHAR QHRFA, DA? #line:2c8c6e
-Germ: DA-DA-DYYYYYPFA!!! #line:bff56a
-Mae: A6C0V%THAR! #line:09872d
+Germ: Welp, see you at band practice! #line:43a1c7
+Mae: Real talk: do you actually like watching us play? #line:a1d7ba
+Germ: Yeah! I mean you're not good but yeah. #line:e87dc9
+Germ: Not my style. #line:f1afc5
+Mae: What is your style? #line:79befc
+Germ: Black metal, uh thrash crossover, hip hop. #line:42c7f4
+Mae: I like Witchdagger! They're kinda metal. #line:e59467
+Germ: Oh yeah like that doom shit, right? #line:2c8c6e
+Germ: DA-DA-DUUUUURGA!!! #line:bff56a
+Mae: Totally! #line:09872d
 Germ: ...  #line:59e5e1
-Mae: 4T0? #line:4aa159
-Germ: 3HAEQJ, 0DHASDJ1, 3A MH0L D0 D0MA QEV KAK0L-T0 4EV. #line:b28edf
+Mae: What? #line:4aa159
+Germ: You know one time a guy followed me home. #line:b28edf
 <<set $germ_followed to 1>>
-Germ: MYSNK, CYDR U0 CVEDAM. #line:928796
--> 4T0? VADH0, HE BASH0, MHE HYSH0 NDTN.		 #line:8d0d41
-    Germ: U0KA. #line:2d006b
--> N 4T0 TJ1 CDEVAV? #line:ddbcb1
-    Germ: GT0 TNUA 6J1VA VETHRR H04J #line:135fdf
-    Germ: N KPAEM FVA3A R YBNDEV, KAK 4EV #line:be8513
-    Germ: YQEV C UAPK0BKN #line:d021e2
-    Germ: N HA4AV 3A6NPATJCR HA X0VM, #line:a8f919
-    Germ: 4T0 B 15 METPAX 0TC%DA #line:cf62db
-    Germ: H0 R, TNUA, HE X0TEV CM0TPETJ UPRM0 HA HEF0 #line:699516
-        ->A-A-A... #line:20fed8
-        ->A-A-A-A-A-A-A... #line:71b185
-    Germ: R CDEVAV KP%K U0 VECY N 3AVE3 HA DEPEB0. #line:76c69c
-    Germ: YSE HA4NHAV0 TEMHETJ, H0 #line:89cac2
-    Germ: R BNDEV, KAK 0H CT0RV UPRM0 HA 0604NHE #line:faa137
-    Germ: N SDAV, U0KA R CVE3Y. #line:eee35d
-        ->60SE M0L. #line:d4d48e
-        ->CPAHJ F0CU0DHR. #line:5ed2c1
-    Mae: N 4T0 TJ1 CDEVAV? #line:cfdd1b
-    Germ: U0CVE T0F0 KAK CTEMHEV0, R CU0V3 BHN3. #line:a16d33
-    Germ: N 04EHJ 6J1CTP0 3A6PAVCR HA X0VM. #line:08c936
-    Mae: A-A-A-A-A-A!!! #line:56b9c5
-    Germ: DA, CTPAHH0E BPEMR 6J1V0. #line:c7b845
-    Mae: A-A-A-A... #line:627d21
-    Mae: R TAK PACCTP0EHA. #line:51dd04
-    Germ: XA-XA, N HE F0B0PN? #line:1f5add
-    Germ: YBNDNMCR! #line:6dfc6c
+Germ: Like, a guy from the tracks. #line:928796
+-> What? Ok whatever, I gotta get going.		 #line:8d0d41
+    Germ: Seeya. #line:2d006b
+-> What did you do? #line:ddbcb1
+    Germ: It was like some night back in the summer #line:135fdf
+    Germ: and out of the corner of my eye I could kinda see this dude #line:be8513
+    Germ: take this turn out of the parking lot #line:d021e2
+    Germ: and start creepin' up the hill #line:a8f919
+    Germ: like 50 feet back. #line:cf62db
+    Germ: But like I didn't want to look right at him. #line:699516
+        ->aaagh... #line:20fed8
+        ->aaaaaaaaaagh... #line:71b185
+    Germ: I took a detour through the woods and sat in a tree. #line:76c69c
+    Germ: It was getting dark but like #line:89cac2
+    Germ: I could see him standing just off the road #line:faa137
+    Germ: waiting for me to come down. #line:eee35d
+        ->Oh my god. #line:d4d48e
+        ->Holy shit. #line:5ed2c1
+    Mae: What did you do? #line:cfdd1b
+    Germ: After it got dark, I climbed down #line:a16d33
+    Germ: and got up the hill real quick. #line:08c936
+    Mae: AAAAAAAAGH!!! #line:56b9c5
+    Germ: Yeah it was a weird bad time. #line:c7b845
+    Mae: aaaaaagh... #line:627d21
+    Mae: I am so upset right now. #line:51dd04
+    Germ: Ha ha I know right? #line:1f5add
+    Germ: Seeya! #line:6dfc6c
     <<set $germ_followed to 2>>
 [[WalkGermOut]]
 ===
@@ -359,22 +359,22 @@ tags:
 colorID: 4
 position: -14690,-1187
 ---
-Mae: UPNBET. #line:53706f
-Germ: UPNBET... #line:bc42fd
-Mae: 4T0? #line:44a688
-Germ: X04EQJ TYCAHYTJ? #line:f5c166
-Mae: Y MEHR YSE K0E-4T0 HAME4EH0... #line:6adb1d
-Germ: 0K, HY, R HE DYMA%, 4T0 TE6R YKPADYT NVN 4T0-T0 TNUA T0F0. #line:915f60
--> HE-A #line:b12331
-    Germ: KPYT0, KPYT0. #line:d5cc51
-    Germ: YBNDNMCR! #line:d59988
+Mae: Hey. #line:53706f
+Germ: Hey... #line:bc42fd
+Mae: What? #line:44a688
+Germ: Wanna hang out? #line:f5c166
+Mae: I got plans later... #line:6adb1d
+Germ: Ok well I don't think you're gonna get kidnapped or anything. #line:915f60
+-> Nah #line:b12331
+    Germ: Cool cool. #line:d5cc51
+    Germ: Seeya! #line:d59988
     <<set $germ_done to 1>>
--> DA, K0HE4H0! #line:487af1
-    Germ: 3AUPJ1FNBAL HA BEVNK! #line:236e92
-    Mae: CEPJE3H0? FDE 0H? #line:0a2988
-    Germ: UPNBR3AH UPRM0 3A ZYD D0HKN! #line:bfe035
-    Germ: DYMA%, TJ1 M0FVA 6J1 CECTJ C3ADN. #line:02d68b
-    Mae: VADH0, 0TVN4H0. #line:69a37c
+-> Yeah sure! #line:487af1
+    Germ: Hop on my bike! #line:236e92
+    Mae: Really? Where is it? #line:0a2988
+    Germ: tied up behind the food donkey! #line:bfe035
+    Germ: I guess you could like run behind. #line:02d68b
+    Mae: Ok fine. #line:69a37c
     <<set $germ_friendship_quest_2 to 1>>
     <<irisOut 1 wait>>
     <<scene Bridge>>
@@ -384,26 +384,26 @@ tags:
 colorID: 4
 position: -13941,-1318
 ---
-Mae: KAK0B0 GT0, UYTEQECTB0BATJ? #line:743eeb
+Mae: what's traveling like? #line:743eeb
 <<lookAt Germ Crusty3>>
-Crusty3: KPYT0. 04 KPYT0. #line:3842a3
-Crusty3: HNK0FDA HE M0F YCNDETJ HA 0DH0M MECTE. #line:c77ef1
+Crusty3: s'good. s'good. #line:3842a3
+Crusty3: never could stay in one spot. #line:c77ef1
 <<lookAt Germ Mae>>
-Mae: A Y MEHR UP0TNB0U0V0SHAR UP06VEMA. #line:7ffe40
+Mae: i have like the exact opposite problem #line:7ffe40
 <<lookAt Germ Crusty3>>
-Crusty3: 0KEL, K0B60N. BPEMR MHE BJ1METATJCR! #line:02f860
-Germ: U0KA, GLHDSEV! #line:b8fd32
-Mae: 6EPEFN CE6R! #line:eaf330
-Crusty3: ADJ0C! #line:3da911
+Crusty3: alright pardners. time for me to shove off! #line:02f860
+Germ: See ya, Angel! #line:b8fd32
+Mae: Stay safe! #line:eaf330
+Crusty3: adios! #line:3da911
 <<close>>
 <<walk Crusty3 BehindStairs>>
 <<wait 2>>
 <<hide Crusty3>>
 <<set $crusty_3_done to 1>>
 <<lookAt Germ Mae>>
-Germ: HY, B0T N BCE. #line:eb20db
-Mae: CKY4H0? #line:aab46b
-Germ: CKY4H0. #line:8a08c6
+Germ: Well, that's over. #line:eb20db
+Mae: No fun? #line:aab46b
+Germ: No fun. #line:8a08c6
 <<lookNearest Mae>>
 ===
 title: Germ_A3D4
@@ -423,58 +423,58 @@ colorID: 3
 position: -16360,-893
 ---
 <<wait 5>>
-Germ: MJ1 HA MECTE! #line:a93425
-Mae: MJ1 CT0NM HA UAPK0BKE. #line:a9c5a8
-Germ: AFA! #line:3bcdd1
-Mae: MJ1 QVN CEKYHD 15. o> #line:c554fb
-Germ: 0HA 0FP0MEHHAR. #line:7b3f8f
-Mae: R M0FY KNHYTJ KAMEHJ B T0 MECT0, FDE MJ1 T0VJK0 4T0 CT0RVN. #line:db2366
-Germ: 0TC%DA BNDH0 BCE HE60. #line:f40502
-Mae: 0, BAY, N BUPABDY #line:5088a7
+Germ: We're here! #line:a93425
+Mae: We're in the parking lot. #line:a9c5a8
+Germ: Yep! #line:3bcdd1
+Mae: We walked for like 15 seconds. o> #line:c554fb
+Germ: It's like really big here. #line:7b3f8f
+Mae: I could throw a rock and hit where we were just standing. #line:db2366
+Germ: You can see like all of the sky here. #line:f40502
+Mae: oh wow you can #line:5088a7
 <<wait 5>>
-Mae: TAK, MJ1 4E, CEPJE3H0 UP0CT0 CM0TPNM HA UAPK0BKY? _o_ #line:7cb173
-Germ: NH0FDA #line:ecb61b
-Mae: "NH0FDA"? #line:8abc52
-Germ: NH0FDA, U0 YTPAM, #line:73d3af
-Germ: ECVN CT0RTJ HA T0M X0VME, #line:b623ba
-Germ: FYCT0L TYMAH KVY6NTCR HAD UAPK0BK0L, #line:e05224
-Germ: U0X0SNL HA 6EVJ1L 0KEAH, #line:c5a36b
-Germ: N CKB03J HEF0 UP06EFAET CTAD0 0VEHEL #line:414fd0
-Germ: UPRM0, 3HAEQJ, MAFNR. #line:24d4e6
-Mae: BAY. #line:1949d4
-Germ: HAZNFA HAM B006WE TAKAR FP0MADHAR UAPK0BKA? #line:b165fc
-    ->SEVE3HAR D0P0FA #line:54a939
-        Mae: 3DECJ FDE-T0 6J1VA 60VJQAR SEVE3H0D0P0SHAR CTAHONR. #line:9f25b9
-        Mae: K0FDA V%DN EWE KATAVNCJ HA U0E3DAX. #line:e27ada
-        Mae: HY, D0B0VJH0 4ACT0. #line:8f75a2
-        Mae: TAM PECT0PAH 6J1V. #line:9afe30
-    ->PA60TA #line:0ffce5
-        Mae: V%DN PA60TAVN HA CTEK0VJH0M 3AB0DE #line:d1dec4
-        Mae: N BP0DE HEK0T0PJ1E BCE EWE PA60TA%T HA QBELH0M 3AB0DE #line:1c627c
-        Mae: 3DECJ K0FDA-T0 6J1V EWE 0DNH 3AB0D HEU0DAVEKY. #line:b4ff3a
-    ->MAFA3NH #line:9e96a8
-        Mae: 3DECJ 6J1V ZYD D0HKN #line:687d3f
-        Mae: N CTAPJ1L CEK0HD-XEHD #line:7e99eb
-        Mae: N 06YBH0L MAFA3NH #line:5985ad
-        Mae: 3DECJ, FDE-T0 C3ADN, 6J1V MY3J1KAVJHJ1L MAFA3NH. #line:4b0cfb
-Germ: 0DHAK0, TEUEPJ BCE 3AKPJ1V0CJ. #line:e0d257
-Mae: DA. BE3DE ACZAVJT, C0PHRKN N 6NTJ1E CTEKVA. #line:e82b3a
-Germ: GT0 TAK KPACNB0. MHE HPABNTCR. #line:075d88
-Mae: XM. #line:0cad20
-Germ: 3HAEQJ, ECVN C GTNM HN4EF0 HE CDEVA%T, #line:107755
-Germ: T0 4EPE3 HECK0VJK0 VET GT0 6YDET, TNUA, #line:5a59f9
-Germ: 06J14HAR 3EMVR. #line:484b2b
-    ->BAY. #line:162485
-    ->4T0 UP0N30LDET C UAPK0BK0L? #line:6f578e
-        Mae: NME% B BNDY UAPK0B04HY% 4ACTJ UAPK0BKN. #line:862518
-Germ: UPNP0DA CTAPA. 0HA UEPESNBET TE6R. #line:7ced60
-Mae: GT0 SYTK0. #line:e98298
+Mae: ok so seriously we're just looking at the parking lot? _o_ #line:7cb173
+Germ: sometimes #line:ecb61b
+Mae: "sometimes"? #line:8abc52
+Germ: sometimes in the morning #line:73d3af
+Germ: if you're up on the hill back there #line:b623ba
+Germ: a whole buncha fog passes over the lots #line:e05224
+Germ: and it's like an ocean #line:c5a36b
+Germ: and there's a herd of deer that comes through #line:414fd0
+Germ: and it's like magic. #line:24d4e6
+Mae: wow. #line:1949d4
+Germ: why did we ever need this much parking? #line:b165fc
+    ->railroads #line:54a939
+        Mae: used to be like a big train station back here somewhere. #line:9f25b9
+        Mae: back when people took trains. #line:e27ada
+        Mae: i mean like, pretty often. #line:8f75a2
+        Mae: there was a restaurant. #line:9afe30
+    ->jobs #line:0ffce5
+        Mae: people used to work at the glass factory #line:d1dec4
+        Mae: and i guess some folks still work at the sewing place #line:1c627c
+        Mae: there was some other factory somewhere back here at some point too. #line:b4ff3a
+    ->stores #line:9e96a8
+        Mae: there was the food donkey #line:687d3f
+        Mae: and the old second hand store #line:7e99eb
+        Mae: and the shoe store #line:5985ad
+        Mae: there used to be a record store back here somewhere. #line:4b0cfb
+Germ: all gone now, though. #line:e0d257
+Mae: yep. just a lot of asphalt, weeds, and broken glass. #line:e82b3a
+Germ: it's so pretty. i love it. #line:075d88
+Mae: hm. #line:0cad20
+Germ: you know if they never do anything with this #line:107755
+Germ: in a bunch of years this is gonna be like #line:5a59f9
+Germ: regular ground. #line:484b2b
+    ->wow. #line:162485
+    ->what's gonna happen to the parking lot? #line:6f578e
+        Mae: i mean the parking lot part of the parking lot. #line:862518
+Germ: Nature's old. It waits you out. #line:7ced60
+Mae: that's spooky. #line:e98298
 <<wait 3>>
-Germ: VADH0, U0PA! #line:c46ef3
-Mae: 4T0? #line:115b36
-Germ: U0QVN! #line:9fac1b
+Germ: ok we're done! #line:c46ef3
+Mae: what? #line:115b36
+Germ: let's go! #line:9fac1b
 //germ starts walking away//
-Mae: YSE? #line:3d54f5
+Mae: hey! #line:3d54f5
 <<irisOut 1 wait>>
 <<scene Outskirts>>
 ===
@@ -484,10 +484,10 @@ colorID: 3
 position: -16363,-684
 ---
 <<if $germ_friendship_quest_1>>
-    Mae: DEV0 B T0M, 4T0 Y MEHR 6J1VN... #line:77ad61
-    Germ: MHE U0PA NDTN! #line:c61e4a
+    Mae: So, I've been having- #line:77ad61
+    Germ: I have to go now! #line:c61e4a
     <<set $germ_done to 1>>
-    Mae: GM, U0KA! #line:245f3d
+    Mae: Bye! #line:245f3d
     <<set $germ_friendship_quest_1 to 0>>
     <<unlockDoodle GermFQ1>>
     <<set $did_germ_friendship_quest_1 to 1>>
@@ -532,91 +532,91 @@ tags:
 colorID: 4
 position: -14178,-1478
 ---
-Mae: UPNBET. #line:39bade
+Mae: Hey. #line:39bade
 <<lookAt Germ Crusty3>>
-Germ: UPNBET. GLHDSEV, GT0 M0R U0DPYFA MGL. #line:560b32
-Crusty3: DAP0BA, MGL. 4E KAK? #line:7a0be0
+Germ: Hey. Angel, this is my friend Mae. #line:560b32
+Crusty3: 'Ey Mae. Whatsup. #line:7a0be0
 <<lookAt Germ Mae>>
-Mae: KVEB0E NMR #line:0a9d7d
+Mae: cool name #line:0a9d7d
 <<lookAt Germ Crusty3>>
-Crusty3: FPACNAC, 60VJQ0E CUACN60 #line:0a9fef
+Crusty3: gracias, much obliged #line:0a9fef
 <<lookAt Germ Mae>>
-Germ: GLHDSEV SDET Y HAC CVEDY%WEF0 U0E3DA. #line:5952f7
+Germ: Angel's just in town between trains. #line:5952f7
 <<lookAt Germ Crusty3>>
-Germ: HA 3AUAD, DA? #line:35df59
-Crusty3: AFA, A U0T0M — 3NM0BATJ HA %F #line:e0415f
-Crusty3: KAK FPR3HAR UTN4KA. #line:0944a2
-Crusty3: BHN3 K 3AVNBY #line:d7a286
-Crusty3: HESNTJCR HA C0VHJ1QKE #line:9b896c
-Crusty3: KYQATJ VAHFYCT0B #line:143433
+Germ: going west, next? #line:35df59
+Crusty3: yeah, then south for the winter. #line:e0415f
+Crusty3: like a dirty birdie. #line:0944a2
+Crusty3: down to the gulf #line:d7a286
+Crusty3: lay in the sun #line:9b896c
+Crusty3: eat me some crawfish #line:143433
 <<lookAt Germ Mae>>
-Mae: KCTATN, GLHDSEV, TJ1, M0SET 6J1TJ, CM0SEQJ 0TBETNTJ HA B0UP0C: #line:6e1c30
+Mae: actually Angel you might be able to answer a question: #line:6e1c30
 <<lookAt Germ Crusty3>>
-Crusty3: BAVRL, U0DPYFA #line:3136a5
+Crusty3: shoot, bro #line:3136a5
 <<lookAt Germ Mae>>
-    ->TJ1 CVJ1QAV 4T0-HN6YDJ 0 UPN3PAKE B F0P0DE? #line:28c6b4
-        Germ: 0H T04H0 CVJ1QAV. #line:f826e9
+    ->have you heard anything about a ghost in town? #line:28c6b4
+        Germ: Angel has indeed. #line:f826e9
         <<lookAt Germ Crusty3>>
-        Crusty3: MJ1 PA3F0BAPNBAVN 06 GT0M KAK PA3 UEPED TB0NM UPNX0D0M #line:be45e2
+        Crusty3: we was just talking about it before you got here #line:be45e2
         <<lookAt Germ Mae>>
-        Mae: CEPJE3H0? #line:34a2b0
+        Mae: really? #line:34a2b0
         <<lookAt Germ Crusty3>>
-        Crusty3: DA, HNKT0 HE 0CTAHABVNBAETCR TYT N3-3A GT0F0, #line:145d90
-        Crusty3: H0 R HE CYEBEPEH. #line:beefdb
-        Crusty3: HA 3AUADH0M 6EPEFY, R YDAPNV K0UA #line:691ad1
-        Crusty3: N 0T0FHAV EF0 C06AKY #line:3e84b3
-        Crusty3: 0T6NV Y HNX KYC0K UNOOJ1, K0T0PJ1L HAQEV. #line:a0a557
+        Crusty3: yeah, nobody ever stops here because of it #line:145d90
+        Crusty3: but i ain't superstitious #line:beefdb
+        Crusty3: out on the west coast, i punched a cop #line:691ad1
+        Crusty3: and fought off his dog #line:3e84b3
+        Crusty3: to keep a half pizza i found #line:a0a557
         <<lookAt Germ Mae>>
-        Mae: 0F0. TEUEPJ YSE N 3A KYC0K UNOOJ1 M0SH0 CECTJ? #line:187190
+        Mae: wow. finding pizza is a criminal offense? #line:187190
         <<lookAt Germ Crusty3>>
-        Crusty3: 4EV, 4T0 0HN BUAPRT B BNHY - T0 N 6YDET C4NTATJCR BNH0L. #line:223858
-        Crusty3: H0 R 0T0QEV 0T TEMJ1. #line:f8f841
+        Crusty3: bro whatever they say is a criminal offense is a criminal offense #line:223858
+        Crusty3: but i digress #line:f8f841
         <<lookAt Germ Mae>>
-        Mae: UPN3PAK? #line:cb06ae
+        Mae: ghost? #line:cb06ae
         <<lookAt Germ Crusty3>>
-        Crusty3: DA, KAKNE-T0 UPNDYPKN U0F0BAPNBA%T, 4T0 UPN3PAK U0XNWAET X0P0QNX V%DEL #line:89a2fa
-        Crusty3: H0 R-T0 HEX0P0QNL, U0GT0MY HE 60%CJ #line:3232a8
-        Crusty3: U0HNMAEQJ, 0 4EM R? #line:df0d87
+        Crusty3: yeah the dumb ones say the ghost grabs the good people #line:89a2fa
+        Crusty3: i ain't good, so i got nothin' to fear #line:3232a8
+        Crusty3: you feel me? #line:df0d87
         <<lookAt Germ Mae>>
-        Mae: AFA. #line:3d51d8
+        Mae: yeah. #line:3d51d8
         <<lookAt Germ Crusty3>>
-        Germ: X0P0QNL U0 KAKNM MEPKAM? #line:a25ef5
-        Crusty3: A XPEH 6J1 3HAV, 4EV. #line:5a3aae
-        Crusty3: H0 B0T, 4T0 R 6YDY DEVATJ: #line:1fcacf
-        Crusty3: HE BEPNTJ B UPN3PAK0B, H0 BEPNTJ B 60FA #line:f501c8
-        Crusty3: 0H TAM, HABEPXY, UPNFVRDJ1BAET 3A BCEMN CB0NMN DETJMN. #line:66c676
-        Crusty3: N R B03HECY 7 M0VNTB 3A TE6R, #line:dd8dbd
-        Crusty3: N Y GT0F0 MEP3K0F0 UPN3PAKA UP0CT0 HE 6YDET QAHC0B. #line:fcbd99
+        Germ: good by what standard? #line:a25ef5
+        Crusty3: damned if i know, bro. #line:5a3aae
+        Crusty3: but here's what i'll do: #line:1fcacf
+        Crusty3: i don't believe in ghosts, but i know there's a god #line:f501c8
+        Crusty3: up there watching out for all their children down here #line:66c676
+        Crusty3: and i'll say 7 prayers for you #line:dd8dbd
+        Crusty3: and that'll keep that nasty ghost at bay. #line:fcbd99
         <<lookAt Germ Mae>>
-        Mae: BAY. CUACN60. #line:b35a28
-        Mae: GT0, TNUA, 04EHJ V%6E3H0 C TB0EL CT0P0HJ1. #line:da97fb
-    ->TJ1 BCTPE4AV K0F0-HN6YDJ U0 NMEHN KELCN HA PEVJCAX? #line:d55163
+        Mae: Wow. Thanks. #line:b35a28
+        Mae: That is like, sincerely very kind of you. #line:da97fb
+    ->have you met anyone named Casey out on the rails? #line:d55163
         <<lookAt Germ Crusty3>>
-        Crusty3: XM. DAL U0DYMATJ. #line:7a1899
-        Crusty3: TJ1 3HAEQJ, KAK 0H NVN 0HA BJ1FVRDNT? #line:3f0688
+        Crusty3: hm. lemme think. #line:7a1899
+        Crusty3: you know what he or she looked like? #line:3f0688
         <<lookAt Germ Mae>>
-        Mae: 0H. 0H U0X0S HA MEHR. CVEFKA U0BJ1QE. N B0V0CJ1 0PAHSEBJ1E. #line:3e81ff
+        Mae: He. He looked kinda like me. A little taller. Orange-ish hair. #line:3e81ff
         <<lookAt Germ Crusty3>>
-        Crusty3: HE. HE BCU0MNHA% TAK0F0. #line:d3ce21
-        Crusty3: H0 R BNDEV 0K0V0 TJ1WN 4YBAK0B. #line:71f0e4
+        Crusty3: Nah, man. I don't recollect. #line:d3ce21
+        Crusty3: But I seen like, a thousand dudes out there. #line:71f0e4
         <<lookAt Germ Mae>>
-        Mae: RCH0. #line:0ed130
+        Mae: It's ok. #line:0ed130
         <<lookAt Germ Crusty3>>
-        Crusty3: B0T 4T0... #line:b84bf3
-        Crusty3: R U0CUPAQNBA% B0KPYF, N ECVN HALDY #line:9ba83f
-        Crusty3: NVN Y3HA%, 4T0 EF0 KT0-HN6YDJ BNDEV, #line:3c09d3
-        Crusty3: R UEPEDAM, 4T0 MGL N3 U0CCYM CUPNHFC NWET EF0. #line:a78532
+        Crusty3: I tell you what- #line:b84bf3
+        Crusty3: I'll ask around, and if I find him #line:9ba83f
+        Crusty3: or someone who's seen him, #line:3c09d3
+        Crusty3: I'll say that Mae from Possum Springs is looking for him. #line:a78532
         <<lookAt Germ Mae>>
-        Mae: CUACN60. UPABDA CUACN60. R Y TE6R B D0VFY. #line:7f0f12
+        Mae: Thanks. That means a lot. I owe you. #line:7f0f12
 <<lookAt Germ Crusty3>>
-Crusty3: HE, HE #line:430ab0
-Crusty3: GT0T HEUPNBETVNBJ1L MNP #line:b1c0b9
-Crusty3: U0V0H TEX, KT0 CFHNV N3HYTPN, #line:656f61
-Crusty3: A TE, KT0 D06P, MPYT 60F 3HAET U04EMY.  #line:d0a00c
-Crusty3: N HAM HAD0, TNUA, UPNCMATPNBATJ DPYF 3A DPYF0M, U0HNMAEQJ? #line:17867f
+Crusty3: nah, nah #line:430ab0
+Crusty3: it's a cold world #line:b1c0b9
+Crusty3: run by the worst people #line:656f61
+Crusty3: and good men die for god knows what reason #line:d0a00c
+Crusty3: we gotta take on, like, duties for one another, ya know? #line:17867f
 <<lookAt Germ Mae>>
-Mae: AFA. #line:d96688
-Mae: EWE PA3 CUACN60. #line:f22bed
+Mae: yeah. #line:d96688
+Mae: thanks again. #line:f22bed
 <<lookNearest Germ>>
 ===
 title: Germ_A3D3_02
@@ -624,17 +624,17 @@ tags:
 colorID: 4
 position: -13665,-1462
 ---
-Germ: 4T0-T0 HEX0P0QEE 6VN3NTCR. #line:e86796
-Mae: R 3HA%. #line:605ab5
-Mae: GT0 UPN3PAK, DSEPM. HACT0RWNL UPN3PAK. #line:6ad8ab
-Germ: UPN3PAK0B HE CYWECTBYET. #line:569e65
-Germ: UPN3PAKN HE PEAVJHJ1. #line:d711fa
-Mae: 0TKYDA TJ1 3HAEQJ? #line:f894ff
-Germ: M0L 6PAT RBNVCR 6J1 MHE. #line:5e3793
+Germ: Something bad's coming. #line:e86796
+Mae: I know. #line:605ab5
+Mae: It's a ghost, Germ. A real life ghost. #line:6ad8ab
+Germ: There aren't ghosts. #line:569e65
+Germ: Ghosts aren't a thing. #line:d711fa
+Mae: how do you know? #line:f894ff
+Germ: my brother would have visited. #line:5e3793
 <<wait 2>>
-Mae: 60SE. #line:71d53e
-Germ: HY-Y, U0PA 06EDATJ! #line:13e181
-Germ: YBNDNMCR! #line:116bd5
+Mae: geez. #line:71d53e
+Germ: Welp, dinner time! #line:13e181
+Germ: See ya! #line:116bd5
 [[WalkGermOut]]
 ===
 title: Germ_A3D3
@@ -657,14 +657,14 @@ tags:
 colorID: 4
 position: -13196,-1163
 ---
-Mae: UPNBET, DSEPM. #line:33c4eb
-Germ: GL, MGL. #line:6e8aec
-Germ: 40 KAK DEVNQKN? #line:1a992c
-Germ: U0MNM0 04EBNDH0F0. #line:c18849
-Germ: 4T0-T0... C T060L HE TAK. #line:814887
-Mae: U0 MHE BNDH0, 4T0 C0 MH0L 4T0-T0 HE TAK? #line:39c595
-Germ: U0-M0EMY, DA. #line:44d741
-Mae: CUACN60 3A TB0E BHNMAHNE. #line:2a1448
+Mae: Hey Germ. #line:33c4eb
+Germ: Hey Mae. #line:6e8aec
+Germ: Totally what's up? #line:1a992c
+Germ: Other than the obvious. #line:c18849
+Germ: You seem... something too. #line:814887
+Mae: Do I look any different? #line:39c595
+Germ: To me you do. #line:44d741
+Mae: Thanks for your attention. #line:2a1448
 //<<set $germ_done to 1>>
 [[Germ_A3D4_QuestCheck]]
 ===
@@ -678,19 +678,19 @@ position: -14417,-1039
         <<walk Germ GermToBridge>>
         <<walk Mae MaeToBridge>>
         <<cameraLookAt CameraBridgeEdge 6>>
-        Mae: TJ1 YBEPEH, 4T0 TB0L BEVNK HE C0UPYT? #line:0002b3
-        Germ: DA. MHE KASETCR, B GT0M CAPAE F0DAMN HNK0F0 HE 6J1V0. #line:ccd736
-        Germ: UP0CTN 3A T0, 4T0 TJ1 CBAVNVACJ #line:a680ac
-        Mae: HN4EF0. R 4YBCTBY% CE6R TAK0L SNB0L. #line:136728
-        Germ: CCADNHJ1 KVEBAR BEWJ B GT0M UVAHE #line:40ac4d
-        -> R 060DPAVA V0K0TJ #line:2f5e6e
-        	Germ: R M0FY TE6R, GM, U0D6P0CNTJ D0 60VJHNOJ1 #line:8aad76
-        	Germ: B CBR3N C GT0L CEPJE3H0L PAH0L #line:5ffe74
-            Mae: HAOEUNTJ MNFAVKY #line:fa4728
-        -> R D0B0VJH0 CNVJH0 YDAPNVACJ F0V0B0L #line:4d9927
-        	Germ: M03F HE U0PAHNVA? #line:f09e3b
-        	Mae: HE, Y MEHR T0VCTJ1L 4EPEU #line:f4cb4c
-        	Germ: GT0 KVEB0 #line:4f2ac2
+        Mae: you sure your bike’s gonna be safe? #line:0002b3
+        Germ: yeah. I don’t think anyone’s been in that shed for years #line:ccd736
+        Germ: sorry you fell off #line:a680ac
+        Mae: it’s cool. I feel so alive. #line:136728
+        Germ: scrapes are cool like that #line:40ac4d
+        -> i skinned my elbow #line:2f5e6e
+        	Germ: i can like, ride you to the hospital #line:8aad76
+        	Germ: for this serious wound #line:5ffe74
+            Mae: put the siren on #line:fa4728
+        -> i hit my head pretty hard #line:4d9927
+        	Germ: did you hurt your brain? #line:f09e3b
+        	Mae: naw, i got a thick skull #line:f4cb4c
+        	Germ: that’s cool #line:4f2ac2
         <<toggleBlinks Germ 0>>
         <<close>>
         <<walk Germ GermOnBridge>>
@@ -704,29 +704,29 @@ position: -14417,-1039
         <<wait 2>>
         //We’ll need a Germ balancing idle here//
         <<lookAt Mae Germ>>
-        Mae: TAK, 3A4EM MJ1 3DECJ? #line:dd7b49
+        Mae: So what are we doing here? #line:dd7b49
         <<lookAt Germ Mae>>
-        Germ: TJ1 MHE D0BEPREQJ? #line:8d5fee
-            ->K0HE4H0 #line:eb61d0
-                Germ: CEPJE3H0? #line:52ff73
-                Mae: HY DA, HABEPH0E. #line:6fbf4f
-            ->HNK0FDA HE DYMAVA 06 GT0M #line:145602
-        Germ: 0K #line:237a34
+        Germ: do you trust me? #line:8d5fee
+            ->sure #line:eb61d0
+                Germ: really? #line:52ff73
+                Mae: yeah. i guess. #line:6fbf4f
+            ->never thought about it before #line:145602
+        Germ: ok #line:237a34
         <<lookForward Germ>>
-        Germ: U0KA #line:67f48e
+        Germ: bye #line:67f48e
         <<close>>
         <<wait 1>>
         //Germ jumps off the bridge//
         <<jumpThrough Germ>>
         <<wait 1.5>>
         <<warp Germ GermOnBottom>>
-        Mae: 0 60SE, DSEEEPM!!! #line:45ed00
-        Mae: ...0X 60SEHJKN, 4YBAK... #line:75968d
-        Germ: GL! #line:001ba5
-        Mae: KAK0F0 4EPTA, 4EV? #line:faefaf
+        Mae: OH MY GOD GEEEERM!!! #line:45ed00
+        Mae: ...oh geez, dude... #line:75968d
+        Germ: hey! #line:001ba5
+        Mae: WHAT THE HELL, MAN? #line:faefaf
         <<resetRig Germ>>
-        Germ: UPJ1FAL! BCE 6YDET X0P0Q0! #line:a6e01d
-        Mae: CEPJE3H0? #line:67e353
+        Germ: JUMP! It’s fine! #line:a6e01d
+        Mae: oh for real? #line:67e353
         //<<trigger Germ Blink>>
         <<toggleBlinks Germ 1>>
         <<flip Germ -1>>
@@ -740,80 +740,80 @@ colorID: 4
 position: -14547,-731
 ---
 <<if $germ_bridge is 1>>
-    Mae: NTAK, 3HA4NT... #line:cd7ee6
-    Germ: R HA4AV CUYCKATJCR C%DA UAPY MECROEB HA3AD #line:8cec05
-    Germ: 4T06J1, TNUA, CTPADATJ ZNFHEL #line:bd86c8
-    Mae: 0K #line:c1c228
+    Mae: ok so... #line:cd7ee6
+    Germ: I started coming down here a few months ago #line:8cec05
+    Germ: to, like, just hang #line:bd86c8
+    Mae: ok #line:c1c228
     <<warp Rabies RabiesTunnelExit>>
     <<walk Rabies RabiesTunnelEnter>>
-    Germ: N R 3AMETNV... #line:77fb24
+    Germ: and I noticed- #line:77fb24
     <<lookAt Germ Rabies>>
-    Germ: 0! 3DAP0BA, 6EQEHJ1L! #line:209820
+    Germ: oh! hey Rabies! #line:209820
     <<playerFace 1>>
     <<lookForward Mae>>
-    Mae: AAAFX!! #line:a68bc3
+    Mae: AAAGH!! #line:a68bc3
     <<lookAt Germ Mae>>
-    Germ: 6EQEHJ1L - M0L DPYF N3 KAHAVN3AONN #line:1783cb
-    Mae: GT0F0 B0T 30BYT 6EQEHJ1L? #line:0c8f52
-    Germ: EF0 30BYT 6EQEHJ1L. #line:4bab40
+    Germ: Rabies is my sewer friend #line:1783cb
+    Mae: It’s name is Rabies? #line:0c8f52
+    Germ: HIS name is rabies. #line:4bab40
     <<lookAt Mae Rabies>>
-    Mae: EF0 30BYT 6EQEHJ1L? #line:d5006d
+    Mae: His name is Rabies? #line:d5006d
     <<lookAt Germ Rabies>>
-    Germ: R HAQEV EF0 K0FDA T0T TPYU BJ1TACKNBAVN 0TC%DA #line:1fae68
-    Germ: U0CVE T0F0 HAB0DHEHNR HECK0VJK0 MECROEB T0MY HA3AD. #line:3b7a3d
-    Mae: UPNK0VJH0. #line:09053e
-    Germ: 0H 6J1V FPYCTHJ1M, F0V0DHJ1M N UP0M0KQNM, TAK 4T0 R UPNHEC EMY 4NUCJ1 N M0P0SEH0E #line:4c6483
-    Mae: BCE UPABNVJH0 CDEVAV. #line:98968a
-    Germ: N R X0TEV, 4T06J1 DPYFNE 0U0CCYMJ1 HE UPNCTABAVN K HEMY #line:63f06b
-    Germ: U0GT0MY R HA3BAV EF0 B 4ECTJ BEWN, K0T0P0L 0HN BCE 60RTCR #line:813703
-    Mae: GT0 CAMAR VY4QAR NCT0PNR, 4T0 R CVJ1QAVA. #line:1f1635
+    Germ: I found him when they pulled that body out of here #line:1fae68
+    Germ: after that big flood a few months ago. #line:3b7a3d
+    Mae: oh neat. #line:09053e
+    Germ: He was sad and wet and hungry so I brought him chips and ice cream #line:4c6483
+    Mae: sounds right #line:98968a
+    Germ: and I wanted the other possums to not pick on him #line:63f06b
+    Germ: so i named him after something they’re all afraid of #line:813703
+    Mae: This is the best story ever. #line:1f1635
     <<lookAt Mae Rabies>>
     <<lookAt Germ Rabies>>
-    Germ: 0H TAK0L KVEBJ1L. #line:c24113
-    Germ: GL, 6EQEHJ1L! #line:5649a2
-    Germ: F0V0C! #line:e12afe
+    Germ: He’s so rad. #line:c24113
+    Germ: HEY RABIES! #line:5649a2
+    Germ: SPEAK! #line:e12afe
     <<playOneShot event:/bridge/possum_speak Rabies>>
-    Rabies: XXXPPPPPFKK!!! #line:2f375c
-    Mae: 0 60000SEHJKN #line:ad3247
-    Germ: K0FDA-HN6YDJ 0H 6YDET UPABNTJ BCEM YWEVJEM #line:2e4914
-    Germ: 6YDJ X0P0QNM C MGL, 0K 6EQEHJ1L! #line:ca0645
+    Rabies: HHHRRRRRGKK!!! #line:2f375c
+    Mae: oh my gaaaawd #line:ad3247
+    Germ: He’s gonna rule this whole ravine someday #line:2e4914
+    Germ: you be nice to Mae, ok Rabies! #line:ca0645
     <<close>>
     <<walk Rabies RabiesTunnelExit>>
-    Mae: R V%6V% EF0. #line:215d0c
+    Mae: I love him. #line:215d0c
     <<lookAt Mae Germ>>
     <<lookAt Germ Mae>>
-    Germ: Y TE6R ECTJ UNT0MOJ1? #line:c21fba
+    Germ: you got any pets? #line:c21fba
     <<if $times_fed_rats >= 2>>
-    	Mae: Y MEHR ECTJ KPJ1CJ1 B OEHTPE. #line:ba15b3
-    	Germ: KPYT0. #line:5740a9
+    	Mae: I got some rats downtown. #line:ba15b3
+    	Germ: sweet. #line:5740a9
     <<else>>
-        Mae: HE T0 4T06J1... #line:a66506
-        Germ: TE6E CT0NT 3ABECTN K0F0-HN6YDJ. #line:187779
-        Mae: Y UAUJ1 UTNOA ECTJ. #line:99cc2f
-        Germ: GT0 XPEH0BJ1L UNT0MEO. #line:c77b1a
-        Mae: N HE F0B0PN. #line:801a40
+        Mae: Not really... #line:a66506
+        Germ: you should get one. #line:187779
+        Mae: my dad has a bird. #line:99cc2f
+        Germ: that's a garbage pet. #line:c77b1a
+        Mae: tell me about it. #line:801a40
     <<endif>>
     <<wait 2>>
-    Mae: TAK... TYT HA CTEHE ECTJ K0E-4T0 CTPAHH0E. #line:fdc170
-    Germ: DPEBHNE UEWEPHJ1E PNCYHKN. #line:a277ac
-    Mae: HE H0BJ1E, T04H0. #line:388500
-    Germ: KAK DYMAEQJ, 4T0 0HN 3HA4AT? #line:78a317
-        ->ECVN TJ1 CUNQJ 3DECJ, TJ1 M0SEQJ YT0HYTJ. #line:d4332c
-            Germ: CUPABEDVNB0. #line:c5f77d
-            Mae: GT0 FPYCTH0. #line:80d09b
-            Germ: DA. GT0 UE4AVJH0 HACT0VJK0, 4T0, KAK 6J1, DASE #line:9fb68f
-            Germ: CTPAHH0, 4T0 GT0 TAK UE4AVJH0. #line:3f5594
-            Mae: HABEPH0E. #line:33510a
-            Mae: HY, UP0CT0 #line:344512
-            Mae: FPYCTH0, 4T0 3DECJ KT0-T0 CUNT. #line:1a74f6
-            Mae: HE T0 4T06J1 Y HAC HE 6J1V0 CB060DHJ1X D0M0B. #line:1b900a
-            Germ: GT0 TYU0. #line:ad5675
-        ->6EQEHJ1L - K0P0VJ MYC0PA #line:a89efe
-            Germ: GT0 UP0P04ECTB0. #line:11a621
-            Mae: UPEDCKA3AHH0E DPEBHNMN 60MSAMN. #line:7ee4a2
-    Germ: CYWECTBYET #line:dbd97a
-    Germ: KY4A CEKPETHJ1X MECT U0 BCEMY F0P0DY. #line:e49f0a
-    Germ: N R EDNHCTBEHHJ1L, KT0 PA3METNV NX... #line:1199b0
+    Mae: so there's like... weird stuff on the walls in here... #line:fdc170
+    Germ: ancient cave paintings. #line:a277ac
+    Mae: not new, at least. #line:388500
+    Germ: what do you think it means? #line:78a317
+        ->if you sleep here you might drown #line:d4332c
+            Germ: true true. #line:c5f77d
+            Mae: that's sad. #line:80d09b
+            Germ: yeah. but it's sad enough that like #line:9fb68f
+            Germ: it gets too weird to be sad. #line:3f5594
+            Mae: i guess. #line:33510a
+            Mae: just like #line:344512
+            Mae: sucks people are sleeping in here. #line:1a74f6
+            Mae: not like we don't got vacant buildings. #line:1b900a
+            Germ: it's dumb. #line:ad5675
+        ->rabies is trash king #line:a89efe
+            Germ: it's a prophecy. #line:11a621
+            Mae: written by ancient hobos. #line:7ee4a2
+    Germ: there's like #line:dbd97a
+    Germ: all kinds of secret places like this around town. #line:e49f0a
+    Germ: i'm like the only person to really map th- #line:1199b0
     <<close>>
     <<trigger Rabies Candy>>
     <<warp Rabies RabiesTunnelExit>>
@@ -821,32 +821,32 @@ position: -14547,-731
     <<wait 2>>
     <<lookAt Germ Rabies>>
     <<lookAt Mae Rabies>>
-    Germ: GL, 6EQEHJ1L! 4T0 GT0 Y TE6R TAM? #line:ec53e8
+    Germ: HEY RABIES!! WHATCHA GOT THERE??? #line:ec53e8
     <<close>>
     <<waitForMove Rabies>>
     <<trigger Rabies SitUp>>
     <<playerFace 1>>
-    Mae:{width=4}0 600000000000000SEHJKN!#line:5db4a9
-    Mae: GT0 ZNACK0 6AT0H4NK? #line:105481
-    Germ: X04EQJ, 4T06J1 R 0TKPJ1V EF0 DVR TE6R, MAVJ4NK? #line:937913
+    Mae:{width=4} oh my gaaaaaaaaaaaaaaaawd! #line:5db4a9
+    Mae: is that a Fiasco bar? #line:105481
+    Germ: you want me to unwrap that for you, guy? #line:937913
     <<close>>
     <<trigger Rabies Unwrap>>
     <<wait 1>>
-    Mae: FPE6AHH0E DEPJM0!!! #line:adf4de
-    Germ: 0H! VY4QNL! #line:ff3b14
+    Mae: HOLY EFFING CRAP!!! #line:adf4de
+    Germ: HE! IS! THE! BEST! #line:ff3b14
     <<lookAt Mae Germ>>
     <<lookAt Germ Mae>>
-    Mae: B03JMN EF0 D0M0L! #line:e46c09
-    Germ: DA HE. 0H TAM BCE 060CCJ1T. #line:5d6e18
-    Germ: DA EWE N DJ1PY B CTEHE BJ1K0UAET N 6YDET TAM SNTJ #line:b54ea9
-    Mae: 0, DA #line:a54639
+    Mae: You should take him home! #line:e46c09
+    Germ: No way. He’d pee all over everything #line:5d6e18
+    Germ: and dig a hole in the wall and live there. #line:b54ea9
+    Mae: oh yeah #line:a54639
     <<lookAt Germ Rabies>>
-    Germ: 6EQEHJ1L DNKNL. U03B0VJ EMY 6J1TJ DNKNM. #line:bc88f4
+    Germ: Rabies is wild. Let him be wild. #line:bc88f4
     <<lookAt Mae Rabies>>
     <<close>>
     <<trigger Rabies Bite>>
     <<wait 2>>
-    Mae: AAAAFFX, CM0TPN, 0H ECT EF0!!! #line:85e238
+    Mae: AAAAGGH LOOK HE’S EATING IT!!! #line:85e238
     [[GermBridgeEnding]]
 <<endif>>
 ===
@@ -856,20 +856,20 @@ colorID: 4
 position: -14298,-814
 ---
 <<flip Mae 1>>
-Mae: 4YBAK, TJ1 MEHR D0 CMEPTN HAUYFAV! #line:73ff22
-Germ: U04EMY? TJ1 UPJ1FAEQJ C BJ1C0KNX 3DAHNL BCE BPEMR! #line:88eafd
-Mae: DA, H0 GT0... TNUA B F0P0DE. X0P0QAR UV0CKAR U0BEPXH0CTJ. #line:4ea313
-Mae: HE M0FY SE R UPJ1FATJ C0 CKAV N UP04EF0 #line:f61ede
-Germ: AX DA, R N 3A6J1V, 4T0 TJ1 BJ1P0CVA B F0P0DE #line:2b6b6b
-Mae: TAK, A 4T0 MJ1 TYT DEVAEM? #line:0893eb
-Germ: R 3DECJ 4ACT0 6J1BA%. #line:4ae308
-Germ: X0TEV K0E-4T0 U0KA3ATJ. #line:19a215
-    ->TJ1 TYCYEQJCR B KAHAVN3AON0HH0L TPY6E? #line:905225
-        Germ: HE T0VJK0 #line:8f80cc
-    ->TJ1 U0KA3J1BAEQJ MHE KAHAVN3AON%? #line:605a62
-        Germ: R DYMAV, TJ1 3ANHTEPECYEQJCR. #line:6ddcb2
-Germ: 0DHASDJ1 R BNDEV 3DECJ 10 KPJ1C. #line:faf809
-Mae: VADH0, GT0 D0B0VJH0 KPYT0 #line:95c133
+Mae: dude you scared me to death! #line:73ff22
+Germ: why? You jump off big stuff all the time! #line:88eafd
+Mae: yeah but like... that’s in town. Nice flat ground. #line:4ea313
+Mae: not like i can just go jumping off cliffs and whatever #line:f61ede
+Germ: oh yeah i forgot you grew up in town #line:2b6b6b
+Mae: so what are we doing here? #line:0893eb
+Germ: i come here a lot. #line:4ae308
+Germ: wanted to show you something. #line:19a215
+    ->you hang out at a sewer pipe? #line:905225
+        Germ: i mean, not exclusively #line:8f80cc
+    ->are you showing me the sewer? #line:605a62
+        Germ: i thought you'd be interested. #line:6ddcb2
+Germ: i saw like 10 rats down here once! #line:faf809
+Mae: ok that’s pretty cool #line:95c133
 <<close>>
 <<walk Germ GermInTunnel 1>>
 <<wait 5>>
@@ -881,9 +881,9 @@ colorID: 4
 position: -13197,-912
 ---
 <<if $germ_friendship_quest_3>>
-    Germ: MHE U0PA. #line:06e815
+    Germ: Gotta go now. #line:06e815
     <<set $germ_done to 1>>
-    Mae: U0KA! #line:a68faf
+    Mae: Bye! #line:a68faf
     <<unlockDoodle GermFQ3>>
     <<set $germ_friendship_quest_3 to 0>>
     <<set $did_germ_friendship_quest_3 to 1>>
@@ -906,7 +906,7 @@ colorID: 4
 position: -14123,-419
 ---
 <<if $germ_friendship_quest_2>>
-    Germ: YBNDNMCR! #line:0cbf3d
+    Germ: See ya! #line:0cbf3d
     <<set $germ_done to 1>>
     <<set $germ_friendship_quest_2 to 0>>
     <<unlockDoodle GermFQ2>>
@@ -927,40 +927,40 @@ tags: unused
 colorID: 0
 position: -15079,-638
 ---
-        Mae: TJ1 DYMAEQJ, GT0 X0TR 6J1 0TDAVEHH0 6VN3K0 K NCTNHE? #line:459a87
-        Germ: MJ1 HNK0FDA HE Y3HAEM #line:278064
-        Mae: DYMA%, DA #line:3c9dfe
-        Germ: UPRM KAK... 0 BCEL SN3HN B OEV0M. #line:b52d25
-        Mae: FVY60K0. #line:b5e169
-        Mae: TYT 4T0, KT0-T0 DELCTBNTEVJH0 YMEP? #line:93c658
-        Germ: AFA, GT0 VET0M 6J1V0 N... #line:a00cc7
+        Mae: do you think that’s even remotely right? #line:459a87
+        Germ: we’ll never know #line:278064
+        Mae: yeah i guess #line:3c9dfe
+        Germ: that’s like... a lot of life #line:b52d25
+        Mae: deep. #line:b5e169
+        Mae: so like, someone really died in here? #line:93c658
+        Germ: yep, it was in the summer, and- #line:a00cc7
         <<close>>
         <<trigger Rabies Candy>>
         <<warp Rabies RabiesTunnelExit>>
         <<walk Rabies RabiesTunnelEnter>>
         <<wait 2>>
-        Germ: GL, 6EQEHJ1L! 4T0 GT0 Y TE6R TAM? #line:92232a
+        Germ: HEY RABIES!! WHATCHA GOT THERE??? #line:92232a
         <<close>>
         <<waitForMove Rabies>>
         <<trigger Rabies SitUp>>
         <<playerFace 1>>
-        Mae:{width=4}0 600000000000000SEHJKN!#line:a50bec
-        Mae: GT0 ZNACK0 6AT0H4NK? #line:caae38
-        Germ: X04EQJ, 4T06J1 R 0TKPJ1V EF0 DVR TE6R, MAVJ4NK? #line:d4f817
+        Mae:{width=4} oh my gaaaaaaaaaaaaaaaawd! #line:a50bec
+        Mae: is that a Fiasco bar? #line:caae38
+        Germ: you want me to unwrap that for you, guy? #line:d4f817
         <<close>>
         <<trigger Rabies Unwrap>>
         <<wait 1>>
-        Mae: FPE6AHH0E DEPJM0!!! #line:c432f5
-        Germ: 0H! VY4QNL! #line:688964
-        Mae: B03JMN EF0 D0M0L! #line:cb81f2
-        Germ: DA HE. 0H TAM BCE 060CCJ1T. #line:fa7055
-        Germ: DA EWE N DJ1PY B CTEHE BJ1K0UAET N 6YDET TAM SNTJ #line:82cc9f
-        Mae: 0L, DA #line:ad6ed2
-        Germ: 6EQEHJ1L DNKNL. U03B0VJ EMY 6J1TJ DNKNM. #line:c045ef
+        Mae: HOLY EFFING CRAP!!! #line:c432f5
+        Germ: HE! IS! THE! BEST! #line:688964
+        Mae: You should take him home! #line:cb81f2
+        Germ: No way. He’d pee all over everything #line:fa7055
+        Germ: and dig a hole in the wall and live there. #line:82cc9f
+        Mae: oh yeah #line:ad6ed2
+        Germ: Rabies is wild. Let him be wild. #line:c045ef
         <<close>>
         <<trigger Rabies Bite>>
         <<wait 2>>
-        Mae: AAAAFFX, CM0TPN, 0H ECT GT0!!! #line:9189f9
+        Mae: AAAAGGH LOOK HE’S EATING IT!!! #line:9189f9
         <<irisOut 1 wait>>
         <<scene Outskirts>>
 ===
@@ -970,27 +970,27 @@ colorID: 4
 position: -12954,-1170
 ---
 <<if $did_germ_friendship_quest_1 and $did_germ_friendship_quest_2>>
-	Germ: TJ1 X04EQJ UPNLTN? #line:ccecf7
-	Germ: Y MEHR ECTJ 6ATYT! #line:b73797
-	-> 0Y. G-G. #line:e63ab6
-        Mae: HE. R HE 04EHJ X0P0Q0 CE6R 4YBCTBY%. #line:90f671
-        Germ: KPYT0. YBNDNMCR! #line:cafcf4
+	Germ: Do you want to come? #line:ccecf7
+	Germ: Got a trampoline! #line:b73797
+	-> Oh. Uh. #line:e63ab6
+        Mae: Nah. I'm not really feeling well. #line:90f671
+        Germ: Cool. Seeya! #line:cafcf4
         [[WalkGermOut]]
-	-> A T0! #line:7650b6
-        Germ: X0P0Q0, U0LDEM.  #line:81478b
+	-> Sure! #line:7650b6
+        Germ: Alright, let's go! #line:81478b
         <<set $germ_friendship_quest_3 to 1>>
         <<irisOut 1 wait>>
         <<scene GermHouse>>
 <<else>>
-    Germ: HET UP06VEM! #line:8bf985
-    Germ: MHE HAD0 D0M0L. #line:ce33dc
-    Mae: FDE TJ1 SNBEQJ? #line:a277cf
-    Germ: 3A UAPK0BK0L, HA X0VME #line:988109
-    Germ: 3A VEC0M #line:1833aa
-    Mae: XA. R TAM HNK0FDA HE 6J1VA. #line:f852fe
-    Germ: R 6J1V! #line:3ddc59
-    Mae: GT0 T04H0. #line:50aedb
-    Germ: YBNDNMCR! #line:6fb421
+    Germ: No prob! #line:8bf985
+    Germ: I gotta get home. #line:ce33dc
+    Mae: Where do you live? #line:a277cf
+    Germ: Across the parking lots, up the hill. #line:988109
+    Germ: back in the woods. #line:1833aa
+    Mae: Huh. I've never been back there. #line:f852fe
+    Germ: I have! #line:3ddc59
+    Mae: Yes you have. #line:50aedb
+    Germ: Seeya! #line:6fb421
     [[WalkGermOut]]
 <<endif>>
 ===

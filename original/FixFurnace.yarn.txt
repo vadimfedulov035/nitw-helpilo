@@ -3,19 +3,19 @@ tags:
 colorID: 0
 position: 423,-24
 ---
-Mae: NTAK... Y MEHR ECTJ FH0M, YD04KA, PAKETKA DVR 6ADMNHT0HA N BEHTNVRT0P. #line:e9c9c8
-Mae: ECTJ DBA BEHTNVR N... KPYTRWARCR QTYKA... 6E3 BEHTNVR. #line:0b6f84
-Mae: HABEPH0E, HYSH0 UP0CT0 U0KPYTNTJ KPYTRWY%CR QTYKY... #line:9a1389
--> ...0TKPJ1TJ TEUV0BJ1E TPY6J1. #line:22a47e
-    Mae: B03M0SH0, BHYTPN KVAHKN MH0F0 SAPA, K0T0PJ1L HE M0SET BJ1LTN HAPYSY. #line:b8cfe2
--> ...YCNVNTJ 0F0HJ #line:b5bd4b
-    Mae: M0SET 6J1TJ, B KVAHKN 3ASEFCR MAVEHJKNL 0F0HEK N TEUEPJ EMY HYSHA U0M0WJ. #line:d95dc0
-    Mae: BCE MJ1 4YBCTB0BAVN T0 SE CAM0E! 6EDHJ1L KVAHKN. #line:b81038
-Mae: 4T06J1 CDEVATJ KVAHKN F0PR4NM N HEYF0M0HHJ1M. #line:d02dcc
-Mae: MJ1 HAY4NM KVAHKN V%6NTJ. #line:820874
-Mae: DYMA%, R M0FVA 6J1... XM... #line:2d6325
-[[R DYMA%, 4T0 FH0MN M0F 6J1 BOEUNTJCR 3Y6AMN 3A QTYKY, FDE 6J1V0 K0VEC0.|GnomeyBite]] #line:8e477d
-[[NCU0VJ30BATJ PAKETKY KAK PY4KY.|RacketHandle]] #line:796054
+Mae: So... got a gnome, a fishing pole, a badminton racket, and a fan. #line:e9c9c8
+Mae: Got two wheels and a... turny thing... with no wheel. #line:0b6f84
+Mae: Probably just need to turn the turny thing... #line:9a1389
+-> ...to open up the heat pipes. #line:22a47e
+    Mae: Clanky’s probably got loads of heat but it can’t get out. #line:b8cfe2
+-> ...to turn up the fire. #line:b5bd4b
+    Mae: Clanky’s probably got a tiny fire going and could use some help. #line:d95dc0
+    Mae: We’ve all been there! Poor Clanky. #line:b81038
+Mae: to get Clanky all hot and bothered. #line:d02dcc
+Mae: We will teach Clanky to love.  #line:820874
+Mae: I bet I could... hm... #line:2d6325
+[[I think Gnomey could bite onto the turny thing where the wheel was.|GnomeyBite]] #line:8e477d
+[[Could use racket as a handle.|RacketHandle]] #line:796054
 ===
 title: DoneSetup
 tags: 
@@ -31,45 +31,45 @@ tags:
 colorID: 0
 position: 1416,254
 ---
-Mae: 0 DA, TAK DEPSATJ. #line:5fa811
-Mae: B03M0SH0, HYSH0... U0BEPHYTJ EF0? #line:7fd69d
-[[H0 MJ1 HE BCEFDA 6YDEM 3DECJ, 4T06J1 U0B0PA4NBATJ EF0 U0CT0RHH0...|NotAlwaysGoingToBeHereToPull]] #line:43ed1d
-[[R DYMA%, 6YDET D0CTAT04H0 U0BEPHYTJ N30 BCEX CNV 0DNH PA3.|OneGoodHardPull2]] #line:7ed2f5
+Mae: Ok yeah. That’s the stuff. #line:5fa811
+Mae: Probably could like... pull him? #line:7fd69d
+[[But we’re not always going to be here to pull him...|NotAlwaysGoingToBeHereToPull]] #line:43ed1d
+[[I think one good hard pull should be enough.|OneGoodHardPull2]] #line:7ed2f5
 ===
 title: RacketHandle
 tags: 
 colorID: 0
 position: -369,308
 ---
-Mae: GT0 D0VSH0 CPA60TATJ. #line:02931f
-[[X0TR, MJ1 HE BCEFDA 6YDEM 3DECJ, 4T06J1 U0B0PA4NBATJ EF0 U0CT0RHH0...|NotAlwaysHereToPullIt]] #line:f63942
-[[6YDET D0CTAT04H0 U0BEPHYTJ N30 BCEX CNV 0DNH PA3.|OneGoodHardPull]] #line:25c1c6
+Mae: Yeah that would work. #line:02931f
+[[Although we’re not always going to be here to pull it...|NotAlwaysHereToPullIt]] #line:f63942
+[[One good hard pull should do it.|OneGoodHardPull]] #line:25c1c6
 ===
 title: NotAlwaysHereToPullIt
 tags: 
 colorID: 0
 position: -1002,673
 ---
-Mae: BEHTNVRT0P D0VSEH 0CTATJCR N 3ATEM ECVN GT0 CV0MAET TE6R, T0 UPNDETCR 3AMEHNTJ BEHTNVRT0P... #line:60f381
-Mae: TAKSE GT0 6YDET 6E30UACH0 DVR 0KPYSA%WEL CPEDJ1. GT0 BASH0. #line:ba11a0
-Mae: UPRM0 KAK TE TYP6NHJ1 HA F0PAX, 0K0V0 Z0PT V%CEHA. #line:3e22d8
-Mae: 60SE, U0MH%, KAK T0FDA BCE 6J1VN 3VJ1 N3-3A GT0F0 #line:66a6c1
-Mae: "GT0 PA3PYQNT UPEKPACHJ1L BND HA F0PJ1! GT0 Y6JET UTNO!" #line:a4b90b
-Mae: 3HAETE, 4T0 EWE PA3PYQNT BND HA F0PJ1 N UTNO? #line:fa0bad
-Mae: K0FDA N3-3A FV06AVJH0F0 U0TEUVEHNR B 3EMV% BPESETCR METE0P! #line:3568aa
-Mae: B0T 4T0 CVY4NV0CJ C DNH03ABPAMN. #line:28b184
-Mae: TAK, HA 4EM R 0CTAH0BNVACJ? #line:e9ed85
-[[DNH03ABPJ1 6J1VN 4EPT0BCKN KPYTJ1.|DinosWereRad1]] #line:e90f62
-[[N3F0T0BVEHNE TYP6NHJ1 N3 6ADMNHT0HH0L PAKETKN.|BasementTurbineOutOfARacket]] #line:4d33ab
+Mae: The fan could stay on, and then if this breaks you only have to replace the fan... #line:60f381
+Mae: It should be good for the environment too. That’s important. #line:ba11a0
+Mae: Like the turbines on the mountain by Fort Lucenne. #line:3e22d8
+Mae: God, I remember when everyone was so mad about that #line:66a6c1
+Mae: “It’s gonna ruin the view! It’s gonna kill birds!” #line:a4b90b
+Mae: You know what else is gonna ruin the view and birds? #line:fa0bad
+Mae: When a meteor hits the earth because it gets too hot. #line:3568aa
+Mae: That’s what happened to the dinosaurs. #line:28b184
+Mae: ok where was I? #line:e9ed85
+[[Dinosaurs were effing rad.|DinosWereRad1]] #line:e90f62
+[[Making a basement turbine out of a badminton racket.|BasementTurbineOutOfARacket]] #line:4d33ab
 ===
 title: OneGoodHardPull
 tags: 
 colorID: 0
 position: -402,652
 ---
-Mae: 0K, C0CPED0T04JCR. Y TE6R BCE U0VY4NTCR, MGL 60P0BCKN. #line:a8a843
-[[X04Y ECTJ.|ImHungry]] #line:f71040
-[[NHTEPECH0, KAK0B0 GT0 - 3ACTPRTJ B UEWEPE.|StuckInACave]] #line:4c56b3
+Mae: ok, focus. work this out Mae Borowski. #line:a8a843
+[[I’m hungry.|ImHungry]] #line:f71040
+[[I wonder what it’s like to get stuck in a cave.|StuckInACave]] #line:4c56b3
 
 ===
 title: NotAlwaysGoingToBeHereToPull
@@ -77,57 +77,57 @@ tags:
 colorID: 0
 position: 1902,759
 ---
-Mae: BEHTNVRT0P D0VSEH 0CTATJCR N 3ATEM ECVN GT0 CV0MAET TE6R, T0 UPNDETCR 3AMEHNTJ BEHTNVRT0P... #line:cf6bca
-Mae: TAKSE GT0 6YDET 6E30UACH0 DVR 0KPYSA%WEL CPEDJ1. GT0 BASH0. #line:73a79f
-Mae: UPRM0 KAK TE TYP6NHJ1 HA F0PAX, 0K0V0 Z0PT V%CEHA. #line:fbaeaa
-Mae: 60SE, U0MH%, KAK T0FDA BCE 6J1VN 3VJ1 N3-3A GT0F0 #line:2ec2c6
-Mae: "GT0 PA3PYQNT UPEKPACHJ1L BND HA F0PJ1! GT0 Y6JET UTNO!" #line:6e8cfd
-Mae: 3HAETE, 4T0 EWE PA3PYQNT BND HA F0PJ1 N UTNO? #line:345f1f
-Mae: K0FDA N3-3A FV06AVJH0F0 U0TEUVEHNR B 3EMV% BPESETCR METE0P! #line:c3acd1
-Mae: B0T 4T0 CVY4NV0CJ C DNH03ABPAMN. #line:4c5fbd
-Mae: TAK, HA 4EM R 0CTAH0BNVACJ? #line:ab0e4c
-[[DNH03ABPJ1 6J1VN 4EPT0BCKN KPYTJ1.|DinosWereRad2]] #line:b86c9a
-[[N3F0T0BVEHNE TYP6NHJ1 N3 CAD0B0F0 FH0MA.|BasementTurbineOutOfAGardenGnome]] #line:b67a91
+Mae: The fan could stay on, and then if this breaks you only have to replace the fan... #line:cf6bca
+Mae: It should be good for the environment too. That’s important. #line:73a79f
+Mae: Like the turbines on the mountain by Fort Lucenne. #line:fbaeaa
+Mae: God, I remember when everyone was so mad about that #line:2ec2c6
+Mae: “It’s gonna ruin the view! It’s gonna kill birds!” #line:6e8cfd
+Mae: You know what else is gonna ruin the view and birds? #line:345f1f
+Mae: When a meteor hits the earth because it gets too hot. #line:c3acd1
+Mae: That’s what happened to the dinosaurs. #line:4c5fbd
+Mae: ok where was I? #line:ab0e4c
+[[Dinosaurs were effing rad.|DinosWereRad2]] #line:b86c9a
+[[Making a basement turbine out of a garden gnome.|BasementTurbineOutOfAGardenGnome]] #line:b67a91
 ===
 title: DinosWereRad2
 tags: 
 colorID: 0
 position: 1929,1065
 ---
-Mae: Y HNX DASE ECTJ DNH03ABPJ1, SNBYWNE B 0KEAHE! #line:74a210
-Mae: KAK X0P0Q0, 4T0 R HE 6J1VA PJ160L, K0T0PAR SNVA B T0 BPEMR. #line:f13cc5
-Mae: Y HNX B006WE 6J1VA PJ16A? 0HN 6J1VN, TNUA, PJ16AMN - DNH03ABPAMN? #line:bf70f0
-[[HE. PJ16A ECTJ PJ16A, MGL. HE TYUN.|FishAreFish2]] #line:60e2a4
-[[R NME% B BNDY, 0HN BEDJ D0VSHJ1 6J1VN 6J1TJ DNH03ABPAMN, BEPH0?|DinosaurFish2]] #line:f4e4e2
+Mae: They had dinosaurs in the ocean too! #line:74a210
+Mae: I’m glad I wasn’t a fish back then. #line:f13cc5
+Mae: Did they have fish? Were they like dinosaur fish? #line:bf70f0
+[[No. Fish are fish, Mae. Get a grip.|FishAreFish2]] #line:60e2a4
+[[I mean they’d have to be dinosaur fish, right?|DinosaurFish2]] #line:f4e4e2
 ===
 title: OneGoodHardPull2
 tags: 
 colorID: 0
 position: 1028,433
 ---
-Mae: HY TAK... XM... #line:faab7c
-Mae: CK0VJK0 CB060DH0F0 MECTA Y HAC TYT BHN3Y? #line:036304
-[[U0X0SE, HE 04EHJ MH0F0.|LooksLikeNotMuch]] #line:7c8ba3
-[[Y HAC D0CTAT04H0 MECTA.|WeGotPlentyOfRoom]] #line:e58c6b
+Mae: Ok so... hm... #line:faab7c
+Mae: How much space do we have down here? #line:036304
+[[Looks like not much.|LooksLikeNotMuch]] #line:7c8ba3
+[[We got plenty of room.|WeGotPlentyOfRoom]] #line:e58c6b
 ===
 title: Join2
 tags: 
 colorID: 0
 position: 1752,1904
 ---
-Mae: 3DECJ HET BETPA, H0, TNUA, #line:092f2f
-Mae: M0SH0 U0CTABNTJ BEHTNVRT0P HA 3ADHNOY FH0MN #line:2fb828
-Mae: N GT0 3ACTABNT EF0 KPYTNTJCR... #line:cd4cab
-Mae: U0CTABNM PAKETKY, KAK 3ABEPQA%WNL QTPNX. #line:336cc7
-Mae: CBRSEM BCE BMECTE VECK0L N YX TJ1! #line:7deb73
+Mae: So there isn’t a lot of wind down here, but like #line:092f2f
+Mae: Could put the fan on Gnomey’s butt #line:2fb828
+Mae: And that would make it spin... #line:cd4cab
+Mae: Racket for the other fin part. #line:336cc7
+Mae: Tie it all together with the fishing line and WOW #line:7deb73
 <<close>>
 <<set $furnace_contraption to 5>>
 <<animationTrigger Contraption_E_GnomeTurbine Build>>
 <<wait 4>>
-Mae: MHE HABEPH0E, TNUA, HYSH0 0TKPJ1TJ CB0% K0MUAHN% #line:bbb19e
-Mae: YCT0L4NBAR TYP6NHA N3 MYC0PA!!! #line:836737
-Bea: R 3AK0H4NVA! #line:b0ac3b
-Mae: 4T0?! #line:ce22b2
+Mae: I should, like, start a company #line:bbb19e
+Mae: SUSTAINABLE GARBAGE TURBINE!!! #line:836737
+Bea: Ok done! #line:b0ac3b
+Mae: What?! #line:ce22b2
 [[DoneSetup]]
 ===
 title: BasementTurbineOutOfAGardenGnome
@@ -135,7 +135,7 @@ tags:
 colorID: 0
 position: 1596,1222
 ---
-Mae: UPABNVJH0. #line:e71e69
+Mae: Right. #line:e71e69
 [[Join2]]
 ===
 title: DinosWereRad1
@@ -143,32 +143,32 @@ tags:
 colorID: 0
 position: -1239,965
 ---
-Mae: Y HNX DASE ECTJ DNH03ABPJ1, SNBYWNE B 0KEAHE! #line:34d4c8
-Mae: KAK X0P0Q0, 4T0 R HE 6J1VA PJ160L, K0T0PAR SNVA B T0 BPEMR. #line:84bae1
-Mae: Y HNX B006WE 6J1VA PJ16A? 0HN 6J1VN, TNUA, PJ16AMN - DNH03ABPAMN? #line:97373d
-[[HE. PJ16A ECTJ PJ16A, MGL. HE TYUN.|FishAreFish1]] #line:2d09a0
-[[R NME% B BNDY, 0HN BEDJ D0VSHJ1 6J1VN 6J1TJ DNH03ABPAMN, BEPH0?|DinosaurFish1]] #line:903c46
+Mae: They had dinosaurs in the ocean too! #line:34d4c8
+Mae: I’m glad I wasn’t a fish back then. #line:84bae1
+Mae: Did they have fish? Were they like dinosaur fish? #line:97373d
+[[No. Fish are fish, Mae. Get a grip.|FishAreFish1]] #line:2d09a0
+[[I mean they’d have to be dinosaur fish, right?|DinosaurFish1]] #line:903c46
 ===
 title: Join1
 tags: 
 colorID: 0
 position: -915,1697
 ---
-Mae: 3DECJ HET BETPA, H0, TNUA, #line:0c2efe
-Mae: 0K, U0CTABNM FH0MN HA 3EMV% #line:483e73
-Mae: UP0CTN, FH0MN #line:50102f
-Mae: U0CTABNM BEHTNVRT0P HA EF0 UV0CKY% 3ADHNOY #line:940621
-Mae: R U0HNMA% GT0 4YBCTB0, FH0MN. Y MEHR TAKAR SE. #line:c1da23
-Mae: N UPNBRSEM PAKETKY UPNMEPH0 B0T TAK... #line:6214f4
+Mae: So there isn’t a lot of wind down here, but like #line:0c2efe
+Mae: ok we stick Gnomey in the ground #line:483e73
+Mae: sorry Gnomey #line:50102f
+Mae: put the fan on top of his flat table-butt #line:940621
+Mae: I feel that pain, Gnomey. I have one too. #line:c1da23
+Mae: And tie the racket on like this... #line:6214f4
 <<close>>
 <<set $furnace_contraption to 3>>
 <<animationTrigger Contraption_C_RacketTurbine Build>>
 <<wait 4>>
-Mae: GL, HEUV0X0! #line:1493c3
-Mae: MHE HABEPH0E, TNUA, HYSH0 0TKPJ1TJ CB0% K0MUAHN% #line:0f0353
-Mae: YCT0L4NBAR TYP6NHA N3 MYC0PA!!! #line:85b63d
-Bea: R 3AK0H4NVA! #line:b02c30
-Mae: 4T0?! #line:3016fb
+Mae: Hey alright! #line:1493c3
+Mae: I should, like, start a company #line:0f0353
+Mae: SUSTAINABLE GARBAGE TURBINE!!! #line:85b63d
+Bea: Ok done! #line:b02c30
+Mae: What?! #line:3016fb
 [[DoneSetup]]
 ===
 title: ImHungry
@@ -176,15 +176,15 @@ tags:
 colorID: 0
 position: -575,979
 ---
-Mae: HAD0 6J1 HABEDATJCR B GT0T BYVZ. #line:08cee8
-Mae: GT0T D-D-D0HAT BYVZ. #line:75f7ba
-Mae: 6J1V0 BNDE0 B CETN, KAK PA60TAET NX KEKC0ABT0MAT #line:c7cedf
-Mae: R U0D HEF0 3ACJ1UAVA, TNUA, KASDY% H04J, K0FDA B QK0VE Y4NVACJ #line:f508a3
-Mae: 60VJQAR CV0SHAR MAQNHA DEVAET BKYCHRQHJ1E KEKCNKN. #line:ee63e5
-Mae: HE M0FY UPEDCTABNTJ, 4T0 KT0-T0 C03DAV TAKY% QTYKY #line:49d0a7
-Mae: 0HA NDEAVJH0 PA60TAET, H0 BJ1FVRDNT 04EHJ CTPAHH0 #line:2c1ca0
-Mae: KAK 6YDT0 KT0-T0 UP0CT0 QEV MNM0 N UPNDYMAV EE #line:1183d4
-Mae: A U0VY4NVCR HACT0RWNL QEDEBP. #line:432784
+Mae: Could go for some of that Wolf. #line:08cee8
+Mae: That D-D-Donut Wolf. #line:75f7ba
+Mae: There’s that video online of their slammercake machine #line:c7cedf
+Mae: watching it was how I fell asleep like half the nights at school. #line:f508a3
+Mae: Big complicated machine making delicious cake-ums. #line:ee63e5
+Mae: I can’t imagine how anyone built something like that #line:49d0a7
+Mae: Everything works perfectly but it’s so weird looking #line:2c1ca0
+Mae: Like someone was just making it up as they went along #line:1183d4
+Mae: and somehow created perfection. #line:432784
 [[WingThisToo]]
 ===
 title: StuckInACave
@@ -192,20 +192,20 @@ tags:
 colorID: 0
 position: -278,969
 ---
-Mae: R BNDEVA GT0 U0 TEVEBN30PY. UP0 T0, KAK V%DN 3AHNMA%TCR DALBNHF0M B UEWEPAX. #line:9fb3a1
-Mae: 4T0, U0 M0EMY MHEHN%, 04EHJ FVYU0. #line:a65af3
-Mae: TNUA, UP0CT0 UVABAR, TJ1 M0SEQJ YT0HYTJ #line:c841e2
-Mae: H0 HE B UEWEPE, BMECTE C QAKAVAMN N U0D06HJ1M. #line:b0d752
-Mae: "QAKAVAMN?" R NMEVA B BNDY QVAHFAMN. #line:b2db5f
-Mae: U04EMY R B006WE DYMA% 0 QAKAVAX? #line:b0f7e7
-Mae: 0, M0L 60F. #line:130095
-Mae: UEWEPHJ1E QAKAVJ1 #line:7e3d0a
-Mae: A 4T0 ECVN TE6R CXBATRT UEWEPHJ1E QAKAVJ1? #line:c3efe2
-Mae: NHTEPECH0, KAK TE6R 0TTYDA 6YDYT BJ1TACKNBATJ? #line:8397d2
-Mae: HABEPH0E, 6YDYT NMUP0BN3NP0BATJ, CDEVA%T 60VJQ0E CV0SH0E UPNCU0C06VEHNE. #line:31bfaf
-Mae: HE M0FY UPEDCTABNTJ MAQNHY, K0T0PY% CDEVAVN DVR T0F0, 4T06J1 BJ1TACKNBATJ DALBEP0B N3 UVEHA UEWEPHJ1X QAKAV0B... #line:dd6ad3
-Mae: BEDJ KT0 3HAET, 4T0 M0SET CVY4NTJCR B UEWEPE? #line:c43324
-Mae: AAAAA! MGL, CZ0KYCNPYLCR! #line:2f34a9
+Mae: I saw this thing on tv about people that scuba dive in caves. #line:9fb3a1
+Mae: Which, for my money, is really stupid. #line:a65af3
+Mae: Like in normal swimming you can drown #line:c841e2
+Mae: but you’re not in a cave, with horses and stuff. #line:b0d752
+Mae: "Horses?" I meant hoses. #line:b2db5f
+Mae: Why am I thinking of horses? #line:b0f7e7
+Mae: OMG. #line:130095
+Mae: CAVE HORSES. #line:7e3d0a
+Mae: What if you were trapped by a cave horse? #line:c3efe2
+Mae: I wonder how they’d pull you out? #line:8397d2
+Mae: Probably just have to wing it, make some big complicated thing #line:31bfaf
+Mae: I can’t imagine there’s a machine made just for pulling scuba divers away from cave horses... #line:dd6ad3
+Mae: Although who knows what happens down there? #line:c43324
+Mae: Aaaagh! Focus, Mae! #line:2f34a9
 [[WingThisToo]]
 ===
 title: WingThisToo
@@ -213,26 +213,26 @@ tags:
 colorID: 0
 position: -380,1527
 ---
-Mae: M0SET 6J1TJ, MHE T0SE HAD0 NMUP0BN3NP0BATJ? UP0CT0 CDEVATJ 4T0-T0 KAK M0SH0 6J1CTPEE, 0C060 HE 3ADYMJ1BARCJ? #line:54b3a5
-Mae: 0KEL, UPNCTYUNM. #line:aca66f
-Mae: 0K, UPNBR3J1BAEM PAKETKY K KPYTRWELCR QTYKE, 3ATEM UPNBR3J1BAEM GT0 K BEHTNVRT0PY, H0, U0CT0LTE, #line:aa9b4d
-Mae: H0 KAK R CM0FY UPED0TBPATNTJ BPAWEHNE BEHTNVRT0PA #line:6f5ce2
-Mae: 0KEL, UP0CTN, FH0MN, H0 MHE UPNDETCR UEPEBEPHYTJ TE6R KAK BAMUNPA #line:bab180
-Mae: R DYMA%, BAMUNP0B X0P0HNVN UEPEBEPHYTJ1MN, 4T06J1, K0FDA 0HN UJ1TAVNCJ BJ16PATJCR #line:837777
-Mae: N3 CB0NX FP060B, 0HN 6J1 T0VJK0 3AKAUJ1BAVNCJ DAVJQE BHN3, U0T0MY 4T0 XA XA XA XA, TYUJ1E BAMUNPJ1 #line:f49b6b
-Mae: BJ1 D0K0UAETE D0 OEHTPA 3EMVN N YMPETE. #line:20b4d5
-Mae: CH0BA. #line:47966d
+Mae: Maybe I should just wing this too? Just do it fast so I don’t overthink it? #line:54b3a5
+Mae: OK LET’S DO IT! #line:aca66f
+Mae: ok tie the racket to the turny thing and then tie THAT to the fan but wait #line:aa9b4d
+Mae: how am i going to keep the fan from rolling up like a big fan fish #line:6f5ce2
+Mae: ok sorry gnomey i have to put you upside down like a vampire #line:bab180
+Mae: i think they used to bury vampires upside down so when they tried to dig out #line:837777
+Mae: of their coffins they’d just dig down because ha ha ha ha stupid vampire #line:f49b6b
+Mae: now you’re in the center of the earth and you died. #line:20b4d5
+Mae: again. #line:47966d
 <<close>>
 <<set $furnace_contraption to 2>>
 <<animationTrigger Contraption_B_CaveHorse Build>>
 <<wait 4>>
-Mae: GL, BJ1FVRDNT HEUV0X0! #line:834097
-Mae: DA R... NHSEHEP! #line:4dd478
-Mae: NVN KT0 TAM C03DAET MEXAHN3MJ1! #line:b2e2b5
-Mae: MEXASNHEP? #line:0d6f7c
-Mae: 0KEL, A TEUEPJ DABALTE DADNM GT0MY DETNWY... #line:e8dd5b
-Bea: R 3AK0H4NVA! #line:d91a0f
-Mae: 4T0?! #line:f8ba84
+Mae: Hey this looks great! #line:834097
+Mae: I’m like... an engineer! #line:4dd478
+Mae: Or whoever makes machines! #line:b2e2b5
+Mae: A machinegineer? #line:0d6f7c
+Mae: Alright let’s give this baby a go- #line:e8dd5b
+Bea: Ok done! #line:d91a0f
+Mae: What?! #line:f8ba84
 [[DoneSetup]]
 ===
 title: BasementTurbineOutOfARacket
@@ -240,7 +240,7 @@ tags:
 colorID: 0
 position: -871,1022
 ---
-Mae: UPABNVJH0. #line:eb0421
+Mae: Right. #line:eb0421
 [[Join1]]
 ===
 title: FishAreFish2
@@ -248,13 +248,13 @@ tags:
 colorID: 0
 position: 2190,1400
 ---
-Mae: PJ16J1 HABEPH0E 6J1VN TAKNE, TNUA, 0, 4YBAK, 4T0 3A 4EPT. #line:589e40
-Mae: "R HE M0FY U0BEPNTJ, 4T0 PJ16J1 N3 6YDYWEF0 HE PA36NPA%TCR B GT0M DEPJME" #line:85b368
-Mae: "AKYVJ1? XEX. U0VY4NTE KY4Y UNPAHNL HECCN C 6EQEHCTB0M." #line:e9e21c
-Mae: 4YBAK N3 D0KYMEHTAVKN TAK0L 6J1 #line:f088a5
-Mae: "MNVVN0HJ1 VET HA3AD M0PR 6J1VN U0VHJ1 6EQEHJ1X UNPAHNL HECCN." #line:65d40a
-Mae: 0K, MGL, C0CPED0T04JCR. #line:7ffc90
-Mae: DEVAL TYP6NHY. #line:9f38dc
+Mae: Fish were probably like aw man what the HELL. #line:589e40
+Mae: “I can’t believe future fish don’t have to deal with this BS.” #line:85b368
+Mae: “Sharks? Heh. Get a load of Piranha Nessie with rabies over here.” #line:e9e21c
+Mae: Documentary guy is all like #line:f088a5
+Mae: “Millions of years ago the seas were full of Piranha Rabies Nessies.” #line:65d40a
+Mae: Ok FOCUS Mae. #line:7ffc90
+Mae: Making a turbine. #line:9f38dc
 [[Join2]]
 ===
 title: DinosaurFish2
@@ -262,10 +262,10 @@ tags:
 colorID: 0
 position: 1817,1357
 ---
-Mae: A BEDJ T0FDA 6J1VN SYKN-DNH03ABPJ1, DEPEBJR-DNH03ABPJ1, KAKAQKN-DNH03ABPJ1. #line:e12ac1
-Mae: R 6J1 X0TEVA YBNDETJ V0CR-DNH03ABPA. 0H T04H0 6J1V 6J1 D0CTAT04H0 KVEBJ1M. #line:10e23b
-Mae: 0K, MGL, C0CPED0T04JCR. #line:4f145f
-Mae: DEVAL TYP6NHY. #line:9656b8
+Mae: Yeah, I mean back then they had dinosaur bugs, dinosaur trees, dinosaur poop. #line:e12ac1
+Mae: I’d like to see a dinosaur moose. I bet that would’ve been pretty great. #line:10e23b
+Mae: Ok FOCUS Mae. #line:4f145f
+Mae: Making a turbine. #line:9656b8
 [[Join2]]
 ===
 title: FishAreFish1
@@ -273,13 +273,13 @@ tags:
 colorID: 0
 position: -1410,1272
 ---
-Mae: PJ16J1 HABEPH0E 6J1VN TAKNE, TNUA, 0, 4YBAK, 4T0 3A 4EPT. #line:4b1370
-Mae: "R HE M0FY U0BEPNTJ, 4T0 PJ16J1 N3 6YDYWEF0 HE PA36NPA%TCR B GT0M DEPJME" #line:021e6b
-Mae: "AKYVJ1? XEX. U0VY4NTE KY4Y UNPAHNL HECCN C 6EQEHCTB0M." #line:7e6c80
-Mae: 4YBAK N3 D0KYMEHTAVKN TAK0L 6J1 #line:52ac27
-Mae: "MNVVN0HJ1 VET HA3AD M0PR 6J1VN U0VHJ1 6EQEHJ1X UNPAHNL HECCN." #line:449bc3
-Mae: 0K, MGL, C0CPED0T04JCR. #line:46c311
-Mae: DEVAL TYP6NHY. #line:731b3a
+Mae: Fish were probably like aw man what the HELL. #line:4b1370
+Mae: “I can’t believe future fish don’t have to deal with this BS.” #line:021e6b
+Mae: “Sharks? Heh. Get a load of Piranha Nessie with rabies over here.” #line:7e6c80
+Mae: Documentary guy is all like #line:52ac27
+Mae: “Millions of years ago the seas were full of Piranha Rabies Nessies.” #line:449bc3
+Mae: Ok FOCUS Mae. #line:46c311
+Mae: Making a turbine. #line:731b3a
 [[Join1]]
 ===
 title: DinosaurFish1
@@ -287,10 +287,10 @@ tags:
 colorID: 0
 position: -1088,1275
 ---
-Mae: A BEDJ T0FDA 6J1VN SYKN-DNH03ABPJ1, DEPEBJR-DNH03ABPJ1, KAKAQKN-DNH03ABPJ1. #line:486234
-Mae: R 6J1 X0TEVA YBNDETJ V0CR-DNH03ABPA. 0H T04H0 6J1V 6J1 D0CTAT04H0 KVEBJ1M. #line:43c898
-Mae: 0K, MGL, C0CPED0T04JCR. #line:da73c4
-Mae: DEVAL TYP6NHY. #line:716b1f
+Mae: Yeah, I mean back then they had dinosaur bugs, dinosaur trees, dinosaur poop. #line:486234
+Mae: I’d like to see a dinosaur moose. I bet that would’ve been pretty great. #line:43c898
+Mae: Ok FOCUS Mae. #line:da73c4
+Mae: Making a turbine. #line:716b1f
 [[Join1]]
 ===
 title: LooksLikeNotMuch
@@ -298,39 +298,39 @@ tags:
 colorID: 0
 position: 622,672
 ---
-Mae: 0K, KAK GT0 BCE C0EDNHNTJ. #line:8e0c5d
-Mae: DYMAL, MGL... #line:4e8c18
-[[NHTEPECH0, 4EM FPEFF CEL4AC 3AHRT?|WhatGreggsUpTo]] #line:7efecc
-[[KAK HA3J1BAVCR GT0T ZNVJM?|NameOfThatOneMovie]] #line:5ec486
+Mae: Ok so something compact. #line:8e0c5d
+Mae: Think Mae... #line:4e8c18
+[[I wonder what Gregg’s up to?|WhatGreggsUpTo]] #line:7efecc
+[[What was the name of that one movie?|NameOfThatOneMovie]] #line:5ec486
 ===
 title: WeGotPlentyOfRoom
 tags: 
 colorID: 0
 position: 1287,732
 ---
-Mae: XM... C0CPED0T04JCR, MGL. #line:45014b
-[[NHTEPECH0, CM0FY VN R K0FDA-HN6YDJ U0VY4NTJ GT0T M0T0ONKV.|GetThatMotorcycle]] #line:6302da
-[[NHTEPECH0, 4T0 CVY4NV0CJ C V0DK0L KELCN?|CaseysBoat]] #line:fff8aa
+Mae: hm... focus, Mae. #line:45014b
+[[I wonder if I’ll ever get that motorcycle.|GetThatMotorcycle]] #line:6302da
+[[I wonder what happened to Casey’s boat?|CaseysBoat]] #line:fff8aa
 ===
 title: StopFan
 tags: 
 colorID: 0
 position: 358,1809
 ---
-Mae: 0X, U0D0SDNTE, 4T0 M0SET UPED0TBPATNTJ DBNSEHNE BEHTNVRT0PA? #line:a3886a
-Mae: PAKETKA!!! #line:2a2339
+Mae: Oh wait, what’s gonna stop the fan from moving? #line:a3886a
+Mae: RACKET!!! #line:2a2339
 <<close>>
 <<set $furnace_contraption to 1>>
 <<animationTrigger Contraption_A_CorpseDriver Build>>
 <<wait 4>>
-Mae: TEUEPJ BCE BJ1FVRDNT NDEAVJH0! #line:a522fb
-Mae: NCU0VJ3YEM FH0MA KAK U0DCTABKY, #line:cb355e
-Mae: BEHTNVRT0P, 4T06J1 0H BCE CTRHYV, #line:9893b0
-Mae: VECKA BCE C0EDNHRET, #line:d9216f
-Mae: N PAKETKA, 4T06J1 BEHTNVRT0P CT0RV HA MECTE. #line:57b76a
-Mae: GT0 N3YMNTEVJH0! #line:da5108
-Bea: R 3AK0H4NVA! #line:3eac03
-Mae: 4T0?! #line:eedf9a
+Mae: Alright well that looks perfect! #line:a522fb
+Mae: Got Gnomey as the handle, #line:cb355e
+Mae: the fan as the puller, #line:9893b0
+Mae: the line connecting them, #line:d9216f
+Mae: and the racket keeping the fan in place. #line:57b76a
+Mae: This is amazing! #line:da5108
+Bea: Ok done! #line:3eac03
+Mae: What?! #line:eedf9a
 [[DoneSetup]]
 ===
 title: WhatGreggsUpTo
@@ -338,26 +338,26 @@ tags:
 colorID: 0
 position: 293,803
 ---
-Mae: NHTEPECH0, PA306PAVCR VN 0H C GT0L QTYK0L... #line:2ca9de
-Mae: R U0MH%, KAK KELCN YCTP0NVCR HA PA60TY B MEDBED6YPFEP 0K0V0 6PNDVVA. #line:0b6271
-Mae: N 0H PA3PEQAV HAM 3AX0DNTJ HA KYXH% N DEVATJ 6YPFEPJ1, KAKNE 3AX0TNM #line:8e3221
-Mae: H0 3ATEM UPNQEV MEHEDSEP DSEZZ, N HAM UPNQV0CJ BJ1UPJ1FHYTJ 4EPE3 0KH0 #line:a9cf44
-Mae: N H0FA FPEFFA U0UAVA B KAK0L-T0 KA6EVJ #line:346317
-[[N MAQNHA U04TN UP0EXAVACJ U0 HEMY|CarAlmostRanOverHim]] #line:5e44b3
-[[N 0H 6VEBAHYV|AndHePuked]] #line:d5a165
+Mae: Wonder if he figured out that thing... #line:2ca9de
+Mae: I remember when Casey had that job at the BurgBear out by Briddle. #line:0b6271
+Mae: And he let us behind the counter to make whatever burgs we wanted #line:8e3221
+Mae: but then Jeff the manager came in and we had to jump out the drivethrough window #line:a9cf44
+Mae: and Gregg’s leg got caught in some sort of cable #line:346317
+[[and a car almost ran over him|CarAlmostRanOverHim]] #line:5e44b3
+[[and he puked|AndHePuked]] #line:d5a165
 ===
 title: NameOfThatOneMovie
 tags: 
 colorID: 0
 position: 738,1127
 ---
-Mae: T0T, FDE 4YBAK 6J1V UPNBR3AH K GT0L MAQNHE DPYFNM 4YBAK0M. #line:457801
-Mae: N, TNUA, 6J1V PA30PBAH U0U0VAM? #line:04d416
-Mae: GT0 6J1V0 KPYT0, DASE ECVN GT0 BJ1FVRDEV0 KAK V0000SJ. #line:fb2850
-Mae: R U0MH%, K0FDA 0H B30PBAVCR, TAM 6J1V0 #line:6e46f1
-Mae: B DBA PA3A 60VJQE K0CTEL, 4EM D0VSH0 6J1V0 6J1TJ. #line:c6ac6b
-[[NHTEPECH0, KAK GT0 UP0CK0VJ3HYV0 MNM0 HNX?|WonderHowThatSlippedPastThem]] #line:75c221
-[[X0P0Q0, CZ0KYCNPYLCR, MGL.|FocusMae]] #line:90b7db
+Mae: The one where the guy got tied to that machine by that other guy. #line:457801
+Mae: And like totally got ripped in half? #line:04d416
+Mae: That was pretty cool even if it looked faaaake. #line:fb2850
+Mae: I remember when he exploded there were like #line:6e46f1
+Mae: twice as many bones as there should have been. #line:c6ac6b
+[[I wonder how that slipped past them?|WonderHowThatSlippedPastThem]] #line:75c221
+[[Alright FOCUS Mae.|FocusMae]] #line:90b7db
 
 ===
 title: GetThatMotorcycle
@@ -365,14 +365,14 @@ tags:
 colorID: 0
 position: 1126,994
 ---
-Mae: KPYT0L 6ALK, HE TYU0L N FP0MKNL, U0T0MY 4T0 0T GT0F0 60VRT M0N YQN #line:b4f1eb
-Mae: DPGF-PELCNHF. #line:10905c
-Mae: YMEEQJ F0HRTJ HA 6ALKE? #line:e73321
-Mae: NVN GT0 U0X0SE HA ABT0M06NVJHJ1E QTYKN? #line:f7a70b
-Mae: B 0DH0M CTAP0M ZNVJME 6J1V M0HCTP C TA4K0L-M0HCTP0M. #line:9b5604
-Mae: N Y HEF0 6J1V KVEBJ1L QVEM N KPYTJ1E CAU0FN, N GT0 6J1V0 CAM0E KPYT0E, 4T0 R BNDEVA K0FDA-VN60. #line:7189d9
-Mae: XM... M0SET UPNTAWNTJ FH0MN.... #line:070f84
-Mae: NCU0VJ30BATJ UP0UEVVEP KAK K0VEC0? #line:3afb45
+Mae: A cool bike that isn’t dumb and loud because that hurts my ears #line:b4f1eb
+Mae: Drag-racin’. #line:10905c
+Mae: Can you drag race on bikes? #line:e73321
+Mae: Or is that like a car thing? #line:f7a70b
+Mae: That one old movie had the monster guy with the monster drag racer. #line:9b5604
+Mae: And he had a cool helmet and cool boots and it was the coolest thing ever. #line:7189d9
+Mae: Hm... could drag Gnomey... #line:070f84
+Mae: Use the fan as like a wheel? #line:3afb45
 [[RevItUp]]
 ===
 title: CaseysBoat
@@ -380,14 +380,14 @@ tags:
 colorID: 0
 position: 1401,1004
 ---
-Mae: Y HEF0 ECTJ 4T0-T0 BP0DE V0DKN. #line:3c3601
-Mae: DYMA%, 0HA UPNHADVESAVA EF0 0TOY, U0KA T0T HE YMEP. #line:e13216
-Mae: U0TEPRTJ ZNF0B0F0 0TOA, H0 U0VY4NTJ V0DKY! #line:6d59d0
-Mae: B0 BPEMR U0T0UA, B F0D, K0FDA DED YMEP, 0H UP0UVJ1V HA HEL U0 0KPYFE #line:24f125
-Mae: N GT0 6J1V0 0DH0L N3 CAMJ1X KPYTJ1X BEWEL, K0T0PJ1E R BNDEVA, #line:f133bd
-Mae: H0 0H U04TN 3ADEV UVJ1BYWY% C06AKY UP0UEVVEP0M #line:7fde11
-Mae: SN3HJ B M0PE U0VHA 0UACH0CTEL #line:698aba
-Mae: ... XM... M0SH0 NCU0VJ30BATJ BEHTNVRT0P KAK UP0UEVVEP...HY, TNUA, K0VEC0... #line:a54b11
+Mae: He had, like, a boat. #line:3c3601
+Mae: I think it was his dad’s before he died. #line:e13216
+Mae: Lose a really shitty dad, get a boat! #line:6d59d0
+Mae: During that flood the year granddad died, he rode it through the neighborhood #line:24f125
+Mae: which was one of the coolest things I’ve ever seen. #line:f133bd
+Mae: but he almost hit that swimming dog with the propeller #line:7fde11
+Mae: life on the sea is dangerous #line:698aba
+Mae: ...hm... could use the fan as like a propeller... wheel... thing... #line:a54b11
 [[RevItUp]]
 ===
 title: RevItUp
@@ -395,17 +395,17 @@ tags:
 colorID: 0
 position: 1238,1730
 ---
-Mae: PACKPYTNTJ N DATJ EL YDAPNTJ FH0MN? #line:faf4bd
-Mae: UPNBR3ATJ FH0MN K PAKETKE, UPNBR3ATJ PAKETKY K BEHTNVRT0PY.. #line:6a4abb
+Mae: rev it up and let it yank Gnomey? #line:faf4bd
+Mae: Tie gnomey to the racket, tie the racket to the fan... #line:6a4abb
 <<close>>
 <<set $furnace_contraption to 4>>
 <<animationTrigger Contraption_D_DragRacer Build>>
 <<wait 4>>
-Mae: T04H0, MGL. TAK DEPSATJ. #line:08170d
-Mae: GT0 FEHNAVJH0. R FEHNAVJHA. #line:843b9f
-Mae: VADHEHJK0, DABAL U0UP06YEM #line:1bb856
-Bea: R 3AK0H4NVA! #line:386627
-Mae: 4T0?! #line:4c41a2
+Mae: Yeah Mae. That’s the stuff. #line:08170d
+Mae: This is genius. I am a genius. #line:843b9f
+Mae: Alright let’s give this a shot- #line:1bb856
+Bea: Ok done! #line:386627
+Mae: What?! #line:4c41a2
 [[DoneSetup]]
 ===
 title: CarAlmostRanOverHim
@@ -413,7 +413,7 @@ tags:
 colorID: 0
 position: 31,1141
 ---
-Mae: H0 DSEZZ HAC TAK N HE U0LMAV! #line:c79bdb
+Mae: but Jeff never caught us! #line:c79bdb
 [[HadToPullHimOut]]
 ===
 title: AndHePuked
@@ -421,10 +421,10 @@ tags:
 colorID: 0
 position: 331,1123
 ---
-Mae: TNUA, CBEPXY BHN3 #line:59a945
-Mae: N 0H... 6VEBAHYV CE6E B H0C? #line:f04764
-Mae: N U0T0M EF0 CH0BA BJ1PBAV0 N BCE 6J1V0 KAK 6YDT0 #line:a95d66
-Mae: HEPA3PJ1BHJ1L U0T0K 6VEB0TNHJ1 HA HECK0VJK0 CEKYHD #line:194c84
+Mae: like, upside down #line:59a945
+Mae: and he like... puked up his nose? #line:f04764
+Mae: and then he puked again and it was like #line:a95d66
+Mae: perpetual puke for a few seconds #line:194c84
 [[HadToPullHimOut]]
 ===
 title: HadToPullHimOut
@@ -432,10 +432,10 @@ tags:
 colorID: 0
 position: 192,1479
 ---
-Mae: N MHE UPNQV0CJ EF0 TAWNTJ... #line:402d35
-Mae: N MJ1 HE M0FVN UEPECTATJ CMERTJCR...						 #line:67da8a
-Mae: ...M0FVA 6J1 C0EDNHNTJ FH0MN C BEHTNVRT0P0M... #line:91b1b9
-Mae: B 4ECTJ FPEFFA.	 #line:dcdbff
+Mae: and I had to pull him out... #line:402d35
+Mae: and we couldn’t stop laughing...						 #line:67da8a
+Mae: ...could tie Gnomie to the to fan... #line:91b1b9
+Mae: In honor of Gregg.	 #line:dcdbff
 [[StopFan]]
 ===
 title: WonderHowThatSlippedPastThem
@@ -443,8 +443,8 @@ tags:
 colorID: 0
 position: 521,1393
 ---
-Mae: M0SET, HA ZNVJMAX U0VY4QE ECTJ K0HTP0VVEPJ1 #line:b46117
-Mae: U0GT0MY TAKNE BEWN HE CVY4A%TCR. #line:146b20
+Mae: Maybe better movies have a bone supervisor #line:b46117
+Mae: So things like this don’t happen. #line:146b20
 [[FocusMae]]
 ===
 title: FocusMae
@@ -452,13 +452,13 @@ tags:
 colorID: 0
 position: 693,1646
 ---
-Mae: 0KEL, UPNBRSEM FH0MN K BEHTNVRT0PY... #line:164373
-Mae: C U0M0WJ% VECKN #line:880353
-Mae: N GT0 EF0 U0TRHET? #line:f1ee4d
-Mae: H0 HE PA30PBET HA 4ACTN. #line:60105f
-Mae: Y FH0MN DASE K0CTEL HET. #line:3efb04
-Mae: TPYU0B03KA! #line:cd222a
-Mae: KAK HA3J1BAVCR T0T ZNVJM. #line:e7d016
-Mae: 6YDY HA3J1BATJ CB0% MAQNHY TPYU0B03KA. #line:f1ae98
+Mae: Ok so let’s tie Gnomey to the fan... #line:164373
+Mae: With the fishing line #line:880353
+Mae: And THAT could pull him? #line:f1ee4d
+Mae: But it won’t rip him in half. #line:60105f
+Mae: Gnomey don’t even got bones. #line:3efb04
+Mae: CORPSEDRIVER!  #line:cd222a
+Mae: What’s what the movie was called. #line:e7d016
+Mae: I shall call my machine Corpsedriver. #line:f1ae98
 [[StopFan]]
 ===

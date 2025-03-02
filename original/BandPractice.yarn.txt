@@ -6,35 +6,35 @@ position: 1996,-1146
 <<lookAt Gregg Mae>>
 <<if $band_practice_0_right is 100>>
     // player played the song perfectly!
-    Gregg: GM, GT0 6J1V0 BU0VHE CE6E... NDEAVJH0. #line:0aa657
-    Bea: G-G... 0F0. #line:fc21bf
-    Angus: DA. #line:ca797a
-    Mae: UP0WE UP0CT0F0. :) #line:f4df4c
+    Gregg: Um, that was pretty much... perfect. #line:0aa657
+    Bea: Uh... whoa. #line:fc21bf
+    Angus: Yeah. #line:ca797a
+    Mae: All in a day's work. :) #line:f4df4c
     Mae: :| #line:de244d
 <<elseif $band_practice_0_right > 90>>
     // player did pretty alright!!
-    Gregg: D0B0VJH0 HEUV0X0! #line:23c35c
-    Bea: DA, HN4EF0 TAK. #line:e83cf8
-    Mae: HEUV0X0, Y4NTJ1BAR, 4T0 R HE 3HA% UECHN! #line:20f7af
+    Gregg: Pretty good! #line:23c35c
+    Bea: Yeah, that was okay. #line:e83cf8
+    Mae: Not bad considering I don't know this song! #line:20f7af
 <<elseif $band_practice_0_played < 50>>
     // player played less than 50% of the notes registered
-    Gregg: TAK... TJ1 UP0CT0 HE X04EQJ DAVJQE NFPATJ C HAMN? #line:8fe4a4
-    Bea: DA, B GT0M BCR CYTJ? #line:919742
-    Mae: CYTJ B T0M, 4T0 R EDBA 3HA% UECH%. #line:156ea8
+    Gregg: So... you just not gonna play mostly? #line:8fe4a4
+    Bea: Yeah is this your thing? #line:919742
+    Mae: My thing is barely knowing this song to begin with. #line:156ea8
 <<elseif $band_practice_0_right < 20>>
     // player probably mashed random buttons for the whole song
-    Bea: 4T0-T0 MHE U0DCKA3J1BAET, 4T0 TJ1 HE B0CUPNHNMAEQJ GT0 BCEPJE3. #line:2ca283
-    Gregg: TNUA, B006WE. #line:bfb263
-    Mae: HY... #line:ea567e
+    Bea: Something makes me think you're not taking this seriously. #line:2ca283
+    Gregg: Like at all. #line:bfb263
+    Mae: Well... #line:ea567e
 <<elseif $band_practice_0_right < 50>>
     // pretty baaaad
-    Gregg: 00000, 60SE. #line:7913d0
-    Bea: DA, GT0 6J1V0 UV0X0BAT0. #line:d93160
+    Gregg: AAAAGH. Geez. #line:7913d0
+    Bea: Yeah that was not good. #line:d93160
 <<else>>
     // a catch-all for doing pretty meh
-    Gregg: 0F0, MGL, GT0 6J1V0... #line:514c57
-    Bea: 0TCT0LH0, B0T KAK GT0 6J1V0. #line:e7090a
-    Mae: H0 R BEDJ DASE HE 3HA% GT0L UECHN. #line:a6fdd3
+    Gregg: Wow, Mae that was uh... #line:514c57
+    Bea: Pretty bad is what it was. #line:e7090a
+    Mae: I literally do not know this song. #line:a6fdd3
 <<endif>>
 
 <<unlockDoodle DieAnywhereElse>>
@@ -52,46 +52,46 @@ colorID: 2
 position: 1631,-1114
 ---
 <<lookAt Mae Angus>>
-Mae: UPNBET, AHFYC! o/ #line:6cf392
+Mae: Hi Angus! o/ #line:6cf392
 Mae: _o_ #line:24ce21
-Angus: UPNBET. GT0 TJ1. #line:e40a9e
+Angus: Hey. It's You. #line:e40a9e
 <<lookNearest Mae>>
-Gregg: GT0 S MGL!!! :) #line:9f2469
-Angus: GT0 MGL! #line:9f2bb6
-Gregg: AAAAAAAAAAA!!! \o/ #line:16c181
+Gregg: It's Mae!!! :) #line:9f2469
+Angus: It's Mae! #line:9f2bb6
+Gregg: AAAAAAAAAAGH!!!! \o/ #line:16c181
 Gregg: _o_ #line:11299a
 <<close>>
 <<flip Gregg 1>>
 <<run Gregg OffRight>>
 <<wait 1>>
 <<lookAt Mae Angus>>
-Mae: NTAK, CAPAL DVR BE4EPNH0K 3A4AX, DA? #line:cbe355
-Angus: AFA. HE 3HA%, KAK 0H B006WE CT0VJK0 UP0TRHYV. #line:92a15b
-Mae: CK0VJK0 BCEF0 TAM 6J1V0 BE4EPNH0K, B0T CEPJE3H0? #line:ee6a41
-Angus: 4T06J1 0H UP0D0VSAV PA60TATJ, HYSH0 6J1V0 04EHJ MH0F0 BE4EPNH0K. #line:101041
+Mae: So the Party Barn went out, huh? #line:cbe355
+Angus: Yeah. Not sure how it ever stayed open. #line:92a15b
+Mae: Like how many parties are there, really? #line:ee6a41
+Angus: You need a lot of parties to keep a barn running. #line:101041
 <<lookNearest Mae>>
-Gregg: Y MEHR TB0R CTAPAR 6AC-FNTAPA!!! :| #line:081c2f
+Gregg: I HAVE YOUR OLD BASS!!! :| #line:081c2f
 <<close>>
 <<walk Bea BeaOnLeft>>
-Mae: 0X, 6VNH, HE YBEPEHA, 4T0 B006WE U0MH% KAK... #line:6877bd
-Angus: UPNBET, 6N. MGL BEPHYVACJ. #line:794c1b
+Mae: Oh dude I don't think I even remember... #line:6877bd
+Angus: Hey Bea. Uh. Mae's back. #line:794c1b
 Bea: ... #line:e7a614
-Mae: 0F0. UPNBET. :o #line:6cfb4a
-Bea: DA. UPNBET. #line:24fbf5
-Gregg: 0HA UPRM BEPHYVACJ!!! #line:b96e35
-Bea: CT0U, 4T0? #line:5f53d7
-Mae: TJ1... 0X... TJ1 UPNQVA HA PEUETNON%? :| #line:8e2fe9
-Bea: R NFPA% HA 6APA6AHAX. #line:1719f2
-Mae: GT0 HE 6APA6AHJ1. :\ #line:165c70
-Mae: GT0 K0MUJ%TEP. #line:dbea98
-Angus: BCE H0PMAVJH0. 0HA TAKSE NFPAET TB0N 6AC0BJ1E UAPTNN. #line:0941bb
-Bea: HY, B M0EM U0HNMAHNN GT0 6AC0BJ1E UAPTNN. #line:c3857c
-Bea: H0 R M0FY BJ1KV%4NTJ NX. -_- #line:1e86fb
-Mae: "BJ1KV%4NTJ." HA CB0EM K0MUJ%TEPE. #line:d6ac89
+Mae: Wow. Hi. :o #line:6cfb4a
+Bea: Yeah. Hi. #line:24fbf5
+Gregg: SHE'S TOTALLY BACK!!!! #line:b96e35
+Bea: Wait, what? #line:5f53d7
+Mae: Are you... uh... here for band practice? :| #line:8e2fe9
+Bea: I play drums. #line:1719f2
+Mae: That's not drums. :\ #line:165c70
+Mae: That's computer. #line:dbea98
+Angus: It's fine. She also does your bass parts. #line:0941bb
+Bea: Well, I understood them as “the” bass parts #line:c3857c
+Bea: But I can turn them off. -_- #line:1e86fb
+Mae: "Turn them off." On your computer. #line:d6ac89
 Bea: o_o #line:e59572
-Gregg: MGL, HAM U0-V%60MY HAD0 CJ1FPATJ UECH%. A TE6E U0-V%60MY CJ1FPATJ HA 6ACY! #line:186ace
-Mae: H0 R DASE HE U0MH% KAK! :o #line:f4d925
-Mae: GT0 BEDJ DASE HE 6APA6AHJ1! :\ #line:09e7ef
+Gregg: Mae we're totally gonna play a song! You totally have to play bass! #line:186ace
+Mae: I DON'T EVEN REMEMBER! :o #line:f4d925
+Mae: THOSE AREN'T EVEN DRUMS! :\ #line:09e7ef
 Mae: :| #line:ca2db6
 <<runBandPractice 0>>
 ===
@@ -104,13 +104,13 @@ position: 2837,-591
     [[StartBandPractice_A2D1]]
 <<elseif $gregg_a2d1_bandpractice is 0>>
     <<set $gregg_a2d1_bandpractice to 1>>
-	Gregg: XGL-XGL, 4YBNX. #line:17f2c9
-    Mae: AHFYC YE3SAET HA H04J? #line:5476d7
-    Gregg: DA, 6YDET CKY4H0BAT0. #line:0a82de
-    Gregg: NVN, T04HEE, *6J1V0 6J1*, ECVN 6J1 Y MEHR HE 6J1V0 UVAAAAAAAH0B. #line:c4aef0
-    Mae: UVAAAAAAAH0B? #line:269bb9
-    Gregg: UPECTYUVEHNR. #line:5cfd56
-    Mae: 000! UPECTYUVEHNR!!! #line:2b4dc4
+	Gregg: Hey hey duder. #line:17f2c9
+    Mae: Angus leaving for the night? #line:5476d7
+    Gregg: yeah. gonna be bored. #line:0a82de
+    Gregg: or rather I *would* be, if i didn't have plaaaaaans. #line:c4aef0
+    Mae: Plaaaaaaans? #line:269bb9
+    Gregg: crimes. #line:5cfd56
+    Mae: oooh! crimes!!! #line:2b4dc4
     [[UpForSomeCrimes]]
 <<else>>
     [[UpForSomeCrimes]]
@@ -150,16 +150,16 @@ colorID: 3
 position: 3182,-637
 ---
 <<if $did_band_practice is 0>>
-    Mae: TAK, G... 0TKYDA HA4HEM? #line:9f0e5a
-    Angus: CUP0CN FPEFFA. #line:5f6a4a
-    Angus: 06J14H0 0H 3ADEPSNBAET HAC NVN HA060P0T T0P0UNT. #line:35981a
-    Mae: YHNBEPCAVJHJ1L FPEFF #line:ec7ed0
-    Angus: KASDJ1L PA3 FPEFF. #line:e6c7b8
+    Mae: So uh... when are we starting? #line:9f0e5a
+    Angus: Ask Gregg. #line:5f6a4a
+    Angus: He's usually what's holding us up or making us go faster. #line:35981a
+    Mae: All purpose Gregg. #line:ec7ed0
+    Angus: Unto every time, a Gregg. #line:e6c7b8
     <<set $angus_done to 1>>
 <<else>>
-	Angus: HABEVN MJ1 QYMY. #line:896ef0
-    Mae: GT0 BEDJ X0P0Q0? #line:2ca754
-    Angus: QYM - GT0 X0P0Q0. #line:22b53e
+	Angus: That was pretty loud. #line:896ef0
+    Mae: Is that good? #line:2ca754
+    Angus: Loud's fine. #line:22b53e
     <<set $angus_done to 1>>
 <<endif>>
 
@@ -173,25 +173,25 @@ position: 3526,-682
 	Bea: {emote=music} #line:de1dca
 <<elseif $bea_a2d1_band_practice is 0>>
     <<set $bea_a2d1_band_practice to 1>>
-	Mae: HE X04EQJ 4EM-HN6YDJ 3AHRTJCR CEF0DHR BE4EP0M? #line:d90c32
-    Bea: GM. #line:720da3
-    Mae: 06EWA%, 4T0 6YDET VY4QE, 4EM B4EPA BE4EP0M. #line:86f91c
+	Mae: You wanna do something tonight? #line:d90c32
+    Bea: Um. #line:720da3
+    Mae: I promise it'll be an improvement on last night. #line:86f91c
     Mae: :) #line:ed8327
-    Bea: A 4EM TJ1 X04EQJ 3AHRTJCR? #line:5ff258
-    Mae: GM... XMMM... #line:e4bed8
+    Bea: What were you thinking of doing? #line:5ff258
+    Mae: uh... hmm... #line:e4bed8
     Mae: :| #line:2e7f28
-    Mae: HE X04EQJ CX0DNTJ B T0PF0BJ1L OEHTP? #line:e3e17d
-    Bea: "T0PF0BJ1L OEHTP?" #line:71ccb1
-    Mae: DA! Z0PT V%CEH! UPRM0 KAK K0FDA MJ1 6J1VN DETJMN! :) #line:e6b9fd
-    Bea: A K0FDA TJ1 U0CVEDHNL PA3 6J1VA B Z0PT V%CEH? #line:94be73
-    Mae: HE 3HA%. VET URTJ HA3AD? #line:aadd7d
-    Bea: DA. GM. #line:ee4d75
+    Mae: Want to go to the mall? #line:e3e17d
+    Bea: "The mall?" #line:71ccb1
+    Mae: Yeah! Fort Lucenne! Like we did when we were kids! :) #line:e6b9fd
+    Bea: When's the last time you were at the Fort Lucenne mall? #line:94be73
+    Mae: I dunno. 5 years ago?  #line:aadd7d
+    Bea: Yeah. Uh. #line:ee4d75
     Mae: :| #line:44acd9
-    Mae: 4T0? #line:ee6eda
-    Bea: 3HAEQJ, 4T0? DA. U0QVN. #line:c13207
-    Mae: 0TVN4H0! #line:9899e9
-    Bea: AFA. 0TVN4H0. #line:948753
-    Mae: 06EWA%, BCE 6YDET KPYT0. =_= :) #line:1cc5d2
+    Mae: What? #line:ee6eda
+    Bea: You know what? Yeah. Let's go. #line:c13207
+    Mae: Great! #line:9899e9
+    Bea: Yep. Great. #line:948753
+    Mae: I promise it'll be great. =_= :) #line:1cc5d2
     [[BeaWeSureWereDoingThis]]
 <<else>>
     [[BeaWeSureWereDoingThis]]
@@ -204,17 +204,17 @@ colorID: 3
 position: 3845,-680
 ---
 <<if $did_band_practice is 0>>
-	Germ: PEUETNONR. #line:b7562c
-	Mae: AFA. #line:a1da7e
-    Germ: 0DHASDJ1, R PA36NVCR HA BEVNKE, N CV0MAHHAR CUNOA UP0QVA 4EPE3 M0% H0FY. #line:05f6cc
-    Mae: 60SE :( #line:ae2403
-    Germ: GT0 6J1V0 KPYT0. #line:3fbd0b
-    Mae: 0 DA, UPEDCTABVR%. :| #line:677135
+	Germ: Practice. #line:b7562c
+	Mae: Yes. #line:a1da7e
+    Germ: I crashed my bike once and a broken spoke went through my leg. #line:05f6cc
+    Mae: GEEZ :( #line:ae2403
+    Germ: It was kinda cool. #line:3fbd0b
+    Mae: Oh yeah I can see that. :| #line:677135
     <<set $germ_done to 1>>
 <<else>>
-	Germ: CVABHAR PEUETNONR. #line:f10de7
-    Mae: UPABDA? #line:4baabc
-    Germ: GX. #line:d11653
+	Germ: Good practice. #line:f10de7
+    Mae: Was it? #line:4baabc
+    Germ: eh. #line:d11653
     <<set $germ_done to 1>>
 <<endif>>
 
@@ -229,35 +229,35 @@ position: 2888,-1177
 Mae: o_o :| #line:ccfab3
 <<if $band_practice_1_right is 100>>
     // player played the song perfectly!
-    Gregg: GM, GT0 6J1V0 BU0VHE CE6E... NDEAVJH0. #line:57e007
-    Bea: G-G... 0F0. #line:559b9d
-    Angus: DA. #line:328d6e
-    Mae: UP0WE UP0CT0F0. :) #line:7fd462
+    Gregg: Um, that was pretty much... perfect. #line:57e007
+    Bea: Uh... whoa. #line:559b9d
+    Angus: Yeah. #line:328d6e
+    Mae: All in a day's work. :) #line:7fd462
     Mae: :| #line:897b12
 <<elseif $band_practice_1_right > 90>>
     // player did pretty alright!!
-    Gregg: D0B0VJH0 HEUV0X0! #line:acf6ea
-    Bea: DA, HN4EF0 TAK. #line:b35667
-    Mae: HEUV0X0, Y4NTJ1BAR, 4T0 R HE 3HA% UECHN! #line:d80c4e
+    Gregg: Pretty good! #line:acf6ea
+    Bea: Yeah, that was okay. #line:b35667
+    Mae: Not bad considering I don't know this song! #line:d80c4e
 <<elseif $band_practice_1_played < 50>>
     // player played less than 50% of the notes registered
-    Gregg: TAK... TJ1 UP0CT0 HE X04EQJ DAVJQE NFPATJ C HAMN? #line:7d5b33
-    Bea: DA, B GT0M BCR CYTJ? #line:5417da
-    Mae: CYTJ B T0M, 4T0 R EDBA 3HA% UECH%. #line:1fc32a
+    Gregg: So... you just not gonna play mostly? #line:7d5b33
+    Bea: Yeah is this your thing? #line:5417da
+    Mae: My thing is barely knowing this song to begin with. #line:1fc32a
 <<elseif $band_practice_1_right < 20>>
     // player probably mashed random buttons for the whole song
-    Bea: 4T0-T0 MHE U0DCKA3J1BAET, 4T0 TJ1 HE B0CUPNHNMAEQJ GT0 BCEPJE3. #line:f1f880
-    Gregg: TNUA, B006WE. #line:58d920
-    Mae: HY... #line:8fe3e1
+    Bea: Something makes me think you're not taking this seriously. #line:f1f880
+    Gregg: Like at all. #line:58d920
+    Mae: Well... #line:8fe3e1
 <<elseif $band_practice_1_right < 50>>
     // pretty baaaad
-    Gregg: 00000, 60SE. #line:569722
-    Bea: DA, GT0 6J1V0 UV0X0BAT0. #line:48e388
+    Gregg: AAAAGH. Geez. #line:569722
+    Bea: Yeah that was not good. #line:48e388
 <<else>>
     // a catch-all for doing pretty meh
-    Gregg: 0F0, MGL, GT0 6J1V0... #line:dac8e3
-    Bea: 0TCT0LH0, B0T KAK GT0 6J1V0. #line:db9eec
-    Mae: H0 R BEDJ DASE HE 3HA% GT0L UECHN. #line:80a4bb
+    Gregg: Wow, Mae that was uh... #line:dac8e3
+    Bea: Pretty bad is what it was. #line:db9eec
+    Mae: I literally do not know this song. #line:80a4bb
 <<endif>>
 
 <<unlockDoodle WeirdAutumn>>
@@ -280,19 +280,19 @@ tags:
 colorID: 2
 position: 1987,-806
 ---
-Mae: CPAHJ F0CU0DHR. #line:4014f8
-Mae: GT0 6J1V0 D0B0VJH0 CV0SH0! #line:2b9427
-Angus: B 6YDYWEM HABEPCTAEQJ. #line:b37887
-Mae: HADE%CJ. 6VNH. #line:9dc835
-Mae: 3AURCTJE 60VNT. #line:e48251
-Gregg: GT0 6J1V0 KPYT0, MGL, #line:45e28b
-Gregg: TNUA, CH0BA YBNDETJ TE6R, #line:f02966
-Gregg: TJ1 CJ1FPAVA HA M0EM YSACH0M 6ACY. #line:1400e5
-Bea: VADH0, MJ1 6YDEM 06EDATJ NVN TNUA T0F0? #line:6ec93d
-Mae: DAAAAA!!!!!!!! #line:22f723
-Gregg:{width=8} Y-Y-Y-Y-Y-Y-Y-Y-Y!!!! #line:465f91
-Angus: YPA. #line:c7fe9f
-Bea: YPA-YPA. #line:8e2070
+Mae: holy crap. #line:4014f8
+Mae: that was hard to do! #line:2b9427
+Angus: you'll get back in practice. #line:b37887
+Mae: i hope. geez. #line:9dc835
+Mae: my wrist hurts. #line:e48251
+Gregg: that was great, man #line:45e28b
+Gregg: like just seeing you back #line:f02966
+Gregg: playing your old horrible bass. #line:1400e5
+Bea: ok are we doing this diner thing? #line:6ec93d
+Mae: YEAAAAH!!!!!!!!! #line:22f723
+Gregg:{width=8} WOOOOOOOOOOOOOOOOOO!!!! #line:465f91
+Angus: yay. #line:c7fe9f
+Bea: hip hip. #line:8e2070
 <<fadeOut .5 wait>>
 <<lookNearest Gregg>>
 <<scene PawsModeDiner>>
@@ -303,24 +303,24 @@ colorID: 4
 position: 5088,-552
 ---
 <<if $did_band_practice is 0>>
-	Gregg: XEL, 4YBNXA. #line:81360c
-    Mae: BCE B U0PRDKE? TJ1 BJ1FVRDNQJ YCTABQNM. #line:c13535
-    Gregg: 0X, R HE CUAV BC% H04J. #line:bf39ea
-    Gregg: Y HAC 4NHNVN DBEPJ KPJ1QN. #line:c0c0d2
-    Gregg: N GT0 6J1V0 CYUEP FP0MK0 #line:a95d29
-    Mae: "DBEPJ KPJ1QN"? #line:896d59
-    Gregg: AFA, DBEPJ HABEPXY VECTHNOJ1, #line:3a0a69
-    Gregg: K0T0PAR BEDET HA KPJ1QY. #line:719010
-    Gregg: TEUEPJ, R M0FY, TNUA, #line:235622
-    Gregg: HE 3HA%. 6EFATJ 0T GT0L DBEPN B UPNX0SEL #line:0d8923
-    Gregg: UPRM0 HA KPJ1QY #line:9b0f9b
-    Gregg: N M04NTJCR C KPAR 3DAHNR? #line:a0c14b
-    Mae: AFA, H0 VY4QE HE CT0NT. #line:ea24c4
-    Gregg: H0 4T0 MEQAET DPYFNM DEVATJ T0 SE CAM0E??? #line:d83536
-    Mae: 4YBAK. BCE 6YDET B U0PRDKE. #line:bf19a8
-    Gregg: UP0CTN, R UP0CT0 YCTAV. #line:c492f6
-    Mae: CUPABEDVNB0. F0T0B? #line:b3ebbc
-    Gregg: DA, DABALTE 0T0PBEMCR U0 U0VH0L. #line:7bcb68
+	Gregg: Hey dude. #line:81360c
+    Mae: you ok? you look tired. #line:c13535
+    Gregg: ugh i was up all night. #line:bf39ea
+    Gregg: they were fixing the roof door #line:c0c0d2
+    Gregg: and it was super loud. #line:a95d29
+    Mae: "roof door?" #line:896d59
+    Gregg: yeah the door at the top of the stairs #line:3a0a69
+    Gregg: that goes out on to the roof. #line:719010
+    Gregg: now i can like #line:235622
+    Gregg: i dunno. run from that door down in the lobby #line:0d8923
+    Gregg: up to the roof #line:9b0f9b
+    Gregg: and pee off the side of the building? #line:a0c14b
+    Mae: yeah maybe not. #line:ea24c4
+    Gregg: but what's to stop random people from doing that too??? #line:d83536
+    Mae: dude. it'll be fine. #line:bf19a8
+    Gregg: sorry, I'm just tired. #line:c492f6
+    Mae: fair. ready to go? #line:b3ebbc
+    Gregg: yeah let's do this shit. #line:7bcb68
 	<<runBandPractice 2>>
 	<<set $did_band_practice to 1>>
 <<endif>>
@@ -335,35 +335,35 @@ position: 4562,-1063
 <<lookAt Bea Mae>>
 <<if $band_practice_2_right is 100>>
     // player played the song perfectly!
-    Gregg: GM, GT0 6J1V0 BU0VHE CE6E... NDEAVJH0. #line:4bd2d5
-    Bea: G-G... 0F0. #line:815e69
-    Angus: DA. #line:aaa909
-    Mae: UP0WE UP0CT0F0. :) #line:9e08d2
+    Gregg: Um, that was pretty much... perfect. #line:4bd2d5
+    Bea: Uh... whoa. #line:815e69
+    Angus: Yeah. #line:aaa909
+    Mae: All in a day's work. :) #line:9e08d2
     Mae: :| #line:a1668b
 <<elseif $band_practice_2_right > 90>>
     // player did pretty alright!!
-    Gregg: D0B0VJH0 HEUV0X0! #line:a4677f
-    Bea: DA, HN4EF0 TAK. #line:b7d368
-    Mae: HEUV0X0, Y4NTJ1BAR, 4T0 R HE 3HA% UECHN! #line:4e0b1d
+    Gregg: Pretty good! #line:a4677f
+    Bea: Yeah, that was okay. #line:b7d368
+    Mae: Not bad considering I don't know this song! #line:4e0b1d
 <<elseif $band_practice_2_played < 50>>
     // player played less than 50% of the notes registered
-    Gregg: TAK... TJ1 UP0CT0 HE X04EQJ DAVJQE NFPATJ C HAMN? #line:39f1d6
-    Bea: DA, B GT0M BCR CYTJ? #line:9951ac
-    Mae: CYTJ B T0M, 4T0 R EDBA 3HA% UECH%. #line:98f605
+    Gregg: So... you just not gonna play mostly? #line:39f1d6
+    Bea: Yeah is this your thing? #line:9951ac
+    Mae: My thing is barely knowing this song to begin with. #line:98f605
 <<elseif $band_practice_2_right < 20>>
     // player probably mashed random buttons for the whole song
-    Bea: 4T0-T0 MHE U0DCKA3J1BAET, 4T0 TJ1 HE B0CUPNHNMAEQJ GT0 BCEPJE3. #line:448d29
-    Gregg: TNUA, B006WE. #line:b5152a
-    Mae: HY... #line:36fba1
+    Bea: Something makes me think you're not taking this seriously. #line:448d29
+    Gregg: Like at all. #line:b5152a
+    Mae: Well... #line:36fba1
 <<elseif $band_practice_2_right < 50>>
     // pretty baaaad
-    Gregg: 00000, 60SE. #line:8c193b
-    Bea: DA, GT0 6J1V0 UV0X0BAT0. #line:91a2b9
+    Gregg: AAAAGH. Geez. #line:8c193b
+    Bea: Yeah that was not good. #line:91a2b9
 <<else>>
     // a catch-all for doing pretty meh
-    Gregg: 0F0, MGL, GT0 6J1V0... #line:70c273
-    Bea: 0TCT0LH0, B0T KAK GT0 6J1V0. #line:97a3eb
-    Mae: H0 R BEDJ DASE HE 3HA% GT0L UECHN. #line:d0a9f6
+    Gregg: Wow, Mae that was uh... #line:70c273
+    Bea: Pretty bad is what it was. #line:97a3eb
+    Mae: I literally do not know this song. #line:d0a9f6
 <<endif>>
 
 <<unlockDoodle PumpkinHeadGuy>>
@@ -393,10 +393,10 @@ colorID: 4
 position: 4828,-542
 ---
 <<if $did_band_practice is 0>>
-    Bea: F0T0BA U0NFPATJ? #line:95d64f
-    Mae: AFA! #line:9f865e
-    Bea: PACT0PM0QN FPEFFA. 0H KAK0L-T0 MEDVEHHJ1L CEF0DHR. #line:515b89
-    Mae: VEFK0! #line:a19482
+    Bea: Ready to play? #line:95d64f
+    Mae: yeah! #line:9f865e
+    Bea: go convince gregg. he's all slow today. #line:515b89
+    Mae: can do! #line:a19482
     <<set $bea_done to 1>>
 <<endif>>
 
@@ -406,131 +406,131 @@ tags:
 colorID: 4
 position: 4841,-787
 ---
-Mae: UPNBET, AHFYC. #line:0f14aa
-Angus: UPNBET-UPNBET, MGL. #line:1cbed5
-Mae: 4E H0B0F0? #line:1e0b04
-Angus: G-G. HN4EF0. #line:1868ec
-Angus: Y MEHR 6J1VA 04EHJ CKY4HAR HEDEVR. #line:fd06e9
-Mae: 60SE. R 3ABNDY%. #line:fa5d8d
-Angus: GX. #line:6dad55
+Mae: Hey angus. #line:0f14aa
+Angus: Hey hey Mae. #line:1cbed5
+Mae: what's up? #line:1e0b04
+Angus: uh. nothing. #line:1868ec
+Angus: i'm having a very boring week. #line:fd06e9
+Mae: geez. i'm envious. #line:fa5d8d
+Angus: eh. #line:6dad55
 
-Angus: TAK KAK HAC4ET 6AQHN DEM0H0B? #line:310fbe
+Angus: So how bout that Demontower? #line:310fbe
 
 <<if $demontower_finished is 1>>
 	// got regular ending
-	Mae: R BJ1NFPAVA! #line:4f6dee
-	Angus: BAY, CEPJE3H0? #line:badd81
-	Mae: AFA! R Y6NVA GT0F0 4YBAKA-BAMUNPA! #line:a72bbb
-	Angus: TJ1 U0VY4NVA X0P0QY% K0HO0BKY? #line:fa8cbb
-	Mae: ...KAKAR X0P0QAR K0HO0BKA? #line:46a035
-	Angus: 0X. TAM ECTJ X0P0QAR K0HO0BKA. #line:e37767
-	Mae: TB0% MATJ! #line:e32d3a
-	Angus: ...UP0CTN... #line:1fcea9
-	Mae: A-A-A! #line:1ad26a
-	Angus: TE6E U0HPABNVACJ... GM... 06J14HAR K0HO0BKA? #line:08ed6a
-	Mae: GT0 6J1V0 UPEKPACH0.  #line:5b520c
-	Mae: UP0CT0 UPEKPACH0. #line:4f7b82
-	Mae: MHE DASE HE HYSHA X0P0QAR K0HO0BKA. #line:a0b8bd
-	Angus: B0T GT0 DYX! #line:d89a0b
-	Mae: A-A-A-A-A-A. #line:dec8f9
+	Mae: I beat it! #line:4f6dee
+	Angus: Whoa really??? #line:badd81
+	Mae: yeah! I killed that vampire dude! #line:a72bbb
+	Angus: Did you get the good ending? #line:fa8cbb
+	Mae: ...what good ending? #line:46a035
+	Angus: oh. There’s a good ending. #line:e37767
+	Mae: GODDAMMIT! #line:e32d3a
+	Angus: ...sorry... #line:1fcea9
+	Mae: AAAAGH. #line:1ad26a
+	Angus: how did you like the... uh... regular ending? #line:08ed6a
+	Mae: it was fine. #line:5b520c
+	Mae: just fine. #line:4f7b82
+	Mae: i don’t even need a good ending. #line:a0b8bd
+	Angus: that’s the spirit! #line:d89a0b
+	Mae: AAAAAAAGH. #line:dec8f9
 <<elseif $demontower_finished is 2>>
 	// got good ending
-	Mae: R BJ1NFPAVA. #line:5873f8
-	Angus: BAY, CEPJE3H0? #line:6413f9
-	Mae: AFA. R Y6NVA GT0F0 4YBAKA-BAMUNPA.  #line:14a810
-	Angus: TJ1 U0VY4NVA X0P0QY% K0HO0BKY? #line:58820a
-	Mae: B03M0SH0. 4T0 3A X0P0QAR K0HO0BKA? #line:6772c3
-	Angus: 3BEPJ UEPECTAV KP0B0T04NTJ #line:2775bc
-	Angus: N B K0HOE U0RBVRETCR DPYFAR 6AQHR. #line:f3e900
-	Mae: AFA, R U0VY4NVA EE.  #line:1e156c
-	Mae: TAK 0 4EM B006WE GTA NFPA? #line:dc4509
-	Mae: TAM U0BC%DY KP0BJ, #line:fa774c
-	Mae: N 60VJQ0L FPYCTHJ1L UAPEHJ NCTEKAET KP0BJ%, #line:dfc9e7
-	Mae: N B K0HOE ECTJ BAMUNP? #line:9b945f
-	Angus: HE 3HA% #line:8149fd
-	Mae: XAX. #line:835b87
-	Angus: 4T0 TJ1 DYMAEQJ 06 GT0M? #line:8bfe93
-	-> G-G-G-G-G? #line:bacc7e
-		Mae: GT0 6J1V0 HEMH0F0 CTPAHH0, BPEMR 0T BPEMEHN #line:cc4481
-		Mae: N DELCTBNTEVJH0 CV0SH0 #line:6841ee
-		Mae: 0DHAK0 #line:498816
-	-> GT0 6J1V0 KPYT0! #line:53ad8f
-		Angus: 3D0P0B0! #line:89afa8
-		Mae: GT0 6J1V0 TRSEV0, H0 BECEV0.  #line:0de96f
-		Mae: MHE U0HPABNVCR UAPEHJ-DPAKYVA.  #line:3c6ee5
-		Mae: N UTNOA-U0U.  #line:457905
-		Angus: KVEB0. #line:ae2b52
-	Mae: MHE 04EHJ U0HPABNVNCJ CKEVETJ1.  #line:8d9538
-	Angus: AFA, CKEVETJ1 X0P0QN.  #line:77d541
-	Mae: HEUV0XNE CKEVETJ1. HYSH0 CJ1FPATJ CH0BA.  #line:b5d78b
-	Angus: ECVN TE6R GT0 NHTEPECYET, B GT0L CEPNN ECTJ MH0F0 DPYFNX NFP.  #line:8ce8e4
-	Mae: AFA, R F0T0BA 0UYCTNTJCR D0 GT0F0. #line:443452
-	Angus: CV0MAL CB0L K0MUJ%TEP CH0BA N R U0CTABV% HA HEF0 H0BY%.  #line:01e007
-	Mae: XA-XA, VADH0, U0LDY 06VASY KASDJ1L U0PH0 CALT B NHETE.  #line:00dbc5
-	Angus: 1 U0PH0 CALT PABEH 1 DEM0HN4ECK0L 6AQHE #line:367a9e
-	Mae: AHFYC? #line:3df5dc
-	Angus: DA? #line:c5970b
-	Mae: TJ1 X0P0QNL UAPEHJ.  #line:b454f2
+	Mae: I beat it! #line:5873f8
+	Angus: Whoa really??? #line:6413f9
+	Mae: yeah! I killed that vampire dude! #line:14a810
+	Angus: Did you get the good ending? #line:58820a
+	Mae: Maybe? What’s the good ending? #line:6772c3
+	Angus: The beast thing stops bleeding. #line:2775bc
+	Angus: and at the end there’s like another tower. #line:f3e900
+	Mae: ok yeah I got that one. #line:1e156c
+	Mae: what even is that game about? #line:dc4509
+	Mae: there’s all like blood everywhere #line:fa774c
+	Mae: and that big sad guy is bleeding #line:dfc9e7
+	Mae: and there’s a vampire at the end...? #line:9b945f
+	Angus: i dunno #line:8149fd
+	Mae: huh. #line:835b87
+	Angus: what did you think of it all? #line:8bfe93
+	-> eeeeeeh? #line:bacc7e
+		Mae: it’s kinda janky and weird sometimes #line:cc4481
+		Mae: and it’s really hard #line:6841ee
+		Mae: HOWEVER  #line:498816
+	-> it was good! #line:53ad8f
+		Angus: awesome! #line:89afa8
+		Mae: yeah it was hard but fun #line:0de96f
+		Mae: i liked the dracula guy #line:3c6ee5
+		Mae: and the bird pope. #line:457905
+		Angus: nice. #line:ae2b52
+	Mae: I liked the skeletons a lot #line:8d9538
+	Angus: yeah the skeletons are good. #line:77d541
+	Mae: decent skeletons. Would play again. #line:b5d78b
+	Angus: if you’re interested, there’s like a bunch of other games in the series #line:8ce8e4
+	Mae: yeah I’d be down for that #line:443452
+	Angus: break your computer again and i’ll put a new one on it #line:01e007
+	Mae: ha ha ok i’ll go visit every sketchy porn site out there #line:00dbc5
+	Angus: 1 porn site fiasco equals 1 demontower #line:367a9e
+	Mae: Angus? #line:3df5dc
+	Angus: yeah? #line:c5970b
+	Mae: you’re a good guy. #line:b454f2
 	<<wait 2>>
 	Angus: :) #line:e85ed9
 	<<wait 2>>
-	Mae: TJ1 CKASEQJ 4T0-HN6YDJ? #line:a1db82
-	Angus: R HE 3HA%, KAK PEAFNP0BATJ HA K0MUVNMEHTJ1! #line:063a92
-	Mae: BCE H0PMAVJH0, GT0 UPABDA.  #line:099a01
+	Mae: are you gonna say something? #line:a1db82
+	Angus: i don’t know how to accept compliments! #line:063a92
+	Mae: it’s ok it’s still true. #line:099a01
 	Angus: :| #line:5b84ee
-	Angus: 60SE4KN. #line:9cc814
-	Angus: CUACN60, MGL. #line:cae6b2
+	Angus: aw geez. #line:9cc814
+	Angus: thanks mae. #line:cae6b2
 <<elseif $demontower_plays is 0>>
 	// (if has not played it)
-	Mae: R EWE HE NFPAVA.  #line:00156f
-	Angus: 0, TJ1 D0VSHA CJ1FPATJ! #line:66d64e
-	Angus: R 3AKNHYV EE B TB0L H0YT6YK.  #line:47e308
-	Angus: U0T0MY 4T0 R DYMAV, 4T0 TE6E U0HPABNTCR... #line:61e33c
+	Mae: I haven’t checked it out yet. #line:00156f
+	Angus: oh you should! #line:66d64e
+	Angus: i put it on your laptop #line:47e308
+	Angus: because I thought you’d like it... #line:61e33c
 	<<wait 2>>
 	Mae: :( #line:9c7322
-	Mae: TEUEPJ R 4YBCTBY% CE6R BNH0BAT0L. #line:8ed3d7
-	Angus: HET-HET, BCE H0PMAVJH0, GT0 HE TAK BASH0. #line:4e20ec
+	Mae: well now i just feel guilty. #line:8ed3d7
+	Angus: no no it’s cool don’t feel sad it’s no big #line:4e20ec
 	Mae :) #line:07a47c
-	Mae: AHFYC, BCE B U0PRDKE.  #line:833701
-	Angus: 0X, 0KEL. #line:3876ce
-	Angus: UP0CTN. #line:8f11f5
+	Mae: angus it’s fine! #line:833701
+	Angus: oh ok. #line:3876ce
+	Angus: sorry. #line:8f11f5
     Mae: :| #line:551950
-	Mae: U04EMY TJ1 N3BNHREQJCR? #line:4a8a89
-	Angus: UP0CT0 GT0 T0, 4T0 R 06J14H0 DEVA%! #line:27a514
+	Mae: why are you apologizing? #line:4a8a89
+	Angus: IT’S JUST WHAT I DO! #line:27a514
 <<elseif $demontower_plays > 0 and $demontower_floor <= 2 and $demontower_finished is 0>>
 	// (if has played the game but not beat level 3)
-	Mae: DA! #line:cf2f0a
-	Angus: 4T0 TJ1 DYMAEQJ? #line:aa56b8
-	Mae: R HE 3HA%? R UP0QVA C0BCEM HEMH0F0. #line:d9dd8a
-	Angus: X0P0Q0! MHE GT0 HPABNTCR! #line:afa07b
-	Mae: UPABDA? :) #line:3e1175
-	Angus: DA! 6YDY SDATJ! :) #line:912c87
-	Mae: VADH0, 0KE%QKN! #line:9810b7
+	Mae: Yeah! #line:cf2f0a
+	Angus: What do you think? #line:aa56b8
+	Mae: i dunno yet? Haven’t gotten too far. #line:d9dd8a
+	Angus: it’s good! I like it! #line:afa07b
+	Mae: do you like it? :) #line:3e1175
+	Angus: i like it! :) #line:912c87
+	Mae: well alright then! #line:9810b7
 	Angus: :| #line:f89745
 	Mae: :| #line:deee21
 <<elseif $demontower_plays > 0 and $demontower_floor > 2 and $demontower_finished is 0>>
 	//(if has played the game and beaten level 3 but not finished the game)
-	Mae: AFA! #line:6519c0
-	Angus: 4T0 TJ1 DYMAEQJ! #line:435420
-	->GT0 BECEV0! #line:bdc47b
-		Angus: AFA, GT0 BCE. #line:b1d20d
-		Angus: BSYX 6A-A-AM A-A-A-A-A!  #line:c609ef
-		Angus: XA! XA! 6Y-Y-Y-Y-Y-Y-Y #line:5ea7ed
+	Mae: yeah! #line:6519c0
+	Angus: what do you think! #line:435420
+	->It’s fun! #line:bdc47b
+		Angus: yeah it’s all #line:b1d20d
+		Angus: pshew clangg aaaargh! #line:c609ef
+		Angus: huh! huh! Boooowwwwww #line:5ea7ed
 		<<wait 2>>
-		Mae: GT0 6J1V0 UEHNE? #line:ee0328
-		Angus: R CMYWEH. #line:ece793
-	->GT0 UV0X0! #line:d7a9a1
-		Angus: GT0 T0, 4T0 DEVAET EE X0P0-0-0-0-0-QEL. #line:4302bd
-		Mae: DYMA%, DA #line:3c5975
-		Mae: R NME% B BNDY, K0MY HE HPABNTCR 3VNTJCR #line:dea2b7
-		Angus: R HE 3V%CJ #line:664849
-		Angus: R UP0CT0 DEVA% BCE, 4T0 B M0NX CNVAX N GT0F0 D0CTAT04H0. #line:2bb1fc
-		Mae: CEPJE3H0? #line:db621e
-		Angus: HET. #line:2703b3
-	->MHE HPABRTCR BCE CKEVETJ1! #line:d26da5
-		Angus: AFA, CKEVETJ1 X0P0QN.  #line:3ec7f8
-		Mae: TJ1 HE 0QN6CR C0 CKEVETAMN. #line:3c8fd5
-		Angus: 0HN X0P0QN. CKEVETJ1 X0P0QN. #line:7ea906
+		Mae: was that scat singing? #line:ee0328
+		Angus: i’m embarrassed now. #line:ece793
+	->It’s hard! #line:d7a9a1
+		Angus: that’s what makes it gooooood. #line:4302bd
+		Mae: yeah i guess #line:3c5975
+		Mae: i mean who doesn’t like getting mad #line:dea2b7
+		Angus: i don’t get mad #line:664849
+		Angus: i just do my best and that’s enough for me #line:2bb1fc
+		Mae: really? #line:db621e
+		Angus: no. #line:2703b3
+	->I like all the skeletons! #line:d26da5
+		Angus: Yeah it’s got good skeletons. #line:3ec7f8
+		Mae: can’t go wrong with skeletons. #line:3c8fd5
+		Angus: they’re good. Skeletons are good. #line:7ea906
 <<endif>>
 
 <<set $angus_done to 1>>
@@ -540,14 +540,14 @@ tags:
 colorID: 4
 position: 4565,-801
 ---
-Mae: ZYX. #line:c864f6
-Bea: TAK 6J1CTP0. #line:a768a9
-Mae: TJ1 UP0CT0 HASNMAVA HA KH0UKY! #line:e8dc8b
+Mae: Whew. #line:c864f6
+Bea: So fast. #line:a768a9
+Mae: you just pushed a button! #line:e8dc8b
 Bea: ... #line:7b0c82
-Gregg: R TAK YCTAV. #line:8cafde
-Angus: R TAK CNVJH0 HAUPRFAV F0V0C0BJ1E CBR3KN. #line:192fce
-Gregg: KPYTRK. #line:f784c9
-Angus: KASETCR, TEUEPJ R 0XPNU. #line:2c5d07
+Gregg: i am so tired. #line:8cafde
+Angus: I strained my vocal chords yelling. #line:192fce
+Gregg: awesome. #line:f784c9
+Angus: i'm gonna sound so husky. #line:2c5d07
 <<fadeOut 1 wait>>
 [[TalkAboutLibrary]]
 ===
@@ -556,12 +556,12 @@ tags:
 colorID: 4
 position: 5094,-807
 ---
-Mae: UPNQEV CH0BA U0CM0TPETJ HA HAQE ZNACK0? #line:59f985
-Germ: AFA! #line:1d7378
-Mae: TJ1 HAQ EDNHCTBEHHJ1L ZAHAT, DSEPM. #line:0b9b8c
-Germ: R 3DECJ, 4T06J1 MEHR PA3BVEKAVN. #line:32d5fa
-Germ: R DSEHTVJMEH HA 0TDJ1XE. #line:077e2a
-Mae: KVEB0. #line:87e82c
+Mae: Back to watch this fiasco again, huh? #line:59f985
+Germ: Yep! #line:1d7378
+Mae: you're our only fan, germ. #line:0b9b8c
+Germ: i'm just here to be entertained. #line:32d5fa
+Germ: i'm a gentleman of leisure. #line:077e2a
+Mae: nice. #line:87e82c
 <<set $germ_done to 1>>
 ===
 title: StartBandPractice_A2D1
@@ -571,28 +571,28 @@ position: 2497,-524
 ---
 <<lookAt Bea Angus>>
 <<lookAt Gregg Angus>>
-Angus: VADH0, PE6RTKN, MHE HAD0 3AK0H4NTJ U06J1CTPEE. #line:e2c948
-Bea: KYDA C06PAVCR? #line:1e8f1b
-Angus: U0 CEMELHJ1M DEVAM. #line:deaea6
-Bea: A, 0KEL. #line:b72a35
-Angus: BCEF0 HA 0DHY H04J. #line:7bb346
+Angus: alright kids, i gotta head out soon. #line:e2c948
+Bea: where you going? #line:1e8f1b
+Angus: family stuff. #line:deaea6
+Bea: oh. ok. #line:b72a35
+Angus: just for a night. #line:7bb346
 Bea: ... #line:55d26f
-Angus: TAK, HY 4T0, NFPAEM? #line:bd2d11
+Angus: ok we doing this? #line:bd2d11
 <<lookAt Bea Gregg>>
-Gregg: DA! NFPAEM! #line:d02545
+Gregg: yeah! let's do this!!! #line:d02545
 <<lookAt Bea Mae>>
 <<lookAt Gregg Mae>>
-Mae: U0F0DNTE! R HE 3HA% UECH%! #line:2d0bcd
-Mae: TNUA, B006WE! #line:b3d3c2
-Mae: N C TPYD0M U0MH%, KAK NFPATJ HA 6AC-FNTAPE! #line:d80125
-Gregg: BCE 6YDET B U0PRDKE! #line:6bfa55
-Mae: HET, HN4EF0 HE 6YDET B U0PRDKE! #line:838dd0
-Angus: YBEPEHH0CTJ B CE6E HA HYVE, A? #line:729e8a
-Mae: \o/ HET! R UP0CT0 HE 3HA% UECH%!!! #line:5f08af
+Mae: Wait! I don't know the song! #line:2d0bcd
+Mae: Like, at all! #line:b3d3c2
+Mae: And I barely remember how to play bass! #line:d80125
+Gregg: You'll be fine! #line:6bfa55
+Mae: I completely will not be fine! #line:838dd0
+Angus: Zero self confidence, huh? #line:729e8a
+Mae: \o/ NO! I JUST DON'T KNOW THE SONG!!! #line:5f08af
 Mae: _o_ #line:375066
 <<close>>
 <<wait 2>>
-Mae: KPETNHJ1! #line:ba2baf
+Mae: You stupid jerks! #line:ba2baf
 <<lookNearest Bea>>
 <<lookNearest Gregg>>
 <<runBandPractice 1>>
@@ -621,552 +621,552 @@ position: 5604,-1194
 <<playAmbientSFX AmbientSFX:band_door_open>>
 <<wait 3>>
 <<toggleSitSwings Mae false>>
-Gregg: 60S. GTA DBEPJ HNK0FDA HE 0TKPJ1BAETCR. #line:d9cee1
+Gregg: geez. That door never gets any less stuck. #line:d9cee1
 <<if $found_pentagrams >= 3>>
-	Mae: TB0% 3A H0FY, GT0 4T0, CTNKEP C UEHTAFPAMM0L? #line:a10ecc
+	Mae: holy crap is that a pentagram sticker? #line:a10ecc
     <<close>>
 	<<walk Gregg CharEnter1 wait>>
-	Gregg: AFACJ, GT0 CTNKEP MEPTBJ1X B0DNV #line:6831bd
-	Mae: NHTEPECH0, 4T0 03HA4A%T 4 UEHTAFPAMMJ1? #line:0787cc
-	Gregg: 4T0? #line:eb4b9e
+	Gregg: yeah it’s a corpsedriver sticker #line:6831bd
+	Mae: wonder what 4 pentagrams mean #line:0787cc
+	Gregg: what? #line:eb4b9e
     <<close>>
 	<<walk Mae CharEnter2 wait>>
-	Mae: HN4EF0. #line:f08c52
+	Mae: nothing #line:f08c52
 <<else>>
-	Gregg: XYSE, K0FDA CTAH0BNTCR X0V0DH0 #line:440e6e
-	Mae: R F0T0BA K X0V0DH0L U0F0DE #line:ae2b8e
+	Gregg: worse when it’s cold somehow #line:440e6e
+	Mae: i’m so ready for cold weather #line:ae2b8e
     <<close>>
 	<<walk Gregg CharEnter1 wait>>
-	Gregg: YYFX, R HEHABNSY 3NMY #line:d43e5c
+	Gregg: uuugh i haaate winter #line:d43e5c
     <<close>>
 	<<walk Mae CharEnter2 wait>>
-	Mae: 3NMA X0P0QAR, HA CAM0M DEVE #line:170dc1
+	Mae: winter’s good actually #line:170dc1
 <<endif>>
-Mae: U0KA 3DECJ HNK0F0 HET. #line:52648f
-Gregg: KY4KA 6E3DEVJHNK0B. #line:5b80e1
-Mae: U0X0SE, 0HN HE X0TRT, 4T06J1 GTA FPYUUA CTAVA N3BECTH0L. #line:79ee3f
-Gregg: XE XE #line:16892a
-Mae: FDE 6J1 MJ1 B006WE M0FVN NFPATJ, ECVN 6J1 X0TEVN? #line:bdb116
-Gregg: XMMMM #line:5a7795
-Gregg: DA HN4EF0. #line:42b7f8
-Gregg: M0SH0 NFPATJ HA TEX Q0Y DVR BETEPAH0B B Z0PT V%CEH. #line:4af9c3
-Mae: 0, BAY, 0HN 6J1VN KPYTJ1. #line:b93dd6
-Gregg: TEUEPJ MJ1 6YDEM CTAPN4KAMN. #line:ba4d43
-Mae: AFA. #line:99ace7
+Mae: nobody here yet. #line:52648f
+Gregg: buncha slackers. #line:5b80e1
+Mae: It’s like they don’t even want this band to succeed. #line:79ee3f
+Gregg: heh heh #line:16892a
+Mae: where would we even play if we wanted to? #line:bdb116
+Gregg: hmmmm #line:5a7795
+Gregg: I have no idea. #line:42b7f8
+Gregg: Go play those legion hall shows in Fort Lucenne #line:4af9c3
+Mae: Oh wow those were fun. #line:b93dd6
+Gregg: We’d be the oldsters now. #line:ba4d43
+Mae: yup. #line:99ace7
 <<close>>
 <<walk Mae MaeNearSitOnStage wait>>
 <<sit>>
-Gregg: HY... G-G... #line:04ae68
-Gregg: TJ1 B U0PRDKE? #line:d08faf
-->U0VAFA% #line:e14c06
-	Mae: B CMJ1CVE, CEF0DHR, HACK0VJK0 R B006WE M0FY CYDNTJ #line:34db4b
-	Gregg: AFA. #line:56ba8b
-->HA CAM0M DEVE, HET #line:102cc2
-	Mae: R NME% B BNDY, KT0-HN6YDJ N3 HAC B006WE B U0PRDKE? #line:837f01
-	Gregg: HE 3HA%. B4EPA BE4EP0M AHFYC CUAV D0B0VJH0 KPEUK0. #line:0d22e0
-Mae: XMM. U0D03PNTEVJH0. #line:fcb377
+Gregg: so… uh… #line:04ae68
+Gregg: you ok? #line:d08faf
+->i guess #line:e14c06
+	Mae: I mean as much as I can even tell today. #line:34db4b
+	Gregg: yeah. #line:56ba8b
+->not really #line:102cc2
+	Mae: I mean, are any of us? #line:837f01
+	Gregg: I dunno. Angus slept pretty soundly last night. #line:0d22e0
+Mae: hmm. Suspicious. #line:fcb377
 <<close>>
 <<walk Gregg GreggNearSitOnStage wait>>
 <<jumpAndSit Gregg>>
 <<wait 2>>
-Mae: DYMAEQJ, GTN PE6RTA CM0FYT BJ16PATJCR N3 QAXTJ1? #line:6fd97e
-Gregg: R DYMA%, MJ1 CK0P0 Y3HAEM. #line:c314b1
-Gregg: TJ1 3AMETNVA, KT0-HN6YDJ UP0UAV CEF0DHR? #line:e6bd66
-Mae: R HE 3HA% #line:c17bf4
-Mae: H0 R HE DYMA%, 4T0 GTNMN V%DJMN 6J1VN TE, K0F0 R 3HAVA. #line:ee9615
-Gregg: HNK0FDA HE M0SEQJ 6J1TJ YBEPEHA. #line:0659dc
-Mae: "HNK0FDA HE M0FY 6J1TJ YBEPEHA"? #line:80aace
-Mae: TAK0E CVY4AETCR C T060L 4ACT0? #line:7384b6
-Gregg: 0X, U0CT0RHH0. #line:a1643f
-Gregg: HY, TNUA, #line:28a37c
-Gregg: R HE C0BCEM U0HNMA%, 4T0 TAM UP0N30QV0 #line:b3765a
-Gregg: C T060L #line:7e3179
-Gregg: N C... 4EM 6J1 0H0 HN 6J1V0? #line:85bb28
-->KYVJT UAU04EK-Y6NLO? #line:0665b7
-	Gregg: K0HE4H0. #line:d75519
-	Mae: R, BP0DE KAK, U0HRVA EF0. #line:8d8feb
-	Gregg: UPABDA??? #line:715f01
-	Mae: HET. #line:251831
-	Mae: DA. #line:c41786
-	Mae: R HE 3HA%. #line:9bf6ae
-->K0CMN4ECKNL YSAC? #line:b936fd
-	Gregg: VADJ1, DA. 0H0. #line:6c3072
-	Mae: GM. 0H0 CTAP0E. #line:c2756f
-	Mae: HE4T0 CTAPEE V%60L BEWN, 0 K0T0P0L R M0FY U0DYMATJ. #line:9b852b
-	Mae: N TJ1 4YBCTBYEQJ EE BHYTPN #line:238029
-	Gregg: N 0HA... B DJ1PE 3A F0P0D0M? #line:d52079
-	Mae: DA. #line:d07f1d
-	Mae: HET. #line:86e5b6
-	Mae: TNUA, QTYKA B DJ1PE... #line:f75b0a
-	Mae: ...6VNH, R 3A6J1VA. #line:b67053
-	Gregg: BCE H0PMAVJH0. #line:99d1c7
-Mae: GT0 KAK #line:c08f6d
-Mae: BKV%4EHHJ1L CBET HA KPJ1VJOE #line:a108ad
-Mae: N BCE GTN VETA%WNE B0KPYF HEF0 SY4KN #line:d78ae4
-Mae: N U0T0M CBET BJ1KV%4AETCR. #line:a73443
-Mae: N 0CTAETCR VNQJ 0DHA UYCT0TA. #line:8f4fdd
-Mae: GT0 U0X0SE HA T0, 4T0 CVY4NV0CJ C0 MH0L U0 UYTN HA3AD. #line:74c37b
-Mae: 0 4EM R N F0B0PNVA TE6E HA DNBAHE UP0QV0L H04J%. #line:b8724a
-Gregg: 60SE, GT0 CVY4NV0CJ UP0QV0L H04J%? #line:27f315
-Gregg: KASETCR, 2 HEDEVN HA3AD. #line:b75739
-Mae: XE-XE, AFA. #line:d9ccc7
+Mae: do you think those guys can get out of the mine? #line:6fd97e
+Gregg: i guess we’re gonna find out pretty quick. #line:c314b1
+Gregg: did you notice anyone missing today? #line:e6bd66
+Mae: i don’t know #line:c17bf4
+Mae: but i don’t think a lot of those guys were people i knew. #line:ee9615
+Gregg: never can tell. #line:0659dc
+Mae: “never can tell”? #line:80aace
+Mae: this kind of thing happen to you often? #line:7384b6
+Gregg: oh all the time. #line:a1643f
+Gregg: so like #line:28a37c
+Gregg: i don’t really get what even happened down there #line:b3765a
+Gregg: with you #line:7e3179
+Gregg: and the… whatever that was? #line:85bb28
+->the murder cult of dads? #line:0665b7
+	Gregg: sure. #line:d75519
+	Mae: i kinda get them. #line:8d8feb
+	Gregg: really??? #line:715f01
+	Mae: no. #line:251831
+	Mae: yes. #line:c41786
+	Mae: i don’t know. #line:9bf6ae
+->the cosmic horror? #line:b936fd
+	Gregg: ok yeah. That. #line:6c3072
+	Mae: um. It’s old. #line:c2756f
+	Mae: something older than anything i can think of. #line:9b852b
+	Mae: and you can feel it inside #line:238029
+	Gregg: and it’s… in a hole outside town? #line:d52079
+	Mae: yes. #line:d07f1d
+	Mae: no. #line:86e5b6
+	Mae: like, the thing in the hole is... #line:f75b0a
+	Mae: ...geez i lost it. #line:b67053
+	Gregg: it’s ok. #line:99d1c7
+Mae: it’s like #line:c08f6d
+Mae: a porch light that’s on #line:a108ad
+Mae: and there are all these bugs around it #line:d78ae4
+Mae: and then the light goes out. #line:a73443
+Mae: and there’s a hole where the light was. #line:8f4fdd
+Mae: it’s like what happened to me way back. #line:74c37b
+Mae: like i was telling you about on the couch last night. #line:b8724a
+Gregg: god, that was last night? #line:27f315
+Gregg: seems like 2 weeks ago. #line:b75739
+Mae: heh heh yeah. #line:d9ccc7
 <<wait 4>>	
 <<if $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 0>>
-	Mae: 6YDET CTPEMH0, K0FDA TJ1 NC4E3HEQJ. #line:cf3342
-	Gregg: R NME% B BNDY, #line:a99583
-	Gregg: TJ1 YSE NC4E3AVA. #line:909a5a
-	Gregg: N TJ1 NC4E3AVA, U0 KPALHEL MEPE, 0DHASDJ1 C M0MEHTA CB0EF0 B03BPAWEHNR. #line:06d6e9
+	Mae: it’s going to be weird when you’re gone. #line:cf3342
+	Gregg: well i mean #line:a99583
+	Gregg: you’ve already been gone. #line:909a5a
+	Gregg: and you’ve been gone at least once since you got back. #line:06d6e9
 	<<if $did_gregg_friendship_quest_2>>
-		Mae: U0 KPALHEL MEPE. #line:1b7b6d
-		Mae: 0DHASDJ1, R 4YTJ HE YMEPVA, UEPEH0CR MAQNHHJ1L AKKYMYVRT0P. #line:7ef33f
-		Gregg: BNDNQJ? #line:ca29f8
+		Mae: at least. #line:1b7b6d
+		Mae: i died a little getting that battery the other day. #line:7ef33f
+		Gregg: see? #line:ca29f8
 	<<endif>>
-	Gregg: TJ1 6EFVRHKA. #line:281509
-	Mae: TNUA, UP0QVAR H04J... #line:38d7a9
-	Mae: NH0FDA UP0QV0E 4YBCTBYETCR TAKNM YSACHJ1M #line:a74b5f
+	Gregg: you’re a goner. #line:281509
+	Mae: like, last night- #line:38d7a9
+	Mae: it feels sometimes like there’s so much horrible past #line:a74b5f
 	<<if $did_gregg_investigation_quest>>
-		Mae: HE M0FY 0UPABNTJCR 0T NCT0PN4ECK0F0 C006WECTBA C UP0QV0L H04N #line:e55b89
-		Mae: XA-XA, T0VJK0 4T0 U0HRVA, 4T0 3HA%, 4T0 GT0 6J1VA 3A KAPTNHA #line:5e66d0
-		Gregg: 4T0 GT0 6J1V0? #line:490b59
-		Mae: HEBASH0. #line:60bcc9
-		Mae: H0 TAK0E 4YBCTB0, 4T0 UP0QV0E HE M0SET UP0CT0... *YLTN*. #line:03a90b
+		Mae: still trapped in the historical society from the other night #line:e55b89
+		Mae: ha ha just realized i know what that painting was #line:5e66d0
+		Gregg: what was it? #line:490b59
+		Mae: nevermind. #line:60bcc9
+		Mae: but it feels like the past can’t just… *LEAVE*. #line:03a90b
 	<<endif>>
-	Mae: N 0H0 BCE EWE 3DECJ #line:009f41
-	Mae: TJ1 KAK 6YDT0 U0FPR3 B HEM #line:4b383a
-	Mae: N Y TE6R HE M0SET 6J1TJ 6YDYWEF0. #line:9dfbca
-	Gregg: HE, 6P0 #line:19759c
+	Mae: and it’s still here #line:009f41
+	Mae: you’re like swimming in it #line:4b383a
+	Mae: and you can’t have a future. #line:9dfbca
+	Gregg: nah brah #line:19759c
 	<<wait 2>>
-	Mae: "HE, 6P0"? N BCE? #line:35dabf
-	Gregg: 4T0 6J1V0 HAQNM CAMJ1M 3HA4NMJ1M UPECTYUVEHNEM? #line:f9c517
-	->4YTJ HE C0SFVN QK0VY #line:7c29ac
-		Mae: GT0 6J1V, TNUA, HAQ UEPB0KVACCHJ1L UPEDEV #line:8ed1b4
-	->UPN3BAVN CJ1HA-P060TA B GT0T MNP? #line:eaf3ec
-		Mae: N 0CTABNVN EF0 6P0DNTJ B VECY Y Q0CCE? #line:f2e6ed
-	Gregg: HA CAM0M DEVE, MJ1 3AKPJ1VN TEX 4YBAK0B B QAXTE N 0CTABNVN YMNPATJ #line:dd28cc
-	Mae: GT0 6J1VA CAM03AWNTA!!!! #line:ae3043
-	Gregg: BCE GT0... #line:5f3173
-	Gregg: TNUA, CEF0DHRQHNL DEHJ CTAV DPYFNM N3-3A T0F0, 4T0 GT0 UP0N30QV0. #line:29e720
-	Gregg: MJ1 CTAVN DPYFNMN. #line:62919d
-	Mae: AFA #line:d51da1
-	Gregg: HY, TNUA, #line:496bec
-	Gregg: BEWN MEHR%TCR. #line:6dc0f7
-	Mae: HABEPH0E. #line:ea4abf
+	Mae: “nah brah”? That’s it? #line:35dabf
+	Gregg: what was our biggest crime ever? #line:f9c517
+	->almost burning down the school #line:7c29ac
+		Mae: that was like our highschool high point #line:8ed1b4
+	->bringing a horrible robot son into the world? #line:eaf3ec
+		Mae: and then leaving him to haunt the woods out by the highway? #line:f2e6ed
+	Gregg: actually it was probably trapping those dudes in the mine and leaving them to die #line:dd28cc
+	Mae: that was self defense!!!! #line:ae3043
+	Gregg: all of that stuff- #line:5f3173
+	Gregg: like, today’s different now because that happened. #line:29e720
+	Gregg: we’re different. #line:62919d
+	Mae: yeah #line:d51da1
+	Gregg: so like #line:496bec
+	Gregg: things change. #line:6dc0f7
+	Mae: i guess. #line:ea4abf
 	<<if $did_gregg_friendship_quest_3>>
-		Mae: KAK TJ1 CKA3AV, H0BJ1L DEHJ B VECY #line:ccc36b
-		Mae: 6YDET DPYFNM, U0T0MY 4T0 MJ1 B HEM U06J1BAVN. #line:c29aef
-		Gregg: B GT0M 4T0-T0 ECTJ. #line:31db15
-		Mae: 4T0-T0, 4T0-T0, 4T0-T0 #line:94ae42
+		Mae: like you said the other day in the woods #line:ccc36b
+		Mae: gonna be different because we were here. #line:c29aef
+		Gregg: that’s something. #line:31db15
+		Mae: something something something #line:94ae42
 	<<endif>>
 <<else>>
-	Gregg: KAKAR CTPAHHAR 0CEHJ #line:0804bb
-	Mae: AFA. B CMJ1CVE, DASE HE C4NTAR UP0QV0L H04N. #line:562d39
-	Mae: CTPEMHELQAR UAPA DHEL B M0EL SN3HN #line:065524
+	Gregg: what a weird fall it’s been #line:0804bb
+	Mae: yeah. I mean even aside from last night. #line:562d39
+	Mae: weirdest couple weeks of my life #line:065524
 	<<if $found_pentagrams >= 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 0>>
 		// if only did pentagrams //
-		Mae: TAK 4T0 C GTNM CTNKEP0M-UEHTAFPAMM0L? #line:5ed0ad
-		Mae: TNUA, 6J1VN CTPAHHJ1E U0DP0CTKN, CKA3ABQNE MHE, 4T0 R... #line:be8361
-		Mae: GM... HEBASH0. 06 GT0M TYU0 F0B0PNTJ BCVYX. #line:0f24f3
-		Gregg: 0K #line:b4763d
-		Mae: TNUA, HE 3HA%, U0P0L CTPAHHJ1E C0BUADEHNR #line:62289c
-		Mae: U0X0SN HA TEVEBN30P, HYSHJ1L B K0MHATE, 4T06J1 HE 4YBCTB0BATJ CE6R 0DNH0K0 #line:57fd53
-		Mae: NVN BP0DE T0F0 #line:76ce1b
-		Gregg: 0DHA N3 VY4QNX BEWEL SN3HN C AHFYC0M #line:a38b38
-		Gregg: 0H BCEFDA 3DECJ #line:8eb09b
-		Mae: AHFYC - TB0L TEVEBN30P #line:298b40
-		Gregg: N M0L 060FPEBATEVJ. #line:1a767f
-		Mae: K0P04E, TE U0DP0CTKN CKA3AVN MHE, 4T0 R YBNSY UEHTAFPAMMJ1 #line:0e7d78
-		Mae: 0DHA 6J1VA HA U0H4NKE #line:817c7a
-		Gregg: BHYTPN HNX DEM0HJ1 #line:e007af
-		Mae: N EWE 0DHA 6J1VA B TYHHEVE UP0QV0L H04J% #line:530996
-		Gregg: R NME% B BNDY, TJ1 3HAEQJ, 4T0 CKA3AV 6J1 AHFYC #line:bea196
+		Mae: like so i was asking about that pentagram sticker? #line:5ed0ad
+		Mae: yeah so there were these weird teens who told me i was #line:be8361
+		Mae: uh… nevermind. It’s really stupid saying it out loud. #line:0f24f3
+		Gregg: ok #line:b4763d
+		Mae: like i dunno sometimes weird coincidences #line:62289c
+		Mae: it’s like having the tv on in the room so you don’t feel alone #line:57fd53
+		Mae: or something #line:76ce1b
+		Gregg: one of the best things about living with Angus #line:a38b38
+		Gregg: is he’s always there #line:8eb09b
+		Mae: angus is your TV #line:298b40
+		Gregg: and my space heater. #line:1a767f
+		Mae: so those teens told me i’d see a bunch of pentagrams #line:0e7d78
+		Mae: you’ll like this- one was on a donut the other night #line:817c7a
+		Gregg: they got the devil in ‘em #line:e007af
+		Mae: and another was down in the tunnel last night #line:530996
+		Gregg: i mean you know what Angus would say #line:bea196
 		<<if $did_angus_investigation_quest>>
-			Mae: XA-XA! DA. #line:01c8a5
-			Mae: U0NCK 3AK0H0MEPH0CTEL #line:13effb
+			Mae: ha ha yeah #line:01c8a5
+			Mae: pattern seeking #line:13effb
 		<<else>>
-			Mae: 4T0? #line:3e52a1
-			Gregg: EMY CH0CNT KPJ1QY 0 T0M, KAK V%DN BNDRT, TNUA, 3AK0H0MEPH0CTN, K0T0PJ1E X0TRT BNDETJ #line:d0c2fb
-			Gregg: TNUA, GT0 B HAQNX M03FAX. HAQN M03FN NX NWYT #line:6af885
+			Mae: what? #line:3e52a1
+			Gregg: he goes off about how people see like patterns they want to see #line:d0c2fb
+			Gregg: like it’s in our brains. Our brains do that. #line:6af885
 		<<endif>>
-		Gregg: TJ1 3HAEQJ, 4T0 0H 3AVNBAV P0VNKN B CETJ? #line:fe2de8
-		Mae: CEPJE3H0? #line:d6460b
-		Gregg: AFA, 0H, TNUA, F0B0PNV 06 ATEN3ME N F0T0BNV #line:d22dbe
-		Gregg: "UPN4NHA N UE4EHJKN" #line:9bef9d
-		Mae: CPAHJ F0CU0DHR #line:f0a5d8
-		Gregg: R DYMA%, R EF0 YTNX0MNPNV. #line:5ec09a
-		Mae: 0H BCE EWE F0T0BNT UE4EHJE? #line:93f95e
-		Gregg: AFA, N BCE EWE 0PET 06 ATEN3ME, H0 #line:410e1b
-		Gregg: B PEAVE. #line:cec42c
-		Mae: XAX. #line:b689f8
+		Gregg: you know he used to make videos online? #line:fe2de8
+		Mae: really? #line:d6460b
+		Gregg: yeah he’d like tell about atheism and also cook #line:d22dbe
+		Gregg: “Reason and Cookies” #line:9bef9d
+		Mae: holy crap #line:f0a5d8
+		Gregg: i think i mellowed him out. #line:5ec09a
+		Mae: does he still make cookies? #line:93f95e
+		Gregg: yeah and he still yells about atheism too but  #line:410e1b
+		Gregg: irl. #line:cec42c
+		Mae: huh. #line:b689f8
 	<<elseif $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 1 and $did_germ_friendship_quest_3 is 0>>
 		//if only did lori tracks 2//
-		Mae: A, TA MEVKAR, C K0T0P0L R 3ABNCAVA, V0PN #line:95f70e
-		Gregg: TJ1 3ABNCAEQJ C MEVKNMN? #line:c34862
-		Mae: GX. 0HA BJ1FVRDEVA TAK, 6YDT0 EE HYSH0 6J1V0 HAUPABNTJ. #line:2f859b
-		Gregg: GT0 TAK MNV0 C TB0EL CT0P0HJ1 #line:9af469
-		Mae: 0HA, TNUA, X0DNT K PEVJCAM #line:bda64a
-		Mae: N DABNT TEX MAVEHJKNX METAVVN4ECKNX NFPYQE4HJ1X YP0DOEB #line:dbcef8
-		Mae: N 0HN UPEBPAWA%TCR B KPYTJ1X BCPATJ1X M0HCTP0B #line:da5b77
-		Gregg: R DEVAV TAK C UEHHN #line:90be50
-		Gregg: HE 0C06EHH0 3ADYMJ1BAVCR, DYMA% #line:852b78
-		Mae: R X3. R DYMAVA 0 T0M, KAK0B0 6J1TJ 0DH0L N3 TEX NFPYQEK, #line:376228
-		Mae: TNUA, 6J1TJ UEPEEXAHH0L 0FP0MH0L QHRF0L, K0T0PY% TJ1 HE M0SEQJ K0HTP0VNP0BATJ #line:bba63b
-		Mae: N 0CTATJCR DEZ0PMNP0BAHH0L N... R HE 3HA%... #line:9b3684
-		Gregg: U0X0SE, 3DECJ #line:39065c
-		Mae: U0X0SE, 3DECJ #line:baa721
-		Gregg: 3HAEQJ, M0L 0TEO 04EHJ X0TEV 0TUPABNTJ MEHR B K0VVEDS #line:3aee73
-		Mae: 0, U0BEPJ MHE, R U0MH%. #line:ec447d
-		Gregg: 0, T04H0. R 3A6J1V, 4T0 TJ1 T0FDA 6J1VA C0 MH0L. #line:0a430f
-		Gregg: HY, VADH0, 0H 6J1V BECJ, TNUA, #line:79b9d4
-		Gregg: "R HE X04Y, 4T06J1 TE6E UPNQV0CJ PA60TATJ HA MEVJHNOE" #line:03f958
-		Mae: XA-XA, 4T0 #line:301270
-		Gregg: GL, UAU. 4YBAK, U0V0BNHA 3AB0D0B PA3BAVNVACJ, K0FDA TJ1 6J1V B M0EM B03PACTE. #line:80be46
-		Mae: DA, UAU. TEUEPJ MJ1 PA60TAEM B CHGK ZGVK0H. #line:c9b21a
-		Gregg: CMNPNCJ C GTNM, UAU. #line:856a3e
+		Mae: there’s this kid i was hanging out with, lori #line:95f70e
+		Gregg: you’ve been hanging out with kids? #line:c34862
+		Mae: eh. She seems like she needs guidance. #line:2f859b
+		Gregg: that’s nice of you dude #line:9af469
+		Mae: she like goes to the train tracks #line:bda64a
+		Mae: and squashes these little metal toy dudes #line:dbcef8
+		Mae: and they turn into these awesome little messed up monsters #line:da5b77
+		Gregg: i used to do that with pennies #line:90be50
+		Gregg: wasn’t thinking big enough i guess #line:852b78
+		Mae: idk. Was thinking about what it’d be like being one of those toys #line:376228
+		Mae: like run over by this big massive thing you have no control over #line:bba63b
+		Mae: and it leaves you all deformed and… i dunno... #line:9b3684
+		Gregg: sounds like here #line:39065c
+		Mae: sounds like here #line:baa721
+		Gregg: you know my dad really wanted me to go to college #line:3aee73
+		Mae: oh trust me, i remember. #line:ec447d
+		Gregg: oh right. I forgot you were around for that. #line:0a430f
+		Gregg: anyway, he was all #line:79b9d4
+		Gregg: “i don’t want you to have to work in a mill” #line:03f958
+		Mae: ha ha what #line:301270
+		Gregg: hey dad. Dude. the factories were half gone when you were my age. #line:80be46
+		Mae: yeah dad. We work at Snack Falcon now. #line:c9b21a
+		Gregg: get with it, dad. #line:856a3e
 		<<if $did_bea_friendship_quest_1>>
-			Mae: DA, Y MEHR UV0XNE H0B0CTN 0 Z0PT V%CEH #line:9b5c9f
-			Gregg: 0 60SE, 4YBNX, 0H CD0X #line:60a2c4
-			Mae: 0H, HAXPEH, CD0X. #line:e83d55
-			Mae: 0H UP0CT0 3DAHNE. EMY U0ZNF. #line:3cf735
+			Mae: yeah I got bad news about the fort lucenne mall too #line:9b5c9f
+			Gregg: oh god dude that’s a deadmall now #line:60a2c4
+			Mae: it is extremely dead. #line:e83d55
+			Mae: it’s just a building though. It doesn’t mind. #line:3cf735
 		<<endif>>
 	<<elseif $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 1>>		
 		//if only did Germ FQ3//
-		Mae: TJ1 K0FDA-HN6YDJ 6J1V Y DSEPMA? #line:1886a0
-		Gregg: HE-A. FDE 0H SNBET? #line:7182c3
-		Mae: 3A VEC0M, MNHYR 60VJQY% UAPK0BKY #line:f93cb9
-		Mae: TNUA, UP0QV0L H04J% MJ1 6J1VN HA EF0 3ADHEM DB0PE #line:e2d4bc
-		Gregg: 0, T04H0. DA. #line:627d1c
-		Mae: Y HEF0 SYTKAR 6A6KA #line:bfec6e
-		Mae: 0HA UPEDCKA3AVA MHE M0% CYDJ6Y. BP0DE KAK. 4T0-T0 BP0DE T0F0.  #line:730148
-		Gregg: 3HAEQJ... DSEPM 0DHASDJ1 UPEDCKA3AV M0% CYDJ6Y #line:847f70
-		Mae: UPABDA??? #line:4b3516
-		Gregg: AFA, MJ1 6J1VN B KVNK KVAK #line:51f6df
-		Gregg: N 0H, TNUA, B3FVRHYV, KAK R 0TKYCNV UNOOY #line:451346
-		Mae: UNOOEMAHTNR NVN KAK0E-T0 DEPJM0 #line:95634b
-		Gregg: GT0 6J1V0 CTPEMH0. 0H 6J1V HA CEPJE3E. #line:e2d29e
-		Mae: KAK0B0 TB0E UPEDCKA3AHNE? #line:276d2e
-		Gregg: CKA3AV, MEHR HACMEPTJ C06JET ABT06YC #line:8331aa
-		Mae: BAY #line:b92729
-		Gregg: AFA, B0T 0TCT0L, UPABDA #line:9960d3
+		Mae: you ever been to Germ’s house? #line:1886a0
+		Gregg: nope. Where does he live? #line:7182c3
+		Mae: back up in the woods past the big parking lot #line:f93cb9
+		Mae: like last night we were basically in his backyard #line:e2d4bc
+		Gregg: oh right. Yeah. #line:627d1c
+		Mae: he’s got this spooky grandma #line:bfec6e
+		Mae: she like told my fortune. kinda. something like that. #line:730148
+		Gregg: you know… germ told my fortune once #line:847f70
+		Mae: really??? #line:4b3516
+		Gregg: yeah we were at the clik clak #line:51f6df
+		Gregg: and he like looked at how i bit a pizza slice #line:451346
+		Mae: pizzamancy or some shit #line:95634b
+		Gregg: it was weird. He got all serious. #line:e2d29e
+		Mae: what was your fortune? #line:276d2e
+		Gregg: said i’d die getting hit by a bus #line:8331aa
+		Mae: wow #line:b92729
+		Gregg: yeah what a downer right #line:9960d3
 		<<if $did_gregg_friendship_quest_1>>
-			Mae: R DYMAVA, TJ1 YMPEQJ, K0FDA #line:af524a
-			Mae: MJ1 UEPEH0CNVN TY K0P06KY 4ACTEL HABEPX #line:62f764
-			Gregg: TJ1 N R, BDB0EM #line:9d3faf
+			Mae: I thought you were gonna die the other night #line:af524a
+			Mae: when we were moving that box of parts upstairs #line:62f764
+			Gregg: you and me both #line:9d3faf
 		<<endif>>
-		Gregg: TAK 4T0 CKA3AVA 6A6KA DSEPMA? #line:17869d
-		Mae: B CMJ1CVE, ECVN 3ADYMATJCR... 4T0 6J1V0 UP0QV0L H04J%? #line:610129
-		Mae: T0 ECTJ, 0HA T0SE, B OEV0M, 6J1VA 04EHJ FPY6A #line:04615b
-        Mae: 3HAEQJ, #line:547d8b
-        Mae: UP06VEMJ1 M03FA. #line:1a3f89
-        Gregg: ZE. #line:3d14c3
-        Mae: H0 BCE SE, SYTK0 V%60UJ1TH0. #line:9eb1bc
-		Gregg: 0HN UP0CT0 SYTKAR CEMELKA, R U0VAFA% #line:35cbb1
-		Mae: Y HNX ECTJ 6ATYT #line:cc44f4
-		Gregg: 00Y, 4YBNXA! BE3ET. #line:3dde24
-		Mae: DSEPM BU0VHE KPYT. HE 6YDY VFATJ. #line:9428fb
-		Gregg: R 60VJQ0L ZAHAT. #line:3a51a4
+		Gregg: so what did Germ's grandma say? #line:17869d
+		Mae: i mean if you squint... sorta what happened last night? #line:610129
+		Mae: i mean she was also like really rude about my whole #line:04615b
+        Mae: you know #line:547d8b
+        Mae: brain issues. #line:1a3f89
+        Gregg: blech. #line:3d14c3
+        Mae: but still, kinda spooky. #line:9eb1bc
+		Gregg: they’re just kind of a spooky family i guess #line:35cbb1
+		Mae: they got a trampoline #line:cc44f4
+		Gregg: aw man! Lucky. #line:3dde24
+		Mae: Germ is pretty great. Not gonna lie. #line:9428fb
+		Gregg: i’m a big fan. #line:3a51a4
 	<<elseif $found_pentagrams >= 3 and $did_lori_friendship_quest_2 is 1 and $did_germ_friendship_quest_3 is 0>>	
 		//if only did pentagrams and lori//
-		Mae: U0DP0CTKN, 4YBAK. #line:d568f5
-		Gregg: U0DP0CTKN? #line:9ed7c3
-		Mae: R UP0CT0 DYMAVA, TNUA, #line:c1d4d7
-		Mae: U0MHNQJ, R TE6R CUPAQNBAVA UP0 T0T CTNKEP TPYU0B03KN? #line:1f3b8d
-		Gregg: AFA #line:8beebe
-		Mae: K0P04E, TE TP0E CTPAHHJ1X U0DP0CTK0B CKA3AVN MHE, 4T0 R YBNSY EWE HECK0VJK0 #line:548d6b
-		Mae: 0DHA 6J1VA HA U0H4NKE #line:59291e
-		Gregg: DEM0HN4ECKNE UPNBET0CJ1 D0HAT BYVJZY #line:db4a15
-		Mae: N EWE 0DHA 6J1VA B TYHHEVE UP0QV0L H04J% #line:c60514
-		Gregg: R NME% B BNDY, TJ1 3HAEQJ, 4T0 CKA3AV 6J1 AHFYC #line:3627b0
+		Mae: Teens, man. #line:d568f5
+		Gregg: Teens? #line:9ed7c3
+		Mae: I was just thinking like #line:c1d4d7
+		Mae: so you know how I asked you about that corpsedriver sticker? #line:1f3b8d
+		Gregg: yeah #line:8beebe
+		Mae: so these three weird teens told me I’d see a bunch of them #line:548d6b
+		Mae: you’ll like this- one was on a donut the other night #line:59291e
+		Gregg: infernal hails to donut wolf #line:db4a15
+		Mae: and another was down in that tunnel last night #line:c60514
+		Gregg: i mean you know what Angus would say #line:3627b0
 		<<if $did_angus_investigation_quest>>
-			Mae: XA-XA! DA. #line:efb95d
-			Mae: U0NCK 3AK0H0MEPH0CTEL #line:9a4d9e
+			Mae: ha ha yeah #line:efb95d
+			Mae: pattern seeking #line:9a4d9e
 		<<else>>
-			Mae: 4T0? #line:c52fc8
-			Gregg: EMY CH0CNT KPJ1QY 0 T0M, KAK V%DN BNDRT, TNUA, 3AK0H0MEPH0CTN, K0T0PJ1E X0TRT BNDETJ #line:e45688
-			Gregg: TNUA, GT0 B HAQNX M03FAX. HAQN M03FN NX NWYT #line:2126ba
+			Mae: what? #line:c52fc8
+			Gregg: he goes off about how people see like patterns they want to see #line:e45688
+			Gregg: like it’s in our brains. Our brains do that. #line:2126ba
 		<<endif>>
-		Mae: H0, U0F0DJ... 6J1VA EWE MEVKAR - V0PN #line:08a541
-		Mae: EL, BP0DE, 15. MJ1 TYC0BAVNCJ #line:fd8c9c
-		Gregg: TAK TJ1 UP0CT0... TYCYEQJCR C MEV04J%? #line:108af0
-		Mae: GM, HET. H0 V0PN... #line:ec096b
-		Mae: EL HYSH0 U0V0SNTEVJH0E BVNRHNE #line:ec0a55
-		Gregg: GT0 MNV0 C TB0EL CT0P0HJ1 #line:fdab60
-		Mae: K0P04E, 0HA, TNUA, U0 X0PP0PAM N KVEB0MY DEPJMY #line:4afda6
-		Mae: N 0HA DABNT TEX MAVEHJKNX NFPYQE4HJ1X 4YBAK0B HA PEVJCAX #line:257098
-		Gregg: 3BY4NT 0TVN4H0 #line:b78576
-		Mae: HE 3HA%. TNUA, BCU0MNHAR HAC B U0DP0CTK0B0M B03PACTE #line:6d2168
-		Mae: N KAK MJ1 DEVAVN 6E3YMH0E DEPJM0 #line:a4bf2d
-		Mae: N GT0 6J1V0, TNUA, 0SNDAEM0 #line:c89532
-		Gregg: 4YBNX, C TB0EF0 B03BPAWEHNR 6E3YMH0E DEPJM0 TB0PNV0CJ 24/7 #line:256859
-		Mae: AFA, H0, TNUA, #line:213ab2
-		Mae: GT0 DEPJM0, K0T0P0E *CVY4NV0CJ* C HAMN, #line:3d3596
-		Mae: TNUA, BNDEHNE UEHTAFPAMM #line:b83a7c
-		Mae: NVN, ECVN 6J1 TJ1 6J1V 0DHNM N3 TEX NFPYQE4HJ1X 4YBAK0B, PA3DABVEHHJ1X U0E3D0M #line:0d56f2
+		Mae: but wait- there was this OTHER teen, Lori #line:08a541
+		Mae: she’s like 15. we’ve been hanging out #line:fd8c9c
+		Gregg: so you’re just... hanging out with teens? #line:108af0
+		Mae: ew no. but lori... #line:ec096b
+		Mae: she needs a good influence #line:ec0a55
+		Gregg: that’s nice of you #line:fdab60
+		Mae: so she's like into horror movies and cool shit #line:4afda6
+		Mae: and she squashes these little toy guys on the railroad tracks #line:257098
+		Gregg: sounds awesome #line:b78576
+		Mae: i dunno. Like remember when we were teens #line:6d2168
+		Mae: and we could do crazy shit #line:a4bf2d
+		Mae: and it was like expected #line:c89532
+		Gregg: dude since you got home it’s been like crazy shit 24-7 #line:256859
+		Mae: yeah but like #line:213ab2
+		Mae: that’s shit that *happened* to us #line:3d3596
+		Mae: like seeing the pentagrams #line:b83a7c
+		Mae: or if you were one of those toy guys squashed by the train #line:0d56f2
 		<<if $did_bea_friendship_quest_2>>
-			Mae: NVN, HE 3HA%, 6N N R KAK-T0 3ACTPRVN B U0DBAVE #line:bdcde3
+			Mae: or I dunno Bea and I getting trapped in a basement the other night #line:bdcde3
 		<<endif>>
-		Gregg: R DYMA% #line:0ac1a1
-		Mae: B GT0M PA3HNOA MESDY 6J1TNEM PE6EHKA N B3P0CV0F0? #line:bffa56
-		Gregg: HET. BAWE HET. #line:43fada
-		Mae: AFA, R HE 3HA%, K 4EMY GT0 6J1V0. #line:659856
+		Gregg: i guess #line:0ac1a1
+		Mae: is that the difference between being a kid and being an adult? #line:bffa56
+		Gregg: no. not at all. #line:43fada
+		Mae: yeah i dunno where I was going with that. #line:659856
 	<<elseif $found_pentagrams >= 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 1>>	
 		//if only did pentagrams and germ fq3//
 		//Mae: this has been like the spookiest couple weeks of my life
-		Gregg: R DYMA%, 0HN 6J1VN TAKNMN DVR BCEX HAC #line:63f61d
-		Mae: TNUA, DASE HE C4NTAR BCE DPYFNE QTYKN #line:2d386a
-		Mae: U0MHNQJ, KAK R CUPAQNBAVA TE6R UP0 HAKVELKY C UEHTAFPAMM0L? #line:44d367
-		Gregg: DA, TPYU0B03KA B006WE 3A4ET #line:56292b
-		Mae: GTN 3 CTPAHHJ1X U0DP0CTKA.... VADH0, GT0 3BY4NT FVYU0... #line:87ad4e
-		Gregg: R F0T0B K TYU0MY DEPJMY UPRM0 CEL4AC #line:d73a9b
-		Mae: AFA, 0HN CKA3AVN, R YBNSY UEHTAFPAMMJ1 #line:e15eec
-		Gregg: 0K #line:7147cc
-		Mae: 0DHA N3 HNX 6J1VA HA U0H4NKE #line:6a13bd
-		Gregg: F0HN K0VECHNOY B U0H4NK0BJ1L AD. DEBN3, 4T0 HAD0. #line:8f4dc2
-        Mae: 0, F0B0PR 0 CTPAHHJ1X BEWAX, R HA DHRX 6J1VA Y DSEPMA D0MA. #line:35e900
-        Gregg: 0, CTPAHH0CTN! #line:1bee08
-		Mae: N EF0 6A6YQKA UPEDCKA3AVA M0% CYDJ6Y. TNUA. HABEPH0. #line:960c7a
-		Gregg: TJ1 3HAEQJ, DSEPM 0DHASDJ1 UPEDCKA3AV M0% CYDJ6Y? #line:383f15
-		Mae: BAY, UPABDA? #line:bbba03
-		Gregg: AFA, 0H CKA3AV, 4T0 MEHR C06JET ABT06YC #line:51d4b9
-		Gregg: 0H UP04NTAV GT0 U0 T0MY, KAK R 0TKYCNV UNOOY #line:a81ea6
-		Mae: TJ1 U0DOEUNV ABT06YC N CD0X? #line:3ca644
-		Gregg: EWE HET! #line:8a6b4f
+		Gregg: i think it’s up there for all of us #line:63f61d
+		Mae: like even aside from all the other stuff #line:2d386a
+		Mae: you know how i was asking you about that pentagram sticker? #line:44d367
+		Gregg: yeah corpsedriver’s really good #line:56292b
+		Mae: these three weird teens… ok, this sounds stupid… #line:87ad4e
+		Gregg: i’m up for some stupid right now #line:d73a9b
+		Mae: yeah they said i’d see some pentagrams #line:e15eec
+		Gregg: ok #line:7147cc
+		Mae: you’ll like this- one of them was on a donut the other night #line:6a13bd
+		Gregg: ride the chariot to donut hell. It’s right in the motto. #line:8f4dc2
+        Mae: oh, speaking of wierd stuff, i went to germ's house the other day. #line:35e900
+        Gregg: oh weird! #line:1bee08
+		Mae: and then his grandma told my fortune. kinda. maybe. #line:960c7a
+		Gregg: you know Germ told my fortune once? #line:383f15
+		Mae: Whoa really? #line:bbba03
+		Gregg: yeah he told me I was gonna get hit by a bus. #line:51d4b9
+		Gregg: like he read it in the bite I’d taken out of a slice of pizza #line:a81ea6
+		Mae: did you get hit by a bus and die? #line:3ca644
+		Gregg: not yet! #line:8a6b4f
 		<<if $did_gregg_friendship_quest_1>>
-			Gregg: DA, R HE 0TKNHYVCR, K0FDA MJ1 TAWNVN K0P06KY HA VECTHN4H0L UV0WADKE B TY H04J. #line:79672b
+			Gregg: I didn’t get killed when we were moving that box up the stairs the other night either. #line:79672b
 		<<endif>>
-		Mae: R DYMA%, GT0 3HA4NT, 4T0 TJ1 B BJ1NFPJ1QE. #line:0a4f60
-		Gregg: M0SET, B GT0M BECJ CMJ1CV. #line:b21a24
-		Mae: 0F0 #line:e72f91
-		Mae: TAK GT0, BP0DE KAK, M0R... #line:8bf839
-		Mae: T0, 4T0 MJ1 HE YMEPVN, UP0CT0 PAHD0M N YDA4A #line:33c0c4
-		Mae: NVN ECTJ, TNUA, KAKAR-T0 3AK0H0MEPH0CTJ, NVN #line:ba0f63
-		Mae: B CMJ1CVE, HE 60F, H0, TNUA... #line:88cf7d
-		Mae: 4T0-T0? #line:7ded34
-		Gregg: R NME% B BNDY, TJ1 3HAEQJ, 4T0 CKA3AV 6J1 AHFYC #line:e2626b
+		Mae: i think that means you’re winning. #line:0a4f60
+		Gregg: maybe that’s what winning is. #line:b21a24
+		Mae: whoa #line:e72f91
+		Mae: so this is kind of my point- #line:8bf839
+		Mae: are these just random things and we’ve just been lucky to not die #line:33c0c4
+		Mae: or is there like some sort of pattern or #line:ba0f63
+		Mae: i mean not god, but like… #line:88cf7d
+		Mae: something? #line:7ded34
+		Gregg: i mean you know what Angus would say #line:e2626b
 		<<if $did_angus_investigation_quest>>
-			Mae: XA-XA! DA. #line:dc7fba
-			Mae: U0NCK 3AK0H0MEPH0CTEL #line:ba6e27
+			Mae: ha ha yeah #line:dc7fba
+			Mae: pattern seeking #line:ba6e27
 		<<else>>
-			Mae: 4T0? #line:245c32
-			Gregg: EMY CH0CNT KPJ1QY 0 T0M, KAK V%DN BNDRT, TNUA, 3AK0H0MEPH0CTN, K0T0PJ1E X0TRT BNDETJ #line:dd2bdf
-			Gregg: TNUA, GT0 B HAQNX M03FAX. HAQN M03FN NX NWYT #line:a30ceb
+			Mae: what? #line:245c32
+			Gregg: he goes off about how people see like patterns they want to see #line:dd2bdf
+			Gregg: like it’s in our brains. Our brains do that. #line:a30ceb
 		<<endif>>
-		Mae: TE6E, BP0DE KAK, *X04ETCR*, 4T06J1 6J1VA KAKAR-T0 QTYKA, 3ACTABVRBQAR BCE GT0 UP0NCX0DNTJ, DA? #line:99967e
-		Mae: TNUA, DASE ECVN UP0NCX0DRT UV0XNE BEWN, GT0 3HA4NT, 4T0 ECTJ KAK0E-T0 PEFYVNP0BAHNE #line:e35286
-		Mae: TNUA, KT0-HN6YDJ 04EHJ YMHJ1L CM0SET BJ1RCHNTJ GT0 #line:a73603
-		Gregg: HE, GT0 SYTK0. #line:95e129
-		Mae: HE CTPAQHEE, 4EM DSEPM, EF0 6A6YQKA N T0 TPN0 U0DP0CTK0B. #line:75fe12
-		Gregg: DSEPM HE CTPAQHJ1L. SYTK0BAT, M0SET. #line:73c30a
-		Mae: AFA. DSEPM 60M6RWNL. #line:4411ac
-		Mae: SN3HJ SYTK0BATA, 4YBAK. #line:463da9
-		Gregg: TB0R UPABDA. #line:030daa
+		Mae: you do kinda *want* there to be something making all this happen, right? #line:99967e
+		Mae: like even if it’s bad, it means there some sort of control #line:e35286
+		Mae: like someone real smart could figure it out #line:a73603
+		Gregg: nah. That’s creepy. #line:95e129
+		Mae: not any creepier than germ and his grandma and those three teens #line:75fe12
+		Gregg: germ’s not creepy. Spooky, maybe. #line:73c30a
+		Mae: yeah. Germ’s the bomb. #line:4411ac
+		Mae: life’s spooky, man. #line:463da9
+		Gregg: you ain’t lyin #line:030daa
 	<<elseif $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 1>>
 		//if only did lori tracks 2 and germ fq3//
-		Mae: B 06WEM, R X0DNVA 0DHASDJ1 K DSEPMY #line:15716b
-		Gregg: 0F0, CEPJE3H0? #line:92ac31
-		Gregg: R HNK0FDA Y HEF0 HE 6J1V. #line:097a50
-		Mae: AFA, 0H SNBET 3A VEC0M #line:8b2e38
-		Mae: HA CAM0M DEVE, UP0QV0L H04J% MJ1 6J1VN HA EF0 3ADHEM DB0PE #line:04f680
-		Gregg: A, T04H0 #line:fc8078
-		Gregg: KAK0L Y HEF0 D0M? #line:bb8238
-		->X0P0QNL. Y%THJ1L #line:15af3d
-			Mae: Y HEF0 ECTJ MVADQNE 6PATJR N CECTPJ1, 0DHAK0 R HE BCTPETNVA NX.  #line:358f07
-			Mae: EF0 6A6KA T0SE SNBET TAM. #line:ca93af
-		->Y HNX ECTJ 6ATYT. #line:ce1b5d
-			Gregg: 0000000000 #line:5b48f6
-			Mae: R B CAM0M DEVE UPJ1FAVA HA HEM. #line:b1dbf8
-			Gregg: 0-0-0-0-0-0-0-0-0-0!!!! #line:4608d9
-			Gregg: BE3ET. #line:b8db2e
-		Mae: B V%60M CVY4AE, EF0 6A6KA UPEDCKA3AVA M0% CYDJ6Y. BP0DE T0F0. TNUA. HABEPH0E. #line:226866
-		Mae: GT0 6J1V0 CTPAHH0. #line:cd9deb
-		Gregg: DSEPM 0DHASDJ1 UPEDCKA3AV M0% CYDJ6Y. #line:4e6b1d
-		Mae: CEPJE3H0? #line:6371b7
-		Gregg: AFA, CKA3AV, MEHR C06JET ABT06YC #line:8ee561
-		Gregg: Y3HAV GT0 U0 T0MY, KAK R CJEV KYC0K UNOOJ1 #line:8d9402
-		Mae: 0H QYTNV? #line:d4df9b
-		Gregg: NH0FDA U0 DSEPMY CV0SH0 CKA3ATJ. #line:118cce
-		Gregg: 4T0 CKA3AVA EF0 6A6KA? #line:3ec229
-        Mae: NME% B BNDY, ECVN 3ADYMATJCR... 4T0 6J1V0 UP0QV0L H04J%? #line:f2ff8f
-		Mae: T0 ECTJ, 0HA T0SE, B OEV0M, 6J1VA 04EHJ FPY6A #line:9ea896
-        Mae: 3HAEQJ, #line:d8677d
-        Mae: UP06VEMJ1 M03FA. #line:aa9eb5
-        Gregg: ZE. #line:123d7c
-        Mae: H0 BCE SE, SYTK0 V%60UJ1TH0. #line:c6a832
-		Gregg: SYTKAR CEMELKA. #line:16a844
-		Mae: R HE 3HA%. HABEPH0. #line:35557f
-		Mae: A TA MEVKAR, C K0T0P0L R 3ABNCAVA, V0PN #line:c411b6
-		Gregg: TJ1 3ABNCAEQJ C MEVKNMN? #line:af0c7a
-		Mae: HE-A. TNUA, EL HYSHA P0VEBAR M0DEVJ. #line:d1be26
-		Gregg: MNV0 C TB0EL CT0P0HJ1. #line:f94c07
-		Mae: KAK 6J1 TAM HN 6J1V0, 0HA SNBET 3A UYTRMN #line:2a4674
-		Mae: N EL HPABNTCR DABNTJ TEX MEVKNX METAVVN4ECKNX NFPYQE4HJ1X YP0DOEB, #line:2ee12a
-		Mae: KVADR NX HA PEVJCJ1 UEPED UP0E3SA%WNM U0E3D0M #line:83d8fc
-		Gregg: 0, DA, R DEVAV TAK C UEHHN #line:816cbc
-		Gregg: R DYMA%, MHE HYSH0 6J1V0 DYMATJ QNPE #line:26e032
-		Mae: B 06WEM, TNUA, K0FDA 6A6KA DSEPMA UPEDCKA3AVA M0% CYDJ6Y #line:c6d07d
-		Mae: R HE M0FVA N36ABNTJCR 0T 0WYWEHNR, 4T0 GT0, TNUA, 6J1V0 4EM-T0, 4T0 R YSE BNDEVA #line:ec52ca
-		Mae: N R U0HRVA, 4EM GT0 6J1V0, UP0QV0L H04J%, K0FDA MJ1 6J1VN TAM, BHN3Y, #line:eecd2b
-		Mae: TNUA, BCE GT0 0WYWAV0CJ TAK, 6YDT0 MEHR DABNVN HA PEVJCAX #line:12982f
-		Mae: N R DEZ0PMNP0BAVACJ, N CTAH0BNVACJ CTPEMH0L N BCRK0E DEPJM0 #line:47c3f5
-		Gregg: DA! #line:e7ba86
-		Gregg: GT0 SECTK0 #line:9d49ac
-		Mae: KAK K0FDA CDEVAVN GTY F0PHY% QAXTY K %FY 0TC%DA. #line:ee5ad5
-		Gregg: YX! #line:7378c3
-		Mae: R 3HA%, AFA #line:a86026
-		Mae: TNUA, BCE UP0CT0 UEPEMEQAV0CJ N BJ1FVRDEV0 PA3DABVEHHJ1M #line:2557ed
-		Mae: R HE 3HA%, K 4EMY BEDY. #line:e09ff4
-		Mae: 4YBAK, TE6E HYSEH, TNUA, DVNHHELQNL C0H, K0T0PJ1L TJ1 M0SEQJ B006PA3NTJ #line:b75848
-		Mae: 6YDT0 EF0 *HE 6J1V0* B 60VJHNOE. #line:7579a7
+		Mae: So I went up to Germ’s house the other day #line:15716b
+		Gregg: whoa, really? #line:92ac31
+		Gregg: i’ve never been up there. #line:097a50
+		Mae: yeah it’s back up in the woods #line:8b2e38
+		Mae: actually last night we were basically in his backyard #line:04f680
+		Gregg: oh right #line:fc8078
+		Gregg: what’s his house like? #line:bb8238
+		->nice. Cozy. #line:15af3d
+			Mae: he’s got younger siblings. didn't meet them though. #line:358f07
+			Mae: his grandma lives there too. #line:ca93af
+		->they got a trampoline #line:ce1b5d
+			Gregg: aaaaaaaaaaw #line:5b48f6
+			Mae: i totally jumped on it #line:b1dbf8
+			Gregg: AAAAAAAAAAAAAAAAAAAAAWWW!!!! #line:4608d9
+			Gregg: lucky. #line:b8db2e
+		Mae: anyway his grandma told my fortune. sorta. kinda. maybe. #line:226866
+		Mae: that was weird. #line:cd9deb
+		Gregg: Germ told my fortune once. #line:4e6b1d
+		Mae: really? #line:6371b7
+		Gregg: yeah said I’d get hit by a bus #line:8ee561
+		Gregg: could tell from how I ate a slice of pizza #line:8d9402
+		Mae: was he joking? #line:d4df9b
+		Gregg: hard to tell with Germ sometimes. #line:118cce
+		Gregg: what did his gramma say? #line:3ec229
+        Mae: i mean if you squint... sorta what happened last night? #line:f2ff8f
+		Mae: i mean she was also like really rude about my whole #line:9ea896
+        Mae: you know #line:d8677d
+        Mae: brain issues. #line:aa9eb5
+        Gregg: blech. #line:123d7c
+        Mae: but still, kinda spooky. #line:c6a832
+		Gregg: Spooky family. #line:16a844
+		Mae: i dunno. I guess. #line:35557f
+		Mae: there’s this teen I’ve been hanging out with, Lori #line:c411b6
+		Gregg: hanging out with teens are you? #line:af0c7a
+		Mae: nah. Like, she needs a role model. #line:d1be26
+		Gregg: that's nice of you. #line:f94c07
+		Mae: anyway she lives out by the tracks #line:2a4674
+		Mae: and she like squishes these little metal toy guys #line:2ee12a
+		Mae: by putting them on the tracks when a train goes by #line:83d8fc
+		Gregg: oh yeah i used to do that with pennies #line:816cbc
+		Gregg: i guess i needed to think bigger #line:26e032
+		Mae: So like when Germ’s grandma told my fortune #line:c6d07d
+		Mae: i couldn’t shake this feeling that it was like something else i’d seen #line:ec52ca
+		Mae: and i realized what it was last night when we were down there #line:eecd2b
+		Mae: like it all felt like i was getting squashed on the tracks #line:12982f
+		Mae: and i was getting all deformed and weird and shit #line:47c3f5
+		Gregg: huh #line:e7ba86
+		Gregg: that’s intense #line:9d49ac
+		Mae: like when they did that mountaintop mining south of here #line:ee5ad5
+		Gregg: ugh. #line:7378c3
+		Mae: i know right #line:a86026
+		Mae: like things just got all messed up and it looked all squashed down #line:2557ed
+		Mae: i don’t know where I’m going with this #line:e09ff4
+		Mae: man, I need like the longest nap you can imagine #line:b75848
+		Mae: like one that *isn’t* in the hospital. #line:7579a7
 		<<if $did_gregg_friendship_quest_2>>
-			Gregg: B CMJ1CVE, MJ1 M0SEM CTJ1PNTJ EWE 0DNH MAQNHHJ1L AKKYMYVRT0P. #line:4091cf
-			Mae: XA-XA-XA-XA! 60SE M0L! #line:811f63
-			Gregg: TJ1 HENCUPABNMA #line:cab827
-			Mae: QAPKV M0SET CH0BA HABECTNTJ MEHR #line:982ea8
-			Gregg: 4T0? #line:664de9
+			Gregg: I mean we can go steal another car battery #line:4091cf
+			Mae: ha ha ha ha oh my god #line:811f63
+			Gregg: put you right out #line:cab827
+			Mae: sharkle can visit me again #line:982ea8
+			Gregg: what? #line:664de9
 		<<else>>
-			Gregg: R, TNUA, M0FY QN6AHYTJ TE6E U0 F0V0BE 4EM-T0 #line:2418fb
-			Mae: AFA, DABAL #line:10e383
-			Mae: B006WE-T0, HE HAD0 #line:0371c0
-			Mae: U0CVE T0L H04N GT0 M0SET BJ13BATJ CEPJE3HY% TPABMY M03FA #line:07732a
-			Gregg: KAK TB0R F0V0BA? #line:1ee6c3
-			Mae: BCE EWE PA60TAET. #line:953e30
+			Gregg: i can like bonk you over the head with something #line:2418fb
+			Mae: yeah do that #line:10e383
+			Mae: actually no #line:0371c0
+			Mae: after the other night it might cause actual brain damage #line:07732a
+			Gregg: how is your head? #line:1ee6c3
+			Mae: still working. #line:953e30
 		<<endif>>
 	<<elseif $did_lori_friendship_quest_2 is 1 and $did_germ_friendship_quest_3 is 1>>
 		//if did lori tracks 2, germ fq3//
-		Mae: 0, TJ1 U0MHNQJ, #line:97373f
+		Mae: oh man if you even knew #line:97373f
 		<<if $found_pentagrams >= 3>>
-			Mae: K0FDA MJ1 6J1VN B D0HAT BYVJZ H04J%? #line:02cf7e
-			Gregg: AFA #line:744ab3
-			Mae: R B3RVA T0T U0H4NK C UEHTAFPAMM0L, #line:bf8f26
-			Mae: K0T0PAR 6J1VA 4ACTJ% KAK0F0-T0 DEPJMA, 0 K0T0P0M MHE PACCKA3AVA TP0NOA CTPEMHJ1X U0DP0CTK0B #line:f821f2
-			Mae: TNUA, 0H0 D0VSH0 6J1V0 U0M04J MHE #line:9ebcc0
-			Mae: A EWE UP0QV0L H04J% R HAQVA UEHTAFPAMMY B TYHHEVE. #line:ca9220
-			Gregg: TAK B0T U04EMY TJ1 CUPAQNBAVA MEHR 0 GT0L HAKVELKE? #line:e204fb
-			Mae: AFA. #line:68052e
-			Gregg: R NME% B BNDY, TJ1 3HAEQJ, 4T0 CKA3AV 6J1 AHFYC #line:c6c385
+			Mae: so when we were at Donut Wolf the other night? #line:02cf7e
+			Gregg: yeah #line:744ab3
+			Mae: I got that donut with the pentagram on it #line:bf8f26
+			Mae: that was part of some shit these three weird teens told me would happen #line:f821f2
+			Mae: like it was gonna help me #line:9ebcc0
+			Mae: and last night I saw another pentagram down in the tunnel #line:ca9220
+			Gregg: that's why you asked me about that sticker? #line:e204fb
+			Mae: yeah. #line:68052e
+			Gregg: i mean you know what Angus would say #line:c6c385
 			<<if $did_angus_investigation_quest>>
-				Mae: XA-XA! DA. #line:e88cd0
-				Mae: U0NCK 3AK0H0MEPH0CTEL #line:22bfa3
+				Mae: ha ha yeah #line:e88cd0
+				Mae: pattern seeking #line:22bfa3
 			<<else>>
-				Mae: 4T0? #line:2c29f9
-				Gregg: EMY CH0CNT KPJ1QY 0 T0M, KAK V%DN BNDRT, TNUA, 3AK0H0MEPH0CTN, K0T0PJ1E X0TRT BNDETJ #line:ab3b9a
-				Gregg: TNUA, GT0 B HAQNX M03FAX. HAQN M03FN NX NWYT #line:b6ee10
+				Mae: what? #line:2c29f9
+				Gregg: he goes off about how people see like patterns they want to see #line:ab3b9a
+				Gregg: like it’s in our brains. Our brains do that. #line:b6ee10
 			<<endif>>
-			Mae: VADH0, CVYQAL... #line:3b1dd0
+			Mae: ok so get this- #line:3b1dd0
 		<<endif>>
-		Mae: U0QVA R KAK T0 K DSEPMY #line:bc43df
-		Gregg: 4EPT B03JMN #line:9ec4b9
-		Gregg: R HNK0FDA TAM HE 6J1V! #line:1e480b
-		Mae: 0, TAM MNV0. 3A VEC0M. C 6ATYTNK0M. #line:f15056
-		Gregg: 0-0, BE3YXA-A-A-A-A-A! #line:54b58a
-		Mae: EF0 6A6KA UPEDCKA3AVA M0% CYDJ6Y. C0BCEM HEMH0F0. N HERCH0. #line:0cb96e
-        Mae: R M0FVA UP0CT0 YCVJ1QATJ T0, 4T0 X0TEVA CVJ1QATJ, TAK BEDJ? #line:3992d2
-		Gregg: DSEPM 0DHASDJ1 UPEDCKA3AV M0% CYDJ6Y. M0SET, GT0 BP0DE CEMELH0L ZNQKN? #line:912c56
-		->4T0 0H CKA3AV? #line:782ca3
-			Gregg: R YMPY #line:96b281
-			Gregg: MEHR C06JET ABT06YC #line:1d8b13
-			Mae: BAY. GT0 0TCT0L. #line:5d53c1
-			Gregg: GX. #line:15fcaf
-		->KAK 0H GT0 CDEVAV? #line:5f8e4c
-			Gregg: 0H CM0TPEV, TNUA, HA 0TUE4ATKN 3Y60B HA UNOOE, K0T0PY% MJ1 EVN #line:c35ebc
-			Mae: UNOOEMAH. #line:e4df9f
-			Gregg: TJ1 EVA UNOOY C 6A6YQK0L DSEPMA NVN 4EF0? #line:cfe668
-			Mae: HE-A. 0HA UP0CT0 CM0TPEVA HA MEHR. #line:7d59ff
-		Gregg: N 4T0 0HA TE6E CKA3AVA? #line:b08cb5
-		Mae: NME% B BNDY, ECVN 3ADYMATJCR... 4T0 6J1V0 UP0QV0L H04J%? #line:e4eb08
-		Mae: T0 ECTJ, 0HA T0SE, B OEV0M, 6J1VA 04EHJ FPY6A #line:28fef9
-        Mae: 3HAEQJ, #line:2ecbae
-        Mae: UP06VEMJ1 M03FA. #line:7b56d0
-        Gregg: ZE. #line:09a366
-        Mae: H0, BCE TAKN, TNUA CTPAQH0. #line:5ac5cc
-        Mae: N KAK 6J1... #line:fe9af9
-		Mae: VADJ1, ECTJ DPYFAR VN4H0CTJ, TA DEBKA, V0PN, C K0T0P0L R 3ABNCAVA #line:4f5319
-		Gregg: KT0 TAKAR V0PN? #line:aeb622
-		Mae: V0PN MELEPC. EL, BP0DE, 15, SNBET 3A UYTRMN. #line:5804fe
-		Gregg: TJ1... TEUEPJ 3ABNCAEQJ C MEVKNMN? #line:5e5fc0
-		Mae: GX. EL HYSEH UPNMEP DVR U0DPASAHNR. #line:9e8e2d
-		Gregg: GT0 TAK MNV0 C TB0EL CT0P0HJ1 #line:ecf30e
-		Mae: N MJ1 DEVAVN TY QTYKY, K0FDA TJ1 KVADEQJ MAVEHJKNX METAVVN4ECKNX YP0DOEB HA PEVJCJ1 #line:af5fd9
-		Mae: N U0 HNM UP0E3SAV U0E3D, N 0HN DEZ0PMNP0BAVNCJ #line:e8fb2a
-		Gregg: 0, DA, R DEVAV TAK C UEHHN #line:549fa3
-		Gregg: HABEPH0E, R HE 0C060 FV06AVJH0 MJ1CVNV #line:64ad07
+		Mae: I went to Germ’s house the other day #line:bc43df
+		Gregg: HOLY SHIT #line:9ec4b9
+		Gregg: i’ve never been there! #line:1e480b
+		Mae: oh it’s nice. Up in the woods. Got a trampoline. #line:f15056
+		Gregg: aw luckyyyyyyyyyy. #line:54b58a
+		Mae: so his grandma told my fortune. a little. vaguely? #line:0cb96e
+        Mae: i could have just been hearing what i wanted to hear or something? #line:3992d2
+		Gregg: Germ told my fortune once. Maybe it’s like a family thing? #line:912c56
+		->what did he say? #line:782ca3
+			Gregg: that i’d die #line:96b281
+			Gregg: getting hit by a bus #line:1d8b13
+			Mae: wow. That’s kind of a downer. #line:5d53c1
+			Gregg: eh. #line:15fcaf
+		->how’d he do it? #line:5f8e4c
+			Gregg: he looked at like bite marks in some pizza we were eating #line:c35ebc
+			Mae: pizzamancer #line:e4df9f
+			Gregg: did you eat pizza with Germ’s gramma or something? #line:cfe668
+			Mae: nah. Just looked at me. #line:7d59ff
+		Gregg: so what did she tell you? #line:b08cb5
+		Mae: i mean if you squint... sorta what happened last night? #line:e4eb08
+		Mae: i mean she was also like really rude about my whole #line:28fef9
+        Mae: you know #line:2ecbae
+        Mae: brain issues. #line:7b56d0
+        Gregg: blech. #line:09a366
+        Mae: but still, kinda spooky. #line:5ac5cc
+        Mae: and like... #line:fe9af9
+		Mae: ok so there’s this OTHER person, this girl Lori I’ve been hanging out with? #line:4f5319
+		Gregg: who’s Lori? #line:aeb622
+		Mae: Lori Meyers. She’s like 15, lives out by the tracks #line:5804fe
+		Gregg: you’re… hanging out with teens now? #line:5e5fc0
+		Mae: eh. She needs a role model.  #line:9e8e2d
+		Gregg: that’s nice of you dude #line:ecf30e
+		Mae: we were doing this thing where you put these little metal guys on the tracks #line:af5fd9
+		Mae: and the train runs over them and they get all deformed #line:e8fb2a
+		Gregg: oh yeah i used to do that with pennies #line:549fa3
+		Gregg: guess i wasn’t thinking big enough #line:64ad07
 		<<if $found_pentagrams >= 3>>
-			Mae: UEHTAFPAMMHAR QTYKA N 6A6KA DSEPMA, N BCE B0T GT0 #line:e92b1f
+			Mae: the pentagram thing and germ’s grandma and just all of this #line:e92b1f
 		<<else>>
-			Mae: 6A6YQKA DSEPMA N BCE UP04EE #line:2d966c
+			Mae: germ’s grandma and just all of this #line:2d966c
 		<<endif>>
-		Mae: 6YDT0 U0D GTNM C0KPJ1TA QTYKA, 06JEDNHR%WAR BCE GT0 BMECTE #line:4088a5
-		Mae: H0 HE U0T0MY, 4T0 0HA 3A60TNTCR 0 HAC. #line:8a7dd1
-		Mae: QTYKA B DJ1PE, UPN3PA4HJ1E CHJ1 NVN 4T0-T0, 4T0 R EDBA U0MH% TEUEPJ #line:c93cab
-		Mae: DASE, TNUA, U0CCYM CUPNHFC, Y HAC 6J1V0 F0PA3D0 60VJQE BAKAHCNL N V%DEL N B006WE #line:e31e5d
-		Mae: A TEUEPJ HET. N B GT0M, HA CAM0M DEVE, HET HN4JEL BNHJ1 #line:476283
-		Mae: K0F0-T0, KT0 3DECJ N CEL4AC, U0 KPALHEL MEPE #line:9893a6
-		Mae: K0FDA R CDABVNBAVA TE MEVKNE NFPYQKN C V0PN #line:080a3e
-		Mae: R TAKAR, TNUA, BAY, GT0 MJ1 #line:ad070d
-		Mae: R HE 3HA%. GT0 BCE, BP0DE, C0HHAR V0FNKA NVN 4T0-T0 #line:84b139
-		Mae: R 4YBCTBY%, 6YDT0 3DECJ ECTJ TE FNFAHTJ1, #line:52087f
-		Mae: KAK K0FDA MEVJHNOJ1 N QAXTJ1 3AKPJ1VNCJ, #line:0364c8
-		Mae: H0 TE MYDAKN B TYHHEVRX DYMAVN, 4T0 M0FYT BEPHYTJ BCE #line:03ad31
-		Mae: NVN, TNUA, HNKT0 60VJQE HE X0DNT B OEPK0BJ, #line:52d93a
-		Mae: H0 60F EWE BEPHETCR NVN BP0DE T0F0 #line:aecffa
-		Mae: NVN TJ1 TNUA 0CTABVREQJ B0P0TA 0TKPJ1TJ1MN #line:faaee4
-		Gregg: GL! #line:d20308
-		Mae: KAK 6YDT0 DVR HNX UP0UAVN B0P0TA, #line:121ed6
-		Mae: A DVR TE6R - 0BOJ1,  N ... #line:8d7831
-		Mae: U0T0M, TNUA, BCE GT0 *M0E* DEPJM0, N... #line:236de8
+		Mae: like there’s some sort of thing under this holding it all together #line:4088a5
+		Mae: but not because it cares about us #line:8a7dd1
+		Mae: the thing in the hole, the ghost dreams or whatever, which i barely remember now #line:c93cab
+		Mae: even like Possum Springs, like we used to have a lot more jobs and people and stuff #line:e31e5d
+		Mae: and now we don’t. And none of it’s anyone’s fault really #line:476283
+		Mae: anyone here and now at least #line:9893a6
+		Mae: when i was squashing those little toy guys with Lori #line:080a3e
+		Mae: i was like whoa this is us #line:ad070d
+		Mae: i dunno. It’s all like dream logic or whatever #line:84b139
+		Mae: i feel like there are these giant- #line:52087f
+		Mae: like when the mills and mine shut down #line:0364c8
+		Mae: but those assholes down in the tunnels thought they could bring it back #line:03ad31
+		Mae: or like nobody goes to the church anymore #line:52d93a
+		Mae: but god’s still gonna come back or something #line:aecffa
+		Mae: or like you leaving the sheep thing open #line:faaee4
+		Gregg: hey! #line:d20308
+		Mae: like to them the gate’s gone #line:121ed6
+		Mae: and to you the sheep are gone and... #line:8d7831
+		Mae: then like *my* whole bullshit, and... #line:236de8
 		Mae: ... #line:14a4a4
-		Mae: VADJ1, R U0TEPRVA X0D CB0NX MJ1CVEL #line:968a89
-		Gregg: 4YBNX, #line:561a91
-		Gregg: TJ1 UPABA. #line:bd6654
-		Gregg: Y TE6R *6J1VA* TPYDHAR UAPA HEDEVJ #line:8adcb0
-		Gregg: TE6E HYSH0... 4T0-HN6YDJ... #line:392757
-		Mae: DA, 4YBAK. #line:19cce3
-		Mae: SDY DVNHHELQEL H04N #line:c1001e
-		Mae: GT0 4T0-T0 TAK0E, 4T0 M0SET UEPE3AUYCTNTJ BCE #line:a9bf73
-		Gregg: MJ1 HA PA60TE BCE UP0HNKVNCJ NDEEL DVNHHELQEL H04N, #line:6e2b39
-		Gregg: TJ1 M0SEQJ UP0CT0 HACVASDATJCR E% #line:745896
-		Mae: C KASDJ1M F0D0M BCE 60VJQE N 60VJQE #line:c15d0c
+		Mae: ok lost my train of thought #line:968a89
+		Gregg: man #line:561a91
+		Gregg: you’re right. #line:bd6654
+		Gregg: you *have* had a weird couple of weeks #line:8adcb0
+		Gregg: you need like... something... #line:392757
+		Mae: yeah man. #line:19cce3
+		Mae: looking forward to longest night #line:c1001e
+		Mae: something to like reset everything #line:a9bf73
+		Gregg: we got in all that Longest Night stuff at work #line:6e2b39
+		Gregg: you can just come down there #line:745896
+		Mae: earlier and earlier every year #line:c15d0c
 	<<endif>>
 <<endif>>
 
 <<if $mallard_rats>>
-	Mae: 0, R BEDJ EWE N HAQECTBNE KPJ1C B F0P0DE CUP0B0ONPBAVA #line:5eb1b5
-	Gregg: 4T0? #line:fbb47f
-	Mae: GM. GT0 BEDJ, TNUA, EDNHCTBEHHAR X0P0QAR BEWJ, K0T0PAR UP0N30QVA. #line:a24ffb
-	Mae: BECEHHNE HADESDJ1. UEPN0D PA3MH0SEHNR KPJ1C. #line:3cd159
-	Gregg: 04EHJ U0GTN4H0. #line:260ee4
-	Mae: R GKCTPNMAVJH0 U0GTN4HA. #line:1bae5c
+	Mae: oh i also gave us a rat infestation in town? #line:5eb1b5
+	Gregg: what? #line:fbb47f
+	Mae: eh. It’s like the one good thing that’s happened. #line:a24ffb
+	Mae: Hope springs. Rats Multiply. #line:3cd159
+	Gregg: very poetical. #line:260ee4
+	Mae: i’m extremely poetical. #line:1bae5c
 <<endif>>
 Gregg: ... #line:45e09c
 <<wait 2>>
-Gregg: 0HN Y6NVN KELCN. #line:e7692b
-Mae: DA, TAK N ECTJ. 0HN Y6NVN KELCN. #line:e2c32a
-Gregg: R CTAPA%CJ HE DYMATJ 06 GT0M. #line:019928
-Gregg: A MJ1, TNUA... PACCKASEM EF0 P0DNTEVRM? #line:adbebf
-Mae: 4T0 MJ1 NM CKASEM? #line:79e9bf
-Gregg: R HE 3HA%. #line:fd4a9a
-Gregg: XYSE U03B0VNTJ NM DYMATJ, 4T0 0H SNB #line:ab515a
-Gregg: NVN CKA3ATJ NM, 4T0 0H B 6E3D0HH0L DJ1PE #line:5457cd
-Gregg: B TYHHEVE #line:0b8685
-Gregg: B VECY #line:efbe33
-Gregg: C KY4K0L PE6RT, K0T0PJ1E CK0P0 YMPYT? #line:f2442a
-    ->MJ1 D0VSHJ1 CKA3ATJ NM. #line:dd5cd0
-        Gregg: 0K #line:c72772
-        Gregg: CAMA PEQN, 4T0 MJ1 CKASEM. #line:413f1e
-        Mae: R CKASY TE6E, ECVN K0FDA-HN6YDJ 4T0-HN6YDJ UPNDYMA%. #line:d4867a
-        Gregg: 3BY4NT HEUV0X0. #line:970be2
-    ->MJ1 HE D0VSHJ1 F0B0PNTJ NM. #line:d6dc53
-        Gregg: GT0 BCE C0BCEM HE PADYET. #line:ea6e14
-        Mae: KAK 0H0 B006WE M0SET PAD0BATJ, 4YBAK? #line:cd177c
-Mae: DYMA%, BASH0, 4T0 X0TR 6J1 MJ1 3HAEM #line:3e5ffb
-Mae: GT0 UPNDAET... CMJ1CVA, 4T0 VN? #line:a9f705
-Mae: R HE 3HA%, KAK GT0 CKA3ATJ... #line:2d959f
-Mae: MJ1 M0SEM 6J1TJ EDNHCTBEHHJ1MN B0 BCEVEHH0L, #line:d79387
-Mae: K0F0 4T0-VN60 B0VHYET. #line:5e4acb
-Mae: NVN KT0 X0TR 6J1 *M0SET* UEPESNBATJ. #line:3edbd3
-Mae: DYMAEQJ, B 4EM-HN6YDJ B006WE ECTJ CMJ1CV? #line:1058a3
-Mae: NVN, TNUA, 6J1V? #line:90ab73
-Gregg: XM. #line:a4b312
-Mae: 4T00000 DYMAEQJ, FPEFF0PN? #line:07f8b2
+Gregg: they killed casey. #line:e7692b
+Mae: yeah they did. they killed casey. #line:e2c32a
+Gregg: i'm trying not to think about it. #line:019928
+Gregg: do we like... tell his parents? #line:adbebf
+Mae: what do we tell them? #line:79e9bf
+Gregg: i don't know. #line:fd4a9a
+Gregg: is it worse to let them think he's alive #line:ab515a
+Gregg: or tell them he's in a bottomless hole #line:5457cd
+Gregg: in a tunnel #line:0b8685
+Gregg: in the woods #line:efbe33
+Gregg: with a bunch of guys who are gonna be dead soon? #line:f2442a
+    ->we should tell them #line:dd5cd0
+        Gregg: ok #line:c72772
+        Gregg: you get to figure out what we say. #line:413f1e
+        Mae: i'll let you know if i ever come up with anything. #line:d4867a
+        Gregg: sounds good. #line:970be2
+    ->we shouldn't tell them #line:d6dc53
+        Gregg: none of this feels good. #line:ea6e14
+        Mae: how could it, man? #line:cd177c
+Mae: i think it's important that we know at least #line:3e5ffb
+Mae: makes it... mean something? #line:a9f705
+Mae: i dunno how to say it... #line:2d959f
+Mae: i think we might be the only things in the universe #line:d79387
+Mae: who care about anything. #line:5e4acb
+Mae: or who even *can* care. #line:3edbd3
+Mae: do you think any of this means anything? #line:1058a3
+Mae: or like, meant anything? #line:90ab73
+Gregg: hm. #line:a4b312
+Mae: dooooooooes it, greggory? #line:07f8b2
 
 <<close>>
 <<playAmbientSFX AmbientSFX:band_door_open>>
@@ -1174,91 +1174,91 @@ Mae: 4T00000 DYMAEQJ, FPEFF0PN? #line:07f8b2
 <<close>>
 <<lookAt Gregg Angus>>
 <<walk Angus AngusEnterEnd wait>>
-Angus: UPNBET, MAVJ1QN #line:b0893f
-Gregg: UPNBET, MNVJ1L. #line:71fea1
-Mae: “MAVJ1QN”? #line:d49fff
-Gregg: KAK HA PA60TE? #line:b654ac
-Angus: 60SE, R TAK YCTAV 0T... BCEF0. #line:cc3e3a
+Angus: hey babies #line:b0893f
+Gregg: hey hon. #line:71fea1
+Mae: “babies”? #line:d49fff
+Gregg: how was work? #line:b654ac
+Angus: geez, i’m sore from like… everything. #line:cc3e3a
 <<if $mine_woods_run_away_hits > 0>>
     //if hit obstacle during minewoods//
-	Mae: R 4EPE3 XPEH 3HAET CK0VJK0 KYCT0B UP0QVA H04J%, #line:a60f05
-	Mae: M0E TEV0 CEL4AC MEHR HEHABNDNT. #line:40aabe
+	Mae: i ran into like a zillion bushes the other night. #line:a60f05
+	Mae: basically my body hates me right now. #line:40aabe
 <<endif>>
-Gregg: HAD0 6J1 PA3MRTJCR #line:130b7c
+Gregg: gotta do stretches  #line:130b7c
 <<lookAt Gregg Mae>>
-Mae: HY, TNUA, #line:e8cbca
-Mae: R M0FY UEPEEXATJ B 6PALT XAP60P C BAMN, UAPHN? #line:dc30d1
+Mae: so like #line:e8cbca
+Mae: can I move to Bright Harbor with you guys? #line:dc30d1
 Gregg: ! #line:c01bb9
 Angus: ! #line:df8b56
-Gregg: G-G #line:e4cf8a
-Angus: GM #line:0e465e
-Gregg: R DYMAV, TJ1 HE M0SEQJ N3 D0MA YEXATJ? #line:d141eb
-Mae: GM. HY, MHE C BAMN U04TN KAK D0MA. #line:b77b48
-Angus: ... #line:90ce69
-Mae: NNNNNNVN R BAC HABEWY, K0FDA Y BAC TAM BCE YTPRCETCR. #line:9d7c42
-Angus: K0HE4H0! #line:fa359a
-Gregg: DA, 4YBNX, 6J1V0 6J1 KALZ0B0. #line:1d7297
-Mae: GL, PE6RT #line:272e04
-Angus: DA? #line:0b4419
-Mae: CUACN60, 4T0 CUACVN UP0QV0L H04J%. HE PA3, TNUA. #line:526344
-Gregg: DA B006WE HE UP06VEMA. #line:58f767
-Gregg: CUACEM TE6R CT0VJK0 PA3, CK0VJK0 HYSH0 6YDET. #line:dd4e61
+Gregg: uh #line:e4cf8a
+Angus: um #line:0e465e
+Gregg: i thought you like couldn’t leave home? #line:d141eb
+Mae: eh. You guys are home enough. #line:b77b48
+Angus: … #line:90ce69
+Mae: orrrrrr maybe I’ll just visit for a while once you get settled in. #line:9d7c42
+Angus: of course! #line:fa359a
+Gregg: yeah dude that’d be rad. #line:1d7297
+Mae: hey guys #line:272e04
+Angus: yeah? #line:0b4419
+Mae: thanks for saving me last night. Like, repeatedly. #line:526344
+Gregg: not even a problem dude. #line:58f767
+Gregg: we’ll save you as many times as it takes #line:dd4e61
 
 <<close>>
 <<playAmbientSFX AmbientSFX:band_door_open>>
 <<wait 2>>
 <<lookAt Gregg Bea>>
 <<walk Bea CharEnter2 wait>>
-Gregg: UPNBET, 6N. #line:9be996
-Mae: UPN-N-N-NBET, 6N. #line:b9d38c
+Gregg: hey bea. #line:9be996
+Mae: heeeey bea. #line:b9d38c
 Bea: ... #line:0b2fa3
 <<wait 3>>
-Mae: TJ1J1J1 4E-HN6YDJ CKASEQJ? #line:a34e5c
-Bea: R B006WE HE 3HA%, 4T0 CKA3ATJ. #line:6ee2eb
-Bea: 4T0 3A XPEHJ B4EPA UP0N30QVA? #line:69911c
-->0X, HE CUPAQNBAL MEHR. #line:6c9f27
-	Mae: DABALTE UP0CT0, TNUA, #line:4c5f1b
-	Mae: CJ1FPAEM UECH%, #line:5afd46
-	Mae: CJEDNM UNOOY #line:7dbf92
-	Mae: N U0DYMAEM 06 GT0M 3ABTPA? #line:1da42b
-	Bea: MHE UPNCHNVCR K0HEO CBETA. #line:270824
-	Mae: UECHR. N. UNOOA. #line:0a9e19
+Mae: aaaare you gonna say something? #line:a34e5c
+Bea: i don’t really know what to say #line:6ee2eb
+Bea: what in the hell even happened last night? #line:69911c
+->ugh. Don’t ask me. #line:6c9f27
+	Mae: can’t we just like #line:4c5f1b
+	Mae: play a song #line:5afd46
+	Mae: and get pizza #line:7dbf92
+	Mae: and think about this tomorrow? #line:1da42b
+	Bea: i had a dream that the world was ending. #line:270824
+	Mae: song. and. pizza. #line:0a9e19
 	<<wait 2>>
-	Bea: X0P0Q0. #line:21186c
-	Mae: KPYYYYT0. #line:00945f
+	Bea: alright. #line:21186c
+	Mae: sweeeeet. #line:00945f
 	<<lookAt Gregg Mae>>
 	<<wait 1>>
-	Gregg: DYMA%, DA. #line:c17afe
-	Mae: 4T0? #line:ae4018
-	Gregg: 0TBE4A% HA B0UP0C DBYXMNHYTH0L DABH0CTN. #line:0e3d42
-	Mae: 4T0 3A B0UP0C? #line:0cfbc3
-	Mae: 0 4EM MJ1 B006WE F0B0PNVN? #line:5ed4a5
-->GM. HN4EF0, C0BCEM HN4EF0. #line:069e47
-	Bea: 0, VADH0, K0P04E, MHE UPNCHNVCR CAMJ1L CTPAHHJ1L K0QMAP B M0EL SN3HN. #line:c5277b
-	Bea: KCTATN, 0TVN4HJ1E YTPEHHNE C006WEHNR #line:1f4f41
-	Mae: 0000, 60SE, R 6J1VA U0VYC0HH0L, DABAL HE 6YDEM 06 GT0M #line:06519b
-	Bea: U0-M0EMY, R V0DJ1SKY U0DBEPHYVA. #line:a6cf83
-	Mae: MJ1 M0SEM UP0CT0 D0 K0HOA DHR HE F0B0PNTJ 0 UP0QV0L H04N? #line:ae0d6a
-	Bea: G-G #line:72dc60
-	Bea: HE 06EWA%. #line:9675d8
+	Gregg: it does, dude. #line:c17afe
+	Mae: what? #line:ae4018
+	Gregg: answering your question like 2 minutes ago. #line:0e3d42
+	Mae: what question? #line:0cfbc3
+	Mae: what were we even talking about? #line:5ed4a5
+->uh. Nothing. Nothing at all. #line:069e47
+	Bea: oh good so i was just having the worst weirdest nightmare ever #line:c5277b
+	Bea: by the way, nice messages to wake up to #line:1f4f41
+	Mae: ooooooh god i was half asleep let’s not talk about it #line:06519b
+	Bea: i think i twisted my ankle last night #line:a6cf83
+	Mae: can we just like not talk about last night for the rest of the day? #line:ae0d6a
+	Bea: uh #line:72dc60
+	Bea: no promises #line:9675d8
 	<<lookAt Gregg Mae>>
-	Mae: MJ1 M0SEM UP0CT0 CJ1FPATJ UECH%, #line:87407a
-	Mae: B3RTJ UNOOY #line:e0caad
-	Mae: N U0F0B0PNTJ 06 GT0M 3ABTPA? #line:a54525
+	Mae: can’t we just play a song  #line:87407a
+	Mae: and get pizza #line:e0caad
+	Mae: and talk about this tomorrow? #line:a54525
 	<<wait 2>>
-	Angus: K0HE4H0 #line:1f9b5c
-	Bea: 6E3 PA3HNOJ1 #line:7ba897
-	Bea: MJ1 M0SEM F0B0PNTJ 06 GT0M HA TEPAUNN F0DAMN #line:d9064a
-	Mae: B0T GT0 HACTP0L #line:3054a3
-	Mae: R NME% B BNDY, MJ1 SE D0VSHJ1 DBNFATJCR, BEPH0? #line:ec3b79
-	Mae: GT0T MNP RBH0 HE B CE6E, H0 #line:357b1b
-	Mae: MJ1 BCE YMPEM, ECVN HE 6YDEM SNTJ #line:6fbd1f
-	Gregg: 60VJQE U0X0DNT HA HADUNCJ C DEPJM0B0F0 CTNKEPA HA 6AMUEPE #line:79e8de
-	Mae: GL, R 3HA%, 0 4EM F0B0P% #line:729fb5
-	Mae: MJ1 D0VSHJ1 CTP0NTJ UVAHJ1, #line:537c92
-	Mae: MJ1 D0VSHJ1 MEHRTJ BEWN, #line:d8ed0e
-	Mae: MJ1 D0VSHJ1 CJ1FPATJ D0V6AHHY% UECH% N 3AKA3ATJ D0V6AHHY% UNOOY #line:98706e
-	Angus: X0P0Q0, N 4T0 MJ1 CJ1FPAEM? #line:b34917
+	Angus: sure #line:1f9b5c
+	Bea: whatever #line:7ba897
+	Bea: we can all talk about it in therapy for years #line:d9064a
+	Mae: that’s the spirit #line:3054a3
+	Mae: i mean we have to go on, right? #line:ec3b79
+	Mae: obviously the world is seriously screwed up but #line:357b1b
+	Mae: we’re all gonna die if we don’t keep living #line:6fbd1f
+	Gregg: that’s some bumper sticker shit right there #line:79e8de
+	Mae: hey, i know what i’m talking about #line:729fb5
+	Mae: we gotta make plans #line:537c92
+	Mae: we gotta change things #line:d8ed0e
+	Mae: we gotta play a goddamn song and get a goddamn pizza #line:98706e
+	Angus: ok so what are we playing? #line:b34917
 <<wait 5>>
 <<scene EndCredits>>
 ===
@@ -1273,23 +1273,23 @@ position: 5943,-1207
 <<playAmbientSFX AmbientSFX:band_door_open>>
 <<wait 3>>
 <<toggleSitSwings Mae false>>
-Bea: 60SE. GTA DBEPJ UPAKTN4ECKN HE 0TKPJ1BAETCR. #line:538259
-Mae: EWE XYSE VET0M. #line:99d71c
+Bea: god. This door just does not like to open. #line:538259
+Mae: bet it’s worse in the summer. #line:99d71c
 <<if $found_pentagrams >= 3>>
-	Mae: 0, BAY, TYT UEHTAFPAMMA HA CTNKEPE #line:69c644
-	Bea: R HE M0FY UP04NTATJ HA3BAHNE FPYUUJ1 HA HEL #line:92de29
-	Mae: 6YPNVJWNK... K0U0B? #line:d91d2d
-	Bea: R FAPAHTNPY%, 4T0 GT0 HE 6YPNVJWNK K0U0B #line:1cde38
-	Mae: M0SET 6J1TJ, GT0, TNUA, HEMEOKAR FPYUUA C HA3BAHNEM HA AHFVNLCK0M #line:65b306
-	Mae: 3BY4NT KAK #line:5d0401
-	Bea: FYTEH TAF. MN ECTJ K0UC-DPNVVEP. #line:442601
-	Mae: 0Z BNDEP3EH. #line:4bfba4
-	Bea: TNUA T0F0. #line:7e79bb
+	Mae: oh wow there’s a pentagram on this sticker #line:69c644
+	Bea: i can’t read the band name on it #line:92de29
+	Mae: cops... driller? #line:d91d2d
+	Bea: i guarantee you it’s not Cops Driller. #line:1cde38
+	Mae: maybe it’s like a german band with a name in english #line:65b306
+	Mae: sounds like that #line:5d0401
+	Bea: Guten Tag. Ve are Cops-Driller. #line:442601
+	Mae: Off Vedersen. #line:4bfba4
+	Bea: close enough. #line:7e79bb
 <<else>>
-	Mae: TAK Y BCEX BAC ECTJ KV%4N 0T 4EPH0F0 BX0DA? #line:d6c21a
-	Bea: FPEFF B3RV 0DNH N MJ1 CDEVAVN K0UNN. #line:9a844a
-	Mae: 0TKYDA Y HEF0 B3RVCR KV%4? #line:04de07
-	Bea: 6E3 U0HRTNR. #line:fc7ed9
+	Mae: so did you all get keys to the back door? #line:d6c21a
+	Bea: Gregg got one and we made copies. #line:9a844a
+	Mae: how’d he even get a key? #line:04de07
+	Bea: i have no idea. #line:fc7ed9
 <<endif>>
 <<close>>
 <<walk Bea CharEnter1>>
@@ -1297,776 +1297,776 @@ Mae: EWE XYSE VET0M. #line:99d71c
 <<walk Mae CharEnter2>>
 <<waitForMove Bea>>
 <<waitForMove Mae>>
-Bea: A FDE FPEFF? #line:c0d581
-Mae: AX DA, 0H D0VSEH 6J1V 3A6PATJ AHFYCA C PA60TJ1 #line:f6b4bc
-Bea: 4T0 GT0 3HA4NT? #line:d6294e
-Mae: U0HRTNR HE NME%. #line:7f5dcc
-Bea: XAX. #line:6b946d
-Mae: MHE HEMH0F0 HE U0HRTH0, U04EMY Y HNX BCE EWE ECTJ PA60TA #line:b5b820
-Mae: 0HN UP0CT0 6EPYT N YX0DRT C HEE B V%60E BPEMR. #line:5e2435
-Bea: ECTJ B HNX 4T0-T0 TAK0E, 4EF0 R D0 CNX U0P HE U0HNMA%. #line:a1fb94
-Mae: R DYMA%, 0HN UP0CT0 HYSDA%TCR DPYF B DPYFE. #line:4e01d9
-Bea: FPEFF HYSDAETCR B AHFYCE 60VJQE. #line:da4976
-Mae: R HE DYMA%, 4T0 AHFYC C0FVACNVCR 6J1 C GTNM. #line:34dcf3
-Bea: GT0 U0T0MY, 4T0 AHFYC DASE HE M0SET 06 GT0M U0DYMATJ, #line:cb1944
-Bea: U0T0MY 4T0 AHFYC 04EHJ X0P0QNL UAPEHJ. #line:51bdde
-->FPEFF X0P0QNL! #line:345739
-	Bea: 0, DA, 0H 0UPEDEVEHH0 TAK0L #line:b97f31
-	Bea: H0 0H TAKSE FPY6J1L N 6E30TBETCTBEHHJ1L #line:85e796
-	Bea: N Y HEF0 HYVEBAR K0HOEHTPAONR BHNMAHNR. #line:2cb70c
-	Bea: FPEFFY HYSHJ1 P0DNTEVN TAK SE, KAK EMY HYSEH EF0 UAPEHJ. #line:6c0629
-	Bea: N EMY 04EHJ U0BE3V0, 4T0 AHFYC UPEYCUEBAET B DBYX GTNX BEWAX #line:b2cf41
-->DYMAEQJ, 0HN HE UP0DEPSATCR DPYF 6E3 DPYFA? #line:9b9d8d
-	Bea: R NME% B BNDY, 0HN Y4NVNCJ BMECTE! #line:0cf866
-	Bea: KAK T0VJK0 0HN UEPEEDYT N N3MEHRTCR, #line:444726
-	Bea: U03HAK0MRTCR C H0BJ1MN V%DJMN, #line:dffe36
-	Bea: CTAHYT DPYFNMN, #line:bd58ab
-	Bea: R DYMA%, AHFYC 0C03HAET, 4T0 Y HEF0 60VJQE BAPNAHT0B. #line:6a6242
+Bea: where’s gregg? #line:c0d581
+Mae: oh yeah he had to “spring” Angus from work #line:f6b4bc
+Bea: what does that mean? #line:d6294e
+Mae: zero clue. #line:7f5dcc
+Bea: huh. #line:6b946d
+Mae: I’m a little unclear about how both of them still have jobs #line:b5b820
+Mae: since they seem to just up and leave work early a lot. #line:5e2435
+Bea: There’s a lot about those two I don’t understand. #line:a1fb94
+Mae: I think they just plain need each other. #line:4e01d9
+Bea: Gregg more than Angus I think. #line:da4976
+Mae: I don’t think Angus would agree. #line:34dcf3
+Bea: that’s because it wouldn’t occur to Angus to think otherwise #line:cb1944
+Bea: because Angus is an extremely nice person. #line:51bdde
+->Gregg’s a nice person! #line:345739
+	Bea: oh yeah he definitely is #line:b97f31
+	Bea: but he’s also bratty and irresponsible #line:85e796
+	Bea: and has like zero attention span. #line:2cb70c
+	Bea: Gregg needs a parent as much as he needs a boyfriend. #line:6c0629
+	Bea: and he’s really lucky Angus is a little bit of both. #line:b2cf41
+->do you not think they’ll last or something? #line:9b9d8d
+	Bea: i mean, they’re high school sweethearts! #line:0cf866
+	Bea: once they move and change #line:444726
+	Bea: and meet new people #line:dffe36
+	Bea: and become new people		 #line:bd58ab
+	Bea: i think angus is gonna find he’s got more options. #line:6a6242
 <<if $did_angus_investigation_quest>>
-	Mae: AHFYC C4NTAET, 4T0 FPEFF, TNUA *CUAC* EF0. #line:7b17a6
-	Bea: U0CVYQAL, R HE F0B0P%, 4T0 0H GT0F0 HE CDEVAV, ECVN 0H TAK DYMAET. #line:484124
-	Bea: AHFYC M0SET UP0CT0 BV%6NTJCR B DPYFNX, 60VEE NCKPEHHNX UAPHEL B K0SAHJ1X KYPTKAX... #line:db755a
-	Bea: K0T0PJ1E H0CRT H0SN. #line:2facf2
-	Bea: B CMJ1CVE, ECVN 6J1 R BCTPETNVA X0P0QEF0 UAPHR, BCE GT0 6J1V0 6J1 UV%CAMN. #line:5a8c8f
+	Mae: Angus thinks Gregg, like, *saved* him. #line:7b17a6
+	Bea: Listen, I’m not saying he didn’t, if he thinks so. #line:484124
+	Bea: Angus might also just be attracted to really sincere guys in leather jackets... #line:db755a
+	Bea: who carry knives. #line:2facf2
+	Bea: i mean if i met the right guy those would all be plusses. #line:5a8c8f
 <<endif>>
-Mae: 6VNH. TJ1 GT0 UP0DYMAVA. #line:599288
-Bea: D0 TB0EF0 B03BPAWEHNR #line:51b72f
-Bea: 0HN 6J1VN EDNHCTBEHHJ1MN V%DJMN, C K0T0PJ1MN R TYC0BAVACJ 60VJQEE BPEMR, #line:309d13
-Bea: Y MEHR 6J1V0 MH0F0 BPEMEHN HA UP0DYMJ1BAHNE. #line:733e45
+Mae: geez. You’ve thought this out. #line:599288
+Bea: before you came back #line:51b72f
+Bea: they were the only people i hung out with most of the time #line:309d13
+Bea: i’ve had a lot of time to study. #line:733e45
 <<close>>
 <<walk Mae MaeNearSitOnStage wait>>
 <<sit>>
-Bea: HY, TNUA, #line:b9135d
-Bea: KAK *TB0N* DEVA? #line:7beaf8
-->Y MEHR... G-G... X0P0Q0. #line:7d5343
-	Bea: CEPJE3H0? #line:2cdc00
-	Mae: CYDR U0 M0NM 0WYWEHNRM, R M0FVA 6J1 Y6EDNTJ CE6R, 4T0 R VN60 B U0PRDKE, VN60 U0VH0CTJ% PA36NTA. #line:fd90f7
-	Mae: TNUA... FDE-T0 U0CEPEDNHE. #line:f55e23
-->R DASE HE 3HA% #line:598f41
-	Mae: R BCE EWE UEPEBAPNBA% UP0N30QEDQEE, #line:f7db88
-	Mae: H0 R X0TR 6J1 3DECJ #line:1bc46a
-	Bea: AFA. #line:b894b3
-Mae: KAK CAMA? #line:a4403a
-Bea: GM. HE 04EHJ? #line:51c4f4
-Bea: Y MEHR 6J1V C0H 0 K0HOE CBETA. #line:13f528
-Mae: 6J1BAET. #line:28acc7
-Bea: TJ1 DYMAEQJ, MJ1 B 6E30UACH0CTN? #line:a88874
-Mae: 6E3 U0HRTNR. #line:927c73
-Bea: KVACCH0E 4YBCTB0. #line:f89224
-Mae: AFA. #line:aa0b0d
+Bea: so like #line:b9135d
+Bea: how *are* you? #line:7beaf8
+->i’m… uh… Good. #line:7d5343
+	Bea: Really? #line:2cdc00
+	Mae: I feel like right now I could convince myself I was fine or completely shattered. #line:fd90f7
+	Mae: just like… stuck in neutral. #line:f55e23
+->i don’t even know #line:598f41
+	Mae: i’m still processing #line:f7db88
+	Mae: i’m here, though. #line:1bc46a
+	Bea: yeah. #line:b894b3
+Mae: you? #line:a4403a
+Bea: um. Not great? #line:51c4f4
+Bea: had a dream the world was ending. #line:13f528
+Mae: might be. #line:28acc7
+Bea: do you think we’re safe? #line:a88874
+Mae: no idea. #line:927c73
+Bea: great feeling. #line:f89224
+Mae: yup. #line:aa0b0d
 <<close>>
 <<walk Bea BeaNearSitOnStage wait>>
-Bea: R, TNUA... HEMH0F0 3AUYTAVACJ B T0M, 4T0 B006WE UP0N30QV0 UP0QV0L H04J%... #line:2e7e20
-->HY, 04EBNDH0, GT0 CMEPTEVJHJ1L KYVJT UAU04EK. #line:520ec5
-	Mae: NVN #line:7c8e5a
-	Mae: KT0 3HAET, RBVR%TCR VN 0HN NMN B006WE #line:16b685
-	Bea: R HE M0FY U0BEPNTJ, 4T0 0HN B006WE CYWECTBY%T. NVN CYWECTB0BAVN. #line:18d0a3
-	Mae: B03M0SH0, NM U0HAD06NTCR HECK0VJK0 DHEL, 4T06J1 YMEPETJ #line:14fb89
+Bea: so like... i’m a little confused about what even happened last night… #line:2e7e20
+->well, there’s apparently a deathcult of dads #line:520ec5
+	Mae: or was #line:7c8e5a
+	Mae: who knows if that was all of them #line:16b685
+	Bea: i can’t believe they even exist. Or existed. #line:18d0a3
+	Mae: probably take them a few days to die. #line:14fb89
 	Bea: ... #line:f07cc7
-	Bea: AFA. #line:6d76fb
-	Mae: R HE 3HA%. R DASE HEMH0F0 U0HNMA% NX B HEK0T0P0M CMJ1CVE. #line:82aedb
-	Bea: CEPJE3H0?! #line:724ea1
-->K0CMN4ECKNL YSAC? #line:ef8673
-	Bea: AFA. GT0. #line:f3754a
-	Mae: TJ1 M0FVA BNDETJ NVN 4YBCTB0BATJ GT0? #line:80b6ed
-	Bea: HE-A. H0 MESDY T060L N... 0TOAMN... #line:e325c4
-	Bea: 4T0-T0 D0VSH0 6J1V0 UP0N30LTN #line:9a7c30
-	Mae: CTAP0. 04EHJ CTAP0. #line:de7f98
-	Mae: TJ1 DASE M0SEQJ U04YRTJ HACK0VJK0. #line:7b43db
-Mae: GT0 KAK #line:1fb294
-Mae: BKV%4EHHJ1L CBET HA KPJ1VJOE #line:3c2bee
-Mae: N BCE GTN VETA%WNE B0KPYF HEF0 SY4KN #line:2c5855
-Mae: N U0T0M CBET BJ1KV%4AETCR. #line:ffdb0b
-Mae: N 0CTAETCR VNQJ 0DHA UYCT0TA. #line:6e7532
-Mae: GT0 U0X0SE HA T0, 4T0 CVY4NV0CJ C0 MH0L U0 UYTN HA3AD. #line:bd711d
-Mae: 0 4EM R N F0B0PNVA TE6E HA DNBAHE UP0QV0L H04J%. #line:151cde
-Bea: B0T 4EPT, GT0 6J1V0 B4EPA H04J%. #line:2882bb
-Bea: KAK 6YDT0 2 SN3HN T0MY HA3AD. #line:276983
-Bea: XE-XE, AFA. #line:191870
+	Bea: yup. #line:6d76fb
+	Mae: i dunno. I kinda understand them in a weird way. #line:82aedb
+	Bea: really?! #line:724ea1
+->the whole cosmic horror thing? #line:ef8673
+	Bea: yeah. That. #line:f3754a
+	Mae: could you even see or feel it? #line:80b6ed
+	Bea: nope. But between you and the… dads… #line:e325c4
+	Bea: something had to be going on #line:9a7c30
+	Mae: it’s old. It’s very old. #line:de7f98
+	Mae: you can like smell how old. #line:7b43db
+Mae: it’s like #line:1fb294
+Mae: a porch light that’s on #line:3c2bee
+Mae: and there are all these bugs around it #line:2c5855
+Mae: and then the light goes out. #line:ffdb0b
+Mae: and there’s a hole where the light was. #line:6e7532
+Mae: it’s like what happened to me way back. #line:bd711d
+Mae: like i was telling you about on the couch last night. #line:151cde
+Bea: holy crap that was last night. #line:2882bb
+Bea: seems like 2 lifetimes ago. #line:276983
+Bea: heh heh yeah. #line:191870
 <<wait 4>>
 <<if $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 0>>
-	Mae: MNP 04EHJ SECT0K #line:189d4e
-	Bea: DA. 0H TAK0L. #line:67227d
+	Mae: the world is extremely bad #line:189d4e
+	Bea: yes. Yes it is. #line:67227d
 	<<if $failed_state_joke>>
-		Mae: ...HEYDABQNLCR QTAT? #line:1f945c
-		Bea: MJ1 YSE D0B0VJH0 6VN3K0. #line:32ece6
+		Mae: a… failed state? #line:1f945c
+		Bea: getting pretty close. #line:32ece6
     <<endif>>
-	Mae: CTPAHHJ1L B0UP0C, H0... #line:9d307f
-	Mae: KAK TJ1 UP0CJ1UAEQJCR KASDJ1L DEHJ, #line:61fa6a
-	Mae: NDEQJ 0TKPJ1BATJ MAFA3NH #line:af877a
-	Mae: N BCE BPEMR UP0D0VSAEQJ DEVATJ GT0? #line:23390e
-	Bea: Y MEHR HA CAM0M DEVE HET BJ160PA, PA3BE HE TAK? #line:de8e4d
-	->R NME% B BNDY, TJ1 6E3YCV0BH0 DEVAEQJ GT0. #line:83b7d2
-		Mae: TJ1 HE 0TDAEQJ CE6E D0VSH0F0, #line:653473
-		Mae: TJ1 UP0D0VSAEQJ DEVATJ BCE GT0, U0T0MY 4T0 TE6E HE UVEBATJ #line:64829f
-		Bea: HABEPH0E. #line:4493b7
-		Bea: 6ECU0K0LCTB0 - HE ECTJ X0P0Q0. #line:3c5f39
-		Bea: NH0FDA 0H0 M0SET 6J1TJ UP0CT0 YSACHJ1M #line:9019fc
-		Bea: R 4YBCTBY%, 4T0 0H0 BCE BPEMR FDE-T0 BHE 30HJ1 BNDNM0CTN, #line:72af48
-		Bea: UPECVEDYET MEHR. #line:858ce6
-	->HE DYMA%. #line:3c8503
-		Mae: H0 BCE SE. MH0FNE V%DN M0FVN 6J1 6J1TJ, TNUA, #line:284f20
-		Mae: YHN4T0SEHJ1 TEM, 4EPE3 4T0 TJ1 UP0QVA. #line:37ddc5
-		Bea: M0R MATJ 6J1VA 04EHJ CT0LK0L. N YMH0L. #line:c11a76
-		Bea: K0FDA R Y3HAVA, 4T0 0HA CK0P0 YMPET, #line:b748c3
-		Bea: R HE 0C03H0BAVA, 4T0 0HA 6J1VA XPYUK0L #line:357590
-		Bea: KAK BCE MJ1. #line:ad68ec
-		Bea: R HE X0TEVA EE U0DB0DNTJ #line:88d5df
-	Bea: R *HE* HE M0FY 06VASATJCR. #line:565085
-	Bea: R NME% B BNDY, 4T0 3AHNMA%CJ MAFA3NH0M #line:cc39cf
-	Bea: N HAQNMN HAV0FAMN HA D0M, #line:aa3001
-	Bea: BCEMN GTNMN QTYKAMN C T0PF0B0L UAVAT0L, #line:c008ee
-	Bea: R UP0B0SY 6ECUVATHJ1E 0HVALH-KYPCJ1, #line:949da8
-	Bea: N R - 4VEH KVY6A %HJ1X C0ONAVNCT0B. #line:da6995
-	Mae: R CUV% 04EHJ MH0F0 N NH0FDA EM UNOOY. #line:540b9e
-	Bea: “KASD0MY U0 CU0C06H0CTN” #line:ef4d01
-	Mae: HY, C DPYF0L CT0P0HJ1 Y TE6R ECTJ R! #line:ffb832
-	Bea: XE-XE, AFA. #line:fc5e3b
-	Mae: MJ1 M0SEM NCUPABNTJ MNP BMECTEEEEE! #line:895a49
-	Bea: AFA. NCUPABNM UPRM0 CEL4AC. #line:4de29e
+	Mae: weird question- #line:9d307f
+	Mae: how do you like get up every day #line:61fa6a
+	Mae: and go open the store #line:af877a
+	Mae: and keep doing it? #line:23390e
+	Bea: i don’t really have a choice, do i? #line:de8e4d
+	->i mean, you definitely do. #line:83b7d2
+		Mae: you don’t give yourself enough credit #line:653473
+		Mae: you keep all of this running because you care #line:64829f
+		Bea: i guess. #line:4493b7
+		Bea: caring doesn’t always seem to be voluntary. #line:3c5f39
+		Bea: caring can be really terrifying #line:9019fc
+		Bea: i feel like it’s always there right out of sight #line:72af48
+		Bea: following me. #line:858ce6
+	->i guess not. #line:3c8503
+		Mae: but still. Lots of people would be like #line:284f20
+		Mae: destroyed by what you’ve been through. #line:37ddc5
+		Bea: my mom was extremely tough. And smart. #line:c11a76
+		Bea: when i found out she was going to die #line:b748c3
+		Bea: it just didn’t occur to me that she was fragile #line:357590
+		Bea: like we’re all fragile. #line:ad68ec
+		Bea: i don’t want to let her down i guess. #line:88d5df
+	Bea: i can’t *not* give a shit. #line:565085
+	Bea: i mean i do the store #line:cc39cf
+	Bea: and our bills at home #line:aa3001
+	Bea: stuff with the chamber of commerce #line:c008ee
+	Bea: i’m doing free study courses online #line:949da8
+	Bea: and i’m a member of the young socialists. #line:da6995
+	Mae: i sleep a lot and sometimes eat pizza. #line:540b9e
+	Bea: “to each according to their ability” #line:ef4d01
+	Mae: well, on the bright side, you got meeeee! #line:ffb832
+	Bea: heh heh yeah. #line:fc5e3b
+	Mae: we can fix the world togetherrrrrr! #line:895a49
+	Bea: yup. Fix it right up. #line:4de29e
 	<<if $did_bea_friendship_quest_2>>
-		Mae: MJ1 U04NHNVN TY UE4J! #line:4fc1f4
-		Bea: *R* U04NHNVA TY UE4J #line:d51e21
-		Mae: HY, R U0M0FVA NCUPABNTJ CNTYAON% B U0DBAVE, K0FDA MJ1 3ACTPRVN #line:917adf
-		Bea: TAK N ECTJ, MGL. TAK N ECTJ. #line:d12f72
+		Mae: we fixed that furnace! #line:4fc1f4
+		Bea: *I* fixed that furnace. #line:d51e21
+		Mae: well i fixed us getting trapped in the basement. #line:917adf
+		Bea: you sure did, Mae. you sure did. #line:d12f72
 	<<endif>>
-	Bea: TJZY. R C4NTA%, 4T0 UP0QVAR H04J 6J1VA HE TAK0L YS N CTPAHH0L #line:bfecb5
-	Mae: 0HA 6J1VA D0B0VJH0 CTPAHH0L #line:bbede2
-	Bea: CTAPNKN Y6NBA%T M0V0DJ1X N 6EDHJ1X, #line:5ac7c5
-	Bea: 4T06J1 BEPHYTJ UP0QV0E, K0T0P0F0 U04TN HE CYWECTBYET #line:3ebed8
-	Bea: T0 CAM0E UP0QV0E #line:ba7e21
-	Bea: 0HN UPRM0 KAK UPN3PAKN B CTAP0M 0C06HRKE, #line:d7a94e
-	Bea: Y6NBA%T H0BJ1X BVADEVJOEB, #line:e7c49d
-	Bea: 3ACTABVR%T TE6R VN60 CDATJCR, VN60 CTAPATJCR EWE 60VJQE #line:c37bd2
-	Mae: NVN PACCTP0NTJCR N 3ACHYTJ #line:de5b35
-	Bea: AFA, C0H BCE VE4NT. #line:4ac1d4
-	Mae: NVN C6P0CNTJ K HNM VNZT #line:8f8ff7
-	Bea: GT0 T0SE CPA60TAET, R DYMA%. #line:00339b
+	Bea: ugh. I guess last night wasn’t so weird. #line:bfecb5
+	Mae: it was pretty weird. #line:bbede2
+	Bea: old men killing the youngs and the poors #line:5ac7c5
+	Bea: to get back some past that barely existed. #line:3ebed8
+	Bea: same ol same ol #line:ba7e21
+	Bea: they’re like ghosts in some old mansion #line:d7a94e
+	Bea: killing the new owners. #line:e7c49d
+	Bea: makes you want to either give up or try harder. #line:c37bd2
+	Mae: or get really upset and take a nap #line:de5b35
+	Bea: yeah. Naps fix everything. #line:4ac1d4
+	Mae: or like drop an elevator on them #line:8f8ff7
+	Bea: that works too i guess. #line:00339b
 	<<wait 4>>
 <<else>>
 	//if did pentagrams, lori tracks 2, or germ fq3//
-	Mae: 60SE, U0CVEDHNE DBE HEDEVN, HNKAK HE YKVADJ1BA%TCR B M0EL F0V0BE #line:ef8bbd
-	Bea: GT0 BU0VHE B03M0SH0 U0HRTJ, MGL. #line:57fdfa
+	Mae: god i can’t even wrap my head around these past two weeks. #line:ef8bbd
+	Bea: i think that’s pretty understandable, mae. #line:57fdfa
 	<<if $found_pentagrams >= 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 0>>
 		//if just did pentagrams//
-		Mae: TAM 6J1VN TPN CTPAHHJ1X U0DP0CTKA #line:61548b
-		Mae: N 0HN CKA3AVN, 4T0 R YBNSY UEHTAFPAMMJ1. #line:31aced
-		Bea: KAKNE U0DP0CTKN? #line:722b70
+		Mae: there were these three weird teens #line:61548b
+		Mae: and they told me i’d see bunch of pentagrams. #line:31aced
+		Bea: what teens? #line:722b70
 		<<if $did_bea_investigation_quest>>
-			Mae: TE, HA K0T0PJ1X MJ1 HATKHYVNCJ HA KVAD6NWE #line:aa1706
-			Bea: 0 60SE. TE U0DP0CTKN. #line:46dffa
+			Mae: the ones we bumped into in the graveyard #line:aa1706
+			Bea: oh god. Those teens. #line:46dffa
 		<<else>>
-			Mae: BCTPETNVA NX Y B0D0HAU0PH0L 6AQHN #line:95c09a
-			Mae: UP0CT0 UPNDYPK0BATJ1E DETN. #line:055778
+			Mae: met them up by the water tower #line:95c09a
+			Mae: just some dorky kids. #line:055778
 		<<endif>>
-		Mae: TAK NVN NHA4E, 0HN CKA3AVN, 4T0 ECVN R YBNSY TPN UEHTAFPAMMJ1, #line:63301f
-		Mae: R U0VY4Y KAKY%-T0 U0M0WJ. #line:49f0a5
-		Mae: R BNDEVA 0DHY, HA T0L BE4EPNHKE, HA K0T0PY% MJ1 U0QVN. #line:a94e3d
-		Mae: N UP0QV0L H04J% R BNDEVA EWE 0DHY, B T0HHEVE #line:e87964
-		Mae: N GT0 3ACTABNV0 MEHR 3ADYMATJCR... #line:75e771
-		Mae: TJ1 U0MHNQJ ADNHY N "3AMEP3QEE 03EP0"? #line:64ca6d
-		Bea: HAP0DHAR CKA3KA? DA, K0HE4H0. #line:48357c
-		Mae: UP0 ACTP0H0MA U0D0 VJD0M NVN TNUA T0F0, K0T0PJ1L HE M0F HALTN 3BE3DY #line:b304ef
-		Mae: D0 T0F0, KAK 0HA YMEPVA? #line:42375d
-		Bea: UPN3PA4HAR 3BE3DA #line:22ed54
-		Mae: UP0CT0, DYMA%, 4T0 3BE3DJ1 BJ1FVRDRT NHA4E, ECVN U0CM0TPETJ HA NX 0TPASEHNE. #line:b06ec5
-		Bea: GT0... UPABDA. #line:96d440
-		Mae: GT0 T0, 4T0 TJ1 M0F 6J1 YBNDETJ, 6YDJ 0TPASEHNEM B UPYDY... #line:66ae53
-		Bea: DA, R U0HRVA. R 4NTAVA NCT0PN%. #line:012dc0
-		Mae: R EDBA 3AMETNVA GT0, K0FDA MJ1 6J1VN BHN3Y UP0QV0L H04J%, H0 CEF0DHR #line:fb5ae1
-		Mae: T0VJK0 06 GT0M N DYMA%. GT0 4YBCTB0, 6YDT0 #line:daadca
-		Mae: B K0HOE BCEF0 TJ1 M0SEQJ YXBATNTJCR 3A 4T0-T0. #line:6eaa14
-		Mae: NVN 3A HN4T0. #line:ce57be
-		Mae: HALTN SYTKY% UPN3PA4HY% 3BE3DY, #line:7ea737
-		Mae: U0MECTNTJ HA KAPTY. #line:e47532
-		Mae: N T0FDA Y TE6R... G-G... 6YDET KAPTA? #line:e6b42f
-		Mae: R HE 3HA%. R UP0F0V0DAVACJ N YCTAVA #line:e1adb9
-		Mae: N Y MEHR TAK0E 4YBCTB0, 6YDT0 MEHR UEPEEXAV U0E3D, FPYSEHJ1L DPYFNMN U0E3DAMN. #line:49dbd3
-		Bea: R DELCTBNTEVJH0 BUE4ATVEHA TEM, KAK TJ1 U0DOEUNVA BCE GT0 0T CTPEMHJ1X N SYTKNX U0DP0CTK0B. #line:4ad99d
+		Mae: anyway, they said if I saw three pentagrams #line:63301f
+		Mae: I’d get some sort of help. #line:49f0a5
+		Mae: I actually saw one at that party we went to. #line:a94e3d
+		Mae: and last night, i saw the last one down in the tunnel #line:e87964
+		Mae: and it made me think… #line:75e771
+		Mae: you remember Adina and The Frozen Lake? #line:64ca6d
+		Bea: the folk tale? Yeah sure. #line:48357c
+		Mae: that astronomer under the ice or whatever that couldn’t find a star #line:b304ef
+		Mae: until after she died? #line:42375d
+		Bea: the ghost star. #line:22ed54
+		Mae: just thinking stars are upside down if you’re looking at their reflections. #line:b06ec5
+		Bea: that’s… true. #line:96d440
+		Mae: which is what you’d see if you were a reflection in the ice- #line:66ae53
+		Bea: yeah i get it. I read the story. #line:012dc0
+		Mae: i barely noticed it when we were down there last night but today #line:fb5ae1
+		Mae: just thinking about that. This feeling like #line:daadca
+		Mae: at the end of everything you can hold on to something. #line:6eaa14
+		Mae: or anything. #line:ce57be
+		Mae: find the spooky ghost star #line:7ea737
+		Mae: put it on a map #line:e47532
+		Mae: then you… uh… have a map? #line:e6b42f
+		Mae: i dunno. I’m hungry and tired #line:e1adb9
+		Mae: and i feel like i got run over by a train that was carrying other trains. #line:49dbd3
+		Bea: i’m really impressed you got all of that out of teens being weird and spooky. #line:4ad99d
 		<<if $did_angus_investigation_quest>>
-			Mae: NCKATEVN 3AK0H0MEPH0CTEL. #line:53d803
-			Bea: 4T0? #line:ffc144
-			Mae: 4T0-T0, 4T0 CKA3AV AHFYC. #line:a7ba37
-			Mae: MJ1 X0P0QN B U0NCKE 3AK0H0MEPH0CTEL #line:9b09b0
-			Bea: AFA. GT0 KAK HABJ1K DVR BJ1SNBAHNR. #line:57ad5b
-			Mae: AFA. #line:dbb72d
+			Mae: pattern-seekers. #line:53d803
+			Bea: what? #line:ffc144
+			Mae: something angus said. #line:a7ba37
+			Mae: we’re good at finding patterns. #line:9b09b0
+			Bea: yeah. It’s like a survival thing. #line:57ad5b
+			Mae: yeah. #line:dbb72d
 		<<else>>
-			Mae: R HE 3HA%. #line:a5aaed
-			Mae: GT0 4T0-T0 3HA4NV0 DVR MEHR. #line:8e3e27
-			Mae: GT0F0 D0CTAT04H0? #line:fbba45
-			Bea: DVR MEHR 4YSD0 0CYSDATJ KAKNE-T0 CTPAQHJ1E 3HAKN. #line:cbd7f9
-			Mae: SYTK0. #line:5cbc96
-			Mae: SYYYYYYYYTK00 #line:71fd3c
+			Mae: i dunno. #line:a5aaed
+			Mae: it meant something to me. #line:8e3e27
+			Mae: is that enough? #line:fbba45
+			Bea: far be it from me to condemn spooky meaning. #line:cbd7f9
+			Mae: spooky. #line:5cbc96
+			Mae: spoooook-k-k-k-y #line:71fd3c
 		<<endif>>
 		<<wait 4>>
 	<<elseif $found_pentagrams < 3 and $did_lori_friendship_quest_2 and $did_germ_friendship_quest_3 is 0>>
 		//if just did lori tracks 2//
-		Mae: ECTJ 0DHA MEVKAR - V0PN #line:b17987
-		Mae: DVR K0T0P0L R, TNUA... GM... #line:564574
-		Mae: M0SET, UJ1TAVACJ CTATJ UPNMEP0M? #line:4496af
-		Bea: CK0VJK0 EL VET? #line:72dee0
-		Mae: DYMA%, 0K0V0 15 #line:9f8f20
-		Bea: TAK 3HA4NT TJ1 TYCYEQJCR C 15-VETHEL? #line:1076e2
-		Mae: 0, 3ATKHNCJ. B V%60M CVY4AE. #line:9c23d7
-		Mae: 0HA KVADET MAVEHJKNX METAVVN4ECKNX YP0DOEB HA SEVE3H0D0P0SHJ1E UYTN #line:27d480
-		Mae: N 0HN, TNUA, CUV%WNBA%TCR DPYF C DPYF0M #line:df2132
-		Mae: N U0VY4A%TCR GTN KALZ0BJ1E MAVEHJKNE M0HCTPJ1. #line:695f5b
-		Bea: 0-0-0, 3BY4NT KPYT0! #line:88dd6a
-		Mae: DA, GT0 QNKAPH0. #line:56d03a
-		Mae: GT0 3ACTABNV0 MEHR 3ADYMATJCR, #line:65f9a9
-		Mae: 4T0, ECVN 0HN 6J1VN 6J1 SNBJ1MN, K0FDA GT0 UP0NCX0DNV0 #line:56ff23
-		Bea: 60SE, MPA4H0 #line:03815c
-		Mae: ECVN 6J1 0HN 6J1VN UP0CT0 YHN4T0SEHJ1 N PA3DABVEHJ1 GT0L 0FP0MH0L HEU0CTNSNM0L QTYK0L #line:dbbf48
-		Mae: N CKVENVNCJ 6J1 B 0DHY QTYKY #line:c838c3
-		Mae: 0HN, TNUA, CTAVN H0BJ1M M0HCTP0M. #line:b14b68
-		Bea: DASE DB0LHJ1M M0HCTP0M. #line:1ea349
+		Mae: there’s this kid Lori #line:b17987
+		Mae: i’ve been like… uh… #line:564574
+		Mae: maybe trying to be a role model? #line:4496af
+		Bea: how old is she? #line:72dee0
+		Mae: i think 15 or so. #line:9f8f20
+		Bea: so you’re just hanging out with a 15 year old? #line:1076e2
+		Mae: oh shut up. Anyway. #line:9c23d7
+		Mae: she does this thing where she puts little metal dudes on the train tracks #line:27d480
+		Mae: and like squashes them together #line:df2132
+		Mae: and it makes these rad little monsters. #line:695f5b
+		Bea: oooh that sounds cool. #line:88dd6a
+		Mae: yeah it’s awesome. #line:56d03a
+		Mae: it also made me think like #line:65f9a9
+		Mae: if they were alive when it happened #line:56ff23
+		Bea: god, that’s grim #line:03815c
+		Mae: if they were just destroyed and crushed by this massive unknowable thing #line:dbbf48
+		Mae: and crammed into being one thing #line:c838c3
+		Mae: they’re like a new monster. #line:b14b68
+		Bea: twice the monster, even. #line:1ea349
 		<<if $did_bea_friendship_quest_1>>
-			Mae: KAK R N PJ16HJ1L 60F Z0PT V%CEH #line:818266
-			Bea: DYMA%, TJ1 PAHNVA HECK0VJK0 V%DEL #line:0014d2
-			Mae: GX. #line:5e749f
-			Mae: B 06WEM, #line:94a161
+			Mae: like me and the fort lucenne fish god #line:818266
+			Bea: i think you actually injured a few of those people #line:0014d2
+			Mae: eh. #line:5e749f
+			Mae: anyway #line:94a161
 		<<endif>>
-		Mae: TNUA, B3FVRHN, FDE MJ1 SNBEM #line:76262d
-		Mae: CT0VJK0 BCEF0 UP0N30QV0 B GT0M MECTE #line:bd1035
-		Mae: CDEVAV0 VN GT0 BCEX HAC CNVJHEE #line:ad2bcc
-		Mae: NVN UP0CT0 CDEVAV0 N3 HAC KY4KY YP0DOEB #line:5b5793
-		Bea: R... DYMA%, N T0 N DPYF0E. #line:668030
-		Bea: TNUA, BCE, 4T0 TPABMNPYET B TAK0M MACQTA6E, DEVAET N T0 N DPYF0E? #line:7d4266
-		Bea: H0, HECM0TPR HA T0, 4T0 U0P0L R HEHABNSY GTY 4EPT0BY DJ1PY, #line:22309d
-		Bea: GT0 HAQ D0M. #line:9b19fb
-		Mae: U0MHNQJ, KAK MNCCNC KPAHFVEP Y4NVA HAC TAHOEBATJ KADPNVJ, K0FDA MJ1 6J1VN CKAYTAMN? #line:9ad659
-		Bea: XA-XA, DA. 60SE. Y HEE 6J1VA TP0CTJ #line:a4712a
-		Mae: DA, N 0HA 0T6NBAVA E% PNTM 06 3EMV% #line:895da4
-		Bea: MNCCNC KPAHFVEP 0TH0CNVACJ K KADPNVN CEPJE3H0. #line:293442
-		Mae: KASETCR, 0HA YMEPVA HEDABH0. #line:1864a0
-		Bea: DA, H0 0HA 6J1VA KPALHE CTAPA. #line:89c10e
-		Mae: TAHOEBATJ KADPNVJ 6J1V0 HEVEU0 #line:0bc856
-		Mae: HAM BCEM UP0CT0 HPABNV0CJ 6ECNTJCR #line:44e611
-		Mae: N UJ1TATJCR TAHOEBATJ, CTAPARCJ HE CTAVKNBATJCR DPYF C DPYF0M. #line:d63d4c
-		Bea: MNCCNC KPAHFVEP MEPTBA, H0 KADPNVJ BCE EWE SNBA. #line:4589e1
-		Mae: NHTEPECH0, YMEET VN V0PN TAHOEBATJ KADPNVJ. #line:220752
-		Mae: DYMAEQJ, MJ1 D0VSHJ1 HAY4NTJ EE? #line:6bb86b
-		Bea: 0, HEYSEVN MHE HA4NHAET HPABNTJCR GT0 BPEMEHH0E CECTPNHCTB0? #line:ea78a7
-		Mae: CECTPNHCTB0 KADPNVJHJ1X M0HCTP0B #line:76e3d9
-		Bea: HA DEPEBEHCK0L DNCK0TEKE TAHOU0V 6YDET HAQ #line:50e9fd
-		Mae: V%60L TAHOU0V, HA K0T0PJ1L YUADET HAQ B3FVRD, 6YDET HAQ. #line:351006
+		Mae: but like look at where we live #line:76262d
+		Mae: big giant things rolled over this place #line:bd1035
+		Mae: and i don’t know if it made us all stronger #line:ad2bcc
+		Mae: or just made some monsters #line:5b5793
+		Bea: i… think it did both. #line:668030
+		Bea: like anything traumatic on that scale does both? #line:7d4266
+		Bea: but as much as i hate this shithole sometimes #line:22309d
+		Bea: it’s home. #line:9b19fb
+		Mae: Remember when Mrs. Crangler taught us to squaredance in girl scouts? #line:9ad659
+		Bea: ha ha yeah. Geez. she had that stick #line:a4712a
+		Mae: yeah she’d hit the ground to the beat #line:895da4
+		Bea: Mrs. Crangler was serious about squaredancing. #line:293442
+		Mae: she died recently i guess. #line:1864a0
+		Bea: yeah. She was extremely old though. #line:89c10e
+		Mae: squaredancing was weird #line:0bc856
+		Mae: all of us just like jumbled up #line:44e611
+		Mae: trying to dance, trying not to trip over each other #line:d63d4c
+		Bea: Mrs. Crangler is dead, but the squaredance lives on. #line:4589e1
+		Mae: i wonder if Lori knows how to squaredance. #line:220752
+		Mae: we should teach her? #line:6bb86b
+		Bea: oh, am i being drafted into this makeshift sisterhood? #line:ea78a7
+		Mae: sisterhood of squaredancing monsters #line:76e3d9
+		Bea: we’ll rule the floor at the state farm show #line:50e9fd
+		Mae: we’ll rule any floor we lay our eyes on. #line:351006
 		<<wait 4>>
 	<<elseif $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3>>
 		//if just did germ FQ3//
-		Mae: TAK B0T, R X0DNVA K DSEPMY D0M0L. #line:00ae38
-		Bea: 4T0?! #line:d835d1
-		Bea: 60SE M0L, PACCKA3J1BAL #line:c9eba5
-		Bea: R HE M0FY U0BEPNTJ DASE B T0, 4T0 Y HEF0 ECTJ D0M. #line:c60563
-		Mae: 0 DA, 0H Y HEF0 ECTJ. 0H HAX0DNTCR FDE-T0. #line:4a6edc
-		Mae: G-G, GT0 60VJQ0L CDB0EHHJ1L D0M, C0 BCTP0EHHJ1M U0DBAV0M N TEPPAC0L. #line:ad34b0
-		Mae: 04EHJ KPYT0, HA CAM0M DEVE. #line:db3a2f
-		Mae: Y HEF0 ECTJ 6ATYT. #line:71e86a
-		Bea: YZ. U0CVE GTNX QTYK MHE CTAH0BNTCR UV0X0. #line:5304e8
-		Mae: TAK B0T, TAM SNBET EF0 6A6YQKA #line:c1a412
-		Mae: 0HA TNUA UPEDCKA3AVA M0% CYDJ6Y. #line:ce7082
-		Bea: CPAHJ F0CU0DHR. #line:b5ceaa
-		Bea: KAK0B0 TB0E UPEDCKA3AHNE? #line:f26353
-        Mae: HY, 0HA CKA3AVA D0B0VJH0 DEPJM0BJ1E BEWN B OEV0M #line:b51f4e
-        Mae: HY, 3HAEQJ. 0 QTYKAX B M0EL F0V0BE. #line:35a3a7
-        Bea: 0Y. #line:aa921a
-		Mae: H0, B V%60M CVY4AE, BCE, 4T0 CVY4NV0CJ UP0QV0L H04J%, 6J1V0 BECJMA CMYTHJ1M. #line:bcf094
-		Bea: B0Y, SYTK0.  #line:ce4560
-		Bea: 3HAEQJ, ECVN YFVY6VRTJCR B PEFN0HAVJHY% NCT0PN% N BCE TAK0E, #line:ee0711
-		Bea: T0 M0SH0 HALTN KY4Y NCT0PNL UP0 BEDJM NVN TNUA T0F0 #line:b25f10
-		Mae: TJ1 BEPNQJ B BEDJM? #line:dc9c05
-		Bea: 60SE, HE CUPAQNBAL, B0 4T0 R BEP% CEF0DHR #line:2dcae0
-		Bea: B V%60M CVY4AE. GT0 ECTJ B NCT0PN4ECKNX KHNSKAX. #line:eb1cbb
-		Mae: T0 ECTJ, TJ1 X04EQJ CKA3ATJ, 4T0 0HA B CAM0M DEVE MEDNYM #line:51fe39
-		Bea: KAK GT0 B006WE PA60TAET? #line:bc706c
-		Bea: 3HA4NT VN GT0, 4T0 6YDYWEE YSE 0UPEDEVEH0? #line:6c6556
-		Mae: M0SET, 6YDYWEE 3ABNCNT 0T T0F0, KAKNE PEQEHNR MJ1 UPNHNMAEM #line:4865fc
-		Bea: H0 ECVN BJ160P EWE HE CDEVAH, T0 GT0 T0VJK0 4ACTJ 6YDYWEF0 #line:3bf885
-		Bea: TAK 4T0, D0VSHA 6J1TJ EWE 4ACTJ... 4EF0-T0... #line:de0d7f
-		Bea: AAAAFX. M0L M03F. #line:f2bc34
-		Mae: HET, GT0 X0P0QAR MJ1CVJ. HNK0FDA PAHJQE HE DYMAVA 06 GT0M. #line:aa28b9
-		Mae: TAK B0T, B V%60M CVY4AE. T0, 4T0 0HA F0B0PNVA, 6J1V0 D0B0VJH0 UYFA%WE, H0 #line:ff4253
-		Mae: 6J1V0 UPNRTH0 4YBCTB0BATJ, 4T0 DVR BCEF0 GT0F0 ECTJ KAK0L-T0 0UPEDEVEHHJ1L U0PRD0K. #line:6c2638
+		Mae: so i went to Germ’s house. #line:00ae38
+		Bea: WHAT?! #line:d835d1
+		Bea: oh my god tell me about it #line:c9eba5
+		Bea: i can’t believe he even has a house. #line:c60563
+		Mae: oh yeah, he does. He’s from somewhere. #line:4a6edc
+		Mae: uh it’s a big double-wide with a built-on basement and a deck #line:ad34b0
+		Mae: really nice, actually. #line:db3a2f
+		Mae: he’s got a trampoline. #line:71e86a
+		Bea: oof. bouncing on those always makes me sick. #line:5304e8
+		Mae: anyway his grandma lives there #line:c1a412
+		Mae: she told my fortune. sorta. #line:ce7082
+		Bea: holy shit. #line:b5ceaa
+		Bea: what was your fortune? #line:f26353
+        Mae: well she said some pretty shitty things about my whole #line:b51f4e
+        Mae: you know. head thing. #line:35a3a7
+        Bea: ah. #line:aa921a
+		Mae: but otherwise it was kinda vaguely... what happened last night? #line:bcf094
+		Bea: wow. spooky. #line:ce4560
+		Bea: you know, if you go back in regional history and stuff #line:ee0711
+		Bea: there’s like stories about witches and stuff #line:b25f10
+		Mae: you believe in witches? #line:dc9c05
+		Bea: oh geez don’t ask me what i believe in today #line:2dcae0
+		Bea: but yeah. It’s in the history books. #line:eb1cbb
+		Mae: so you’re telling me she was actually psychic #line:51fe39
+		Bea: how would that even work? #line:bc706c
+		Bea: does that mean the future is just set? #line:6c6556
+		Mae: maybe it’s the future depending on what choices we make #line:4865fc
+		Bea: but if the choices haven’t been made yet that’s part of the future #line:3bf885
+		Bea: so it should be part of the… something... #line:de0d7f
+		Bea: uuuugh. My brain. #line:f2bc34
+		Mae: no, that’s a good point. Didn’t think about that. #line:aa28b9
+		Mae: well anyway. What she said was scary but #line:ff4253
+		Mae: it was nice to feel like there was some sort of order to all of this. #line:6c2638
 		<<if $did_bea_friendship_quest_3>>
-			Mae: HAUPNMEP, K0FDA R BJ16NPAVA, 4T0 6YDET HA YSNH UP0QV0L H04J% #line:781bc6
-			Mae: M0SET VN 6J1TJ TAK, 4T0 M0L BJ160P 6J1V UPEDPEQEH? #line:5aa95b
+			Mae: like when i picked out dinner the other night #line:781bc6
+			Mae: was that like the only dinner i could have picked? #line:5aa95b
 		<<endif>>
 		<<if $did_bea_friendship_quest_2>>
-			Mae: HAM TNUA, 6J1V0 UPEDHA3HA4EH0 6J1TJ 3AUEPTJ1MN B U0DBAVE MNCC MNPAHDJ1? #line:8e4a5e
+			Mae: were we like, destined to get trapped in Mrs. miranda’s basement? #line:8e4a5e
 		<<endif>>
-		Bea: 60SE, HADE%CJ, 4T0 HET. #line:b356c0
-		->AFA #line:5c2b3a
-			Bea: MJ1CVN, 4T0 6YDYWEE - GT0 3ABEPQEHH0E YPABHEHNE, #line:eda1a8
-			Bea: BJ13J1BA%T UPNCTYUJ1 KVAYCTPAZ06NN, HE UPABDA VN? #line:c936fa
-			Mae: AFA. #line:177539
-		->U04EMY HET? #line:50ab1e
-			Bea: U0T0MY 4T0 R 6J1 HE X0TEVA, 4T06J1 M0R MAMA YMEPVA. #line:d62f5a
-			Bea: HE X0TEVA 6J1 YUYCTNTJ B03M0SH0CTJ U0CTYUNTJ K0VVEDS. #line:56c08d
-			Bea: HE X0TEVA 6J1, 4T06J1 KNPKA 6J1VA UPEDHA3HA4EHA MHE CYDJ60L. #line:bb508c
-			Mae: XM. AFA. #line:55f9ab
-		Mae: HAXEP GT0T QYM. #line:5282be
-		Bea: U0QEV 0H UPRM0 B CTPAT0CZEPY. #line:211dfe
+		Bea: god, i hope not. #line:b356c0
+		->yeah #line:5c2b3a
+			Bea: thinking that the future is just like an equation playing out #line:eda1a8
+			Bea: it’s really claustrophobic, right? #line:c936fa
+			Mae: yeah. #line:177539
+		->why not? #line:50ab1e
+			Bea: i don’t want my mom to have to have died. #line:d62f5a
+			Bea: i don’t want me to have to have missed college. #line:56c08d
+			Bea: i don’t want the Pickaxe to be some hard-coded destiny. #line:bb508c
+			Mae: hm. Yeah. #line:55f9ab
+		Mae: eff that noise. #line:5282be
+		Bea: eff it right into the stratosphere. #line:211dfe
 		<<wait 4>>
 	<<elseif $found_pentagrams >= 3 and $did_lori_friendship_quest_2 and $did_germ_friendship_quest_3 is 0>>
 		//if did just pentagrams and lori tracks 2//
-		Mae: U0MHNQJ GTY NCT0PN%... GM... ADNHA N 3AMEP3QEE 03EP0? #line:0fe639
-		Bea: PA3BE HE ADNHA N VECH0L 60F? #line:777537
-		Mae: VADH0, U0ZNF. #line:aec7d7
-		Mae: TAM 6J1VN GTN CTPAHHJ1E U0DP0CTKN #line:1c3346
-		Bea: R HE U0MH% GTY 4ACTJ NCT0PNN #line:88dcc8
-		Mae: HE TYUN, TAM TAK0E T04H0 6J1V0 #line:9e8aed
-		Bea: R 3HA%. R UP0CT0 U0QYTNVA. #line:587400
-		Mae: R HE 3HA%, KAK B0CUPNHNMATJ QYTKN CEF0DHR! #line:d2e357
-		Bea: 0KEL, TAK TJ1 BNDEVA U0DP0CTK0B #line:ed1915
-		Mae: B 06WEM, 0HN 6J1VN D0B0VJH0 SYTKNMN #line:77ed6b
+		Mae: remember that story… uh… adina and the frozen lake? #line:0fe639
+		Bea: isn’t it Adina and The Forest God? #line:777537
+		Mae: ok whatever. #line:aec7d7
+		Mae: there were these weird teens #line:1c3346
+		Bea: i don’t remember that part of the story #line:88dcc8
+		Mae: no dummy, this part actually happened #line:9e8aed
+		Bea: i know. I was joking. #line:587400
+		Mae: i don’t know how to interpret jokes today! #line:d2e357
+		Bea: ok so you saw some teens #line:ed1915
+		Mae: anyway they were being all spooky #line:77ed6b
 		<<if $did_bea_investigation_quest>>
-			Mae: TJ1 HABEPHRKA BCTPE4AVA NX HA KVAD6NWE #line:0994f6
-			Bea: A, GTN U0DP0CTKN. #line:de0985
-			Bea: TE U0DP0CTKN, K0T0PJ1E MY4NVN TE6R #line:64ceb4
-			Mae: AFA. 0HN. #line:9f41aa
+			Mae: actually you met them- in the graveyard #line:0994f6
+			Bea: oh THOSE teens. #line:de0985
+			Bea: the teens that tortured you #line:64ceb4
+			Mae: yeah. Them. #line:9f41aa
 		<<endif>>
-		Mae: 0HN CKA3AVN MHE, 4T0 R YBNSY KAKNE-T0 UEHTAFPAMMJ1, A U0T0M TAK N UP0N30QV0? #line:93daea
-		Mae: R DYMAVA, 4T0 0HN BEDJMJ1 NVN 4T0-T0 TNUA T0F0. #line:6048b3
-		Bea: TJ1 DYMAEQJ 0HN...GM.. UCNXN? #line:177b59
-		Mae: R HE 3HA%. DYMA%, 0HN UP0CT0 4YDAK0BATJ1E. #line:cf2e2e
-		Mae: H0 R BNDEVA U0CVEDH%% UEHTAFPAMMY, K0FDA MJ1 CUYCKAVNCJ TYDA UP0QV0L H04J%. #line:49a872
-		Mae: 0HA 6J1VA KAK 6YDT0 HA 0U0PHJ1X 6AVKAX B TYHHEVE, FDE 6J1VA... DJ1PA... #line:7a478d
+		Mae: they told me i’d see some pentagrams, and then it happened? #line:93daea
+		Mae: i think they’re like witches or something. #line:6048b3
+		Bea: you think they’re... uh... psychic? #line:177b59
+		Mae: i dunno. I think they’re just weird. #line:cf2e2e
+		Mae: but i saw the last pentagram when we were down there last night. #line:49a872
+		Mae: it was like in the tunnel supports where the… hole… was. #line:7a478d
 		<<if $did_angus_investigation_quest>>
-			Mae: AHFYC 6J1 U0CMERVCR HAD GTNM #line:5a75f3
-			Mae: CKA3AV 6J1, 4T0 R UP0CT0 NWY HECYWECTBY%WY% CBR3J #line:a75949
-			Bea: B GT0M BECJ AHFYC. 0DHAK0, 0H 6J1 CKA3AV GT0 BESVNB0. #line:f73b59
+			Mae: angus would laugh at that #line:5a75f3
+			Mae: say i’m just pattern-seeking #line:a75949
+			Bea: yeah that’s angus. He’d say it nicely though. #line:f73b59
 		<<endif>>
-		Mae: H0 R T0FDA HE UPEDAVA GT0MY 3HA4EHNR #line:60c55a
-		Mae: H0 UPRM KAK B T0L NCT0PNN, TNUA, MEPTBJ1L ACTP0H0M NVN 4T0-T0 TAK0E #line:7d9a42
-		Mae: N 0H, TNUA, 0TPASEHNE B0 VJDY #line:006568
-		Mae: N ECTJ 3BE3DA, K0T0PY% 0H HE M0F YBNDETJ, U0KA TA HE YMEPVA #line:e92815
-		Bea: DA. UPN3PAK 3BE3DJ1. #line:c526cc
-		Mae: N, ECVN 6J1 TJ1 YBNDEV 0TPASEHNE GT0L 3BE3DJ1, 0HA 6J1VA 6J1 KAK UEHTAFPAMMA #line:579b86
-		Bea: GT0 UPABDA. #line:945c2e
-		Mae: HE 3HA%, ECTJ EWE 1 PE6EH0K, V0PN MELEPC. #line:96adad
-		Mae: MJ1 QATAVNCJ U0 UYTRM. #line:6676c1
-		Bea: 3HA4NT, TJ1 BC%DY TACKAEQJCR C U0DP0CTKAMN. #line:19e298
-		Mae: 0, 3ATKHNCJ. #line:2747fe
-		Mae: B 06WEM, V0PN V%6NT DABNTJ TEX MEVKNX METAVVN4ECKNX YP0DOEB HA PEVJCAX, #line:2c124b
-		Mae: UPEBPAWAR NX B MAVEHJKNX KPYTJ1X M0HCTP0B. #line:669848
-		Bea: 0, GT0 KPYT0! #line:43f45d
-		Mae: DA, V0PN BECJMA KPYTAR #line:8df572
-		Mae: H0 HA6V%DAR 3A TEM, KAK 0HA GT0 DEVAET, C03DABAV0CJ 0WYWEHNE... GM... PNTYAVA? #line:76658a
-		Mae: 4T0-T0 TNUA CTAP0L MAFNN, C U0M0WJ% K0T0P0L UJ1TAVNCJ CDEVATJ 30V0T0 N3 DEPJMA? #line:cd9b4a
-		Bea: AVXNMNR. #line:1fa7c6
-		Mae: DA. GT0 6J1V0 4T0-T0 TNUA AVXNMNN. 0HA KAK 6YDT0 TB0PNVA MAFN%. #line:87c603
-		Bea: TAK TJ1 F0B0PNQJ, 4T0 BJ1 C06PAVNCJ, KAK 4 BEDJMJ1. #line:a13148
-		Mae: HY, HE UPRM KAK BEDJMJ1, H0 #line:3b6955
-		Mae: DASE HE 3HA%, K 4EMY R KV0H%. #line:529643
-		Mae: K0FDA R 4YBCTB0BAVA, 4T0 BCE K0H4EH0, TNUA, HE 6J1V0 HADESDJ1, #line:72a198
-		Mae: BCU0MNHAR, TNUA... UPN3PA4HJ1E 3BE3DJ1 N ADNHY, N BEDJM-U0DP0CTK0B, #line:88d2f4
-		Mae: N V0PN, DEVA%WY% M0HCTP0B N3 YP0DOEB, N U0E3DA #line:29f550
-		Mae: UP0CT0 BHE3AUH0 U04YBCTB0BAVA, 4T0 SN3HJ NDET #line:839a4e
-		Mae: N U0DP0CTKN 3AHNMA%TCR CTPAHH0L MAFNEL. #line:75e6a6
-		Mae: TAK 4T0, BEWN HE M0FYT 6J1TJ 6E3HADESHJ1MN. #line:3f4533
-		Bea: GT0 KAK TE BD0XH0BVR%WNE NCT0PNN, K0T0PJ1E PEVNFN03HJ1E V%DN UNQYT B KHNFAX #line:ec225d
-		Bea: N, TNUA, CTAPJ1E V%DN 4NTA%T NX #line:0c5138
-		Bea: 0 T0M, KAK AHFEVJ1 CUACVN NX 0T YDAPA MAQNHJ1 #line:d83b31
-		Bea: NVN KAK UP0DAVN NM D0M U04TN 3ADAP0M #line:c6a80a
-		Bea: 3A NCKV%4EHNEM T0F0, 4T0 TB0N AHFEVJ1 - F0BH%KN U0DP0CTKN #line:688cf0
-		Mae: R U0VAFA%, MJ1 PA60TAEM C TEM, 4T0 NMEEM #line:8039dd
-		Bea: XM. #line:4e027c
+		Mae: it didn’t really register much with me at the moment #line:60c55a
+		Mae: but like in that story there’s like a dead astronomer or something #line:7d9a42
+		Mae: and they’re like a reflection in the ice #line:006568
+		Mae: and there’s this star they can’t see until they’re dead #line:e92815
+		Bea: yeah. The ghost star. #line:c526cc
+		Mae: and if you saw a reflection of the ghost star it’d be like a pentagram. #line:579b86
+		Bea: that is true. #line:945c2e
+		Mae: i dunno. There’s this other kid, Lori Meyers. #line:96adad
+		Mae: we were hanging out by the tracks #line:6676c1
+		Bea: so you’re just hanging out with teenagers all over the place. #line:19e298
+		Mae: oh hush. #line:2747fe
+		Mae: so lori like squishes these little metal dudes on the train tracks #line:2c124b
+		Mae: and they become like these cool little monsters. #line:669848
+		Bea: oh that’s cool. #line:43f45d
+		Mae: yeah Lori’s pretty rad. #line:8df572
+		Mae: but watching her do that, it felt like this… uh… ritual? #line:76658a
+		Mae: like what was that old magic where they tried to make gold out of shit? #line:cd9b4a
+		Bea: alchemy. #line:1fa7c6
+		Mae: yeah. It was like alkamee. She was like doing magic. #line:87c603
+		Bea: so you’re saying you’ve met like 4 witches. #line:a13148
+		Mae: not real ones but #line:3b6955
+		Mae: i don’t know what i’m getting at. #line:529643
+		Mae: when i felt like everything was over, like there was no hope #line:72a198
+		Mae: remembering like… ghost stars and adina and teen witches #line:88d2f4
+		Mae: and lori making monsters out of toy people and real trains #line:29f550
+		Mae: just suddenly felt like life was happening #line:839a4e
+		Mae: and teens were doing weird magic. #line:75e6a6
+		Mae: so things couldn’t be that hopeless. #line:3f4533
+		Bea: this is like those inspirational stories religious people put in books #line:ec225d
+		Bea: and like old people read them #line:0c5138
+		Bea: about how angels like stopped a car from hitting them #line:d83b31
+		Bea: or sold them a house for almost no money #line:c6a80a
+		Bea: except your angels are teen dipshits #line:688cf0
+		Mae: you work with what you have i guess. #line:8039dd
+		Bea: hm. #line:4e027c
 		<<wait 4>>
 	<<elseif $found_pentagrams >= 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3>>
 		//if just did pentagrams and germ fq3//
-		Mae: TJ1 BEPNQJ B MEDNYM0B N U0D06H0E DEPJM0? #line:9e9904
+		Mae: you believe in like psychics and shit? #line:9e9904
 		<<if $did_bea_investigation_quest>>
-			Mae: 0L, N3BNHN, MJ1 06 GT0M YSE F0B0PNVN. #line:887760
-			Bea: K0FDA? #line:b562d7
-			Mae: HA KVAD6NWE, T0L H04J%! #line:934d34
-			Mae: TJ1 CKA3AVA, 4T0 TJ1 M0FVA 6J1 BEPNTJ B UPN3PAK0B N TNUA T0F0 #line:7b47d1
+			Mae: oh wait sorry we already talked about this. #line:887760
+			Bea: when? #line:b562d7
+			Mae: at the graveyard the other night! #line:934d34
+			Mae: you said you might believe in ghosts and stuff #line:7b47d1
 		<<else>>
-			Bea: "U0D06H0E DEPJM0?" #line:58bce6
-			Mae: TNUA... CBEPXJECTECTBEHH0E DEPJM0 B OEV0M? #line:e13fbd
+			Bea: “and shit?” #line:58bce6
+			Mae: just like… supernatural shit in general? #line:e13fbd
 		<<endif>>
-		Bea: K0HE4H0, AFA, R BP0DE M0FVA 6J1. BP0DE. BCE PABH0. #line:a31e35
+		Bea: sure yeah i’m open to it. Kinda. whatever. #line:a31e35
 		<<if $did_bea_investigation_quest>>
-			Mae: U0MHNQJ TEX CTPAHHJ1X U0DP0CTK0B, K0T0PJ1X MJ1 TAM BCTPETNVN? #line:c426ed
-			Bea: XA-XA, AFA. GT0 TE, K0T0PJ1E UJ1TAVN TE6R? #line:3d86b5
-			Mae: AFA. 0HN. #line:732f5e
-			Mae: R NX PAHJQE BCTPE4AVA. #line:2d42a2
+			Mae: remember the weird teens we met there? #line:c426ed
+			Bea: ha ha yeah the ones that like tortured you? #line:3d86b5
+			Mae: yeah. Them. #line:732f5e
+			Mae: i met them before. #line:2d42a2
 		<<else>>
-			Mae: HY, R BCTPE4AVA GTNX TPEX CTPAHHJ1X U0DP0CTK0B. #line:1c5456
-			Mae: Y B0D0HAU0PH0L 6AQHN #line:8985e6
-			Mae: 0HN, TNUA, CTPEMHJ1E N BCE TAK0E #line:58c8a3
+			Mae: so i met these three weird teens #line:1c5456
+			Mae: out by the watertower #line:8985e6
+			Mae: they were all spooky and shit #line:58c8a3
 		<<endif>>
-		Mae: 0HN CKA3AVN, 4T0 R YBNSY KAKNE-T0 UEHTAFPAMMJ1, K0T0PJ1E MHE KAK-T0 U0M0FYT. #line:7c0d28
-		Mae: R DYMA%, 0HN BEDJMJ1. #line:5a9fc7
-		Bea: GT0 6J1V0 CTPAHH0 N DPYSEV%6H0. #line:d2afef
-		Mae: 0KEL, CM0TPN - KAK-T0 PA3 R U0QVA D0M0L K DSEPMY, N... #line:062800
-		Bea: CPAHJ F0CU0DHR!!! #line:bbd204
-		Bea: TJ1 6J1VA D0MA Y DSEPMA?! #line:0e2f17
-		Bea: HA 4T0 0H U0X0S? #line:0af8a9
-		Mae: 0H KVACCHJ1L. GT0, TNUA, CDB0EHHJ1L D0M C OEVJ1M U0DBAV0M. #line:779273
-		Mae: N 6ATYT0M. #line:bf32c5
-		Bea: YZ. U0CVE GTNX QTYK MHE CTAH0BNTCR UV0X0. #line:418c7d
-		Mae: MHE 0H 4EPT0BCKN U0HPABNVCR, 4YBAK. #line:e1b4df
-		Mae: R UPJ1FAVA 04EHJ BJ1C0K0 N 60VTAVA 0, TNUA, UP0ZC0%3AX C EF0 0TO0M N DRDEL #line:5516fa
-		Bea: BCE GT0 3BY4NT N3YMNTEVJH0. #line:aa8b50
-		Mae: B V%60M CVY4AE, EF0 6A6KA UPEDCKA3AVA M0% CYDJ6Y. BP0DE T0F0. #line:5a2588
-		Bea: CPAHJ F0CU0DHR. #line:41a767
-		Bea: KAK0B0 TB0E UPEDCKA3AHNE? #line:609ff3
-        Mae: HY, 0HA CKA3AVA D0B0VJH0 DEPJM0BJ1E BEWN B OEV0M #line:c3855b
-        Mae: HY, 3HAEQJ. 0 QTYKAX B M0EL F0V0BE. #line:e65e6a
-        Bea: A. #line:f5f1e0
-		Mae: H0, B V%60M CVY4AE, BCE, 4T0 CVY4NV0CJ UP0QV0L H04J%, 6J1V0 BECJMA CMYTHJ1M. #line:ef5c6d
-		Bea: BAY. #line:edee2a
-        Mae: AFA. #line:183872
-		Mae: K0FDA R 6J1VA TAM, BHN3Y, UP0QV0L H04J%, #line:8c5a91
-		Mae: R YBNDEVA U0CVEDH%% UEHTAFPAMMY. #line:0c7e31
-		Mae: 0HA 6J1VA HA U0DDEPSNBA%WNX 6AVKAX #line:487461
+		Mae: they said i’d like see some pentagrams and i’d get like some sort of help. #line:7c0d28
+		Mae: i think they’re witches. #line:5a9fc7
+		Bea: that’s weird and friendly. #line:d2afef
+		Mae: ok, hold that thought- the other day I went to Germ’s house, and- #line:062800
+		Bea: HOLY SHIT!!! #line:bbd204
+		Bea: you want to GERM’S HOUSE?!?!? #line:0e2f17
+		Bea: what’s it like? #line:0af8a9
+		Mae: it’s nice. It’s like a doublewide with a finished basement. #line:779273
+		Mae: got a trampoline. #line:bf32c5
+		Bea: oof. bouncing on those always makes me sick. #line:418c7d
+		Mae: i effin loved it dude. #line:e1b4df
+		Mae: i bounced so high and talked about like unions with his dad and uncle #line:5516fa
+		Bea: this all sounds amazing. #line:aa8b50
+		Mae: anyway his grandma told my fortune. sorta. #line:5a2588
+		Bea: holy shit. #line:41a767
+		Bea: what was your fortune? #line:609ff3
+        Mae: well she said some pretty shitty things about my whole #line:c3855b
+        Mae: you know. head thing. #line:e65e6a
+        Bea: ah. #line:f5f1e0
+		Mae: but otherwise it was kinda vaguely... what happened last night? #line:ef5c6d
+		Bea: wow. #line:edee2a
+        Mae: yeah. #line:183872
+		Mae: when I was down there last night, #line:8c5a91
+		Mae: i saw the last of the pentagrams. #line:0c7e31
+		Mae: it was in the support beams #line:487461
 		<<if $did_angus_investigation_quest>>
-			Mae: AHFYC 6YDET CMERTJCR, ECVN R EMY CKASY #line:5a2997
-			Mae: 0H BCE F0B0PNV 0 T0M, 4T0 R UP0CT0 NWY 3AK0H0MEPH0CTN. #line:af780d
-			Bea: DA, GT0 U0X0SE HA AHFYCA. #line:ae7aab
+			Mae: Angus would laugh if I told him #line:5a2997
+			Mae: he’d talk about how i’m just pattern-seeking. #line:af780d
+			Bea: yeah that sounds like Angus. #line:ae7aab
 		<<endif>>
-		Mae: K0FDA R YBNDEVA EE, T0 R HE M0FVA GT0F0 U0HRTJ D0 CEF0DHRQHEF0 DHR #line:4b4c3f
-		Mae: N R TAKAR "BAY, #line:b6c5f1
-		Mae: U0DP0CTKN 6J1VN UPABJ1" #line:5657ac
-		Mae: 6A6YQKA DSEPMA 6J1VA... 4EPT0BCKN UPABA? 4T0-T0 B GT0M P0DE? #line:599250
-		Bea: NX CV0BA U0M0FVN? #line:b5bf4d
-		Mae: AFA, R 4YBCTB0BAVA 4T0 HE 6J1VA 0DHA B GT0M.  #line:9359b9
-		Mae: B CMJ1CVE, BJ1 BCE 6J1VN TAM, #line:904410
-		Mae: H0 GT0 U0M0FV0 TNU0...BHYTPN M0EL F0V0BJ1. #line:7d9b6a
-		Mae: TNUA, 3HATJ, 4T0 KT0-T0 3HAV 060 BCEM GT0M, #line:f3f81a
-		Mae: N UJ1TAVCR U0M04J MHE #line:6264ef
-		Mae: TNUA, *BCE* 0HN BEDJMJ1 #line:c467d8
-		Mae: N TNUA... R HE BEP% B MAFN%, H0... HE 3HA% #line:3fd365
-		Bea: U0X0SE, 6YDT0 TJ1 BCE-TAKN BEPNQJ #line:93a05b
-		Mae: 4ECTH0, HE BEP%. #line:10e4ec
-		Bea: TJ1 BEPNQJ B BEDJM #line:f63012
-		Mae: HET #line:51c0b7
-		Bea: BJ1 BCE U0MEQAVNCJ HA HNX, 0MF #line:9992f2
-		Mae: VAH, 3A6YDJ #line:03a5ec
-		Bea: MGL. #line:36b46d
-		Mae: DA? #line:48f8ad
-		Bea: R PADA, 4T0 C T060L BCE B U0PRDKE. #line:827f86
-		Mae: CUACN60. #line:dce6c1
+		Mae: when i saw it i didn’t like really register it until today #line:4b4c3f
+		Mae: and it was like whoa #line:b6c5f1
+		Mae: the teens were right #line:5657ac
+		Mae: germ’s grandma was... a quarter right? something like that? #line:599250
+		Bea: was what they said helpful? #line:b5bf4d
+		Mae: yeah... i felt like i like wasn’t alone in this #line:9359b9
+		Mae: i mean you were all there #line:904410
+		Mae: but this was help like... inside my head #line:7d9b6a
+		Mae: like the fact that someone knew about all of this #line:f3f81a
+		Mae: and were trying to help me #line:6264ef
+		Mae: like they’re *all* witches #line:c467d8
+		Mae: and like... i don’t believe in magic really but… i dunno #line:3fd365
+		Bea: sounds like you believe in magic #line:93a05b
+		Mae: i for real don’t. #line:10e4ec
+		Bea: you believe in witches #line:f63012
+		Mae: no #line:51c0b7
+		Bea: you are all witched up omg #line:9992f2
+		Mae: ok forget it #line:03a5ec
+		Bea: mae. #line:36b46d
+		Mae: yeah? #line:48f8ad
+		Bea: i’m glad you’re ok. #line:827f86
+		Mae: thanks. #line:dce6c1
 		<<wait 4>>
 	<<elseif $found_pentagrams < 3 and $did_lori_friendship_quest_2 and $did_germ_friendship_quest_3>>
 		//if did just lori tracks 2 and germ FQ3//
-		Mae: B 06WEM, KAK-T0 R U0QVA K DSEPMY. #line:afaa03
-		Bea: 60SE M0L!!! #line:46e437
-		Bea: R DASE HE M0FY UPEDCTABNTJ, FDE 0H SNBET. #line:266275
-		Bea: TNUA, FDE-HN6YDJ B D0MNKE HA DEPEBE? #line:9a2978
-		Mae: HE, TAM UPNK0VJH0. #line:6ada79
-		Mae: GT0, TNUA, CDB0EHHJ1L D0M C OEVJ1M U0DBAV0M. #line:63d4b5
-		Mae: N 6ATYT0M. #line:ce4535
-		Bea: YYZ. MEHR 0T HNX T0QHNT. #line:c631be
-		Mae: 6J1V0 KPYT0. MJ1 EVN HEPRQVNBJ1X DS0. #line:bdb39e
-		Bea: MMMM. R M0FVA 6J1 U0LTN 3A HNMN UPRM0 CEL4AC. #line:61a86d
-		Mae: 60SE, 0HN TAKNE KVACCHJ1E. #line:5eb709
-		Mae: TNUA, TJ1 3A6J1BAEQJ 0 HNX, U0KA KT0-VN60 HE HAU0MHNT #line:5c7dfe
-		Mae: N BHE3AUH0 0HN CTAH0BRTCR BCEM, 4EF0 TJ1 X04EQJ. #line:2c4634
+		Mae: so i went to germ’s house the other day. #line:afaa03
+		Bea: OH MY GOD!!!!!! #line:46e437
+		Bea: I like can’t even picture where he would live. #line:266275
+		Bea: like in a treehouse somewhere? #line:9a2978
+		Mae: nah, it’s nice. #line:6ada79
+		Mae: it’s like a double-wide with a built on basement #line:63d4b5
+		Mae: got a trampoline #line:ce4535
+		Bea: oof. I get pukey on those. #line:c631be
+		Mae: it was awesome. We ate sloppy joes. #line:bdb39e
+		Bea: mmmm. I could go for one of those right about now. #line:61a86d
+		Mae: god, they’re so good. #line:5eb709
+		Mae: like you forget about them until you hear someone mention it #line:5c7dfe
+		Mae: and suddenly that’s all you want. #line:2c4634
 		<<if $did_bea_friendship_quest_3>>
-			Mae: HYSH0 UP0CT0 KAK-HNTJ CDEVATJ UAP04KY HA YSNH Y TE6R D0MA. #line:086cd4
-			Bea: 0000 DAAA #line:eb34d0
-			Bea: GL, EWE PA3 N3BNHN, 4T0 HAKPN4AVA HA TE6R. #line:88228e
-			Mae: 0, HE B0VHYLCR, R YSE 3A6J1VA BECJ T0T PA3F0B0P. #line:9f57ad
-			Bea: 0Y. #line:173196
+			Mae: shoulda just made those for dinner at your place the other night #line:086cd4
+			Bea: ooooh yeah #line:eb34d0
+			Bea: hey sorry again about yelling at you. #line:88228e
+			Mae: oh don’t worry i already forgot that entire conversation. #line:9f57ad
+			Bea: oh. #line:173196
 		<<endif>>
-		Mae: B 06WEM, D0 GT0F0 #line:c9e177
-		Mae: EF0 6A6KA UPEDCKA3AVA M0% CYDJ6Y. BP0DE T0F0. #line:c40bfd
-		Bea: CPAHJ F0CU0DHR. #line:6ca7d9
-		Bea: KAK0B0 TB0E UPEDCKA3AHNE? #line:61206b
-        Mae: HY, 0HA CKA3AVA D0B0VJH0 DEPJM0BJ1E BEWN B OEV0M #line:21f691
-        Mae: HY, 3HAEQJ. 0 QTYKAX B M0EL F0V0BE. #line:b61e7b
-        Bea: A-A. #line:5bbc12
-		Mae: H0, B V%60M CVY4AE, BCE, 4T0 CVY4NV0CJ UP0QV0L H04J%, 6J1V0 BECJMA CMYTHJ1M. #line:dd093d
-		Bea: BAY. #line:220860
-		Mae: H0 60VJQE 3HA4NM0 HE T0, 4T0 0HA CKA3AVA, A T0, TNUA, KEM 0HA 6J1VA #line:3a99da
-		Bea: N KEM 0HA 6J1VA? #line:72eb3f
-		Mae: UP0CT0 CTAPYQKA, KAKNM-T0 60K0M BVRUABQARCR B0 BCE GTN CTPAHH0CTN. U0 KAK0L-T0 UPN4NHE. #line:44ce75
-		Bea: AFA #line:237529
-		Mae: VADJ1, EWE ECTJ MAVJ1QKA V0PN, C K0T0P0L R 3ABNCAVA. #line:667f60
-		Bea: "MAVJ1QKA"? #line:2bfb24
-		Mae: EL 15 NVN 0K0V0 T0F0. #line:6e657d
-		Bea: TAK TJ1 TEUEPJ 3ABNCAEQJ C DETJMN N UEHCN0HEPAMN? #line:071bed
-		Mae: B V%60M CVY4AE. #line:0f7374
-		Mae: V0PN SNBET PRD0M c SEVE3H0L D0P0F0L #line:332fdb
-		Mae: N MHE HE KASETCR, 4T0 D0MA Y HEE BCE CYUEP. #line:1b95d4
-		Mae: C0BCEM HE KASETCR. #line:287f40
-		Mae: H0 0HA KPYTAR. V%6NT YSACTNKN. #line:2c6f5b
-		Mae: DEVAET TAKNX MAVEHJKNX M0HCTP0B, KVADR METAVVN4ECKNX YP0DOEB HA PEVJCJ1 #line:af5634
-		Bea: 0, N NX UV%WNT N PACTRFNBAET? KPYTRK. #line:2dc65c
-		Mae: BNDNQJ? KPYTAR MAVRBKA. #line:a4b151
-		Mae: U0T0M 0HA 6EPET UAP04KY N CUV%WNBAET B 0DH0F0. #line:62bf6b
-		Bea: DB0LH0M0HCTP. #line:e11c5b
-		Mae: R 4YBCTBY% CE6R EE CTAPQEL CECTP0L, K0FDA 3ABNCA% C HEL. #line:37225d
-		Mae: M0R 6A6YQKA HEDABH0 YMEPVA. #line:e49eb8
-		Mae: N 6A6YQKA DSEPMA UJ1TAVACJ K0 MHE "UPN6A6YQNTJCR". #line:edc33e
-		Mae: N TJ1, TNUA... M0R CECTPA? KY3NHA? #line:668be6
-		Bea: CYMACQEDQNL DRDR. #line:117063
-		Mae: VADH0, U0ZNF. #line:644e3e
-		Mae: CYTJ B T0M: 4T0 MJ1 BCE CBR3AHJ1 BMECTE, KAK PA3DABVEHHJ1E M0HCTPNKN V0PN #line:1f82d7
-		Mae: KAK TJ1 N R, N 6A6KA DSEPMA, N V0PN, N #line:7f1735
+		Mae: anyway, before all that #line:c9e177
+		Mae: his grandma told my fortune. sorta. #line:c40bfd
+		Bea: holy shit. #line:6ca7d9
+		Bea: what was your fortune? #line:61206b
+        Mae: well she said some pretty shitty things about my whole #line:21f691
+        Mae: you know. head thing. #line:b61e7b
+        Bea: ah. #line:5bbc12
+		Mae: but otherwise it was kinda vaguely... what happened last night? #line:dd093d
+		Bea: wow.  #line:220860
+		Mae: but it wasn’t so much what she said, but more like, who she was #line:3a99da
+		Bea: who was she? #line:72eb3f
+		Mae: just an old lady getting involved in all this weirdness. For some reason. #line:44ce75
+		Bea: uh huh. #line:237529
+		Mae: ok so also there’s this kid, Lori, that I’ve been hanging out with? #line:667f60
+		Bea: “kid”? #line:2bfb24
+		Mae: like 15 or something. #line:6e657d
+		Bea: so you’re just hanging with children and the elderly these days? #line:071bed
+		Mae: anyway. #line:0f7374
+		Mae: Lori lives over by the tracks #line:332fdb
+		Mae: and i don’t think her home life is great. #line:1b95d4
+		Mae: at all. #line:287f40
+		Mae: but she’s awesome. Loves horror movies. #line:2c6f5b
+		Mae: makes these little monsters by putting little metal dudes on the tracks #line:af5634
+		Bea: oh and they get all squished and stretched? That’s rad. #line:2dc65c
+		Mae: yeah see? Cool kid. #line:a4b151
+		Mae: then she’ll take like two of them and squash ‘em together. #line:62bf6b
+		Bea: doublemonster. #line:e11c5b
+		Mae: i feel like i’m kind of an older sister to her when we hang out? #line:37225d
+		Mae: My grandma died a while back #line:e49eb8
+		Mae: and germ’s grandma was trying to grandma me. #line:edc33e
+		Mae: and you’re like my... sister? Cousin? #line:668be6
+		Bea: the crazy uncle. #line:117063
+		Mae: ok whatever. #line:644e3e
+		Mae: point being: we’re all stuck together like Lori’s squashed monster guys #line:1f82d7
+		Mae: like you and me and like Germ’s grandma and lori and #line:7f1735
 		<<if $did_bea_friendship_quest_2>>
-			Bea: C06NPAEQJCR D06ABNTJ C%DA MNCCNC MNPAHDY? #line:be7389
-			Mae: HET. 0HA DEVAET MYMNL. GT0 3AUPEWEH0. #line:703ee8
+			Bea: gonna add like Mrs. Miranda in there? #line:be7389
+			Mae: no. she makes mummies. That’s not allowed. #line:703ee8
 		<<endif>>
-		Bea: TAK BCE MJ1 - 4ACTJ... 4EF0-T0? #line:4e8998
-		Mae: BCE MJ1 - 4ACTJ 0DH0F0 PA3DABVEHH0F0 M0HCTPA. #line:24eda6
+		Bea: so we’re all part of… something? #line:4e8998
+		Mae: we’re all a part of the same squashed monster. #line:24eda6
 		<<wait 2>>
-		Bea: FVY60K0. #line:7043fa
+		Bea: deep. #line:7043fa
 		<<wait 4>>
 	<<elseif $found_pentagrams >= 3 and $did_lori_friendship_quest_2 and $did_germ_friendship_quest_3>>
 		//if did pentagrams, lori tracks 2, and germ fq3//
-		Mae: GT0T MNP - U0VHJ1L 0TCT0L, XA? #line:3e6d66
-		Bea: DA. 0H TAK0L. #line:8dd13b
+		Mae: the world is extremely messed up, huh? #line:3e6d66
+		Bea: yes. Yes it is. #line:8dd13b
 		<<if $failed_state_joke>>
-			Mae: HE... YDABQNLCR QTAT? #line:41cc55
-			Bea: MJ1 YSE D0B0VJH0 6VN3K0 #line:93ab5b
+			Mae: a… failed state? #line:41cc55
+			Bea: getting pretty close. #line:93ab5b
         <<endif>>
-		Mae: M0L DEDYQKA, UEPED TEM KAK YMEPETJ, #line:53467e
-		Mae: CKA3AV HAU0CVED0K 4T0-T0 TNUA "D0M U0V0H UPN3PAK0B" #line:78e529
-		Bea: 0KEL, GT0 SYTK0. GT0 UP0N30QV0 Y TE6R D0MA? #line:3e3343
-		Mae: HET, B 60VJHNOE. 0H, TNUA, CKA3AV GT0, CM0TPR B 0KH0. #line:f837a9
-		Mae: H0, DYMA%, R U0HRVA, 4T0 0H NMEV B BNDY. #line:3082d9
-		Mae: BCE GT0... MECT0. #line:bde0b7
-		Mae: 0DHASDJ1, R UPN6ESAVA K TEM TPEM CTPAHHJ1M U0DP0CTKAM #line:0150e6
+		Mae: my granddad, before he died #line:53467e
+		Mae: his last words were like “This house is haunted” #line:78e529
+		Bea: ok that’s spooky. Was he in your house? #line:3e3343
+		Mae: no, he was like looking out the window at the hospital. #line:f837a9
+		Mae: but i think i get what he meant. #line:3082d9
+		Mae: this whole… place. #line:bde0b7
+		Mae: the other day I ran into these three weird teens #line:0150e6
 		<<if $did_bea_investigation_quest>>
-			Mae: B006WE, CT0L, TJ1 T0SE BCTPE4AVA NX #line:dbc15b
-			Mae: HA KVAD6NWE. #line:54f2b3
-			Bea: XA-XA-XA, DA. TE, 4T0 TE6R NCUJ1TJ1BAVN. #line:83c1d9
-			Mae: AFA, 0HN. #line:eeb255
+			Mae: actually wait you met them too #line:dbc15b
+			Mae: at the graveyard. #line:54f2b3
+			Bea: ha ha ha yeah. The ones that tortured you. #line:83c1d9
+			Mae: yeah them. #line:eeb255
 		<<endif>>
-		Mae: 0HN CKA3AVN, R YBNSY UEHTAFPAMMJ1 N 0HN, TNUA, "U0M0FYT" MHE #line:9d721c
-		Mae: R DYMA%, 0HN BEDJMJ1. #line:14b5c8
-		Mae: N U0T0M GT0 PEAVJH0 UP0N30QV0 #line:3ee17c
-		Bea: KAK... TAK? #line:bc6f1a
-		Mae: R HE 3HA%. R BNDEVA U0CVEDH%% N3 HNX B T0HHEVE UP0QV0L H04J%. #line:bf3725
-		Mae: C06PAHHY% N3, TNUA, U0DDEPSNBA%WNX 6AV0K. #line:d5021f
+		Mae: they told me i’d see a bunch of pentagrams and it’d like “aid” me #line:9d721c
+		Mae: i think they’re witches. #line:14b5c8
+		Mae: and then it actually happened? #line:3ee17c
+		Bea: how… so? #line:bc6f1a
+		Mae: i dunno. I saw the last of them in the tunnel last night. #line:bf3725
+		Mae: made from like the support beams. #line:d5021f
 		<<if $did_angus_investigation_quest>>
-			Mae: AHFYC 6J1 CKA3AV, 4T0 GT0 U0NCK 3AK0H0MEPH0CTEL #line:2499b5
-			Bea: 3BY4NT U0-AHFYC0BCKN. X0TR, 0H 6J1 CKA3AV GT0 BESVNB0. #line:f86a85
+			Mae: Angus would say it was pattern-seeking #line:2499b5
+			Bea: that sounds like angus. He’d say it nicely though. #line:f86a85
 		<<endif>>
-		Mae: K0FDA R YBNDEVA GT0, 0H0 HAU0MHNV0 MHE 0 4EM-T0 #line:344522
-		Mae: HE U0HNMAVA, 4T0, D0 CEF0DHRQHEF0 YTPA... #line:d40df3
-		Mae: U0MHNQJ ADNHY N 3AMEP3QEE 03EP0? #line:617adc
-		Bea: HAP0DHAR CKA3KA? MHE KASETCR, 0HA HA3J1BAETCR ADNHA N VECH0L 60F. #line:e08037
-		Mae: U0ZNF. U0MHNQJ, TNUA, MEPTB0F0 ACTP0H0MA, #line:03f252
-		Mae: K0T0PJ1L 6J1V 0TPASEHNEM B0 VJDY? #line:e7682a
-		Bea: AFA. G-G. NCKAV 3BE3DY, K0T0PY% M0SET YBNDETJ T0VJK0 MEPTBEO. #line:6d879b
-		Bea: UPN3PA4HAR 3BE3DA. #line:fe2694
-		Bea: Y M0EL MAMJ1 6J1VA TATY C UPN3PA4H0L 3BE3D0L. #line:b89254
-		Mae: KAK 6J1 TAM HN 6J1V0, TNUA, ECVN CM0TPETJ HA 0TPASEHNE 3BE3DJ1 CHN3Y, #line:ea85ce
-		Mae: 0HA 6YDET U0X0DNTJ HA UEHTAFPAMMY #line:c2ebe0
-		Bea: GT0... UPABDA? #line:dd286d
-		Mae: UP0CHYVACJ GTNM YTP0M N TAKAR, TNUA, 0, BAY #line:9aae05
-		Mae: R U04YBCTB0BAVA, 6YDT0 HAQVA CB0% UPN3PA4HY% 3BE3DY. #line:eaa306
-		Mae: A 3ATEM 0SNVA. #line:1baad9
-		Bea: N GT0 N3-3A BEDJM-U0DP0CTK0B? #line:da7fde
-		Mae: VADH0, CVYQAL, R C4NTAVA GT0 FVYUJ1M, H0 #line:2bcc27
-		Mae: R BCTPETNVA 6A6YQKY DSEPMA. #line:248c28
-		Bea: 4T0??? #line:e8e4b1
-		Mae: DA, R 6J1VA B EF0 D0ME! #line:069f83
-		Bea: KAK0L 0H??? #line:26be00
-		Mae: GM, KVACCHJ1L? #line:ec7257
-		Mae: CDB0EHHJ1L D0M C OEVJ1L U0DBAV0M. #line:8aca8b
-		Mae: N 6ATYT0M. #line:bc7daf
-		Bea: YX. U0CVE GTNX QTYK MHE CTAH0BNTCR UV0X0. #line:e08c65
-		Mae: B V%60M CVY4AE, EF0 6A6KA UPEDCKA3AVA M0% CYDJ6Y. BP0DE T0F0. #line:30d082
-		Bea: CPAHJ F0CU0DHR. #line:e1a519
-		Bea: KAK0B0 TB0E UPEDCKA3AHNE? #line:a9bdc1
-        Mae: HY, 0HA CKA3AVA D0B0VJH0 DEPJM0BJ1E BEWN B OEV0M #line:315d6c
-        Mae: HY, 3HAEQJ. 0 QTYKAX B M0EL F0V0BE. #line:921a7e
-        Bea: AX. #line:65b680
-		Mae: H0, B V%60M CVY4AE, BCE, 4T0 CVY4NV0CJ UP0QV0L H04J%, 6J1V0 BECJMA CMYTHJ1M. #line:9b41da
-		Bea: BAY. #line:19d3b1
-		Mae: BNDNQJ? R B0T DYMA%, M0SET 6J1TJ, *0HA* T0SE BEDJMA. #line:9566b5
-		Mae: HEHACT0RWAR BEDJMA. U0DP0CTKN T0SE *HEHACT0RWNE* BEDJMJ1. #line:0d8733
-		Bea: TAK... #line:bf9d67
-		Mae: N GTA MEVKAR, V0PN M., C K0T0P0L MJ1 TYC0BAVNCJ. #line:f1cba2
-		Bea: TJ1 UP0CT0 BC%DY TYCYEQJCR C KASDJ1M U0DP0CTK0M? #line:9864f2
-		Mae: TNQE. R KAK UPNMEP. #line:3a40f1
-		Bea: 0X, T0FDA VADH0 #line:10cf7f
-		Mae: V0PN HPABNTCR CTABNTJ MAVEHJKNX METAVVN4ECKNX 4YBAK0B HA PEVJCJ1. #line:c2fb3e
-		Bea: 0000! N U0E3D PA3H0CNT NX U0 KYC04KAM? GT0 TAK KPYT0. #line:bfba22
-		Mae: DA, 0HA KVACCHAR. #line:48be91
-		Mae: R HE 3HA%. M0SET 6J1TJ, R YSE UP0CT0 UEPECTAVA 6J1TJ PE6EHK0M, #line:f13b8d
-		Mae: H0 MHE HPABNTCR CM0TPETJ, K0FDA 0HA GT0 DEVAET. 0TKPJ1BAET CB0L MAVEHJKNL MEQ0K, #line:9206d2
-		Mae: BJ1TACKNBAET BCE GTN QTYK0BNHJ1, #line:a6996b
-		Mae: A U0T0M NCU0VJ3YET U0E3DA, #line:540450
-		Mae: C03DABAR MAVEHJKNX M0HCTP0B #line:b2cf15
-		Mae: R UPNQVA T0VJK0 K 0DH0MY V0FN4ECK0MY 06JRCHEHN%. #line:f90aee
-		Mae: BEDJMA. #line:64619e
-		Bea: HY DA, MGL, TJ1 6YDT0 UVABAEQJ B GTNX BEDJMAX. #line:90a2f2
-		Mae: CVYQAL, TJ1 T0SE M0SEQJ 6J1TJ E% #line:9aaafd
-		Bea: 0, 60SE KAK 6J1 R X0TEVA. MHE ECTJ K0F0 CFVA3NTJ. #line:ec1d6d
-		Mae: N, PA3YMEETCR, R C4NTA%CJ EL. MHE HPABNTCR BCRKAR UYFA%WAR MAFNR. #line:1dfa31
-		Bea: K0HE4H0 #line:d1ac85
-		Mae: R HE 3HA%. UP0QVAR H04J, CEF0DHR... #line:47d2ca
-		Mae: CEL4AC 3DECJ BCE YSACH0. #line:494368
-		Mae: BCE B MNPE UV0X0. #line:a4fd2c
-		Bea: TE UAPHN UP0QV0L H04J%, #line:fff3d2
-		Bea: 6YDT0 UPN3PAKN B CTAP0M U0MECTJE #line:d321d0
-		Bea: HE 3HA%, MEPTBJ1 VN 0HN #line:05c310
-		Bea: UP0CT0 QATA%TCR B0KPYF, Y6NBAR V%60F0, KT0 BX0DNT. #line:c3c9da
-		Mae: KAK N F0B0PNV DEDYQKA. D0M U0V0H UPN3PAK0B. #line:ccc928
-		Mae: H0 BD06AB0K U0V0H BEDJM. #line:2677d6
-		Mae: GT0 HEMH0F0 YVY4QAET M0E CAM04YBCTBNE. #line:84cf4e
-		Bea: TAK BCR UP0MJ1QVEHH0CTJ 3AXVAMVEHA UPN3PAKAMN N BEDJMAMN? #line:27aa06
-		Mae: DA, H0 HE BCE UPN3PAKN UV0XNE, TNUA... R NME% B BNDY... AFX. #line:c354bc
-		Mae: R HE C0BCEM U0HNMA%, K 4EMY BEDY. GT0 6J1VA D0VFAR HEDEVR. #line:05474f
-		Bea: BCE X0P0Q0. #line:dd1bd3
+		Mae: when i saw it it reminded me of something  #line:344522
+		Mae: didn’t really register until this morning- #line:d40df3
+		Mae: remember Adina and the Frozen lake? #line:617adc
+		Bea: the folk tale? I think it’s called Adina and the Forest God. #line:e08037
+		Mae: whatever. Remember how there was like a dead astronomer #line:03f252
+		Mae: who was like a reflection in the ice? #line:e7682a
+		Bea: yeah. Uh. looking for a star you could only see when you’re dead. #line:6d879b
+		Bea: the Ghost Star. #line:fe2694
+		Bea: my mom had a ghost star tattoo. #line:b89254
+		Mae: anyway, like if you’re looking at a reflection of a star from below #line:ea85ce
+		Mae: it’s gonna look kinda like a pentagram #line:c2ebe0
+		Bea: that’s… true? #line:dd286d
+		Mae: woke up this morning and was like oh wow #line:9aae05
+		Mae: i feel like i  found my ghost star #line:eaa306
+		Mae: and then lived. #line:1baad9
+		Bea: and this is because of teen witches? #line:da7fde
+		Mae: ok see i thought that was dumb BUT #line:2bcc27
+		Mae: I met Germ’s grandma.  #line:248c28
+		Bea: WHAT????? #line:e8e4b1
+		Mae: yeah I went to his house! #line:069f83
+		Bea: What’s it like???? #line:26be00
+		Mae: um it’s nice? #line:ec7257
+		Mae: double wide with a finished basement. #line:8aca8b
+		Mae: got a trampoline. #line:bc7daf
+		Bea: ugh. bouncing on those things makes me sick. #line:e08c65
+		Mae: anyway his grandma told my fortune. sorta. #line:30d082
+		Bea: holy shit. #line:e1a519
+		Bea: what was your fortune? #line:a9bdc1
+        Mae: well she said some pretty shitty things about my whole #line:315d6c
+        Mae: you know. head thing. #line:921a7e
+        Bea: ah. #line:65b680
+		Mae: but otherwise it was kinda vaguely... what happened last night? #line:9b41da
+		Bea: wow. #line:19d3b1
+		Mae: yeah see? So like I’m thinking, maybe *she’s* a witch too. #line:9566b5
+		Mae: not like an actual witch. The teens aren’t *real* witches either. #line:0d8733
+		Bea: so... #line:bf9d67
+		Mae: there’s this other kid, Lori M. we’ve been hanging out. #line:f1cba2
+		Bea: you just hanging with teens all over the place these days? #line:9864f2
+		Mae: hush. I’m like a role model. #line:3a40f1
+		Bea: oh well then. #line:10cf7f
+		Mae: Lori does this thing where she puts little metal dudes on the train tracks. #line:c2fb3e
+		Bea: oooh! And the train squishes them? That’s so cool. #line:bfba22
+		Mae: yeah she’s great. #line:48be91
+		Mae: i dunno. Maybe this is just me not being a kid anymore #line:f13b8d
+		Mae: but watching her do that. Open her little bag #line:9206d2
+		Mae: and pull out these things #line:a6996b
+		Mae: and then like using actual trains #line:540450
+		Mae: making little monsters. #line:b2cf15
+		Mae: i came to the only logical conclusion. #line:f90aee
+		Mae: Witch. #line:64619e
+		Bea: Well gee Mae you seem to be just swimming in witches. #line:90a2f2
+		Mae: Hey listen you could be one too. #line:9aaafd
+		Bea: oh god i wish. I have some hexes to hand out. #line:ec1d6d
+		Mae: and I mean obviously i count as a witch. I’m like spooky magic all the way. #line:1dfa31
+		Bea: of course #line:d1ac85
+		Mae: i dunno. Last night, today…  #line:47d2ca
+		Mae: everything is extremely bad here right now. #line:494368
+		Mae: everything is bad in the world. #line:a4fd2c
+		Bea: guys last night, #line:fff3d2
+		Bea: they’re like ghosts in an old mansion #line:d321d0
+		Bea: don’t know they’re dead #line:05c310
+		Bea: just stalking around killing whoever moves in. #line:c3c9da
+		Mae: like granddad said. It’s haunted. #line:ccc928
+		Mae: but there’s also a lot of witches in it. #line:2677d6
+		Mae: and that makes me feel a tiny bit better. #line:84cf4e
+		Bea: so the entire rust belt is just lousy with ghosts and witches? #line:27aa06
+		Mae: yeah but not all ghosts are bad, like… i mean… ugh. #line:c354bc
+		Mae: I don’t really know where I’m going with this. It’s been a long week. #line:05474f
+		Bea: it’s fine. #line:dd1bd3
 		<<wait 4>>
     <<endif>>
 <<endif>>
 
-Mae: TAK, #line:5c0d71
+Mae: so, #line:5c0d71
 <<if $mallard_rats>>
-	Mae: Y TE6R HE 6J1V0... G-G... UP06VEM C KPJ1CAMN B MAFA3NHE? #line:e8b43c
-	Bea: G-G... 6J1VN. 0TKYDA TJ1 3HAEQJ? #line:936735
-	Mae: R CVJ1QAVA, 4T0 B F0P0DE U0RBNV0CJ HECK0VJK0 KPJ1C. #line:ea4b36
-	Mae: N GTA H0B0CTJ U04EMY-T0 DEVAET MEHR C4ACTVNB0L. #line:d81532
-	Bea: HY, MAVEHJKAR KPJ1CA - HE UP06VEMA #line:43a444
-	Bea: T0VJK0 ECVN NX HE CTAH0BNTCR 60VJQE #line:6703de
-	Mae: BECEHHNE HADESDJ1. UEPN0D PA3MH0SEHNR KPJ1C. #line:a3b3c5
-	Bea: MNV0. MJ1 KAK PA3 T0PFYEM KPJ1CNHJ1M RD0M. #line:998efe
-	Bea: 0HN D0VF0 HE BJ1DEPSAT #line:2a76dd
-	Mae: YBNDNM. #line:39f2f9
-	Mae: GL, K CV0BY F0B0PR, #line:dccc31
+	Mae: have you had any new… uh… rat problems at the shop? #line:e8b43c
+	Bea: uh… yeah. How did you know? #line:936735
+	Mae: I heard there were some rats around town. #line:ea4b36
+	Mae: makes me happy for some reason. #line:d81532
+	Bea: well there’s no such thing as a small rat problem #line:43a444
+	Bea: there’s just gonna be more of them #line:6703de
+	Mae: Hope springs. Rats Multiply. #line:a3b3c5
+	Bea: cute. we literally sell rat poison. #line:998efe
+	Bea: they’re going down #line:2a76dd
+	Mae: we’ll see. #line:39f2f9
+	Mae: hey, speaking of nothing, #line:dccc31
 <<endif>>
-Mae: HACK0VJK0 X0P0QA TB0R MAQNHA? #line:2ed604
-Bea: B KAK0M UVAHE? #line:b0b2d2
-Mae: TNUA, HA HEL M0SH0 YEXATJ PEAVJH0 DAVEK0? #line:ccfbcd
-Bea: MGL, TJ1 3HAEQJ 4T0-VN60 0... 4T0? #line:01778c
-Mae: MJ1 D0VSHJ1 0TUPABNTJCR, TNUA, B D0P00000SH0E UYTEQECTBNE #line:cb0b82
-Bea: KYDA? #line:af246c
-Mae: HA 3AUAD #line:fbd980
-Mae: TAM TAK KPYT0 #line:c3ba30
-Bea: HY, B006WE DA. #line:c5b468
-Mae: MJ1 M0SEM U0EXATJ TYDA, TAM PEAVJH0 KPYT0 #line:7659ff
-->A EWE 0HN DEVA%T 6AP6EK%. #line:4cce76
-	Bea: R DYMAVA, 6AP6EK% DEVAETCR HA %FE. #line:671f21
-	Mae: HE BCEFDA #line:0b0c6e
-	Mae: EF0 DEVA%T BE3DE, 6N-6N-KJ%. #line:ff3164
-	Mae: BCE BNDJ1. CYX0E. M0KP0E. YVJTPA. #line:f2f0fa
--> N TJ1 CM0SEQJ YBNDETJ KPYUHELQNE B MNPE 4E6YPEKN. #line:987120
-	Mae: NVN MY3EL NFPYQE4HJ1X K0CMN4ECKNX K0PA6VEL, #line:2246bb
-	Mae: NVN ZA6PNKY, FDE DEVA%T KPEHDEVN, #line:6c6c3e
-	Mae: NVN D0M, U0X0SNL HA 60VJQY% KYPNOY! #line:6a5ccc
-Bea: R M0FVA 6J1... VADH0, DABAL U0F0B0PNM 06 GT0M B CVEDY%WEM F0DY #line:e344af
-Mae: R YSE HA4AVA UVAHNP0BATJ. #line:4ebd00
-Bea: R DYMAVA, TJ1 HE M0SEQJ YEXATJ N3 D0MA N3-3A TB0EL... UP06VEMJ1? #line:d5b342
-Mae: GX. BJ1 - M0L D0M. #line:9cfd7d
-Mae: B CMJ1CVE, ECVN MJ1 3ACTPRVN 3DECJ BMECTE, #line:7bad62
-Mae: T0 MJ1 TAKSE M0SEM 3ACTPRTJ FDE-T0 EWE. BMECTE. #line:fd3bbc
-Mae: K0HE4H0, ECVN MJ1 HE YMPEM K T0MY BPEMEHN. V 0 V. #line:b05fc6
-Bea: N3 TB0NX YCT NDER FN6EVN 3BY4NT D0B0VJH0 BECEV0, MGLDGL. #line:14083b
-Bea: GT0 CB0EF0 P0DA DAP. #line:da55ec
+Mae: how good is your car? #line:2ed604
+Bea: good how? #line:b0b2d2
+Mae: like, can it drive real far? #line:ccfbcd
+Bea: Mae do you know anything ab-… what? #line:01778c
+Mae: we should like do a roooooad trip. #line:cb0b82
+Bea: to where? #line:af246c
+Mae: out west #line:fbd980
+Mae: it gets all flat #line:c3ba30
+Bea: that it does. #line:c5b468
+Mae: we can go where it’s really flat #line:7659ff
+->and they sell barbeque. #line:4cce76
+	Bea: i think BBQ is south #line:671f21
+	Mae: not all of it #line:0b0c6e
+	Mae: it’s everywhere, Bea-Bea-Q. #line:ff3164
+	Mae: all different kinds. Dry. Wet. Ultra. #line:f2f0fa
+-> and you can see like the world’s largest pierogi. #line:987120
+	Mae: or a museum of toy rocket ships #line:2246bb
+	Mae: or a factory where they make pretzels #line:6c6c3e
+	Mae: or a house that looks like a big chicken! #line:6a5ccc
+Bea: i could… ok let’s talk about it next year #line:e344af
+Mae: i’ll start planning it now. #line:4ebd00
+Bea: i thought you couldn’t leave home because of your… issue? #line:d5b342
+Mae: eh. You’re home enough. #line:9cfd7d
+Mae: i mean if we’re trapped here together #line:7bad62
+Mae: we might as well be trapped out there together. #line:fd3bbc
+Mae: i mean if we’re not dead by then. L O L. #line:b05fc6
+Bea: you have a way of making doom sound like a lot of fun, maeday. #line:14083b
+Bea: that is actually kind of a gift. #line:da55ec
 
 //from offscreen to the left//
 <<close>>
 <<playAmbientSFX AmbientSFX:band_door_open>>
 <<lookAt Bea Gregg>>
 <<wait 2>>
-Gregg: 4EPT U06EPN GTY DBEPJ! #line:6aa8a6
-Angus: DYMA%, 60F YSE U03A60TNVCR 06 GT0M. #line:a41f04
-Mae: B0T 0HN FDE! #line:afb46a
+Gregg: GODDAMN THIS DOOR! #line:6aa8a6
+Angus: I think god already has. #line:a41f04
+Mae: there they are! #line:afb46a
 <<close>>
 <<walk Angus CharEnter1 wait>>
-Angus: GL, HAP0D. #line:7a864e
+Angus: hey guys. #line:7a864e
 <<close>>
 <<walk Gregg CharEnter2 wait>>
-Gregg: UPNB, 3ADP0TJ1. #line:c600d8
-->UZ-Z. BJ1 TYT EDNHCTBEHHJ1E 3ADP0TJ1. #line:f6559e
-	Gregg:{width=8}4T0-0-0-0-0-0-0-0-0?#line:131708
-	Angus: 60SE4KN. HNK0FDA HE 6J1V HACT0VJK0 0CK0P6VEH. #line:ffcd5a
-	Gregg: 3A6EPN CB0N CV0BA 06PATH0, DYPAQKA. #line:25004a
-	Mae: EWE 4EF0. #line:b9c3cb
-->KAK TJ1 CM0F BJ1TAWNTJ AHFYCA C PA60TJ1? #line:d6ed0c
-	Gregg: CKA3AV, 4T0 CEMJR B GKCTPEHH0L CNTYAONN. #line:788599
-	Angus: M0L DRDR U0UAV U0D TPAKT0P. #line:c77b3c
-	Mae: XA-XA, BAY! #line:418d1f
-	Angus: B CMJ1CVE, TAK0E 6J1V0 HA CAM0M DEVE, H0 04EHJ DABH0. #line:17676a
-Bea: GL, FPEFF, R... #line:e5b372
-Bea: R HE 0C060 3HAVA KELCN. #line:9be5c5
-Gregg: ... #line:faf615
-Gregg: AFA. #line:832c15
-Bea: R UP0CT0 X0TEVA CKA3ATJ, 4T0 MHE 04EHJ SAVJ. #line:cd08c3
-Gregg: AFA. #line:4472e0
-Gregg: CUACN60. #line:7412e4
-Gregg: KELCN 6J1V X0P0QNM. #line:816d0a
+Gregg: sup nerds. #line:c600d8
+->pssh. It’s you who are the nerds. #line:f6559e
+	Gregg:{width=8} whaaaaaaaaaaaaaat? #line:131708
+	Angus: geez. We’ve never been so insulted. #line:ffcd5a
+	Gregg: take it right back, dork. #line:25004a
+	Mae: fat chance. #line:b9c3cb
+->how did you get Angus out of work? #line:d6ed0c
+	Gregg: i made up a family emergency. #line:788599
+	Angus: my uncle got run over by a tractor. #line:c77b3c
+	Mae: ha ha wow. #line:418d1f
+	Angus: i mean he did in real life too but that was years ago. #line:17676a
+Bea: hey gregg, so… #line:e5b372
+Bea: i didn’t really know Casey. #line:9be5c5
+Gregg: … #line:faf615
+Gregg: yeah. #line:832c15
+Bea: I just wanted to say I’m really sorry. #line:cd08c3
+Gregg: yeah. #line:4472e0
+Gregg: thanks. #line:7412e4
+Gregg: Casey was a good one. #line:816d0a
 <<lookAt Bea Mae>>
-Mae: KELCN 6J1V X0P0Q. #line:2d22bf
-Bea: CT0NT VN HAM, TNUA... PACCKA3ATJ EF0 P0DHE? #line:c01a11
-->B03M0SH0? #line:56ae4a
-	Angus: 4T0 MJ1 NM CKASEM? #line:5922c2
-	Mae: R HE 3HA%. #line:13b554
-	Mae: MJ1 M0SEM, TNUA... UPNDYMATJ 4T0-T0, 4T0 3BY4AV0 6J1 UPABDNB0? #line:514e6b
-	Bea: 0X, HEYST0 UPABDA HED0CTAT04H0 UPABDNBA? #line:043bcf
+Mae: Casey was good. #line:2d22bf
+Bea: should we like… tell his parents? #line:c01a11
+->probably? #line:56ae4a
+	Angus: what do we tell them? #line:5922c2
+	Mae: i dunno. #line:13b554
+	Mae: can we like… make up something that sounds real? #line:514e6b
+	Bea: oh what, the truth isn’t real enough? #line:043bcf
 	<<wait 2>>
-	Bea: HET, TJ1 UPABA, UPABDA 6E3YMHA. #line:1aabbc
-->HET???? #line:8e0f31
-	Mae: B CMJ1CVE, CKA3ATJ NM 4T0? #line:9b1c31
-	Bea: G-G. 0KEL, VADH0. #line:218393
-	Bea: XM #line:591189
-	Bea: X0P0QAR MJ1CVJ. #line:219564
+	Bea: no you’re right the truth is insane #line:1aabbc
+->no???? #line:8e0f31
+	Mae: i mean, tell them what? #line:9b1c31
+	Bea: uh. Ok yeah. #line:218393
+	Bea: hm #line:591189
+	Bea: good point. #line:219564
 <<lookAt Bea Gregg>>
-Angus: TAK, TNUA, 4T0 HAM TEUEPJ DEVATJ? #line:c6a595
-Mae: C KELCN? #line:d24827
-Angus: HET, TNUA, C0 BCEM #line:d27047
+Angus: so like, what do we do? #line:c6a595
+Mae: about Casey? #line:d24827
+Angus: no, like, in general #line:d27047
 <<wait 3>>
 <<lookAt Bea Mae>>
-Mae: MJ1 M0SEM 06DYMATJ GT0 3ABTPA? #line:70c982
-Mae: MJ1 M0SEM UP0CT0 CJ1FPATJ UECH% N B3RTJ UNOOY? #line:341f62
-Bea: R HE DYMA%, 4T0 "UECHR N UNOOA" - 0TBET, 4ECTH0. #line:ec1a5c
-Mae: M0SEM MJ1 U06J1TJ H0PMAVJHJ1MN, TNUA, 0DNH DEHJ? #line:f3239f
-Bea: R HE UPEDCTABVR%, KAK CEF0DHRQHNL DEHJ M0SET 6J1TJ H0PMAVJHJ1M. #line:fd4671
-->K0FDA R 6J1VA B K0ME NVN TNUA T0F0 #line:b2a873
-	Mae: R BNDEVA 6YDYWEE #line:1bc973
-	Mae: NVN, B03M0SH0, CEL4AC 6YDYWEE #line:0d2fe1
-	Mae: NVN 6J1V0 6YDYWEE #line:be4bd7
+Mae: can we think about this tomorrow? #line:70c982
+Mae: can we just play a song and get a pizza? #line:341f62
+Bea: i don’t think “song and pizza” is an answer, really. #line:ec1a5c
+Mae: can we just be normal for like one day? #line:f3239f
+Bea: i don’t know how today can possibly feel normal. #line:fd4671
+->when i was in that coma or whatever #line:b2a873
+	Mae: i saw the future #line:1bc973
+	Mae: or maybe it’s now the future #line:0d2fe1
+	Mae: or was the future #line:be4bd7
 	<<lookAt Bea Gregg>>
-	Angus: TNUA VETA%WNX MAQNH N BCRK0F0 TAK0F0 DEPJMA? #line:b74a0b
-	Angus: HA CAM0M DEVE, 0HN 6J1VN 6J1 KATACTP0Z0L #line:dfc79c
-	Gregg: XA-XA, HAK0HEO-T0 TJ1 GT0 UPN3HAV. TJ1 D0VSEH MHE 5 6AKC0B. #line:0245a6
-	Angus: UAPN ECTJ UAPN. #line:2d33b1
+	Angus: like flying cars and shit? #line:b74a0b
+	Angus: actually those would be a disaster #line:dfc79c
+	Gregg: ha ha FINALLY you admit it. You owe me 5 bucks. #line:0245a6
+	Angus: bet’s a bet. #line:2d33b1
 	<<lookAt Bea Mae>>
-	Mae: HET, KA3AV0CJ, 4T0 F0P0D 6J1V 3A6P0QEH #line:46ff77
-	Mae: TNUA, 6J1V CJEDEH N B0CCTAH0BNVCR C U0M0WJ% UPNP0DJ1 NVN U0D06H0F0 DEPJMA #line:95e30b
-	Mae: R U0QVA TYDA, FDE 6J1V M0L D0M #line:f695c2
-	Mae: K0FDA R 6J1VA TAM, R 4YBCTB0BAVA U0VHY% 6E3HADEFY, #line:22b1f9
-	Mae: H0 TEUEPJ R DYMA%, 4T0 M0FY U0CTP0NTJ DPYF0L D0M. #line:8291ab
-	Mae: NVN R M0FY UP0CT0 YEXATJ. #line:ba6c3d
-	Mae: 3HAR, K0FDA DEPSATJCR D0 U0CVEDHEF0 #line:6f528e
-	Mae: A K0FDA 0TUYCKATJ #line:68466d
-	Mae: ... #line:7dca4a
-	Mae: 0KEL, R U0TEPRVA X0D CB0NX MJ1CVEL. #line:ff61b3
-	Mae: R HA CEKYHDY U0HRVA 4T0-T0. #line:ae7eee
-	Mae: A U0T0M 3AUYTAVACJ. #line:20c47a
+	Mae: no, it was like the town was abandoned #line:46ff77
+	Mae: like being eaten and reclaimed by nature or some shit #line:95e30b
+	Mae: i went to where my house used to be #line:f695c2
+	Mae: when i was there i felt completely hopeless #line:22b1f9
+	Mae: but now i think i could just build another house. #line:8291ab
+	Mae: or i could just move on. #line:ba6c3d
+	Mae: knowing when to hold on #line:6f528e
+	Mae: and when to let go #line:68466d
+	Mae: … #line:7dca4a
+	Mae: ok i lost my entire train of thought. #line:ff61b3
+	Mae: i had it for a second. #line:ae7eee
+	Mae: then it was gone. #line:20c47a
 	<<wait 2>>
-	Bea: UECHR N UNOOA - 3BY4NT HEUV0X0, MGL. #line:9f180f
-	Gregg: UECHR N UNOOA. #line:dd6967
-	Mae: AFA. #line:a5f7a8
-	Mae: BU0VHE HEUV0X0. #line:e87b95
-->K0FDA R 6J1VA TAM UP0QV0L H04J #line:f1d732
-	Mae: R, TNUA, UPNHRVA PEQEHNE HE YMNPATJ #line:f5d206
-	Mae: NVN, U0 KPALHEL MEPE, HE YMNPATJ 6E3 60PJ6J1 #line:1f0ddc
-	Mae: N... TA QTYKA... #line:c99d9e
-	Mae: CKA3AVA, 4T0 R HE CM0FY CUACATJCR BE4H0 #line:2885cd
-	Bea: CT0L, 0HA, TNUA, F0B0PNVA C T060L? #line:126292
-	Mae: 0HA D0VF0 F0B0PNVA C0 MH0L. #line:98e961
-	Mae: R UP0CT0 GT0F0 HE U0HNMAVA. #line:585884
-	Mae: H0, U0ZNF, TNUA, MJ1 HE M0SEM CUACATJCR BE4H0 #line:80ef44
-	Mae: H0 ECTJ KY4A CU0C060B, K0T0PJ1MN MJ1 M0SEM CUACTNCJ CEF0DHR. #line:842699
-	Angus: GT0 04EHJ 3D0P0B0, MGL. #line:7a7a4b
-	Mae: XA-XA, CUACN6, R UPNDYMAVA BCE GT0 #line:ce42de
-	Mae: TNUA, UPRM TAM, B4EPA. #line:3ae4d6
-	Bea: R F0B0PNVA GT0 PAHJQE. TJ1 B VADAX C0 CMEPTJ%. #line:80df4f
-	Gregg: CMEPTJ, CMEPTJ, CMEPTJ #line:9ad6ea
-	Mae: K0P04E, VADH0. UECHR N UNOOA. #line:5c6b49
-	Mae: MJ1 3ACVYSNVN GT0 UP0SNBAHNEM EWE 0DH0F0 DHR #line:7186cf
-	Bea: GT0 BECKAR UPN4NHA. #line:01f628
-	Gregg: D0CT0LHAR. #line:ed780b
-	Angus: D0CT0LHAR. #line:541cba
+	Bea: song and pizza sounds good, mae. #line:9f180f
+	Gregg: song and pizza. #line:dd6967
+	Mae: yeah. #line:a5f7a8
+	Mae: good enough. #line:e87b95
+->when i was down there last night #line:f1d732
+	Mae: i like made the decision not to die #line:f5d206
+	Mae: or at least not to die without a fight #line:1f0ddc
+	Mae: and the… thing down there… #line:c99d9e
+	Mae: told me nothing would save me forever #line:2885cd
+	Bea: wait, it was like, talking to you? #line:126292
+	Mae: it’s been talking to me for a long time. #line:98e961
+	Mae: i just didn’t know what it was. #line:585884
+	Mae: but anyway like nothing is gonna save us forever #line:80ef44
+	Mae: but a lot of things can save us today. #line:842699
+	Angus: that’s really pretty, mae. #line:7a7a4b
+	Mae: ha ha thanks i totally made it up #line:ce42de
+	Mae: like right on the spot last night #line:3ae4d6
+	Bea: i said it before. You’re good with doom. #line:80df4f
+	Gregg: doom doom doom #line:9ad6ea
+	Mae: so anyway. Song and pizza. #line:5c6b49
+	Mae: we earned it by still being alive for another day #line:7186cf
+	Bea: that’s a decent reason. #line:01f628
+	Gregg: decent. #line:ed780b
+	Angus: decent. #line:541cba
 	<<wait 2>>
-	Mae: D0CT0LHAR. #line:8ba087
+	Mae: decent. #line:8ba087
 
 <<wait 5>>
 <<scene EndCredits>>
@@ -2079,58 +2079,58 @@ position: 4562,-539
 <<lookAt Gregg Mae>>
 <<lookAt Bea Mae>>
 <<fadeIn 1 wait>>
-Mae: ...N B006WE, R DASE HE 3HA%, 6J1VN VN GT0 CHJ1 NVN HET. #line:627bc6
-Mae: N T0T UAPEHJ, K0T0PJ1L U0KA3AVCR MHE UPN3PAK0M, #line:fee36a
-Mae: U0XNTNV KAK0F0-T0 PE6EHKA N, MHE KASETCR, 0H 6J1V B M0EL F0V0BE, #line:4413ea
-Mae: U0KA R CUAVA #line:17dbe9
-Mae: N, R DYMA%, MHE CVEDYET 4T0-T0 CDEVATJ, #line:631db9
-Mae: U0T0MY 4T0 GT0 PEAVJH0 CTPAQH0. #line:088315
+Mae: ...and anyway i don't even know if they're dreams or not. #line:627bc6
+Mae: and this guy, who i think was a ghost #line:fee36a
+Mae: kidnapped some kid and also i think was in my head after #line:4413ea
+Mae: while i was sleeping #line:17dbe9
+Mae: and anyway yeah I think I need to do something #line:631db9
+Mae: because this is scary. #line:088315
 <<wait 2>>
-Bea: HY, GT0 HE T0, 4T0 R 0SNDAVA YCVJ1QATJ CEF0DHR. #line:b65518
-Gregg: U0DPYFA, TJ1 B H0PME? #line:ecb8a9
-    ->AFA! #line:44a4b0
-        Mae: R HE V%6V% UP0NFPJ1BATJ NVN TNUA T0F0. #line:139064
-    ->HET! #line:dc81f6
-        Mae: R K0HKPETH0 UEPECPAVACJ! #line:146dca
-Angus: CK0PEE BCEF0, T0 6J1V HE UPN3PAK. #line:75d1ca
-Gregg: DA, CK0PEE BCEF0, HET. #line:24b44b
-Bea: 0UPEDEVEHH0. #line:c879d0
-Mae: YYYYX. #line:983c2e
-Mae: HY N VADH0, U0LDY N CAMA PA36EPYCJ C GTNM. #line:1629fd
-Gregg: 00Y, U0DPYFA, HE HAD0 TAK. #line:d9bfd8
-Angus: MJ1 C T060L! #line:1ad11e
-Mae: 0Y...4YBAKN... #line:ae1615
+Bea: well that's not what i was expecting to hear tonight. #line:b65518
+Gregg: are you ok, dude? #line:ecb8a9
+    ->yeah! #line:44a4b0
+        Mae: i'm not like losing it or something. #line:139064
+    ->no! #line:dc81f6
+        Mae: i'm kinda freaked out! #line:146dca
+Angus: it probably wasn't a ghost. #line:75d1ca
+Gregg: yeah probably not. #line:24b44b
+Bea: yeah definitely. #line:c879d0
+Mae: uuuugh. #line:983c2e
+Mae: ok fine I'll go figure this out myself. #line:1629fd
+Gregg: aw dude don't be like that. #line:d9bfd8
+Angus: you got us! #line:1ad11e
+Mae: aw... dudes... #line:ae1615
 <<wait 2>>
-Bea: X0P0Q0, VADH0. #line:3d8a87
-Mae: NTAK, HAM HAD0 U0CM0TPETJ #line:75a67d
-Mae: UP0NCX0DRT VN #line:9e8b60
-Mae: BCRKNE UPN3PA4HJ1E DEVA B0KPYF? #line:08175f
-Mae: HYSEH HADESHJ1L NCT04HNK NHZ0PMAONN. #line:ec295e
-Angus: HAUPNMEP... #line:346db7
-Mae: B FA3ETE ECTJ PA3DEV C UAPAH0PMAVJWNH0L? #line:e7671d
+Bea: ok fine. #line:3d8a87
+Mae: so we need to maybe see #line:75a67d
+Mae: if there's like #line:9e8b60
+Mae: some ghosty stuff happening around here? #line:08175f
+Mae: like, from a source we can trust. #line:ec295e
+Angus: such as... #line:346db7
+Mae: does the newspaper have like a ghost section? #line:e7671d
 <<wait 2>>
-Mae: 4T0? GT0 HACT0VJK0 TYU0L B0UP0C? #line:e2f35f
-Bea: 3HAEQJ, M0SH0 UP0BEPNTJ 6N6VN0TEKY. #line:a2f669
-Mae: HALTN KHNFN? 0 UPN3PAKAX? #line:3cf81f
-Bea: HET, Y HNX B APXNBE ECTJ MECTHJ1E FA3ETJ1 #line:1ece51
-Bea: 3A UP0QVJ1L BEK. #line:b1a004
-Bea: ECVN N ECTJ KAKAR-T0 NCT0PNR 0 UPN3PAKE, U0XNWA%WEM DETEL, #line:894cad
-Bea: T0 MJ1 HALDEM EE TAM. #line:1a5720
-Mae: 0F0! HE DYMAVA, 4T0 0HN XPAHRT TAK0E! #line:85ffce
-Mae: MHE KA3AV0CJ, TAM UP0CT0 U0BC%DY PA36P0CAHA KY4KA CTAPJ1X KHNF. #line:f6ee9c
-Bea: K0FDA TJ1 B U0CVEDHNL PA3 6J1VA B 6N6VN0TEKE? #line:daf9f2
-Bea: Y HAC B F0P0DE 0DHA N3 VY4QNX 6N6VN0TEK B 0KPYFE. #line:b1c1b5
-Mae: 0F0, UPABDA? #line:c56814
-Bea: 60FATJ1L 4YBAK 0UVATNV U0CTP0LKY, EWE D0 TB0EF0 UPNE3DA. #line:09df7c
-Bea: DA, 0HN C03DAVN Z0HD N... #line:e29448
+Mae: What? Why is that a dumb question? #line:e2f35f
+Bea: you know, we could go check the Library. #line:a2f669
+Mae: for... books? about it? #line:3cf81f
+Bea: no, they have the local paper on file #line:1ece51
+Bea: going back a century. #line:b1a004
+Bea: if there's some secret history of kidnapper ghosts #line:894cad
+Bea: we'll find it there probably. #line:1a5720
+Mae: oh wow! i didn't know they had that! #line:85ffce
+Mae: i thought it was just like a broken down old bunch of books? #line:f6ee9c
+Bea: when's the last time you were at the library? #line:daf9f2
+Bea: we actually have one of the nicer ones around. #line:b1c1b5
+Mae: oh. how? #line:c56814
+Bea: rich dude who paid for it way back when? #line:09df7c
+Bea: yeah they set up a foundation, and... #line:e29448
 Mae: ? #line:6b9fda
-Bea: HEBASH0, U0QVN. #line:3c4a94
-Mae: BCTPETNMCR C BAMN U03SE? #line:a7a4a3
-Gregg: G-G #line:66e9e7
-Angus: K0HE4H0! #line:b9d513
-Mae: 0KEL! MJ1 BEPHEMCR!!!! #line:c5130c
-Bea: %XYYYY. UPN3PAKN. #line:5c2b04
-Mae: B0T GT0 HACTP0L! #line:d25d19
+Bea: nevermind. let's go. #line:3c4a94
+Mae: can we regroup after? #line:a7a4a3
+Gregg: uh #line:66e9e7
+Angus: sure! #line:b9d513
+Mae: ok! we'll be back!!!! #line:c5130c
+Bea: wooohooo. ghosties. #line:5c2b04
+Mae: that's the spirit! #line:d25d19
 <<set $bea_investigation_quest to 1>>
 <<irisOut 1 wait>>
 <<sectionTitle TheLibrary Library>>
@@ -2140,13 +2140,13 @@ tags:
 colorID: 3
 position: 2852,-301
 ---
-Gregg: TJ1 F0T0BA K UPECTYUVEHNRM??? #line:c42f1b
-Mae: XM #line:5b5cd2
--> CK0PEE BCEF0, R 6YDY TYC0BATJCR C 6N, U0LDY CUP0QY. #line:28364f
-    Gregg: KPYYYYYT0. DAL 3HATJ, ECVN 6YDEQJ CB060DHA. #line:a606a4
--> CAM0 C060L! #line:d2a6ec
-    Gregg:{width=8} Y-Y-Y-Y-Y-Y-Y-Y-Y! #line:4e15ff
-    Mae:{width=8} Y-Y-Y-Y-Y-Y-Y-Y-Y-Y! #line:ecd548
+Gregg: you up for some crimes??? #line:c42f1b
+Mae: Hm #line:5b5cd2
+-> I might be hanging out with bea, let me check first. #line:28364f
+    Gregg: coooool. let me know. #line:a606a4
+-> DEFINITELY! #line:d2a6ec
+    Gregg:{width=8} AWOOOOOOOOOOOOOOOOOOOO! #line:4e15ff
+    Mae:{width=8} AWOOOOOOOOOOOOOOOOOOOOOO! #line:ecd548
     <<set $gregg_friendship_quest to 1>>
     <<set $did_gregg_friendship_quest_1 to 1>>
     <<fadeOut 1 wait>>
@@ -2157,12 +2157,12 @@ tags:
 colorID: 3
 position: 3515,-357
 ---
-Bea: 0KEL, MJ1 T04H0 TYDA NDEM? #line:60580a
+Bea: ok, we sure we're doing this? #line:60580a
 Mae: o_o :| #line:3bfc8a
--> U0LDY CUP0QY FPEFFA DVR HA4AVA. #line:2bb28a
-    Bea: 0KND0KN. #line:211bf8
--> DA. U0FHAVN. #line:2eb002
-    Bea: 0TVN4H0. #line:14af92
+-> Let me check with gregg real quick. #line:2bb28a
+    Bea: okeydoke. #line:211bf8
+-> Yeah. Let's go malling. #line:2eb002
+    Bea: Great. #line:14af92
     <<close>>
     <<set $bea_friendship_quest to 1>>
     <<set $did_bea_friendship_quest to 1>>

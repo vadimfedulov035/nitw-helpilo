@@ -6,88 +6,88 @@ position: 540,260
 <<fadeIn 5 wait>>
 <<setOptionsCharacter Sharkle>>
 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-Sharkle: [wave]QAPKV![/wave] #line:b4fdb4
-Mae: UPNBET, QAPKV. #line:bfc627
-Mae: 4T0 TJ1 DEVAEQJ 3DECJ? #line:ad0c54
-    ->TJ1 BCEFDA 6J1VA X0P0QNM DPYF0M, MGL. #line:8a9d3f
+Sharkle: [wave]Sharkle![/wave] #line:b4fdb4
+Mae: Hey Sharkle. #line:bfc627
+Mae: What are you doing here? #line:ad0c54
+    ->You've always been a good friend, Mae. #line:8a9d3f
         <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-        Sharkle: KASDJ1L DEHJ TJ1 HABEWAVA MEHR. #line:9e9b3c
+        Sharkle: Every day you'd visit me. #line:9e9b3c
         <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-        Sharkle: TJ1 BCEFDA KVNKAVA HA MEHR. #line:66f922
+        Sharkle: You'd remember to click me. #line:66f922
         <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-        Sharkle: UP0CT0 4T06J1 CKA3ATJ UPNBET. #line:e77d64
-        Mae: DA. R - UPEKPACHJ1L DPYF. #line:8540bd
-    ->MJ1 UP0QVN 4EPE3 MH0F0E, MGL #line:11f6ca
+        Sharkle: Just to say hello. #line:e77d64
+        Mae: Yes. I'm an excellent friend. #line:8540bd
+    ->We've been through so much together, Mae. #line:11f6ca
         <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-		Sharkle: X0P0QNE BPEMEHA, UV0XNE BPEMEHA, #line:4f9474
+		Sharkle: The good times, the bad times, #line:4f9474
         <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-		Sharkle: 6J1V0 T0 ZNACK0 C U0PH0 PEKVAM0L, #line:25dd0c
+		Sharkle: the porn adware fiasco, #line:25dd0c
         <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-		Sharkle: TE BJ1X0DHJ1E, K0FDA TJ1 UJ1TAVACJ UEPEYCTAH0BNTJ CNCTEMY. #line:1a3713
-		Mae: TJ1 UPAB. MJ1 4EPE3 MH0F0E UP0QVN BMECTE. #line:11b10a
-Mae: QAPKV... R MEPTBA? #line:931e3e
-    ->DA #line:9bcc49
-        Mae: TJ1 3DECJ, 4T06J1 0TBECTN MEHR HA TY CT0P0HY? #line:946ed9
+		Sharkle: that weekend you tried to change the operating system. #line:1a3713
+		Mae: You’re right. We have been through a lot together. #line:11b10a
+Mae: Sharkle... am I dead? #line:931e3e
+    ->Yes #line:9bcc49
+        Mae: Are you here to take me to the other side? #line:946ed9
         <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-        Sharkle: [wave]DA, KAK B CTAPJ1X UPEDAHNRX.[/wave] #line:1aef55
+        Sharkle: [wave]Yes, as in the old legends.[/wave] #line:1aef55
         <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-        Sharkle: [wave]TB0R DYQA 0OEHNBAETCR U0 TB0NM U0CTYUKAM.[/wave] #line:a4567a
-        Mae: 0X. HY N KAK Y MEHR DEVA? #line:687e56
-            ->[wave]CEF0DHRQHEL H04J% TJ1 B0CC0EDNHNQJCR C UPEDKAMN HA HE6ECAX.[/wave] #line:0b0c6d
-                Mae: 0. KPYT0. #line:ab4ef0
+        Sharkle: [wave]Your soul has been weighed against your transgressions.[/wave] #line:a4567a
+        Mae: Oh. How did that turn out? #line:687e56
+            ->[wave]Tonight you shall join your ancestors in the stars.[/wave] #line:0b0c6d
+                Mae: Oh. That’s nice. #line:ab4ef0
                 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-                Sharkle: DA. DA, GT0 HEUV0X0. #line:c817ae
-                Mae: TAK, R BCTPE4Y BCEX CB0NX UPEDK0B? #line:b366f8
+                Sharkle: Yes. Yes it is nice. #line:c817ae
+                Mae: So like, all of my ancestors? #line:b366f8
                 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-                Sharkle: DA. BCEX D0 EDNH0F0. #line:cee85d
-                Mae: BUV0TJ D0 PJ16 N DNH03ABP0B? #line:c54b37
-                Mae: U0T0MY 4T0 GB0V%ONR? #line:83f4d4
+                Sharkle: Yes. All of them. #line:cee85d
+                Mae: Like back to the fishes and dinosaurs? #line:c54b37
+                Mae: because evolution? #line:83f4d4
                 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-                Sharkle: DA. B03M0SH0. #line:cb6be2
-                Mae: GT0 KPYT0. #line:99e8e5
-            ->G-G... M0FV0 6J1TJ N VY4QE. #line:9584a7
-                Mae: TB0% S MATJ. #line:1c02e2
+                Sharkle: Yes. Probably. #line:cb6be2
+                Mae: That’s neat. #line:99e8e5
+            ->Uh... could have gone better. #line:9584a7
+                Mae: Aw frig. #line:1c02e2
                 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-                Sharkle: UP0CTN, H0 TJ1 0TUPABNQJCR B AD. #line:5e799b
-                Mae: 4EPT. #line:b88052
+                Sharkle: I’m sorry, but it’s off to hell for you. #line:5e799b
+                Mae: Dang. #line:b88052
                 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-                Sharkle: MGL 60P0BCKN, UP0B03FVAQA% TE6R UP0KVRT0L. #line:dfeda6
-                Mae: 0X, HY B0T. #line:8f8021
+                Sharkle: Mae Borowski, I declare thee danged. #line:dfeda6
+                Mae: Oh well. #line:8f8021
                 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-                Sharkle: TJ1 HAX0DNQJCR B X0P0QEL K0MUAHNN. #line:820baf
+                Sharkle: You’re in good company. #line:820baf
                 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-                Sharkle: MH0FNE N3 HNX 6J1VN UP0KVRTJ1. #line:76cb89
-                Mae: R HN 0 4EM HE SAVE%. #line:856bf5
-    ->HET. #line:d776e7
-        Mae: 0, GT0 X0P0Q0. #line:7ecd0f
-	    Mae: Y MEHR ECTJ DEVA. #line:9f99d6
+                Sharkle: Lots of folks been danged. #line:76cb89
+                Mae: I regret nothing. #line:856bf5
+    ->No. #line:d776e7
+        Mae: Oh. That’s good. #line:7ecd0f
+	    Mae: I have things to do. #line:9f99d6
         <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-	    Sharkle: [wave]TJ1 D0VSHA BEPHYTJCR. TE6E UPEDHA4EPTAHA BEVNKAR CYDJ6A.[/wave] #line:3bd3e7
-	    Mae: CEPJE3H0? #line:8f9694
-		    -> AFA. #line:92116f
-			    Mae: 0F0. #line:dbf0d0
+	    Sharkle: [wave]You must go back. You are meant for great things.[/wave] #line:3bd3e7
+	    Mae: Really? #line:8f9694
+		    -> Yes. #line:92116f
+			    Mae: Wow. #line:dbf0d0
                 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-                Sharkle: AFA. #line:435a86
-                Mae: A M0SH0 U0K0HKPETHEL? #line:dc5639
+                Sharkle: Yes. #line:435a86
+                Mae: Can you be any more specific? #line:dc5639
                 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-                Sharkle: HE-A. #line:85c6c8
-                Mae: 0KEL. #line:b745e4
-		    -> HET. CEPJE3H0, HET. #line:8ae8ab
-                Mae: 0L. #line:bf2aae
+                Sharkle: Nope. #line:85c6c8
+                Mae: Ok. #line:b745e4
+		    -> Not really, no. #line:8ae8ab
+                Mae: Oh. #line:bf2aae
                 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-                Sharkle: AFA, R HE C06NPA%CJ TE6E BPATJ. #line:d42496
-                Mae: OEH% TB0% 3A60TY. #line:fa87f7
+                Sharkle: Yeah, I'm not gonna lie here. #line:d42496
+                Mae: I appreciate it. #line:fa87f7
                 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-                Sharkle: GT0 HEV0BK0. #line:b0d3f1
-                Mae: HE PACCTPANBALCR, QAPKV. #line:92756b
+                Sharkle: This is awkward. #line:b0d3f1
+                Mae: Don't feel bad, Sharkle. #line:92756b
 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-Sharkle: XE-XE-XE. #line:4fc608
-Mae: 4T0? #line:1f790c
+Sharkle: Heh heh. #line:4fc608
+Mae: What? #line:1f790c
 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-Sharkle: XA-XA-XA. #line:147737
-Mae: 4YBAK. #line:e4f4a5
+Sharkle: Ha ha ha. #line:147737
+Mae: Dude. #line:e4f4a5
 <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
-Sharkle: XA-XA-XA-XA-XA-XA-XA-XA-XA-XA-XA #line:d73646
+Sharkle: HA HA HA HA HA HA HA HA HA HA HA HA #line:d73646
 <<setOptionsCharacter Mae>>
 <<musicFadeOut .3>>
 <<fadeOut .3 wait>>

@@ -7,17 +7,17 @@ position: 539,263
 <<set $gregg_iq_mansion to 1>>
 <<runLocatorPath Gregg GreggRunPath>>
 <<wait 3>>
-Gregg: 6J1CTPEE!! #line:8a516f
+Gregg: Hurry!! #line:8a516f
 ===
 title: NowhereToGo
 tags: 
 colorID: 0
 position: 920,322
 ---
-Mae: FPEFF!! #line:65c86c
-Mae: TJ1 FDE?! #line:e6e3ff
-Gregg: CTYUEHJKN 3AK0H4NVNCJ! #line:771339
-Gregg: TE6E UPNDETCR UPJ1FATJ!! #line:f26c05
+Mae: Gregg!! #line:65c86c
+Mae: Where did you go! #line:e6e3ff
+Gregg: The steps just ended! #line:771339
+Gregg: You gotta jump!! #line:f26c05
 ===
 title: Landed
 tags: 
@@ -29,7 +29,7 @@ position: 891,103
 <<shake .02 0 1>>
 <<close>>
 <<wait 3>>
-Mae: AY. #line:2d006e
+Mae: Ow. #line:2d006e
 <<close>>
 <<fadeOut 1 wait>>
 <<scene MansionExterior>>

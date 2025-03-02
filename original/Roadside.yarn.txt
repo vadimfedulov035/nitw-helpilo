@@ -11,33 +11,33 @@ colorID: 4
 position: 195,36
 ---
 <<cameraLookAt CameraArgument>>
-Angus: U0T0MY 4T0 EF0 CUYCTNV0. #line:7d2b14
-Angus: HEVJ3R EXATJ C0 CUYWEHHJ1M K0VEC0M. #line:137de4
-Gregg: U04EMY? #line:85e3fa
-Mae: DA, U04EMY? #line:b2c504
+Angus: because it's a flat. #line:7d2b14
+Angus: you don't drive on a flat. #line:137de4
+Gregg: why? #line:85e3fa
+Mae: yeah why? #line:b2c504
 Angus: ... #line:0b28c4
-Angus: UP0CT0 HEVJ3R! K0VEC0 UPEBPATNTCR B TPYXY NVN TNUA T0F0! #line:c283ca
-Mae: 0TKYDA TJ1 CT0VJK0 3HAEQJ 0 MAQNHAX? #line:f3c485
-Gregg: MJ1 M0SEM U04NHNTJ EF0! #line:17c62d
-Angus: C U0M0WJ% 4EF0? #line:516eb3
-Angus: HAM U0LTN 3A UAVKAMN? #line:88e77d
-Mae: GT0 FVYU0. #line:4f1e29
-Gregg: HET, B CMJ1CVE... #line:0c3423
-Gregg: K0VECA 4NHRT! #line:932ae2
-Gregg: BEDJ TAK U0CTYUA%T H0PMAVJHJ1E V%DN?! #line:6bd2a2
-Angus: H0PMAVJHJ1E V%DN TAK U0CTYUA%T, #line:a3e08d
-Angus: K0FDA Y HNX ECTJ CPAHAR 3AUACKA! #line:7f21e3
-Mae: UAPHN. #line:c1ff08
-Gregg: U04EMY TJ1 BEDEQJ CE6R KAK MYDAK? #line:3a4f5c
-Angus: A U04EMY R 0DNH #line:a61c58
-Angus: D0VSEH 6J1TJ CAMJ1M 0TBETCTBEHHJ1M?! #line:d1d173
-Mae: UAPHN! #line:cb189c
-Angus: 4T0, MGL!?!?!? #line:51a06a
-Gregg: HE KPN4N HA MGL!!! #line:ec0d48
-Mae: RRRRR, U0SAVYL, UP0FYVR%CJ. #line:2309c4
-Angus: 0TVN4H0! #line:df23fb
-Gregg: 0TVN4H0! #line:29028f
-Mae: 0KEL AAAFX #line:4d0691
+Angus: you just don't! it messes up the wheel or something! #line:c283ca
+Mae: how do you know so much about cars? #line:f3c485
+Gregg: we can fix it! #line:17c62d
+Angus: with what?  #line:516eb3
+Angus: we gonna get some sticks? #line:88e77d
+Mae: that's silly. #line:4f1e29
+Gregg: no, i mean... #line:0c3423
+Gregg: people fix tires! #line:932ae2
+Gregg: it's a thing people do! #line:6bd2a2
+Angus: it's a thing people do #line:a3e08d
+Angus: when they have a goddamn tire! #line:7f21e3
+Mae: guys, #line:c1ff08
+Gregg: why are you being such a dick? #line:3a4f5c
+Angus: why am i the one #line:a61c58
+Angus: that has to be the responsible one! #line:d1d173
+Mae: guys! #line:cb189c
+Angus: WHAT, MAE!?!?!? #line:51a06a
+Gregg: Don't yell at Mae!!! #line:ec0d48
+Mae: AAAAgh I’m gonna wander. #line:2309c4
+Angus: Fine! #line:df23fb
+Gregg: Fine! #line:29028f
+Mae: OK AAAGH #line:4d0691
 <<cameraFollowPlayer 1>>
 //now free to wander and stuff. Look around and then talk to Gregg and Angus,
 // who are having some sort of auto-rolling argument or emoticon convo or something
@@ -49,14 +49,14 @@ colorID: 4
 position: 596,35
 ---
 <<stopDialogue BackgroundDialogue>>
-Mae: TAK N 4T0 6YDEM DEVATJ? #line:83ba23
-Angus: B0T R KAK PA3 06 GT0M N DYMA%. #line:ba739f
-Gregg: MJ1 M0SEM U03B0HNTJ... K0MY-HN6YDJ. #line:435d33
-Angus: 0Y, MJ1 4T0, HA4AVN H0CNTJ C C060L TEVEZ0HJ1? #line:0ee32e
-Angus: HEYSEVN, KAK U0 B0VQE6CTBY, U0RBNVCR CNFHAV #line:2fc761
-Angus: B GT0M BCPAT0M F0P0DE? #line:bfd8cd
-Gregg: 60SE! #line:cde30f
-Mae: VADH0, 4T0 S. #line:1c7bb4
+Mae: So what are we doing? #line:83ba23
+Angus: Well, I’m trying to figure out what we’re gonna do. #line:ba739f
+Gregg: We could call... someone? #line:435d33
+Angus: Oh, do we suddenly carry phones? #line:0ee32e
+Angus: because there’s magically signal now? #line:2fc761
+Angus: in this piece of shit town? #line:bfd8cd
+Gregg: Geez! #line:cde30f
+Mae: Ok. well. #line:1c7bb4
 <<set $roadside_trunk to 1>>
 <<setCanInteract Gregg 0>>
 <<setCanInteract Angus 0>>
@@ -70,27 +70,27 @@ position: 1016,47
 <<stopDialogue BackgroundDialogue>>
 <<cameraLookAt CameraArgument 1>>
 <<closeAll>>
-Mae: GL, DYPAVEN! #line:c41286
+Mae: Hey dinguses! #line:c41286
 <<close>>
 <<wait 1>>
 <<runNextLinesTogether 2>>
-Gregg: 4T0 #line:d4e133
-Angus: 4T0 #line:24fb7f
-Mae: 3DECJ ECTJ 3AUACHAR QNHA. #line:8a1668
-Gregg: 0! 0, KPYT0! #line:98f4fb
-Angus: X0TJ 4T0-T0 X0P0QEE. #line:8d130e
-Mae: KT0-HN6YDJ 3HAET, KAK #line:12596c
-Mae: MEHRTJ QNHY? #line:29b8db
-Angus: DA. #line:b92377
-Mae: M0SH0 MHE U0M04J? #line:4836d8
-Angus: HET. #line:89ab1f
-Gregg: 4YBAK. #line:4ed365
-Angus: MGL, TJ1 HE UV0XAR, #line:bd2824
-Angus: H0 R HE D0BEP% TE6E HN 0DNH N3 GTAU0B GT0F0 DEVA. #line:2d4638
+Gregg: WHAT #line:d4e133
+Angus: WHAT #line:24fb7f
+Mae: There’s a spare tire back here. #line:8a1668
+Gregg: Oh! Oh nice! #line:98f4fb
+Angus: That’s one good thing. #line:8d130e
+Mae: Anyone know how to like #line:12596c
+Mae: do the tire? #line:29b8db
+Angus: Yeah. #line:b92377
+Mae: Can I help? #line:4836d8
+Angus: No. #line:89ab1f
+Gregg: Dude. #line:4ed365
+Angus: Mae, you’re not a bad person #line:bd2824
+Angus: but I do not trust you with any part of this process. #line:2d4638
 <<close>>
 <<wait 2>>
-Mae: 60S, 4EV. #line:e2cf49
-Gregg: 60SE. #line:a12e8a
+Mae: Geez, man. #line:e2cf49
+Gregg: Geez. #line:a12e8a
 <<close>>
 <<wait 4>>
 <<irisOut 1 wait>>
@@ -128,20 +128,20 @@ tags:
 colorID: 4
 position: 1408,76
 ---
-Mae: 60SE. #line:27709c
-Mae: U0CM0TPN HA GT0T VEC. #line:62da35
-Mae: UPEKPACH0E MECT0, 4T06J1 CUPRTATJ TPYU. #line:d3a108
-Mae: CPA3Y TAK N HE HALDEQJ. #line:e22634
-Mae: U0DX0DRWNL DVR CKPJ1TNR TPYUA VEC #line:757d38
+Mae: geez. #line:27709c
+Mae: look at those woods. #line:62da35
+Mae: this is like the perfect place to dump a body. #line:d3a108
+Mae: that’s tough to find. #line:e22634
+Mae: good body-dumpin’ woods. #line:757d38
 ===
 title: LeftOfCar.2
 tags: 
 colorID: 4
 position: 1680,78
 ---
-Mae: M0SH0 U0LTN 0CM0TPETJCR, U0NCKATJ UAP04KY TPYU0B. #line:700a61
+Mae: could go see if there are any bodies in there. #line:700a61
 <<wait 2>>
-Mae: HE. #line:5d528d
+Mae: eh. #line:5d528d
 <<end>>
 ===
 title: RightOfCar.1
@@ -149,23 +149,23 @@ tags:
 colorID: 4
 position: 1405,350
 ---
-Mae: NTAK, 4EM M0SH0 U04NHNTJ CUYWEHH0E K0VEC0 #line:0e117f
-Mae: YZ. #line:7a044f
-Mae: UAVKN #line:1f56c8
-Mae: KAMHN #line:4c5b56
-Mae: VNCTJR #line:c547d3
-Mae: DEPEB0 #line:4f56ee
-Mae: FPR3J #line:dfce07
-Mae: M0SET, R CM0FY BJ1PE3ATJ FAE4HJ1L KV%4 N3 6PEBHA #line:aa40b0
+Mae: ok what can fix a flat tire #line:0e117f
+Mae: uh. #line:7a044f
+Mae: sticks #line:1f56c8
+Mae: rocks #line:4c5b56
+Mae: leaves #line:c547d3
+Mae: wood #line:4f56ee
+Mae: dirt #line:dfce07
+Mae: maybe i can whittle a wrench out of a log #line:aa40b0
 ===
 title: RightOfCar.2
 tags: 
 colorID: 4
 position: 1679,355
 ---
-Mae: NHTEPECH0, CM0FY VN R #line:9d0389
-Mae: HAY4NTJ C0BY #line:b038f4
-Mae: BCRKNM TP%KAM. #line:0d275c
-Mae: HET! C0CPED0T04JCR, MGL! #line:44be65
+Mae: wonder if i could like #line:9d0389
+Mae: train an owl #line:b038f4
+Mae: to do owl tricks. #line:0d275c
+Mae: no! Focus, mae! #line:44be65
 <<end>>
 ===

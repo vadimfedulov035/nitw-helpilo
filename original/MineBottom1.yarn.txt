@@ -50,7 +50,7 @@ position: 549,688
 //they get in the elevator. As they go up there’s a big BUMP//
 <<cameraLookAt CameraElevatorShaft 15>>
 <<alwaysUseWaitTime 1>>
-Bea: BE3DE CTAPJ1L, CTAPJ1L XVAM #line:896092
+Bea: old, old stuff in here #line:896092
 <<alwaysUseWaitTime 0>>
 <<close>>
 <<irisOut 1 wait>>
@@ -61,32 +61,32 @@ tags:
 colorID: 5
 position: 275,392
 ---
-Gregg: HY, 4T0 S, B0T MJ1 3DECJ #line:58ec90
+Gregg: well, here we are #line:58ec90
 <<close>>
 //mae walks out and doubles over//
-Mae: *KXE KXE* #line:aabefb
-Angus: MGL, TJ1 KAK? Y MEHR ECTJ NHFAVRT0P! #line:32afda
-Mae: DA HE... R H0PM... UP0CT0 KAK 6YDT0... #line:9e2eec
-Mae: KAK 6YDT0 4EM-T0 0FP0MHJ1M UPNDABNV0... #line:09d583
-Bea: HY, 3HAEQJ, B 6YKBAVJH0M CMJ1CVE, TAK N ECTJ. #line:aca3a8
-Angus: GT0 4T0, ACTMA? #line:46506f
-Angus: 04EHJ U0X0SE HA ACTMY. #line:b1578a
-Mae: GT0 HE ACTMA, 3D0P0BRK. #line:49fbff
-Mae: H0 CUACN60. #line:6fac95
+Mae: *cough cough* #line:aabefb
+Angus: Mae you ok? I have my inhaler! #line:32afda
+Mae: no... i’m fine... It’s just like... #line:9e2eec
+Mae:  it’s like... something huge is on top of me... #line:09d583
+Bea: i mean technically you’re not wrong. #line:aca3a8
+Angus: is it like asthma? #line:46506f
+Angus: that's how asthma is. #line:b1578a
+Mae: it's not asthma, big guy. #line:49fbff
+Mae: but thanks. #line:6fac95
 <<close>>
 <<playAmbientSFX _AmbientSFX:eide_rock_noise>>
-Gregg: TC-C-C! #line:552c90
-Gregg: R 4T0-T0 CVJ1QY. #line:906783
-Gregg: TAM BHN3Y. #line:e2ac04
-Bea: C T060L BCE H0PMAVJH0, MGL? #line:9cc20a
-Mae: DA, R B H0PME. #line:2c13e0
-Mae: HAD0 6J1TJ U0TNQE. #line:63eda0
+Gregg: Sssh! #line:552c90
+Gregg: I heard something. #line:906783
+Gregg: down there. #line:e2ac04
+Bea: you going to be ok, mae? #line:9cc20a
+Mae: yeah. I’m alright. #line:2c13e0
+Mae: we should be quiet. #line:63eda0
 <<if $dom_friend_bea>>
-	Bea: YFY, C0XPAHNM CNVJ1 N U00PEM, K0FDA 6YDET AKTYAVJH0. #line:9c7b81
-	Mae: XE-XE-XE! #line:8a138b
+	Bea: yeah. gotta save up for the screaming later. #line:9c7b81
+	Mae: heh heh heh. #line:8a138b
 <<else>>
-	Gregg: YFY. MJ1 KAK TNXNL YSAC. #line:878e4d
-	Mae: KAK UPN3PAKN. #line:b25119
+	Gregg: yeah. We’ll be silent terrors... #line:878e4d
+	Mae: we’ll be ghosts. #line:b25119
 <<endif>>
 
 
@@ -97,11 +97,11 @@ colorID: 5
 position: 804,425
 ---
 // walk through mine 2. Bad atmosphere getting slowly worse! You can’t double back past the screen as you go? The gang reaches the door(?) that’s down at the end//
-Angus: DBEPJ. #line:c16e81
-Mae: DBEPJ. #line:f9d769
-Bea: TYHHEVJ. #line:50eaf1
-Gregg: DA U0ZNF. #line:ec1174
-Mae: B0T MJ1 N 3DECJ #line:80a098
+Angus: Door. #line:c16e81
+Mae: Door. #line:f9d769
+Bea: Tunnel. #line:50eaf1
+Gregg: Whatever. #line:ec1174
+Mae: here we go #line:80a098
 ===
 title: AfterBossConvo
 tags: 
@@ -113,22 +113,22 @@ position: 543,390
 <<walk Gregg GreggBeforeElevator>>
 <<walk Angus AngusBeforeElevator>>
 <<if $dom_friend_bea>>
-	Bea: R DASE HE 3HA%, 4T0 DYMATJ 06 GT0M. #line:3e287c
-	Mae: GT0 UP0CT0... YSACTNK? #line:b21b58
-    Angus: TJ1 HE4ACT0 NCU0VJ3YEQJ GT0 CV0B0. #line:df96b8
-	Mae: 0H0 EDNHCTBEHH0E, 4T0 Y MEHR 0CTAV0CJ #line:c74367
-	Mae: TNUA, BCE 0CTAVJH0E UP0UAV0 N3 M0EL 6AQKN #line:a27b82
-	Gregg: U0FHAVN 0TC%DA, 6J1CTPEE #line:69c15b
+	Bea: i have no idea what to even think about any of this #line:3e287c
+	Mae: it’s just... horror? #line:b21b58
+    Angus: that's not a word you get to use too often. #line:df96b8
+	Mae: that’s all i’ve got left #line:c74367
+	Mae: like, everything else in my head is gone #line:a27b82
+	Gregg: let’s get out of here, fast #line:69c15b
 <<else>>
-	Gregg: Y MEHR B30PBAVCR M03F #line:a5adac
-	Mae: M0L 4EPEU UYCT #line:93eee5
-	Mae: BCE UYCT0 #line:f39b36
-	Mae: 4T0 MJ1 6YDEM DEVATJ #line:9f7f1e
-	Gregg: MJ1 U0DYMAEM 06 GT0M, K0FDA 6YDEM DAVEK0 0TC%DA #line:ed1832
+	Gregg: my brain is in pieces right now #line:a5adac
+	Mae: it’s all just empty #line:93eee5
+	Mae: everything’s empty #line:f39b36
+	Mae: what are we going to do #line:9f7f1e
+	Gregg: we’ll crack that one when we’re far away from here #line:ed1832
 <<endif>>
-Mae: R HE 3HA%, ECVN R... #line:819c27
-Angus: TC-C-C #line:972930
-Angus: U0F0B0PNM U03SE. #line:eb90bd
+Mae: I don’t know if I... #line:819c27
+Angus: shhh #line:972930
+Angus: talk later #line:eb90bd
 <<close>>
 <<waitForMove Angus>>
 <<waitForMove Gregg>>

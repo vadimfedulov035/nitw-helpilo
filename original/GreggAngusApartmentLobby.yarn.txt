@@ -50,37 +50,37 @@ position: 375,-27
 ---
 <<set $gregg_hat to 1>>
 <<playMusic gregg_manic 3>>
-Gregg: UYVR UP0QVA HABJ1VET! #line:577abd
-Gregg: M0SH0 DASE PA3FVRDETJ DJ1PKY B HEL. #line:b9440c
-Mae: N KAK EF0 HE Y6NV0? #line:c53c6a
-Gregg: D0VSH0 6J1TJ, HE 3ADEVA BASHY% 4ACTJ M03FA. #line:e71048
-Mae: BAY. #line:6300b7
-Gregg: AFA, UPA-UPADEDYQKA 6J1V BECJMA KPYT. #line:efc7e4
-Mae: A PA3BE GT0 HE ZAQNCTCKNL QVEM? #line:4f2640
-Gregg: 0H HE C T0L B0LHJ1! #line:be04c1
-Gregg: N N3 DPYF0L CTPAHJ1! #line:8cb85e
-Gregg: UV0XNQN HE H0CNVN TAKNE QVEMJ1! #line:8ae181
-Gregg: 4NTAL KHNSKN U0 NCT0PNN. #line:51b1aa
-Mae: 60SE! VADH0! #line:63c67a
-Mae: K0FDA TJ1 HA4AV YBVEKATJCR NCT0PNEL? #line:2ea73a
-Gregg: K0FDA BCE CTAVN F0B0PNTJ, 4T0 GT0 ZAQNCTCKNL QVEM! #line:e9cdb2
-Mae: TAK N 4T0 6YDEM DEVATJ? #line:b8aafc
+Gregg: the bullet went clean through! #line:577abd
+Gregg: you can still see the bullet hole in it. #line:b9440c
+Mae: how did that not kill him? #line:c53c6a
+Gregg: it musta missed all the important parts of the brain. #line:e71048
+Mae: wow. #line:6300b7
+Gregg: Yeah Great-great granddad was pretty tough. #line:efc7e4
+Mae: But isn't that the helmet the fascists were wearing? #line:4f2640
+Gregg: Ugh! No! Wrong war! #line:be04c1
+Gregg: And wrong country! #line:8cb85e
+Gregg: These weren’t the bad guys! #line:8ae181
+Gregg: READ SOME HISTORY. #line:51b1aa
+Mae: GEEZ! OK! #line:63c67a
+Mae: When did you learn all this stuff? #line:2ea73a
+Gregg: When people kept saying it was a fascist hat! #line:e9cdb2
+Mae: So what are we doing? #line:b8aafc
 <<if $did_gregg_friendship_quest_1>>
-	Gregg: UP0D0VSAEM HAQN UPECTYUHJ1E DEVNQKN. #line:09f942
-	Mae: 0000, DA. #line:7170fe
+	Gregg: Continuing our crime spree. #line:09f942
+	Mae: Ooooh yeah. #line:7170fe
 <<else>>
-	Gregg: F0T0BA K UPECTYUVEHN%? #line:176cce
-	Mae: 6VNH, EWE 6J1. #line:e9e653
-	Mae: KAK 6J1, R YSE UP0MJ1QVRVA GTNM B4EPA. #line:1a7afa
-	Gregg: UPABDA? 6E3 MEHR? #line:d0b855
-	Mae: 00Y, 4YBAK. #line:b64879
-	Mae: TJ1 - HABCEFDA M0L FVABHJ1L UPECTYUHJ1L DPYF. #line:fc105f
-	Gregg: UPEKPACH0, 4YBNXA. B3ANMH0. #line:1f8aa2
-	Mae: TAK, KAK0B UVAH? #line:f39a32
+	Gregg: You up for a crime? #line:176cce
+	Mae: Boy, am I ever. #line:e9e653
+	Mae: I mean, I kinda did some last night. #line:1a7afa
+	Gregg: Oh really? Without me? #line:d0b855
+	Mae: Aw dude. #line:b64879
+	Mae: You’re always my number one crimefriend. #line:fc105f
+	Gregg: That’s beautiful, dude. Likewise. #line:1f8aa2
+	Mae: So what’s the plan? #line:f39a32
 <<endif>>
-Gregg: CVEDYL 3A MH0L! #line:ef61a0
-Mae: U0BNHY%CJ, BEVNKNL B0SDJ #line:69acf2
-Gregg: N B0SDJ, N BEVNKNL. #line:43f54e
+Gregg: Follow me! #line:ef61a0
+Mae: YES DEAR LEADER #line:69acf2
+Gregg: i am both a leader, and a dear. #line:43f54e
 <<close>>
 <<walk Mae MaeRight>>
 <<walk Gregg GreggRight>>

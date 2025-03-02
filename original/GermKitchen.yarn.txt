@@ -22,39 +22,39 @@ position: 489,317
 <<waitForMove Mae>>
 
 //germ and mae walk in. GermMom is in the FG//
-Germ: UPNBET, MAM! #line:005ccd
-Germ: GT0 MGL! #line:afb41d
-Germ: 0HA YSNHAET C HAMN! #line:792f65
+Germ: hey mom! #line:005ccd
+Germ: This is mae! #line:afb41d
+Germ: she’s eating dinner with us! #line:792f65
 <<lookLeft Germ>>
 Mae: o/ #line:23d7dd
-Mae: G-G. UPNBET. #line:3aa9c7
+Mae: uh. Hi. #line:3aa9c7
 Mae: :) #line:5c42de
-GermMom: UPNBET, MGL. #line:eaf6e7
+GermMom: Hello Mae. #line:eaf6e7
 Mae: _o_ #line:845258
-GermMom: HADE%CJ, TE6E HPABNTCR HEPRQVNBJ1L DS0! #line:ca3b97
-Mae: A K0MY HE HPABNTCR? #line:d2616c
-GermMom: HNK0MY B GT0M D0ME. #line:fd916f
-Germ: R U0DYMAV, 4T0 BAM DB0NM CT0NT U03HAK0MNTJCR UEPED YSNH0M! #line:a2ded3
-GermMom: GT0 04EHJ UP0DYM4NB0, DSEPEMN. #line:2dc50d
-Germ: R U03HAK0MV% MGL C 6A6YQK0L! #line:9156e1
-GermMom: 0Y. TAK B0T B 4EM DEV0? #line:423007
-Mae: 4T0? #line:f979c6
-Germ: M0SH0? #line:5655ac
-GermMom: TE6E HE HYSH0 M0E PA3PEQEHNE. #line:d08553
-GermMom: 4T0 6J1 HN CVY4NV0CJ, 0H0 6YDET HA TB0EL C0BECTN. #line:b86bcf
+GermMom: I hope you like Sloppy Joes! #line:ca3b97
+Mae: Who doesn’t? #line:d2616c
+GermMom: Nobody in this house. #line:fd916f
+Germ: I thought you two should meet before dinner! #line:a2ded3
+GermMom: that’s very thoughtful, Jeremy. #line:2dc50d
+Germ: I’m gonna introduce Mae to Gramma! #line:9156e1
+GermMom: Oh. Is that what this is about? #line:423007
+Mae: what? #line:f979c6
+Germ: Can I? #line:5655ac
+GermMom: You don’t need my permission. #line:d08553
+GermMom: Whatever happens is on you. #line:b86bcf
 Mae: :| #line:15a92e
-Mae: 4T0? #line:5f8dc1
-Germ: DABAL! #line:14b6aa
+Mae: What? #line:5f8dc1
+Germ: Come on! #line:14b6aa
 <<walk Germ Germ2>>
-->UPNRTH0 U03HAK0MNTJCR! #line:8010d2
-	GermMom: MHE T0SE, MGL! #line:d57b3f
+->Nice meeting you! #line:8010d2
+	GermMom: You too, Mae! #line:d57b3f
 ->... #line:2f3ad3
-    GermMom: N 4T0 GT0 3HA4NT? #line:f751b8
-    Mae: R... GM... HNK0FDA HE UPEDCTABVRVA, 4T0 Y DSEPMA ECTJ MAMA? #line:880caf
-    GermMom: 0H U0V0H C%PUPN30B. #line:34d0f5
-    Mae: GT0 TAK! #line:a3b57a
-    GermMom: TJ1 HE D0VSHA 3ACTABVRTJ 6A6YQKY SDATJ. #line:1cde44
-    Mae: A, T04H0 #line:8a16cb
+    GermMom: What is it? #line:f751b8
+    Mae: I... uh... never pictured Germ having a mom? #line:880caf
+    GermMom: He's full of surprises. #line:34d0f5
+    Mae: Sure is! #line:a3b57a
+    GermMom: You shouldn’t keep Gramma waiting. #line:1cde44
+    Mae: oh right #line:8a16cb
 <<close>>
 <<walk Mae Mae2>>
 <<waitForMove Mae>>

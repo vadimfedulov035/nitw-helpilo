@@ -31,40 +31,40 @@ position: 520,313
 //<<walk Gregg GreggPose -1>>
 //<<waitForMove Mae>>
 
-Mae: YYZZ #line:b8bf30
-Gregg: GTA QTYKA 3AUYFAET DET0K D0 CMEPTN #line:27e78e
-Mae: DA, 4YBAK. #line:32e9d1
-Mae: 0HN CTAHYT PACCKA3J1BATJ 0 HEL NCT0PNN #line:dad2eb
-Mae: 0HN HNK0FDA HE Y3HA%T, 4T0 GT0 N KAK 0H0 3DECJ 04YTNV0CJ #line:5578db
-Angus: BJ1, PE6RT, T04H0 HE UP0TNB? #line:da2f2a
-Gregg: HE. Y HEF0 TYT 6YDET X0P0QNL D0M. #line:8fde6d
-Mae: 0CTABNM EF0 U0T0MKAM. #line:5673ea
-Mae: UPEBPATNM B VEFEHDY. #line:d7a456
-Gregg: XM. DA. #line:a22ea8
-Mae: SAVJ, 4T0 0H HE YUAV HA TE6R. #line:fabe77
-Gregg: SAVJ, 4T0 TB0% PYKY HE 3AWEMNV0 DETAVRMN. #line:5b5465
-Angus: SAVJ, 4T0 BJ1 06A HE 3ACTPRVN B MAQNHE #line:0875a1
-Angus: U0CVE ABAPNN #line:d6b5a3
-Angus: N B3PJ1B HE PA3MA3AV BAC U0 D0P0FE TAK, #line:f0f10a
-Angus: 4T0 BAQN 0QMETKN UPNQV0CJ 6J1 C0CKPE6ATJ #line:9ca1e9
-Angus: V0UAT0L DVR CHEFA. #line:7206fd
-Mae: KVEB0. #line:515a76
-Gregg: D0CT0LH0, KGU. #line:a7f034
-Angus: XE-XE. #line:2377c3
+Mae: ooof. #line:b8bf30
+Gregg: this thing is gonna really freak some kids out #line:27e78e
+Mae: yeah dude. #line:32e9d1
+Mae: they’re gonna tell stories about this thing #line:dad2eb
+Mae: they’ll never know what it is or how it got here #line:5578db
+Angus: you guys sure you’re ok with it? #line:da2f2a
+Gregg: yeah. This is a good home for it. #line:8fde6d
+Mae: Leave it for the kids. #line:5673ea
+Mae: Let it be a legend. #line:d7a456
+Gregg: Hm. Yeah. #line:a22ea8
+Mae: too bad it didn't fall on you. #line:fabe77
+Gregg: too bad you didn't get your arm caught in the gears. #line:5b5465
+Angus: too bad both of you didn't get trapped in the car #line:0875a1
+Angus: after a wreck #line:d6b5a3
+Angus: and explode all over the road #line:f0f10a
+Angus: and have to be scraped up #line:9ca1e9
+Angus: with a snow shovel. #line:7206fd
+Mae: nice. #line:515a76
+Gregg: decent, cap'n. #line:a7f034
+Angus: heh heh. #line:2377c3
 <<close>>
 <<wait 3>>
-Angus: HY, 4T0 S #line:1d08ac
-Gregg: U0PA DBNFATJCR DAVJQE... #line:b506de
+Angus: alright, well #line:1d08ac
+Gregg: moooving on... #line:b506de
 <<close>>
 //they start walking offscreen to the right.
 <<walk Angus AngusNextToGregg>>
-Mae: DA. #line:1ba75c
+Mae: yep. #line:1ba75c
 <<close>>
 <<waitForMove Angus>>
 <<walk Angus AngusOffRight>>
 <<walk Gregg GreggOffRight>>
 <<wait 6>>
-Mae: UP0WAL. #line:3f1f27
+Mae: goodbye. #line:3f1f27
 <<close>>
 <<walk Mae MaeOffRight>>
 <<waitForMove Mae>>

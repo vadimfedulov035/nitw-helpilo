@@ -3,12 +3,12 @@ tags:
 colorID: 0
 position: 220,270
 ---
-MaePaws: 0 60SE, XAPZECT UPN6VNSAETCR. #line:3474bc
-MaePaws: HYSH0 U0D06PATJ MNVJ1L K0CT%M. #line:3f83d2
-MaePaws: ECTJ TJ1KBEHHJ1L UNP0F N 4EPT0BCKN CVADKY% KYKYPY3Y. #line:ea7b3b
-MaePaws: U0KATATJCR HA HEYCT0L4NBJ1X ATTPAKON0HAX. #line:9d2396
-MaePaws: 3A6VEBATJ BC% 0KPYFY. #line:a5e112
-MaePaws: ...0, DA #line:7934b0
+MaePaws: Oh god, Harfest is coming up. #line:3474bc
+MaePaws: Need to get a sweet costume going. #line:3f83d2
+MaePaws: Eat pumpkin pie and hella candy corn. #line:ea7b3b
+MaePaws: Ride the unstable rides. #line:9d2396
+MaePaws: Throw up all over everyone. #line:a5e112
+MaePaws: ...Oh yeah #line:7934b0
 <<set $pamphlet_harfest_done to 1>>
 ===
 title: PamphletCasey
@@ -16,10 +16,10 @@ tags:
 colorID: 0
 position: -30,209
 ---
-MaePaws: KELCN 3HAV, 4T0 UP0NCX0DNT. #line:9c9aa3
-MaePaws: HADE%CJ, 0HN UP0CT0 UPNMYT T0, 4T0 0H UPNOEUNVCR K U0E3DY N Y6PAVCR 0TC%DA. #line:a36977
-MaePaws: 0H HNK0FDA 6J1 HE CTAV UEPBJ1M, KT0 6J1 BCE 6P0CNV N NC4E3. #line:505171
-MaePaws: HADE%CJ, C HNM BCE X0P0Q0. #line:81aa53
+MaePaws: Casey knew what was up.  #line:9c9aa3
+MaePaws: I wish they'd just accept that he hopped a train and got out. #line:a36977
+MaePaws: He wouldn't be the first to just up and disappear one day. #line:505171
+MaePaws: Hope he's doing ok. #line:81aa53
 <<set $pamphlet_casey_done to 1>>
 ===
 title: PamphletMap
@@ -27,11 +27,11 @@ tags:
 colorID: 0
 position: 471,243
 ---
-MaePaws: R BNSY CB0L D0M 0TC%DA #line:39ce97
-MaePaws: TAK 6J1 R CKA3AVA, ECVN 6J1 GTA KAPTA HE 6J1VA U0X0SA HA KAPTY VYHA-UAPKA. #line:e40b49
-MaePaws: A B0T N K0P0VEBCTB0 YF0VJHJ1X QAXT! #line:ceb254
-MaePaws: HABEWY 3A6P0QEHHJ1L ZYD D0HKN! #line:ccf583
-MaePaws: U0KATA%CJ HA XYDQNX ABT06YCAX! #line:36b46a
+MaePaws: I can see my house from here #line:39ce97
+MaePaws: is what I would say if this map wasn't like an amusement park map. #line:e40b49
+MaePaws: Over here is Coal Mine Kingdom! #line:ceb254
+MaePaws: Visit the abandoned Food Donkey! #line:ccf583
+MaePaws: Ride the worst bus ever! #line:36b46a
 <<set $pamphlet_map_done to 1>>
 ===
 title: YarnBall
@@ -39,7 +39,7 @@ tags: demo2
 colorID: 0
 position: 723,216
 ---
-MaePaws: X0P0Q0, VADH0, GT0 UP0CT0 BJ1C0K0MEPH0. KT0 M0F 0CTABNTJ GT0 3DECJ. #line:444008
+MaePaws: Ok well that's just patronizing. Who would leave this here? #line:444008
 <<set $yarn_ball_done to 1>>
 ===
 title: YarnBallBounce
@@ -47,7 +47,7 @@ tags: demo2
 colorID: 0
 position: 961,199
 ---
-MaePaws: 0, BAY. 0H0 UPJ1FAET. #line:7c1e04
+MaePaws: Oh man. It Bounces. #line:7c1e04
 <<set $yarn_ball_bounce_done to 1>>
 ===
 title: PamphletCasey_A4D3
@@ -55,7 +55,7 @@ tags:
 colorID: 0
 position: -62,454
 ---
-MaePaws: KELCN... #line:6ab919
+MaePaws: Casey... #line:6ab919
 MaePaws: ... #line:a9701e
 <<set $pamphlet_casey_done to 1>>
 ===

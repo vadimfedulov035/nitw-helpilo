@@ -3,11 +3,11 @@ tags:
 colorID: 0
 position: -1467,423
 ---
-Adina: UPNBET? #line:3d8777
-CoffinWolf: 3DPABCTBYLTE. BAM HYSEH FP06? #line:4cc8c1
-Adina: G-G. #line:dc07b7
-[[B KPATK0CP04H0L UEPCUEKTNBE?|ShortTerm]] #line:b964de
-[[B D0VF0CP04H0L UEPCUEKTNBE?|LongRun]] #line:de0f27
+Adina: Hello? #line:3d8777
+CoffinWolf: Hello! Interested in a coffin? #line:4cc8c1
+Adina: Uh. #line:dc07b7
+[[In the short term?|ShortTerm]] #line:b964de
+[[In the long run?|LongRun]] #line:de0f27
 
 ===
 title: ShortTerm
@@ -15,16 +15,16 @@ tags:
 colorID: 0
 position: -1342,660
 ---
-CoffinWolf: MAV0 VN! #line:c5272a
-CoffinWolf: GT0 TRSEV0E BPEMR #line:408603
-CoffinWolf: N GT0T VEC 3A6EPET BAQY SN3HJ. #line:7bea87
+CoffinWolf: You never know! #line:c5272a
+CoffinWolf: These are hard times #line:408603
+CoffinWolf: and these woods will take your life. #line:7bea87
 <<if $talkedToTreeCat is 1>>
-	Adina: BJ1 YSE BT0P0L N3 MECTHJ1X, KT0 F0B0PNT MHE, 4T0 R 3DECJ YMPY. #line:3d7c8a
+	Adina: You are the second person who lives here to tell me I'm going to die here. #line:3d7c8a
 <<else>>
-	Adina: BJ1 SE BCE EWE SNBJ1.  #line:cd7b16
+	Adina: You're still alive. #line:cd7b16
 <<endif>>
-CoffinWolf: BJ1 M0SETE VEFK0 D06PATJCR D0M0L, HAUPABVRLTECJ HA 3AUAD.  #line:2f87a1
-CoffinWolf: UP06VEMJ1 B03HNKHYT, ECVN U0LTN HA B0CT0K. #line:7f8462
+CoffinWolf: You can get out pretty easily, heading west. #line:2f87a1
+CoffinWolf: The problem is getting through, to the east. #line:7f8462
 [[CoffinWolf1Join]]
 
 ===
@@ -33,12 +33,12 @@ tags:
 colorID: 0
 position: -1583,658
 ---
-CoffinWolf: GT0 TRSEVJ1E BPEMEHA. DHN K0P0TKN, A H04N DVNHHJ1 , #line:71fc6a
-CoffinWolf: A 3NMA DVNTCR BE4H0. #line:08218e
-Adina: 4T0 BJ1 NMEETE B BNDY? #line:4bfccb
-CoffinWolf: GT0 3HA4NT, Y BAC ECTJ BCE QAHCJ1 CTATJ KPACNB0L VEDRH0L CKYVJUTYP0L B 3DEQHNX CHEFAX #line:0e7136
-Coffinwolf: ECVN BJ1 UP0D0VSNTE NDTN HA B0CT0K.  #line:7a3f24
-CoffinWolf: 0TUPABVRLTECJ HA 3AUAD. 3AUAD - GT0 D0M.  #line:e788a4
+CoffinWolf: These are hard times. The days are short and the nights are long. #line:71fc6a
+CoffinWolf: And the winter lasts forever. #line:08218e
+Adina: Meaning? #line:4bfccb
+CoffinWolf: Meaning you have a bright future in being a lump in a snowbank #line:0e7136
+Coffinwolf: if you keep heading east. #line:7a3f24
+CoffinWolf: So head west. West is home. #line:e788a4
 [[CoffinWolf1Join]]
 
 ===
@@ -47,20 +47,20 @@ tags:
 colorID: 0
 position: -1460,898
 ---
-Adina: HY, R NDY HA B0CT0K, TAK 4T0... #line:c18223
-CoffinWolf: DEPEBJR 3DECJ DBNSYTCR.0HN C06J%T BAC C UYTN. #line:e74481
-CoffinWolf: 0HN U0D4NHR%TCR 60FY GT0F0 VECA #line:092c19
-Coffinwolf: N CAM0L [speed=.5][shake=.02]XAH4EP[/all] . #line:1f8454
-CoffinWolf: N 0HN HNK0FDA HE PA3PEQAT BAM UP0LTN. #line:2d875e
-Adina: TAK B0T U04EMY BJ1 UJ1TAETECJ UP0DATJ MHE FP06? #line:ec6f1e
-CoffinWolf: R UPED0CTABVR% YCVYFY... ECVN BJ1 3AUVATNTE MHE UPRM0 CEL4AC, R C06EPY BCE BAQN 0CTAHKN N BEPHY BAQNM P0DHJ1M. #line:4d5a72
-Adina: BJ1 6EPETE UPED0UVATY? #line:72c9e2
-CoffinWolf: R BEDJ HE CM0FY B3RTJ C BAC DEHJFN U03SE. #line:dfbbe0
-Adina: 0X, BEPH0. #line:694ca4
-Adina: HY, Y MEHR HET DEHEF. #line:83638f
-CoffinWolf: XE-XE. T0FDA HNKAK0F0 BAM FP06A. #line:8f9678
-CoffinWolf: N BAQ UPN3PAK 6YDET D0B0VJH0 HEC4ACTHJ1M.  #line:db0bdc
-Adina: DA U0ZNF. #line:87683f
+Adina: Well, east is where I'm going, so... #line:c18223
+CoffinWolf: The trees here move. They'll confuse your path. #line:e74481
+CoffinWolf: They bend to the powers of the God of This Forest #line:092c19
+Coffinwolf: and [speed=.5][shake=.02]The Huncher[/all] herself. #line:1f8454
+CoffinWolf: And you'll never obtain their permission to pass. #line:2d875e
+Adina: So this is why you're trying to sell me a coffin? #line:ec6f1e
+CoffinWolf: I provide a service- if you pay me now, I will collect your remains and bring them back to your relations. #line:4d5a72
+Adina: You charge in advance for this? #line:72c9e2
+CoffinWolf: I can't really charge any other time. #line:dfbbe0
+Adina: Oh. Right. #line:694ca4
+Adina: Well, I don't have any money. #line:83638f
+CoffinWolf: Eh-eh. No coffin for you then. #line:8f9678
+CoffinWolf: And your ghost will be quite unhappy. #line:db0bdc
+Adina: Whatever. #line:87683f
 
 ===
 title: CoffinWolf_A1D1.2
@@ -68,14 +68,14 @@ tags:
 colorID: 0
 position: -1458,1129
 ---
-Adina: 4T0 BJ1 CKA3AVN 0 M0EM UPN3PAKE? #line:1ae4bb
-CoffinWolf: BCE, KT0 YMEPVN 3DECJ, 3DECJ N 0CTA%TCR.. NX UPN3PAKN 0CTA%TCR 3AM0P0SEHHJ1MN D0 TEX U0P, U0KA NX HE U0TPEB0SAT. #line:57f8fe
-Adina: 0L. #line:aec388
-CoffinWolf: BCE,  4T0 0CTAV0CJ 0T HNX, - GT0 K0MKN B CHEFY N BEWN, K0T0PJ1E 0HN UPNBE3VN C C060L. #line:acc096
-CoffinWolf: BCE GT0 TEUEPJ 3AM0P0SEH0. #line:eff185
-CoffinWolf: 0X, 4EF0 T0VJK0 GTN UPN3PAKN HE PACCKA3J1BAVN HAM B GTN TPYDHJ1E BPEMEHA.  #line:aed507
-Adina: M0FY R 4T0-HN6YDJ BJ1UNTJ? #line:51a36c
-CoffinWolf: HET. #line:a59ebe
+Adina: What'd you say about my ghost? #line:1ae4bb
+CoffinWolf: Those that die here, stay here. Their ghosts lie frozen until disturbed. #line:57f8fe
+Adina: Oh. #line:aec388
+CoffinWolf: All that's left of them are lumps in the snow and the things they brought with them #line:acc096
+CoffinWolf: gathering frost. #line:eff185
+CoffinWolf: Oh what those ghosts could tell us in these hard times. #line:aed507
+Adina: Can I have a drink of something? #line:51a36c
+CoffinWolf: No. #line:a59ebe
 
 ===
 title: CoffinWolf_A1D1.3
@@ -83,7 +83,7 @@ tags:
 colorID: 0
 position: -1457,1361
 ---
-CoffinWolf: BJ1 BUYCKAETE X0V0D KASDJ1L PA3, 0TKPJ1BAR DBEPJ, 3HAETE VN. #line:934a98
+CoffinWolf: You let the cold in every time you open the door, you know. #line:934a98
 
 ===
 title: PassTreeSecondTime
@@ -92,12 +92,12 @@ colorID: 0
 position: -2521,258
 ---
 <<showTalkingHeads>>
-Mae: 4T0 BJ1 CKA3AVN? #line:03395e
-Granddad: ADNHA YBNDEVA 4T0-T0 B BETBRX, 4T0-T0, 4T0 HE D0VSH0 6J1V0 TAM 6J1TJ.  #line:bd7bb6
-Mae: 0HA D0VSHA 3A6PATJCR TYDA N B3RTJ GT0, N UEPECTATJ CT0RTJ HA MECTE, KAK K0M CHEFA. #line:c4430e
-Granddad: K0M CHEFA? #line:06df01
-Mae: AFA, 0HA KAK CYFP06J1, VESAWNE U0BC%DY, A D0VSHA VE3TJ HA DEPEB0. #line:764dc6
-Granddad: ADNHA 6J1VA HE 04EHJ X0P0QNM AVJUNHNCT0M, U0GT0MY EL UPNQV0CJ NMUP0BN3NP0BATJ.  #line:914d57
+Mae: What did you say? #line:03395e
+Granddad: Adina could see something up in the branches. Something that didn't belong. #line:bd7bb6
+Mae: She should climb up and get it and stop standing there like a lump. #line:c4430e
+Granddad: A lump? #line:06df01
+Mae: Yeah she's lumping around and she should climb a tree. #line:764dc6
+Granddad: Adina wasn't much of a climber, so she had to improvise... #line:914d57
 
 ===
 title: Lost
@@ -106,17 +106,17 @@ colorID: 0
 position: -2524,13
 ---
 <<showTalkingHeads>>
-Mae: 0HA U0TEPRVACJ? #line:986465
-Granddad: 0HA U0TEPRVACJ! H0 KAK 6J1 DAVEK0 0HA HE YX0DNVA, 0HA BCEFDA 6J1VA B03VE KPAR VECA. #line:79b545
-Mae: GT0 CTPAHH0! #line:0fb376
-Granddad: GT0 6J1V HE 06J14HJ1L VEC. GT0 6J1V B0VQE6HJ1L VEC.  #line:87d6b5
-Mae: GT0 FVYU0. #line:7836e2
-Granddad: GT0 6J1VA 0UACHAR PA3H0BNDH0CTJ MAFN4ECKNX VEC0B. #line:4f5dcd
-Mae: 0X, VADH0, 3BY4NT 3D0P0B0. #line:9142a7
-Mae: KAK 0HA UP0QVA??? #line:e52da7
-Granddad: HY, M0SET, EL HYSHJ1 6J1VN KAKNE-T0 YKA3AHNR. #line:1e0322
-Mae: 0-0, H0 0T K0F0? 0HA C0BCEM 0DHA. #line:1f4163
-Granddad: K0FDA Y TE6R HET DPY3EL, TJ1 C03DAEQJ NX. #line:ef9898
+Mae: Was she LOST? #line:986465
+Granddad: She sure was! No matter how far she walked, she was never far from the forest's edge. #line:79b545
+Mae: THAT'S WEIRD! #line:0fb376
+Granddad: These were no normal woods. These were magic woods. #line:87d6b5
+Mae: That's dumb. #line:7836e2
+Granddad: These were the dangerous kind of magic woods. #line:4f5dcd
+Mae: Oh ok that sounds cool. #line:9142a7
+Mae: How did she get through??? #line:e52da7
+Granddad: Well, maybe she needed some directions. #line:1e0322
+Mae: Aw but who from? She all alone. #line:1f4163
+Granddad: When you don't have any friends, you have to make them. #line:ef9898
 
 ===
 title: NeedSnowmen
@@ -124,17 +124,17 @@ tags:
 colorID: 0
 position: -2516,495
 ---
-Granddad: GT0T CHEF C DEPEBA? #line:6c0a6c
-Granddad: GT0 6J1V 0C06J1L CHEF. #line:6b4544
-Mae: KAK GT0? #line:e56b4a
-Granddad: HY, ECVN 6J1 TJ1 3HAVA, FDE EF0 U0CTP0NTJ, #line:d7395e
-Granddad: TJ1 M0FVA 6J1 C03DATJ OEVJ1L AD DVR CHEF0BNKA N3 GT0F0 CHEFA. #line:f886f7
-Mae: N BCE? GT0 HE U0X0SE HA 0C06EHH0CTJ. #line:ade612
-Granddad: TE6R TPYDH0 YDNBNTJ, MAVJ1QKA. #line:f26f39
-Mae: UP0CT0 PACCKASN NCT0PN% U0VY4QE! #line:a81f61
-Granddad: R M0FY CH0BA UP04ECTJ TE6E MNQKY-6VAF0TB0PNQKY, K0T0PJ1L Y4NTCR DEVNTJCR. #line:649fa7
-Mae: HET, GT0 YSA-A-A-ACH0! #line:1a036b
-Granddad: X0P0Q0, T0FDA CVYQAL... #line:595e06
+Granddad: That snow from the tree? #line:6c0a6c
+Granddad: It was special snow. #line:6b4544
+Mae: How do you figure?  #line:e56b4a
+Granddad: Well, if you knew just where to build it, #line:d7395e
+Granddad: you could make one hell of a snowman from that snow. #line:f886f7
+Mae: That's it? That's not special. #line:ade612
+Granddad: You're a tough audience, kid. #line:f26f39
+Mae: JUST TELL A BETTER STORY! #line:a81f61
+Granddad: I could read you Charity Bearity Learns To Shareity again. #line:649fa7
+Mae: No, she is the woooooooorst! #line:1a036b
+Granddad: Ok, then, listen... #line:595e06
 ===
 title: FirstSnowmanBuilt
 tags: 
@@ -143,12 +143,12 @@ position: -1738,-310
 ---
 <<waitForPlayerFallToGround>>
 <<set $snowman0Intro to 1>>
-Snowman0:{angryWobble=5} A-A-A-A-A-A! #line:9f3c35
-Adina: 0 M0L 60F! #line:1e7fb0
-Snowman0:{angryWobble=7}4T0 R TAK0E!?!?!?!#line:cb6a1d
-Adina: [shake=.01]4T0 CVY4NV0CJ???[/shake] #line:95e537
-Snowman0:{angryWobble=10}4T0 R TAK0E!?!?!?!?!#line:1be364
-Adina: [shake=.05]U0M0FNTE!!![/shake] #line:53f9e8
+Snowman0:{angryWobble=5} AAAAAAAAAAGH! #line:9f3c35
+Adina: OH MY GOD! #line:1e7fb0
+Snowman0:{angryWobble=7} WHAT AM I?!?!?! #line:cb6a1d
+Adina: [shake=.01]WHAT'S HAPPENING???[/shake] #line:95e537
+Snowman0:{angryWobble=10} WHAT AM I?!?!?!?! #line:1be364
+Adina: [shake=.05]HELP!!![/shake] #line:53f9e8
 
 ===
 title: Snowman0_A1D1.1
@@ -156,18 +156,18 @@ tags:
 colorID: 0
 position: -1512,-308
 ---
-Adina: TJ1 KAK? #line:05f2bb
-Snowman0: KT0 R #line:62089e
-Adina: TJ1 CHEF0BNK? #line:694450
-Snowman0: R UP0CT0 B0DA N MYC0P! #line:e5901d
-Adina: KAK TJ1 PA3F0BAPNBAEQJ? #line:d70cac
-Snowman0: R HN4EF0 HE 3HA% #line:e17c8a
-Adina: TJ1 CVY4AEM HE 3HAEQJ, KAK HALTN VECH0F0 60FA, HE TAK VN? #line:47577a
-Snowman0: HET HN4EF0 060 MHE HN B VECY, HN B HE6E #line:ef975f
-Adina: 3BY4NT KAK U0GMA. #line:73b019
-Snowman0:{angryWobble=5}4T0 R TAK0E#line:07bfc2
-Adina: TJ1 U0X0S HA U0GMY! #line:62d4fa
-Snowman0:{angryWobble=15}A-A-A-A-A-A-A-A-A!#line:380a71
+Adina: Are you ok? #line:05f2bb
+Snowman0: what am i #line:62089e
+Adina: You're a snowman? #line:694450
+Snowman0: i'm just water and garbage! #line:e5901d
+Adina: How are you talking? #line:d70cac
+Snowman0: i don't know what anything #line:e17c8a
+Adina: You wouldn't happen to know how to find the Forest God, would you? #line:47577a
+Snowman0: there's nothing about me that isn't forest and sky #line:ef975f
+Adina: That's like a poem. #line:73b019
+Snowman0:{angryWobble=5} WHAT AM I #line:07bfc2
+Adina: You're like a poem! #line:62d4fa
+Snowman0:{angryWobble=15} AAAAAAAAAAAAAAAGH! #line:380a71
 [[AfterFirstSnowman]]
 
 ===
@@ -176,19 +176,19 @@ tags:
 colorID: 0
 position: -1280,-307
 ---
-Adina: NTAK, TJ1 4T0, UPN3PAK? #line:89a213
-Snowman0: HE UPN3PAK #line:72cb57
-Adina: U0F0DN, TJ1 HE UPN3PAK NVN B TE6E HET UPN3PAKA? #line:90c065
-Snowman0: KT0 R #line:8d7f32
+Adina: So you're what, a ghost? #line:89a213
+Snowman0: no ghost #line:72cb57
+Adina: Wait, you are no ghost or you have no ghost? #line:90c065
+Snowman0: what am i #line:8d7f32
 ===
 title: Snowman0_A1D1.3
 tags: 
 colorID: 0
 position: -1058,-307
 ---
-Adina: KAK DEVA? #line:0058ec
-Snowman0: [speed=.1][size=.5]KAKNE DEVA[/all] #line:42ca9b
-Adina: 4T0 S, VADH0. #line:e65e28
+Adina: How's it going? #line:0058ec
+Snowman0: [speed=.1][size=.5]what is going[/all] #line:42ca9b
+Adina: Ok then. #line:e65e28
 ===
 title: AfterFirstSnowman
 tags: 
@@ -196,12 +196,12 @@ colorID: 0
 position: -1510,-73
 ---
 <<showTalkingHeads>>
-Mae: CHEF0BNK HE U0M0F! #line:c03374
-Granddad: HY, ECVN C UEPB0F0 PA3A HE U0VY4NTCR... #line:bc113a
-Mae: HYSH0 Y6NTJ EF0! N CDEVATJ EWE 0DH0F0, H0 VY4QE! #line:0ab266
-Granddad: TJ1 4ACTN4H0 UPABA. #line:0f95a4
-Mae: B 4EM NMEHH0? #line:d1d3d4
-Granddad: CVYQAL DAVJQE N R PACCKASY TE6E... #line:5ebf9f
+Mae: This snowman is no help! #line:c03374
+Granddad: Well, if at first you don't succeed... #line:bc113a
+Mae: Kill it! And make a better one! #line:0ab266
+Granddad: Well ok, you got that partly right. #line:0f95a4
+Mae: Which part? #line:d1d3d4
+Granddad: Listen up and I'll tell you... #line:5ebf9f
 
 ===
 title: CoffinWolf_A1D2
@@ -210,11 +210,11 @@ colorID: 0
 position: -1096,657
 ---
 <<if $skeleton_arm is 2>>
-	CoffinWolf: U0SAVYLCTA, YLDN. TJ1 HEUPABNVJH0 NCU0VJ3YEQJ UE4J. #line:11ae1e
+	CoffinWolf: Please leave. You've misused the oven. #line:11ae1e
 <<elseif $skeleton_arm is 1>>
-	CoffinWolf: UPNBET, M0FY VN R 3ANHTEPEC0BATJ TE6R... 4T0 GT0? #line:7749ec
-	[[GT0 PYKA. U0PA UP0WATJCR!|Leave]] #line:3f065f
-	[[MHE HYSHA TB0R UE4KA...|Stove]] #line:da790f
+	CoffinWolf: Hello, can I interest you in a- WHAT IS THAT? #line:7749ec
+	[[It's an arm. Goodbye now!|Leave]] #line:3f065f
+	[[I need to borrow your stove...|Stove]] #line:da790f
 <<else>>
 	[[Market]]
 <<endif>>
@@ -225,10 +225,10 @@ tags:
 colorID: 0
 position: -1208,898
 ---
-CoffinWolf: U0D0SDN, 4T0 TJ1 DEVAEQJ? #line:f133c5
-Adina: KVADY PYKY CKEVETA B TB0% UE4J. #line:bc6c98
-CoffinWolf: GM, HET? TJ1 HE M0SEQJ! #line:e251aa
-Adina: [size=.75]Q-Q-Q.[/size] #line:337a68
+CoffinWolf: Wait, what are you doing? #line:f133c5
+Adina: Putting this skeleton arm in your stove. #line:bc6c98
+CoffinWolf: Um, no? No you're not! #line:e251aa
+Adina: [size=.75]Ssssh.[/size] #line:337a68
 <<close>>
 <<animate Adina LNGatorPutArmInFire 1>>
 <<wait 1.25>>
@@ -236,10 +236,10 @@ Adina: [size=.75]Q-Q-Q.[/size] #line:337a68
 <<set $skeleton_arm to 2>>
 <<set $skeleton_arm_fire to 1>>
 <<wait 1.75>>
-Adina: F0T0B0. #line:3d48be
-CoffinWolf: 0HA [shake=.1]NCU0P4EHA.[/shake] #line:df3aeb
-Adina: R 3HA%. #line:bbfa84
-CoffinWolf: U0SAVYLCTA, TEUEPJ YX0DN. #line:b5fd12
+Adina: It is done. #line:3d48be
+CoffinWolf: That is [shake=.1]messed up.[/shake] #line:df3aeb
+Adina: You're telling me. #line:bbfa84
+CoffinWolf: Please leave now. #line:b5fd12
 
 ===
 title: WanderingKings_A1D2.1
@@ -247,15 +247,15 @@ tags:
 colorID: 0
 position: -382,141
 ---
-Adina: UPNBET! #line:0a087b
-King: UPNBETCTBY%, UYTHNK! #line:94fdc0
+Adina: Hello! #line:0a087b
+King: Ho there traveler! #line:94fdc0
 <<setAnimInt King look -1>>
-Advisor: UPNBET! #line:89c8b9
-Knight: XMUZ #line:9e13cf
+Advisor: Hello! #line:89c8b9
+Knight: Hrmphm #line:9e13cf
 <<setAnimInt King look 1>>
-King: 4T0 UPNBEV0 TE6R C%DA GT0L H04J%? #line:e7a1ff
-[[R C06NPA%CJ HA 3AMEP3QEE 03EP0|KingFrozenLake1]] #line:84d6de
-[[HN4EF0 CEPJE3H0F0, A BAC?|KingNotMuch]] #line:a6264f
+King: What is your business here tonight? #line:e7a1ff
+[[I'm going to the Frozen Lake|KingFrozenLake1]] #line:84d6de
+[[Not much, you?|KingNotMuch]] #line:a6264f
 
 ===
 title: WanderingKings_A1D2.2
@@ -263,28 +263,28 @@ tags:
 colorID: 0
 position: -354,859
 ---
-Adina: TAK GT0 BAQA 3EMVR? #line:8f9a3f
+Adina: So is this your land? #line:8f9a3f
 King: ... #line:7014f0
 <<setAnimInt King look -1>>
 Advisor:... #line:dafd93
-Knight: ...MPZ ZJ1PXMZ... #line:a73814
-Adina: R CUP0CNVA, U0T0MY 4T0 BJ1 K0P0VJ N BCE TAK0E. #line:c89da1
+Knight: ...mrphrb phhrhvph... #line:a73814
+Adina: I was just saying, because you're a king and all. #line:c89da1
 <<setAnimInt King look 1>>
-King: R M0FY 6J1TJ K0P0VEM. #line:11bd03
+King: I may be a king. #line:11bd03
 <<setAnimInt King look -1>>
-Advisor: BJ1 M0SETE! #line:1e26c3
-King: H0 ECTJ K0P0VN, A ECTJ 60FN. #line:889f81
-Advisor: DA-DA. #line:af870f
-Adina: 0L. #line:5baff0
+Advisor: You may be! #line:1e26c3
+King: But there are kings and there are gods. #line:889f81
+Advisor: Yes yes. #line:af870f
+Adina: Oh. #line:5baff0
 <<setAnimInt King look 1>>
-King: N KAK K0P0VJ R DAP0BAV GTN 3EMVN 6AP0HECCE VAV0UCN. #line:97e8ae
+King: And as king I granted these lands to Baroness Lalopsey. #line:97e8ae
 <<setAnimInt King look -1>>
-Advisor: N 0HA DELCTBNTEVJH0 YMEPVA! #line:fb4055
-King: B CAM0M DEVE! #line:5272f9
-Advisor: U0MECTJE VAV0UCN TAK0E CTPAHH0E CEL4AC! #line:97707b
-King: 04EHJ CTPAHH0E! #line:86d07d
-Advisor: UP0QV0L BECH0L UYTHNKN BNDEVN GTY 6VEDHY% QTYKY, BJ1QEDQY% N3 60V0TA N... #line:c55e8d
-King: 4T0 S, HAM U0PA! DAVEK0 NDTN. MH0F0 MNVJ. #line:6a329e
+Advisor: And she sure did die! #line:fb4055
+King: Sure did! #line:5272f9
+Advisor: Lalopsey Manor's gone all weird now! #line:97707b
+King: Sure has! #line:86d07d
+Advisor: Last spring travelers saw this pale thing come out of the bog there and- #line:c55e8d
+King: Well, let's head out! Miles to go, men. Miles to go. #line:6a329e
 <<setAnimInt King look 1>>
 
 
@@ -296,12 +296,12 @@ position: 282,-800
 ---
 <<if $need_skeleton_arm is 0>>
 	<<if $try_pickup_skeleton_arm is 0>>
-		Adina: 0X, CVABH0. YBEPEHA, GT0 X0P0QNL 3HAK. #line:08511b
+		Adina: Oh ok. That's a good omen I'm sure. #line:08511b
 		Adina: ... #line:151e4f
-		Adina: DEPJM0 BCEM0FYWEE. #line:827c53
+		Adina: Crap almighty. #line:827c53
 		<<set $try_pickup_skeleton_arm to 1>>
 	<<else>>
-		Adina: UPNBET, CKEVET. #line:4b532a
+		Adina: Hey skeleton. #line:4b532a
 	<<endif>>
 <<elseif $need_skeleton_arm is 1>>
 	[[PickupSkeletonArm]]
@@ -313,19 +313,19 @@ tags:
 colorID: 0
 position: 280,-541
 ---
-Adina: HY, MHE HYSHA PYKA. #line:80834f
-Adina: A GT0 PYKA. #line:049009
-Adina: ECVN MHE U0BE3ET, T0 GT0T CKEVET - UPECTYUHNK. #line:4c5955
-Adina: 6J1V NM. #line:93906b
+Adina: Well, I need an arm. #line:80834f
+Adina: And that's an arm. #line:049009
+Adina: If I'm lucky, this skeleton is a criminal. #line:4c5955
+Adina: Was. #line:93906b
 Adina: ... #line:d4c5e0
-Adina: K0FDA-T0 0H 6J1V SNB. #line:d7821f
-Adina: TEUEPJ MHE HYSH0 HALTN 0F0HJ. #line:f65071
+Adina: This used to be alive. #line:d7821f
+Adina: Now I just need to find a fire to stick it in. #line:f65071
 <<close>>
 <<animationTrigger Adina Pickup>>
 <<wait .5>>
 <<set $skeleton_arm to 1>>
-Adina: [size=.65]0 60SE.[/size] #line:adccdb
-Adina: X0V0DH0. #line:5c956e
+Adina: [size=.65]OH GOD.[/size] #line:adccdb
+Adina: It's cold. #line:5c956e
 
 ===
 title: Leave
@@ -333,32 +333,32 @@ tags:
 colorID: 0
 position: -958,898
 ---
-CoffinWolf: U0KA! #line:221fa4
+CoffinWolf: Goodbye! #line:221fa4
 ===
 title: Snowacle_A1D1.1
 tags: 
 colorID: 0
 position: -1021,-1003
 ---
-Adina: UPNBET? #line:d46f3b
-Snowacle: 3DPACJTE. #line:85db87
-Adina: TJ1 B H0PME? #line:696f54
-Snowacle: HY, HE3AD0VF0 D0 GT0F0 R 6J1V MEPTB.  #line:423995
-Snowacle: N D0 CNX U0P MEPTB. TAK N ECTJ.  #line:eeaaaf
-Adina: 0Y. N3BNHN. #line:36b08b
-Snowacle: M0SET 6J1TJ, GT0 3HA4NT, 4T0 R M0FY U0KNHYTJ GTN VECA... #line:d011d7
-Snowacle: N U0LTN TYDA, KYDA NDYT MEPTBJ1E? #line:7668bd
-Adina: TAK B0T KAK GT0 PA60TAET? #line:c8bc0c
-Snowacle: KASETCR, R 6J1V B KAK0M-T0 TYMAHE. #line:d30d02
-Snowacle: A TJ1 PA36YDNVA MEHR. #line:33cd16
-Adina: ECVN X04EQJ CDEVATJ 0D0VSEHNE, T0 MHE HYSHA U0M0WJ.  #line:32ca9b
-Snowacle: R M0FY PACCKA3ATJ TE6E 0 TB0EM 6YDYWEM NVN CBR3ATJCR C MEPTBJ1MN... #line:d7ca77
-Adina: MHE HYSH0 HALTN VECH0F0 60FA N UP0LTN 4EPE3 VEC.  #line:a5600f
-Snowacle: 0, HY, UEPBAR 4ACTJ D0CTAT04H0 UP0CTA. #line:e3fa96
-Snowacle: HALDN CBRTJ1H% N CKASN UECHJ CEBEPA. #line:69878b
+Adina: Hello? #line:d46f3b
+Snowacle: Hello. #line:85db87
+Adina: Are you ok? #line:696f54
+Snowacle: Well, just before now I was dead. #line:423995
+Snowacle: And I'm still dead. So there's that. #line:eeaaaf
+Adina: Oh. Sorry. #line:36b08b
+Snowacle: Maybe this means I can leave these woods... #line:d011d7
+Snowacle: and go wherever dead people go? #line:7668bd
+Adina: Is that how that works? #line:c8bc0c
+Snowacle: I think I was in some sort of a daze. #line:d30d02
+Snowacle: And this woke me up. #line:33cd16
+Adina: If you want to return the favor, I need some help. #line:32ca9b
+Snowacle: I can tell your fortune, I can contact the dead... #line:d7ca77
+Adina: I need to find the Forest God. I need to get through the woods. #line:a5600f
+Snowacle: Oh, well the first part's easy enough. #line:e3fa96
+Snowacle: Find the shrine and say North's Canticle. #line:69878b
 <<set $shrine_info to 1>>
-[[4T0 3A UECHJ ?|SnowacleCanticle]] #line:1e8c97
-[[R HE X0DNVA B OEPK0BJ...{width=8}|Churchgoer]] #line:8337fe
+[[What is that?|SnowacleCanticle]] #line:1e8c97
+[[I wasn't a churchgoer...{width=8}|Churchgoer]] #line:8337fe
 
 ===
 title: Shrine_A1D1
@@ -368,20 +368,20 @@ position: 340,135
 ---
 <<if $shrine_info is 0>>
 	<<if $talked_to_shrine_mouse is 0>>
-		ShrineMouse: UNVNFPNM! #line:cf9f32
-		Adina: UPNBET! #line:1f961a
-		ShrineMouse: R TEPUEVNBJ1L 0TEO HE-3A6J1BAEMJ1L-60F0M #line:95c2b3
-		Adina: 0F0. B0T GT0 NMR. #line:d283b0
-		ShrineMouse: EF0 DAP0BAVN MHE, UPN M0EM U0CBRWEHNN.  #line:025a8b
-		Adina: KAKNM 6J1V0 TB0E NMR D0 GT0F0? #line:5ad324
-		ShrineMouse: 6AT4N MADD. #line:0f16ef
-		Adina: HN4EF0 CE6E N3MEHEHNR.  #line:6b84e6
-		ShrineMouse: HE SEVAEQJ VN TJ1 UP0N3HECTN M0VNTBY B 4ECTJ #line:8ea43d
-		ShrineMouse: CBRTNVNWA CBRT0F0 0P0V0HA, #line:13a7a8
-		ShrineMouse: V%6NMOA VECH0F0 60FA,  #line:f3d7c0
-		ShrineMouse: K0MY 6J1V U0KA3AH UYTJ K UP0UACTN N KPACH0MY K0V0K0VY #line:3a3ae3
-		ShrineMouse: N B EF0 CBRTY% F0PY? #line:27d652
-		Adina: TJ1 CKA3AV BCE GT0 HA 0DH0M DJ1XAHNN!  #line:dad2a5
+		ShrineMouse: Pilgrim! #line:cf9f32
+		Adina: Hello, you! #line:1f961a
+		ShrineMouse: I'm Father Patience Forget-Not-God. #line:95c2b3
+		Adina: WOW. That is a name. #line:d283b0
+		ShrineMouse: It was gifted me when I was ordained. #line:025a8b
+		Adina: What was your name before? #line:5ad324
+		ShrineMouse: Butchie Mudd. #line:0f16ef
+		Adina: Ok, that's a change. #line:6b84e6
+		ShrineMouse: Do you wish to say a prayer at this #line:8ea43d
+		ShrineMouse: the shrine of Saint Orolony #line:13a7a8
+		ShrineMouse: who, beloved of the Forest God, #line:f3d7c0
+		ShrineMouse: was shown the way to the chasm and the red bell #line:3a3ae3
+		ShrineMouse: and into his holy mountain? #line:27d652
+		Adina: You said that all without taking a breath! #line:dad2a5
 		<<set $talked_to_shrine_mouse to 1>>
 	<<endif>>
 	[[ShrineWantToPrayQuestion]]
@@ -411,23 +411,23 @@ tags:
 colorID: 0
 position: -779,-1005
 ---
-Adina: KT0 TJ1? #line:52f1a0
-Adina: TJ1 UPN3PAK? #line:39904c
-Snowacle: R HE 3HA%? #line:c37973
-Adina: KEM TJ1 6J1V PAHJQE? #line:7564cd
-Snowacle: R 6J1V UPEDCKA3ATEVEM N MEDNYM0M. #line:e903a4
-Adina: HACT0RWNM? #line:5536e6
-Snowacle: HACT0RWNM.  #line:9825ce
-Adina: BNDNQJ, R HAQVA GTY BEWJ U0D DEPEB0M, A U0T0M U0HRVA, 4T0 D0VSHA U0CTP0NTJ TE6R 3DECJ.  #line:8eae02
-Snowacle: 06JEKT, K0T0PJ1L MJ1 NCU0VJ30BAVN B0 BPEMR CEAHC0B, 6J1V 3HA4NM DVR U0K0LHNK0B. #line:9a20c7
-Adina: GT0 PA60TAV0? #line:91e85e
-Snowacle: D0CTAT04H0 X0P0Q0. #line:4c6242
-Snowacle: 4T0 KACAETCR T0F0, U04EMY 3DECJ, HY... #line:af6f51
-Snowacle: NH0FDA M0FNVA - VY4QEE MECT0 DVR K0HTAKTA C U0K0LHJ1MN. #line:178613
-Adina: 0 60SE, GT0 TB0R M0FNVA? #line:4db8b4
-Snowacle: HE M0R. H0, U0X0SE, 0HA M0SET CTATJ 4JNM-T0 MECT0M DVR 0K0H4ATEVJH0F0 0TDJ1XA. #line:2cc592
-Adina: KT0 3AKAUJ1BAET NX 3DECJ? #line:a6f946
-Snowacle: CHEF. #line:af95d5
+Adina: Who are you? #line:52f1a0
+Adina: I mean, are you a ghost? #line:39904c
+Snowacle: I don't know? #line:c37973
+Adina: Who were you before? #line:7564cd
+Snowacle: I was a fortune teller, and a medium. #line:e903a4
+Adina: A real one? #line:5536e6
+Snowacle: Real enough. #line:9825ce
+Adina: See, I found this thing in a tree, and then I knew I had to build you here, somehow. #line:8eae02
+Snowacle: In seances we would often hold an object of importance to the deceased. #line:9a20c7
+Adina: Did it work? #line:91e85e
+Snowacle: Well enough. #line:4c6242
+Snowacle: As for why here, well... #line:af6f51
+Snowacle: Sometimes a grave is the best place to contact the dead. #line:178613
+Adina: Oh god is this your grave? #line:4db8b4
+Snowacle: Not mine. It appears to be someone's final resting place. #line:2cc592
+Adina: Who buries people way out here? #line:a6f946
+Snowacle: The snow. #line:af95d5
 ===
 title: Snowacle_A1D2.1
 tags: 
@@ -435,24 +435,24 @@ colorID: 0
 position: -1335,-1382
 ---
 <<if $skeleton_arm is 2>>
-	Snowacle: GL, DEPSN GT0 U0DAVJQE. R HE X04Y PACTARTJ. #line:6b3e55
+	Snowacle: Whoa, keep that away. I don't want to melt. #line:6b3e55
 <<elseif $skeleton_arm is 1>>
 	<<if $snowacle_saw_skeleton_arm is 0>>
-		Snowacle: X0P0Q0, Y TE6R 3AM0P0SEHHAR PYKA. #line:b8f588
-		Snowacle: 0TKYDA-T0. #line:731872
-		Snowacle: NVN 0T K0F0-T0. #line:de2da8
-		Snowacle: R HE C06NPA%CJ CUPAQNBATJ. #line:3cff53
+		Snowacle: Alright, you've got a frozen arm. #line:b8f588
+		Snowacle: From somewhere. #line:731872
+		Snowacle: Or someone. #line:de2da8
+		Snowacle: I'm not going to ask. #line:3cff53
 		<<set $snowacle_saw_skeleton_arm += 1>>
 	<<else>>
-		Adina: TEUEPJ R D0VSHA U0DSE4J GTY PYKY. #line:8c5cf0
-		Snowacle: CUACN60 3A 06H0BVEHNE. #line:01eb8a
+		Adina: Now I have to set this arm on fire. #line:8c5cf0
+		Snowacle: Thanks for the update. #line:01eb8a
 	<<endif>>
 <<elseif $need_skeleton_arm is 1 and $skeleton_arm is 0 and $skeleton_arm_done is 0>>
 	[[SnowacleSearchingForSkeletonArm]]
 <<elseif $snowacle_warning is 0>>
 	[[SnowacleHuncher]]
 <<else>>
-	Snowacle: YDA4N. #line:8380fc
+	Snowacle: Good luck! #line:8380fc
 <<endif>>
 
 ===
@@ -461,24 +461,24 @@ tags:
 colorID: 0
 position: -47,-1377
 ---
-Adina: UPNBET... TJ1 B U0PRDKE? #line:0e9c30
-Adina: Y MEHR HE 6J1V0 B03M0SH0CTN CUP0CNTJ 0 TE6E #line:3322a6
-Adina: N 0 T0M, KAK TJ1 C%DA U0UAV #line:8325c8
-Snowacle: MHE KASETCR, R UP0UADA%... #line:a80c4d
-Snowacle: R C TPYD0M CVJ1QY TE6R... #line:bc6a2f
-Adina: 0L. #line:8290fd
-Snowacle: AFA. #line:8e8129
-Adina: 0FP0MH0E CUACN60. #line:ab36af
-Adina: TJ1 CUAC MHE SN3HJ, UPEDCKA3ATEVJ.  #line:58fa70
-Snowacle: 3HAEQJ, R 6J1V HACT0RWNM.  #line:dfd8fb
-Snowacle: GT0 6J1V0 PEAVJH0 DVR MEHR, #line:9e3a2b
-Snowacle: DASE ECVN #line:e1e69c
-Snowacle: M0R CECTPA B CTEHAX #line:6e95c8
+Adina: Hey there... you ok? #line:0e9c30
+Adina: I didn't have a chance to ask about you #line:3322a6
+Adina: and how you got here. #line:8325c8
+Snowacle: I think I'm gone... #line:a80c4d
+Snowacle: I can hardly hear you... #line:bc6a2f
+Adina: Oh. #line:8290fd
+Snowacle: Yes. #line:8e8129
+Adina: Thank you so much. #line:ab36af
+Adina: You saved my life, fortune-teller. #line:58fa70
+Snowacle: I was a real one, you know. #line:dfd8fb
+Snowacle: it was real to me #line:9e3a2b
+Snowacle: even if #line:e1e69c
+Snowacle: my sister, in the walls #line:6e95c8
 Snowacle: ... #line:8083e6
-Adina: AVV0? #line:c955b0
+Adina: Hello? #line:c955b0
 <<close>>
 <<wait 2>>
-Adina: D0 CBNDAHNR. #line:eb122f
+Adina: Goodbye. #line:eb122f
 
 ===
 title: NeedKeyItem
@@ -486,9 +486,9 @@ tags:
 colorID: 0
 position: -1978,-545
 ---
-Adina: XM. DYMA%, MHE HYSH0 4T0-T0 0C06EHH0E DVR GT0F0. #line:40f130
-Adina: B UP0TNBH0M CVY4AE, R VNQJ UPNHECY B GT0T MNP 60VJQE KPN4AWNX CHESHJ1X MAV%T0K. #line:857553
-Adina: N GT0 HE X0P0Q0. #line:03da55
+Adina: Hm. I think I need something special for this one. #line:40f130
+Adina: Otherwise I'm just bringing more screaming forest ice-babies into the world. #line:857553
+Adina: And that's no good. #line:03da55
 
 ===
 title: Snowman0_A1D2.1
@@ -496,15 +496,15 @@ tags:
 colorID: 0
 position: -1280,-74
 ---
-Adina: UPNBET, UAV04KA! #line:86216d
-Snowman0: 4T0 3A UAV04KA #line:52eb3a
-Adina: R HA3BAVA TE6R UAV04K0L. #line:434d10
-Adina: U0T0MY 4T0 TJ1 N3... #line:c15e3b
-Snowman0: UA-V04-KA #line:3ebf53
-Adina: ...UAV0K. #line:e7aaf7
-Snowman0: UA-V04-KA #line:6411d2
-Adina: DA. #line:88996b
-Snowman0: U04EMY UA-V04-KA #line:81455a
+Adina: Hey Sticky! #line:86216d
+Snowman0: what is sticky #line:52eb3a
+Adina: I named you Sticky. #line:434d10
+Adina: Because of- #line:c15e3b
+Snowman0: stick-y #line:3ebf53
+Adina: -the sticks. #line:e7aaf7
+Snowman0: STICK-y. #line:6411d2
+Adina: yep. #line:88996b
+Snowman0: why is stick-y #line:81455a
 ===
 title: Snowman0_A1D3
 tags: 
@@ -512,9 +512,9 @@ colorID: 0
 position: -1273,161
 ---
 Snowman0: ... #line:b4bddf
-Adina: TJ1 YSE YQEV, UAV04KA? #line:fca4fc
+Adina: Are you gone already, Sticky? #line:fca4fc
 Snowman0: ... #line:15f24c
-Adina: MHE SAVJ, UAV04KA. #line:ad335b
+Adina: I'm sorry, Sticky. #line:ad335b
 
 ===
 title: EnterLevel
@@ -534,20 +534,20 @@ tags:
 colorID: 0
 position: -904,-769
 ---
-Snowacle: "B EF0 VECAX, EF0 KPARX" #line:c18de8
-Snowacle: "BCR SN3HJ YMPET, HE 3HAR CTPAX" #line:f1e3d1
-Snowacle: "0TPNHJ SE BCE, 0HN NDYT" #line:da6774
-Snowacle: "0 60F VECH0L, CUACN SE HAC" #line:22143f
-Adina: FDE TJ1 GT0 YCVJ1QAV? #line:150006
-Snowacle: MJ1 BCEF0 VNQJ U0BT0PRVN GT0 B OEPKBN DBA PA3A B HEDEV%, #line:e6a1b4
-Snowacle: A TAKSE URTJ PA3 HA DH%. #line:ddb697
-Snowacle: HE U0MHNQJ? #line:0f5761
-Adina: R HE 3DEQHRR. #line:bde119
-Snowacle: N R K0FDA-T0 HE 6J1V 3DEQHNM. #line:0438a1
-Snowacle: CVYQAL, Y MEHR BCE EWE 0CTAVACJ M0R 4YTK0CTJ. #line:be8ba2
-Adina: 4T0? #line:6ddfb8
-Snowacle: ECVN TJ1 U0TEPREQJCR, R U0CTAPA%CJ YKA3ATJ TE6E UPABNVJH0E HAUPABVEHNE. #line:8e8b67
-Adina: CUACN60! #line:c512a9
+Snowacle: "In Their Wings, In Their Trees" #line:c18de8
+Snowacle: "All things die, Be at peace!" #line:f1e3d1
+Snowacle: "Cease all care, They are coming." #line:da6774
+Snowacle: "God of The forest, carry us." #line:22143f
+Adina: Where did you learn that? #line:150006
+Snowacle: We only said it in church twice a week #line:e6a1b4
+Snowacle: and also five times a day. #line:ddb697
+Snowacle: Didn't you? #line:0f5761
+Adina: I'm not from around here. #line:bde119
+Snowacle: Once I wasn't either. #line:0438a1
+Snowacle: Listen, I still have some remnant of my sensitivities. #line:be8ba2
+Adina: What? #line:6ddfb8
+Snowacle: If you're lost, I can try to point you in the right direction. #line:8e8b67
+Adina: Thanks! #line:c512a9
 
 ===
 title: Churchgoer
@@ -555,20 +555,20 @@ tags:
 colorID: 0
 position: -1137,-771
 ---
-Snowacle: 0, TJ1 MAVEHJKAR R3J14HNOA! #line:41000c
-Snowacle: DEBYQKA, K0T0PAR MHE U0 DYQE. G-XE-XE. #line:eaba6f
-Adina: TJ1 3HAEQJ GTY UECHJ? #line:ef9fd8
-Snowacle: "B EF0 VECAX, EF0 KPARX" #line:880643
-Snowacle: "BCR SN3HJ YMPET, HE 3HAR CTPAX" #line:9d3c78
-Snowacle: "0TPNHJ SE BCE, 0HN NDYT" #line:b789ff
-Snowacle: "0 60F VECH0L CUACN SE HAC" #line:88829b
-Adina: N KASDJ1L UP0N3H0CNT GT0? #line:7bca1d
-Snowacle: B GT0L CTPAHE - HECK0VJK0 PA3 B DEHJ. #line:3095c1
-Adina: XM. #line:cb4f1f
-Snowacle: CVYQAL, Y MEHR BCE EWE 0CTAVACJ M0R 4YTK0CTJ. #line:71c46b
-Adina: 4T0? #line:446674
-Snowacle: ECVN TJ1 U0TEPREQJCR, R U0CTAPA%CJ YKA3ATJ TE6E UPABNVJH0E HAUPABVEHNE. #line:c06156
-Adina: CUACN60! #line:58585c
+Snowacle: Oh you little heathen! #line:41000c
+Snowacle: A girl after my own heart. Eh heh heh. #line:eaba6f
+Adina: Do you know it? #line:ef9fd8
+Snowacle: "In Their Wings, In Their Trees" #line:880643
+Snowacle: "All things die, Be at peace!" #line:9d3c78
+Snowacle: "Cease all care, They are coming." #line:b789ff
+Snowacle: "God of The forest, carry us." #line:88829b
+Adina: And people say that? #line:7bca1d
+Snowacle: Several times a day in this country. #line:3095c1
+Adina: Hm. #line:cb4f1f
+Snowacle: Listen, I still have some remnant of my sensitivities. #line:71c46b
+Adina: What? #line:446674
+Snowacle: If you're lost, I can try to point you in the right direction. #line:c06156
+Adina: Thanks! #line:58585c
 
 ===
 title: KingNotMuch
@@ -576,20 +576,20 @@ tags:
 colorID: 0
 position: -495,387
 ---
-King: Y HAC MH0F0 DEV! #line:f9f792
+King: We're doing much! #line:f9f792
 <<setAnimInt King look -1>>
-Advisor: NDN C HAMN N MJ1 M0SEM CDEVATJ MH0F0E! #line:0d3bcf
-Knight: ...MPZ ZP ZPMZ... #line:f678d0
-King: BEPH0, CTNBEHC0H! 0HA HE M0SET U0LTN C HAMN! #line:5c5573
-Advisor: TJ1 UPAB! XA-XA-XA-XA! #line:c9e6ae
-Adina: 60VJQNE UVAHJ1? #line:f106cf
+Advisor: Come with us, we can do much! #line:0d3bcf
+Knight: ...mrph phr phrmpt... #line:f678d0
+King: Right you are, Stevenson! She can't come with us! #line:5c5573
+Advisor: You're right! Ha ha ha ha! #line:c9e6ae
+Adina: Big plans, then? #line:f106cf
 <<setAnimInt King look 1>>
-King: U0BECTKA DHR - 0ZNONAVJHJ1L UPNEM Y VECH0F0 60FA! #line:2058b3
+King: We have our agenda for an audience with the Forest God! #line:2058b3
 <<setAnimInt King look -1>>
-Advisor: Y HAC ECTJ [speed=.75][color=aaaaaa]PYKA UPECTYUHNKA[/all] N [speed=.75][color=aaaaaa]EE HYSH0 U0DSE4J![/all] #line:7cb1f7
+Advisor: We have the [speed=.75][color=aaaaaa]severed arm of a criminal[/all] and [speed=.75][color=aaaaaa]fire to light it![/all] #line:7cb1f7
 <<set $need_skeleton_arm to 1>>
-[[BJ1 CKA3AVN, 4T0 C06NPAETECJ U0DSE4J EE?|WhatFire]] #line:a61c71
-[[HY, GT0 3BY4NT... CT0U, PYKA!?|WhatFire]] #line:a74170
+[[What did you say you were going to set on fire?|WhatFire]] #line:a61c71
+[[Well, that sounds- WAIT, an arm?!|WhatFire]] #line:a74170
 
 ===
 title: KingFrozenLake1
@@ -597,18 +597,18 @@ tags:
 colorID: 0
 position: -260,384
 ---
-King: KAK0E C0BUADEHNE! MJ1 T0SE! #line:d61229
+King: Well, that's a coincidence! So are we! #line:d61229
 <<setAnimInt King look -1>>
-Advisor: 6VAF0CV0BEHHAR BCTPE4A! #line:5a4f7b
-Adina: BJ1 3HAETE UYTJ 4EPE3 VEC? #line:a7bebc
+Advisor: Blessed meeting! #line:5a4f7b
+Adina: Do you know the way through the woods? #line:a7bebc
 <<setAnimInt King look 1>>
-King: 6E3YCV0BH0! MJ1 HAUPABVREMCR HA BCTPE4Y C VECHJ1M 60F0M! #line:f482f4
+King: We surely do! We are bound for an audience with the Forest God! #line:f482f4
 <<setAnimInt King look -1>>
-Advisor: N U0CVE GT0F0 Y HAC ECTJ PYKA, [speed=.75][color=aaaaaa]N 0F0HJ, 4T06J1 3ASE4J EE![/all] #line:c84054
+Advisor: And after that we have an arm, [speed=.75][color=aaaaaa]and fire to light it![/all] #line:c84054
 <<set $need_skeleton_arm to 1>>
 <<setAnimInt King look 1>>
-[[BJ1 CKA3AVN, 4T0 C06NPAETECJ U0DSE4J EE?|WhatFire]] #line:4eb298
-[[BJ1 C06NPAETECJ HALTN XAH4... CT0U, PYKA? 4EF0?|WhatFire]] #line:84c16d
+[[What did you say you were going to set on fire?|WhatFire]] #line:4eb298
+[[Are you going to find The Hunch... wait, an arm? What?|WhatFire]] #line:84c16d
 
 ===
 title: WhatFire
@@ -616,24 +616,24 @@ tags:
 colorID: 0
 position: -358,638
 ---
-King: PYKA [speed=.75][color=aaaaaa]MEPTB0F0 UPECTYUHNKA![/all] #line:537e82
+King: The [speed=.75][color=aaaaaa]arm of a dead criminal![/all] #line:537e82
 <<setAnimInt King look -1>>
-Advisor: U0SEPTB0BAHHAR, K0HE4H0. #line:b033ec
-Knight: ...XPMMZXP... #line:22984d
-King: XA-XA-XA #line:2311c6
-Advisor: 0X, CTNBEHC0H.  #line:9ddefb
+Advisor: Donated, of course. #line:b033ec
+Knight: ...hrmmphhr... #line:22984d
+King: Ha ha ha! #line:2311c6
+Advisor: Oh Stevenson. #line:9ddefb
 <<setAnimInt King look 1>>
-Adina: N BJ1 C06NPAETECJ [speed=.75][color=aaaaaa]U0DSE4J EE?[/all] #line:91a582
-King: DA! #line:2cb79b
+Adina: And you're going to [speed=.75][color=aaaaaa]set it on fire?[/all] #line:91a582
+King: Yes! #line:2cb79b
 <<setAnimInt King look -1>>
-Advisor: N 0CBETNTJ D0P0FY K V0WNHE XAH4EP! #line:5f6884
-Adina: TJZY GT0T VEC. #line:5e684c
+Advisor: And it will light the way to the Huncher's Hollow! #line:5f6884
+Adina: Ugh this forest. #line:5e684c
 <<setAnimInt King look 1>>
-Adina: HY, YDA4N! #line:24b0c0
+Adina: Well, best of luck! #line:24b0c0
 <<setAnimInt King look -1>>
-King: SEVA% BCEM YDA4N! #line:45c3cb
+King: Best of luck to everyone! #line:45c3cb
 <<setAnimInt King look 1>>
-Advisor: DASE TE6E! HAM XBATAET YDA4N, 4T06J1 NDTN B 06X0D #line:c14e0f
+Advisor: Even you! We have enough luck to go around #line:c14e0f
 ===
 title: Market
 tags: 
@@ -641,16 +641,16 @@ colorID: 0
 position: -848,659
 ---
 <<if $market is 0>>
-	CoffinWolf: BEPHYVNCJ, 4T06J1 KYUNTJ FP06? #line:0f1854
-	Adina: HET, UP0CT0 3AQVA U0FPETJCR. #line:b04fd4
-	CoffinWolf: U0SAVYL, HA4HY B3NMATJ UVATY 3A GT0. #line:d09991
-	Adina: ECVN Y MEHR HET DEHEF KYUNTJ FP06, #line:26405e
-	Adina: T0 KAKNM 06PA30M R 3AUVA4Y 3A T0, 4T0 FPE%CJ 3DECJ? #line:855e3a
-	CoffinWolf: R HE 3HA%, DABALTE CUP0CNM CB060DHJ1L PJ1H0K. #line:155fce
+	CoffinWolf: Back to buy a coffin? #line:0f1854
+	Adina: No, just getting warm. #line:b04fd4
+	CoffinWolf: I'm going to start charging for that. #line:d09991
+	Adina: If I don't have any money for a coffin #line:26405e
+	Adina: why would I have money standing by your stove? #line:855e3a
+	CoffinWolf: I dunno, let's ask the free market. #line:155fce
 	<<set $market to 1>>
 <<elseif $market is 1>>
-	Coffinwolf: N B0T TEUV0 CH0BA YQV0, XV0UHYB DBEPJ%. #line:b0a54a
-	Adina: N3BNHNTE. #line:0dbfd1
+	Coffinwolf: There goes all of my heat again, right out the door. #line:b0a54a
+	Adina: Sorry. #line:0dbfd1
 	[[Leave]]
 <<endif>>
 ===
@@ -659,7 +659,7 @@ tags:
 colorID: 0
 position: 592,-116
 ---
-ShrineMouse: UEPELDN B MNP VECH0F0 60FA, M0E DNTR. #line:62362f
+ShrineMouse: Go in the peace of the God of the Forest, my child. #line:62362f
 
 
 ===
@@ -668,10 +668,10 @@ tags:
 colorID: 0
 position: 104,137
 ---
-ShrineMouse: HA4NHAL, K0FDA 6YDEQJ F0T0BA. #line:a3f90a
-[[MNV0CTVNBJ1L DPEBECHJ1L V0PD, VNCTNCTJ1L N 06VARHJ1L|TreeLord]] #line:9d8497
-[[6VAF0P0DHJ1L N B03BJ1QEHHJ1L MEDBEDJ|BearEnthroned]] #line:a4b9f6
-[[3A4AP0BJ1HJ1L M0HCTP 0VEHJ, T0UA%WNL B H04N|DeerMonster]] #line:c44e15
+ShrineMouse: You may recite when ready. #line:a3f90a
+[[Gracious Tree Lord, Leafy And Barked|TreeLord]] #line:9d8497
+[[Exalted Bear Enthroned Above|BearEnthroned]] #line:a4b9f6
+[[Enchanted Deer Monster, Hoofy In The Night|DeerMonster]] #line:c44e15
 ===
 title: ShrinePass
 tags: 
@@ -679,50 +679,50 @@ colorID: 0
 position: 596,400
 ---
 <<fadeOutMusic 3>>
-Adina: GM... UPNBET? #line:449dfd
-TreeCat: D06PJ1L BE4EP. #line:485e67
+Adina: Um... hello? #line:449dfd
+TreeCat: 'Evening. #line:485e67
 <<if $saw_shrine_mouse is 0>>
-	Adina: GL, MJ1 PAHJQE HE BNDEVNCJ? #line:b1f41a
-	TreeCat: DA? #line:42ecfc
-	Adina: 3A UPEDEVAMN VECA.  #line:0fcb43
+	Adina: Hey, didn't I see you before? #line:b1f41a
+	TreeCat: Hm? #line:42ecfc
+	Adina: Outside the forest? #line:0fcb43
 	<<musicDialogueFaderOverride 1>>
 	<<tell ShrineMusic to Play>>
-	TreeCat: HET. #line:93ffa6
-	Adina: R DYMA% 4T0 BNDEVNCJ, H0 Y TE6R HE 6J1V0 QVRUJ1.  #line:b389c9
-	TreeCat: GT0 HE M0F 6J1TJ R. R BCEFDA H0QY QVRUY #line:e1e329
-	Adina: XM. #line:468db1
+	TreeCat: No. #line:93ffa6
+	Adina: I think I did. But you didn't have a hat. #line:b389c9
+	TreeCat: Couldn't be me. I do have a hat. #line:e1e329
+	Adina: Hm.  #line:468db1
 <<elseif $talked_to_shrine_mouse is 0>>
-	Adina: HE 6J1VA VN 3DECJ MJ1QJ MNHYTY HA3AD? #line:1e45e8
-	TreeCat: DA. #line:943288
+	Adina: Wasn't there a mouse here a minute ago? #line:1e45e8
+	TreeCat: Yep. #line:943288
 	<<musicDialogueFaderOverride 1>>
 	<<tell ShrineMusic to Play>>
-	Adina: TJ1 CJEV EF0? #line:9dc908
-	TreeCat: HET. 0H UP0CT0 DAV MHE CB0% QVRUY.  #line:354696
-	Adina: 0L. #line:5c1896
+	Adina: Did you eat it? #line:9dc908
+	TreeCat: No. He just gave me his hat. #line:354696
+	Adina: Oh. #line:5c1896
 <<else>>
-	Adina: FDE... #line:7b964c
-	Adina: 60SE M0L. #line:c9c134
-	Adina: TJ1 CJEV TEPUEVNB0F0 0TOA HE3A6J1BAEM0F0 60F0M!? #line:fcecef
+	Adina: Where is... #line:7b964c
+	Adina: OH MY GOD. #line:c9c134
+	Adina: YOU ATE FATHER PATIENCE FORGET-NOT-GOD?! #line:fcecef
 	<<musicDialogueFaderOverride 1>>
 	<<tell ShrineMusic to Play>>
-	TreeCat: HET. 0H YQEV. #line:6b7e61
-	Adina: TJ1 HADEV EF0 MAVEHJKY% QVRUY! #line:cc560f
-	TreeCat: 0H 0TDAV MHE QVRUY. #line:da94e8
+	TreeCat: No. He left. #line:6b7e61
+	Adina: YOU'RE WEARING HIS LITTLE HAT! #line:cc560f
+	TreeCat: He gave me his hat. #line:da94e8
 	Adina: ... #line:bb63e7
-	TreeCat: R 4YBCTBY% CE6R TAKNM 0ZNOAVJHJ1M. KCTATN, TJ1 YSE D06J1VA M0VNTBY DVR MEHR, UNVNFPNM?  #line:97041c
-	Adina: R HEHABNSY TE6R. #line:f6f19b
+	TreeCat: I feel so official. #line:97041c
+	Adina: I hate you. #line:f6f19b
 <<endif>>
-Treecat: Y TE6R ECTJ M0VNTBA DVR MEHR, UNVNFPNM? #line:057897
-Adina: U0D0SDN, 3A4EM TE6E TAK HYSH0 EE YCVJ1QATJ?? #line:340f1d
+Treecat: You got a prayer for me, Pilgrim? #line:057897
+Adina: Wait, why do you need to hear this? #line:340f1d
 <<if $saw_shrine_mouse is 0>>
-	TreeCat: 0HA HE DVR MEHR, 0HA DVR CBRTJ1HN. #line:226082
+	TreeCat: It's not for me. It's for the shrine. #line:226082
 <<else>>
-	TreeCat: 0HA HE DVR MEHR NVN MJ1QN, 0HA DVR CBRTJ1HN. #line:df2325
+	TreeCat: It's not for me or the mouse. It's for the shrine. #line:df2325
 <<endif>>
-Adina: XM. #line:179b0a
-TreeCat: [speed=.5][wave]MP-P-P-P.[/all] #line:40f2c7
-[["B EF0 VECAX, EF0 KPARX"|InTheirWings]] #line:228b3e
-[[U0CVYQAL, HAM 06R3ATEVJH0 GT0 DEVATJ?|HaveToDoThis]] #line:af8578
+Adina: Hm. #line:179b0a
+TreeCat: [speed=.5][wave]Prrrrr.[/all] #line:40f2c7
+[["In Their Wings, In Their Trees"|InTheirWings]] #line:228b3e
+[[Listen, do we have to do this?|HaveToDoThis]] #line:af8578
 
 ===
 title: Shrine_A1D1.2
@@ -731,9 +731,9 @@ colorID: 0
 position: 587,132
 ---
 <<if $shrine_info is 0>>
-	ShrineMouse: M0E 6VYSDA%WEE DNTR! TJ1 3DECJ, 4T06J1 UP0N3HECTN M0VNTBY? #line:12af55
-	[[DA, K0HE4H0!|PrayerClueless2]] #line:7dde57
-	[[HET, HE CEL4AC|ShrineNo]] #line:5ec3b0
+	ShrineMouse: My wandering child! Are you here to say a prayer? #line:12af55
+	[[Why yes, I am!|PrayerClueless2]] #line:7dde57
+	[[No, not right now|ShrineNo]] #line:5ec3b0
 <<elseif $shrine_info is 1>>
 	[[ShrinePass]]
 <<endif>>
@@ -744,13 +744,13 @@ colorID: 0
 position: 329,666
 ---
 <<setAnimInt ShrineMouse stern 1>>
-ShrineMouse: 0... #line:5940fe
-ShrineMouse: 0VEHJ... #line:49471b
-ShrineMouse: M0HCTP?!?!?!?!? #line:7ac381
-Adina: VADH0, R UPN3HA%, GT0 6J1V0 4NCTJ1M UPEDU0V0SEHNEM. #line:1c7b87
-ShrineMouse: TJ1, 04EBNDH0, HE 3HAEQJ HAQEF0 VECH0F0 60FA. #line:4e9d09
-Adina: U0CVYQAL, R HE 0TC%DA, N... #line:90b119
-ShrineMouse: YX0DN! B03BPAWALCR, K0FDA U0VY4NQJ NHZ0PMAON%.  #line:923a02
+ShrineMouse: D... #line:5940fe
+ShrineMouse: Deer... #line:49471b
+ShrineMouse: MONSTER?!?!?! #line:7ac381
+Adina: Ok I'll admit that one was a total guess. #line:1c7b87
+ShrineMouse: You clearly have not known our Forest God. #line:4e9d09
+Adina: Listen, I'm not from around here, and- #line:90b119
+ShrineMouse: GO! Return when you have been granted knowledge. #line:923a02
 <<setAnimInt ShrineMouse stern 0>>
 
 ===
@@ -760,12 +760,12 @@ colorID: 0
 position: 102,400
 ---
 <<setAnimInt ShrineMouse stern 1>>
-ShrineMouse: MEDBEDJ? #line:df6ae6
-Adina: R TYT U0DYMAVA, M0SET, VECH0L 60F - FNFAHTCKNL MEDBEDJ?  #line:c88aa3
-ShrineMouse: VECH0L 60F - HE UP0CT0 MEDBEDJ.  #line:9209ec
-ShrineMouse: VECH0L 60F B006WE HE MEDBEDJ. #line:3c6709
-Adina: 0L. #line:887755
-ShrineMouse: YX0DN! B03BPAWALCR K0FDA TJ1 U0VY4NQJ NHZ0PMAON%. #line:5017a3
+ShrineMouse: BEAR? #line:df6ae6
+Adina: I figured the forest god was maybe a giant bear? #line:c88aa3
+ShrineMouse: The Forest God is no mere bear. #line:9209ec
+ShrineMouse: The Forest God is no bear at all. #line:3c6709
+Adina: Oh. #line:887755
+ShrineMouse: GO! Return when you have been granted knowledge. #line:5017a3
 <<setAnimInt ShrineMouse stern 0>>
 
 ===
@@ -775,13 +775,13 @@ colorID: 0
 position: 99,665
 ---
 <<setAnimInt ShrineMouse stern 1>>
-ShrineMouse: VECH0L 60F - GT0 HE DEPEB0!!!!!  #line:b94738
-Adina: R U0DYMAVA TAK, U0T0MY 4T0... HY, 3HAEQJ, VEC N BCE TAK0E... #line:350efd
-ShrineMouse: HN 0DH0 DEPEB0 HE M0SET 6J1TJ 60F0M.  #line:43fe9c
-Adina: R HE CVEDY% GT0L V0FNKE. #line:65493f
-Adina: NTAK, 4T0 *M0SET* 6J1TJ 60F0M? #line:387aa8
-ShrineMouse: HE DEPEB0, 04EBNDH0! #line:d12e87
-ShrineMouse: YX0DN! B03BPAWALCR K0FDA TJ1 U0VY4NQJ NHZ0PMAON%. #line:ca250d
+ShrineMouse: The Forest God is no tree!!!! #line:b94738
+Adina: I thought that, you know, because of the forest... #line:350efd
+ShrineMouse: No tree can be a god! #line:43fe9c
+Adina: I'm not following this line of logic. #line:65493f
+Adina: So what *can* be a god? #line:387aa8
+ShrineMouse: Not a tree, obviously! #line:d12e87
+ShrineMouse: GO! Return when you have been granted knowledge. #line:ca250d
 <<setAnimInt ShrineMouse stern 0>>
 
 ===
@@ -790,10 +790,10 @@ tags:
 colorID: 0
 position: 335,401
 ---
-ShrineMouse: TJ1 M0SEQJ UP04NTATJ, K0FDA 6YDEQJ F0T0BA.  #line:08ea2e
-[[B0VK! B0VK! TPNSDJ1 B0VK!|WolfWolfWolf]] #line:ad99e0
-[[MNVEHJKNL, MAVEHJKNL V0CJ.0 HESHJ1L V0CJ.|SweetBabyMoose]] #line:516ccb
-[[QEPCTRH0L CEBEPHJ1L K0T, YCVJ1QJ M0% UP0CJ6Y|WoolyCat]] #line:ac7b82
+ShrineMouse: You may recite when ready. #line:08ea2e
+[[Wolf! Wolf! Thrice Wolf!|WolfWolfWolf]] #line:ad99e0
+[[Sweetest Baby Moose, Oh Gentle Moose|SweetBabyMoose]] #line:516ccb
+[[Wooly Cat Of The North, Hear My Petition|WoolyCat]] #line:ac7b82
 ===
 title: WolfWolfWolf
 tags: 
@@ -801,11 +801,11 @@ colorID: 0
 position: 573,668
 ---
 <<setAnimInt ShrineMouse stern 1>>
-ShrineMouse: B0VK? B0VK? B0VK? #line:0eddde
+ShrineMouse: Wolf? Wolf? Wolf? #line:0eddde
 Adina: Wrong? #line:ed6ac1
-ShrineMouse: TJ1 K0FDA-HN6YDJ M0VNVACJ PAHJQE? #line:b4dc80
-Adina: B CMJ1CVE? #line:9beebe
-ShrineMouse: YX0DN! B03BPAWALCR K0FDA TJ1 U0VY4NQJ NHZ0PMAON%. #line:a0f061
+ShrineMouse: Have you ever prayed before? #line:b4dc80
+Adina: Kinda? #line:9beebe
+ShrineMouse: GO! Return when you have been granted knowledge. #line:a0f061
 <<setAnimInt ShrineMouse stern 0>>
 
 ===
@@ -815,9 +815,9 @@ colorID: 0
 position: 828,664
 ---
 <<setAnimInt ShrineMouse stern 1>>
-ShrineMouse: R DASE HE 3HA%, C 4EF0 HA4ATJ #line:240272
-Adina: U0SAVYLCTA, HE 0CYSDAL M0% VN4HY% BEPY.  #line:6ec070
-ShrineMouse: YX0DN! B03BPAWALCR K0FDA TJ1 U0VY4NQJ NHZ0PMAON%. #line:818332
+ShrineMouse: I'm not sure where to even begin. #line:240272
+Adina: Please don't judge my personal faith. #line:6ec070
+ShrineMouse: GO! Return when you have been granted knowledge. #line:818332
 <<setAnimInt ShrineMouse stern 0>>
 
 ===
@@ -827,9 +827,9 @@ colorID: 0
 position: 1066,664
 ---
 <<setAnimInt ShrineMouse stern 1>>
-ShrineMouse: VECH0L 60F - HE MEP3KNL K0T! #line:1feab1
-Adina: 0, UPABDA? #line:d682e6
-ShrineMouse: YX0DN! B03BPAWALCR K0FDA TJ1 U0VY4NQJ NHZ0PMAON%. #line:02d798
+ShrineMouse: THE FOREST GOD IS NO FILTHY CAT! #line:1feab1
+Adina: Oh no? #line:d682e6
+ShrineMouse: GO! Return when you have been granted knowledge. #line:02d798
 <<setAnimInt ShrineMouse stern 0>>
 
 ===
@@ -839,8 +839,8 @@ colorID: 0
 position: 827,137
 ---
 <<if $shrine_info is 0>>
-	ShrineMouse: DNTR M0E, TJ1 HAY4NVACJ M0VNTJCR? #line:324f31
-	[[...HET...|ShrineNo]] #line:4efdb3
+	ShrineMouse: My child, have you learned yet how to pray? #line:324f31
+	[[...no...|ShrineNo]] #line:4efdb3
 <<elseif $shrine_info is 1>>
 	[[ShrinePass]]
 <<endif>>
@@ -860,22 +860,22 @@ position: 1769,398
 	<<wait 1>>
 	<<fadeOutMusic 8>>
 	<<showTalkingHeads>>
-	Mae: NTAK, 3HA4NT GTN CHESHJ1E QTYKN - UPN3PAKN? #line:e07167
-	Granddad: HY, B HNX ECTJ UPN3PAKN. #line:1ce158
-	Mae: CYWECTBY%T VN UPN3PAKN? #line:3ba4f5
-	Granddad: KAK TJ1 DYMAEQJ? #line:485ae6
-	Mae: DYMA%, HET. A TJ1? #line:dbf900
-	Granddad: HY, R DYMA%, NH0FDA V%DN 0CTA%TCR C T060L HAD0VF0 U0CVE T0F0, KAK 0HN YLDYT. #line:ce7979
-	Mae: TEUEPJ 6A6YQKA - UPN3PAK? #line:64e7af
-	Granddad: XA-XA-XA. B VY4QNE DHN, DA.  #line:c9118e
-	Mae: R HE X04Y, 4T0 6J1 TJ1 K0FDA-VN60 6J1V UPN3PAK0M #line:ab97c7
-	Granddad: 0X MGL, R 6YDY PRD0M, 4T06J1 YBNDETJ TB0NX C06CTBEHHJ1X DETEL.  #line:d248de
-	Mae: HET, HE 6YDEQJ.  #line:25dbed
-	Granddad: HY, MGL, GT0 HE 04EHJ UPNRTH0 CVJ1QATJ.  #line:e28c0c
-	Mae: HE, R NME% B BNDY, 4T0 R  HE X04Y DETEL.  #line:fcf42a
-	Mae: R X04Y DBYX 60VJQNX UYQNCTJ1X K0T0B N  CTAP0F0 F0H4EF0 UCA.  #line:bd41ff
-	Mae: N MJ1 6YDEM BJ1TJ HA VYHY! #line:770acf
-	Granddad: HNK0FDA HE MEHRLCR, MGL. #line:4180cd
+	Mae: So those snowthings are ghosts? #line:e07167
+	Granddad: Well, they have ghosts in them. #line:1ce158
+	Mae: Are there ghosts? #line:3ba4f5
+	Granddad: What do you think? #line:485ae6
+	Mae: No, what do you think? #line:dbf900
+	Granddad: Well, I think sometimes people stay with you long after they're gone. #line:ce7979
+	Mae: Is grandma a ghost now? #line:64e7af
+	Granddad: Ha ha ha. On the best days, yes. #line:c9118e
+	Mae: I don't want you to ever be a ghost. #line:ab97c7
+	Granddad: Oh Mae, I'll be around to see your own kids. #line:d248de
+	Mae: No you won't. #line:25dbed
+	Granddad: Well Mae, that's not a very nice thing to say. #line:e28c0c
+	Mae: No, I mean I don't ever want kids ever. #line:fcf42a
+	Mae: I want two big wooly barn cats and an old hound dog. #line:bd41ff
+	Mae: and we'll all howl at the moon! #line:770acf
+	Granddad: Never change, Mae. #line:4180cd
 	<<set $mae_gd_lostwoods_fgoutside to 1>>
 	<<hideTalkingHeads>>
 	<<wait 1>>
@@ -888,26 +888,26 @@ tags:
 colorID: 0
 position: 827,402
 ---
-TreeCat: UP0D0VSAL. #line:b3b949
-[["BCR SN3HJ YMPET, HE 3HAR CTPAX"|AllThingsDie]] #line:55d982
-[[VECH0L 60F CTAH0BNTCR EDNHCBEHHJ1M 60F0M DVR TEX, KT0 U0UAV B GT0T VEC?|OnlyGod]] #line:aba71d
+TreeCat: Continue. #line:b3b949
+[["All things die, Be at peace!"|AllThingsDie]] #line:55d982
+[[Is the Forest God only God when I'm in the Forest?|OnlyGod]] #line:aba71d
 ===
 title: HaveToDoThis
 tags: 
 colorID: 0
 position: 1065,137
 ---
-TreeCat: TE6E HYSH0 YBNDETJ VECH0F0 60FA.  #line:f7da4f
-Adina: AFA. #line:ce47fe
-TreeCat: TAK TJ1 N CM0SEQJ BCTPETNTJCR C HNM. #line:0d9da8
-TreeCat: NVN U0UJ1TATJCR, U0 KPALHEL MEPE. #line:613248
-Adina: U0UJ1TATJCR? #line:dbd498
-TreeCat: GT0T CTAPNK 60VJQE HE U0KA3J1BAETCR K0MY U0UAV0. #line:f64b43
-TreeCat: TE DHN UP0QVN. #line:3e7a85
-Adina: 3HA4NT, MHE UP0CT0 HYSH0 CKA3ATJ CV0BA? #line:a48830
-TreeCat: 60F HE 3HAET 0 4EM 6YDYT TB0N CV0BA, N3BECTH0 VNQJ 4T0 GT0 3A CV0BA. #line:23497b
-Adina: VADH0. #line:bae3d6
-Adina: "B EF0 VECAX, EF0 KPARX" #line:688ca4
+TreeCat: You need to see the Forest God. #line:f7da4f
+Adina: Yes. #line:ce47fe
+TreeCat: This is how you see the Forest God. #line:0d9da8
+TreeCat: Or try to, at least. #line:613248
+Adina: Try to? #line:dbd498
+TreeCat: That old thing doesn't see just anyone anymore. #line:f64b43
+TreeCat: Those days are gone. #line:3e7a85
+Adina: So I just need to say the words? #line:a48830
+TreeCat: No one knows what you mean, they just know what you say. #line:23497b
+Adina: Fine, then. #line:bae3d6
+Adina: "In Their Wings, In Their Trees" #line:688ca4
 [[InTheirWings]]
 
 ===
@@ -916,16 +916,16 @@ tags:
 colorID: 0
 position: 1296,141
 ---
-TreeCat: GT0T VEC UP0CTNPAETCR 0T X0VM0B HNSE #line:7994bd
-TreeCat: U0 F0PAM #line:b66fa0
-TreeCat: N TYDA, FDE 0HN D0VSHJ1 PA3BECTN K0CTEP #line:02bfcb
-TreeCat: 4T06J1 UP0FPETJ 3EMV% #line:f500e9
-TreeCat: 4T06J1 C0BEPQNTJ U0X0P0HJ1. #line:84d7d8
-Adina: 0F0. #line:1b9950
-TreeCat: 60F GT0F0 VECA D0CTAT04H0 60SECTBEHEH. #line:958992
-Adina: U0HRVA. #line:81ca27
-Adina: 0K...GM... #line:2cf12d
-Adina: "BCR SN3HJ YMPET, HE 3HAR CTPAX" #line:df2067
+TreeCat: This forest stretches from the hills below #line:7994bd
+TreeCat: over the mountains #line:b66fa0
+TreeCat: and up to where they have to build a bonfire #line:02bfcb
+TreeCat: to thaw the earth enough #line:f500e9
+TreeCat: to bury the dead. #line:84d7d8
+Adina: Wow. #line:1b9950
+TreeCat: God of this forest is god enough. #line:958992
+Adina: Noted. #line:81ca27
+Adina: ok... um... #line:2cf12d
+Adina: "All things die, Be at peace!" #line:df2067
 [[AllThingsDie]]
 
 ===
@@ -934,30 +934,30 @@ tags:
 colorID: 0
 position: 1066,398
 ---
-TreeCat: UP0D0VSAL. #line:ec851b
-[["0TPNHJ SE BCE, 0HN NDYT."|CeaseAllCare]] #line:e369f4
-[[U04EMY TJ1 U0M0FAEQJ MHE?|HelpingMe]] #line:634617
+TreeCat: Continue. #line:ec851b
+[["Cease all care, They are coming."|CeaseAllCare]] #line:e369f4
+[[Why are you helping me?|HelpingMe]] #line:634617
 ===
 title: CeaseAllCare
 tags: 
 colorID: 0
 position: 1298,399
 ---
-TreeCat: UP0D0VSAL. #line:1b21e2
-[["0 60F VECH0L, CUACN SE HAC."|CarryUs]] #line:8f0093
-[[D0VSHA VN R 4T0-T0 4YBCTB0BATJ?|FeelingSomething]] #line:b962b1
+TreeCat: Continue. #line:1b21e2
+[["God of The forest, carry us."|CarryUs]] #line:8f0093
+[[Should I be feeling something?|FeelingSomething]] #line:b962b1
 ===
 title: HelpingMe
 tags: 
 colorID: 0
 position: 1527,142
 ---
-TreeCat: KT0 CKA3AV 4T0 R U0M0FA% TE6E? #line:a3fc37
-TreeCat: R UP0CT0 CNSY 3DECJ. #line:66c073
-TreeCat: C M0EL QVRU0L. #line:f7b5a1
+TreeCat: Who says I'm helping you? #line:a3fc37
+TreeCat: I'm just sitting here. #line:66c073
+TreeCat: With my hat. #line:f7b5a1
 Adina:... #line:400265
-TreeCat: UP0D0VSAL? #line:6c3168
-Adina: "0TPNHJ SE BCE, 0HN NDYT" #line:80a963
+TreeCat: Go on? #line:6c3168
+Adina: "Cease all care, They are coming." #line:80a963
 [[CeaseAllCare]]
 
 ===
@@ -966,8 +966,8 @@ tags:
 colorID: 0
 position: 1533,402
 ---
-TreeCat:04EHJ X0P0Q0. #line:57307a
-Treecat:U0KA. #line:3a74e1
+TreeCat:Very nice. #line:57307a
+Treecat:Goodbye. #line:3a74e1
 [[ShrineWarp]]
 
 ===
@@ -976,18 +976,18 @@ tags:
 colorID: 0
 position: 1766,143
 ---
-TreeCat: 4T0-T0? #line:80b5b5
-Adina: D0VSH0 VN 4T0-T0 UP0N30LTN? #line:d2d3be
-TreeCat: TJ1 HE 0WYWAEQJ BEVNK0VEUHJ1E 0WYWEHNR B0CXNWEHNR N YDNBVEHNR #line:bbaf0f
-TreeCat: N T0F0, 4T0 C T060L CBR3J1BAETCR HE4T0 60VJQEE 4EM TJ1? #line:5fd05d
-Adina: HET. #line:520fa2
-TreeCat: C060VE3HY%. #line:9d7e7b
-Adina: R 4YBCTBY% GT0, K0FDA CM0TP% HA 3BE3DJ1. #line:29f148
-Adina: B03BPAWARCJ B T0T MNP, FDE 3BE3DJ1 - M0R PA60TA. #line:419e34
-TreeCat: MJ1 BCE EWE B GT0M MNPE. A GT0 TE SE 3BE3DJ1. #line:0e2db8
-Adina: X0P0Q0, DABAL 3AKAH4NBATJ. #line:430b23
-TreeCat: DABAL. #line:58b421
-Adina: "0 60F VECH0L CUACN SE HAC" #line:6f6c4d
+TreeCat: Something? #line:80b5b5
+Adina: Like, is this gonna do something? #line:d2d3be
+TreeCat: You don't feel a great sense of awe and wonder #line:bbaf0f
+TreeCat: and connection to something larger than yourself? #line:5fd05d
+Adina: No. #line:520fa2
+TreeCat: Your loss. #line:9d7e7b
+Adina: I feel that when I look at the stars. #line:29f148
+Adina: Back in the world, stars are kind of my job. #line:419e34
+TreeCat: We're still in the world. Still the same stars too. #line:0e2db8
+Adina: Ok, let's finish this. #line:430b23
+TreeCat: Let's. #line:58b421
+Adina: "God of The forest, carry us." #line:6f6c4d
 [[CarryUs]]
 ===
 title: Snowman0_A1D2.2
@@ -995,14 +995,14 @@ tags:
 colorID: 0
 position: -1055,-76
 ---
-Snowman0: U04EMY UA-V04-KA #line:dfcc40
+Snowman0: why is stick-y #line:dfcc40
 ===
 title: WanderingKings_A1D2.3
 tags: 
 colorID: 0
 position: -349,1079
 ---
-King: UPEKPACHJ1L VEC, TE6E TAK HE KASETCR? #line:07f340
+King: Beautiful forest, don't you think? #line:07f340
 
 ===
 title: Snowacle_A1D1.3
@@ -1010,16 +1010,16 @@ tags:
 colorID: 0
 position: -537,-1004
 ---
-Adina: R HE X04Y HAD0EDATJ, N EWE PA3 CUACN60 3A TB0% U0M0WJ, #line:386a27
-Adina: A TJ1 3HAEQJ 4JE TEV0 U0D T060L? #line:5b717e
-Snowacle: 6E3 U0HRTNR. HE DYMA%, 4T0 0H0 NMEET 3HA4EHNE. #line:abf73b
-Snowacle: UP0CT0 CBR3J, FDE 6J1 0HA HE U0HAD06NVACJ. #line:31ef21
-Adina: TJ1... HY... 3DEQHNL? #line:28e854
-Snowacle: HE 3HA%. HABPRD VN. #line:cc86b6
-Snowacle: TJ1 DASE HE KASEQJCR PEAVJH0L. #line:0b5534
-Snowacle: CV0BH0 GT0 C0H HARBY. #line:eade09
-Adina: GT0 CTPAHH0.  #line:aa5791
-Snowacle: DA, GT0 TAK. #line:461065
+Adina: Not to harp on this, and thank you again for your help, #line:386a27
+Adina: but do you know whose body is under you? #line:5b717e
+Snowacle: No idea. I don't think it matters. #line:abf73b
+Snowacle: Just a connection to wherever. #line:31ef21
+Adina: Were you... um... somewhere else until now? #line:28e854
+Snowacle: I don't know. I don't think so. #line:cc86b6
+Snowacle: You don't even seem real. #line:0b5534
+Snowacle: This is like a waking dream. #line:eade09
+Adina: This is weird. #line:aa5791
+Snowacle: Yes it is. #line:461065
 
 ===
 title: Snowman0_A1D2.3
@@ -1027,52 +1027,52 @@ tags:
 colorID: 0
 position: -831,-75
 ---
-Adina: TAK, R HE M0FY UP0CT0 B3RTJ N PA306PATJ TE6R, H0 #line:4cd405
-Adina: TE6E 60VJH0? #line:3ce891
-Adina: UP0CT0 TJ1 BJ1FVRDNQJ FPYCTHJ1M, UAV04KA. #line:9a7e4d
-Snowman0: [speed=.5][color=aaaaaa][size=.5]R HN4EF0[/all] #line:3dc7bd
-Adina: BNDNQJ, R HE 3HA%, KAK GT0 U0HNMATJ? #line:2b93da
-Adina: HAUPNMEP, Y TE6R DEUPECCNR NVN TJ1 6YKBAVJH0 F0B0PNQJ 4T0 C0CT0NQJ N3 UAV0K N VJDA? #line:7ae170
-Snowman0: [speed=.5][color=aaaaaa][size=.5]R UAVKN N VED[/all] #line:fc5b3c
+Adina: Ok, so I can't just take you apart, but #line:4cd405
+Adina: are you in pain? #line:3ce891
+Adina: You just seem so sad, Sticky. #line:9a7e4d
+Snowman0: [speed=.5][color=aaaaaa][size=.5]i am nothing[/all] #line:3dc7bd
+Adina: See, I don't know how to interpret that? #line:2b93da
+Adina: Like, are you depressed or are you literally saying you are sticks and ice? #line:7ae170
+Snowman0: [speed=.5][color=aaaaaa][size=.5]i am sticks and ice[/all] #line:fc5b3c
 Adina: ... #line:f8eb59
-Adina: AFA, Y MEHR U0KA UYCT0. R EWE BEPHYCJ, UAV04KA! #line:5f3f25
-Snowman0: [size=1.2]UA-V04-KA BEPHYVCR...[/all] #line:c84aea
-Adina: B0T GT0 DYX, UAV04KA! #line:744b34
+Adina: Yeah, I still got nothing. I'll be back, Sticky! #line:5f3f25
+Snowman0: [size=1.2]stick-y... be back...[/all] #line:c84aea
+Adina: That's the spirit, Sticky! #line:744b34
 ===
 title: Snowman0_A1D2.4
 tags: 
 colorID: 0
 position: -596,-78
 ---
-Snowman0: UA-V04-KA-A-A-A #line:b20419
-Adina: TJ1, K0HE4H0 SE! #line:5fea40
+Snowman0: stick-y-y-y-y #line:b20419
+Adina: You sure are! #line:5fea40
 ===
 title: CoffinWolf_A1D3
 tags: 
 colorID: 0
 position: -1009,387
 ---
-Adina: BJ1 UVYT! #line:35b935
-CoffinWolf: HY UPNBET! PAD, 4T0 BJ1 PEQNVN HABECTNTJ! #line:2fba85
-Adina: TYT U0 BCEMY VECY BAVR%TCR 3AMEP3QNE TPYUJ1! #line:8f72b2
-Adina: N T0VJK0 3A GT0T BE4EP R YCUEVA U0F0B0PNTJ C U0V0BNH0L N3 HNX! #line:b52f1e
-Adina: VN60 HNKT0 HE 0TKVNKAETCR HA BAQN PNTYAVJHJ1E YCVYFN #line:aae6e7
-Adina: VN60 BJ1 NX HNK0FDA N HE 0KA3J1BAVN! #line:d53c3b
-Adina: TAK 4T0 SE!? #line:203af4
-Adina: A!? #line:c26dc1
-CoffinWolf: BJ1 06WAVNCJ C UPN3PAKAMN? #line:1f9446
-Adina: AFA! C OEV0L KY4EL! #line:d99670
-CoffinWolf: DYMA% BJ1 3A6VYDNVNCJ, 3AMEP3VN N HA4AVN F0B0PNTJ C0 CHEF0M. #line:9c08f6
-Adina: HET! R UP0DEVAVA BECJ UYTJ 0T F0PJ1 VECH0F0 60FA #line:2e564c
-Adina: D0 [shake=.01][color=aaaaaa]V0WNHJ1 XAH4EP[/all] 4EPT B03JMN. #line:9c4422
-CoffinWolf: N BCE SE BJ1 3DECJ, BEPHYVNCJ B M0% XNSNHY, A BEDJ EWE DASE 4ACA HE UP0QV0. #line:3a4246
+Adina: You're a fraud! #line:35b935
+CoffinWolf: Why hello! Nice of you to stop by! #line:2fba85
+Adina: There are frozen dead people all over these woods! #line:8f72b2
+Adina: I've talked to half a dozen of them tonight alone! #line:b52f1e
+Adina: Either no one takes you up on this coffin business #line:aae6e7
+Adina: Or you never follow through! #line:d53c3b
+Adina: So which is it?! #line:203af4
+Adina: Huh?! #line:c26dc1
+CoffinWolf: You talked to ghosts? #line:1f9446
+Adina: Yeah! A whole bunch! #line:d99670
+CoffinWolf: I think you got lost and cold and started talking to the snow. #line:9c08f6
+Adina: No! I've been all the way from the Forest God's mountain #line:2e564c
+Adina: to [shake=.01][color=aaaaaa]The Huncher's Hollow[/all] for god's sake. #line:9c4422
+CoffinWolf: And yet here you are, back at my cabin, not more than an hour after you last left. #line:3a4246
 Adina: ... #line:57c10f
-CoffinWolf: BJ1UYCKAETE TEUV0 N BUYCKAETE X0V0D. #line:8aa9c4
-CoffinWolf: HEUP0CTAR H04J, DA? #line:2f1fac
-Adina: 0, KATNTECJ B AD. #line:95d7ab
-CoffinWolf: XA-XA-XA. #line:287c2c
-CoffinWolf: B ADY X0TR 6J1 TEUV0. #line:759eaa
-CoffinWolf: D06P0L H04N. #line:12fc57
+CoffinWolf: Letting the heat out and the cold in. #line:8aa9c4
+CoffinWolf: Busy night for you, eh? #line:2f1fac
+Adina: Oh, go to hell. #line:95d7ab
+CoffinWolf: Ha ha ha. #line:287c2c
+CoffinWolf: Hell's warm at least. #line:759eaa
+CoffinWolf: Goodnight. #line:12fc57
 <<set $kicked_out_of_coffin_house to 1>>
 
 ===
@@ -1081,19 +1081,19 @@ tags:
 colorID: 0
 position: 101,-100
 ---
-ShrineMouse: TJ1 X04EQJ U0M0VNTJCR NVN HET? #line:152711
-[[U04EMY 6J1 N HET, R B DEVE!|PrayerClueless]] #line:03002d
-[[HET, HE CEL4AC|ShrineNo]] #line:ec298b
+ShrineMouse: You want to pray or not? #line:152711
+[[Why yes, I do!|PrayerClueless]] #line:03002d
+[[No, not right now|ShrineNo]] #line:ec298b
 ===
 title: ShrinePassQuick
 tags: 
 colorID: 0
 position: 350,-284
 ---
-Adina: "B EF0 VECAX, EF0 KPARX" #line:160a59
-Adina: "BCR SN3HJ YMPET, HE 3HAR CTPAX" #line:934c47
-Adina: "0TPNHJ SE BCE, 0HN NDYT" #line:46afe6
-Adina: "0 60F VECH0L CUACN SE HAC" #line:5fc8c7
+Adina: "In Their Wings, In Their Trees" #line:160a59
+Adina: "All things die, Be at peace!" #line:934c47
+Adina: "Cease all care, They are coming." #line:46afe6
+Adina: "God of The forest, carry us." #line:5fc8c7
 [[ShrineWarp]]
 ===
 title: HuncherKidLW
@@ -1102,33 +1102,33 @@ colorID: 0
 position: -199,-514
 ---
 <<flipTo Adina HuncherKidLW>>
-Adina: DNTR? #line:102d27
-HuncherKidLW: 0HA YQVA. #line:178156
-HuncherKidLW: 0HA UP0CT0 YQVA. #line:93a80c
-Adina: CEL4AC? #line:86660d
-HuncherKidLW: R 3HA% T0VJK0 T0, 4T0 0HA YQVA, #line:fb873e
-HuncherKidLW: 4T0-T0 CVY4NV0CJ. #line:763e06
-HuncherKidLW: 0HA UEPECTAVA 6J1TJ TEM, KEM 0HA 6J1VA. #line:02349c
-HuncherKidLW: R HE 3HA%, YMEPVA 0HA NVN... #line:9975a1
-HuncherKidLW: H0 C0 MH0L 4T0-T0 UP0NCX0DNT. #line:175797
-Adina: U04EMY TE6E UP0CT0 HE U0LTN D0M0L? #line:606e4d
-HuncherKidLW: PE6EH0K, R D0MA.  #line:15a1ce
-Adina: 0L. #line:8a1c9d
-HuncherKidLW: 0DHAK0 R C06NPA%CJ U0CETNTJ MECT0, 0TKYDA R P0D0M.  #line:83a2a4
-Adina: GT0 X0P0Q0! #line:2d3fbe
-HuncherKidLW: HET, TJ1 HE U0HNMAEQJ. #line:635220
-HuncherKidLW: K0FDA-T0 R HADERVACJ, 4T0 HNKT0 N3 TEX, KT0 3HAV, 4T0 R YQVA, HE CTAHET MEHR NCKATJ. #line:fe7557
-HuncherKidLW: H0 CEL4AC C06NPA%CJ U0LTN NCKATJ NX R.  #line:0f7170
-HuncherKidLW: F0P0SAHE 6YDYT PJ1DATJ, K0FDA YBNDRT 4T0 R C HNMN CDEVAVA.  #line:8f4fb8
-HuncherKidLW: N K0FDA NX U0X0P0HRT, R BJ1K0UA% NX #line:e6d646
-HuncherKidLW: N U0V0SY B KP0BATN K TEM, KT0 NX V%6NT.  #line:c218f5
-HuncherKidLW: N V%DN 6YDYT CM0TPETJ HA PYNHJ1 GT0F0 F0P0DA #line:a12a4a
-HuncherKidLW: N F0B0PNTJ 4T0 GT0 UPN3PAK. #line:d49560
-Adina: 0X, DNTR, U0CVYQAL MEHR... #line:992b3d
-HuncherKidLW: 0X, U0SAVYLCTA, GT0 TJ1 U0CVYQAL MEHR. #line:de7388
-HuncherKidLW: EWE 4AC HA3AD R 6J1VA M0V0SE TE6R, H0 TEUEPJ R F0PA3D0 CTAPQE. #line:8987ec
-HuncherKidLW: TJ1 6J1VA D06PA K0 MHE N R 0TBE4Y D06P0M B 0TBET: #line:ea4b96
-HuncherKidLW: MJ1 60VJQE HE BCTPETNMCR BH0BJ #line:22bcdd
+Adina: Kid? #line:102d27
+HuncherKidLW: She's gone. #line:178156
+HuncherKidLW: She just left. #line:93a80c
+Adina: Just now? #line:86660d
+HuncherKidLW: All I know is that sometime after she left #line:fb873e
+HuncherKidLW: something happened. #line:763e06
+HuncherKidLW: She stopped being what she was. #line:02349c
+HuncherKidLW: I don't know if she died, or... #line:9975a1
+HuncherKidLW: but something is happening to me. #line:175797
+Adina: Can't you just go back home? #line:606e4d
+HuncherKidLW: Child, I am home. #line:15a1ce
+Adina: Oh. #line:8a1c9d
+HuncherKidLW: But I am going to visit where I came from. #line:83a2a4
+Adina: That's good! #line:2d3fbe
+HuncherKidLW: No. No, you don't understand. #line:635220
+HuncherKidLW: I used to hope no one who knew I was gone would come looking for me. #line:fe7557
+HuncherKidLW: But now I'm going to go looking for them. #line:0f7170
+HuncherKidLW: The townsfolk will weep when they see what I've done to them. #line:8f4fb8
+HuncherKidLW: And as they go into the ground, I will dig them up #line:e6d646
+HuncherKidLW: I will place them in the beds of those who loved them. #line:c218f5
+HuncherKidLW: And people will look at that ruin of a town #line:a12a4a
+HuncherKidLW: and say it is haunted. #line:d49560
+Adina: Oh, Kid, listen to me- #line:992b3d
+HuncherKidLW: Oh please, child. #line:de7388
+HuncherKidLW: Until an hour ago I was younger than you. But now I am far, far older. #line:8987ec
+HuncherKidLW: You were kind to me, and I will give you this kindness in return: #line:ea4b96
+HuncherKidLW: We won't meet again. #line:22bcdd
 <<spawn BAMF HuncherKidBAMF>>
 <<hide HuncherKidLW>>
 <<set $final_huncher_kid to 1>>
@@ -1138,8 +1138,8 @@ tags:
 colorID: 0
 position: -2306,-553
 ---
-Adina: XMM, 4T0 GT0? #line:1a9374
-Adina: BJ1FVRDNT KAK X0P0QEE MECT0 DVR CHEF0BNKA. #line:8c7285
+Adina: Hmm what's this? #line:1a9374
+Adina: Looks like a good spot for a snowman... #line:8c7285
 ===
 title: Snowacle_A1D1.4
 tags: 
@@ -1148,24 +1148,24 @@ position: -297,-1006
 ---
 <<if $godtender > 0 and $snow_bridge is 0>>
 	<<if $snowacle_item_hint is 0>>
-		Snowacle: DEPEBJR TYT CTPAHHJ1E. #line:c90592
-		Snowavle: KT0 3HAET, B0 4T0 0HN 6J1VN BTRHYTJ1? #line:94dc8d
-		Snowacle: [speed=.7][wave]U0CM0TPN HA DEPEBJR.[/all] #line:41eff4
+		Snowacle: The trees here are weird. #line:c90592
+		Snowavle: Who knows what they've been into? #line:94dc8d
+		Snowacle: [speed=.7][wave]Look to the trees.[/all] #line:41eff4
 		<<set $snowacle_item_hint to 1>>
 	<<elseif $snowacle_item_hint is 1>>
-		Adina: TJ1 4T0-T0 CKA3AV 0 DEPEBJRX? #line:d98b0d
-		Adina: NH0FDA, R HE BNSY HN4EF0 KP0ME CHEFA.  #line:62a4f9
-		Snowacle: CTPAHHJ1L CHEF. #line:0f671e
-		Adina: CTPAHHJ1L CHEF? #line:c2151a
-		Snowacle: CTPAHHJ1L. CHEF. #line:0860e9
-		Adina: R UP0BEP%. #line:a7f03e
+		Adina: You said something about the trees? #line:d98b0d
+		Adina: Sometimes I don't see anything but snow up there. #line:62a4f9
+		Snowacle: Weird snow. #line:0f671e
+		Adina: Weird snow? #line:c2151a
+		Snowacle: Weird. Snow. #line:0860e9
+		Adina: I'll check it out. #line:a7f03e
 		<<set $snowacle_item_hint to 2>>
 	<<else>>
-		Snowacle: YBNSY TE6R B 6YDYWEM. #line:a0bce4
-		Snowacle: [speed=.7][wave]EF0 V0SJ C0KPJ1TA B BETBRX.[/all] #line:1dcd23
-		Adina: X0P0Q0. GT0 6J1V0 U0VE3H0. #line:380daa
-		Snowacle: 6VAF0CV0BN TE6R F0C... #line:be4b6d
-		Snowacle: 0. DA TJ1 N3DEBAEQJCR. #line:73522c
+		Snowacle: I have seen your future. #line:a0bce4
+		Snowacle: [speed=.7][wave]It lies hidden in the branches.[/all] #line:1dcd23
+		Adina: Ok. That's helpful. #line:380daa
+		Snowacle: Bless you my ch- #line:be4b6d
+		Snowacle: Oh. You were being sarcastic. #line:73522c
 	<<endif>>
 <<else>>
 	Snowacle: ... #line:ceb15f
@@ -1184,10 +1184,10 @@ tags:
 colorID: 0
 position: -780,389
 ---
-Coffinwolf: 3DPABCTBYLTE. M0FY VN R BAC 3ANHTEPEC0BATJ B FP06Y? #line:9e5f8f
-Adina: HET. R YBEPEHA 4T0 UP0LDY 4EPE3 GT0T VEC SNB0L. #line:f1fc05
-Coffinwolf: KAK MNV0! #line:e5bc98
-Coffinwolf: B TAK0M CVY4AE, Y6NPALCR. #line:b1d4f0
+Coffinwolf: Hello. Might I interest you in a coffin? #line:9e5f8f
+Adina: No, I'm pretty sure I'll make it through the forest alive. #line:f1fc05
+Coffinwolf: How nice! #line:e5bc98
+Coffinwolf: In that case, get out! #line:b1d4f0
 <<set $kicked_out_of_coffin_house to 1>>
 
 ===
@@ -1196,17 +1196,17 @@ tags:
 colorID: 0
 position: -500,-1385
 ---
-Adina: UPNBET! #line:048ad5
-Snowacle: UPNBET. BCE EWE SNBA, A? #line:dcb81a
-Snowacle: UP0CT0 R BNDEV, KAK BCE DEPEBJR C0DP0FHYVNCJ #line:86baa0
-Snowacle: CV0BH0 0HN CBAVNVNCJ B VNHN% #line:ac7600
-Snowacle: A U0T0M U0RBNVACJ TJ1. #line:8496f0
-Adina: R DYMA%, 4T0 UYTJ B 3AMEP3QEE 03EP0 0TKPJ1T! #line:be9e7d
-Adina: 4T0 TJ1 DYMAEQJ 06 GT0M? #line:3b97c7
-Snowacle: R DYMA%, 4T0 TJ1 D0VSHA 3AK0H4NTJ V%6J1E DEVA, 4T0 Y TE6R ECTJ #line:7e5619
-Snowacle: N NDTN HA B0CT0K KAK M0SH0 6J1CTPEE! #line:b53483
-Adina: XM. Y MEHR 0CTAVNCJ KAKNE T0 DEVA? #line:fcde20
-Snowacle: HE CTAHY UPNTB0PRTJCR, 4T0 3HA%. #line:113ba7
+Adina: Hey! #line:048ad5
+Snowacle: Hey, you! Still alive, eh? #line:dcb81a
+Snowacle: I just saw all of the trees give a great shudder #line:86baa0
+Snowacle: like they were falling into line #line:ac7600
+Snowacle: and then you walked up. #line:8496f0
+Adina: I think the way is open to the Frozen Lake! #line:be9e7d
+Adina: What do you think about that? #line:3b97c7
+Snowacle: I think you should wrap up any business you have #line:7e5619
+Snowacle: and head east as quickly as possible! #line:b53483
+Adina: Hm. What business would I still have? #line:fcde20
+Snowacle: I wouldn't pretend to know. #line:113ba7
 
 ===
 title: SnowacleHuncher
@@ -1214,21 +1214,21 @@ tags:
 colorID: 0
 position: -1093,-1382
 ---
-Snowacle: UPNBET #line:538129
-Adina: R NWY XAH4EP? #line:e7a128
-Snowacle: R EE TAK N HE HAQEV. #line:0d031c
-Snowacle: N B03M0SH0, GT0 DASE X0P0Q0. #line:4e5205
-Snowacle: 0HA HE VECH0L 60F, 0HA HE DACT UP0LTN. #line:cb91bf
-Snowacle: 0HA CK0PEE... HNFNVNCT? GT0 CV0B0? #line:d3b1d9
-Adina: XAX. #line:b09190
-Snowacle: 0HA NMUYVJC, NC4EPUJ1BA%WNL CAM CE6R. #line:20fdaa
-Snowacle: 0HA HE UEPBAR, H0 0HA HE 6YDET U0CVEDHEL. #line:1dd8a0
-Adina: 4T0? #line:a13d06
-Snowacle: 0, R HE 3HA%, DNTR. R UP0CT0 F0B0P%. #line:f6146e
-Snowacle: TJ1 HNK0FDA HE HALDEQJ EE V0WNHY, ECVN Y TE6R HE 6YDET 4EF0-T0 0C060F0 #line:678132
-Snowacle: A R TAK N HE BJ1RCHNV, 4T0 GT0 3A 0C06AR BEWJ. #line:ee92d4
-Adina: BCE PABH0 CUACN60. #line:c90923
-Snowacle: 6YDJ 0CT0P0SHA. TJ1 3DECJ BBR3AVACJ B HE4T0 CTPAHH0E. #line:8a0b4b
+Snowacle: Hello #line:538129
+Adina: I'm looking for the Huncher? #line:e7a128
+Snowacle: I never found her. #line:0d031c
+Snowacle: and maybe that's a good thing. #line:4e5205
+Snowacle: she is not the forest god. she does not grant passage. #line:cb91bf
+Snowacle: she is something altogether more... nihilist? Is that the word? #line:d3b1d9
+Adina: Huh. #line:b09190
+Snowacle: She's an impulse playing itself out. #line:20fdaa
+Snowacle: She isn't the first, and she won't be the last. #line:1dd8a0
+Adina: What? #line:a13d06
+Snowacle: Oh I don't know, child. I'm just talking. #line:f6146e
+Snowacle: You'll never find her hollow without something to help you #line:678132
+Snowacle: and I never found out what it was. #line:ee92d4
+Adina: thanks anyway. #line:c90923
+Snowacle: be careful. you're getting into something here. #line:8a0b4b
 <<set $snowacle_warning to 1>>
 
 ===
@@ -1240,11 +1240,11 @@ position: -1573,-871
 <<if $going_to_huncher is 1>>
 	<<set $going_to_huncher to 0>>
 	<<showTalkingHeads>>
-	Mae: B0T TEUEPJ GT0 KPYTAR NCT0PNR. #line:e2dedc
-	Granddad: 0, TAK TE6E HPABNTCR BCE UYFA%WEE, DA? #line:614333
-	Mae: 3HAEQJ SE, 4T0 HPABRTCR. BCE 0CTAVJH0E MHE HEHABNCTH0. #line:ca79dd
-	Granddad: HY, 0CTAVJH0E T0SE BASH0. U0TEPUN. #line:5e3dab
-	Mae: HY VADH0 #line:eb285d
+	Mae: This is a great story now. #line:e2dedc
+	Granddad: Oh, you like the spooky stuff, huh? #line:614333
+	Mae: You know I do. I hate the other stuff. #line:ca79dd
+	Granddad: Well, the other stuff is important too. Hang in there. #line:5e3dab
+	Mae: OK I GUESS #line:eb285d
 	<<hideTalkingHeads>>
 	<<wait 1>>
 <<endif>>
@@ -1255,23 +1255,23 @@ tags:
 colorID: 0
 position: -282,-1386
 ---
-Adina: R HEMH0F0 HEPBHN4A% U0 U0B0DY 3AMEP3QEF0 03EPA. #line:f84f90
-Snowacle: TJ1 3HAEQJ EF0 NCT0PN%? #line:3d0044
-Adina: HE C0BCEM. #line:68be83
-Snowacle: 0 T0M, 4T0 03EP0 6J1V0 CT0VJ FVY60KNM, #line:87e7af
-Snowacle: 4T0 0H0 CUYCTNV0CJ D0 M0FNVJ1 #line:ec4d77
-Snowacle: N MEPTBJ1E BJ1QVN HA U0BEPXH0CTJ #line:0e21ec
-Snowacle: N 3AF0B0PNVN C SNBJ1MN? #line:9579f3
-Snowacle: 0 T0M, 4T0 0H0 6J1V0 CT0VJ 4EPHJ1M, #line:54f41c
-Snowacle: 4T0 CJEV0 0TPASEHNE VYHJ1? #line:a4067c
-Snowacle: N KAK VYHA, 0XBA4EHHAR 3ABNCTJ%, #line:d3cf57
-Snowacle: Y6EDNVA C0VHOE 0TBEPHYTJCR 0T GT0F0 03EPA #line:43bf01
-Snowacle: N 4T0 U0GT0MY 0H0 BCEFDA 3AM0P0SEH0? #line:532c65
-Snowacle: U0GT0MY B0 VJDY M0SH0 HALTN MEPTBJ1X. #line:ab121d
-Snowacle: BEDJ 0HN 60VJQE HE M0FYT U0KNHYTJ GTN B0DJ1. #line:8f813c
-Adina: 4T0-HN6YDJ N3 GT0F0 UP0N30QV0 N UPABDA? #line:ca4bfa
-Snowacle: TJ1 TA, KT0 UPNQVA C%DA. #line:506c81
-Snowacle: TJ1 MHE PACCKASN. #line:b14851
+Adina: I'm a bit nervous about the frozen lake. #line:f84f90
+Snowacle: Do you know the story? #line:3d0044
+Adina: Not really. #line:68be83
+Snowacle: Of how the lake was so deep #line:87e7af
+Snowacle: it went down to the grave #line:ec4d77
+Snowacle: and the dead came to the surface #line:0e21ec
+Snowacle: and spoke with the living? #line:9579f3
+Snowacle: Of how it was so black #line:54f41c
+Snowacle: that it ate the moon's reflection? #line:a4067c
+Snowacle: And how the moon, being jealous, #line:d3cf57
+Snowacle: convinced the sun to turn its back on the lake #line:43bf01
+Snowacle: so it would be forever frozen? #line:532c65
+Snowacle: That is why the dead may be found beneath the ice. #line:ab121d
+Snowacle: For they can no longer leave those waters. #line:8f813c
+Adina: Did any of that happen? #line:ca4bfa
+Snowacle: You're the one going there. #line:506c81
+Snowacle: You tell me. #line:b14851
 
 ===
 title: SnowacleSearchingForSkeletonArm
@@ -1280,21 +1280,21 @@ colorID: 0
 position: -1044,-1702
 ---
 <<if $snowacle_skeleton_arm_search is 0>>
-	Snowacle: 3HA4NT TJ1 NWEQJ 0T0PBAHHY% PYKY... #line:250027
-	Adina: ...DA. #line:031fa0
-	Snowacle: A 3ATEM TJ1 C06NPAEQJCR 3ASE4J EE? #line:ac8403
-	Adina: ...DA. #line:edcdfe
-	Snowacle: A R PAD, 4T0 A6C0V%TH0 HE CU0C06EH U0M04J TE6E C GTNM. #line:d0fe5b
+	Snowacle: So you're looking for a severed arm... #line:250027
+	Adina: ...yes. #line:031fa0
+	Snowacle: And then you're going to have to light it on fire? #line:ac8403
+	Adina: ...yes. #line:edcdfe
+	Snowacle: I'm kind of glad that I'm completely unable to help you with that. #line:d0fe5b
 	<<set $snowacle_skeleton_arm_search to 1>>
 <<elseif $snowacle_skeleton_arm_search is 1>>
-	Adina: R U0LDY U0NWY PYKY. #line:c7e3f8
+	Adina: I'm going to go search for this arm now. #line:c7e3f8
 	Snowacle: ... #line:1097e9
-	Snowacle: TJ1 UP0CT0 TRHEQJ BPEMR, TAK BEDJ? #line:0e7667
-	Adina: [wave]*B3D0X*[/all] #line:7536e8
+	Snowacle: You're just stalling for time aren't you. #line:0e7667
+	Adina: [wave]*sigh*[/all] #line:7536e8
 	<<set $snowacle_skeleton_arm_search to 2>>
 <<elseif $snowacle_skeleton_arm_search is 2>>
-	Snowacle: GTA PYKA CAMR CE6R HE 0T0PBET! #line:9827cc
-	Adina: X0P0Q0, X0P0Q0! #line:e36cdd
+	Snowacle: That arm ain't gonna sever itself! #line:9827cc
+	Adina: Alright, alright! #line:e36cdd
 <<endif>>
 
 ===

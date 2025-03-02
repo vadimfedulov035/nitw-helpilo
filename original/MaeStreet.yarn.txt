@@ -3,12 +3,12 @@ tags: demo
 colorID: 0
 position: -8847,-1879
 ---
-Mae: {width=2,size=.8,align=middle,locator=Pole1} U0MH%, K0FDA R 6J1VA B DEBRT0M KVACCE, #line:57d47b
-Mae: {width=2,size=.8,align=middle,locator=Pole1}R 3A6NPAVACJ C%DA N M0FVA BNDETJ CUAVJH% T0MA 6PAMBEVVA. #line:00d99b
+Mae: {width=2,size=.8,align=middle,locator=Pole1} I remember the time in 9th grade #line:57d47b
+Mae: {width=2,size=.8,align=middle,locator=Pole1}when I snuck out and could see into Tom Bramwell's bedroom. #line:00d99b
 <<wait .25>>
-Mae: {width=2,size=.8,align=middle,locator=Pole1,emote=butt,emoteAlign=middle}:\#line:c0ed6e
+Mae: {width=2,size=.8,align=middle,locator=Pole1,emote=butt,emoteAlign=middle}:\ #line:c0ed6e
 <<wait .25>>
-Mae: {width=2,size=.8,align=middle,locator=Pole1} DA, TAK0E CVY4AV0CJ. :| #line:260c0f
+Mae: {width=2,size=.8,align=middle,locator=Pole1} Yep that sure did happen. :| #line:260c0f
 <<set $pole1_done to 1>>
 ===
 title: Pole2_A0D0
@@ -16,10 +16,10 @@ tags: demo
 colorID: 0
 position: -8185,-1888
 ---
-Mae: {align=middle,nearestLocator}R M0FY CUPJ1FHYTJ HA MNCTEPA TBNFMELEPA 0TC%DA. #line:8bd60a
-Mae: {align=middle,nearestLocator}GT0 C VEFK0CTJ% Y6JET EF0. #line:fe4205
+Mae: {align=middle,nearestLocator}I could jump down on Mr. Twigmeyer from here. #line:8bd60a
+Mae: {align=middle,nearestLocator}It would easily kill him. #line:fe4205
 <<wait .25>>
-Mae: {align=middle,nearestLocator}TB0R SN3HJ B M0NX PYKAX, TBNFMELEP. #line:2adb88
+Mae: {align=middle,nearestLocator}I hold your life in my hands, Twigmeyer.  #line:2adb88
 <<end>>
 ===
 title: OnTree_A0D0
@@ -27,7 +27,7 @@ tags: demo
 colorID: 0
 position: -7090,-631
 ---
-Penderson: {locator=Penderson2,align=middle}[size=.8]U0F0DN, 4T0 TJ1 DEVAEQJ...[/size] #line:f98601
+Penderson: {locator=Penderson2,align=middle}[size=.8]Wait, what are you doing...[/size] #line:f98601
 
 ===
 title: OnYell_A0D0
@@ -38,13 +38,13 @@ position: -4558,-507
 <<if $penderson is 0>>
     <<set $penderson to 1>>
     <<camera lookOffset .8 .25>>
-    Penderson: {size=1.4,locator=Penderson} [shake=.04]GL! TJ1, [color=aaaaaa]DNTR![/color][/shake] #line:08e192
-    Mae: DA, MNCTEP UEHDEPC0H? #line:aea6b9
-    Penderson: {size=1.2,locator=Penderson}[shake=.04]DEPSNCJ U0DAVJQE 0T M0EL KPJ1QN![/shake] #line:4ced07
-    Mae: HE U0HNMA%, 0 4EM BJ1. #line:bb2d9a
-    Penderson: {locator=Penderson}R BNDEV TE6R. [stomp]T0UA%WEL[/stomp] U0 M0EL KPJ1QE. [hop]CKA4YWEL[/hop] B0KPYF M0EF0 DJ1M0X0DA. #line:d3985f
-    [[VADH0, HYSH0 NDTN...|OnYellEnd]] #line:0dc153
-    [[KAKNE T0 UP06VEMJ1, UEHDEPC0H?|OnYellClimbers]] #line:1f8959
+    Penderson: {size=1.4,locator=Penderson} [shake=.04]Hey! You [color=aaaaaa]kid![/color][/shake] #line:08e192
+    Mae: Yes, Mr. Penderson? #line:aea6b9
+    Penderson: {size=1.2,locator=Penderson}[shake=.04]You stay off my roof![/shake] #line:4ced07
+    Mae: I have no idea what you mean. #line:bb2d9a
+    Penderson: {locator=Penderson}I seen you. [stomp]Stomping[/stomp] all over my roof. [hop]Jumping[/hop] all over my chimney. #line:d3985f
+    [[Ok, well I have to go now...|OnYellEnd]] #line:0dc153
+    [[What's your problem, Penderson?|OnYellClimbers]] #line:1f8959
 <<endif>>
 
 
@@ -54,7 +54,7 @@ tags: demo
 colorID: 0
 position: -7082,-926
 ---
-Penderson: [size=.6]...FPE6AHJ1E 3BEPN-U0UP0QALKN...[/size] #line:9bd087
+Penderson: [size=.6]...freeloadin' trash mammals...[/size] #line:9bd087
 
 ===
 title: OnYellClimbers
@@ -62,13 +62,13 @@ tags: demo
 colorID: 0
 position: -4330,-145
 ---
-Penderson: D0VSEH 6J1TJ [speed=.5][color=aaaaaa]HAV0F[/all] HA BAC, K0QEK, 6EV0K, MJ1QEL... #line:41b9b4
-Penderson: {locator=Penderson,animation=Talk2}HA BCEX BAC, [speed=.4][color=aaaaaa]HED0CKAV0VA30B.[/all] #line:061a7b
+Penderson: Should be a [speed=.5][color=aaaaaa]tax[/all] on you cats, squirrels, mice... #line:41b9b4
+Penderson: {locator=Penderson,animation=Talk2}the whole lot of you [speed=.4][color=aaaaaa]climber types.[/all] #line:061a7b
 Mae: =_= o> #line:95cd30
-Mae: [speed=.4][size=.65]MNVEHJK0.[/all] #line:47cfc8
-Penderson: {width=3.5,locator=Penderson}6EFA%T U0 [speed=.75][color=aaaaaa]VNHNRM GVEKTP0UEPEDA4[/all], U0FAHRT [speed=.75][color=aaaaaa]NHZPACTPYKTYPY[/all], UVATRT [speed=.75][color=aaaaaa]TE SE HAV0FN,[/all] 4T0 N BCE 0CTAVJHJ1E. [speed=.4][wave]HECUPABEDVNB0![/wave] #line:1a77bc
+Mae: [speed=.4][size=.65]Lovely.[/all]  #line:47cfc8
+Penderson: {width=3.5,locator=Penderson}Running up on the [speed=.75][color=aaaaaa]power lines[/all], ruining the [speed=.75][color=aaaaaa]infrastructure[/all], paying the [speed=.75][color=aaaaaa]same taxes[/all] as everyone else. [speed=.4][wave]Ain't Right![/wave] #line:1a77bc
 Mae: o_o _o_ #line:bab193
-Mae: VADH0, CVYQAL, R U0QVA SNTJ CB0EL %H0QECK0L SN3HJ% DAVJQE. #line:bd13aa
+Mae: OK listen, I have to go live my young life. #line:bd13aa
 <<addToJournal PendersonIsAWalkingReminder>>
 <<addToJournal TodoAvoidTorturePit>>
 [[OnYellEnd]]
@@ -81,7 +81,7 @@ tags: demo
 colorID: 0
 position: -7076,-370
 ---
-Penderson: {width=1,size=1,locator=PendersonWire} [shake=.04]GL![/shake] 4T0 R [color=aaaaaa]T0VJK0 4T0 CKA3AV!![/all] #line:30f994
+Penderson: {width=1,size=1,locator=PendersonWire} [shake=.04]Hey![/shake] What did I [color=aaaaaa]just say!![/all] #line:30f994
 
 ===
 title: OnYellEnd
@@ -89,19 +89,19 @@ tags: demo
 colorID: 0
 position: -4726,-149
 ---
-Penderson: {locator=Penderson}N CKASN CB0EMY VNCNH0MY DPYFY, 4T0 R 3HA%, 4T0 0H CDEVAV. #line:15c8e0
-Mae: NMEEQJ B BNDY FPEFFA? #line:b395eb
-Mae: KAKAR Y TE6R UP06VEMA C FPEFF0M? #line:1fbaf8
-Penderson: {locator=Penderson}[shake=.04]FPR3HJ1L VNC YKPAV M0EF0 CAD0B0F0 FH0MA!!![/shake] #line:31cac9
-Penderson: {locator=Penderson}R BNDEV EF0 MAVEHJKNL H0B0M0DHJ1L K0SAHJ1L SNVET N KP0X0THJ1E MNVJ1E 60TNHKN NC4E3A%WNMN 3A 0FPAD0L. #line:4a15f4
-Penderson: {locator=Penderson}BCE EF0 3HA%T. #line:f00545
-Mae: [speed=.5]BCE V%6RT FPEFFA. FPEFF - 60M6A.[/speed]=_= o> #line:27517f
-Penderson: {locator=Penderson}UEPEDAL EMY, 4T0 R 3B0H% K0UAM. #line:adfc0e
-Penderson: {locator=Penderson}N D0V0SY NM 0 TE6E, ECVN CH0BA YBNSY HA VNHNRX GVEKTP0UEPEDA4! #line:7e4b98
-Penderson: {locator=Penderson}BJ1, DETN... #line:850565
-Mae: B3P0CVJ1E. MJ1 B3P0CVJ1E. TEUEPJ MJ1 3AUPABVREM MNP0M. o_o _o_ #line:3f182e
-Penderson: {locator=Penderson,size=1.2,animation=Pah}[color=aaaaaa][shake=.04]UZ![/all] #line:a2d8ef
-Mae: {size=1.2}[color=aaaaaa][shake=.04]UZ![/all]:( \o/ #line:01d52e
+Penderson: {locator=Penderson}AND YOU TELL YOUR FOX FRIEND I KNOW WHAT HE DID. #line:15c8e0
+Mae: You mean Gregg? #line:b395eb
+Mae: What's your problem with Gregg? #line:1fbaf8
+Penderson: {locator=Penderson}[shake=.04]DIRTY FOX STOLE MY GARDEN GNOME!!![/shake] #line:31cac9
+Penderson: {locator=Penderson}I saw his fancy little leather jacket and his dainty little boots disappear through the hedge. #line:4a15f4
+Penderson: {locator=Penderson}Everybody knows about him. #line:f00545
+Mae: [speed=.5]Everyone loves Gregg. Gregg's the bomb.[/speed]=_= o> #line:27517f
+Penderson: {locator=Penderson}You tell him I'm calling the cops. #line:adfc0e
+Penderson: {locator=Penderson}And I'll do the same for you if I see you up on the powerlines again! #line:7e4b98
+Penderson: {locator=Penderson}You kids... #line:850565
+Mae: Adults. We're adults. We run the world now. o_o _o_ #line:3f182e
+Penderson: {locator=Penderson,size=1.2,animation=Pah}[color=aaaaaa][shake=.04]Pah![/all] #line:a2d8ef
+Mae: {size=1.2}[color=aaaaaa][shake=.04]Pah![/all]:( \o/ #line:01d52e
 Mae: :| _o_ #line:25718b
 <<addToJournal TodoFindGregg>>
 <<addToJournal PendersonCops>>
@@ -122,33 +122,33 @@ tags:
 colorID: 2
 position: -3275,-386
 ---
-Mae: 3DPACJTE, MNCTEP TBNFMELEP! #line:058a33
-Twigmeyer: MGL? GT TJ1? #line:9f0714
-[[K0HE4H0!|Twigmeyer_00_SureIs]] #line:7caad2
-[[HE!|Twigmeyer_00_Nope]] #line:56ad2f
+Mae: Hey Mr. Twigmeyer! #line:058a33
+Twigmeyer: Mae? Zat you? #line:9f0714
+[[Sure is!|Twigmeyer_00_SureIs]] #line:7caad2
+[[Nope!|Twigmeyer_00_Nope]] #line:56ad2f
 ===
 title: Twigmeyer_00_SureIs
 tags: 
 colorID: 2
 position: -3604,-101
 ---
-Twigmeyer: UPNEXAVA B F0CTN D0M0L? #line:05c41f
-Mae: HET, UPNEXAVA HABCEFDA! #line:6bc079
-Twigmeyer: 4T0, Y HNX 60VJQE HET K0VVEDSA? #line:d77f6a
-[[HE-A. 0H CF0PEV.|Twigmeyer_00_ItBurnedDown]] #line:0bd0bf
-[[HE DVR MEHR, U0 KPALHEL MEPE.|Twigmeyer_00_NotForMe]] #line:69bdb8
+Twigmeyer: You home for a visit? #line:05c41f
+Mae: No, I'm home for good! #line:6bc079
+Twigmeyer: What, they not have college anymore? #line:d77f6a
+[[Nope. It burned down|Twigmeyer_00_ItBurnedDown]] #line:0bd0bf
+[[Not for me at least.|Twigmeyer_00_NotForMe]] #line:69bdb8
 ===
 title: Twigmeyer_00_NotForMe
 tags: 
 colorID: 2
 position: -3389,210
 ---
-Twigmeyer: R BCEFDA DYMAV, 4T0 TJ1 VN60 6YDEQJ BEPQNTJ BEVNKNE DEVA, #line:24f824
-Twigmeyer: VN60 CNDETJ 3DECJ HA CB0EL S0UE, U0KA 0HA HE U0FHET KPJ1QN. #line:7f6cd8
-Mae: S0UHJ1E KPJ1QN? #line:4ed399
-Twigmeyer: U0SAVYL, R M0FY YV0SNTJ GT0 B F0V0BE. #line:eab0e9
+Twigmeyer: I always thought you'd either go on to do great things #line:24f824
+Twigmeyer: or sit on your ass here until it put down roots. #line:7f6cd8
+Mae: Ass roots? #line:4ed399
+Twigmeyer: Guess I can settle that one in my mind. #line:eab0e9
 Mae: [speed=.25]...[/all] #line:6788e6
-Mae: [speed=.25]...YBNDNMCR...[/all] #line:a309a1
+Mae: [speed=.25]...see you around...[/all] #line:a309a1
 <<set $twigmeyer_done to 1>>
 ===
 title: Twigmeyer_00_ItBurnedDown
@@ -156,11 +156,11 @@ tags:
 colorID: 2
 position: -3781,220
 ---
-Twigmeyer: 4T0 S, R YBEPEH, 4T0 TJ1 C0SFVA EF0. #line:77dc63
-Mae: 3BY4NT KAK 06BNHEHNE, MNCTEP TBNFMELEP. #line:811137
-Twigmeyer: R HN B 4EM HE 06BNHR%. #line:9d22e8
-Twigmeyer: UP0CT0 U0UP06YL HE CSNFATJ M0% VYSALKY, U0DSNFATEVJHNOA. #line:43c5f0
-Mae: HN4EF0 HE 06EWA%. #line:8ff3da
+Twigmeyer: Well I'm sure you burned it down. #line:77dc63
+Mae: These allegations, Mr. Twigmeyer. #line:811137
+Twigmeyer: I ain't allegatin' #line:9d22e8
+Twigmeyer: Just try not to burn my lawn down, you firebug. #line:43c5f0
+Mae: No promises. #line:8ff3da
 <<set $twigmeyer_done to 1>>
 ===
 title: Twigmeyer_00_Nope
@@ -168,23 +168,23 @@ tags:
 colorID: 2
 position: -2936,-82
 ---
-Twigmeyer: U0 KPALHEL MEPE, BJ1FVRDNQJ KAK MGL. #line:10432f
-Twigmeyer: HABEPH0E, N UAXHEQJ KAK MGL. #line:d8401e
-Mae: R UAXHY? #line:de870d
-Twigmeyer: K0FDA TJ1 6J1VA PE6EHK0M, #line:f910be
-Twigmeyer: C%3AH HA3J1BAVA TE6R MAVEHJK0L FPR3HYVEL. #line:af700d
-[[HY DA, R 6J1VA FPR3HYVEL.|Twigmeyer_00_IWasADirtball]] #line:18dc4d
-[[R HNK0FDA HE 6J1VA FPR3HYVEL.|Twigmeyer_00_IWasNever]] #line:875539
+Twigmeyer: Well it looks like Mae. #line:10432f
+Twigmeyer: Bet it smells like Mae. #line:d8401e
+Mae: I have a smell? #line:de870d
+Twigmeyer: When you were a kid, #line:f910be
+Twigmeyer: Susan used to call you a little dirtball. #line:af700d
+[[Well I was a dirtball.|Twigmeyer_00_IWasADirtball]] #line:18dc4d
+[[I was never a dirtball.|Twigmeyer_00_IWasNever]] #line:875539
 ===
 title: Twigmeyer_00_IWasADirtball
 tags: 
 colorID: 2
 position: -3071,194
 ---
-Twigmeyer: M0FY U0KVRCTJCR, TJ1 0CTAVACJ TAK0L SE FPR3HYVEL. #line:9ef0f8
-Mae: 0T K0VJ16EVN D0 M0FNVJ1. CT0UP0OEHTHAR FPR3HYVR. #line:3ce201
-Twigmeyer: B0T GT0 HACTP0L! #line:4e92f9
-Mae: YBNDNMCR, MNCTEP TBNFMELEP #line:cea924
+Twigmeyer: You still are a dirtball I bet. #line:9ef0f8
+Mae: Cradle to grave. 100 percent dirtball. #line:3ce201
+Twigmeyer: That's the spirit! #line:4e92f9
+Mae: See you around, Mr. Twigmeyer! #line:cea924
 <<set $twigmeyer_done to 1>>
 ===
 title: Twigmeyer_00_IWasNever
@@ -192,13 +192,13 @@ tags:
 colorID: 2
 position: -2691,181
 ---
-Twigmeyer: AX, MGL, TJ1 6J1VA HAQEL FPR3HYVEL. #line:7cb069
-Mae: ME4TA KASD0F0 PE6EHKA. #line:99fb58
-Twigmeyer: BNDNQJ? NWN B0 BCEM X0P0QY% CT0P0HY. #line:1c4828
-Mae: B03M0SH0, R N 3ABTPA 3AFVRHY K BAM. #line:009047
-Twigmeyer: ECVN 3AX04EQJ, CM0SEQJ UPN6PATJCR Y MEHR HA VYSALKE. #line:f6c61b
-Mae: BJ1 3AUVATNTE? #line:cb24f5
-Twigmeyer: NDN FYVRL, FPR3HYVR. #line:c3ca8d
+Twigmeyer: Aw Mae, you were our dirtball. #line:7cb069
+Mae: Every child's dream. #line:99fb58
+Twigmeyer: See? Count your every blessing. #line:1c4828
+Mae: Well, you can *COUNT* on seeing me around tomorrow. #line:009047
+Twigmeyer: Feel free to rake my lawn. #line:f6c61b
+Mae: You paying? #line:cb24f5
+Twigmeyer: Get out of here, dirtball. #line:c3ca8d
 <<set $twigmeyer_done to 1>>
 ===
 title: InitLevel_A1D1
@@ -214,12 +214,12 @@ tags: demo2
 colorID: 0
 position: -6598,-1226
 ---
-Mae: CEL4AC T04H0 0CEHJ. #line:9dd5f6
-Mae: BCE D0P0SHJ1E PA60TJ1 CTAPA%TCR 3AK0H4NTJ K 3NME. #line:ae1c9f
-Mae: DEVAR U0V0BNHY F0P0DA HED0CTYUH0L. #line:5ad7a0
-Mae: ECVN T0VJK0 TJ1 HE X04EQJ 06X0DNTJ 4EPE3 BECJ F0P0D, #line:29a6a9
-Mae: 4T0 3ALMET MNHYT 20. #line:05ca88
-Mae: DEVATJ GT0F0 R, K0HE4H0, HE 6YDY. #line:1b963f
+Mae: Well it sure is fall. #line:9dd5f6
+Mae: All the roadwork crammed in before winter. #line:ae1c9f
+Mae: Makes like half the town inaccessible. #line:5ad7a0
+Mae: Unless you wanna walk the long way around #line:29a6a9
+Mae: for like 20 minutes. #line:05ca88
+Mae: Which, I mean, no. #line:1b963f
 <<end>>
 ===
 title: TwigmeyerDemo
@@ -228,12 +228,12 @@ colorID: 0
 position: -5782,-631
 ---
 <<if $twigmeyer is 0>>
-    Mae: 3DPABCTBYLTE, MNCTEP TBNFMELEP #line:b4ed74
+    Mae: Hey Mr. Twigmeyer! #line:b4ed74
     Twigmeyer: {align=middle,emote=rake,emoteAlign=middle} #line:515331
-    Mae: VADH0! #line:597a29
+    Mae: Alright then! #line:597a29
     <<set $twigmeyer to 1>>
 <<else>>
-    Mae: CDEVALTE NX, MNCTEP TBNFMELEP! #line:09f820
+    Mae: Rake 'em good, Mr. Twigmeyer! #line:09f820
 <<endif>>
 
 ===
@@ -260,25 +260,25 @@ tags:
 colorID: 2
 position: -5007,879
 ---
-Penderson: GL! MAVRBKA! #line:49d832
-Mae: R B3P0CVAR. #line:fac2d3
-Penderson: TAK TJ1 BEPHYVACJ, A? #line:b25df0
-Mae: DA, MNCTEP UEHDEPC0H. #line:fb425a
-Penderson: HAD0VF0 TE6R HE XBATNV0, A? #line:05545b
-Mae: HET, MNCTEP UEHDEPC0H. #line:bfc899
-Penderson: YSE HAQVA PA60TY? #line:0af26d
-[[R 3DECJ BCEF0 24 4ACA C M0MEHTA B03BPAWEHNR.|BackFor24Hours]] #line:066f34
-[[DA, R 6J1VA N36PAHA MGP0M.|ElectedMayor]] #line:03f42d
+Penderson: HEY! YOU KID! #line:49d832
+Mae: Adult. #line:fac2d3
+Penderson: So you’re back, eh? #line:b25df0
+Mae: Yes, Mr. Penderson. #line:fb425a
+Penderson: Didn’t last long, eh? #line:05545b
+Mae: No, Mr. Penderson #line:bfc899
+Penderson: You get a job yet? #line:0af26d
+[[I’ve only been back for like 24 hours.|BackFor24Hours]] #line:066f34
+[[Yes. I’ve been elected mayor.|ElectedMayor]] #line:03f42d
 ===
 title: BackFor24Hours
 tags: 
 colorID: 2
 position: -5263,1169
 ---
-Penderson: CK0P0 6YDEQJ F0B0PNTJ "BCEF0 HEDEV%", #line:a1f546
-Penderson: 3ATEM MECRO, #line:5f12fe
-Penderson: A 3ATEM BC% SN3HJ. #line:71e153
-Mae: BJ1 UPABJ1. Y MEHR EWE BCR SN3HJ BUEPEDN. =_= :) #line:152e5c
+Penderson: Soon it'll be "only a week" #line:a1f546
+Penderson: then a month #line:5f12fe
+Penderson: then your whole life. #line:71e153
+Mae: You're right. I have so much time left. =_= :) #line:152e5c
 <<wait 1>>
 Mae: o_o :| #line:2d4a14
 [[Penderson_00_00_End]]
@@ -288,14 +288,14 @@ tags:
 colorID: 2
 position: -4754,1164
 ---
-Penderson: XMMM. HY HA6ED0KYPNTJ 60VJQE, 4EM HJ1HEQHNL, TJ1 HE CM0SEQJ. #line:c08007
-Mae: N R UPNKA3AVA CHECTN BAQ D0M. #line:839a13
-Penderson: 4T0, 3AKAH4NBAEQJ T0, 4T0 HA4AVA? #line:a73d21
-Mae: HADE%CJ, BAM U0HPABNTCR SNTJ B VECY! #line:ece7d1
-Penderson: TE RLOA CHRVN BC% KPACKY C 4EPEUNOJ1. #line:e46b3f
-Mae: UPR4JTE EDY! 6YDJTE B VADAX C0 3BEPRMN, MNCTEP UEHDEPC0H! #line:388e72
-Penderson: 6YDJTE 0CT0P0SHJ1, MAVEHJKAR MNCC. #line:ceeebd
-Mae: "MAVEHJKAR. 6ECR4AR. MNCC?" #line:1b2abf
+Penderson: Hhmph. Couldn't do worse than the current one. #line:c08007
+Mae: And I've ordered your house to be bulldozed. #line:839a13
+Penderson: What, finishing the job you started? #line:a73d21
+Mae: I hope you enjoy living in the woods! #line:ece7d1
+Penderson: Those eggs took the paint off the vinyl siding. #line:e46b3f
+Mae: Scavenge food! Commune with the beasts, Mr. Penderson! #line:388e72
+Penderson: Watch yourself, lil miss. #line:ceeebd
+Mae: "Lil. Effing. Miss?" #line:1b2abf
 [[Penderson_00_00_End]]
 ===
 title: Penderson_00_00_End
@@ -303,23 +303,23 @@ tags:
 colorID: 2
 position: -5020,1455
 ---
-Penderson: HNKT0 HE 3A6J1V, KT0 TJ1 N 4T0 TJ1 CDEVAVA, 3HAEQJ VN. #line:564eff
-Penderson: X0TR M0FYT N DEVATJ BND, 4T0 3A6J1VN. #line:02bc6e
-Penderson: H0 GT0 BCE BESVNB0CTJ MAVEHJK0F0 F0P0DKA. #line:b4d840
-Mae: BJ1 UPEYBEVN4NBAETE. #line:ce68c0
-Penderson: BESVNB0CTJ MAVEHJK0F0 F0P0DA - BCE, 4T0 Y TE6R ECTJ, DEB04KA. #line:66f89e
-Penderson: TAK 4T0 HE 6PE3FYL. #line:ac4385
-Mae: 4T0 S, GT0 6J1V0 04EHJ NHTEPECH0, #line:acb76d
-Mae: H0 MHE HYSH0 NDTN N CVYQATJ, KAK M0N KVETKN YMNPA%T. #line:bd46aa
-Penderson: UZ! #line:e83574
-Mae: UZ! #line:f272bf
+Penderson: No one's forgotten who you are and what you did, you know. #line:564eff
+Penderson: They may act like they have. #line:02bc6e
+Penderson: But that's just small town polite right there. #line:b4d840
+Mae: Is that what this is? #line:ce68c0
+Penderson: Small town polite's all you got kid. #line:66f89e
+Penderson: So watch it. #line:ac4385
+Mae: Well that was really interesting #line:acb76d
+Mae: but I need to go listen to my cells die. #line:bd46aa
+Penderson: PAH! #line:e83574
+Mae: PAH! #line:f272bf
 ===
 title: PendersonDemo
 tags: demo
 colorID: 0
 position: -6748,-232
 ---
-Penderson: [size=.6]...FPE6AHJ1E 3BEPN-U0UP0QALKN...[/size] #line:3679b1
+Penderson: [size=.6]...freeloadin' trash mammals...[/size] #line:3679b1
 ===
 title: TriggerMolly_A1D3
 tags: 
@@ -327,34 +327,34 @@ colorID: 2
 position: -6038,-1267
 ---
 <<set $trigger_molly to 0>>
-Molly: UPNBET, MGL. #line:064b0e
-Mae: 4T0? #line:8e67ec
-Molly: UP0CT0 3AEXAVA Y3HATJ, KAK Y TE6R DEVA. #line:e3c439
-Mae: U04EMY? #line:46b2ce
-Molly: U0CVE T0L H04N, R NME% B BNDY. #line:b42db3
-Mae: U04EMY Y MEHR M0SET 6J1TJ 4T0-T0 HE B U0PRDKE? #line:1387f1
-Molly: MGL, CEL4AC B0KPYF UP0NCX0DNT MH0F0 BCEF0, #line:c78ca0
-Molly: NH0FDA B F0P0DE, NH0FDA HA D0P0FAX, #line:93fe8b
-Molly: NH0FDA B F0PAX... #line:3672cd
+Molly: Hey Mae. #line:064b0e
+Mae: What? #line:8e67ec
+Molly: I was just stopping by to see how you were doing. #line:e3c439
+Mae: Why? #line:46b2ce
+Molly: After the other night I mean. #line:b42db3
+Mae: Why wouldn’t I be fine? #line:1387f1
+Molly: Mae, a lot of things that happen around here, #line:c78ca0
+Molly: sometimes in town, sometimes out by the tracks, #line:93fe8b
+Molly: sometimes up in the hills... #line:3672cd
 Molly: ... #line:4a9ecc
-Mae: 4T0? #line:2cb3de
-Molly: M0R PA60TA B T0M, 4T06J1 TAKNE KAK TJ1, #line:1d9d6b
-Molly: HNK0FDA HE BNDEVN T0, 4T0 TJ1 BNDEVA B4EPA. #line:281a04
-[[TE6E GT0 HE 04EHJ X0P0Q0 YDAETCR.|NotDoingAVeryGoodJobOfIt]] #line:0719cc
-[["TAKNE KAK R"?|MollyA1D3_01]] #line:d34632
+Mae: What? #line:2cb3de
+Molly: It's my job to make sure folks like you #line:1d9d6b
+Molly: never see something like what you saw the other night. #line:281a04
+[[You’re not doing a very good job of it.|NotDoingAVeryGoodJobOfIt]] #line:0719cc
+[["Folks like you"?|MollyA1D3_01]] #line:d34632
 ===
 title: NotDoingAVeryGoodJobOfIt
 tags: 
 colorID: 2
 position: -6198,-967
 ---
-Molly: VY4QE, 4EM TJ1 M0SEQJ U0DYMATJ. #line:364614
-Mae: R D0MA T0VJK0 3 DHR, A YSE BNDEVA 4ACTN MEPTB0F0 TEVA. #line:478ae2
-Mae: GT0, K0HE4H0, MEV04J, H0 #line:1c8d6c
-Molly: TJ1 HE BNDEVA, KAK T0M DSEHHNHFC BJ1CTPEVNV B SNB0T CB0EMY 6PATY #line:c805a2
-Molly: UP0QV0L H04J% HA Q0CCE D0TN VALH. APHEP B UP0QV0M. #line:6ce7f1
-Molly: TE6E HE CVED0BAV0 FYVRTJ B T0M PAL0HE. #line:20ebb7
-Mae: 60SE. #line:3b0963
+Molly: Better than you might think. #line:364614
+Mae: I’ve been back less than 3 days and I already saw dead body parts. #line:478ae2
+Mae: Which wasn't a big deal, but #line:1c8d6c
+Molly: You didn't see Tom Jennings shoot his brother in the stomach #line:c805a2
+Molly: last night out on Doty Line Road. Out past Arner. #line:6ce7f1
+Molly: You didn't have to walk out into that cornfield. #line:20ebb7
+Mae: Geez. #line:3b0963
 [[MollyA1D3_01]]
 ===
 title: MollyA1D3_01
@@ -362,21 +362,21 @@ tags:
 colorID: 2
 position: -5954,-945
 ---
-Molly: MGL, TJ1 EWE PE6EH0K. #line:2ead73
-Molly: TJ1 HANBHA. #line:a473d3
-Molly: FVYU0, H0 B KAK0L-T0 CTEUEHN, GT0 DASE MNV0. #line:afa181
-Molly: H0 MNP SECT0K. #line:466a19
-Molly: N MNP HE FDE-T0 DAVEK0. #line:36eb9a
-Molly: 0H 3DECJ. #line:58cffa
-Mae: 0KEL, TJ1 6YDEQJ MEHR APECT0BJ1BATJ NVN 4T0 TJ1 TAM C06NPAVACJ DEVATJ? #line:5eaee7
-Mae: MHE EWE CEF0DHR HAD0 YCUETJ HA BE4EPNHKY. #line:59b7c7
-Molly: 6YDJ BHNMATEVJHA, MGL. #line:46ad83
-Molly: MHE 6J1 HE 04EHJ X0TEV0CJ, 4T0 6J1 C T060L 4T0-T0 CVY4NV0CJ. #line:b9bfd2
-Molly: T0VJK0 N3-3A T0F0, 4T0 TJ1 6J1VA HE B T0M MECTE, HE B T0 BPEMR. #line:6ca03e
+Molly: You're a kid, Mae. #line:2ead73
+Molly: And you're naive. #line:a473d3
+Molly: And in its own stupid way, that's beautiful. #line:afa181
+Molly: But the world isn't. #line:466a19
+Molly: And the world isn’t out there somewhere. #line:36eb9a
+Molly: It's here. #line:58cffa
+Mae: Alright, are you gonna arrest me or something? #line:5eaee7
+Mae: Because I have a party to go to. #line:59b7c7
+Molly: Watch yourself, Mae. #line:46ad83
+Molly: I'd really hate to see something happen to you. #line:b9bfd2
+Molly: And being in the wrong place at the wrong time is all it takes. #line:6ca03e
 Mae: ... #line:3b67a2
-Molly: GT0 BCE, 4T0 R X0TEVA CKA3ATJ. #line:0ee34d
-Mae: 3BY4NT 3V0BEWE. #line:9ee228
-Molly: D06P0L H04N, MGL. #line:dcbbcd
+Molly: That's all I'm saying. #line:0ee34d
+Mae: That's ominous. #line:9ee228
+Molly: Good night, Mae. #line:dcbbcd
 <<close>>
 <<walk Molly MollyOffscreenLeft>>
 <<wait 4>>
@@ -458,8 +458,8 @@ position: -6486,-966
     <<setSpriteLayer Harley1 CharacterFG>>
     <<setSpriteLayer Harley2 CharacterFG>>
     <<setSpriteLayer Harley3 CharacterFG>>
-    Harley1: Y6NTJ, Y6NTJ, Y6NTJ! #line:3ce745
-    Harley3: CT0RTJ, GT0 Z6P! #line:f30f6d
+    Harley1: Kill Kill Kill! #line:3ce745
+    Harley3: FBI freeze! #line:f30f6d
     <<trackAllSpeechBubblesToCharacters 0>>
 <<endif>>
 ===
@@ -477,9 +477,9 @@ tags: demo
 colorID: 0
 position: -7106,-90
 ---
-Mae: HEE, 4T0-T0 HE 0X0TA CEF0DHR HA KVAD6NWE. #line:d95fe0
-Mae: MHE KASETCR, TE6E M0SET U0HAD6NTJCR 6N, 4T06J1 UP04YBCTB0BATJ KVAD6NWE B U0VH0L MEPE. #line:1cde9f
-Mae: GT0 HE QYTKA UP0 EE YMEPQY% MATJ, ECVN 4T0. #line:a48fe6
+Mae: Nah, not feelin' the graveyard today. #line:d95fe0
+Mae: I feel like you might need Bea for the full graveyard experience. #line:1cde9f
+Mae: That was not a joke about her mother. #line:a48fe6
 ===
 title: ExitLevel
 tags: 
@@ -523,34 +523,34 @@ position: -4116,-1302
 ---
 <<playerFace -1>>
 Mae: =_= #line:987bf0
-Mae: 0, 60SE. #line:d08bf3
-Mae: 4EF0 *TE6E* HAD0? #line:299b20
+Mae: oh god. #line:d08bf3
+Mae: what do *YOU* want? #line:299b20
 <<wait 3>>
-Molly: TE6E T0SE UPNBET, MGL. #line:e51f03
-Mae: HY? #line:8cbe3b
-Molly: R X04Y, 4T06J1 TJ1 3HAVA. #line:c74ef4
-Molly: MJ1 UP0BEVN GKCUEPTN3Y T0L PYKN, K0T0PY% BJ1 T0FDA HAQVN. #line:93b26b
+Molly: hello to you too, mae. #line:e51f03
+Mae: well? #line:8cbe3b
+Molly: I wanted to let you know. #line:c74ef4
+Molly: we ran a test on that arm you guys found a few days back. #line:93b26b
 Mae: o_o #line:75fd71
-Mae: 0, UPABDA??? #line:652c8b
-Molly: DA. DYMAVA, TE6E 6YDET NHTEPECH0. #line:a0b93e
-Mae: 0UPEDEVEHH0! #line:202fd1
-Molly: PYKA UPNHADVESAVA 4EV0BEKY CPEDHNX VET #line:858ace
-Molly: N CPEDHEF0 TEV0CV0SEHNR. #line:158df9
-Molly: N 0H 6J1V MEPTB, K0FDA EE YDAVNVN. #line:cb41ab
-Mae: BAY. #line:5fba78
-Mae: GT0 3HA4NT... #line:3f5065
-Molly: GT0 EWE HN4EF0 HE 3HA4NT. #line:97114c
-Molly: R UP0CT0 DYMAVA, TJ1 3AX04EQJ 3HATJ. #line:6dc399
-Molly: TJ1 BCEFDA V%6NVA DETEKTNBHJ1E NCT0PNN, K0FDA 6J1VA MAVEHJK0L. #line:dc9c56
-Mae: 4T0 S. DA. CUACN60. #line:6ebca5
-Mae: GT0T UPN3PAK CEPJE3H0 06VASAVCR. #line:354fa4
-Molly: UPN3PAK? #line:dcbb05
-Molly: 4T0 6J1 TAM HN UP0N30QV0, HE DYMA%, 4T0 B GT0M 3AMEQAH UPN3PAK. #line:03f148
-Mae: DA-DA. HNKT0 HE BEPNT MHE. R U0HRVA. #line:72f40c
-Molly: 6YDJ 0CT0P0SHA, MGL. #line:b0fd2c
-Molly: CTPAHHJ1E BEWN UP0NCX0DRT. #line:ecb262
-Mae: DA, TJ1 YSE F0B0PNVA. #line:f8367e
-Molly: X0P0QEF0 BE4EPA, MGL. #line:34640a
+Mae: oh really??? #line:652c8b
+Molly: yeah. thought you'd be interested is all. #line:a0b93e
+Mae: definitely! #line:202fd1
+Molly: arm belonged to a middle aged man #line:858ace
+Molly: and medium build. #line:158df9
+Molly: and he was dead when it was removed. #line:cb41ab
+Mae: whoa. #line:5fba78
+Mae: that means... #line:3f5065
+Molly: it doesn't mean anything yet. #line:97114c
+Molly: i just thought you'd like to know. #line:6dc399
+Molly: you always liked detective stories when you were a kid. #line:dc9c56
+Mae: ok. yeah. thanks. #line:6ebca5
+Mae: this ghost is seriously messed up. #line:354fa4
+Molly: ghost? #line:dcbb05
+Molly: wasn't no ghost involved in this, whatever it was. #line:03f148
+Mae: yeah yeah. nobody believes me. i get it. #line:72f40c
+Molly: be careful, mae. #line:b0fd2c
+Molly: strange stuff going on. #line:ecb262
+Mae: yeah you're telling me. #line:f8367e
+Molly: have a nice evening, mae. #line:34640a
 <<set $molly_done to 1>>
 ===
 title: Pole1Act1.1
@@ -558,12 +558,12 @@ tags:
 colorID: 2
 position: -8994,-1077
 ---
-Mae: U0MH%, K0FDA R 6J1VA B DEBRT0M KVACCE, #line:598a46
-Mae: 3A6NPAVACJ C%DA N M0FVA BNDETJ CUAVJH% T0MA 6PAMBEVVA. #line:0aa39c
+Mae: I remember the time in 9th grade #line:598a46
+Mae: when I snuck out and could see into Tom Bramwell's bedroom. #line:0aa39c
 <<wait .25>>
-Mae:{emote=butt}:\#line:297dfe
+Mae:{emote=butt} :\ #line:297dfe
 <<wait .25>>
-Mae: DA, TAK0E CVY4AV0CJ. :| #line:eea5c1
+Mae: Yep that sure did happen. :| #line:eea5c1
 <<end>>
 ===
 title: Pole1Act2.1
@@ -571,11 +571,11 @@ tags: demo2
 colorID: 3
 position: -8999,-834
 ---
-Mae: 0DHASDJ1, B0 BPEMR HAB0DHEHNR, GT0T CT0V6 YUAV #line:ed72bd
-Mae: N R 60RVACJ, 4T0 0H KAK-HN6YDJ HAGVEKTPN3YET B0DY B0 BCEM PAL0HE, #line:388fe4
-Mae: N 0HA 0CTAHETCR TAK0L, #line:c64377
-Mae: N MHE 6J1V0, TNUA, CTPAQH0 UPNHNMATJ DYQ #line:1aa17c
-Mae: NVN U0B0PA4NBATJ KPAH HEDEVRMN. #line:4d1b8d
+Mae: When the flood happened that one year this pole fell over #line:ed72bd
+Mae: and I was scared it’d somehow electrify the water all over the neighborhood #line:388fe4
+Mae: and it’d stay that way #line:c64377
+Mae: and I was kinda afraid of taking a shower #line:1aa17c
+Mae: or turning on the faucet for weeks. #line:4d1b8d
 ===
 title: InitLevel_A4D3
 tags: 
@@ -594,95 +594,95 @@ tags:
 colorID: 6
 position: -3574,-957
 ---
-Mae: GL, UAU. #line:500951
-Mae: CEF0DHR HE PA60TAEQJ? #line:7c5bd0
-Dad: R CKA3AV 606Y U0DABNTJCR E%. #line:a28d72
+Mae: hey dad. #line:500951
+Mae: no work today? #line:7c5bd0
+Dad: i told bob to shove it. #line:a28d72
 Mae: :) #line:5e217f
-Mae: CEPJE3H0? #line:7ad8b2
-Dad: HET. #line:ca827e
+Mae: really? #line:7ad8b2
+Dad: no. #line:ca827e
 Mae: :| #line:b9abdd
-Dad: ... #line:6f9ca6
-Mae: TJ1 B U0PRDKE? #line:c51d8e
-Dad: DA, C0 MH0L BCE 6YDET X0P0Q0. #line:e8b175
-Dad: HE C06NPA%CJ UPNBNPATJ. R HEHABNSY CB0% PA60TY. #line:f48b3b
-Mae: 00Y, UAU. U04EMY? #line:a5f444
-Dad: R PA60TAV B QAXTE, R DEVAV CTEKV0, R DEVAV MACCY BEWEL, #line:999000
-Dad: H0 GT0 MECT0... 0HN UP0CT0 HE YBASA%T TB0L TPYD. #line:e7156f
-Mae: HE YBASA%T? #line:25d9a8
-Dad: PA60TA D0VSHA UPNH0CNTJ TE6E D0CTAT04H0 DEHEF DVR SN3HN #line:43a1a2
-Dad: PA60TA D0VSHA U03B0VRTJ TE6E C0DEPSATJ CB0% CEMJ% #line:3f27af
-Dad: PA60TA D0VSHA 3AHNMATJ 0UPEDEVEHH0E BPEMR #line:9d6b68
-Dad: 60CC D0VSEH YBASATJ TE6R. #line:a5d5f9
-Dad: PA60THNKN D0VSHJ1 NMETJ UPAB0 U0F0B0PNTJ #line:854bd4
-Dad: PA60THNKN D0VSHJ1 NMETJ UPAB0 HA SN3HJ #line:fcc38a
-Dad: PA60THNKN D0VSHJ1 NMETJ UPAB0 SNTJ. #line:ae21fa
-Dad: TB0EL MATEPN BCEFDA UPNX0DNV0CJ PA60TATJ, H0 #line:6f4041
-Dad: R X0TEV U0DAPNTJ BAM 06ENM CB060DH0E BPEMR, #line:bbc0ea
-Dad: R X0TEV, 4T06J1 Y HEE 6J1V0 X066N #line:cc9aaa
-Dad: N D0CTAT04H0 BPEMEHN N DEHEF DVR HNX, #line:b6a714
-Dad: B0T, 4T0 CDEVAV0 6J1 MEHR C4ACTVNBJ1M #line:3421d6
-Dad: TEUEPJ R UP0CT0 PA60TA% PADN HAQEL MEDNONHCK0L CTPAX0BKN #line:a00bd9
-Dad: N YDEPSAHNR D0MA. UJ1TA%CJ, U0 KPALHEL MEPE. #line:cf1875
+Dad: … #line:6f9ca6
+Mae: you ok? #line:c51d8e
+Dad: yeah, i’ll be fine. #line:e8b175
+Dad: not gonna sugarcoat it. I hate my job. #line:f48b3b
+Mae: aw dad. Why? #line:a5f444
+Dad: i’ve mined, i’ve made glass, i’ve done a heap other stuff. #line:999000
+Dad: but this place… they just don’t respect you for workin’. #line:e7156f
+Mae: they don’t? #line:25d9a8
+Dad: Job’s s’posed to pay you enough to live #line:43a1a2
+Dad: Job’s s’posed to let you provide for your family #line:3f27af
+Dad: Job’s s’posed to have regular hours #line:9d6b68
+Dad: Boss’ s’posed to respect you. #line:a5d5f9
+Dad: Workers s’posed to be able to talk #line:854bd4
+Dad: Workers s’posed to be able to have a life #line:fcc38a
+Dad: Workers s’posed to be able to live. #line:ae21fa
+Dad: Your mom always had to work but #line:6f4041
+Dad: I wanted to give you and her your time #line:bbc0ea
+Dad: I wanted her to have hobbies #line:cc9aaa
+Dad: and enough time and money to do them #line:b6a714
+Dad: that’s what made me happy #line:3421d6
+Dad: now i just work so i can keep our health insurance #line:a00bd9
+Dad: and hold onto the house. Try to at least. #line:cf1875
 <<if $did_germ_friendship_quest_3>>
-	Mae: Y MEHR ECTJ DPYF, DSEPM, #line:5f4e61
-	Mae: EF0 0TEO PA60TAET HA MNHNCTEPCTB0 TPAHCU0PTA, #line:1c732b
-	Mae: 0H F0B0PNV, 4T06J1 TJ1 C03DAV UP0ZC0%3 B XGM UAHTEP #line:5a88ee
-	Dad: 0HN YB0VRT TE6R T0VJK0 3A PA3F0B0P 06 GT0M #line:773b3f
-	Mae: GT0 VEFAVJH0? #line:318a0f
-	Dad: VEFAVJH0CTJ HE BCEFDA BASHA. #line:35817d
+	Mae: my friend Germ #line:5f4e61
+	Mae: his dad works for department of transportation #line:1c732b
+	Mae: he talked about you getting a union going at Ham Panther #line:5a88ee
+	Dad: they fire you just for talking about it #line:773b3f
+	Mae: is that legal? #line:318a0f
+	Dad: legal don’t always matter. #line:35817d
 <<endif>>
-Mae: TJ1 M0SEQJ 4T0-HN6YDJ CDEVATJ? #line:993228
-Dad: B CMJ1CVE, HAM *UPABDA* HYSEH UP0ZC0%3, #line:28b439
-Dad: VEF4E CKA3ATJ 06 GT0M, 4EM B0UV0TNTJ B SN3HJ #line:0198f8
-Dad: B QAXTAX N HA ZA6PNKAX BCEFDA 6J1VN UP0ZC0%3J1, #line:c477b2
-Dad: U0 KPALHEL MEPE, KAK0E-T0 BPEMR, #line:cc8ecd
-Dad: H0 TYT... #line:b417bc
+Mae: is there anything you can do? #line:993228
+Dad: i mean, we *do* need a union #line:28b439
+Dad: it’s just easier to say it than get it done #line:0198f8
+Dad: unions were always there in the mines and the factory #line:c477b2
+Dad: least for a while #line:cc8ecd
+Dad: but here… #line:b417bc
 <<if $has_tooth and $knows_tooth>>
 	//if have tooth and know what tooth is <-variable set at microfiche if you see item//
-	Mae: Y MEHR ECTJ K0E-4T0 DVR TE6R #line:6cffaf
-	Mae: D0CTAVA N3 U0DBAVA #line:a99f16
-	Dad: KAK TJ1 U0UAVA B U0DBAV? #line:4c9e2f
-	Mae: 4EPE3 U0DBAVJHY% DBEPJ #line:e82fc9
-	Dad: GT0 UYFAET. #line:5dfd04
-	Mae: TAK B0T, R D0CTAVA... #line:d9640c
+	Mae: i got something for ya #line:6cffaf
+	Mae: got it out of the basement #line:a99f16
+	Dad: how’d you get in the basement? #line:4c9e2f
+	Mae: door in the crawlspace #line:e82fc9
+	Dad: that’s spooky. #line:5dfd04
+	Mae: so what i got is… #line:d9640c
     Mae: :) #line:c9e7bc
-	Mae: 3Y6. #line:c6d8b9
-	Dad: 4T0? #line:b494db
-	Mae: TJ1 3HAEQJ, 4T0 GT0 3A 3Y6? #line:f53c5a
-	Dad: HET... HEYSEVN? #line:bc1edd
-	Dad: TJ1 YBEPEHA? #line:64cda3
-	Mae: AFA. DEDYQKA, D0VSH0 6J1TJ, DABH0 EF0 TAM 0CTABNV. #line:a4322a
-	Dad: MGL... CUACN60 TE6E. #line:f1e237
-	Dad: 0F0. 6VECTNT N BJ1FVRDNT D0CTAT04H0 H0BJ1M. #line:a1e756
-	Dad: KAK 6YDT0 T0VJK0 B4EPA BJ1TAWNVN N3 4EPEUA. #line:0d1b8f
-	Mae: TJ1 U0KA3J1BAEQJ EF0 CB0EMY 60CCY N 0TUPABVREQJ EF0 SPATJ DEPJM0. #line:e6cc87
-	Dad: MGL! #line:9186d5
-	Mae: UP0CTN. #line:c4319e
-	Dad: R UP0CT0 0CTABV% EF0 Y CE6R. #line:9660a7
-	Mae: K0HE4H0. #line:19a003
-	Dad: MGL. #line:a08431
-	Mae: DA? #line:65cf2c
-	Dad: TJ1 BJ1LDEQJ UNKETNP0BATJ C HAMN, ECVN MJ1 U0LDEM? #line:cc3e49
-	Mae: R 6YDY DJ1QATJ 0FHEM, UAUA. #line:9a024d
-	Dad: V%6V% TE6R, K0TEH0K. #line:2eb904
-	Mae: 6YDY U03DH0, UAU. #line:6805f0
+	Mae: a tooth. #line:c6d8b9
+	Dad: a what? #line:b494db
+	Mae: do you know what this tooth is? #line:f53c5a
+	Dad: no… really?  #line:bc1edd
+	Dad: you sure? #line:64cda3
+	Mae: yeah. Granddad musta had it from the old days. #line:a4322a
+	Dad: Mae… thank you. #line:f1e237
+	Dad: wow. Looks bright and new #line:a1e756
+	Dad: like they just pulled it out of his skull yesterday. #line:0d1b8f
+	Mae: you show that to your boss and tell him to eat shit. #line:e6cc87
+	Dad: MAE! #line:9186d5
+	Mae: sorry. #line:c4319e
+	Dad: I’ll just keep it with me. #line:9660a7
+	Mae: sure thing. #line:19a003
+	Dad: Mae. #line:a08431
+	Mae: yeah? #line:65cf2c
+	Dad: you come down and picket with us if we walk out? #line:cc3e49
+	Mae: i will breathe fire, dad. #line:9a024d
+	Dad: love you, kitten. #line:2eb904
+	Mae: be back later, dad. #line:6805f0
     Mae: :| #line:b193f2
     <<unlockAchievement Clock_Quest>>
     <<set $did_clock_quest to 1>>
 <<else>>
 	//if don’t have tooth or know what it is//
-	Mae: CVYQAL, R 6YDY 3DECJ K YSNHY #line:8ca77f
-	Dad: BAY! 4T0 3A U0B0D? #line:1aed69
-	Mae: HY, MAMA CKA3AVA, 4T0 MJ1 M0SEM UPNF0T0BNTJ 3ABTPAK #line:3d8eb6
-	Dad: 0000! 3BY4NT 3D0P0B0! #line:d8f3b5
-	Mae: R C06NPA%CJ U0F0B0PNTJ 0... K0E-4EM. #line:d9472b
-	Dad: 0K #line:d13417
-	Mae: M0SET, 0 TB0NX DEVAX HAM T0SE U0F0B0PNTJ? #line:8fc3da
-	Mae: UP0CT0 0DH0 60VJQ0E... GM... DEV03ACEDAHNE? #line:0482e3
-	Dad: GT0 3BY4NT BEVNK0VEUH0, K0TEH0K. #line:22a212
-	Mae: V%6V% TE6R, UAU. #line:d39121
-	Dad: R TE6R T0SE #line:6e9da6
-	Mae: 6YDY U03DH0! #line:dd4307
+	Mae: listen, i’m gonna be around tonight for dinner #line:8ca77f
+	Dad: wow! What’s the occasion? #line:1aed69
+	Mae: well mom said we could make breakfast #line:3d8eb6
+	Dad: oooh! Sounds good! #line:d8f3b5
+	Mae: i was gonna talk about some… stuff. #line:d9472b
+	Dad: ok #line:d13417
+	Mae: maybe we can talk about your stuff too? #line:8fc3da
+	Mae: just one big… uh… stuff session? #line:0482e3
+	Dad: that sounds great kitten. #line:22a212
+	Mae: love you dad #line:d39121
+	Dad: love you too #line:6e9da6
+	Mae: be back later! #line:dd4307
 <<endif>>
 ===
 title: TwigmeyerDemo2
@@ -691,23 +691,23 @@ colorID: 0
 position: -4630,-935
 ---
 <<if $twigmeyer is 0>>
-    Mae: 3DPACJTE, MNCTEP TBNFMELEP. #line:20bdd4
-    Twigmeyer: 3DPACJTE. #line:4a0f21
-    Mae: U0DMETAETE... G-G... #line:e6708c
-    -> TPABY? #line:1d9459
-    -> HN4EF0? #line:e98b12
-    Twigmeyer: FA30HJ1 U0X0SN HA V%DEL. #line:457d87
-    Mae: A DEPEBJR, KAK DPY3JR. NVN TNUA T0F0. #line:dbe5c2
-    Twigmeyer: 0KEL. #line:7f99fc
+    Mae: Hey Mr. Twigmeyer. #line:20bdd4
+    Twigmeyer: Hello. #line:4a0f21
+    Mae: Raking the... uh... #line:e6708c
+    -> Grass? #line:1d9459
+    -> Nothing? #line:e98b12
+    Twigmeyer: Lawns are like people. #line:457d87
+    Mae: and trees are like friends. Or something. #line:dbe5c2
+    Twigmeyer: Ok. #line:7f99fc
     <<set $twigmeyer to 1>>
 <<elseif $twigmeyer is 1>>
-    Mae: U0F0DNTE. 4EM FA30HJ1 U0X0SN HA V%DEL? #line:19cfee
-    Twigmeyer: C0 BPEMEHEM 3ACJ1XA%T #line:65cafd
-    Twigmeyer: N, KAK N MJ1, PEDK0 BNDRTCR DPYF C DPYF0M #line:d3d02f
-    Twigmeyer: B0T N R BJ1QEV HACVADNTJCR TEM BPEMEHEM, 4T0 MHE 0TBEDEH0 #line:0a238c
-    Mae: XAX. #line:eac70f
-    Mae: Y BAC BECJMA UP04HJ1E 0TH0QEHNR C BAQNM FA30H0M. #line:9fec42
-    Twigmeyer: XE-XE, HY, R XBATA%CJ UPAKTN4ECKN 3A BCE, 4T0 M0SH0. #line:9ceef1
+    Mae: Wait. How are lawns like people? #line:19cfee
+    Twigmeyer: Gettin’ late in the year #line:65cafd
+    Twigmeyer: and we ain’t gonna see each other much #line:d3d02f
+    Twigmeyer: so I’m out here putting in that good time. #line:0a238c
+    Mae: Huh. #line:eac70f
+    Mae: You have a pretty strong bond with your grass. #line:9fec42
+    Twigmeyer: Heh heh well I grab hold of just about everything I can. #line:9ceef1
     <<set $twigmeyer_done to 1>>
 <<endif>>
 
@@ -717,20 +717,20 @@ tags: demo2
 colorID: 3
 position: -8743,-842
 ---
-Mae: U0CVE HAB0DHEHNR 0H VESAV B HAQEM DB0PE 2 HEDEVN, #line:8d78d2
-Mae: KAK 60VJQAR D0XVAR... QTYKA. #line:540544
-Mae: H0 3ATEM EF0 U0DHRVN 06PATH0 #line:dbd8e5
-Mae: N R M0FVA BNDETJ EF0 N3 CB0EF0 0KHA H04J%, #line:e1b9a3
-Mae: N GT0 U04EMY-T0 6J1V0 CTPAQH0. #line:453016
+Mae: After the flood it laid in our yard for 2 weeks #line:8d78d2
+Mae: like a big dead... thing. #line:540544
+Mae: But then they put it back up #line:dbd8e5
+Mae: and I could see it from my window at night #line:e1b9a3
+Mae: and it felt spooky for some reason. #line:453016
 ===
 title: Pole1Act2.3
 tags: demo2
 colorID: 3
 position: -8498,-853
 ---
-Mae: CTPAQHJ1L CT0V6. #line:01ea1c
-Mae: 6ECCMEPTHJ1L DPYF. #line:095f86
-Mae: CM0TPRWNL HA MEHR C TP0TYAPA. #line:147e8b
+Mae: Spooky pole. #line:01ea1c
+Mae: Undead friend. #line:095f86
+Mae: Watching me from the curb. #line:147e8b
 <<end>>
 ===
 title: Penderson_A2D1
@@ -738,8 +738,8 @@ tags: demo2
 colorID: 0
 position: -5656,-1266
 ---
-Penderson: 6A! #line:48d069
-Mae: 6A! \o/ #line:5c557b
+Penderson: Bah! #line:48d069
+Mae: Bah! \o/ #line:5c557b
 Mae: _o_ #line:747a7c
 <<set $penderson_done to 1>>
 ===
@@ -770,21 +770,21 @@ tags:
 colorID: 6
 position: -2922,-985
 ---
-Dad: DAM DN DAM DAM #line:6a3a19
+Dad: dum de dum dum #line:6a3a19
 ===
 title: Dad_A4D3_01
 tags: 
 colorID: 6
 position: -3295,-958
 ---
-Mae: KCTATN, 4T0 TJ1 3DECJ DEVAEQJ? #line:d93320
-Dad: 3APAHEE F0T0BV% 0CBEWEHNE K DVNHHELQEL H04N #line:1a8399
-Dad: BJ1TAWY VAMU04KN N3 QKAZA, #line:6a1207
-Dad: U0CM0TP%, PA60TA%T VN 0HN #line:60544d
-Mae: M0FY R U0M04J C NX PA3BEQNBAHNEM????? #line:f5bb4a
-Dad: U0CM0TPNM. TJ1 MAVEHJKAR KAPT0ZEVNHA. #line:d30915
+Mae: what are you doing out here, by the way? #line:d93320
+Dad: getting an early start on our Longest Night lights plan #line:1a8399
+Dad: gotta dig them out of the closet #line:6a1207
+Dad: see if they even work still #line:60544d
+Mae: can i help put them up????? #line:f5bb4a
+Dad: we’ll see. You’re a small fry. #line:d30915
 Mae: o> #line:3fa7d7
-Mae: UAUA. #line:939a26
+Mae: DAD. #line:939a26
 Mae: _o_ #line:8c1699
 ===
 title: Pole1Act3.1
@@ -792,12 +792,12 @@ tags:
 colorID: 4
 position: -8991,-593
 ---
-Mae: M0SH0 YBNDETJ D0M UEHDEPC0HA 0TC%DA. #line:41e7b1
-Mae: KAK0L SE 0H YUJ1PJ. #line:701223
-Mae: 0H BCEFDA HEHABNDEV MEHR, #line:004614
-Mae: A BEDJ R UP0CT0 C6P0CNVA EMY B B0D0CT04HY% TPY6Y UETAPDJ1. #line:362e25
-Mae: HY, B CMJ1CVE, MEV04H0 06NSATJCR HA GT0. #line:9a77b8
-Mae: VET CT0 YS UP0QV0. #line:cc7b7e
+Mae: Can see Penderson's house from here. #line:41e7b1
+Mae: What a ghoul that guy is. #line:701223
+Mae: he has hated me forever #line:004614
+Mae: just because i put an m80 down his roof gutter. #line:362e25
+Mae: i mean it's just petty, this grudge. #line:9a77b8
+Mae: that was like forever ago. #line:cc7b7e
 <<end>>
 ===
 title: Pole1Act4.1
@@ -805,13 +805,13 @@ tags:
 colorID: 6
 position: -8995,-347
 ---
-Mae: 0, BAY, Y KAPNM0B H0BAR C06AKA! #line:43cfe9
-Mae: GL, WEH04EK! #line:805fe5
-Mae: 000, 0H 3AMETNV MEHR! #line:4e2d7c
-Mae: R BNSY TE6R 0TC%DA! #line:2f43ff
-Mae: R 6YDY HA6V%DATJ! #line:715e1b
-Mae: TAK 4T0, [shake=.05]6EPEFNCJ[shake]. #line:1853ca
-Mae: N 6YDJ X0P0QNM WEHK0M. #line:3a3139
+Mae: oh wow the Kareems got a new dog! #line:43cfe9
+Mae: hey puppers! #line:805fe5
+Mae: aw she saw me! #line:4e2d7c
+Mae: i can see you from here! #line:2f43ff
+Mae: i will be watching! #line:715e1b
+Mae: so [shake=.05]beware[shake]. #line:1853ca
+Mae: and be a good pup. #line:3a3139
 <<end>>
 ===
 title: Twigmeyer_A2D1
@@ -819,9 +819,9 @@ tags:
 colorID: 2
 position: -2577,-396
 ---
-Twigmeyer: FPE6N, FPE6N, FPE6N #line:99a772
-Mae: FPE6N, FPE6N, FPE6N? #line:b7ada3
-Twigmeyer: B0T KAK HYSH0 Y6NPATJ! #line:e32b28
+Twigmeyer: rake rake rake #line:99a772
+Mae: rake rake rake? #line:b7ada3
+Twigmeyer: that's how you rake! #line:e32b28
 <<set $twigmeyer_done to 1>>
 ===
 title: Twigmeyer_A2D3
@@ -829,10 +829,10 @@ tags:
 colorID: 3
 position: -2272,-389
 ---
-Twigmeyer: 4EPT0BJ1 VNCTJR! #line:8b8678
-Mae: 0HN D0VSHJ1 0CTVNCTNTJ BAQ DB0P B U0K0E. #line:d2fe12
-Twigmeyer: MGL 60P0BCKN, 0CTABJ CB0N KAVAM6YPJ1 D0MA. #line:621e5d
-Mae: XA-XA-XA! #line:9d6473
+Twigmeyer: goddamn leaves! #line:8b8678
+Mae: they should leave your yard alone. #line:d2fe12
+Twigmeyer: mae borowski you leave those puns at home. #line:621e5d
+Mae: ha ha ha #line:9d6473
 <<set $twigmeyer_done to 1>>
 ===
 title: Twigmeyer_A3D2
@@ -840,12 +840,12 @@ tags:
 colorID: 3
 position: -1958,-384
 ---
-Twigmeyer: BETPA CTAH0BRTCR X0V0DHEL #line:ea797c
-Twigmeyer: EWE 60VJQE VNCTJEB B M0EM 4EPT0B0M DB0PE. #line:133b66
-Mae: 4EM 0HN UV0XN? #line:22e92e
-Twigmeyer: TEM, 4T0 Y6NBA%T FA30H!!!! #line:e6ee96
-Mae: VADH0, VADH0! 60SE4KN! #line:2c268e
-Twigmeyer: R B FHEBE!!! #line:406ce3
+Twigmeyer: Winds gettin' colder #line:ea797c
+Twigmeyer: more leaves, in my dang yard. #line:133b66
+Mae: what's the big deal? #line:22e92e
+Twigmeyer: it kills the grass is what!!!! #line:e6ee96
+Mae: ok ok! geez! #line:2c268e
+Twigmeyer: i'm fired up!!! #line:406ce3
 <<set $twigmeyer_done to 1>>
 ===
 title: Twigmeyer_A3D4
@@ -853,13 +853,13 @@ tags:
 colorID: 3
 position: -1686,-378
 ---
-Twigmeyer: TJ1 B U0PRDKE, MGL? #line:860097
-Mae: DA. R B U0PRDKE. #line:fbbd25
-Twigmeyer: R PA36NPA%CJ B V%DRX. #line:6be9fc
-Twigmeyer: N Y TE6R HE BCE B U0PRDKE. #line:a44702
-Mae: HY, HE X0TEV0CJ 6J1 BAC PACCTPANBATJ, #line:5bafef
-Mae: H0 BJ1 B GT0M UV0XN. #line:285e18
-Twigmeyer: XM. DABAL U0CM0TPNM. #line:1df9cb
+Twigmeyer: you alright, mae? #line:860097
+Mae: yeah. i'm fine. #line:fbbd25
+Twigmeyer: i got a sense about people. #line:6be9fc
+Twigmeyer: and you're not alright. #line:a44702
+Mae: well i hate it break it to you #line:5bafef
+Mae: but your sense is wrong. #line:285e18
+Twigmeyer: hm. we'll see. #line:1df9cb
 <<set $twigmeyer_done to 1>>
 ===
 title: Twigmeyer_A4D3
@@ -867,14 +867,14 @@ tags:
 colorID: 6
 position: -1439,-371
 ---
-Mae: 3DPACJTE, MNCTEP TBNFMELEP! #line:0090e5
-Twigmeyer: HY, UPNBET, MGL! #line:d905b7
-Twigmeyer: TJ1 BJ1FVRDNQJ HAMH0F0 VY4QE! #line:cd7c93
-Mae: GX. ECVN 4ECTH0, Y MEHR BCE 60VNT. #line:d8ada1
-Twigmeyer: TE6E HYSH0 6J1TJ 0CT0P0SHEE! #line:a31905
-Twigmeyer: SN3HJ C VEFK0CTJ% V0MAET KASD0F0. #line:36bc5f
-Mae: HY YS HET. R BE4HA. #line:c3485c
-Twigmeyer: XE-XE. 6J1V0 6J1 HEUV0X0. #line:c0b2f9
+Mae: hey Mr. Tmwigmeyer! #line:0090e5
+Twigmeyer: well hey there mae! #line:d905b7
+Twigmeyer: you seem to be doing a lot better! #line:cd7c93
+Mae: eh. I'm really sore. #line:d8ada1
+Twigmeyer: you gotta take care! #line:a31905
+Twigmeyer: life breaks easy. #line:36bc5f
+Mae: nah. i'm forever. #line:c3485c
+Twigmeyer: heh heh. that'd be nice. #line:c0b2f9
 <<set $twigmeyer_done to 1>>
 ===
 title: TriggerMollyTop_A3D4
@@ -883,7 +883,7 @@ colorID: 4
 position: -4388,-1319
 ---
 <<set $trigger_molly to 0>>
-Molly: MGL! CVE3AL C VNHNL GVEKTP0UEPEDA4! #line:a2422d
+Molly: Mae! Get down from those powerlines! #line:a2422d
 Mae: ...? #line:8563a4
 <<fadeOut 1 wait>>
 <<jump>>
@@ -900,33 +900,33 @@ tags:
 colorID: 6
 position: -2486,-1400
 ---
-Mae: GL, 4T0 TJ1 3DECJ DEVAEQJ? #line:3f59a7
-Molly: R PA60TA%, MGL. #line:6be4eb
+Mae: hey. What are you doing here? #line:3f59a7
+Molly: i’m working, mae. #line:6be4eb
 Mae: =_= #line:51e64f
-Mae: K0HE-E-E-E4H0. #line:9f01e6
-Molly: *B3DJ1XAET* #line:80dc27
-Mae: 4T0 CVY4NV0CJ? #line:b26464
-Molly: HE CUPAQNBAL. KY4A CTPAHHJ1X BJ130B0B C YTPA. #line:7d2925
+Mae: suuuure. #line:9f01e6
+Molly: *sigh* #line:80dc27
+Mae: what’s wrong #line:b26464
+Molly: don’t ask. Lotta weird calls this morning. #line:7d2925
 Mae: o_o #line:6a34d2
-	->0X. #line:000b03
-	->...KAKNE 3B0HKN? #line:dd897a
+	->oh.  #line:000b03
+	->...what kind of calls? #line:dd897a
 		Molly: ... #line:f635b3
 <<wait 2>>
-Molly: B0UP0C: #line:a19d1d
-Molly: TJ1 HE BNDEVA... #line:2eac4b
+Molly: question: #line:a19d1d
+Molly: you haven’t seen... #line:2eac4b
 <<wait 2>>
-Molly: HEBASH0. #line:4d28f4
-Molly: NDN 3ALMNCJ 4EM-HN6YDJ, 4EM TJ1 06J14H0 3AHRTA. #line:19577d
-Mae: 0KEL, VADH0, 3ALMYCJ. #line:0a0797
-Molly: MGL, #line:5a0ad4
+Molly: nevermind. #line:4d28f4
+Molly: go do whatever it is you do. #line:19577d
+Mae: ok fine i will #line:0a0797
+Molly: mae, #line:5a0ad4
 <<wait 2>>
 Mae: \o/ #line:467ae6
-Mae: BJ1KVADJ1BAL YSE #line:4812c4
+Mae: spit it out already! #line:4812c4
 Mae: _o_ #line:1475e9
-Molly: 6YDJ 0CT0P0SHA. #line:a9e679
-Molly: UP0CT0...6YDJ 0CT0P0SHA. #line:d39410
-Mae: 0 60SE4KN, R HNK0FDA HE 3ADYMJ1BAVACJ 06 GT0M PAHJQE! #line:490003
-Molly: MGL! #line:fa59fe
-Mae: 0KEL, VADH0, CUACN60, U0KA.  #line:39a054
+Molly: be careful. #line:a9e679
+Molly: just... be careful. #line:d39410
+Mae: well geez until now i never considered that! #line:490003
+Molly: MAE! #line:fa59fe
+Mae: ok fine thanks bye #line:39a054
 <<set $molly_done to 1>>
 ===

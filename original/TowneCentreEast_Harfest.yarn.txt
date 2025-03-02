@@ -14,28 +14,28 @@ tags:
 colorID: 3
 position: 566,373
 ---
-Bea: 60SE, CUACN60, PE6RT. #line:23cdb4
-Bea: HNK0FDA 60VJQE HA GT0 HE U0DUNQYCJ. #line:48219c
-Mae: TAK 4EM TEUEPJ 3ALMEMCR? :) #line:c176c1
-Gregg: HY, *R* U0LDY D0M0L. #line:26d843
-Gregg: AHFYC UPNF0T0BNV YSNH N MJ1 6YDEM CM0TPETJ YSACTNKN. #line:fc9cfc
-Mae: M0SH0 MHE C BAMN? #line:b92856
-Gregg: GT0 60VJQE KAK... CBNDAHNE. #line:6d45ec
-Mae: 0Y. :| #line:dfc694
+Bea: Geez. Thanks guys. #line:23cdb4
+Bea: I am never doing that again. #line:48219c
+Mae: So what are we doing now? :) #line:c176c1
+Gregg: Well *I’M* going home. #line:26d843
+Gregg: Angus is making dinner and we’re gonna watch horror movies. #line:fc9cfc
+Mae: Can I come? #line:b92856
+Gregg: It’s more a... date thing. #line:6d45ec
+Mae: oh. :| #line:dfc694
 <<wait 2>>
 <<lookAt Mae Bea>>
-Mae: A 4T0 HAC4ET TE6R, 6N? #line:5bb61f
-Bea: UAPHN N3 T0PF0B0L UAVATJ1 NDYT HA QBEDCKNL CT0V B XGM UAHTEP. #line:8fe35d
-Bea: MHE T0SE HAD0 NDTN. DEVA N BCE TAK0E. #line:da86a3
-Bea: HEHABNSY. #line:867bcb
+Mae: What are you doing Bea? #line:5bb61f
+Bea: Chamber of Commerce folks are going to the buffet out by Ham Panther. #line:8fe35d
+Bea: Kinda have to go. Business stuff. #line:da86a3
+Bea: I hate this. #line:867bcb
 <<lookNearest Mae>>
-Mae: H0 Y TE6R X0P0Q0 U0VY4AETCR! #line:2d8aa1
-Bea: N T0, N DPYF0E M0SET 6J1TJ UPABD0L. #line:086b19
-Mae: M0SH0 MHE C T060L? :) #line:ca116f
-Bea: HE-A. #line:cad2d8
-Mae: VADH0. 4T0 S... :| #line:8afca5
-Gregg: H04N! #line:623f68
-Bea: H04N! #line:a46f28
+Mae: but you're good at it! #line:2d8aa1
+Bea: both of those things can be true. #line:086b19
+Mae: Can I come? :) #line:ca116f
+Bea: Nope. #line:cad2d8
+Mae: Ok. Well... :| #line:8afca5
+Gregg: G’night! #line:623f68
+Bea: Night! #line:a46f28
 <<close>>
 <<walk Gregg OffScreenLeft>>
 <<walk Bea OffScreenRight>>
@@ -45,7 +45,7 @@ Bea: H04N! #line:a46f28
 <<hide Bea>>
 //the last stragglers of the crowd are gone.
 //just mae and some kid sitting in the park//
-Mae: B0T 0TCT0L. =_= :\ #line:976afa
+Mae: this is garbage. =_= :\ #line:976afa
 <<lookLeft Mae>>
 <<close>>
 <<cameraLookAt CameraKidnapping 6>>
@@ -56,14 +56,14 @@ Mae: B0T 0TCT0L. =_= :\ #line:976afa
 <<wait 10>>
 <<playMusic after_kidnapping>>
 <<dilate Mae .8 .5>>
-Mae: KAK0F0...O_O :( #line:2e722f
-Mae: 0 60SE M0L o_o #line:5f3d88
+Mae: what the- O_O :( #line:2e722f
+Mae: oh my god o_o #line:5f3d88
 <<lookRight Mae>>
-Mae: GL! KT0-HN6YDJ? #line:075e4c
+Mae: Hey! Anyone!? #line:075e4c
 <<lookLeft Mae>>
 <<close>>
 <<wait 2>>
-Mae: 4EPT. #line:4d49f5
+Mae: Shit. #line:4d49f5
 <<close>>
 <<run Mae OffScreenLeft>>
 <<wait 2>>

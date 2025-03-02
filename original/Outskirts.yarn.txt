@@ -62,31 +62,31 @@ position: -1015,680
 <<walk Mae GreggFQ1Mae1>>
 <<walk Gregg GreggFQ1Gregg1 1>>
 <<wait 1>>
-Gregg: N 0HN HAQVN EF0 HA 0KPANHE CBAVKN! #line:84d577
+Gregg: And they found him out in the back of the junkyard! #line:84d577
 <<close>>
 <<wait .5>>
 
 <<waitForMove Gregg>>
 
-Mae: GT0 0F0P4AET. #line:3d3707
-Gregg: 0H D0VF0 UP06J1V TAM. #line:9cf991
-Mae: GT0 BF0HRET B FPYCTJ. :\ =_= #line:924b69
-Gregg: UPABDA? #line:ab868e
-Gregg: R UP0CT0 DYMAV, 4T0 0H 6J1V TNUA CYUEP FHNVJ1J1J1J1J1M:) #line:8c1de7
-Mae: HET, R UP0 3A6P0QEHHJ1L ZYD D0HKN. o_o #line:03e63b
-Gregg: DA, GT0 6J1V0 HACT0RWNM Q0K0M. :| #line:b1febc
+Mae: That's upsetting.  #line:3d3707
+Gregg: He'd been there for a while. #line:9cf991
+Mae: This is depressing. :\ =_= #line:924b69
+Gregg: Really?  #line:ab868e
+Gregg: I just thought it was like super raaaawwww.:) #line:8c1de7
+Mae: No, I mean the abandoned Food Donkey. o_o #line:03e63b
+Gregg: Yeah I know, right? It was a shock. :| #line:b1febc
 <<rotateHead Mae -10 .5>>
-Mae: KASETCR, KVACCE B0 2-M, MJ1 PA3YKPAQNBAVN KAPTNHKN HA DEHJ 6VAF0DAPEHNR. :| o> #line:65a81b
-Mae: N GT0 6J1VA NDER ZYD D0HKN. #line:c9b407
+Mae: I think in 2nd grade we colored pictures for thanksgiving. :| o> #line:65a81b
+Mae: and they were like Food Donkey themed. #line:c9b407
 <<lookUp Mae>>
-Mae: 0HN U0BECNVN HAQN PNCYHKN HA 0KHA. #line:08c647
-Gregg: R U0MH% GT0! #line:019da0
+Mae: and they put them up on these windows. #line:08c647
+Gregg: I remember that! #line:019da0
 <<lookNearest Mae>>
-Gregg: TAM 6J1V 0CEV, UEPE0DETJ1L B NHD%QKY! #line:84ab4c
+Gregg: It was a donkey dressed up as a turkey! #line:84ab4c
 <<lookOut Mae>>
 <<dilate Mae .85 1>>
-Mae: DA! YSACA%WE! :< #line:235af5
-Gregg: UP0CT0 YSAC. #line:fb1945
+Mae: Yeah! Horrifying! :< #line:235af5
+Gregg: Really, really horrible. #line:fb1945
 Mae: :| _o_ #line:0e8960
 <<close>>
 <<cameraLookAt GreggFollow 1>>
@@ -101,39 +101,39 @@ Mae: :| _o_ #line:0e8960
 <<extraZoom -5 7>>
 <<cameraLookAt GreggFQ1Focal 7>>
 <<lookLeft Gregg>>
-Mae: A 4T0 0HN CDEVAVN C0 BCEL ED0L? #line:11eb5c
-Gregg: CK0PMNVN 0CVAM-NHDELKAM. #line:cd961d
-Mae: 0CVNHDELKN. #line:d45b3f
+Mae: What did they do with all the food? #line:11eb5c
+Gregg: Donkey-turkeys got 'em. #line:cd961d
+Mae: Donkturks. #line:d45b3f
 <<lookNearest Gregg>>
-Gregg: NHDELK0CVJ1. #line:863de7
+Gregg: Durnkeys. #line:863de7
 <<close>>
 
 <<waitForMove Mae>>
 <<wait .5>>
 <<lookRight Gregg>>
-Mae: TAK, 3A4EM MJ1 3DECJ? #line:946c35
-Gregg: UPECTYUVEHNR. =_= #line:8d279b
-Mae: 0KEL, R BDB0LHE B DEVE. :) #line:852d51
-Gregg: R 6J1V CVNQK0M 3AK0H0U0CVYQHJ1M, MGL. #line:b1bf01
-Mae: N UPABDA. =_= <o> #line:c58032
-Gregg: MJ1 - X03REBA GT0F0 F0P0DA. #line:caabfd
-Mae: U04EMY MJ1 HE BX0DNM? o_o :| #line:fca771
+Mae: So what are we doing here? #line:946c35
+Gregg: CRIMES. =_= #line:8d279b
+Mae: Ok I'm like double-in now. :)  #line:852d51
+Gregg: I've been livin' too clean, Mae. #line:b1bf01
+Mae: Damn right. =_= <o> #line:c58032
+Gregg: We run this town. #line:caabfd
+Mae: Why don't we go in? o_o :| #line:fca771
 Gregg: O_O D: \o/ #line:7cf6d5
-Gregg: GL!!!!! #line:8f14c0
+Gregg: HEY!!!!! #line:8f14c0
 <<close>>
 <<wait 1>>
-Mae: 4T0 TJ1, 4EPT B03JMN, DEVAEQJ? _o_ #line:b8172e
+Mae: What the hell are you doing? _o_ #line:b8172e
 Gregg: o_o :| #line:a96adc
-Gregg: KASETCR, R... DA, KPYT0, R UPNBVEK EF0 BHNMAHNE. #line:a1e74e
-Mae: 4T0? #line:a80b2f
+Gregg: I think I... yeah cool I got his attention. #line:a1e74e
+Mae: What? #line:a80b2f
 <<close>>
 
 <<wait 1>>
 Gregg: _o_ #line:12f440
-Gregg: DA, B0H 0H NDET. #line:1c1d60
-Mae: KT0? #line:d2502b
-Gregg: MHE KASETCR, TJ1 EF0 HE 3HAEQJ. #line:b6f5c7
-Mae: M0SET 3HA%. #line:c9963f
+Gregg: Aw yeah here he comes. #line:1c1d60
+Mae: Who? #line:d2502b
+Gregg: You don't know him I don't think. #line:b6f5c7
+Mae: Try me. #line:c9963f
 <<close>>
 
 <<trackAllSpeechBubblesToCharacters 0>>
@@ -148,77 +148,77 @@ colorID: 0
 position: -1483,452
 ---
 <<lookAt Molly Mae>>
-Molly: U04EMY TJ1 6J1VA 3DECJ UP0QV0L H04J%? #line:132996
-    -> R BNDEVA, KAK KT0-T0 K0F0-T0 U0XNTNV. TNUA, PE6EHKA. #line:6cec57
+Molly: What were you doing out here last night? #line:132996
+    -> I saw someone kidnap someone. Like, a kid. #line:6cec57
         <<wait .5>>
-    -> U04EMY TJ1 6J1VA 3DECJ UP0QV0L H04J%? #line:aa3974
-        Molly: 6J1VN SAV06J1 HA 60MSEL. #line:0009a7
-        Molly: B0T U04EMY #line:561fb3
+    -> What were YOU doing out here last night? #line:aa3974
+        Molly: Vagrants. Reports of. #line:0009a7
+        Molly: That's why #line:561fb3
         //(waves hand at council)
-        Molly: R TYT. #line:930906
-        Molly: M0SET 6J1TJ UP0CT0 KT0-T0 YBNDEV TE6R 3DECJ. #line:8d9c59
-        Molly: TB0R 04EPEDJ. #line:6dfa97
-        Mae: R BNDEVA U0XNWEHNE. #line:1605b8
-Molly: PACCKASN MHE EWE PA3, 4T0 TJ1 BNDEVA? #line:71450b
-Mae: K0F0-T0 B 0FP0MH0M, CTAP0M UVAWE, C KEM-T0 Y HEF0 HA CUNHE. #line:82a5c9
-Molly: AFA. #line:4c4122
-Molly: N TJ1 UPECVED0BAVA NX D0 GT0F0 MECTA? #line:979c6f
-Mae: AFA, N R D06PAVACJ D0 3A60PA, A 0HN YSE 6J1VN B VECY. #line:291d3a
-Molly: RCH0. CUACN60, MGL. #line:de7646
-Mae: FPP. R 3HAVA, 4T0 TJ1 UP0CT0 3A6JEQJ HA GT0. #line:232c68
-Molly: MGL, K HAM HE U0CTYUAVN C006WEHNR 0 UP0UABQNX V%DRX. #line:4d02ec
-Molly: A *06J14H0* GT0 CVY4AETCR, K0FDA HA XAPZECTE UP0UADA%T DETN. #line:f7addb
-Molly: 4EPT, MHE 3B0HNVN 6 PA3, BNDEVN DETEL U03DH0 HA YVNOE. #line:b809b6
-Molly: MHE 6J1 C006WNVN, ECVN 6J1 KT0-T0 UP0UAV. #line:eb3a90
-Mae: R N C006WA%! B0T SE! UPRM0 CEL4AC! GT0 3ARBVEHNE! #line:cccb36
-Molly: MGL, 3A60P SE 0CTAVCR OEV. #line:e0da91
-Mae: B CMJ1CVE? #line:8f7676
-Molly: ECVN T0VJK0 KT0-T0 HE UEPEUPJ1FHYV EF0... #line:86ef66
-Molly: B0V04A HA CE6E U0DP0CTKA... #line:22e9fc
-Molly: UP0UASY K0T0P0F0 HNKT0 HE 3AMETNV... #line:ad90ec
+        Molly: all this. #line:930906
+        Molly: might've just been someone saw you out here. #line:8d9c59
+        Molly: Your turn #line:6dfa97
+        Mae: I saw a kidnapping. #line:1605b8
+Molly: Tell me what you saw again? #line:71450b
+Mae: Someone in a big old coat with someone over their back. #line:82a5c9
+Molly: Uh huh. #line:4c4122
+Molly: And you chased them down here? #line:979c6f
+Mae: Yeah and I got to the fence and they were up in the woods. #line:291d3a
+Molly: Alright. Thank you, Mae. #line:de7646
+Mae: Ugh. I knew you were just gonna brush this off. #line:232c68
+Molly: Mae, there's been no missing person reports. #line:4d02ec
+Molly: That *tends* to happen when a kid goes missing from something like Harfest. #line:f7addb
+Molly: Hell, I got 6 calls about kids out too late. #line:b809b6
+Molly: There would be a report. #line:eb3a90
+Mae: I'M REPORTING!! This! This right here! This is a report! #line:cccb36
+Molly: Mae, there's no break in the fence. #line:e0da91
+Mae: So? #line:8f7676
+Molly: So unless someone could jump this thing... #line:86ef66
+Molly: while carrying a teenager... #line:22e9fc
+Molly: who hasn't been reported as missing... #line:ad90ec
 Mae: ... #line:20492a
-Molly: ECTJ BEPCNN, MGL? #line:66def8
+Molly: Any theories, Mae? #line:66def8
 Mae: ... #line:599271
-    -> HET. #line:71b70c
-    -> 0HN M0FVN 060LTN 3A60P! #line:073d95
-        Molly: HE 3HA%, MGL, #line:28c91a
-        Molly: GT0T 3A60P NDET BD0VJ UAPK0BKN #line:579398
-        Molly: U04TN D0 SEVE3H0L D0P0FN #line:48551c
-        Molly: KAK KT0-T0 M0F 6J1TJ UPRM0 3DECJ, #line:ba6c86
-        Molly: A U0T0M B0VQE6HJ1M 06PA30M 0KA3ATJCR YSE U0 DPYFY% CT0P0HY? #line:676ee7
-        Mae: FPP. #line:dc0473
-Molly: R TYT H0CNVACJ U0V H04N #line:94628d
-Molly: PA3FPE6AR GT0 DEPJM0 C U0DP0CTKAMN #line:3707e8
-Molly: N TEMN, KT0 60NTCR 6EVJR HA BEPEBKAX N 3BYK0B. #line:f2244b
-Mae: DA R... TJ1... TJ1J1J1.... AAAAPFX!!! #line:2422a7
-Mae: TJ1 4T0, *X04EQJ* 3AUYCTNTJ C%SET ZNVJMA YSAC0B? #line:57859a
-Mae: HNKT0 HE BEPNT DEB04KE, BNDEBQEL UPN3PAKA! #line:b4a644
-Mae: 4T0 S, Y MEHR UV0XNE H0B0CTN... #line:8b6265
-Mae: K0U BCEFDA YMNPAET! #line:fa510b
-Molly: UP0CTN, MJ1 4T0, CEL4AC F0B0PNM 0 "UPN3PAKE"? #line:42d39d
-Mae: HY 0H0 SE CM0FV0 UP0LTN CKB03J 3A60P? #line:207abe
-Molly: TJ1 CEPJE3H0, MGL? #line:804da1
-Mae: HET! DA! R HE 3HA%! #line:c37108
-Mae: R 04EHJ YCTAVA. #line:84dec7
-Molly: DA, NMEHH0 06 GT0M GT0 R N U0DYMAVA. #line:c5f153
+    -> No. #line:71b70c
+    -> They could've gone around the fence! #line:073d95
+        Molly: I dunno Mae, #line:28c91a
+        Molly: this fence goes out along the parking lots #line:579398
+        Molly: almost to the tracks. #line:48551c
+        Molly: For you to be right behind them, #line:ba6c86
+        Molly: and then to be miraculously on the other side of the fence? #line:676ee7
+        Mae: UUUUUUUUURGH. #line:dc0473
+Molly: I was running around half the night #line:94628d
+Molly: getting after teenage bullshit #line:3707e8
+Molly: and people scared of clotheslines and noises. #line:f2244b
+Mae: I- you- y-you- aaaargh!!! #line:2422a7
+Mae: Are you *TRYING* to kick off a horror movie? #line:57859a
+Mae: No one believes the girl who saw the ghost! #line:b4a644
+Mae: Well, I have bad news for you- #line:8b6265
+Mae: THE COP ALWAYS DIES. #line:fa510b
+Molly: I'm sorry, we're talking about a “GHOST” now? #line:42d39d
+Mae: It must've gone through the fence?? #line:207abe
+Molly: Really, Mae? #line:804da1
+Mae: No! Yes! I don't know! #line:c37108
+Mae: I'm really tired. #line:84dec7
+Molly: Yeah that's kinda what I thought. #line:c5f153
 <<close>>
 <<lookNearest Molly>>
 <<walk Molly MollyToRight wait>>
-Mae: TJ1 M0SEQJ X0TR 6J1 UP04ECATJ VEC? #line:246f85
+Mae: Will you at least check the woods? #line:246f85
 <<lookAt Molly Mae>>
-Molly: MGL, MJ1 C DGH0M MAKK0HHEVV0M HA H0FAX BCE YTP0 #line:1a4674
-Molly: N3-3A T0F0, 4T0 TJ1 MHE PACCKA3AVA B4EPA. #line:cbbb37
-Molly: MJ1 TAM 6J1VN. 0T 3A60PA D0 CTAP0L QAXTJ1. #line:fccb09
-Molly: MJ1 HAQVN UAP04KY U0DP0CTK0B HA SYTK0M MATPACE, #line:324f05
-Molly: N BNDEVN 0DH0F0 NCUYFAHH0F0 0VEHR, #line:dd75e1
-Molly: N PAHHEF0 0X0THNKA 3A 0VEHRMN. #line:234a0e
-Mae: GT0 T04H0 HE 0H. #line:dd1faa
-Molly: GT0 BCE. #line:a88ec6
+Molly: Mae, me and Dan McConnell were up there this morning #line:1a4674
+Molly: because of what YOU said last night. #line:cbbb37
+Molly: From the fence up to the old mine. #line:fccb09
+Molly: We found a couple teenagers on a gross mattress, #line:324f05
+Molly: we saw some worried-looking deer, #line:dd75e1
+Molly: and one deer hunter out too early. #line:234a0e
+Mae: That can't be it. #line:dd1faa
+Molly: That is it. #line:a88ec6
 <<close>>
 <<walk Molly MollyOffRight wait>>
 <<hide Molly>>
 <<hide CopCar>>
-Mae: K0U BCEFDA YMNPAET! #line:72bfdb
+Mae: THE COP ALWAYS DIES! #line:72bfdb
 ===
 title: PreInitLevel
 tags: 
@@ -251,10 +251,10 @@ position: -469,705
 ---
 <<playMusic after_kidnapping>>
 <<run Mae MaePastFoodDonkey wait>>
-Mae: *YZ YZ* #line:26bd61
-Mae: KYDA 0H, 4EPT U0DEPN, DEVCR? #line:146826
+Mae: *pant pant* #line:26bd61
+Mae: where the hell did he go? #line:146826
 <<playOneShot event:/harfest/chain_fence_clang ChainFenceSFX>>
-Mae: DEPJM0000. #line:a44eac
+Mae: Shiiiit. #line:a44eac
 <<close>>
 <<set $harfest_block_right to 1>>
 ===
@@ -279,24 +279,24 @@ position: -207,586
 <<show Molly>>
 <<walk Molly MollyToRight wait>>
 <<lookAt Molly Mae>>
-Molly: MGL. #line:6a0776
-Molly: NDN D0M0L. #line:59dcaf
+Molly: Mae. #line:6a0776
+Molly: Go home. #line:59dcaf
 <<lookNearest Molly>>
 <<hide EideHarfestStand>>
-Mae: TAM UAPEHJ HA X0VME! #line:f4ad8a
-Mae: 0H YKPAV PE6EHKA! #line:4f4752
-Mae: BJ1FVRDNT UPRM0 KAK UPN3PAK! #line:6eb0b3
+Mae: There's a guy up there on the hill! #line:f4ad8a
+Mae: he stole some kid? #line:4f4752
+Mae: he looked like a ghost! #line:6eb0b3
 //molly shines a light up//
-Molly: UPN3PAK? #line:77075e
-Mae: HY NVN 4T0-T0 TNUA T0F0. #line:4727f4
+Molly: a ghost, huh? #line:77075e
+Mae: Or something like that? #line:4727f4
 //molly shines light back at mae//
-Molly: MGL, TE6E HE CVEDYET 3DECJ HAX0DNTCR #line:b8a05e
-Molly: N 3AHNMATJCR TEM, 4EM TJ1 3DECJ 3AHNMAEQJCR. #line:c0a5f2
-Mae: HET! B006WE HNK0MY HEVJ3R 3DECJ 6J1TJ! #line:c5e56a
-Mae: H0 T0T UAPEHJ... #line:c717e8
-Molly: R 0TBE3Y TE6R D0M0L, MGL. #line:75459b
-Mae: HET! #line:2c344c
-Molly: MGL! CEL4AC SE. #line:041410
+Molly: Mae, you shouldn't be out here #line:b8a05e
+Molly: doing whatever it is you're doing. #line:c0a5f2
+Mae: NO! NO ONE SHOULD BE OUT HERE! #line:c5e56a
+Mae: But there's this guy- #line:c717e8
+Molly: I'll drive you home, Mae. #line:75459b
+Mae: NO! #line:2c344c
+Molly: MAE! NOW. #line:041410
 <<close>>
 <<irisOut 1 wait>>
 <<set $harfest_costume to 0>>
@@ -318,10 +318,10 @@ tags: cut
 colorID: 5
 position: 690,408
 ---
-Mae: U0UP0WAEMCR DPYF C DPYF0M B03VE K0V0DOA. #line:8c9e5a
-Angus: AFA. #line:e0165e
-Gregg: AFA. #line:8d162d
-Bea: AFA. #line:9ffb88
+Mae: We're saying goodbye to each other after the well woods. #line:8c9e5a
+Angus: Yes. #line:e0165e
+Gregg: Yes. #line:8d162d
+Bea: Yes. #line:9ffb88
 <<close>>
 <<irisOut 1 wait>>
 <<scene MaeHouse left>>
@@ -356,10 +356,10 @@ position: -12,165
     <<walk Bea WalkUpEndBea>>
     <<walk Mae WalkUpEndMae>>
     <<walk Gregg WalkUpEndGregg>>
-    Mae: MJ1 F0B0PNM 0 UP0FYVKE B VEC. #line:a36df0
-    Bea: U0F0B0PNM N U0LDEM. #line:d4b3a9
-    Angus: DA. #line:abc5b8
-    Gregg: TAK N ECTJ. #line:e2ce10
+    Mae: We're talking about walking to the woods. #line:a36df0
+    Bea: Talking and walking. #line:d4b3a9
+    Angus: Yes we are. #line:abc5b8
+    Gregg: Indeed. #line:e2ce10
     <<set $walking_up_to_the_woods to 0>>
     <<fadeOut 1 wait>>
     <<scene MineWoods>>
@@ -370,19 +370,19 @@ tags:
 colorID: 0
 position: -939,-258
 ---
-Mae: KAK 0H UEPE6PAVCR 4EPE3 3A60P? #line:0e82a5
-Mae: DASE R HE M0FY UEPEUPJ1FHYTJ EF0. A 0H N U0DABH0. #line:8bd861
-Mae: DJ1PJ1 HET. #line:4b8a13
-Mae: KAK 0H GT0 CDEVAV? #line:881d81
+Mae: how did he get over this thing? #line:0e82a5
+Mae: i can’t jump that. No way he could have. #line:8bd861
+Mae: there’s no hole. #line:4b8a13
+Mae: how did he do it? #line:881d81
 ===
 title: FarLeftFence.2
 tags: 
 colorID: 0
 position: -697,-261
 ---
-Mae: HY 6VNH, M0SET 0H N UPABDA UPN3PAK #line:89f906
-Mae: DYMA%, 0H UPN3PAK. #line:b8ba65
-Mae: YX! #line:b742e3
-Mae: ...4T0 TAM, U0 TY CT0P0HY? #line:8e7922
+Mae: i mean i guess he could really be a ghost #line:89f906
+Mae: i think he’s a ghost #line:b8ba65
+Mae: ugh. #line:b742e3
+Mae: ...what’s out there? #line:8e7922
 <<end>>
 ===

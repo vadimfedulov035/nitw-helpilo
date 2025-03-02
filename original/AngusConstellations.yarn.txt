@@ -3,187 +3,187 @@ tags:
 colorID: 0
 position: 1806,562
 ---
-Mae: MJ1 3DECJ, TNUA, DAVEK0BAT0 0T BCEX, A? #line:29b1c3
-Angus: B UAPKE? HY, DA, HABEPH0E. #line:62ce4c
-Mae: SYTK0. #line:8cb8df
-Angus: HE 3HA%. 3DECJ D0B0VJH0 6E30UACH0. #line:e3cf9a
-Angus: N 3BE3D04KN MNVJ1E. #line:e60b3f
-Mae: 3HA4NT, TJ1 C0BCEM HE BEPNQJ B UPN3PAK0B? #line:86140d
-Angus: HET. HE BEP% HN B UPN3PAK0B, HN B 60F0B, #line:832333
-Angus: HN B CYUEP-CU0C06H0CTN, HN B0 4T0 TAK0E. #line:d19f72
-Mae: B006WE? #line:00ff21
-Angus: B CMJ1CVE, HET D0KA3ATEVJCTB, 4T0 0HN CYWECTBY%T #line:abfcaa
-Angus: X0TR V%DN N UPABDA NX NCKAVN. #line:66f361
-Mae: HY, X0TJ K0FDA-HN6YDJ BEPNV? #line:a4bd7e
-Angus: HY DA, B DETCTBE. #line:beb18b
-Mae: PACCKASN MHE 06 GT0M. #line:d64424
+Mae: we're like way out here, huh? #line:29b1c3
+Angus: in the park? yeah i guess. #line:62ce4c
+Mae: spooky. #line:8cb8df
+Angus: i dunno. it's pretty safe. #line:e3cf9a
+Angus: and the stars are pretty. #line:e60b3f
+Mae: So you don’t believe in ghosts at all? #line:86140d
+Angus: nah. Don’t believe in ghosts, or gods, #line:832333
+Angus: or psychic powers, or anything like that. #line:d19f72
+Mae: Not at all? #line:00ff21
+Angus: I mean there’s no evidence for them, #line:abfcaa
+Angus: and people have really tried. #line:66f361
+Mae: Did you ever? #line:a4bd7e
+Angus: Yeah, when I was a kid. #line:beb18b
+Mae: Tell me about it. #line:d64424
 <<close>>
 <<tell AngusConstellation:BirdPope MoveCamera>>
 <<wait 1.2>>
-AngusAsPope:{locator=popebubble}HY... GM...#line:5f9a21
-AngusAsPope:{locator=popebubble}HE U0MH% KAK MH0F0 R TE6E PACCKA3J1BAV #line:bb5a74
-AngusAsPope:{locator=popebubble}NVN KAK MH0F0 TE6E F0B0PNV FPEFF #line:409e45
-AngusAsPope:{locator=popebubble}H0 Y MEHR 6J1V0 HE CAM0E VY4QEE DETCTB0.#line:107c6f
+AngusAsPope:{locator=popebubble}so... um... #line:5f9a21
+AngusAsPope:{locator=popebubble}i don't know how much i've ever told you #line:bb5a74
+AngusAsPope:{locator=popebubble}or how much gregg has told you #line:409e45
+AngusAsPope:{locator=popebubble}but i didn't have the best childhood. #line:107c6f
 <<close>>
 <<tell AngusConstellation:Bell MoveCamera>>
 <<wait 1.2>>
-MaeAsBell: DA, DYMA%, R CVJ1QAVA UP0 GT0. #line:3bedef
-MaeAsBell: 4T0 6J1V0 HE TAK? #line:442fe3
+MaeAsBell: yeah i think i heard that. #line:3bedef
+MaeAsBell: why was it bad? #line:442fe3
 <<close>>
 <<tell AngusConstellation:Whale MoveCamera>>
 <<wait 1.2>>
-AngusAsWhale: GM... M0L 0TEO HE V%6NV MEHR. #line:be3c59
-AngusAsWhale: KAK, BUP04EM, N M0R MATJ. #line:39e85f
-AngusAsWhale: N #line:bfd8ef
-AngusAsWhale: GM #line:111800
+AngusAsWhale: um... my dad didn't like me. #line:be3c59
+AngusAsWhale: and my mom didn't either. #line:39e85f
+AngusAsWhale: and like #line:bfd8ef
+AngusAsWhale: um #line:111800
 <<close>>
 <<tell AngusConstellation:Cat MoveCamera>>
 <<wait 1.2>>
-MaeAsCat: M0SEM HE F0B0PNTJ 06 GT0M, ECVN HE X04EQJ. #line:37a3f3
+MaeAsCat: You don't have to talk about it if you don't want to. #line:37a3f3
 <<close>>
 <<tell AngusConstellation:Whale MoveCamera>>
 <<wait 1.2>>
-AngusAsWhale: DA HET, BCE B U0PRDKE. #line:ac90e5
-AngusAsWhale: GM, M0L 0TEO #line:e74835
-AngusAsWhale: 4ACT0 MEHR 6NV #line:d21611
-AngusAsWhale: A C MAM0L 6J1BAV0 N U0XYSE #line:e25987
-AngusAsWhale: 0HA, TNUA, 3A6J1BAVA K0PMNTJ MEHR #line:f9a734
-AngusAsWhale: B0T U04EMY TEUEPJ R TAK V%6V% F0T0BNTJ, XA-XA #line:d01818
+AngusAsWhale: no it's fine. #line:ac90e5
+AngusAsWhale: um my dad #line:e74835
+AngusAsWhale: used to hit me a lot #line:d21611
+AngusAsWhale: and my mom was probably worse #line:e25987
+AngusAsWhale: she like wouldn't feed me #line:f9a734
+AngusAsWhale: which is why i really like cooking now ha ha #line:d01818
 <<close>>
 <<tell AngusConstellation:BirdPope MoveCamera>>
 <<wait 1.2>>
-AngusAsPope:{locator=popebubble}0HA 3AKPJ1BAVA MEHR B KVAD0BKE,#line:38f2bf
-AngusAsPope:{locator=popebubble}XV0UAR DBEPJ% C TAK0L CNV0L,#line:c97eac
-AngusAsPope:{locator=popebubble}4T0 BCE, 4T0 HAX0DNV0CJ HA U0VKAX, UADAV0 UPRM0 HA MEHR.#line:908f94
+AngusAsPope:{locator=popebubble}she'd like shove me into the pantry #line:38f2bf
+AngusAsPope:{locator=popebubble}and slam the door really hard #line:c97eac
+AngusAsPope:{locator=popebubble}and all the stuff would fall off the shelves on top of me. #line:908f94
 <<close>>
 <<tell AngusConstellation:Bell MoveCamera>>
 <<wait 1.2>>
-MaeAsBell: 0 F0CU0DN, AHFYC #line:c25b1f
-MaeAsBell: R GT0F0 HE 3HAVA. #line:a6ebd1
-MaeAsBell: GT0 YSACH0. #line:61e8a4
+MaeAsBell: oh my god, angus #line:c25b1f
+MaeAsBell: i didn't know at all. #line:a6ebd1
+MaeAsBell: That's awful. #line:61e8a4
 <<close>>
 <<tell AngusConstellation:BirdPope MoveCamera>>
 <<wait 1.2>>
-AngusAsPope:{locator=popebubble}0HA 3AKPJ1BAVA MEHR TAM BPEMR 0T BPEMEHN,#line:325edb
-AngusAsPope:{locator=popebubble}NH0FDA DASE HA BC% H04J.#line:46dd04
-AngusAsPope:{locator=popebubble}N R UJ1TAVCR PA3BNTJ KAKNE-T0 GKCTPACEHC0PHJ1E CU0C06H0CTN#line:47a496
-AngusAsPope:{locator=popebubble}4T06J1 R CM0F DATJ CNFHAV C0CEDRM.#line:3a1161
-AngusAsPope:{locator=popebubble}NVN 0TKPJ1TJ DBEPJ.#line:1ae128
-AngusAsPope:{locator=popebubble}H0 GT0 HE CPA60TAV0, KAK BNDNQJ.#line:ad7790
+AngusAsPope:{locator=popebubble}she'd lock me in there for like a day at a time sometimes #line:325edb
+AngusAsPope:{locator=popebubble}or overnight. #line:46dd04
+AngusAsPope:{locator=popebubble}so I'd like try to develop psychic powers #line:47a496
+AngusAsPope:{locator=popebubble}so i could like signal the neighbors #line:3a1161
+AngusAsPope:{locator=popebubble}or unlatch the door. #line:1ae128
+AngusAsPope:{locator=popebubble}didn't work, as you might guess. #line:ad7790
 <<close>>
 <<tell AngusConstellation:Cat MoveCamera>>
 <<wait 1.2>>
-MaeAsCat: TJ1 K0MY-HN6YDJ PACCKA3J1BAV GT0? #line:bc4dd8
+MaeAsCat: did you ever tell anybody? #line:bc4dd8
 <<close>>
 <<tell AngusConstellation:Whale MoveCamera>>
 <<wait 1.2>>
-AngusAsWhale: HET, HNK0FDA. #line:155a23
-AngusAsWhale: HE 3HA% U04EMY. #line:929514
-AngusAsWhale: C0 BPEMEHEM R BP0DE... #line:44eeb8
-AngusAsWhale: T0SE U04YBCTB0BAV CE6R BNH0BATJ1M U04EMY-T0. #line:e957f8
-AngusAsWhale: KAK 6YDT0 GT0 R DEVAV 4T0-T0 UV0X0E? #line:a5ebe1
+AngusAsWhale: i never did. #line:155a23
+AngusAsWhale: i don't know why. #line:929514
+AngusAsWhale: after a while I like... #line:44eeb8
+AngusAsWhale: started feeling guilty too for some reason. #line:e957f8
+AngusAsWhale: like this was something bad i was doing? #line:a5ebe1
 <<close>>
 <<tell AngusConstellation:Cat MoveCamera>>
 <<wait 1.2>>
-MaeAsCat: TNUA... U03B0VRV CE6R HAKA3J1BATJ? #line:2604f2
-MaeAsCat: AHFYC, GT0 B0BCE HE TB0R BNHA. #line:2f13c6
-MaeAsCat: TJ1 6J1V PE6EHK0M!! #line:001702
+MaeAsCat: like... being abused? #line:2604f2
+MaeAsCat: Angus that's not your fault at all. #line:2f13c6
+MaeAsCat: you were a kid!!! #line:001702
 <<close>>
 <<tell AngusConstellation:BirdPope MoveCamera>>
 <<wait 1.2>>
-AngusAsPope:{locator=popebubble}0, HE B0VHYLCR, CEL4AC R GT0 U0HNMA%.#line:3faad7
-AngusAsPope:{locator=popebubble}BCEFDA U0HNMAV.#line:d8b59e
+AngusAsPope:{locator=popebubble}oh don't worry, i know that now. #line:3faad7
+AngusAsPope:{locator=popebubble}boy do i ever. #line:d8b59e
 <<close>>
 <<tell AngusConstellation:Bell MoveCamera>>
 <<wait 1.2>>
-MaeAsBell: B0UP0C: M0SH0 R HADEPY BCEM NM 3ADHNOJ1? #line:505112
-MaeAsBell: Y MEHR N 0UJ1T NMEETCR. R M0FY U0BJ16NBATJ HEMH0F0 DEPJMA. #line:efc963
+MaeAsBell: question: can i go kick all of their asses? #line:505112
+MaeAsBell: like i've got experience. i can eff some shit up. #line:efc963
 <<close>>
 <<tell AngusConstellation:BirdPope MoveCamera>>
 <<wait 1.2>>
-AngusAsPope:{locator=popebubble}HY, M0R MAMA YSE D0B0VJH0 CTAPA.#line:a2f55d
-AngusAsPope:{locator=popebubble}R... AX... MHE NH0FDA UPNX0DNTCR HABEWATJ EE.#line:7ba0de
-AngusAsPope:{locator=popebubble}Y MEHR ECTJ 6PAT, 0H B APMNN 3A FPAHNOEL.#line:ac2ba7
-AngusAsPope:{locator=popebubble}A M0L 0TEO YQEV, VET TAK 10 HA3AD.#line:397a5a
-AngusAsPope:{locator=popebubble}KT0 3HAET, FDE 0H CEL4AC N SNB VN B006WE.#line:9ecbd7
-AngusAsPope:{locator=popebubble}N ECVN SNB, R HE X04Y 06 GT0M 3HATJ.#line:b10d21
+AngusAsPope:{locator=popebubble}well, my mom is kinda old now. #line:a2f55d
+AngusAsPope:{locator=popebubble}i... ugh... still have to visit her sometimes. #line:7ba0de
+AngusAsPope:{locator=popebubble}i have a brother, he's overseas in the army. #line:ac2ba7
+AngusAsPope:{locator=popebubble}and my dad left like 10 years ago. #line:397a5a
+AngusAsPope:{locator=popebubble}so who knows where he is or if he's even alive. #line:9ecbd7
+AngusAsPope:{locator=popebubble}if he is alive i don't want to know about it. #line:b10d21
 <<close>>
 <<tell AngusConstellation:Bell MoveCamera>>
 <<wait 1.2>>
-MaeAsBell: AHFYC, R UP0CT0 X04Y 06HRTJ TE6R N HE 0TUYCKATJ. #line:ef45eb
+MaeAsBell: Angus I just want to give you a hug forever. #line:ef45eb
 <<close>>
 <<tell AngusConstellation:Whale MoveCamera>>
 <<wait 1.2>>
-AngusAsWhale: XA-XA, B 06WEM #line:0757ec
-AngusAsWhale: MHE U0BE3V0 60VJQE, 4EM DPYFNM DETRM #line:dbe491
-AngusAsWhale: R UP0CT0 PAD, 4T0 MHE HE... MDA. #line:2e00a1
-AngusAsWhale: TAK B0T, B03BPAWARCJ K TB0EMY B0UP0CY... #line:db3ed1
+AngusAsWhale: ha ha well #line:0757ec
+AngusAsWhale: i was luckier than a lot of kids #line:dbe491
+AngusAsWhale: i'm just glad i didn't like... yeah. #line:2e00a1
+AngusAsWhale: anyway, to your original question- #line:db3ed1
 <<close>>
 <<tell AngusConstellation:BirdPope MoveCamera>>
 <<wait 1.2>>
-AngusAsPope:{locator=popebubble}UP0BEPKA CB0NX GKCTPACEHC0PHJ1X CU0C06H0CTEL B KVAD0BKE#line:2e21f6
-AngusAsPope:{locator=popebubble}3ACTABNVA MEHR 3ANHTEPEC0BATJCR KAK B UAPAH0PMAVJHJ1X BEWAX, TAK N B HAYKE#line:13e904
-AngusAsPope:{locator=popebubble}N R UPNC0EDNHNVCR K C006WECTBY CKEUTNK0B, B NHTEPHETE#line:b8ae4f
-AngusAsPope:{locator=popebubble}4T0 BP0DE KAK U0PYQNV0 M0% 3ANHTEPEC0BAHH0CTJ B0 MH0F0L DPYF0L CBEPXECTECTBEHH0L XEPHE.#line:5971d0
-AngusAsPope:{locator=popebubble}N DAV0 MHE T0, HAD 4EM M0SH0 3ADYMATJCR,#line:0e3f6a
-AngusAsPope:{locator=popebubble}4T0-T0, 4T0 TJ1 M0F 6J1 PA3BEH4ATJ NVN Y3HATJ...#line:c99f6a
-AngusAsPope:{locator=popebubble}HE 3HA%, DYMA%, B KAK0L T0 MEPE GT0 CUACV0 MEHR.#line:f44959
+AngusAsPope:{locator=popebubble}testing out my psychic abilities in the pantry #line:2e21f6
+AngusAsPope:{locator=popebubble}made me really interested in both paranormal stuff and science. #line:13e904
+AngusAsPope:{locator=popebubble}and i joined a skeptic society on the internet #line:b8ae4f
+AngusAsPope:{locator=popebubble}and that kinda ruined me on a lot of other supernatural bullshit. #line:5971d0
+AngusAsPope:{locator=popebubble}and it gave me something to solve #line:0e3f6a
+AngusAsPope:{locator=popebubble}something you could debunk or know... #line:c99f6a
+AngusAsPope:{locator=popebubble}i dunno. it saved me a little bit i guess. #line:f44959
 <<close>>
 <<tell AngusConstellation:Whale MoveCamera>>
 <<wait 1.2>>
-AngusAsWhale: N3-3A T0F0, 4T0 KT0-T0 TAK K TE6E 0TH0CNTCR, #line:0a1e82
-AngusAsWhale: TJ1 M0SEQJ N CAM HA4ATJ 0TH0CNTJCR K CE6E UV0X0, #line:a35b31
-AngusAsWhale: H0, B V%60M CVY4AE. HNKAKNX UPN3PAK0B NVN 60FA. #line:8c70cf
+AngusAsWhale: cuz when someone does all that stuff to you #line:0a1e82
+AngusAsWhale: it can like make you do some bad things to yourself #line:a35b31
+AngusAsWhale: but anyway yeah. no ghosts or god. #line:8c70cf
 <<close>>
 <<tell AngusConstellation:Bell MoveCamera>>
 <<wait 1.2>>
-MaeAsBell: T0 ECTJ... #line:038b16
-MaeAsBell: MHE KASETCR, 4T0 ECVN 6J1 MHE UPNQV0CJ SNTJ C GTNM, #line:fbbddc
-MaeAsBell: T0 R 6J1 F0PA3D0 0X0THEE X0TEVA U0BEPNTJ B 60FA... NVN HE4T0 #line:a50ede
-MaeAsBell: TJ1 X0TJ B0 4T0-HN6YDJ BEPNQJ? #line:67a22c
+MaeAsBell: So like... #line:038b16
+MaeAsBell: I feel like if i'd been through that #line:fbbddc
+MaeAsBell: I'd be *more* likely to want to believe in god or... something #line:a50ede
+MaeAsBell: do you believe in anything at all? #line:67a22c
 <<close>>
 <<tell AngusConstellation:Whale MoveCamera>>
 <<wait 1.2>>
-AngusAsWhale: GM, HY, B C03BE3DNR #line:fdf03d
-AngusAsWhale: R HE BEP%, 4T0 TAM ECTJ KNT #line:2c2a30
-AngusAsWhale: H0 R, GM, BEP% B CYWECTB0BAHNE 3BE3D #line:bc5495
-AngusAsWhale: N 4T0 KNTA TYDA U0MECTNVN V%DN #line:ca936e
+AngusAsWhale: um well so like the constellations #line:fdf03d
+AngusAsWhale: i don't believe there's a whale out there #line:2c2a30
+AngusAsWhale: but i uh believe that the stars exist #line:bc5495
+AngusAsWhale: and that people put the whale there #line:ca936e
 <<close>>
 <<tell AngusConstellation:BirdPope MoveCamera>>
 <<wait 1.2>>
-AngusAsPope:{locator=popebubble}TNUA, R HE 3HA%#line:d00115
-AngusAsPope:{locator=popebubble}MJ1 X0P0QN B PNC0BAHNN VNHNL 4EPE3 UP0MESYTKN MESDY 3BE3DAMN,#line:f947e8
-AngusAsPope:{locator=popebubble}6YDT0 MJ1 NCKATEVN Y30P0B N HAK0HEO HAX0DNM 3AK0H0MEPH0CTN#line:f0c90d
-AngusAsPope:{locator=popebubble}N MJ1 CV0BH0 BKVADJ1BAEM B HNX HAQY DYQY N MJ1CVN,#line:403e81
-AngusAsPope:{locator=popebubble}CAMN T0F0 HE BEDAR.#line:d291bc
-AngusAsPope:{locator=popebubble}TAK 4T0 R BEP% B0 BCEVEHHY%, K0T0P0L HET DEVA#line:03f673
-AngusAsPope:{locator=popebubble}N B V%DEL, K0T0PJ1M ECTJ.#line:e647c6
+AngusAsPope:{locator=popebubble}like i dunno #line:d00115
+AngusAsPope:{locator=popebubble}we're good at drawing lines through the spaces between stars #line:f947e8
+AngusAsPope:{locator=popebubble}like we're pattern-finders, and we'll find patterns #line:f0c90d
+AngusAsPope:{locator=popebubble}and we like really put our hearts and minds into it #line:403e81
+AngusAsPope:{locator=popebubble}and even if we don't mean to. #line:d291bc
+AngusAsPope:{locator=popebubble}so i believe in a universe that doesn't care #line:03f673
+AngusAsPope:{locator=popebubble}and people who do. #line:e647c6
 <<close>>
 <<tell AngusConstellation:Cat MoveCamera>>
 <<wait 1.2>>
-MaeAsCat: NCKATEVN Y30P0B. #line:863334
-MaeAsCat: R 4YBCTBY%, CV0BH0 ECTJ MH0SECTB0 TEX, KT0 HE 3HAET, 4T0 0HN HAQVN 60FA #line:0d62aa
-MaeAsCat: H0, TNUA, 60F HAQEV NX #line:a8d8be
-MaeAsCat: BP0DE KAK, K0FDA 0HN U0UADAVN B CNTYAONN HE N3 VY4QNX, KAK TJ1 #line:89043f
+MaeAsCat: pattern-finders. #line:863334
+MaeAsCat: i feel like a lot of people don't think they found god #line:0d62aa
+MaeAsCat: but like god found them #line:a8d8be
+MaeAsCat: like, when they were having bad times like you did #line:89043f
 <<close>>
 <<tell AngusConstellation:Whale MoveCamera>>
 <<wait 1.2>>
-AngusAsWhale: 60F HNK0FDA HE HAX0DNV MEHR #line:2b9b3d
-AngusAsWhale: R SNV B U0VH0M 0DNH04ECTBE B KVAD0B0L, #line:a61fa4
-AngusAsWhale: U0KA CUYCTR HECK0VJK0 VET #line:e06946
-AngusAsWhale: MEHR HE HAQEV FPEFF. #line:e75982
-AngusAsWhale: HY, TNUA, #line:b75643
-AngusAsWhale: 3BE3DJ1 6YDYT BNCETJ TAM N DAVJQE, N NM UVEBATJ HA HAC, #line:16ccc1
-AngusAsWhale: H0 GT0T KNT 04EHJ DASE KVEBJ1L. #line:d56ef3
+AngusAsWhale: god never did #line:2b9b3d
+AngusAsWhale: i was completely alone in the pantry #line:a61fa4
+AngusAsWhale: but a few years later #line:e06946
+AngusAsWhale: Gregg did. #line:e75982
+AngusAsWhale: so like #line:b75643
+AngusAsWhale: the stars can stay up there and not give a shit about us #line:16ccc1
+AngusAsWhale: but this whale is pretty cool. #line:d56ef3
 <<close>>
 <<tell AngusConstellation:Bell MoveCamera>>
 <<wait 1.2>>
-MaeAsBell: TJ1 04EHJ X0P0QNL N YMHJ1L, AHFYC. #line:ed3d91
+MaeAsBell: you're an extremely good and smart person, Angus. #line:ed3d91
 <<close>>
 <<tell AngusConstellation:BirdPope MoveCamera>>
 <<wait 1.2>>
-AngusAsPope:{locator=popebubble}R CTAPA%CJ 6J1TJ TAKNM.#line:cc9321
-AngusAsPope:{locator=popebubble}H0 R HE YMHEE 0CTAVJHJ1X.#line:20d45c
+AngusAsPope:{locator=popebubble}i try. #line:cc9321
+AngusAsPope:{locator=popebubble}but i'm no more than anyone else. #line:20d45c
 <<close>>
 <<set $did_angus_constellations to 1>>
 <<irisOut 1 wait>>
@@ -195,26 +195,26 @@ colorID: 0
 position: 757,198
 ---
 <<tell LongPaw Hide>>
-Mae: GT0 CBRWEHHNK, #line:367798
-Mae: 0H DJ1QNT 0FHEM #line:4b617e
-Angus: 0, 0H HACT0RWNL. #line:ce971c
-Angus: TNUA, 0H CYWECTB0BAV B PEAVJH0CTN #line:acf5e1
-Mae: PY6EVV0 #line:635893
-Mae: UAMRTHNK EMY CT0NT 3A OEPK0BJ% #line:9f6a47
-Angus: 0, MJ1 B HEE HE X0DNM #line:7fe301
-    ->TB0R CEMJR X0DNVA B OEPK0BJ? #line:071cc8
-        Angus: T0VJK0 HA CBADJ6J1, U0X0P0HJ1 N B DVNHHELQY% H04J #line:a0db99
-        Mae: DYMA%, UEPB0E N BT0P0E HE C4NTAETCR #line:84e2f0
-        Mae: U0T0MY 4T0 GT0 *MEP0UPNRTNR* #line:32f156
-    ->TJ1 C0BCEM HE 3HAEQJ CB0NX CBRTJ1X? #line:d1d82d
-        Angus: HE, M0R CEMJR HE X0DNT B OEPK0BJ. #line:3cc47e
-        Angus: DVR MEHR CBRTJ1E GT0... GG... K0CM0HABTJ1 N UNCATEVN. #line:0be37c
-        Mae: GT0 04EHJ 3A6ABH0. #line:34b8b9
-        Angus: GX. #line:ea75c3
-Mae: M0R MAMA CEL4AC PA60TAET B OEPKBN. #line:ede375
-Mae: R T0VK0M HE X0SY TYDA VET C 14 NVN 15. #line:415748
-Angus: 0HA HE UP0TNB? #line:b4b7db
-Mae: DEVAET BND, 4T0 HET. #line:732a09
+Mae: It’s a pope #line:367798
+Mae: he breathes fire #line:4b617e
+Angus: oh this one is real #line:ce971c
+Angus: or at least the dude is #line:acf5e1
+Mae: Rubello #line:635893
+Mae: there's a statue of him outside church #line:9f6a47
+Angus: Oh, we never went there. #line:7fe301
+    ->did your family go to church? #line:071cc8
+        Angus: weddings and funerals and longest night, basically #line:a0db99
+        Mae: i don't think those first two count. #line:84e2f0
+        Mae: those are like *events* #line:32f156
+    ->do you not know your saints at all? #line:d1d82d
+        Angus: nah. none of my family were into it. #line:3cc47e
+        Angus: my saints were all like... uh... astronauts and authors. #line:0be37c
+        Mae: That sounds really funny. #line:34b8b9
+        Angus: eh. #line:ea75c3
+Mae: my mom works up at the church now. #line:ede375
+Mae: I haven't gone really since I was like 14 or 15. #line:415748
+Angus: does she mind? #line:b4b7db
+Mae: she pretends not to. #line:732a09
 [[Check]]
 ===
 title: Bell
@@ -223,22 +223,22 @@ colorID: 0
 position: 1006,183
 ---
 <<tell LongPaw Hide>>
-Mae: 0K, GT0 K0V0K0V. #line:880c35
-Mae: N B CEPEDNHE GT0T FVA3, #line:bc3cbf
-Mae: CM0TPRWNL HA TE6R #line:4b709a
-Angus: 0KEL, GT0 GG... #line:811a42
-Angus: R 4YTKA 3HA% 0 HEM N3 KABEP-AVJ60M0B UP0FPECCNBH0F0 P0KA #line:77bff3
-    ->DYMA%, HACTYUNT K0HEO CBETA, K0FDA 0H 3A3B0HNT #line:e6512b
-        Mae: B GT0M ECTJ CMJ1CV. GT0 6YDET PEAVJH0 FP0MK0. #line:14645a
-        Angus: B K0CM0CE HET 3BYKA #line:edb89b
-        Angus: T0 ECTJ, HY, UPAKTN4ECKN HET 3BYKA. 06J14H0.. #line:50d56b
-        Mae: U04EMY-T0 GT0 3BY4NT PEAVJH0 CTPEMH0. #line:288149
-        Angus: HY, U0 KPALHEL MEPE, GT0 3HA4NT, #line:3eec9f
-        Angus: 4T0 GT0T K0V0K0V HE 3A3BEHNT HAC D0 CMEPTN. #line:efc173
-    ->DYMA%, TJ1 YMNPAEQJ, K0FDA 0H 3B0HNT N CM0TPNT HA TE6R #line:2321d0
-        Angus: HY, DEPJM0. #line:a9bf11
-        Angus: 0H D0CTAT04H0 BJ1C0K, 4T06J1 U0CT0RHH0 HA6V%DATJ 3A BCEMN HAMN, DA? #line:99897c
-        Mae: 4EPT U06EPN. #line:ade669
+Mae: ok that’s a bell. #line:880c35
+Mae: and in the middle is this eye #line:bc3cbf
+Mae: lookin’ at you. #line:4b709a
+Angus: ok that’s uh...  #line:811a42
+Angus: I know this one a little from like prog rock album covers #line:77bff3
+    ->i think the world ends when it rings #line:e6512b
+        Mae: that makes sense. it's gonna be really loud. #line:14645a
+        Angus: there's no sound in space #line:edb89b
+        Angus: i mean like basically no sound. usually. #line:50d56b
+        Mae: that sounds really scary for some reason. #line:288149
+        Angus: well at least it means #line:3eec9f
+        Angus: we're not gonna get rung to death by a bell. #line:efc173
+    ->i think you die when it rings when it's looking at you #line:2321d0
+        Angus: well, crap #line:a9bf11
+        Angus: it's high up enough it's kinda always looking at all of us, right? #line:99897c
+        Mae: goddamn. #line:ade669
 [[Check]]
 ===
 title: EnterLevel
@@ -247,21 +247,21 @@ colorID: 0
 position: 414,-55
 ---
 <<tell LongPaw Hide>>
-Angus: X0P0Q0. HALDN MHE C03BE3DNR. #line:2231f1
-Angus: U0F0DN, C03BE3DNR 6YDYT HACT0RWNE NVN UPNDYMAHHJ1E? #line:93489f
-Mae: T0VJK0 TE, K0T0PJ1E R U0MH% #line:6f3928
-Mae: NVN TE, K0T0PJ1E MHE CHNVNCJ #line:648c2c
-Mae: YX #line:6664c4
-Angus: 6E3 PA3HNOJ1. #line:7f166b
+Angus: Alright. Find me some constellations. #line:2231f1
+Angus: Wait, are these gonna be real ones or fake ones? #line:93489f
+Mae: Just ones I remember #line:6f3928
+Mae: or dreamed that one time #line:648c2c
+Mae: ugh #line:6664c4
+Angus: Whichever. #line:7f166b
 <<if $did_chazokov_star_visits > 0>>
-	Mae: U0MHNQJ MNCTEPA 4A30K0BA? #line:3b8a7d
-	Angus: AFA! Y4NTEVJ ECTECTBEHHJ1X HAYK. #line:07fd25
-	Mae: 0H SNBET B AHDEPXNVV, N Y HEF0 ECTJ TEVECK0U HA KPJ1QE #line:04214f
-	Mae: N R T04H0 BNDEVA HECK0VJK0 3BE3D 4EPE3 HEF0. #line:f8a9e7
-	Angus: GT0 KPYT0. TEVECK0UJ1 - GT0 KPYT0. #line:695b26
-	Angus: B0T 6J1 Y MEHR 6J1V TEVECK0U. #line:d485ca
+	Mae: Remember Mr. Chazokov? #line:3b8a7d
+	Angus: Yeah! Science teacher. #line:07fd25
+	Mae: He lives in Underhill and has a telescope on his roof #line:04214f
+	Mae: and I totally saw some stars through it. #line:f8a9e7
+	Angus: That’s cool. Telescopes are cool. #line:695b26
+	Angus: Wish I had a telescope. #line:d485ca
 <<endif>>
-Mae: 0KEL, U0CM0TPNM... #line:b2a0c8
+Mae: ok let’s see... #line:b2a0c8
 <<tell LongPaw Show>>
 ===
 title: Cat
@@ -270,28 +270,28 @@ colorID: 0
 position: 1275,196
 ---
 <<tell LongPaw Hide>>
-Mae: GT0 K0T #line:cce07f
-Mae: N3 HEF0 T0P4AT CTPEVJ1 #line:28e94b
-Mae: N 0H F0HNTCR 3A AVMA30M. #line:9417ab
-Angus: 0, R EF0 3HA%. HE M0FY BCU0MHNTJ NMR. #line:3885b5
-Angus: 0H SNV B... U0MHNQJ NCT0PNN 0 VECH0M 60FE? #line:596918
-    ->DA! #line:98c827
-        Mae: M0L DEDYQKA PACCKA3J1BAV MHE NCT0PNN UP0 ADNHY #line:fff0e3
-        Angus: 0X, X0P0Q0 #line:4d7cd9
-    ->HET? #line:7a3ad8
-        Angus: GM, TAM 6J1VA OEVAR KY4A NCT0PNL #line:3535ee
-        Angus: B 06WEM, 6J1VA TAKAR ADNHA N... #line:7d0768
-        Mae: DA, T04H0! ADNHA N 3AMEP3QEE 03EP0! #line:7c4876
-        Angus: DA, GT0 0DHA N3 HNX. #line:6b7ea6
-Angus: K0P04E, TAM 6J1V K0T #line:19642d
-Angus: V%6NV BCE 6VECTRWEE N PA3FYVNBATJ U0 VECY #line:8102c1
-Angus: 0TVN4H0 B0P0BAV #line:785a4f
-Mae: 0, BAY, T04H0, B DETCTBE R HA3J1BAVA EF0 S0U0K0T #line:45f651
-Angus: B 06WEM, 0H YKPAV 6PNVVNAHT Y K0P0VR N EF0 3ACTPEVNVN N3 VYKA, #line:432fe2
-Angus: H0 0H 6J1V XNTP%WNL N V0BKNL, TAK 4T0 BJ1UPJ1FHYV N3 CB0EF0 TEVA #line:93056c
-Angus: N CTAV 6ECCMEPTHJ1M, BP0DE T0F0 #line:7259ff
-Mae: B0T KAK. HEUV0X0. #line:86d250
-Angus: 04EHJ HEUV0X0. #line:c843d2
+Mae: It’s a cat #line:cce07f
+Mae: he’s got arrows sticking out of him #line:28e94b
+Mae: and he’s chasing a diamond. #line:9417ab
+Angus: oh I know this one. don't remember his name. #line:3885b5
+Angus: he lived uh... you remember the stories about the forest god? #line:596918
+    ->yeah! #line:98c827
+        Mae: my granddad used to tell me adina stories #line:fff0e3
+        Angus: oh ok yeah #line:4d7cd9
+    ->no?  #line:7a3ad8
+        Angus: uh it was like a whole bunch of stories #line:3535ee
+        Angus: there was this person Adina, and- #line:7d0768
+        Mae: oh yeah! Adina and the Frozen Lake! #line:7c4876
+        Angus: yeah that's one of them. #line:6b7ea6
+Angus: anyway this cat was in there #line:19642d
+Angus: liked shiny things, was good at getting through the forest #line:8102c1
+Angus: was really good at stealing #line:785a4f
+Mae: oh wow yeah I used to call him Asscat when i was little #line:45f651
+Angus: well then he stole a diamond from a king and got arrowed to death #line:432fe2
+Angus: but he was slick enough that he jumped out of his body #line:93056c
+Angus: and became immortal or something #line:7259ff
+Mae: huh. decent. #line:86d250
+Angus: extremely decent. #line:c843d2
 [[Check]]
 ===
 title: Whale
@@ -300,30 +300,30 @@ colorID: 0
 position: 1550,200
 ---
 <<tell LongPaw Hide>>
-Mae: GT0 KNT #line:5a9ad5
-Mae: N 0H DEPSNT HA CB0EL CUNHE TNUA BECJ MNP #line:d21e1f
-Angus: HN4EF0 CE6E, UE4AVJKA #line:502bae
-    ->AFA #line:0cc545
-        Mae: TNUA, 60VJQAR 0TBETCTBEHH0CTJ. #line:80b242
-        Angus: KNT HA GT0 CAM U0DUNCAVCR??? #line:437375
-        Mae: DYMA%, UP0CT0 TAK 6J1V0 BCEFDA. #line:7cf8f3
-        Angus: YYYYYZ. #line:7f160b
-    ->U04EMY? #line:08f5ca
-        Angus: U04EMY 0H D0VSEH DEPSATJ BECJ MNP? #line:7cf605
-        Angus: GT0 SE SYTK0 HE4ECTH0! #line:4e9c06
-        Mae: XA-XA, DA. #line:61c392
-        Angus: U0HRTH0E DEV0, GT0 YDPY4AET. #line:20d81c
-Angus: V0FN4H0 U0NHTEPEC0BATJCR, 3A4EM V%DN UPNDYMAVN GT0. #line:27ec1f
-Angus: B CMJ1CVE, NMEHH0 GT0. #line:94699e
-Angus: KT0 UPN BNDE KNTA PEQNV TAK0L "0H D0VSEH 4T0-T0 HECTN HA CE6E" #line:0666e9
-    ->HY, KNTJ1 D0B0VJH0 60VJQNE. #line:96585a
-        Angus: N B 4EM GT0T KNT UVABAET? #line:1f4ea4
-        Mae: B K0CM0CE! #line:adf585
-        Angus: DYMA%, FVYU0 3VNTJCR HA DPEBHNX V%DEL. #line:d4b517
-    ->0HN HE 3HAVN, 4T0 TAK0E 3EMVR. #line:10f6ea
-        Angus: AFA, H0, TNUA, #line:5e12b1
-        Angus: R SE HE UPEDCTABVR% HEU0HRTHJ1E MHE BEWN B 06PA3E KNTA. #line:f231bf
-        Mae: M0F 6J1 U0UP060BATJ! #line:e843b5
+Mae: it’s a whale #line:5a9ad5
+Mae: and it’s got like the world on its back #line:d21e1f
+Angus: oh wow that's sad #line:502bae
+    ->yeah #line:0cc545
+        Mae: kind of a lot of responsibility. #line:80b242
+        Angus: did the whale consent to this??? #line:437375
+        Mae: i think it just always was that way. #line:7cf8f3
+        Angus: ooooof. #line:7f160b
+    ->why? #line:08f5ca
+        Angus: why does it have to carry the whole world? #line:7cf605
+        Angus: like, that's really unfair! #line:4e9c06
+        Mae: ha ha yeah. #line:61c392
+        Angus: that is legitimately upsetting. #line:20d81c
+Angus: you gotta wonder why people made these up. #line:27ec1f
+Angus: i mean, like, these specifically. #line:94699e
+Angus: who saw a whale and was like "needs to be carrying something" #line:0666e9
+    ->i mean whales are pretty big. #line:96585a
+        Angus: but what's the whale swimming in? #line:1f4ea4
+        Mae: Space! #line:adf585
+        Angus: I guess it's dumb to get mad at ancient people. #line:d4b517
+    ->they didn't know what the earth was. #line:10f6ea
+        Angus: yeah but like #line:5e12b1
+        Angus: i don't assume everything i don't understand is a whale. #line:f231bf
+        Mae: you could start! #line:e843b5
 [[Check]]
 ===
 title: Check

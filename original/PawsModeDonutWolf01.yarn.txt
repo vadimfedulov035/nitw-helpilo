@@ -3,11 +3,11 @@ tags:
 colorID: 0
 position: -128,294
 ---
-MaePaws: FPEFF. #line:28e3ea
-MaePaws: GT0 CAMJ1E BASHJ1E U0H4NKN. #line:77aec1
-GreggPaws: R HED0CT0NH. #line:e3b49e
-MaePaws: [shake=.03]CKV0HN CB0% F0V0BY, TJ1, FPR3HJ1L VNC![/shake] #line:711abe
-MaePaws: MJ1 NMEEM DEV0 C 4EM-T0 60VJQNM, 4EM BCE MJ1. #line:4a7829
+MaePaws: Gregg. #line:28e3ea
+MaePaws: These are the most important donuts. #line:77aec1
+GreggPaws: I am unworthy. #line:e3b49e
+MaePaws: [shake=.03]Bow your head, you dirty fox![/shake] #line:711abe
+MaePaws: We are in the presence of something greater than either of us. #line:4a7829
 ===
 title: Donut1
 tags: 
@@ -15,11 +15,11 @@ colorID: 0
 position: 116,308
 ---
 <<animateBloomIntensity .5 5>>
-MaePaws: 0, FVY604ALQNL TEMHELQNL 60F. #line:03bab9
-MaePaws: GTN U0H4NKN CAMN U0 CE6E UVAHETA. #line:25061a
-GreggPaws: R 6J1 YMEP N U0UAV B U0H4NK. #line:24893b
-MaePaws: R 6J1VA MEPTBA, H0 U0H4NK 0DAPNV MEHR SN3HJ%. #line:eae8f2
-GreggPaws: [size=1.2][shake=.03]BCR CVABA U0H4NKAM.[/shake][/size] #line:b9d47f
+MaePaws: Oh deepest darkest god. #line:03bab9
+MaePaws: These donuts are a planet unto themselves. #line:25061a
+GreggPaws: I've died and gone to donut. #line:24893b
+MaePaws: I was dead but the donut gave me life. #line:eae8f2
+GreggPaws: [size=1.2][shake=.03]All glories to the donut.[/shake][/size] #line:b9d47f
 ===
 title: Donut2
 tags: 
@@ -27,12 +27,12 @@ colorID: 0
 position: 347,327
 ---
 <<animateBloomIntensity 1 5>>
-GreggPaws: BEVN4ALQNL CEKPET U0H4NKA - EF0 CEPEDNHA. #line:24631b
-MaePaws: CEPEDNHA - DJ1PA. #line:7a1785
-GreggPaws: 0HA - HN4T0, 0KPYSEHH0E [wave]BCEM.[/wave] #line:a0fec6
-MaePaws: H0 R FPYWY, K0FDA D06NPA%CJ D0 CEPEDNHJ1. #line:543931
-MaePaws: UP0CT0 SYEQJ B03DYX. #line:25ff62
-GreggPaws: HE, TNUA, DJ1PA 3ACTABVRET TE6R OEHNTJ U0H4NK. #line:9e4ba4
+GreggPaws: The donut's best secret is its middle. #line:24631b
+MaePaws: The middle is a hole. #line:7a1785
+GreggPaws: It's nothing, surrounded by [wave]everything.[/wave] #line:a0fec6
+MaePaws: But I'm sad when I get to the middle. #line:543931
+MaePaws: Just chomping air. #line:25ff62
+GreggPaws: Naw dude, like the hole makes you appreciate the donut. #line:9e4ba4
 ===
 title: Donut3
 tags: 
@@ -41,16 +41,16 @@ position: 574,294
 ---
 <<animateBloomIntensity 2 5>>
 <<set $paw_shake to 2>>
-GreggPaws: DJ1PA YD06HA DVR DEPSAHNR! #line:cee9e5
-MaePaws: DA. KAK EWE TJ1 C06NPAEQJCR 6PATJ BEWN, #line:f60a78
-MaePaws: ECVN B HNX HET DJ1P0K. #line:2decce
-GreggPaws: HE, GT0 KAK [wave]K0HTPACT.[/wave] #line:bfeecc
-GreggPaws: TNUA, HE4T0 N HN4T0. #line:98203f
-GreggPaws: N HN4T0, TNUA, U0M0FAET TE6E CXBATNTJCR. #line:a3d167
-GreggPaws: 3A HE4T0. #line:fe6a5f
-GreggPaws: DEPJM0, HA CEKYHDY D0 MEHR D0QV0. #line:8519e8
-MaePaws: 4YBAK, GT0 CTAH0BNTCR FVY60KNM. #line:0eb009
-GreggPaws: GT0 U0H4NKN F0B0PRT. #line:f100da
+GreggPaws: Another thing, the hole is a handy grip! #line:cee9e5
+MaePaws: Yes. How else are you going to pick things up #line:f60a78
+MaePaws: If they don't have holes in them. #line:2decce
+GreggPaws: Naw, it's like a [wave]contrast.[/wave] #line:bfeecc
+GreggPaws: Like something and nothing. #line:98203f
+GreggPaws: And the nothing, like, helps you get a grip. #line:a3d167
+GreggPaws: On the something. #line:fe6a5f
+GreggPaws: Crap, I had it for a second. #line:8519e8
+MaePaws: Dude, this is getting deep. #line:0eb009
+GreggPaws: It's the donuts talking. #line:f100da
 
 ===
 title: Donut4
@@ -60,14 +60,14 @@ position: 836,303
 ---
 <<animateBloomIntensity 3.5 5>>
 <<set $paw_shake to 4>>
-MaePaws: [shake=.02]DYMA%, R M0FY BNDETJ UP0QV0E N 6YDYWEE.[/shake] #line:4d5ed2
-MaePaws: [shake=.02]DYMA%, R M0FY BNDETJ P0SDEHNE N CMEPTJ BCEX BEWEL.[/shake] #line:802281
-GreggPaws: [shake=.02]R M0FY BNDETJ B3PJ1B C0VHOA.[/shake] #line:6e487b
-MaePaws: [shake=.02]MJ1 U0D KALZ0M?[/shake] #line:88e349
-GreggPaws: [shake=.02]HET, GT0 UP0CT0 04EHJ[/shake] #line:754b35
-GreggPaws: [shake=.02]04EHJ[/shake] #line:199cff
-GreggPaws: [shake=.02]X0P0QNE U0H4NKN,[/shake] #line:03c75b
-GreggPaws: [shake=.02]4EV.[/shake] #line:fd293f
+MaePaws: [shake=.02]I think I can see the past and future.[/shake] #line:4d5ed2
+MaePaws: [shake=.02]I think I can see the birth and death of all things.[/shake] #line:802281
+GreggPaws: [shake=.02]I can see the sun exploding.[/shake] #line:6e487b
+MaePaws: [shake=.02]Are we high?[/shake] #line:88e349
+GreggPaws: [shake=.02]No, these are just very[/shake] #line:754b35
+GreggPaws: [shake=.02]very[/shake] #line:199cff
+GreggPaws: [shake=.02]good donuts,[/shake] #line:03c75b
+GreggPaws: [shake=.02]dude.[/shake] #line:fd293f
 ===
 title: Donut5
 tags: 
@@ -76,12 +76,12 @@ position: 1077,301
 ---
 <<animateBloomIntensity 4.5 5>>
 <<set $paw_shake to 6>>
-MaePaws: [shake=.03]R HAQEV NDEAVJHJ1L U0H4NK.[/shake] #line:c86a2b
-GreggPaws: [shake=.04]4YBNXA, R U0H4NK.[/shake] #line:64a784
-MaePaws: [shake=.05]U 0 H 4 N K[/shake] #line:99a1f5
-GreggPaws: [shake=.06]B 0 V K[/shake] #line:171f8f
-MaePaws: [shake=.07]CEDVAET K0VECHNOY[/shake] #line:fcda30
-GreggPaws: [shake=.08]B U0H4NK0BJ1L AD!!![/shake] #line:3dced7
+MaePaws: [shake=.03]I have achieved perfect donut.[/shake] #line:c86a2b
+GreggPaws: [shake=.04]Dude, I am donut.[/shake] #line:64a784
+MaePaws: [shake=.05]D O N U T[/shake] #line:99a1f5
+GreggPaws: [shake=.06]W O L F[/shake] #line:171f8f
+MaePaws: [shake=.07]RIDE THE CHARIOT[/shake] #line:fcda30
+GreggPaws: [shake=.08]TO DONUT HELL!!![/shake] #line:3dced7
 <<fadeOutSound DonutWolfMusic 2>>
 <<fadeOut 2 wait>>
 <<scene DonutWolfExterior>>

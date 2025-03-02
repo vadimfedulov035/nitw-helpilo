@@ -11,17 +11,17 @@ position: 159,578
 <<setAnimBool Molly flashlight 1>>
 <<playOneShot event:/playground/flashlight_on MollyFlashlightSound>> 
 Mae: -_- #line:6fe5bc
-Molly: UPNBET, MGL. DABH0 HE BNDEVNCJ. #line:b17506
-Mae: GL. 4T0 TJ1 3DECJ DEVAEQJ? 60VJQE HE4EM 3AHRTJCR? #line:7837da
-Molly: R UATPYVNP0BAVA N YBNDEVA TE6R HA GT0L CTAP0L DETCK0L UV0WADKE. #line:8773c7
-Mae: N 4T0 C T0F0? :\ #line:0a6724
+Molly: Hello Mae. Been awhile. #line:b17506
+Mae: Hey. What are you doing out here? Nothing better to do? #line:7837da
+Molly: I was out here doing my rounds and I saw you in the very off-limits playground. #line:8773c7
+Mae: So? :\ #line:0a6724
 <<setAnimBool Molly hip 1>>
-Molly: CADNCJ B MAQNHY, MGL. #line:95f681
-Mae: HET. :| #line:954d55
-Molly: MGL, TJ1 X04EQJ UP0BECTN CB0% UEPBY% H04J B T%PJME? #line:ac8356
+Molly: Get in the car, Mae. #line:95f681
+Mae: No. :| #line:954d55
+Molly: You want to spend your first night back in jail, Mae? #line:ac8356
 <<close>>
 <<wait 2>>
-Mae: HET. :( #line:abb682
+Mae: No. :( #line:abb682
 <<set $night to 1>>
 <<set $act to 1>>
 <<set $day to 0>>
@@ -35,9 +35,9 @@ colorID: 0
 position: 306,141
 ---
 <<freezePlayer>>
-Mae: UP0QV0 BCEF0 VNQJ 2 F0DA, KAK R YEXAVA 0TC%DA. #line:28bef4
-Mae: N3 F0P0DA, NME% B BNDY, A HE N3 GT0L DETCK0L UV0WADKN. #line:b7e70d
-Mae: Y MEHR HA4NHA%T UYTATJCR MJ1CVN. UP0CT0 3AUNQY BCE. #line:078aae
+Mae: It's only been 2 years since I lived here. #line:28bef4
+Mae: Not in this playground, Possum Springs I mean. #line:b7e70d
+Mae: This is all getting jumbled. I should write it down. #line:078aae
 <<close>>
 //journal time!//
 <<close>>
@@ -53,16 +53,16 @@ colorID: 0
 position: 657,628
 ---
 <<if $playground_branch is 0>>
-	Mae: GL, BAY! 0KEL! #line:0a840e
-	Mae: TEUEPJ HAD0 B306PATJCR HA 6AQH% #line:584f5c
-	Mae: N R CM0FY UP0CK0VJ3HYTJ U0 UP0B0DY UPRM0 B F0P0D! #line:8c0d38
+	Mae: Hey wow! Ok! #line:0a840e
+	Mae: Now to the top of the tower #line:584f5c
+	Mae: and I can take that wire right into town! #line:8c0d38
 	<<set $playground_branch to 1>>
 <<else>>
-	Mae: HADE%CJ, HNKT0 HE PY6NV DEBEPJR UEPED D0M0M. #line:0f3849
-	Mae: R TAK 3VNVA MNCTEPA UEHDEPC0HA, #line:55af68
-	Mae: UPJ1FAR B0KPYF N 6EFAR U0 VNHNRM UEPEDA4. #line:c30542
-	Mae: DA VADH0, KASDJ1L GT0 DEVAET. #line:165351
-	Mae: GT0 T0T SE TP0TYAP. #line:ea9a33
+	Mae: I hope no one cut the tree down out front of the house. #line:0f3849
+	Mae: I used to make Mr. Penderson so mad #line:55af68
+	Mae: jumping all over it and running on the powerlines. #line:c30542
+	Mae: Whatever, everyone does it. #line:165351
+	Mae: Practically another sidewalk. #line:ea9a33
 <<endif>>
 
 ===
@@ -73,26 +73,26 @@ position: 28,925
 ---
 <<if $playground_boat_top is 0>>
     <<lookUp Mae>>
-    Mae: KASETCR, VECTHNOA NC4E3VA. #line:c5bef9
-    Mae: ECVN 6J1 R M0FVA 3AVE3TJ HA BEPX GT0L QTYKN... #line:7016fc
-    Mae: YX. #line:a8986a
+    Mae: Looks like the ladder's gone. #line:c5bef9
+    Mae: If I could just get to the top of this thing... #line:7016fc
+    Mae: Ugh. #line:a8986a
     <<wait 1>>​ #line:7bcefc
     <<lookDirection Mae .5 .5>>
     Mae: <o> #line:59827c
     <<cameraLookAt LookAtTree 1.5>>
     <<wait 1>>
-    Mae: K0FDA R 6J1VA EWE PE6EHK0M, R BCE HNKAK HE M0FVA 3AVE3TJ HA GT0 DEPEB0. #line:9c568a
-    Mae: 6PEBHA C ONZPAMN N3DEBAVNCJ HAD0 MH0L. #line:6f111b
-    Mae: 6PEBHA N DPYFNE DETN. #line:4923ba
+    Mae: I could never make it up onto that tree when I was a kid. #line:9c568a
+    Mae: The number logs mocked me. #line:6f111b
+    Mae: The logs and the other kids. #line:4923ba
     <<wait 1>>
-    Mae: U0CM0TPNM, CM0FY VN R UPEDCTABNTJ GT0... #line:f59071
+    Mae: Lemme see if I can visualize this... #line:f59071
     <<tell TripleJumpVisualization Show>>
     <<wait 2>>
-    Mae: XMMMM. XMMMM. #line:c5dfbf
-    Mae: HE M0FY UEPECTATJ GT0 DEVATJ. DASE HA CEKYHDY. #line:107bdd
-    Mae: HYSEH D0CTAT04HJ1L NMUYVJC. #line:f0223b
-    Mae: DYMA%, R CM0FY GT0 CDEVATJ. #line:be5445
-    Mae: 6EF N UPJ1S0KUPJ1S0KUPJ1S0K! \o/ #line:322c91
+    Mae: Mmhmm. Mmhmm. #line:c5dfbf
+    Mae: Can't stop running while I do this. Not even for a second. #line:107bdd
+    Mae: Gotta have enough momentum. #line:f0223b
+    Mae: I think I can do it. #line:be5445
+    Mae: Run and jumpjumpjump! \o/ #line:322c91
     <<lookNearest Mae>>
     Mae: _o_ #line:e01304
     <<cameraFollowPlayer 1>>
@@ -101,26 +101,26 @@ position: 28,925
 <<else>>
     <<lookDirection Mae .5 .5>>
     <<if $playground_boat_top is 1>>
-        Mae: M0SET, MHE CT0NT UP0CT0 CDATJCR, DASE HE UJ1TARCJ? #line:04bf34
+        Mae: Maybe I should just give up without even really trying? #line:04bf34
         <<set $playground_boat_top += 1>>
     <<endif>>
-    Mae: XMM. #line:c1da68
-    -> X0P0Q0, DABALTE U0UP06Y% EWE PA3, 6EF N UPJ1S0K-UPJ1S0K-UPJ1S0K. #line:ae91fd
+    Mae: Hmm. #line:c1da68
+    -> Ok let's try this run and jump-jump-jump thing one more time. #line:ae91fd
         <<lookNearest Mae>>
-    -> U0F0DN, MHE EWE PA3 GT0 CDEVATJ? #line:2a0d97
+    -> Wait, what do I need to do again? #line:2a0d97
         Mae: <o> #line:552de5
         <<cameraLookAt LookAtTree 1.5>>
         <<wait 1>>
         <<tell TripleJumpVisualization Show>>
         <<wait 2>>
-        Mae: HE M0FY UEPECTATJ 6ESATJ, U0KA HE CDEVA% GT0. HN HA CEKYHDY. #line:f0a03f
-        Mae: 6EF N UPJ1S0KUPJ1S0KUPJ1S0K! \o/ #line:fa2a90
+        Mae: Can't stop running while I do this. Not even for a second. #line:f0a03f
+        Mae: Run and jumpjumpjump! \o/ #line:fa2a90
         <<lookNearest Mae>>
         Mae: _o_ #line:5075bb
         <<cameraFollowPlayer 1>>
         <<tell TripleJumpVisualization Hide>>
-    -> K 4EPTY GT0. HEHABNSY. #line:a98d50
-        Mae: U0D0SDN, M0SET, ECVN R U0UP06Y% C 3AKPJ1TJ1MN FVA3AMN... #line:e4b395
+    -> Screw this. I hate this. #line:a98d50
+        Mae: Wait, maybe if I try it with my eyes closed... #line:e4b395
         Mae: U_U #line:9bdec9
         <<close>>
         <<fadeOut 1 wait>>
@@ -146,9 +146,9 @@ position: 28,925
         <<fadeIn 1>>
         <<if $playground_warp is 0>>
             <<wait 1>>
-            Mae: ZA-A-A-A-A-A-A-A-A-AHTACTNKA! #line:295af7
-            Mae: R D0VSHA DEVATJ GT0 U0CT0RHH0. #line:adc15e
-            Mae: M0SET, R M0FY U0VY4NTJ CB0N UPABA CEL4AC!  #line:d4d2ff
+            Mae: Faaaaaaaaaantastic! #line:295af7
+            Mae: I should do this all the time! #line:adc15e
+            Mae: Maybe I can get my driver's license now! #line:d4d2ff
             Mae: _o_ #line:7902ec
             <<set $playground_warp to 1>>
         <<else>>
@@ -161,15 +161,15 @@ tags:
 colorID: 0
 position: -186,1339
 ---
-Mae: L0 X0X0! #line:206119
+Mae: Ahoy! #line:206119
 ===
 title: BoatWheel.2
 tags: 
 colorID: 0
 position: 46,1378
 ---
-Mae: T04H0 U0MH%, KAK PAHJQE EDBA M0FVA D0CTATJ D0 BEPXYQKN QTYPBAVA. #line:801ee5
-Mae: A EWE T04H0 3HA%, 4T0 C TEX U0P R EDBA VN CNVJH0 BJ1P0CVA. #line:e3b124
+Mae: I definitely remember barely reaching the top of this wheel. #line:801ee5
+Mae: I definitely remember barely growing since then. #line:e3b124
 <<end>>
 ===
 title: X_BoatWheel.3
@@ -177,9 +177,9 @@ tags:
 colorID: 0
 position: 533,1542
 ---
-Mae: TYT EWE 6J1VA BEPTYQKA DVR NFPJ1 B KPECTNKN-H0VNKN. #line:ffcebf
-Mae: U0T0MY 4T0 3A GTNM TJ1 N UPNX0DNQJ B 0FP0MHJ1L K0PA6EVJHJ1L 3AM0K. #line:08dc9c
-Mae: 4T06J1 U0NFPATJ B TYUY% NFPY TYUELQNM CU0C060M. #line:fc68de
+Mae: There used to be one of those spinning block tic tac toe things. #line:ffcebf
+Mae: Because that's why you come to a giant boatcastle. #line:08dc9c
+Mae: To play a dumb game in the dumbest way. #line:fc68de
 <<end>>
 ===
 title: Fence.1
@@ -187,8 +187,8 @@ tags:
 colorID: 0
 position: 1006,430
 ---
-Mae: DA VADH0. #line:2df14a
-Mae: HE DYMA%, 4T0 Y MEHR XBATNT CNV 3A6PATJCR C%DA... #line:6e109a
+Mae: OH COME ON. #line:2df14a
+Mae: Don't think I have the upper body strength to climb this... #line:6e109a
 
 ===
 title: Fence.2
@@ -196,10 +196,10 @@ tags:
 colorID: 0
 position: 1257,425
 ---
-Mae: TE6E MEHR HE 0TBADNTJ, U0CCYM CUPNHFC. #line:26e566
-Mae: R TB0R K0P0VEBA. #line:4c299b
+Mae: You can't keep me out, Possum Springs. #line:26e566
+Mae: I am queen of you. #line:4c299b
 Mae: ... #line:b6f2e5
-Mae: B03M0SH0, R M0FVA 6J1 CUPJ1FHYTJ C GT0F0 TEVEZ0HH0F0 CT0V6A... #line:e5d6c2
+Mae: ...could probably just jump off this telephone pole... #line:e5d6c2
 <<end>>
 ===
 title: BeneathTree
@@ -207,8 +207,8 @@ tags:
 colorID: 0
 position: 1600,579
 ---
-Mae: BAY. R HE 6J1VA 3DECJ 0K0V0 10 VET. #line:184317
-Mae: TYT HABEPH0 B006WE HNK0F0 HE 6J1V0 BCE GT0 BPEMR. #line:c7c4d2
+Mae: Wow. I haven't been here in maybe 10 years. #line:184317
+Mae: And apparently no one else has. #line:c7c4d2
 <<end>>
 ===
 title: BoatBottom.1
@@ -216,29 +216,29 @@ tags:
 colorID: 0
 position: 1038,896
 ---
-Mae: R HE U0HNMA%, PADN 4EF0 0HN C%DA UPNX0DNVN. #line:493668
-Mae: UP0CT0 PADN K0PA6VR-3AMKA? #line:d8577d
-Mae: 60VJQAR EF0 4ACTJ PA3PYQEHA. #line:783c57
-Mae: TEUEPJ GT0 UP0CT0 PA3BAVNHJ1, FDE CTPAHHJ1E SNB0THJ1E DEVA%T DETEL. #line:874e03
+Mae: I don't know what they were going for here. #line:493668
+Mae: Some sort of boat castle? #line:d8577d
+Mae: Most of it's gone now. #line:783c57
+Mae: Just a thing for weird animals to eat and have babies in. #line:874e03
 ===
 title: BoatBottom.2
 tags: 
 colorID: 0
 position: 1315,973
 ---
-Mae: NHTEPECH0, KAKNE SNB0THJ1E 3DECJ DEVA%T DETEL? #line:4d5de0
-Mae: FPR3HJ1E 0U0CCYMJ1. H04HJ1E 3MEN. MNCTN4ECKNE 3BEPN BCEX Z0PM. #line:a71d6a
+Mae: I wonder what kind of weird animals have babies in there? #line:4d5de0
+Mae: Dirt Possums. Night Snakes. Mystery beasts of all shapes. #line:a71d6a
 ===
 title: BoatBottom.3
 tags: 
 colorID: 0
 position: 1570,1019
 ---
-Mae: U0MH%, 60LZPEHD KGTN D0MNHK0 UPNB0DNV EE C%DA #line:98f7aa
-Mae: U0VN3ATJCR, A U0T0M - PACCTATJCR. #line:6cc600
-Mae: A HA CVEDY%WNL DEHJ KGTN BJ1PBAVA N3 H0CA CNHDN KVAPK CEPESKY #line:956c4e
-Mae: B T0PF0B0M OEHTPE "Z0PT V%CEH". #line:d51eba
-Mae: BCE GT0 MECT0 UP0UNTAH0 P0MAHTNK0L. #line:75ec6c
+Mae: I remember Cathy Daminco's boyfriend took her here #line:98f7aa
+Mae: to make out and then break up.	 #line:6cc600
+Mae: And then the next day Cathy pulled out Cindy Clark's nosering #line:956c4e
+Mae: at the Fort Lucenne Mall. #line:d51eba
+Mae: This entire area is so full of romance. #line:75ec6c
 // would be funny if two rats scurried out of the boat just then//
 
 ===
@@ -247,7 +247,7 @@ tags:
 colorID: 0
 position: 1819,1103
 ---
-Mae: GL! MNCTEP CH0PKV3 EWE C0XPAHNVCR.  #line:5822ae
+Mae: Hey! You can still see Mr. Snorkles on this! #line:5822ae
 <<end>>
 ===
 title: TowerTopB
@@ -255,8 +255,8 @@ tags:
 colorID: 0
 position: 620,232
 ---
-Mae: B0T N VNHNR GVEKTP0UEPEDA4. #line:971b67
-Mae: U0PA BEPHYTJCR D0M0L. #line:bda3b3
+Mae: Here's a powerline. #line:971b67
+Mae: Let's go home. #line:bda3b3
 ===
 title: EnterLevel
 tags: 

@@ -78,35 +78,35 @@ tags:
 colorID: 2
 position: -1238,11922
 ---
-Mae: UPNBET? TJ1 MEPTB? #line:f4662f
-Mae: TE6R UPNDABNV0? #line:d53b30
-Rick: HE, MAVAR, R UP0CT0 4NH% EE. #line:6b596b
-Mae: PA3BE HE 0UACH0 VESATJ U0D MAQNH0L HA X0VME? #line:5a298a
-Rick: R HE 60%CJ CMEPTN, MAVAR. #line:22295d
-Mae: R B3P0CVAR. #line:1954e3
-Rick: CMEPTJ 60NTCR MEHR. #line:407d31
-Mae: AFA, VADH0, H0 #line:623ef1
-Rick: R U0BEDY GTY MAQNHY UPRM0 HA CTAPYXY C K0C0L. #line:e49503
-Mae: X0P0Q0. #line:df7c2d
+Mae: Hello? Are you dead? #line:f4662f
+Mae: Did you get run over? #line:d53b30
+Rick: Nah kid I’m just fixin' 'er up. #line:6b596b
+Mae: Isn't it dangerous to be under a car on a hill? #line:5a298a
+Rick: I do not fear death, kid. #line:22295d
+Mae: Adult. #line:1954e3
+Rick: Death fears me. #line:407d31
+Mae: yeah ok but #line:623ef1
+Rick: I'll drive this car right over the grim reaper. #line:e49503
+Mae: ok. #line:df7c2d
 ===
 title: Rick_00_01
 tags: 
 colorID: 2
 position: -943,11925
 ---
-Mae: TJ1 SNBEQJ 3DECJ NVN BP0DE T0F0? #line:7e7b53
-Rick: AFA, MAVAR, U0MECTJE PEKKAFE UPRM0 3A T060L. #line:85c6c7
-Mae: R B3P0CVAR. #line:d61d6b
-Mae: U0F0DN-KA... TAK TJ1 PNK PEKKAFE? #line:a7f8c3
-Mae: TNUA, UYFA%WNL CMEPT0H0CHJ1L PNK PEKKAFE? #line:f78c2a
-Rick: DA MAVAR. R GT0 0H. 0H GT0 R. #line:ae98da
-Mae: KAK FPYUUA? #line:c5542c
-Rick: 0TVN4H0. BJ1CTYUVEHNR. 6ECUVATH0E UNB0. #line:a69cc9
-Rick: 0CTAH0BNCJ KAK-HNTJ Y 6APA N U0CM0TPNQJ! #line:735e8d
-Mae: MHE EWE HE NCU0VHNV0CJ 21. #line:d8ba2e
-Rick: 00Y, HE B0VHYLCR, MAVAR. TJ1 CK0P0 CTAHEQJ BASH0L UEPC0H0L. #line:f3f1b5
-Mae: R B3P0CV... #line:920151
-Mae: HY N VADH0. #line:7977ae
+Mae: Do you live here or something? #line:7e7b53
+Rick: Yeah kid, Rekkage Manor is right behind you. #line:85c6c7
+Mae: Adult. #line:d61d6b
+Mae: Wait a sec- are you Rick Rekkage? #line:a7f8c3
+Mae: Like, The Creeping Deadlies Rick Rekkage? #line:f78c2a
+Rick: Yeah kid. I’m him. He’s me. #line:ae98da
+Mae: How’s the band? #line:c5542c
+Rick: Great. Playin' out. Free beer. #line:a69cc9
+Rick: Stop by the bar some night and see us! #line:735e8d
+Mae: I’m not 21 yet. #line:d8ba2e
+Rick: Aw don't worry kid. You'll be a real person soon. #line:f3f1b5
+Mae: Adu- #line:920151
+Mae: whatever. #line:7977ae
 ===
 title: Rick_00_02
 tags: 
@@ -123,10 +123,10 @@ position: -3327,11121
 <<if $stoop_kid < 1>>
     <<set $stoop_kid to 1>>
     <<set $stoop_kid_done to 1>>
-    Mae: UPNBET, DNTR. #line:f0018d
-    StoopKid: 4T0 TE6E HAD0? #line:a553e3
-    [[TB0R KP0-0-0-0-0BJ.|YourBlood]] #line:dc9b81
-    [[4T0 DEVAEQJ?|WhatAreYouDoing]] #line:30abbd
+    Mae: Hello child. #line:f0018d
+    StoopKid: What do you want? #line:a553e3
+    [[Your blooooood.|YourBlood]] #line:dc9b81
+    [[What are you doing?|WhatAreYouDoing]] #line:30abbd
 <<endif>>
 ===
 title: WhatAreYouDoing
@@ -134,8 +134,8 @@ tags: demo
 colorID: 0
 position: -3551,11405
 ---
-StoopKid: CM0TP% HA 6EV0K. 6EVKN CTPAHHJ1E. #line:396d47
-Mae: HA CAM0M DEVE, 0HN UPNM0DHNBQNECR KPJ1CJ1. #line:3e6f14
+StoopKid: Watching squirrels. Squirrels are weird. #line:396d47
+Mae: They're really just fancy rats. #line:3e6f14
 [[End]]
 ===
 title: YourBlood
@@ -143,10 +143,10 @@ tags: demo
 colorID: 0
 position: -3094,11390
 ---
-StoopKid: KAK MH0F0? #line:2a6e3d
-Mae: BCR. KASDY% KAUV% CVADEHJK0L, CVADEHJK0L DETCK0L KP00000BN #line:2bd53d
-StoopKid: BJ1 4T0, M0HCTP, VEDN? #line:616bbd
-Mae: CAMAR CTPAQHAR N3 BCEX VEDN. #line:ed4479
+StoopKid: How much of it? #line:2a6e3d
+Mae: All of it. Every last drop of sweet, sweet child bloooood. #line:2bd53d
+StoopKid: Are you a monster lady? #line:616bbd
+Mae: The most monster of all ladies. #line:ed4479
 [[End]]
 ===
 title: End
@@ -154,17 +154,17 @@ tags: demo
 colorID: 0
 position: -3327,11697
 ---
-StoopKid: MAMA F0B0PNT, 4T0 MHE HEVJ3R C T060L PA3F0BAPNBATJ. #line:6fa4fb
-Mae: U04EMY? #line:3d407f
-StoopKid: U0T0MY 4T0 0DHASDJ1 TJ1 U06NVA K0F0-T0, N HNKT0 HE 3HAET, K0FDA TJ1 CDEVAEQJ GT0 CH0BA. #line:5d0540
-Mae: GT0 6J1V0 DABHJ1M-DABH0. #line:5f9ef2
-StoopKid: 0HA F0B0PNT, B TB0EL SN3HN 6J1V0 U0VH0 UEPEMEH, H0 TJ1 6P0CNVA NX HA U0M0LKY. #line:5a47be
-Mae: MNVJ1E BEWN F0B0PNT TB0R MATJ. #line:127f20
-StoopKid: 0HA F0B0PNT, 4T0 TJ1 DASE HE UJ1TAVACJ, K0FDA 0TUPABVRVACJ B K0VVEDS #line:ab3db2
-StoopKid: N TEUEPJ TJ1 YUYCTNVA U0CVEDHNL QAHC HE 3AK0H4NTJ SN3HJ B 3A6P0QEHH0M BAF0HE U0E3DA. #line:d9ee7d
-Mae: BAY, MEVKAR. TB0R MAMA C06NPAETCR UY6VNK0BATJCR B FA3ETE? #line:5adfb7
-StoopKid: R HE 6YDY F0B0PNTJ C T060L, ECVN X04EQJ. #line:b7d16d
-Mae: UEPEDAL MAME 0T MEHR UPNBET. #line:daf366
+StoopKid: My mom says I'm not supposed to talk to you. #line:6fa4fb
+Mae: Why? #line:3d407f
+StoopKid: Because one time you hurt somebody and no one knows when you might do it again. #line:5d0540
+Mae: That was a long time ago. #line:5f9ef2
+StoopKid: She says you had a lot going for you but you threw it in the garbage. #line:5a47be
+Mae: Your mom sounds great. #line:127f20
+StoopKid: She says you didn't even try when you went to college #line:ab3db2
+StoopKid: and now you've blown your only chance to avoid living in an abandoned train car. #line:d9ee7d
+Mae: Wow, kid. Is your mom going to publish a newsletter? #line:5adfb7
+StoopKid: I'm not going to talk to you if that's ok. #line:b7d16d
+Mae: Tell your mom I said hey. #line:daf366
 <<addToJournal UnderhillStoopKid>>
 ===
 title: Varney_Demo_00
@@ -172,13 +172,13 @@ tags:
 colorID: 0
 position: -1264,11066
 ---
-Varney: ECVN 0H CBAVNTCR N UP06JET MHE 0KH0, R 6E3 K0VE6AHNL U0LDY B CYD. #line:f9228e
-Mae: KT0? #line:ece263
-Varney: 0H! CT0NT HA KPJ1QE C0CEDHEF0 3DAHNR! #line:6a71ef
-Mae: ECVN 0H YUADET C TAK0L BJ1C0TJ1 #line:9bb150
-Mae: BAM UPNDETCR BJ16NPATJ, C KAK0L N3 4ACTEL EF0 TEVA BJ1 6YDETE CYDNTJCR. #line:d4fabb
-Varney: C T0L, K0T0PAR U060VJQE. #line:4705ba
-Chazokov: {align=middle,locator=icanhearyou}R TE6R CVJ1QY, TJ1 3HAEQJ!#line:9a24a6
+Varney: If he falls through one of my windows I will not hesitate to take legal action. #line:f9228e
+Mae: Who? #line:ece263
+Varney: Him! Up there on the roof next door! #line:6a71ef
+Mae: If he falls from that roof through a window #line:9bb150
+Mae: you're going to have to pick which part of him you're going to sue. #line:d4fabb
+Varney: Whichever piece is biggest. #line:4705ba
+Chazokov: {align=middle,locator=icanhearyou} I can hear you, you know! #line:9a24a6
 <<set $varney to 1>>
 ===
 title: Varney_Demo_01
@@ -186,14 +186,14 @@ tags:
 colorID: 0
 position: -1016,11071
 ---
-Varney: TYU0L MEDBEDJ. #line:652333
+Varney: Stupid Bear. #line:652333
 ===
 title: ApplebaumBuilding
 tags: demo demo2
 colorID: 0
 position: -2508,11967
 ---
-Mae: U0MH% BPEMR, K0FDA Y CEMJN 6N 6J1V D0M, A HE KP0QE4HAR YDPY4A%WAR KBAPTNPA. #line:aabc92
+Mae: I remember when Bea's family had a house and not a tiny depressing apartment. #line:aabc92
 <<set $applebaum_building_done to 1>>
 ===
 title: ApplebaumStatue
@@ -214,11 +214,11 @@ tags: demo demo2
 colorID: 0
 position: -2140,11875
 ---
-Mae:{locator=applebaum}APH0VJD GUUV6AYM. #line:3fa2d1
-Mae:{locator=applebaum}BVADEV F0PH0D06J1BA%WEL K0MUAHNEL CT0 VET HA3AD. #line:aaa95f
-Mae:{locator=applebaum}UAUA CKA3AV, 4T0 0H 6J1V M0QEHHNK0M, HEHABNDRWNM UP0ZC0%3J1. #line:58c248
-Mae:{locator=applebaum}H0 MJ1 U0VY4NVN 6N6VN0TEKY! #line:c853d5
-Mae:{locator=applebaum}...K0T0PY% UPEBPATNVN B AUAPTAMEHTJ1! #line:c0bd1b
+Mae:{locator=applebaum}Arnold Applebaum. #line:3fa2d1
+Mae:{locator=applebaum}Owned the mining company like a thousand years ago. #line:aaa95f
+Mae:{locator=applebaum}Dad said he was a crook who hated the unions. #line:58c248
+Mae:{locator=applebaum}But we did get a library! #line:c853d5
+Mae:{locator=applebaum}...that got turned into apartments! #line:c0bd1b
 <<set $applebaum_statue to 1>>
 ===
 title: ApplebaumStatuePlaque
@@ -227,13 +227,13 @@ colorID: 0
 position: -1870,11874
 ---
 <<set $applebaum_statue to 2>>
-Mae:{locator=applebaum}XM. HE DYMA%, 4T0 R K0FDA-VN60 4NTAVA GTY MEM0PNAVJHY% D0CKY UPESDE. #line:1801df
-Mae:{locator=applebaum}APH0VJD A. GUUV6AYM.. #line:b726c8
-Mae:{locator=applebaum}"0TEO BCEX TPYDRWNXCR," #line:a61066
-Mae:{locator=applebaum}"DEDYQKA NX DETRM," #line:bb8651
-Mae:{locator=applebaum}"UPADEDYQKA DETRM GTNX DETEL..." #line:5d1f8a
-Mae:{locator=applebaum}GT0 UP0D0VSAV0CJ KAK0E-T0 BPEMR. #line:68839c
-Mae:{locator=applebaum}B03BEDEH 1910. #line:d374b1
+Mae:{locator=applebaum}Hm. Don't think I've ever read this plaque before. #line:1801df
+Mae:{locator=applebaum}Arnold A. Applebaum. #line:b726c8
+Mae:{locator=applebaum}"A father to all workers," #line:a61066
+Mae:{locator=applebaum}"a grandfather to their children," #line:bb8651
+Mae:{locator=applebaum}"a great-grandfather to those children's children..." #line:5d1f8a
+Mae:{locator=applebaum}It keeps going like that for awhile. #line:68839c
+Mae:{locator=applebaum}Erected 1910. #line:d374b1
 ===
 title: ApplebaumStatueBea
 tags: demo demo2
@@ -241,9 +241,9 @@ colorID: 0
 position: -1609,11867
 ---
 <<set $applebaum_statue to 3>>
-Mae:{locator=applebaum}Y 6N GT0T 4YBAK UPRM0 3A EE 0KH0M. #line:f1b7f5
-Mae:{locator=applebaum}U0CT0RHH0. #line:94720b
-Mae:{locator=applebaum}APH0VJD CTAVKEP6AYM. #line:ca006b
+Mae:{locator=applebaum}Bea has this dude right outside her window. #line:f1b7f5
+Mae:{locator=applebaum}Constantly. #line:94720b
+Mae:{locator=applebaum}Arnold Stalkerbaum. #line:ca006b
 <<unlockDoodle Stalkerbaum>>
 <<set $applebaum_statue_done to 1>>
 ===
@@ -252,22 +252,22 @@ tags:
 colorID: 2
 position: -1779,10972
 ---
-Council1: N ECVN MJ1 HE *HA4HEM* 3AHNMATJCR 3DECJ 6N3HEC0M, #line:db1a17
-Council1: 3DECJ *HE 6YDET* U0CCYM CUPNHFC. #line:dd68ab
-Council1: U0GT0MY MJ1 D0VSHJ1 DEVATJ BCE, 4T0 M0SEM, #line:321f84
-Council1: 4T06J1 ZNHAHC0BJ1L PJ1H0K 3AMETNV HAC! #line:b92858
-Council4: M0SET BEPHEMCR K TEME? #line:0080aa
-Council1: AFA, T0 ECTJ MJ1 BJ1DEVREM CPEDCTBA DVR C0XPAHEHNR CTATYN... #line:b6d57f
-Council3: FAPN, TJ1 HE CVYQAEQJ MEHR. #line:ec5f3d
-Council1: HE F0B0PN MHE, 4T0 R HE CVYQA% TE6R, GHDP%. #line:a10555
-Council3: 0HA. HE NMEET. D0CTAT04H0L. NCT0PN4ECK0L. OEHH0CTN. #line:e17e10
-Council2: TB0R 3ADHNOA HE NMEET D0CTAT04H0L NCT0PN4ECK0L OEHH0CTN!!!! #line:1aaeb0
-Council4: UAPHN, UAPHN. UPEKPATNTE. #line:6264dd
-Council2: BJ1 CU0PNTE CH0BA N CH0BA. #line:5bc381
-Council1: UPABDA? N KT0 BJ1NFPAV GT0T CU0P? #line:277766
-Council4: M0SET MJ1 YSE U0LDEM? #line:6a27fd
-Council1: X0P0Q0. #line:7cd579
-Council2: X0P0Q0. #line:3cb962
+Council1: and if we don't *START* getting businesses in here #line:db1a17
+Council1: there ain't gonna *BE* a possum springs. #line:dd68ab
+Council1: So we gotta do whatever we can do #line:321f84
+Council1: to get the market to notice us! #line:b92858
+Council4: can we get back to the topic at hand? #line:0080aa
+Council1: yeah, so we allocate funds to preserve the statue of- #line:b6d57f
+Council3: Gary, you're not hearing me. #line:ec5f3d
+Council1: Don't tell me I'm not hearing you, Andrew. #line:a10555
+Council3: It's NOT. OF. SUFFICIENT. HISTORICAL. NOTE. #line:e17e10
+Council2: Your ass is not of sufficient historical note!!!! #line:1aaeb0
+Council4: Guys, guys. Stop this. #line:6264dd
+Council2: This is the stoplight fight all over again. #line:5bc381
+Council1: Oh yeah? And remember who won that one? #line:277766
+Council4: Can we move on? #line:6a27fd
+Council1: FINE. #line:7cd579
+Council2: FINE. #line:3cb962
 <<close>>
 <<walk Council1 CouncilOffLeft>>
 <<walk Council2 CouncilOffLeft>>
@@ -283,8 +283,8 @@ tags:
 colorID: 2
 position: -327,10693
 ---
-Mae: 3DPACJTE. #line:0fd173
-Varney: 4T0 TJ1 DEVAEQJ HA M0EM KPJ1VJOE? #line:28d1a9
+Mae: Hello. #line:0fd173
+Varney: Whatcher doin' on my porch? #line:28d1a9
 <<set $varney_done to 1>>
 ===
 title: Varney_A2D1.1
@@ -293,17 +293,17 @@ colorID: 3
 position: -366,10923
 ---
 <<lookAt Varney Chazokov>>
-Varney: ECVN 0H CBAVNTCR N UP06JET MHE 0KH0, R 6E3 K0VE6AHNL U0LDY B CYD. #line:cbbe39
-Mae: KT0? #line:53d90d
-Varney: 0H! CT0NT HA KPJ1QE C0CEDHEF0 3DAHNR! #line:d1ba8c
+Varney: If he falls through one of my windows I will not hesitate to take legal action. #line:cbbe39
+Mae: Who? #line:53d90d
+Varney: Him! Up there on the roof next door! #line:d1ba8c
 <<lookAt Mae Chazokov>>
 Mae: <o> #line:0f8e1f
-Mae: ECVN 0H YUADET C TAK0L BJ1C0TJ1 #line:8d9af5
+Mae: If he falls from that roof through a window #line:8d9af5
 Mae: -_- #line:e73b60
-Mae: BAM UPNDETCR BJ16NPATJ, C KAK0L N3 4ACTEL EF0 TEVA BJ1 6YDETE CYDNTJCR. #line:ddfcac
-Varney: C T0L, K0T0PAR U060VJQE. #line:2de9e5
+Mae: you're going to have to pick which part of him you're going to sue. #line:ddfcac
+Varney: Whichever piece is biggest. #line:2de9e5
 Mae: o_o #line:2c0c05
-Chazokov: {align=middle,locator=icanhearyou} R BCE UPEKPACH0 CVJ1QY! #line:312fc9
+Chazokov: {align=middle,locator=icanhearyou} I can hear you, you know! #line:312fc9
 <<lookNearest Mae>>
 Mae: _o_ #line:9c885c
 ===
@@ -313,9 +313,9 @@ colorID: 3
 position: -336,11149
 ---
 <<lookAt Varney Mae>>
-Varney: HE U0MH%, 4T06 R UPNFVAQAV TE6R C%DA. #line:17fcbc
-Mae: N3BNHN. #line:75a29c
-Varney: GT0 YSACH0 HA TE6R U0X0SE. #line:7620c9
+Varney: I don't remember inviting you up here. #line:17fcbc
+Mae: Sorry. #line:75a29c
+Varney: This is awful familiar of you. #line:7620c9
 <<lookAt Varney Chazokov>>
 <<set $varney_done to 1>>
 ===
@@ -324,7 +324,7 @@ tags: demo2
 colorID: 2
 position: -3191,10548
 ---
-Mae: UPN3PAKN. #line:ee9444
+Mae: Ghosts. #line:ee9444
 <<unlockDoodle GhostLaundry>>
 <<set $underhill_laundry_done to 1>>
 ===
@@ -333,8 +333,8 @@ tags:
 colorID: 3
 position: -2932,10561
 ---
-Mae: CM0TPNTE, R UP0CT0 0CTABV% CB0% 0DESDY HA YVNOE, B D0SDVNBJ1L DEHJ. #line:a625ef
-Mae: GT0 SE DEQEB0E MJ1TJE! #line:b50df0
+Mae: see i'd just leave my laundry out on rainy days. #line:a625ef
+Mae: it's like a cheap wash! #line:b50df0
 <<set $underhill_laundry_done to 1>>
 ===
 title: Laundry_A3D2
@@ -342,7 +342,7 @@ tags:
 colorID: 4
 position: -2690,10561
 ---
-Mae: NHTEPECH0, 6EVKN KPADYT HNSHEE 6EVJE? #line:52a615
+Mae: Wonder if the squirrels ever steal undies? #line:52a615
 <<set $underhill_laundry_done to 1>>
 ===
 title: Laundry_A4D3
@@ -350,9 +350,9 @@ tags:
 colorID: 6
 position: -2444,10557
 ---
-Mae: MHE CT0NT U0CTP0NTJ CB0% UPA4E4HY%. #line:245b0a
+Mae: I should start doing my own laundry. #line:245b0a
 <<wait 2>>
-Mae: K0FDA-HN6YDJ. #line:e8d8f1
+Mae: sometime. #line:e8d8f1
 <<set $underhill_laundry_done to 1>>
 ===
 title: Varney_A1D2.1
@@ -360,9 +360,9 @@ tags:
 colorID: 2
 position: -96,10703
 ---
-Varney: GT0 M0R C06CTBEHH0CTJ. #line:3853c7
-Mae: H0 GT0 M0R-R-R YVNOA! #line:ba4baa
-Varney: TJ1 HE N3MEHNVACJ C TEX U0P, KAK 6J1VA PE6EHK0M. #line:519399
+Varney: This is my property. #line:3853c7
+Mae: but it's myyyyyy street! #line:ba4baa
+Varney: you ain't changed since you was a kid. #line:519399
 <<set $varney_done to 1>>
 ===
 title: Varney_A1D3.1
@@ -370,10 +370,10 @@ tags:
 colorID: 2
 position: 142,10705
 ---
-Varney: TJ1 3HAEQJ, 4T0 3DECJ R M0FY BU0VHE 3AK0HH0 TE6R UPNCTPEVNTJ? #line:65b539
-Mae: XA XA BJ1 HE CDEVAETE GT0F0 #line:4c550b
-Mae: R HRH4NVACJ C BAQEL K0QK0L. #line:60df6d
-Varney: GXXXXXX. #line:2d7c7c
+Varney: I can legally shoot you for being up here, ya know? #line:65b539
+Mae: ha ha you'd never #line:4c550b
+Mae: i used to babysit your cat. #line:60df6d
+Varney: ehhhhhh. #line:2d7c7c
 <<set $varney_done to 1>>
 ===
 title: Varney_A2D2.1
@@ -381,7 +381,7 @@ tags:
 colorID: 3
 position: -115,10931
 ---
-Varney: M0EL K0QKE HE HPABNTCR, K0FDA KT0-T0 CT0NT HA KPJ1VJOE. #line:1a0338
+Varney: My cat don't like folks on the porch. #line:1a0338
 <<set $varney_done to 1>>
 ===
 title: Varney_A2D3.1
@@ -389,8 +389,8 @@ tags:
 colorID: 3
 position: 108,10928
 ---
-Varney: N3-3A TE6R M0R C06AKA B0VHYETCR, #line:372199
-Varney: N 0HA MH0F0 CPET, K0FDA B0VHYETCR. #line:c1a640
+Varney: Yer gonna make my dog anxious, #line:372199
+Varney: and she poops a lot when she's anxious. #line:c1a640
 <<set $varney_done to 1>>
 ===
 title: Varney_A2D4.1
@@ -398,7 +398,7 @@ tags:
 colorID: 3
 position: 334,10934
 ---
-Varney: HE TP0SJ M0% TJ1KBY. #line:68ee9e
+Varney: Don't touch my pumpkin. #line:68ee9e
 <<set $varney_done to 1>>
 ===
 title: Varney_A3D1.1
@@ -406,8 +406,8 @@ tags:
 colorID: 4
 position: -367,11381
 ---
-Varney: M0R SEHA CB0NMN PYKAMN KPACNVA GT0 KPJ1VJO0. #line:14e776
-Varney: HE PA3MA3J1BAL U0 HEMY FPR3J. #line:c7eb38
+Varney: The missus varnished this porch herself. #line:14e776
+Varney: don't go trackin' mud all over it. #line:c7eb38
 <<set $varney_done to 1>>
 ===
 title: Varney_A3D2.1
@@ -415,16 +415,16 @@ tags:
 colorID: 4
 position: -143,11383
 ---
-Varney: R NFPA% HA 60VJQ0M 6AHDS0. B CTNVE KV0YXAMMEP. #line:aa7bfc
-Mae: UPABDA? R NFPA% HA 6ACY. #line:778364
-Mae: MJ1 D0VSHJ1 CJ1FPATJ BMECTE KAK-HN6YDJ! #line:38ec9d
-Varney: 3HAEQJ DVNHHY% 4EPHY% BYAVJ? #line:879994
-Mae: AFA! #line:3e0f00
-Varney: 3HAEQJ T0MA DYVEL? #line:8acfe8
-Mae: DA! M0L UAUA 060SAET EF0! #line:7fedac
-Varney: TJ1 3HAEQJ YNVVEPA FAPDEHA? #line:d295c9
-Mae: HE-A! #line:0d401e
-Varney: GX. #line:e17cfe
+Varney: I play a mean banjo. Clawhammer. #line:aa7bfc
+Mae: Really? I play bass. #line:778364
+Mae: we should play together sometime! #line:38ec9d
+Varney: you know Long Black Veil? #line:879994
+Mae: yep! #line:3e0f00
+Varney: you know Tom Dooley? #line:8acfe8
+Mae: yep! My dad likes that stuff! #line:7fedac
+Varney: you know Willer Garden? #line:d295c9
+Mae: nope! #line:0d401e
+Varney: eh. #line:e17cfe
 <<set $varney_done to 1>>
 ===
 title: Varney_A3D3.1
@@ -432,8 +432,8 @@ tags:
 colorID: 4
 position: 101,11385
 ---
-Varney: CK0P0 U0F0DA NCU0PTNTCR. #line:358dda
-Varney: K0CTJMN 4Y%. #line:f576f5
+Varney: Bad weather comin' soon. #line:358dda
+Varney: i feel it in my bones. #line:f576f5
 <<set $varney_done to 1>>
 ===
 title: Varney_A3D4.1
@@ -441,8 +441,8 @@ tags:
 colorID: 4
 position: 352,11380
 ---
-Varney: B GT0M F0DY PAH0 X0V0DAET. #line:dd7244
-Varney: HE CYVNT HN4EF0 X0P0QEF0. #line:d5c5bd
+Varney: Getting cold early this year. #line:dd7244
+Varney: don't bode well. #line:d5c5bd
 <<set $varney_done to 1>>
 ===
 title: Varney_A4D3.1
@@ -450,8 +450,8 @@ tags:
 colorID: 6
 position: 105,11612
 ---
-Varney: CHEF U0QEV. #line:9b6c3e
-Varney: U0X0SE B GT0M F0DY BCE 3AMETET. #line:b11cd3
+Varney: Snow comin'. #line:9b6c3e
+Varney: gonna be bad this year. #line:b11cd3
 <<set $varney_done to 1>>
 ===
 title: TriggerHarleysA2D3
@@ -477,39 +477,39 @@ tags:
 colorID: 0
 position: -1119,10486
 ---
-LizChandler: UPNBET, DEB04KA. #line:b4b9c8
-Mae: U0 3AK0HY R YSE B3P0CVAR. #line:02c37d
-LizChandler: 0Y, N3BNHN #line:884d50
-Mae: KT0 TJ1? #line:b6bf0d
-LizChandler: VN3. R SNVA 3DECJ. #line:f48fb9
-Mae: FDE? #line:f9cbbc
-LizChandler: B GT0M 3DAHNN. EWE D0 TB0EF0 P0SDEHNR. #line:fedcad
-Mae: U04EMY TJ1 UEPEEXAVA? #line:aeed10
-LizChandler: U0QVA B QK0VY, U06PEVA, CK0PEE. #line:512045
-Mae: T0 MECT0, FDE TJ1 CEL4AC SNBEQJ, HPABNTCR TE6E 60VJQE? #line:a00a31
-LizChandler: TAM KPACNB0. #line:4025e8
-LizChandler: B U0CCYM CUPNHFC T0SE. #line:b40194
-Mae: DYMA%, BCE B U0PRDKE. #line:00ab77
-LizChandler: BCE H0PMAVJH0. #line:2b4344
-Mae: AFA. D0B0VJH0 X0P0Q0. #line:9a1d40
-LizChandler: K0FDA R 6J1VA DEB04K0L #line:be88c8
-LizChandler: B TB0EM... #line:554087
-Mae: MHE 20. #line:b4ea41
-LizChandler: ...P0CTE... #line:923d65
-LizChandler: R HE CUAVA H04AMN, #line:984e0f
-LizChandler: 6ECU0K0RCJ 0 T0M, 4T0 CTATYR 0SNBET #line:efe50c
-LizChandler: N 3AVE3ET B M0E 0KH0. #line:1e8c5b
-Mae: 0, 60SE4KN. GT0 SYTK0. #line:76feef
-LizChandler: TJ1 HNK0FDA HE 3AX04EQJ YBNDETJ K0F0-T0, KT0 0QNBAETCR B03VE TB0EF0 0KHA. #line:c7d62d
-Mae: YS T04H0 HE MAFN4ECKNE 3VJ1E CTATYN. #line:a46d5d
-LizChandler: DA, HNKAK0E 3V0 NVN MAFNR HE D0VSHJ1 HAX0DNTJCR TAK 6VN3K0. #line:164328
-Mae: R SNBY HA 4EPDAKE. HNKT0 HE M0SET D06PATJCR D0 M0EF0 0KHA. #line:2b13a9
-LizChandler: GT0 X0P0Q0. #line:d8ceac
-Mae: HNKAKNE BAMUNPJ1 NVN K0VDYHJ1, NVN CKEVETJ1. #line:1c05bf
+LizChandler: Hey little girl. #line:b4b9c8
+Mae: I’m a legal adult. #line:02c37d
+LizChandler: oh sorry #line:884d50
+Mae: who are you? #line:b6bf0d
+LizChandler: Liz. I used to live here. #line:f48fb9
+Mae: where? #line:f9cbbc
+LizChandler: this building right here. Before you were born. #line:fedcad
+Mae: Why did you move away? #line:aeed10
+LizChandler: went to school, wandered off I guess. #line:512045
+Mae: do you like it better where you live now? #line:a00a31
+LizChandler: it’s nice. #line:4025e8
+LizChandler: Possum Springs is nice too. #line:b40194
+Mae: I think it’s alright. #line:00ab77
+LizChandler: It’s alright. #line:2b4344
+Mae: yeah. Pretty alright. #line:9a1d40
+LizChandler: When I was a girl #line:be88c8
+LizChandler: about your...  #line:554087
+Mae: I’m 20. #line:b4ea41
+LizChandler: ...height... #line:923d65
+LizChandler: I used to lay awake at night #line:984e0f
+LizChandler: worried that statue would come to life #line:efe50c
+LizChandler: and climb in my window. #line:1e8c5b
+Mae: oh geez. That’s spooky. #line:76feef
+LizChandler: You never want someone hanging around outside your window. #line:c7d62d
+Mae: not magical evil statues at least. #line:a46d5d
+LizChandler: yeah nothing evil or magic should get that close. #line:164328
+Mae: I live in the attic. No one can get to my window. #line:2b13a9
+LizChandler: That’s good. #line:d8ceac
+Mae: not even vampires or warlocks or skeleton men. #line:1c05bf
 <<wait 2>>
-Mae: CUACN60 3A 6ECEDY. #line:703e44
-LizChandler: TE6E CUACN60. #line:6ee2c7
-Mae: YBNDNMCR! #line:8b19af
+Mae: I’m glad we had this talk. #line:703e44
+LizChandler: Me too. #line:6ee2c7
+Mae: see ya! #line:8b19af
 <<set $liz_chandler_done to 1>>
 ===
 title: TriggerCityCouncil_A4D3
@@ -517,48 +517,48 @@ tags:
 colorID: 6
 position: -1538,10987
 ---
-Council1: ...GT0 HE C0BCEM 0TBET HA B0UP0C, K0VVNH. #line:92103d
-Council2: GT0 04EHJ X0P0QNL 0TBET HA B0UP0C. #line:68e664
-Council1: K0VN4ECTB0 KAMEHH0L C0VN HE UP06VEMA! #line:8267d1
-Council3: Y HAC HE XBATAET 4EPT0BJ1X FPY30BNK0B DVR HEE! #line:bee2c3
-Council1: BCE MAQNHJ1 CK0VJ3RT U0 GT0MY 4EPT0B0MY X0VMY! K0VVNH! #line:e0a14e
-Council4: CKV0HR%CJ K T0MY, 4T0 6J1 UP0CT0 UEPEKPJ1TJ D0P0FY, K0FDA YDAPNT QT0PM #line:5e2868
-Council2: DA, X0P0Q0. DABALTE UP0CT0 CDADNMCR. #line:d35b7f
-Council4: MJ1 HE CDAEMCR, K0VVNH!!! #line:b0b03f
-Council4: MHE UV0X0, TJ1 MEHR U0DPJ1BAEQJ! #line:78a6b6
-Council2: BCEF0 VNQJ UV0XNE MJ1CVN. GT0 TE6R HE U0D0PBET! #line:89ff8c
-Council3: U0D0PBET. #line:36794e
-Council1: B GT0T PA3, R HA CT0P0HE K0VVNH #line:9e04ce
-Council4: X0P0Q0, UPEKPACH0! GT0 UP0CT0 0TVN4H0, HE TAK VN! #line:4aaa00
-Council2: X0P0Q0, MJ1 UP0CT0 UEPEKP0EM BCE D0P0FN! #line:cbec18
-Council2: DABALTE UEPEKP0EM BECJ 4EPT0B F0P0D! #line:d1ea51
+Council1: ...that doesn’t really answer the question, Colleen. #line:92103d
+Council2: That very much does answer the question. #line:68e664
+Council1: the amount of rock salt isn’t the problem! #line:8267d1
+Council3: we don’t have enough damn trucks for this thing! #line:bee2c3
+Council1: cars slipsliding all up and down this goddamn hill! Colleen! #line:e0a14e
+Council4: half tempted to just close the road when the storm hits #line:5e2868
+Council2: oh yeah good. Let’s just give up. #line:d35b7f
+Council4: it’s not giving up Colleen!!! #line:b0b03f
+Council4: i’m sick of you undermining me! #line:78a6b6
+Council2: it’s a bad idea! That’s not undermining! #line:89ff8c
+Council3: it’s undermining. #line:36794e
+Council1: i’m on Colleen’s side on this one #line:9e04ce
+Council4: well that’s just great! That’s just peachy pie ain’t it! #line:4aaa00
+Council2: ok fine we’ll just close all the roads! #line:cbec18
+Council2: let’s close down the whole damn town! #line:d1ea51
 <<if $water_balloon_toss_percent > 50>>
-    Council2: TB0N NDEN BCEFDA *CAMJ1E* BASHJ1E #line:e1fcda
-    Council2: N *04EHJ* UP0DYMAHHJ1E. #line:475fbd
-    Council4: 4T0 3A... #line:770512
-    Council2: MJ1 EWE U0KNDAEMCR B0DRHJ1MN 60M604KAMN? #line:a0366d
-    Council2: R 4YTJ D0 CMEPTN HE 3AMEP3VA B UP0QVJ1L PA3! #line:288802
-    Council3: Y MEHR D0 CNX U0P HACM0PK. #line:438857
-    Council1: DYMA%, BCE C0FVACHJ1, 4T0 DVR B0DRHJ1X 60M604EK CVNQK0M X0V0DH0. #line:031e2f
-    Council2: DA, KELTVNH. CVNQK0M X0V0DH0 DVR 04EPEDH0L FVYU0L NDEN. #line:c137c7
+    Council2: your ideas are always the *most* important #line:e1fcda
+    Council2: and the *most* thought out. #line:475fbd
+    Council4: what the - #line:770512
+    Council2: we gonna do another water balloon toss? #line:a0366d
+    Council2: i nearly froze to death last time! #line:288802
+    Council3: i still have the sniffles. #line:438857
+    Council1: i think we can all agree it’s too cold for water balloons. #line:031e2f
+    Council2: yeah Cathleen. Too cold for another stupid idea. #line:c137c7
 <<endif>>
-Council4: NDN K 4EPTY K0VVNH!! #line:962d6c
-Council3: MJ1 M0SEM UP0CT0 HAHRTJ HECK0VJK0 4ACTHJ1X CHEF0Y60PWNK0B. #line:8bc48d
-Council2: ECVN BJ1 X0TNTE U0LTN UP0TNB C0%3A D.0.T., DEP3ALTE #line:c07723
-Council2: Y HAC ECTJ C0FVAQEHNR C 0KPYF0M N QTAT0M. #line:1251af
-Council1: B GT0T PA3 K0VVNH T0SE UPABA. #line:de4c90
-Council4: ECVN BJ1 DB0E C0FVACHJ1 B0 BCEM, U04EMY 6J1 BAM UP0CT0 HE U0SEHNTJCR?!? #line:ceb812
-Council2: YX! #line:260e01
-Council1: R CK0PEE YMPY! #line:92e750
-Council2: R VY4QE CV0MA% CE6E 6EDPEHHY% K0CTJ QVAK06V0K0M! #line:e0e201
-Council3: X0P0Q0, TEUEPJ, K0FDA BCE YVASEH0, 4T0 MJ1 6YDEM DEVATJ C D0P0F0L? #line:31276a
+Council4: go to hell Colleen!! #line:962d6c
+Council3: we could just hire some private plows. #line:8bc48d
+Council2: if you want to go against the D.O.T. union go right ahead #line:c07723
+Council2: we got agreements with the county and state. #line:1251af
+Council1: Colleen’s right on this one too. #line:de4c90
+Council4: if you two agree so much why don’t you just get married already?!? #line:ceb812
+Council2: UGH! #line:260e01
+Council1: I’d rather die!  #line:92e750
+Council2: I’d rather break my own femurs with a cinder block! #line:e0e201
+Council3: alright well now that’s settled, what are we doing about the road? #line:31276a
 <<wait 2>>
-Council4: UEPEPJ1B HA EDY? #line:b50c38
-Council1: 0TVN4HAR NDER! #line:21f156
-Council2: YMNPA% C F0V0DY #line:97c513
-Council3: BNDNQJ, MJ1 BCE EWE M0SEM UPNHNMATJ PEQEHNR! #line:a8db72
-Council1: XA-XA-XA! #line:db3a7d
-Council1: BJ1DBNFAEMCR, 0TPRD! #line:dde779
+Council4: break for food? #line:b50c38
+Council1: great idea! #line:21f156
+Council2: i’m starving #line:97c513
+Council3: see, we can still make decisions! #line:a8db72
+Council1: ha ha ha #line:db3a7d
+Council1: move out, troops! #line:dde779
 <<close>>
 <<walk Council1 CouncilOffLeft>>
 <<walk Council2 CouncilOffLeft>>

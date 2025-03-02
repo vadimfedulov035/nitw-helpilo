@@ -4,5 +4,5 @@ colorID: 0
 position: 665,376
 ---
 <<fadeOutMusic .1>>
-Gregg: 4YBNXA! CT0U! KAK0F0 XPEHA?! #line:96b811
+Gregg: Dude! Stop! What the hell! #line:96b811
 ===

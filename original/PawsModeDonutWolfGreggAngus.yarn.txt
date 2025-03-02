@@ -3,11 +3,11 @@ tags:
 colorID: 0
 position: 373,227
 ---
-Mae: NTAK, KAK TAM U0SNBAET HAQ CJ1H0K? #line:7097f6
-Angus: 0H B HAQEL F0CTNH0L. #line:2e49e3
-Mae: B GT0M BECJ 0H! #line:e7af48
-Mae: 0H D0B0VJH0 KPYT. #line:18b30e
-Angus: DA. #line:639bd2
+Mae: so how's our son working out? #line:7097f6
+Angus: he's in our living room. #line:2e49e3
+Mae: he sure is! #line:e7af48
+Mae: pretty great. #line:18b30e
+Angus: yep. #line:639bd2
 <<wait 1>>
 <<tell AngusFoodPaw Reach>>
 ===
@@ -16,9 +16,9 @@ tags:
 colorID: 0
 position: 624,230
 ---
-Mae: FPEFF, TJ1 YSACH0 TNXNL. #line:71e2fd
-Gregg: UP0CT0 EM. #line:2b39b6
-Mae: PAHJQE Y TE6R HE 6J1V0 UP06VEM C TEM, 4T06J1 0DH0BPEMEHH0 PA3F0BAPNBATJ N ECTJ #line:d8c8b0
+Mae: Gregg, you're awful quiet? #line:71e2fd
+Gregg: just eating. #line:2b39b6
+Mae: you've never had a problem talking and eating at the same time. #line:d8c8b0
 Gregg: ... #line:3f5db2
 Angus: ... #line:1613f8
 <<wait 1>>
@@ -29,13 +29,13 @@ tags:
 colorID: 0
 position: 57,118
 ---
-Mae: 60SE #line:fc33f5
-Mae: ECVN 0H B006WE CYWECTBYET, #line:ef7fdc
-Mae: GTN U0H4NKN #line:40365b
-Mae: TJ1 BEDJ HE PEVNFN03EH, DA, AHFYC? #line:7b91c4
-Angus: HET. #line:73426d
-Mae: U0H4NKN HNK0FDA HE 3ACTABVRVN TE6R UEPEDYMATJ? #line:851283
-Angus: HET. #line:794462
+Mae: oh god #line:fc33f5
+Mae: if god even exists #line:ef7fdc
+Mae: these donuts #line:40365b
+Mae: you're not religious, right angus? #line:7b91c4
+Angus: no. #line:73426d
+Mae: have donuts ever made you think twice? #line:851283
+Angus: no. #line:794462
 <<close>>
 <<wait 1>>
 <<tell GreggFoodPaw Reach>>
@@ -46,20 +46,20 @@ colorID: 0
 position: 868,228
 ---
 <<playOneShot event:/paws_mode_pizza/mae_pizza_sick>>
-Mae: YX. YSE T0QHNT 0T U0H4NK0B. #line:5e9ab6
+Mae: ugh. donut sick already. #line:5e9ab6
 <<wait 2>>
-Angus: KAKAR SE B0HJ. #line:626ab5
-Gregg: 4YBAK. #line:59774e
-Mae: B D0HAT BYVZE? #line:b65be7
-Angus: 0T T0L P060T0QTYKN. #line:a4e399
-Gregg: R DYMAV, TE6E U0HPABNTCR! #line:b640bf
-Gregg: R BEDJ B0HR% N HPABV%CJ TE6E! #line:6205a9
-Mae: DA! N T0, N DPYF0E BEPH0! #line:448949
-Mae: FPEFF U0TPATNV MH0F0 BPEMEHN N CNV HA GT0F0 P060TA, #line:0ac61c
-Mae: U0T0MY 4T0 DYMAV, 4T0 0H TE6E U0HPABNTCR. #line:76502a
-Angus: HET, 0H DEVAV GT0, U0T0MY 4T0 GT0 6J1V0 BECEV0. #line:a3d587
-Angus: HECM0TPR HN HA 4T0. #line:8bcf06
-Mae: 60SE. #line:c157dd
+Angus: it smells. #line:626ab5
+Gregg: dude. #line:59774e
+Mae: Donut wolf? #line:b65be7
+Angus: the robot thing. #line:a4e399
+Gregg: I thought you'd like it! #line:b640bf
+Gregg: I smell, and you like me! #line:6205a9
+Mae: yeah! to both of those things! #line:448949
+Mae: Gregg spent a lot of time and effort on that robot #line:0ac61c
+Mae: because he thought you'd love it. #line:76502a
+Angus: No, he did it because it was fun. #line:a3d587
+Angus: No matter what could happen. #line:8bcf06
+Mae: geez. #line:c157dd
 Gregg: ... #line:04a9ae
 <<wait 1>>
 <<tell AngusFoodPaw Reach>>
@@ -72,10 +72,10 @@ position: 1362,227
 <<playOneShot event:/paws_mode_pizza/mae_pizza_sick>>
 <<wait 2>>
 <<fadeOutMusic 10>>
-Mae: 0, 4EPT #line:b7ca56
+Mae: oh cripes #line:b7ca56
 <<wait 2>>
-Mae: 0, 4EPTNKN #line:f93047
-Mae: R UP0BAVNBA%CJ B HE60 #line:f01df7
+Mae: oh sweet cripes #line:f93047
+Mae: i'm falling into the sky #line:f01df7
 <<resumeAnimation PawsModeDonutWolfGreggAngus>>
 <<playOneShot event:/paws_mode_donut/donut_sick_transition>>
 <<wait 7>>
@@ -86,23 +86,23 @@ colorID: 0
 position: 1108,224
 ---
 <<playOneShot event:/paws_mode_pizza/mae_pizza_sick>>
-Mae: YYZ. MHE DYPH0. #line:4f56d6
+Mae: oof. feeling woozy. #line:4f56d6
 <<wait 2>>
-Mae: AHFYC, TJ1 BEDEQJ CE6R FPY60. #line:69d65b
-Angus: *R* BEDY CE6R FPY60? #line:bc221e
-Angus: MJ1 UJ1TAEMCR BJ16PATJCR 0TC%DA, #line:e5b751
-Angus: N3 K0SN B0H VE3EM, PA60TAR, #line:217e15
-Angus: N BDPYF TJ1, UPNTAHO0BJ1BAR, 3ARBVREQJCR B F0P0D #line:9ccd0b
-Angus: N FPEFF HA4NHAET BVAMJ1BATJCR N B0P0BATJ N3 CYUEPMAPKET0B #line:c5c724
-Gregg: N3 3A6P0QEHHJ1X! #line:749621
-Angus: N B0PYET AKKYMYVRT0PJ1 N3 MAQNH #line:40c4cf
-Gregg: N3 3A6P0QEHHJ1X! #line:583482
-Angus: N PA3PYQAET HAQY, N 6E3 T0F0, DEPJM0BY% KBAPTNPY. #line:8caf53
-Gregg: 6VNH. 4YBAK. 3ABR3J1BAL. #line:85cb59
-Mae: U0F0DN, A B 4EM TYT M0R BNHA? #line:d966a3
+Mae: Angus, you're being rude. #line:69d65b
+Angus: *I'M* being rude? #line:bc221e
+Angus: we're trying to get out of here #line:e5b751
+Angus: both working our asses off #line:217e15
+Angus: and you come waltzing back into town #line:9ccd0b
+Angus: and suddenly Gregg is breaking into grocery stores #line:c5c724
+Gregg: abandoned ones! #line:749621
+Angus: and like stealing car batteries #line:40c4cf
+Gregg: abandoned ones! #line:583482
+Angus: and messing up our already crappy apartment, #line:8caf53
+Gregg: hey. dude. c'mon. #line:85cb59
+Mae: wait, how is this my fault? #line:d966a3
 Angus: ... #line:883597
 Gregg: ... #line:89e6d2
-Mae: DA U0ZNF. R EM. #line:4357a7
+Mae: whatever. i'm eating. #line:4357a7
 <<wait 1>>
 <<tell GreggFoodPaw Reach>>
 <<tell AngusFoodPaw Reach>>

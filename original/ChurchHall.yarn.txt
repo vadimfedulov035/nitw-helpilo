@@ -3,9 +3,9 @@ tags: temp
 colorID: 4
 position: 435,718
 ---
-Mae: 0, DA. U0X0SE, MAMA YEXAVA 3A DEHJ. #line:1a7062
-Mae: HY 4T0 S. #line:90cd6d
-Mae: X0P0Q0, HE UPNDETCR QACTATJ U0 OEPKBN. #line:6e4ee2
+Mae: Oh huh. Looks like Mom's gone for the day. #line:1a7062
+Mae: Well geez. #line:90cd6d
+Mae: Glad I don't need to do any churchy stuff. #line:6e4ee2
 ===
 title: InitLevel
 tags: 

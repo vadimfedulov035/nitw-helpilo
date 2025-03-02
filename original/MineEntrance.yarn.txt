@@ -33,15 +33,15 @@ tags:
 colorID: 5
 position: -802,-1
 ---
-Angus: 4T0 S. VADH0. #line:56db02
-Bea: AHFYC! TJ1 CUAC HAC! #line:28987d
-Angus: GM, B CMJ1CVE, R CBESNL B03DYX Y4YRV #line:9093a1
-Angus: M0SET, GT0 UP0CT0 60VEE UPNRTH0E MECT0, 4T06J1 CD0XHYTJ 0T F0V0DA #line:9cd5ad
-Mae: BE3DE UPNRTHEE CD0XHYTJ, 4EM 3DECJ #line:1a80fc
-Bea: [wave=.05]R UP0CT0 X04Y YMEPETJ FDE-VN60 EWE[/wave] #line:15192a
-Mae: KVEB0. #line:29e11a
-Gregg: KVEB0. #line:0b40a7
-Angus: KVEB0. #line:a9de12
+Angus: ok. well. #line:56db02
+Bea: Angus! you saved us! #line:28987d
+Angus: uh i mean i found fresh air. #line:9093a1
+Angus: it might just be a nicer place to starve to death. #line:9cd5ad
+Mae: dying anywhere other than in here is nice. #line:1a80fc
+Bea: [wave=.05]I just wanna die anywhere else[/wave] #line:15192a
+Mae: nice. #line:29e11a
+Gregg: nice. #line:0b40a7
+Angus: nice. #line:a9de12
 <<close>>
 <<irisOut 1 wait>>
 <<scene MineWellTunnel>>
@@ -66,23 +66,23 @@ position: -1146,10
 <<flip Angus -1>>
 <<flip Bea -1>>
 <<flip Gregg -1>>
-Angus: U0X0SE, 0H 0UYCTNV VNZT BHN3. #line:80446b
-Angus: T0SE MHE, HE0SNDAHHJ1L U0B0P0T. #line:788dbf
-Angus: 0H YCVJ1QNT HAQE UPN6VNSEHNE 3A MNV%. #line:884f45
-Bea: MJ1 T04H0 X0TNM GT0 CDEVATJ? #line:5af88f
-Gregg: DA, MGL, TJ1 YBEPEHA? #line:1a9301
-Mae: HAP0D, HE 3HA%, U0HNMAETE VN BJ1... #line:65861a
-Mae: *KAQVRET* #line:e1b5cb
-Mae: 0H B M0EL F0V0BE. #line:31226c
-Mae: R 60VJQE TAK HE M0FY. #line:f4d05c
-Mae: BCE U0FN6AET NVN YSE U0FN6V0. #line:174329
-Mae: R... R HE 3HA%, 4T0 M0SET CVY4NTJCR TAM BHN3Y... #line:98a2ff
+Angus: looks like he took the elevator down. #line:80446b
+Angus: so much for the element of surprise. #line:788dbf
+Angus: he’s gonna hear us coming a mile away. #line:884f45
+Bea: we sure we want to do this? #line:5af88f
+Gregg: yeah mae, you sure? #line:1a9301
+Mae: guys, I don’t know if you understand... #line:65861a
+Mae: *cough* #line:e1b5cb
+Mae: He's in my head. #line:31226c
+Mae: I can't function like this. #line:f4d05c
+Mae: everything is dying or dead already. #line:174329
+Mae: I... I don't know what's gonna happen down there... #line:98a2ff
 <<if $dom_friend_bea>>
-	Bea: HY, VADH0 #line:9aad73
-	Bea: 6YDEM BJ1UYTJ1BATJCR BCE BMECTE #line:ac3405
+	Bea: ok then #line:9aad73
+	Bea: we’ll come out of this together #line:ac3405
 <<else>>
-	Gregg: HY, VADH0. #line:eaca55
-	Gregg: BMECTE U0EDEM BHN3. #line:a5f95a
+	Gregg: alright then. #line:eaca55
+	Gregg: down we go together. #line:a5f95a
 <<endif>>
 <<walk Angus LeverAngus wait>>
 <<fadeOut 0>>
@@ -93,10 +93,10 @@ Mae: R... R HE 3HA%, 4T0 M0SET CVY4NTJCR TAM BHN3Y... #line:98a2ff
 <<fadeIn 1>>
 //angus pulls lever. Elevator comes up//
 <<tell MineElevator MoveUpToOriginalPosition>>
-Mae: Y-YZ! BCE BJ1FVRDNT TAKNM CTAPJ1M. #line:b6b740
-Bea: GTY QAXTY HE NCU0VJ3Y%T YSE... D0XPEHA VET. #line:e13175
-Bea: D0XPEHA U0K0VEHNL DASE. #line:382b15
-Gregg: TJ1 4T0, TNUA, TEUEPJ HAQ FND? #line:b0801e
+Mae: oof. That thing looks old. #line:b6b740
+Bea: they haven’t used this mine in like... a LOT of years #line:e13175
+Bea: generations, even. #line:382b15
+Gregg: are you our tour guide now? #line:b0801e
 <<close>>
 <<destroy BlockElevator>>
 <<stopGroupFollow>>
@@ -116,9 +116,9 @@ Gregg: TJ1 4T0, TNUA, TEUEPJ HAQ FND? #line:b0801e
 <<waitForMove Bea>>
 <<waitForMove Gregg>>
 <<waitForMove Angus>>
-Bea: B MAFA3NHE ECTJ 6P0Q%PJ1 DVR TYPNCT0B U0CCYM CUPNHFC #line:4987c2
-Bea: N MHE 6J1BAET CKY4H0. #line:d4ffa0
-Mae: B 6P0Q%PE 4T0-HN6YDJ ECTJ UP0 *GT0*? #line:7d8e5b
+Bea: we have Possum Springs tourism pamphlets at the shop #line:4987c2
+Bea: and i get bored. #line:d4ffa0
+Mae: *THIS* is in the brochure? #line:7d8e5b
 <<wait 1>>
 //note to self- remember to set up this joke in the intro bus station//
 //elevator descends//
@@ -134,21 +134,21 @@ colorID: 5
 position: -1173,-243
 ---
 <<if $dom_friend_bea>>
-	Bea: HY, GT0 DASE BP0DE HE 0UACH0 #line:d793a4
-	Mae: XA-XA. #line:e9b11e
-    Mae: TYT HE4EF0 60RTJCR. 06J14HAR BE4EPNHKA. #line:f8dfd2
+	Bea: well this isn’t dangerous or anything #line:d793a4
+	Mae: ha ha. #line:e9b11e
+    Mae: Nothing to be scared of down there. Just a party. #line:f8dfd2
     Bea: :) #line:4609c1
-    Bea: XE-XE. #line:2b5aa2
-	Bea: EWE HE U03DH0 6P0CNTJCR U0D MAQNHY, T0SE HE 0UACH0. #line:d8b822
+    Bea: heh heh. #line:2b5aa2
+	Bea: not too late to throw ourselves into traffic instead. #line:d8b822
     Bea: :| #line:8a1d3f
 <<else>>
-	Gregg: 60SE4KN. SYTK0. #line:4d65f5
-	Mae: HE HAM SAV0BATJCR HA SYTJ, 3HAEQJ VN #line:e0fba4
-	Mae: MJ1 0CTABNVN HAQEF0 UPEVECTH0F0 CJ1HA-P060TA B VECY. B0T 0H SYTKNL. #line:2f841d
+	Gregg: geez. Spooky. #line:4d65f5
+	Mae: I don’t think we get to complain about spooky #line:e0fba4
+	Mae: we left our precious robot boy out in the woods. That’s spooky. #line:2f841d
     Gregg: :) #line:08c121
-	Gregg: HE, 4YBNX. MJ1 C03DAVN VEFEHDY. #line:15299c
-	Bea: 0 4EM BJ1 DB0E F0B0PNTE B006WE? #line:982e33
-	Mae: DNKNE BJ1DAVNCJ DEHJKN. #line:536725
+	Gregg: nah dude. We created a legend. #line:15299c
+	Bea: what are you two even talking about? #line:982e33
+	Mae: it’s been a weird few days. #line:536725
     Gregg: :| #line:89760e
 <<endif>>
 ===
@@ -163,8 +163,8 @@ position: -477,-3
 <<walk Angus AngusOffElevator2>>
 <<waitForMove Bea>>
 <<waitForMove Angus>>
-Angus: VADH0, R U0V0SY TE6R HA CEKYHD04KY, X0P0Q0? #line:fefef1
-Mae: 0K #line:4129e0
+Angus: ok I’m gonna have to put you down for a sec, ok? #line:fefef1
+Mae: ok #line:4129e0
 <<close>>
 <<setAmbientSFXFadeWithScreenTransitioner _AmbientSFX 0>>
 <<fadeOut 1 wait>>
@@ -178,33 +178,33 @@ Mae: 0K #line:4129e0
 <<wait 1>>
 <<fadeIn 1 wait>>
 <<setAmbientSFXFadeWithScreenTransitioner _AmbientSFX 1>>
-Gregg: NTAK, KELCN... #line:3305e6
-Bea: AFA #line:23a58f
-Gregg: R... #line:561688
-Bea: AFA #line:532cc0
-Gregg: N DVR 4EF0 #line:5a72dd
-Mae: R... DYMA%, R U0HRVA? #line:19dd6a
-Angus: BAY, UPABDA? #line:407d58
-Mae: CVNQK0M YCTAVA, 4T06J1 06JRCHNTJ BCE UPABNVJH0, H0, #line:aaa6fd
-Mae: TNUA, #line:3dce27
-Mae: T0, 4JEF0 U0RBVEHNR 0HN SDAVN, HE RBNV0CJ #line:ea9a47
-Mae: N 0H0 RBVRV0CJ, TNUA, 04EHJ DABH0 #line:e61e6d
-Mae: NVN TAK 0HN 3AU0MHNVN, NVN, TNUA, 3AUE4ATVEVN GT0 #line:394f86
-Mae: N BEWN, K0T0PJ1E 0HN 0T HEF0 U0VY4NVN... #line:dcee14
-Mae: N KELCN, N T0T 4YBAK C XAPZECTA, N... #line:7960fb
+Gregg: so, Casey... #line:3305e6
+Bea: yeah #line:23a58f
+Gregg: i... #line:561688
+Bea: yeah #line:532cc0
+Gregg: and for what #line:5a72dd
+Mae: i... i think i get it? #line:19dd6a
+Angus: wow, really? #line:407d58
+Mae: too tired to explain it right but #line:aaa6fd
+Mae: like #line:3dce27
+Mae: they lost what they thought was gonna happen #line:ea9a47
+Mae: which was what had happened like a long time ago #line:e61e6d
+Mae: or how they remember or like picture it #line:394f86
+Mae: and things it gave them... #line:dcee14
+Mae: and so Casey and that kid at Harfest and... #line:7960fb
 Mae: ... #line:c1b8e4
-Mae: UP0CTNTE, R C6NVACJ #line:d4de72
-Angus: B TB0NX CV0BAX 60VJQE CMJ1CVA, 4EM B M0NX MJ1CVRX #line:02b610
-Mae: 0HN FPYCTHJ1E. #line:a0fa1b
-Mae: BCE GT0 FPYCTH0. #line:9e9e27
-Gregg: TJ1 F0T0B NDTN, AHFYC? #line:6218bd
-Angus: YFYMC. UP0CTNTE. #line:d4893f
-Bea: CT0LTE. TNX0. #line:3a2b77
+Mae: sorry, i lost it #line:d4de72
+Angus: that’s more sense than I can make of it #line:02b610
+Mae: they’re sad. #line:a0fa1b
+Mae: it’s all really sad. #line:9e9e27
+Gregg: You ready to go again, Angus? #line:6218bd
+Angus: Yep. Sorry. #line:d4893f
+Bea: WAIT. EVERYBODY SHUT UP. #line:3a2b77
 <<close>>
 <<playAmbientSFX _AmbientSFX:eide_rock_noise>>
 <<wait 3>>
-Angus: 4T0? #line:08fda9
-Bea: TC-C-C. U0X0SE, R... #line:a7052c
+Angus: what? #line:08fda9
+Bea: SHHH. I thought I... #line:a7052c
 <<close>>
 <<tell EideFightRig Run>>
 ===
@@ -220,81 +220,81 @@ position: -51,-35
 <<if $dom_friend_bea>>
     <<warp Bea AfterFightDomFriend>>
     <<warp Gregg AfterFightOtherFriend>>
-    Gregg: 4EPT U06EPN! #line:a76a66
-	Angus: BCE SNBJ1? #line:364784
-	Bea: MGL! MGL! TJ1 B U0PRDKE? #line:691ee2
+    Gregg: Holy shit! #line:a76a66
+	Angus: is everyone ok? #line:364784
+	Bea: Mae! Mae! Are you ok? #line:691ee2
 	<<close>>
 	<<wait 2>>
-	Bea: MGL! CKASN 4T0-HN6YDJ!!! #line:91ec52
-	Mae: XE! #line:970a68
-	Mae: XE-XE-XE! #line:529c21
-	Mae: XE-XE-XE-XA-XA-XA-XA-XA-XA-XA-XA! #line:529234
-	Bea: MGL? #line:2d4131
-	Mae: XA XA XA XA XA XA XA XA XA XA XA XA XA XA XA XA XA XA #line:e23284
-	Mae: XA! #line:f70135
-	Mae: XE! #line:7d7a38
-	Mae: *QMJ1FAET* #line:25e233
-	Mae: *XHJ14ET* #line:7ee918
-	Bea: TC-C-C. BCE X0P0Q0. #line:2a619b
-	Bea: BCE X0P0Q0. R C T060L. #line:7d20c6
-	Bea: 0H YQEV. #line:cfd3b3
-	Gregg: DEPJM0. N KAK MJ1 6YDEM BJ16NPATJCR 0TC%DA. #line:b8627a
-	Bea: TC-C, DAL EL YCU0K0NTJCR. #line:9b62c3
+	Bea: Mae!! Say something!!! #line:91ec52
+	Mae: heh #line:970a68
+	Mae: heh heh heh #line:529c21
+	Mae: heh heh heh HA HA HA HA HA HA HA #line:529234
+	Bea: Mae? #line:2d4131
+	Mae: HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA #line:e23284
+	Mae: HA #line:f70135
+	Mae: heh #line:7d7a38
+	Mae: *sniff* #line:25e233
+	Mae: *sob* #line:7ee918
+	Bea: shhh. It’s ok. #line:2a619b
+	Bea: it’s ok. I’ve got you. #line:7d20c6
+	Bea: he’s gone now. #line:cfd3b3
+	Gregg: shit. How are we gonna get out of here. #line:b8627a
+	Bea: shh. Give her a minute. #line:9b62c3
 	<<close>>
 	<<wait 4>>
 <<else>>
     <<warp Gregg AfterFightDomFriend>>
     <<warp Bea AfterFightOtherFriend>>
-    Bea: CBRTJ1E YF0DHNKN. #line:ed8c7a
-	Angus: BCE SNBJ1? #line:ee1dda
-	Gregg: MGL! MGL! #line:a3fed2
+    Bea: HOLY GOD. #line:ed8c7a
+	Angus: is everyone ok? #line:ee1dda
+	Gregg: Mae! Mae! #line:a3fed2
 	<<close>>
     <<wait 2>>
-	Gregg: MGL! CKASN 4T0-HN6YDJ!!! #line:14166f
-	Mae: XE! #line:040d8f
-	Mae: XE-XE-XE! #line:b62321
-	Mae: XE-XE-XE-XA-XA-XA-XA-XA-XA-XA-XA! #line:47083c
-	Gregg: XA XA XA XA #line:404b2a
-	Mae: XA XA XA XA XA XA XA XA XA XA XA XA XA XA XA XA XA XA #line:957823
-	Gregg: XA XA XA XA XA XA XA XA XA #line:b26d0a
-	Bea: U04EMY MJ1 PSEM. #line:ead7e7
-    Mae: XA! #line:9ce634
-	Mae: XE! #line:6ca0a0
-	Mae: *QMJ1FAET* #line:f8da6e
-	Mae: *XHJ14ET* #line:1aa7e6
-	Gregg: U0DPYFA. BCE YSE X0P0Q0. #line:af115b
-	Gregg: MJ1 CUVABNVN T0F0 TNUA, 0H 60VJQE HE BEPHETCR. #line:abc259
-	Gregg: TJ1 BJ16EPEQJCR 0TC%DA. #line:242b58
-	Bea: KCTATN, KAK MJ1 BJ16EPEMCR 0TC%DA? #line:b0be88
-	Gregg: TC-C. DALTE EL 0TDJ1QATJCR. #line:ae9105
+	Gregg: Mae!! Say something!!! #line:14166f
+	Mae: heh #line:040d8f
+	Mae: heh heh heh #line:b62321
+	Mae: heh heh heh HA HA HA HA HA HA HA #line:47083c
+	Gregg: HA HA HA HA #line:404b2a
+	Mae: HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA #line:957823
+	Gregg: HA HA HA HA HA HA HA HA HA #line:b26d0a
+	Bea: Why are we laughing. #line:ead7e7
+    Mae: HA #line:9ce634
+	Mae: heh #line:6ca0a0
+	Mae: *sniff* #line:f8da6e
+	Mae: *sob* #line:1aa7e6
+	Gregg: Dude. It’s ok now. #line:af115b
+	Gregg: We messed that guy up and he’s not coming back. #line:abc259
+	Gregg: You’re gonna walk out of this. #line:242b58
+	Bea: So how are we getting out of here? #line:b0be88
+	Gregg: Shh. Let Mae rest. #line:ae9105
 	<<close>>
 	<<wait 4>>
 <<endif>>
-Angus: R 4YBCTBY%, 4T0 0TKYDA-T0 NDET CBESNL B03DYX #line:139c95
-Angus: 3HA-A-A-A4NT, MJ1 HE 3AD0XHEMCR! #line:eb3205
-Bea: HY CVABA 60FY, MHE U0VEF4AV0. #line:980812
-Gregg: KAK TJ1?... #line:b8dd3c
-Angus: R 6J1V CKAYT0M, FPEFF. #line:571d01
-Angus: R 6J1V CKAYT0M. #line:e5ecdf
-Gregg: GL, AHFYC. #line:fbe6c3
-Angus: DA? #line:9bd6b1
-Gregg: V%6V% TE6R. #line:55f55a
-Mae: KAK MN-N-NV0. #line:d85475
-Bea: C B03BPAWEHNEM, MGL. #line:23d954
-Gregg: TJ1 B U0PRDKE? #line:ceca73
-Mae: VY4QE, 4EM K0FDA MEHR 4YTJ HE Y6NVN. #line:a9b642
-Mae: 0URTJ. #line:39267b
-Mae: 4T0 B 06WEM... DNK0CTJ. #line:4c9efc
-Mae: *KAQVRET* #line:1adfce
-Mae: GT0 YSE, TNUA, TPETNL PA3 3A DBA DHR? #line:03065a
-Gregg: TPN - B0VQE6H0E 4NCV0. #line:9353f7
-Angus: HAP0D, B03DYX U0CTYUAET 0TC%DA, N3 FVY6NHJ1... #line:3239f4
-Mae: VADH0, R F0T0BA. #line:b2fbc0
-Bea: TJ1 B U0PRDKE? #line:4ae415
-Mae: AFA. X0TJ NDTN R M0FY. #line:56bf3e
-Angus: 3DECJ 3AK0V04EH0. 0000004EHJ DABH0. #line:bd23fe
-Gregg: MJ1 CM0SEM BJ16PATJCR? #line:a02529
-Angus: DABALTE BJ1RCHNM. #line:426949
+Angus: I feel air coming in from somewhere #line:139c95
+Angus: sooooo we’re not gonna suffocate! #line:eb3205
+Bea: Ok well that’s a relief. #line:980812
+Gregg: How do you...? #line:b8dd3c
+Angus: I was a scout, Gregg. #line:571d01
+Angus: I was a scout. #line:e5ecdf
+Gregg: Hey Angus. #line:fbe6c3
+Angus: Yeah? #line:9bd6b1
+Gregg: I love you. #line:55f55a
+Mae: D’aaaaaaaaaw. #line:d85475
+Bea: Welcome back, Mae. #line:23d954
+Gregg: You ok? #line:ceca73
+Mae: Better now that I almost got murdered. #line:a9b642
+Mae: Again. #line:39267b
+Mae: Which is... weird. #line:4c9efc
+Mae: *cough* #line:1adfce
+Mae: That was like the third time in 2 days? #line:03065a
+Gregg: Third time’s the charm. #line:9353f7
+Angus: Guys the air’s coming from back here... #line:3239f4
+Mae: Alright, I’m up. #line:b2fbc0
+Bea: You sure? #line:4ae415
+Mae: yeah. I think I can walk at least. #line:56bf3e
+Angus: It’s boarded up. A looooong time ago. #line:bd23fe
+Gregg: Can we get through? #line:a02529
+Angus: Let’s find out. #line:426949
 <<fadeOut 1 wait>>
 <<scene PawsModeMineBoards>>
 ===

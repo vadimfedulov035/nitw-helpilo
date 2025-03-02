@@ -6,13 +6,13 @@ position: 79,276
 <<setCanInteract Mom 0>>
 <<flip Mom -1>>
 <<flip Mae -1>>
-Mae: HE DYMA%, 4T0 R K0FDA-VN60 3DECJ 6J1VA. #line:a4b1d9
-Mom: PAHJQE MJ1 U0CT0RHH0 C%DA UPNX0DNVN. #line:a23177
-Mae: PA3BE? #line:fda458
-Mom: HET, B CMJ1CVE, R N M0N DPY3JR, K0FDA 6J1VN TB0EF0 B03PACTA. #line:01a5c7
-Mae: A, 0KEL. R HE UPNBJ1KVA, 4T0 TJ1 NCU0VJ3YEQJ CV0B0 "MJ1" B DPYFNX 3HA4EHNRX #line:2c6347
-Mom: BEPNQJ NVN HET, Y MEHR NX HECK0VJK0. #line:705319
-Mae: XAX. #line:7ed2dd
+Mae: I don't think I've ever been up here. #line:a4b1d9
+Mom: We used to come here all the time. #line:a23177
+Mae: Did we? #line:fda458
+Mom: No, we as in "my friends and I when we were your age." #line:01a5c7
+Mae: Oh ok. I'm not used to you using any other we's. #line:2c6347
+Mom: Believe it or not I've had several we's. #line:705319
+Mae: Huh. #line:7ed2dd
 <<close>>
 <<walk Mom HillPoint_1>>
 ===
@@ -21,26 +21,26 @@ tags:
 colorID: 0
 position: 636,399
 ---
-Mae: TAK 4T0 GT0 3A MECT0? #line:f25efd
-Mom: U0VE DSEHHN. CVJ1QAVA K0FDA-HN6YDJ? #line:9bf76c
-Mae: HET? HE DYMA%. #line:b45c06
-Mom: EWE B 30-X F0DAX #line:fe36f4
-Mom: SNVA TYT SEHWNHA C0 CB0EL D04EPJ%, #line:568b0c
-Mom: 0HN FYVRVN 3DECJ... #line:9b988a
-Mom: D04KA QVA BUEPEDN SEHWNHJ1 #line:83509f
-Mom: N 3ATEM UP0CT0 NC4E3VA. CV0BH0 PACTB0PNVACJ. #line:cab3d5
-Mae: 4T0 CVY4NV0CJ? #line:361eee
-Mom: 0KA3AV0CJ, 4T0 TAM 6J1V UP0BAV, K0T0PJ1L 0TKPJ1VCR, #line:bfb545
-Mom: K0FDA B QAXTE HA X0VME 06PYQNVCR CT0VU. #line:c11221
-Mae: 60SE. #line:3954a7
-Mom: DA. HNKT0 HE BNDEV EF0 N3-3A TPABJ1. #line:6952c2
-Mom: DEB04KY 3BAVN DSEHHN. A GT0 EE U0VE. #line:8d4371
-Mom: EE TAK N HE HAQVN. #line:8488a8
-Mom: UP0CT0. #line:7b0094
-Mom: *BSYYYX!* #line:afef02
-Mom: NC4E3VA. #line:bb80d7
-Mae: TAK... U0F0DN, A MJ1-T0 3DECJ 3A4EM? #line:1cf04a
-Mom: 4T0, HE F0T0BA HEMH0F0 PNCKHYTJ? #line:9448d7
+Mae: So what is this place? #line:f25efd
+Mom: Jenny's Field. Ever heard of it? #line:9bf76c
+Mae: No? I don't think? #line:b45c06
+Mom: Back in the 30s #line:fe36f4
+Mom: there was this woman and her daughter #line:568b0c
+Mom: walking here... #line:9b988a
+Mom: and the woman's daughter is in front of her #line:83509f
+Mom: and then she's just gone. Like disappeared. #line:cab3d5
+Mae: What happened? #line:361eee
+Mom: Turns out there was a sinkhole that opened up #line:bfb545
+Mom: when a pillar collapsed in the mines in the hill. #line:c11221
+Mae: Geez. #line:3954a7
+Mom: Yep. No one could see it because of the grass. #line:6952c2
+Mom: Her name was Jenny. This is Jenny's Field. #line:8d4371
+Mom: They never found her. #line:8488a8
+Mom: Just. #line:7b0094
+Mom: *wwssssp!* #line:afef02
+Mom: Gone. #line:bb80d7
+Mae: So... wait, why are we here? #line:1cf04a
+Mom: What, you not up for a little risk taking? #line:9448d7
 Mae: ... #line:b85bba
 <<close>>
 <<walk Mom Furnace_Mom1>>
@@ -50,13 +50,13 @@ tags:
 colorID: 0
 position: 357,273
 ---
-Mae: 3DECJ KPACNB0. #line:01382d
-Mom: PAHJQE 3DECJ 6J1V0 60VJQE DEPEBJEB. #line:3b0120
-Mom: NX BCE CPY6NVN, K0FDA CTABNVN TE 6AQHN. #line:956911
-Mae: R HE U0MH% GT0F0. #line:0cd04a
-Mom: 3HAEQJ, MH0F0E UP0NCX0DNV0 EWE D0 TB0EF0 P0SDEHNR. #line:9261e7
-Mae: 4T0?!?! #line:c2e21e
-Mom: DA, BCRKNE HE3HA4NTEVJHJ1E M0MEHTJ1 NCT0PNN. #line:50bd38
+Mae: This is nice. #line:01382d
+Mom: Used to be a lot more trees around up here. #line:3b0120
+Mom: They got cut down when they put in the towers. #line:956911
+Mae: I don't remember that. #line:0cd04a
+Mom: You know, all kinds of things happened before you were born. #line:9261e7
+Mae: WHAT?!?! #line:c2e21e
+Mom: Some minor parts of history took place, yes. #line:50bd38
 <<close>>
 <<walk Mom JennyPoint_1>>
 ===
@@ -66,10 +66,10 @@ colorID: 0
 position: 641,147
 ---
 <<playOneShot event:/mom_quest/mae_fall_meadow Mae>>
-Mae: AAAAXX!! #line:0a9a9f
-Mom: 4T0 TAK0E? #line:45e907
-Mae: R DYMAVA, 4T0 GT0... KAKAR-T0 RMA... #line:6cf80a
-Mom: XM. HN4EF0 CE6E.. #line:7a513e
+Mae: AAAAGH!! #line:0a9a9f
+Mom: What's wrong? #line:45e907
+Mae: I thought it was a... sinkhole thing... #line:6cf80a
+Mom: Hm. How about that. #line:7a513e
 Mae: ... #line:ebb39e
 ===
 title: Furnace1
@@ -77,116 +77,116 @@ tags:
 colorID: 0
 position: 880,254
 ---
-Mae: X0P0Q0... A GT0 4T0? #line:2cf8dd
-Mom: U04EMY-T0 UEPED TEM, KAK EDNHJ1X PACUYCTNVN, #line:4d3261
-Mom: 0HN UEPEHECVN GTY CTAPY% N3BECTHRK0BY% UE4J HA F0PY. #line:6db21b
-Mae: U04EMY? #line:3420f2
-Mom: KT0 3HAET. EDNHJ1E MH0F0 BCEF0 DEVAVN. #line:10093a
-Mae: TAK0E 4YBCTB0, 4T0 0HA 3DECJ YSE BE4H0CTJ. #line:41d042
-Mom: 0HA UP0CT0 CNVJH0 YQVA U0D 3EMV%. #line:2e3fb5
-Mae: KAK DSEHHN! #line:353afe
-Mom: T0VJK0 MEDVEHHEE. #line:6ec2ee
-Mom: MJ1, 6J1BAV0, B36NPAVNCJ HA HEE. #line:47ed50
-Mae: X04EQJ U0UP060BATJ? #line:c7e4eb
-Mom: XA-XA-XA. 0, D0P0FAR. #line:3de8bf
-Mom: UP0QV0 MH0F0 BPEMEHN, P0DNVACJ TJ1 N R CJEVA KY4Y U0H4NK0B. #line:a7098a
-Mom: N CKAV0VA3AHNEM HE 0C060 3AHNMAVACJ. #line:be515a
+Mae: Ok... what is that? #line:2cf8dd
+Mom: For some reason before Unified pulled out #line:4d3261
+Mom: they brought this old lime furnace up on the mountain. #line:6db21b
+Mae: Why? #line:3420f2
+Mom: Who knows. Unified did a lot of things. #line:10093a
+Mae: Looks like it's been here forever. #line:41d042
+Mom: It's just sunk into the ground a lot. #line:2e3fb5
+Mae: Like Jenny! #line:353afe
+Mom: But slower. #line:6ec2ee
+Mom: We used to climb up there. #line:47ed50
+Mae: Wanna try? #line:c7e4eb
+Mom: Ha ha ha. Oh sweetie. #line:3de8bf
+Mom: I had you and also a lot of birthdays and donuts since then. #line:a7098a
+Mom: And not much climbing. #line:be515a
 ===
 title: FurnaceTop
 tags: 
 colorID: 0
 position: 874,471
 ---
-Mae: HY... 4T0 S... #line:f0ccad
+Mae: So... uh... #line:f0ccad
 <<lookAt Mom Mae>>
-Mae: X0P0Q0, 4T0 DJ1M0X0D 3DECJ 3AUE4ATAH! #line:202930
-Mom: XA-XA-XA. DA, GT0 X0P0Q0. #line:2730e2
-Mom: 4T0 TJ1 0TTYDA BNDNQJ? #line:4db556
-Mom: UP0QV0 HEMAV0 BPEMEHN #line:4624ef
-Mae: G-G... #line:0f72fd
-    -> U0CCYM CUPNHFC N 60VJQY% 4ACTJ D0VNHJ1. #line:dc0a41
-        Mom: HA 4T0 0H0 U0X0SE?? #line:f126cf
-            -> HA CTEFAH0E 0DERV0? #line:60f64b
-                Mom: HY, GTA D0VNHA Y%THAR. #line:f166aa
-            -> 6YDT0 C06PAHA KEM-T0 N3 PA3VN4HJ1X 6V0K0B? #line:1ef2f5
-                Mom: XA-XA. U0X0SE HA T0. #line:c42924
-    -> Q0CCE! #line:c67722
-        Mom: HA 4T0 0H0 U0X0SE?? #line:d8b66c
-            -> PEKA? H0 CDEVAHHAR N3 6ET0HA? C MAQNHAMN? #line:329366
-                Mom: [wave]TE4ET CV0BH0 HAUEPEF0HKN.[/wave] #line:f035e6
-                Mom: [wave]U0T0K GT0L 0FP0MH0L PEKN.[/wave] #line:52bd3a
-                Mae: TJ1... U0EQJ? #line:46c0e3
-                Mom: DA. GT0, BP0DE, N3 M%3NKVA? #line:4da109
-                Mom: HABEPH0E? #line:3c59e4
+Mae: Good thing this chimney is sealed up here! #line:202930
+Mom: Ha ha ha. Yes, good thing. #line:2730e2
+Mom: What can you see up there? #line:4db556
+Mom: It's been a while. #line:4624ef
+Mae: Uh... #line:0f72fd
+    -> Possum Springs and most of the valley! #line:dc0a41
+        Mom: What does it look like? #line:f126cf
+            -> A quilt? #line:60f64b
+                Mom: Well, it's a cozy valley. #line:f166aa
+            -> Like someone dumped out some blocks? #line:1ef2f5
+                Mom: Ha ha. Sounds about right. #line:c42924
+    -> The highway! #line:c67722
+        Mom: What does it look like? #line:d8b66c
+            -> A river? But like made of concrete? With cars? #line:329366
+                Mom: [wave]Always rolling by, the river.[/wave] #line:f035e6
+                Mom: [wave]Oh, that river. It's big.[/wave] #line:52bd3a
+                Mae: Are you... singing? #line:46c0e3
+                Mom: Yeah, it's from a musical? #line:4da109
+                Mom: Maybe? #line:3c59e4
                 Mae: :) \o/ #line:401110
-                Mae: [wave]EEEEEEEXYYYYY!!!![/wave] #line:16d68d
-                Mom: 0TVN4H0. #line:46dfa1
-            -> HA 3ME%? T0VJK0 CDEVAHHY% N3 6ET0HA? C MAQNHAMN?? #line:c01936
+                Mae: [wave]IT IS NOOOOOOOOW!!!![/wave] #line:16d68d
+                Mom: Very nice. #line:46dfa1
+            -> A snake? But like made of concrete? With cars? #line:c01936
                 <<if $eels is 1>>
-                    Mom: XE-XE. M0SET 6J1TJ, HA YFPR? #line:9fe5c8
-                    Mae: 0, 60SE M0L, DA. 0FP0MHJ1L YF0PJ.. #line:79b094
-                    Mom: YFPN, D0P0FAR. #line:eeb095
-                    Mae: YFPN, MA. #line:5f0dd9
-                    Mae: 4T0 CVY4NV0CJ C DNTEM YFPEL, KCTATN? #line:4998cc
-                    Mom: KT0-T0 HAK0HEO 3AMETNV EF0 TAM, #line:b94add
-                    Mom: N GKCTPEHHAR CVYS6A D0CTAVA EF0 N3 K0V0DOA. #line:731c34
-                    Mom: N F0DJ1 CUYCTR 0H HAUNCAV 06 GT0M KHNFY #line:578051
-                    Mom: N 060FATNVCR! #line:65c6bf
-                    Mae: YFPN B0QVN B D0V%? #line:d4108d
-                    Mom: HE DYMA%. #line:d21571
-                    Mae: GT0 UPECTYUVEHNE. #line:309408
-                    Mom: HNKT0 HE U0DYMAET 0 6EDHJ1X YFPRX? #line:e369bc
+                    Mom: Heh heh. An eel maybe? #line:9fe5c8
+                    Mae: Oh my god yes. A massive eel. #line:79b094
+                    Mom: Eels, honey. #line:eeb095
+                    Mae: Eels, mom. #line:5f0dd9
+                    Mae: What happened to the eel kid, by the way? #line:4998cc
+                    Mom: Someone finally noticed him down there #line:b94add
+                    Mom: and emergency rescue pulled him out of the well. #line:731c34
+                    Mom: And years later he wrote a book about it #line:578051
+                    Mom: and got rich! #line:65c6bf
+                    Mae: Did the eels get a cut of it? #line:d4108d
+                    Mom: I don't think so. #line:d21571
+                    Mae: That's a crime. #line:309408
+                    Mom: Won't anyone think of the poor eels? #line:e369bc
                 <<else>>
-                    Mom: 60VJQAR 3MER. #line:f833b1
-                    Mae: 60VJQAR 3MER. #line:26d31b
-                    Mom: 0DHASDJ1 MEHR 3DECJ YKYCNVA 3MER, HA CAM0M DEVE. #line:6ade41
-                    Mae: R HE CVJ1QAVA GT0L NCT0PNN. #line:0fa95d
-                    Mom: AFA, GT0 6J1VA MEDH0F0V0BAR 3MER. BJ1UPJ1FHYVA N3-U0D 6PEBHA. #line:6681bb
-                    Mom: M0L UAPEHJ B T0 BPEMR, 4APVN, 0H 6J1V TAK0L K0HZETK0L #line:5c0b91
-                    Mom: UJ1TAVCR BJ1C0CATJ 3MENHJ1L RD N3 YKYCA HA M0EL H0FE. #line:0cbbcf
-                    Mae: BAY. GT0 X0P0QNL UAPEHJ. #line:152dfd
-                    Mom: EF0 P0T 0HEMEV, N 0H CTPADAV 0T U0BPESDEHNR TKAHEL. #line:1ea290
-                    Mom: N MHE BCE EWE UPNX0DNTCR X0DNTJ B 60VJHNOY #line:7da71e
-                    Mae: 0F0. #line:558949
-                    Mom: HE BJ1CACJ1BAL RD N3 3MENHJ1X YKYC0B, D0P0FAR. #line:02a798
-                    Mae: UPABNVJH0. #line:aea9b7
-                    Mom: GT0 HE PA60TAET. #line:7527b1
-                    Mae: 3AMETAH0. #line:f727dc
+                    Mom: Big snake. #line:f833b1
+                    Mae: Big snake. #line:26d31b
+                    Mom: I got bit by a snake once up here, actually! #line:6ade41
+                    Mae: I haven't heard this story. #line:0fa95d
+                    Mom: Yeah it was a copperhead. Jumped out from under a log. #line:6681bb
+                    Mom: My boyfriend at the time, Charlie, he was such a sweetie #line:5c0b91
+                    Mom: tried to suck the snake poison from the bite on my leg. #line:0cbbcf
+                    Mae: Wow. That's a good boyfriend. #line:152dfd
+                    Mom: His mouth went numb and he suffered some tissue damage. #line:1ea290
+                    Mom: And I still had to go to the hospital. #line:7da71e
+                    Mae: Oh wow. #line:558949
+                    Mom: Don't suck poison from snakebites, sweetie. #line:02a798
+                    Mae: Right. #line:aea9b7
+                    Mom: It doesn't work. #line:7527b1
+                    Mae: Noted. #line:f727dc
                 <<endif>>
 Mae: _o_ :| #line:596881
-Mom: U0MH%, HE M0FVA T0VK0M CKA3ATJ, K0FDA 6J1VA TAM #line:81f776
-Mom: 4YBCTB0BAVA VN, 4T0 BCE 60VJQE NVN MEHJQE. #line:b0bb9d
-Mom: CTPAHH0E 0WYWEHNE. #line:0952a2
-Mae: DA. 0H0 MHE 3HAK0M0. #line:e05140
-Mom: MHE UPNCHNVCR C0H, K0FDA R 6J1VA B TB0EM B03PACTE. #line:adcf8d
-Mom: B K0T0P0M R 6J1VA HA 60VJQ0L UAPK0BKE #line:cc745a
-Mom: N HA4NHAVA 6ESATJ, H0 BUEPEDN 6J1V0 EWE 60VJQE UAPK0B0K. #line:20c267
-Mae: XM. #line:7cfc68
-Mom: KAK TJ1 DYMAEQJ, 4T0 GT0 3HA4NT? #line:7cde56
-Mae: HE 3HA%. HEMH0F0 CTPAHH0 06JRCHRTJ TE6E TB0N CHJ1. #line:37dbf2
-Mom: U04EMY? #line:edda17
-Mae: TJ1 M0R MAMA. #line:c772a3
+Mom: I remember I couldn't tell if being up there #line:81f776
+Mom: made everything feel bigger or smaller. #line:b0bb9d
+Mom: It's a weird feeling. #line:0952a2
+Mae: Yeah. I know that one. #line:e05140
+Mom: I used to have a dream when I was your age. #line:adcf8d
+Mom: Where I was in the big parking lot out by the tracks #line:cc745a
+Mom: and I'd start running, but there was always more parking lot. #line:20c267
+Mae: Hm. #line:7cfc68
+Mom: What do you think it meant? #line:7cde56
+Mae: I don't know. Feels weird to tell you what your dreams mean. #line:37dbf2
+Mom: Why? #line:edda17
+Mae: You're my mom. #line:c772a3
 Mom: ... #line:8b9fea
-Mom: CUPABEDVNB0. #line:f01897
-Mae: U04EMY MJ1 UPNQVN C%DA CEF0DHR? #line:06a0fa
-Mom: HY, R HADERVACJ, 4T0 TJ1 CBAVNQJCR B UP0BAV, 04EBNDH0 SE. #line:01ff5e
-Mae: HE CPA60TAV0. #line:dcaf79
-Mom: UP0UADN TJ1 UP0UAD0M. #line:f80234
-Mom: T0FDA UPNDETCR TE6R 0CTABNTJ. #line:2bea1e
+Mom: Fair. #line:f01897
+Mae: Why did we come up here today? #line:06a0fa
+Mom: Well I was hoping you'd fall into a sinkhole, obviously. #line:01ff5e
+Mae: That didn't work out. #line:dcaf79
+Mom: Drat. #line:f80234
+Mom: Guess I'll just have to keep you. #line:2bea1e
 <<close>>
 <<wait 1>>
-Mae: HE CM0FVA PA3FVRDETJ TB0E BJ1PASEHNE VNOA, K0FDA TJ1 GT0 CKA3AVA. #line:dbe2a2
-Mom: A HYSH0? #line:3df7ab
+Mae: I couldn't see what your expression was when you said that. #line:dbe2a2
+Mom: Do you need to? #line:3df7ab
 <<close>>
 <<wait 1>>
 Mae: :) #line:d5d829
-Mae: HET. #line:e4057e
+Mae: No. #line:e4057e
 <<close>>
 <<wait 2>>
 <<walk Mom MomWalkOff>>
-Mom: 4T0 S, YBNDNMCR D0MA! #line:0a1abe
+Mom: Well, see you at home! #line:0a1abe
 Mae: :( #line:31b1a4
-Mae: GL! #line:814338
+Mae: HEY! #line:814338
 <<unlockAchievement Jenny's_Field>>
 <<wait 1>>
 <<unlockDoodle JennysField>>

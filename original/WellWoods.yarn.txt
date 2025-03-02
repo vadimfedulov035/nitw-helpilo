@@ -18,37 +18,37 @@ position: 775,258
 <<wait 9>>
 <<show Mae>>
 <<wait 2>>
-Mae: GT0 MECT0. #line:f77b21
-Mae: XAX. #line:fa2d27
+Mae: this place. #line:f77b21
+Mae: huh. #line:fa2d27
 <<close>>
 <<walk Germ GermIn>>
 <<wait 1>>
-Germ: UPNBET, MGL. #line:9d6f43
-Mae: DSEPM?! #line:e572da
-Germ: DA! #line:5adc5a
-Mae: 4T0 TJ1 3DECJ DEVAEQJ? #line:18550a
-Germ: R SNBY HA F0PE HABEPXY! #line:f77d0e
-Germ: R CVJ1QAV KPNKN FPEFFA! #line:9aa16f
-Mae: MJ1 BCE TAM 3ACTPRVN! #line:9d0012
-Germ: B-BJ1 6J1VN HA DHE CTAP0F0 K0V0DOA HA M0EM 3ADHEM DB0PE? #line:1fdcd3
-Mae: GT0 6J1VA PEAVJH0 YSACHAR H04J. #line:52a1fe
-Germ: U0X0SE HA T0. #line:38c173
-Mae: ECTJ BEPEBKA NVN 4T0-T0 TNUA T0F0? #line:4a7672
-Germ: DA! #line:c70145
+Germ: Hey Mae. #line:9d6f43
+Mae: GERM?! #line:e572da
+Germ: Yeah! #line:5adc5a
+Mae: What are you doing out here? #line:18550a
+Germ: I live right up the hill! #line:f77d0e
+Germ: I heard Gregg yelling! #line:9aa16f
+Mae: We were all stuck down there! #line:9d0012
+Germ: Y-you were at the bottom of the old well in my backyard? #line:1fdcd3
+Mae: It’s been a really bad night. #line:52a1fe
+Germ: Sounds like it. #line:38c173
+Mae: Got any rope or something? #line:4a7672
+Germ: Yeah! #line:c70145
 <<close>>
 <<wait 2>>
-Mae: M000SEQJ D0CTATJ EE? #line:7fbb5e
+Mae: caaaan you go get it? #line:7fbb5e
 <<close>>
 <<run Germ GermOff>>
 <<wait 2>>
 //friend bubbles come from the well//
-BeaWell: GL, MGL! #line:81e448
-Mae: DA? #line:05f78e
-GreggWell: GT0 4T0... DSEPM? #line:f97fda
-Mae: AFA, 0H HECET BEPEBKY! #line:009de0
-AngusWell: 4T0 0H TYT DEVAET? #line:fe6cdf
-Mae: 0H SNBET 3DECJ! #line:594b05
-BeaWell: B VECY? #line:323245
+BeaWell: Hey Mae! #line:81e448
+Mae: Yeah?  #line:05f78e
+GreggWell: Was that... Germ? #line:f97fda
+Mae: Yeah he’s getting some rope! #line:009de0
+AngusWell: What is he doing out here? #line:fe6cdf
+Mae: He lives here! #line:594b05
+BeaWell: In the woods? #line:323245
 <<close>>
 <<fadeOut 1 wait>>
 
@@ -64,13 +64,13 @@ BeaWell: B VECY? #line:323245
 <<playMusic well_woods>>
 <<lookNearest Mae>>
 <<fadeIn 1 wait>>
-Angus: *XPNU* #line:e0463d
-Bea: BCE M0E TEV0 60VNT #line:0a3191
-Gregg: GT0 6J1V D0000VFNL UYTJ #line:91e7af
-Germ: R UPNHEC C0D0BY%! #line:7f3a73
+Angus: *wheeeeeze* #line:e0463d
+Bea: my entire body hurts #line:0a3191
+Gregg: that was a loooong way #line:91e7af
+Germ: I brought some sodas! #line:7f3a73
 Mae: :) #line:7dd3f0
-Mae: TJ1 VY4QNL, DSEPM. #line:da8287
-Germ: BAM HYSEH CAXAP N K0ZENH!!! #line:8daac6
+Mae: you're the best, Germ. #line:da8287
+Germ: you need the sugar and caffeine!!! #line:8daac6
 Mae: :| #line:3d54f0
 <<fadeOut 1 wait>>
 
@@ -89,33 +89,33 @@ Mae: :| #line:3d54f0
 
 //everyone is standing//
 <<fadeIn 1 wait>>
-Mae: 0, DA! KT0-T0 EWE X04ET CBAVNTJ U0DAVJQE 0T GT0F0 K0V0DOA? #line:133c19
-Bea: Y-Y-Y-Y-Y-FY. #line:782ecf
+Mae: oh uh. anyone else want to get far away from this well? #line:133c19
+Bea: yuuuuuuuuuuuuuuup. #line:782ecf
 <<lookAt Mae Germ>>
-Mae: DSEPM, TJ1 M0SEQJ... R HE 3HA%. 0UE4ATATJ GT0T K0V0DEO? #line:845534
+Mae: Germ, can you like... i dunno. seal up this well? #line:845534
 <<lookLeft Gregg>>
-Germ: XM-M-M. #line:006b88
+Germ: hmmm #line:006b88
 <<wait 3>>
 
-Germ: Y MEHR ECTJ DNHAMNT! #line:88660c
+Germ: i got dynamite! #line:88660c
 <<lookNearest Mae>>
-Bea: 4T0? #line:ce932f
-Germ: DA. B CMJ1CVE, R M0FY HEMH0F0 D0CTATJ. #line:bb9a5a
-Mae: HACK0VJK0 60VJQNM 6YDET B3PJ1B? #line:1dd0eb
-Germ: HY, TNUA. #line:28c790
-Germ: HEMAVEHJKNM? #line:f2b84a
-Mae: VADJ1, GT0 CPA60TAET. #line:bfe13c
-Gregg: CUACN60, DSEPM! #line:58d49c
-Angus: AFA, CUACN60 TE6E. #line:79e218
-Germ: G-G. VADH0. #line:7b5d12
-Germ: U0KA, PE6RTA. #line:9fa5a8
+Bea: what? #line:ce932f
+Germ: yeah. i mean i can get some. #line:bb9a5a
+Mae: how big an explosion is that? #line:1dd0eb
+Germ: i mean. #line:28c790
+Germ: not small? #line:f2b84a
+Mae: ok that works. #line:bfe13c
+Gregg: Thanks Germ! #line:58d49c
+Angus: yeah thanks buddy. #line:79e218
+Germ: Um. ok. #line:7b5d12
+Germ: bye guys. #line:9fa5a8
 <<close>>
 <<walk Germ GermOff>>
 <<wait 4>>
 <<lookRight Gregg>>
-Bea: GT0 6J1V 04EHJ, 04EHJ CTPAHHJ1L UAPEHJ. #line:a00699
-Gregg: 0H CUAC HAQN SN3HN. #line:76fc23
-Mae: DSEPM X0P0Q. DSEPM - X0P0QNL UAPEHJ. #line:7fdc11
+Bea: There goes a weird, weird guy. #line:a00699
+Gregg: He saved our lives. #line:76fc23
+Mae: Germ is good. Germ is a good man. #line:7fdc11
 <<close>>
 <<wait 1>>
 <<lookRight Mae>>
@@ -129,42 +129,42 @@ Mae: DSEPM X0P0Q. DSEPM - X0P0QNL UAPEHJ. #line:7fdc11
 <<walk Mae MaeWalk1>>
 <<wait 1>>
 <<lookNearest Mae>>
-Bea: MHE KASETCR, 4T0 MJ1 UP0CT0 Y6NVN BCEX TAM, BHN3Y #line:10b6e8
+Bea: it strikes me that we just murdered all of those dudes down there #line:10b6e8
 <<lookLeft Gregg>>
-Mae: C 4EF0 TJ1 B3RVA? #line:f7cf31
+Mae: how do you figure? #line:f7cf31
 <<lookRight Gregg>>
-Bea: HY, B CMJ1CVE, #line:cdd182
-Bea: MJ1 CV0MAVN VNZT N CUP0B0ONP0BAVN 06BAV. #line:6e2df1
-Gregg: GT0 6J1VA CAM0060P0HA. #line:06b474
-Bea: DYMA%, DA. H0 GT0 UPNBEV0 K CMEPTN D%SNHJ1 CEKTAHT0B. #line:4787b8
+Bea: well, i mean #line:cdd182
+Bea: the elevator's broken and we caused a cave in. #line:6e2df1
+Gregg: that was self-defense. #line:06b474
+Bea: i guess. but we did cause the deaths of like a dozen guys. #line:4787b8
 <<lookLeft Gregg>>
-Mae: HET-HET-HET! 0HN BCE EWE SNBJ1! #line:5e682c
+Mae: no no no! they're all still alive down there! #line:5e682c
 <<wait 3>>
-Mae: 0, 60SE. #line:c548dc
-Bea: AFA. #line:19e6ea
-Mae: 60SE. #line:933db2
-Gregg: HY, MJ1 HEBNH0BHJ1. 0HN HAUAVN HA HAC #line:538b2b
+Mae: oh god. #line:c548dc
+Bea: yeah. #line:19e6ea
+Mae: geez. #line:933db2
+Gregg: well we're blameless. they attacked us. #line:538b2b
 <<lookRight Gregg>>
-Bea: *0DNH* N3 HNX HAUAV HA HAC. #line:dba1e7
-Mae: U0VY4AETCR, MJ1 B0VHYEMCR 0... TNUA... #line:9a811a
-Bea: GT0 AM0PAVJH0! #line:1cfa86
+Bea: *one* of them attacked us. #line:dba1e7
+Mae: so we're worrying about... like... #line:9a811a
+Bea: it's morally gray! #line:1cfa86
 <<lookLeft Gregg>>
-Mae: MJ1 - HE Y6NLOJ1! #line:0cf6a8
-Mae: ECVN 6J1 Y HAC 6J1V BJ160P, MJ1 6J1 HE DEVAVN GT0F0. #line:5fab21
+Mae: we're not murderers! #line:0cf6a8
+Mae: like if we'd had a choice, we wouldn't have done it. #line:5fab21
 <<wait 2>>
-Angus: R 6J1 CDEVAV. #line:0ca0b9
+Angus: i would have. #line:0ca0b9
 <<wait 2>>
-Bea: G-G #line:da732e
-Angus: 4T0??? 0HN Y6NBAVN V%DEL! #line:b46c3f
-Angus: 0HN X0TEVN 3ACTABNTJ HAC Y6NBATJ V%DEL! #line:4a0ae9
-Angus: B S0UY NX! #line:3e9b38
-Angus: R HE BEP% B AD, H0 HADE%CJ, 4T0 0HN U0UADYT UPRM0 TYDA. #line:b1282f
-Gregg: 60SE, AHFYC. #line:c649ee
-Angus: HY, U0 KPALHEL MEPE, TAK0B0 M0E MHEHNE. #line:e826a2
-Mae: XM. GT0 U0X0SE HA TY QTYKY C BAF0HETK0L. #line:d0b849
-Gregg: KAK0L BAF0HETK0L? #line:0de596
+Bea: uh #line:da732e
+Angus: what??? they like killed people! #line:b46c3f
+Angus: they were trying to get us to kill people! #line:4a0ae9
+Angus: screw 'em!  #line:3e9b38
+Angus: i don't even believe in hell and i hope they all go straight there. #line:b1282f
+Gregg: geez, angus. #line:c649ee
+Angus: well that's what i think at least. #line:e826a2
+Mae: hm. this is like that trolley thing. #line:d0b849
+Gregg: what trolley thing? #line:0de596
 <<lookRight Gregg>>
-Bea: VADJ1, R 06JRCH%, ECVN MJ1 YLDEM. #line:3e8ba2
+Bea: ok, i'll explain it if we keep walking. #line:3e8ba2
 <<close>>
 
 <<waitForMove Bea>>

@@ -3,7 +3,7 @@ tags:
 colorID: 0
 position: 527,187
 ---
-Mae: {width=4}AAAAAAAAAAAAAAAAAAAAAA!!!!!! #line:84f7d0
+Mae: {width=4}YAAAAAAAAAAAAAAAAAAAARGH!!!!!! #line:84f7d0
 <<irisOut 1 wait>>
 <<scene PawsModeBatteryConnect>>
 ===
@@ -19,43 +19,43 @@ tags:
 colorID: 0
 position: 27,303
 ---
-Mae: YZ. HY N B0HJ. #line:87ebf3
-Gregg: TAK 06J14H0 N UAXHYT CTAPJ1E MAQNHJ1. #line:b82384
-Mae: HET... TNUA... DYMA%, BHYTPN KT0-T0 SNV. #line:413b08
+Mae: oof. This thing smells. #line:87ebf3
+Gregg: That’s just how old machines smell. #line:b82384
+Mae: no... like... I think something was living in here. #line:413b08
 <<close>>
 <<tell BatteryClampPaws ShowGreggClamp>>
 <<wait 2>>
-GreggClamp: UPNBET. #line:a00482
-GreggClamp: Y MEHR ECTJ NDER. #line:32fc88
-GreggClamp: M0SET UEPECTAHEQJ YSE N3VY4ATJ HEFATNB? #line:ece9dd
+GreggClamp: Hey. #line:a00482
+GreggClamp: I’ve got an idea. #line:32fc88
+GreggClamp: Why don’t you stop being so negative. #line:ece9dd
 <<close>>
 <<tell BatteryClampPaws ShowMaeClamp>>
 <<wait 1>>
-MaeClamp: U04EMY 6J1 TE6E HE UEPEFPJ13TJ C06CTBEHHY% QE%? #line:4d3253
-GreggClamp: GT0 HEB03M0SH0. #line:f2a9ee
-GreggClamp: 6YDJ CEPJE3HA. #line:764332
-GreggClamp: GT0 CEPJE3H0E DEV0. #line:7dbcb1
-MaeClamp: 0X! 4T0 S! #line:6559b2
-MaeClamp: HY, HE 06PAWAL BHNMAHNE! #line:d0555b
-MaeClamp: 3HAEQJ, R CEF0DHR YCUEVA U0MEPETJ. #line:fee1f6
-MaeClamp: H0 HN4EF0 CTPAQH0F0!!!! #line:909ba2
-GreggClamp: KAK0B0 GT0 6J1V0? #line:24f6f4
+MaeClamp: Why don’t you eat your own neck? #line:4d3253
+GreggClamp: That’s impossible. #line:f2a9ee
+GreggClamp: Be serious. #line:764332
+GreggClamp: This is serious business. #line:7dbcb1
+MaeClamp: Oh! Well! #line:6559b2
+MaeClamp: Well, don’t mind me! #line:d0555b
+MaeClamp: See, I’ve already died once tonight. #line:fee1f6
+MaeClamp: No big deal or anything!!!! #line:909ba2
+GreggClamp: What was it like? #line:24f6f4
 <<setOptionsCharacter MaeClamp>>
-->DYMA%, R BNDEVA AKYVY #line:6e2409
-	MaeClamp: N 0HA CKA3AVA MHE K0E-4T0 BASH0E #line:4f03dc
-	GreggClamp: 4T0 GT0 6J1V0? #line:bfa4fe
-	MaeClamp: R HE U0MH%. #line:a023c2
-	GreggClamp: HY, T0FDA GT0 N HE 6J1V0 BASH0. #line:9a0472
-	MaeClamp: N BEPH0. #line:118251
-->R 6YDT0 CM0FVA U04YBCTB0BATJ BKYC 3Y6HJ1X UV0M6 #line:f3ff98
-	MaeClamp: N 0HN CV0BH0... 3BEHEVN? #line:e73197
-	GreggClamp: 3BEHEVN. #line:342232
-	MaeClamp: KAK K0V0K0VJ4NKN #line:a559f5
-	MaeClamp: BHYTPN M0EF0 4EPEUA. #line:75c330
-	GreggClamp: 0F0. #line:728929
-	MaeClamp: DA. #line:67b2bc
-GreggClamp: VADH0, 3A DEV0! #line:d001d5
-GreggClamp: OEUVRLCR!!! #line:22420e
+->I saw a shark I think #line:6e2409
+	MaeClamp: and it told me something important #line:4f03dc
+	GreggClamp: what was it? #line:bfa4fe
+	MaeClamp: i don’t remember. #line:a023c2
+	GreggClamp: couldn’t have been that important then. #line:9a0472
+	MaeClamp: True. #line:118251
+->I can taste my tooth fillings #line:f3ff98
+	MaeClamp: and it’s like they’re... ringing? #line:e73197
+	GreggClamp: Ringing. #line:342232
+	MaeClamp: Like little bells #line:a559f5
+	MaeClamp: inside my skull. #line:75c330
+	GreggClamp: Wow. #line:728929
+	MaeClamp: Yeah. #line:67b2bc
+GreggClamp: Ok let’s do this! #line:d001d5
+GreggClamp: Clamp it!!! #line:22420e
 <<close>>
 <<setOptionsCharacter Mae>>
 <<bigPawCaptureReturnToPosition>>

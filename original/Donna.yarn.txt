@@ -18,7 +18,7 @@ tags:
 colorID: 0
 position: 177,466
 ---
-Donna: 0CTAV0CJ 10 MNHYT. #line:9bf3d6
+Donna: 10 minutes left. #line:9bf3d6
 ===
 title: DonnaSorry
 tags: 
@@ -26,10 +26,10 @@ colorID: 0
 position: 471,342
 ---
 <<set $donna to 2>>
-Donna: UP0CTN, 4T0 CBAVNVA BCE GT0 HA TE6R. #line:5cefff
-Mae: DA VADH0, BCE H0PMAVJH0. #line:68b572
-Mae: TE6R 06HRTJ? /o\ :) #line:377f7a
-Donna: 060LDYCJ. #line:b6cbb1
+Donna: Sorry for unloading on you like that. #line:5cefff
+Mae: Naw, it's cool. #line:68b572
+Mae: Do you need a hug? /o\ :) #line:377f7a
+Donna: I'll pass. #line:b6cbb1
 Mae: _o_ :| #line:eb7fa2
 ===
 title: Donna_00
@@ -38,19 +38,19 @@ colorID: 0
 position: 709,106
 ---
 <<set $donna to 1>>
-Mae: GL! D0HHA, UPABNVJH0? #line:3f1d22
-Mae: TJ1 K0FDA-T0 HRH4NVA MEHR, U0MHNQJ? #line:a5803c
-Donna: DA. #line:832f44
-Mae: 0TVN4HJ1L UVAWNK, D0HHA. #line:69eb0b
-Donna: GT0 M0L VY4QNL HAPRD. #line:f0a00d
-Mae: BJ1FVRDNT 0TVN4H0! :) #line:49e4ec
-Donna: R KYUNVA EF0 B "Z0PT V%CEH" #line:de129d
-Donna: R HADEBA% EF0 T0VJK0 HA PA60TY. #line:9fcd8c
-Mae: A R H0QY GT0T HAPRD BCE BPEMR. #line:1c50de
-Mae: GT0 M0R BN3NTHAR KAPT04KA. #line:e72877
-Donna: MHE 60VJQE HEFDE EE H0CNTJ. #line:dc9763
-[[4T0 S, HACVASDALCR 0TDJ1X0M|DonnaEnd]] #line:1348de
-[[M0R PY6AQKA KPYTA,U0CK0VJKY 0HA NMEET HECK0VJK0 3HA4EHNL.|Donna30]] #line:0d1ea9
+Mae: Hey! Donna, right? #line:3f1d22
+Mae: You used to babysit me, remember? #line:a5803c
+Donna: Yep. #line:832f44
+Mae: That's a sweet coat, Donna. #line:69eb0b
+Donna: This is my nicest outfit. #line:f0a00d
+Mae: Looks good! :) #line:49e4ec
+Donna: I bought it at the Fort Lucenne Mall. #line:de129d
+Donna: I only wear it to work. #line:9fcd8c
+Mae: I wear this outfit all the time. #line:1c50de
+Mae: It's my calling card. #line:e72877
+Donna: I have nowhere else to wear this. #line:dc9763
+[[Well, enjoy your break!|DonnaEnd]] #line:1348de
+[[My shirt is cool because it has multiple meanings.|Donna30]] #line:0d1ea9
 
 ===
 title: DonnaEnd
@@ -59,7 +59,7 @@ colorID: 0
 position: 764,476
 ---
 <<set $donna to 2>>
-Donna: D0 BCTPE4N, MGL. #line:c5dd04
+Donna: See you around, Mae. #line:c5dd04
 Mae: :| #line:84b8bf
 ===
 title: Donna30
@@ -67,16 +67,16 @@ tags:
 colorID: 0
 position: 996,215
 ---
-Donna: R HADEBA% GT0 T0VJK0 TAM, #line:8d442f
-Donna: HA PA60TE, #line:25b3e6
-Donna: FDE V%DN M0FYT CVJ1QATJ T0VJK0 M0L F0V0C. #line:f305ea
-Mae: R T0SE CAMA CDEVAVA GTY PY6AQKY! #line:e4290b
-Donna: MHE 30 HA CVEDY%WEL HEDEVE. #line:a1e398
-Mae: HA YP0KE D0MAQHEF0 X03RLCTBA. R QAPNVA B GT0M. #line:3f1ed1
-Donna: R YMPY B GT0M F0P0DE. #line:982133
-Donna: N 0HN U0X0P0HRT MEHR B GT0L 0DESDE. #line:5c86ba
-Mae: HADE%CJ, N MEHR B GT0L ZYT60VKE /o\ #line:7e84f9
-Donna: MGL, Y TE6R 04EHJ KVEBAR PY6AQKA. #line:18a035
-Mae: [wave]CUACN60!!![/wave] #line:e83612
+Donna: I wear this outfit #line:8d442f
+Donna: to a job #line:25b3e6
+Donna: where people can only hear my voice. #line:f305ea
+Mae: I made this shirt myself, too! #line:e4290b
+Donna: I'm 30 next week. #line:a1e398
+Mae: in home economics. I was really great at that. #line:3f1ed1
+Donna: I'm going to die in this town. #line:982133
+Donna: And they're going to bury me in this outfit. #line:5c86ba
+Mae: I hope they bury me in this shirt. /o\ #line:7e84f9
+Donna: It's a very nice shirt, Mae. #line:18a035
+Mae: [wave]Thanks!!![/wave] #line:e83612
 Mae: :| _o_ #line:c3781c
 ===

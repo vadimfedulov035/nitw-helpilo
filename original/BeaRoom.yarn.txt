@@ -8,214 +8,214 @@ position: 607,237
 <<lookUp Bea>>
 <<warp Mae MaeEnter>>
 <<set $bea_friendship_quest_3 to 1>>
-Mae: BJ1 T0VJK0 4T0 BJEXAVN? #line:e8cdac
-Bea: 10 MECROEB HA3AD. #line:1ae338
-Mae: U04EMY TJ1 HE PACUAKYEQJ BEWN?? #line:309650
+Mae: Did you guys just move in? #line:e8cdac
+Bea: 10 months ago. #line:1ae338
+Mae: Why aren’t you unpacked? #line:309650
 <<close>>
 <<wait 2>>
--> KPYT0L UP0NFPJ1BATEVJ #line:5a7230
+-> Pretty cool record player. #line:5a7230
     Mae: :) #line:fe79ec
-    Mae: HACT0VJK0, HACK0VJK0 UP0NFPJ1BATEVN M0FYT 6J1TJ KPYTJ1MN. #line:d8e324
-    Bea: 0H 6J1V MAMNH. #line:76670e
+    Mae: as far as record players go. #line:d8e324
+    Bea: It was my mom’s. #line:76670e
     Mae: :| #line:46364e
-    Mae: Y MEHR HET UVACTNH0K. #line:442e1d
-    Mae: R NX 0C060 HE V%6V%. #line:88ad2d
-    Bea: M0R MAMA YBVEKAVACJ NMN. #line:133a75
-    Bea: XA XA. 0HN YSE 6J1VN PETP0, K0FDA EL 6J1V0 CT0VJK0 SE, CK0VJK0 N MHE. #line:950111
-    Mae: 0HN N CEL4AC PETP0. #line:34b452
-    Bea: B0T TAK PETP0 N PA60TAET. #line:9871b1
--> TB0R CTAPAR K0MHATA 6J1VA... #line:5f4f65
-    Bea: 60VJQE? #line:de08d6
-    Mae: TAM 6J1V 6ECU0PRD0K. PEAVJHJ1L 6APDAK. #line:579eab
-    Bea: GX. B DETCTBE R 6J1VA HEPRX0L. #line:834a2d
-    Mae: U0X0SE, K0P06KN PEQA%T GTY UP06VEMY. #line:92eb7c
-    Bea: HET, MAMA 0PAVA HA MEHR 3A 6APDAK, N B NT0FE R CTAVA UPN6NPATJCR. #line:41e8ab
+    Mae: I don’t have any records. #line:442e1d
+    Mae: I don’t get records. #line:88ad2d
+    Bea: My mom was into them. #line:133a75
+    Bea: Ha ha. They were retro when she was a my age. #line:950111
+    Mae: They’re retro now. #line:34b452
+    Bea: That’s how retro works. #line:9871b1
+-> Your old room was like... #line:5f4f65
+    Bea: Bigger? #line:de08d6
+    Mae: Messy. Really messy. #line:579eab
+    Bea: Eh. I was a slob when I was a kid. #line:834a2d
+    Mae: Guess the boxes take care of that problem. #line:92eb7c
+    Bea: No, mom yelled it out of me. #line:41e8ab
     Mae: :) #line:d6597f
-    Mae: MAMJ1, 0HN GT0MY PADJ1? #line:ea0924
-    Bea: UPEBPAWATJ Y60PKY B 06PRDJ1? #line:187f80
+    Mae: MOMS, amirite? #line:ea0924
+    Bea: U are rite. #line:187f80
 <<close>>
 <<wait 2>>
 Mae: :| #line:3e72da
-Mae: NTAK, Y MEHR ECTJ B0UP0C. #line:39bde1
-Bea: YFY. #line:448b6a
--> 4T0 NMEHH0 *DEVAET* TB0L UAUA B MAFA3NHE? #line:13e069
-    Bea: B U0CVEDHEE BPEMR? MAV0 4EF0. #line:79d750
-    Bea: GGG... HEK0T0PY% ADMNHNCTPATNBHY% PA60TY. #line:eca0c3
-    Bea: 0H HAHNMAET PEM0HTHNK0B... #line:c587a5
-    Bea: NH0FDA 0H BJ1E3SAET HA PA60TJ1. #line:f9a95a
-    Bea: MAFA3NH KAK 6J1 UPNHADVESNT EMY. #line:be6444
-    Bea: H0 GT0 BCE, 4T0 0H DEVAET. #line:db91e9
--> TB0L UAUA, TNUA, HEU0CT0RHHJ1L, DA? #line:7293f6
-    Bea: Y HEF0 6J1BA%T X0P0QNE N UV0XNE DHN. #line:4fdfdc
-    Bea: 4ACT0 B 0DNH N T0T SE DEHJ. #line:9d2966
-    Mae: XA-XA. FPEFF T0SE BCEFDA 6J1V TAKNM. #line:082417
-    Mae: T0VJK0 0TH0CNVCR K GT0MY 60VEE... G-G... HECEPJE3H0. #line:5b1456
-    Bea: HY, B03M0SH0, Y FPEFFA 6NU0VRPH0E PACCTP0LCTB0. #line:20dafe
-    Mae: 0 60SE, CUACN60, D0KT0P 6N. #line:a4fdea
-    Bea: T0FDA KAK Y M0EF0 0TOA YSE HECK0VJK0 VET HEPBH0E PACCTP0LCTB0. #line:9897f7
-    Mae: TJ1 3ABEDYEQJ BCEM MAFA3NH0M? #line:e475a9
-    Bea: TNUA T0F0. #line:c6918f
-Mae: AFA, H0 BEDJ BE3DE HAUNCAH0 EF0 NMR. #line:f34c0f
-Bea: DA. #line:82def7
-Mae: H0 U0 CYTN GT0 TJ1 BEDEQJ BECJ 6N3HEC. #line:d3351c
-Bea: DA. #line:1a4f00
-Bea: N! N! PA60TAEQJ TAM KASDJ1L DEHJ. #line:b4790e
-Bea: DA. #line:c8b856
-Mae: MHE KASETCR, TJ1 HE D0VSHA. #line:569b20
-Bea: 0KEL. #line:716f40
-    ->R UP0CT0 DYMA%, 4T0 TJ1 UP0DAEQJ CE6R. #line:9f5f8b
-        Bea: UP0CTN, 4T0? #line:059d5e
-    ->R 6J1, B03M0SH0, UP0CT0 YQVA. #line:22fd92
-        Mae: NVN TNUA, 3ABVADEVA MAFA3NH0M. #line:bec99d
-Mae: TNUA, TJ1 HN4EF0 C GTNM HE DEVAEQJ, YCYFY6VREQJ... #line:fec487
+Mae: So I’ve got a question. #line:39bde1
+Bea: Mmhmm. #line:448b6a
+-> What exactly does your dad *DO* at the store? #line:13e069
+    Bea: These days? Not much. #line:79d750
+    Bea: Uh. Some administrative stuff.  #line:eca0c3
+    Bea: He hires the repair guys... #line:c587a5
+    Bea: He sometimes goes out on jobs. #line:f9a95a
+    Bea: That’s kind of his whole area. #line:be6444
+    Bea: But that's about it. #line:db91e9
+-> Your dad’s kinda up and down, huh? #line:7293f6
+    Bea: He has good days and bad days. #line:4fdfdc
+    Bea: Often in the same day. #line:9d2966
+    Mae: ha ha. Gregg's always been like that too. #line:082417
+    Mae: just more... uh... zany about it. #line:5b1456
+    Bea: well Gregg is probably bipolar #line:20dafe
+    Mae: gee thanks, doctor bea. #line:a4fdea
+    Bea: whereas my dad is having a years-long breakdown. #line:9897f7
+    Mae: You run the whole store now, right? #line:e475a9
+    Bea: More or less. #line:c6918f
+Mae: Yeah but it’s still his name on everything. #line:f34c0f
+Bea: Yep. #line:82def7
+Mae: And meanwhile you’re running basically everything. #line:d3351c
+Bea: Yep. #line:1a4f00
+Bea: And! And! working there every day too. #line:b4790e
+Bea: Yep. #line:c8b856
+Mae: I just think you shouldn’t. #line:569b20
+Bea: Ok. #line:716f40
+    ->I just think you're like selling yourself out. #line:9f5f8b
+        Bea: I’m sorry, what? #line:059d5e
+    ->I would probably just quit. #line:22fd92
+        Mae: or like, take over the store. #line:bec99d
+Mae: Like, you not doing anything about it just reinforces- #line:fec487
 <<lookNearest Bea>>
 <<dilate Bea .85 .01>>
-Bea: GT0 DELCTBNTEVJH0 T0T UYTJ, U0 K0T0P0MY TJ1 X04EQJ U0LTN? #line:0263b8
-    ->R F0B0P%, 4T0 TJ1 D0VSHA U0CT0RTJ 3A CE6R NVN UP0CT0 YLTN. #line:f22375
-        Bea: "YLTN"? #line:1ac3fa
-        Bea: CEPJE3H0? UP0CT0 YLTN. #line:ea9982
-        Bea: TJ1 DELCTBNTEVJH0 0T0PBAHA 0T PEAVJH0CTN. #line:664f2d
-    ->R UJ1TA%CJ CKA3ATJ, 4T0 GT0 UP0CT0 HEUPABNVJH0, TJ1 KPYTNQJCR B0 BCEM GT0M N TEPUNQJ. #line:20b44f
-        Bea: "TEPUV% GT0?" #line:fc8fbe
+Bea: Is this really the road you want to go down with this? #line:0263b8
+    ->I’m saying you should stand up for yourself or just like... quit! #line:f22375
+        Bea: "Quit"? #line:1ac3fa
+        Bea: Really? Just quit. #line:ea9982
+        Bea: You are seriously detached from reality. #line:664f2d
+    ->I’m saying it’s not right that you just roll over and take it. #line:20b44f
+        Bea: "Take it?" #line:fc8fbe
         //shake text here//
-        Bea: "TEPUV% GT0"?!?!?! #line:59958b
-Mae: TJ1 DEVAEQJ BC% PA60TY, A 0H CHNMAET CVNBKN! #line:7ea678
-Bea: 0X, DA U0QVA TJ1 K 4EPTY. #line:8f03d3
+        Bea: "TAKE IT"?!?!?! #line:59958b
+Mae: You’re doing all the work and he’s getting all the credit! #line:7ea678
+Bea: oh go to hell. #line:8f03d3
 Mae: :( #line:54d630
-    ->4T0?! #line:b96f27
-        Bea: TJ1 CVJ1QAVA MEHR. #line:fb484a
-    ->U04EMY?! #line:e4d476
-        Bea: PPPPPP. #line:d5e4bf
-Mae: B 4EM TB0R UP06VEMA? #line:fc8a54
-Bea: B0T DVR TE6R HEMH0F0 PEAVJH0CTN: #line:626f2f
-Bea: TJ1 3HAEQJ KPNKA? PEM0HTHNKA U0 NMEHN KPNK, K0T0PJ1L N3 MAFA3NHA. #line:eded91
+    ->WHAT?! #line:b96f27
+        Bea: you heard me. #line:fb484a
+    ->WHY?! #line:e4d476
+        Bea: RAAAAAAGH. #line:d5e4bf
+Mae: what is your problem? #line:fc8a54
+Bea: here's some reality for you: #line:626f2f
+Bea: You know Creek? Repair Guy Creek at the shop? #line:eded91
 Mae: :| #line:a950b4
-    -> HET? #line:f1e3d5
-        Bea: TJ1 BNDEVA EF0. #line:253370
-        Bea: 60VTYH. PA60TAET Y HAC OEVY% BE4H0CTJ. #line:bb93e3
-    -> ...DA? #line:237794
-        Bea: TJ1 BCTPE4AVA EF0, K0FDA MJ1 6J1VN DETJMN. #line:6688c4
-Bea: K0FDA MHE 6J1V0 15, 0H U0UP0CNV PA3PEQEHNR Y M0EF0 0TOA, 4T06J1 HAY4NTJ MEHR B0SDEHN%. #line:2a3c6a
-Bea: N M0L 0TEO 0TBETNV HET, N 3ATEM CKA3AV MHE 60VJQE HNK0FDA HE 0CTABATJCR C HNM HAEDNHE. #line:5f675b
-    -> 4T0 3A? #line:a9dba0
-        Bea: AFA. T04H0. #line:7b3182
-    -> R HE U0HNMA%. #line:233c30
-        Bea: MEP3KNL TNU, MGL. #line:262819
-Bea: N 3HAEQJ 4T0? 0H D0 CNX U0P PA60TAET HA HAC. #line:d6abc7
+    -> No? #line:f1e3d5
+        Bea: You’ve seen him. #line:253370
+        Bea: Talks a lot. Worked for us since forever. #line:bb93e3
+    -> ...yeah? #line:237794
+        Bea: yeah you met him when we were kids. #line:6688c4
+Bea: When I was 15 he asked my dad if he could teach me how to drive. #line:2a3c6a
+Bea: And my dad said no, and then told me not to be alone with him. #line:5f675b
+    -> What the? #line:a9dba0
+        Bea: Yeah. Exactly. #line:7b3182
+    -> I don't follow. #line:233c30
+        Bea: he's a creep, Mae.  #line:262819
+Bea: And you know what? HE still works for us. #line:d6abc7
 Mae: :( #line:b8c6e6
 Mae: !!! #line:1cc84b
-Mae: U04EMY BJ1 HE YB0VNVN EF0?!?! #line:511b54
+Mae: Why haven’t you fired him?!?! #line:511b54
 <<fadeOutAmbientSFX _AmbientSFX:music 10>>
 <<playAmbientSFX _AmbientSFX:record_static 10>>
-Bea: R HE M0FY YB0VJHRTJ V%DEL! #line:9ac5ae
-Bea: A DASE ECVN 6J1 M0FVA, 0H BCE PABH0 4ACTJ 6PNFADJ1. #line:1600a2
-Bea: N, 4ECTH0 F0B0PR, 0H HAQ VY4QNL C0TPYDHNK. ZAKTN4ECKN, FVABA PEM0HTH0L K0MAHDJ1. #line:3a6007
-Bea: C TEX U0P, KAK M0L 0TEO UPAKTN4ECKN UEPECTAV DEVATJ 4T0-VN60! #line:061703
-Bea: N Y KPNKA ECTJ CEMJR. N EMY HYSHA PA60TA. #line:ba6468
--> GT0 0TBPATNTEVJH0! #line:3248ca
+Bea: I can't fire people! #line:9ac5ae
+Bea: And even if I could, he’s on the crew. #line:1600a2
+Bea: And frankly he’s our best guy. Practically heads up the repair team. #line:3a6007
+Bea: Since my dad’s barely doing anything! #line:061703
+Bea: And Creek’s got a family. And he needs the work. #line:ba6468
+-> That’s disgusting! #line:3248ca
     Mae: \o/ #line:6cfc04
-    Mae: GT0 HE TB0R 0TBETCTBEHH0CTJ 3A... #line:74a597
-    Bea: R 3HA%! #line:f3db23
-    Bea: TJ1 DYMAEQJ, R HE 3HA% 06 GT0M?! #line:7e5eec
+    Mae: It’s not your responsibility to- #line:74a597
+    Bea: I KNOW! #line:f3db23
+    Bea: DON’T YOU THINK I KNOW THAT?! #line:7e5eec
     Mae: _o_ #line:60dfd8
--> MEHR CEL4AC CT0QHNT. #line:e7e5eb
-    Bea: AFA! MEHR T0SE! #line:cfa497
-    Bea: MHE DELCTBNTEVJH0 3HAK0M0 GT0 4YBCTB0. #line:cd700c
+-> I’m gonna be sick. #line:e7e5eb
+    Bea: YEAH! ME TOO! #line:cfa497
+    Bea: I’M REALLY FAMILIAR WITH THAT FEELING. #line:cd700c
 Mae: :| #line:80b660
-Mae: R UP0CT0 F0B0P%, 4T0 ECVN TJ1 6YDEQJ U03B0VRTJ GTNM 4YBAKAM U0MJ1KATJ T060L... #line:74e4ec
-Bea: U0MJ1KATJ MH0L!? #line:3cf05c
-Mae: TNUA, TJ1 CNVJHEE GT0F0, 6N. #line:351001
-Mae: TJ1, TNUA... KPYTAR N BCR XEPHR. #line:5c4ca9
-Bea: T-TJ1... #line:cce5c8
+Mae: I’m just saying if you keep letting these dudes off the hook- #line:74e4ec
+Bea: OFF THE HOOK?! #line:3cf05c
+Mae: Like, you're stronger than this, Bea. #line:351001
+Mae: You're like... badass and shit. #line:5c4ca9
+Bea: Y-YOU... #line:cce5c8
 <<close>>
 <<animationTrigger BeaLayRig GetUp>>
 <<dilate Bea 1 .01>>
 <<wait 2>>
-Bea: "KPYTAR?" #line:db4cf3
-Bea: K0FDA MAMA YMNPAVA, R HE 4YBCTB0BAVA CE6R "KPYT0L". #line:dd3047
-Bea: N R, CNDRWAR CEL4AC B GT0L K0MHATE, HE 04EHJ "KPYTAR". #line:368f91
-Mae: VADH0, UP0CTN, R... #line:ba2b8a
-Bea: TJ1 TAKAR 3ACPAHKA, 3HAEQJ GT0? #line:f08790
+Bea: "BADASS?" #line:db4cf3
+Bea: MY MOM DYING WAS NOT VERY "BADASS." #line:dd3047
+Bea: ME SITTING IN THIS ROOM RIGHT NOW IS NOT VERY "BADASS." #line:368f91
+Mae: ok sorry, i- #line:ba2b8a
+Bea: You are such a shithead, you know that? #line:f08790
 Mae: :( #line:8b3226
-    -> AAAAAAAA! #line:bc738c
-        Bea: "AAAAAAAA?" 4T0 "AAAAAAAA"?! #line:de6408
-    -> KAK0F0 XPEHA? #line:d9538d
-       Bea: "A-A-A-X KAK0F0 XPEHA?!" #line:587e5e
-Bea: MH0FNE HE M0FYT UP0CT0 "BJ16NPATJ", 4EM NM 3AHNMATJCR. #line:b8580b
-Bea: DEVATJ UPABNVJHJ1E BEWN NVN HET! #line:9c0f4a
-Bea: 4AWE BCEF0 V%DN DEVA%T T0, 4T0 DEVA%T #line:9ca6dc
-Bea: U0T0MY 4T0 0HN HE M0FYT DEVATJ HN4EF0 DPYF0F0! #line:93b922
+    -> Aaaaargh! #line:bc738c
+        Bea: "Aaaaargh?" "Aaaaargh" what?! #line:de6408
+    -> What the hell? #line:d9538d
+       Bea: "uuughhuhuhg what the hell?!" #line:587e5e
+Bea: A lot of time folks can’t just "choose" to do #line:b8580b
+Bea: whatever it is you decree to be the right thing! #line:9c0f4a
+Bea: A lot of times people do the things they do #line:9ca6dc
+Bea: because they can’t do anything else! #line:93b922
 Mae: :| #line:60829c
-    -> Y TE6R BCEFDA ECTJ BJ160P. #line:bfe41d
-        Bea: CKA3AVA DEB40HKA 6E3 PA60TJ1 #line:5c582b
-        Bea: 6E3 0UVATJ1 APEHDJ1 #line:338929
-        Bea: 6E3 0TBETCTBEHH0CTN #line:7707ea
-        Bea: N 6E3 U0CVEDCTBNL 3A CB0N TYUJ1E U0CTYUKN. #line:09fdea
-    -> TJ1 BCEFDA M0SEQJ BJ16PATJ. #line:c22a4c
-        Bea: BJ16PATJ 4T0? #line:b67b8f
-        Bea: 4ECTH0. CKASN MHE. #line:b08dd9
-        Bea: 4T0 M0SH0 BJ16PATJ B M0EL CNTYAONN? #line:c7b8bf
-            ->TJ1 M0SEQJ UP0CT0 YLTN! R HE 3HA%! #line:e829d8
-                Bea: R... R... #line:8fc2c4
-                Bea: T-TJ1 #line:dc6b94
-            ->CKASN CB0EMY 0TOY, 4T0 TJ1 HE C06NPAEQJCR GT0 TEPUETJ! #line:c95c91
-                Bea: CKA3ATJ EMY 4T0???? #line:a285cf
-                Bea: KAK0E Y TE6R "B0VQE6H0E PEQEHNE" #line:064c96
-                Bea: K0T0PJ1M *R* D0VSHA B0CU0VJ30BATJCR #line:e937bc
-Bea: R YDAP% TE6R TAK, 4T06J1 TJ1 HAXPEH BJ1PY6NVACJ. #line:a19bc5
+    -> You ALWAYS have a choice. #line:bfe41d
+        Bea: says the child-woman with no job #line:5c582b
+        Bea: no rent #line:338929
+        Bea: no responsibilities #line:7707ea
+        Bea: and no consequences for your stupid actions #line:09fdea
+    -> You can ALWAYS choose. #line:c22a4c
+        Bea: choose what? #line:b67b8f
+        Bea: honestly. tell me. #line:b08dd9
+        Bea: what is my choice here? #line:c7b8bf
+            ->you can just leave! i dunno! #line:e829d8
+                Bea: I... I... #line:8fc2c4
+                Bea: y-you #line:dc6b94
+            ->tell your dad you're not gonna take this! #line:c95c91
+                Bea: tell him what???? #line:a285cf
+                Bea: what is your magic solution #line:064c96
+                Bea: that *I* need to do #line:e937bc
+Bea: I am seriously going to punch your goddamn lights out. #line:a19bc5
 Mae: :( #line:5c7a3c
-Bea: TJ1 UPNQVA K0 MHE N HA4AVA PACCKA3J1BATJ KAK *R* 06VASAVACJ? #line:4fe283
-Bea: TJ1 X04EQJ UPNLTN C%DA N CKA3ATJ #line:75ce61
-Bea: "0, DA, UP0CT0 N36ABJCR 0T CB0EF0 0TOA, #line:bd9566
-Bea: K0T0PJ1L CTAPEET #line:df7110
-Bea: N EDBA VN M0SET U0DHRTJCR C DNBAHA B U0V0BNHE CVY4AEB?" #line:80347d
+Bea: You come in here and start telling me how *I’M* screwing things up? #line:4fe283
+Bea: You want to come in here and say #line:75ce61
+Bea: “oh yeah just ditch your dad, #line:bd9566
+Bea: who is both getting old #line:df7110
+Bea: AND can barely get off the couch half the time?” #line:80347d
 <<if $grocery_quality is 1>>
-    Bea: [wave]0, H0 "X0P0QNL YSNH", MGL![/wave] #line:158f73
+    Bea: [wave]Oh, but "good dinner", Mae![/wave] #line:158f73
 <<endif>>
-Bea: TJ1 X04EQJ UPNLTN C%DA N CKA3ATJ #line:2f3241
-Bea: "0, DA, UP0CT0 3AKATN CKAHDAV #line:75d53d
-Bea: N CDEVAL CB0% SN3HJ EWE 60VEE HAUPRSEHH0L?" #line:0e925d
--> GT0 HEUPABNVJH0, B0T 0 4EM R F0B0P%! #line:8e97fc
-    Bea: AFA. BCE HEUPABNVJH0. #line:3b8317
-    Bea: C FPE6AHJ1M MNP0M BCE HEUPABNVJH0. #line:e24fa1
--> GT0 HE T0, 4T0 R NME% B BNDY. #line:1c2738
-    Bea: 0X, TAK 4T0 TJ1 T0FDA NMEVA B BNDY? #line:c438fb
-    Mae: AAAAAA R YSE HE 3HA%! #line:3beb75
-Bea: TNUA, FPEFF, CK0PEE BCEF0, CEL4AC DEVAET 60F 3HAET KAKY% DYPAOKY% XEPH% #line:6ced6f
-Bea: A R DEVA% YSNH N HA4NCVR% 3APUVATY M0NM PA60THNKAM. #line:c0d243
-Bea: TJ1 *HN4EF0* HE 3HAEQJ 0 M0EL SN3HN. #line:b2ba9f
-Bea: 3AT0 TJ1 3HAEQJ, 4T0 R "D0VSHA" DEVATJ. #line:e09831
-Bea: N TJ1 - U0CVEDHNL 4EV0BEK, Y K0T0P0F0 R 6J1 CUP0CNVA C0BETA. #line:0186d8
+Bea: You want to come in here and say #line:2f3241
+Bea: "oh yeah just start this big drama #line:75d53d
+Bea: and make your life WAY more stressful?" #line:0e925d
+-> It’s just not right is what I’m saying! #line:8e97fc
+    Bea: Yeah. It isn’t. Nothing’s right. #line:3b8317
+    Bea: The whole effing world isn’t right. #line:e24fa1
+-> That is NOT what I’m saying! #line:1c2738
+    Bea: Oh, what are you saying, then? #line:c438fb
+    Mae: AAAARGH I don’t know anymore! #line:3beb75
+Bea: like gregg is probably off doing god knows what wacky shit right now #line:6ced6f
+Bea: i'm here making dinner and doing payroll. #line:c0d243
+Bea: You know like *nothing* about my life. #line:b2ba9f
+Bea: You just know what I “should” do. #line:e09831
+Bea: And you’re the last person I’d ask for advice. #line:0186d8
 Mae: :| #line:e544bf
-Mae: VADH0-VADH0, N3BNHN. #line:c2e7dd
-Bea: AFA, TEUEPJ N3BNHREQJCR. BCE N3BNHR%TCR. #line:24d163
-Bea: H0 TJ1 HN4EF0 HE U0HRVA. #line:2ca26e
+Mae: Ok ok I’m sorry. #line:c2e7dd
+Bea: Yeah, you’re sorry. Everyone's sorry. #line:24d163
+Bea: But you don’t get it. #line:2ca26e
 <<if $did_bea_friendship_quest_1 is 1 and $did_bea_friendship_quest_2 is 1>>
-    Mae: R DYMAVA, MJ1 6YDEM BECEVNTJCR! #line:6ed6d1
-    Mae: MJ1 X0DNVN B T0PF0BJ1L OEHTP! MJ1 3ACTPRVN B U0DBAVE! #line:d201b1
-    Bea: GT0 BCE, 4T0 TJ1 DEVAVA U0CVEDHNE UAPY DHEL. #line:272afe
-    Bea: R PA60TAVA OEVJ1X 6 4AC0B, B03M0SH0, EWE D0 T0F0, KAK TJ1 UP0CHYVACJ. #line:fb6f62
-    Bea: N U0CVE KASD0L HAQEL H04N, R UPNX0DNVA D0M0L #line:e007f8
-    Bea: N UVATNVA 3A C4ETA, N UPNDYMJ1BAVA, KAK MHE BJ1UVA4NBATJ CVEDY%WY% 3APUVATY. #line:36cdbd
-    Bea: U0KA 0TEO CUAV HA DNBAHE. #line:d81772
-    Bea: GT0 HE BECEVJE. #line:6f46a1
+    Mae: I thought we were having fun! #line:6ed6d1
+    Mae: We went to the mall! We got stuck in a basement! #line:d201b1
+    Bea: Yeah and that was ALL you did those days. #line:272afe
+    Bea: I’d worked a good 6 hours before you even woke up probably #line:fb6f62
+    Bea: and came home each night after you and I were done #line:e007f8
+    Bea: to pay bills and figure out how we’re making next payroll #line:36cdbd
+    Bea: While dad slept on the couch. #line:d81772
+    Bea: This isn’t fun. #line:6f46a1
 <<elseif $did_bea_friendship_quest_1 is 1>>
-    Bea: TJ1 BEDEQJ CE6R UPRM0 KAK B TY H04J, H0 BCE BPEMR. #line:16bc46
-    Bea: 6EFAEQJ B0KPYF, 60VTAEQJCR C V%DJMN N 6EPEQJ BCE, 4T0 X04EQJ. #line:3f950d
-    Bea: U0KA BECJ T0PF0BJ1L OEHTP PA3BAVNBAETCR B0KPYF TE6R. #line:4cc459
-    Mae: R DYMAVA MJ1 X0P0Q0 UP0B0DNM BPEMR! #line:1deac1
+    Bea: You’re just like the other night, but all the time. #line:16bc46
+    Bea: Running around messing with people and taking whatever you want. #line:3f950d
+    Bea: While the whole mall is falling apart around you. #line:4cc459
+    Mae: I thought you had a good time! #line:1deac1
     Bea: ... #line:a2ed36
 <<elseif $did_bea_friendship_quest_2 is 1>>
-    Bea: GT0 KAK B UP0QVY% H04J, #line:e0730c
-    Bea: K0FDA TJ1 NFPAVA B03VE MYC0PA N V0MAVA BCE U0DPRD, BKV%4AR PA60TA%WNE BEWN. #line:41f5cf
-    Bea: U0KA R CNDEVA B YFVY N 4NHNVA UE4J. #line:46c8b8
-    Mae: H0 R U0M0FAVA! #line:0456e7
+    Bea: It’s like last night #line:e0730c
+    Bea: you get to play around in garbage and break shit and everything works out. #line:41f5cf
+    Bea: While I’m stuck in the corner fixing the furnace. #line:46c8b8
+    Mae: But I helped! #line:0456e7
     Bea: ... #line:0132ad
 <<endif>>
 <<close>>
 <<wait 2>>
-Mae: MHE HYSH0 NDTN. #line:fb6b8c
-Bea: TE6E HYSH0 NDTN. #line:27e393
+Mae: I should go. #line:fb6b8c
+Bea: You should go. #line:27e393
 <<set $bea_dad_done to 0>>
 <<set $bea_friendship_quest_3 to 1>>
 <<irisOut 1 wait>>

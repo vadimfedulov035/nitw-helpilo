@@ -4,14 +4,14 @@ colorID: 0
 position: 540,260
 ---
 <<if $dom_friend_bea>>
-	Bea: 0 60SE M0L. #line:e56343
-	Mae: ...6NNN? #line:85094c
-	Bea: 60SE M0L... MGL? #line:013f2c
+	Bea: oh my god. #line:e56343
+	Mae: ...Beeeea? #line:85094c
+	Bea: Oh my god... Mae? #line:013f2c
 <<else>>
-	Gregg: 4EPT. #line:0dc5e8
-	Mae: ...FPE-E-E-E-F-F? #line:69a08e
-	Gregg: 4EPT B03JMN, MGL? #line:3e4e20
-	Gregg: GT0 MGL!!! #line:6d4f74
+	Gregg: crap. #line:0dc5e8
+	Mae: ...Greeegg? #line:69a08e
+	Gregg: Holy crap, Mae? #line:3e4e20
+	Gregg: It’s Mae!!! #line:6d4f74
 <<endif>>
 <<close>>
 <<fadeOut 1 wait>>

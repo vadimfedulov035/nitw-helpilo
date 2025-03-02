@@ -99,39 +99,39 @@ colorID: 0
 position: 291,499
 ---
 <<set $met_dan to 1>>
-Mae: DGHHN, BEPH0? #line:1e31fb
-Dan: AFA. #line:173b22
-Mae: MHE KASETCR, TJ1 6J1V HA CTAPQNX KYPCAX, K0FDA R T0VJK0 U0CTYUNVA. #line:aa7c41
-Dan: TNUA T0F0. #line:975937
-Mae: 4E KAK? #line:8e6335
-Dan: T0VJK0 4T0 U0TEPRV PA60TY... #line:bb9b0e
-Mae: 0 HET! #line:34d338
-Dan: F0B0PRT, 4T0 HA CTP0LKY BCEFDA HA6NPA%T, #line:e85056
-Dan: H0 GT0 HE TAK. #line:f15d3a
-Dan: HA CAM0M DEVE 0KA3AV0CJ, 4T0 4AWE BCEF0 YB0VJHR%T TEX, K0F0 30BYT DGH. #line:cf9f4e
-Mae: 4T0 TJ1 C06NPAEQJCR DEVATJ? #line:0c4300
-Dan: R 0TKPJ1T DVR UPEDV0SEHNL. #line:394f7a
-[[HE CDABALCR!|Dan_00_DontGiveUp]] #line:86a190
-[[R YBEPEHA, KT0-HN6YDJ HALMET TE6R!|Dan_00_Someone]] #line:61e2da
+Mae: Danny, right? #line:1e31fb
+Dan: Yep. #line:173b22
+Mae: I think you were a senior when I was a freshman? #line:aa7c41
+Dan: Probably. #line:975937
+Mae: How’s it going? #line:8e6335
+Dan: Just lost my job... #line:bb9b0e
+Mae: Oh no! #line:34d338
+Dan: They say construction’s always hiring #line:e85056
+Dan: but it’s not. #line:f15d3a
+Dan: In fact, it’s often laying off guys named Dan. #line:cf9f4e
+Mae: What are you going to do? #line:0c4300
+Dan: I’m open to suggestions. #line:394f7a
+[[Don’t give up!|Dan_00_DontGiveUp]] #line:86a190
+[[I’m sure *someone* in town is hiring!|Dan_00_Someone]] #line:61e2da
 ===
 title: Dan_00_01
 tags: demo2
 colorID: 0
 position: -47,468
 ---
-Mae: R T0SE 6E3PA60THAR. #line:4e663f
-Dan: 6VNH, UP0CTN, 4T0 B006WE 3AF0B0PNV C T060L 06 GT0M. #line:cbb9f0
-Dan: TJ1 KAK, DEPSNQJCR? #line:ea94b4
-Mae: U0TNX0HJKY. CBAVNVA N3 K0VVEDSA N SNBY C P0DNTEVRMN. #line:b07126
-Dan: 0X. #line:e4bbc9
-Dan: T0 ECTJ, M0SH0 CKA3ATJ, CH0BA U0DP0CT0K? #line:a91e87
-Mae: HET. #line:8cc110
-Mae: R BCEF0 VNQJ B3P0CVJ1L, K0T0PJ1L SNBET C P0DNTEVRMN. #line:7ab0a1
-Dan: A, T0 ECTJ, TJ1 HE T0 4T06J1 6E3PA60THAR, #line:a63fa1
-Dan: Y TE6R UP0CT0 HET U0BCEDHEBH0F0 X066N, #line:dfad55
-Dan: UPNH0CRWEF0 D0X0D HA CJEM HEHYSH0F0 SNVJR. #line:f6d174
-Mae: TAK, VADHEHJK0, MHE U0PA. #line:541a24
-Dan: AFA. #line:58062b
+Mae: I don’t have a job either. #line:4e663f
+Dan: Aw man, sorry to talk your ear off about it. #line:cbb9f0
+Dan: How are you holding up? #line:ea94b4
+Mae: Good. Just dropped out of college and I’m living with my parents. #line:b07126
+Dan: Oh. #line:e4bbc9
+Dan: So you’re basically a teenager again. #line:a91e87
+Mae: NO. #line:8cc110
+Mae: I’m just an adult living with her parents. #line:7ab0a1
+Dan: Oh ok so it’s not like you’re unemployed #line:a63fa1
+Dan: it’s like you’re lacking a daytime hobby #line:dfad55
+Dan: that pays money you don’t need for rent. #line:f6d174
+Mae: Alright, I’m gonna get going. #line:541a24
+Dan: Yeah. #line:58062b
 ===
 title: DanDemo
 tags: demo
@@ -139,9 +139,9 @@ colorID: 0
 position: 465,171
 ---
 <<if $dan is 0>>
-	Dan: {width=2}CTP0NTEVN BCEFDA B0CTPE60BAHJ1, P06! #line:7cdc05
-	Dan: {width=2}HY, U0 KPALHEL MEPE, K0ZELHR BCE EWE PA60TAET. #line:43a93a
-	Dan: {width=2}HECM0TPR HA T0, 4T0 BAKAHCNL Y HNX HET. #line:6abeaf
+	Dan: {width=2}Construction's always hiring, Rob! #line:7cdc05
+	Dan: {width=2}Well, at least the coffee shop is still open. #line:43a93a
+	Dan: {width=2}Even if it's not hiring. #line:6abeaf
 	<<set $dan to 1>>
 	<<set $dan_done to 1>>
 <<endif>>
@@ -152,24 +152,24 @@ tags: demo2
 colorID: 0
 position: 183,767
 ---
-Dan: HY, BCEFDA BEDJ ECTJ QAHC, 4T0 KT0-T0 U0MPET. #line:e4db66
-Dan: N R U0VY4Y EF0 MECT0. #line:2fb23b
-Mae: DGH, TJ1 BEDJ HE C06NPAEQJCR, TNUA, #line:631b43
-Mae: 3ABAVNTJ K0F0-HN6YDJ, UPABDA? #line:a51abb
-Dan: A GT0 0UVA4NBAETCR? #line:be25c9
+Dan: Well there’s always a chance someone will die #line:e4db66
+Dan: And I can have their job. #line:2fb23b
+Mae: Dan, you’re not gonna like #line:631b43
+Mae: kill anyone, are you? #line:a51abb
+Dan: Does it pay? #line:be25c9
 ===
 title: Dan_00_Someone
 tags: demo2
 colorID: 0
 position: 537,763
 ---
-Dan: D0 GT0F0 R F0D KAK HNFDE HE PA60TAV. #line:0a16d7
-Dan: B GT0T PA3 R UP0DEPSAVCR 6 MECROEB, U0KA MEHR HE YB0VNVN. #line:89e77e
-Dan: 3HAEQJ, KAK GT0 BVNRET HA PE3%ME? #line:c03c3e
-Mae: HE C0BCEM. #line:00278b
-Dan: Y MEHR PE3%ME - 30M6N. #line:d4bfe1
-Dan: 0H0 MEPTB0E, H0 KAK-T0 X0DNT TYDA-C%DA. #line:0e4484
-Mae: 0Y. #line:7f148b
+Dan: I’ve been out of work for a year before. #line:0a16d7
+Dan: And this time I only lasted 6 months before being laid off. #line:89e77e
+Dan: Do you know what that does to a resume? #line:c03c3e
+Mae: Not really. #line:00278b
+Dan: I have a zombie resume. #line:d4bfe1
+Dan: It’s dead but somehow it’s still going all over the place. #line:0e4484
+Mae: Oh. #line:7f148b
 ===
 title: DanA2D1_00
 tags: 
@@ -177,21 +177,21 @@ colorID: 3
 position: -1677,266
 ---
 // olpickaxe
-Mae: KAK DEVA, UPNRTEVJ? #line:d9a678
-Dan: PA60TA% 3DECJ. GT0 KPYT0. #line:e463e3
-Mae: 0, KVACC! #line:421f0f
-Dan: B006WE-T0, R BPY. GT0 0TCT0L. #line:690a0e
-Mae: 0X. 60SE4KN. #line:4c90fb
+Mae: how's it going dude? #line:d9a678
+Dan: got a job here. that's cool. #line:e463e3
+Mae: oh nice! #line:421f0f
+Dan: actually i'm lying. it sucks. #line:690a0e
+Mae: oh. geez. #line:4c90fb
 ===
 title: DanA2D1_01
 tags: 
 colorID: 3
 position: -1688,500
 ---
-Dan: R N HE 3HAV, 4T0 ECTJ CT0VJK0 BND0B M0V0TK0B #line:50fb32
-Dan: N FAE4HJ1X KV%4EL, #line:ad7fe4
-Dan: N FB03DEL. #line:c6b3ba
-Dan: 60SE, FB03DN. #line:ccfac7
+Dan: I had no idea there were so many kinds of hammers #line:50fb32
+Dan: and wrenches #line:ad7fe4
+Dan: and nails. #line:c6b3ba
+Dan: my god, the nails. #line:ccfac7
 ===
 title: DanA2D3_00
 tags: 
@@ -199,19 +199,19 @@ colorID: 3
 position: -1401,266
 ---
 // olpickaxe
-Mae: L0Y, 4YBAK. #line:af3eb6
-Dan: UPNBET. #line:42c0fe
-Mae: KAK NDET PA60TA? #line:eadcac
-Dan: GX. DASE HE 3HA%. #line:1308b7
-Dan: 3A HEE UVATRT. #line:c7a891
+Mae: hey dude. #line:af3eb6
+Dan: hello. #line:42c0fe
+Mae: how's working here going? #line:eadcac
+Dan: eh. i dunno. #line:1308b7
+Dan: it pays. #line:c7a891
 ===
 title: DanA2D3_01
 tags: 
 colorID: 3
 position: -1403,503
 ---
-Dan: R TNUA 0TKA3J1BA%CJ CAM0CT0RTEVJH0 PA3FPYSATJ BC% GTY KAMEHHY% C0VJ. #line:1a70e6
-Dan: EWE BEDJ DASE HE XGVV0YNH. #line:5a914b
+Dan: I like refuse to unload all that rock salt by myself. #line:1a70e6
+Dan: it's not even halloween yet. #line:5a914b
 ===
 title: DanA3D1_00
 tags: 
@@ -219,13 +219,13 @@ colorID: 4
 position: -1150,271
 ---
 // tcw, behind diner
-Mae: XGL, UPNRTEVJ! #line:743654
-Dan: UPNBET... #line:f75680
-Mae: TEUEPJ PA60TAEQJ 3DECJ? #line:a85320
-Dan: YFY. 0TCT0L. #line:a1f16f
-Dan: H0 TYT UVATRT. #line:668985
-Mae: B0UP0C: KAK 0HN C%DA KYXH% BUNXHYVN? #line:223d9b
-Dan: EVE-EVE. #line:d9faf2
+Mae: hey dude! #line:743654
+Dan: hey... you? #line:f75680
+Mae: working here now? #line:a85320
+Dan: yep. sucks. #line:a1f16f
+Dan: but it pays. #line:668985
+Mae: question: how do they fit a kitchen in there? #line:223d9b
+Dan: barely. #line:d9faf2
 
 ===
 title: DanA3D1_01
@@ -233,11 +233,11 @@ tags:
 colorID: 4
 position: -1152,503
 ---
-Mae: 4T0 TJ1 3DECJ DEVAEQJ? #line:5bd36b
-Dan: PA60TA% HA FPNVE N Y60PWNK0M. #line:51fd7c
-Dan: R F0T0BV% N U0DMETA%. #line:d72061
-Mae: 0DH0BPEMEHH0? #line:ba5da2
-Dan: DA. #line:3ac598
+Mae: What do you do here? #line:5bd36b
+Dan: Grillman and janitor. #line:51fd7c
+Dan: i cook and mop. #line:d72061
+Mae: at the same time? #line:ba5da2
+Dan: yes. #line:3ac598
 ===
 title: DanA4D3_00
 tags: 
@@ -245,19 +245,19 @@ colorID: 6
 position: -885,273
 ---
 // taco
-Mae: TAK TJ1 TEUEPJ FVABHJ1L U0 TAK0? #line:97e9dc
-Dan: R BP0DE KAK 6J1V HAHRT MACTEP0M TAK0. #line:147614
-Dan: H0, U0X0SE, GT0 3HA4NT DEPSATJ TA6VN4KY, CT0R HA X0V0DE. #line:47f2cb
-Mae: DA CHEF BP0DE HE 0C060 NDET. #line:3d98f5
-Dan: 0H NDET. UADAET, UADAET C HE6A. #line:9a6141
-Mae: 3DECJ BKYCHJ1E TAK0? #line:f6bc88
-Dan: HEUV0XNE. R V%6V% TAK0. #line:d54f68
-Mae: HET HNK0F0 HA 3EMVE, KT0 6J1 HE V%6NV TAK0. #line:24f0a6
-Dan: UV0XNE H0B0CTN: M0R 6J1BQAR HEHABNDNT TAK0. #line:ae73b6
-Mae: X0P0QNE H0B0CTN: B0T U04EMY 0HA TB0R 6J1BQAR. #line:15153e
-Dan: XE-XE-XE! #line:8b8408
-Mae: C4ACTJR TE6E C TAK0. #line:90e683
-Dan: GX. 3A GT0 UVATRT. #line:768c3f
+Mae: so you're a taco dude now? #line:97e9dc
+Dan: i mean i was hired to be a taco artisan. #line:147614
+Dan: but i guess that means holding this sign out in the snow. #line:47f2cb
+Mae: it's not really snowing that hard. #line:3d98f5
+Dan: it's snowing. there is snow in the sky, falling. #line:9a6141
+Mae: how are the tacos here? #line:f6bc88
+Dan: good. i like tacos. #line:d54f68
+Mae: there is not one person on god's earth who doesn't love tacos. #line:24f0a6
+Dan: bad news: my ex hates tacos. #line:ae73b6
+Mae: good news: they're now your ex. #line:15153e
+Dan: heh heh heh #line:8b8408
+Mae: have fun with the tacos. #line:90e683
+Dan: eh. it pays. #line:768c3f
 <<set $talked_to_dan_about_taco_buck to 1>>
 ===
 title: DanA4D3_01
@@ -265,28 +265,28 @@ tags:
 colorID: 6
 position: -881,505
 ---
-Dan: TAK0 6AK! #line:be250a
-Dan: U006EDALTE Y HAC! #line:0558d8
-Dan: Y HAC ECTJ D0CTABKA! #line:ae1ee5
-Dan: U0SAVYLCTA, DABALTE 4AEBJ1E HAQEMY KYPJEPY. #line:c8e3ae
-Dan: VY4QNE TAK0 B0 BCEM PEFN0HE, GT0 T04H0. #line:349429
-Dan: CKY4AVA U0 UNOOEPNN? #line:c49ec2
-Dan: U04EMY 6J1 HE U0UP060BATJ UNOOY N3 TAK0? #line:56f913
-Mae: 0 60SE. 3BY4NT U0TPRCA%WE. #line:14f6c1
-Dan: CVEDNQJ 3A 3D0P0BJEM? #line:826bb1
-Dan: U0UP06YL TAK0 N3 VNCTJEB CAVATA! #line:86d783
-Mae: HET. CUACN60. #line:54cc23
-Dan: YX0DN 0TCED0BA, DNTR, R PA60TA%. #line:d488e5
+Dan: TACO Buck! #line:be250a
+Dan: Dine in, Dine out! #line:0558d8
+Dan: We deliver! #line:ae1ee5
+Dan: Please tip your delivery persons! #line:c8e3ae
+Dan: best tacos in all of this general region. pretty sure. #line:349429
+Dan: been missing the pizza place? #line:c49ec2
+Dan: why not try a pizza taco? #line:56f913
+Mae: oh wow. that sounds amazing. #line:14f6c1
+Dan: watching your health? #line:826bb1
+Dan: try out all-lettuce taco! #line:86d783
+Mae: no. i refuse. #line:54cc23
+Dan: get outta here kid i'm workin'. #line:d488e5
 ===
 title: DanIntro
 tags: 
 colorID: 0
 position: -864,-204
 ---
-Mae: DGHHN, BEPH0? #line:a1b7cb
-Dan: AFA. HY, DGH. #line:04352a
-Mae: MHE KASETCR, TJ1 6J1V HA CTAPQNX KYPCAX, K0FDA R T0VJK0 U0CTYUNVA. #line:b768dc
-Dan: TNUA T0F0. #line:0a68f1
+Mae: Danny, right? #line:a1b7cb
+Dan: Yep. Well, Dan. #line:04352a
+Mae: I think you were a senior when I was a freshman? #line:b768dc
+Dan: Probably. #line:0a68f1
 <<set $met_dan to 1>>
 
 <<if $act is 2 and $day is 1>>

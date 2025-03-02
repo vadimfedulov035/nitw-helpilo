@@ -13,13 +13,13 @@ tags:
 colorID: 4
 position: -21,102
 ---
-Angus: BAY. #line:72a4c6
-Mae: BAY? #line:3e6e3c
-Angus: M0L CTAPJ1L CKAYTCKNL VAFEPJ #line:03a31b
-Angus: X0DNV C%DA C0 CB0NM 0TPRD0M #line:f486cb
-Angus: VET DECRTJ HA3AD #line:880749
-Mae: TEUEPJ TJ1 DPEBHNL M0PCK0L M0HCTP. #line:7e282d
-Angus: U0X0SE HA T0. #line:07f70a
+Angus: wow. #line:72a4c6
+Mae: wow? #line:3e6e3c
+Angus: my old scout camp #line:03a31b
+Angus: used to come up here with my troop #line:f486cb
+Angus: like a decade ago #line:880749
+Mae: you're the ancient sea monster now. #line:7e282d
+Angus: looks like it. #line:07f70a
 <<walk Angus Angus1>>
 ===
 title: AngusSteps
@@ -27,20 +27,20 @@ tags:
 colorID: 4
 position: 303,-145
 ---
-Angus: BAY. U0X0SE, HECK0VJK0 VETA%WNX 3AUNC0K BEPHYV0CJ. #line:e59ecb
-Mae: 4EF0? #line:199677
-Angus: GM, MJ1 DEVAVN 4T0-T0 BP0DE KP0QE4HJ1X BETPRHJ1X MEVJHNO #line:85ae37
-Angus: N KASDJ1L 0CTABVRV B HNX AH0HNMHY% 3AUNCKY #line:6be2d7
-Angus: CBR3AHHY% C YUPABVREMJ1M BECH0L BEPT0VETNK0M #line:7f45d7
-Angus: NDER 6J1VA B T0M, 4T0, K0FDA U0DHNMAETCR BETEP, #line:c40262
-Angus: MEVJHNOA U0DHNMAET BEPT0VET #line:43e5b4
-Angus: N T0T YVETAET. #line:ee9230
-Angus: KASETCR, HECK0VJK0 N3 HNX BEPHYVNCJ. #line:5e65e3
-Mae: GT0... YDNBNTEVJH0E C0BUADEHNE. #line:432c1d
-Angus: HET, B T0M N 6J1VA NDER. #line:3839b2
-Angus: KASDJ1L F0D MJ1 6J1 4NTAVN 3AUNCKN, 0CTABQNECR C UP0QV0F0. #line:4ba912
-Mae: U0CM0TP%, CM0FY VN R HALTN EWE! #line:0848bf
-Angus: R 3A6EPYCJ C%DA. MH0F0 BPEMEHN UP0QV0. #line:e9af98
+Angus: Wow. Looks like some of the whirly note things came back. #line:e59ecb
+Mae: the what? #line:199677
+Angus: uh we made these little windmill things #line:85ae37
+Angus: and each put an anonymous note in them #line:6be2d7
+Angus: attached to this little spring-controlled helicopter #line:7f45d7
+Angus: and the idea was that when the wind would pick up #line:c40262
+Angus: the windmill would wind up the helicopter #line:43e5b4
+Angus: and the note would fly away. #line:ee9230
+Angus: looks like some of them blew back. #line:5e65e3
+Mae: that's... an amazing coincidence. #line:432c1d
+Angus: oh no that was the idea. #line:3839b2
+Angus: each year we'd read notes left from the year before. #line:4ba912
+Mae: i'm gonna see if i can find any more! #line:0848bf
+Angus: i'm gonna hike up here. been a while. #line:e9af98
 <<set $can_get_scout_notes to 1>>
 <<walk Angus AngusOnPlatform>>
 <<set $scout_camp_check_done to 0>>
@@ -51,12 +51,12 @@ colorID: 4
 position: 574,-125
 ---
 <<if $can_get_scout_notes>>
-    Mae: 0DHA ECTJ! #line:27b5b8
+    Mae: Got one! #line:27b5b8
     <<set $windmill_00_done to 1>>
     <<set $windmill_messages_collected += 1>>
     <<playOneShot event:/angus_IQ/windmill_note_interact Mae>>
 <<else>>
-    Mae: XM... #line:03b851
+    Mae: Hmm... #line:03b851
 <<endif>>
 ===
 title: Windmill01
@@ -65,12 +65,12 @@ colorID: 4
 position: 796,-100
 ---
 <<if $can_get_scout_notes>>
-    Mae: 0DHA ECTJ! #line:0c4032
+    Mae: Got one! #line:0c4032
     <<set $windmill_01_done to 1>>
     <<set $windmill_messages_collected += 1>>
     <<playOneShot event:/angus_IQ/windmill_note_interact Mae>>
 <<else>>
-    Mae: XM... #line:f3caa9
+    Mae: Hmm... #line:f3caa9
 <<endif>>
 ===
 title: Windmill02
@@ -79,12 +79,12 @@ colorID: 4
 position: 1028,-132
 ---
 <<if $can_get_scout_notes>>
-    Mae: 0DHA ECTJ! #line:b1f2db
+    Mae: Got one! #line:b1f2db
     <<set $windmill_02_done to 1>>
     <<set $windmill_messages_collected += 1>>
     <<playOneShot event:/angus_IQ/windmill_note_interact Mae>>
 <<else>>
-    Mae: XM... #line:182912
+    Mae: Hmm... #line:182912
 <<endif>>
 ===
 title: Windmill03
@@ -93,12 +93,12 @@ colorID: 4
 position: 1261,-110
 ---
 <<if $can_get_scout_notes>>
-    Mae: 0DHA ECTJ! #line:50a398
+    Mae: Got one! #line:50a398
     <<set $windmill_03_done to 1>>
     <<set $windmill_messages_collected += 1>>
     <<playOneShot event:/angus_IQ/windmill_note_interact Mae>>
 <<else>>
-    Mae: XM... #line:220d37
+    Mae: Hmm... #line:220d37
 <<endif>>
 ===
 title: Check
@@ -107,15 +107,15 @@ colorID: 4
 position: 371,81
 ---
 <<if $windmill_messages_collected >= $windmills_launched>>
-    Angus: DYMA%, TJ1 C06PAVA BCE! #line:08fbb9
-    Angus: N3 TEX, 4T0 R M0FY YBNDETJ, U0 KPALHEL MEPE. #line:9f15bd
-    Angus: N Y MEHR BJ1C0KAR T04KA 0630PA. #line:9e03a6
+    Angus: I think you got 'em all! #line:08fbb9
+    Angus: from what i can spot at least. #line:9f15bd
+    Angus: and i got the high vantage point. #line:9e03a6
     [[Notes]]
 <<else>>
-    Angus: DYMA%, 3DECJ ECTJ EWE? #line:96d2b5
-    Angus: BNSY NX. #line:9408c4
-    Mae: 0, KVACC! U0NWY. #line:95d0db
-    Angus: DA-DA. #line:984767
+    Angus: I think there are some more? #line:96d2b5
+    Angus: i spotted 'em. #line:9408c4
+    Mae: Oh cool! Gonna look. #line:95d0db
+    Angus: Aye-aye. #line:984767
 <<endif>>
 ===
 title: Notes
@@ -123,73 +123,73 @@ tags:
 colorID: 4
 position: 543,379
 ---
-Mae: DABAL UP04NTAEM, DABAL UP04NTAEM! #line:ed4dee
-Mae: U0F0DN... CT0NT VN HAM? #line:a81b1e
-Mae: MJ1 0CTABNM NX CKAYTAM!!! #line:e9ffb4
-Angus: 0, BCE B U0PRDKE. #line:d33249
-Angus: 0HN BCE PABH0 HE UEPESNBYT 3NMY 3DECJ. #line:9ff929
-Mae: VADJ1, VADJ1, VADJ1, VADJ1, DABAL 3A4NTAEM 0DHY!!! #line:3dd8f8
+Mae: let's read 'em let's read 'em! #line:ed4dee
+Mae: wait- should we, though? #line:a81b1e
+Mae: we gotta leave 'em for the scouts!!! #line:e9ffb4
+Angus: oh, it's fine. #line:d33249
+Angus: any ones up here wouldn't last the winter anyway. #line:9ff929
+Mae: ok ok ok ok let's read one!!! #line:3dd8f8
 <<if $windmill_00_done>>
-    Angus: VADH0, B0T. #line:037235
-    Angus: "UPNBET. MHE HEVJ3R UNCATJ CB0EF0 NMEHN. #line:2f58a7
-    Angus: N GT0 H0PMAVJH0, BEDJ R CKAYT. #line:afc485
-    Angus: N GT0 EDNHCTBEHH0E HYSH0E MHE NMR." #line:bfd950
-    Mae: B0Y. GT0 CNVJH0. #line:64ddad
-    Angus: GT0 HE K0HEO. #line:f96a15
-    Angus: "CKAYTJ1 DAVN MHE 60VJQE, 4EM NMR #line:9af961
-    Angus: 0HN DAVN MHE 3HA4KN. 4T06J1 U0KA3ATJ M0% 3HA4NM0CTJ." #line:0f6b52
-    Mae: 60SE. #line:0a4c14
-    Angus: "R Y6J% 3A CKAYT0B." #line:0054e6
-    Angus: KAK-T0 TAK. #line:b881ee
-    Mae: BJ1 BCE 6J1VN TAKNMN? #line:5ba302
-    Angus: BP0DE T0F0. NH0FDA. HET. HABEPH0E. #line:dd9c07
+    Angus: ok here's one. #line:037235
+    Angus: "hi. i'm not supposed to write my name. #line:2f58a7
+    Angus: and that's fine, because i am a scout. #line:afc485
+    Angus: and that is the only name i need." #line:bfd950
+    Mae: wow. that's intense. #line:64ddad
+    Angus: it goes on. #line:f96a15
+    Angus: "the scouts gave me more than a name, #line:9af961
+    Angus: they gave me badges. to show my worth." #line:0f6b52
+    Mae: geez. #line:0a4c14
+    Angus: "i would kill for the scouts." #line:0054e6
+    Angus: that's it. #line:b881ee
+    Mae: were you all like this? #line:5ba302
+    Angus: kinda. sometimes. no. maybe. #line:dd9c07
 <<endif>>
 <<if $windmill_01_done>>
-    Angus: VADH0, DABAL UP04NTAEM CVEDY%WY%. #line:4aef0d
-    Mae: 4NTAAAAAAL EE! #line:3ab5ea
-    Angus: XA-XA-XA. 0, 60SE. #line:f762e9
-    Mae: 4T0? #line:00bc21
-    Angus: "R CYUEP-CYUEP FEL." #line:d6146e
-    Mae: XA-XA-XA, 0TVN4H0 #line:65ff1b
-    Mae: AHFYC, TJ1 EE HAUNCAV? #line:b75371
-    Angus: 6VNH. R M0F. #line:c39193
-    Angus: R DYMA%, M0R 3AUNCKA 6J1VA, BP0DE, 0 T0M, KAK 6J1TJ CNVJHJ1M N X0P0QNM. #line:109abd
-    Mae: N 4EPT0BCKN FELCKNM, 04EBNDH0. #line:e69879
-    Angus: R DYMA% M0E T0TAVJH0E FELCTB0 D0QV0 D0 BHNMATEVJH0F0 4NTATEVR. #line:cddf30
+    Angus: ok let's read this here. #line:4aef0d
+    Mae: reeeeeeead it! #line:3ab5ea
+    Angus: ha ha ha. oh dear. #line:f762e9
+    Mae: what? #line:00bc21
+    Angus: "i am super, super gay." #line:d6146e
+    Mae: ha ha ha niiiiiiiice #line:65ff1b
+    Mae: angus did you write this one? #line:b75371
+    Angus: geez. i could have. #line:c39193
+    Angus: i think my note was about like being strong and good. #line:109abd
+    Mae: and gay as hell, apparently. #line:e69879
+    Angus: i think my total gayness came through to the discerning reader. #line:cddf30
 <<endif>>
 <<if $windmill_02_done>>
-    Angus: VADH0, DABAL UP04NTAEM GTY. #line:e87322
-    Angus: *KXE-KXE* #line:2ff99e
-    Angus: "MHE HPABNTCR CTPEVRTJ CTPEVAMN, 0HN KPYTJ1E DVR GT0F0 #line:ae14d9
-    Angus: HA CAM0M DEVE, R DYMA%, HAM CVEDYET CTPEVRTJ CTPEVAMN BMECT0 #line:564ac9
-    Angus: 0FHECTPEVJH0F0 0PYSNR, K0FDA MJ1 B APMNN, B GT0M ECTJ TAKTNKA #line:7117f5
-    Angus: UPENMYWECTB0 B T0M, 4T0 GT0 TNX0 N DASE #line:9b10fe
-    Angus: GVEFAHTH0" #line:4e39fe
-    Mae: XAX. #line:7876c9
-    Angus: AFA. D0 MEHR HE D0QV0. #line:684f95
+    Angus: alright let's read this note. #line:e87322
+    Angus: *ahem* #line:2ff99e
+    Angus: "i like shooting arrows they are cool to shoot #line:ae14d9
+    Angus: in fact i think we should shoot arrows instead of #line:564ac9
+    Angus: guns when we're in the army it has a tactical #line:7117f5
+    Angus: advantage in that it is silent and also #line:9b10fe
+    Angus: elegant" #line:4e39fe
+    Mae: huh. #line:7876c9
+    Angus: yeah. i got nothing. #line:684f95
 <<endif>>
 <<if $windmill_03_done>>
-    Angus: VADH0, GTA D0B0VJH0 U0TPEUAHA #line:abd6a0
-    Angus: M0SET, EE HAQVA UTNOA. #line:244383
-    Mae: UP04TN UTN4J% 3AUNCKY. #line:d45fa9
-    Angus: "R YSACH0 HEC4ACTEH, N TJ1 EDNHCTBEHHJ1L, KT0 3HAET" #line:5c7bac
-    Mae: 0Y. #line:33f159
-    Angus: X0P0Q0. #line:4d152d
+    Angus: alright this one got kinda torn up #line:abd6a0
+    Angus: maybe a bird got it. #line:244383
+    Mae: READ THE BIRD NOTE. #line:d45fa9
+    Angus: "i am extremely unhappy, and you're the only person who knows." #line:5c7bac
+    Mae: oh. #line:33f159
+    Angus: ok. #line:4d152d
     <<wait 2>>
 <<endif>>
-Angus: XM. #line:1ebefc
-Mae: 4T0? #line:b5aa36
-Angus: MAV0 4T0 U0MEHRV0CJ. #line:12a1e5
-Angus: GTN 3AUNCKN M0FYT VEFK0 6J1TJ HAQNMN, 10-VETHEL DABH0CTN. #line:feafa4
-Mae: AFA. #line:9ec0d7
-Angus: ECTJ HEK0T0PAR #line:e581b7
-Angus: HEN3MEHH0CTJ #line:3b2fb2
-Angus: B V%DRX. #line:b66cbd
-Angus: HEK0T0PJ1E BEWN UP0CT0 HE UEPECTA%T 6J1TJ #line:4ae1cd
-Angus: HAMN. #line:5d917c
-Mae: XM-M-M. #line:f5eb05
-Angus: AFA. #line:a75efc
-Angus: XM-M-M. #line:13eb45
+Angus: hm. #line:1ebefc
+Mae: what? #line:b5aa36
+Angus: not much changes. #line:12a1e5
+Angus: coulda just as easily been our notes from 10 years ago. #line:feafa4
+Mae: yeah. #line:9ec0d7
+Angus: there's like a #line:e581b7
+Angus: timelessness #line:3b2fb2
+Angus: about people. #line:b66cbd
+Angus: some things just don't stop being #line:4ae1cd
+Angus: what we are. #line:5d917c
+Mae: hmmm. #line:f5eb05
+Angus: yeah. #line:a75efc
+Angus: hmmmm. #line:13eb45
 <<wait 3>>
 <<close>>
 <<irisOut 1 wait>>

@@ -26,55 +26,55 @@ position: 926,-1010
 <<walk Bea BeaBottom2>>
 <<waitForMove Bea>>
 //when you walk up to friends //
-Mae: 4T0 GT0? #line:454c50
+Mae: what is this? #line:454c50
 <<lookDirection Bea 0 1>>
-Bea: D0VSH0 6J1TJ, BEHTNVRONR NVN 4T0-T0 TNUA T0F0, #line:8a6094
-Bea: 4T06J1 QAXTEPJ1 HE 3AD0XHYVNCJ TAM BHYTPN #line:849fc9
-Bea: U0X0SE, D0B0VJH0 CTAPAR QTYKA #line:0b3a4d
+Bea: might be a vent or something #line:8a6094
+Bea: keep the miners from suffocating way back when #line:849fc9
+Bea: looks old enough at least #line:0b3a4d
 Mae: ? #line:cfd7bc
 <<lookAt Bea Mae>>
-Bea: 6P0Q%PA #line:7e9f41
+Bea: brochure #line:7e9f41
 <<lookAt Bea Gregg>>
 <<lookDirection Gregg 0 1>>
-Gregg: GL!!!! D: #line:58f56e
-Gregg: MJ1 3DECJ, BHN3Y!!!!! D: #line:1f152b
-Gregg: UP0QY, HE CUPAQNBALTE U04EMY D: #line:09d175
+Gregg: HELLO!!!! D: #line:58f56e
+Gregg: WE’RE DOWN HERE!!!!! D: #line:1f152b
+Gregg: DON’T ASK US WHY PLEASE D: #line:09d175
 <<lookAt Bea Angus>>
-Angus: M0SET, U0BE3ET, N KT0-T0 CHAPYSN 0KASETCR H04J% B VECY. #line:87c62e
+Angus: Could get lucky and someone’s out here in the woods at night. #line:87c62e
 <<lookAt Bea Mae>>
 <<lookAt Gregg Mae>>
-Mae: R... R M0FY U0UJ1TATJCR BJ16PATJCR. #line:025a75
+Mae: I... I can try to make it out #line:025a75
 <<lookAt Bea Angus>>
-Angus: HE, R, TNUA, M0FY... #line:5615c8
+Angus: no, i can like... #line:5615c8
 Bea: ... #line:eb2195
 Gregg: ... :| #line:bcf96d
-Angus: ...VADH0. TJ1 T04H0 X04EQJ U0UJ1TATJCR? #line:1e20b0
+Angus: ...ok yeah are you up for this? #line:1e20b0
 <<lookAt Bea Mae>>
-    ->DA #line:ba3c5e
-        Mae: R HE 3HA%. #line:ea55cf
-        Mae: R UPRM HA B3B0DE BCR. #line:bd23ae
-        Mae: TNUA, DEVJZNHJ1. #line:8e93b6
+    ->yeah #line:ba3c5e
+        Mae: i dunno. #line:ea55cf
+        Mae: i'm like all hyper now. #line:bd23ae
+        Mae: like dolphins. #line:8e93b6
         <<lookAt Bea Gregg>>
-        Gregg: HA B3B0DE, KAK DEVJZNHJ1? #line:1c0d74
+        Gregg: hyper like dolphins? #line:1c0d74
         <<lookAt Bea Mae>>
-        Mae: HE, TNUA, M0E TEV0 TAK0E "B0Y, R U04TN YMEPVA" #line:f32ff1
-        Mae: N TJ1 BCR HA B3B0DE, U0T0MY 4T0 BHYTPN U0VH0 DEVJZNH0B. #line:337a24
-        Bea: HY BCE, TEUEPJ R CEPJE3H0 6ECU0K0%CJ. TJ1 B H0PME, MGL? #line:ac3b71
+        Mae: no like when your body is like uh whoa i almost died #line:f32ff1
+        Mae: and you get all hyper because you're filled with dolphins. #line:337a24
+        Bea: ok i am seriously confused. are you ok, mae? #line:ac3b71
         <<lookAt Bea Angus>>
-        Angus: GHD0PZNH0B. #line:ffc818
+        Angus: Endorphins. #line:ffc818
         <<lookAt Bea Mae>>
-        Bea: A-A-A-A-A, X0P0Q0. #line:ac0b01
-        Mae: 0H0! CUACN60. GHD0PZNHJ1. #line:186e61
-        Gregg: RCH0 #line:f1f163
-        Gregg: CEDVAL GTNX DEVJZNH0B N BJ16NPAEMCR. #line:fdc2c8
-    ->HET #line:ab318b
-        Mae: H0 GT0 BCE HEBASH0. #line:63acef
-        Mae: U0T0MY 4T0 MEHJQE BCEF0 R X04Y, 4T06J1 MJ1 3DECJ CD0XVN 0T F0V0DA. #line:bcdd57
-        Gregg: 00Y, 4YBNXA #line:2e0e07
-        Bea: CUACN60, MGL, 04EHJ MNV0 C TB0EL CT0P0HJ1 #line:f7e2e9
-Mae: YZ, GT0 CAM0HADERHH0, H0 R CM0FY. #line:7673f3
-Angus: U0CM0TPNM. #line:11d0b0
-Mae: X0P0Q0. #line:5b8c4b
+        Bea: aaaaah ok. #line:ac0b01
+        Mae: There! Thank you. Those. #line:186e61
+        Gregg: ok well #line:f1f163
+        Gregg: ride those dolphins up outta here. #line:fdc2c8
+    ->no #line:ab318b
+        Mae: but that doesn't really matter. #line:63acef
+        Mae: because i'm even less up for us starving to death. #line:bcdd57
+        Gregg: aw dude. #line:2e0e07
+        Bea: thanks mae, that's very nice of you. #line:f7e2e9
+Mae: ugh. that's assuming i can even do this. #line:7673f3
+Angus: we'll watch. #line:11d0b0
+Mae: ok. #line:5b8c4b
 <<alwaysLookAt Bea Mae>>
 <<alwaysLookAt Gregg Mae>>
 <<set $death_walk to 0>>
@@ -86,15 +86,15 @@ tags:
 colorID: 5
 position: 916,-1846
 ---
-Angus: DA. 3DECJ ECTJ CBESNL B03DYX, CYUEP. #line:7746f9
-Angus: *H%X H%X* #line:909c64
-Angus: N B0DA. #line:861d9e
-Gregg: 4YBAK. GT0 HEBEP0RTH0. #line:59b533
-Bea: TJ1 M0SEQJ Y4YRTJ B0DY? #line:cae3e6
-Angus: HADE%CJ, GT0 HE PEKA #line:afb547
-Angus: UEWEPHJ1E PEKN - CMEPTEVJHJ1E V0BYQKN #line:9fe4cc
-Gregg: QAXTEPCKNE PEKN. MJ1 B QAXTE. #line:b1604d
-Angus: DA K0HE4H0. #line:4a4487
+Angus: Yep. That’s some fresh air alright. #line:7746f9
+Angus: *sniff sniff* #line:909c64
+Angus: and water. #line:861d9e
+Gregg: Dude. That’s amazing. #line:59b533
+Bea: You can smell water? #line:cae3e6
+Angus: Hopefully it’s not a river #line:afb547
+Angus: cave rivers are deathtraps #line:9fe4cc
+Gregg: Mine river. We’re in a mine. #line:b1604d
+Angus: right. #line:4a4487
 <<walk Gregg GreggEdge>>
 <<walk Angus AngusEdge>>
 <<walk Bea BeaEdge>>
@@ -104,10 +104,10 @@ tags:
 colorID: 5
 position: 913,-1569
 ---
-Angus: XM. #line:c4ca06
-Gregg: R BNSY DH0. #line:17e4c4
-Mae: HE DYMA%, 4T0 MJ1 YMPEM B B0DE U0 K0VEH0. #line:d65a8a
-Angus: DA K0HE4H0. #line:141944
+Angus: hm.  #line:c4ca06
+Gregg: i can see the bottom. #line:17e4c4
+Mae: i don't think we're gonna die in the one foot of water. #line:d65a8a
+Angus: right. #line:141944
 ===
 title: IbonFight
 tags: 
@@ -134,65 +134,65 @@ position: 930,-1310
 
 //at a point about halfway in, mae plunges underwater and into this inky blackness. It’s mostly blackness and she just floats there so this isn’t like super intensive or anything so I think we can do something simple here?//
 <<wait 4>>
-Mae: TEUEPJ R 3HA%, 4T0 TJ1 #line:f8bf61
-Mae: DYMA%, R 3HAVA D0 GT0F0 #line:9fb28a
-Mae: H0 #line:6c696e
-Mae: 3HAEQJ, #line:000050
-Mae: U0CVE T0F0, KAK T0T UAOAH 0KA3AVCR B 60VJHNOE, #line:119173
-    Mae: MH0F0 VET HA3AD, #line:265bd4
-    Mae: MHE CKA3AVN, 4T0 Y MEHR UP06VEMJ1 C FHEB0M, #line:521c5f
-    Mae: H0 GT0 HE TAK. #line:56e66f
-    Mae: R 6J1VA 3V0L N3-3A 4EF0-T0 TAK0F0... #line:d86457
-    Mae: 4EF0-T0, 4T0 R U0TEPRVA #line:0b7235
-    Mae: C TEX U0P U0UJ1TKN HE 6J1TJ 3V0L #line:23ccba
-    Mae: CDEVAVN MEHR 6E33AWNTH0L, #line:6630df
-    Mae: N R TEPRVA BCE 60VJQE N 60VJQE... #line:67040a
-    Mae: VY4QE HE CTAH0BNV0CJ #line:215263
-    Mae: R X04Y 6J1TJ 3V0L #line:a62485
-Mae: K0FDA R Y6ESAVA N3 K0VVEDSA, #line:cae8d7
-    Mae: MHE UPNCHNV0CJ GT0 B ABT06YCE, #line:d44c6d
-    Mae: A M0SET, R BNDEVA GT0 N3 0KHA #line:5e32de
-    Mae: CAMJ1L U0CVEDHNL VNCT HA DEPEBE, #line:74ada2
-    Mae: HAK0HEO CPJ1BAETCR, #line:ab28bc
-    Mae: R TAK HAUYFAHA #line:c29465
-    Mae: BCE BPEMR #line:42f565
-    Mae: N CTPAX BJ13J1BAET *60VJ* #line:1a9527
-    Mae: 4YBCTB0, KAK 6YDT0 BCE 3AK0H4NV0CJ, #line:643831
-    Mae: U0RBNV0CJ 3AD0VF0 D0 T0F0, KAK R U0UAVA C%DA #line:636e7a
-Mae: CVNQK0M D0VF0 UPRTAVACJ #line:c3afd0
-Mae: N UJ1TAVACJ N36ESATJ GT0F0. #line:6c582c
-Mae: H0 TEUEPJ R U0HRVA. #line:534b24
-Mae: GT0 HE 0CTAH0BNTCR, #line:8219d7
-Mae: U0KA R HE YMPY, #line:61f6ea
-Mae: H0 K0FDA R YMPY, #line:3afe11
-Mae: R X04Y 4YBCTB0BATJ 60VJ, #line:94263c
-Mae: K0FDA DPY3JR YE3SA%T, #line:4213d7
-Mae: K0FDA HAD0 0TUYCTNTJ, #line:ddd81f
-Mae: K0FDA BECJ GT0T F0P0D 6YDET CTEPT C KAPT, #line:050366
-Mae: R X04Y 4YBCTB0BATJ 60VJ.04EHJ CNVJH0. #line:c3fa65
-Mae: R X04Y UP0NFPJ1BATJ, #line:5073e8
-Mae: X04Y 6J1TJ U06NT0L SN3HJ%, #line:2e0db7
-Mae: X04Y HE CDABATJCR, #line:e65175
-Mae: U0KA HE CJ1FPA% B RWNK #line:50181e
-Mae: N BCE HE 3AK0H4NTCR #line:bfb451
-Mae: N 3HAEQJ 4T0? #line:04a5db
-Mae: U0KA GT0 HE CVY4NTCR, #line:9ee2a1
-Mae: R X04Y CH0BA HADERTJCR #line:852a2f
-Mae: N 4YBCTB0BATJ 60VJ. #line:6250e3
-Mae: U0T0MY 4T0 GT0 3HA4NT, 4T0 4T0-T0 NMEET CMJ1CV #line:f38454
-Mae: 3HA4NT, 4T0, U0 KPALHEL MEPE, R 4T0-T0 3HA4Y #line:63dfdb
-Mae: XE-XE-XA-XA-XE-XE-XE! #line:8e62e4
-Mae: 4T0-T0 3HA4NTJ YSE 04EHJ DASE 0ZNFEHH0 #line:f9c047
+Mae: I know what you are now #line:f8bf61
+Mae: I think I knew before #line:9fb28a
+Mae: but #line:6c696e
+Mae: you know #line:000050
+Mae: after I sent that kid to the hospital #line:119173
+    Mae: years ago #line:265bd4
+    Mae: they said I had an anger problem #line:521c5f
+    Mae: but that’s not true. #line:56e66f
+    Mae: I was angry because of something else. #line:d86457
+    Mae: something I’d lost #line:0b7235
+    Mae: trying so hard since not to be angry #line:23ccba
+    Mae: got me all defenseless #line:6630df
+    Mae: and i lost more, and more, and more... #line:67040a
+    Mae: that's not getting better #line:215263
+    Mae: i want to be angry #line:a62485
+Mae: when I ran home, from college, #line:cae8d7
+    Mae: on the bus I had this dream #line:d44c6d
+    Mae: or maybe I saw it out the window #line:5e32de
+    Mae: last leaf on the tree #line:74ada2
+    Mae: finally blown off #line:ab28bc
+    Mae: i'm so scared #line:c29465
+    Mae: all the time #line:42f565
+    Mae: and the fear *hurts* #line:1a9527
+    Mae: feeling like everything is over #line:643831
+    Mae: was over long before i got here #line:636e7a
+Mae: so long, hiding #line:c3afd0
+Mae: or trying to outrun this. #line:6c582c
+Mae: i get it. #line:534b24
+Mae: this won’t stop #line:8219d7
+Mae: until i die #line:61f6ea
+Mae: but when i die #line:3afe11
+Mae: i want it to hurt #line:94263c
+Mae: when my friends leave #line:4213d7
+Mae: when i have to let go #line:ddd81f
+Mae: when this entire town is wiped off the map #line:050366
+Mae: i want it to hurt. Bad. #line:c3fa65
+Mae: i want to lose #line:5073e8
+Mae: i want to get beaten up #line:2e0db7
+Mae: i want to hold on #line:e65175
+Mae: until I’m thrown off #line:50181e
+Mae: and everything ends #line:bfb451
+Mae: and you know what? #line:04a5db
+Mae: until that happens #line:9ee2a1
+Mae: i want to hope again #line:852a2f
+Mae: and i want it to hurt. #line:6250e3
+Mae: because that means it meant something #line:f38454
+Mae: it means i am... something, at least #line:63dfdb
+Mae: heh heh ha haheheh heh #line:8e62e4
+Mae: pretty amazing to be something, at least #line:f9c047
 Ibon: 1837582 #line:e67776
-Mae: TJ1 B KYPCE, 4T0 R TE6R HE U0HNMA%? #line:75f81a
+Mae: you know I can’t understand you, right? #line:75f81a
 Ibon: 3487234 #line:669727
-Mae: 0, 3ATKHNCJ YSE! #line:a33722
-Mae: R 3HA%, B K0HOE K0HO0B, GT0 HE CUACET MEHR, #line:2b31cd
-Mae: H0 R HE HADE%CJ HA CUACEHNE B 6YDYWEM #line:5184df
-Mae: R HADE%CJ HA CUACEHNE CEL4AC #line:b5c9fc
-Mae: TAK 4T0, ECVN C06NPAEQJCR Y6NTJ MEHR 3DECJ, #line:851d62
-Mae: CDEVAL GT0 #line:08313c
-Mae: ECVN HET... #line:9c91d6
+Mae: oh shut up already #line:a33722
+Mae: i know this won’t save me in the end #line:2b31cd
+Mae: but I don’t need it to save me forever #line:5184df
+Mae: i just need it to save me now #line:b5c9fc
+Mae: so if you’re gonna kill me right here #line:851d62
+Mae: then do it #line:08313c
+Mae: if not, #line:9c91d6
 //trigger ibon swarming animation that lasts like 2 seconds//
 //abruptly cut to black//
 <<stopAmbientSFX AmbientSFX:amb_ibon_void_underwater>>
@@ -220,24 +220,24 @@ Mae: ECVN HET... #line:9c91d6
 
 <<tell _AmbientSFX:bg2 Play1>>
 <<fadeIn 1 wait>>
-Bea: MGL! #line:4de1a3
-Gregg: U0DPYFA, TJ1 B U0PRDKE? #line:ba03a7
-Mae: BAY. #line:fed13a
-Bea: TJ1 TYT VYHATNVA KAK0E-T0 BPEMR #line:d4cc97
-Angus: X04EQJ, R U0HECY TE6R? #line:766d6d
-Mae: HET... DYMA%, R B H0PME... R UP0CT0 #line:d07423
-Mae: ...04EHJ, 04EHJ YCTAVA. #line:8fa67e
-Gregg: 0CTAH0BNCJ HA MNHYTY, ECVN TE6E HYSH0. MJ1 B 6E30UACH0CTN. #line:241d08
-Mae: AFA #line:892bea
+Bea: Mae! #line:4de1a3
+Gregg: Dude, you ok? #line:ba03a7
+Mae: whoa. #line:fed13a
+Bea: you got all sleepwalky there for a sec #line:d4cc97
+Angus: you want me to carry you? #line:766d6d
+Mae: no... I think I’m good... I’m just #line:d07423
+Mae: ...very, very tired. #line:8fa67e
+Gregg: hang here for a bit if you need to. We’re safe. #line:241d08
+Mae: uh huh. #line:892bea
 
 //others walk over to the bottom of the well//
 <<walk Angus AngusBottom>>
 <<walk Gregg GreggBottom>>
 <<walk Bea BeaBottom>>
 //as they go//
-Angus: GL! HABEPXY CBET! #line:1c4efd
-Bea: TJ1 Y4YRV EF0? #line:e22a1f
-Gregg: CTABV%, 4T0 DA. #line:7a74ee
+Angus: Hey! There’s light over here! #line:1c4efd
+Bea: Did you smell that? #line:e22a1f
+Gregg: I bet he did. #line:7a74ee
 
 <<setCanInteract Bea 0>>
 <<setCanInteract Gregg 0>>
